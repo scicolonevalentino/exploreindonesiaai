@@ -3,7 +3,9 @@ import { z } from "zod";
 
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/brevo";
 const FOUNDER_EMAIL = "scicolonevalentino@gmail.com";
-const SENDER_EMAIL = "notify@exploreindonesia.ai";
+// Verified Brevo sender (only authenticated identity on the account).
+const SENDER_EMAIL = "valentino.scicolone@gmail.com";
+const SENDER_NAME = "ExploreIndonesia.ai";
 
 const EMAIL_RE =
   /^(?!\.)(?!.*\.\.)[A-Za-z0-9._%+-]+(?<!\.)@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
@@ -94,7 +96,7 @@ export const sendContactMessage = createServerFn({ method: "POST" })
         "X-Connection-Api-Key": brevoKey,
       },
       body: JSON.stringify({
-        sender: { name: "exploreindonesia.ai", email: SENDER_EMAIL },
+        sender: { name: SENDER_NAME, email: SENDER_EMAIL },
         to: [{ email: FOUNDER_EMAIL, name: "Valentino" }],
         replyTo: { email: data.email, name: data.name },
         subject: `[contact] ${data.name}`,
