@@ -4,8 +4,16 @@ import { z } from "zod";
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/brevo";
 const BREVO_LIST_ID = 2;
 
+const EMAIL_RE =
+  /^(?!\.)(?!.*\.\.)[A-Za-z0-9._%+-]+(?<!\.)@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
+
 const InputSchema = z.object({
-  email: z.string().email().max(254),
+  email: z
+    .string()
+    .trim()
+    .min(3, "Invalid email")
+    .max(254, "Invalid email")
+    .regex(EMAIL_RE, "Invalid email"),
 });
 
 export const joinWaitlist = createServerFn({ method: "POST" })
