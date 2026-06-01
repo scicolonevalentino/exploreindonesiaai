@@ -249,11 +249,22 @@ function Inspiration() {
 
 function EmailCapture() {
   const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+  const submit = useServerFn(joinWaitlist);
 
-  const onSubmit = (e: FormEvent) => {
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (email) setSubmitted(true);
+    if (!email || status === "loading") return;
+    setStatus("loading");
+    setErrorMsg("");
+    try {
+      await submit({ data: { email } });
+      setStatus("done");
+    } catch (err) {
+      setStatus("error");
+      setErrorMsg(err instanceof Error ? err.message : "Something went wrong");
+    }
   };
 
   return (
@@ -276,21 +287,31 @@ function EmailCapture() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
-            className="flex-1 px-5 py-3.5 rounded-lg bg-white text-base outline-none focus:ring-2 focus:ring-offset-2"
+            disabled={status === "loading" || status === "done"}
+            className="flex-1 px-5 py-3.5 rounded-lg bg-white text-base outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70"
             style={{ color: "var(--navy-mid)" }}
           />
           <button
             type="submit"
-            className="px-6 py-3.5 rounded-lg font-semibold text-white text-base transition-opacity hover:opacity-90 whitespace-nowrap"
+            disabled={status === "loading" || status === "done"}
+            className="px-6 py-3.5 rounded-lg font-semibold text-white text-base transition-opacity hover:opacity-90 whitespace-nowrap disabled:opacity-70"
             style={{ backgroundColor: "var(--blue-bright)" }}
           >
-            {submitted ? "You're on the list ✓" : "Get early access →"}
+            {status === "done"
+              ? "You're on the list ✓"
+              : status === "loading"
+              ? "Adding…"
+              : "Get early access →"}
           </button>
         </form>
 
-        <p className="mt-5 text-xs text-white/55">
-          No spam. Just your bookable Indonesia plan.
-        </p>
+        {status === "error" ? (
+          <p className="mt-5 text-xs text-red-300">{errorMsg || "Couldn't sign you up. Try again."}</p>
+        ) : (
+          <p className="mt-5 text-xs text-white/55">
+            No spam. Just your bookable Indonesia plan.
+          </p>
+        )}
       </div>
     </section>
   );
