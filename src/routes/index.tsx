@@ -1,8 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Heart } from "lucide-react";
 import { joinWaitlist } from "@/lib/waitlist.functions";
+import { sendContactMessage } from "@/lib/contact.functions";
 import {
   Dialog,
   DialogContent,
@@ -387,13 +388,70 @@ function Footer() {
   const [name, setName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [msg, setMsg] = useState("");
-  const [sent, setSent] = useState(false);
+  const [website, setWebsite] = useState(""); // honeypot
+  const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+  const mountedAtRef = useRef<number>(Date.now());
+  const send = useServerFn(sendContactMessage);
 
-  const onSubmit = (e: FormEvent) => {
+  useEffect(() => {
+    if (open) mountedAtRef.current = Date.now();
+  }, [open]);
+
+  const reset = () => {
+    setName("");
+    setContactEmail("");
+    setMsg("");
+    setWebsite("");
+    setStatus("idle");
+    setErrorMsg("");
+  };
+
+  const validate = () => {
+    if (!name.trim()) return "Please enter your name.";
+    if (name.trim().length > 100) return "Name is too long.";
+    if (!validateEmail(contactEmail)) {
+      // re-use existing validator (returns null when valid)
+    }
+    const emailErr = validateEmail(contactEmail);
+    if (emailErr) return emailErr;
+    const m = msg.trim();
+    if (m.length < 10) return "Please write at least 10 characters.";
+    if (m.length > 2000) return "Message is too long.";
+    return null;
+  };
+
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    // TODO: wire to founder email once provided
-    console.log("[contact]", { name, email: contactEmail, message: msg });
-    setSent(true);
+    if (status === "loading" || status === "done") return;
+    const v = validate();
+    if (v) {
+      setStatus("error");
+      setErrorMsg(v);
+      return;
+    }
+    setStatus("loading");
+    setErrorMsg("");
+    try {
+      await send({
+        data: {
+          name: name.trim(),
+          email: contactEmail.trim(),
+          message: msg.trim(),
+          website,
+          elapsedMs: Date.now() - mountedAtRef.current,
+        },
+      });
+      setStatus("done");
+    } catch (err) {
+      setStatus("error");
+      const raw = err instanceof Error ? err.message : "";
+      setErrorMsg(
+        /too many/i.test(raw)
+          ? "Too many messages. Please try again in a minute."
+          : "Couldn't send your message. Please try again."
+      );
+    }
   };
 
   return (
@@ -406,12 +464,7 @@ function Footer() {
           open={open}
           onOpenChange={(o) => {
             setOpen(o);
-            if (!o) {
-              setSent(false);
-              setName("");
-              setContactEmail("");
-              setMsg("");
-            }
+            if (!o) reset();
           }}
         >
           <DialogTrigger asChild>
@@ -431,12 +484,36 @@ function Footer() {
               </DialogDescription>
             </DialogHeader>
 
-            {sent ? (
+            {status === "done" ? (
               <div className="py-6 text-center text-sm text-foreground">
                 Thanks for reaching out — we'll get back to you soon. 💚
               </div>
             ) : (
-              <form onSubmit={onSubmit} className="flex flex-col gap-3 pt-2">
+              <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
+                {/* Honeypot field — hidden from humans, visible to bots */}
+                <div
+                  aria-hidden="true"
+                  style={{
+                    position: "absolute",
+                    left: "-10000px",
+                    top: "auto",
+                    width: 1,
+                    height: 1,
+                    overflow: "hidden",
+                  }}
+                >
+                  <label>
+                    Website
+                    <input
+                      type="text"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={website}
+                      onChange={(e) => setWebsite(e.target.value)}
+                    />
+                  </label>
+                </div>
+
                 <input
                   type="text"
                   required
@@ -457,6 +534,7 @@ function Footer() {
                 />
                 <textarea
                   required
+                  minLength={10}
                   maxLength={2000}
                   rows={5}
                   value={msg}
@@ -464,12 +542,20 @@ function Footer() {
                   placeholder="Your message…"
                   className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none"
                 />
+
+                {status === "error" && errorMsg && (
+                  <p role="alert" className="text-xs text-red-500">
+                    {errorMsg}
+                  </p>
+                )}
+
                 <button
                   type="submit"
-                  className="mt-1 px-5 py-2.5 rounded-md font-semibold text-white text-sm transition-opacity hover:opacity-90"
+                  disabled={status === "loading"}
+                  className="mt-1 px-5 py-2.5 rounded-md font-semibold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-70"
                   style={{ backgroundColor: "var(--blue-bright)" }}
                 >
-                  Send message
+                  {status === "loading" ? "Sending…" : "Send message"}
                 </button>
               </form>
             )}
