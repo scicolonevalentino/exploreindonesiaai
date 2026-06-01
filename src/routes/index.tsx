@@ -49,7 +49,7 @@ function Hero() {
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
           style={{ color: "var(--blue-soft)" }}
         >
-          Indonesia AI Trip Planner
+          Indonesia AI Trip Planner · Bali to Raja Ampat
         </p>
 
         <h1 className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
@@ -63,7 +63,7 @@ function Hero() {
         <p className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/85 font-light">
           Paste the Indonesia itinerary you already have — from ChatGPT, a blog, or
           your notes — and we turn it into a day-by-day plan you can actually book,
-          through the world's most trusted travel companies. You approve every booking.
+          through the world's most trusted travel companies.
         </p>
       </div>
     </section>
@@ -88,7 +88,7 @@ function HowItWorks() {
       n: 3,
       title: "Review and book",
       body:
-        "See your whole trip in one place. Approve what you want, one tap at a time. Free tips and self-guided stops stay in too.",
+        "See your whole trip in one place. Approve what you want, one tap at a time.",
     },
   ];
 
@@ -129,13 +129,6 @@ function HowItWorks() {
             </div>
           ))}
         </div>
-
-        <p
-          className="text-center mt-16 text-base sm:text-lg font-semibold"
-          style={{ color: "var(--blue-bright)" }}
-        >
-          You approve every booking. Nothing is ever booked automatically.
-        </p>
       </div>
     </section>
   );
@@ -147,7 +140,7 @@ function Trust() {
     { name: "Klook", color: "#ef7a23" },
     { name: "Booking.com", color: "#1b3aa0" },
     { name: "GetYourGuide", color: "#e0533a" },
-    { name: "12Go", color: "#2f4fe0" },
+    { name: "12Go", color: "#0d9488" },
   ];
 
   return (
@@ -160,7 +153,7 @@ function Trust() {
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
           style={{ color: "var(--slate-muted)" }}
         >
-          Bookable with the world's most trusted travel companies
+          Every itinerary is built from experiences offered by the world's most trusted travel companies
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-10">
@@ -188,6 +181,72 @@ function Trust() {
   );
 }
 
+function Inspiration() {
+  const trips = [
+    { title: "Bali & Nusa Islands", days: "10 days", tag: "Beaches · Temples" },
+    { title: "Java Volcanoes", days: "7 days", tag: "Bromo · Ijen" },
+    { title: "Raja Ampat Diving", days: "12 days", tag: "Papua · Reefs" },
+    { title: "Komodo & Flores", days: "8 days", tag: "Dragons · Pink Beach" },
+  ];
+
+  return (
+    <section
+      className="w-full px-6 py-20 sm:py-28"
+      style={{ backgroundColor: "#ffffff" }}
+    >
+      <div className="mx-auto max-w-6xl">
+        <div className="text-center mb-12">
+          <p
+            className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] mb-4"
+            style={{ color: "var(--teal-link)" }}
+          >
+            Need inspiration?
+          </p>
+          <h2
+            className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight"
+            style={{ color: "var(--navy-mid)" }}
+          >
+            Browse our top selection of Indonesia trips
+          </h2>
+          <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto" style={{ color: "var(--text-dark)" }}>
+            Hand-picked routes across the archipelago — start from one, then make it yours.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {trips.map((t) => (
+            <div
+              key={t.title}
+              className="rounded-2xl border p-6 transition-colors hover:border-current"
+              style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
+            >
+              <p className="text-xs uppercase tracking-[0.2em] mb-3" style={{ color: "var(--teal-link)" }}>
+                {t.days}
+              </p>
+              <h3 className="font-serif text-xl font-semibold mb-2" style={{ color: "var(--navy-mid)" }}>
+                {t.title}
+              </h3>
+              <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
+                {t.tag}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <a
+            href="/trips"
+            className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-opacity hover:opacity-90"
+            style={{ backgroundColor: "var(--blue-bright)" }}
+          >
+            Explore all trips →
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function EmailCapture() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -204,14 +263,8 @@ function EmailCapture() {
     >
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-          Already have an Indonesia itinerary?
+          Join the early access list
         </h2>
-        <p
-          className="mt-5 text-base sm:text-lg"
-          style={{ color: "var(--blue-soft)" }}
-        >
-          Paste it in and see your bookable trip in seconds. Join the early access list.
-        </p>
 
         <form
           onSubmit={onSubmit}
@@ -249,6 +302,7 @@ function Landing() {
       <Hero />
       <HowItWorks />
       <Trust />
+      <Inspiration />
       <EmailCapture />
     </main>
   );
