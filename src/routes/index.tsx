@@ -313,7 +313,7 @@ function EmailCapture() {
     >
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-          Join the waitlist
+          Almost ready. Be the first to book your Indonesia trip with AI.
         </h2>
 
         <form
@@ -337,7 +337,7 @@ function EmailCapture() {
               }
             }}
             onBlur={() => setTouched(true)}
-            placeholder="your@email.com"
+            placeholder="Enter your best email here"
             disabled={status === "loading" || status === "done"}
             aria-invalid={showError || undefined}
             aria-describedby="email-help"
