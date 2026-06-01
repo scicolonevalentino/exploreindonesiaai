@@ -471,12 +471,6 @@ function Footer() {
   };
 
 
-  const validate = () => {
-    if (!name.trim()) return "Please enter your name.";
-    if (name.trim().length > 100) return "Name is too long.";
-    if (!validateEmail(contactEmail)) {
-      // re-use existing validator (returns null when valid)
-    }
   const nameError = (() => {
     const v = name.trim();
     if (!v) return "Please enter your name.";
