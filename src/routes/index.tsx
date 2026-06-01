@@ -477,23 +477,32 @@ function Footer() {
     if (!validateEmail(contactEmail)) {
       // re-use existing validator (returns null when valid)
     }
-    const emailErr = validateEmail(contactEmail);
-    if (emailErr) return emailErr;
+  const nameError = (() => {
+    const v = name.trim();
+    if (!v) return "Please enter your name.";
+    if (v.length > 100) return "Name is too long.";
+    return null;
+  })();
+  const emailError = validateEmail(contactEmail);
+  const msgError = (() => {
     const m = msg.trim();
     if (m.length < 10) return "Please write at least 10 characters.";
     if (m.length > 2000) return "Message is too long.";
     return null;
-  };
+  })();
+  const validate = () => nameError ?? emailError ?? msgError;
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (status === "loading" || status === "done") return;
+    setTouched({ name: true, email: true, msg: true });
     const v = validate();
     if (v) {
       setStatus("error");
       setErrorMsg(v);
       return;
     }
+
     setStatus("loading");
     setErrorMsg("");
     try {
