@@ -3,9 +3,9 @@ import { z } from "zod";
 
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/brevo";
 const FOUNDER_EMAIL = "scicolonevalentino@gmail.com";
-// Verified Brevo sender (only authenticated identity on the account).
-const SENDER_EMAIL = "valentino.scicolone@gmail.com";
-const SENDER_NAME = "ExploreIndonesia.ai";
+// Verified domain in Brevo (exploreindonesia.ai is DKIM/SPF authenticated).
+const SENDER_EMAIL = "notify@exploreindonesia.ai";
+const SENDER_NAME = "exploreindonesia.ai";
 
 const EMAIL_RE =
   /^(?!\.)(?!.*\.\.)[A-Za-z0-9._%+-]+(?<!\.)@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
