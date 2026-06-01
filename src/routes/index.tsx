@@ -534,17 +534,27 @@ function Footer() {
             </button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-md">
-            <DialogHeader>
-              <DialogTitle>Write to the founder</DialogTitle>
-              <DialogDescription>
-                Ideas, feedback, or want to support the project? Drop a note: it goes straight to the founder.
-              </DialogDescription>
-            </DialogHeader>
-
             {status === "done" ? (
-              <div className="py-6 text-center text-sm text-foreground">
-                Thanks for reaching out — we'll get back to you soon. 💚
-              </div>
+              <>
+                <DialogHeader>
+                  <DialogTitle className="sr-only">Message sent</DialogTitle>
+                  <DialogDescription className="sr-only">
+                    Your message has been received.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="py-6 text-center text-base text-foreground">
+                  Thanks for reaching out, we'll get back to you soon. 💚
+                </div>
+              </>
+            ) : (
+              <>
+                <DialogHeader>
+                  <DialogTitle>Write to the founder</DialogTitle>
+                  <DialogDescription>
+                    Ideas, feedback, or want to support the project? Drop a note: it goes straight to the founder.
+                  </DialogDescription>
+                </DialogHeader>
+
             ) : (
               <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
                 {/* Honeypot field — hidden from humans, visible to bots */}
@@ -615,6 +625,7 @@ function Footer() {
                   {status === "loading" ? "Sending…" : "Send message"}
                 </button>
               </form>
+              </>
             )}
           </DialogContent>
         </Dialog>
