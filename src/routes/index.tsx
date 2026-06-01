@@ -448,6 +448,11 @@ function Footer() {
   const [website, setWebsite] = useState(""); // honeypot
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [touched, setTouched] = useState<{ name: boolean; email: boolean; msg: boolean }>({
+    name: false,
+    email: false,
+    msg: false,
+  });
   const mountedAtRef = useRef<number>(Date.now());
   const send = useServerFn(sendContactMessage);
 
@@ -462,31 +467,36 @@ function Footer() {
     setWebsite("");
     setStatus("idle");
     setErrorMsg("");
+    setTouched({ name: false, email: false, msg: false });
   };
 
-  const validate = () => {
-    if (!name.trim()) return "Please enter your name.";
-    if (name.trim().length > 100) return "Name is too long.";
-    if (!validateEmail(contactEmail)) {
-      // re-use existing validator (returns null when valid)
-    }
-    const emailErr = validateEmail(contactEmail);
-    if (emailErr) return emailErr;
+
+  const nameError = (() => {
+    const v = name.trim();
+    if (!v) return "Please enter your name.";
+    if (v.length > 100) return "Name is too long.";
+    return null;
+  })();
+  const emailError = validateEmail(contactEmail);
+  const msgError = (() => {
     const m = msg.trim();
     if (m.length < 10) return "Please write at least 10 characters.";
     if (m.length > 2000) return "Message is too long.";
     return null;
-  };
+  })();
+  const validate = () => nameError ?? emailError ?? msgError;
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (status === "loading" || status === "done") return;
+    setTouched({ name: true, email: true, msg: true });
     const v = validate();
     if (v) {
       setStatus("error");
       setErrorMsg(v);
       return;
     }
+
     setStatus("loading");
     setErrorMsg("");
     try {
@@ -580,40 +590,73 @@ function Footer() {
                   </label>
                 </div>
 
-                <input
-                  type="text"
-                  required
-                  maxLength={100}
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="Your name"
-                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring"
-                />
-                <input
-                  type="email"
-                  required
-                  maxLength={254}
-                  value={contactEmail}
-                  onChange={(e) => setContactEmail(e.target.value)}
-                  placeholder="Your email"
-                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring"
-                />
-                <textarea
-                  required
-                  minLength={10}
-                  maxLength={2000}
-                  rows={5}
-                  value={msg}
-                  onChange={(e) => setMsg(e.target.value)}
-                  placeholder="Your message…"
-                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none"
-                />
+                <div>
+                  <input
+                    type="text"
+                    required
+                    maxLength={100}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    onBlur={() => setTouched((t) => ({ ...t, name: true }))}
+                    placeholder="Your name"
+                    aria-invalid={touched.name && !!nameError || undefined}
+                    className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
+                      touched.name && nameError ? "border-red-500 ring-1 ring-red-400" : ""
+                    }`}
+                  />
+                  {touched.name && nameError && (
+                    <p role="alert" className="mt-1 text-xs text-red-500">{nameError}</p>
+                  )}
+                </div>
 
-                {status === "error" && errorMsg && (
+                <div>
+                  <input
+                    type="email"
+                    inputMode="email"
+                    autoComplete="email"
+                    spellCheck={false}
+                    required
+                    maxLength={254}
+                    value={contactEmail}
+                    onChange={(e) => setContactEmail(e.target.value)}
+                    onBlur={() => setTouched((t) => ({ ...t, email: true }))}
+                    placeholder="Your email"
+                    aria-invalid={touched.email && !!emailError || undefined}
+                    className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
+                      touched.email && emailError ? "border-red-500 ring-1 ring-red-400" : ""
+                    }`}
+                  />
+                  {touched.email && emailError && (
+                    <p role="alert" className="mt-1 text-xs text-red-500">{emailError}</p>
+                  )}
+                </div>
+
+                <div>
+                  <textarea
+                    required
+                    minLength={10}
+                    maxLength={2000}
+                    rows={5}
+                    value={msg}
+                    onChange={(e) => setMsg(e.target.value)}
+                    onBlur={() => setTouched((t) => ({ ...t, msg: true }))}
+                    placeholder="Your message…"
+                    aria-invalid={touched.msg && !!msgError || undefined}
+                    className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none ${
+                      touched.msg && msgError ? "border-red-500 ring-1 ring-red-400" : ""
+                    }`}
+                  />
+                  {touched.msg && msgError && (
+                    <p role="alert" className="mt-1 text-xs text-red-500">{msgError}</p>
+                  )}
+                </div>
+
+                {status === "error" && errorMsg && !nameError && !emailError && !msgError && (
                   <p role="alert" className="text-xs text-red-500">
                     {errorMsg}
                   </p>
                 )}
+
 
                 <button
                   type="submit"
