@@ -29,19 +29,19 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #13203a;
+  --foreground: #0a2e2b;
 
-  --navy-deep: #0f1f54;
-  --navy-mid: #13203a;
-  --blue-bright: #2f4fe0;
-  --blue-soft: #a9c7ff;
-  --blue-ice: #7fd2ff;
-  --gold-warm: #ffd9a0;
-  --cream: #fbf8f2;
-  --teal-link: #1d93c4;
-  --slate-muted: #6a769b;
-  --border-cream: #e7dfce;
-  --text-dark: #2a2f3d;
+  --navy-deep: #062d2a;
+  --navy-mid: #0a3d3a;
+  --blue-bright: #14b8a6;
+  --blue-soft: #9be8df;
+  --blue-ice: #5eead4;
+  --gold-warm: #f2c894;
+  --cream: #f7f5ee;
+  --teal-link: #0d9488;
+  --slate-muted: #6a8985;
+  --border-cream: #dfe7e2;
+  --text-dark: #1f2d2b;
 
   --primary: var(--blue-bright);
   --primary-foreground: #ffffff;
