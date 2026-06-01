@@ -278,10 +278,16 @@ function validateEmail(raw: string): string | null {
 
 function EmailCapture() {
   const [email, setEmail] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [touched, setTouched] = useState(false);
+  const mountedAtRef = useRef<number>(Date.now());
   const submit = useServerFn(joinWaitlist);
+
+  useEffect(() => {
+    mountedAtRef.current = Date.now();
+  }, []);
 
   const liveError = touched ? validateEmail(email) : null;
   const showError = status === "error" || !!liveError;
@@ -303,17 +309,31 @@ function EmailCapture() {
     setStatus("loading");
     setErrorMsg("");
     try {
-      await submit({ data: { email: email.trim() } });
+      const result = await submit({
+        data: {
+          email: email.trim(),
+          website,
+          elapsedMs: Date.now() - mountedAtRef.current,
+        },
+      });
       setStatus("done");
+      toast.success(
+        result?.alreadySubscribed
+          ? "You're already on the list — we'll keep you posted."
+          : "You're on the list! Check your inbox soon.",
+      );
     } catch (err) {
       setStatus("error");
       const raw = err instanceof Error ? err.message : "";
-      // Map server-side zod failure to a friendly inline message
-      setErrorMsg(
-        /invalid.*email|email/i.test(raw) && raw.length < 200
-          ? "That email doesn't look right. Check for typos."
-          : "Couldn't sign you up. Please try again."
-      );
+      const friendly = /too many/i.test(raw)
+        ? "Too many attempts. Please try again in a minute."
+        : /disposable/i.test(raw)
+          ? "Please use a non-disposable email address."
+          : /invalid.*email|email/i.test(raw) && raw.length < 200
+            ? "That email doesn't look right. Check for typos."
+            : "Couldn't sign you up. Please try again.";
+      setErrorMsg(friendly);
+      toast.error(friendly);
     }
   };
 
@@ -332,6 +352,30 @@ function EmailCapture() {
           noValidate
           className="mt-8 flex flex-col sm:flex-row gap-3 max-w-xl mx-auto"
         >
+          {/* Honeypot — hidden from humans, visible to bots */}
+          <div
+            aria-hidden="true"
+            style={{
+              position: "absolute",
+              left: "-10000px",
+              top: "auto",
+              width: 1,
+              height: 1,
+              overflow: "hidden",
+            }}
+          >
+            <label>
+              Website
+              <input
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                value={website}
+                onChange={(e) => setWebsite(e.target.value)}
+              />
+            </label>
+          </div>
+
           <input
             type="email"
             inputMode="email"
@@ -366,23 +410,35 @@ function EmailCapture() {
             {status === "done"
               ? "You're on the list ✓"
               : status === "loading"
-              ? "Adding…"
-              : "Get early access →"}
+                ? "Adding…"
+                : "Get early access →"}
           </button>
         </form>
 
-        <p
-          id="email-help"
-          role={showError ? "alert" : undefined}
-          aria-live="polite"
-          className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
-        >
-          {showError ? message : "No spam. Just your bookable plan in Indonesia."}
-        </p>
+        {status === "done" ? (
+          <p
+            id="email-help"
+            role="status"
+            aria-live="polite"
+            className="mt-5 text-sm text-emerald-300"
+          >
+            🎉 Thanks! You're on the list — we'll email you as soon as early access opens.
+          </p>
+        ) : (
+          <p
+            id="email-help"
+            role={showError ? "alert" : undefined}
+            aria-live="polite"
+            className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
+          >
+            {showError ? message : "No spam. Just your bookable plan in Indonesia."}
+          </p>
+        )}
       </div>
     </section>
   );
 }
+
 
 function Footer() {
   const [open, setOpen] = useState(false);
