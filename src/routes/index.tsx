@@ -249,23 +249,60 @@ function Inspiration() {
   );
 }
 
+// Stricter than the browser's built-in: requires a TLD of 2+ letters,
+// rejects consecutive dots, leading/trailing dots, and spaces.
+const EMAIL_RE =
+  /^(?!\.)(?!.*\.\.)[A-Za-z0-9._%+-]+(?<!\.)@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
+
+function validateEmail(raw: string): string | null {
+  const value = raw.trim();
+  if (!value) return "Please enter your email address.";
+  if (value.length > 254) return "Email is too long.";
+  const [local, domain, ...rest] = value.split("@");
+  if (!local || !domain || rest.length > 0) return "Email must contain a single \u201C@\u201D.";
+  if (local.length > 64) return "The part before \u201C@\u201D is too long.";
+  if (!EMAIL_RE.test(value)) return "That email doesn't look right. Check for typos.";
+  return null;
+}
+
 function EmailCapture() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [touched, setTouched] = useState(false);
   const submit = useServerFn(joinWaitlist);
+
+  const liveError = touched ? validateEmail(email) : null;
+  const showError = status === "error" || !!liveError;
+  const message =
+    status === "error"
+      ? errorMsg || "Couldn't sign you up. Try again."
+      : liveError ?? "";
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (!email || status === "loading") return;
+    if (status === "loading" || status === "done") return;
+    setTouched(true);
+    const validationError = validateEmail(email);
+    if (validationError) {
+      setStatus("error");
+      setErrorMsg(validationError);
+      return;
+    }
     setStatus("loading");
     setErrorMsg("");
     try {
-      await submit({ data: { email } });
+      await submit({ data: { email: email.trim() } });
       setStatus("done");
     } catch (err) {
       setStatus("error");
-      setErrorMsg(err instanceof Error ? err.message : "Something went wrong");
+      const raw = err instanceof Error ? err.message : "";
+      // Map server-side zod failure to a friendly inline message
+      setErrorMsg(
+        /invalid.*email|email/i.test(raw) && raw.length < 200
+          ? "That email doesn't look right. Check for typos."
+          : "Couldn't sign you up. Please try again."
+      );
     }
   };
 
@@ -281,16 +318,32 @@ function EmailCapture() {
 
         <form
           onSubmit={onSubmit}
+          noValidate
           className="mt-8 flex flex-col sm:flex-row gap-3 max-w-xl mx-auto"
         >
           <input
             type="email"
+            inputMode="email"
+            autoComplete="email"
+            spellCheck={false}
             required
+            maxLength={254}
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              if (status === "error") {
+                setStatus("idle");
+                setErrorMsg("");
+              }
+            }}
+            onBlur={() => setTouched(true)}
             placeholder="your@email.com"
             disabled={status === "loading" || status === "done"}
-            className="flex-1 px-5 py-3.5 rounded-lg bg-white text-base outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70"
+            aria-invalid={showError || undefined}
+            aria-describedby="email-help"
+            className={`flex-1 px-5 py-3.5 rounded-lg bg-white text-base outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70 ${
+              showError ? "ring-2 ring-red-400" : ""
+            }`}
             style={{ color: "var(--navy-mid)" }}
           />
           <button
@@ -307,13 +360,14 @@ function EmailCapture() {
           </button>
         </form>
 
-        {status === "error" ? (
-          <p className="mt-5 text-xs text-red-300">{errorMsg || "Couldn't sign you up. Try again."}</p>
-        ) : (
-          <p className="mt-5 text-xs text-white/55">
-            No spam. Just your bookable Indonesia plan.
-          </p>
-        )}
+        <p
+          id="email-help"
+          role={showError ? "alert" : undefined}
+          aria-live="polite"
+          className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
+        >
+          {showError ? message : "No spam. Just your bookable Indonesia plan."}
+        </p>
       </div>
     </section>
   );
