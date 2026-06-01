@@ -1,7 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { useState, type FormEvent } from "react";
+import { Heart } from "lucide-react";
 import { joinWaitlist } from "@/lib/waitlist.functions";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -366,10 +375,112 @@ function EmailCapture() {
           aria-live="polite"
           className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
         >
-          {showError ? message : "No spam. Just your bookable Indonesia plan."}
+          {showError ? message : "No spam. Just your bookable plan in Indonesia."}
         </p>
       </div>
     </section>
+  );
+}
+
+function Footer() {
+  const [open, setOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [contactEmail, setContactEmail] = useState("");
+  const [msg, setMsg] = useState("");
+  const [sent, setSent] = useState(false);
+
+  const onSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    // TODO: wire to founder email once provided
+    console.log("[contact]", { name, email: contactEmail, message: msg });
+    setSent(true);
+  };
+
+  return (
+    <footer
+      className="w-full px-6 py-10 border-t"
+      style={{ backgroundColor: "var(--navy-mid)", borderColor: "rgba(255,255,255,0.08)" }}
+    >
+      <div className="mx-auto max-w-2xl flex flex-col items-center text-center gap-4">
+        <Dialog
+          open={open}
+          onOpenChange={(o) => {
+            setOpen(o);
+            if (!o) {
+              setSent(false);
+              setName("");
+              setContactEmail("");
+              setMsg("");
+            }
+          }}
+        >
+          <DialogTrigger asChild>
+            <button
+              type="button"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white border border-white/15 hover:bg-white/5 transition-colors"
+            >
+              <Heart className="w-4 h-4 fill-emerald-400 text-emerald-400" />
+              Support the Project — contact us
+            </button>
+          </DialogTrigger>
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle>Write to the founder</DialogTitle>
+              <DialogDescription>
+                Ideas, feedback, or want to support the project? Drop a note — it goes straight to the founder.
+              </DialogDescription>
+            </DialogHeader>
+
+            {sent ? (
+              <div className="py-6 text-center text-sm text-foreground">
+                Thanks for reaching out — we'll get back to you soon. 💚
+              </div>
+            ) : (
+              <form onSubmit={onSubmit} className="flex flex-col gap-3 pt-2">
+                <input
+                  type="text"
+                  required
+                  maxLength={100}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Your name"
+                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring"
+                />
+                <input
+                  type="email"
+                  required
+                  maxLength={254}
+                  value={contactEmail}
+                  onChange={(e) => setContactEmail(e.target.value)}
+                  placeholder="Your email"
+                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring"
+                />
+                <textarea
+                  required
+                  maxLength={2000}
+                  rows={5}
+                  value={msg}
+                  onChange={(e) => setMsg(e.target.value)}
+                  placeholder="Your message…"
+                  className="px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none"
+                />
+                <button
+                  type="submit"
+                  className="mt-1 px-5 py-2.5 rounded-md font-semibold text-white text-sm transition-opacity hover:opacity-90"
+                  style={{ backgroundColor: "var(--blue-bright)" }}
+                >
+                  Send message
+                </button>
+              </form>
+            )}
+          </DialogContent>
+        </Dialog>
+
+        <p className="text-xs text-white/50">
+          © {new Date().getFullYear()} exploreindonesia.ai
+        </p>
+      </div>
+    </footer>
   );
 }
 
@@ -381,6 +492,7 @@ function Landing() {
       <Trust />
       <Inspiration />
       <EmailCapture />
+      <Footer />
     </main>
   );
 }
