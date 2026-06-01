@@ -448,6 +448,11 @@ function Footer() {
   const [website, setWebsite] = useState(""); // honeypot
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [touched, setTouched] = useState<{ name: boolean; email: boolean; msg: boolean }>({
+    name: false,
+    email: false,
+    msg: false,
+  });
   const mountedAtRef = useRef<number>(Date.now());
   const send = useServerFn(sendContactMessage);
 
@@ -462,7 +467,9 @@ function Footer() {
     setWebsite("");
     setStatus("idle");
     setErrorMsg("");
+    setTouched({ name: false, email: false, msg: false });
   };
+
 
   const validate = () => {
     if (!name.trim()) return "Please enter your name.";
