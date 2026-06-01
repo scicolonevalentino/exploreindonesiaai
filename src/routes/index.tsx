@@ -55,7 +55,7 @@ function Hero() {
         <h1 className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
           You've planned the trip.
           <br />
-          <span className="italic font-normal text-slate-600 bg-slate-50" style={{ color: "var(--gold-warm)" }}>
+          <span className="italic font-normal bg-transparent text-lime-950" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
