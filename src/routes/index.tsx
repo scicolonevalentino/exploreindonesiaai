@@ -625,6 +625,7 @@ function Footer() {
                   {status === "loading" ? "Sending…" : "Send message"}
                 </button>
               </form>
+              </>
             )}
           </DialogContent>
         </Dialog>
