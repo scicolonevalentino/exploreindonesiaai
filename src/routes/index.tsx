@@ -555,8 +555,7 @@ function Footer() {
                   </DialogDescription>
                 </DialogHeader>
 
-            ) : (
-              <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
+                <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
                 {/* Honeypot field — hidden from humans, visible to bots */}
                 <div
                   aria-hidden="true"
