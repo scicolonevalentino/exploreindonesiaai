@@ -96,7 +96,7 @@ export const sendContactMessage = createServerFn({ method: "POST" })
         "X-Connection-Api-Key": brevoKey,
       },
       body: JSON.stringify({
-        sender: { name: "exploreindonesia.ai", email: SENDER_EMAIL },
+        sender: { name: SENDER_NAME, email: SENDER_EMAIL },
         to: [{ email: FOUNDER_EMAIL, name: "Valentino" }],
         replyTo: { email: data.email, name: data.name },
         subject: `[contact] ${data.name}`,
