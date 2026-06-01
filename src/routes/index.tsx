@@ -84,7 +84,7 @@ function HowItWorks() {
       n: 2,
       title: "We make it bookable",
       body:
-        "We match every activity to a real experience with a live price, and combine your stops into the tours operators actually sell.",
+        "We match your itinerary with vetted experiences from trusted travel platforms and local operators",
     },
     {
       n: 3,
