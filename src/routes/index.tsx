@@ -427,7 +427,7 @@ function Footer() {
             <DialogHeader>
               <DialogTitle>Write to the founder</DialogTitle>
               <DialogDescription>
-                Ideas, feedback, or want to support the project? Drop a note — it goes straight to the founder.
+                Ideas, feedback, or want to support the project? Drop a note: it goes straight to the founder.
               </DialogDescription>
             </DialogHeader>
 
