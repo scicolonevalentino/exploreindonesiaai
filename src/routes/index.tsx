@@ -61,9 +61,9 @@ function Hero() {
         </h1>
 
         <p className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/85 font-light">
-          Paste the Indonesia itinerary you already have — from ChatGPT, a blog, or
-          your notes — and we turn it into a day-by-day plan you can actually book,
-          through the world's most trusted travel companies.
+          Paste the Indonesia itinerary you already have - from ChatGPT, a blog, or
+          your notes - and we turn it into a day-by-day plan you can actually book,
+          through the world's most trusted travel organizations.
         </p>
       </div>
     </section>
