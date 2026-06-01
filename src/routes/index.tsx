@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { useState, type FormEvent } from "react";
+import { joinWaitlist } from "@/lib/waitlist.functions";
 
 export const Route = createFileRoute("/")({
   head: () => ({
