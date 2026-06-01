@@ -55,7 +55,7 @@ function Hero() {
         <h1 className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
           You've planned the trip.
           <br />
-          <span className="italic font-normal text-slate-600" style={{ color: "var(--gold-warm)" }}>
+          <span className="italic font-normal text-slate-600 bg-red-400" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
@@ -183,10 +183,10 @@ function Trust() {
 
 function Inspiration() {
   const trips = [
-    { title: "Bali & Nusa Islands", days: "10 days", tag: "Beaches · Temples" },
-    { title: "Java Volcanoes", days: "7 days", tag: "Bromo · Ijen" },
-    { title: "Raja Ampat Diving", days: "12 days", tag: "Papua · Reefs" },
-    { title: "Komodo & Flores", days: "8 days", tag: "Dragons · Pink Beach" },
+    { title: "Bali & Nusa Islands", days: "10 days", tag: "Beaches · Temples · Cliffs" },
+    { title: "Yogyakarta & Java", days: "7 days", tag: "Borobudur · Prambanan · Bromo" },
+    { title: "Raja Ampat", days: "9 DAYS", tag: "Diving · Reefs · Remote" },
+    { title: "Komodo & Flores", days: "8 days", tag: "Dragons · Reefs · Wilderness" },
   ];
 
   return (
@@ -209,7 +209,7 @@ function Inspiration() {
             Browse our top selection of Indonesia trips
           </h2>
           <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto" style={{ color: "var(--text-dark)" }}>
-            Hand-picked routes across the archipelago — start from one, then make it yours.
+            Hand-picked routes across the archipelago. Start from one, make it yours.
           </p>
         </div>
 
@@ -263,7 +263,7 @@ function EmailCapture() {
     >
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-          Join the early access list
+          Join the waitlist
         </h2>
 
         <form
