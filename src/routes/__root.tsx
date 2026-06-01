@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Explore Indonesia - AI Trip Planner" },
+      { name: "description", content: "Indonesia AI Trip Planner" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Explore Indonesia - AI Trip Planner" },
+      { property: "og:description", content: "Indonesia AI Trip Planner" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Explore Indonesia - AI Trip Planner" },
+      { name: "twitter:description", content: "Indonesia AI Trip Planner" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
     ],
     links: [
       {
