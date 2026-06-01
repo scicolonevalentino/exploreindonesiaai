@@ -76,7 +76,7 @@ function HowItWorks() {
       n: 1,
       title: "Paste your plan",
       body:
-        "Drop in the itinerary you already have. No starting over, no forms to fill — just paste and go.",
+        "Drop in the itinerary you already have. No starting over, no forms to fill, just paste and go.",
     },
     {
       n: 2,
@@ -153,7 +153,7 @@ function Trust() {
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
           style={{ color: "var(--slate-muted)" }}
         >
-          Every itinerary is built from experiences offered by the world's most trusted travel companies
+          Outstanding experiences and real-time prices. From the brands you already trust.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-10">
