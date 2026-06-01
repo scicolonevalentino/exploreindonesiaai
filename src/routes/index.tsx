@@ -51,7 +51,7 @@ function Hero() {
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
           style={{ color: "var(--blue-soft)" }}
         >
-          Indonesia AI Trip Planner
+          AI itinerary planning, powered by real experiences
         </p>
 
         <h1 className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
