@@ -313,7 +313,7 @@ function EmailCapture() {
     >
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-          Almost ready. Be the first to book your Indonesia trip with AI.
+          Almost ready. Be the first to book your AI itinerary to Indonesia.
         </h2>
 
         <form
