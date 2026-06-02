@@ -563,6 +563,8 @@ function ArticleInner() {
             </section>
           )}
 
+          <RelatedItineraries items={related} />
+
           <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
         </article>
 
