@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-06-02T18:42:21.477Z",
-  "total": 472,
-  "errors": 12,
-  "warnings": 218,
+  "checkedAt": "2026-06-02T19:06:42.742Z",
+  "total": 466,
+  "errors": 0,
+  "warnings": 224,
   "results": [
     {
       "articleId": "05fc4cd9-6413-4d14-98be-9521c0393756",
@@ -17,7 +17,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683322869-123067-1292153-699d0c3&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683322869-123067-1292153-699d0c3&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781076-123067-1292153-90cf1f5&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684781076-123067-1292153-90cf1f5&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -57,7 +57,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683323004-123067-1292154-1959e69",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781169-123067-1292154-cf027e2",
         "redirected": true
       },
       "flags": [
@@ -77,7 +77,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683323338-123067-1292155-016ab38",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781197-123067-1292155-ed17df3",
         "redirected": true
       },
       "flags": [
@@ -97,7 +97,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683322973-123067-1292156-02af892",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781659-123067-1292156-3b7ac64",
         "redirected": true
       },
       "flags": [
@@ -176,7 +176,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683322924-123067-1292153-3274f01&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683322924-123067-1292153-3274f01",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781402-123067-1292153-ee73c87&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684781402-123067-1292153-ee73c87&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -235,7 +235,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683323060-123067-1292154-2db450b",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781603-123067-1292154-6f3a67c",
         "redirected": true
       },
       "flags": [
@@ -256,7 +256,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683323483-123067-1292155-410af15",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781388-123067-1292155-f4969f1",
         "redirected": true
       },
       "flags": [
@@ -277,7 +277,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683323392-123067-1292156-13310e9",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684781485-123067-1292156-b54423c",
         "redirected": true
       },
       "flags": [
@@ -474,13 +474,13 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k23",
-      "blockKey": "k25",
+      "blockKey": "612bc7fd040b",
       "url": "https://airalo.tpx.lu/ywUnFTCe",
       "expectedPartner": "airalo",
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=T-dxxM1%3AexyZRWMXAfwMbylxUkuWgcSIuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2jJUOa1%3AfxyZRWMXAfwMbylxUkuWgfW8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -491,7 +491,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k32",
-      "blockKey": "k34",
+      "blockKey": "6fe6f5fc2b9f",
       "url": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -508,13 +508,13 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k39",
-      "blockKey": "k41",
+      "blockKey": "848dd9d453d1",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292180&k_site=https%3A%2F%2Fwww.klook.com%2Fen-AE%2Factivity%2F6655-borobudur-prambanan-temple-trip-yogyakarta%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683324045-123067-1292180-a4a954e",
+        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684782613-123067-1292180-47317a4",
         "redirected": true
       },
       "flags": [
@@ -527,7 +527,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k50",
-      "blockKey": "k52",
+      "blockKey": "e8a781a72e21",
       "url": "https://www.viator.com/tours/Yogyakarta/Private-Tour-in-Yogyakarta-Kraton-Sultan-Palace-Taman-Sari-and-Kota-Gede/d22560-8084P86?pid=P00303362&mcid=42383&medium=link&campaign=PrivateTourYogyakarta",
       "expectedPartner": "viator",
       "check": {
@@ -546,7 +546,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k61",
-      "blockKey": "k66",
+      "blockKey": "08e09b63caf9",
       "url": "https://www.viator.com/tours/Yogyakarta/Visit-Borobudur-in-Yogyakarta-by-train-to-Malang-visit-Bromo-and-Ijen-4D3N/d22560-58580P5?pid=P00303362&mcid=42383&medium=link&campaign=YogyakartaBromoIjen4dayprivatetour",
       "expectedPartner": "viator",
       "check": {
@@ -565,18 +565,17 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k64",
-      "blockKey": "k66",
-      "url": "https://www.klook.com/en-US/search/result/?query=Bromo+Ijen+overland+from+Yogyakarta",
+      "blockKey": "08e09b63caf9",
+      "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292181&k_site=https%3A%2F%2Fwww.klook.com%2Fen-AE%2Factivity%2F84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Bromo+Ijen+overland+from+Yogyakarta",
-        "redirected": false
+        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684782422-123067-1292181-1c46db5",
+        "redirected": true
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -585,7 +584,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k71",
-      "blockKey": "k73",
+      "blockKey": "26d995e36bfb",
       "url": "https://www.booking.com/searchresults.html?ss=Cemoro+Lawang%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -602,7 +601,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.affiliateLinkRef",
       "key": "k80",
-      "blockKey": "k82",
+      "blockKey": "a6b1774f330b",
       "ref": "VIATOR_BROMO_SUNRISE",
       "url": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=MountBromo",
       "expectedPartner": "viator",
@@ -623,13 +622,13 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k91",
-      "blockKey": "k93",
+      "blockKey": "17c419567a91",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292181&k_site=https%3A%2F%2Fwww.klook.com%2Fen-AE%2Factivity%2F84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta%2F%3Fspm%3DActivity.SearchSuggest_LIST%26clickId%3Df7d355299a",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683324226-123067-1292181-86a9b84",
+        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684782437-123067-1292181-d7e3d91",
         "redirected": true
       },
       "flags": [
@@ -642,7 +641,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k98",
-      "blockKey": "k100",
+      "blockKey": "0808e199ee94",
       "url": "https://www.booking.com/searchresults.html?ss=Banyuwangi%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -659,7 +658,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.affiliateLinkRef",
       "key": "k105",
-      "blockKey": "k107",
+      "blockKey": "cfae493cc38b",
       "ref": "12GO_BANYUWANGI_BALI",
       "url": "https://12go.asia/?z=16022946",
       "expectedPartner": "12go",
@@ -678,7 +677,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k114",
-      "blockKey": "k115",
+      "blockKey": "afdeee488d02",
       "url": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -695,7 +694,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k118",
-      "blockKey": "k119",
+      "blockKey": "72af72466e6f",
       "url": "https://www.booking.com/searchresults.html?ss=Cemoro+Lawang%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -712,7 +711,7 @@
       "slug": "7-days-yogyakarta-east-java",
       "source": "body.externalLink",
       "key": "k122",
-      "blockKey": "k123",
+      "blockKey": "619ef4d85335",
       "url": "https://www.booking.com/searchresults.html?ss=Banyuwangi%2C+Java",
       "expectedPartner": "booking",
       "check": {
@@ -736,7 +735,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=T6lTCH1%3AexyZRWMXAfwMbylxUkuWgcScuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2gmwp51%3AfxyZRWMXAfwMbylxUkuWgfW8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -755,7 +754,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=T6d2Dy1%3AexyZRWMXAfwMbylxUkuWgcScuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2gaznM1%3AfxyZRWMXAfwMbylxUkuWgfW8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -824,7 +823,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683324405-123067-1292153-1525417&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683324405-123067-1292153-1525417&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684783025-123067-1292153-2f1a948&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684783025-123067-1292153-2f1a948",
         "redirected": true
       },
       "flags": [
@@ -864,7 +863,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683324884-123067-1292154-beb4dbd",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684783256-123067-1292154-b1304ce",
         "redirected": true
       },
       "flags": [
@@ -884,7 +883,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683324820-123067-1292155-0950093",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684783255-123067-1292155-299db31",
         "redirected": true
       },
       "flags": [
@@ -904,7 +903,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325146-123067-1292156-e0aaa69",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684783256-123067-1292156-d852c4e",
         "redirected": true
       },
       "flags": [
@@ -943,7 +942,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Q0f0xH1%3AexyZRWMXAfwMbylxUkuWgcScuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2l-XYu1%3AfxyZRWMXAfwMbylxUkuWgfW4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -962,7 +961,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325041-123067-1292153-3dba957&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683325041-123067-1292153-3dba957&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684783657-123067-1292153-adfb1b3&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684783657-123067-1292153-adfb1b3&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -1021,7 +1020,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325406-123067-1292154-e0f8c94",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784024-123067-1292154-3364aee",
         "redirected": true
       },
       "flags": [
@@ -1042,7 +1041,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325698-123067-1292156-c45ca33",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784019-123067-1292156-270ab2c",
         "redirected": true
       },
       "flags": [
@@ -1063,7 +1062,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325401-123067-1292155-07d350a",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784036-123067-1292155-4010621",
         "redirected": true
       },
       "flags": [
@@ -1189,7 +1188,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683326055-123067-1292153-b74f5d0&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683326055-123067-1292153-b74f5d0&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784367-123067-1292153-906f7f7&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684784367-123067-1292153-906f7f7&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -1229,7 +1228,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325913-123067-1292155-91e7ffb",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784765-123067-1292155-08835cf",
         "redirected": true
       },
       "flags": [
@@ -1249,7 +1248,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325951-123067-1292156-03f2264",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784416-123067-1292156-c84c699",
         "redirected": true
       },
       "flags": [
@@ -1282,13 +1281,13 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k20",
-      "blockKey": "k23",
+      "blockKey": "01ebb7d5ec72",
       "url": "https://airalo.tpx.lu/ywUnFTCe",
       "expectedPartner": "airalo",
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Qz2S5x1%3AexyZRWMXAfwMbylxUkuWgcSYuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2EvQE11%3AfxyZRWMXAfwMbylxUkuWgfT0uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -1299,7 +1298,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.affiliateLinkRef",
       "key": "k27",
-      "blockKey": "k30",
+      "blockKey": "7da0b146a931",
       "ref": "KLOOK_BALI_AIRPORT_TRANSFER",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
       "expectedPartner": "klook",
@@ -1307,7 +1306,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683325842-123067-1292153-5d9a7db&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683325842-123067-1292153-5d9a7db&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784714-123067-1292153-1b749d5&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684784714-123067-1292153-1b749d5",
         "redirected": true
       },
       "flags": [
@@ -1320,7 +1319,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k34",
-      "blockKey": "k37",
+      "blockKey": "420dbbb4f4e9",
       "url": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1337,7 +1336,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.affiliateLinkRef",
       "key": "k43",
-      "blockKey": "k46",
+      "blockKey": "8bb3b0428f1d",
       "ref": "VIATOR_UBUD_HIGHLIGHTS",
       "url": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
       "expectedPartner": "viator",
@@ -1358,7 +1357,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.affiliateLinkRef",
       "key": "k52",
-      "blockKey": "k55",
+      "blockKey": "3c0dc7f535e8",
       "ref": "KLOOK_UBUD_COOKING_CLASS",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
       "expectedPartner": "klook",
@@ -1366,7 +1365,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683326231-123067-1292155-84c601b",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784901-123067-1292155-62a51af",
         "redirected": true
       },
       "flags": [
@@ -1379,7 +1378,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k57",
-      "blockKey": "k60",
+      "blockKey": "6ac68e21d04c",
       "url": "https://www.viator.com/tours/Ubud/BALI-VOLCANO-BATUR-SUNRISE-TREKKING/d5467-38843P29?pid=P00303362&mcid=42383&medium=link&campaign=MountBatur",
       "expectedPartner": "viator",
       "check": {
@@ -1398,7 +1397,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.affiliateLinkRef",
       "key": "k66",
-      "blockKey": "k69",
+      "blockKey": "64185f82ae56",
       "ref": "KLOOK_UBUD_CANGGU_TRANSFER",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
       "expectedPartner": "klook",
@@ -1406,7 +1405,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683326961-123067-1292156-6246186",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684784927-123067-1292156-d509abe",
         "redirected": true
       },
       "flags": [
@@ -1419,7 +1418,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k73",
-      "blockKey": "k76",
+      "blockKey": "0105fbef4473",
       "url": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1436,13 +1435,13 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k80",
-      "blockKey": "k83",
+      "blockKey": "299bef34dff2",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292186&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F137189-surfing-lesson-in-canggu-bali-by-surf-blue-waves%2F%3Fcampaignid%3D23411865964%26device%3Dc%26loc_physical_ms%3D1000013%26network%3Dx%26gad_campaignid%3D23407472633",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/137189-surfing-lesson-in-canggu-bali-by-surf-blue-waves/?aid=123067&aff_adid=1292186&campaignid=23411865964&device=c&loc_physical_ms=1000013&network=x&gad_campaignid=23407472633&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683326539-123067-1292186-df2806a",
+        "finalUrl": "https://www.klook.com/en-US/activity/137189-surfing-lesson-in-canggu-bali-by-surf-blue-waves/?aid=123067&aff_adid=1292186&campaignid=23411865964&device=c&loc_physical_ms=1000013&network=x&gad_campaignid=23407472633&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684785634-123067-1292186-8f5e0f7",
         "redirected": true
       },
       "flags": [
@@ -1455,7 +1454,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.affiliateLinkRef",
       "key": "k89",
-      "blockKey": "k92",
+      "blockKey": "f5574f9b7bd9",
       "ref": "VIATOR_ULUWATU_KECAK",
       "url": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
       "expectedPartner": "viator",
@@ -1476,7 +1475,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k94",
-      "blockKey": "k97",
+      "blockKey": "d88d7e241bd5",
       "url": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1492,28 +1491,8 @@
       "articleTitle": "7 Days in Bali for Solo Travellers: Ubud, Canggu and Uluwatu",
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
-      "key": "k101",
-      "blockKey": "k104",
-      "url": "https://www.klook.com/en-US/search/result/?query=Bali+spa+massage+treatment+Canggu+or+Ubud",
-      "expectedPartner": "klook",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Bali+spa+massage+treatment+Canggu+or+Ubud",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
-    },
-    {
-      "articleId": "28bac5f8-9b32-4528-970c-1387f166e371",
-      "articleTitle": "7 Days in Bali for Solo Travellers: Ubud, Canggu and Uluwatu",
-      "slug": "7-days-bali-solo-travellers",
-      "source": "body.externalLink",
       "key": "k110",
-      "blockKey": "k112",
+      "blockKey": "bf80024bc6a7",
       "url": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1530,7 +1509,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k114",
-      "blockKey": "k116",
+      "blockKey": "be8cc458ad8d",
       "url": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1547,7 +1526,7 @@
       "slug": "7-days-bali-solo-travellers",
       "source": "body.externalLink",
       "key": "k118",
-      "blockKey": "k120",
+      "blockKey": "85b5a4a00395",
       "url": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali",
       "expectedPartner": "booking",
       "check": {
@@ -1571,7 +1550,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Q1wzZW1%3AexyZRWMXAfwMbylxUkuWgcS8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2G4w9L1%3AfxyZRWMXAfwMbylxUkuWgfTwuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -1582,7 +1561,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.affiliateLinkRef",
       "key": "k23",
-      "blockKey": "k25",
+      "blockKey": "da5c82190c93",
       "ref": "AIRALO_INDONESIA",
       "url": "https://airalo.tpx.lu/ywUnFTCe",
       "expectedPartner": "airalo",
@@ -1590,7 +1569,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Q1pUpk1%3AexyZRWMXAfwMbylxUkuWgcS8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2DTV6S1%3AfxyZRWMXAfwMbylxUkuWgfTwuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -1601,7 +1580,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k34",
-      "blockKey": "k36",
+      "blockKey": "6b6fbcdae0bf",
       "url": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia",
       "expectedPartner": "booking",
       "check": {
@@ -1618,13 +1597,13 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k41",
-      "blockKey": "k43",
+      "blockKey": "49a41cbd4848",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292203&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F55119-full-day-speedboat-tour-komodo-labuan-bajo%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292203&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683327286-123067-1292203-27b927e",
+        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292203&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684785585-123067-1292203-4780877",
         "redirected": true
       },
       "flags": [
@@ -1637,13 +1616,13 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k54",
-      "blockKey": "k56",
+      "blockKey": "9220c0e5a50c",
       "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292204&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F89685-rangko-cave-half-day-labuan-bajo%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683326985-123067-1292204-01b00fa",
+        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684785588-123067-1292204-fe8c249",
         "redirected": true
       },
       "flags": [
@@ -1656,7 +1635,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k67",
-      "blockKey": "k69",
+      "blockKey": "af344ce700cc",
       "url": "https://www.viator.com/tours/East-Nusa-Tenggara/Pauls-Aventure-tour-Maumere-to-Labuan-Bajo-Trans-Flores-800-km-Car-7-Days/d23784-224670P3?pid=P00303362&mcid=42383&medium=link&campaign=FloresoverlandprivatedriverLabuanBajoEnde",
       "expectedPartner": "viator",
       "check": {
@@ -1675,7 +1654,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k74",
-      "blockKey": "k76",
+      "blockKey": "cb41b0f020c3",
       "url": "https://www.booking.com/searchresults.html?ss=Ruteng%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1692,7 +1671,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k83",
-      "blockKey": "k85",
+      "blockKey": "df1264367d7e",
       "url": "https://www.booking.com/searchresults.html?ss=Bajawa%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1709,7 +1688,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k100",
-      "blockKey": "k102",
+      "blockKey": "9196e315c234",
       "url": "https://www.booking.com/searchresults.html?ss=Moni%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1725,28 +1704,8 @@
       "articleTitle": "10 Days in Komodo and Flores: Labuan Bajo, Ruteng, Bajawa, Moni and Ende",
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
-      "key": "k109",
-      "blockKey": "k111",
-      "url": "https://www.klook.com/en-US/search/result/?query=Kelimutu+crater+lakes+sunrise+Moni+Flores",
-      "expectedPartner": "klook",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Kelimutu+crater+lakes+sunrise+Moni+Flores",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
-    },
-    {
-      "articleId": "45b532c0-f84e-4aca-9182-1736731c79b4",
-      "articleTitle": "10 Days in Komodo and Flores: Labuan Bajo, Ruteng, Bajawa, Moni and Ende",
-      "slug": "10-days-komodo-flores",
-      "source": "body.externalLink",
-      "key": "k120",
-      "blockKey": "k122",
+      "key": "k121",
+      "blockKey": "63550f086f38",
       "url": "https://www.booking.com/searchresults.html?ss=Ende%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1763,7 +1722,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k131",
-      "blockKey": "k132",
+      "blockKey": "6970cf72d6e4",
       "url": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia",
       "expectedPartner": "booking",
       "check": {
@@ -1780,7 +1739,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k135",
-      "blockKey": "k136",
+      "blockKey": "09d6f3c85993",
       "url": "https://www.booking.com/searchresults.html?ss=Ruteng%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1797,7 +1756,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k139",
-      "blockKey": "k140",
+      "blockKey": "d16c8bb1f414",
       "url": "https://www.booking.com/searchresults.html?ss=Bajawa%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1814,7 +1773,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k143",
-      "blockKey": "k144",
+      "blockKey": "8860fccff284",
       "url": "https://www.booking.com/searchresults.html?ss=Moni%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1831,7 +1790,7 @@
       "slug": "10-days-komodo-flores",
       "source": "body.externalLink",
       "key": "k147",
-      "blockKey": "k148",
+      "blockKey": "f76b13303832",
       "url": "https://www.booking.com/searchresults.html?ss=Ende%2C+Flores",
       "expectedPartner": "booking",
       "check": {
@@ -1855,7 +1814,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Q35RR81%3AexyZRWMXAfwMbylxUkuWgcS4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2AgQ6z1%3AfxyZRWMXAfwMbylxUkuWgfTwuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -1874,7 +1833,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QyU1-m1%3AexyZRWMXAfwMbylxUkuWgcS4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2FCx9W1%3AfxyZRWMXAfwMbylxUkuWgfTUuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -1973,46 +1932,6 @@
       "articleTitle": "15 Days in Sumatra: Bukit Lawang, Berastagi, Lake Toba and Samosir Island",
       "slug": "15-days-sumatra",
       "source": "body.externalLink",
-      "key": "2c120e76-7a6",
-      "blockKey": "9ee58f51a9f6",
-      "url": "https://www.viator.com/search/?text=Mount+Sibayak+sunrise+hike+Berastagi+Sumatra",
-      "expectedPartner": "viator",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.viator.com/search/?text=Mount+Sibayak+sunrise+hike+Berastagi+Sumatra",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
-    },
-    {
-      "articleId": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
-      "articleTitle": "15 Days in Sumatra: Bukit Lawang, Berastagi, Lake Toba and Samosir Island",
-      "slug": "15-days-sumatra",
-      "source": "body.externalLink",
-      "key": "403a59e5-738",
-      "blockKey": "ae4eb44a4b33",
-      "url": "https://www.klook.com/en-US/search/?query=Berastagi+highlands+Sipiso-Piso+waterfall+tour+day",
-      "expectedPartner": "klook",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/?query=Berastagi+highlands+Sipiso-Piso+waterfall+tour+day",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
-    },
-    {
-      "articleId": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
-      "articleTitle": "15 Days in Sumatra: Bukit Lawang, Berastagi, Lake Toba and Samosir Island",
-      "slug": "15-days-sumatra",
-      "source": "body.externalLink",
       "key": "e768aaab-bb0",
       "blockKey": "a81f9c634991",
       "url": "https://www.booking.com/searchresults.html?ss=Lake+Toba%2C+Indonesia",
@@ -2024,26 +1943,6 @@
         "redirected": false
       },
       "flags": []
-    },
-    {
-      "articleId": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
-      "articleTitle": "15 Days in Sumatra: Bukit Lawang, Berastagi, Lake Toba and Samosir Island",
-      "slug": "15-days-sumatra",
-      "source": "body.externalLink",
-      "key": "607c65f2-8ae",
-      "blockKey": "078337fb3576",
-      "url": "https://www.viator.com/search/?text=Lake+Toba+Samosir+Island+Batak+cultural+tour+day+trip",
-      "expectedPartner": "viator",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.viator.com/search/?text=Lake+Toba+Samosir+Island+Batak+cultural+tour+day+trip",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
     },
     {
       "articleId": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
@@ -2160,7 +2059,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QUny-d1%3AexyZRWMXAfwMbylxUkuWgcS4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2HxXvB1%3AfxyZRWMXAfwMbylxUkuWgfTUuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -2179,7 +2078,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QUFSqW1%3AexyZRWMXAfwMbylxUkuWgcS4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2H30pW1%3AfxyZRWMXAfwMbylxUkuWgfTUuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -2253,26 +2152,6 @@
         "redirected": false
       },
       "flags": []
-    },
-    {
-      "articleId": "5ecb315e-5725-4684-a9c4-6d64d16b55b2",
-      "articleTitle": "20 Days in Wild Indonesia: Kalimantan, Sulawesi and Raja Ampat",
-      "slug": "20-days-wild-indonesia",
-      "source": "body.externalLink",
-      "key": "c0ce1487-ae1",
-      "blockKey": "cca4e112eb3d",
-      "url": "https://www.viator.com/search/?text=Tana+Toraja+cultural+tour+from+Makassar+multi-day",
-      "expectedPartner": "viator",
-      "check": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.viator.com/search/?text=Tana+Toraja+cultural+tour+from+Makassar+multi-day",
-        "redirected": false
-      },
-      "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
-      ]
     },
     {
       "articleId": "5ecb315e-5725-4684-a9c4-6d64d16b55b2",
@@ -2389,7 +2268,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683328208-123067-1292173-6b73e85&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683328208-123067-1292173-6b73e85",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684786985-123067-1292173-248b0b1&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684786985-123067-1292173-248b0b1&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -2429,7 +2308,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292174&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683328442-123067-1292174-7eb6120",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292174&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684787159-123067-1292174-0308208",
         "redirected": true
       },
       "flags": [
@@ -2449,7 +2328,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292175&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683328396-123067-1292175-fdebc18",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292175&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684787189-123067-1292175-02cf1fc",
         "redirected": true
       },
       "flags": [
@@ -2469,7 +2348,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292176&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683328784-123067-1292176-ab535a3",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292176&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684787170-123067-1292176-1610f51",
         "redirected": true
       },
       "flags": [
@@ -2527,7 +2406,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QRoyu91%3AexyZRWMXAfwMbylxUkuWgZ00uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2sP0Fw1%3AfxyZRWMXAfwMbylxUkuWgfTQuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -2564,7 +2443,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QRdU6x1%3AexyZRWMXAfwMbylxUkuWgZ00uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2sYwrl1%3AfxyZRWMXAfwMbylxUkuWgfTQuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -2583,7 +2462,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683328673-123067-1292173-ec1a01e&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683328673-123067-1292173-ec1a01e",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684787730-123067-1292173-32130b5&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684787730-123067-1292173-32130b5&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -2642,7 +2521,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292174&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329027-123067-1292174-d0ebf57",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292174&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684787937-123067-1292174-a144733",
         "redirected": true
       },
       "flags": [
@@ -2663,7 +2542,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292175&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329109-123067-1292175-6491140",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292175&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788003-123067-1292175-7a32b1a",
         "redirected": true
       },
       "flags": [
@@ -2684,7 +2563,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292176&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329152-123067-1292176-c7512b3",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292176&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788083-123067-1292176-8a7bd3e",
         "redirected": true
       },
       "flags": [
@@ -2775,7 +2654,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329576-123067-1292208-5a1dade",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788478-123067-1292208-2d2b487",
         "redirected": true
       },
       "flags": [
@@ -2916,7 +2795,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QQs02%3A1%3AexyZRWMXAfwMbylxUkuWgZ0wuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2uJ0Sx1%3AfxyZRWMXAfwMbylxUkuWgfTkuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -2974,7 +2853,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329777-123067-1292155-c536696",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788969-123067-1292155-cbcd69b",
         "redirected": true
       },
       "flags": [
@@ -2994,7 +2873,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329695-123067-1292153-d369935&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683329695-123067-1292153-d369935&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788734-123067-1292153-dee1453&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684788734-123067-1292153-dee1453",
         "redirected": true
       },
       "flags": [
@@ -3014,7 +2893,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329824-123067-1292154-1b0c33a",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788873-123067-1292154-cce70ba",
         "redirected": true
       },
       "flags": [
@@ -3034,7 +2913,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683329838-123067-1292156-66f9ae6",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684788870-123067-1292156-e94fb0f",
         "redirected": true
       },
       "flags": [
@@ -3188,7 +3067,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330290-123067-1292198-a72bb27",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684789947-123067-1292198-6d1aabf",
         "redirected": true
       },
       "flags": [
@@ -3228,7 +3107,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330395-123067-1292210-29ffafa",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684789706-123067-1292210-505fa31",
         "redirected": true
       },
       "flags": [
@@ -3248,7 +3127,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330581-123067-1292208-f959191",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684789743-123067-1292208-fffbe4a",
         "redirected": true
       },
       "flags": [
@@ -3269,7 +3148,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QV4Xau1%3AexyZRWMXAfwMbylxUkuWgZ0UuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2txXu11%3AfxyZRWMXAfwMbylxUkuWgfTguReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -3288,7 +3167,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330476-123067-1292153-cc02b5f&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683330476-123067-1292153-cc02b5f",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684789697-123067-1292153-2755cbf&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684789697-123067-1292153-2755cbf&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -3347,7 +3226,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330648-123067-1292154-bd85588",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684790010-123067-1292154-1ba7afe",
         "redirected": true
       },
       "flags": [
@@ -3368,7 +3247,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683330742-123067-1292155-4033cde",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684790096-123067-1292155-1ff7cc0",
         "redirected": true
       },
       "flags": [
@@ -3429,7 +3308,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683331090-123067-1292156-f4d030e",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684790821-123067-1292156-45f4762",
         "redirected": true
       },
       "flags": [
@@ -3638,7 +3517,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683331410-123067-1292198-bb0a3f0",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684790790-123067-1292198-3ccaacd",
         "redirected": true
       },
       "flags": [
@@ -3680,7 +3559,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683331412-123067-1292210-062c84e",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684790823-123067-1292210-8ba4d2a",
         "redirected": true
       },
       "flags": [
@@ -3718,7 +3597,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683331783-123067-1292208-4e12e45",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684791127-123067-1292208-d0904cb",
         "redirected": true
       },
       "flags": [
@@ -4080,7 +3959,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683331926-123067-1292173-f328296&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683331926-123067-1292173-f328296",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684791437-123067-1292173-571fb64&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684791437-123067-1292173-571fb64&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -4177,7 +4056,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QhPWwq1%3AexyZRWMXAfwMbylxUkuWgZ0QuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2Oxx-y1%3AfxyZRWMXAfwMbylxUkuWgfTAuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -4196,7 +4075,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683332068-123067-1292173-67c3313&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683332068-123067-1292173-67c3313",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292173&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684791612-123067-1292173-0fa2a04&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292173%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684791612-123067-1292173-0fa2a04",
         "redirected": true
       },
       "flags": [
@@ -4270,7 +4149,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683332204-123067-1292180-e3aa27c",
+        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792095-123067-1292180-2bf4945",
         "redirected": true
       },
       "flags": [
@@ -4308,7 +4187,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683332291-123067-1292181-0cd7f04",
+        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684791807-123067-1292181-7e93bcd",
         "redirected": true
       },
       "flags": [
@@ -4413,17 +4292,16 @@
       "source": "body.externalLink",
       "key": "me",
       "blockKey": "b16",
-      "url": "https://www.klook.com/en-US/search/?keyword=Komodo%20National%20Park%20full%20day%20speedboat%20Labuan%20Bajo",
+      "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292206&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F55119-full-day-speedboat-tour-komodo-labuan-bajo%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/?keyword=Komodo%20National%20Park%20full%20day%20speedboat%20Labuan%20Bajo",
-        "redirected": false
+        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792189-123067-1292206-6847f34",
+        "redirected": true
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -4433,17 +4311,16 @@
       "source": "body.externalLink",
       "key": "mf",
       "blockKey": "b18",
-      "url": "https://www.klook.com/en-US/search/?keyword=Rangko%20Cave%20Labuan%20Bajo%20half%20day",
+      "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292204&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F89685-rangko-cave-half-day-labuan-bajo%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/?keyword=Rangko%20Cave%20Labuan%20Bajo%20half%20day",
-        "redirected": false
+        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792152-123067-1292204-b01c021",
+        "redirected": true
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -4599,7 +4476,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683332817-123067-1292153-513770c&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683332817-123067-1292153-513770c&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792582-123067-1292153-5298e75&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684792582-123067-1292153-5298e75&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -4639,7 +4516,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292200&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333055-123067-1292200-663b390",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292200&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792756-123067-1292200-f35815a",
         "redirected": true
       },
       "flags": [
@@ -4678,7 +4555,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Qj9yST1%3AexyZRWMXAfwMbylxUkuWgZ0kuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2IgWYA1%3AfxyZRWMXAfwMbylxUkuWgfTsuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -4697,7 +4574,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683332973-123067-1292153-9d6b771&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683332973-123067-1292153-9d6b771&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684792837-123067-1292153-7450992&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684792837-123067-1292153-7450992&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -4809,7 +4686,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333193-123067-1292198-46ae463",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684793035-123067-1292198-06f36a3",
         "redirected": true
       },
       "flags": [
@@ -4847,7 +4724,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333172-123067-1292210-a1b1727",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684793030-123067-1292210-e6e5ed6",
         "redirected": true
       },
       "flags": [
@@ -4883,7 +4760,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333236-123067-1292208-c2a758a",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684793099-123067-1292208-6299022",
         "redirected": true
       },
       "flags": [
@@ -5024,7 +4901,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Qnw1Eo1%3AexyZRWMXAfwMbylxUkuWgZ0guReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2PHw-v1%3AfxyZRWMXAfwMbylxUkuWgfTouReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -5043,7 +4920,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QnRxwl1%3AexyZRWMXAfwMbylxUkuWgZ0guReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2PIUx%3A1%3AfxyZRWMXAfwMbylxUkuWgfTouReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -5077,7 +4954,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333811-123067-1292206-8458ecf",
+        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684793689-123067-1292206-e84ca5b",
         "redirected": true
       },
       "flags": [
@@ -5096,7 +4973,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683333813-123067-1292204-da949af",
+        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684793778-123067-1292204-58a5089",
         "redirected": true
       },
       "flags": [
@@ -5248,7 +5125,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334062-123067-1292198-46a16d3",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794057-123067-1292198-fb44d2b",
         "redirected": true
       },
       "flags": [
@@ -5288,7 +5165,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334157-123067-1292210-1d22935",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794094-123067-1292210-5a39c2e",
         "redirected": true
       },
       "flags": [
@@ -5308,7 +5185,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334191-123067-1292208-fd54f03",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794193-123067-1292208-8e4f9e6",
         "redirected": true
       },
       "flags": [
@@ -5327,7 +5204,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QncXh51%3AexyZRWMXAfwMbylxUkuWgZ0guReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2cTRx41%3AfxyZRWMXAfwMbylxUkuWgfTMuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -5534,7 +5411,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334816-123067-1292198-b3c243d",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794861-123067-1292198-6f6616a",
         "redirected": true
       },
       "flags": [
@@ -5555,7 +5432,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334988-123067-1292210-18c6e2d",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794860-123067-1292210-41ec516",
         "redirected": true
       },
       "flags": [
@@ -5593,7 +5470,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683334857-123067-1292208-b0d70b8",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684794890-123067-1292208-a31336a",
         "redirected": true
       },
       "flags": [
@@ -5842,7 +5719,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335220-123067-1292155-58a4654",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795428-123067-1292155-c848036",
         "redirected": true
       },
       "flags": [
@@ -5862,7 +5739,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335117-123067-1292153-e0e1b57&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683335117-123067-1292153-e0e1b57&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795307-123067-1292153-d2c38a8&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684795307-123067-1292153-d2c38a8&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -5882,7 +5759,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335221-123067-1292154-a99d27e",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795447-123067-1292154-286fdc1",
         "redirected": true
       },
       "flags": [
@@ -5998,7 +5875,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335555-123067-1292198-2af1627",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795682-123067-1292198-bd3455a",
         "redirected": true
       },
       "flags": [
@@ -6038,7 +5915,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335580-123067-1292210-702396e",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795687-123067-1292210-7ea1ab4",
         "redirected": true
       },
       "flags": [
@@ -6058,7 +5935,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335602-123067-1292208-624beb9",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795703-123067-1292208-f9cbd8c",
         "redirected": true
       },
       "flags": [
@@ -6077,7 +5954,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QG3UkJ1%3AexyZRWMXAfwMbylxUkuWgZ0AuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2bh2vI1%3AfxyZRWMXAfwMbylxUkuWgfTIuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -6096,7 +5973,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335633-123067-1292153-38979b0&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683335633-123067-1292153-38979b0&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684795629-123067-1292153-69c9f22&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684795629-123067-1292153-69c9f22",
         "redirected": true
       },
       "flags": [
@@ -6155,7 +6032,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683335962-123067-1292154-0e2d7c5",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684796210-123067-1292154-2ae1d05",
         "redirected": true
       },
       "flags": [
@@ -6176,7 +6053,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683336000-123067-1292155-a7d088a",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684796218-123067-1292155-c87a0b9",
         "redirected": true
       },
       "flags": [
@@ -6514,7 +6391,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QAE3ki1%3AexyZRWMXAfwMbylxUkuWgZ0suReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2fg0mK1%3AfxyZRWMXAfwMbylxUkuWgfTcuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -6590,7 +6467,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683336702-123067-1292198-f6afc79",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684796910-123067-1292198-0c88f1f",
         "redirected": true
       },
       "flags": [
@@ -6630,7 +6507,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683336710-123067-1292210-14defbb",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684796913-123067-1292210-262a895",
         "redirected": true
       },
       "flags": [
@@ -6650,7 +6527,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683336781-123067-1292208-8b12ffd",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684796962-123067-1292208-f872180",
         "redirected": true
       },
       "flags": [
@@ -6671,7 +6548,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QAPzES1%3AexyZRWMXAfwMbylxUkuWgZ0suReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2fu1em1%3AfxyZRWMXAfwMbylxUkuWgfTcuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -6749,7 +6626,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683336811-123067-1292198-6fb2d77",
+        "finalUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684797155-123067-1292198-ef63254",
         "redirected": true
       },
       "flags": [
@@ -6808,7 +6685,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337335-123067-1292210-b8a6ddd",
+        "finalUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684797212-123067-1292210-f0ff9f8",
         "redirected": true
       },
       "flags": [
@@ -6846,7 +6723,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337188-123067-1292208-e26df76",
+        "finalUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684797525-123067-1292208-de3fa30",
         "redirected": true
       },
       "flags": [
@@ -6994,7 +6871,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337539-123067-1292154-068702d",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684797900-123067-1292154-a78eea3",
         "redirected": true
       },
       "flags": [
@@ -7033,7 +6910,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QHITj%3A1%3AexyZRWMXAfwMbylxUkuWgZ0ouReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=28HwVd1%3AfxyZRWMXAfwMbylxUkuWgfTYuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -7067,7 +6944,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337586-123067-1292180-289756b",
+        "finalUrl": "https://www.klook.com/en-AE/activity/6655-borobudur-prambanan-temple-trip-yogyakarta/?aid=123067&aff_adid=1292180&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684797968-123067-1292180-ca97629",
         "redirected": true
       },
       "flags": [
@@ -7124,7 +7001,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337666-123067-1292181-dc704fc",
+        "finalUrl": "https://www.klook.com/en-AE/activity/84551-3-day-mount-bromo-ijen-volcano-private-tour-yogyakarta/?aid=123067&aff_adid=1292181&spm=Activity.SearchSuggest_LIST&clickId=f7d355299a&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798065-123067-1292181-a34cf17",
         "redirected": true
       },
       "flags": [
@@ -7255,7 +7132,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683337984-123067-1292154-f3de756",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798691-123067-1292154-5203bfe",
         "redirected": true
       },
       "flags": [
@@ -7396,7 +7273,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338086-123067-1292153-a80d0e8&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683338086-123067-1292153-a80d0e8",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798439-123067-1292153-c9aca8e&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684798439-123067-1292153-c9aca8e&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -7436,7 +7313,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338229-123067-1292155-8fae706",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798921-123067-1292155-d0ced7a",
         "redirected": true
       },
       "flags": [
@@ -7456,7 +7333,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338288-123067-1292154-bf27a4f",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798726-123067-1292154-d334d56",
         "redirected": true
       },
       "flags": [
@@ -7476,7 +7353,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338306-123067-1292156-7787d5d",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798679-123067-1292156-061b9aa",
         "redirected": true
       },
       "flags": [
@@ -7553,7 +7430,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QsI3Zb1%3AexyZRWMXAfwMbylxUkuWgZ0MuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=2%3At2Dg1%3AfxyZRWMXAfwMbylxUkuWgfT8uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -7572,7 +7449,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338348-123067-1292153-9f3a680&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683338348-123067-1292153-9f3a680&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684798734-123067-1292153-3c01b12&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684798734-123067-1292153-3c01b12&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -7631,7 +7508,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338691-123067-1292155-e1028ce",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684799138-123067-1292155-1e03567",
         "redirected": true
       },
       "flags": [
@@ -7652,7 +7529,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338696-123067-1292154-ea92c62",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684799292-123067-1292154-d0bea44",
         "redirected": true
       },
       "flags": [
@@ -7673,7 +7550,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683338913-123067-1292156-912506f",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684799457-123067-1292156-c97e5f8",
         "redirected": true
       },
       "flags": [
@@ -7766,7 +7643,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339050-123067-1292206-8efde63",
+        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684799574-123067-1292206-604c0e7",
         "redirected": true
       },
       "flags": [
@@ -7780,17 +7657,16 @@
       "source": "body.externalLink",
       "key": "k107",
       "blockKey": "k109",
-      "url": "https://www.klook.com/en-US/search/result/?query=Rangko+Cave+Labuan+Bajo+half+day",
+      "url": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292204&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F89685-rangko-cave-half-day-labuan-bajo%2F",
       "expectedPartner": "klook",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Rangko+Cave+Labuan+Bajo+half+day",
-        "redirected": false
+        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800004-123067-1292204-b7e272f",
+        "redirected": true
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -7817,17 +7693,16 @@
       "source": "body.externalLink",
       "key": "k125",
       "blockKey": "k127",
-      "url": "https://www.klook.com/en-US/search/result/?query=Sumba+Weekuri+Lagoon+Mandorak+day+tour",
-      "expectedPartner": "klook",
+      "url": "https://www.viator.com/Sumba-attractions/Waikuri-Lagoon-Weekuri-Lake/d50661-a102709?pid=P00303362&mcid=42383&medium=link&campaign=SouthwestSumbadaytourWeekuriLagoonMandorak",
+      "expectedPartner": "viator",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Sumba+Weekuri+Lagoon+Mandorak+day+tour",
+        "finalUrl": "https://www.viator.com/Sumba-attractions/Waikuri-Lagoon-Weekuri-Lake/d50661-a102709?pid=P00303362&mcid=42383&medium=link&campaign=SouthwestSumbadaytourWeekuriLagoonMandorak",
         "redirected": false
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -7966,7 +7841,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339457-123067-1292153-8c6bc35&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683339457-123067-1292153-8c6bc35&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684799897-123067-1292153-6bcfaec&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684799897-123067-1292153-6bcfaec",
         "redirected": true
       },
       "flags": [
@@ -8006,7 +7881,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339598-123067-1292154-ae915af",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800054-123067-1292154-c0e36e1",
         "redirected": true
       },
       "flags": [
@@ -8026,7 +7901,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339603-123067-1292155-a8711af",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800072-123067-1292155-99d6a78",
         "redirected": true
       },
       "flags": [
@@ -8065,7 +7940,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=Qo3XYb1%3AexyZRWMXAfwMbylxUkuWgZ0IuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=29KSwH1%3AfxyZRWMXAfwMbylxUkuWgfT4uReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -8084,7 +7959,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339562-123067-1292153-0f075cf&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683339562-123067-1292153-0f075cf&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800085-123067-1292153-5a7df64&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684800085-123067-1292153-5a7df64",
         "redirected": true
       },
       "flags": [
@@ -8143,7 +8018,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339728-123067-1292154-748a1f0",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800464-123067-1292154-676a17f",
         "redirected": true
       },
       "flags": [
@@ -8164,7 +8039,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339798-123067-1292155-b043456",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800720-123067-1292155-be714d4",
         "redirected": true
       },
       "flags": [
@@ -8200,7 +8075,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683339935-123067-1292206-e1ed774",
+        "finalUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/?aid=123067&aff_adid=1292206&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800824-123067-1292206-d394a46",
         "redirected": true
       },
       "flags": [
@@ -8219,7 +8094,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340311-123067-1292204-809a4b5",
+        "finalUrl": "https://www.klook.com/activity/89685-rangko-cave-half-day-labuan-bajo/?aid=123067&aff_adid=1292204&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684800812-123067-1292204-ca0747f",
         "redirected": true
       },
       "flags": [
@@ -8250,17 +8125,16 @@
       "source": "body.externalLink",
       "key": "k105",
       "blockKey": "k107",
-      "url": "https://www.klook.com/en-US/search/result/?query=Sumba+Weekuri+Lagoon+Mandorak+day+tour",
-      "expectedPartner": "klook",
+      "url": "https://www.viator.com/Sumba-attractions/Waikuri-Lagoon-Weekuri-Lake/d50661-a102709?pid=P00303362&mcid=42383&medium=link&campaign=SouthwestSumbadaytourWeekuriLagoonMandorak",
+      "expectedPartner": "viator",
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/search/result/?query=Sumba+Weekuri+Lagoon+Mandorak+day+tour",
+        "finalUrl": "https://www.viator.com/Sumba-attractions/Waikuri-Lagoon-Weekuri-Lake/d50661-a102709?pid=P00303362&mcid=42383&medium=link&campaign=SouthwestSumbadaytourWeekuriLagoonMandorak",
         "redirected": false
       },
       "flags": [
-        "bot-shield-403",
-        "missing-affiliate-params"
+        "bot-shield-403"
       ]
     },
     {
@@ -8401,7 +8275,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340430-123067-1292153-d83ad75&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683340430-123067-1292153-d83ad75",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801061-123067-1292153-edefc36&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684801061-123067-1292153-edefc36&pid=internal",
         "redirected": true
       },
       "flags": [
@@ -8441,7 +8315,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340575-123067-1292154-f4825b5",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801238-123067-1292154-7d78d5c",
         "redirected": true
       },
       "flags": [
@@ -8461,7 +8335,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340599-123067-1292155-2f53066",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801291-123067-1292155-95ad770",
         "redirected": true
       },
       "flags": [
@@ -8481,7 +8355,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292183&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340620-123067-1292183-6892071",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292183&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801294-123067-1292183-7d780a7",
         "redirected": true
       },
       "flags": [
@@ -8558,7 +8432,7 @@
       "check": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=QvkxOk1%3AexyZRWMXAfwMbylxUkuWgZ0cuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
+        "finalUrl": "https://www.airalo.com/indonesia-esim?irclickid=zxjRvx1%3AfxyZRWMXAfwMbylxUkuWgfQwuReg340&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Travelspark%20Limited&utm_content=&utm_term=",
         "redirected": true
       },
       "flags": []
@@ -8577,7 +8451,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683340965-123067-1292153-9e66ac0&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131683340965-123067-1292153-9e66ac0&pid=internal",
+        "finalUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801470-123067-1292153-83bcdc1&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D131684801470-123067-1292153-83bcdc1",
         "redirected": true
       },
       "flags": [
@@ -8636,7 +8510,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683341034-123067-1292154-e18eaa5",
+        "finalUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801914-123067-1292154-b413325",
         "redirected": true
       },
       "flags": [
@@ -8657,7 +8531,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683341090-123067-1292155-0b1a83f",
+        "finalUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801863-123067-1292155-f462403",
         "redirected": true
       },
       "flags": [
@@ -8678,7 +8552,7 @@
       "check": {
         "ok": false,
         "status": 403,
-        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292183&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131683341220-123067-1292183-2f342ba",
+        "finalUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292183&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=131684801917-123067-1292183-cff3411",
         "redirected": true
       },
       "flags": [
