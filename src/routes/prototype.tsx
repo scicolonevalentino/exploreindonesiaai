@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 import { PartnerStrip } from "@/components/PartnerStrip";
+import { useIsMobile } from "@/hooks/use-mobile";
 import {
   Dialog,
   DialogContent,
@@ -28,8 +29,10 @@ export const Route = createFileRoute("/prototype")({
   component: PrototypePage,
 });
 
-/** Minimum non-whitespace characters required before the "Assemble" button appears. */
+/** Minimum non-whitespace characters required before the "Assemble" button becomes clickable. */
 export const MIN_PASTE_LENGTH = 40;
+/** Lower threshold on mobile to reduce friction when pasting shorter itineraries. */
+export const MIN_PASTE_LENGTH_MOBILE = 20;
 
 
 /* -------------------------------------------------------------------------- */
