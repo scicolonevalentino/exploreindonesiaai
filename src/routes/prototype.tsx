@@ -326,7 +326,7 @@ function PrototypeHelloBar() {
 /* ---- Stage 1: Input ---- */
 
 function InputStage({ onStart }: { onStart: () => void }) {
-  const [text, setText] = useState(SAMPLE_ITINERARY);
+  // The itinerary is intentionally fixed for this prototype demo.
   return (
     <div
       className="flex-1 w-full"
