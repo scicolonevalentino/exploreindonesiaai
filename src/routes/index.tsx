@@ -190,35 +190,64 @@ function Trust() {
     { name: "Booking.com", color: "#1b3aa0" },
     { name: "GetYourGuide", color: "#e0533a" },
     { name: "12Go", color: "#0d9488" },
+    { name: "Agoda", color: "#d72f7a" },
+    { name: "Hostelworld", color: "#f15a2b" },
+    { name: "Airbnb", color: "#ff5a5f" },
+    { name: "Skyscanner", color: "#0770e3" },
+    { name: "Kiwi.com", color: "#00a991" },
+    { name: "Rentalcars.com", color: "#f76707" },
+    { name: "QEEQ", color: "#2a6df4" },
+    { name: "Musement", color: "#ff5a36" },
+    { name: "Tiqets", color: "#ff5b9a" },
+    { name: "World Nomads", color: "#1a1a1a" },
+    { name: "Airalo", color: "#f76b1c" },
+    { name: "Welcome Pickups", color: "#ffcc33" },
+    { name: "Intrepid Travel", color: "#c8102e" },
   ];
+
+  // Duplicate so the marquee loops seamlessly.
+  const loop = [...partners, ...partners];
 
   return (
     <section
-      className="w-full px-6 pb-24 pt-4"
+      className="w-full pb-24 pt-4"
       style={{ backgroundColor: "var(--cream)" }}
     >
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl px-6">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
           style={{ color: "var(--slate-muted)" }}
         >
-          Outstanding experiences and real-time prices. From the brands you already trust.
+          We search across the world's most trusted travel platforms.
         </p>
+      </div>
 
-        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-10">
-          {partners.map((p) => (
+      <div
+        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll mb-10"
+        aria-label="Trusted travel partner brands"
+        style={{
+          maskImage:
+            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+          WebkitMaskImage:
+            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+        }}
+      >
+        <div className="flex gap-3 sm:gap-4 w-max animate-marquee">
+          {loop.map((p, i) => (
             <div
-              key={p.name}
-              className="bg-white rounded-xl px-5 py-3 sm:px-7 sm:py-4 border"
+              key={`${p.name}-${i}`}
+              className="bg-white rounded-xl px-5 py-3 sm:px-7 sm:py-4 border shrink-0"
               style={{ borderColor: "var(--border-cream)" }}
             >
-              <span className="font-bold text-base sm:text-lg" style={{ color: p.color }}>
+              <span className="font-bold text-base sm:text-lg whitespace-nowrap" style={{ color: p.color }}>
                 {p.name}
               </span>
             </div>
           ))}
         </div>
+      </div>
 
+      <div className="mx-auto max-w-6xl px-6">
         <p
           className="text-center text-base"
           style={{ color: "var(--text-dark)" }}
