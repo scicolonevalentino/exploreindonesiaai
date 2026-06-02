@@ -372,7 +372,7 @@ function InputStage({ onStart }: { onStart: () => void }) {
           We make it bookable.
         </p>
         <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
-          Paste the Indonesia itinerary you already have — from ChatGPT, a blog, or your notes — and
+          Paste the Indonesia itinerary you already have, from ChatGPT, a blog, or your notes, and
           we turn it into a day-by-day plan you can actually book.
         </p>
 
