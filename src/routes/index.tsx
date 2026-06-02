@@ -24,7 +24,20 @@ import { shortTitle } from "@/lib/short-title";
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
-  queryFn: () => sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY),
+  queryFn: async () => {
+    try {
+      return await sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY);
+    } catch (err) {
+      // After TanStack Query's last retry, this surfaces to the error boundary.
+      // Log here so we capture the underlying network/Sanity error details.
+      console.error("[Sanity] articles fetch failed", {
+        query: "ARTICLES_LIST_QUERY",
+        message: err instanceof Error ? err.message : String(err),
+        error: err,
+      });
+      throw err;
+    }
+  },
   // Considered fresh for 5 minutes — most home-page revisits skip the network entirely.
   staleTime: 5 * 60_000,
   // Keep in memory for an hour so back-navigation is instant.
