@@ -423,12 +423,12 @@ const STEPS = [
 ];
 
 const PROGRESS_MSGS = [
-  "Reading paste…",
-  "Grouping days…",
-  "Searching providers…",
-  "Matching prices & de-duping…",
-  "Ranking by rating…",
-  "Ready.",
+  "Reading your paste line by line…",
+  "Grouping activities into days…",
+  "Searching providers across Klook, Viator, GetYourGuide & 12Go…",
+  "Mocking bookable results — matching prices & de-duping…",
+  "Ranking by rating and proximity…",
+  "Ready — your trip is bookable.",
 ];
 
 function AssemblingStage({ onDone }: { onDone: () => void }) {
