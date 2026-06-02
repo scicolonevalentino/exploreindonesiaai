@@ -253,37 +253,56 @@ function ArticleInner() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#fff" }}>
-      <div className="relative w-full" style={{ backgroundColor: "var(--navy-deep)" }}>
+      <section
+        className="relative w-full overflow-hidden"
+        style={{
+          backgroundColor: "var(--navy-deep, #0b1f3a)",
+          backgroundImage:
+            "radial-gradient(120% 80% at 20% 0%, rgba(56,189,248,0.22), transparent 60%), radial-gradient(120% 80% at 90% 100%, rgba(45,212,168,0.18), transparent 55%)",
+        }}
+      >
         {heroImg && (
           <img
             src={heroImg}
             alt={a.heroImage?.alt ?? a.title}
-            className="w-full h-[42vh] sm:h-[55vh] object-cover opacity-80"
+            className="absolute inset-0 w-full h-full object-cover opacity-70"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70" />
-        <div className="absolute inset-0 flex flex-col justify-between p-6 sm:p-10">
+        {heroImg && (
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/80" />
+        )}
+        <div className="relative z-10 flex flex-col min-h-[60vh] sm:min-h-[72vh] p-6 sm:p-10">
           <Link to="/trips" className="text-sm text-white/80 hover:text-white">
             ← All trips
           </Link>
-          <div className="mx-auto max-w-4xl w-full text-center">
-            <p
-              className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-3 text-white/85"
-            >
+          <div className="mx-auto max-w-4xl w-full text-center my-auto py-12">
+            <p className="text-[11px] sm:text-xs font-medium uppercase tracking-[0.3em] mb-5 text-white/80">
               {labelFor(TRIP_LENGTHS, a.tripLengthBucket)}
               {a.destinationPrimary
                 ? ` · ${labelFor(DESTINATIONS, a.destinationPrimary)}`
                 : ""}
             </p>
-            <h1 className="font-serif text-white text-3xl sm:text-5xl font-semibold leading-tight">
+            <h1
+              className="font-serif text-white text-4xl sm:text-6xl font-semibold leading-[1.05] tracking-tight"
+              style={{ textShadow: "0 2px 30px rgba(0,0,0,0.35)" }}
+            >
               {a.title}
             </h1>
             {a.route && (
-              <p className="mt-4 text-white/90 text-base sm:text-lg">{a.route}</p>
+              <p className="mt-6 text-white/90 text-base sm:text-lg font-light italic">
+                {a.route}
+              </p>
             )}
+            <div
+              className="mx-auto mt-8 h-px w-16"
+              style={{
+                background:
+                  "linear-gradient(90deg, transparent, rgba(255,255,255,0.7), transparent)",
+              }}
+            />
           </div>
         </div>
-      </div>
+      </section>
 
       <article className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
         {a.intro && (
