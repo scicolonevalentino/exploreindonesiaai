@@ -14,6 +14,7 @@ import {
 import { sanityClient, urlFor } from "@/lib/sanity";
 import heroVideoDesktop from "@/assets/hero-bg-desktop.mp4.asset.json";
 import heroVideoMobile from "@/assets/hero-bg-mobile.mp4.asset.json";
+import logoLockupDark from "@/assets/logo-lockup-dark.svg.asset.json";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
@@ -77,10 +78,13 @@ export const Route = createFileRoute("/")({
 
 function Logo() {
   return (
-    <div className="font-sans text-base sm:text-lg font-bold tracking-tight">
-      <span className="text-white">exploreindonesia</span>
-      <span style={{ color: "var(--blue-ice)" }}>.ai</span>
-    </div>
+    <img
+      src={logoLockupDark.url}
+      alt="exploreindonesia.ai"
+      className="h-9 sm:h-11 w-auto"
+      width={720}
+      height={96}
+    />
   );
 }
 
