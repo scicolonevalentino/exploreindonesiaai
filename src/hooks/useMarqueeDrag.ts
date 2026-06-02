@@ -1,18 +1,33 @@
-import { useEffect, type RefObject } from "react";
+import { useEffect, useRef, useState, type RefObject } from "react";
+
+type Options = {
+  /** px to advance per arrow key press */
+  step?: number;
+  /** Called the first time the user drags, swipes, or keys through the marquee. */
+  onFirstInteract?: () => void;
+};
 
 /**
- * Adds mouse/pointer drag-to-scrub on a CSS-keyframe marquee track.
- * The track is expected to animate `transform: translateX(0 → -50%)` via the
- * `marquee` keyframe (see styles.css). Touch devices keep their native swipe
- * via the reduced-motion / coarse-pointer fallback in CSS.
+ * Adds drag-to-scrub (mouse + touch) and keyboard stepping to a CSS-keyframe
+ * marquee track. The track must animate `transform: translateX(0 → -50%)` via
+ * the `marquee` keyframe (see styles.css).
+ *
+ * The track is made focusable so screen-reader and keyboard users can step
+ * through items with ← / → / Home / End, mirroring the visual drag.
  */
-export function useMarqueeDrag(ref: RefObject<HTMLElement | null>) {
+export function useMarqueeDrag(
+  ref: RefObject<HTMLElement | null>,
+  { step = 240, onFirstInteract }: Options = {},
+) {
+  // Stable callback ref so the effect doesn't re-bind on every render.
+  const onFirstInteractRef = useRef(onFirstInteract);
+  onFirstInteractRef.current = onFirstInteract;
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     if (typeof window === "undefined") return;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
-    if (window.matchMedia?.("(hover: none) and (pointer: coarse)").matches) return;
 
     const DURATION_MS = 60_000; // must match .animate-marquee animation
     let dragging = false;
@@ -20,23 +35,47 @@ export function useMarqueeDrag(ref: RefObject<HTMLElement | null>) {
     let startOffset = 0;
     let currentOffset = 0;
     let pointerId: number | null = null;
+    let interacted = false;
+
+    const markInteracted = () => {
+      if (interacted) return;
+      interacted = true;
+      onFirstInteractRef.current?.();
+    };
 
     const readOffset = (): number => {
       const m = new DOMMatrixReadOnly(getComputedStyle(el).transform);
-      return m.m41; // translateX in px (negative as it scrolls left)
+      return m.m41;
+    };
+
+    const pause = (offset: number) => {
+      el.style.animationPlayState = "paused";
+      el.style.transform = `translateX(${offset}px)`;
+    };
+
+    const resumeFrom = (offset: number) => {
+      const halfWidth = el.scrollWidth / 2;
+      if (halfWidth <= 0) {
+        el.style.transform = "";
+        el.style.animationPlayState = "";
+        return;
+      }
+      let normalized = offset % halfWidth;
+      if (normalized > 0) normalized -= halfWidth;
+      const progress = -normalized / halfWidth;
+      el.style.transform = "";
+      el.style.animationDelay = `-${progress * DURATION_MS}ms`;
+      el.style.animationPlayState = "";
     };
 
     const onPointerDown = (e: PointerEvent) => {
-      // Left mouse / primary pointer only; ignore touch (native scroll handles it).
-      if (e.pointerType === "touch") return;
-      if (e.button !== 0) return;
+      if (e.pointerType === "mouse" && e.button !== 0) return;
       dragging = true;
       pointerId = e.pointerId;
       startX = e.clientX;
       startOffset = readOffset();
       currentOffset = startOffset;
-      el.style.animationPlayState = "paused";
-      el.style.transform = `translateX(${startOffset}px)`;
+      pause(startOffset);
       el.style.cursor = "grabbing";
       try {
         el.setPointerCapture(e.pointerId);
@@ -50,21 +89,13 @@ export function useMarqueeDrag(ref: RefObject<HTMLElement | null>) {
       const dx = e.clientX - startX;
       currentOffset = startOffset + dx;
       el.style.transform = `translateX(${currentOffset}px)`;
+      if (Math.abs(dx) > 4) markInteracted();
     };
 
     const endDrag = () => {
       if (!dragging) return;
       dragging = false;
-      // Track scrolls from 0 to -halfWidth over DURATION_MS. Normalize current
-      // offset into that range, then resume via negative animation-delay so the
-      // keyframe picks up where we left off.
-      const halfWidth = el.scrollWidth / 2;
-      let normalized = currentOffset % halfWidth;
-      if (normalized > 0) normalized -= halfWidth;
-      const progress = -normalized / halfWidth; // 0..1
-      el.style.transform = "";
-      el.style.animationDelay = `-${progress * DURATION_MS}ms`;
-      el.style.animationPlayState = "";
+      resumeFrom(currentOffset);
       el.style.cursor = "";
       if (pointerId !== null) {
         try {
@@ -77,20 +108,50 @@ export function useMarqueeDrag(ref: RefObject<HTMLElement | null>) {
     };
 
     const onClickCapture = (e: MouseEvent) => {
-      // Suppress click that follows a drag so cards don't navigate accidentally.
+      // Suppress click that follows a real drag so cards don't navigate accidentally.
       if (Math.abs(currentOffset - startOffset) > 4) {
         e.preventDefault();
         e.stopPropagation();
       }
     };
 
+    const onKeyDown = (e: KeyboardEvent) => {
+      const key = e.key;
+      if (
+        key !== "ArrowLeft" &&
+        key !== "ArrowRight" &&
+        key !== "Home" &&
+        key !== "End"
+      )
+        return;
+      // Don't hijack arrow keys when focus is on an inner control (e.g. cards
+      // have their own arrow-key sibling navigation).
+      if (e.target !== el) return;
+      e.preventDefault();
+      const halfWidth = el.scrollWidth / 2 || step;
+      const current = readOffset();
+      let next = current;
+      if (key === "ArrowRight") next = current - step;
+      if (key === "ArrowLeft") next = current + step;
+      if (key === "Home") next = 0;
+      if (key === "End") next = -(halfWidth - step);
+      currentOffset = next;
+      startOffset = current;
+      resumeFrom(next);
+      markInteracted();
+    };
+
     el.style.cursor = "grab";
+    // Allow vertical page scroll on touch while we capture horizontal drag.
     el.style.touchAction = "pan-y";
+    if (!el.hasAttribute("tabindex")) el.setAttribute("tabindex", "0");
+
     el.addEventListener("pointerdown", onPointerDown);
     el.addEventListener("pointermove", onPointerMove);
     el.addEventListener("pointerup", endDrag);
     el.addEventListener("pointercancel", endDrag);
     el.addEventListener("click", onClickCapture, true);
+    el.addEventListener("keydown", onKeyDown);
 
     return () => {
       el.removeEventListener("pointerdown", onPointerDown);
@@ -98,11 +159,41 @@ export function useMarqueeDrag(ref: RefObject<HTMLElement | null>) {
       el.removeEventListener("pointerup", endDrag);
       el.removeEventListener("pointercancel", endDrag);
       el.removeEventListener("click", onClickCapture, true);
+      el.removeEventListener("keydown", onKeyDown);
       el.style.cursor = "";
       el.style.touchAction = "";
       el.style.transform = "";
       el.style.animationDelay = "";
       el.style.animationPlayState = "";
     };
-  }, [ref]);
+  }, [ref, step]);
+}
+
+/**
+ * Tracks whether the user has already interacted with a given marquee
+ * (persisted in sessionStorage so the hint doesn't keep reappearing).
+ */
+export function useMarqueeHint(storageKey: string) {
+  const [dismissed, setDismissed] = useState(true);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const already = window.sessionStorage.getItem(storageKey) === "1";
+      setDismissed(already);
+    } catch {
+      setDismissed(false);
+    }
+  }, [storageKey]);
+
+  const dismiss = () => {
+    setDismissed(true);
+    try {
+      window.sessionStorage.setItem(storageKey, "1");
+    } catch {
+      /* ignore */
+    }
+  };
+
+  return { dismissed, dismiss };
 }
