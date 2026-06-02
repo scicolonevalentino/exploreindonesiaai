@@ -112,31 +112,32 @@ function Hero() {
         tabIndex={-1}
       />
 
-      {/* Desktop overlay: lighter gradient — footage stays visible */}
+      {/* Desktop overlay: subtle base wash for global legibility */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
         style={{
           background:
-            "linear-gradient(180deg, rgba(6,45,42,0.45) 0%, rgba(6,45,42,0.30) 45%, rgba(6,45,42,0.60) 100%)",
+            "linear-gradient(180deg, rgba(6,45,42,0.35) 0%, rgba(6,45,42,0.25) 50%, rgba(6,45,42,0.55) 100%)",
         }}
         aria-hidden="true"
       />
-      {/* Desktop vignette pulling focus to center copy without darkening too much */}
+      {/* Desktop focal scrim: darker ellipse behind the headline area so text
+          pops while the video edges stay visible and animated */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(6,45,42,0) 0%, rgba(6,45,42,0.25) 70%, rgba(6,45,42,0.55) 100%)",
+            "radial-gradient(ellipse 60% 55% at 50% 55%, rgba(6,45,42,0.65) 0%, rgba(6,45,42,0.35) 55%, rgba(6,45,42,0) 100%)",
         }}
         aria-hidden="true"
       />
 
-      {/* Mobile overlay: still meaningful contrast, but lifted so the video shows through */}
+      {/* Mobile overlay: stronger but still lets motion show through */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none md:hidden"
         style={{
           background:
-            "linear-gradient(180deg, rgba(6,45,42,0.65) 0%, rgba(6,45,42,0.50) 50%, rgba(6,45,42,0.75) 100%)",
+            "linear-gradient(180deg, rgba(6,45,42,0.60) 0%, rgba(6,45,42,0.45) 50%, rgba(6,45,42,0.70) 100%)",
         }}
         aria-hidden="true"
       />
@@ -145,7 +146,7 @@ function Hero() {
         <Logo />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center opacity-70">
+      <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
         <p
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
           style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
