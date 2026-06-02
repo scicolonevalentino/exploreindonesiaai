@@ -607,7 +607,7 @@ function InspirationMarquee() {
           className="flex gap-5 w-max animate-marquee focus:outline-none"
           role="region"
           aria-roledescription="carousel"
-          aria-label={`${articles.length} Indonesia trip itineraries. Drag, swipe, or use the left and right arrow keys to browse. Press Tab to focus individual cards.`}
+          aria-label={`${articles.length} Indonesia trip itineraries.`}
         >
           {loop.map((a, i) => (
             <InspirationCard
