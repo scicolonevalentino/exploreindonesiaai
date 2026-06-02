@@ -197,12 +197,23 @@ async function pool(items, n, fn) {
     process.stderr.write(`\r[${i + 1}/${all.length}]   `);
     const result = await check(l.url);
     const flags = [];
-    if (!result.ok) flags.push(`http-${result.status || "err"}`);
+    const finalHost = safeHost(result.finalUrl);
+    const shielded = isBotShielded(finalHost);
+    if (!result.ok) {
+      // 403 from Klook/Viator after a redirect to their canonical domain is
+      // bot-protection, not a broken link — surface as warning, not error.
+      if ((result.status === 403 || result.status === 429) && shielded) {
+        flags.push(`bot-shield-${result.status}`);
+      } else {
+        flags.push(`http-${result.status || "err"}`);
+      }
+    }
     if (result.redirected) {
       const fromHost = safeHost(l.url);
-      const toHost = safeHost(result.finalUrl);
-      if (fromHost && toHost && stripDomain(fromHost) !== stripDomain(toHost)) {
-        flags.push(`redirect-domain-change:${toHost}`);
+      if (fromHost && finalHost && stripDomain(fromHost) !== stripDomain(finalHost)) {
+        // tpx.lu → airalo.com is the expected affiliate redirect for Airalo
+        const expectedAiraloHop = stripDomain(fromHost) === "tpx.lu" && stripDomain(finalHost) === "airalo.com";
+        if (!expectedAiraloHop) flags.push(`redirect-domain-change:${finalHost}`);
       }
     }
     if (l.expectedPartner && !hasAffiliateMarker(l.url, l.expectedPartner)) {
