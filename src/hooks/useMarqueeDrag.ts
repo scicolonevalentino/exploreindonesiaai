@@ -30,7 +30,9 @@ export function useMarqueeDrag(
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
 
     const DURATION_MS = 60_000; // must match .animate-marquee animation
-    let dragging = false;
+    const DRAG_THRESHOLD = 8; // px before we treat a pointer gesture as a drag
+    let pointerDown = false;
+    let dragConfirmed = false;
     let startX = 0;
     let startOffset = 0;
     let currentOffset = 0;
@@ -70,33 +72,44 @@ export function useMarqueeDrag(
 
     const onPointerDown = (e: PointerEvent) => {
       if (e.pointerType === "mouse" && e.button !== 0) return;
-      dragging = true;
+      pointerDown = true;
+      dragConfirmed = false;
       pointerId = e.pointerId;
       startX = e.clientX;
-      startOffset = readOffset();
-      currentOffset = startOffset;
-      pause(startOffset);
-      el.style.cursor = "grabbing";
-      try {
-        el.setPointerCapture(e.pointerId);
-      } catch {
-        /* ignore */
-      }
+      // Don't pause or setPointerCapture yet — we don't know if this is a tap
+      // or a drag. Capturing here would redirect the synthesized `click` to
+      // the track and prevent inner <Link> elements from navigating.
     };
 
     const onPointerMove = (e: PointerEvent) => {
-      if (!dragging) return;
+      if (!pointerDown) return;
       const dx = e.clientX - startX;
+      if (!dragConfirmed) {
+        if (Math.abs(dx) < DRAG_THRESHOLD) return;
+        // Promote to a real drag: now it's safe to pause and capture.
+        dragConfirmed = true;
+        startOffset = readOffset();
+        currentOffset = startOffset;
+        pause(startOffset);
+        el.style.cursor = "grabbing";
+        try {
+          el.setPointerCapture(e.pointerId);
+        } catch {
+          /* ignore */
+        }
+        markInteracted();
+      }
       currentOffset = startOffset + dx;
       el.style.transform = `translateX(${currentOffset}px)`;
-      if (Math.abs(dx) > 4) markInteracted();
     };
 
     const endDrag = () => {
-      if (!dragging) return;
-      dragging = false;
-      resumeFrom(currentOffset);
-      el.style.cursor = "";
+      if (!pointerDown) return;
+      pointerDown = false;
+      if (dragConfirmed) {
+        resumeFrom(currentOffset);
+        el.style.cursor = "";
+      }
       if (pointerId !== null) {
         try {
           el.releasePointerCapture(pointerId);
@@ -108,10 +121,11 @@ export function useMarqueeDrag(
     };
 
     const onClickCapture = (e: MouseEvent) => {
-      // Suppress click that follows a real drag so cards don't navigate accidentally.
-      if (Math.abs(currentOffset - startOffset) > 4) {
+      // Only suppress the trailing click when the gesture actually became a drag.
+      if (dragConfirmed) {
         e.preventDefault();
         e.stopPropagation();
+        dragConfirmed = false;
       }
     };
 
