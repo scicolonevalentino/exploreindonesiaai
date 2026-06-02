@@ -1,9 +1,12 @@
 import { useServerFn } from "@tanstack/react-start";
+import { useQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Heart } from "lucide-react";
 import { toast } from "sonner";
 import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
+import { sanityClient } from "@/lib/sanity";
+import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 import {
   Dialog,
   DialogContent,
@@ -12,6 +15,14 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+
+function useSiteSettings() {
+  return useQuery({
+    queryKey: ["sanity", "siteSettings"],
+    queryFn: () => sanityClient.fetch<SiteSettings | null>(SITE_SETTINGS_QUERY),
+    staleTime: 5 * 60_000,
+  });
+}
 
 const EMAIL_RE =
   /^(?!\.)(?!.*\.\.)[A-Za-z0-9._%+-]+(?<!\.)@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
@@ -28,6 +39,7 @@ function validateEmail(raw: string): string | null {
 }
 
 function EmailCapture() {
+  const { data: settings } = useSiteSettings();
   const [email, setEmail] = useState("");
   const [website, setWebsite] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
@@ -94,6 +106,11 @@ function EmailCapture() {
       style={{ backgroundColor: "var(--navy-mid)" }}
     >
       <div className="mx-auto max-w-2xl text-center">
+        {settings?.tagline && (
+          <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-white/60 mb-4">
+            {settings.tagline}
+          </p>
+        )}
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
           Almost ready. Be the first to book your AI itinerary to Indonesia.
         </h2>
@@ -191,6 +208,7 @@ function EmailCapture() {
 }
 
 function FooterBar() {
+  const { data: settings } = useSiteSettings();
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
@@ -421,8 +439,8 @@ function FooterBar() {
           </DialogContent>
         </Dialog>
 
-        <p className="text-xs text-white/50">
-          © {new Date().getFullYear()} exploreindonesia.ai
+        <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
+          {settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`}
         </p>
       </div>
     </footer>
