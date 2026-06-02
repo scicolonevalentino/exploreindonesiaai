@@ -643,30 +643,11 @@ function InspirationMarquee() {
   useMarqueeDrag(trackRef, { step: 300 });
 
   const moveCarousel = useCallback((direction: "prev" | "next") => {
-    const track = trackRef.current;
-    if (!track) return;
-
-    const step = 300;
-    if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
-      viewportRef.current?.scrollBy({
-        left: direction === "prev" ? -step : step,
-        behavior: "smooth",
-      });
-      return;
-    }
-
-    const halfWidth = track.scrollWidth / 2;
-    if (halfWidth <= 0) return;
-
-    const current = new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
-    const next = current + (direction === "prev" ? step : -step);
-    let normalized = next % halfWidth;
-    if (normalized > 0) normalized -= halfWidth;
-    const progress = -normalized / halfWidth;
-
-    track.style.transform = "";
-    track.style.animationDelay = `-${progress * 60_000}ms`;
-    track.style.animationPlayState = "";
+    const step = 320;
+    viewportRef.current?.scrollBy({
+      left: direction === "prev" ? -step : step,
+      behavior: "smooth",
+    });
   }, []);
 
   if (!articles || articles.length === 0) {
@@ -681,9 +662,6 @@ function InspirationMarquee() {
 
   const fewerThanExpected = articles.length < MIN_EXPECTED_ARTICLES;
 
-  const repeats = articles.length >= 4 ? 2 : Math.ceil(8 / Math.max(articles.length, 1));
-  const loop = Array.from({ length: repeats }).flatMap(() => articles);
-
   return (
     <>
       {fewerThanExpected && (
@@ -695,27 +673,28 @@ function InspirationMarquee() {
       )}
       <div
         ref={viewportRef}
-        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll focus-within:[&_.animate-marquee]:[animation-play-state:paused]"
+        className="relative w-full overflow-x-auto scroll-smooth"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
           WebkitMaskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+          scrollSnapType: "x mandatory",
         }}
       >
         <div
           ref={trackRef}
-          className="flex gap-5 w-max animate-marquee focus:outline-none"
+          className="flex gap-5 w-max focus:outline-none px-6"
           role="region"
           aria-roledescription="carousel"
           aria-label={`${articles.length} Indonesia trip itineraries.`}
         >
-          {loop.map((a, i) => (
+          {articles.map((a, i) => (
             <InspirationCard
-              key={`${a._id}-${i}`}
+              key={a._id}
               article={a}
               position={i}
-              totalCards={loop.length}
+              totalCards={articles.length}
             />
           ))}
         </div>
