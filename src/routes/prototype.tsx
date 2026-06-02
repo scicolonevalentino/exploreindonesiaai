@@ -85,7 +85,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           id: "d1-transfer",
           kind: "bookable",
           source: "klook",
-          title: "Private Airport Transfer — DPS to Ubud",
+          title: "Private Airport Transfer, DPS to Ubud",
           rating: 4.8,
           reviews: 2140,
           matched: ["Arrive Denpasar (DPS)", "private transfer to Ubud"],
