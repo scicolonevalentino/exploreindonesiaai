@@ -435,10 +435,12 @@ export function InputStage({
               style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
             />
             <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
-              <p className="text-xs sm:text-sm text-[var(--slate-muted)]" aria-live="polite">
-                {canSubmit
-                  ? "Looks good — ready to assemble."
-                  : `${remaining} more character${remaining === 1 ? "" : "s"} to go (${trimmedLength}/${minLength}).`}
+              <p className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]" aria-live="polite">
+                {!mounted
+                  ? ""
+                  : canSubmit
+                    ? "Looks good — ready to assemble."
+                    : `${remaining} more character${remaining === 1 ? "" : "s"} to go (${trimmedLength}/${minLength}).`}
               </p>
               <button
                 type="button"
