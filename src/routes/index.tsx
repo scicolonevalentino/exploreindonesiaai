@@ -12,7 +12,9 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import heroVideo from "@/assets/hero-bg.mp4.asset.json";
+import heroVideoDesktop from "@/assets/hero-bg-desktop.mp4.asset.json";
+import heroVideoMobile from "@/assets/hero-bg-mobile.mp4.asset.json";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
@@ -83,6 +85,9 @@ function Logo() {
 }
 
 function Hero() {
+  const isMobile = useIsMobile();
+  const videoSrc = isMobile ? heroVideoMobile.url : heroVideoDesktop.url;
+
   return (
     <section
       className="relative w-full overflow-hidden isolate"
@@ -91,10 +96,13 @@ function Hero() {
           "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
-      {/* Background video — muted, looping, decorative */}
+      {/* Background video — muted, looping, decorative. Subtle scale + slight
+          blur push it back so the value prop reads first. */}
       <video
+        key={videoSrc}
         className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
-        src={heroVideo.url}
+        style={{ filter: "saturate(0.85) brightness(0.7)" }}
+        src={videoSrc}
         autoPlay
         muted
         loop
@@ -103,12 +111,32 @@ function Hero() {
         aria-hidden="true"
         tabIndex={-1}
       />
-      {/* Readability overlays: dark gradient + subtle tint for legible text */}
+
+      {/* Desktop overlay: strong dark gradient with vignette-style edges */}
       <div
-        className="absolute inset-0 -z-10 pointer-events-none"
+        className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
         style={{
           background:
-            "linear-gradient(180deg, rgba(6,45,42,0.55) 0%, rgba(6,45,42,0.45) 50%, rgba(6,45,42,0.75) 100%)",
+            "linear-gradient(180deg, rgba(6,45,42,0.78) 0%, rgba(6,45,42,0.62) 45%, rgba(6,45,42,0.85) 100%)",
+        }}
+        aria-hidden="true"
+      />
+      {/* Desktop radial vignette pulling focus to center copy */}
+      <div
+        className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, rgba(6,45,42,0) 0%, rgba(6,45,42,0.45) 70%, rgba(6,45,42,0.75) 100%)",
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Mobile-specific overlay: heavier, near-opaque so type wins over motion */}
+      <div
+        className="absolute inset-0 -z-10 pointer-events-none md:hidden"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(6,45,42,0.88) 0%, rgba(6,45,42,0.78) 50%, rgba(6,45,42,0.92) 100%)",
         }}
         aria-hidden="true"
       />
@@ -120,14 +148,14 @@ function Hero() {
       <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
         <p
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
-          style={{ color: "var(--blue-soft)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
+          style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.6)" }}
         >
           AI itinerary planning, powered by real experiences
         </p>
 
         <h1
           className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
-          style={{ textShadow: "0 2px 20px rgba(0,0,0,0.45)" }}
+          style={{ textShadow: "0 2px 24px rgba(0,0,0,0.65)" }}
         >
           You've planned the trip.
           <br />
@@ -137,8 +165,8 @@ function Hero() {
         </h1>
 
         <p
-          className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/90 font-light"
-          style={{ textShadow: "0 1px 12px rgba(0,0,0,0.45)" }}
+          className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white font-light"
+          style={{ textShadow: "0 1px 14px rgba(0,0,0,0.65)" }}
         >
           Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We
           turn it into a structured, day-by-day trip with bookable stays,
