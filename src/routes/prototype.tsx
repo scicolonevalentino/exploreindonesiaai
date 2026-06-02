@@ -376,7 +376,11 @@ export function InputStage({
   embedded?: boolean;
 }) {
   const isMobile = useIsMobile();
-  const minLength = isMobile ? MIN_PASTE_LENGTH_MOBILE : MIN_PASTE_LENGTH;
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  const minLength = mounted && isMobile ? MIN_PASTE_LENGTH_MOBILE : MIN_PASTE_LENGTH;
   const trimmedLength = value.trim().length;
   const canSubmit = trimmedLength >= minLength;
   const remaining = Math.max(0, minLength - trimmedLength);
@@ -414,8 +418,12 @@ export function InputStage({
             <label htmlFor="prototype-paste" className="block text-sm font-bold mb-1">
               Paste your itinerary
             </label>
-            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mb-3">
-              Add at least {minLength} characters to unlock the Assemble button.
+            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mb-3" aria-live="polite">
+              {mounted ? (
+                <>Add at least {minLength} characters to unlock the Assemble button.</>
+              ) : (
+                <>&nbsp;</>
+              )}
             </p>
             <textarea
               id="prototype-paste"
@@ -427,10 +435,12 @@ export function InputStage({
               style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
             />
             <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
-              <p className="text-xs sm:text-sm text-[var(--slate-muted)]" aria-live="polite">
-                {canSubmit
-                  ? "Looks good — ready to assemble."
-                  : `${remaining} more character${remaining === 1 ? "" : "s"} to go (${trimmedLength}/${minLength}).`}
+              <p className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]" aria-live="polite">
+                {!mounted
+                  ? ""
+                  : canSubmit
+                    ? "Looks good — ready to assemble."
+                    : `${remaining} more character${remaining === 1 ? "" : "s"} to go (${trimmedLength}/${minLength}).`}
               </p>
               <button
                 type="button"
