@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
-import { PartnerStrip } from "@/components/PartnerStrip";
+
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
   Dialog,
@@ -272,8 +272,13 @@ export function PrototypeFlow({
 }) {
   const [stage, setStage] = useState<Stage>("input");
   const [paste, setPaste] = useState("");
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     if (containerRef?.current) {
       containerRef.current.scrollIntoView({ block: "start", behavior: "auto" });
     } else {
@@ -810,13 +815,13 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         )}
       </section>
 
-      {/* Sticky bottom bar */}
+      {/* Inline totals + CTA — no sticky bar, sits right after the itinerary */}
       {totals.count > 0 && (
-        <div
-          className="fixed bottom-0 left-0 right-0 z-40 border-t bg-white/95 backdrop-blur"
-          style={{ borderColor: "var(--border-cream)" }}
-        >
-          <div className="mx-auto max-w-6xl px-6 py-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="mx-auto max-w-6xl px-6 pb-16">
+          <div
+            className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
+            style={{ borderColor: "var(--border-cream)" }}
+          >
             <div className="text-sm">
               <span className="font-semibold">{totals.count} experiences added</span>
               <span className="text-[var(--slate-muted)] mx-3">·</span>
@@ -839,8 +844,6 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         </div>
       )}
 
-      {/* Partner strip — replaces the static logo footer with the homepage marquee */}
-      <PartnerStrip background="#faf9f5" caption="We search across leading travel platforms" />
 
       <Dialog open={showRedirect} onOpenChange={setShowRedirect}>
         <DialogContent className="sm:max-w-md text-center">
