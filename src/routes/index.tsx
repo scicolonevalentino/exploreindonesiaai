@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { SiteFooter } from "@/components/SiteFooter";
+
 
 
 export const Route = createFileRoute("/")({
@@ -255,7 +255,7 @@ function Landing() {
       <HowItWorks />
       <Trust />
       <Inspiration />
-      <SiteFooter />
+      
     </main>
   );
 }
