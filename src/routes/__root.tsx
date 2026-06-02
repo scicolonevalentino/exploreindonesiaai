@@ -13,6 +13,15 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 import { SiteFooter } from "@/components/SiteFooter";
+import { sanityClient } from "@/lib/sanity";
+import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
+
+const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;
+
+const FALLBACK_SETTINGS: Required<Pick<SiteSettings, "siteTitle" | "defaultMetaDescription">> = {
+  siteTitle: "Explore Indonesia - AI Trip Planner",
+  defaultMetaDescription: "Indonesia AI Trip Planner",
+};
 
 function NotFoundComponent() {
   return (
