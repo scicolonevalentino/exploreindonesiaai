@@ -13,6 +13,15 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 import { SiteFooter } from "@/components/SiteFooter";
+import { sanityClient } from "@/lib/sanity";
+import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
+
+const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;
+
+const FALLBACK_SETTINGS: Required<Pick<SiteSettings, "siteTitle" | "defaultMetaDescription">> = {
+  siteTitle: "Explore Indonesia - AI Trip Planner",
+  defaultMetaDescription: "Indonesia AI Trip Planner",
+};
 
 function NotFoundComponent() {
   return (
@@ -75,45 +84,58 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Explore Indonesia - AI Trip Planner" },
-      { name: "description", content: "Indonesia AI Trip Planner" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Explore Indonesia - AI Trip Planner" },
-      { property: "og:description", content: "Indonesia AI Trip Planner" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Explore Indonesia - AI Trip Planner" },
-      { name: "twitter:description", content: "Indonesia AI Trip Planner" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
-    ],
-    links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
-      { rel: "preconnect", href: "https://www.googletagmanager.com" },
-    ],
-    scripts: [
-      {
-        src: "https://www.googletagmanager.com/gtag/js?id=G-ZNEKVH2ETY",
-        async: true,
-      },
-      {
-        children:
-          "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZNEKVH2ETY');",
-      },
-      {
-        children:
-          "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MNZHRZ79');",
-      },
-    ],
-  }),
+  loader: async ({ context }) => {
+    const settings = await context.queryClient.ensureQueryData({
+      queryKey: SITE_SETTINGS_QUERY_KEY,
+      queryFn: () => sanityClient.fetch<SiteSettings | null>(SITE_SETTINGS_QUERY),
+      staleTime: 5 * 60_000,
+    });
+    return { settings };
+  },
+  head: ({ loaderData }) => {
+    const title = loaderData?.settings?.siteTitle?.trim() || FALLBACK_SETTINGS.siteTitle;
+    const description =
+      loaderData?.settings?.defaultMetaDescription?.trim() || FALLBACK_SETTINGS.defaultMetaDescription;
+    return {
+      meta: [
+        { charSet: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { title },
+        { name: "description", content: description },
+        { name: "author", content: "Lovable" },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:site", content: "@Lovable" },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+        { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
+        { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
+      ],
+      links: [
+        {
+          rel: "stylesheet",
+          href: appCss,
+        },
+        { rel: "preconnect", href: "https://www.googletagmanager.com" },
+      ],
+      scripts: [
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-ZNEKVH2ETY",
+          async: true,
+        },
+        {
+          children:
+            "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZNEKVH2ETY');",
+        },
+        {
+          children:
+            "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MNZHRZ79');",
+        },
+      ],
+    };
+  },
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
