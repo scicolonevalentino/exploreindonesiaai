@@ -58,7 +58,8 @@ export function HelloBar() {
           <a
             href="#early-access"
             onClick={handleCta}
-            className="ml-1 inline-flex items-center gap-1 font-bold text-white bg-white/15 hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
+            aria-label="Get early access — jump to the waitlist signup"
+            className="ml-1 inline-flex items-center gap-1 font-bold text-white bg-white/15 hover:bg-black hover:text-white focus-visible:bg-black focus-visible:text-white transition-colors px-3 py-1 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
           >
             Get early access →
           </a>

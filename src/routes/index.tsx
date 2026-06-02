@@ -238,6 +238,30 @@ function HowItWorks() {
             </div>
           ))}
         </div>
+
+        <div className="mt-14 text-center">
+          <a
+            href="#early-access"
+            onClick={(e) => {
+              const el = document.getElementById("early-access");
+              if (el) {
+                e.preventDefault();
+                el.scrollIntoView({ behavior: "smooth", block: "start" });
+                window.setTimeout(() => {
+                  el
+                    .querySelector<HTMLInputElement>('input[type="email"]')
+                    ?.focus({ preventScroll: true });
+                }, 600);
+              }
+            }}
+            className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+          >
+            See the prototype →
+          </a>
+          <p className="mt-3 text-sm" style={{ color: "var(--slate-muted)" }}>
+            Get early access and try the concept before public launch.
+          </p>
+        </div>
       </div>
     </section>
   );
@@ -752,30 +776,41 @@ function DestinationsStrip() {
 
   return (
     <section
-      className="w-full px-6 py-16 sm:py-20"
-      style={{ backgroundColor: "var(--cream)" }}
+      className="w-full px-6 py-10 sm:py-12 border-t"
+      style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
+      aria-labelledby="destinations-heading"
     >
       <div className="mx-auto max-w-6xl">
-        <p
-          className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-center mb-3"
-          style={{ color: "var(--teal-link)" }}
-        >
-          Browse by destination
-        </p>
-        <h2
-          className="font-serif text-3xl sm:text-4xl font-semibold text-center mb-10"
-          style={{ color: "var(--navy-mid)" }}
-        >
-          Where in Indonesia?
-        </h2>
+        <div className="flex items-end justify-between gap-4 mb-5">
+          <div>
+            <p
+              className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em] mb-1"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Browse by destination
+            </p>
+            <h2
+              id="destinations-heading"
+              className="font-serif text-xl sm:text-2xl font-semibold"
+              style={{ color: "var(--navy-mid)" }}
+            >
+              Where in Indonesia?
+            </h2>
+          </div>
+        </div>
 
-        <div className="relative">
+        <div
+          className="relative"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Indonesia destinations carousel"
+        >
           <button
             type="button"
             aria-label="Scroll destinations left"
             aria-controls="destinations-scroller"
             onClick={() => scrollBy(-1)}
-            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md text-[color:var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">‹</span>
@@ -799,7 +834,7 @@ function DestinationsStrip() {
                 if (el) el.scrollTo({ left: el.scrollWidth, behavior: "smooth" });
               }
             }}
-            className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 -mx-2 px-2 [scrollbar-width:thin] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-4 focus-visible:ring-offset-[var(--cream)] rounded-lg"
+            className="flex gap-2.5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-1 -mx-2 px-2 [scrollbar-width:thin] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-4 focus-visible:ring-offset-[var(--cream)] rounded-lg"
             style={{ scrollPaddingInline: "0.5rem" }}
           >
             {items.map((d) => (
@@ -807,7 +842,8 @@ function DestinationsStrip() {
                 <Link
                   to="/destinations/$destination"
                   params={{ destination: d.slug }}
-                  className="group block min-w-[180px] sm:min-w-[200px] px-5 py-4 rounded-xl border bg-white text-center font-semibold text-[color:var(--navy-deep)] transition-all hover:shadow-lg hover:-translate-y-0.5 hover:bg-[var(--blue-bright)] hover:!text-white hover:border-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+                  aria-label={`Browse trips in ${d.name}`}
+                  className="group block min-w-[150px] sm:min-w-[170px] px-4 py-2.5 rounded-full border bg-white text-center text-sm font-semibold text-[var(--navy-deep)] transition-colors hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent focus:outline-none focus-visible:bg-[var(--blue-bright)] focus-visible:text-white focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
                   style={{ borderColor: "var(--border-cream)" }}
                 >
                   {d.name}
@@ -821,7 +857,7 @@ function DestinationsStrip() {
             aria-label="Scroll destinations right"
             aria-controls="destinations-scroller"
             onClick={() => scrollBy(1)}
-            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md text-[color:var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">›</span>
@@ -838,8 +874,8 @@ function Landing() {
       <Hero />
       <HowItWorks />
       <Trust />
-      <DestinationsStrip />
       <Inspiration />
+      <DestinationsStrip />
     </main>
   );
 }
