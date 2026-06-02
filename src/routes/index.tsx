@@ -12,7 +12,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
+import { useMarqueeDrag, useMarqueeHint } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
   DESTINATIONS,
@@ -184,6 +184,20 @@ function HowItWorks() {
   );
 }
 
+function MarqueeHint({ visible }: { visible: boolean }) {
+  return (
+    <div
+      aria-hidden={!visible}
+      className={`pointer-events-none absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-black/65 px-3 py-1 text-[11px] font-medium text-white shadow-sm backdrop-blur-sm transition-opacity duration-300 ${
+        visible ? "opacity-90" : "opacity-0"
+      }`}
+    >
+      Drag, swipe, or use ← → to browse
+    </div>
+  );
+}
+
+
 function Trust() {
   const partners = [
     { name: "Viator", color: "#1f9e87" },
@@ -209,7 +223,8 @@ function Trust() {
   // Duplicate so the marquee loops seamlessly.
   const loop = [...partners, ...partners];
   const trackRef = useRef<HTMLDivElement>(null);
-  useMarqueeDrag(trackRef);
+  const { dismissed, dismiss } = useMarqueeHint("hint:partners");
+  useMarqueeDrag(trackRef, { step: 180, onFirstInteract: dismiss });
 
   return (
     <section
@@ -227,7 +242,6 @@ function Trust() {
 
       <div
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll mb-10"
-        aria-label="Trusted travel partner brands"
         data-partner-strip="true"
         style={{
           maskImage:
@@ -238,8 +252,11 @@ function Trust() {
       >
         <div
           ref={trackRef}
-          className="flex gap-3 sm:gap-4 w-max animate-marquee"
+          className="flex gap-3 sm:gap-4 w-max animate-marquee focus:outline-none"
           data-partner-track="true"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Trusted travel partner brands. Drag, swipe, or use the left and right arrow keys to browse."
         >
           {loop.map((p, i) => (
             <div
@@ -254,6 +271,7 @@ function Trust() {
             </div>
           ))}
         </div>
+        <MarqueeHint visible={!dismissed} />
       </div>
 
 
@@ -563,7 +581,8 @@ class InspirationBoundary extends Component<
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
   const trackRef = useRef<HTMLDivElement>(null);
-  useMarqueeDrag(trackRef);
+  const { dismissed, dismiss } = useMarqueeHint("hint:inspiration");
+  useMarqueeDrag(trackRef, { step: 300, onFirstInteract: dismiss });
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
@@ -591,9 +610,6 @@ function InspirationMarquee() {
       )}
       <div
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll focus-within:[&_.animate-marquee]:[animation-play-state:paused]"
-        role="region"
-        aria-roledescription="carousel"
-        aria-label="Top selection of Indonesia trips"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
@@ -603,9 +619,10 @@ function InspirationMarquee() {
       >
         <div
           ref={trackRef}
-          className="flex gap-5 w-max animate-marquee"
-          role="list"
-          aria-label={`${articles.length} trip itineraries. Use arrow keys to navigate.`}
+          className="flex gap-5 w-max animate-marquee focus:outline-none"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label={`${articles.length} Indonesia trip itineraries. Drag, swipe, or use the left and right arrow keys to browse. Press Tab to focus individual cards.`}
         >
           {loop.map((a, i) => (
             <InspirationCard
@@ -616,6 +633,7 @@ function InspirationMarquee() {
             />
           ))}
         </div>
+        <MarqueeHint visible={!dismissed} />
       </div>
     </>
   );
