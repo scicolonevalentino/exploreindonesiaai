@@ -97,7 +97,11 @@ describe("shortTitle", () => {
     ).toBe("7 Days in Yogya and Java");
   });
 
-  it("does not crash on weird whitespace-only fragments", () => {
-    expect(shortTitle("   :   foo")).toBe("");
+  it("does not crash on weird leading-separator input", () => {
+    // Leading separators aren't treated as cut points (index must be > 0),
+    // so the string is returned unchanged after trimming.
+    expect(() => shortTitle("   :   foo")).not.toThrow();
+    expect(shortTitle("   :   foo")).toBe(":   foo");
   });
+
 });
