@@ -1,17 +1,19 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
+import { useSuspenseQuery, useQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
 
 import {
   ARTICLE_BY_SLUG_QUERY,
+  RELATED_ARTICLES_QUERY,
   DESTINATIONS,
   TRIP_LENGTHS,
   TRAVEL_STYLES,
   VIBES,
   labelFor,
   type Article,
+  type ArticleListItem,
   type AffiliateLink,
 } from "@/lib/sanity-queries";
 
@@ -26,9 +28,48 @@ const articleQO = (slug: string) =>
     staleTime: 60_000,
   });
 
+const relatedQO = (
+  slug: string,
+  destinationPrimary?: string,
+  travelStylePrimary?: string,
+  tripLengthBucket?: string,
+) =>
+  queryOptions({
+    queryKey: ["sanity", "related", slug, destinationPrimary, travelStylePrimary, tripLengthBucket],
+    queryFn: () =>
+      sanityClient.fetch<ArticleListItem[]>(RELATED_ARTICLES_QUERY, {
+        slug,
+        destinationPrimary: destinationPrimary ?? "",
+        travelStylePrimary: travelStylePrimary ?? "",
+        tripLengthBucket: tripLengthBucket ?? "",
+      }),
+    staleTime: 5 * 60_000,
+  });
+
+// Estimate reading time in minutes from Portable Text body (~200 wpm).
+function calcReadingTime(body: Article["body"]): number {
+  if (!body) return 0;
+  let words = 0;
+  for (const block of body) {
+    const b = block as { _type?: string; children?: Array<{ text?: string }> };
+    if (b._type === "block" && Array.isArray(b.children)) {
+      for (const c of b.children) {
+        if (c?.text) words += c.text.trim().split(/\s+/).filter(Boolean).length;
+      }
+    }
+  }
+  return Math.max(1, Math.round(words / 200));
+}
+
 export const Route = createFileRoute("/trips/$slug")({
-  loader: ({ context, params }) =>
-    context.queryClient.ensureQueryData(articleQO(params.slug)),
+  loader: async ({ context, params }) => {
+    const a = await context.queryClient.ensureQueryData(articleQO(params.slug));
+    // Fire-and-forget prefetch of related articles; don't block render
+    void context.queryClient.prefetchQuery(
+      relatedQO(params.slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
+    );
+    return a;
+  },
   head: ({ loaderData, params }) => {
     const a = loaderData as Article | undefined;
     if (!a) return {};
@@ -38,6 +79,7 @@ export const Route = createFileRoute("/trips/$slug")({
     const url = `https://exploreindonesia.ai/trips/${params.slug}`;
     const title = a.metaTitle || a.title;
     const description = a.metaDescription;
+    const readingMinutes = calcReadingTime(a.body);
     return {
       meta: [
         { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
@@ -45,9 +87,17 @@ export const Route = createFileRoute("/trips/$slug")({
         { property: "og:title", content: title },
         ...(description ? [{ property: "og:description", content: description }] : []),
         { property: "og:type", content: "article" },
+        { property: "og:site_name", content: "ExploreIndonesia.ai" },
         { property: "og:url", content: url },
         ...(img ? [{ property: "og:image", content: img }] : []),
+        ...(img ? [{ property: "og:image:width", content: "1200" }] : []),
+        ...(img ? [{ property: "og:image:height", content: "630" }] : []),
+        ...(img && a.heroImage?.alt
+          ? [{ property: "og:image:alt", content: a.heroImage.alt }]
+          : []),
         { name: "twitter:card", content: img ? "summary_large_image" : "summary" },
+        { name: "twitter:title", content: title },
+        ...(description ? [{ name: "twitter:description", content: description }] : []),
         ...(img ? [{ name: "twitter:image", content: img }] : []),
       ],
       links: [{ rel: "canonical", href: url }],
@@ -63,6 +113,8 @@ export const Route = createFileRoute("/trips/$slug")({
             url,
             mainEntityOfPage: url,
             inLanguage: "en",
+            timeRequired: `PT${readingMinutes}M`,
+            wordCount: readingMinutes * 200,
             author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
             publisher: {
               "@type": "Organization",
@@ -185,6 +237,10 @@ function extractText(children: unknown): string {
 function ArticleInner() {
   const { slug } = Route.useParams();
   const { data: a } = useSuspenseQuery(articleQO(slug));
+  const { data: related = [] } = useQuery(
+    relatedQO(slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
+  );
+  const readingMinutes = useMemo(() => calcReadingTime(a.body), [a.body]);
 
   const linkMap = useMemo(() => {
     const m = new Map<string, AffiliateLink>();
@@ -432,6 +488,18 @@ function ArticleInner() {
                 {a.route}
               </p>
             )}
+            {readingMinutes > 0 && (
+              <p
+                className="mt-4 inline-flex items-center gap-2 text-white/75 text-xs sm:text-sm font-medium tracking-wide"
+                aria-label={`Estimated reading time: ${readingMinutes} minutes`}
+              >
+                <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                {readingMinutes} min read
+              </p>
+            )}
             <div
               className="mx-auto mt-8 h-px w-16"
               style={{
@@ -494,6 +562,8 @@ function ArticleInner() {
               </dl>
             </section>
           )}
+
+          <RelatedItineraries items={related} />
 
           <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
         </article>
@@ -700,3 +770,88 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
   );
 }
 
+
+function RelatedItineraries({ items }: { items: ArticleListItem[] }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <section
+      className="mt-16 pt-10 border-t"
+      style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+      aria-label="Related itineraries"
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-[0.25em] mb-5"
+        style={{ color: "var(--teal-link)" }}
+      >
+        Keep exploring
+      </p>
+      <h2
+        className="font-serif text-2xl sm:text-3xl font-semibold mb-8"
+        style={{ color: "var(--navy-deep)" }}
+      >
+        Related itineraries
+      </h2>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {items.map((item) => {
+          const slug = item.slug?.current;
+          if (!slug) return null;
+          const img = item.heroImage?.asset
+            ? urlFor(item.heroImage).width(600).height(400).fit("crop").auto("format").url()
+            : null;
+          return (
+            <li key={item._id}>
+              <Link
+                to="/trips/$slug"
+                params={{ slug }}
+                className="group block rounded-xl overflow-hidden border h-full transition-shadow hover:shadow-lg"
+                style={{
+                  borderColor: "var(--border-cream, #e6dfd2)",
+                  backgroundColor: "#fff",
+                }}
+              >
+                <div
+                  className="aspect-[3/2] w-full overflow-hidden"
+                  style={{ backgroundColor: "var(--blue-soft, #e6eef7)" }}
+                >
+                  {img && (
+                    <img
+                      src={img}
+                      alt={item.heroImage?.alt ?? item.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
+                </div>
+                <div className="p-5">
+                  <p
+                    className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-2"
+                    style={{ color: "var(--teal-link)" }}
+                  >
+                    {labelFor(TRIP_LENGTHS, item.tripLengthBucket)}
+                    {item.destinationPrimary
+                      ? ` · ${labelFor(DESTINATIONS, item.destinationPrimary)}`
+                      : ""}
+                  </p>
+                  <h3
+                    className="font-serif text-lg font-semibold leading-snug mb-2"
+                    style={{ color: "var(--navy-deep)" }}
+                  >
+                    {item.title}
+                  </h3>
+                  {item.metaDescription && (
+                    <p
+                      className="text-sm leading-relaxed line-clamp-3"
+                      style={{ color: "var(--text-dark)" }}
+                    >
+                      {item.metaDescription}
+                    </p>
+                  )}
+                </div>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
