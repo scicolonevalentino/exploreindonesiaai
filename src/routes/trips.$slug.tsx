@@ -257,22 +257,23 @@ function ArticleInner() {
         if (!value?.asset) return null;
         const src = urlFor(value).width(1200).auto("format").url();
         return (
-          <figure className="my-8">
+          <figure className="my-10 lg:-mx-16 xl:-mx-24">
             <img
               src={src}
               alt={value.alt ?? ""}
-              className="w-full rounded-xl"
+              className="w-full rounded-xl shadow-lg"
               loading="lazy"
             />
             {value.caption && (
               <figcaption
-                className="mt-2 text-sm text-center"
+                className="mt-3 text-sm text-center italic"
                 style={{ color: "var(--slate-muted)" }}
               >
                 {value.caption}
               </figcaption>
             )}
           </figure>
+
         );
       },
     },
