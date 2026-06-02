@@ -178,6 +178,42 @@ function ArticleInner() {
     return items;
   }, [a.body]);
 
+  const [activeId, setActiveId] = useState<string | null>(null);
+  const [clickedId, setClickedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (toc.length === 0) return;
+    const headings = toc
+      .map((t) => document.getElementById(t.id))
+      .filter((el): el is HTMLElement => !!el);
+    if (headings.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) {
+          setActiveId(visible[0].target.id);
+        }
+      },
+      { rootMargin: "-96px 0px -70% 0px", threshold: [0, 1] }
+    );
+    headings.forEach((h) => observer.observe(h));
+    return () => observer.disconnect();
+  }, [toc]);
+
+  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (!el) return;
+    setClickedId(id);
+    setActiveId(id);
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", `#${id}`);
+    window.setTimeout(() => setClickedId(null), 450);
+  };
+
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
     : null;
