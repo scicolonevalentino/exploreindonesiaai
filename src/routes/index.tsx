@@ -511,6 +511,10 @@ function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
 
   if (!articles || articles.length === 0) {
+    console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
+      fallbackPath: "InspirationFallback (empty result)",
+      count: articles?.length ?? 0,
+    });
     return (
       <InspirationFallback message="New itineraries are being prepared. Check back soon — or explore everything we already have." />
     );
