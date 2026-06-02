@@ -56,7 +56,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Paste the Indonesia itinerary you already have and we turn it into a day-by-day plan you can actually book through the world's most trusted travel companies.",
+          "Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.",
       },
       { property: "og:title", content: "exploreindonesia.ai — Indonesia AI Trip Planner" },
       {
@@ -110,9 +110,9 @@ function Hero() {
         </h1>
 
         <p className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/85 font-light">
-          Paste the Indonesia itinerary you already have - from ChatGPT, a blog, or
-          your notes - and we turn it into a day-by-day plan you can actually book,
-          through the world's most trusted travel organizations.
+          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We
+          turn it into a structured, day-by-day trip with bookable stays,
+          transfers, tours, and experiences.
         </p>
       </div>
     </section>
@@ -125,7 +125,7 @@ function HowItWorks() {
       n: 1,
       title: "Paste your plan",
       body:
-        "Drop in the itinerary you already have. No starting over, no forms to fill, just paste and go.",
+        "Drop in the itinerary you already have. No starting over. No long forms to fill out. Just paste and go.",
     },
     {
       n: 2,
@@ -137,7 +137,7 @@ function HowItWorks() {
       n: 3,
       title: "Review and book",
       body:
-        "See your whole trip in one place. Approve what you want, one tap at a time.",
+        "Review your trip in one place, then choose what to book through trusted travel partners",
     },
   ];
 
@@ -218,7 +218,7 @@ function Trust() {
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
           style={{ color: "var(--slate-muted)" }}
         >
-          We search across the world's most trusted travel platforms.
+          We search across leading travel platforms
         </p>
       </div>
 
@@ -633,7 +633,7 @@ function Inspiration() {
             className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight"
             style={{ color: "var(--navy-mid)" }}
           >
-            Browse our top selection of Indonesia trips
+            Browse curated Indonesia itineraries
           </h2>
           <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto" style={{ color: "var(--text-dark)" }}>
             Hand-picked routes across the archipelago. Start from one, make it yours.
