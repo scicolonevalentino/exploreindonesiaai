@@ -242,12 +242,17 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
 };
 
 const SAMPLE_ITINERARY = `Day 1 — Arrive Denpasar (DPS), private transfer to Ubud, settle in
-Day 2 — Tegalalang rice terrace, Sacred Monkey Forest, Tirta Empul temple
-        evening: Campuhan Ridge Walk at sunset
+
+Day 2 — Tegalalang rice terrace, Sacred Monkey Forest, Tirta Empul temple evening: Campuhan Ridge Walk at sunset
+
 Day 3 — Mount Batur sunrise trek; free afternoon by the pool
+
 Day 4 — Nusa Penida day trip (Kelingking, Angel's Billabong, Broken Beach)
+
 Day 5 — Uluwatu Temple + Kecak fire dance at sunset
+
 Day 6 — Canggu: morning surf lesson, cafe-hop, relax
+
 Day 7 — Departure, transfer to airport`;
 
 /* -------------------------------------------------------------------------- */
