@@ -259,7 +259,7 @@ function HowItWorks() {
             See the prototype →
           </a>
           <p className="mt-3 text-sm" style={{ color: "var(--slate-muted)" }}>
-            Get early access and try the concept before public launch.
+            &zwnj;
           </p>
         </div>
       </div>
