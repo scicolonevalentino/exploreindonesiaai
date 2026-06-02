@@ -286,11 +286,8 @@ export function PrototypeFlow({
     }
   }, [stage, containerRef]);
 
-  const showHelloBar = showHelloBarOnInput || stage !== "input";
-
   return (
     <>
-      {showHelloBar && <PrototypeHelloBar />}
       {stage === "input" && (
         <InputStage
           value={paste}
@@ -303,6 +300,7 @@ export function PrototypeFlow({
       {stage === "trip" && <TripStage onEdit={() => setStage("input")} />}
     </>
   );
+
 }
 
 function PrototypePage() {
