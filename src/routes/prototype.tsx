@@ -355,8 +355,17 @@ export function PrototypeHelloBar() {
 
 /* ---- Stage 1: Input ---- */
 
-function InputStage({ onStart }: { onStart: () => void }) {
-  // The itinerary is intentionally fixed for this prototype demo.
+export function InputStage({
+  value,
+  onChange,
+  onStart,
+}: {
+  value: string;
+  onChange: (next: string) => void;
+  onStart: () => void;
+}) {
+  const canSubmit = value.trim().length >= MIN_PASTE_LENGTH;
+
   return (
     <div
       className="flex-1 w-full"
@@ -410,36 +419,35 @@ function InputStage({ onStart }: { onStart: () => void }) {
           className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl mx-auto"
           style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
         >
-          <div className="flex items-center justify-between mb-3">
-            <span className="block text-sm font-bold">Paste your itinerary</span>
-            <span
-              className="text-[10px] uppercase tracking-widest font-semibold px-2 py-1 rounded"
-              style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
-            >
-              Sample · static for demo
-            </span>
-          </div>
-          <pre
-            aria-label="Sample itinerary used for this prototype"
-            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap select-text"
+          <label htmlFor="prototype-paste" className="block text-sm font-bold mb-3">
+            Paste your itinerary
+          </label>
+          <textarea
+            id="prototype-paste"
+            value={value}
+            onChange={(e) => onChange(e.target.value)}
+            placeholder="Paste your Indonesia itinerary here…"
+            rows={10}
+            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
-          >
-            {SAMPLE_ITINERARY}
-          </pre>
-          <div className="mt-4 flex items-center justify-end">
-            <button
-              type="button"
-              onClick={onStart}
-              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
-            >
-              Assemble my trip <span aria-hidden>→</span>
-            </button>
+          />
+          <div className="mt-4 flex items-center justify-end min-h-[48px]">
+            {canSubmit && (
+              <button
+                type="button"
+                onClick={onStart}
+                className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white animate-in fade-in duration-300"
+              >
+                Assemble my trip <span aria-hidden>→</span>
+              </button>
+            )}
           </div>
         </div>
       </section>
     </div>
   );
 }
+
 
 /* ---- Stage 2: Assembling ---- */
 
