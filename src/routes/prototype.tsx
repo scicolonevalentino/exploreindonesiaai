@@ -413,16 +413,21 @@ export function InputStage({
               className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
               style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
             />
-            <div className="mt-4 flex items-center justify-end">
+            <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
+              <p className="text-xs sm:text-sm text-[var(--slate-muted)]">
+                {canSubmit
+                  ? "Looks good — ready to assemble."
+                  : `Paste at least ${MIN_PASTE_LENGTH} characters to continue (${value.trim().length}/${MIN_PASTE_LENGTH}).`}
+              </p>
               <button
                 type="button"
                 onClick={canSubmit ? onStart : undefined}
                 aria-disabled={!canSubmit}
                 tabIndex={canSubmit ? 0 : -1}
-                className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] ${
+                className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all ${
                   canSubmit
-                    ? "hover:bg-black cursor-pointer opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
-                    : "opacity-40 cursor-not-allowed"
+                    ? "bg-[var(--blue-bright)] hover:bg-black cursor-pointer opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+                    : "bg-[var(--slate-muted)] opacity-50 cursor-not-allowed pointer-events-none"
                 }`}
               >
                 Assemble my trip <span aria-hidden>→</span>
