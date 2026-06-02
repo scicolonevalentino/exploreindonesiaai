@@ -741,6 +741,15 @@ function DestinationsStrip() {
     { slug: "bali-nearby-islands", name: "Bali & Islands" },
     { slug: "wild-indonesia", name: "Wild Indonesia" },
   ];
+  const scrollerRef = useRef<HTMLUListElement>(null);
+
+  const scrollBy = (dir: 1 | -1) => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    const amount = Math.max(240, Math.round(el.clientWidth * 0.8));
+    el.scrollBy({ left: dir * amount, behavior: "smooth" });
+  };
+
   return (
     <section
       className="w-full px-6 py-16 sm:py-20"
@@ -759,23 +768,50 @@ function DestinationsStrip() {
         >
           Where in Indonesia?
         </h2>
-        <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {items.map((d) => (
-            <li key={d.slug}>
-              <Link
-                to="/destinations/$destination"
-                params={{ destination: d.slug }}
-                className="block w-full px-4 py-3 rounded-xl border bg-white text-center font-semibold transition-shadow hover:shadow-md"
-                style={{
-                  borderColor: "var(--border-cream)",
-                  color: "var(--navy-deep)",
-                }}
-              >
-                {d.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+
+        <div className="relative">
+          <button
+            type="button"
+            aria-label="Scroll destinations left"
+            onClick={() => scrollBy(-1)}
+            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors"
+            style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+          >
+            <span aria-hidden="true" className="text-xl leading-none">‹</span>
+          </button>
+
+          <ul
+            ref={scrollerRef}
+            className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 -mx-2 px-2 [scrollbar-width:thin]"
+            style={{ scrollPaddingInline: "0.5rem" }}
+          >
+            {items.map((d) => (
+              <li key={d.slug} className="snap-start shrink-0">
+                <Link
+                  to="/destinations/$destination"
+                  params={{ destination: d.slug }}
+                  className="group block min-w-[180px] sm:min-w-[200px] px-5 py-4 rounded-xl border bg-white text-center font-semibold transition-all hover:shadow-lg hover:-translate-y-0.5 hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent"
+                  style={{
+                    borderColor: "var(--border-cream)",
+                    color: "var(--navy-deep)",
+                  }}
+                >
+                  {d.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <button
+            type="button"
+            aria-label="Scroll destinations right"
+            onClick={() => scrollBy(1)}
+            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors"
+            style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+          >
+            <span aria-hidden="true" className="text-xl leading-none">›</span>
+          </button>
+        </div>
       </div>
     </section>
   );
