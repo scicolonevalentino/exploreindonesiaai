@@ -477,19 +477,25 @@ function ArticleInner() {
               >
                 On this page
               </p>
-              <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
+              <nav
+                aria-label="Table of contents"
+                className="border-l"
+                style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+              >
                 <ul className="space-y-2.5">
-                  {toc.map((item) => {
+                  {toc.map((item, index) => {
                     const isActive = activeId === item.id;
                     const isClicked = clickedId === item.id;
                     return (
                       <li key={item.id}>
                         <a
                           href={`#${item.id}`}
+                          data-toc-index={index}
                           onClick={(e) => handleTocClick(e, item.id)}
+                          onKeyDown={(e) => handleTocKeyDown(e, index)}
                           aria-current={isActive ? "location" : undefined}
-                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md transition-all duration-200 outline-none focus-visible:ring-2 focus-visible:ring-offset-1 hover:pl-5 ${
-                            isClicked ? "scale-[0.98]" : ""
+                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md outline-none motion-safe:transition-all motion-safe:duration-200 focus-visible:ring-2 focus-visible:ring-offset-1 motion-safe:hover:pl-5 ${
+                            isClicked ? "motion-safe:scale-[0.98]" : ""
                           }`}
                           style={{
                             color: isActive
