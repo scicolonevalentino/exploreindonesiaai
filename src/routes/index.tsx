@@ -874,8 +874,8 @@ function Landing() {
       <Hero />
       <HowItWorks />
       <Trust />
-      <DestinationsStrip />
       <Inspiration />
+      <DestinationsStrip />
     </main>
   );
 }
