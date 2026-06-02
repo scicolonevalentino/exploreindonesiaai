@@ -74,6 +74,12 @@
   outline-offset: 4px;
   border-radius: 8px;
 }
+[data-inspiration-card="true"],
+[data-inspiration-card="true"] *,
+[data-inspiration-arrow="true"],
+[data-inspiration-arrow="true"] * {
+  cursor: pointer !important;
+}
 
 @keyframes skeleton-pulse {
   0%, 100% { opacity: 1; }
