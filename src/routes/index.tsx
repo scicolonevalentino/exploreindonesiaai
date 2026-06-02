@@ -1,4 +1,5 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
+import { PrototypeFlow } from "./prototype";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import {
   Suspense,
