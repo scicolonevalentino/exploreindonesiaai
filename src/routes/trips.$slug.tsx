@@ -29,25 +29,52 @@ const articleQO = (slug: string) =>
 export const Route = createFileRoute("/trips/$slug")({
   loader: ({ context, params }) =>
     context.queryClient.ensureQueryData(articleQO(params.slug)),
-  head: ({ loaderData }) => {
+  head: ({ loaderData, params }) => {
     const a = loaderData as Article | undefined;
     if (!a) return {};
     const img = a.heroImage?.asset
       ? urlFor(a.heroImage).width(1200).height(630).fit("crop").auto("format").url()
       : undefined;
+    const url = `https://exploreindonesia.ai/trips/${params.slug}`;
+    const title = a.metaTitle || a.title;
+    const description = a.metaDescription;
     return {
       meta: [
         { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
-        ...(a.metaDescription ? [{ name: "description", content: a.metaDescription }] : []),
-        { property: "og:title", content: a.metaTitle || a.title },
-        ...(a.metaDescription
-          ? [{ property: "og:description", content: a.metaDescription }]
-          : []),
+        ...(description ? [{ name: "description", content: description }] : []),
+        { property: "og:title", content: title },
+        ...(description ? [{ property: "og:description", content: description }] : []),
+        { property: "og:type", content: "article" },
+        { property: "og:url", content: url },
         ...(img ? [{ property: "og:image", content: img }] : []),
+        { name: "twitter:card", content: img ? "summary_large_image" : "summary" },
         ...(img ? [{ name: "twitter:image", content: img }] : []),
+      ],
+      links: [{ rel: "canonical", href: url }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: a.title,
+            description: description,
+            ...(img ? { image: [img] } : {}),
+            url,
+            mainEntityOfPage: url,
+            inLanguage: "en",
+            author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+            publisher: {
+              "@type": "Organization",
+              name: "ExploreIndonesia.ai",
+              url: "https://exploreindonesia.ai",
+            },
+          }),
+        },
       ],
     };
   },
+
   component: ArticlePage,
   errorComponent: ({ error }) => (
     <div className="min-h-screen flex items-center justify-center p-6 text-center">
