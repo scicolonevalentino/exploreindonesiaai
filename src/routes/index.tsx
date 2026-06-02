@@ -191,13 +191,13 @@ function HowItWorks() {
       n: 2,
       title: "We match it",
       body:
-        "We match your itinerary with vetted experiences from trusted travel platforms and local operators",
+        "We match your itinerary with vetted experiences from trusted travel platforms and local operators.",
     },
     {
       n: 3,
       title: "You book it",
       body:
-        "Review your trip in one place, then choose what to book through trusted travel partners",
+        "Review your trip in one place, then choose the experiences you want to book.",
     },
   ];
 
