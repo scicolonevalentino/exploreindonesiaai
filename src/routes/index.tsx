@@ -14,6 +14,7 @@ import {
 import { sanityClient, urlFor } from "@/lib/sanity";
 import heroVideoDesktop from "@/assets/hero-bg-desktop.mp4.asset.json";
 import heroVideoMobile from "@/assets/hero-bg-mobile.mp4.asset.json";
+import logoLockupDark from "@/assets/logo-lockup-dark.svg.asset.json";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
