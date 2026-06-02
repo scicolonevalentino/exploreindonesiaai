@@ -930,38 +930,28 @@ function ItemCard({
           </span>
           <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
         </div>
-        {isRecommended ? (
+        <>
           <button
             type="button"
             onClick={onToggle}
-            className="px-4 py-2 rounded-full text-sm font-semibold text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+              added
+                ? "bg-[var(--blue-bright)] text-white border-transparent"
+                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+            }`}
           >
-            {added ? "✓ Added" : "View →"}
+            {added ? "✓ Added to trip" : "Add to trip"}
           </button>
-        ) : (
-          <>
-            <button
-              type="button"
-              onClick={onToggle}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
-                added
-                  ? "bg-[var(--blue-bright)] text-white border-transparent"
-                  : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
-              }`}
+          {item.source && (
+            <a
+              href="#"
+              onClick={(e) => e.preventDefault()}
+              className="text-xs text-[var(--teal-link)] hover:underline"
             >
-              {added ? "✓ Added to trip" : "Add to trip"}
-            </button>
-            {item.source && (
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-                className="text-xs text-[var(--teal-link)] hover:underline"
-              >
-                Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
-              </a>
-            )}
-          </>
-        )}
+              Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
+            </a>
+          )}
+        </>
       </div>
     </div>
   );
