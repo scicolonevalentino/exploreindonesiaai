@@ -89,17 +89,17 @@ function TripsInner() {
   const toggle = (key: keyof Search, value: string) => {
     const current = sel[key];
     const next = current.includes(value)
-      ? current.filter((v) => v !== value)
+      ? current.filter((v: string) => v !== value)
       : [...current, value];
     navigate({
-      search: (prev) => ({ ...prev, [key]: next.length ? next : undefined }),
+      search: (prev: Search) => ({ ...prev, [key]: next.length ? next : undefined }),
       replace: true,
     });
   };
 
   const clearAll = () =>
     navigate({
-      search: {},
+      search: () => ({}) as Search,
       replace: true,
     });
 
@@ -111,7 +111,7 @@ function TripsInner() {
         const all = [a.destinationPrimary, ...(a.destinationSecondary ?? [])].filter(
           Boolean,
         ) as string[];
-        if (!sel.destinations.some((d) => all.includes(d))) return false;
+        if (!sel.destinations.some((d: string) => all.includes(d))) return false;
       }
       if (sel.tripLengths.length && !sel.tripLengths.includes(a.tripLengthBucket ?? "")) {
         return false;
@@ -120,11 +120,11 @@ function TripsInner() {
         const all = [a.travelStylePrimary, ...(a.travelStyleSecondary ?? [])].filter(
           Boolean,
         ) as string[];
-        if (!sel.styles.some((s) => all.includes(s))) return false;
+        if (!sel.styles.some((s: string) => all.includes(s))) return false;
       }
       if (sel.travellers.length) {
         const tt = a.travellerTypes ?? [];
-        if (!sel.travellers.some((t) => tt.includes(t))) return false;
+        if (!sel.travellers.some((t: string) => tt.includes(t))) return false;
       }
       if (sel.vibes.length && !sel.vibes.includes(a.vibe ?? "")) return false;
       return true;
