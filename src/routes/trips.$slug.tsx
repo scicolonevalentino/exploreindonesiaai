@@ -467,7 +467,10 @@ function ArticleInner() {
               </dl>
             </section>
           )}
+
+          <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
         </article>
+
 
         {toc.length > 1 && (
           <aside className="hidden lg:block lg:col-span-3">
@@ -552,3 +555,121 @@ function Tag({ children }: { children: React.ReactNode }) {
     </span>
   );
 }
+
+function ShareButtons({ title, slug }: { title: string; slug: string }) {
+  const [copied, setCopied] = useState(false);
+  const url =
+    typeof window !== "undefined"
+      ? window.location.href
+      : `https://exploreindonesia.ai/trips/${slug}`;
+  const encodedUrl = encodeURIComponent(url);
+  const encodedTitle = encodeURIComponent(title);
+
+  const links: Array<{ label: string; href: string; icon: React.ReactNode }> = [
+    {
+      label: "Twitter",
+      href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Facebook",
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true">
+          <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.99 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.99 22 12" />
+        </svg>
+      ),
+    },
+    {
+      label: "WhatsApp",
+      href: `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true">
+          <path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.555-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448zM6.597 20.13a9.86 9.86 0 005.452 1.65h.005c5.448 0 9.886-4.434 9.889-9.885a9.86 9.86 0 00-2.892-6.994 9.825 9.825 0 00-6.993-2.901c-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l.235.374-1 3.648zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413" />
+        </svg>
+      ),
+    },
+    {
+      label: "LinkedIn",
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Email",
+      href: `mailto:?subject=${encodedTitle}&body=${encodedTitle}%0A%0A${encodedUrl}`,
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m3 7 9 6 9-6" />
+        </svg>
+      ),
+    },
+  ];
+
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1800);
+    } catch {
+      /* noop */
+    }
+  };
+
+  return (
+    <section
+      className="mt-12 pt-8 border-t"
+      style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+      aria-label="Share this itinerary"
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-[0.25em] mb-4"
+        style={{ color: "var(--teal-link)" }}
+      >
+        Share this itinerary
+      </p>
+      <div className="flex flex-wrap items-center gap-2">
+        {links.map((l) => (
+          <a
+            key={l.label}
+            href={l.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Share on ${l.label}`}
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full border transition-colors hover:bg-black/5"
+            style={{
+              borderColor: "var(--border-cream, #e6dfd2)",
+              color: "var(--navy-deep)",
+            }}
+          >
+            {l.icon}
+          </a>
+        ))}
+        <button
+          type="button"
+          onClick={copyLink}
+          className="inline-flex items-center gap-2 px-4 h-10 rounded-full border text-sm font-medium transition-colors hover:bg-black/5"
+          style={{
+            borderColor: "var(--border-cream, #e6dfd2)",
+            color: "var(--navy-deep)",
+          }}
+        >
+          <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <rect x="9" y="9" width="13" height="13" rx="2" />
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+          </svg>
+          {copied ? "Copied!" : "Copy link"}
+        </button>
+      </div>
+    </section>
+  );
+}
+
