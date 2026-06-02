@@ -426,9 +426,9 @@ const PROGRESS_MSGS = [
   "Reading your paste line by line…",
   "Grouping activities into days…",
   "Searching providers across Klook, Viator, GetYourGuide & 12Go…",
-  "Mocking bookable results — matching prices & de-duping…",
+  "Mocking bookable results, matching prices and de-duping…",
   "Ranking by rating and proximity…",
-  "Ready — your trip is bookable.",
+  "Ready, your trip is bookable.",
 ];
 
 function AssemblingStage({ onDone }: { onDone: () => void }) {
