@@ -507,6 +507,7 @@ function InspirationCard({
       className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 cursor-pointer"
       style={{
         borderColor: "var(--border-cream)",
+        cursor: "pointer",
         // @ts-expect-error CSS custom prop for focus ring
         "--tw-ring-color": "var(--blue-bright)",
       }}
