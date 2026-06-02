@@ -136,6 +136,24 @@ function ArticlePage() {
   );
 }
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
+function extractText(children: unknown): string {
+  if (typeof children === "string") return children;
+  if (Array.isArray(children)) return children.map(extractText).join("");
+  if (children && typeof children === "object" && "props" in (children as Record<string, unknown>)) {
+    return extractText((children as { props: { children?: unknown } }).props?.children);
+  }
+  return "";
+}
+
 function ArticleInner() {
   const { slug } = Route.useParams();
   const { data: a } = useSuspenseQuery(articleQO(slug));
@@ -148,9 +166,22 @@ function ArticleInner() {
     return m;
   }, [a.affiliateLinks]);
 
+  const toc = useMemo(() => {
+    const items: Array<{ id: string; text: string }> = [];
+    (a.body ?? []).forEach((block) => {
+      const b = block as { _type?: string; style?: string; children?: Array<{ text?: string }> };
+      if (b._type === "block" && b.style === "h2") {
+        const text = (b.children ?? []).map((c) => c.text ?? "").join("").trim();
+        if (text) items.push({ id: slugifyHeading(text), text });
+      }
+    });
+    return items;
+  }, [a.body]);
+
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
     : null;
+
 
   const components: PortableTextComponents = {
     block: {
