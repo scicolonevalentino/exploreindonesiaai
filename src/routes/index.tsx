@@ -12,6 +12,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
   DESTINATIONS,
@@ -207,6 +208,8 @@ function Trust() {
 
   // Duplicate so the marquee loops seamlessly.
   const loop = [...partners, ...partners];
+  const trackRef = useRef<HTMLDivElement>(null);
+  useMarqueeDrag(trackRef);
 
   return (
     <section
@@ -234,6 +237,7 @@ function Trust() {
         }}
       >
         <div
+          ref={trackRef}
           className="flex gap-3 sm:gap-4 w-max animate-marquee"
           data-partner-track="true"
         >
@@ -558,6 +562,8 @@ class InspirationBoundary extends Component<
 
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
+  const trackRef = useRef<HTMLDivElement>(null);
+  useMarqueeDrag(trackRef);
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
@@ -596,6 +602,7 @@ function InspirationMarquee() {
         }}
       >
         <div
+          ref={trackRef}
           className="flex gap-5 w-max animate-marquee"
           role="list"
           aria-label={`${articles.length} trip itineraries. Use arrow keys to navigate.`}
