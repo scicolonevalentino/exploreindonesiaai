@@ -220,44 +220,28 @@ function Trust() {
 // Minimum number of cards we expect for a healthy carousel.
 const MIN_EXPECTED_ARTICLES = 4;
 
-// Build a clean, short title from the full article title.
-// Drops trailing explanations after a separator and parenthetical asides
-// like "(Borobudur, Bromo & Ijen)". Also collapses dangling connectors
-// (trailing commas, " and ", " & ", " with ", " featuring ", etc.) so the
-// result always reads as a complete phrase.
-function shortTitle(title: string): string {
-  if (!title) return "";
-  let t = title.trim();
+type GtagFn = (cmd: string, event: string, params: Record<string, unknown>) => void;
+type WindowWithAnalytics = {
+  gtag?: GtagFn;
+  dataLayer?: Array<Record<string, unknown>>;
+};
 
-  // 1. Strip trailing parenthetical / bracketed asides: "X (foo bar)" -> "X"
-  t = t.replace(/\s*[\(\[\{][^\)\]\}]*[\)\]\}]\s*$/g, "").trim();
-
-  // 2. Cut at the first major separator (colon, em/en dash, pipe, slash, hyphen).
-  const separators = [":", " — ", " – ", " | ", " / ", " - "];
-  for (const s of separators) {
-    const i = t.indexOf(s);
-    if (i > 0) {
-      t = t.slice(0, i).trim();
-      break;
+function sendGAEvent(event: string, payload: Record<string, unknown>) {
+  if (typeof window === "undefined") return;
+  const w = window as unknown as WindowWithAnalytics;
+  try {
+    if (typeof w.gtag === "function") {
+      w.gtag("event", event, payload);
+    } else if (Array.isArray(w.dataLayer)) {
+      w.dataLayer.push({ event, ...payload });
     }
+  } catch {
+    // Never let analytics break the page.
   }
-
-  // 3. Trim trailing dangling connectors so we never end on "and", "with", a comma, etc.
-  const danglingRe = /[\s,;:\-–—]+(?:and|or|with|featuring|feat\.?|incl(?:uding)?|plus|&)\s*$/i;
-  // Run twice in case there are stacked dangles like "Java, and".
-  t = t.replace(danglingRe, "").trim();
-  t = t.replace(danglingRe, "").trim();
-  t = t.replace(/[,;:\-–—\s]+$/g, "").trim();
-
-  return t;
 }
 
-// Fire a GA4 event when a card is clicked. Safe no-op if gtag isn't loaded.
-function trackCardClick(article: ArticleListItem, position: number) {
-  if (typeof window === "undefined") return;
-  type GtagFn = (cmd: string, event: string, params: Record<string, unknown>) => void;
-  const w = window as unknown as { gtag?: GtagFn; dataLayer?: Array<Record<string, unknown>> };
-  const payload = {
+function cardPayload(article: ArticleListItem, position: number) {
+  return {
     event_category: "home_inspiration_carousel",
     item_id: article._id,
     item_name: shortTitle(article.title),
@@ -267,25 +251,40 @@ function trackCardClick(article: ArticleListItem, position: number) {
     position,
     link_url: `/trips/${article.slug?.current ?? ""}`,
   };
-  try {
-    if (typeof w.gtag === "function") {
-      w.gtag("event", "select_content", payload);
-      w.gtag("event", "inspiration_card_click", payload);
-    } else if (Array.isArray(w.dataLayer)) {
-      w.dataLayer.push({ event: "inspiration_card_click", ...payload });
-    }
-  } catch {
-    // Never let analytics break navigation.
-  }
+}
+
+function trackCardClick(article: ArticleListItem, position: number) {
+  const payload = cardPayload(article, position);
+  sendGAEvent("select_content", payload);
+  sendGAEvent("inspiration_card_click", payload);
+}
+
+// Module-level set so impressions are only fired once per slug per session,
+// even though cards are duplicated in the marquee loop.
+const impressionFired = new Set<string>();
+
+function trackCardImpression(article: ArticleListItem, position: number) {
+  const slug = article.slug?.current;
+  if (!slug || impressionFired.has(slug)) return;
+  impressionFired.add(slug);
+  const payload = cardPayload(article, position);
+  sendGAEvent("view_item", payload);
+  sendGAEvent("inspiration_card_impression", payload);
 }
 
 function InspirationCard({
   article,
   position,
+  totalCards,
 }: {
   article: ArticleListItem;
   position: number;
+  totalCards: number;
 }) {
+  const router = useRouter();
+  const linkRef = useRef<HTMLAnchorElement>(null);
+  const slug = article.slug?.current;
+
   const img = article.heroImage?.asset
     ? urlFor(article.heroImage).width(720).height(900).fit("crop").auto("format").url()
     : null;
@@ -293,14 +292,79 @@ function InspirationCard({
   const traveller = article.travellerTypes?.[0]
     ? labelFor(TRAVELLER_TYPES, article.travellerTypes[0])
     : labelFor(DESTINATIONS, article.destinationPrimary);
+  const title = shortTitle(article.title);
+
+  // Impression tracking + route prefetch when the card scrolls into view.
+  useEffect(() => {
+    const el = linkRef.current;
+    if (!el || !slug) return;
+    if (typeof IntersectionObserver === "undefined") {
+      // Fallback: count as visible immediately + prefetch.
+      trackCardImpression(article, position);
+      router.preloadRoute({ to: "/trips/$slug", params: { slug } }).catch(() => {});
+      return;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            trackCardImpression(article, position);
+            router
+              .preloadRoute({ to: "/trips/$slug", params: { slug } })
+              .catch(() => {});
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: [0.5] },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [article, position, slug, router]);
+
+  // Arrow-key navigation between sibling cards in the same marquee row.
+  const handleKeyDown = useCallback(
+    (e: ReactKeyboardEvent<HTMLAnchorElement>) => {
+      if (e.key !== "ArrowRight" && e.key !== "ArrowLeft" && e.key !== "Home" && e.key !== "End")
+        return;
+      const current = linkRef.current;
+      if (!current) return;
+      const parent = current.parentElement;
+      if (!parent) return;
+      const siblings = Array.from(
+        parent.querySelectorAll<HTMLAnchorElement>('[data-inspiration-card="true"]'),
+      );
+      const idx = siblings.indexOf(current);
+      if (idx === -1) return;
+      e.preventDefault();
+      let next = idx;
+      if (e.key === "ArrowRight") next = Math.min(idx + 1, siblings.length - 1);
+      if (e.key === "ArrowLeft") next = Math.max(idx - 1, 0);
+      if (e.key === "Home") next = 0;
+      if (e.key === "End") next = siblings.length - 1;
+      siblings[next]?.focus();
+    },
+    [],
+  );
 
   return (
     <Link
+      ref={linkRef}
       to="/trips/$slug"
       params={{ slug: article.slug.current }}
+      preload="intent"
       onClick={() => trackCardClick(article, position)}
-      className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl"
-      style={{ borderColor: "var(--border-cream)" }}
+      onKeyDown={handleKeyDown}
+      data-inspiration-card="true"
+      role="listitem"
+      aria-label={`${title}${duration ? ` — ${duration}` : ""}${traveller ? `, for ${traveller}` : ""}. Card ${position + 1} of ${totalCards}.`}
+      className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2"
+      style={{
+        borderColor: "var(--border-cream)",
+        // @ts-expect-error CSS custom prop for focus ring
+        "--tw-ring-color": "var(--blue-bright)",
+      }}
     >
       <div
         className="aspect-[4/5] w-full overflow-hidden"
@@ -322,7 +386,7 @@ function InspirationCard({
           }}
         />
       </div>
-      <div className="absolute inset-x-0 bottom-0 p-5 text-white">
+      <div className="absolute inset-x-0 bottom-0 p-5 text-white" aria-hidden="true">
         {duration && (
           <p
             className="text-[11px] uppercase tracking-[0.2em] mb-1.5"
@@ -332,11 +396,9 @@ function InspirationCard({
           </p>
         )}
         <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug">
-          {shortTitle(article.title)}
+          {title}
         </h3>
-        {traveller && (
-          <p className="mt-1 text-xs text-white/80">{traveller}</p>
-        )}
+        {traveller && <p className="mt-1 text-xs text-white/80">{traveller}</p>}
       </div>
     </Link>
   );
@@ -347,6 +409,7 @@ function CardSkeleton() {
     <div
       className="w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border animate-skeleton"
       style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
+      aria-hidden="true"
     >
       <div className="aspect-[4/5] w-full" style={{ backgroundColor: "var(--blue-soft)" }} />
       <div className="p-5 space-y-2">
@@ -360,7 +423,12 @@ function CardSkeleton() {
 
 function InspirationSkeleton() {
   return (
-    <div className="w-full overflow-hidden">
+    <div
+      className="w-full overflow-hidden"
+      role="status"
+      aria-live="polite"
+      aria-label="Loading trip inspiration"
+    >
       <div className="flex gap-5 px-6">
         {Array.from({ length: 6 }).map((_, i) => (
           <CardSkeleton key={i} />
@@ -376,6 +444,7 @@ function InspirationFallback({ message }: { message: string }) {
       <div
         className="rounded-2xl border p-8 sm:p-10 text-center"
         style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
+        role="status"
       >
         <p className="font-serif text-xl mb-2" style={{ color: "var(--navy-deep)" }}>
           Trip inspiration is on its way.
@@ -395,8 +464,6 @@ function InspirationFallback({ message }: { message: string }) {
   );
 }
 
-// Suspense + error boundary. Showing the fallback UI on any fetch failure
-// keeps the homepage from crashing if Sanity is unreachable.
 class InspirationBoundary extends Component<
   { children: ReactNode },
   { hasError: boolean }
@@ -427,12 +494,8 @@ function InspirationMarquee() {
     );
   }
 
-  // If fewer than expected, surface a soft notice above the row but still
-  // render whatever we have so the section never looks broken.
   const fewerThanExpected = articles.length < MIN_EXPECTED_ARTICLES;
 
-  // Duplicate the list so the marquee loops seamlessly. With a tiny set we
-  // duplicate more times so the row visually fills the viewport.
   const repeats = articles.length >= 4 ? 2 : Math.ceil(8 / Math.max(articles.length, 1));
   const loop = Array.from({ length: repeats }).flatMap(() => articles);
 
@@ -446,7 +509,10 @@ function InspirationMarquee() {
         </div>
       )}
       <div
-        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll"
+        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll focus-within:[&_.animate-marquee]:[animation-play-state:paused]"
+        role="region"
+        aria-roledescription="carousel"
+        aria-label="Top selection of Indonesia trips"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
@@ -454,15 +520,25 @@ function InspirationMarquee() {
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
         }}
       >
-        <div className="flex gap-5 w-max animate-marquee">
+        <div
+          className="flex gap-5 w-max animate-marquee"
+          role="list"
+          aria-label={`${articles.length} trip itineraries. Use arrow keys to navigate.`}
+        >
           {loop.map((a, i) => (
-            <InspirationCard key={`${a._id}-${i}`} article={a} position={i} />
+            <InspirationCard
+              key={`${a._id}-${i}`}
+              article={a}
+              position={i}
+              totalCards={loop.length}
+            />
           ))}
         </div>
       </div>
     </>
   );
 }
+
 
 function Inspiration() {
   return (
