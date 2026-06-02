@@ -1,6 +1,8 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useMemo } from "react";
+import { ChevronDown, X } from "lucide-react";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { sanityClient, urlFor } from "@/lib/sanity";
 import {
   ARTICLES_LIST_QUERY,
@@ -97,16 +99,20 @@ function TripsInner() {
     });
   };
 
+  const clearGroup = (key: keyof Search) =>
+    navigate({
+      search: (prev: Search) => ({ ...prev, [key]: undefined }),
+      replace: true,
+    });
+
   const clearAll = () =>
     navigate({
       search: () => ({}) as Search,
       replace: true,
     });
 
-  // AND across filter groups, OR within a group.
   const filtered = useMemo(() => {
     return articles.filter((a) => {
-      // Destination: matches primary OR any secondary
       if (sel.destinations.length) {
         const all = [a.destinationPrimary, ...(a.destinationSecondary ?? [])].filter(
           Boolean,
@@ -138,10 +144,38 @@ function TripsInner() {
     sel.travellers.length +
     sel.vibes.length;
 
+  const activeChips: Array<{ key: keyof Search; value: string; label: string }> = [
+    ...sel.destinations.map((v: string) => ({
+      key: "destinations" as const,
+      value: v,
+      label: labelFor(DESTINATIONS, v),
+    })),
+    ...sel.tripLengths.map((v: string) => ({
+      key: "tripLengths" as const,
+      value: v,
+      label: labelFor(TRIP_LENGTHS, v),
+    })),
+    ...sel.styles.map((v: string) => ({
+      key: "styles" as const,
+      value: v,
+      label: labelFor(TRAVEL_STYLES, v),
+    })),
+    ...sel.travellers.map((v: string) => ({
+      key: "travellers" as const,
+      value: v,
+      label: labelFor(TRAVELLER_TYPES, v),
+    })),
+    ...sel.vibes.map((v: string) => ({
+      key: "vibes" as const,
+      value: v,
+      label: labelFor(VIBES, v),
+    })),
+  ];
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--cream)" }}>
       <header
-        className="w-full px-6 py-10 sm:py-14"
+        className="w-full px-6 py-8 sm:py-10"
         style={{
           background:
             "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
@@ -151,136 +185,212 @@ function TripsInner() {
           <Link to="/" className="text-sm text-white/70 hover:text-white">
             ← Home
           </Link>
-          <h1 className="mt-4 font-serif text-white text-4xl sm:text-5xl font-semibold leading-tight">
+          <h1 className="mt-3 font-serif text-white text-3xl sm:text-4xl font-semibold leading-tight">
             Explore all trips
           </h1>
-          <p className="mt-3 text-white/80 max-w-2xl">
-            Hand-picked Indonesia itineraries. Filter by what matters to you.
+          <p className="mt-2 text-white/75 text-sm sm:text-base max-w-2xl">
+            Hand-picked Indonesia itineraries.
           </p>
         </div>
       </header>
 
-      <div className="mx-auto max-w-7xl px-6 py-10 grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10">
-        <aside className="lg:sticky lg:top-6 lg:self-start space-y-7">
-          <div className="flex items-center justify-between">
-            <h2 className="font-serif text-xl font-semibold" style={{ color: "var(--navy-deep)" }}>
-              Filters
-            </h2>
-            {totalFilters > 0 && (
-              <button
-                onClick={clearAll}
-                className="text-xs font-medium underline"
-                style={{ color: "var(--teal-link)" }}
-              >
-                Clear all ({totalFilters})
-              </button>
-            )}
-          </div>
-
-          <FilterGroup
-            title="Destination"
+      {/* Horizontal filter bar */}
+      <div
+        className="sticky top-0 z-30 border-b backdrop-blur"
+        style={{
+          backgroundColor: "color-mix(in oklab, var(--cream) 92%, transparent)",
+          borderColor: "var(--border-cream)",
+        }}
+      >
+        <div className="mx-auto max-w-7xl px-6 py-3 flex items-center gap-2 flex-wrap">
+          <span
+            className="text-[11px] font-semibold uppercase tracking-[0.2em] mr-1"
+            style={{ color: "var(--slate-muted)" }}
+          >
+            Filter
+          </span>
+          <FilterDropdown
+            label="Destination"
             options={DESTINATIONS}
             selected={sel.destinations}
             onToggle={(v) => toggle("destinations", v)}
+            onClear={() => clearGroup("destinations")}
           />
-          <FilterGroup
-            title="Trip length"
+          <FilterDropdown
+            label="Trip length"
             options={TRIP_LENGTHS}
             selected={sel.tripLengths}
             onToggle={(v) => toggle("tripLengths", v)}
+            onClear={() => clearGroup("tripLengths")}
           />
-          <FilterGroup
-            title="Travel style"
+          <FilterDropdown
+            label="Travel style"
             options={TRAVEL_STYLES}
             selected={sel.styles}
             onToggle={(v) => toggle("styles", v)}
+            onClear={() => clearGroup("styles")}
           />
-          <FilterGroup
-            title="Traveller type"
+          <FilterDropdown
+            label="Traveller"
             options={TRAVELLER_TYPES}
             selected={sel.travellers}
             onToggle={(v) => toggle("travellers", v)}
+            onClear={() => clearGroup("travellers")}
           />
-          <FilterGroup
-            title="Vibe"
+          <FilterDropdown
+            label="Vibe"
             options={VIBES}
             selected={sel.vibes}
             onToggle={(v) => toggle("vibes", v)}
+            onClear={() => clearGroup("vibes")}
           />
-        </aside>
-
-        <main>
-          <p className="text-sm mb-6" style={{ color: "var(--slate-muted)" }}>
-            {filtered.length} {filtered.length === 1 ? "trip" : "trips"}
-            {totalFilters > 0 ? ` matching your filters` : ""}
-          </p>
-
-          {filtered.length === 0 ? (
-            <div
-              className="rounded-2xl border p-10 text-center"
-              style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
+          {totalFilters > 0 && (
+            <button
+              onClick={clearAll}
+              className="ml-auto text-xs font-medium underline underline-offset-2"
+              style={{ color: "var(--teal-link)" }}
             >
-              <p className="font-serif text-xl mb-2" style={{ color: "var(--navy-deep)" }}>
-                No trips match these filters yet.
-              </p>
-              <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
-                Try clearing some filters or check back soon.
-              </p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {filtered.map((a) => (
-                <TripCard key={a._id} article={a} />
-              ))}
-            </div>
+              Clear all ({totalFilters})
+            </button>
           )}
-        </main>
+        </div>
+        {activeChips.length > 0 && (
+          <div className="mx-auto max-w-7xl px-6 pb-3 flex flex-wrap gap-2">
+            {activeChips.map((chip) => (
+              <button
+                key={`${chip.key}-${chip.value}`}
+                onClick={() => toggle(chip.key, chip.value)}
+                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium border transition-colors hover:bg-black/5"
+                style={{
+                  borderColor: "var(--border-cream)",
+                  color: "var(--navy-deep)",
+                  backgroundColor: "#fff",
+                }}
+              >
+                {chip.label}
+                <X className="h-3 w-3 opacity-60" />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
+
+      <main className="mx-auto max-w-7xl px-6 py-10">
+        <p className="text-sm mb-6" style={{ color: "var(--slate-muted)" }}>
+          {filtered.length} {filtered.length === 1 ? "trip" : "trips"}
+          {totalFilters > 0 ? ` matching your filters` : ""}
+        </p>
+
+        {filtered.length === 0 ? (
+          <div
+            className="rounded-2xl border p-10 text-center"
+            style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
+          >
+            <p className="font-serif text-xl mb-2" style={{ color: "var(--navy-deep)" }}>
+              No trips match these filters yet.
+            </p>
+            <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
+              Try clearing some filters or check back soon.
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filtered.map((a) => (
+              <TripCard key={a._id} article={a} />
+            ))}
+          </div>
+        )}
+      </main>
     </div>
   );
 }
 
-function FilterGroup({
-  title,
+function FilterDropdown({
+  label,
   options,
   selected,
   onToggle,
+  onClear,
 }: {
-  title: string;
+  label: string;
   options: ReadonlyArray<{ value: string; label: string }>;
   selected: string[];
   onToggle: (v: string) => void;
+  onClear: () => void;
 }) {
+  const count = selected.length;
+  const active = count > 0;
   return (
-    <div>
-      <h3
-        className="text-xs font-semibold uppercase tracking-[0.15em] mb-3"
-        style={{ color: "var(--navy-mid)" }}
+    <Popover>
+      <PopoverTrigger asChild>
+        <button
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-colors"
+          style={{
+            borderColor: active ? "var(--navy-deep)" : "var(--border-cream)",
+            backgroundColor: active ? "var(--navy-deep)" : "#fff",
+            color: active ? "#fff" : "var(--navy-deep)",
+          }}
+        >
+          {label}
+          {active && (
+            <span
+              className="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full text-[10px] font-bold"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.25)",
+                color: "#fff",
+              }}
+            >
+              {count}
+            </span>
+          )}
+          <ChevronDown className="h-3.5 w-3.5 opacity-70" />
+        </button>
+      </PopoverTrigger>
+      <PopoverContent
+        align="start"
+        className="w-64 p-0 overflow-hidden"
+        style={{ borderColor: "var(--border-cream)" }}
       >
-        {title}
-      </h3>
-      <ul className="space-y-2">
-        {options.map((o) => {
-          const checked = selected.includes(o.value);
-          return (
-            <li key={o.value}>
-              <label className="flex items-start gap-2 cursor-pointer text-sm">
-                <input
-                  type="checkbox"
-                  checked={checked}
-                  onChange={() => onToggle(o.value)}
-                  className="mt-0.5 h-4 w-4 rounded border-2 cursor-pointer"
-                  style={{ accentColor: "var(--blue-bright)" }}
-                />
-                <span style={{ color: checked ? "var(--navy-deep)" : "var(--text-dark)" }}>
-                  {o.label}
-                </span>
-              </label>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+        <ul className="max-h-72 overflow-y-auto p-2">
+          {options.map((o) => {
+            const checked = selected.includes(o.value);
+            return (
+              <li key={o.value}>
+                <label
+                  className="flex items-center gap-2.5 px-2 py-2 rounded-md cursor-pointer hover:bg-black/5 text-sm"
+                  style={{ color: "var(--text-dark)" }}
+                >
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={() => onToggle(o.value)}
+                    className="h-4 w-4 rounded border-2 cursor-pointer"
+                    style={{ accentColor: "var(--blue-bright)" }}
+                  />
+                  <span style={{ color: checked ? "var(--navy-deep)" : "var(--text-dark)" }}>
+                    {o.label}
+                  </span>
+                </label>
+              </li>
+            );
+          })}
+        </ul>
+        {active && (
+          <div
+            className="border-t px-3 py-2 flex justify-end"
+            style={{ borderColor: "var(--border-cream)" }}
+          >
+            <button
+              onClick={onClear}
+              className="text-xs font-medium underline"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Clear {label.toLowerCase()}
+            </button>
+          </div>
+        )}
+      </PopoverContent>
+    </Popover>
   );
 }
 
