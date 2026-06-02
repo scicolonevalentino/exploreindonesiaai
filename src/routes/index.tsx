@@ -490,7 +490,12 @@ class InspirationBoundary extends Component<
     return { hasError: true };
   }
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error("[Inspiration] failed to load", error, info);
+    console.error("[Inspiration] fetch failed after retries — using fallback UI", {
+      fallbackPath: "InspirationFallback (error boundary)",
+      message: error.message,
+      stack: error.stack,
+      componentStack: info.componentStack,
+    });
   }
   render() {
     if (this.state.hasError) {
