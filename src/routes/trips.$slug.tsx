@@ -181,6 +181,9 @@ function ArticleInner() {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [clickedId, setClickedId] = useState<string | null>(null);
 
+  // Single source of truth: header offset used by both scroll-spy and smooth scroll
+  const SCROLL_OFFSET = 96;
+
   useEffect(() => {
     if (toc.length === 0) return;
     const headings = toc
@@ -197,22 +200,57 @@ function ArticleInner() {
           setActiveId(visible[0].target.id);
         }
       },
-      { rootMargin: "-96px 0px -70% 0px", threshold: [0, 1] }
+      { rootMargin: `-${SCROLL_OFFSET}px 0px -70% 0px`, threshold: [0, 1] }
     );
     headings.forEach((h) => observer.observe(h));
     return () => observer.disconnect();
   }, [toc]);
 
-  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault();
+  const scrollToHeading = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
+    const prefersReducedMotion =
+      typeof window !== "undefined" &&
+      window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    const top = el.getBoundingClientRect().top + window.scrollY - SCROLL_OFFSET;
+    window.scrollTo({
+      top,
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+    // Move focus for screen-reader/keyboard users without re-scrolling
+    el.setAttribute("tabindex", "-1");
+    el.focus({ preventScroll: true });
+    history.replaceState(null, "", `#${id}`);
+  };
+
+  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
     setClickedId(id);
     setActiveId(id);
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
-    history.replaceState(null, "", `#${id}`);
+    scrollToHeading(id);
     window.setTimeout(() => setClickedId(null), 450);
   };
+
+  const handleTocKeyDown = (e: React.KeyboardEvent<HTMLAnchorElement>, index: number) => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const dir = e.key === "ArrowDown" ? 1 : -1;
+      const next = (index + dir + toc.length) % toc.length;
+      const nextLink = document.querySelector<HTMLAnchorElement>(
+        `[data-toc-index="${next}"]`
+      );
+      nextLink?.focus();
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      document.querySelector<HTMLAnchorElement>(`[data-toc-index="0"]`)?.focus();
+    } else if (e.key === "End") {
+      e.preventDefault();
+      document
+        .querySelector<HTMLAnchorElement>(`[data-toc-index="${toc.length - 1}"]`)
+        ?.focus();
+    }
+  };
+
 
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
