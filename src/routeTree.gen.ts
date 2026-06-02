@@ -15,6 +15,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
+import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
@@ -46,12 +47,18 @@ const TripsSlugRoute = TripsSlugRouteImport.update({
   path: '/trips/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
+  id: '/destinations/$destination',
+  path: '/destinations/$destination',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
 }
@@ -60,6 +67,7 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
 }
@@ -69,6 +77,7 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
 }
@@ -79,16 +88,25 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/privacy' | '/sitemap.xml' | '/terms' | '/trips/$slug' | '/trips'
+  to:
+    | '/'
+    | '/privacy'
+    | '/sitemap.xml'
+    | '/terms'
+    | '/destinations/$destination'
+    | '/trips/$slug'
+    | '/trips'
   id:
     | '__root__'
     | '/'
     | '/privacy'
     | '/sitemap.xml'
     | '/terms'
+    | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
   fileRoutesById: FileRoutesById
@@ -98,6 +116,7 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
+  DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
 }
@@ -146,6 +165,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TripsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/destinations/$destination': {
+      id: '/destinations/$destination'
+      path: '/destinations/$destination'
+      fullPath: '/destinations/$destination'
+      preLoaderRoute: typeof DestinationsDestinationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -154,6 +180,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
+  DestinationsDestinationRoute: DestinationsDestinationRoute,
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
 }
