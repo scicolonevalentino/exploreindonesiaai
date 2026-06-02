@@ -887,14 +887,31 @@ function DestinationsStrip() {
   );
 }
 
+function EmbeddedPrototype() {
+  const sectionRef = useRef<HTMLElement>(null);
+  return (
+    <section
+      id="try-it"
+      ref={sectionRef}
+      aria-label="Try the prototype"
+      className="w-full flex flex-col"
+      style={{ backgroundColor: "#faf9f5" }}
+    >
+      <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} />
+    </section>
+  );
+}
+
 function Landing() {
   return (
     <main className="min-h-screen">
       <Hero />
       <HowItWorks />
+      <EmbeddedPrototype />
       <Trust />
       <Inspiration />
       <DestinationsStrip />
     </main>
   );
 }
+
