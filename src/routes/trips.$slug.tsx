@@ -341,60 +341,94 @@ function ArticleInner() {
         </div>
       </section>
 
-      <article className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
-        {a.intro && (
-          <p
-            className="font-serif text-lg sm:text-xl leading-relaxed mb-10"
-            style={{ color: "var(--navy-mid)" }}
-          >
-            {a.intro}
-          </p>
-        )}
-
-        <div className="flex flex-wrap gap-2 mb-10">
-          {labelFor(TRAVEL_STYLES, a.travelStylePrimary) && (
-            <Tag>{labelFor(TRAVEL_STYLES, a.travelStylePrimary)}</Tag>
-          )}
-          {a.vibe && <Tag>{labelFor(VIBES, a.vibe)}</Tag>}
-          {a.bestSeason && <Tag>Best: {a.bestSeason}</Tag>}
-        </div>
-
-        {a.body && <PortableText value={a.body as never} components={components} />}
-
-        {piItems.some(([, v]) => v) && (
-          <section
-            className="mt-16 rounded-2xl p-6 sm:p-8 border"
-            style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
-          >
-            <h2
-              className="font-serif text-2xl font-semibold mb-5"
-              style={{ color: "var(--navy-deep)" }}
+      <div className="mx-auto max-w-7xl px-6 py-12 sm:py-16 lg:grid lg:grid-cols-12 lg:gap-12">
+        <article className="lg:col-span-8 lg:col-start-2 max-w-3xl mx-auto lg:mx-0 w-full">
+          {a.intro && (
+            <p
+              className="font-serif text-lg sm:text-xl leading-relaxed mb-10"
+              style={{ color: "var(--navy-mid)" }}
             >
-              Practical info
-            </h2>
-            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {piItems
-                .filter(([, v]) => v)
-                .map(([k, v]) => (
-                  <div key={k}>
-                    <dt
-                      className="text-xs font-semibold uppercase tracking-[0.15em] mb-1"
-                      style={{ color: "var(--teal-link)" }}
-                    >
-                      {k}
-                    </dt>
-                    <dd className="text-sm" style={{ color: "var(--text-dark)" }}>
-                      {v}
-                    </dd>
-                  </div>
-                ))}
-            </dl>
-          </section>
+              {a.intro}
+            </p>
+          )}
+
+          <div className="flex flex-wrap gap-2 mb-10">
+            {labelFor(TRAVEL_STYLES, a.travelStylePrimary) && (
+              <Tag>{labelFor(TRAVEL_STYLES, a.travelStylePrimary)}</Tag>
+            )}
+            {a.vibe && <Tag>{labelFor(VIBES, a.vibe)}</Tag>}
+            {a.bestSeason && <Tag>Best: {a.bestSeason}</Tag>}
+          </div>
+
+          {a.body && <PortableText value={a.body as never} components={components} />}
+
+          {piItems.some(([, v]) => v) && (
+            <section
+              className="mt-16 rounded-2xl p-6 sm:p-8 border"
+              style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
+            >
+              <h2
+                className="font-serif text-2xl font-semibold mb-5"
+                style={{ color: "var(--navy-deep)" }}
+              >
+                Practical info
+              </h2>
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {piItems
+                  .filter(([, v]) => v)
+                  .map(([k, v]) => (
+                    <div key={k}>
+                      <dt
+                        className="text-xs font-semibold uppercase tracking-[0.15em] mb-1"
+                        style={{ color: "var(--teal-link)" }}
+                      >
+                        {k}
+                      </dt>
+                      <dd className="text-sm" style={{ color: "var(--text-dark)" }}>
+                        {v}
+                      </dd>
+                    </div>
+                  ))}
+              </dl>
+            </section>
+          )}
+        </article>
+
+        {toc.length > 1 && (
+          <aside className="hidden lg:block lg:col-span-3">
+            <div className="sticky top-8">
+              <p
+                className="text-[11px] font-semibold uppercase tracking-[0.25em] mb-4"
+                style={{ color: "var(--teal-link)" }}
+              >
+                On this page
+              </p>
+              <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
+                <ul className="space-y-2.5">
+                  {toc.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className="block pl-4 -ml-px border-l text-sm leading-snug transition-colors hover:border-current"
+                        style={{
+                          borderColor: "transparent",
+                          color: "var(--navy-mid, #1e3a5f)",
+                        }}
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+          </aside>
         )}
-      </article>
+      </div>
     </div>
   );
 }
+
 
 function Tag({ children }: { children: React.ReactNode }) {
   return (
