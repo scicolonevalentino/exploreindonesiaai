@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
-import { Suspense, useMemo } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
 import {
