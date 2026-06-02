@@ -118,7 +118,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           kind: "selfguided",
           title: "Campuhan Ridge Walk at sunset",
           description:
-            "Go ~5pm to beat the heat — about 2km each way. No ticket needed; start near Warwick Ibah.",
+            "Go ~5pm to beat the heat, about 2km each way. No ticket needed; start near Warwick Ibah.",
         },
       ],
     },
