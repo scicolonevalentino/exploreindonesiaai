@@ -161,7 +161,7 @@ function Hero() {
           You've planned your trip to Indonesia.
           <br />
           <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
-            We make it bookable.
+            We match it.
           </span>
         </h1>
 
@@ -189,13 +189,13 @@ function HowItWorks() {
     },
     {
       n: 2,
-      title: "We make it bookable",
+      title: "We match it",
       body:
         "We match your itinerary with vetted experiences from trusted travel platforms and local operators",
     },
     {
       n: 3,
-      title: "Review and book",
+      title: "You book it",
       body:
         "Review your trip in one place, then choose what to book through trusted travel partners",
     },
