@@ -6,6 +6,7 @@ import {
   useCallback,
   useEffect,
   useRef,
+  useState,
   type ErrorInfo,
   type KeyboardEvent as ReactKeyboardEvent,
   type ReactNode,
@@ -84,6 +85,59 @@ function Logo() {
   );
 }
 
+const ROTATING_PHRASES = ["dreamed of", "imagined", "researched", "planned", "refined"];
+
+function RotatingPhrase() {
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+  const prefersReducedMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+
+  useEffect(() => {
+    if (prefersReducedMotion) return;
+    const visibleMs = 2000;
+    const fadeMs = 450;
+    const cycle = () => {
+      setVisible(false);
+      const swap = window.setTimeout(() => {
+        setIndex((i) => (i + 1) % ROTATING_PHRASES.length);
+        setVisible(true);
+      }, fadeMs);
+      return swap;
+    };
+    const interval = window.setInterval(cycle, visibleMs + fadeMs);
+    return () => window.clearInterval(interval);
+  }, [prefersReducedMotion]);
+
+  // Reserve width using the longest phrase so the sentence doesn't reflow.
+  const longest = ROTATING_PHRASES.reduce((a, b) => (a.length >= b.length ? a : b));
+
+  return (
+    <span
+      className="relative inline-grid align-baseline"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <span className="invisible col-start-1 row-start-1 whitespace-nowrap" aria-hidden="true">
+        {longest}
+      </span>
+      <span
+        key={index}
+        className="col-start-1 row-start-1 whitespace-nowrap italic transition-all ease-out"
+        style={{
+          transitionDuration: "450ms",
+          opacity: visible ? 1 : 0,
+          transform: visible ? "translateY(0)" : "translateY(-0.35em)",
+          filter: visible ? "blur(0)" : "blur(6px)",
+        }}
+      >
+        {ROTATING_PHRASES[index]}
+      </span>
+    </span>
+  );
+}
+
 function Hero() {
   const isMobile = useIsMobile();
   const videoSrc = isMobile ? heroVideoMobile.url : heroVideoDesktop.url;
@@ -155,15 +209,19 @@ function Hero() {
         </p>
 
         <h1
-          className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
+          className="font-serif text-white leading-[1.15] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
           style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          You've planned your trip to Indonesia.
-          <br />
-          <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
+          <span className="block">
+            You've <RotatingPhrase /> your
+            <br className="hidden sm:block" />
+            {" "}trip to Indonesia.
+          </span>
+          <span className="block italic font-normal mt-2" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
+
 
 
         <p
