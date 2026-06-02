@@ -258,7 +258,6 @@ function Trust() {
             </div>
           ))}
         </div>
-        <MarqueeHint visible={!dismissed} />
       </div>
 
 
