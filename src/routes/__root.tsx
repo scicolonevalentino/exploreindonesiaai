@@ -138,6 +138,37 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           children:
             "(function(){var s=document.createElement('script');s.async=1;s.src='https://emrldtp.cc/NTM1Mzc0.js?t=535374';document.head.appendChild(s);})();",
         },
+        // Organization JSON-LD
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "ExploreIndonesia.ai",
+            url: "https://exploreindonesia.ai",
+            logo: "https://exploreindonesia.ai/favicon.ico",
+            description:
+              "AI-powered Indonesia trip planner with bookable itineraries for Bali, Java, Komodo, Raja Ampat and beyond.",
+          }),
+        },
+        // WebSite JSON-LD with SearchAction (enables Google sitelinks search box)
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "ExploreIndonesia.ai",
+            url: "https://exploreindonesia.ai",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: {
+                "@type": "EntryPoint",
+                urlTemplate: "https://exploreindonesia.ai/trips?q={search_term_string}",
+              },
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        },
       ],
     };
   },
