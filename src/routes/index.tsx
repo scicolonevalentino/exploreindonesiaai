@@ -1,6 +1,22 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { Suspense } from "react";
 
+import { sanityClient, urlFor } from "@/lib/sanity";
+import {
+  ARTICLES_LIST_QUERY,
+  DESTINATIONS,
+  TRIP_LENGTHS,
+  TRAVELLER_TYPES,
+  labelFor,
+  type ArticleListItem,
+} from "@/lib/sanity-queries";
 
+const articlesQO = queryOptions({
+  queryKey: ["sanity", "articles"],
+  queryFn: () => sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY),
+  staleTime: 60_000,
+});
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -20,6 +36,7 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
     ],
   }),
+  loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
   component: Landing,
 });
 
@@ -182,20 +199,107 @@ function Trust() {
   );
 }
 
-function Inspiration() {
-  const trips = [
-    { title: "Bali & Nusa Islands", days: "10 days", tag: "Beaches · Temples · Cliffs" },
-    { title: "Yogyakarta & Java", days: "7 days", tag: "Borobudur · Prambanan · Bromo" },
-    { title: "Raja Ampat", days: "9 DAYS", tag: "Diving · Reefs · Remote" },
-    { title: "Komodo & Flores", days: "8 days", tag: "Dragons · Reefs · Wilderness" },
-  ];
+// Build a clean, short title from the full article title.
+// Keeps the leading "X Days in <Place>" portion and drops the
+// trailing ":" or " — " / " - " explanation.
+function shortTitle(title: string): string {
+  if (!title) return "";
+  const splitters = [":", " — ", " – ", " - "];
+  for (const s of splitters) {
+    const i = title.indexOf(s);
+    if (i > 0) return title.slice(0, i).trim();
+  }
+  return title.trim();
+}
+
+function InspirationCard({ article }: { article: ArticleListItem }) {
+  const img = article.heroImage?.asset
+    ? urlFor(article.heroImage).width(720).height(900).fit("crop").auto("format").url()
+    : null;
+  const duration = labelFor(TRIP_LENGTHS, article.tripLengthBucket);
+  const traveller = article.travellerTypes?.[0]
+    ? labelFor(TRAVELLER_TYPES, article.travellerTypes[0])
+    : labelFor(DESTINATIONS, article.destinationPrimary);
 
   return (
+    <Link
+      to="/trips/$slug"
+      params={{ slug: article.slug.current }}
+      className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl"
+      style={{ borderColor: "var(--border-cream)" }}
+    >
+      <div
+        className="aspect-[4/5] w-full overflow-hidden"
+        style={{ backgroundColor: "var(--blue-soft)" }}
+      >
+        {img && (
+          <img
+            src={img}
+            alt={article.heroImage?.alt ?? article.title}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+            loading="lazy"
+          />
+        )}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(6,45,42,0.85) 0%, rgba(6,45,42,0.15) 55%, transparent 100%)",
+          }}
+        />
+      </div>
+      <div className="absolute inset-x-0 bottom-0 p-5 text-white">
+        {duration && (
+          <p
+            className="text-[11px] uppercase tracking-[0.2em] mb-1.5"
+            style={{ color: "var(--blue-ice)" }}
+          >
+            {duration}
+          </p>
+        )}
+        <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug">
+          {shortTitle(article.title)}
+        </h3>
+        {traveller && (
+          <p className="mt-1 text-xs text-white/80">{traveller}</p>
+        )}
+      </div>
+    </Link>
+  );
+}
+
+function InspirationMarquee() {
+  const { data: articles } = useSuspenseQuery(articlesQO);
+  if (!articles || articles.length === 0) return null;
+  // Duplicate the list so the marquee loops seamlessly.
+  const loop = [...articles, ...articles];
+
+  return (
+    <div
+      className="relative w-full overflow-hidden marquee-pause"
+      style={{
+        maskImage:
+          "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+        WebkitMaskImage:
+          "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+      }}
+    >
+      <div className="flex gap-5 w-max animate-marquee">
+        {loop.map((a, i) => (
+          <InspirationCard key={`${a._id}-${i}`} article={a} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Inspiration() {
+  return (
     <section
-      className="w-full px-6 py-20 sm:py-28"
+      className="w-full py-20 sm:py-28"
       style={{ backgroundColor: "#ffffff" }}
     >
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl px-6">
         <div className="text-center mb-12">
           <p
             className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] mb-4"
@@ -213,36 +317,26 @@ function Inspiration() {
             Hand-picked routes across the archipelago. Start from one, make it yours.
           </p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {trips.map((t) => (
-            <div
-              key={t.title}
-              className="rounded-2xl border p-6 transition-colors hover:border-current"
-              style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
-            >
-              <p className="text-xs uppercase tracking-[0.2em] mb-3" style={{ color: "var(--teal-link)" }}>
-                {t.days}
-              </p>
-              <h3 className="font-serif text-xl font-semibold mb-2" style={{ color: "var(--navy-mid)" }}>
-                {t.title}
-              </h3>
-              <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
-                {t.tag}
-              </p>
-            </div>
-          ))}
-        </div>
+      <Suspense
+        fallback={
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="h-[380px] rounded-2xl" style={{ backgroundColor: "var(--cream)" }} />
+          </div>
+        }
+      >
+        <InspirationMarquee />
+      </Suspense>
 
-        <div className="text-center mt-12">
-          <a
-            href="/trips"
-            className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "var(--blue-bright)" }}
-          >
-            Explore all trips →
-          </a>
-        </div>
+      <div className="text-center mt-12 px-6">
+        <Link
+          to="/trips"
+          className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "var(--blue-bright)" }}
+        >
+          Explore all trips →
+        </Link>
       </div>
     </section>
   );
@@ -255,8 +349,6 @@ function Landing() {
       <HowItWorks />
       <Trust />
       <Inspiration />
-      
     </main>
   );
 }
-
