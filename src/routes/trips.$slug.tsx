@@ -488,6 +488,18 @@ function ArticleInner() {
                 {a.route}
               </p>
             )}
+            {readingMinutes > 0 && (
+              <p
+                className="mt-4 inline-flex items-center gap-2 text-white/75 text-xs sm:text-sm font-medium tracking-wide"
+                aria-label={`Estimated reading time: ${readingMinutes} minutes`}
+              >
+                <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                {readingMinutes} min read
+              </p>
+            )}
             <div
               className="mx-auto mt-8 h-px w-16"
               style={{
