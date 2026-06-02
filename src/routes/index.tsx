@@ -184,18 +184,6 @@ function HowItWorks() {
   );
 }
 
-function MarqueeHint({ visible }: { visible: boolean }) {
-  return (
-    <div
-      aria-hidden={!visible}
-      className={`pointer-events-none absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-black/65 px-3 py-1 text-[11px] font-medium text-white shadow-sm backdrop-blur-sm transition-opacity duration-300 ${
-        visible ? "opacity-90" : "opacity-0"
-      }`}
-    >
-      Drag, swipe, or use ← → to browse
-    </div>
-  );
-}
 
 
 function Trust() {
