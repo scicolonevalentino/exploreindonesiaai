@@ -145,7 +145,7 @@ function Hero() {
         <Logo />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
+      <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center opacity-70">
         <p
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
           style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
