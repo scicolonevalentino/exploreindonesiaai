@@ -247,7 +247,7 @@ async function pool(items, n, fn) {
   }
 
   if (jsonOut) {
-    writeFileSync(jsonOut, JSON.stringify({ checkedAt: new Date().toISOString(), total: checked.length, issues: broken.length, results: checked }, null, 2));
+    writeFileSync(jsonOut, JSON.stringify({ checkedAt: new Date().toISOString(), total: checked.length, errors: errors.length, warnings: warnings.length, results: checked }, null, 2));
     console.log(`\nWrote ${jsonOut}`);
   }
 })();
