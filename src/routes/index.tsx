@@ -12,7 +12,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import { useMarqueeDrag, useMarqueeHint } from "@/hooks/useMarqueeDrag";
+import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
   DESTINATIONS,
