@@ -30,7 +30,19 @@ export const Route = createFileRoute("/sitemap.xml")({
         const staticEntries = [
           { path: "/", changefreq: "weekly", priority: "1.0" },
           { path: "/trips", changefreq: "weekly", priority: "0.9" },
+          { path: "/privacy", changefreq: "yearly", priority: "0.3" },
+          { path: "/terms", changefreq: "yearly", priority: "0.3" },
         ];
+
+        // Destination landing pages.
+        const { DESTINATION_CONTENT } = await import("@/data/destinations");
+        for (const d of DESTINATION_CONTENT) {
+          staticEntries.push({
+            path: `/destinations/${d.slug}`,
+            changefreq: "weekly",
+            priority: "0.8",
+          });
+        }
 
         const urls: string[] = [];
 
