@@ -852,7 +852,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             >
               <Check className="w-6 h-6 text-white" aria-hidden />
             </div>
-            <DialogTitle className="text-center">Redirected</DialogTitle>
+            <DialogTitle className="text-center">Congratulations!</DialogTitle>
             <DialogDescription className="text-center">
               Finish your booking securely on each supplier. Nothing is confirmed until you complete
               it there.
@@ -867,16 +867,22 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             >
               Back to trip
             </button>
-            <button
-              type="button"
-              onClick={() => setShowRedirect(false)}
-              className="px-5 py-2 rounded-full bg-[var(--navy-deep)] text-white text-sm font-semibold hover:bg-black"
-            >
-              Done
-            </button>
+            <FeedbackDialog
+              trigger={
+                <button
+                  type="button"
+                  className="inline-flex items-center gap-1.5 px-5 py-2 rounded-full bg-[var(--blue-bright)] text-white text-sm font-semibold hover:bg-black transition-colors"
+                >
+                  <MessageSquare className="w-3.5 h-3.5" aria-hidden /> Give us feedback
+                </button>
+              }
+              title="How was the prototype?"
+              description="You made it to the end — tell us what worked, what didn't, or what you'd love next."
+            />
           </div>
         </DialogContent>
       </Dialog>
+
     </div>
   );
 }
