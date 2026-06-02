@@ -439,8 +439,8 @@ function FooterBar() {
           </DialogContent>
         </Dialog>
 
-        <p className="text-xs text-white/50">
-          © {new Date().getFullYear()} exploreindonesia.ai
+        <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
+          {settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`}
         </p>
       </div>
     </footer>
