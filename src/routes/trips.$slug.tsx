@@ -467,7 +467,10 @@ function ArticleInner() {
               </dl>
             </section>
           )}
+
+          <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
         </article>
+
 
         {toc.length > 1 && (
           <aside className="hidden lg:block lg:col-span-3">
