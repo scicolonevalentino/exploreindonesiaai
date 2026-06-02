@@ -423,17 +423,32 @@ function ArticleInner() {
           </a>
         );
       },
-      externalLink: ({ value, children }) => (
-        <a
-          href={value?.href}
-          target={value?.blank === false ? undefined : "_blank"}
-          rel="noopener noreferrer"
-          className="underline"
-          style={{ color: "var(--teal-link)" }}
-        >
-          {children}
-        </a>
-      ),
+      externalLink: ({ value, children }) => {
+        const href: string = value?.href ?? "";
+        const isAffiliate =
+          /airalo\.tpx\.lu|affiliate\.klook\.com|12go\.asia\/\?z=|[?&]pid=P0030|gygaff\.com|stay22|tpx\.lu/.test(
+            href,
+          );
+        return (
+          <a
+            href={href}
+            target={value?.blank === false ? undefined : "_blank"}
+            rel={
+              isAffiliate
+                ? "sponsored noopener noreferrer"
+                : "noopener noreferrer"
+            }
+            className={
+              isAffiliate
+                ? "font-medium underline underline-offset-2"
+                : "underline"
+            }
+            style={{ color: "var(--teal-link)" }}
+          >
+            {children}
+          </a>
+        );
+      },
       strong: ({ children }) => <strong className="font-semibold">{children}</strong>,
       em: ({ children }) => <em className="italic">{children}</em>,
     },
