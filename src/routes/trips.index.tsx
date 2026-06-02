@@ -196,9 +196,9 @@ function TripsInner() {
 
       {/* Horizontal filter bar */}
       <div
-        className="sticky top-0 z-30 border-b backdrop-blur"
+        className="sticky top-0 z-30 border-b"
         style={{
-          backgroundColor: "color-mix(in oklab, var(--cream) 92%, transparent)",
+          backgroundColor: "#ffffff",
           borderColor: "var(--border-cream)",
         }}
       >
@@ -348,8 +348,9 @@ function FilterDropdown({
       </PopoverTrigger>
       <PopoverContent
         align="start"
-        className="w-64 p-0 overflow-hidden"
-        style={{ borderColor: "var(--border-cream)" }}
+        sideOffset={8}
+        className="w-64 p-0 overflow-hidden rounded-xl border shadow-xl"
+        style={{ backgroundColor: "#ffffff", borderColor: "var(--border-cream)" }}
       >
         <ul className="max-h-72 overflow-y-auto p-2">
           {options.map((o) => {
