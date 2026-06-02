@@ -263,27 +263,61 @@ Day 7 — Departure, transfer to airport`;
 /*  Page                                                                      */
 /* -------------------------------------------------------------------------- */
 
-function PrototypePage() {
-  type Stage = "input" | "assembling" | "trip";
+type Stage = "input" | "assembling" | "trip";
+
+/**
+ * Shared composer used by both the standalone /prototype route and the
+ * embedded version on the home page. Manages the textarea value + stage
+ * transitions, and scrolls the container ref (or window) to the top on
+ * each stage change so every step opens from its own top.
+ */
+export function PrototypeFlow({
+  containerRef,
+  showHelloBarOnInput = true,
+}: {
+  containerRef?: RefObject<HTMLElement | null>;
+  showHelloBarOnInput?: boolean;
+}) {
   const [stage, setStage] = useState<Stage>("input");
+  const [paste, setPaste] = useState("");
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [stage]);
+    if (containerRef?.current) {
+      containerRef.current.scrollIntoView({ block: "start", behavior: "auto" });
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+  }, [stage, containerRef]);
+
+  const showHelloBar = showHelloBarOnInput || stage !== "input";
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
-      <PrototypeHelloBar />
-      {stage === "input" && <InputStage onStart={() => setStage("assembling")} />}
+    <>
+      {showHelloBar && <PrototypeHelloBar />}
+      {stage === "input" && (
+        <InputStage
+          value={paste}
+          onChange={setPaste}
+          onStart={() => setStage("assembling")}
+        />
+      )}
       {stage === "assembling" && <AssemblingStage onDone={() => setStage("trip")} />}
       {stage === "trip" && <TripStage onEdit={() => setStage("input")} />}
+    </>
+  );
+}
+
+function PrototypePage() {
+  return (
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
+      <PrototypeFlow />
     </div>
   );
 }
 
 /* ---- Hello bar (feedback only) ---- */
 
-function PrototypeHelloBar() {
+export function PrototypeHelloBar() {
   return (
     <div
       role="region"
@@ -330,6 +364,7 @@ function PrototypeHelloBar() {
     </div>
   );
 }
+
 
 /* ---- Stage 1: Input ---- */
 
