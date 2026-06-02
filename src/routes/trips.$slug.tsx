@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
-import { Suspense, useMemo } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
 import {
@@ -177,6 +177,42 @@ function ArticleInner() {
     });
     return items;
   }, [a.body]);
+
+  const [activeId, setActiveId] = useState<string | null>(null);
+  const [clickedId, setClickedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (toc.length === 0) return;
+    const headings = toc
+      .map((t) => document.getElementById(t.id))
+      .filter((el): el is HTMLElement => !!el);
+    if (headings.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) {
+          setActiveId(visible[0].target.id);
+        }
+      },
+      { rootMargin: "-96px 0px -70% 0px", threshold: [0, 1] }
+    );
+    headings.forEach((h) => observer.observe(h));
+    return () => observer.disconnect();
+  }, [toc]);
+
+  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (!el) return;
+    setClickedId(id);
+    setActiveId(id);
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", `#${id}`);
+    window.setTimeout(() => setClickedId(null), 450);
+  };
 
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
@@ -405,27 +441,47 @@ function ArticleInner() {
               </p>
               <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
                 <ul className="space-y-2.5">
-                  {toc.map((item) => (
-                    <li key={item.id}>
-                      <a
-                        href={`#${item.id}`}
-                        className="group block pl-4 -ml-px border-l border-transparent text-sm leading-snug transition-all duration-200 hover:pl-5 hover:font-medium"
-                        style={{
-                          color: "var(--navy-mid, #1e3a5f)",
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.color = "var(--teal-link, #0f766e)";
-                          e.currentTarget.style.borderColor = "var(--teal-link, #0f766e)";
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.color = "var(--navy-mid, #1e3a5f)";
-                          e.currentTarget.style.borderColor = "transparent";
-                        }}
-                      >
-                        {item.text}
-                      </a>
-                    </li>
-                  ))}
+                  {toc.map((item) => {
+                    const isActive = activeId === item.id;
+                    const isClicked = clickedId === item.id;
+                    return (
+                      <li key={item.id}>
+                        <a
+                          href={`#${item.id}`}
+                          onClick={(e) => handleTocClick(e, item.id)}
+                          aria-current={isActive ? "location" : undefined}
+                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md transition-all duration-200 outline-none focus-visible:ring-2 focus-visible:ring-offset-1 hover:pl-5 ${
+                            isClicked ? "scale-[0.98]" : ""
+                          }`}
+                          style={{
+                            color: isActive
+                              ? "var(--teal-link, #0f766e)"
+                              : "var(--navy-mid, #1e3a5f)",
+                            borderColor: isActive
+                              ? "var(--teal-link, #0f766e)"
+                              : "transparent",
+                            fontWeight: isActive ? 600 : 400,
+                            backgroundColor: isClicked
+                              ? "color-mix(in oklab, var(--teal-link, #0f766e) 12%, transparent)"
+                              : "transparent",
+                          }}
+                          onMouseEnter={(e) => {
+                            if (isActive) return;
+                            e.currentTarget.style.color = "var(--teal-link, #0f766e)";
+                            e.currentTarget.style.borderColor =
+                              "color-mix(in oklab, var(--teal-link, #0f766e) 50%, transparent)";
+                          }}
+                          onMouseLeave={(e) => {
+                            if (isActive) return;
+                            e.currentTarget.style.color = "var(--navy-mid, #1e3a5f)";
+                            e.currentTarget.style.borderColor = "transparent";
+                          }}
+                        >
+                          {item.text}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </nav>
             </div>
