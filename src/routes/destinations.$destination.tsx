@@ -162,7 +162,7 @@ function DestinationInner() {
           </p>
           {dest.highlights.length > 0 && (
             <ul className="mt-6 flex flex-wrap gap-2">
-              {dest.highlights.map((h) => (
+              {dest.highlights.map((h: string) => (
                 <li
                   key={h}
                   className="px-3 py-1 rounded-full text-xs font-medium border border-white/20 text-white/90"
