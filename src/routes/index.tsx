@@ -618,7 +618,7 @@ function InspirationMarquee() {
             />
           ))}
         </div>
-        <MarqueeHint visible={!dismissed} />
+        
       </div>
     </>
   );
