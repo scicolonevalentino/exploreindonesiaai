@@ -567,7 +567,8 @@ class InspirationBoundary extends Component<
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
   const trackRef = useRef<HTMLDivElement>(null);
-  useMarqueeDrag(trackRef);
+  const { dismissed, dismiss } = useMarqueeHint("hint:inspiration");
+  useMarqueeDrag(trackRef, { step: 300, onFirstInteract: dismiss });
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
@@ -595,9 +596,6 @@ function InspirationMarquee() {
       )}
       <div
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll focus-within:[&_.animate-marquee]:[animation-play-state:paused]"
-        role="region"
-        aria-roledescription="carousel"
-        aria-label="Top selection of Indonesia trips"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
@@ -607,9 +605,10 @@ function InspirationMarquee() {
       >
         <div
           ref={trackRef}
-          className="flex gap-5 w-max animate-marquee"
-          role="list"
-          aria-label={`${articles.length} trip itineraries. Use arrow keys to navigate.`}
+          className="flex gap-5 w-max animate-marquee focus:outline-none"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label={`${articles.length} Indonesia trip itineraries. Drag, swipe, or use the left and right arrow keys to browse. Press Tab to focus individual cards.`}
         >
           {loop.map((a, i) => (
             <InspirationCard
@@ -620,6 +619,7 @@ function InspirationMarquee() {
             />
           ))}
         </div>
+        <MarqueeHint visible={!dismissed} />
       </div>
     </>
   );
