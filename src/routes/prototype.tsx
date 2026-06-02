@@ -877,7 +877,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
                 </button>
               }
               title="How was the prototype?"
-              description="You made it to the end — tell us what worked, what didn't, or what you'd love next."
+              description="You made it to the end! Tell us what worked, what didn't, or what you'd love next."
             />
           </div>
         </DialogContent>
