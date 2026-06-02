@@ -61,6 +61,23 @@ export const ARTICLE_BY_SLUG_QUERY = groq`*[_type == "article" && slug.current =
   focusKeyword
 }`;
 
+export const RELATED_ARTICLES_QUERY = groq`*[
+  _type == "article"
+  && contentStatus == "live"
+  && slug.current != $slug
+  && (
+    destinationPrimary == $destinationPrimary
+    || travelStylePrimary == $travelStylePrimary
+    || tripLengthBucket == $tripLengthBucket
+  )
+] | order(
+  select(destinationPrimary == $destinationPrimary => 0, 1) asc,
+  articleCreatedDate desc
+)[0...3] {
+  _id, title, slug, heroImage, route, tripLengthBucket,
+  destinationPrimary, travelStylePrimary, metaDescription
+}`;
+
 // ── Taxonomy label maps ──────────────────────────────────────
 export const DESTINATIONS = [
   { value: "bali", label: "Bali" },
