@@ -12,6 +12,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import heroVideo from "@/assets/hero-bg.mp4.asset.json";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
@@ -84,33 +85,61 @@ function Logo() {
 function Hero() {
   return (
     <section
-      className="relative w-full overflow-hidden"
+      className="relative w-full overflow-hidden isolate"
       style={{
         background:
           "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
-      <div className="absolute top-6 left-6 sm:top-8 sm:left-10">
+      {/* Background video — muted, looping, decorative */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
+        src={heroVideo.url}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        aria-hidden="true"
+        tabIndex={-1}
+      />
+      {/* Readability overlays: dark gradient + subtle tint for legible text */}
+      <div
+        className="absolute inset-0 -z-10 pointer-events-none"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(6,45,42,0.55) 0%, rgba(6,45,42,0.45) 50%, rgba(6,45,42,0.75) 100%)",
+        }}
+        aria-hidden="true"
+      />
+
+      <div className="absolute top-6 left-6 sm:top-8 sm:left-10 z-10">
         <Logo />
       </div>
 
-      <div className="mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
+      <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
         <p
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
-          style={{ color: "var(--blue-soft)" }}
+          style={{ color: "var(--blue-soft)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
         >
           AI itinerary planning, powered by real experiences
         </p>
 
-        <h1 className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold">
+        <h1
+          className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
+          style={{ textShadow: "0 2px 20px rgba(0,0,0,0.45)" }}
+        >
           You've planned the trip.
           <br />
-          <span className="italic font-normal bg-transparent text-lime-950" style={{ color: "var(--gold-warm)" }}>
+          <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
 
-        <p className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/85 font-light">
+        <p
+          className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white/90 font-light"
+          style={{ textShadow: "0 1px 12px rgba(0,0,0,0.45)" }}
+        >
           Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We
           turn it into a structured, day-by-day trip with bookable stays,
           transfers, tours, and experiences.
