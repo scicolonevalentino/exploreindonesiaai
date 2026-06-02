@@ -22,12 +22,18 @@
 
 import { createClient } from "@sanity/client";
 import { writeFileSync } from "node:fs";
+import { categorise, renderHtml, renderMarkdown } from "./link-health-report.mjs";
 
 const args = process.argv.slice(2);
-const filterIdx = args.indexOf("--filter");
-const filter = filterIdx >= 0 ? args[filterIdx + 1]?.toLowerCase() : null;
-const jsonIdx = args.indexOf("--json");
-const jsonOut = jsonIdx >= 0 ? args[jsonIdx + 1] : null;
+const argVal = (name) => {
+  const i = args.indexOf(name);
+  return i >= 0 ? args[i + 1] : null;
+};
+const filter = argVal("--filter")?.toLowerCase() ?? null;
+const jsonOut = argVal("--json");
+const htmlOut = argVal("--html");
+const mdOut = argVal("--md");
+const strict = args.includes("--strict");
 
 const client = createClient({
   projectId: "u4ah1ore",
