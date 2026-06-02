@@ -1,4 +1,5 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
+import { PrototypeFlow } from "./prototype";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import {
   Suspense,
@@ -239,17 +240,6 @@ function HowItWorks() {
           ))}
         </div>
 
-        <div className="mt-14 text-center">
-          <Link
-            to="/prototype"
-            className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
-          >
-            See the prototype →
-          </Link>
-          <p className="mt-3 text-sm" style={{ color: "var(--slate-muted)" }}>
-            &zwnj;
-          </p>
-        </div>
       </div>
     </section>
   );
@@ -897,14 +887,31 @@ function DestinationsStrip() {
   );
 }
 
+function EmbeddedPrototype() {
+  const sectionRef = useRef<HTMLElement>(null);
+  return (
+    <section
+      id="try-it"
+      ref={sectionRef}
+      aria-label="Try the prototype"
+      className="w-full flex flex-col"
+      style={{ backgroundColor: "#faf9f5" }}
+    >
+      <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} />
+    </section>
+  );
+}
+
 function Landing() {
   return (
     <main className="min-h-screen">
       <Hero />
       <HowItWorks />
+      <EmbeddedPrototype />
       <Trust />
       <Inspiration />
       <DestinationsStrip />
     </main>
   );
 }
+

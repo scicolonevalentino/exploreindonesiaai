@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 import { PartnerStrip } from "@/components/PartnerStrip";
@@ -27,6 +27,10 @@ export const Route = createFileRoute("/prototype")({
   }),
   component: PrototypePage,
 });
+
+/** Minimum non-whitespace characters required before the "Assemble" button appears. */
+export const MIN_PASTE_LENGTH = 40;
+
 
 /* -------------------------------------------------------------------------- */
 /*  Types & data                                                              */
@@ -241,45 +245,66 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
   ],
 };
 
-const SAMPLE_ITINERARY = `Day 1 — Arrive Denpasar (DPS), private transfer to Ubud, settle in
-
-Day 2 — Tegalalang rice terrace, Sacred Monkey Forest, Tirta Empul temple evening: Campuhan Ridge Walk at sunset
-
-Day 3 — Mount Batur sunrise trek; free afternoon by the pool
-
-Day 4 — Nusa Penida day trip (Kelingking, Angel's Billabong, Broken Beach)
-
-Day 5 — Uluwatu Temple + Kecak fire dance at sunset
-
-Day 6 — Canggu: morning surf lesson, cafe-hop, relax
-
-Day 7 — Departure, transfer to airport`;
 
 /* -------------------------------------------------------------------------- */
 /*  Page                                                                      */
 /* -------------------------------------------------------------------------- */
 
-function PrototypePage() {
-  type Stage = "input" | "assembling" | "trip";
+type Stage = "input" | "assembling" | "trip";
+
+/**
+ * Shared composer used by both the standalone /prototype route and the
+ * embedded version on the home page. Manages the textarea value + stage
+ * transitions, and scrolls the container ref (or window) to the top on
+ * each stage change so every step opens from its own top.
+ */
+export function PrototypeFlow({
+  containerRef,
+  showHelloBarOnInput = true,
+}: {
+  containerRef?: RefObject<HTMLElement | null>;
+  showHelloBarOnInput?: boolean;
+}) {
   const [stage, setStage] = useState<Stage>("input");
+  const [paste, setPaste] = useState("");
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [stage]);
+    if (containerRef?.current) {
+      containerRef.current.scrollIntoView({ block: "start", behavior: "auto" });
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+  }, [stage, containerRef]);
+
+  const showHelloBar = showHelloBarOnInput || stage !== "input";
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
-      <PrototypeHelloBar />
-      {stage === "input" && <InputStage onStart={() => setStage("assembling")} />}
+    <>
+      {showHelloBar && <PrototypeHelloBar />}
+      {stage === "input" && (
+        <InputStage
+          value={paste}
+          onChange={setPaste}
+          onStart={() => setStage("assembling")}
+        />
+      )}
       {stage === "assembling" && <AssemblingStage onDone={() => setStage("trip")} />}
       {stage === "trip" && <TripStage onEdit={() => setStage("input")} />}
+    </>
+  );
+}
+
+function PrototypePage() {
+  return (
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
+      <PrototypeFlow />
     </div>
   );
 }
 
 /* ---- Hello bar (feedback only) ---- */
 
-function PrototypeHelloBar() {
+export function PrototypeHelloBar() {
   return (
     <div
       role="region"
@@ -327,10 +352,20 @@ function PrototypeHelloBar() {
   );
 }
 
+
 /* ---- Stage 1: Input ---- */
 
-function InputStage({ onStart }: { onStart: () => void }) {
-  // The itinerary is intentionally fixed for this prototype demo.
+export function InputStage({
+  value,
+  onChange,
+  onStart,
+}: {
+  value: string;
+  onChange: (next: string) => void;
+  onStart: () => void;
+}) {
+  const canSubmit = value.trim().length >= MIN_PASTE_LENGTH;
+
   return (
     <div
       className="flex-1 w-full"
@@ -384,36 +419,35 @@ function InputStage({ onStart }: { onStart: () => void }) {
           className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl mx-auto"
           style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
         >
-          <div className="flex items-center justify-between mb-3">
-            <span className="block text-sm font-bold">Paste your itinerary</span>
-            <span
-              className="text-[10px] uppercase tracking-widest font-semibold px-2 py-1 rounded"
-              style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
-            >
-              Sample · static for demo
-            </span>
-          </div>
-          <pre
-            aria-label="Sample itinerary used for this prototype"
-            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap select-text"
+          <label htmlFor="prototype-paste" className="block text-sm font-bold mb-3">
+            Paste your itinerary
+          </label>
+          <textarea
+            id="prototype-paste"
+            value={value}
+            onChange={(e) => onChange(e.target.value)}
+            placeholder="Paste your Indonesia itinerary here…"
+            rows={10}
+            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
-          >
-            {SAMPLE_ITINERARY}
-          </pre>
-          <div className="mt-4 flex items-center justify-end">
-            <button
-              type="button"
-              onClick={onStart}
-              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
-            >
-              Assemble my trip <span aria-hidden>→</span>
-            </button>
+          />
+          <div className="mt-4 flex items-center justify-end min-h-[48px]">
+            {canSubmit && (
+              <button
+                type="button"
+                onClick={onStart}
+                className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white animate-in fade-in duration-300"
+              >
+                Assemble my trip <span aria-hidden>→</span>
+              </button>
+            )}
           </div>
         </div>
       </section>
     </div>
   );
 }
+
 
 /* ---- Stage 2: Assembling ---- */
 
@@ -435,7 +469,7 @@ const PROGRESS_MSGS = [
   "Ready, your trip is bookable.",
 ];
 
-function AssemblingStage({ onDone }: { onDone: () => void }) {
+export function AssemblingStage({ onDone }: { onDone: () => void }) {
   const [activeStep, setActiveStep] = useState(0);
   const STEP_MS = 900;
 
@@ -561,7 +595,7 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
 
 /* ---- Stage 3: Trip ---- */
 
-function TripStage({ onEdit }: { onEdit: () => void }) {
+export function TripStage({ onEdit }: { onEdit: () => void }) {
   const initiallyAdded = useMemo(() => {
     const s = new Set<string>();
     TRIP.days.forEach((d) => d.items.forEach((i) => i.defaultAdded && s.add(i.id)));
