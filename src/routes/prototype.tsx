@@ -373,7 +373,7 @@ function InputStage({ onStart }: { onStart: () => void }) {
           className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
           style={{ fontFamily: "var(--font-serif)", color: "var(--gold-warm)" }}
         >
-          We make it bookable.
+          We match it.
         </p>
         <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
           Paste the Indonesia itinerary you already have, from ChatGPT, a blog, or your notes, and
