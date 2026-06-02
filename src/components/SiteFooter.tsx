@@ -208,6 +208,7 @@ function EmailCapture() {
 }
 
 function FooterBar() {
+  const { data: settings } = useSiteSettings();
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
