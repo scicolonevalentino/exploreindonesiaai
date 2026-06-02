@@ -770,3 +770,88 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
   );
 }
 
+
+function RelatedItineraries({ items }: { items: ArticleListItem[] }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <section
+      className="mt-16 pt-10 border-t"
+      style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+      aria-label="Related itineraries"
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-[0.25em] mb-5"
+        style={{ color: "var(--teal-link)" }}
+      >
+        Keep exploring
+      </p>
+      <h2
+        className="font-serif text-2xl sm:text-3xl font-semibold mb-8"
+        style={{ color: "var(--navy-deep)" }}
+      >
+        Related itineraries
+      </h2>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {items.map((item) => {
+          const slug = item.slug?.current;
+          if (!slug) return null;
+          const img = item.heroImage?.asset
+            ? urlFor(item.heroImage).width(600).height(400).fit("crop").auto("format").url()
+            : null;
+          return (
+            <li key={item._id}>
+              <Link
+                to="/trips/$slug"
+                params={{ slug }}
+                className="group block rounded-xl overflow-hidden border h-full transition-shadow hover:shadow-lg"
+                style={{
+                  borderColor: "var(--border-cream, #e6dfd2)",
+                  backgroundColor: "#fff",
+                }}
+              >
+                <div
+                  className="aspect-[3/2] w-full overflow-hidden"
+                  style={{ backgroundColor: "var(--blue-soft, #e6eef7)" }}
+                >
+                  {img && (
+                    <img
+                      src={img}
+                      alt={item.heroImage?.alt ?? item.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
+                </div>
+                <div className="p-5">
+                  <p
+                    className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-2"
+                    style={{ color: "var(--teal-link)" }}
+                  >
+                    {labelFor(TRIP_LENGTHS, item.tripLengthBucket)}
+                    {item.destinationPrimary
+                      ? ` · ${labelFor(DESTINATIONS, item.destinationPrimary)}`
+                      : ""}
+                  </p>
+                  <h3
+                    className="font-serif text-lg font-semibold leading-snug mb-2"
+                    style={{ color: "var(--navy-deep)" }}
+                  >
+                    {item.title}
+                  </h3>
+                  {item.metaDescription && (
+                    <p
+                      className="text-sm leading-relaxed line-clamp-3"
+                      style={{ color: "var(--text-dark)" }}
+                    >
+                      {item.metaDescription}
+                    </p>
+                  )}
+                </div>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
