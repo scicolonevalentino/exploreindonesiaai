@@ -136,6 +136,24 @@ function ArticlePage() {
   );
 }
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
+function extractText(children: unknown): string {
+  if (typeof children === "string") return children;
+  if (Array.isArray(children)) return children.map(extractText).join("");
+  if (children && typeof children === "object" && "props" in (children as Record<string, unknown>)) {
+    return extractText((children as { props: { children?: unknown } }).props?.children);
+  }
+  return "";
+}
+
 function ArticleInner() {
   const { slug } = Route.useParams();
   const { data: a } = useSuspenseQuery(articleQO(slug));
@@ -148,20 +166,38 @@ function ArticleInner() {
     return m;
   }, [a.affiliateLinks]);
 
+  const toc = useMemo(() => {
+    const items: Array<{ id: string; text: string }> = [];
+    (a.body ?? []).forEach((block) => {
+      const b = block as { _type?: string; style?: string; children?: Array<{ text?: string }> };
+      if (b._type === "block" && b.style === "h2") {
+        const text = (b.children ?? []).map((c) => c.text ?? "").join("").trim();
+        if (text) items.push({ id: slugifyHeading(text), text });
+      }
+    });
+    return items;
+  }, [a.body]);
+
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
     : null;
 
+
   const components: PortableTextComponents = {
     block: {
-      h2: ({ children }) => (
-        <h2
-          className="font-serif text-2xl sm:text-3xl font-semibold mt-12 mb-4"
-          style={{ color: "var(--navy-deep)" }}
-        >
-          {children}
-        </h2>
-      ),
+      h2: ({ children }) => {
+        const id = slugifyHeading(extractText(children));
+        return (
+          <h2
+            id={id}
+            className="font-serif text-2xl sm:text-3xl font-semibold mt-14 mb-4 scroll-mt-24"
+            style={{ color: "var(--navy-deep)" }}
+          >
+            {children}
+          </h2>
+        );
+      },
+
       h3: ({ children }) => (
         <h3
           className="font-serif text-xl sm:text-2xl font-semibold mt-8 mb-3"
@@ -221,22 +257,23 @@ function ArticleInner() {
         if (!value?.asset) return null;
         const src = urlFor(value).width(1200).auto("format").url();
         return (
-          <figure className="my-8">
+          <figure className="my-10 lg:-mx-16 xl:-mx-24">
             <img
               src={src}
               alt={value.alt ?? ""}
-              className="w-full rounded-xl"
+              className="w-full rounded-xl shadow-lg"
               loading="lazy"
             />
             {value.caption && (
               <figcaption
-                className="mt-2 text-sm text-center"
+                className="mt-3 text-sm text-center italic"
                 style={{ color: "var(--slate-muted)" }}
               >
                 {value.caption}
               </figcaption>
             )}
           </figure>
+
         );
       },
     },
@@ -304,60 +341,94 @@ function ArticleInner() {
         </div>
       </section>
 
-      <article className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
-        {a.intro && (
-          <p
-            className="font-serif text-lg sm:text-xl leading-relaxed mb-10"
-            style={{ color: "var(--navy-mid)" }}
-          >
-            {a.intro}
-          </p>
-        )}
-
-        <div className="flex flex-wrap gap-2 mb-10">
-          {labelFor(TRAVEL_STYLES, a.travelStylePrimary) && (
-            <Tag>{labelFor(TRAVEL_STYLES, a.travelStylePrimary)}</Tag>
-          )}
-          {a.vibe && <Tag>{labelFor(VIBES, a.vibe)}</Tag>}
-          {a.bestSeason && <Tag>Best: {a.bestSeason}</Tag>}
-        </div>
-
-        {a.body && <PortableText value={a.body as never} components={components} />}
-
-        {piItems.some(([, v]) => v) && (
-          <section
-            className="mt-16 rounded-2xl p-6 sm:p-8 border"
-            style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
-          >
-            <h2
-              className="font-serif text-2xl font-semibold mb-5"
-              style={{ color: "var(--navy-deep)" }}
+      <div className="mx-auto max-w-7xl px-6 py-12 sm:py-16 lg:grid lg:grid-cols-12 lg:gap-12">
+        <article className="lg:col-span-8 lg:col-start-2 max-w-3xl mx-auto lg:mx-0 w-full">
+          {a.intro && (
+            <p
+              className="font-serif text-lg sm:text-xl leading-relaxed mb-10"
+              style={{ color: "var(--navy-mid)" }}
             >
-              Practical info
-            </h2>
-            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {piItems
-                .filter(([, v]) => v)
-                .map(([k, v]) => (
-                  <div key={k}>
-                    <dt
-                      className="text-xs font-semibold uppercase tracking-[0.15em] mb-1"
-                      style={{ color: "var(--teal-link)" }}
-                    >
-                      {k}
-                    </dt>
-                    <dd className="text-sm" style={{ color: "var(--text-dark)" }}>
-                      {v}
-                    </dd>
-                  </div>
-                ))}
-            </dl>
-          </section>
+              {a.intro}
+            </p>
+          )}
+
+          <div className="flex flex-wrap gap-2 mb-10">
+            {labelFor(TRAVEL_STYLES, a.travelStylePrimary) && (
+              <Tag>{labelFor(TRAVEL_STYLES, a.travelStylePrimary)}</Tag>
+            )}
+            {a.vibe && <Tag>{labelFor(VIBES, a.vibe)}</Tag>}
+            {a.bestSeason && <Tag>Best: {a.bestSeason}</Tag>}
+          </div>
+
+          {a.body && <PortableText value={a.body as never} components={components} />}
+
+          {piItems.some(([, v]) => v) && (
+            <section
+              className="mt-16 rounded-2xl p-6 sm:p-8 border"
+              style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
+            >
+              <h2
+                className="font-serif text-2xl font-semibold mb-5"
+                style={{ color: "var(--navy-deep)" }}
+              >
+                Practical info
+              </h2>
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {piItems
+                  .filter(([, v]) => v)
+                  .map(([k, v]) => (
+                    <div key={k}>
+                      <dt
+                        className="text-xs font-semibold uppercase tracking-[0.15em] mb-1"
+                        style={{ color: "var(--teal-link)" }}
+                      >
+                        {k}
+                      </dt>
+                      <dd className="text-sm" style={{ color: "var(--text-dark)" }}>
+                        {v}
+                      </dd>
+                    </div>
+                  ))}
+              </dl>
+            </section>
+          )}
+        </article>
+
+        {toc.length > 1 && (
+          <aside className="hidden lg:block lg:col-span-3">
+            <div className="sticky top-8">
+              <p
+                className="text-[11px] font-semibold uppercase tracking-[0.25em] mb-4"
+                style={{ color: "var(--teal-link)" }}
+              >
+                On this page
+              </p>
+              <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
+                <ul className="space-y-2.5">
+                  {toc.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className="block pl-4 -ml-px border-l text-sm leading-snug transition-colors hover:border-current"
+                        style={{
+                          borderColor: "transparent",
+                          color: "var(--navy-mid, #1e3a5f)",
+                        }}
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+          </aside>
         )}
-      </article>
+      </div>
     </div>
   );
 }
+
 
 function Tag({ children }: { children: React.ReactNode }) {
   return (
