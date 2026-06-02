@@ -1,5 +1,20 @@
 import groq from "groq";
 
+export const SITE_SETTINGS_QUERY = groq`*[_type == "siteSettings"][0] {
+  siteTitle,
+  tagline,
+  footerText,
+  defaultMetaDescription
+}`;
+
+export type SiteSettings = {
+  siteTitle?: string;
+  tagline?: string;
+  footerText?: string;
+  defaultMetaDescription?: string;
+};
+
+
 export const ARTICLES_LIST_QUERY = groq`*[_type == "article" && contentStatus == "live"] | order(articleCreatedDate desc) {
   _id,
   title,
