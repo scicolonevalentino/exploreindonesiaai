@@ -263,6 +263,10 @@ function PrototypePage() {
   type Stage = "input" | "assembling" | "trip";
   const [stage, setStage] = useState<Stage>("input");
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [stage]);
+
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
       <PrototypeHelloBar />
