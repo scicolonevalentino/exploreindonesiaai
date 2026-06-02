@@ -469,7 +469,7 @@ const PROGRESS_MSGS = [
   "Ready, your trip is bookable.",
 ];
 
-function AssemblingStage({ onDone }: { onDone: () => void }) {
+export function AssemblingStage({ onDone }: { onDone: () => void }) {
   const [activeStep, setActiveStep] = useState(0);
   const STEP_MS = 900;
 
@@ -595,7 +595,7 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
 
 /* ---- Stage 3: Trip ---- */
 
-function TripStage({ onEdit }: { onEdit: () => void }) {
+export function TripStage({ onEdit }: { onEdit: () => void }) {
   const initiallyAdded = useMemo(() => {
     const s = new Set<string>();
     TRIP.days.forEach((d) => d.items.forEach((i) => i.defaultAdded && s.add(i.id)));
