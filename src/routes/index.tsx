@@ -239,17 +239,6 @@ function HowItWorks() {
           ))}
         </div>
 
-        <div className="mt-14 text-center">
-          <Link
-            to="/prototype"
-            className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
-          >
-            See the prototype →
-          </Link>
-          <p className="mt-3 text-sm" style={{ color: "var(--slate-muted)" }}>
-            &zwnj;
-          </p>
-        </div>
       </div>
     </section>
   );
