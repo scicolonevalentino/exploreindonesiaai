@@ -62,8 +62,14 @@ function calcReadingTime(body: Article["body"]): number {
 }
 
 export const Route = createFileRoute("/trips/$slug")({
-  loader: ({ context, params }) =>
-    context.queryClient.ensureQueryData(articleQO(params.slug)),
+  loader: async ({ context, params }) => {
+    const a = await context.queryClient.ensureQueryData(articleQO(params.slug));
+    // Fire-and-forget prefetch of related articles; don't block render
+    void context.queryClient.prefetchQuery(
+      relatedQO(params.slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
+    );
+    return a;
+  },
   head: ({ loaderData, params }) => {
     const a = loaderData as Article | undefined;
     if (!a) return {};
@@ -73,6 +79,7 @@ export const Route = createFileRoute("/trips/$slug")({
     const url = `https://exploreindonesia.ai/trips/${params.slug}`;
     const title = a.metaTitle || a.title;
     const description = a.metaDescription;
+    const readingMinutes = calcReadingTime(a.body);
     return {
       meta: [
         { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
@@ -80,9 +87,17 @@ export const Route = createFileRoute("/trips/$slug")({
         { property: "og:title", content: title },
         ...(description ? [{ property: "og:description", content: description }] : []),
         { property: "og:type", content: "article" },
+        { property: "og:site_name", content: "ExploreIndonesia.ai" },
         { property: "og:url", content: url },
         ...(img ? [{ property: "og:image", content: img }] : []),
+        ...(img ? [{ property: "og:image:width", content: "1200" }] : []),
+        ...(img ? [{ property: "og:image:height", content: "630" }] : []),
+        ...(img && a.heroImage?.alt
+          ? [{ property: "og:image:alt", content: a.heroImage.alt }]
+          : []),
         { name: "twitter:card", content: img ? "summary_large_image" : "summary" },
+        { name: "twitter:title", content: title },
+        ...(description ? [{ name: "twitter:description", content: description }] : []),
         ...(img ? [{ name: "twitter:image", content: img }] : []),
       ],
       links: [{ rel: "canonical", href: url }],
@@ -98,6 +113,8 @@ export const Route = createFileRoute("/trips/$slug")({
             url,
             mainEntityOfPage: url,
             inLanguage: "en",
+            timeRequired: `PT${readingMinutes}M`,
+            wordCount: readingMinutes * 200,
             author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
             publisher: {
               "@type": "Organization",
