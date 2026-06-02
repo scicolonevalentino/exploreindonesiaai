@@ -288,7 +288,11 @@ function InspirationCard({
   const img = article.heroImage?.asset
     ? urlFor(article.heroImage).width(720).height(900).fit("crop").auto("format").url()
     : null;
-  const duration = labelFor(TRIP_LENGTHS, article.tripLengthBucket);
+  const duration =
+    typeof article.tripLengthDays === "number" && article.tripLengthDays > 0
+      ? `${article.tripLengthDays} ${article.tripLengthDays === 1 ? "day" : "days"}`
+      : labelFor(TRIP_LENGTHS, article.tripLengthBucket);
+
   const traveller = article.travellerTypes?.[0]
     ? labelFor(TRAVELLER_TYPES, article.travellerTypes[0])
     : labelFor(DESTINATIONS, article.destinationPrimary);
