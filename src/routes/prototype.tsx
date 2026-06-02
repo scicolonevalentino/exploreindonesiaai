@@ -85,7 +85,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           id: "d1-transfer",
           kind: "bookable",
           source: "klook",
-          title: "Private Airport Transfer — DPS to Ubud",
+          title: "Private Airport Transfer, DPS to Ubud",
           rating: 4.8,
           reviews: 2140,
           matched: ["Arrive Denpasar (DPS)", "private transfer to Ubud"],
@@ -118,7 +118,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           kind: "selfguided",
           title: "Campuhan Ridge Walk at sunset",
           description:
-            "Go ~5pm to beat the heat — about 2km each way. No ticket needed; start near Warwick Ibah.",
+            "Go ~5pm to beat the heat, about 2km each way. No ticket needed; start near Warwick Ibah.",
         },
       ],
     },
@@ -147,7 +147,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           price: 28,
           priceUnit: "per person",
           description:
-            "A relaxed add-on for your \u201Cfree afternoon by the pool\u201D — only if you'd like it.",
+            "A relaxed add-on for your \u201Cfree afternoon by the pool\u201D, only if you'd like it.",
         },
       ],
     },
@@ -215,7 +215,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           price: 34,
           priceUnit: "per person",
           description:
-            "A relaxed add-on for your \u201Ccafe-hop, relax\u201D — only if you'd like it.",
+            "A relaxed add-on for your \u201Ccafe-hop, relax\u201D, only if you'd like it.",
         },
       ],
     },
@@ -301,7 +301,7 @@ function PrototypeHelloBar() {
           <span className="hidden sm:inline">
             You're trying the prototype. Tell us what you think.{" "}
           </span>
-          <span className="sm:hidden">Prototype — share your thoughts.</span>
+          <span className="sm:hidden">Prototype, share your thoughts.</span>
         </p>
 
         <FeedbackDialog
@@ -426,9 +426,9 @@ const PROGRESS_MSGS = [
   "Reading your paste line by line…",
   "Grouping activities into days…",
   "Searching providers across Klook, Viator, GetYourGuide & 12Go…",
-  "Mocking bookable results — matching prices & de-duping…",
+  "Mocking bookable results, matching prices and de-duping…",
   "Ranking by rating and proximity…",
-  "Ready — your trip is bookable.",
+  "Ready, your trip is bookable.",
 ];
 
 function AssemblingStage({ onDone }: { onDone: () => void }) {
@@ -674,7 +674,7 @@ function TripStage({ onEdit }: { onEdit: () => void }) {
                 "linear-gradient(135deg, #e8f0ee 0%, #d6e6e2 100%)",
             }}
           >
-            Map view — coming soon
+            Map view, coming soon
           </div>
         ) : (
           <div className="space-y-12">
@@ -930,38 +930,28 @@ function ItemCard({
           </span>
           <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
         </div>
-        {isRecommended ? (
+        <>
           <button
             type="button"
             onClick={onToggle}
-            className="px-4 py-2 rounded-full text-sm font-semibold text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+              added
+                ? "bg-[var(--blue-bright)] text-white border-transparent"
+                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+            }`}
           >
-            {added ? "✓ Added" : "View →"}
+            {added ? "✓ Added to trip" : "Add to trip"}
           </button>
-        ) : (
-          <>
-            <button
-              type="button"
-              onClick={onToggle}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
-                added
-                  ? "bg-[var(--blue-bright)] text-white border-transparent"
-                  : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
-              }`}
+          {item.source && (
+            <a
+              href="#"
+              onClick={(e) => e.preventDefault()}
+              className="text-xs text-[var(--teal-link)] hover:underline"
             >
-              {added ? "✓ Added to trip" : "Add to trip"}
-            </button>
-            {item.source && (
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-                className="text-xs text-[var(--teal-link)] hover:underline"
-              >
-                Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
-              </a>
-            )}
-          </>
-        )}
+              Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
+            </a>
+          )}
+        </>
       </div>
     </div>
   );
