@@ -130,26 +130,36 @@ function hasAffiliateMarker(url, partner) {
   return AFFILIATE_MARKERS[partner].some((m) => url.includes(m));
 }
 
-async function check(url, { timeout = 12000 } = {}) {
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
+const HEADERS = {
+  "User-Agent": UA,
+  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9",
+};
+
+async function check(url, { timeout = 15000 } = {}) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), timeout);
   try {
-    let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
-    if (res.status === 405 || res.status === 403) {
-      // some hosts (Klook, Viator) don't allow HEAD — retry GET
-      res = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
+    let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal, headers: HEADERS });
+    if (res.status === 405 || res.status === 403 || res.status === 400) {
+      res = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal, headers: HEADERS });
     }
-    return {
-      ok: res.ok,
-      status: res.status,
-      finalUrl: res.url,
-      redirected: res.redirected,
-    };
+    return { ok: res.ok, status: res.status, finalUrl: res.url, redirected: res.redirected };
   } catch (err) {
     return { ok: false, status: 0, error: err.message };
   } finally {
     clearTimeout(t);
   }
+}
+
+// Hosts known to block bots even on GET — a 403 after redirect to the canonical
+// destination domain is benign (bot-shield), not a broken link.
+const BOT_SHIELDED_HOSTS = ["viator.com", "klook.com"];
+function isBotShielded(host) {
+  if (!host) return false;
+  return BOT_SHIELDED_HOSTS.some((d) => host === d || host.endsWith("." + d));
 }
 
 async function pool(items, n, fn) {
