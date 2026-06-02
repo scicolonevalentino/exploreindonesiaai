@@ -773,16 +773,33 @@ function DestinationsStrip() {
           <button
             type="button"
             aria-label="Scroll destinations left"
+            aria-controls="destinations-scroller"
             onClick={() => scrollBy(-1)}
-            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors"
-            style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md text-[color:var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">‹</span>
           </button>
 
           <ul
+            id="destinations-scroller"
             ref={scrollerRef}
-            className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 -mx-2 px-2 [scrollbar-width:thin]"
+            role="list"
+            aria-label="Indonesia destinations"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === "ArrowRight") { e.preventDefault(); scrollBy(1); }
+              else if (e.key === "ArrowLeft") { e.preventDefault(); scrollBy(-1); }
+              else if (e.key === "Home") {
+                e.preventDefault();
+                scrollerRef.current?.scrollTo({ left: 0, behavior: "smooth" });
+              } else if (e.key === "End") {
+                e.preventDefault();
+                const el = scrollerRef.current;
+                if (el) el.scrollTo({ left: el.scrollWidth, behavior: "smooth" });
+              }
+            }}
+            className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 -mx-2 px-2 [scrollbar-width:thin] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-4 focus-visible:ring-offset-[var(--cream)] rounded-lg"
             style={{ scrollPaddingInline: "0.5rem" }}
           >
             {items.map((d) => (
@@ -790,11 +807,8 @@ function DestinationsStrip() {
                 <Link
                   to="/destinations/$destination"
                   params={{ destination: d.slug }}
-                  className="group block min-w-[180px] sm:min-w-[200px] px-5 py-4 rounded-xl border bg-white text-center font-semibold transition-all hover:shadow-lg hover:-translate-y-0.5 hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent"
-                  style={{
-                    borderColor: "var(--border-cream)",
-                    color: "var(--navy-deep)",
-                  }}
+                  className="group block min-w-[180px] sm:min-w-[200px] px-5 py-4 rounded-xl border bg-white text-center font-semibold text-[color:var(--navy-deep)] transition-all hover:shadow-lg hover:-translate-y-0.5 hover:bg-[var(--blue-bright)] hover:!text-white hover:border-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+                  style={{ borderColor: "var(--border-cream)" }}
                 >
                   {d.name}
                 </Link>
@@ -805,9 +819,10 @@ function DestinationsStrip() {
           <button
             type="button"
             aria-label="Scroll destinations right"
+            aria-controls="destinations-scroller"
             onClick={() => scrollBy(1)}
-            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors"
-            style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full items-center justify-center bg-white border shadow-md text-[color:var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">›</span>
           </button>
