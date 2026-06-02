@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 import { PartnerStrip } from "@/components/PartnerStrip";
@@ -27,6 +27,10 @@ export const Route = createFileRoute("/prototype")({
   }),
   component: PrototypePage,
 });
+
+/** Minimum non-whitespace characters required before the "Assemble" button appears. */
+export const MIN_PASTE_LENGTH = 40;
+
 
 /* -------------------------------------------------------------------------- */
 /*  Types & data                                                              */
