@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
-import { PartnerStrip } from "@/components/PartnerStrip";
+
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
   Dialog,
@@ -272,8 +272,13 @@ export function PrototypeFlow({
 }) {
   const [stage, setStage] = useState<Stage>("input");
   const [paste, setPaste] = useState("");
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     if (containerRef?.current) {
       containerRef.current.scrollIntoView({ block: "start", behavior: "auto" });
     } else {
