@@ -12,7 +12,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
+import { useMarqueeDrag, useMarqueeHint } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
   DESTINATIONS,
@@ -209,7 +209,8 @@ function Trust() {
   // Duplicate so the marquee loops seamlessly.
   const loop = [...partners, ...partners];
   const trackRef = useRef<HTMLDivElement>(null);
-  useMarqueeDrag(trackRef);
+  const { dismissed, dismiss } = useMarqueeHint("hint:partners");
+  useMarqueeDrag(trackRef, { step: 180, onFirstInteract: dismiss });
 
   return (
     <section
@@ -227,7 +228,6 @@ function Trust() {
 
       <div
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll mb-10"
-        aria-label="Trusted travel partner brands"
         data-partner-strip="true"
         style={{
           maskImage:
@@ -238,8 +238,11 @@ function Trust() {
       >
         <div
           ref={trackRef}
-          className="flex gap-3 sm:gap-4 w-max animate-marquee"
+          className="flex gap-3 sm:gap-4 w-max animate-marquee focus:outline-none"
           data-partner-track="true"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Trusted travel partner brands. Drag, swipe, or use the left and right arrow keys to browse."
         >
           {loop.map((p, i) => (
             <div
@@ -254,6 +257,7 @@ function Trust() {
             </div>
           ))}
         </div>
+        <MarqueeHint visible={!dismissed} />
       </div>
 
 
