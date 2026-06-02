@@ -301,6 +301,7 @@ function TripsInner() {
           </div>
         )}
       </main>
+      <SiteFooter />
     </div>
   );
 }
