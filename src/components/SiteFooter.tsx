@@ -449,7 +449,9 @@ function FooterBar() {
           </a>
         </nav>
         <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
-          {settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`}
+          {(settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`)
+            .replace(/\s*We may earn a commission[^.]*\.\s*/gi, " ")
+            .trim()}
         </p>
       </div>
     </footer>
