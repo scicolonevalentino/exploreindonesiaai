@@ -640,7 +640,7 @@ function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
   const viewportRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
-  useMarqueeDrag(trackRef, { step: 300 });
+  // Native horizontal scroll handles touch/drag; no JS marquee drag needed.
 
   const moveCarousel = useCallback((direction: "prev" | "next") => {
     const step = 320;
