@@ -3,7 +3,7 @@ import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
-import { SiteFooter } from "@/components/SiteFooter";
+
 import {
   ARTICLE_BY_SLUG_QUERY,
   DESTINATIONS,
