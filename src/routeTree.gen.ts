@@ -9,64 +9,58 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as TripsRouteImport } from './routes/trips'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 
-const TripsRoute = TripsRouteImport.update({
-  id: '/trips',
-  path: '/trips',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TripsIndexRoute = TripsIndexRouteImport.update({
+  id: '/trips/',
+  path: '/trips/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TripsSlugRoute = TripsSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => TripsRoute,
+  id: '/trips/$slug',
+  path: '/trips/$slug',
+  getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/trips': typeof TripsRouteWithChildren
   '/trips/$slug': typeof TripsSlugRoute
+  '/trips/': typeof TripsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/trips': typeof TripsRouteWithChildren
   '/trips/$slug': typeof TripsSlugRoute
+  '/trips': typeof TripsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/trips': typeof TripsRouteWithChildren
   '/trips/$slug': typeof TripsSlugRoute
+  '/trips/': typeof TripsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/trips' | '/trips/$slug'
+  fullPaths: '/' | '/trips/$slug' | '/trips/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/trips' | '/trips/$slug'
-  id: '__root__' | '/' | '/trips' | '/trips/$slug'
+  to: '/' | '/trips/$slug' | '/trips'
+  id: '__root__' | '/' | '/trips/$slug' | '/trips/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  TripsRoute: typeof TripsRouteWithChildren
+  TripsSlugRoute: typeof TripsSlugRoute
+  TripsIndexRoute: typeof TripsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/trips': {
-      id: '/trips'
-      path: '/trips'
-      fullPath: '/trips'
-      preLoaderRoute: typeof TripsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -74,29 +68,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/trips/': {
+      id: '/trips/'
+      path: '/trips'
+      fullPath: '/trips/'
+      preLoaderRoute: typeof TripsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/trips/$slug': {
       id: '/trips/$slug'
-      path: '/$slug'
+      path: '/trips/$slug'
       fullPath: '/trips/$slug'
       preLoaderRoute: typeof TripsSlugRouteImport
-      parentRoute: typeof TripsRoute
+      parentRoute: typeof rootRouteImport
     }
   }
 }
 
-interface TripsRouteChildren {
-  TripsSlugRoute: typeof TripsSlugRoute
-}
-
-const TripsRouteChildren: TripsRouteChildren = {
-  TripsSlugRoute: TripsSlugRoute,
-}
-
-const TripsRouteWithChildren = TripsRoute._addFileChildren(TripsRouteChildren)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  TripsRoute: TripsRouteWithChildren,
+  TripsSlugRoute: TripsSlugRoute,
+  TripsIndexRoute: TripsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
