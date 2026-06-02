@@ -7,7 +7,7 @@ vi.mock("@/lib/sanity", () => ({
   sanityClient: {
     fetch: vi.fn().mockResolvedValue({
       siteTitle: "ExploreIndonesia.ai",
-      tagline: "Plan your Indonesia trip. Book it in minutes",
+      tagline: "Plan your Indonesia trip. Book it in minutes.",
       footerText: "© 2026 ExploreIndonesia.ai · Affiliate disclosure.",
       defaultMetaDescription: "Test description",
     }),
