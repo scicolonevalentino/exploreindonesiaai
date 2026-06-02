@@ -252,9 +252,38 @@ async function pool(items, n, fn) {
     for (const b of warnings) console.log(print(b));
   }
 
+  const checkedAt = new Date().toISOString();
+  const buckets = categorise(checked);
+  const reportPayload = {
+    checkedAt,
+    total: checked.length,
+    articlesCount: articles.length,
+    buckets,
+  };
+
   if (jsonOut) {
-    writeFileSync(jsonOut, JSON.stringify({ checkedAt: new Date().toISOString(), total: checked.length, errors: errors.length, warnings: warnings.length, results: checked }, null, 2));
-    console.log(`\nWrote ${jsonOut}`);
+    writeFileSync(
+      jsonOut,
+      JSON.stringify(
+        { checkedAt, total: checked.length, errors: errors.length, warnings: warnings.length, results: checked },
+        null,
+        2,
+      ),
+    );
+    console.log(`Wrote ${jsonOut}`);
+  }
+  if (htmlOut) {
+    writeFileSync(htmlOut, renderHtml(reportPayload));
+    console.log(`Wrote ${htmlOut}`);
+  }
+  if (mdOut) {
+    writeFileSync(mdOut, renderMarkdown(reportPayload));
+    console.log(`Wrote ${mdOut}`);
+  }
+
+  if (strict && errors.length) {
+    console.error(`\n✗ STRICT MODE: ${errors.length} error(s) found — failing.`);
+    process.exit(1);
   }
 })();
 
