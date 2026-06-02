@@ -196,9 +196,9 @@ function TripsInner() {
 
       {/* Horizontal filter bar */}
       <div
-        className="sticky top-0 z-30 border-b backdrop-blur"
+        className="sticky top-0 z-30 border-b"
         style={{
-          backgroundColor: "color-mix(in oklab, var(--cream) 92%, transparent)",
+          backgroundColor: "#ffffff",
           borderColor: "var(--border-cream)",
         }}
       >
