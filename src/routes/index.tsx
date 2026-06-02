@@ -504,7 +504,7 @@ function InspirationCard({
       data-inspiration-card="true"
       role="listitem"
       aria-label={`${title}${duration ? ` — ${duration}` : ""}${traveller ? `, for ${traveller}` : ""}. Card ${position + 1} of ${totalCards}.`}
-      className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 cursor-pointer"
+      className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-all duration-300 ease-out hover:shadow-xl hover:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 cursor-pointer"
       style={{
         borderColor: "var(--border-cream)",
         cursor: "pointer",
@@ -541,7 +541,7 @@ function InspirationCard({
             {duration}
           </p>
         )}
-        <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug">
+        <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug group-hover:underline underline-offset-4 decoration-2">
           {title}
         </h3>
         {traveller && <p className="mt-1 text-xs text-white/80">{traveller}</p>}
