@@ -237,6 +237,10 @@ function extractText(children: unknown): string {
 function ArticleInner() {
   const { slug } = Route.useParams();
   const { data: a } = useSuspenseQuery(articleQO(slug));
+  const { data: related = [] } = useQuery(
+    relatedQO(slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
+  );
+  const readingMinutes = useMemo(() => calcReadingTime(a.body), [a.body]);
 
   const linkMap = useMemo(() => {
     const m = new Map<string, AffiliateLink>();
