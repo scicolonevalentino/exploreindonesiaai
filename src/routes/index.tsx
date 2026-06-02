@@ -730,12 +730,64 @@ function Inspiration() {
   );
 }
 
+function DestinationsStrip() {
+  const items = [
+    { slug: "bali", name: "Bali" },
+    { slug: "java", name: "Java" },
+    { slug: "komodo-flores", name: "Komodo & Flores" },
+    { slug: "lombok-gili", name: "Lombok & Gili" },
+    { slug: "sumatra", name: "Sumatra" },
+    { slug: "raja-ampat", name: "Raja Ampat" },
+    { slug: "bali-nearby-islands", name: "Bali & Islands" },
+    { slug: "wild-indonesia", name: "Wild Indonesia" },
+  ];
+  return (
+    <section
+      className="w-full px-6 py-16 sm:py-20"
+      style={{ backgroundColor: "var(--cream)" }}
+    >
+      <div className="mx-auto max-w-6xl">
+        <p
+          className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-center mb-3"
+          style={{ color: "var(--teal-link)" }}
+        >
+          Browse by destination
+        </p>
+        <h2
+          className="font-serif text-3xl sm:text-4xl font-semibold text-center mb-10"
+          style={{ color: "var(--navy-mid)" }}
+        >
+          Where in Indonesia?
+        </h2>
+        <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {items.map((d) => (
+            <li key={d.slug}>
+              <Link
+                to="/destinations/$destination"
+                params={{ destination: d.slug }}
+                className="block w-full px-4 py-3 rounded-xl border bg-white text-center font-semibold transition-shadow hover:shadow-md"
+                style={{
+                  borderColor: "var(--border-cream)",
+                  color: "var(--navy-deep)",
+                }}
+              >
+                {d.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function Landing() {
   return (
     <main className="min-h-screen">
       <Hero />
       <HowItWorks />
       <Trust />
+      <DestinationsStrip />
       <Inspiration />
     </main>
   );

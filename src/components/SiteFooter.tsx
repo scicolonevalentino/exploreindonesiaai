@@ -102,7 +102,8 @@ function EmailCapture() {
 
   return (
     <section
-      className="w-full px-6 py-20 sm:py-28"
+      id="early-access"
+      className="w-full px-6 py-20 sm:py-28 scroll-mt-16"
       style={{ backgroundColor: "var(--navy-mid)" }}
     >
       <div className="mx-auto max-w-2xl text-center">
@@ -439,6 +440,14 @@ function FooterBar() {
           </DialogContent>
         </Dialog>
 
+        <nav className="flex gap-4 text-xs text-white/60">
+          <a href="/privacy" className="hover:text-white underline-offset-2 hover:underline">
+            Privacy
+          </a>
+          <a href="/terms" className="hover:text-white underline-offset-2 hover:underline">
+            Terms
+          </a>
+        </nav>
         <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
           {settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`}
         </p>
