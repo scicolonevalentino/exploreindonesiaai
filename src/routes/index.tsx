@@ -243,7 +243,7 @@ function Trust() {
           data-partner-track="true"
           role="region"
           aria-roledescription="carousel"
-          aria-label="Trusted travel partner brands. Drag, swipe, or use the left and right arrow keys to browse."
+          aria-label="Trusted travel partner brands."
         >
           {loop.map((p, i) => (
             <div
