@@ -24,9 +24,9 @@ const TripsIndexRoute = TripsIndexRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const TripsSlugRoute = TripsSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => TripsRoute,
+  id: '/trips/$slug',
+  path: '/trips/$slug',
+  getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -56,6 +56,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   TripsIndexRoute: typeof TripsIndexRoute
+  TripsSlugRoute: typeof TripsSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -76,10 +77,10 @@ declare module '@tanstack/react-router' {
     }
     '/trips/$slug': {
       id: '/trips/$slug'
-      path: '/$slug'
+      path: '/trips/$slug'
       fullPath: '/trips/$slug'
       preLoaderRoute: typeof TripsSlugRouteImport
-      parentRoute: typeof TripsRoute
+      parentRoute: typeof rootRouteImport
     }
   }
 }
@@ -87,6 +88,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   TripsIndexRoute: TripsIndexRoute,
+  TripsSlugRoute: TripsSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
