@@ -13,21 +13,30 @@
  *   • flags: broken (>=400), redirect-to-different-domain, missing-affiliate-params
  *
  * Usage:
- *   node scripts/link-health-check.mjs                 # full audit
- *   node scripts/link-health-check.mjs --filter lombok # only URLs/articles matching substring
- *   node scripts/link-health-check.mjs --json out.json # write structured report
+ *   node scripts/link-health-check.mjs                          # full audit
+ *   node scripts/link-health-check.mjs --filter lombok          # substring filter
+ *   node scripts/link-health-check.mjs --json out.json          # JSON report
+ *   node scripts/link-health-check.mjs --html out.html          # HTML report
+ *   node scripts/link-health-check.mjs --md out.md              # Markdown report
+ *   node scripts/link-health-check.mjs --strict                 # exit 1 on errors
  *
  * Env: none required (reads public Sanity dataset via CDN).
  */
 
 import { createClient } from "@sanity/client";
 import { writeFileSync } from "node:fs";
+import { categorise, renderHtml, renderMarkdown } from "./link-health-report.mjs";
 
 const args = process.argv.slice(2);
-const filterIdx = args.indexOf("--filter");
-const filter = filterIdx >= 0 ? args[filterIdx + 1]?.toLowerCase() : null;
-const jsonIdx = args.indexOf("--json");
-const jsonOut = jsonIdx >= 0 ? args[jsonIdx + 1] : null;
+const argVal = (name) => {
+  const i = args.indexOf(name);
+  return i >= 0 ? args[i + 1] : null;
+};
+const filter = argVal("--filter")?.toLowerCase() ?? null;
+const jsonOut = argVal("--json");
+const htmlOut = argVal("--html");
+const mdOut = argVal("--md");
+const strict = args.includes("--strict");
 
 const client = createClient({
   projectId: "u4ah1ore",
@@ -246,9 +255,38 @@ async function pool(items, n, fn) {
     for (const b of warnings) console.log(print(b));
   }
 
+  const checkedAt = new Date().toISOString();
+  const buckets = categorise(checked);
+  const reportPayload = {
+    checkedAt,
+    total: checked.length,
+    articlesCount: articles.length,
+    buckets,
+  };
+
   if (jsonOut) {
-    writeFileSync(jsonOut, JSON.stringify({ checkedAt: new Date().toISOString(), total: checked.length, errors: errors.length, warnings: warnings.length, results: checked }, null, 2));
-    console.log(`\nWrote ${jsonOut}`);
+    writeFileSync(
+      jsonOut,
+      JSON.stringify(
+        { checkedAt, total: checked.length, errors: errors.length, warnings: warnings.length, results: checked },
+        null,
+        2,
+      ),
+    );
+    console.log(`Wrote ${jsonOut}`);
+  }
+  if (htmlOut) {
+    writeFileSync(htmlOut, renderHtml(reportPayload));
+    console.log(`Wrote ${htmlOut}`);
+  }
+  if (mdOut) {
+    writeFileSync(mdOut, renderMarkdown(reportPayload));
+    console.log(`Wrote ${mdOut}`);
+  }
+
+  if (strict && errors.length) {
+    console.error(`\n✗ STRICT MODE: ${errors.length} error(s) found — failing.`);
+    process.exit(1);
   }
 })();
 

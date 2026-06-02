@@ -1,0 +1,70 @@
+name: Link Health
+
+# Runs the link-health audit against the live Sanity dataset and uploads
+# an HTML/MD/JSON report. Fails the workflow on any true error
+# (broken HTTP, missing affiliate params, unresolved refs, brand redirect).
+#
+# Triggers:
+#   • push / pull_request — guard rails so a code change can't ship broken links
+#   • schedule (daily 09:00 UTC) — catches partner-side URL changes
+#   • workflow_dispatch — manual run from Actions tab
+#   • repository_dispatch (event_type: sanity-content-update) — fired by a
+#     Sanity webhook whenever an article or affiliateLink document is
+#     published. Configure in Sanity: Manage → API → Webhooks
+#       URL    : https://api.github.com/repos/<owner>/<repo>/dispatches
+#       Headers: Authorization: token <GITHUB_PAT_with_repo_scope>
+#                Accept: application/vnd.github+json
+#       Body   : {"event_type":"sanity-content-update"}
+#       Filter : _type == "article" || _type == "affiliateLink"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sanity-content-update]
+
+jobs:
+  audit:
+    name: Audit affiliate links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+      - name: Run link audit (strict)
+        id: audit
+        run: bun run audit:links:strict
+        continue-on-error: false
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-health-report
+          path: reports/
+          retention-days: 30
+      - name: Comment summary on PR
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '## 🔗 Link health\n';
+            try {
+              const r = JSON.parse(fs.readFileSync('reports/link-audit.json', 'utf8'));
+              const status = r.errors === 0 ? '✅ All links healthy' : `❌ **${r.errors} error(s)** found`;
+              body += `${status} · ${r.warnings} warnings · ${r.total} links checked\n\n`;
+              body += `Full report uploaded as workflow artifact \`link-health-report\`.`;
+            } catch (e) {
+              body += '⚠️ Audit failed to produce a report — see job logs.';
+            }
+            const { owner, repo } = context.repo;
+            await github.rest.issues.createComment({
+              owner, repo, issue_number: context.issue.number, body,
+            });
