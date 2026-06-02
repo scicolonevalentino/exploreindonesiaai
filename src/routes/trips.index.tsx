@@ -33,7 +33,7 @@ const articlesQO = queryOptions({
   staleTime: 60_000,
 });
 
-export const Route = createFileRoute("/trips")({
+export const Route = createFileRoute("/trips/")({
   validateSearch: (s: Record<string, unknown>): Search => ({
     destinations: parseArr(s.destinations),
     tripLengths: parseArr(s.tripLengths),
