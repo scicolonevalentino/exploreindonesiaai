@@ -376,7 +376,11 @@ export function InputStage({
   embedded?: boolean;
 }) {
   const isMobile = useIsMobile();
-  const minLength = isMobile ? MIN_PASTE_LENGTH_MOBILE : MIN_PASTE_LENGTH;
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  const minLength = mounted && isMobile ? MIN_PASTE_LENGTH_MOBILE : MIN_PASTE_LENGTH;
   const trimmedLength = value.trim().length;
   const canSubmit = trimmedLength >= minLength;
   const remaining = Math.max(0, minLength - trimmedLength);
