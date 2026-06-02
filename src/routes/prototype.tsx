@@ -517,7 +517,20 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
       </div>
 
       <div className="w-full max-w-2xl">
-        <div className="h-1 w-full rounded-full overflow-hidden bg-white/10">
+        <div className="flex items-center justify-between text-xs uppercase tracking-widest text-white/60 mb-2">
+          <span>
+            Step {activeStep + 1} of {STEPS.length}
+          </span>
+          <span>{Math.round(pct)}%</span>
+        </div>
+        <div
+          className="h-2 w-full rounded-full overflow-hidden bg-white/10"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(pct)}
+          aria-label="Assembling your trip"
+        >
           <div
             className="h-full transition-all duration-700"
             style={{
@@ -526,7 +539,17 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
             }}
           />
         </div>
-        <p className="text-center text-sm mt-3 text-white/70">{PROGRESS_MSGS[activeStep]}</p>
+        <p
+          className="text-center text-base sm:text-lg mt-4 text-white font-medium flex items-center justify-center gap-2"
+          aria-live="polite"
+        >
+          <span
+            className="inline-block w-2 h-2 rounded-full animate-pulse"
+            style={{ backgroundColor: "var(--blue-ice)" }}
+            aria-hidden
+          />
+          {PROGRESS_MSGS[activeStep]}
+        </p>
       </div>
     </div>
   );
