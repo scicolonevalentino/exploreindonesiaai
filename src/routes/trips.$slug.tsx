@@ -3,6 +3,7 @@ import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { SiteFooter } from "@/components/SiteFooter";
 import {
   ARTICLE_BY_SLUG_QUERY,
   DESTINATIONS,
@@ -181,6 +182,9 @@ function ArticleInner() {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [clickedId, setClickedId] = useState<string | null>(null);
 
+  // Single source of truth: header offset used by both scroll-spy and smooth scroll
+  const SCROLL_OFFSET = 96;
+
   useEffect(() => {
     if (toc.length === 0) return;
     const headings = toc
@@ -197,22 +201,57 @@ function ArticleInner() {
           setActiveId(visible[0].target.id);
         }
       },
-      { rootMargin: "-96px 0px -70% 0px", threshold: [0, 1] }
+      { rootMargin: `-${SCROLL_OFFSET}px 0px -70% 0px`, threshold: [0, 1] }
     );
     headings.forEach((h) => observer.observe(h));
     return () => observer.disconnect();
   }, [toc]);
 
-  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault();
+  const scrollToHeading = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
+    const prefersReducedMotion =
+      typeof window !== "undefined" &&
+      window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    const top = el.getBoundingClientRect().top + window.scrollY - SCROLL_OFFSET;
+    window.scrollTo({
+      top,
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+    // Move focus for screen-reader/keyboard users without re-scrolling
+    el.setAttribute("tabindex", "-1");
+    el.focus({ preventScroll: true });
+    history.replaceState(null, "", `#${id}`);
+  };
+
+  const handleTocClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
     setClickedId(id);
     setActiveId(id);
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
-    history.replaceState(null, "", `#${id}`);
+    scrollToHeading(id);
     window.setTimeout(() => setClickedId(null), 450);
   };
+
+  const handleTocKeyDown = (e: React.KeyboardEvent<HTMLAnchorElement>, index: number) => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const dir = e.key === "ArrowDown" ? 1 : -1;
+      const next = (index + dir + toc.length) % toc.length;
+      const nextLink = document.querySelector<HTMLAnchorElement>(
+        `[data-toc-index="${next}"]`
+      );
+      nextLink?.focus();
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      document.querySelector<HTMLAnchorElement>(`[data-toc-index="0"]`)?.focus();
+    } else if (e.key === "End") {
+      e.preventDefault();
+      document
+        .querySelector<HTMLAnchorElement>(`[data-toc-index="${toc.length - 1}"]`)
+        ?.focus();
+    }
+  };
+
 
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
@@ -439,19 +478,25 @@ function ArticleInner() {
               >
                 On this page
               </p>
-              <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
+              <nav
+                aria-label="Table of contents"
+                className="border-l"
+                style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+              >
                 <ul className="space-y-2.5">
-                  {toc.map((item) => {
+                  {toc.map((item, index) => {
                     const isActive = activeId === item.id;
                     const isClicked = clickedId === item.id;
                     return (
                       <li key={item.id}>
                         <a
                           href={`#${item.id}`}
+                          data-toc-index={index}
                           onClick={(e) => handleTocClick(e, item.id)}
+                          onKeyDown={(e) => handleTocKeyDown(e, index)}
                           aria-current={isActive ? "location" : undefined}
-                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md transition-all duration-200 outline-none focus-visible:ring-2 focus-visible:ring-offset-1 hover:pl-5 ${
-                            isClicked ? "scale-[0.98]" : ""
+                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md outline-none motion-safe:transition-all motion-safe:duration-200 focus-visible:ring-2 focus-visible:ring-offset-1 motion-safe:hover:pl-5 ${
+                            isClicked ? "motion-safe:scale-[0.98]" : ""
                           }`}
                           style={{
                             color: isActive
@@ -488,6 +533,7 @@ function ArticleInner() {
           </aside>
         )}
       </div>
+      <SiteFooter />
     </div>
   );
 }
