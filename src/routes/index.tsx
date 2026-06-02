@@ -541,7 +541,7 @@ function InspirationCard({
             {duration}
           </p>
         )}
-        <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug">
+        <h3 className="font-serif text-lg sm:text-xl font-semibold leading-snug group-hover:underline underline-offset-4 decoration-2">
           {title}
         </h3>
         {traveller && <p className="mt-1 text-xs text-white/80">{traveller}</p>}
