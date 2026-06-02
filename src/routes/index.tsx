@@ -96,12 +96,12 @@ function Hero() {
           "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
-      {/* Background video — muted, looping, decorative. Subtle scale + slight
-          blur push it back so the value prop reads first. */}
+      {/* Background video — muted, looping, decorative. Lighter treatment so
+          the footage feels present without overpowering the headline. */}
       <video
         key={videoSrc}
         className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
-        style={{ filter: "saturate(0.85) brightness(0.7)" }}
+        style={{ filter: "saturate(0.95) brightness(0.92)" }}
         src={videoSrc}
         autoPlay
         muted
@@ -112,31 +112,31 @@ function Hero() {
         tabIndex={-1}
       />
 
-      {/* Desktop overlay: strong dark gradient with vignette-style edges */}
+      {/* Desktop overlay: lighter gradient — footage stays visible */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
         style={{
           background:
-            "linear-gradient(180deg, rgba(6,45,42,0.78) 0%, rgba(6,45,42,0.62) 45%, rgba(6,45,42,0.85) 100%)",
+            "linear-gradient(180deg, rgba(6,45,42,0.45) 0%, rgba(6,45,42,0.30) 45%, rgba(6,45,42,0.60) 100%)",
         }}
         aria-hidden="true"
       />
-      {/* Desktop radial vignette pulling focus to center copy */}
+      {/* Desktop vignette pulling focus to center copy without darkening too much */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none hidden md:block"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(6,45,42,0) 0%, rgba(6,45,42,0.45) 70%, rgba(6,45,42,0.75) 100%)",
+            "radial-gradient(ellipse at center, rgba(6,45,42,0) 0%, rgba(6,45,42,0.25) 70%, rgba(6,45,42,0.55) 100%)",
         }}
         aria-hidden="true"
       />
 
-      {/* Mobile-specific overlay: heavier, near-opaque so type wins over motion */}
+      {/* Mobile overlay: still meaningful contrast, but lifted so the video shows through */}
       <div
         className="absolute inset-0 -z-10 pointer-events-none md:hidden"
         style={{
           background:
-            "linear-gradient(180deg, rgba(6,45,42,0.88) 0%, rgba(6,45,42,0.78) 50%, rgba(6,45,42,0.92) 100%)",
+            "linear-gradient(180deg, rgba(6,45,42,0.65) 0%, rgba(6,45,42,0.50) 50%, rgba(6,45,42,0.75) 100%)",
         }}
         aria-hidden="true"
       />
@@ -148,21 +148,22 @@ function Hero() {
       <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
         <p
           className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
-          style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.6)" }}
+          style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
         >
           AI itinerary planning, powered by real experiences
         </p>
 
         <h1
           className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
-          style={{ textShadow: "0 2px 24px rgba(0,0,0,0.65)" }}
+          style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          You've planned the trip.
+          You've planned your trip to Indonesia.
           <br />
           <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
+
 
         <p
           className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white font-light"
