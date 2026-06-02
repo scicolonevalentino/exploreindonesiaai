@@ -106,6 +106,11 @@ function EmailCapture() {
       style={{ backgroundColor: "var(--navy-mid)" }}
     >
       <div className="mx-auto max-w-2xl text-center">
+        {settings?.tagline && (
+          <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-white/60 mb-4">
+            {settings.tagline}
+          </p>
+        )}
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
           Almost ready. Be the first to book your AI itinerary to Indonesia.
         </h2>
