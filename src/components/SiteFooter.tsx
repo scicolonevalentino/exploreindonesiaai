@@ -199,7 +199,7 @@ function EmailCapture() {
             aria-live="polite"
             className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
           >
-            {showError ? message : "No spam. Just your bookable plan in Indonesia."}
+            {showError ? message : "No spam. Just updates when the booking experience is ready."}
           </p>
         )}
       </div>
