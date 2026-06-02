@@ -666,15 +666,16 @@ function InspirationMarquee() {
         className="relative w-full overflow-x-auto scroll-smooth"
         style={{
           maskImage:
-            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+            "linear-gradient(to right, transparent 0, black 3%, black 92%, transparent 100%)",
           WebkitMaskImage:
-            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+            "linear-gradient(to right, transparent 0, black 3%, black 92%, transparent 100%)",
           scrollSnapType: "x mandatory",
+          scrollPaddingLeft: "1.5rem",
         }}
       >
         <div
           ref={trackRef}
-          className="flex gap-5 w-max focus:outline-none px-6"
+          className="flex gap-4 sm:gap-5 w-max focus:outline-none pl-6 pr-12 sm:px-6"
           role="region"
           aria-roledescription="carousel"
           aria-label={`${articles.length} Indonesia trip itineraries.`}
