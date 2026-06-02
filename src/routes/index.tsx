@@ -156,15 +156,19 @@ function Hero() {
         </p>
 
         <h1
-          className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
+          className="font-serif text-white leading-[1.15] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
           style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          You've planned your trip to Indonesia.
-          <br />
-          <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
+          <span className="block">
+            You've <RotatingPhrase /> your
+            <br className="hidden sm:block" />
+            {" "}trip to Indonesia.
+          </span>
+          <span className="block italic font-normal mt-2" style={{ color: "var(--gold-warm)" }}>
             We make it bookable.
           </span>
         </h1>
+
 
 
         <p
