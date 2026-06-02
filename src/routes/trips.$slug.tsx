@@ -409,10 +409,17 @@ function ArticleInner() {
                     <li key={item.id}>
                       <a
                         href={`#${item.id}`}
-                        className="block pl-4 -ml-px border-l text-sm leading-snug transition-colors hover:border-current"
+                        className="group block pl-4 -ml-px border-l border-transparent text-sm leading-snug transition-all duration-200 hover:pl-5 hover:font-medium"
                         style={{
-                          borderColor: "transparent",
                           color: "var(--navy-mid, #1e3a5f)",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = "var(--teal-link, #0f766e)";
+                          e.currentTarget.style.borderColor = "var(--teal-link, #0f766e)";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = "var(--navy-mid, #1e3a5f)";
+                          e.currentTarget.style.borderColor = "transparent";
                         }}
                       >
                         {item.text}
