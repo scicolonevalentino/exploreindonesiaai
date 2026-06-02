@@ -185,14 +185,19 @@ function ArticleInner() {
 
   const components: PortableTextComponents = {
     block: {
-      h2: ({ children }) => (
-        <h2
-          className="font-serif text-2xl sm:text-3xl font-semibold mt-12 mb-4"
-          style={{ color: "var(--navy-deep)" }}
-        >
-          {children}
-        </h2>
-      ),
+      h2: ({ children }) => {
+        const id = slugifyHeading(extractText(children));
+        return (
+          <h2
+            id={id}
+            className="font-serif text-2xl sm:text-3xl font-semibold mt-14 mb-4 scroll-mt-24"
+            style={{ color: "var(--navy-deep)" }}
+          >
+            {children}
+          </h2>
+        );
+      },
+
       h3: ({ children }) => (
         <h3
           className="font-serif text-xl sm:text-2xl font-semibold mt-8 mb-3"
