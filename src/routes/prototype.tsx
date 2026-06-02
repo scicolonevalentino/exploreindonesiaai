@@ -674,7 +674,7 @@ function TripStage({ onEdit }: { onEdit: () => void }) {
                 "linear-gradient(135deg, #e8f0ee 0%, #d6e6e2 100%)",
             }}
           >
-            Map view — coming soon
+            Map view, coming soon
           </div>
         ) : (
           <div className="space-y-12">
