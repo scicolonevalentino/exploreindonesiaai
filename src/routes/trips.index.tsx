@@ -3,6 +3,7 @@ import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useMemo } from "react";
 import { ChevronDown, X } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { SiteFooter } from "@/components/SiteFooter";
 import { sanityClient, urlFor } from "@/lib/sanity";
 import {
   ARTICLES_LIST_QUERY,
