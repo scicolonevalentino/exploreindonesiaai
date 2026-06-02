@@ -533,7 +533,7 @@ function ArticleInner() {
           </aside>
         )}
       </div>
-      <SiteFooter />
+      
     </div>
   );
 }
