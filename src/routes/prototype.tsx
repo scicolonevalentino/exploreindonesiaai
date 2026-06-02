@@ -215,7 +215,7 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
           price: 34,
           priceUnit: "per person",
           description:
-            "A relaxed add-on for your \u201Ccafe-hop, relax\u201D — only if you'd like it.",
+            "A relaxed add-on for your \u201Ccafe-hop, relax\u201D, only if you'd like it.",
         },
       ],
     },
