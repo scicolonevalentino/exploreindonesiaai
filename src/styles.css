@@ -70,3 +70,29 @@
   animation-play-state: paused;
 }
 
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.animate-skeleton {
+  animation: skeleton-pulse 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none !important;
+    transform: none !important;
+  }
+  .animate-skeleton {
+    animation: none !important;
+  }
+  /* Let users scroll the row manually when motion is disabled */
+  .marquee-reduced-scroll {
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+  }
+  .marquee-reduced-scroll > * > * {
+    scroll-snap-align: start;
+  }
+}
+
