@@ -261,9 +261,11 @@ type Stage = "input" | "assembling" | "trip";
 export function PrototypeFlow({
   containerRef,
   showHelloBarOnInput = true,
+  embedded = false,
 }: {
   containerRef?: RefObject<HTMLElement | null>;
   showHelloBarOnInput?: boolean;
+  embedded?: boolean;
 }) {
   const [stage, setStage] = useState<Stage>("input");
   const [paste, setPaste] = useState("");
@@ -286,6 +288,7 @@ export function PrototypeFlow({
           value={paste}
           onChange={setPaste}
           onStart={() => setStage("assembling")}
+          embedded={embedded}
         />
       )}
       {stage === "assembling" && <AssemblingStage onDone={() => setStage("trip")} />}
@@ -359,12 +362,77 @@ export function InputStage({
   value,
   onChange,
   onStart,
+  embedded = false,
 }: {
   value: string;
   onChange: (next: string) => void;
   onStart: () => void;
+  embedded?: boolean;
 }) {
   const canSubmit = value.trim().length >= MIN_PASTE_LENGTH;
+
+  if (embedded) {
+    return (
+      <div
+        className="w-full px-6 py-16 sm:py-20"
+        style={{
+          background:
+            "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
+          color: "#f2eee4",
+        }}
+      >
+        <div className="mx-auto max-w-3xl">
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <span
+              className="inline-block text-[10px] sm:text-xs font-bold uppercase tracking-[0.22em] px-2.5 py-1 rounded-full"
+              style={{
+                backgroundColor: "var(--gold-warm)",
+                color: "var(--navy-deep)",
+              }}
+            >
+              Demo
+            </span>
+            <span className="text-xs sm:text-sm text-white/70">
+              Output is illustrative — a sample Bali trip.
+            </span>
+          </div>
+
+          <div
+            className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl"
+            style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
+          >
+            <label htmlFor="prototype-paste" className="block text-sm font-bold mb-3">
+              Paste your itinerary
+            </label>
+            <textarea
+              id="prototype-paste"
+              value={value}
+              onChange={(e) => onChange(e.target.value)}
+              placeholder="Paste your Indonesia itinerary here…"
+              rows={10}
+              className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
+              style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+            />
+            <div className="mt-4 flex items-center justify-end">
+              <button
+                type="button"
+                onClick={canSubmit ? onStart : undefined}
+                aria-disabled={!canSubmit}
+                tabIndex={canSubmit ? 0 : -1}
+                className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] ${
+                  canSubmit
+                    ? "hover:bg-black cursor-pointer opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+                    : "opacity-40 cursor-not-allowed"
+                }`}
+              >
+                Assemble my trip <span aria-hidden>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -419,11 +487,11 @@ export function InputStage({
           className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl mx-auto"
           style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
         >
-          <label htmlFor="prototype-paste" className="block text-sm font-bold mb-3">
+          <label htmlFor="prototype-paste-standalone" className="block text-sm font-bold mb-3">
             Paste your itinerary
           </label>
           <textarea
-            id="prototype-paste"
+            id="prototype-paste-standalone"
             value={value}
             onChange={(e) => onChange(e.target.value)}
             placeholder="Paste your Indonesia itinerary here…"
@@ -431,16 +499,20 @@ export function InputStage({
             className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
           />
-          <div className="mt-4 flex items-center justify-end min-h-[48px]">
-            {canSubmit && (
-              <button
-                type="button"
-                onClick={onStart}
-                className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white animate-in fade-in duration-300"
-              >
-                Assemble my trip <span aria-hidden>→</span>
-              </button>
-            )}
+          <div className="mt-4 flex items-center justify-end">
+            <button
+              type="button"
+              onClick={canSubmit ? onStart : undefined}
+              aria-disabled={!canSubmit}
+              tabIndex={canSubmit ? 0 : -1}
+              className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] ${
+                canSubmit
+                  ? "hover:bg-black cursor-pointer opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+                  : "opacity-40 cursor-not-allowed"
+              }`}
+            >
+              Assemble my trip <span aria-hidden>→</span>
+            </button>
           </div>
         </div>
       </section>

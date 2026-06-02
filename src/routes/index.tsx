@@ -897,7 +897,7 @@ function EmbeddedPrototype() {
       className="w-full flex flex-col"
       style={{ backgroundColor: "#faf9f5" }}
     >
-      <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} />
+      <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} embedded />
     </section>
   );
 }
