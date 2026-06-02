@@ -13,6 +13,9 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 import { SiteFooter } from "@/components/SiteFooter";
+import { HelloBar } from "@/components/HelloBar";
+import { CookieBanner } from "@/components/CookieBanner";
+import { initConsentDefaults } from "@/lib/analytics-consent";
 import { sanityClient } from "@/lib/sanity";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 
@@ -198,11 +201,17 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
+  useEffect(() => {
+    initConsentDefaults();
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
+      <HelloBar />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
       <SiteFooter />
+      <CookieBanner />
       <Toaster />
     </QueryClientProvider>
   );
