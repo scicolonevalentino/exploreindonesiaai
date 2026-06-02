@@ -638,8 +638,36 @@ class InspirationBoundary extends Component<
 
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
+  const viewportRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   useMarqueeDrag(trackRef, { step: 300 });
+
+  const moveCarousel = useCallback((direction: "prev" | "next") => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    const step = 300;
+    if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      viewportRef.current?.scrollBy({
+        left: direction === "prev" ? -step : step,
+        behavior: "smooth",
+      });
+      return;
+    }
+
+    const halfWidth = track.scrollWidth / 2;
+    if (halfWidth <= 0) return;
+
+    const current = new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
+    const next = current + (direction === "prev" ? step : -step);
+    let normalized = next % halfWidth;
+    if (normalized > 0) normalized -= halfWidth;
+    const progress = -normalized / halfWidth;
+
+    track.style.transform = "";
+    track.style.animationDelay = `-${progress * 60_000}ms`;
+    track.style.animationPlayState = "";
+  }, []);
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
@@ -666,6 +694,7 @@ function InspirationMarquee() {
         </div>
       )}
       <div
+        ref={viewportRef}
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll focus-within:[&_.animate-marquee]:[animation-play-state:paused]"
         style={{
           maskImage:
@@ -690,7 +719,39 @@ function InspirationMarquee() {
             />
           ))}
         </div>
-        
+
+        <button
+          type="button"
+          aria-label="Previous itinerary"
+          data-inspiration-arrow="true"
+          onClick={() => moveCarousel("prev")}
+          className="absolute left-3 sm:left-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2"
+          style={{
+            borderColor: "var(--border-cream)",
+            color: "var(--navy-deep)",
+            cursor: "pointer",
+            // @ts-expect-error CSS custom prop for focus ring
+            "--tw-ring-color": "var(--blue-bright)",
+          }}
+        >
+          <span className="text-3xl leading-none" aria-hidden="true">‹</span>
+        </button>
+        <button
+          type="button"
+          aria-label="Next itinerary"
+          data-inspiration-arrow="true"
+          onClick={() => moveCarousel("next")}
+          className="absolute right-3 sm:right-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2"
+          style={{
+            borderColor: "var(--border-cream)",
+            color: "var(--navy-deep)",
+            cursor: "pointer",
+            // @ts-expect-error CSS custom prop for focus ring
+            "--tw-ring-color": "var(--blue-bright)",
+          }}
+        >
+          <span className="text-3xl leading-none" aria-hidden="true">›</span>
+        </button>
       </div>
     </>
   );
