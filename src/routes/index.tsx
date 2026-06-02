@@ -225,6 +225,7 @@ function Trust() {
       <div
         className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll mb-10"
         aria-label="Trusted travel partner brands"
+        data-partner-strip="true"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
@@ -232,11 +233,15 @@ function Trust() {
             "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
         }}
       >
-        <div className="flex gap-3 sm:gap-4 w-max animate-marquee">
+        <div
+          className="flex gap-3 sm:gap-4 w-max animate-marquee"
+          data-partner-track="true"
+        >
           {loop.map((p, i) => (
             <div
               key={`${p.name}-${i}`}
               className="bg-white rounded-xl px-5 py-3 sm:px-7 sm:py-4 border shrink-0"
+              data-partner-logo={p.name}
               style={{ borderColor: "var(--border-cream)" }}
             >
               <span className="font-bold text-base sm:text-lg whitespace-nowrap" style={{ color: p.color }}>
@@ -246,6 +251,7 @@ function Trust() {
           ))}
         </div>
       </div>
+
 
       <div className="mx-auto max-w-6xl px-6">
         <p
