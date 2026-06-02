@@ -24,7 +24,20 @@ import { shortTitle } from "@/lib/short-title";
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
-  queryFn: () => sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY),
+  queryFn: async () => {
+    try {
+      return await sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY);
+    } catch (err) {
+      // After TanStack Query's last retry, this surfaces to the error boundary.
+      // Log here so we capture the underlying network/Sanity error details.
+      console.error("[Sanity] articles fetch failed", {
+        query: "ARTICLES_LIST_QUERY",
+        message: err instanceof Error ? err.message : String(err),
+        error: err,
+      });
+      throw err;
+    }
+  },
   // Considered fresh for 5 minutes — most home-page revisits skip the network entirely.
   staleTime: 5 * 60_000,
   // Keep in memory for an hour so back-navigation is instant.
@@ -477,7 +490,12 @@ class InspirationBoundary extends Component<
     return { hasError: true };
   }
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error("[Inspiration] failed to load", error, info);
+    console.error("[Inspiration] fetch failed after retries — using fallback UI", {
+      fallbackPath: "InspirationFallback (error boundary)",
+      message: error.message,
+      stack: error.stack,
+      componentStack: info.componentStack,
+    });
   }
   render() {
     if (this.state.hasError) {
@@ -493,6 +511,10 @@ function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
 
   if (!articles || articles.length === 0) {
+    console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
+      fallbackPath: "InspirationFallback (empty result)",
+      count: articles?.length ?? 0,
+    });
     return (
       <InspirationFallback message="New itineraries are being prepared. Check back soon — or explore everything we already have." />
     );
