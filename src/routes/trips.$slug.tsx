@@ -1,17 +1,19 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
+import { useSuspenseQuery, useQuery, queryOptions } from "@tanstack/react-query";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
 
 import {
   ARTICLE_BY_SLUG_QUERY,
+  RELATED_ARTICLES_QUERY,
   DESTINATIONS,
   TRIP_LENGTHS,
   TRAVEL_STYLES,
   VIBES,
   labelFor,
   type Article,
+  type ArticleListItem,
   type AffiliateLink,
 } from "@/lib/sanity-queries";
 
@@ -25,6 +27,39 @@ const articleQO = (slug: string) =>
     },
     staleTime: 60_000,
   });
+
+const relatedQO = (
+  slug: string,
+  destinationPrimary?: string,
+  travelStylePrimary?: string,
+  tripLengthBucket?: string,
+) =>
+  queryOptions({
+    queryKey: ["sanity", "related", slug, destinationPrimary, travelStylePrimary, tripLengthBucket],
+    queryFn: () =>
+      sanityClient.fetch<ArticleListItem[]>(RELATED_ARTICLES_QUERY, {
+        slug,
+        destinationPrimary: destinationPrimary ?? "",
+        travelStylePrimary: travelStylePrimary ?? "",
+        tripLengthBucket: tripLengthBucket ?? "",
+      }),
+    staleTime: 5 * 60_000,
+  });
+
+// Estimate reading time in minutes from Portable Text body (~200 wpm).
+function calcReadingTime(body: Article["body"]): number {
+  if (!body) return 0;
+  let words = 0;
+  for (const block of body) {
+    const b = block as { _type?: string; children?: Array<{ text?: string }> };
+    if (b._type === "block" && Array.isArray(b.children)) {
+      for (const c of b.children) {
+        if (c?.text) words += c.text.trim().split(/\s+/).filter(Boolean).length;
+      }
+    }
+  }
+  return Math.max(1, Math.round(words / 200));
+}
 
 export const Route = createFileRoute("/trips/$slug")({
   loader: ({ context, params }) =>
