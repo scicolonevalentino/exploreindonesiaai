@@ -418,8 +418,12 @@ export function InputStage({
             <label htmlFor="prototype-paste" className="block text-sm font-bold mb-1">
               Paste your itinerary
             </label>
-            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mb-3">
-              Add at least {minLength} characters to unlock the Assemble button.
+            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mb-3" aria-live="polite">
+              {mounted ? (
+                <>Add at least {minLength} characters to unlock the Assemble button.</>
+              ) : (
+                <>&nbsp;</>
+              )}
             </p>
             <textarea
               id="prototype-paste"
