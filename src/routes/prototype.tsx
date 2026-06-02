@@ -301,7 +301,7 @@ function PrototypeHelloBar() {
           <span className="hidden sm:inline">
             You're trying the prototype. Tell us what you think.{" "}
           </span>
-          <span className="sm:hidden">Prototype — share your thoughts.</span>
+          <span className="sm:hidden">Prototype, share your thoughts.</span>
         </p>
 
         <FeedbackDialog
