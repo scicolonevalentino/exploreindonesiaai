@@ -1,7 +1,15 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
-import { Suspense, type ErrorInfo, Component, type ReactNode } from "react";
-
+import {
+  Suspense,
+  Component,
+  useCallback,
+  useEffect,
+  useRef,
+  type ErrorInfo,
+  type KeyboardEvent as ReactKeyboardEvent,
+  type ReactNode,
+} from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import {
@@ -12,12 +20,21 @@ import {
   labelFor,
   type ArticleListItem,
 } from "@/lib/sanity-queries";
+import { shortTitle } from "@/lib/short-title";
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
   queryFn: () => sanityClient.fetch<ArticleListItem[]>(ARTICLES_LIST_QUERY),
-  staleTime: 60_000,
+  // Considered fresh for 5 minutes — most home-page revisits skip the network entirely.
+  staleTime: 5 * 60_000,
+  // Keep in memory for an hour so back-navigation is instant.
+  gcTime: 60 * 60_000,
+  // Retry transient network / CDN failures with exponential backoff (max 4s).
+  retry: 3,
+  retryDelay: (attempt: number) => Math.min(1000 * 2 ** attempt, 4000),
+  refetchOnWindowFocus: false,
 });
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
