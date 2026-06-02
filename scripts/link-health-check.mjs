@@ -13,9 +13,12 @@
  *   • flags: broken (>=400), redirect-to-different-domain, missing-affiliate-params
  *
  * Usage:
- *   node scripts/link-health-check.mjs                 # full audit
- *   node scripts/link-health-check.mjs --filter lombok # only URLs/articles matching substring
- *   node scripts/link-health-check.mjs --json out.json # write structured report
+ *   node scripts/link-health-check.mjs                          # full audit
+ *   node scripts/link-health-check.mjs --filter lombok          # substring filter
+ *   node scripts/link-health-check.mjs --json out.json          # JSON report
+ *   node scripts/link-health-check.mjs --html out.html          # HTML report
+ *   node scripts/link-health-check.mjs --md out.md              # Markdown report
+ *   node scripts/link-health-check.mjs --strict                 # exit 1 on errors
  *
  * Env: none required (reads public Sanity dataset via CDN).
  */
