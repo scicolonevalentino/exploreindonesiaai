@@ -240,24 +240,12 @@ function HowItWorks() {
         </div>
 
         <div className="mt-14 text-center">
-          <a
-            href="#early-access"
-            onClick={(e) => {
-              const el = document.getElementById("early-access");
-              if (el) {
-                e.preventDefault();
-                el.scrollIntoView({ behavior: "smooth", block: "start" });
-                window.setTimeout(() => {
-                  el
-                    .querySelector<HTMLInputElement>('input[type="email"]')
-                    ?.focus({ preventScroll: true });
-                }, 600);
-              }
-            }}
+          <Link
+            to="/prototype"
             className="inline-flex items-center gap-2 font-semibold text-base px-7 py-3.5 rounded-lg text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
           >
             See the prototype →
-          </a>
+          </Link>
           <p className="mt-3 text-sm" style={{ color: "var(--slate-muted)" }}>
             &zwnj;
           </p>
