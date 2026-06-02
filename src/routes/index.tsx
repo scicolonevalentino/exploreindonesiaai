@@ -200,20 +200,75 @@ function Trust() {
   );
 }
 
+// Minimum number of cards we expect for a healthy carousel.
+const MIN_EXPECTED_ARTICLES = 4;
+
 // Build a clean, short title from the full article title.
-// Keeps the leading "X Days in <Place>" portion and drops the
-// trailing ":" or " — " / " - " explanation.
+// Drops trailing explanations after a separator and parenthetical asides
+// like "(Borobudur, Bromo & Ijen)". Also collapses dangling connectors
+// (trailing commas, " and ", " & ", " with ", " featuring ", etc.) so the
+// result always reads as a complete phrase.
 function shortTitle(title: string): string {
   if (!title) return "";
-  const splitters = [":", " — ", " – ", " - "];
-  for (const s of splitters) {
-    const i = title.indexOf(s);
-    if (i > 0) return title.slice(0, i).trim();
+  let t = title.trim();
+
+  // 1. Strip trailing parenthetical / bracketed asides: "X (foo bar)" -> "X"
+  t = t.replace(/\s*[\(\[\{][^\)\]\}]*[\)\]\}]\s*$/g, "").trim();
+
+  // 2. Cut at the first major separator (colon, em/en dash, pipe, slash, hyphen).
+  const separators = [":", " — ", " – ", " | ", " / ", " - "];
+  for (const s of separators) {
+    const i = t.indexOf(s);
+    if (i > 0) {
+      t = t.slice(0, i).trim();
+      break;
+    }
   }
-  return title.trim();
+
+  // 3. Trim trailing dangling connectors so we never end on "and", "with", a comma, etc.
+  const danglingRe = /[\s,;:\-–—]+(?:and|or|with|featuring|feat\.?|incl(?:uding)?|plus|&)\s*$/i;
+  // Run twice in case there are stacked dangles like "Java, and".
+  t = t.replace(danglingRe, "").trim();
+  t = t.replace(danglingRe, "").trim();
+  t = t.replace(/[,;:\-–—\s]+$/g, "").trim();
+
+  return t;
 }
 
-function InspirationCard({ article }: { article: ArticleListItem }) {
+// Fire a GA4 event when a card is clicked. Safe no-op if gtag isn't loaded.
+function trackCardClick(article: ArticleListItem, position: number) {
+  if (typeof window === "undefined") return;
+  type GtagFn = (cmd: string, event: string, params: Record<string, unknown>) => void;
+  const w = window as unknown as { gtag?: GtagFn; dataLayer?: Array<Record<string, unknown>> };
+  const payload = {
+    event_category: "home_inspiration_carousel",
+    item_id: article._id,
+    item_name: shortTitle(article.title),
+    item_slug: article.slug?.current,
+    item_destination: article.destinationPrimary,
+    item_trip_length: article.tripLengthBucket,
+    position,
+    link_url: `/trips/${article.slug?.current ?? ""}`,
+  };
+  try {
+    if (typeof w.gtag === "function") {
+      w.gtag("event", "select_content", payload);
+      w.gtag("event", "inspiration_card_click", payload);
+    } else if (Array.isArray(w.dataLayer)) {
+      w.dataLayer.push({ event: "inspiration_card_click", ...payload });
+    }
+  } catch {
+    // Never let analytics break navigation.
+  }
+}
+
+function InspirationCard({
+  article,
+  position,
+}: {
+  article: ArticleListItem;
+  position: number;
+}) {
   const img = article.heroImage?.asset
     ? urlFor(article.heroImage).width(720).height(900).fit("crop").auto("format").url()
     : null;
@@ -226,6 +281,7 @@ function InspirationCard({ article }: { article: ArticleListItem }) {
     <Link
       to="/trips/$slug"
       params={{ slug: article.slug.current }}
+      onClick={() => trackCardClick(article, position)}
       className="group relative block w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border bg-white transition-shadow hover:shadow-xl"
       style={{ borderColor: "var(--border-cream)" }}
     >
@@ -269,28 +325,125 @@ function InspirationCard({ article }: { article: ArticleListItem }) {
   );
 }
 
-function InspirationMarquee() {
-  const { data: articles } = useSuspenseQuery(articlesQO);
-  if (!articles || articles.length === 0) return null;
-  // Duplicate the list so the marquee loops seamlessly.
-  const loop = [...articles, ...articles];
-
+function CardSkeleton() {
   return (
     <div
-      className="relative w-full overflow-hidden marquee-pause"
-      style={{
-        maskImage:
-          "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
-        WebkitMaskImage:
-          "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
-      }}
+      className="w-[260px] sm:w-[300px] shrink-0 rounded-2xl overflow-hidden border animate-skeleton"
+      style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
     >
-      <div className="flex gap-5 w-max animate-marquee">
-        {loop.map((a, i) => (
-          <InspirationCard key={`${a._id}-${i}`} article={a} />
+      <div className="aspect-[4/5] w-full" style={{ backgroundColor: "var(--blue-soft)" }} />
+      <div className="p-5 space-y-2">
+        <div className="h-2.5 w-16 rounded" style={{ backgroundColor: "var(--border-cream)" }} />
+        <div className="h-4 w-3/4 rounded" style={{ backgroundColor: "var(--border-cream)" }} />
+        <div className="h-3 w-1/2 rounded" style={{ backgroundColor: "var(--border-cream)" }} />
+      </div>
+    </div>
+  );
+}
+
+function InspirationSkeleton() {
+  return (
+    <div className="w-full overflow-hidden">
+      <div className="flex gap-5 px-6">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <CardSkeleton key={i} />
         ))}
       </div>
     </div>
+  );
+}
+
+function InspirationFallback({ message }: { message: string }) {
+  return (
+    <div className="mx-auto max-w-6xl px-6">
+      <div
+        className="rounded-2xl border p-8 sm:p-10 text-center"
+        style={{ borderColor: "var(--border-cream)", backgroundColor: "var(--cream)" }}
+      >
+        <p className="font-serif text-xl mb-2" style={{ color: "var(--navy-deep)" }}>
+          Trip inspiration is on its way.
+        </p>
+        <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
+          {message}
+        </p>
+        <Link
+          to="/trips"
+          className="inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg text-white transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "var(--blue-bright)" }}
+        >
+          See all trips →
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+// Suspense + error boundary. Showing the fallback UI on any fetch failure
+// keeps the homepage from crashing if Sanity is unreachable.
+class InspirationBoundary extends Component<
+  { children: ReactNode },
+  { hasError: boolean }
+> {
+  state = { hasError: false };
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+  componentDidCatch(error: Error, info: ErrorInfo) {
+    console.error("[Inspiration] failed to load", error, info);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <InspirationFallback message="We couldn't load our top trips right now. Browse the full collection instead." />
+      );
+    }
+    return this.props.children;
+  }
+}
+
+function InspirationMarquee() {
+  const { data: articles } = useSuspenseQuery(articlesQO);
+
+  if (!articles || articles.length === 0) {
+    return (
+      <InspirationFallback message="New itineraries are being prepared. Check back soon — or explore everything we already have." />
+    );
+  }
+
+  // If fewer than expected, surface a soft notice above the row but still
+  // render whatever we have so the section never looks broken.
+  const fewerThanExpected = articles.length < MIN_EXPECTED_ARTICLES;
+
+  // Duplicate the list so the marquee loops seamlessly. With a tiny set we
+  // duplicate more times so the row visually fills the viewport.
+  const repeats = articles.length >= 4 ? 2 : Math.ceil(8 / Math.max(articles.length, 1));
+  const loop = Array.from({ length: repeats }).flatMap(() => articles);
+
+  return (
+    <>
+      {fewerThanExpected && (
+        <div className="mx-auto max-w-6xl px-6 mb-6 text-center">
+          <p className="text-xs" style={{ color: "var(--slate-muted)" }}>
+            Showing {articles.length} of our newest trips — more on the way.
+          </p>
+        </div>
+      )}
+      <div
+        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll"
+        style={{
+          maskImage:
+            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+          WebkitMaskImage:
+            "linear-gradient(to right, transparent 0, black 5%, black 95%, transparent 100%)",
+        }}
+      >
+        <div className="flex gap-5 w-max animate-marquee">
+          {loop.map((a, i) => (
+            <InspirationCard key={`${a._id}-${i}`} article={a} position={i} />
+          ))}
+        </div>
+      </div>
+    </>
   );
 }
 
@@ -320,15 +473,12 @@ function Inspiration() {
         </div>
       </div>
 
-      <Suspense
-        fallback={
-          <div className="mx-auto max-w-6xl px-6">
-            <div className="h-[380px] rounded-2xl" style={{ backgroundColor: "var(--cream)" }} />
-          </div>
-        }
-      >
-        <InspirationMarquee />
-      </Suspense>
+      <InspirationBoundary>
+        <Suspense fallback={<InspirationSkeleton />}>
+          <InspirationMarquee />
+        </Suspense>
+      </InspirationBoundary>
+
 
       <div className="text-center mt-12 px-6">
         <Link
