@@ -239,14 +239,28 @@ type WindowWithAnalytics = {
   dataLayer?: Array<Record<string, unknown>>;
 };
 
+// GA4 measurement ID — must match the gtag('config', ...) call in __root.tsx.
+// Using `send_to` pins the event to this stream so GTM-side GA4 tags don't
+// re-forward it and cause double counting.
+const GA4_MEASUREMENT_ID = "G-ZNEKVH2ETY";
+
+// Per-session dedupe: { event + slug } only fires once even if both gtag and
+// a GTM listener somehow observe the same dataLayer push.
+const sentEvents = new Set<string>();
+
 function sendGAEvent(event: string, payload: Record<string, unknown>) {
   if (typeof window === "undefined") return;
+  const dedupeKey = `${event}:${payload.item_slug ?? payload.item_id ?? ""}`;
+  if (sentEvents.has(dedupeKey)) return;
+  sentEvents.add(dedupeKey);
+
   const w = window as unknown as WindowWithAnalytics;
   try {
     if (typeof w.gtag === "function") {
-      w.gtag("event", event, payload);
+      // send_to scopes the event to GA4 only → GTM GA4 tags won't duplicate it.
+      w.gtag("event", event, { ...payload, send_to: GA4_MEASUREMENT_ID });
     } else if (Array.isArray(w.dataLayer)) {
-      w.dataLayer.push({ event, ...payload });
+      w.dataLayer.push({ event, ...payload, send_to: GA4_MEASUREMENT_ID });
     }
   } catch {
     // Never let analytics break the page.
