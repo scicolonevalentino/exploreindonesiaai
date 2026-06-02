@@ -198,8 +198,11 @@ async function runAudit() {
   for (const a of articles) all.push(...extractLinks(a));
 
   const checked = await pool(all, 10, async (l) => {
-    if (!l.url) return { ...l, check: { ok: false, error: l.error }, flags: [l.error ?? "no-url"] };
-    const r = await check(l.url);
+    if (!l.url) {
+      const c: { ok: boolean; status?: number; finalUrl?: string; redirected?: boolean; error?: string } = { ok: false, error: l.error };
+      return { ...l, check: c, flags: [l.error ?? "no-url"] };
+    }
+    const r: { ok: boolean; status?: number; finalUrl?: string; redirected?: boolean; error?: string } = await check(l.url);
     const flags: string[] = [];
     const finalHost = safeHost(r.finalUrl);
     if (!r.ok) {
