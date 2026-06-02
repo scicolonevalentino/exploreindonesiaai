@@ -211,8 +211,7 @@ function Trust() {
   // Duplicate so the marquee loops seamlessly.
   const loop = [...partners, ...partners];
   const trackRef = useRef<HTMLDivElement>(null);
-  const { dismissed, dismiss } = useMarqueeHint("hint:partners");
-  useMarqueeDrag(trackRef, { step: 180, onFirstInteract: dismiss });
+  useMarqueeDrag(trackRef, { step: 180 });
 
   return (
     <section
