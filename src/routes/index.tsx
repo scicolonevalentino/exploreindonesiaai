@@ -78,10 +78,13 @@ export const Route = createFileRoute("/")({
 
 function Logo() {
   return (
-    <div className="font-sans text-base sm:text-lg font-bold tracking-tight">
-      <span className="text-white">exploreindonesia</span>
-      <span style={{ color: "var(--blue-ice)" }}>.ai</span>
-    </div>
+    <img
+      src={logoLockupDark.url}
+      alt="exploreindonesia.ai"
+      className="h-9 sm:h-11 w-auto"
+      width={720}
+      height={96}
+    />
   );
 }
 
