@@ -85,6 +85,59 @@ function Logo() {
   );
 }
 
+const ROTATING_PHRASES = ["dreamed of", "imagined", "researched", "planned", "refined"];
+
+function RotatingPhrase() {
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+  const prefersReducedMotion =
+    typeof window !== "undefined" &&
+    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+
+  useEffect(() => {
+    if (prefersReducedMotion) return;
+    const visibleMs = 2000;
+    const fadeMs = 450;
+    const cycle = () => {
+      setVisible(false);
+      const swap = window.setTimeout(() => {
+        setIndex((i) => (i + 1) % ROTATING_PHRASES.length);
+        setVisible(true);
+      }, fadeMs);
+      return swap;
+    };
+    const interval = window.setInterval(cycle, visibleMs + fadeMs);
+    return () => window.clearInterval(interval);
+  }, [prefersReducedMotion]);
+
+  // Reserve width using the longest phrase so the sentence doesn't reflow.
+  const longest = ROTATING_PHRASES.reduce((a, b) => (a.length >= b.length ? a : b));
+
+  return (
+    <span
+      className="relative inline-grid align-baseline"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <span className="invisible col-start-1 row-start-1 whitespace-nowrap" aria-hidden="true">
+        {longest}
+      </span>
+      <span
+        key={index}
+        className="col-start-1 row-start-1 whitespace-nowrap italic transition-all ease-out"
+        style={{
+          transitionDuration: "450ms",
+          opacity: visible ? 1 : 0,
+          transform: visible ? "translateY(0)" : "translateY(-0.35em)",
+          filter: visible ? "blur(0)" : "blur(6px)",
+        }}
+      >
+        {ROTATING_PHRASES[index]}
+      </span>
+    </span>
+  );
+}
+
 function Hero() {
   const isMobile = useIsMobile();
   const videoSrc = isMobile ? heroVideoMobile.url : heroVideoDesktop.url;
