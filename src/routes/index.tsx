@@ -567,8 +567,7 @@ class InspirationBoundary extends Component<
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
   const trackRef = useRef<HTMLDivElement>(null);
-  const { dismissed, dismiss } = useMarqueeHint("hint:inspiration");
-  useMarqueeDrag(trackRef, { step: 300, onFirstInteract: dismiss });
+  useMarqueeDrag(trackRef, { step: 300 });
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
