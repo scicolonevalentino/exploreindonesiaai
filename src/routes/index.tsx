@@ -255,7 +255,7 @@ function Landing() {
       <HowItWorks />
       <Trust />
       <Inspiration />
-      <SiteFooter />
+      
     </main>
   );
 }
