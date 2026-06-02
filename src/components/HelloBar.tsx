@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
+import { useRouterState } from "@tanstack/react-router";
 
 const KEY = "hellobar-dismissed-v1";
 
 export function HelloBar() {
   const [dismissed, setDismissed] = useState(false);
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
 
   useEffect(() => {
     try {
@@ -14,6 +16,8 @@ export function HelloBar() {
     }
   }, []);
 
+  // The prototype page has its own dedicated feedback bar — hide the global one there.
+  if (pathname === "/prototype") return null;
   if (dismissed) return null;
 
   const handleDismiss = () => {
