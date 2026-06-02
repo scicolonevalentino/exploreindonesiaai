@@ -39,6 +39,7 @@ function validateEmail(raw: string): string | null {
 }
 
 function EmailCapture() {
+  const { data: settings } = useSiteSettings();
   const [email, setEmail] = useState("");
   const [website, setWebsite] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
