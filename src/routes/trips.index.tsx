@@ -145,27 +145,27 @@ function TripsInner() {
     sel.vibes.length;
 
   const activeChips: Array<{ key: keyof Search; value: string; label: string }> = [
-    ...sel.destinations.map((v) => ({
+    ...sel.destinations.map((v: string) => ({
       key: "destinations" as const,
       value: v,
       label: labelFor(DESTINATIONS, v),
     })),
-    ...sel.tripLengths.map((v) => ({
+    ...sel.tripLengths.map((v: string) => ({
       key: "tripLengths" as const,
       value: v,
       label: labelFor(TRIP_LENGTHS, v),
     })),
-    ...sel.styles.map((v) => ({
+    ...sel.styles.map((v: string) => ({
       key: "styles" as const,
       value: v,
       label: labelFor(TRAVEL_STYLES, v),
     })),
-    ...sel.travellers.map((v) => ({
+    ...sel.travellers.map((v: string) => ({
       key: "travellers" as const,
       value: v,
       label: labelFor(TRAVELLER_TYPES, v),
     })),
-    ...sel.vibes.map((v) => ({
+    ...sel.vibes.map((v: string) => ({
       key: "vibes" as const,
       value: v,
       label: labelFor(VIBES, v),
