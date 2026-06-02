@@ -121,24 +121,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { rel: "preconnect", href: "https://www.googletagmanager.com" },
       ],
       scripts: [
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-ZNEKVH2ETY",
-          async: true,
-        },
-        {
-          children:
-            "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZNEKVH2ETY');",
-        },
+        // Google Consent Mode defaults — denied until the cookie banner is
+        // accepted. Analytics loaders are injected by analytics-consent.ts
+        // after the user opts in.
         {
           children:
-            "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MNZHRZ79');",
+            "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});",
         },
-        // Contentsquare
-        {
-          src: "https://t.contentsquare.net/uxa/2fe350eb44674.js",
-          async: true,
-        },
-        // Travelpayouts Drive loader
+        // Travelpayouts Drive loader (affiliate, not user tracking)
         {
           children:
             "(function(){var s=document.createElement('script');s.async=1;s.src='https://emrldtp.cc/NTM1Mzc0.js?t=535374';document.head.appendChild(s);})();",
