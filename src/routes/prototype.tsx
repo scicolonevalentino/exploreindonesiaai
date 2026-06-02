@@ -242,12 +242,17 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
 };
 
 const SAMPLE_ITINERARY = `Day 1 — Arrive Denpasar (DPS), private transfer to Ubud, settle in
-Day 2 — Tegalalang rice terrace, Sacred Monkey Forest, Tirta Empul temple
-        evening: Campuhan Ridge Walk at sunset
+
+Day 2 — Tegalalang rice terrace, Sacred Monkey Forest, Tirta Empul temple evening: Campuhan Ridge Walk at sunset
+
 Day 3 — Mount Batur sunrise trek; free afternoon by the pool
+
 Day 4 — Nusa Penida day trip (Kelingking, Angel's Billabong, Broken Beach)
+
 Day 5 — Uluwatu Temple + Kecak fire dance at sunset
+
 Day 6 — Canggu: morning surf lesson, cafe-hop, relax
+
 Day 7 — Departure, transfer to airport`;
 
 /* -------------------------------------------------------------------------- */
@@ -321,7 +326,7 @@ function PrototypeHelloBar() {
 /* ---- Stage 1: Input ---- */
 
 function InputStage({ onStart }: { onStart: () => void }) {
-  const [text, setText] = useState(SAMPLE_ITINERARY);
+  // The itinerary is intentionally fixed for this prototype demo.
   return (
     <div
       className="flex-1 w-full"
@@ -375,23 +380,27 @@ function InputStage({ onStart }: { onStart: () => void }) {
           className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl mx-auto"
           style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
         >
-          <label htmlFor="paste-area" className="block text-sm font-bold mb-3">
-            Paste your itinerary
-          </label>
-          <textarea
-            id="paste-area"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            rows={9}
-            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] resize-none"
+          <div className="flex items-center justify-between mb-3">
+            <span className="block text-sm font-bold">Paste your itinerary</span>
+            <span
+              className="text-[10px] uppercase tracking-widest font-semibold px-2 py-1 rounded"
+              style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
+            >
+              Sample · static for demo
+            </span>
+          </div>
+          <pre
+            aria-label="Sample itinerary used for this prototype"
+            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap select-text"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
-          />
+          >
+            {SAMPLE_ITINERARY}
+          </pre>
           <div className="mt-4 flex items-center justify-end">
             <button
               type="button"
               onClick={onStart}
-              disabled={!text.trim()}
-              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-colors bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
             >
               Assemble my trip <span aria-hidden>→</span>
             </button>
@@ -414,12 +423,12 @@ const STEPS = [
 ];
 
 const PROGRESS_MSGS = [
-  "Reading paste…",
-  "Grouping days…",
-  "Searching providers…",
-  "Matching prices & de-duping…",
-  "Ranking by rating…",
-  "Ready.",
+  "Reading your paste line by line…",
+  "Grouping activities into days…",
+  "Searching providers across Klook, Viator, GetYourGuide & 12Go…",
+  "Mocking bookable results — matching prices & de-duping…",
+  "Ranking by rating and proximity…",
+  "Ready — your trip is bookable.",
 ];
 
 function AssemblingStage({ onDone }: { onDone: () => void }) {
@@ -508,7 +517,20 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
       </div>
 
       <div className="w-full max-w-2xl">
-        <div className="h-1 w-full rounded-full overflow-hidden bg-white/10">
+        <div className="flex items-center justify-between text-xs uppercase tracking-widest text-white/60 mb-2">
+          <span>
+            Step {activeStep + 1} of {STEPS.length}
+          </span>
+          <span>{Math.round(pct)}%</span>
+        </div>
+        <div
+          className="h-2 w-full rounded-full overflow-hidden bg-white/10"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(pct)}
+          aria-label="Assembling your trip"
+        >
           <div
             className="h-full transition-all duration-700"
             style={{
@@ -517,7 +539,17 @@ function AssemblingStage({ onDone }: { onDone: () => void }) {
             }}
           />
         </div>
-        <p className="text-center text-sm mt-3 text-white/70">{PROGRESS_MSGS[activeStep]}</p>
+        <p
+          className="text-center text-base sm:text-lg mt-4 text-white font-medium flex items-center justify-center gap-2"
+          aria-live="polite"
+        >
+          <span
+            className="inline-block w-2 h-2 rounded-full animate-pulse"
+            style={{ backgroundColor: "var(--blue-ice)" }}
+            aria-hidden
+          />
+          {PROGRESS_MSGS[activeStep]}
+        </p>
       </div>
     </div>
   );
