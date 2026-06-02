@@ -441,27 +441,47 @@ function ArticleInner() {
               </p>
               <nav className="border-l" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
                 <ul className="space-y-2.5">
-                  {toc.map((item) => (
-                    <li key={item.id}>
-                      <a
-                        href={`#${item.id}`}
-                        className="group block pl-4 -ml-px border-l border-transparent text-sm leading-snug transition-all duration-200 hover:pl-5 hover:font-medium"
-                        style={{
-                          color: "var(--navy-mid, #1e3a5f)",
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.color = "var(--teal-link, #0f766e)";
-                          e.currentTarget.style.borderColor = "var(--teal-link, #0f766e)";
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.color = "var(--navy-mid, #1e3a5f)";
-                          e.currentTarget.style.borderColor = "transparent";
-                        }}
-                      >
-                        {item.text}
-                      </a>
-                    </li>
-                  ))}
+                  {toc.map((item) => {
+                    const isActive = activeId === item.id;
+                    const isClicked = clickedId === item.id;
+                    return (
+                      <li key={item.id}>
+                        <a
+                          href={`#${item.id}`}
+                          onClick={(e) => handleTocClick(e, item.id)}
+                          aria-current={isActive ? "location" : undefined}
+                          className={`block pl-4 -ml-px border-l text-sm leading-snug rounded-r-md transition-all duration-200 outline-none focus-visible:ring-2 focus-visible:ring-offset-1 hover:pl-5 ${
+                            isClicked ? "scale-[0.98]" : ""
+                          }`}
+                          style={{
+                            color: isActive
+                              ? "var(--teal-link, #0f766e)"
+                              : "var(--navy-mid, #1e3a5f)",
+                            borderColor: isActive
+                              ? "var(--teal-link, #0f766e)"
+                              : "transparent",
+                            fontWeight: isActive ? 600 : 400,
+                            backgroundColor: isClicked
+                              ? "color-mix(in oklab, var(--teal-link, #0f766e) 12%, transparent)"
+                              : "transparent",
+                          }}
+                          onMouseEnter={(e) => {
+                            if (isActive) return;
+                            e.currentTarget.style.color = "var(--teal-link, #0f766e)";
+                            e.currentTarget.style.borderColor =
+                              "color-mix(in oklab, var(--teal-link, #0f766e) 50%, transparent)";
+                          }}
+                          onMouseLeave={(e) => {
+                            if (isActive) return;
+                            e.currentTarget.style.color = "var(--navy-mid, #1e3a5f)";
+                            e.currentTarget.style.borderColor = "transparent";
+                          }}
+                        >
+                          {item.text}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </nav>
             </div>
