@@ -22,9 +22,13 @@ import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;
 
 const FALLBACK_SETTINGS: Required<Pick<SiteSettings, "siteTitle" | "defaultMetaDescription">> = {
-  siteTitle: "Explore Indonesia - AI Trip Planner",
-  defaultMetaDescription: "Indonesia AI Trip Planner",
+  siteTitle: "Exploreindonesia.ai",
+  defaultMetaDescription:
+    "Indonesia Trip Planner turns your existing travel plans into bookable itineraries.",
 };
+
+const SOCIAL_PREVIEW_IMAGE =
+  "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png";
 
 function NotFoundComponent() {
   return (
@@ -109,18 +113,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { property: "og:title", content: title },
         { property: "og:description", content: description },
         { property: "og:type", content: "website" },
+        { property: "og:image", content: SOCIAL_PREVIEW_IMAGE },
         { name: "twitter:card", content: "summary" },
         { name: "twitter:site", content: "@ExploreIndonesiaAI" },
         { name: "twitter:title", content: title },
         { name: "twitter:description", content: description },
-        { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
-        { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png" },
-        { title: "Exploreindonesia.at" },
-        { property: "og:title", content: "Exploreindonesia.at" },
-        { name: "twitter:title", content: "Exploreindonesia.at" },
-        { name: "description", content: "Indonesia Trip Planner turns your existing travel plans into bookable itineraries." },
-        { property: "og:description", content: "Indonesia Trip Planner turns your existing travel plans into bookable itineraries." },
-        { name: "twitter:description", content: "Indonesia Trip Planner turns your existing travel plans into bookable itineraries." },
+        { name: "twitter:image", content: SOCIAL_PREVIEW_IMAGE },
       ],
       links: [
         {
