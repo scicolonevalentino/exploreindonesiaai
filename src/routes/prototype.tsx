@@ -763,7 +763,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
       </header>
 
 
-      <section className="mx-auto max-w-6xl px-6 pb-32">
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-32">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
             <p
@@ -832,7 +832,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
 
       {/* Inline totals + CTA — no sticky bar, sits right after the itinerary */}
       {totals.count > 0 && (
-        <div className="mx-auto max-w-6xl px-6 pb-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
           <div
             className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
             style={{ borderColor: "var(--border-cream)" }}
