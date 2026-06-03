@@ -147,26 +147,14 @@ export function IndonesiaMap() {
               }}
             >
               <div
-                className="rounded-lg border bg-white px-3 py-2 shadow-lg"
+                className="rounded-lg border bg-white px-3 py-1.5 shadow-lg"
                 style={{ borderColor: "var(--border-cream)" }}
               >
                 <p
-                  className="text-[10px] font-semibold uppercase tracking-[0.18em]"
-                  style={{ color: "var(--teal-link)" }}
-                >
-                  Destination
-                </p>
-                <p
-                  className="font-serif text-sm font-semibold leading-snug"
+                  className="font-serif text-sm font-semibold leading-snug text-center"
                   style={{ color: "var(--navy-deep)" }}
                 >
                   {d.name}
-                </p>
-                <p
-                  className="mt-0.5 text-[11px] leading-snug line-clamp-2"
-                  style={{ color: "var(--slate-muted)" }}
-                >
-                  {d.highlights.slice(0, 3).join(" · ")}
                 </p>
               </div>
             </div>

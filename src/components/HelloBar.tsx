@@ -1,40 +1,16 @@
-import { useEffect, useState } from "react";
-import { X } from "lucide-react";
 import { useRouterState } from "@tanstack/react-router";
 
-const KEY = "hellobar-dismissed-v1";
-
 export function HelloBar() {
-  const [dismissed, setDismissed] = useState(false);
   const pathname = useRouterState({ select: (s) => s.location.pathname });
-
-  useEffect(() => {
-    try {
-      if (localStorage.getItem(KEY) === "1") setDismissed(true);
-    } catch {
-      // ignore
-    }
-  }, []);
 
   // The prototype page has its own dedicated feedback bar — hide the global one there.
   if (pathname === "/prototype") return null;
-  if (dismissed) return null;
-
-  const handleDismiss = () => {
-    try {
-      localStorage.setItem(KEY, "1");
-    } catch {
-      // ignore
-    }
-    setDismissed(true);
-  };
 
   const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const el = document.getElementById("early-access");
     if (el) {
       e.preventDefault();
       el.scrollIntoView({ behavior: "smooth", block: "start" });
-      // Focus the email input shortly after scroll begins.
       window.setTimeout(() => {
         const input = el.querySelector<HTMLInputElement>('input[type="email"]');
         input?.focus({ preventScroll: true });
@@ -53,8 +29,8 @@ export function HelloBar() {
         boxShadow: "0 1px 12px rgba(20,184,166,0.35)",
       }}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 flex items-center justify-center gap-3 relative">
-        <p className="text-center leading-snug pr-8 font-medium">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 flex items-center justify-center gap-3">
+        <p className="text-center leading-snug font-medium">
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
           <span className="sm:hidden">Early access opening soon. </span>
           <a
@@ -66,14 +42,6 @@ export function HelloBar() {
             Get early access →
           </a>
         </p>
-        <button
-          type="button"
-          onClick={handleDismiss}
-          aria-label="Dismiss announcement"
-          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 p-1 rounded hover:bg-white/15 transition-colors"
-        >
-          <X className="w-3.5 h-3.5" aria-hidden="true" />
-        </button>
       </div>
     </div>
   );
