@@ -628,67 +628,8 @@ class InspirationBoundary extends Component<
 
 function InspirationMarquee() {
   const { data: articles } = useSuspenseQuery(articlesQO);
-  const viewportRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
-
-  // Enable click-and-drag scrolling on desktop (touch already works natively).
-  useEffect(() => {
-    const el = viewportRef.current;
-    if (!el) return;
-    let isDown = false;
-    let startX = 0;
-    let startScroll = 0;
-    let moved = false;
-
-    const onDown = (e: PointerEvent) => {
-      if (e.pointerType !== "mouse") return;
-      isDown = true;
-      moved = false;
-      startX = e.clientX;
-      startScroll = el.scrollLeft;
-      el.setPointerCapture(e.pointerId);
-    };
-    const onMove = (e: PointerEvent) => {
-      if (!isDown) return;
-      const dx = e.clientX - startX;
-      if (Math.abs(dx) > 5) moved = true;
-      el.scrollLeft = startScroll - dx;
-    };
-    const onUp = (e: PointerEvent) => {
-      if (!isDown) return;
-      isDown = false;
-      try { el.releasePointerCapture(e.pointerId); } catch {}
-    };
-    const onClickCapture = (e: MouseEvent) => {
-      if (moved) {
-        e.preventDefault();
-        e.stopPropagation();
-        moved = false;
-      }
-    };
-
-    el.addEventListener("pointerdown", onDown);
-    el.addEventListener("pointermove", onMove);
-    el.addEventListener("pointerup", onUp);
-    el.addEventListener("pointercancel", onUp);
-    el.addEventListener("click", onClickCapture, true);
-    return () => {
-      el.removeEventListener("pointerdown", onDown);
-      el.removeEventListener("pointermove", onMove);
-      el.removeEventListener("pointerup", onUp);
-      el.removeEventListener("pointercancel", onUp);
-      el.removeEventListener("click", onClickCapture, true);
-    };
-  }, []);
-
-  const moveCarousel = useCallback((direction: "prev" | "next") => {
-    const step = 320;
-    viewportRef.current?.scrollBy({
-      left: direction === "prev" ? -step : step,
-      behavior: "smooth",
-    });
-  }, []);
-
+  useMarqueeDrag(trackRef, { step: 240 });
 
   if (!articles || articles.length === 0) {
     console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
@@ -701,6 +642,7 @@ function InspirationMarquee() {
   }
 
   const fewerThanExpected = articles.length < MIN_EXPECTED_ARTICLES;
+  const loop = [...articles, ...articles];
 
   return (
     <>
@@ -712,70 +654,35 @@ function InspirationMarquee() {
         </div>
       )}
       <div
-        ref={viewportRef}
-        className="relative w-full overflow-x-auto scroll-smooth"
+        className="relative w-full overflow-hidden marquee-pause marquee-reduced-scroll"
         style={{
           maskImage:
             "linear-gradient(to right, transparent 0, black 3%, black 92%, transparent 100%)",
           WebkitMaskImage:
             "linear-gradient(to right, transparent 0, black 3%, black 92%, transparent 100%)",
-          scrollSnapType: "x mandatory",
-          scrollPaddingLeft: "1.5rem",
         }}
       >
         <div
           ref={trackRef}
-          className="flex gap-4 sm:gap-5 w-max focus:outline-none pl-6 pr-12 sm:px-6"
+          className="flex gap-4 sm:gap-5 w-max animate-marquee focus:outline-none"
           role="region"
           aria-roledescription="carousel"
           aria-label={`${articles.length} Indonesia trip itineraries.`}
         >
-          {articles.map((a, i) => (
+          {loop.map((a, i) => (
             <InspirationCard
-              key={a._id}
+              key={`${a._id}-${i}`}
               article={a}
-              position={i}
+              position={i % articles.length}
               totalCards={articles.length}
             />
           ))}
         </div>
-
-        <button
-          type="button"
-          aria-label="Previous itinerary"
-          data-inspiration-arrow="true"
-          onClick={() => moveCarousel("prev")}
-          className="absolute left-3 sm:left-6 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 sm:flex"
-          style={{
-            borderColor: "var(--border-cream)",
-            color: "var(--navy-deep)",
-            cursor: "pointer",
-            // @ts-expect-error CSS custom prop for focus ring
-            "--tw-ring-color": "var(--blue-bright)",
-          }}
-        >
-          <span className="text-3xl leading-none" aria-hidden="true">‹</span>
-        </button>
-        <button
-          type="button"
-          aria-label="Next itinerary"
-          data-inspiration-arrow="true"
-          onClick={() => moveCarousel("next")}
-          className="absolute right-3 sm:right-6 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 sm:flex"
-          style={{
-            borderColor: "var(--border-cream)",
-            color: "var(--navy-deep)",
-            cursor: "pointer",
-            // @ts-expect-error CSS custom prop for focus ring
-            "--tw-ring-color": "var(--blue-bright)",
-          }}
-        >
-          <span className="text-3xl leading-none" aria-hidden="true">›</span>
-        </button>
       </div>
     </>
   );
 }
+
 
 
 function Inspiration() {
