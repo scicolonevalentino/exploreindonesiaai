@@ -982,7 +982,7 @@ function ItemCard({
 
   return (
     <div
-      className={`grid grid-cols-[140px_1fr_auto] gap-4 p-4 rounded-xl border transition-all ${
+      className={`p-3 sm:p-4 rounded-xl border transition-all ${
         added ? "ring-2 ring-[var(--blue-bright)]" : ""
       }`}
       style={{
@@ -990,96 +990,98 @@ function ItemCard({
         backgroundColor: isRecommended ? "#fbf2dd" : "white",
       }}
     >
-      <div
-        className="aspect-[4/3] rounded-lg flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
-        style={{ backgroundColor: "#e6dfd0" }}
-      >
-        <div>
-          <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
-          <div className="leading-tight">{item.title.slice(0, 32)}{item.title.length > 32 ? "…" : ""}</div>
-          {item.durationLabel && (
-            <div
-              className="mt-2 inline-block text-[10px] px-2 py-0.5 rounded-full text-white"
-              style={{ backgroundColor: "var(--navy-deep)" }}
-            >
-              {item.durationLabel}
+      <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
+        <div
+          className="aspect-[4/3] rounded-lg flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
+          style={{ backgroundColor: "#e6dfd0" }}
+        >
+          <div>
+            <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
+            <div className="leading-tight hidden sm:block">
+              {item.title.slice(0, 32)}{item.title.length > 32 ? "…" : ""}
             </div>
-          )}
-        </div>
-      </div>
-
-      <div className="min-w-0">
-        <div className="flex flex-wrap items-center gap-2 mb-2">
-          {item.source && (
-            <span
-              className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"
-              style={{ backgroundColor: SOURCE_COLOR[item.source] }}
-            >
-              ● {SOURCE_LABEL[item.source]}
-            </span>
-          )}
-          {item.clusteredMatch && (
-            <span
-              className="text-[10px] font-semibold uppercase tracking-wider"
-              style={{ color: "var(--teal-link)" }}
-            >
-              ● Clustered match
-            </span>
-          )}
-          {isRecommended && (
-            <span
-              className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider"
-              style={{ color: "#b58a3a" }}
-            >
-              <Sparkles className="w-3 h-3" aria-hidden /> Recommended experience
-            </span>
-          )}
+            {item.durationLabel && (
+              <div
+                className="mt-2 inline-block text-[10px] px-2 py-0.5 rounded-full text-white"
+                style={{ backgroundColor: "var(--navy-deep)" }}
+              >
+                {item.durationLabel}
+              </div>
+            )}
+          </div>
         </div>
 
-        <h3 className="font-bold text-base sm:text-lg leading-snug" style={{ fontFamily: "var(--font-serif)" }}>
-          {item.title}
-        </h3>
-
-        {item.rating != null && (
-          <p className="text-xs text-[var(--slate-muted)] mt-1">
-            <span className="text-amber-500">★</span> {item.rating.toFixed(1)}{" "}
-            ({item.reviews?.toLocaleString()})
-          </p>
-        )}
-
-        {item.matched && item.matched.length > 0 && (
-          <p className="text-xs mt-2 text-[var(--slate-muted)]">
-            matched from{" "}
-            {item.matched.map((m, idx) => (
-              <span key={m}>
-                <span
-                  className="px-1.5 py-0.5 rounded font-mono text-[11px]"
-                  style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
-                >
-                  {m}
-                </span>
-                {idx < item.matched!.length - 1 && <span className="mx-1">·</span>}
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
+            {item.source && (
+              <span
+                className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"
+                style={{ backgroundColor: SOURCE_COLOR[item.source] }}
+              >
+                ● {SOURCE_LABEL[item.source]}
               </span>
-            ))}
-          </p>
-        )}
+            )}
+            {item.clusteredMatch && (
+              <span
+                className="text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "var(--teal-link)" }}
+              >
+                ● Clustered match
+              </span>
+            )}
+            {isRecommended && (
+              <span
+                className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "#b58a3a" }}
+              >
+                <Sparkles className="w-3 h-3" aria-hidden /> Recommended
+              </span>
+            )}
+          </div>
 
-        {item.description && (
-          <p className="text-sm text-[var(--slate-muted)] mt-2">{item.description}</p>
-        )}
-      </div>
+          <h3 className="font-bold text-sm sm:text-lg leading-snug break-words" style={{ fontFamily: "var(--font-serif)" }}>
+            {item.title}
+          </h3>
 
-      <div className="flex flex-col items-end justify-between gap-2 text-right">
-        <div>
-          <span
-            className="text-2xl font-bold"
-            style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
-          >
-            ${item.price}
-          </span>
-          <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+          {item.rating != null && (
+            <p className="text-xs text-[var(--slate-muted)] mt-1">
+              <span className="text-amber-500">★</span> {item.rating.toFixed(1)}{" "}
+              ({item.reviews?.toLocaleString()})
+            </p>
+          )}
+
+          {item.matched && item.matched.length > 0 && (
+            <p className="text-xs mt-2 text-[var(--slate-muted)] hidden sm:block">
+              matched from{" "}
+              {item.matched.map((m, idx) => (
+                <span key={m}>
+                  <span
+                    className="px-1.5 py-0.5 rounded font-mono text-[11px]"
+                    style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
+                  >
+                    {m}
+                  </span>
+                  {idx < item.matched!.length - 1 && <span className="mx-1">·</span>}
+                </span>
+              ))}
+            </p>
+          )}
+
+          {item.description && (
+            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mt-1.5 sm:mt-2">{item.description}</p>
+          )}
         </div>
-        <>
+
+        <div className="hidden sm:flex flex-col items-end justify-between gap-2 text-right">
+          <div>
+            <span
+              className="text-2xl font-bold"
+              style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+            >
+              ${item.price}
+            </span>
+            <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+          </div>
           <button
             type="button"
             onClick={onToggle}
@@ -1100,8 +1102,33 @@ function ItemCard({
               Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
             </a>
           )}
-        </>
+        </div>
+      </div>
+
+      {/* Mobile-only price + CTA row */}
+      <div className="flex sm:hidden items-center justify-between gap-3 mt-3 pt-3 border-t" style={{ borderColor: "var(--border-cream)" }}>
+        <div>
+          <span
+            className="text-xl font-bold"
+            style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+          >
+            ${item.price}
+          </span>
+          <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+        </div>
+        <button
+          type="button"
+          onClick={onToggle}
+          className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+            added
+              ? "bg-[var(--blue-bright)] text-white border-transparent"
+              : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+          }`}
+        >
+          {added ? "✓ Added" : "Add to trip"}
+        </button>
       </div>
     </div>
   );
 }
+
