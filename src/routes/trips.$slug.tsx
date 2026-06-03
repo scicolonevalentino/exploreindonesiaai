@@ -160,7 +160,9 @@ export const Route = createFileRoute("/trips/$slug")({
       <div>
         <h1 className="font-serif text-2xl mb-2">Couldn't load this trip</h1>
         <p className="text-sm text-muted-foreground">{error.message}</p>
-        <Link to="/trips" className="mt-4 inline-block underline">Back to all trips</Link>
+        <Link to="/trips" className="mt-4 inline-block underline">
+          Back to all trips
+        </Link>
       </div>
     </div>
   ),
@@ -184,10 +186,7 @@ export const Route = createFileRoute("/trips/$slug")({
           >
             We couldn't find that itinerary
           </h1>
-          <p
-            className="text-base mb-2"
-            style={{ color: "var(--navy-mid, #1e3a5f)" }}
-          >
+          <p className="text-base mb-2" style={{ color: "var(--navy-mid, #1e3a5f)" }}>
             The trip{" "}
             <code
               className="px-1.5 py-0.5 rounded text-sm"
@@ -200,12 +199,8 @@ export const Route = createFileRoute("/trips/$slug")({
             </code>{" "}
             doesn't exist or may have been moved.
           </p>
-          <p
-            className="text-sm mb-8"
-            style={{ color: "var(--slate-muted, #64748b)" }}
-          >
-            Browse our full collection of hand-picked Indonesia itineraries
-            instead.
+          <p className="text-sm mb-8" style={{ color: "var(--slate-muted, #64748b)" }}>
+            Browse our full collection of hand-picked Indonesia itineraries instead.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link
@@ -255,7 +250,11 @@ function slugifyHeading(text: string): string {
 function extractText(children: unknown): string {
   if (typeof children === "string") return children;
   if (Array.isArray(children)) return children.map(extractText).join("");
-  if (children && typeof children === "object" && "props" in (children as Record<string, unknown>)) {
+  if (
+    children &&
+    typeof children === "object" &&
+    "props" in (children as Record<string, unknown>)
+  ) {
     return extractText((children as { props: { children?: unknown } }).props?.children);
   }
   return "";
@@ -282,7 +281,10 @@ function ArticleInner() {
     (a.body ?? []).forEach((block) => {
       const b = block as { _type?: string; style?: string; children?: Array<{ text?: string }> };
       if (b._type === "block" && b.style === "h2") {
-        const text = (b.children ?? []).map((c) => c.text ?? "").join("").trim();
+        const text = (b.children ?? [])
+          .map((c) => c.text ?? "")
+          .join("")
+          .trim();
         if (text) items.push({ id: slugifyHeading(text), text });
       }
     });
@@ -311,7 +313,7 @@ function ArticleInner() {
           setActiveId(visible[0].target.id);
         }
       },
-      { rootMargin: `-${SCROLL_OFFSET}px 0px -70% 0px`, threshold: [0, 1] }
+      { rootMargin: `-${SCROLL_OFFSET}px 0px -70% 0px`, threshold: [0, 1] },
     );
     headings.forEach((h) => observer.observe(h));
     return () => observer.disconnect();
@@ -347,26 +349,20 @@ function ArticleInner() {
       e.preventDefault();
       const dir = e.key === "ArrowDown" ? 1 : -1;
       const next = (index + dir + toc.length) % toc.length;
-      const nextLink = document.querySelector<HTMLAnchorElement>(
-        `[data-toc-index="${next}"]`
-      );
+      const nextLink = document.querySelector<HTMLAnchorElement>(`[data-toc-index="${next}"]`);
       nextLink?.focus();
     } else if (e.key === "Home") {
       e.preventDefault();
       document.querySelector<HTMLAnchorElement>(`[data-toc-index="0"]`)?.focus();
     } else if (e.key === "End") {
       e.preventDefault();
-      document
-        .querySelector<HTMLAnchorElement>(`[data-toc-index="${toc.length - 1}"]`)
-        ?.focus();
+      document.querySelector<HTMLAnchorElement>(`[data-toc-index="${toc.length - 1}"]`)?.focus();
     }
   };
-
 
   const heroImg = a.heroImage?.asset
     ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
     : null;
-
 
   const components: PortableTextComponents = {
     block: {
@@ -433,16 +429,8 @@ function ArticleInner() {
           <a
             href={href}
             target={value?.blank === false ? undefined : "_blank"}
-            rel={
-              isAffiliate
-                ? "sponsored noopener noreferrer"
-                : "noopener noreferrer"
-            }
-            className={
-              isAffiliate
-                ? "font-medium underline underline-offset-2"
-                : "underline"
-            }
+            rel={isAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
+            className={isAffiliate ? "font-medium underline underline-offset-2" : "underline"}
             style={{ color: "var(--teal-link)" }}
           >
             {children}
@@ -473,7 +461,6 @@ function ArticleInner() {
               </figcaption>
             )}
           </figure>
-
         );
       },
     },
@@ -515,9 +502,7 @@ function ArticleInner() {
           <div className="mx-auto max-w-4xl w-full text-center my-auto py-12">
             <p className="text-[11px] sm:text-xs font-medium uppercase tracking-[0.3em] mb-5 text-white/80">
               {labelFor(TRIP_LENGTHS, a.tripLengthBucket)}
-              {a.destinationPrimary
-                ? ` · ${labelFor(DESTINATIONS, a.destinationPrimary)}`
-                : ""}
+              {a.destinationPrimary ? ` · ${labelFor(DESTINATIONS, a.destinationPrimary)}` : ""}
             </p>
             <h1
               className="font-serif text-white text-4xl sm:text-6xl font-semibold leading-[1.05] tracking-tight"
@@ -526,16 +511,23 @@ function ArticleInner() {
               {a.title}
             </h1>
             {a.route && (
-              <p className="mt-6 text-white/90 text-base sm:text-lg font-light italic">
-                {a.route}
-              </p>
+              <p className="mt-6 text-white/90 text-base sm:text-lg font-light italic">{a.route}</p>
             )}
             {readingMinutes > 0 && (
               <p
                 className="mt-4 inline-flex items-center gap-2 text-white/75 text-xs sm:text-sm font-medium tracking-wide"
                 aria-label={`Estimated reading time: ${readingMinutes} minutes`}
               >
-                <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-3.5 h-3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
                   <circle cx="12" cy="12" r="9" />
                   <path d="M12 7v5l3 2" />
                 </svg>
@@ -610,7 +602,6 @@ function ArticleInner() {
           <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
         </article>
 
-
         {toc.length > 1 && (
           <aside className="hidden lg:block lg:col-span-3">
             <div className="sticky top-8">
@@ -644,9 +635,7 @@ function ArticleInner() {
                             color: isActive
                               ? "var(--teal-link, #0f766e)"
                               : "var(--navy-mid, #1e3a5f)",
-                            borderColor: isActive
-                              ? "var(--teal-link, #0f766e)"
-                              : "transparent",
+                            borderColor: isActive ? "var(--teal-link, #0f766e)" : "transparent",
                             fontWeight: isActive ? 600 : 400,
                             backgroundColor: isClicked
                               ? "color-mix(in oklab, var(--teal-link, #0f766e) 12%, transparent)"
@@ -675,11 +664,9 @@ function ArticleInner() {
           </aside>
         )}
       </div>
-      
     </div>
   );
 }
-
 
 function Tag({ children }: { children: React.ReactNode }) {
   return (
@@ -745,7 +732,16 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
       label: "Email",
       href: `mailto:?subject=${encodedTitle}&body=${encodedTitle}%0A%0A${encodedUrl}`,
       icon: (
-        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          className="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
           <rect x="3" y="5" width="18" height="14" rx="2" />
           <path d="m3 7 9 6 9-6" />
         </svg>
@@ -801,7 +797,16 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
             color: "var(--navy-deep)",
           }}
         >
-          <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
             <rect x="9" y="9" width="13" height="13" rx="2" />
             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
           </svg>
@@ -811,7 +816,6 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
     </section>
   );
 }
-
 
 function RelatedItineraries({ items }: { items: ArticleListItem[] }) {
   if (!items || items.length === 0) return null;

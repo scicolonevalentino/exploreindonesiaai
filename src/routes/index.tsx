@@ -53,7 +53,6 @@ const articlesQO = queryOptions({
   refetchOnWindowFocus: false,
 });
 
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -66,8 +65,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "exploreindonesia.ai — Indonesia AI Trip Planner" },
       {
         property: "og:description",
-        content:
-          "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
+        content: "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -93,8 +91,7 @@ function Hero() {
     <section
       className="relative w-full overflow-hidden isolate"
       style={{
-        background:
-          "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
+        background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
       {/* Background video — muted, looping, decorative. Lighter treatment so
@@ -166,14 +163,12 @@ function Hero() {
           </span>
         </h1>
 
-
         <p
           className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white font-light"
           style={{ textShadow: "0 1px 14px rgba(0,0,0,0.65)" }}
         >
-          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We
-          turn it into a structured, day-by-day trip with bookable stays,
-          transfers, tours, and experiences.
+          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
+          structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
         </p>
       </div>
     </section>
@@ -185,28 +180,22 @@ function HowItWorks() {
     {
       n: 1,
       title: "Paste your plan",
-      body:
-        "Drop in the itinerary you already have. No starting over. No long forms to fill out. Just paste and go.",
+      body: "Drop in the itinerary you already have. No starting over. No long forms to fill out. Just paste and go.",
     },
     {
       n: 2,
       title: "We match it",
-      body:
-        "We match your itinerary with vetted experiences from trusted travel platforms and local operators.",
+      body: "We match your itinerary with vetted experiences from trusted travel platforms and local operators.",
     },
     {
       n: 3,
       title: "You book it",
-      body:
-        "Review your trip in one place, then choose the experiences you want to book.",
+      body: "Review your trip in one place, then choose the experiences you want to book.",
     },
   ];
 
   return (
-    <section
-      className="w-full px-6 py-20 sm:py-28"
-      style={{ backgroundColor: "var(--cream)" }}
-    >
+    <section className="w-full px-6 py-20 sm:py-28" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-center mb-14"
@@ -230,22 +219,16 @@ function HowItWorks() {
               >
                 {s.title}
               </h3>
-              <p
-                className="text-base leading-relaxed"
-                style={{ color: "var(--text-dark)" }}
-              >
+              <p className="text-base leading-relaxed" style={{ color: "var(--text-dark)" }}>
                 {s.body}
               </p>
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
 }
-
-
 
 function Trust() {
   const partners = [
@@ -275,10 +258,7 @@ function Trust() {
   useMarqueeDrag(trackRef, { step: 180 });
 
   return (
-    <section
-      className="w-full pb-24 pt-4"
-      style={{ backgroundColor: "var(--cream)" }}
-    >
+    <section className="w-full pb-24 pt-4" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl px-6">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
@@ -313,7 +293,10 @@ function Trust() {
               data-partner-logo={p.name}
               style={{ borderColor: "var(--border-cream)" }}
             >
-              <span className="font-bold text-base sm:text-lg whitespace-nowrap" style={{ color: p.color }}>
+              <span
+                className="font-bold text-base sm:text-lg whitespace-nowrap"
+                style={{ color: p.color }}
+              >
                 {p.name}
               </span>
             </div>
@@ -321,12 +304,8 @@ function Trust() {
         </div>
       </div>
 
-
       <div className="mx-auto max-w-6xl px-6">
-        <p
-          className="text-center text-base"
-          style={{ color: "var(--text-dark)" }}
-        >
+        <p className="text-center text-base" style={{ color: "var(--text-dark)" }}>
           Behind these names sit thousands of vetted local operators across Indonesia.
         </p>
       </div>
@@ -444,9 +423,7 @@ function InspirationCard({
         for (const entry of entries) {
           if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
             trackCardImpression(article, position);
-            router
-              .preloadRoute({ to: "/trips/$slug", params: { slug } })
-              .catch(() => {});
+            router.preloadRoute({ to: "/trips/$slug", params: { slug } }).catch(() => {});
             observer.disconnect();
             break;
           }
@@ -459,29 +436,26 @@ function InspirationCard({
   }, [article, position, slug, router]);
 
   // Arrow-key navigation between sibling cards in the same marquee row.
-  const handleKeyDown = useCallback(
-    (e: ReactKeyboardEvent<HTMLAnchorElement>) => {
-      if (e.key !== "ArrowRight" && e.key !== "ArrowLeft" && e.key !== "Home" && e.key !== "End")
-        return;
-      const current = linkRef.current;
-      if (!current) return;
-      const parent = current.parentElement;
-      if (!parent) return;
-      const siblings = Array.from(
-        parent.querySelectorAll<HTMLAnchorElement>('[data-inspiration-card="true"]'),
-      );
-      const idx = siblings.indexOf(current);
-      if (idx === -1) return;
-      e.preventDefault();
-      let next = idx;
-      if (e.key === "ArrowRight") next = Math.min(idx + 1, siblings.length - 1);
-      if (e.key === "ArrowLeft") next = Math.max(idx - 1, 0);
-      if (e.key === "Home") next = 0;
-      if (e.key === "End") next = siblings.length - 1;
-      siblings[next]?.focus();
-    },
-    [],
-  );
+  const handleKeyDown = useCallback((e: ReactKeyboardEvent<HTMLAnchorElement>) => {
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft" && e.key !== "Home" && e.key !== "End")
+      return;
+    const current = linkRef.current;
+    if (!current) return;
+    const parent = current.parentElement;
+    if (!parent) return;
+    const siblings = Array.from(
+      parent.querySelectorAll<HTMLAnchorElement>('[data-inspiration-card="true"]'),
+    );
+    const idx = siblings.indexOf(current);
+    if (idx === -1) return;
+    e.preventDefault();
+    let next = idx;
+    if (e.key === "ArrowRight") next = Math.min(idx + 1, siblings.length - 1);
+    if (e.key === "ArrowLeft") next = Math.max(idx - 1, 0);
+    if (e.key === "Home") next = 0;
+    if (e.key === "End") next = siblings.length - 1;
+    siblings[next]?.focus();
+  }, []);
 
   return (
     <Link
@@ -600,10 +574,7 @@ function InspirationFallback({ message }: { message: string }) {
   );
 }
 
-class InspirationBoundary extends Component<
-  { children: ReactNode },
-  { hasError: boolean }
-> {
+class InspirationBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
   state = { hasError: false };
   static getDerivedStateFromError() {
     return { hasError: true };
@@ -683,14 +654,9 @@ function InspirationMarquee() {
   );
 }
 
-
-
 function Inspiration() {
   return (
-    <section
-      className="w-full py-20 sm:py-28"
-      style={{ backgroundColor: "#ffffff" }}
-    >
+    <section className="w-full py-20 sm:py-28" style={{ backgroundColor: "#ffffff" }}>
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center mb-12">
           <p
@@ -705,7 +671,10 @@ function Inspiration() {
           >
             Browse curated Indonesia itineraries
           </h2>
-          <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto" style={{ color: "var(--text-dark)" }}>
+          <p
+            className="mt-4 text-base sm:text-lg max-w-2xl mx-auto"
+            style={{ color: "var(--text-dark)" }}
+          >
             Hand-picked routes across the archipelago. Start from one, make it yours.
           </p>
         </div>
@@ -716,7 +685,6 @@ function Inspiration() {
           <InspirationMarquee />
         </Suspense>
       </InspirationBoundary>
-
 
       <div className="text-center mt-12 px-6">
         <Link
@@ -797,7 +765,9 @@ function DestinationsStrip() {
             className="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
-            <span aria-hidden="true" className="text-xl leading-none">‹</span>
+            <span aria-hidden="true" className="text-xl leading-none">
+              ‹
+            </span>
           </button>
 
           <ul
@@ -807,9 +777,13 @@ function DestinationsStrip() {
             aria-label="Indonesia destinations"
             tabIndex={0}
             onKeyDown={(e) => {
-              if (e.key === "ArrowRight") { e.preventDefault(); scrollBy(1); }
-              else if (e.key === "ArrowLeft") { e.preventDefault(); scrollBy(-1); }
-              else if (e.key === "Home") {
+              if (e.key === "ArrowRight") {
+                e.preventDefault();
+                scrollBy(1);
+              } else if (e.key === "ArrowLeft") {
+                e.preventDefault();
+                scrollBy(-1);
+              } else if (e.key === "Home") {
                 e.preventDefault();
                 scrollerRef.current?.scrollTo({ left: 0, behavior: "smooth" });
               } else if (e.key === "End") {
@@ -841,8 +815,7 @@ function DestinationsStrip() {
             aria-hidden="true"
             className="sm:hidden pointer-events-none absolute right-0 top-0 h-full w-10"
             style={{
-              background:
-                "linear-gradient(to right, transparent, var(--cream) 80%)",
+              background: "linear-gradient(to right, transparent, var(--cream) 80%)",
             }}
           />
 
@@ -854,7 +827,9 @@ function DestinationsStrip() {
             className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
-            <span aria-hidden="true" className="text-xl leading-none">›</span>
+            <span aria-hidden="true" className="text-xl leading-none">
+              ›
+            </span>
           </button>
         </div>
       </div>
@@ -889,4 +864,3 @@ function Landing() {
     </main>
   );
 }
-

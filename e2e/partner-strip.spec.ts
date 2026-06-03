@@ -10,7 +10,7 @@ import { expect, test, type Page } from "@playwright/test";
 
 const STRIP = '[data-partner-strip="true"]';
 const TRACK = '[data-partner-track="true"]';
-const LOGOS = '[data-partner-logo]';
+const LOGOS = "[data-partner-logo]";
 
 async function gotoStrip(page: Page) {
   await page.goto("/");
@@ -28,9 +28,9 @@ async function isAnimating(page: Page): Promise<boolean> {
 
 /** Reads animation-play-state on the track. */
 async function playState(page: Page): Promise<string> {
-  return page.locator(TRACK).evaluate(
-    (el) => getComputedStyle(el as HTMLElement).animationPlayState,
-  );
+  return page
+    .locator(TRACK)
+    .evaluate((el) => getComputedStyle(el as HTMLElement).animationPlayState);
 }
 
 test.describe("Partner logo strip — layout", () => {
@@ -148,9 +148,9 @@ test.describe("Partner logo strip — reduced motion", () => {
       .evaluate((el) => getComputedStyle(el as HTMLElement).overflowX);
     expect(["auto", "scroll"]).toContain(overflowX);
 
-    await expect(page.locator(STRIP)).toHaveScreenshot(
-      "partner-strip-reduced-motion.png",
-      { maxDiffPixelRatio: 0.02, animations: "disabled" },
-    );
+    await expect(page.locator(STRIP)).toHaveScreenshot("partner-strip-reduced-motion.png", {
+      maxDiffPixelRatio: 0.02,
+      animations: "disabled",
+    });
   });
 });

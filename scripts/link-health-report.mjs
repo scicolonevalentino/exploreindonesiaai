@@ -10,10 +10,7 @@ const CATEGORIES = [
     severity: "error",
     match: (r) =>
       r.flags?.some(
-        (f) =>
-          f.startsWith("http-") &&
-          !f.startsWith("http-403") &&
-          !f.startsWith("http-429"),
+        (f) => f.startsWith("http-") && !f.startsWith("http-403") && !f.startsWith("http-429"),
       ) || r.flags?.includes("http-err"),
   },
   {
@@ -242,20 +239,16 @@ export function renderMarkdown({ checkedAt, total, buckets, articlesCount }) {
     const d = diffUrl(r.url, r.check?.finalUrl);
     const lines = [];
     lines.push(`#### ${r.articleTitle} — \`${r.slug}\``);
-    lines.push(
-      `**Flags:** ${r.flags.map((f) => `\`${f}\``).join(" · ")}  `,
-    );
+    lines.push(`**Flags:** ${r.flags.map((f) => `\`${f}\``).join(" · ")}  `);
     lines.push(
       `**Source:** ${r.source}${r.blockKey ? ` (block \`${r.blockKey}\`)` : ""}${
-        r.partner ?? r.expectedPartner ? ` · ${r.partner ?? r.expectedPartner}` : ""
+        (r.partner ?? r.expectedPartner) ? ` · ${r.partner ?? r.expectedPartner}` : ""
       }${r.anchor ? `  \n**Anchor:** _"${r.anchor}"_` : ""}`,
     );
     lines.push("");
     lines.push(`- **From:** [${r.url}](${r.url})`);
     if (r.check?.finalUrl) {
-      lines.push(
-        `- **Final (${r.check.status}):** [${r.check.finalUrl}](${r.check.finalUrl})`,
-      );
+      lines.push(`- **Final (${r.check.status}):** [${r.check.finalUrl}](${r.check.finalUrl})`);
     } else if (r.check?.error) {
       lines.push(`- **Error:** ${r.check.error}`);
     }
@@ -263,13 +256,9 @@ export function renderMarkdown({ checkedAt, total, buckets, articlesCount }) {
       lines.push(`- ⚠ Path changed: \`${d.fromBase}\` → \`${d.toBase}\``);
     }
     if (d.removed.length)
-      lines.push(
-        `- **Params removed:** ${d.removed.map(([k, v]) => `\`${k}=${v}\``).join(", ")}`,
-      );
+      lines.push(`- **Params removed:** ${d.removed.map(([k, v]) => `\`${k}=${v}\``).join(", ")}`);
     if (d.added.length)
-      lines.push(
-        `- **Params added:** ${d.added.map(([k, v]) => `\`${k}=${v}\``).join(", ")}`,
-      );
+      lines.push(`- **Params added:** ${d.added.map(([k, v]) => `\`${k}=${v}\``).join(", ")}`);
     lines.push("");
     return lines.join("\n");
   };
@@ -277,9 +266,7 @@ export function renderMarkdown({ checkedAt, total, buckets, articlesCount }) {
   const out = [];
   out.push(`# Link Health Report`);
   out.push("");
-  out.push(
-    `_Generated ${checkedAt} · ${articlesCount} articles · ${total} links checked_`,
-  );
+  out.push(`_Generated ${checkedAt} · ${articlesCount} articles · ${total} links checked_`);
   out.push("");
   out.push(`| Errors | Warnings | Healthy |`);
   out.push(`|---:|---:|---:|`);

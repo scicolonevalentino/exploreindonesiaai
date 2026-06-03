@@ -29,12 +29,9 @@ export function CookieBanner() {
           borderColor: "var(--border-cream)",
         }}
       >
-        <p
-          className="text-sm leading-relaxed flex-1"
-          style={{ color: "var(--text-dark)" }}
-        >
-          We use cookies to measure traffic and improve the site (Google
-          Analytics, Contentsquare). No cookies fire until you choose. Read our{" "}
+        <p className="text-sm leading-relaxed flex-1" style={{ color: "var(--text-dark)" }}>
+          We use cookies to measure traffic and improve the site (Google Analytics, Contentsquare).
+          No cookies fire until you choose. Read our{" "}
           <Link
             to="/privacy"
             className="underline underline-offset-2 font-medium"

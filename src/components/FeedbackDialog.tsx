@@ -176,7 +176,9 @@ export function FeedbackDialog({
                   }`}
                 />
                 {touched.name && nameError && (
-                  <p role="alert" className="mt-1 text-xs text-red-500">{nameError}</p>
+                  <p role="alert" className="mt-1 text-xs text-red-500">
+                    {nameError}
+                  </p>
                 )}
               </div>
 
@@ -199,7 +201,9 @@ export function FeedbackDialog({
                   }`}
                 />
                 {touched.email && emailError && (
-                  <p role="alert" className="mt-1 text-xs text-red-500">{emailError}</p>
+                  <p role="alert" className="mt-1 text-xs text-red-500">
+                    {emailError}
+                  </p>
                 )}
               </div>
 
@@ -220,7 +224,9 @@ export function FeedbackDialog({
                   }`}
                 />
                 {touched.msg && msgError && (
-                  <p role="alert" className="mt-1 text-xs text-red-500">{msgError}</p>
+                  <p role="alert" className="mt-1 text-xs text-red-500">
+                    {msgError}
+                  </p>
                 )}
               </div>
 

@@ -131,13 +131,7 @@ export function useMarqueeDrag(
 
     const onKeyDown = (e: KeyboardEvent) => {
       const key = e.key;
-      if (
-        key !== "ArrowLeft" &&
-        key !== "ArrowRight" &&
-        key !== "Home" &&
-        key !== "End"
-      )
-        return;
+      if (key !== "ArrowLeft" && key !== "ArrowRight" && key !== "Home" && key !== "End") return;
       // Don't hijack arrow keys when focus is on an inner control (e.g. cards
       // have their own arrow-key sibling navigation).
       if (e.target !== el) return;

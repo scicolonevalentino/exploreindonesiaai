@@ -151,9 +151,19 @@ async function check(url, { timeout = 15000 } = {}) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), timeout);
   try {
-    let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal, headers: HEADERS });
+    let res = await fetch(url, {
+      method: "HEAD",
+      redirect: "follow",
+      signal: ctrl.signal,
+      headers: HEADERS,
+    });
     if (res.status === 405 || res.status === 403 || res.status === 400) {
-      res = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal, headers: HEADERS });
+      res = await fetch(url, {
+        method: "GET",
+        redirect: "follow",
+        signal: ctrl.signal,
+        headers: HEADERS,
+      });
     }
     return { ok: res.ok, status: res.status, finalUrl: res.url, redirected: res.redirected };
   } catch (err) {
@@ -193,8 +203,12 @@ async function pool(items, n, fn) {
   const all = [];
   for (const art of articles) {
     for (const link of extractLinks(art)) {
-      const articleMatch = filter && (art.title?.toLowerCase().includes(filter) || art.slug?.toLowerCase().includes(filter));
-      const urlMatch = filter && (link.url?.toLowerCase().includes(filter) || link.anchor?.toLowerCase().includes(filter));
+      const articleMatch =
+        filter &&
+        (art.title?.toLowerCase().includes(filter) || art.slug?.toLowerCase().includes(filter));
+      const urlMatch =
+        filter &&
+        (link.url?.toLowerCase().includes(filter) || link.anchor?.toLowerCase().includes(filter));
       if (filter && !articleMatch && !urlMatch) continue;
       all.push({ articleId: art._id, articleTitle: art.title, slug: art.slug, ...link });
     }
@@ -221,7 +235,8 @@ async function pool(items, n, fn) {
       const fromHost = safeHost(l.url);
       if (fromHost && finalHost && stripDomain(fromHost) !== stripDomain(finalHost)) {
         // tpx.lu → airalo.com is the expected affiliate redirect for Airalo
-        const expectedAiraloHop = stripDomain(fromHost) === "tpx.lu" && stripDomain(finalHost) === "airalo.com";
+        const expectedAiraloHop =
+          stripDomain(fromHost) === "tpx.lu" && stripDomain(finalHost) === "airalo.com";
         if (!expectedAiraloHop) flags.push(`redirect-domain-change:${finalHost}`);
       }
     }
@@ -233,7 +248,15 @@ async function pool(items, n, fn) {
   process.stderr.write("\n");
 
   const issues = checked.filter((c) => c.flags?.length);
-  const errors = issues.filter((c) => c.flags.some((f) => f.startsWith("http-") || f.startsWith("redirect-domain-change") || f === "missing-affiliate-params" || f === "unresolved-affiliateLinkRef"));
+  const errors = issues.filter((c) =>
+    c.flags.some(
+      (f) =>
+        f.startsWith("http-") ||
+        f.startsWith("redirect-domain-change") ||
+        f === "missing-affiliate-params" ||
+        f === "unresolved-affiliateLinkRef",
+    ),
+  );
   const warnings = issues.filter((c) => !errors.includes(c));
 
   console.log(`\n=== SUMMARY ===`);
@@ -268,7 +291,13 @@ async function pool(items, n, fn) {
     writeFileSync(
       jsonOut,
       JSON.stringify(
-        { checkedAt, total: checked.length, errors: errors.length, warnings: warnings.length, results: checked },
+        {
+          checkedAt,
+          total: checked.length,
+          errors: errors.length,
+          warnings: warnings.length,
+          results: checked,
+        },
         null,
         2,
       ),
@@ -290,7 +319,13 @@ async function pool(items, n, fn) {
   }
 })();
 
-function safeHost(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return null; } }
+function safeHost(u) {
+  try {
+    return new URL(u).hostname.replace(/^www\./, "");
+  } catch {
+    return null;
+  }
+}
 function stripDomain(host) {
   // klook.com vs affiliate.klook.com → klook.com
   const parts = host.split(".");

@@ -48,7 +48,12 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
       "Java trip plans covering Yogyakarta, Borobudur, Prambanan, Mount Bromo and the Ijen blue flames. Bookable day-by-day routes.",
     intro:
       "Java is volcanoes, temples, and overnight trains. From the sunrise over Borobudur to the blue flames of Kawah Ijen, these itineraries get you across the island without losing days to logistics.",
-    highlights: ["Yogyakarta & Borobudur", "Mount Bromo sunrise", "Ijen blue flames", "Jakarta gateway"],
+    highlights: [
+      "Yogyakarta & Borobudur",
+      "Mount Bromo sunrise",
+      "Ijen blue flames",
+      "Jakarta gateway",
+    ],
   },
   {
     slug: "komodo-flores",

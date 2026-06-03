@@ -20,9 +20,7 @@ export const Route = createFileRoute("/sitemap.xml")({
       GET: async () => {
         let articles: SitemapArticle[] = [];
         try {
-          articles = await sanityClient.fetch<SitemapArticle[]>(
-            SITEMAP_ARTICLES_QUERY,
-          );
+          articles = await sanityClient.fetch<SitemapArticle[]>(SITEMAP_ARTICLES_QUERY);
         } catch (e) {
           console.error("sitemap: failed to fetch articles", e);
         }
