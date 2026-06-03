@@ -64,15 +64,8 @@ export function IndonesiaMap() {
               onMouseEnter={() => setActiveSlug(d.slug)}
               onFocus={() => setActiveSlug(d.slug)}
               onBlur={() => setActiveSlug((s) => (s === d.slug ? null : s))}
-              className="group relative flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
-              style={
-                {
-                  // @ts-expect-error css var
-                  "--tw-ring-color": "var(--blue-bright)",
-                  "--tw-ring-offset-color": "var(--cream)",
-                } as React.CSSProperties
-              }
-            >
+              className="group relative flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+
               {/* Pulsing ring */}
               <span
                 aria-hidden="true"
