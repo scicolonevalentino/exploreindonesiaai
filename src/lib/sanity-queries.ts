@@ -14,7 +14,6 @@ export type SiteSettings = {
   defaultMetaDescription?: string;
 };
 
-
 export const ARTICLES_LIST_QUERY = groq`*[_type == "article" && contentStatus == "live"] | order(articleCreatedDate desc) {
   _id,
   title,

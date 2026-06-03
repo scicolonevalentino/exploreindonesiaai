@@ -55,9 +55,7 @@ function EmailCapture() {
   const liveError = touched ? validateEmail(email) : null;
   const showError = status === "error" || !!liveError;
   const message =
-    status === "error"
-      ? errorMsg || "Couldn't sign you up. Try again."
-      : liveError ?? "";
+    status === "error" ? errorMsg || "Couldn't sign you up. Try again." : (liveError ?? "");
 
   const onSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -283,7 +281,7 @@ function FooterBar() {
       setErrorMsg(
         /too many/i.test(raw)
           ? "Too many messages. Please try again in a minute."
-          : "Couldn't send your message. Please try again."
+          : "Couldn't send your message. Please try again.",
       );
     }
   };
@@ -328,7 +326,8 @@ function FooterBar() {
                 <DialogHeader>
                   <DialogTitle>Write to the founder</DialogTitle>
                   <DialogDescription>
-                    Ideas, feedback, or want to support the project? Drop a note: it goes straight to the founder.
+                    Ideas, feedback, or want to support the project? Drop a note: it goes straight
+                    to the founder.
                   </DialogDescription>
                 </DialogHeader>
 
@@ -372,7 +371,9 @@ function FooterBar() {
                       }`}
                     />
                     {touched.name && nameError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">{nameError}</p>
+                      <p role="alert" className="mt-1 text-xs text-red-500">
+                        {nameError}
+                      </p>
                     )}
                   </div>
 
@@ -395,7 +396,9 @@ function FooterBar() {
                       }`}
                     />
                     {touched.email && emailError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">{emailError}</p>
+                      <p role="alert" className="mt-1 text-xs text-red-500">
+                        {emailError}
+                      </p>
                     )}
                   </div>
 
@@ -416,7 +419,9 @@ function FooterBar() {
                       }`}
                     />
                     {touched.msg && msgError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">{msgError}</p>
+                      <p role="alert" className="mt-1 text-xs text-red-500">
+                        {msgError}
+                      </p>
                     )}
                   </div>
 

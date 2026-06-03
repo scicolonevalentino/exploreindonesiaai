@@ -92,7 +92,7 @@ of the build.
   `waitlist.functions.ts`). Lead capture posts to Brevo through the Lovable
   connector gateway.
 - **Env access** (see `config.server.ts`):
-  - Server-only secrets: read `process.env` *inside* a handler/function, never
+  - Server-only secrets: read `process.env` _inside_ a handler/function, never
     at module scope (Cloudflare Workers bind env per-request).
   - Public values: `import.meta.env.VITE_*`. Never put secrets behind `VITE_`.
   - `.server.ts` suffix keeps a file out of the client bundle.

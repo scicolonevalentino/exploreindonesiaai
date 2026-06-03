@@ -14,21 +14,17 @@ describe("shortTitle", () => {
   });
 
   it("cuts everything after a colon", () => {
-    expect(
-      shortTitle("7 Days in Yogyakarta and East Java: Borobudur, Bromo and Ijen"),
-    ).toBe("7 Days in Yogyakarta and East Java");
+    expect(shortTitle("7 Days in Yogyakarta and East Java: Borobudur, Bromo and Ijen")).toBe(
+      "7 Days in Yogyakarta and East Java",
+    );
   });
 
   it("cuts at em dash", () => {
-    expect(shortTitle("10 Days in Bali — Beaches, Temples & Cliffs")).toBe(
-      "10 Days in Bali",
-    );
+    expect(shortTitle("10 Days in Bali — Beaches, Temples & Cliffs")).toBe("10 Days in Bali");
   });
 
   it("cuts at en dash", () => {
-    expect(shortTitle("9 Days in Raja Ampat – Diving and Reefs")).toBe(
-      "9 Days in Raja Ampat",
-    );
+    expect(shortTitle("9 Days in Raja Ampat – Diving and Reefs")).toBe("9 Days in Raja Ampat");
   });
 
   it("cuts at hyphen with spaces", () => {
@@ -92,9 +88,9 @@ describe("shortTitle", () => {
   });
 
   it("strips brackets first, then cuts at separator, then strips dangle", () => {
-    expect(
-      shortTitle("7 Days in Yogya and Java: Borobudur, Bromo, and (Featured)"),
-    ).toBe("7 Days in Yogya and Java");
+    expect(shortTitle("7 Days in Yogya and Java: Borobudur, Bromo, and (Featured)")).toBe(
+      "7 Days in Yogya and Java",
+    );
   });
 
   it("does not crash on weird leading-separator input", () => {
@@ -103,5 +99,4 @@ describe("shortTitle", () => {
     expect(() => shortTitle("   :   foo")).not.toThrow();
     expect(shortTitle("   :   foo")).toBe(":   foo");
   });
-
 });

@@ -69,11 +69,8 @@ function guessPartner(url: string) {
   return null;
 }
 function hasAffiliateMarker(url: string, partner: string | null) {
-  if (!partner || !AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS])
-    return true;
-  return AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS].some((m) =>
-    url.includes(m),
-  );
+  if (!partner || !AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS]) return true;
+  return AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS].some((m) => url.includes(m));
 }
 
 type Link = {
@@ -91,8 +88,7 @@ type Link = {
 function extractLinks(article: Record<string, unknown>): Link[] {
   const out: Link[] = [];
   const affMap = new Map<string, { affiliateUrl?: string; partner?: string }>();
-  for (const a of (article.affiliateLinks as Array<Record<string, string>>) ??
-    []) {
+  for (const a of (article.affiliateLinks as Array<Record<string, string>>) ?? []) {
     if (a.placeholderId) affMap.set(a.placeholderId, a);
     if (a._key) affMap.set(a._key, a);
     if (a.affiliateUrl) {
@@ -199,10 +195,22 @@ async function runAudit() {
 
   const checked = await pool(all, 10, async (l) => {
     if (!l.url) {
-      const c: { ok: boolean; status?: number; finalUrl?: string; redirected?: boolean; error?: string } = { ok: false, error: l.error };
+      const c: {
+        ok: boolean;
+        status?: number;
+        finalUrl?: string;
+        redirected?: boolean;
+        error?: string;
+      } = { ok: false, error: l.error };
       return { ...l, check: c, flags: [l.error ?? "no-url"] };
     }
-    const r: { ok: boolean; status?: number; finalUrl?: string; redirected?: boolean; error?: string } = await check(l.url);
+    const r: {
+      ok: boolean;
+      status?: number;
+      finalUrl?: string;
+      redirected?: boolean;
+      error?: string;
+    } = await check(l.url);
     const flags: string[] = [];
     const finalHost = safeHost(r.finalUrl);
     if (!r.ok) {
@@ -238,9 +246,7 @@ async function runAudit() {
         f === "unresolved-affiliateLinkRef",
     ),
   );
-  const warnings = checked.filter(
-    (c) => c.flags.length && !errors.includes(c),
-  );
+  const warnings = checked.filter((c) => c.flags.length && !errors.includes(c));
 
   return {
     ok: errors.length === 0,

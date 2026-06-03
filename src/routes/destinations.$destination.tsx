@@ -4,12 +4,7 @@ import { Suspense } from "react";
 import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import {
-  DESTINATIONS,
-  TRIP_LENGTHS,
-  labelFor,
-  type ArticleListItem,
-} from "@/lib/sanity-queries";
+import { DESTINATIONS, TRIP_LENGTHS, labelFor, type ArticleListItem } from "@/lib/sanity-queries";
 import {
   DESTINATION_CONTENT,
   findDestinationBySlug,
@@ -44,8 +39,8 @@ export const Route = createFileRoute("/destinations/$destination")({
     return dest;
   },
   head: ({ params, loaderData }) => {
-    const dest = (loaderData as DestinationContent | undefined) ??
-      findDestinationBySlug(params.destination);
+    const dest =
+      (loaderData as DestinationContent | undefined) ?? findDestinationBySlug(params.destination);
     if (!dest) return {};
     const url = `https://exploreindonesia.ai/destinations/${dest.slug}`;
     return {
@@ -140,8 +135,7 @@ function DestinationInner() {
       <header
         className="w-full px-6 py-12 sm:py-16"
         style={{
-          background:
-            "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
+          background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
         }}
       >
         <div className="mx-auto max-w-5xl">
@@ -181,7 +175,8 @@ function DestinationInner() {
             className="font-serif text-2xl sm:text-3xl font-semibold"
             style={{ color: "var(--navy-deep)" }}
           >
-            {articles.length} {articles.length === 1 ? "itinerary" : "itineraries"} in {dest.shortName}
+            {articles.length} {articles.length === 1 ? "itinerary" : "itineraries"} in{" "}
+            {dest.shortName}
           </h2>
           <Link
             to="/trips"
@@ -198,10 +193,7 @@ function DestinationInner() {
             className="rounded-2xl border p-10 text-center"
             style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
           >
-            <p
-              className="font-serif text-xl mb-2"
-              style={{ color: "var(--navy-deep)" }}
-            >
+            <p className="font-serif text-xl mb-2" style={{ color: "var(--navy-deep)" }}>
               New {dest.shortName} itineraries are coming soon.
             </p>
             <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>

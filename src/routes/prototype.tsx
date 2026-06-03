@@ -1,6 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
-import { MessageSquare, ArrowLeft, Share2, Save, Image as ImageIcon, Footprints, Sparkles, Check } from "lucide-react";
+import {
+  MessageSquare,
+  ArrowLeft,
+  Share2,
+  Save,
+  Image as ImageIcon,
+  Footprints,
+  Sparkles,
+  Check,
+} from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 
 import { useIsMobile } from "@/hooks/use-mobile";
@@ -33,7 +42,6 @@ export const Route = createFileRoute("/prototype")({
 export const MIN_PASTE_LENGTH = 40;
 /** Lower threshold on mobile to reduce friction when pasting shorter itineraries. */
 export const MIN_PASTE_LENGTH_MOBILE = 20;
-
 
 /* -------------------------------------------------------------------------- */
 /*  Types & data                                                              */
@@ -248,7 +256,6 @@ const TRIP: { title: string; locations: string; days: Day[] } = {
   ],
 };
 
-
 /* -------------------------------------------------------------------------- */
 /*  Page                                                                      */
 /* -------------------------------------------------------------------------- */
@@ -300,7 +307,6 @@ export function PrototypeFlow({
       {stage === "trip" && <TripStage onEdit={() => setStage("input")} />}
     </>
   );
-
 }
 
 function PrototypePage() {
@@ -361,7 +367,6 @@ export function PrototypeHelloBar() {
   );
 }
 
-
 /* ---- Stage 1: Input ---- */
 
 export function InputStage({
@@ -390,8 +395,7 @@ export function InputStage({
       <div
         className="w-full px-6 py-16 sm:py-20"
         style={{
-          background:
-            "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
+          background: "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
           color: "#f2eee4",
         }}
       >
@@ -406,9 +410,7 @@ export function InputStage({
             >
               Demo
             </span>
-            <span className="text-xs sm:text-sm text-white/70">
-              Output is illustrative
-            </span>
+            <span className="text-xs sm:text-sm text-white/70">Output is illustrative</span>
           </div>
 
           <div
@@ -435,7 +437,10 @@ export function InputStage({
               style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
             />
             <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
-              <p className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]" aria-live="polite">
+              <p
+                className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]"
+                aria-live="polite"
+              >
                 {!mounted
                   ? ""
                   : canSubmit
@@ -466,8 +471,7 @@ export function InputStage({
     <div
       className="flex-1 w-full"
       style={{
-        background:
-          "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
+        background: "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
         color: "#f2eee4",
       }}
     >
@@ -546,7 +550,6 @@ export function InputStage({
   );
 }
 
-
 /* ---- Stage 2: Assembling ---- */
 
 const STEPS = [
@@ -586,8 +589,7 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
     <div
       className="flex-1 w-full flex flex-col items-center justify-center px-6 py-16"
       style={{
-        background:
-          "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
+        background: "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
         color: "#f2eee4",
       }}
     >
@@ -613,9 +615,7 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
               <div
                 className="rounded-xl px-4 py-3 w-full sm:w-auto sm:min-w-[150px] text-center transition-all"
                 style={{
-                  backgroundColor: isActive
-                    ? "rgba(94, 234, 212, 0.18)"
-                    : "rgba(255,255,255,0.04)",
+                  backgroundColor: isActive ? "rgba(94, 234, 212, 0.18)" : "rgba(255,255,255,0.04)",
                   border: `1px solid ${isActive ? "var(--blue-ice)" : "rgba(255,255,255,0.1)"}`,
                   boxShadow: isActive ? "0 0 24px rgba(94,234,212,0.35)" : undefined,
                   opacity: isDone ? 0.7 : 1,
@@ -630,14 +630,11 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
                 <div className="font-semibold text-sm">{s.title}</div>
                 <div className="text-xs text-white/60 mt-0.5">{s.sub}</div>
               </div>
-              {i < STEPS.length - 1 && (
-                <span className="hidden sm:inline text-white/40">›</span>
-              )}
+              {i < STEPS.length - 1 && <span className="hidden sm:inline text-white/40">›</span>}
             </div>
           );
         })}
       </div>
-
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12 mb-10 text-center">
         {[
@@ -647,7 +644,10 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
           { n: 2, l: "Recommended" },
         ].map((s) => (
           <div key={s.l}>
-            <div className="text-4xl sm:text-5xl font-bold" style={{ fontFamily: "var(--font-serif)" }}>
+            <div
+              className="text-4xl sm:text-5xl font-bold"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
               {s.n}
             </div>
             <div className="text-[11px] uppercase tracking-widest text-white/60 mt-1">{s.l}</div>
@@ -728,7 +728,10 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
     });
 
   return (
-    <div className="flex-1 w-full" style={{ backgroundColor: "#faf9f5", color: "var(--navy-deep)" }}>
+    <div
+      className="flex-1 w-full"
+      style={{ backgroundColor: "#faf9f5", color: "var(--navy-deep)" }}
+    >
       <header className="mx-auto max-w-7xl px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-2">
         <span className="font-bold text-base sm:text-xl tracking-tight truncate">
           exploreindonesia<span style={{ color: "var(--blue-bright)" }}>.ai</span>
@@ -761,7 +764,6 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
           </button>
         </div>
       </header>
-
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-32">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
@@ -815,8 +817,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             className="rounded-2xl border h-80 flex items-center justify-center text-[var(--slate-muted)]"
             style={{
               borderColor: "var(--border-cream)",
-              background:
-                "linear-gradient(135deg, #e8f0ee 0%, #d6e6e2 100%)",
+              background: "linear-gradient(135deg, #e8f0ee 0%, #d6e6e2 100%)",
             }}
           >
             Map view, coming soon
@@ -859,7 +860,6 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         </div>
       )}
 
-
       <Dialog open={showRedirect} onOpenChange={setShowRedirect}>
         <DialogContent className="sm:max-w-md text-center">
           <DialogHeader>
@@ -899,7 +899,6 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
           </div>
         </DialogContent>
       </Dialog>
-
     </div>
   );
 }
@@ -921,7 +920,10 @@ function DayBlock({
           style={{ backgroundColor: "var(--navy-deep)" }}
         >
           <div className="text-[10px] uppercase tracking-widest opacity-70">Day</div>
-          <div className="text-xl font-bold leading-none" style={{ fontFamily: "var(--font-serif)" }}>
+          <div
+            className="text-xl font-bold leading-none"
+            style={{ fontFamily: "var(--font-serif)" }}
+          >
             {day.num}
           </div>
         </div>
@@ -931,7 +933,10 @@ function DayBlock({
           </h2>
           <p className="text-sm text-[var(--slate-muted)]">{day.subtitle}</p>
         </div>
-        <div className="flex-1 border-t hidden sm:block" style={{ borderColor: "var(--border-cream)" }} />
+        <div
+          className="flex-1 border-t hidden sm:block"
+          style={{ borderColor: "var(--border-cream)" }}
+        />
       </div>
 
       <div className="space-y-4">
@@ -943,15 +948,7 @@ function DayBlock({
   );
 }
 
-function ItemCard({
-  item,
-  added,
-  onToggle,
-}: {
-  item: Item;
-  added: boolean;
-  onToggle: () => void;
-}) {
+function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onToggle: () => void }) {
   if (item.kind === "selfguided") {
     return (
       <div
@@ -998,7 +995,8 @@ function ItemCard({
           <div>
             <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
             <div className="leading-tight hidden sm:block">
-              {item.title.slice(0, 32)}{item.title.length > 32 ? "…" : ""}
+              {item.title.slice(0, 32)}
+              {item.title.length > 32 ? "…" : ""}
             </div>
             {item.durationLabel && (
               <div
@@ -1039,14 +1037,17 @@ function ItemCard({
             )}
           </div>
 
-          <h3 className="font-bold text-sm sm:text-lg leading-snug break-words" style={{ fontFamily: "var(--font-serif)" }}>
+          <h3
+            className="font-bold text-sm sm:text-lg leading-snug break-words"
+            style={{ fontFamily: "var(--font-serif)" }}
+          >
             {item.title}
           </h3>
 
           {item.rating != null && (
             <p className="text-xs text-[var(--slate-muted)] mt-1">
-              <span className="text-amber-500">★</span> {item.rating.toFixed(1)}{" "}
-              ({item.reviews?.toLocaleString()})
+              <span className="text-amber-500">★</span> {item.rating.toFixed(1)} (
+              {item.reviews?.toLocaleString()})
             </p>
           )}
 
@@ -1068,7 +1069,9 @@ function ItemCard({
           )}
 
           {item.description && (
-            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mt-1.5 sm:mt-2">{item.description}</p>
+            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mt-1.5 sm:mt-2">
+              {item.description}
+            </p>
           )}
         </div>
 
@@ -1099,14 +1102,20 @@ function ItemCard({
               onClick={(e) => e.preventDefault()}
               className="text-xs text-[var(--teal-link)] hover:underline"
             >
-              Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
+              Book now on{" "}
+              {SOURCE_LABEL[item.source].charAt(0) +
+                SOURCE_LABEL[item.source].slice(1).toLowerCase()}{" "}
+              →
             </a>
           )}
         </div>
       </div>
 
       {/* Mobile-only price + CTA row */}
-      <div className="flex sm:hidden items-center justify-between gap-3 mt-3 pt-3 border-t" style={{ borderColor: "var(--border-cream)" }}>
+      <div
+        className="flex sm:hidden items-center justify-between gap-3 mt-3 pt-3 border-t"
+        style={{ borderColor: "var(--border-cream)" }}
+      >
         <div>
           <span
             className="text-xl font-bold"
@@ -1131,4 +1140,3 @@ function ItemCard({
     </div>
   );
 }
-

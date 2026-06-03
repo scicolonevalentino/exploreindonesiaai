@@ -28,8 +28,7 @@ export function shortTitle(title: string | undefined | null): string {
   }
 
   // 3. Strip dangling connectors, repeatedly to handle stacks like "Java, and".
-  const danglingRe =
-    /[\s,;:\-–—]+(?:and|or|with|featuring|feat\.?|incl(?:uding)?|plus|&)\s*$/i;
+  const danglingRe = /[\s,;:\-–—]+(?:and|or|with|featuring|feat\.?|incl(?:uding)?|plus|&)\s*$/i;
   let prev: string;
   do {
     prev = t;

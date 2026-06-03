@@ -56,7 +56,8 @@ function rateLimited(key: string) {
 function looksSpammy(name: string, message: string) {
   const text = `${name}\n${message}`.toLowerCase();
   if ((message.match(/https?:\/\//g) ?? []).length >= 3) return true;
-  if (/\b(viagra|casino|crypto airdrop|seo services|bitcoin doubler|loan offer)\b/.test(text)) return true;
+  if (/\b(viagra|casino|crypto airdrop|seo services|bitcoin doubler|loan offer)\b/.test(text))
+    return true;
   if (/[\u0400-\u04FF]{20,}/.test(message)) return true; // long cyrillic block
   return false;
 }

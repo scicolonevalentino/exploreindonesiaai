@@ -70,24 +70,30 @@ const UNLINK = [
 ];
 
 const ids = [...new Set([...REPLACE.map((r) => r.id), ...UNLINK.map((u) => u.id)])];
-const articles = await client.fetch(
-  `*[_id in $ids]{_id, title, body}`,
-  { ids },
-);
+const articles = await client.fetch(`*[_id in $ids]{_id, title, body}`, { ids });
 
 const out = {};
 for (const art of articles) {
   const body = JSON.parse(JSON.stringify(art.body));
   for (const r of REPLACE.filter((x) => x.id === art._id)) {
     const blk = body.find((b) => b._key === r.block);
-    if (!blk) { console.error("MISSING BLOCK", art._id, r.block); continue; }
+    if (!blk) {
+      console.error("MISSING BLOCK", art._id, r.block);
+      continue;
+    }
     const md = (blk.markDefs ?? []).find((m) => m._key === r.mark);
-    if (!md) { console.error("MISSING MARK", art._id, r.block, r.mark); continue; }
+    if (!md) {
+      console.error("MISSING MARK", art._id, r.block, r.mark);
+      continue;
+    }
     md.href = r.href;
   }
   for (const u of UNLINK.filter((x) => x.id === art._id)) {
     const blk = body.find((b) => b._key === u.block);
-    if (!blk) { console.error("MISSING BLOCK", art._id, u.block); continue; }
+    if (!blk) {
+      console.error("MISSING BLOCK", art._id, u.block);
+      continue;
+    }
     blk.markDefs = (blk.markDefs ?? []).filter((m) => m._key !== u.mark);
     for (const child of blk.children ?? []) {
       if (Array.isArray(child.marks)) {

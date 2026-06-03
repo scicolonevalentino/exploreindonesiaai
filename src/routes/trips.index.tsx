@@ -62,7 +62,9 @@ export const Route = createFileRoute("/trips/")({
         <h1 className="font-serif text-2xl mb-2" style={{ color: "var(--navy-deep)" }}>
           Couldn't load trips
         </h1>
-        <p className="text-sm" style={{ color: "var(--slate-muted)" }}>{error.message}</p>
+        <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
+          {error.message}
+        </p>
       </div>
     </div>
   ),
@@ -178,8 +180,7 @@ function TripsInner() {
       <header
         className="w-full px-6 py-8 sm:py-10"
         style={{
-          background:
-            "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
+          background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
         }}
       >
         <div className="mx-auto max-w-7xl">
@@ -302,7 +303,6 @@ function TripsInner() {
           </div>
         )}
       </main>
-      
     </div>
   );
 }

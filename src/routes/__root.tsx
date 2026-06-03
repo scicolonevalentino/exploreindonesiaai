@@ -102,7 +102,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: ({ loaderData }) => {
     const title = loaderData?.settings?.siteTitle?.trim() || FALLBACK_SETTINGS.siteTitle;
     const description =
-      loaderData?.settings?.defaultMetaDescription?.trim() || FALLBACK_SETTINGS.defaultMetaDescription;
+      loaderData?.settings?.defaultMetaDescription?.trim() ||
+      FALLBACK_SETTINGS.defaultMetaDescription;
     return {
       meta: [
         { charSet: "utf-8" },

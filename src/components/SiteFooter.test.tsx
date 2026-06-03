@@ -40,7 +40,7 @@ describe("SiteFooter", () => {
     expect(
       screen.getByRole("heading", {
         name: /almost ready\. be the first to book your ai itinerary/i,
-      })
+      }),
     ).toBeInTheDocument();
     expect(screen.getByPlaceholderText(/enter your best email/i)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /get early access/i })).toBeInTheDocument();
@@ -49,21 +49,19 @@ describe("SiteFooter", () => {
   it("renders the contact/support button", () => {
     renderWithClient(<SiteFooter />);
     expect(
-      screen.getByRole("button", { name: /support the project — contact us/i })
+      screen.getByRole("button", { name: /support the project — contact us/i }),
     ).toBeInTheDocument();
   });
 
   it("uses footerText from Sanity siteSettings when available", async () => {
     renderWithClient(<SiteFooter />);
-    expect(
-      await screen.findByText(/affiliate disclosure/i)
-    ).toBeInTheDocument();
+    expect(await screen.findByText(/affiliate disclosure/i)).toBeInTheDocument();
   });
 
   it("renders the tagline from Sanity siteSettings", async () => {
     renderWithClient(<SiteFooter />);
     expect(
-      await screen.findByText(/plan your indonesia trip\. book it in minutes/i)
+      await screen.findByText(/plan your indonesia trip\. book it in minutes/i),
     ).toBeInTheDocument();
   });
 });
