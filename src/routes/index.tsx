@@ -30,7 +30,6 @@ import {
   type ArticleListItem,
 } from "@/lib/sanity-queries";
 import { shortTitle } from "@/lib/short-title";
-import { IndonesiaMap } from "@/components/IndonesiaMap";
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
@@ -704,150 +703,6 @@ function Inspiration() {
   );
 }
 
-function DestinationsStrip() {
-  const items = [
-    { slug: "bali", name: "Bali" },
-    { slug: "java", name: "Java" },
-    { slug: "komodo-flores", name: "Komodo & Flores" },
-    { slug: "lombok-gili", name: "Lombok & Gili" },
-    { slug: "sumatra", name: "Sumatra" },
-    { slug: "raja-ampat", name: "Raja Ampat" },
-    { slug: "bali-nearby-islands", name: "Bali & Islands" },
-    { slug: "wild-indonesia", name: "Wild Indonesia" },
-  ];
-  const scrollerRef = useRef<HTMLUListElement>(null);
-
-  const scrollBy = (dir: 1 | -1) => {
-    const el = scrollerRef.current;
-    if (!el) return;
-    const amount = Math.max(240, Math.round(el.clientWidth * 0.8));
-    el.scrollBy({ left: dir * amount, behavior: "smooth" });
-  };
-
-  return (
-    <section
-      className="w-full px-6 py-10 sm:py-12 border-t"
-      style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
-      aria-labelledby="destinations-heading"
-    >
-      <div className="mx-auto max-w-6xl">
-        <div className="flex items-end justify-between gap-4 mb-5">
-          <div>
-            <p
-              className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em] mb-1"
-              style={{ color: "var(--teal-link)" }}
-            >
-              Browse by destination
-            </p>
-            <h2
-              id="destinations-heading"
-              className="font-serif text-xl sm:text-2xl font-semibold"
-              style={{ color: "var(--navy-mid)" }}
-            >
-              Where in Indonesia?
-            </h2>
-          </div>
-          <p
-            className="sm:hidden text-[11px] font-medium whitespace-nowrap pb-1"
-            style={{ color: "var(--slate-muted)" }}
-            aria-hidden="true"
-          >
-            Swipe →
-          </p>
-        </div>
-
-        {/* Desktop: illustrated interactive map */}
-        <div className="hidden md:block">
-          <IndonesiaMap />
-        </div>
-
-        {/* Mobile: horizontal carousel */}
-        <div
-          className="relative md:hidden"
-          role="region"
-          aria-roledescription="carousel"
-          aria-label="Indonesia destinations carousel"
-        >
-          <button
-            type="button"
-            aria-label="Scroll destinations left"
-            aria-controls="destinations-scroller"
-            onClick={() => scrollBy(-1)}
-            className="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
-            style={{ borderColor: "var(--border-cream)" }}
-          >
-            <span aria-hidden="true" className="text-xl leading-none">
-              ‹
-            </span>
-          </button>
-
-          <ul
-            id="destinations-scroller"
-            ref={scrollerRef}
-            role="list"
-            aria-label="Indonesia destinations"
-            tabIndex={0}
-            onKeyDown={(e) => {
-              if (e.key === "ArrowRight") {
-                e.preventDefault();
-                scrollBy(1);
-              } else if (e.key === "ArrowLeft") {
-                e.preventDefault();
-                scrollBy(-1);
-              } else if (e.key === "Home") {
-                e.preventDefault();
-                scrollerRef.current?.scrollTo({ left: 0, behavior: "smooth" });
-              } else if (e.key === "End") {
-                e.preventDefault();
-                const el = scrollerRef.current;
-                if (el) el.scrollTo({ left: el.scrollWidth, behavior: "smooth" });
-              }
-            }}
-            className="flex gap-2.5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-1 -mx-2 px-2 pr-8 sm:pr-2 [scrollbar-width:thin] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-4 focus-visible:ring-offset-[var(--cream)] rounded-lg"
-            style={{ scrollPaddingInline: "0.5rem" }}
-          >
-            {items.map((d) => (
-              <li key={d.slug} className="snap-start shrink-0">
-                <Link
-                  to="/destinations/$destination"
-                  params={{ destination: d.slug }}
-                  aria-label={`Browse trips in ${d.name}`}
-                  className="group block min-w-[140px] sm:min-w-[170px] px-4 py-2.5 rounded-full border bg-white text-center text-sm font-semibold text-[var(--navy-deep)] transition-colors hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent focus:outline-none focus-visible:bg-[var(--blue-bright)] focus-visible:text-white focus-visible:border-transparent focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
-                  style={{ borderColor: "var(--border-cream)" }}
-                >
-                  {d.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-
-          {/* Mobile-only right edge fade to hint more content */}
-          <div
-            aria-hidden="true"
-            className="sm:hidden pointer-events-none absolute right-0 top-0 h-full w-10"
-            style={{
-              background: "linear-gradient(to right, transparent, var(--cream) 80%)",
-            }}
-          />
-
-          <button
-            type="button"
-            aria-label="Scroll destinations right"
-            aria-controls="destinations-scroller"
-            onClick={() => scrollBy(1)}
-            className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
-            style={{ borderColor: "var(--border-cream)" }}
-          >
-            <span aria-hidden="true" className="text-xl leading-none">
-              ›
-            </span>
-          </button>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function EmbeddedPrototype() {
   const sectionRef = useRef<HTMLElement>(null);
   return (
@@ -871,7 +726,6 @@ function Landing() {
       <EmbeddedPrototype />
       <Trust />
       <Inspiration />
-      <DestinationsStrip />
     </main>
   );
 }
