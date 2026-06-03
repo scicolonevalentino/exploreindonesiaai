@@ -1,7 +1,10 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
-const GATEWAY_URL = "https://connector-gateway.lovable.dev/brevo";
+// Call Brevo's transactional email API directly. The original Lovable connector
+// gateway required a LOVABLE_API_KEY that isn't provisioned, which made every
+// submission throw before sending. Brevo's API only needs the BREVO_API_KEY.
+const BREVO_API_URL = "https://api.brevo.com/v3";
 const FOUNDER_EMAIL = "scicolonevalentino@gmail.com";
 // Verified domain in Brevo (exploreindonesia.ai is DKIM/SPF authenticated).
 const SENDER_EMAIL = "notify@exploreindonesia.ai";
@@ -80,21 +83,19 @@ export const sendContactMessage = createServerFn({ method: "POST" })
       throw new Error("Too many messages. Please try again in a minute.");
     }
 
-    const lovableApiKey = process.env.LOVABLE_API_KEY;
     const brevoKey = process.env.BREVO_API_KEY;
-    if (!lovableApiKey) throw new Error("LOVABLE_API_KEY is not configured");
     if (!brevoKey) throw new Error("BREVO_API_KEY is not configured");
 
     const safeName = escapeHtml(data.name);
     const safeEmail = escapeHtml(data.email);
     const safeMsg = escapeHtml(data.message).replace(/\n/g, "<br/>");
 
-    const res = await fetch(`${GATEWAY_URL}/smtp/email`, {
+    const res = await fetch(`${BREVO_API_URL}/smtp/email`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${lovableApiKey}`,
-        "X-Connection-Api-Key": brevoKey,
+        accept: "application/json",
+        "api-key": brevoKey,
       },
       body: JSON.stringify({
         sender: { name: SENDER_NAME, email: SENDER_EMAIL },
