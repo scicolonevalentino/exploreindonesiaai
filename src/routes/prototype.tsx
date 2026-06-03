@@ -723,7 +723,11 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
   const toggle = (id: string) =>
     setAdded((prev) => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
       return next;
     });
 

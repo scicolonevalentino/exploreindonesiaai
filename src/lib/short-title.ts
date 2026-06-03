@@ -12,7 +12,7 @@ export function shortTitle(title: string | undefined | null): string {
 
   // 1. Strip trailing parens / brackets / braces, repeatedly.
   // Handles "Title (a) [b]" → "Title".
-  const trailingBracketRe = /\s*[\(\[\{][^\)\]\}]*[\)\]\}]\s*$/;
+  const trailingBracketRe = /\s*[([{][^)\]}]*[)\]}]\s*$/;
   while (trailingBracketRe.test(t)) {
     t = t.replace(trailingBracketRe, "").trim();
   }
