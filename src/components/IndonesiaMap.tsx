@@ -114,6 +114,9 @@ export function IndonesiaMap() {
               to="/destinations/$destination"
               params={{ destination: d.slug }}
               aria-label={`Browse trips in ${d.name}`}
+              aria-haspopup="dialog"
+              aria-expanded={isActive}
+              aria-controls={`map-tip-${d.slug}`}
               aria-describedby={isActive ? `map-tip-${d.slug}` : undefined}
               onMouseEnter={() => setActiveSlug(d.slug)}
               onFocus={() => setActiveSlug(d.slug)}
@@ -125,23 +128,25 @@ export function IndonesiaMap() {
                 className="relative inline-flex h-3.5 w-3.5 rounded-full border-2 border-white shadow-md transition-transform duration-200 group-hover:scale-150 group-focus-visible:scale-150"
                 style={{ backgroundColor: "var(--blue-bright)" }}
               />
-
             </Link>
 
-            {isActive && (
-              <div
-                id={`map-tip-${d.slug}`}
-                role="tooltip"
-                className="pointer-events-none absolute z-20 w-48 animate-fade-in"
-                style={{
-                  ...(flipDown
-                    ? { top: "calc(100% + 10px)" }
-                    : { bottom: "calc(100% + 10px)" }),
-                  left: flipLeft ? "auto" : "50%",
-                  right: flipLeft ? "50%" : "auto",
-                  transform: flipLeft ? "translateX(0)" : "translateX(-50%)",
-                }}
-              >
+            <div
+              id={`map-tip-${d.slug}`}
+              role="tooltip"
+              aria-hidden={!isActive}
+              className={`pointer-events-none absolute z-30 w-48 transition-opacity duration-150 ${
+                isActive ? "opacity-100 animate-fade-in" : "opacity-0"
+              }`}
+              style={{
+                ...(flipDown
+                  ? { top: "calc(50% + 6px)" }
+                  : { bottom: "calc(50% + 6px)" }),
+                left: flipLeft ? "auto" : "50%",
+                right: flipLeft ? "50%" : "auto",
+                transform: flipLeft ? "translateX(8px)" : "translateX(-50%)",
+              }}
+            >
+
                 <div
                   className="rounded-lg border bg-white px-3 py-2 shadow-lg"
                   style={{ borderColor: "var(--border-cream)" }}
