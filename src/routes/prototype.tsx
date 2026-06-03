@@ -705,6 +705,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
   const [added, setAdded] = useState<Set<string>>(initiallyAdded);
   const [view, setView] = useState<"day" | "map">("day");
   const [showRedirect, setShowRedirect] = useState(false);
+  const [showFeedback, setShowFeedback] = useState(false);
 
   const totals = useMemo(() => {
     let count = 0;
@@ -888,21 +889,29 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             >
               Back to trip
             </button>
-            <FeedbackDialog
-              trigger={
-                <button
-                  type="button"
-                  className="inline-flex items-center gap-1.5 px-5 py-2 rounded-full bg-[var(--blue-bright)] text-white text-sm font-semibold hover:bg-black transition-colors"
-                >
-                  <MessageSquare className="w-3.5 h-3.5" aria-hidden /> Give us feedback
-                </button>
-              }
-              title="How was the prototype?"
-              description="You made it to the end! Tell us what worked, what didn't, or what you'd love next."
-            />
+            <button
+              type="button"
+              onClick={() => {
+                // Sequence the dialogs instead of nesting: close this one, then
+                // open feedback at the top level. Nested Radix dialogs swallow
+                // the trigger tap on touch devices.
+                setShowRedirect(false);
+                setShowFeedback(true);
+              }}
+              className="inline-flex items-center gap-1.5 px-5 py-2 rounded-full bg-[var(--blue-bright)] text-white text-sm font-semibold hover:bg-black transition-colors"
+            >
+              <MessageSquare className="w-3.5 h-3.5" aria-hidden /> Give us feedback
+            </button>
           </div>
         </DialogContent>
       </Dialog>
+
+      <FeedbackDialog
+        open={showFeedback}
+        onOpenChange={setShowFeedback}
+        title="How was the prototype?"
+        description="You made it to the end! Tell us what worked, what didn't, or what you'd love next."
+      />
     </div>
   );
 }

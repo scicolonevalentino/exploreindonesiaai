@@ -26,14 +26,26 @@ function validateEmail(raw: string): string | null {
 
 export function FeedbackDialog({
   trigger,
+  open: controlledOpen,
+  onOpenChange: controlledOnOpenChange,
   title = "Send us feedback",
   description = "Tell us what worked, what didn't, or what you'd love to see next. It goes straight to the founder.",
 }: {
-  trigger: ReactNode;
+  /** Optional trigger element. Omit when driving the dialog via `open`/`onOpenChange`. */
+  trigger?: ReactNode;
+  /** Controlled open state. When provided, the dialog is controlled by the parent. */
+  open?: boolean;
+  onOpenChange?: (open: boolean) => void;
   title?: string;
   description?: string;
 }) {
-  const [open, setOpen] = useState(false);
+  const [internalOpen, setInternalOpen] = useState(false);
+  const isControlled = controlledOpen !== undefined;
+  const open = isControlled ? controlledOpen : internalOpen;
+  const setOpen = (o: boolean) => {
+    if (!isControlled) setInternalOpen(o);
+    controlledOnOpenChange?.(o);
+  };
   const [name, setName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [msg, setMsg] = useState("");
@@ -115,7 +127,7 @@ export function FeedbackDialog({
         if (!o) reset();
       }}
     >
-      <DialogTrigger asChild>{trigger}</DialogTrigger>
+      {trigger ? <DialogTrigger asChild>{trigger}</DialogTrigger> : null}
       <DialogContent className="sm:max-w-md">
         {status === "done" ? (
           <>
