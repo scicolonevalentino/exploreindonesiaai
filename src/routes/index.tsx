@@ -753,8 +753,15 @@ function DestinationsStrip() {
           </p>
         </div>
 
+        {/* Desktop: illustrated interactive map */}
+        <div className="hidden md:block">
+          <IndonesiaMap />
+        </div>
+
+        {/* Mobile: horizontal carousel */}
         <div
-          className="relative"
+          className="relative md:hidden"
+
           role="region"
           aria-roledescription="carousel"
           aria-label="Indonesia destinations carousel"
