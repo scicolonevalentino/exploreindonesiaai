@@ -22,9 +22,11 @@ import { createFileRoute } from "@tanstack/react-router";
 import { createClient } from "@sanity/client";
 
 const sanity = createClient({
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID ?? "u4ah1ore",
-  dataset: import.meta.env.VITE_SANITY_DATASET ?? "production",
-  apiVersion: import.meta.env.VITE_SANITY_API_VERSION ?? "2024-01-01",
+  // || (not ??) so an empty-string env var falls back to the default — see
+  // the same note in src/lib/sanity.ts.
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || "u4ah1ore",
+  dataset: import.meta.env.VITE_SANITY_DATASET || "production",
+  apiVersion: import.meta.env.VITE_SANITY_API_VERSION || "2024-01-01",
   useCdn: false,
 });
 

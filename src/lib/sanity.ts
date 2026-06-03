@@ -2,9 +2,12 @@ import { createClient, type SanityClient } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 
 export const sanityClient: SanityClient = createClient({
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID ?? "u4ah1ore",
-  dataset: import.meta.env.VITE_SANITY_DATASET ?? "production",
-  apiVersion: import.meta.env.VITE_SANITY_API_VERSION ?? "2024-01-01",
+  // Use || (not ??) so an empty-string env var — which the build tooling
+  // injects for VITE_* vars that are unset in the deploy environment — falls
+  // back to these defaults instead of passing "" to the Sanity client.
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || "u4ah1ore",
+  dataset: import.meta.env.VITE_SANITY_DATASET || "production",
+  apiVersion: import.meta.env.VITE_SANITY_API_VERSION || "2024-01-01",
   useCdn: true,
 });
 
