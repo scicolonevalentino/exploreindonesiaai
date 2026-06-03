@@ -729,33 +729,39 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
 
   return (
     <div className="flex-1 w-full" style={{ backgroundColor: "#faf9f5", color: "var(--navy-deep)" }}>
-      <header className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
-        <span className="font-bold text-lg sm:text-xl tracking-tight">
+      <header className="mx-auto max-w-7xl px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-2">
+        <span className="font-bold text-base sm:text-xl tracking-tight truncate">
           exploreindonesia<span style={{ color: "var(--blue-bright)" }}>.ai</span>
         </span>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
           <button
             type="button"
             onClick={onEdit}
-            className="text-sm font-medium text-[var(--navy-deep)] hover:underline px-2 py-1"
+            className="text-xs sm:text-sm font-medium text-[var(--navy-deep)] hover:underline px-1.5 sm:px-2 py-1"
           >
-            Edit itinerary
+            Edit
+            <span className="hidden sm:inline"> itinerary</span>
           </button>
           <button
             type="button"
-            className="inline-flex items-center gap-1.5 text-sm font-medium px-3.5 py-2 rounded-full border bg-white hover:bg-[var(--cream)] transition-colors"
+            aria-label="Save and export"
+            className="inline-flex items-center gap-1.5 text-sm font-medium px-2.5 sm:px-3.5 py-2 rounded-full border bg-white hover:bg-[var(--cream)] transition-colors"
             style={{ borderColor: "var(--border-cream)" }}
           >
-            <Save className="w-3.5 h-3.5" aria-hidden /> Save & export
+            <Save className="w-3.5 h-3.5" aria-hidden />
+            <span className="hidden sm:inline">Save &amp; export</span>
           </button>
           <button
             type="button"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold px-3.5 py-2 rounded-full text-white bg-[var(--navy-deep)] hover:bg-black transition-colors"
+            aria-label="Share"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold px-2.5 sm:px-3.5 py-2 rounded-full text-white bg-[var(--navy-deep)] hover:bg-black transition-colors"
           >
-            <Share2 className="w-3.5 h-3.5" aria-hidden /> Share
+            <Share2 className="w-3.5 h-3.5" aria-hidden />
+            <span className="hidden sm:inline">Share</span>
           </button>
         </div>
       </header>
+
 
       <section className="mx-auto max-w-6xl px-6 pb-32">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
