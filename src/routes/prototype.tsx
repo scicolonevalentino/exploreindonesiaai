@@ -496,9 +496,7 @@ export function InputStage({
           className="text-4xl sm:text-6xl md:text-7xl font-bold leading-[1.05] mb-4"
           style={{ fontFamily: "var(--font-serif)" }}
         >
-          You've planned your trip
-          <br />
-          to Indonesia.
+          Book your Indonesia trip
         </h1>
         <p
           className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
