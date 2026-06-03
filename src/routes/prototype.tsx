@@ -604,14 +604,14 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
         Reading your trip…
       </h2>
 
-      <div className="flex flex-wrap items-center justify-center gap-3 max-w-3xl mb-12">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center gap-2 sm:gap-3 w-full max-w-3xl mb-12">
         {STEPS.map((s, i) => {
           const isActive = i === activeStep;
           const isDone = i < activeStep;
           return (
-            <div key={s.num} className="flex items-center gap-3">
+            <div key={s.num} className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto">
               <div
-                className="rounded-xl px-4 py-3 min-w-[150px] text-center transition-all"
+                className="rounded-xl px-4 py-3 w-full sm:w-auto sm:min-w-[150px] text-center transition-all"
                 style={{
                   backgroundColor: isActive
                     ? "rgba(94, 234, 212, 0.18)"
@@ -630,11 +630,14 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
                 <div className="font-semibold text-sm">{s.title}</div>
                 <div className="text-xs text-white/60 mt-0.5">{s.sub}</div>
               </div>
-              {i < STEPS.length - 1 && <span className="text-white/40">›</span>}
+              {i < STEPS.length - 1 && (
+                <span className="hidden sm:inline text-white/40">›</span>
+              )}
             </div>
           );
         })}
       </div>
+
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12 mb-10 text-center">
         {[
