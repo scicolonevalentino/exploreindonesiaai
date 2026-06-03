@@ -695,7 +695,7 @@ function InspirationMarquee() {
           aria-label="Previous itinerary"
           data-inspiration-arrow="true"
           onClick={() => moveCarousel("prev")}
-          className="absolute left-3 sm:left-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2"
+          className="absolute left-3 sm:left-6 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 sm:flex"
           style={{
             borderColor: "var(--border-cream)",
             color: "var(--navy-deep)",
@@ -711,7 +711,7 @@ function InspirationMarquee() {
           aria-label="Next itinerary"
           data-inspiration-arrow="true"
           onClick={() => moveCarousel("next")}
-          className="absolute right-3 sm:right-6 top-1/2 z-20 flex h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2"
+          className="absolute right-3 sm:right-6 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 sm:flex"
           style={{
             borderColor: "var(--border-cream)",
             color: "var(--navy-deep)",
