@@ -265,7 +265,6 @@ async function pool(items, n, fn) {
   );
   const warnings = issues.filter((c) => !errors.includes(c));
 
-
   console.log(`\n=== SUMMARY ===`);
   console.log(`Total links checked : ${checked.length}`);
   console.log(`Errors              : ${errors.length}`);

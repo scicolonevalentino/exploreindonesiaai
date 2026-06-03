@@ -232,7 +232,6 @@ function NotFoundComponent() {
   );
 }
 
-
 function ArticlePage() {
   return (
     <Suspense fallback={<div className="min-h-screen" />}>

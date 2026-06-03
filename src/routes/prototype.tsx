@@ -731,7 +731,6 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
       return next;
     });
 
-
   return (
     <div
       className="flex-1 w-full"
