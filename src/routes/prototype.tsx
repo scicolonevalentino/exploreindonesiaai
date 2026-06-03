@@ -11,6 +11,7 @@ import {
   Check,
 } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
+import { trackEvent } from "@/lib/analytics-events";
 
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
@@ -55,6 +56,14 @@ const SOURCE_LABEL: Record<Source, string> = {
   getyourguide: "GETYOURGUIDE",
   "12go": "12GO",
   booking: "BOOKING.COM",
+};
+/** Clean, human-readable supplier names for analytics params (platform). */
+const PLATFORM_NAME: Record<Source, string> = {
+  klook: "Klook",
+  viator: "Viator",
+  getyourguide: "GetYourGuide",
+  "12go": "12Go",
+  booking: "Booking.com",
 };
 const SOURCE_COLOR: Record<Source, string> = {
   klook: "#ef7a23",
@@ -390,6 +399,11 @@ export function InputStage({
   const canSubmit = trimmedLength >= minLength;
   const remaining = Math.max(0, minLength - trimmedLength);
 
+  const handleStart = () => {
+    trackEvent("assemble_trip_click");
+    onStart();
+  };
+
   if (embedded) {
     return (
       <div
@@ -449,7 +463,7 @@ export function InputStage({
               </p>
               <button
                 type="button"
-                onClick={canSubmit ? onStart : undefined}
+                onClick={canSubmit ? handleStart : undefined}
                 aria-disabled={!canSubmit}
                 tabIndex={canSubmit ? 0 : -1}
                 className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all ${
@@ -532,7 +546,7 @@ export function InputStage({
           <div className="mt-4 flex items-center justify-end">
             <button
               type="button"
-              onClick={canSubmit ? onStart : undefined}
+              onClick={canSubmit ? handleStart : undefined}
               aria-disabled={!canSubmit}
               tabIndex={canSubmit ? 0 : -1}
               className={`inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] ${
@@ -856,7 +870,11 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             </div>
             <button
               type="button"
-              onClick={() => setShowRedirect(true)}
+              onClick={() => {
+                // Primary conversion event for the prototype funnel.
+                trackEvent("review_and_book_click");
+                setShowRedirect(true);
+              }}
               className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
             >
               Review & book <span aria-hidden>→</span>
@@ -892,6 +910,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
             <button
               type="button"
               onClick={() => {
+                trackEvent("feedback_modal_open");
                 // Sequence the dialogs instead of nesting: close this one, then
                 // open feedback at the top level. Nested Radix dialogs swallow
                 // the trigger tap on touch devices.
@@ -989,6 +1008,19 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
   }
 
   const isRecommended = item.kind === "recommended";
+  const platform = item.source ? PLATFORM_NAME[item.source] : undefined;
+
+  // Fire add_to_trip only when adding (not when removing an already-added item).
+  const handleToggle = () => {
+    if (!added) {
+      trackEvent("add_to_trip", {
+        item_name: item.title,
+        platform,
+        price: item.price,
+      });
+    }
+    onToggle();
+  };
 
   return (
     <div
@@ -1100,7 +1132,7 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
           </div>
           <button
             type="button"
-            onClick={onToggle}
+            onClick={handleToggle}
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
               added
                 ? "bg-[var(--blue-bright)] text-white border-transparent"
@@ -1112,7 +1144,14 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
           {item.source && (
             <a
               href="#"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => {
+                e.preventDefault();
+                trackEvent("affiliate_click", {
+                  platform,
+                  item_name: item.title,
+                  price: item.price,
+                });
+              }}
               className="text-xs text-[var(--teal-link)] hover:underline"
             >
               Book now on{" "}
@@ -1140,7 +1179,7 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
         </div>
         <button
           type="button"
-          onClick={onToggle}
+          onClick={handleToggle}
           className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
             added
               ? "bg-[var(--blue-bright)] text-white border-transparent"

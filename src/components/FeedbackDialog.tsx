@@ -1,6 +1,7 @@
 import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { sendContactMessage } from "@/lib/contact.functions";
+import { trackEvent } from "@/lib/analytics-events";
 import {
   Dialog,
   DialogContent,
@@ -107,6 +108,7 @@ export function FeedbackDialog({
           elapsedMs: Date.now() - mountedAtRef.current,
         },
       });
+      trackEvent("feedback_submitted", { has_email: Boolean(contactEmail.trim()) });
       setStatus("done");
     } catch (err) {
       setStatus("error");
