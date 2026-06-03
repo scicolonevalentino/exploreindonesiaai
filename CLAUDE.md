@@ -83,6 +83,16 @@ of the build.
   - Do **not** create `src/pages/`, Next.js, or Remix-style layouts. The only
     root layout is `__root.tsx`; preserve its `<Outlet />`.
   - Never hand-edit `routeTree.gen.ts`.
+  - **`routeTree.gen.ts` regeneration gotcha**: running `dev`/`build` can
+    regenerate this file with an extra `declare module '@tanstack/react-start'
+    { interface Register … }` block (the `ssr/router/config` augmentation). That
+    block comes from a `@tanstack/start-plugin-core` (generator) version newer
+    than the installed `react-start` runtime types can consume, and it breaks
+    `typecheck` with `to="/trips"`-style errors in `trips.index.tsx`. It is a
+    spurious artifact — if you see it in `git diff`, **don't commit it**; run
+    `git restore src/routeTree.gen.ts`. The committed version is the correct one.
+    Root cause is a TanStack version skew (react-router/react-start/plugin-core);
+    the real fix is a coordinated upgrade of that family, deferred for now.
 - **Content**: articles come from Sanity via GROQ in `sanity-queries.ts`. Render
   Sanity images through `urlFor()`. Articles are heavily tagged
   (`destinationPrimary`, `travelStyle*`, `tripLengthBucket`, `travellerTypes`,
