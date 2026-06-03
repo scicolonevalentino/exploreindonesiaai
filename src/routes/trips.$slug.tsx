@@ -166,69 +166,72 @@ export const Route = createFileRoute("/trips/$slug")({
       </div>
     </div>
   ),
-  notFoundComponent: () => {
-    const { slug } = Route.useParams();
-    return (
-      <div
-        className="min-h-screen flex items-center justify-center p-6"
-        style={{ backgroundColor: "var(--cream, #f8f5ef)" }}
-      >
-        <div className="max-w-lg w-full text-center">
-          <p
-            className="text-xs font-semibold uppercase tracking-[0.25em] mb-4"
-            style={{ color: "var(--teal-link, #0f766e)" }}
+  notFoundComponent: NotFoundComponent,
+});
+
+function NotFoundComponent() {
+  const { slug } = Route.useParams();
+  return (
+    <div
+      className="min-h-screen flex items-center justify-center p-6"
+      style={{ backgroundColor: "var(--cream, #f8f5ef)" }}
+    >
+      <div className="max-w-lg w-full text-center">
+        <p
+          className="text-xs font-semibold uppercase tracking-[0.25em] mb-4"
+          style={{ color: "var(--teal-link, #0f766e)" }}
+        >
+          404 — Trip not found
+        </p>
+        <h1
+          className="font-serif text-3xl sm:text-4xl font-semibold mb-4"
+          style={{ color: "var(--navy-deep, #0b1f3a)" }}
+        >
+          We couldn't find that itinerary
+        </h1>
+        <p className="text-base mb-2" style={{ color: "var(--navy-mid, #1e3a5f)" }}>
+          The trip{" "}
+          <code
+            className="px-1.5 py-0.5 rounded text-sm"
+            style={{
+              backgroundColor: "var(--blue-soft, #e6eef7)",
+              color: "var(--navy-deep, #0b1f3a)",
+            }}
           >
-            404 — Trip not found
-          </p>
-          <h1
-            className="font-serif text-3xl sm:text-4xl font-semibold mb-4"
-            style={{ color: "var(--navy-deep, #0b1f3a)" }}
+            /{slug}
+          </code>{" "}
+          doesn't exist or may have been moved.
+        </p>
+        <p className="text-sm mb-8" style={{ color: "var(--slate-muted, #64748b)" }}>
+          Browse our full collection of hand-picked Indonesia itineraries instead.
+        </p>
+        <div className="flex flex-wrap gap-3 justify-center">
+          <Link
+            to="/trips"
+            className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-semibold transition-opacity hover:opacity-90"
+            style={{
+              backgroundColor: "var(--navy-deep, #0b1f3a)",
+              color: "#fff",
+            }}
           >
-            We couldn't find that itinerary
-          </h1>
-          <p className="text-base mb-2" style={{ color: "var(--navy-mid, #1e3a5f)" }}>
-            The trip{" "}
-            <code
-              className="px-1.5 py-0.5 rounded text-sm"
-              style={{
-                backgroundColor: "var(--blue-soft, #e6eef7)",
-                color: "var(--navy-deep, #0b1f3a)",
-              }}
-            >
-              /{slug}
-            </code>{" "}
-            doesn't exist or may have been moved.
-          </p>
-          <p className="text-sm mb-8" style={{ color: "var(--slate-muted, #64748b)" }}>
-            Browse our full collection of hand-picked Indonesia itineraries instead.
-          </p>
-          <div className="flex flex-wrap gap-3 justify-center">
-            <Link
-              to="/trips"
-              className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-semibold transition-opacity hover:opacity-90"
-              style={{
-                backgroundColor: "var(--navy-deep, #0b1f3a)",
-                color: "#fff",
-              }}
-            >
-              Browse all trips
-            </Link>
-            <Link
-              to="/"
-              className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-semibold border transition-colors hover:bg-black/5"
-              style={{
-                borderColor: "var(--border-cream, #e6dfd2)",
-                color: "var(--navy-deep, #0b1f3a)",
-              }}
-            >
-              Go home
-            </Link>
-          </div>
+            Browse all trips
+          </Link>
+          <Link
+            to="/"
+            className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-semibold border transition-colors hover:bg-black/5"
+            style={{
+              borderColor: "var(--border-cream, #e6dfd2)",
+              color: "var(--navy-deep, #0b1f3a)",
+            }}
+          >
+            Go home
+          </Link>
         </div>
       </div>
-    );
-  },
-});
+    </div>
+  );
+}
+
 
 function ArticlePage() {
   return (
