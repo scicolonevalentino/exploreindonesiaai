@@ -22,9 +22,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { createClient } from "@sanity/client";
 
 const sanity = createClient({
-  projectId: "u4ah1ore",
-  dataset: "production",
-  apiVersion: "2024-01-01",
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID ?? "u4ah1ore",
+  dataset: import.meta.env.VITE_SANITY_DATASET ?? "production",
+  apiVersion: import.meta.env.VITE_SANITY_API_VERSION ?? "2024-01-01",
   useCdn: false,
 });
 

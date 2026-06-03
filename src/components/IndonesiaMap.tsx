@@ -49,7 +49,8 @@ export function IndonesiaMap() {
           <path d="M 360 180 C 460 150, 560 170, 575 260 C 590 340, 510 380, 420 365 C 340 350, 305 260, 360 180 Z" />
 
           {/* Sulawesi — four-arm K-shape, center-right */}
-          <path d="
+          <path
+            d="
             M 700 180
             C 715 220, 695 260, 715 295
             C 745 280, 780 250, 800 215
@@ -59,7 +60,8 @@ export function IndonesiaMap() {
             C 660 360, 670 320, 680 305
             C 645 320, 615 305, 595 290
             C 625 280, 660 285, 685 280
-            C 670 250, 670 215, 700 180 Z" />
+            C 670 250, 670 215, 700 180 Z"
+          />
 
           {/* Papua — horizontal blob with a small head on the left */}
           <ellipse cx="870" cy="335" rx="105" ry="48" />
@@ -138,9 +140,7 @@ export function IndonesiaMap() {
                 isActive ? "opacity-100 animate-fade-in" : "opacity-0"
               }`}
               style={{
-                ...(flipDown
-                  ? { top: "calc(50% + 6px)" }
-                  : { bottom: "calc(50% + 6px)" }),
+                ...(flipDown ? { top: "calc(50% + 6px)" } : { bottom: "calc(50% + 6px)" }),
                 left: flipLeft ? "auto" : "50%",
                 right: flipLeft ? "50%" : "auto",
                 transform: flipLeft ? "translateX(8px)" : "translateX(-50%)",

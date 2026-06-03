@@ -28,7 +28,6 @@ import {
 import { shortTitle } from "@/lib/short-title";
 import { IndonesiaMap } from "@/components/IndonesiaMap";
 
-
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
   queryFn: async () => {
@@ -761,7 +760,6 @@ function DestinationsStrip() {
         {/* Mobile: horizontal carousel */}
         <div
           className="relative md:hidden"
-
           role="region"
           aria-roledescription="carousel"
           aria-label="Indonesia destinations carousel"
