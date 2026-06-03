@@ -12,21 +12,6 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Dev-only: Lovable serves R2-backed assets (hero videos, etc.) under /__l5e/*
-  // via its platform runtime, which doesn't exist in local dev. Proxy those
-  // requests to production so the hero background video plays on localhost.
-  // No effect on the build — this is the dev server proxy only.
-  vite: {
-    server: {
-      proxy: {
-        "/__l5e": {
-          target: "https://exploreindonesia.ai",
-          changeOrigin: true,
-          secure: true,
-        },
-      },
-    },
-  },
   // The Lovable wrapper only runs the Nitro deploy plugin inside Lovable's
   // sandbox; everywhere else it's skipped and it defaults to the Cloudflare
   // preset. On Vercel (VERCEL env var present at build time) we force-enable

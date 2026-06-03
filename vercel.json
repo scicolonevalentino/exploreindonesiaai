@@ -2,11 +2,5 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "bun install --frozen-lockfile",
-  "buildCommand": "NITRO_PRESET=vercel bun run build",
-  "rewrites": [
-    {
-      "source": "/__l5e/:path*",
-      "destination": "https://exploreindonesia.ai/__l5e/:path*"
-    }
-  ]
+  "buildCommand": "NITRO_PRESET=vercel bun run build"
 }

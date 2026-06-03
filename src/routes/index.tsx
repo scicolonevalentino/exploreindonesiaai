@@ -13,9 +13,13 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import heroVideoDesktop from "@/assets/hero-bg-desktop.mp4.asset.json";
-import heroVideoMobile from "@/assets/hero-bg-mobile.mp4.asset.json";
 import { useIsMobile } from "@/hooks/use-mobile";
+
+// Hero background videos are self-hosted from public/ (served at the site root).
+// Previously these came from Lovable's /__l5e asset runtime, but after the
+// Vercel cutover that path looped back on itself — see public/hero-bg-*.mp4.
+const HERO_VIDEO_DESKTOP = "/hero-bg-desktop.mp4";
+const HERO_VIDEO_MOBILE = "/hero-bg-mobile.mp4";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
@@ -86,7 +90,7 @@ function Logo() {
 
 function Hero() {
   const isMobile = useIsMobile();
-  const videoSrc = isMobile ? heroVideoMobile.url : heroVideoDesktop.url;
+  const videoSrc = isMobile ? HERO_VIDEO_MOBILE : HERO_VIDEO_DESKTOP;
 
   return (
     <section
