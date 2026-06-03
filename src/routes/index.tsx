@@ -190,7 +190,7 @@ function HowItWorks() {
     },
     {
       n: 2,
-      title: "We make it bookable",
+      title: "We match it",
       body:
         "We match your itinerary with vetted experiences from trusted travel platforms and local operators.",
     },
