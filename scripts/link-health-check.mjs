@@ -248,16 +248,23 @@ async function pool(items, n, fn) {
   process.stderr.write("\n");
 
   const issues = checked.filter((c) => c.flags?.length);
-  const errors = issues.filter((c) =>
-    c.flags.some(
-      (f) =>
-        f.startsWith("http-") ||
-        f.startsWith("redirect-domain-change") ||
-        f === "missing-affiliate-params" ||
-        f === "unresolved-affiliateLinkRef",
-    ),
+  // Bot-shield responses (e.g. Viator/Klook 403) are valid affiliate links
+  // protected by bot detection, not broken links. Never treat them as errors,
+  // even if other flags are also present on the same entry.
+  const isBotShieldFlag = (f) => f.startsWith("bot-shield-");
+  const errors = issues.filter(
+    (c) =>
+      !c.flags.some(isBotShieldFlag) &&
+      c.flags.some(
+        (f) =>
+          f.startsWith("http-") ||
+          f.startsWith("redirect-domain-change") ||
+          f === "missing-affiliate-params" ||
+          f === "unresolved-affiliateLinkRef",
+      ),
   );
   const warnings = issues.filter((c) => !errors.includes(c));
+
 
   console.log(`\n=== SUMMARY ===`);
   console.log(`Total links checked : ${checked.length}`);
