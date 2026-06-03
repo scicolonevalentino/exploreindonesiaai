@@ -156,7 +156,7 @@ function Hero() {
           className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
           style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          Book your Indonesia trip
+          Have you planned your trip to Indonesia?
           <br />
           <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
             We make it bookable

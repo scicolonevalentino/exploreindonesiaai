@@ -500,7 +500,7 @@ export function InputStage({
           className="text-4xl sm:text-6xl md:text-7xl font-bold leading-[1.05] mb-4"
           style={{ fontFamily: "var(--font-serif)" }}
         >
-          Book your Indonesia trip
+          Have you planned your trip to Indonesia?
         </h1>
         <p
           className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
