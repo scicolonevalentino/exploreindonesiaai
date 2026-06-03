@@ -26,6 +26,8 @@ import {
   type ArticleListItem,
 } from "@/lib/sanity-queries";
 import { shortTitle } from "@/lib/short-title";
+import { IndonesiaMap } from "@/components/IndonesiaMap";
+
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
@@ -751,8 +753,15 @@ function DestinationsStrip() {
           </p>
         </div>
 
+        {/* Desktop: illustrated interactive map */}
+        <div className="hidden md:block">
+          <IndonesiaMap />
+        </div>
+
+        {/* Mobile: horizontal carousel */}
         <div
-          className="relative"
+          className="relative md:hidden"
+
           role="region"
           aria-roledescription="carousel"
           aria-label="Indonesia destinations carousel"
