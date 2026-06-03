@@ -26,6 +26,8 @@ import {
   type ArticleListItem,
 } from "@/lib/sanity-queries";
 import { shortTitle } from "@/lib/short-title";
+import { IndonesiaMap } from "@/components/IndonesiaMap";
+
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
