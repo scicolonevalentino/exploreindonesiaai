@@ -837,7 +837,7 @@ function DestinationsStrip() {
             aria-label="Scroll destinations left"
             aria-controls="destinations-scroller"
             onClick={() => scrollBy(-1)}
-            className="hidden sm:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            className="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">‹</span>
@@ -894,7 +894,7 @@ function DestinationsStrip() {
             aria-label="Scroll destinations right"
             aria-controls="destinations-scroller"
             onClick={() => scrollBy(1)}
-            className="hidden sm:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
+            className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full items-center justify-center bg-white border shadow-md text-[var(--navy-deep)] hover:bg-[var(--blue-bright)] hover:text-white hover:border-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--cream)]"
             style={{ borderColor: "var(--border-cream)" }}
           >
             <span aria-hidden="true" className="text-xl leading-none">›</span>
