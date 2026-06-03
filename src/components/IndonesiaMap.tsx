@@ -122,14 +122,10 @@ export function IndonesiaMap() {
             >
               <span
                 aria-hidden="true"
-                className="absolute inline-flex h-full w-full rounded-full opacity-60 animate-ping"
+                className="relative inline-flex h-3.5 w-3.5 rounded-full border-2 border-white shadow-md transition-transform duration-200 group-hover:scale-150 group-focus-visible:scale-150"
                 style={{ backgroundColor: "var(--blue-bright)" }}
               />
-              <span
-                aria-hidden="true"
-                className="relative inline-flex h-3 w-3 rounded-full border-2 border-white shadow-md transition-transform duration-200 group-hover:scale-125 group-focus-visible:scale-125"
-                style={{ backgroundColor: "var(--blue-bright)" }}
-              />
+
             </Link>
 
             {isActive && (
