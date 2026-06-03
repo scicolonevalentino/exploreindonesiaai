@@ -146,32 +146,30 @@ export function IndonesiaMap() {
                 transform: flipLeft ? "translateX(8px)" : "translateX(-50%)",
               }}
             >
-
-                <div
-                  className="rounded-lg border bg-white px-3 py-2 shadow-lg"
-                  style={{ borderColor: "var(--border-cream)" }}
+              <div
+                className="rounded-lg border bg-white px-3 py-2 shadow-lg"
+                style={{ borderColor: "var(--border-cream)" }}
+              >
+                <p
+                  className="text-[10px] font-semibold uppercase tracking-[0.18em]"
+                  style={{ color: "var(--teal-link)" }}
                 >
-                  <p
-                    className="text-[10px] font-semibold uppercase tracking-[0.18em]"
-                    style={{ color: "var(--teal-link)" }}
-                  >
-                    Destination
-                  </p>
-                  <p
-                    className="font-serif text-sm font-semibold leading-snug"
-                    style={{ color: "var(--navy-deep)" }}
-                  >
-                    {d.name}
-                  </p>
-                  <p
-                    className="mt-0.5 text-[11px] leading-snug line-clamp-2"
-                    style={{ color: "var(--slate-muted)" }}
-                  >
-                    {d.highlights.slice(0, 3).join(" · ")}
-                  </p>
-                </div>
+                  Destination
+                </p>
+                <p
+                  className="font-serif text-sm font-semibold leading-snug"
+                  style={{ color: "var(--navy-deep)" }}
+                >
+                  {d.name}
+                </p>
+                <p
+                  className="mt-0.5 text-[11px] leading-snug line-clamp-2"
+                  style={{ color: "var(--slate-muted)" }}
+                >
+                  {d.highlights.slice(0, 3).join(" · ")}
+                </p>
               </div>
-
+            </div>
           </div>
         );
       })}
