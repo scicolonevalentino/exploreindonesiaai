@@ -604,14 +604,14 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
         Reading your trip…
       </h2>
 
-      <div className="flex flex-wrap items-center justify-center gap-3 max-w-3xl mb-12">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center gap-2 sm:gap-3 w-full max-w-3xl mb-12">
         {STEPS.map((s, i) => {
           const isActive = i === activeStep;
           const isDone = i < activeStep;
           return (
-            <div key={s.num} className="flex items-center gap-3">
+            <div key={s.num} className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto">
               <div
-                className="rounded-xl px-4 py-3 min-w-[150px] text-center transition-all"
+                className="rounded-xl px-4 py-3 w-full sm:w-auto sm:min-w-[150px] text-center transition-all"
                 style={{
                   backgroundColor: isActive
                     ? "rgba(94, 234, 212, 0.18)"
@@ -630,11 +630,14 @@ export function AssemblingStage({ onDone }: { onDone: () => void }) {
                 <div className="font-semibold text-sm">{s.title}</div>
                 <div className="text-xs text-white/60 mt-0.5">{s.sub}</div>
               </div>
-              {i < STEPS.length - 1 && <span className="text-white/40">›</span>}
+              {i < STEPS.length - 1 && (
+                <span className="hidden sm:inline text-white/40">›</span>
+              )}
             </div>
           );
         })}
       </div>
+
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-12 mb-10 text-center">
         {[
@@ -726,35 +729,41 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
 
   return (
     <div className="flex-1 w-full" style={{ backgroundColor: "#faf9f5", color: "var(--navy-deep)" }}>
-      <header className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
-        <span className="font-bold text-lg sm:text-xl tracking-tight">
+      <header className="mx-auto max-w-7xl px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-2">
+        <span className="font-bold text-base sm:text-xl tracking-tight truncate">
           exploreindonesia<span style={{ color: "var(--blue-bright)" }}>.ai</span>
         </span>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
           <button
             type="button"
             onClick={onEdit}
-            className="text-sm font-medium text-[var(--navy-deep)] hover:underline px-2 py-1"
+            className="text-xs sm:text-sm font-medium text-[var(--navy-deep)] hover:underline px-1.5 sm:px-2 py-1"
           >
-            Edit itinerary
+            Edit
+            <span className="hidden sm:inline"> itinerary</span>
           </button>
           <button
             type="button"
-            className="inline-flex items-center gap-1.5 text-sm font-medium px-3.5 py-2 rounded-full border bg-white hover:bg-[var(--cream)] transition-colors"
+            aria-label="Save and export"
+            className="inline-flex items-center gap-1.5 text-sm font-medium px-2.5 sm:px-3.5 py-2 rounded-full border bg-white hover:bg-[var(--cream)] transition-colors"
             style={{ borderColor: "var(--border-cream)" }}
           >
-            <Save className="w-3.5 h-3.5" aria-hidden /> Save & export
+            <Save className="w-3.5 h-3.5" aria-hidden />
+            <span className="hidden sm:inline">Save &amp; export</span>
           </button>
           <button
             type="button"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold px-3.5 py-2 rounded-full text-white bg-[var(--navy-deep)] hover:bg-black transition-colors"
+            aria-label="Share"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold px-2.5 sm:px-3.5 py-2 rounded-full text-white bg-[var(--navy-deep)] hover:bg-black transition-colors"
           >
-            <Share2 className="w-3.5 h-3.5" aria-hidden /> Share
+            <Share2 className="w-3.5 h-3.5" aria-hidden />
+            <span className="hidden sm:inline">Share</span>
           </button>
         </div>
       </header>
 
-      <section className="mx-auto max-w-6xl px-6 pb-32">
+
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-32">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
             <p
@@ -823,7 +832,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
 
       {/* Inline totals + CTA — no sticky bar, sits right after the itinerary */}
       {totals.count > 0 && (
-        <div className="mx-auto max-w-6xl px-6 pb-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
           <div
             className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
             style={{ borderColor: "var(--border-cream)" }}
@@ -973,7 +982,7 @@ function ItemCard({
 
   return (
     <div
-      className={`grid grid-cols-[140px_1fr_auto] gap-4 p-4 rounded-xl border transition-all ${
+      className={`p-3 sm:p-4 rounded-xl border transition-all ${
         added ? "ring-2 ring-[var(--blue-bright)]" : ""
       }`}
       style={{
@@ -981,96 +990,98 @@ function ItemCard({
         backgroundColor: isRecommended ? "#fbf2dd" : "white",
       }}
     >
-      <div
-        className="aspect-[4/3] rounded-lg flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
-        style={{ backgroundColor: "#e6dfd0" }}
-      >
-        <div>
-          <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
-          <div className="leading-tight">{item.title.slice(0, 32)}{item.title.length > 32 ? "…" : ""}</div>
-          {item.durationLabel && (
-            <div
-              className="mt-2 inline-block text-[10px] px-2 py-0.5 rounded-full text-white"
-              style={{ backgroundColor: "var(--navy-deep)" }}
-            >
-              {item.durationLabel}
+      <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
+        <div
+          className="aspect-[4/3] rounded-lg flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
+          style={{ backgroundColor: "#e6dfd0" }}
+        >
+          <div>
+            <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
+            <div className="leading-tight hidden sm:block">
+              {item.title.slice(0, 32)}{item.title.length > 32 ? "…" : ""}
             </div>
-          )}
-        </div>
-      </div>
-
-      <div className="min-w-0">
-        <div className="flex flex-wrap items-center gap-2 mb-2">
-          {item.source && (
-            <span
-              className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"
-              style={{ backgroundColor: SOURCE_COLOR[item.source] }}
-            >
-              ● {SOURCE_LABEL[item.source]}
-            </span>
-          )}
-          {item.clusteredMatch && (
-            <span
-              className="text-[10px] font-semibold uppercase tracking-wider"
-              style={{ color: "var(--teal-link)" }}
-            >
-              ● Clustered match
-            </span>
-          )}
-          {isRecommended && (
-            <span
-              className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider"
-              style={{ color: "#b58a3a" }}
-            >
-              <Sparkles className="w-3 h-3" aria-hidden /> Recommended experience
-            </span>
-          )}
+            {item.durationLabel && (
+              <div
+                className="mt-2 inline-block text-[10px] px-2 py-0.5 rounded-full text-white"
+                style={{ backgroundColor: "var(--navy-deep)" }}
+              >
+                {item.durationLabel}
+              </div>
+            )}
+          </div>
         </div>
 
-        <h3 className="font-bold text-base sm:text-lg leading-snug" style={{ fontFamily: "var(--font-serif)" }}>
-          {item.title}
-        </h3>
-
-        {item.rating != null && (
-          <p className="text-xs text-[var(--slate-muted)] mt-1">
-            <span className="text-amber-500">★</span> {item.rating.toFixed(1)}{" "}
-            ({item.reviews?.toLocaleString()})
-          </p>
-        )}
-
-        {item.matched && item.matched.length > 0 && (
-          <p className="text-xs mt-2 text-[var(--slate-muted)]">
-            matched from{" "}
-            {item.matched.map((m, idx) => (
-              <span key={m}>
-                <span
-                  className="px-1.5 py-0.5 rounded font-mono text-[11px]"
-                  style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
-                >
-                  {m}
-                </span>
-                {idx < item.matched!.length - 1 && <span className="mx-1">·</span>}
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
+            {item.source && (
+              <span
+                className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"
+                style={{ backgroundColor: SOURCE_COLOR[item.source] }}
+              >
+                ● {SOURCE_LABEL[item.source]}
               </span>
-            ))}
-          </p>
-        )}
+            )}
+            {item.clusteredMatch && (
+              <span
+                className="text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "var(--teal-link)" }}
+              >
+                ● Clustered match
+              </span>
+            )}
+            {isRecommended && (
+              <span
+                className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "#b58a3a" }}
+              >
+                <Sparkles className="w-3 h-3" aria-hidden /> Recommended
+              </span>
+            )}
+          </div>
 
-        {item.description && (
-          <p className="text-sm text-[var(--slate-muted)] mt-2">{item.description}</p>
-        )}
-      </div>
+          <h3 className="font-bold text-sm sm:text-lg leading-snug break-words" style={{ fontFamily: "var(--font-serif)" }}>
+            {item.title}
+          </h3>
 
-      <div className="flex flex-col items-end justify-between gap-2 text-right">
-        <div>
-          <span
-            className="text-2xl font-bold"
-            style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
-          >
-            ${item.price}
-          </span>
-          <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+          {item.rating != null && (
+            <p className="text-xs text-[var(--slate-muted)] mt-1">
+              <span className="text-amber-500">★</span> {item.rating.toFixed(1)}{" "}
+              ({item.reviews?.toLocaleString()})
+            </p>
+          )}
+
+          {item.matched && item.matched.length > 0 && (
+            <p className="text-xs mt-2 text-[var(--slate-muted)] hidden sm:block">
+              matched from{" "}
+              {item.matched.map((m, idx) => (
+                <span key={m}>
+                  <span
+                    className="px-1.5 py-0.5 rounded font-mono text-[11px]"
+                    style={{ backgroundColor: "#e6f3f0", color: "var(--teal-link)" }}
+                  >
+                    {m}
+                  </span>
+                  {idx < item.matched!.length - 1 && <span className="mx-1">·</span>}
+                </span>
+              ))}
+            </p>
+          )}
+
+          {item.description && (
+            <p className="text-xs sm:text-sm text-[var(--slate-muted)] mt-1.5 sm:mt-2">{item.description}</p>
+          )}
         </div>
-        <>
+
+        <div className="hidden sm:flex flex-col items-end justify-between gap-2 text-right">
+          <div>
+            <span
+              className="text-2xl font-bold"
+              style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+            >
+              ${item.price}
+            </span>
+            <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+          </div>
           <button
             type="button"
             onClick={onToggle}
@@ -1091,8 +1102,33 @@ function ItemCard({
               Book now on {SOURCE_LABEL[item.source].charAt(0) + SOURCE_LABEL[item.source].slice(1).toLowerCase()} →
             </a>
           )}
-        </>
+        </div>
+      </div>
+
+      {/* Mobile-only price + CTA row */}
+      <div className="flex sm:hidden items-center justify-between gap-3 mt-3 pt-3 border-t" style={{ borderColor: "var(--border-cream)" }}>
+        <div>
+          <span
+            className="text-xl font-bold"
+            style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+          >
+            ${item.price}
+          </span>
+          <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+        </div>
+        <button
+          type="button"
+          onClick={onToggle}
+          className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+            added
+              ? "bg-[var(--blue-bright)] text-white border-transparent"
+              : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+          }`}
+        >
+          {added ? "✓ Added" : "Add to trip"}
+        </button>
       </div>
     </div>
   );
 }
+
