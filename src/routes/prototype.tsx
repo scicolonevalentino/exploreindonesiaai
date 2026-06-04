@@ -46,7 +46,7 @@ export const MIN_PASTE_LENGTH_MOBILE = 20;
 /*  Types & data                                                              */
 /* -------------------------------------------------------------------------- */
 
-type Source = "klook" | "viator" | "getyourguide" | "12go" | "booking";
+type Source = "klook" | "viator" | "getyourguide" | "12go" | "booking" | "welcomepickups";
 
 const SOURCE_LABEL: Record<Source, string> = {
   klook: "KLOOK",
@@ -54,6 +54,7 @@ const SOURCE_LABEL: Record<Source, string> = {
   getyourguide: "GETYOURGUIDE",
   "12go": "12GO",
   booking: "BOOKING.COM",
+  welcomepickups: "WELCOME PICKUPS",
 };
 /** Clean, human-readable supplier names for analytics params (platform). */
 const PLATFORM_NAME: Record<Source, string> = {
@@ -62,6 +63,7 @@ const PLATFORM_NAME: Record<Source, string> = {
   getyourguide: "GetYourGuide",
   "12go": "12Go",
   booking: "Booking.com",
+  welcomepickups: "Welcome Pickups",
 };
 const SOURCE_COLOR: Record<Source, string> = {
   klook: "#ef7a23",
@@ -69,6 +71,7 @@ const SOURCE_COLOR: Record<Source, string> = {
   getyourguide: "#e0533a",
   "12go": "#f1b73a",
   booking: "#1b3aa0",
+  welcomepickups: "#16a34a",
 };
 
 type Item = {
@@ -85,6 +88,10 @@ type Item = {
   durationLabel?: string;
   description?: string;
   defaultAdded?: boolean;
+  /** Card thumbnail served from /public/prototype. */
+  image?: string;
+  /** Affiliate booking URL opened by the "Book now" link. */
+  bookingUrl?: string;
 };
 
 type Day = {
@@ -114,7 +121,7 @@ const TRIP: {
         {
           id: "d1-transfer",
           kind: "bookable",
-          source: "klook",
+          source: "welcomepickups",
           title: "Private Airport Transfer, DPS to Ubud",
           rating: 4.8,
           reviews: 2140,
@@ -122,6 +129,8 @@ const TRIP: {
           price: 18,
           priceUnit: "per car",
           durationLabel: "~75 min",
+          image: "/prototype/d1-transfer.jpg",
+          bookingUrl: "https://tpx.lu/qmQIGGxE",
         },
       ],
     },
@@ -142,6 +151,9 @@ const TRIP: {
           priceUnit: "per person",
           durationLabel: "Full day · 9h",
           defaultAdded: true,
+          image: "/prototype/d2-ubud.jpg",
+          bookingUrl:
+            "https://www.viator.com/tours/Ubud/Private-Tour-Ubud-Highlights-with-Sacred-Monkey-Forest-Sanctuary/d5467-17244P14?pid=P00303362&mcid=42383&medium=link&campaign=UbudHighlights",
         },
         {
           id: "d2-campuhan",
@@ -169,10 +181,17 @@ const TRIP: {
           priceUnit: "per person",
           durationLabel: "Early start · 2:00am pickup",
           defaultAdded: true,
+          image: "/prototype/d3-batur.jpg",
+          bookingUrl:
+            "https://www.getyourguide.com/kintamani-l118050/from-ubud-mount-batur-hiking-with-hotspring-t687299/?partner_id=E2JIZZL&utm_medium=online_publisher&cmp=Batur",
         },
         {
           id: "d3-spa",
           kind: "recommended",
+          source: "getyourguide",
+          image: "/prototype/d3-spa.jpg",
+          bookingUrl:
+            "https://www.getyourguide.com/ubud-l32246/ubud-riverside-spa-treatment-near-bali-zoo-t237957/?partner_id=E2JIZZL&utm_medium=online_publisher&cmp=Uluwatu",
           title: "Ubud spa & flower-bath ritual",
           price: 28,
           priceUnit: "per person",
@@ -198,6 +217,9 @@ const TRIP: {
           price: 72,
           priceUnit: "per person",
           durationLabel: "Full day · 12h",
+          image: "/prototype/d4-nusa.jpg",
+          bookingUrl:
+            "https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=NusaPenida",
         },
       ],
     },
@@ -218,6 +240,8 @@ const TRIP: {
           price: 32,
           priceUnit: "per person",
           durationLabel: "Evening · 5h",
+          image: "/prototype/d5-uluwatu.jpg",
+          bookingUrl: "https://gyg.me/dGpE13zw",
         },
       ],
     },
@@ -237,10 +261,16 @@ const TRIP: {
           price: 25,
           priceUnit: "per person",
           durationLabel: "2h session",
+          image: "/prototype/d6-surf.jpg",
+          bookingUrl: "https://affiliate.klook.com/sl/1N8wTFW",
         },
         {
           id: "d6-cafe",
           kind: "recommended",
+          source: "getyourguide",
+          image: "/prototype/d6-cafe.jpg",
+          bookingUrl:
+            "https://www.getyourguide.com/canggu-l85375/canggu-krakakoa-chocolate-workshop-at-the-break-cafe-bar-t1150244/?partner_id=E2JIZZL&utm_medium=online_publisher&cmp=cafecanggu",
           title: "Canggu cafe & smoothie-bowl food tour",
           price: 34,
           priceUnit: "per person",
@@ -265,6 +295,8 @@ const TRIP: {
           price: 16,
           priceUnit: "per car",
           durationLabel: "~60 min",
+          image: "/prototype/d7-transfer.jpg",
+          bookingUrl: "https://12go.asia/en/operator/airport-private-transfers?z=16022946",
         },
       ],
     },
@@ -1040,29 +1072,38 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
     >
       <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
         <div
-          className="aspect-[4/3] rounded-lg flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
+          className="relative aspect-[4/3] rounded-lg overflow-hidden flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
           style={{ backgroundColor: "#e6dfd0" }}
         >
-          <div>
-            <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
-            <div className="leading-tight hidden sm:block">
-              {item.title.slice(0, 32)}
-              {item.title.length > 32 ? "…" : ""}
-            </div>
-            {item.durationLabel && (
-              <div
-                className="mt-2 inline-block text-[10px] px-2 py-0.5 rounded-full text-white"
-                style={{ backgroundColor: "var(--navy-deep)" }}
-              >
-                {item.durationLabel}
+          {item.image ? (
+            <img
+              src={item.image}
+              alt={item.title}
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          ) : (
+            <div>
+              <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
+              <div className="leading-tight hidden sm:block">
+                {item.title.slice(0, 32)}
+                {item.title.length > 32 ? "…" : ""}
               </div>
-            )}
-          </div>
+            </div>
+          )}
+          {item.durationLabel && (
+            <div
+              className="absolute bottom-1.5 left-1.5 z-10 text-[10px] px-2 py-0.5 rounded-full text-white"
+              style={{ backgroundColor: "var(--navy-deep)" }}
+            >
+              {item.durationLabel}
+            </div>
+          )}
         </div>
 
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
-            {item.source && (
+            {item.source && item.kind === "bookable" && (
               <span
                 className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"
                 style={{ backgroundColor: SOURCE_COLOR[item.source] }}
@@ -1149,9 +1190,11 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
           </button>
           {item.source && (
             <a
-              href="#"
+              href={item.bookingUrl ?? "#"}
+              target={item.bookingUrl ? "_blank" : undefined}
+              rel={item.bookingUrl ? "sponsored noopener noreferrer" : undefined}
               onClick={(e) => {
-                e.preventDefault();
+                if (!item.bookingUrl) e.preventDefault();
                 trackEvent("affiliate_click", {
                   platform,
                   item_name: item.title,
@@ -1160,10 +1203,7 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
               }}
               className="text-xs text-[var(--teal-link)] hover:underline"
             >
-              Book now on{" "}
-              {SOURCE_LABEL[item.source].charAt(0) +
-                SOURCE_LABEL[item.source].slice(1).toLowerCase()}{" "}
-              →
+              Book now on {platform} →
             </a>
           )}
         </div>
