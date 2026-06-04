@@ -32,7 +32,7 @@ export function HelloBar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 flex items-center justify-center gap-3">
         <p className="text-center leading-snug font-medium">
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
-          <span className="sm:hidden">Early access opening soon. </span>
+          <span className="sm:hidden">Opening soon. </span>
           <a
             href="#early-access"
             onClick={handleCta}

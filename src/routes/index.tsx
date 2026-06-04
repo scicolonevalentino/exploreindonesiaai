@@ -163,7 +163,7 @@ function Hero() {
           Have you planned your trip to Indonesia?
           <br />
           <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
-            We make it bookable
+            We make it <span className="whitespace-nowrap">ready-to-book</span>
           </span>
         </h1>
 
@@ -710,7 +710,9 @@ function EmbeddedPrototype() {
       id="try-it"
       ref={sectionRef}
       aria-label="Try the prototype"
-      className="w-full flex flex-col"
+      // scroll-margin keeps each stage's top clear of the sticky HelloBar (~46px)
+      // when PrototypeFlow scrolls this section into view on stage changes.
+      className="w-full flex flex-col scroll-mt-14"
       style={{ backgroundColor: "#faf9f5" }}
     >
       <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} embedded />

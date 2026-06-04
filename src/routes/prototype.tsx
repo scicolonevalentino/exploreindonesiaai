@@ -3,8 +3,6 @@ import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import {
   MessageSquare,
   ArrowLeft,
-  Share2,
-  Save,
   Image as ImageIcon,
   Footprints,
   Sparkles,
@@ -96,8 +94,16 @@ type Day = {
   items: Item[];
 };
 
-const TRIP: { title: string; locations: string; days: Day[] } = {
+const TRIP: {
+  id: string;
+  title: string;
+  destination: string;
+  locations: string;
+  days: Day[];
+} = {
+  id: "7-days-in-bali",
   title: "7 Days in Bali",
+  destination: "Bali",
   locations: "Ubud · Batur · Nusa Penida · Uluwatu · Canggu",
   days: [
     {
@@ -520,7 +526,7 @@ export function InputStage({
           className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
           style={{ fontFamily: "var(--font-serif)", color: "var(--gold-warm)" }}
         >
-          We make it bookable
+          We make it <span className="whitespace-nowrap">ready-to-book</span>
         </p>
         <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
           Paste the Indonesia itinerary you already have, from ChatGPT, a blog, or your notes, and
@@ -735,6 +741,27 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
     return { count, total };
   }, [added]);
 
+  // Fire `trip_viewed` once when the assembled itinerary first renders.
+  // TripStage only mounts after the assembling simulation completes, so its
+  // mount IS the "trip data loaded" moment. The ref guard keeps it to a single
+  // push even if React re-runs the effect (e.g. StrictMode double-invoke).
+  const hasFiredView = useRef(false);
+  useEffect(() => {
+    if (hasFiredView.current) return;
+    const bookableItemCount = TRIP.days.reduce(
+      (n, d) => n + d.items.filter((i) => i.kind === "bookable").length,
+      0,
+    );
+    if (bookableItemCount === 0) return;
+    hasFiredView.current = true;
+    trackEvent("trip_viewed", {
+      trip_id: TRIP.id,
+      destination: TRIP.destination,
+      duration_days: TRIP.days.length,
+      bookable_item_count: bookableItemCount,
+    });
+  }, []);
+
   const toggle = (id: string) =>
     setAdded((prev) => {
       const next = new Set(prev);
@@ -751,37 +778,16 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
       className="flex-1 w-full"
       style={{ backgroundColor: "#faf9f5", color: "var(--navy-deep)" }}
     >
-      <header className="mx-auto max-w-7xl px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-2">
-        <span className="font-bold text-base sm:text-xl tracking-tight truncate">
-          exploreindonesia<span style={{ color: "var(--blue-bright)" }}>.ai</span>
-        </span>
-        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
-          <button
-            type="button"
-            onClick={onEdit}
-            className="text-xs sm:text-sm font-medium text-[var(--navy-deep)] hover:underline px-1.5 sm:px-2 py-1"
-          >
-            Edit
-            <span className="hidden sm:inline"> itinerary</span>
-          </button>
-          <button
-            type="button"
-            aria-label="Save and export"
-            className="inline-flex items-center gap-1.5 text-sm font-medium px-2.5 sm:px-3.5 py-2 rounded-full border bg-white hover:bg-[var(--cream)] transition-colors"
-            style={{ borderColor: "var(--border-cream)" }}
-          >
-            <Save className="w-3.5 h-3.5" aria-hidden />
-            <span className="hidden sm:inline">Save &amp; export</span>
-          </button>
-          <button
-            type="button"
-            aria-label="Share"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold px-2.5 sm:px-3.5 py-2 rounded-full text-white bg-[var(--navy-deep)] hover:bg-black transition-colors"
-          >
-            <Share2 className="w-3.5 h-3.5" aria-hidden />
-            <span className="hidden sm:inline">Share</span>
-          </button>
-        </div>
+      <header className="mx-auto max-w-7xl px-4 sm:px-6 py-4 sm:py-5 flex items-center gap-2">
+        <button
+          type="button"
+          onClick={onEdit}
+          className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-medium text-[var(--navy-deep)] hover:underline px-1.5 sm:px-2 py-1"
+        >
+          <ArrowLeft className="w-3.5 h-3.5" aria-hidden />
+          Edit
+          <span className="hidden sm:inline"> itinerary</span>
+        </button>
       </header>
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-32">
