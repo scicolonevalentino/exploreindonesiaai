@@ -1,58 +1,54 @@
-// Client-side analytics consent helper.
+// Cookiebot-driven consent (Usercentrics CMP), manual blocking mode.
 //
-// We default GA4 / GTM / Contentsquare to "denied" via consent mode, and only
-// inject the loaders once the user explicitly accepts cookies. Stored in
-// localStorage under `cookie-consent-v1`.
-
-export const CONSENT_KEY = "cookie-consent-v1";
-export type ConsentState = "accepted" | "rejected" | null;
+// Cookiebot owns the consent banner and persists the visitor's choice — we no
+// longer render a custom banner or store a `cookie-consent-v1` localStorage key.
+// Our only job here is to BRIDGE Cookiebot's consent categories onto Google
+// Consent Mode v2 signals and lazy-load GA4 / GTM / Contentsquare once the
+// visitor grants the relevant category.
+//
+// Flow:
+//   1. __root.tsx head sets Consent Mode default = denied (runs before Cookiebot).
+//   2. __root.tsx head injects the Cookiebot loader (uc.js, data-blockingmode="manual").
+//   3. Cookiebot shows the banner on first visit and fires consent events.
+//   4. initCookiebotConsent() (called once on mount) maps those events ->
+//      gtag('consent','update', …) and loads the trackers.
+//
+// Category mapping (Cookiebot -> Consent Mode v2):
+//   statistics -> analytics_storage   (GA4 + GTM + Contentsquare)
+//   marketing  -> ad_storage, ad_user_data, ad_personalization
 
 const GA4_ID = "G-ZNEKVH2ETY";
 const GTM_ID = "GTM-MNZHRZ79";
 const CS_SRC = "https://t.contentsquare.net/uxa/2fe350eb44674.js";
 
-let loaded = false;
+type CookiebotConsent = {
+  necessary: boolean;
+  preferences: boolean;
+  statistics: boolean;
+  marketing: boolean;
+};
 
-export function getConsent(): ConsentState {
-  if (typeof window === "undefined") return null;
-  try {
-    const v = localStorage.getItem(CONSENT_KEY);
-    return v === "accepted" || v === "rejected" ? v : null;
-  } catch {
-    return null;
+declare global {
+  interface Window {
+    Cookiebot?: { consent: CookiebotConsent };
   }
 }
 
-export function setConsent(value: "accepted" | "rejected") {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(CONSENT_KEY, value);
-  } catch {
-    // ignore
-  }
-  if (value === "accepted") {
-    loadAnalytics();
-    updateGtagConsent("granted");
-  } else {
-    updateGtagConsent("denied");
-  }
-}
+let analyticsLoaded = false;
 
-function updateGtagConsent(value: "granted" | "denied") {
-  if (typeof window === "undefined") return;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const w = window as any;
+// `dataLayer`'s element type is declared in analytics-events.ts; access it
+// untyped here to push gtag command tuples and GTM init events without clashing.
+function dataLayer(): unknown[] {
+  const w = window as unknown as { dataLayer?: unknown[] };
   w.dataLayer = w.dataLayer || [];
-  function gtag(..._args: unknown[]) {
-    // eslint-disable-next-line prefer-rest-params
-    w.dataLayer.push(arguments);
-  }
-  gtag("consent", "update", {
-    ad_storage: value,
-    analytics_storage: value,
-    ad_user_data: value,
-    ad_personalization: value,
-  });
+  return w.dataLayer;
+}
+
+function gtag(..._args: unknown[]) {
+  // Google Consent Mode requires the raw `arguments` object on the dataLayer,
+  // not a plain array — gtag.js reads it positionally.
+  // eslint-disable-next-line prefer-rest-params
+  dataLayer().push(arguments);
 }
 
 function injectScript(src: string, attrs: Record<string, string | boolean> = {}) {
@@ -68,18 +64,11 @@ function injectScript(src: string, attrs: Record<string, string | boolean> = {})
 }
 
 export function loadAnalytics() {
-  if (typeof window === "undefined" || loaded) return;
-  loaded = true;
+  if (typeof window === "undefined" || analyticsLoaded) return;
+  analyticsLoaded = true;
 
   // GA4
   injectScript(`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const w = window as any;
-  w.dataLayer = w.dataLayer || [];
-  function gtag(..._args: unknown[]) {
-    // eslint-disable-next-line prefer-rest-params
-    w.dataLayer.push(arguments);
-  }
   gtag("js", new Date());
   gtag("config", GA4_ID);
 
@@ -90,31 +79,43 @@ export function loadAnalytics() {
     s.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
     s.setAttribute("data-gtm", GTM_ID);
     document.head.appendChild(s);
-    w.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    dataLayer().push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
   }
 
   // Contentsquare
   injectScript(CS_SRC);
 }
 
-// Set defaults — call once at app boot before anything else.
-export function initConsentDefaults() {
-  if (typeof window === "undefined") return;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const w = window as any;
-  w.dataLayer = w.dataLayer || [];
-  function gtag(..._args: unknown[]) {
-    // eslint-disable-next-line prefer-rest-params
-    w.dataLayer.push(arguments);
-  }
-  gtag("consent", "default", {
-    ad_storage: "denied",
-    analytics_storage: "denied",
-    ad_user_data: "denied",
-    ad_personalization: "denied",
-    wait_for_update: 500,
+function applyConsent(consent: CookiebotConsent) {
+  const statistics = consent.statistics ? "granted" : "denied";
+  const marketing = consent.marketing ? "granted" : "denied";
+
+  gtag("consent", "update", {
+    analytics_storage: statistics,
+    ad_storage: marketing,
+    ad_user_data: marketing,
+    ad_personalization: marketing,
   });
 
-  const existing = getConsent();
-  if (existing === "accepted") loadAnalytics();
+  // GTM/GA4/Contentsquare are statistics-tier trackers. GTM itself further
+  // honours Consent Mode for any downstream marketing tags.
+  if (consent.statistics) loadAnalytics();
+}
+
+// Bridge Cookiebot -> Consent Mode. Call once on app mount (client only).
+export function initCookiebotConsent() {
+  if (typeof window === "undefined") return;
+
+  const apply = () => {
+    if (window.Cookiebot?.consent) applyConsent(window.Cookiebot.consent);
+  };
+
+  // Returning visitors: Cookiebot may have already restored a stored response
+  // (and fired its event) before this listener attached — apply immediately.
+  apply();
+
+  // First visit + subsequent changes via the banner / "renew consent" link.
+  window.addEventListener("CookiebotOnConsentReady", apply);
+  window.addEventListener("CookiebotOnAccept", apply);
+  window.addEventListener("CookiebotOnDecline", apply);
 }

@@ -14,12 +14,17 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HelloBar } from "@/components/HelloBar";
-import { CookieBanner } from "@/components/CookieBanner";
-import { initConsentDefaults } from "@/lib/analytics-consent";
+import { initCookiebotConsent } from "@/lib/analytics-consent";
 import { sanityClient } from "@/lib/sanity";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 
 const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;
+
+// Cookiebot Domain Group ID — public (it's rendered in the client-side script
+// tag for every visitor), so it lives in source. Override per-environment with
+// VITE_COOKIEBOT_CBID if ever needed.
+const COOKIEBOT_CBID =
+  import.meta.env.VITE_COOKIEBOT_CBID || "85727754-80fa-46b9-93a6-faad898e0465";
 
 const FALLBACK_SETTINGS: Required<Pick<SiteSettings, "siteTitle" | "defaultMetaDescription">> = {
   siteTitle: "Exploreindonesia.ai",
@@ -129,13 +134,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { rel: "preconnect", href: "https://www.googletagmanager.com" },
       ],
       scripts: [
-        // Google Consent Mode defaults — denied until the cookie banner is
-        // accepted. Analytics loaders are injected by analytics-consent.ts
-        // after the user opts in.
+        // Google Consent Mode defaults — denied until Cookiebot reports the
+        // visitor's choice. MUST run before the Cookiebot loader and any tag.
+        // analytics-consent.ts pushes the matching consent 'update' once
+        // Cookiebot fires its consent events.
         {
           children:
             "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});",
         },
+        // Cookiebot CMP (Usercentrics) — manual blocking mode. Renders the
+        // consent banner on first visit and stores the choice. Injected only
+        // when a real Domain Group ID (VITE_COOKIEBOT_CBID) is configured, so a
+        // missing/placeholder value doesn't fire a broken request in dev.
+        ...(COOKIEBOT_CBID
+          ? [
+              {
+                children: `(function(){var s=document.createElement('script');s.id='Cookiebot';s.src='https://consent.cookiebot.com/uc.js';s.setAttribute('data-cbid','${COOKIEBOT_CBID}');s.setAttribute('data-blockingmode','manual');s.async=true;document.head.appendChild(s);})();`,
+              },
+            ]
+          : []),
         // Travelpayouts Drive loader (affiliate, not user tracking)
         {
           children:
@@ -207,7 +224,7 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   useEffect(() => {
-    initConsentDefaults();
+    initCookiebotConsent();
   }, []);
 
   return (
@@ -216,7 +233,6 @@ function RootComponent() {
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
       <SiteFooter />
-      <CookieBanner />
       <Toaster />
     </QueryClientProvider>
   );

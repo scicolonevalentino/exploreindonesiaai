@@ -108,9 +108,12 @@ of the build.
   - `.server.ts` suffix keeps a file out of the client bundle.
 - **UI**: prefer existing shadcn primitives in `src/components/ui/`. Icons from
   `lucide-react`. Tailwind v4 with CSS variables; base color slate.
-- **Privacy/analytics**: GTM and analytics load only after consent (Google
-  Consent Mode defaults to denied in `__root.tsx`; opt-in via
-  `analytics-consent.ts` + `CookieBanner`). Don't fire trackers before consent.
+- **Privacy/analytics**: consent is managed by **Cookiebot** (Usercentrics CMP,
+  manual blocking mode). Google Consent Mode defaults to denied in `__root.tsx`,
+  the Cookiebot loader is injected there (gated on `VITE_COOKIEBOT_CBID`), and
+  `analytics-consent.ts` bridges Cookiebot's consent events onto Consent Mode v2
+  and lazy-loads GA4/GTM/Contentsquare when `statistics` is granted. There is no
+  custom banner component anymore. Don't fire trackers before consent.
 - **SEO**: page metadata, OG/Twitter tags, and JSON-LD live in route `head`
   functions. Note `__root.tsx` currently defines several meta tags twice — the
   later static values win over the CMS-driven ones; consolidate rather than add
