@@ -112,8 +112,8 @@ function EmailCapture() {
         )}
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
           Almost ready.
-          {/* Break after "Almost ready." on mobile only; flows inline on larger screens. */}
-          <br className="sm:hidden" /> Be the first to book your AI itinerary to Indonesia.
+          {/* Always break after "Almost ready." so it sits on its own line. */}
+          <br /> Be the first to book your AI itinerary to Indonesia.
         </h2>
 
         <form
