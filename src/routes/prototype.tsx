@@ -1209,31 +1209,48 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
         </div>
       </div>
 
-      {/* Mobile-only price + CTA row */}
-      <div
-        className="flex sm:hidden items-center justify-between gap-3 mt-3 pt-3 border-t"
-        style={{ borderColor: "var(--border-cream)" }}
-      >
-        <div>
-          <span
-            className="text-xl font-bold"
-            style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+      {/* Mobile-only price + CTA */}
+      <div className="sm:hidden mt-3 pt-3 border-t" style={{ borderColor: "var(--border-cream)" }}>
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <span
+              className="text-xl font-bold"
+              style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+            >
+              ${item.price}
+            </span>
+            <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+          </div>
+          <button
+            type="button"
+            onClick={handleToggle}
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+              added
+                ? "bg-[var(--blue-bright)] text-white border-transparent"
+                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+            }`}
           >
-            ${item.price}
-          </span>
-          <span className="text-xs text-[var(--slate-muted)] ml-1">{item.priceUnit}</span>
+            {added ? "✓ Added" : "Add to trip"}
+          </button>
         </div>
-        <button
-          type="button"
-          onClick={handleToggle}
-          className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
-            added
-              ? "bg-[var(--blue-bright)] text-white border-transparent"
-              : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
-          }`}
-        >
-          {added ? "✓ Added" : "Add to trip"}
-        </button>
+        {item.source && (
+          <a
+            href={item.bookingUrl ?? "#"}
+            target={item.bookingUrl ? "_blank" : undefined}
+            rel={item.bookingUrl ? "sponsored noopener noreferrer" : undefined}
+            onClick={(e) => {
+              if (!item.bookingUrl) e.preventDefault();
+              trackEvent("affiliate_click", {
+                platform,
+                item_name: item.title,
+                price: item.price,
+              });
+            }}
+            className="block mt-2 text-right text-xs text-[var(--teal-link)] hover:underline"
+          >
+            Book now on {platform} →
+          </a>
+        )}
       </div>
     </div>
   );
