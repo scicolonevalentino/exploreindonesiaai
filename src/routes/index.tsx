@@ -217,9 +217,9 @@ function HowItWorks() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
           {steps.map((s) => (
-            <div key={s.n} className="text-center md:text-left">
+            <div key={s.n} className="text-center">
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold text-lg mb-6 mx-auto md:mx-0"
+                className="w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold text-lg mb-6 mx-auto"
                 style={{ backgroundColor: "var(--blue-bright)" }}
               >
                 {s.n}
