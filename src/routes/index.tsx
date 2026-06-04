@@ -80,9 +80,16 @@ export const Route = createFileRoute("/")({
 
 function Logo() {
   return (
-    <div className="font-sans text-base sm:text-lg font-bold tracking-tight">
-      <span className="text-white">exploreindonesia</span>
-      <span style={{ color: "var(--blue-ice)" }}>.ai</span>
+    <div className="flex items-center gap-2 font-sans text-base sm:text-lg font-bold tracking-tight">
+      <img
+        src="/komo-mascot.png"
+        alt="Komo, the Explore Indonesia mascot"
+        className="h-9 w-9 sm:h-10 sm:w-10 object-contain -translate-y-1"
+      />
+      <span>
+        <span className="text-white">exploreindonesia</span>
+        <span style={{ color: "var(--blue-ice)" }}>.ai</span>
+      </span>
     </div>
   );
 }
