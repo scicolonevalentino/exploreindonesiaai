@@ -113,8 +113,10 @@ function EmailCapture() {
         <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
           Almost ready.
           {/* Always break after "Almost ready." so it sits on its own line. */}
-          <br /> Be the first to book your{" "}
-          <span className="whitespace-nowrap">AI itinerary</span> to Indonesia.
+          <br /> Be the first to book your <span className="whitespace-nowrap">
+            AI itinerary
+          </span>{" "}
+          to Indonesia.
         </h2>
 
         <form
