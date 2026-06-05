@@ -380,19 +380,6 @@ function trackCardClick(article: ArticleListItem, position: number) {
   sendGAEvent("inspiration_card_click", payload);
 }
 
-// Module-level set so impressions are only fired once per slug per session,
-// even though cards are duplicated in the marquee loop.
-const impressionFired = new Set<string>();
-
-function trackCardImpression(article: ArticleListItem, position: number) {
-  const slug = article.slug?.current;
-  if (!slug || impressionFired.has(slug)) return;
-  impressionFired.add(slug);
-  const payload = cardPayload(article, position);
-  sendGAEvent("view_item", payload);
-  sendGAEvent("inspiration_card_impression", payload);
-}
-
 function InspirationCard({
   article,
   position,
@@ -419,22 +406,21 @@ function InspirationCard({
     : labelFor(DESTINATIONS, article.destinationPrimary);
   const title = shortTitle(article.title);
 
-  // Impression tracking + route prefetch when the card scrolls into view.
+  // Route prefetch when the card scrolls into view.
   useEffect(() => {
     const el = linkRef.current;
     if (!el || !slug) return;
-    if (typeof IntersectionObserver === "undefined") {
-      // Fallback: count as visible immediately + prefetch.
-      trackCardImpression(article, position);
+    const prefetch = () =>
       router.preloadRoute({ to: "/trips/$slug", params: { slug } }).catch(() => {});
+    if (typeof IntersectionObserver === "undefined") {
+      prefetch();
       return;
     }
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-            trackCardImpression(article, position);
-            router.preloadRoute({ to: "/trips/$slug", params: { slug } }).catch(() => {});
+            prefetch();
             observer.disconnect();
             break;
           }
@@ -444,7 +430,7 @@ function InspirationCard({
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, [article, position, slug, router]);
+  }, [slug, router]);
 
   // Arrow-key navigation between sibling cards in the same marquee row.
   const handleKeyDown = useCallback((e: ReactKeyboardEvent<HTMLAnchorElement>) => {
