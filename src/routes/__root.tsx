@@ -16,7 +16,34 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { HelloBar } from "@/components/HelloBar";
 import { initCookiebotConsent } from "@/lib/analytics-consent";
 import { sanityClient } from "@/lib/sanity";
+import { JsonLd } from "@/components/JsonLd";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
+
+// Site-wide JSON-LD. Rendered in the component tree (not head()) so it appears
+// exactly once in the hydrated DOM. See src/components/JsonLd.tsx.
+const ORGANIZATION_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "ExploreIndonesia.ai",
+  url: "https://exploreindonesia.ai",
+  logo: "https://exploreindonesia.ai/favicon.ico",
+  description:
+    "AI-powered Indonesia trip planner with bookable itineraries for Bali, Java, Komodo, Raja Ampat and beyond.",
+};
+const WEBSITE_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "ExploreIndonesia.ai",
+  url: "https://exploreindonesia.ai",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://exploreindonesia.ai/trips?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
 
 const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;
 
@@ -156,37 +183,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         // Travelpayouts Drive affiliate loader is NOT injected here — it sets
         // persistent cookies, so it's loaded by analytics-consent.ts only after
         // the visitor grants marketing consent (see loadAffiliate()).
-        // Organization JSON-LD
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "ExploreIndonesia.ai",
-            url: "https://exploreindonesia.ai",
-            logo: "https://exploreindonesia.ai/favicon.ico",
-            description:
-              "AI-powered Indonesia trip planner with bookable itineraries for Bali, Java, Komodo, Raja Ampat and beyond.",
-          }),
-        },
-        // WebSite JSON-LD with SearchAction (enables Google sitelinks search box)
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "ExploreIndonesia.ai",
-            url: "https://exploreindonesia.ai",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: {
-                "@type": "EntryPoint",
-                urlTemplate: "https://exploreindonesia.ai/trips?q={search_term_string}",
-              },
-              "query-input": "required name=search_term_string",
-            },
-          }),
-        },
+        // (Organization + WebSite JSON-LD moved to the `meta` array above as
+        // script:ld+json so the router dedupes them and they aren't re-injected
+        // on hydration.)
       ],
     };
   },
@@ -227,6 +226,8 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <JsonLd data={ORGANIZATION_JSONLD} />
+      <JsonLd data={WEBSITE_JSONLD} />
       <HelloBar />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />

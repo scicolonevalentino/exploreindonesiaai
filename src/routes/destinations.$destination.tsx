@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { JsonLd } from "@/components/JsonLd";
 import { DESTINATIONS, TRIP_LENGTHS, labelFor, type ArticleListItem } from "@/lib/sanity-queries";
 import {
   DESTINATION_CONTENT,
@@ -53,50 +54,6 @@ export const Route = createFileRoute("/destinations/$destination")({
         { property: "og:url", content: url },
       ],
       links: [{ rel: "canonical", href: url }],
-      scripts: [
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            name: dest.metaTitle || `${dest.name} itineraries`,
-            ...(dest.metaDescription ? { description: dest.metaDescription } : {}),
-            url,
-            isPartOf: {
-              "@type": "WebSite",
-              name: "ExploreIndonesia.ai",
-              url: "https://exploreindonesia.ai",
-            },
-          }),
-        },
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://exploreindonesia.ai",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Destinations",
-                item: "https://exploreindonesia.ai/destinations",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: dest.name,
-                item: url,
-              },
-            ],
-          }),
-        },
-      ],
     };
   },
   component: DestinationPage,
@@ -129,6 +86,7 @@ function DestinationInner() {
   const dest = Route.useLoaderData();
   const { data: articles } = useSuspenseQuery(articlesByDestQO(dest.value));
 
+  const destUrl = `https://exploreindonesia.ai/destinations/${dest.slug}`;
   const itemListLD = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -140,13 +98,38 @@ function DestinationInner() {
       name: a.title,
     })),
   };
+  const collectionLD = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: dest.metaTitle || `${dest.name} itineraries`,
+    ...(dest.metaDescription ? { description: dest.metaDescription } : {}),
+    url: destUrl,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "ExploreIndonesia.ai",
+      url: "https://exploreindonesia.ai",
+    },
+  };
+  const breadcrumbLD = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://exploreindonesia.ai" },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Destinations",
+        item: "https://exploreindonesia.ai/destinations",
+      },
+      { "@type": "ListItem", position: 3, name: dest.name, item: destUrl },
+    ],
+  };
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--cream)" }}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLD) }}
-      />
+      <JsonLd data={collectionLD} />
+      <JsonLd data={breadcrumbLD} />
+      <JsonLd data={itemListLD} />
       <header
         className="w-full px-6 py-12 sm:py-16"
         style={{

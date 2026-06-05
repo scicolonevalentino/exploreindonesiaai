@@ -3,6 +3,7 @@ import { useSuspenseQuery, useQuery, queryOptions } from "@tanstack/react-query"
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { JsonLd } from "@/components/JsonLd";
 
 import {
   ARTICLE_BY_SLUG_QUERY,
@@ -85,6 +86,115 @@ function calcReadingTime(body: Article["body"]): number {
   return Math.max(1, Math.round(words / 200));
 }
 
+// Build the trip's JSON-LD blocks. Rendered in the component tree via <JsonLd>
+// (not route head()) so each appears exactly once in the hydrated DOM.
+function buildTripJsonLd(a: Article, slug: string): Array<Record<string, unknown>> {
+  const img = a.heroImage?.asset
+    ? urlFor(a.heroImage).width(1200).height(630).fit("crop").auto("format").url()
+    : undefined;
+  const url = `https://exploreindonesia.ai/trips/${slug}`;
+  const description = a.metaDescription;
+  const readingMinutes = calcReadingTime(a.body);
+  const datePublished = a.articleCreatedDate || a._createdAt;
+  const dateModified = a._updatedAt || datePublished;
+  // Named human author for E-E-A-T when set in the CMS; otherwise the Organization.
+  const authorLd = a.author?.name
+    ? a.author.schemaType === "Organization"
+      ? {
+          "@type": "Organization",
+          name: a.author.name,
+          ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
+        }
+      : {
+          "@type": "Person",
+          name: a.author.name,
+          ...(a.author.role ? { jobTitle: a.author.role } : {}),
+          ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
+        }
+    : { "@type": "Organization", name: "ExploreIndonesia.ai" };
+  const dayHeadings = extractDayHeadings(a.body);
+  const faqItems = (a.faq ?? []).filter((f) => f.question && f.answer);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: a.title,
+      description,
+      ...(img ? { image: [img] } : {}),
+      url,
+      mainEntityOfPage: url,
+      inLanguage: "en",
+      timeRequired: `PT${readingMinutes}M`,
+      wordCount: readingMinutes * 200,
+      ...(datePublished ? { datePublished } : {}),
+      ...(dateModified ? { dateModified } : {}),
+      author: authorLd,
+      publisher: {
+        "@type": "Organization",
+        name: "ExploreIndonesia.ai",
+        url: "https://exploreindonesia.ai",
+        logo: { "@type": "ImageObject", url: "https://exploreindonesia.ai/favicon.ico" },
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://exploreindonesia.ai" },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Trips",
+          item: "https://exploreindonesia.ai/trips",
+        },
+        { "@type": "ListItem", position: 3, name: a.title, item: url },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      name: a.title,
+      ...(description ? { description } : {}),
+      ...(img ? { image: [img] } : {}),
+      url,
+      ...(typeof a.tripLengthDays === "number" && a.tripLengthDays > 0
+        ? { duration: `P${a.tripLengthDays}D` }
+        : {}),
+      ...(dayHeadings.length
+        ? {
+            itinerary: {
+              "@type": "ItemList",
+              numberOfItems: dayHeadings.length,
+              itemListElement: dayHeadings.map((name, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name,
+              })),
+            },
+          }
+        : {}),
+      provider: {
+        "@type": "Organization",
+        name: "ExploreIndonesia.ai",
+        url: "https://exploreindonesia.ai",
+      },
+    },
+    ...(faqItems.length
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqItems.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          },
+        ]
+      : []),
+  ];
+}
+
 export const Route = createFileRoute("/trips/$slug")({
   loader: async ({ context, params }) => {
     const a = await context.queryClient.ensureQueryData(articleQO(params.slug));
@@ -104,27 +214,6 @@ export const Route = createFileRoute("/trips/$slug")({
     const url = `https://exploreindonesia.ai/trips/${params.slug}`;
     const title = a.metaTitle || a.title;
     const description = a.metaDescription;
-    const readingMinutes = calcReadingTime(a.body);
-    const datePublished = a.articleCreatedDate || a._createdAt;
-    const dateModified = a._updatedAt || datePublished;
-    // Use a named human author for E-E-A-T when one is set in the CMS; otherwise
-    // fall back to the Organization so nothing breaks before authors are added.
-    const authorLd = a.author?.name
-      ? a.author.schemaType === "Organization"
-        ? {
-            "@type": "Organization",
-            name: a.author.name,
-            ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
-          }
-        : {
-            "@type": "Person",
-            name: a.author.name,
-            ...(a.author.role ? { jobTitle: a.author.role } : {}),
-            ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
-          }
-      : { "@type": "Organization", name: "ExploreIndonesia.ai" };
-    const dayHeadings = extractDayHeadings(a.body);
-    const faqItems = (a.faq ?? []).filter((f) => f.question && f.answer);
     return {
       meta: [
         { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
@@ -146,113 +235,6 @@ export const Route = createFileRoute("/trips/$slug")({
         ...(img ? [{ name: "twitter:image", content: img }] : []),
       ],
       links: [{ rel: "canonical", href: url }],
-      scripts: [
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: a.title,
-            description: description,
-            ...(img ? { image: [img] } : {}),
-            url,
-            mainEntityOfPage: url,
-            inLanguage: "en",
-            timeRequired: `PT${readingMinutes}M`,
-            wordCount: readingMinutes * 200,
-            ...(datePublished ? { datePublished } : {}),
-            ...(dateModified ? { dateModified } : {}),
-            author: authorLd,
-            publisher: {
-              "@type": "Organization",
-              name: "ExploreIndonesia.ai",
-              url: "https://exploreindonesia.ai",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://exploreindonesia.ai/favicon.ico",
-              },
-            },
-          }),
-        },
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://exploreindonesia.ai",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Trips",
-                item: "https://exploreindonesia.ai/trips",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: a.title,
-                item: url,
-              },
-            ],
-          }),
-        },
-        // TouristTrip — itinerary-native schema. The day-by-day H2s become an
-        // ItemList so engines can read the structure of the trip.
-        {
-          type: "application/ld+json",
-          children: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            name: a.title,
-            ...(description ? { description } : {}),
-            ...(img ? { image: [img] } : {}),
-            url,
-            ...(typeof a.tripLengthDays === "number" && a.tripLengthDays > 0
-              ? { duration: `P${a.tripLengthDays}D` }
-              : {}),
-            ...(dayHeadings.length
-              ? {
-                  itinerary: {
-                    "@type": "ItemList",
-                    numberOfItems: dayHeadings.length,
-                    itemListElement: dayHeadings.map((name, i) => ({
-                      "@type": "ListItem",
-                      position: i + 1,
-                      name,
-                    })),
-                  },
-                }
-              : {}),
-            provider: {
-              "@type": "Organization",
-              name: "ExploreIndonesia.ai",
-              url: "https://exploreindonesia.ai",
-            },
-          }),
-        },
-        // FAQPage — emitted only when the article has FAQ entries in the CMS.
-        ...(faqItems.length
-          ? [
-              {
-                type: "application/ld+json" as const,
-                children: JSON.stringify({
-                  "@context": "https://schema.org",
-                  "@type": "FAQPage",
-                  mainEntity: faqItems.map((f) => ({
-                    "@type": "Question",
-                    name: f.question,
-                    acceptedAnswer: { "@type": "Answer", text: f.answer },
-                  })),
-                }),
-              },
-            ]
-          : []),
-      ],
     };
   },
 
@@ -378,6 +360,7 @@ function ArticleInner() {
     relatedQO(slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
   );
   const readingMinutes = useMemo(() => calcReadingTime(a.body), [a.body]);
+  const jsonLd = useMemo(() => buildTripJsonLd(a, slug), [a, slug]);
 
   const linkMap = useMemo(() => {
     const m = new Map<string, AffiliateLink>();
@@ -589,6 +572,9 @@ function ArticleInner() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#fff" }}>
+      {jsonLd.map((o, i) => (
+        <JsonLd key={i} data={o} />
+      ))}
       <section
         className="relative w-full overflow-hidden"
         style={{
