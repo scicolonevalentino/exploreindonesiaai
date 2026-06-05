@@ -15,6 +15,7 @@ import {
   type Article,
   type ArticleListItem,
   type AffiliateLink,
+  type FaqItem,
 } from "@/lib/sanity-queries";
 
 const articleQO = (slug: string) =>
@@ -46,6 +47,29 @@ const relatedQO = (
     staleTime: 5 * 60_000,
   });
 
+// Pull H2 headings out of the Portable Text body (shared by reading-time,
+// the on-page TOC, and the TouristTrip itinerary schema).
+function extractH2Headings(body: Article["body"]): string[] {
+  if (!body) return [];
+  const out: string[] = [];
+  for (const block of body) {
+    const b = block as { _type?: string; style?: string; children?: Array<{ text?: string }> };
+    if (b._type === "block" && b.style === "h2" && Array.isArray(b.children)) {
+      const text = b.children
+        .map((c) => c.text ?? "")
+        .join("")
+        .trim();
+      if (text) out.push(text);
+    }
+  }
+  return out;
+}
+
+// Of those H2s, the ones that describe an itinerary day ("Day 1: …", "Days 3–13: …").
+function extractDayHeadings(body: Article["body"]): string[] {
+  return extractH2Headings(body).filter((t) => /^days?\s*\d/i.test(t));
+}
+
 // Estimate reading time in minutes from Portable Text body (~200 wpm).
 function calcReadingTime(body: Article["body"]): number {
   if (!body) return 0;
@@ -64,8 +88,9 @@ function calcReadingTime(body: Article["body"]): number {
 export const Route = createFileRoute("/trips/$slug")({
   loader: async ({ context, params }) => {
     const a = await context.queryClient.ensureQueryData(articleQO(params.slug));
-    // Fire-and-forget prefetch of related articles; don't block render
-    void context.queryClient.prefetchQuery(
+    // Resolve related articles in the loader so the internal links render in the
+    // server HTML (crawlers and AI engines that don't execute JS can see them).
+    await context.queryClient.ensureQueryData(
       relatedQO(params.slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
     );
     return a;
@@ -80,6 +105,26 @@ export const Route = createFileRoute("/trips/$slug")({
     const title = a.metaTitle || a.title;
     const description = a.metaDescription;
     const readingMinutes = calcReadingTime(a.body);
+    const datePublished = a.articleCreatedDate || a._createdAt;
+    const dateModified = a._updatedAt || datePublished;
+    // Use a named human author for E-E-A-T when one is set in the CMS; otherwise
+    // fall back to the Organization so nothing breaks before authors are added.
+    const authorLd = a.author?.name
+      ? a.author.schemaType === "Organization"
+        ? {
+            "@type": "Organization",
+            name: a.author.name,
+            ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
+          }
+        : {
+            "@type": "Person",
+            name: a.author.name,
+            ...(a.author.role ? { jobTitle: a.author.role } : {}),
+            ...(a.author.sameAs?.length ? { sameAs: a.author.sameAs } : {}),
+          }
+      : { "@type": "Organization", name: "ExploreIndonesia.ai" };
+    const dayHeadings = extractDayHeadings(a.body);
+    const faqItems = (a.faq ?? []).filter((f) => f.question && f.answer);
     return {
       meta: [
         { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
@@ -115,11 +160,17 @@ export const Route = createFileRoute("/trips/$slug")({
             inLanguage: "en",
             timeRequired: `PT${readingMinutes}M`,
             wordCount: readingMinutes * 200,
-            author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+            ...(datePublished ? { datePublished } : {}),
+            ...(dateModified ? { dateModified } : {}),
+            author: authorLd,
             publisher: {
               "@type": "Organization",
               name: "ExploreIndonesia.ai",
               url: "https://exploreindonesia.ai",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://exploreindonesia.ai/favicon.ico",
+              },
             },
           }),
         },
@@ -150,6 +201,57 @@ export const Route = createFileRoute("/trips/$slug")({
             ],
           }),
         },
+        // TouristTrip — itinerary-native schema. The day-by-day H2s become an
+        // ItemList so engines can read the structure of the trip.
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            name: a.title,
+            ...(description ? { description } : {}),
+            ...(img ? { image: [img] } : {}),
+            url,
+            ...(typeof a.tripLengthDays === "number" && a.tripLengthDays > 0
+              ? { duration: `P${a.tripLengthDays}D` }
+              : {}),
+            ...(dayHeadings.length
+              ? {
+                  itinerary: {
+                    "@type": "ItemList",
+                    numberOfItems: dayHeadings.length,
+                    itemListElement: dayHeadings.map((name, i) => ({
+                      "@type": "ListItem",
+                      position: i + 1,
+                      name,
+                    })),
+                  },
+                }
+              : {}),
+            provider: {
+              "@type": "Organization",
+              name: "ExploreIndonesia.ai",
+              url: "https://exploreindonesia.ai",
+            },
+          }),
+        },
+        // FAQPage — emitted only when the article has FAQ entries in the CMS.
+        ...(faqItems.length
+          ? [
+              {
+                type: "application/ld+json" as const,
+                children: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: faqItems.map((f) => ({
+                    "@type": "Question",
+                    name: f.question,
+                    acceptedAnswer: { "@type": "Answer", text: f.answer },
+                  })),
+                }),
+              },
+            ]
+          : []),
       ],
     };
   },
@@ -238,6 +340,13 @@ function ArticlePage() {
       <ArticleInner />
     </Suspense>
   );
+}
+
+function formatDate(iso?: string): string | null {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return d.toLocaleDateString("en-GB", { year: "numeric", month: "long" });
 }
 
 function slugifyHeading(text: string): string {
@@ -473,6 +582,7 @@ function ArticleInner() {
     ["Best time to visit", pi?.bestTimeToVisit],
     ["Getting there", pi?.gettingThere],
     ["Getting around", pi?.gettingAround],
+    ["Visa & entry", pi?.visa],
     ["Currency & money tips", pi?.currency],
     ["SIM card / connectivity", pi?.simCard],
   ];
@@ -549,6 +659,26 @@ function ArticleInner() {
 
       <div className="mx-auto max-w-7xl px-6 py-12 sm:py-16 lg:grid lg:grid-cols-12 lg:gap-12">
         <article className="lg:col-span-8 lg:col-start-2 max-w-3xl mx-auto lg:mx-0 w-full">
+          {(() => {
+            const updated = formatDate(a._updatedAt || a.articleCreatedDate || a._createdAt);
+            if (!a.author?.name && !updated) return null;
+            return (
+              <p className="text-sm mb-8 -mt-2" style={{ color: "var(--slate-muted, #64748b)" }}>
+                {a.author?.name && (
+                  <span>
+                    By{" "}
+                    <span style={{ color: "var(--navy-mid)", fontWeight: 600 }}>
+                      {a.author.name}
+                    </span>
+                    {a.author.role ? `, ${a.author.role}` : ""}
+                  </span>
+                )}
+                {a.author?.name && updated ? " · " : ""}
+                {updated && <span>Last updated {updated}</span>}
+              </p>
+            );
+          })()}
+
           {a.intro && (
             <p
               className="font-serif text-lg sm:text-xl leading-relaxed mb-10"
@@ -598,6 +728,8 @@ function ArticleInner() {
               </dl>
             </section>
           )}
+
+          <FaqSection items={a.faq ?? []} />
 
           <RelatedItineraries items={related} />
 
@@ -814,6 +946,55 @@ function ShareButtons({ title, slug }: { title: string; slug: string }) {
           </svg>
           {copied ? "Copied!" : "Copy link"}
         </button>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection({ items }: { items: FaqItem[] }) {
+  const faqs = items.filter((f) => f.question && f.answer);
+  if (faqs.length === 0) return null;
+  return (
+    <section
+      id="faq"
+      className="mt-16 pt-10 border-t scroll-mt-24"
+      style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+      aria-labelledby="faq-heading"
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+        style={{ color: "var(--teal-link)" }}
+      >
+        Good to know
+      </p>
+      <h2
+        id="faq-heading"
+        className="font-serif text-2xl sm:text-3xl font-semibold mb-6"
+        style={{ color: "var(--navy-deep)" }}
+      >
+        Frequently asked questions
+      </h2>
+      <div className="divide-y" style={{ borderColor: "var(--border-cream, #e6dfd2)" }}>
+        {faqs.map((f, i) => (
+          <details key={i} className="group py-4">
+            <summary
+              className="flex cursor-pointer items-center justify-between gap-4 font-serif text-lg font-semibold list-none"
+              style={{ color: "var(--navy-deep)" }}
+            >
+              {f.question}
+              <span
+                className="shrink-0 transition-transform group-open:rotate-45"
+                style={{ color: "var(--teal-link)" }}
+                aria-hidden="true"
+              >
+                +
+              </span>
+            </summary>
+            <p className="mt-3 leading-relaxed" style={{ color: "var(--text-dark)" }}>
+              {f.answer}
+            </p>
+          </details>
+        ))}
       </div>
     </section>
   );

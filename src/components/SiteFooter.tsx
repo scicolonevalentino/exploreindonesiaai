@@ -110,14 +110,17 @@ function EmailCapture() {
             {settings.tagline}
           </p>
         )}
-        <h2 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
+        {/* Styled like a heading but rendered as a <p>: this is a site-wide
+            footer CTA that appears under every article, so keeping it out of the
+            page's heading outline avoids polluting each article's H2 structure. */}
+        <p className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
           Almost ready.
           {/* Always break after "Almost ready." so it sits on its own line. */}
           <br /> Be the first to book your <span className="whitespace-nowrap">
             AI itinerary
           </span>{" "}
           to Indonesia.
-        </h2>
+        </p>
 
         <form
           onSubmit={onSubmit}

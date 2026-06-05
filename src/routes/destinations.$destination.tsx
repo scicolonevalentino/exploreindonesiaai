@@ -58,6 +58,21 @@ export const Route = createFileRoute("/destinations/$destination")({
           type: "application/ld+json",
           children: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: dest.metaTitle || `${dest.name} itineraries`,
+            ...(dest.metaDescription ? { description: dest.metaDescription } : {}),
+            url,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "ExploreIndonesia.ai",
+              url: "https://exploreindonesia.ai",
+            },
+          }),
+        },
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
               {
