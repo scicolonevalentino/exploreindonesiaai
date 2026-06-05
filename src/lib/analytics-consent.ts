@@ -20,6 +20,10 @@
 const GA4_ID = "G-ZNEKVH2ETY";
 const GTM_ID = "GTM-MNZHRZ79";
 const CS_SRC = "https://t.contentsquare.net/uxa/2fe350eb44674.js";
+// Travelpayouts Drive affiliate loader. Sets persistent cookies/localStorage
+// (am_user_session, storage_f, …) so it's a marketing-tier tracker, not
+// strictly necessary — load only after marketing consent is granted.
+const TRAVELPAYOUTS_SRC = "https://emrldtp.cc/NTM1Mzc0.js?t=535374";
 
 type CookiebotConsent = {
   necessary: boolean;
@@ -35,6 +39,7 @@ declare global {
 }
 
 let analyticsLoaded = false;
+let affiliateLoaded = false;
 
 // `dataLayer`'s element type is declared in analytics-events.ts; access it
 // untyped here to push gtag command tuples and GTM init events without clashing.
@@ -86,6 +91,13 @@ export function loadAnalytics() {
   injectScript(CS_SRC);
 }
 
+// Travelpayouts affiliate loader — marketing-tier, loaded only on consent.
+export function loadAffiliate() {
+  if (typeof window === "undefined" || affiliateLoaded) return;
+  affiliateLoaded = true;
+  injectScript(TRAVELPAYOUTS_SRC);
+}
+
 function applyConsent(consent: CookiebotConsent) {
   const statistics = consent.statistics ? "granted" : "denied";
   const marketing = consent.marketing ? "granted" : "denied";
@@ -100,6 +112,9 @@ function applyConsent(consent: CookiebotConsent) {
   // GTM/GA4/Contentsquare are statistics-tier trackers. GTM itself further
   // honours Consent Mode for any downstream marketing tags.
   if (consent.statistics) loadAnalytics();
+
+  // Travelpayouts affiliate loader is marketing-tier (sets persistent cookies).
+  if (consent.marketing) loadAffiliate();
 }
 
 // Bridge Cookiebot -> Consent Mode. Call once on app mount (client only).

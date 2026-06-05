@@ -153,11 +153,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
               },
             ]
           : []),
-        // Travelpayouts Drive loader (affiliate, not user tracking)
-        {
-          children:
-            "(function(){var s=document.createElement('script');s.async=1;s.src='https://emrldtp.cc/NTM1Mzc0.js?t=535374';document.head.appendChild(s);})();",
-        },
+        // Travelpayouts Drive affiliate loader is NOT injected here — it sets
+        // persistent cookies, so it's loaded by analytics-consent.ts only after
+        // the visitor grants marketing consent (see loadAffiliate()).
         // Organization JSON-LD
         {
           type: "application/ld+json",
