@@ -36,6 +36,9 @@ export const ARTICLES_LIST_QUERY = groq`*[_type == "article" && contentStatus ==
 
 export const ARTICLE_BY_SLUG_QUERY = groq`*[_type == "article" && slug.current == $slug][0] {
   _id,
+  _createdAt,
+  _updatedAt,
+  articleCreatedDate,
   title,
   slug,
   heroImage,
@@ -53,6 +56,8 @@ export const ARTICLE_BY_SLUG_QUERY = groq`*[_type == "article" && slug.current =
   experienceTags,
   bestSeason,
   practicalInfo,
+  faq[]{ question, answer },
+  author->{ name, role, bio, sameAs, image, schemaType },
   affiliateLinks,
   footerBanners,
   metaTitle,
@@ -179,7 +184,24 @@ export type ArticleListItem = {
   articleCommercialTier?: string;
 };
 
+export type FaqItem = {
+  question?: string;
+  answer?: string;
+};
+
+export type ArticleAuthor = {
+  name?: string;
+  role?: string;
+  bio?: string;
+  sameAs?: string[];
+  image?: SanityImage;
+  schemaType?: "Person" | "Organization";
+};
+
 export type Article = ArticleListItem & {
+  _createdAt?: string;
+  _updatedAt?: string;
+  articleCreatedDate?: string;
   intro?: string;
   body?: Array<Record<string, unknown>>;
   practicalInfo?: {
@@ -188,7 +210,10 @@ export type Article = ArticleListItem & {
     gettingAround?: string;
     currency?: string;
     simCard?: string;
+    visa?: string;
   };
+  faq?: FaqItem[];
+  author?: ArticleAuthor;
   affiliateLinks?: AffiliateLink[];
   footerBanners?: string[];
   metaTitle?: string;
