@@ -30,6 +30,7 @@ import {
   type ArticleListItem,
 } from "@/lib/sanity-queries";
 import { shortTitle } from "@/lib/short-title";
+import { DESTINATION_CONTENT } from "@/data/destinations";
 
 const articlesQO = queryOptions({
   queryKey: ["sanity", "articles"],
@@ -713,6 +714,53 @@ function EmbeddedPrototype() {
   );
 }
 
+function BrowseByDestination() {
+  return (
+    <section className="w-full px-6 py-20 sm:py-28" style={{ backgroundColor: "var(--cream)" }}>
+      <div className="mx-auto max-w-6xl">
+        <div className="text-center mb-12">
+          <p
+            className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] mb-4"
+            style={{ color: "var(--teal-link)" }}
+          >
+            Browse by destination
+          </p>
+          <h2
+            className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight"
+            style={{ color: "var(--navy-mid)" }}
+          >
+            Explore Indonesia, region by region
+          </h2>
+          <p
+            className="mt-4 text-base sm:text-lg max-w-2xl mx-auto"
+            style={{ color: "var(--text-dark)" }}
+          >
+            Pick a destination to see every itinerary we have for it.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {DESTINATION_CONTENT.map((d) => (
+            <Link
+              key={d.slug}
+              to="/destinations/$destination"
+              params={{ destination: d.slug }}
+              className="group rounded-2xl border bg-white px-5 py-6 text-center transition-shadow hover:shadow-lg"
+              style={{ borderColor: "var(--border-cream)" }}
+            >
+              <span
+                className="font-serif text-lg font-semibold leading-snug group-hover:underline underline-offset-4"
+                style={{ color: "var(--navy-deep)" }}
+              >
+                {d.name}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Landing() {
   return (
     <main className="min-h-screen">
@@ -721,6 +769,7 @@ function Landing() {
       <EmbeddedPrototype />
       <Trust />
       <Inspiration />
+      <BrowseByDestination />
     </main>
   );
 }

@@ -15,6 +15,7 @@ import {
   labelFor,
   type ArticleListItem,
 } from "@/lib/sanity-queries";
+import { DESTINATION_CONTENT } from "@/data/destinations";
 
 type Search = {
   destinations?: string[];
@@ -302,6 +303,29 @@ function TripsInner() {
             ))}
           </div>
         )}
+
+        <section className="mt-16 border-t pt-10" style={{ borderColor: "var(--border-cream)" }}>
+          <h2
+            className="font-serif text-xl sm:text-2xl font-semibold mb-4"
+            style={{ color: "var(--navy-deep)" }}
+          >
+            Browse by destination
+          </h2>
+          <ul className="flex flex-wrap gap-2">
+            {DESTINATION_CONTENT.map((d) => (
+              <li key={d.slug}>
+                <Link
+                  to="/destinations/$destination"
+                  params={{ destination: d.slug }}
+                  className="inline-block px-3 py-1.5 rounded-full text-sm border transition-colors hover:bg-black/5"
+                  style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+                >
+                  {d.shortName}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       </main>
     </div>
   );
