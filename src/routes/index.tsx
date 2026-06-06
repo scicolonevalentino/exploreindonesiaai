@@ -732,10 +732,14 @@ function BrowseByDestination() {
             Explore Indonesia, region by region
           </h2>
           <p
-            className="mt-4 text-base sm:text-lg max-w-2xl mx-auto"
+            className="mt-4 text-base sm:text-lg max-w-3xl mx-auto"
             style={{ color: "var(--text-dark)" }}
           >
-            Pick a destination to see every itinerary we have for it.
+            ExploreIndonesia.ai publishes hand-picked, day-by-day itineraries across the whole
+            archipelago: Bali, the Nusa and Gili Islands, Java, Komodo and Flores, Lombok, Sumatra
+            and Raja Ampat. From 5-day Bali escapes to month-long grand tours, every trip lays out
+            the route, the best time to go, rough costs and bookable stays, transfers and tours. Pick
+            a destination to see every itinerary we have for it.
           </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
