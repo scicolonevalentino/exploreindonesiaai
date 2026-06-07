@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
 import { PrototypeFlow } from "./prototype";
-import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { queryOptions, useSuspenseQuery, useQueryErrorResetBoundary } from "@tanstack/react-query";
 import {
   Suspense,
   Component,
@@ -52,9 +52,11 @@ const articlesQO = queryOptions({
   staleTime: 5 * 60_000,
   // Keep in memory for an hour so back-navigation is instant.
   gcTime: 60 * 60_000,
-  // Retry transient network / CDN failures with exponential backoff (max 4s).
-  retry: 3,
-  retryDelay: (attempt: number) => Math.min(1000 * 2 ** attempt, 4000),
+  // Retry transient network / CDN failures with exponential backoff (max 8s).
+  // 5 attempts gives a wider window to ride out a brief Sanity/CDN blip before
+  // the error boundary shows the "couldn't load" fallback.
+  retry: 5,
+  retryDelay: (attempt: number) => Math.min(1000 * 2 ** attempt, 8000),
   refetchOnWindowFocus: false,
 });
 
@@ -553,7 +555,7 @@ function InspirationSkeleton() {
   );
 }
 
-function InspirationFallback({ message }: { message: string }) {
+function InspirationFallback({ message, onRetry }: { message: string; onRetry?: () => void }) {
   return (
     <div className="mx-auto max-w-6xl px-6">
       <div
@@ -567,19 +569,42 @@ function InspirationFallback({ message }: { message: string }) {
         <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
           {message}
         </p>
-        <Link
-          to="/trips"
-          className="inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg text-white transition-opacity hover:opacity-90"
-          style={{ backgroundColor: "var(--blue-bright)" }}
-        >
-          See all trips →
-        </Link>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          {onRetry && (
+            <button
+              type="button"
+              onClick={onRetry}
+              className="inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg text-white transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "var(--blue-bright)" }}
+            >
+              Try again
+            </button>
+          )}
+          <Link
+            to="/trips"
+            className={
+              onRetry
+                ? "inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg border bg-white transition-colors hover:bg-[var(--cream)]"
+                : "inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg text-white transition-opacity hover:opacity-90"
+            }
+            style={
+              onRetry
+                ? { borderColor: "var(--border-cream)", color: "var(--navy-deep)" }
+                : { backgroundColor: "var(--blue-bright)" }
+            }
+          >
+            See all trips →
+          </Link>
+        </div>
       </div>
     </div>
   );
 }
 
-class InspirationBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
+class InspirationBoundary extends Component<
+  { children: ReactNode; onReset?: () => void },
+  { hasError: boolean }
+> {
   state = { hasError: false };
   static getDerivedStateFromError() {
     return { hasError: true };
@@ -592,14 +617,39 @@ class InspirationBoundary extends Component<{ children: ReactNode }, { hasError:
       componentStack: info.componentStack,
     });
   }
+  // Clear the errored query (TanStack) so the suspense query refetches, then
+  // drop our error state so the children re-render and re-attempt the load.
+  handleRetry = () => {
+    this.props.onReset?.();
+    this.setState({ hasError: false });
+  };
   render() {
     if (this.state.hasError) {
       return (
-        <InspirationFallback message="We couldn't load our top trips right now. Browse the full collection instead." />
+        <InspirationFallback
+          message="We couldn't load our top trips right now. Browse the full collection instead."
+          onRetry={this.handleRetry}
+        />
       );
     }
     return this.props.children;
   }
+}
+
+/**
+ * Wires the error boundary to TanStack's query-error reset so the "Try again"
+ * button actually re-fetches the inspiration query instead of replaying the
+ * cached failure.
+ */
+function InspirationContent() {
+  const { reset } = useQueryErrorResetBoundary();
+  return (
+    <InspirationBoundary onReset={reset}>
+      <Suspense fallback={<InspirationSkeleton />}>
+        <InspirationMarquee />
+      </Suspense>
+    </InspirationBoundary>
+  );
 }
 
 function InspirationMarquee() {
@@ -689,11 +739,7 @@ function Inspiration() {
         </div>
       </div>
 
-      <InspirationBoundary>
-        <Suspense fallback={<InspirationSkeleton />}>
-          <InspirationMarquee />
-        </Suspense>
-      </InspirationBoundary>
+      <InspirationContent />
 
       <div className="text-center mt-12 px-6">
         <Link
