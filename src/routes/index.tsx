@@ -235,7 +235,10 @@ function HowItWorks() {
               >
                 {s.title}
               </h3>
-              <p className="text-base leading-relaxed" style={{ color: "var(--text-dark)" }}>
+              <p
+                className="text-base leading-relaxed text-balance"
+                style={{ color: "var(--text-dark)" }}
+              >
                 {s.body}
               </p>
             </div>
