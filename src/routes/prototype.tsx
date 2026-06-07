@@ -493,7 +493,7 @@ export function InputStage({
               id="prototype-paste"
               value={value}
               onChange={(e) => onChange(e.target.value)}
-              placeholder="Paste your Indonesia itinerary here…"
+              placeholder="Paste your Indonesia itinerary here"
               rows={10}
               className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
               style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
@@ -617,7 +617,7 @@ export function InputStage({
             id="prototype-paste-standalone"
             value={value}
             onChange={(e) => onChange(e.target.value)}
-            placeholder="Paste your Indonesia itinerary here…"
+            placeholder="Paste your Indonesia itinerary here"
             rows={10}
             className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
