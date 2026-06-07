@@ -179,8 +179,9 @@ function Hero() {
           className="mt-8 mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-white font-light"
           style={{ textShadow: "0 1px 14px rgba(0,0,0,0.65)" }}
         >
-          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
-          structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
+          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes.
+          <br className="hidden sm:block" /> We turn it into a structured, day-by-day trip with
+          bookable stays, transfers, tours, and experiences.
         </p>
       </div>
     </section>
