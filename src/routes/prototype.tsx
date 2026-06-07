@@ -442,6 +442,16 @@ export function InputStage({
     onStart();
   };
 
+  // "Don't have an itinerary yet?" CTA — fires the GA4 signal that this visitor
+  // arrived WITHOUT a plan (the complement of assemble_trip_click), then
+  // smooth-scrolls to the homepage's "Browse curated Indonesia itineraries"
+  // section. Only rendered in the embedded (homepage) variant, where #inspiration
+  // exists on the same page.
+  const handleGetInspired = () => {
+    trackEvent("get_inspired_click");
+    document.getElementById("inspiration")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   if (embedded) {
     return (
       <div
@@ -513,6 +523,37 @@ export function InputStage({
                 Assemble my trip <span aria-hidden>→</span>
               </button>
             </div>
+          </div>
+
+          {/* "Don't have an itinerary yet?" — anchors down to the curated
+              itineraries section and signals has_itinerary=FALSE to GA4. */}
+          <div
+            className="flex items-center gap-4 mt-7"
+            aria-hidden="true"
+            style={{ color: "rgba(255,255,255,0.35)" }}
+          >
+            <span className="flex-1 h-px" style={{ backgroundColor: "rgba(255,255,255,0.18)" }} />
+            <span className="text-xs uppercase tracking-[0.2em] text-white/50">or</span>
+            <span className="flex-1 h-px" style={{ backgroundColor: "rgba(255,255,255,0.18)" }} />
+          </div>
+          <div
+            className="mt-5 rounded-2xl px-5 py-4 sm:px-6 sm:py-5 flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-center"
+            style={{
+              backgroundColor: "rgba(255,255,255,0.06)",
+              border: "1px solid rgba(94,234,212,0.35)",
+            }}
+          >
+            <p className="text-sm sm:text-[15px] font-bold text-[#f2eee4]">
+              Don't have an itinerary yet?
+            </p>
+            <button
+              type="button"
+              onClick={handleGetInspired}
+              className="inline-flex items-center gap-2 font-bold text-sm sm:text-[15px] px-5 py-2.5 rounded-full transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#062d2a]"
+              style={{ backgroundColor: "var(--gold-warm)", color: "var(--navy-deep)" }}
+            >
+              Get inspired <span aria-hidden>↓</span>
+            </button>
           </div>
         </div>
       </div>
