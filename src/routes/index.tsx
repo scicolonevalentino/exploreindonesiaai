@@ -181,7 +181,7 @@ function Hero() {
         >
           Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes.
           <br className="hidden sm:block" /> We turn it into a structured, day-by-day trip with
-          bookable stays, transfers, tours, and experiences.
+          <br className="hidden sm:block" /> bookable stays, transfers, tours, and experiences.
         </p>
       </div>
     </section>
