@@ -11,8 +11,13 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const COMMIT = process.argv.includes("--commit");
 const API = "https://u4ah1ore.api.sanity.io/v2021-06-07";
 const DS = "production";
-const TOKEN = (readFileSync(join(ROOT, ".env.local"), "utf8").match(/^SANITY_API_WRITE_TOKEN=(.+)$/m) || [])[1]?.trim();
-if (!TOKEN) { console.error("No SANITY_API_WRITE_TOKEN"); process.exit(1); }
+const TOKEN = (readFileSync(join(ROOT, ".env.local"), "utf8").match(
+  /^SANITY_API_WRITE_TOKEN=(.+)$/m,
+) || [])[1]?.trim();
+if (!TOKEN) {
+  console.error("No SANITY_API_WRITE_TOKEN");
+  process.exit(1);
+}
 
 const ENRICH = {
   "5-days-bali-ubud-canggu-uluwatu": {
@@ -41,12 +46,21 @@ const ENRICH = {
 };
 
 const txt = (b) => (b?.children || []).map((c) => c.text || "").join("");
-const blk = (text, slug, day) => ({ _type: "block", _key: `enr-${slug}-${day}`, style: "normal", markDefs: [],
-  children: [{ _type: "span", _key: `enrs-${slug}-${day}`, text, marks: [] }] });
+const blk = (text, slug, day) => ({
+  _type: "block",
+  _key: `enr-${slug}-${day}`,
+  style: "normal",
+  markDefs: [],
+  children: [{ _type: "span", _key: `enrs-${slug}-${day}`, text, marks: [] }],
+});
 
 async function q(query) {
-  const r = await fetch(`${API}/data/query/${DS}?query=${encodeURIComponent(query)}`, { headers: { Authorization: `Bearer ${TOKEN}` } });
-  const j = await r.json(); if (j.error) throw new Error(JSON.stringify(j.error)); return j.result;
+  const r = await fetch(`${API}/data/query/${DS}?query=${encodeURIComponent(query)}`, {
+    headers: { Authorization: `Bearer ${TOKEN}` },
+  });
+  const j = await r.json();
+  if (j.error) throw new Error(JSON.stringify(j.error));
+  return j.result;
 }
 
 const mutations = [];
@@ -64,21 +78,40 @@ for (const [slug, byDay] of Object.entries(ENRICH)) {
     const sectionEnd = k + 1 < h2idx.length ? h2idx[k + 1] : body.length;
     let at = sectionEnd;
     for (let j = i + 1; j < sectionEnd; j++) {
-      if (txt(body[j]).startsWith("WHERE TO STAY")) { at = j; break; }
+      if (txt(body[j]).startsWith("WHERE TO STAY")) {
+        at = j;
+        break;
+      }
     }
     inserts.push({ at, day, block: blk(byDay[day], slug, day) });
   }
   // apply high->low so indices stay valid
   const next = body.slice();
   inserts.sort((a, b) => b.at - a.at).forEach((ins) => next.splice(ins.at, 0, ins.block));
-  const before = body.reduce((n, b) => n + (b._type === "block" ? txt(b).trim().split(/\s+/).filter(Boolean).length : 0), 0);
-  const after = next.reduce((n, b) => n + (b._type === "block" ? txt(b).trim().split(/\s+/).filter(Boolean).length : 0), 0);
-  console.log(`\n${slug}: inserted ${inserts.length} day paragraphs  (~${before} -> ~${after} words)`);
+  const before = body.reduce(
+    (n, b) => n + (b._type === "block" ? txt(b).trim().split(/\s+/).filter(Boolean).length : 0),
+    0,
+  );
+  const after = next.reduce(
+    (n, b) => n + (b._type === "block" ? txt(b).trim().split(/\s+/).filter(Boolean).length : 0),
+    0,
+  );
+  console.log(
+    `\n${slug}: inserted ${inserts.length} day paragraphs  (~${before} -> ~${after} words)`,
+  );
   inserts.sort((a, b) => a.day - b.day).forEach((ins) => console.log(`  + Day ${ins.day}`));
   mutations.push({ patch: { id: doc._id, set: { body: next } } });
 }
 
-if (!COMMIT) { console.log("\nDRY RUN — no writes. Re-run with --commit."); process.exit(0); }
-const r = await fetch(`${API}/data/mutate/${DS}`, { method: "POST", headers: { Authorization: `Bearer ${TOKEN}`, "Content-Type": "application/json" }, body: JSON.stringify({ mutations }) });
-const j = await r.json(); if (j.error) throw new Error(JSON.stringify(j.error));
+if (!COMMIT) {
+  console.log("\nDRY RUN — no writes. Re-run with --commit.");
+  process.exit(0);
+}
+const r = await fetch(`${API}/data/mutate/${DS}`, {
+  method: "POST",
+  headers: { Authorization: `Bearer ${TOKEN}`, "Content-Type": "application/json" },
+  body: JSON.stringify({ mutations }),
+});
+const j = await r.json();
+if (j.error) throw new Error(JSON.stringify(j.error));
 console.log(`\n✓ committed ${j.results?.length ?? mutations.length} article(s)`);
