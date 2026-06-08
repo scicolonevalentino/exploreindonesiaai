@@ -1,7 +1,7 @@
 import { useServerFn } from "@tanstack/react-start";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { Heart } from "lucide-react";
+import { Heart, Instagram } from "lucide-react";
 import { toast } from "sonner";
 import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
@@ -453,12 +453,21 @@ function FooterBar() {
           </DialogContent>
         </Dialog>
 
-        <nav className="flex gap-4 text-xs text-white/60">
+        <nav className="flex items-center gap-4 text-xs text-white/60">
           <a href="/privacy" className="hover:text-white underline-offset-2 hover:underline">
             Privacy
           </a>
           <a href="/terms" className="hover:text-white underline-offset-2 hover:underline">
             Terms
+          </a>
+          <a
+            href="https://www.instagram.com/exploreindonesia_ai/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow ExploreIndonesia.ai on Instagram"
+            className="text-white/60 hover:text-white transition-colors"
+          >
+            <Instagram className="w-5 h-5" aria-hidden="true" />
           </a>
         </nav>
         <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
