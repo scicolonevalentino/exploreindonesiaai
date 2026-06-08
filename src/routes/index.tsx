@@ -793,7 +793,7 @@ function BrowseByDestination() {
             style={{ color: "var(--text-dark)" }}
           >
             ExploreIndonesia.ai publishes hand-picked, day-by-day itineraries across the whole
-            archipelago: Bali, the Nusa and Gili Islands, Java, Komodo and Flores, Lombok, Sumatra
+            archipelago: Bali, the Nusa and Gili islands, Java, Komodo and Flores, Lombok, Sumatra
             and Raja Ampat.{" "}
             <span className="hidden sm:inline">
               From 5-day Bali escapes to month-long grand tours, every trip lays out the route, the
