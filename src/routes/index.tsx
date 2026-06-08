@@ -799,6 +799,9 @@ function BrowseByDestination() {
               From 5-day Bali escapes to month-long grand tours, every trip lays out the route, the
               best time to go, rough costs and bookable stays, transfers and tours.
             </span>
+            <span className="sm:hidden">
+              Every trip lays out the route, the best time to go, costs and bookable stays.
+            </span>
             <span className="block mt-2 font-semibold text-balance">
               Pick a destination to see every itinerary we have for it.
             </span>
