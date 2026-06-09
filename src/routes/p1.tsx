@@ -387,6 +387,63 @@ function BuildingStage() {
 
 /* ---- Stage 3: Trip (prototype trip view, live data) ---- */
 
+// Stable per-item key: day + position within that day.
+function itemKey(item: ItineraryItem, indexInDay: number) {
+  return `${item.day}-${indexInDay}`;
+}
+
+// Self-contained branded HTML the user keeps. Booking links carry the
+// affiliate IDs, so the downloaded itinerary keeps converting offline.
+function buildItineraryHtml(trip: Trip, added: Set<string>): string {
+  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const byDay = new Map<number, ItineraryItem[]>();
+  for (const item of trip.items) {
+    byDay.set(item.day, [...(byDay.get(item.day) ?? []), item]);
+  }
+  const days = [...byDay.keys()]
+    .sort((a, b) => a - b)
+    .map((day) => {
+      const rows = byDay
+        .get(day)!
+        .map((item, i) => {
+          const isAdded = added.has(itemKey(item, i));
+          const price =
+            item.price !== undefined ? ` · from ${item.currency ?? "USD"} ${item.price}` : "";
+          const link =
+            item.matchStatus === "matched" && item.deepLink
+              ? `<a href="${item.deepLink}" rel="sponsored noopener">Book now${price}</a>`
+              : item.type === "informational"
+                ? ""
+                : `<em>${esc(item.noMatchReason ?? "Not bookable online")}</em>`;
+          return `<li${isAdded ? ' class="added"' : ""}>
+            <strong>${item.time ? esc(item.time) + " — " : ""}${esc(item.title)}</strong>${isAdded ? " ★" : ""}<br/>
+            ${esc(item.description)}<br/>
+            <small>📍 ${esc(item.location)}</small> ${link}
+          </li>`;
+        })
+        .join("\n");
+      return `<h2>Day ${day}</h2><ul>${rows}</ul>`;
+    })
+    .join("\n");
+
+  return `<!doctype html><html><head><meta charset="utf-8"/>
+<title>${esc(trip.title)} — exploreindonesia.ai</title>
+<style>
+  body{font-family:Georgia,serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#062d2a;line-height:1.5}
+  h1{margin-bottom:.25rem} h2{margin-top:2rem;border-bottom:1px solid #e6dfd0;padding-bottom:.25rem}
+  ul{list-style:none;padding:0} li{margin:1rem 0;padding:.75rem;border:1px solid #e6dfd0;border-radius:8px}
+  li.added{border-color:#14b8a6;background:#f0fbf9}
+  a{color:#0f766e;font-weight:bold} small{color:#5b6b66} em{color:#5b6b66;font-size:.85em}
+  footer{margin-top:3rem;font-size:.8em;color:#5b6b66}
+</style></head><body>
+<p style="text-transform:uppercase;letter-spacing:.2em;font-size:.7em;color:#0f766e">exploreindonesia.ai · your trip</p>
+<h1>${esc(trip.title)}</h1>
+<p>${esc(trip.summary)}</p>
+${days}
+<footer>★ = added to your trip · Built with exploreindonesia.ai — prices are live at time of booking.</footer>
+</body></html>`;
+}
+
 function TripStage({
   trip,
   matching,
@@ -402,6 +459,67 @@ function TripStage({
   }
   const bookableCount = trip.items.filter((i) => i.type === "bookable").length;
   const infoCount = trip.items.length - bookableCount;
+
+  // Matched bookables start added (prototype's defaultAdded behavior).
+  const [added, setAdded] = useState<Set<string>>(new Set());
+  useEffect(() => {
+    const next = new Set<string>();
+    for (const [day, items] of itemsByDay) {
+      items.forEach((item, i) => {
+        if (item.matchStatus === "matched") next.add(`${day}-${i}`);
+      });
+    }
+    setAdded(next);
+    // Re-seed only when match results land, not on every render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [matching]);
+
+  const toggle = (key: string, item: ItineraryItem) => {
+    setAdded((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+        trackEvent("add_to_trip", {
+          item_name: item.title,
+          platform: item.partner ? PLATFORM_NAME[item.partner] : undefined,
+          price: item.price,
+        });
+      }
+      return next;
+    });
+  };
+
+  const totals = (() => {
+    let count = 0;
+    let total = 0;
+    for (const [day, items] of itemsByDay) {
+      items.forEach((item, i) => {
+        if (!added.has(`${day}-${i}`)) return;
+        count += 1;
+        if (item.price !== undefined) total += item.price;
+      });
+    }
+    return { count, total: Math.round(total) };
+  })();
+
+  // P1 conversion CTA. Future: this is where the login wall goes — the
+  // download becomes the lead-capture moment (sign in to get your itinerary).
+  const downloadItinerary = () => {
+    trackEvent("download_itinerary_click", {
+      items_added: totals.count,
+      estimated_total: totals.total,
+    });
+    const html = buildItineraryHtml(trip, added);
+    const blob = new Blob([html], { type: "text/html" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "exploreindonesia-itinerary.html";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
 
   return (
     <div
@@ -449,15 +567,58 @@ function TripStage({
           {[...itemsByDay.keys()]
             .sort((a, b) => a - b)
             .map((day) => (
-              <DayBlock key={day} day={day} items={itemsByDay.get(day)!} />
+              <DayBlock
+                key={day}
+                day={day}
+                items={itemsByDay.get(day)!}
+                added={added}
+                onToggle={toggle}
+              />
             ))}
         </div>
       </section>
+
+      {/* Inline totals + CTA — prototype layout, Download instead of Review & book */}
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
+        <div
+          className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
+          style={{ borderColor: "var(--border-cream)" }}
+        >
+          <div className="text-sm">
+            <span className="font-semibold">{totals.count} experiences added</span>
+            <span className="text-[var(--slate-muted)] mx-3">·</span>
+            <span className="text-[var(--slate-muted)]">Estimated total </span>
+            <span
+              className="font-bold text-xl"
+              style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+            >
+              ${totals.total}
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={downloadItinerary}
+            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
+          >
+            Download the itinerary <span aria-hidden>↓</span>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
 
-function DayBlock({ day, items }: { day: number; items: ItineraryItem[] }) {
+function DayBlock({
+  day,
+  items,
+  added,
+  onToggle,
+}: {
+  day: number;
+  items: ItineraryItem[];
+  added: Set<string>;
+  onToggle: (key: string, item: ItineraryItem) => void;
+}) {
   return (
     <div>
       <div className="flex items-center gap-4 mb-4">
@@ -486,14 +647,27 @@ function DayBlock({ day, items }: { day: number; items: ItineraryItem[] }) {
 
       <div className="space-y-4">
         {items.map((item, i) => (
-          <ItemCard key={`${day}-${i}`} item={item} />
+          <ItemCard
+            key={`${day}-${i}`}
+            item={item}
+            added={added.has(`${day}-${i}`)}
+            onToggle={() => onToggle(`${day}-${i}`, item)}
+          />
         ))}
       </div>
     </div>
   );
 }
 
-function ItemCard({ item }: { item: ItineraryItem }) {
+function ItemCard({
+  item,
+  added,
+  onToggle,
+}: {
+  item: ItineraryItem;
+  added: boolean;
+  onToggle: () => void;
+}) {
   // Informational items use the prototype's dashed "self-guided" card.
   if (item.type === "informational") {
     const isTransport = item.category === "on_demand_transport";
@@ -533,7 +707,9 @@ function ItemCard({ item }: { item: ItineraryItem }) {
 
   return (
     <div
-      className="p-3 sm:p-4 rounded-xl border bg-white"
+      className={`p-3 sm:p-4 rounded-xl border bg-white transition-all ${
+        added ? "ring-2 ring-[var(--blue-bright)]" : ""
+      }`}
       style={{ borderColor: "var(--border-cream)" }}
     >
       <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
@@ -610,12 +786,23 @@ function ItemCard({ item }: { item: ItineraryItem }) {
                   <span className="text-xs text-[var(--slate-muted)]">See price on site</span>
                 )}
               </div>
+              <button
+                type="button"
+                onClick={onToggle}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+                  added
+                    ? "bg-[var(--blue-bright)] text-white border-transparent"
+                    : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+                }`}
+              >
+                {added ? "✓ Added to trip" : "Add to trip"}
+              </button>
               <a
                 href={item.deepLink}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 onClick={() => fireAffiliateClick(item)}
-                className="px-4 py-2 rounded-full text-sm font-semibold transition-colors border bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+                className="text-xs text-[var(--teal-link)] hover:underline"
               >
                 Book now on {platform} →
               </a>
@@ -654,15 +841,17 @@ function ItemCard({ item }: { item: ItineraryItem }) {
                 </span>
               )}
             </div>
-            <a
-              href={item.deepLink}
-              target="_blank"
-              rel="sponsored noopener noreferrer"
-              onClick={() => fireAffiliateClick(item)}
-              className="px-4 py-2 rounded-full text-sm font-semibold transition-colors border bg-white text-[var(--navy-deep)] border-[var(--blue-bright)]"
+            <button
+              type="button"
+              onClick={onToggle}
+              className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
+                added
+                  ? "bg-[var(--blue-bright)] text-white border-transparent"
+                  : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)]"
+              }`}
             >
-              Book on {platform} →
-            </a>
+              {added ? "✓ Added" : "Add to trip"}
+            </button>
           </div>
         ) : pending ? (
           <div
@@ -673,6 +862,17 @@ function ItemCard({ item }: { item: ItineraryItem }) {
           <p className="text-xs text-[var(--slate-muted)]">
             {item.noMatchReason ?? "Not bookable online"}
           </p>
+        )}
+        {matched && (
+          <a
+            href={item.deepLink}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            onClick={() => fireAffiliateClick(item)}
+            className="block mt-2 text-right text-xs text-[var(--teal-link)] hover:underline"
+          >
+            Book now on {platform} →
+          </a>
         )}
       </div>
     </div>
