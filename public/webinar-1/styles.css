@@ -92,7 +92,7 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
 .hero__lead {
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #cfe0f7;
+  color: #ffffff;
   margin: 1.25rem 0 0;
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
 .hero__points li {
   position: relative;
   padding-left: 1.9rem;
-  color: #dfeafa;
+  color: #ffffff;
   font-size: 0.98rem;
   line-height: 1.45;
 }
@@ -165,11 +165,11 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--blue-200);
+  color: #ffffff;
   font-weight: 600;
 }
 .meta__value { font-size: 1rem; font-weight: 600; color: #ffffff; }
-.meta__sub { font-size: 0.82rem; color: #a9bfe0; }
+.meta__sub { font-size: 0.82rem; color: #ffffff; }
 
 /* host */
 .host {
@@ -197,7 +197,7 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
   font-weight: 700; font-size: 1.4rem; color: var(--blue-100);
 }
 .host__name { display: block; font-weight: 600; color: #ffffff; font-size: 0.95rem; margin-bottom: 0.3rem; }
-.host__bio p { margin: 0; font-size: 0.86rem; line-height: 1.5; color: #b6cae8; }
+.host__bio p { margin: 0; font-size: 0.86rem; line-height: 1.5; color: #ffffff; }
 
 /* ---------- Right form ---------- */
 .form-panel {
@@ -302,7 +302,7 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
   box-shadow: 0 10px 22px -8px rgba(35, 79, 174, 0.55);
 }
 .success h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-.success p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; margin: 0; }
+.success p { color: #1a1a1a; font-size: 0.95rem; line-height: 1.5; margin: 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 880px) {
