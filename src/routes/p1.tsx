@@ -36,6 +36,7 @@ const PARTNER_LABEL: Record<string, string> = {
   booking: "BOOKING.COM",
   "12go": "12GO",
   airalo: "AIRALO",
+  welcomepickups: "WELCOME PICKUPS",
 };
 const PLATFORM_NAME: Record<string, string> = {
   viator: "Viator",
@@ -43,6 +44,7 @@ const PLATFORM_NAME: Record<string, string> = {
   booking: "Booking.com",
   "12go": "12Go",
   airalo: "Airalo",
+  welcomepickups: "Welcome Pickups",
 };
 const PARTNER_COLOR: Record<string, string> = {
   viator: "#1f9e87",
@@ -50,6 +52,7 @@ const PARTNER_COLOR: Record<string, string> = {
   booking: "#1b3aa0",
   "12go": "#f1b73a",
   airalo: "#d8326e",
+  welcomepickups: "#16a34a",
 };
 
 const MIN_PASTE_LENGTH = 20;

@@ -31,8 +31,10 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
   for (const partner of chain) {
     const product = await PARTNER_SEARCH[partner](item.searchQuery, item.location);
     if (!product) continue;
-    const deepLink = buildDeepLink(partner, product.productId);
-    if (!deepLink) continue; // affiliate ID missing — try next partner
+    // Prefer the partner-provided URL (Viator productUrl, Travelpayouts smart
+    // links); fall back to constructing one from the affiliate ID.
+    const deepLink = product.deepLink ?? buildDeepLink(partner, product.productId);
+    if (!deepLink) continue; // no usable link — try next partner
     return {
       ...item,
       partner,
