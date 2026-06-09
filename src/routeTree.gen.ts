@@ -13,11 +13,14 @@ import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PrototypeRouteImport } from './routes/prototype'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as P1RouteImport } from './routes/p1'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
+import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
+import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
 
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
@@ -37,6 +40,11 @@ const PrototypeRoute = PrototypeRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const P1Route = P1RouteImport.update({
+  id: '/p1',
+  path: '/p1',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -59,14 +67,25 @@ const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
   path: '/destinations/$destination',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicMatchTripRoute = ApiPublicMatchTripRouteImport.update({
+  id: '/api/public/match-trip',
+  path: '/api/public/match-trip',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPublicLinkHealthRoute = ApiPublicLinkHealthRouteImport.update({
   id: '/api/public/link-health',
   path: '/api/public/link-health',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicBuildTripRoute = ApiPublicBuildTripRouteImport.update({
+  id: '/api/public/build-trip',
+  path: '/api/public/build-trip',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/p1': typeof P1Route
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -74,10 +93,13 @@ export interface FileRoutesByFullPath {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
+  '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
+  '/api/public/match-trip': typeof ApiPublicMatchTripRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/p1': typeof P1Route
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -85,11 +107,14 @@ export interface FileRoutesByTo {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
+  '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
+  '/api/public/match-trip': typeof ApiPublicMatchTripRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/p1': typeof P1Route
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -97,12 +122,15 @@ export interface FileRoutesById {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
+  '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
+  '/api/public/match-trip': typeof ApiPublicMatchTripRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/p1'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -110,10 +138,13 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
+    | '/api/public/build-trip'
     | '/api/public/link-health'
+    | '/api/public/match-trip'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/p1'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -121,10 +152,13 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips'
+    | '/api/public/build-trip'
     | '/api/public/link-health'
+    | '/api/public/match-trip'
   id:
     | '__root__'
     | '/'
+    | '/p1'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -132,11 +166,14 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
+    | '/api/public/build-trip'
     | '/api/public/link-health'
+    | '/api/public/match-trip'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  P1Route: typeof P1Route
   PrivacyRoute: typeof PrivacyRoute
   PrototypeRoute: typeof PrototypeRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -144,7 +181,9 @@ export interface RootRouteChildren {
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
+  ApiPublicBuildTripRoute: typeof ApiPublicBuildTripRoute
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
+  ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -177,6 +216,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/p1': {
+      id: '/p1'
+      path: '/p1'
+      fullPath: '/p1'
+      preLoaderRoute: typeof P1RouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -205,6 +251,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DestinationsDestinationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/match-trip': {
+      id: '/api/public/match-trip'
+      path: '/api/public/match-trip'
+      fullPath: '/api/public/match-trip'
+      preLoaderRoute: typeof ApiPublicMatchTripRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/public/link-health': {
       id: '/api/public/link-health'
       path: '/api/public/link-health'
@@ -212,11 +265,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicLinkHealthRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/build-trip': {
+      id: '/api/public/build-trip'
+      path: '/api/public/build-trip'
+      fullPath: '/api/public/build-trip'
+      preLoaderRoute: typeof ApiPublicBuildTripRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  P1Route: P1Route,
   PrivacyRoute: PrivacyRoute,
   PrototypeRoute: PrototypeRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
@@ -224,8 +285,20 @@ const rootRouteChildren: RootRouteChildren = {
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
+  ApiPublicBuildTripRoute: ApiPublicBuildTripRoute,
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
+  ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
