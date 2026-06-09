@@ -240,7 +240,7 @@ function InputStage({
             onChange={(e) => onChange(e.target.value)}
             placeholder="e.g. 10 days in Bali and the Gili Islands in July, couple, mid-range, love snorkeling and food — or paste a full itinerary here"
             rows={10}
-            className="w-full font-mono text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
+            className="w-full text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
           />
           <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
