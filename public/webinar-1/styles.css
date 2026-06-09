@@ -83,6 +83,13 @@ h1, h2, h3 { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0
   margin: 1.25rem 0 0;
   color: #ffffff;
 }
+.hl {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.32em;
+  line-height: 1;
+  color: var(--pale);
+}
 
 .hero__lead {
   font-size: 1.05rem;
