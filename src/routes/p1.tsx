@@ -32,6 +32,7 @@ export const Route = createFileRoute("/p1")({
 
 const PARTNER_LABEL: Record<string, string> = {
   viator: "VIATOR",
+  getyourguide: "GETYOURGUIDE",
   klook: "KLOOK",
   booking: "BOOKING.COM",
   "12go": "12GO",
@@ -40,6 +41,7 @@ const PARTNER_LABEL: Record<string, string> = {
 };
 const PLATFORM_NAME: Record<string, string> = {
   viator: "Viator",
+  getyourguide: "GetYourGuide",
   klook: "Klook",
   booking: "Booking.com",
   "12go": "12Go",
@@ -48,6 +50,7 @@ const PLATFORM_NAME: Record<string, string> = {
 };
 const PARTNER_COLOR: Record<string, string> = {
   viator: "#1f9e87",
+  getyourguide: "#e0533a",
   klook: "#ef7a23",
   booking: "#1b3aa0",
   "12go": "#f1b73a",

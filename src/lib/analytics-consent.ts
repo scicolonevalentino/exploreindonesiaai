@@ -24,6 +24,10 @@ const CS_SRC = "https://t.contentsquare.net/uxa/2fe350eb44674.js";
 // (am_user_session, storage_f, …) so it's a marketing-tier tracker, not
 // strictly necessary — load only after marketing consent is granted.
 const TRAVELPAYOUTS_SRC = "https://emrldtp.cc/NTM1Mzc0.js?t=535374";
+// GetYourGuide Partner Analytics — attribution/conversion tracker (sets cookies),
+// so marketing-tier: loaded only after marketing consent, alongside Travelpayouts.
+const GETYOURGUIDE_SRC = "https://widget.getyourguide.com/dist/pa.umd.production.min.js";
+const GETYOURGUIDE_PARTNER_ID = "E2JIZZL";
 
 type CookiebotConsent = {
   necessary: boolean;
@@ -91,11 +95,16 @@ export function loadAnalytics() {
   injectScript(CS_SRC);
 }
 
-// Travelpayouts affiliate loader — marketing-tier, loaded only on consent.
+// Affiliate loaders — marketing-tier, loaded only on consent.
 export function loadAffiliate() {
   if (typeof window === "undefined" || affiliateLoaded) return;
   affiliateLoaded = true;
   injectScript(TRAVELPAYOUTS_SRC);
+  // GetYourGuide Partner Analytics (data-gyg-partner-id drives attribution).
+  injectScript(GETYOURGUIDE_SRC, {
+    defer: true,
+    "data-gyg-partner-id": GETYOURGUIDE_PARTNER_ID,
+  });
 }
 
 function applyConsent(consent: CookiebotConsent) {

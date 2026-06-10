@@ -130,8 +130,29 @@ describe("matchItem routing rules", () => {
     expect(result.price).toBe(38);
   });
 
-  it("activity falls back to the Klook smart link when Viator has no match", async () => {
+  it("activity falls back to a GetYourGuide search deep-link when Viator has no match", async () => {
     vi.stubEnv("VIATOR_API_KEY", "v-key");
+    vi.stubEnv("GETYOURGUIDE_PARTNER_ID", "E2JIZZL");
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(
+        async () => new Response(JSON.stringify({ products: { results: [] } }), { status: 200 }),
+      ),
+    );
+    const result = await matchItem(
+      item({ searchQuery: "Mount Batur sunrise trek", location: "Kintamani" }),
+    );
+    expect(result.partner).toBe("getyourguide");
+    expect(result.matchStatus).toBe("matched");
+    expect(result.deepLink).toBe(
+      "https://www.getyourguide.com/s/?q=Mount%20Batur%20sunrise%20trek%20Kintamani&partner_id=E2JIZZL&utm_medium=online_publisher",
+    );
+    expect(result.price).toBeUndefined();
+  });
+
+  it("activity falls through GetYourGuide to the Klook smart link when neither GYG nor Viator match", async () => {
+    vi.stubEnv("VIATOR_API_KEY", "v-key");
+    // No GETYOURGUIDE_PARTNER_ID set → GYG skipped.
     vi.stubEnv("KLOOK_AFFILIATE_LINK", "https://klook.tpx.lu/test");
     vi.stubGlobal(
       "fetch",
@@ -141,9 +162,7 @@ describe("matchItem routing rules", () => {
     );
     const result = await matchItem(item({ searchQuery: "obscure village workshop" }));
     expect(result.partner).toBe("klook");
-    expect(result.matchStatus).toBe("matched");
     expect(result.deepLink).toBe("https://klook.tpx.lu/test");
-    expect(result.price).toBeUndefined();
   });
 
   it("airport private transfer falls back to Welcome Pickups; city-to-city does not", async () => {

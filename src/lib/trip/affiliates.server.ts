@@ -52,8 +52,9 @@ export function buildDeepLink(partner: Partner, productId: string): string | nul
       if (!aid) return null;
       return `https://www.booking.com/hotel/id/${productId}.html?aid=${aid}`;
     }
-    // Travelpayouts partners are smart-link only — their search() already
-    // returns the link, so there is nothing to build here.
+    // GetYourGuide and the Travelpayouts partners build their own URL in
+    // search() — nothing to construct here.
+    case "getyourguide":
     case "klook":
     case "12go":
     case "airalo":
@@ -120,9 +121,23 @@ async function searchViator(query: string, location: string): Promise<ProductMat
   };
 }
 
+// GetYourGuide: no product API, but the affiliate program lets us deep-link to
+// a targeted SEARCH page for the activity, tracked with partner_id. Lands the
+// user on relevant GYG results (better than a generic doorway); no price shown.
+async function searchGetYourGuide(query: string, location: string): Promise<ProductMatch | null> {
+  const pid = env("GETYOURGUIDE_PARTNER_ID");
+  if (!pid) return null;
+  const q = encodeURIComponent(`${query} ${location}`.trim());
+  return {
+    partner: "getyourguide",
+    productId: "search",
+    title: "Find it on GetYourGuide",
+    deepLink: `https://www.getyourguide.com/s/?q=${q}&partner_id=${pid}&utm_medium=online_publisher`,
+  };
+}
+
 // Klook via Travelpayouts smart link: no product search — a generic browse
-// link used as the fallback when Viator has no match. No price shown; the
-// click is still attributed.
+// link used as the last-resort fallback. No price shown; click still attributed.
 async function searchKlook(_query: string, _location: string): Promise<ProductMatch | null> {
   const link = env("KLOOK_AFFILIATE_LINK");
   if (!link) return null;
@@ -217,6 +232,7 @@ export const PARTNER_SEARCH: Record<
   (query: string, location: string) => Promise<ProductMatch | null>
 > = {
   viator: searchViator,
+  getyourguide: searchGetYourGuide,
   klook: searchKlook,
   booking: searchBooking,
   "12go": search12Go,

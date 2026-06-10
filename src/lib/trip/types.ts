@@ -14,7 +14,15 @@ export const CATEGORIES = [
   "tip",
 ] as const;
 
-export const PARTNERS = ["viator", "klook", "booking", "12go", "airalo", "welcomepickups"] as const;
+export const PARTNERS = [
+  "viator",
+  "getyourguide",
+  "klook",
+  "booking",
+  "12go",
+  "airalo",
+  "welcomepickups",
+] as const;
 
 export type Category = (typeof CATEGORIES)[number];
 export type Partner = (typeof PARTNERS)[number];
@@ -88,8 +96,10 @@ export const ALWAYS_INFORMATIONAL: ReadonlySet<Category> = new Set(["on_demand_t
 
 // Partner routing per category: try in order, stop at first match.
 export const PARTNER_ROUTING: Record<Category, Partner[]> = {
-  activity: ["viator", "klook"],
-  spa_wellness: ["viator", "klook"],
+  // Viator first (real product + live price). GetYourGuide is a targeted search
+  // deep-link (no price); Klook is the last-resort smart link.
+  activity: ["viator", "getyourguide", "klook"],
+  spa_wellness: ["viator", "getyourguide", "klook"],
   // Airport transfers: Viator gives a real product + price; Welcome Pickups
   // (Travelpayouts smart link, airport-gated) is the fallback.
   private_transfer: ["viator", "welcomepickups"],
