@@ -261,18 +261,13 @@ function Trust() {
     { name: "Agoda", color: "#d72f7a" },
     { name: "Hostelworld", color: "#f15a2b" },
     { name: "Trip.com", color: "#287dfa" },
-    { name: "Skyscanner", color: "#0770e3" },
     { name: "Kiwi.com", color: "#00a991" },
     { name: "WayAway", color: "#f5b800" },
     { name: "KKday", color: "#ff5b35" },
     { name: "Rentalcars.com", color: "#f76707" },
     { name: "QEEQ", color: "#2a6df4" },
-    { name: "Musement", color: "#ff5a36" },
-    { name: "Tiqets", color: "#ff5b9a" },
-    { name: "World Nomads", color: "#1a1a1a" },
     { name: "Airalo", color: "#f76b1c" },
     { name: "Welcome Pickups", color: "#ffcc33" },
-    { name: "Intrepid Travel", color: "#c8102e" },
   ];
 
   // Duplicate so the marquee loops seamlessly.
