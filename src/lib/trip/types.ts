@@ -41,6 +41,9 @@ export const ItineraryItemSchema = z.object({
   price: z.number().optional(),
   currency: z.string().optional(),
   deepLink: z.string().optional(),
+  // Product photo (currently from Viator's API); absent for partners without
+  // images — the UI then shows a branded category fallback.
+  imageUrl: z.string().optional(),
   matchStatus: z.enum(["pending", "matched", "no_match"]),
   noMatchReason: z.string().optional(),
   // Optional bookable add-on ("there's a lovely spa nearby") — rendered as a

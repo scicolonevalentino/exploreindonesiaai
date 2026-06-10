@@ -6,8 +6,22 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { ArrowLeft, Footprints, Image as ImageIcon, Info, Lightbulb, Sparkles } from "lucide-react";
+import {
+  ArrowLeft,
+  BedDouble,
+  Camera,
+  Car,
+  ExternalLink,
+  Footprints,
+  Info,
+  Lightbulb,
+  Ship,
+  Sparkles,
+  Wifi,
+  type LucideIcon,
+} from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
+import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 
 export const Route = createFileRoute("/p1")({
@@ -59,6 +73,19 @@ const PARTNER_COLOR: Record<string, string> = {
 };
 
 const MIN_PASTE_LENGTH = 20;
+
+// Branded fallback thumbnail per category, used when a partner returns no photo
+// (eSIM, ferry, GetYourGuide/Klook, non-Viator recommended). Looks intentional
+// instead of an empty box. Real photos can replace these later.
+const CATEGORY_THUMB: Record<string, { Icon: LucideIcon; grad: string }> = {
+  esim: { Icon: Wifi, grad: "linear-gradient(135deg,#0e7490,#155e75)" },
+  ferry_transport: { Icon: Ship, grad: "linear-gradient(135deg,#1e6fb0,#0d3b66)" },
+  private_transfer: { Icon: Car, grad: "linear-gradient(135deg,#475569,#1e293b)" },
+  activity: { Icon: Camera, grad: "linear-gradient(135deg,#0a8a6e,#065f46)" },
+  spa_wellness: { Icon: Sparkles, grad: "linear-gradient(135deg,#be4a7a,#7c2d52)" },
+  accommodation: { Icon: BedDouble, grad: "linear-gradient(135deg,#5a4cb0,#312e81)" },
+};
+const DEFAULT_THUMB = { Icon: Camera, grad: "linear-gradient(135deg,#0a8a6e,#065f46)" };
 
 // Day items render grouped into these slots, in this order. "Full day" first so
 // a whole-day tour sits above any stray Morning/Afternoon items.
@@ -417,70 +444,6 @@ function BuildingStage() {
 
 /* ---- Stage 3: Trip (prototype trip view, live data) ---- */
 
-// Stable per-item key: day + position within that day.
-function itemKey(item: ItineraryItem, indexInDay: number) {
-  return `${item.day}-${indexInDay}`;
-}
-
-// Self-contained branded HTML the user keeps. Booking links carry the
-// affiliate IDs, so the downloaded itinerary keeps converting offline.
-function buildItineraryHtml(trip: Trip, added: Set<string>, insights: Insight[]): string {
-  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  const byDay = new Map<number, ItineraryItem[]>();
-  for (const item of trip.items) {
-    byDay.set(item.day, [...(byDay.get(item.day) ?? []), item]);
-  }
-  const days = [...byDay.keys()]
-    .sort((a, b) => a - b)
-    .map((day) => {
-      const rows = byDay
-        .get(day)!
-        .map((item, i) => {
-          const isAdded = added.has(itemKey(item, i));
-          const price =
-            item.price !== undefined ? ` · from ${item.currency ?? "USD"} ${item.price}` : "";
-          const link =
-            item.matchStatus === "matched" && item.deepLink
-              ? `<a href="${item.deepLink}" rel="sponsored noopener">Book now${price}</a>`
-              : item.type === "informational"
-                ? ""
-                : `<em>${esc(item.noMatchReason ?? "Not bookable online")}</em>`;
-          return `<li${isAdded ? ' class="added"' : ""}>
-            <strong>${item.time ? esc(item.time) + " — " : ""}${esc(item.title)}</strong>${isAdded ? " ★" : ""}<br/>
-            ${esc(item.description)}<br/>
-            <small>📍 ${esc(item.location)}</small> ${link}
-          </li>`;
-        })
-        .join("\n");
-      const dayInsights = insights
-        .filter((ins) => ins.day === day)
-        .map(
-          (ins) =>
-            `<li class="insight">💡 <strong>${esc(ins.destination)}</strong> — ${esc(ins.tip)}</li>`,
-        )
-        .join("\n");
-      return `<h2>Day ${day}</h2><ul>${rows}${dayInsights}</ul>`;
-    })
-    .join("\n");
-
-  return `<!doctype html><html><head><meta charset="utf-8"/>
-<title>${esc(trip.title)} — exploreindonesia.ai</title>
-<style>
-  body{font-family:Georgia,serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#062d2a;line-height:1.5}
-  h1{margin-bottom:.25rem} h2{margin-top:2rem;border-bottom:1px solid #e6dfd0;padding-bottom:.25rem}
-  ul{list-style:none;padding:0} li{margin:1rem 0;padding:.75rem;border:1px solid #e6dfd0;border-radius:8px}
-  li.added{border-color:#14b8a6;background:#f0fbf9}
-  a{color:#0f766e;font-weight:bold} small{color:#5b6b66} em{color:#5b6b66;font-size:.85em}
-  footer{margin-top:3rem;font-size:.8em;color:#5b6b66}
-</style></head><body>
-<p style="text-transform:uppercase;letter-spacing:.2em;font-size:.7em;color:#0f766e">exploreindonesia.ai · your trip</p>
-<h1>${esc(trip.title)}</h1>
-<p>${esc(trip.summary)}</p>
-${days}
-<footer>★ = added to your trip · 💡 = local insight · Built with exploreindonesia.ai — prices are live at time of booking.</footer>
-</body></html>`;
-}
-
 function TripStage({
   trip,
   matching,
@@ -552,19 +515,14 @@ function TripStage({
 
   // P1 conversion CTA. Future: this is where the login wall goes — the
   // download becomes the lead-capture moment (sign in to get your itinerary).
+  // The PDF embeds every booking link as a real clickable annotation, so the
+  // affiliate tracking travels with the file.
   const downloadItinerary = () => {
     trackEvent("download_itinerary_click", {
       items_added: totals.count,
       estimated_total: totals.total,
     });
-    const html = buildItineraryHtml(trip, added, insights);
-    const blob = new Blob([html], { type: "text/html" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "exploreindonesia-itinerary.html";
-    a.click();
-    URL.revokeObjectURL(url);
+    downloadItineraryPdf(trip, added, insights);
   };
 
   return (
@@ -657,7 +615,7 @@ function TripStage({
             onClick={downloadItinerary}
             className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
           >
-            Download the itinerary <span aria-hidden>↓</span>
+            Download the itinerary (PDF) <span aria-hidden>↓</span>
           </button>
         </div>
       </div>
@@ -826,17 +784,30 @@ function ItemCard({
       }}
     >
       <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
-        <div
-          className="relative aspect-[4/3] rounded-lg overflow-hidden flex items-center justify-center text-xs text-[var(--slate-muted)] text-center px-2"
-          style={{ backgroundColor: "#e6dfd0" }}
-        >
-          <div>
-            <ImageIcon className="w-5 h-5 mx-auto mb-1 opacity-60" aria-hidden />
-            <div className="leading-tight hidden sm:block">
-              {item.title.slice(0, 32)}
-              {item.title.length > 32 ? "…" : ""}
-            </div>
-          </div>
+        <div className="relative aspect-[4/3] rounded-lg overflow-hidden flex items-center justify-center">
+          {item.imageUrl ? (
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          ) : (
+            (() => {
+              const thumb = CATEGORY_THUMB[item.category] ?? DEFAULT_THUMB;
+              return (
+                <div
+                  className="absolute inset-0 flex flex-col items-center justify-center gap-1.5 px-2 text-white text-center"
+                  style={{ background: thumb.grad }}
+                >
+                  <thumb.Icon className="w-6 h-6 opacity-90" aria-hidden />
+                  <span className="text-[10px] font-medium leading-tight opacity-90 line-clamp-2 hidden sm:block">
+                    {item.location}
+                  </span>
+                </div>
+              );
+            })()
+          )}
         </div>
 
         <div className="min-w-0">
@@ -899,26 +870,29 @@ function ItemCard({
                   <span className="text-xs text-[var(--slate-muted)]">See price on site</span>
                 )}
               </div>
-              <button
-                type="button"
-                onClick={onToggle}
-                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
-                  added
-                    ? "bg-[var(--blue-bright)] text-white border-transparent"
-                    : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
-                }`}
-              >
-                {added ? "✓ Added to trip" : "Add to trip"}
-              </button>
+              {/* Book is the conversion — the loud, colored, primary CTA. */}
               <a
                 href={item.deepLink}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 onClick={() => fireAffiliateClick(item)}
-                className="text-xs text-[var(--teal-link)] hover:underline"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-bold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-110"
+                style={{ backgroundColor: "var(--blue-bright)" }}
               >
-                Book now on {platform} →
+                Book now on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
               </a>
+              {/* Add-to-trip is the quiet secondary (drives the PDF contents). */}
+              <button
+                type="button"
+                onClick={onToggle}
+                className={`text-xs font-semibold transition-colors ${
+                  added
+                    ? "text-[var(--teal-link)]"
+                    : "text-[var(--slate-muted)] hover:text-[var(--navy-deep)]"
+                }`}
+              >
+                {added ? "✓ Added to trip" : "+ Add to trip"}
+              </button>
             </>
           ) : pending ? (
             <div className="flex flex-col items-end gap-2">
@@ -942,30 +916,40 @@ function ItemCard({
       {/* Mobile-only price + CTA */}
       <div className="sm:hidden mt-3 pt-3 border-t" style={{ borderColor: "var(--border-cream)" }}>
         {matched ? (
-          <div className="flex items-center justify-between gap-3">
-            <div>
-              {item.price !== undefined && (
-                <span
-                  className="text-xl font-bold"
-                  style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
-                >
-                  {item.currency === "USD" || !item.currency ? "$" : `${item.currency} `}
-                  {item.price}
-                </span>
-              )}
+          <>
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                {item.price !== undefined && (
+                  <span
+                    className="text-xl font-bold"
+                    style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+                  >
+                    {item.currency === "USD" || !item.currency ? "$" : `${item.currency} `}
+                    {item.price}
+                  </span>
+                )}
+              </div>
+              <a
+                href={item.deepLink}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                onClick={() => fireAffiliateClick(item)}
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-bold text-white shadow-sm"
+                style={{ backgroundColor: "var(--blue-bright)" }}
+              >
+                Book on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
+              </a>
             </div>
             <button
               type="button"
               onClick={onToggle}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
-                added
-                  ? "bg-[var(--blue-bright)] text-white border-transparent"
-                  : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)]"
+              className={`mt-2 text-xs font-semibold ${
+                added ? "text-[var(--teal-link)]" : "text-[var(--slate-muted)]"
               }`}
             >
-              {added ? "✓ Added" : "Add to trip"}
+              {added ? "✓ Added to trip" : "+ Add to trip"}
             </button>
-          </div>
+          </>
         ) : pending ? (
           <div
             className="h-9 w-full rounded-full animate-pulse"
@@ -975,17 +959,6 @@ function ItemCard({
           <p className="text-xs text-[var(--slate-muted)]">
             {item.noMatchReason ?? "Not bookable online"}
           </p>
-        )}
-        {matched && (
-          <a
-            href={item.deepLink}
-            target="_blank"
-            rel="sponsored noopener noreferrer"
-            onClick={() => fireAffiliateClick(item)}
-            className="block mt-2 text-right text-xs text-[var(--teal-link)] hover:underline"
-          >
-            Book now on {platform} →
-          </a>
         )}
       </div>
     </div>

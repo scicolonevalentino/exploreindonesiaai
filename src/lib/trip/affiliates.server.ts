@@ -26,6 +26,8 @@ export type ProductMatch = {
   // Set when the partner owns the URL (Viator productUrl, Travelpayouts smart
   // links). When absent the matcher falls back to buildDeepLink().
   deepLink?: string;
+  // Product photo URL when the partner returns one (Viator).
+  imageUrl?: string;
 };
 
 const FETCH_TIMEOUT_MS = 8000;
@@ -104,12 +106,18 @@ async function searchViator(query: string, location: string): Promise<ProductMat
         title: string;
         productUrl?: string;
         pricing?: { summary?: { fromPrice?: number }; currency?: string };
+        images?: Array<{ variants?: Array<{ width?: number; url?: string }> }>;
       }>;
     };
   } | null;
 
   const top = data?.products?.results?.[0];
   if (!top?.productCode) return null;
+  // Pick a mid-size image variant (~240-540px wide) for the card thumbnail.
+  const variants = top.images?.[0]?.variants ?? [];
+  const imageUrl =
+    variants.find((v) => (v.width ?? 0) >= 240 && (v.width ?? 0) <= 540)?.url ??
+    variants[variants.length - 1]?.url;
   return {
     partner: "viator",
     productId: top.productCode,
@@ -118,6 +126,7 @@ async function searchViator(query: string, location: string): Promise<ProductMat
     currency: top.pricing?.currency ?? "USD",
     // productUrl from the partner API already carries our tracking.
     deepLink: top.productUrl,
+    imageUrl,
   };
 }
 

@@ -42,6 +42,7 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
       price: product.price,
       currency: product.currency,
       deepLink,
+      imageUrl: product.imageUrl,
       matchStatus: "matched",
       noMatchReason: undefined,
     };
