@@ -65,8 +65,8 @@ describe("matchItem routing rules", () => {
     expect(result.deepLink).toBe("https://airalo.tpx.lu/test");
   });
 
-  it("ferry on a known route matches the 12Go smart link", async () => {
-    vi.stubEnv("TWELVEGO_AFFILIATE_LINK", "https://12go.tpx.lu/test");
+  it("ferry on a known route deep-links to the 12Go route page with the z code", async () => {
+    vi.stubEnv("TWELVEGO_AFFILIATE_Z", "16022946");
     const result = await matchItem(
       item({
         category: "ferry_transport",
@@ -75,11 +75,11 @@ describe("matchItem routing rules", () => {
       }),
     );
     expect(result.matchStatus).toBe("matched");
-    expect(result.deepLink).toBe("https://12go.tpx.lu/test");
+    expect(result.deepLink).toBe("https://12go.asia/en/travel/sanur/nusa-penida?z=16022946");
   });
 
-  it("ferry on an unknown remote route is no_match 'arrange locally' — even with the link set", async () => {
-    vi.stubEnv("TWELVEGO_AFFILIATE_LINK", "https://12go.tpx.lu/test");
+  it("ferry on an unknown remote route is no_match 'arrange locally' — even with the code set", async () => {
+    vi.stubEnv("TWELVEGO_AFFILIATE_Z", "16022946");
     const result = await matchItem(
       item({
         category: "ferry_transport",

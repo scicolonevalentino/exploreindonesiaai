@@ -185,8 +185,10 @@ const TWELVEGO_ROUTES: Array<{ pattern: RegExp; route: string }> = [
 ];
 
 async function search12Go(query: string, location: string): Promise<ProductMatch | null> {
-  const link = env("TWELVEGO_AFFILIATE_LINK");
-  if (!link) return null;
+  // Any 12go.asia URL becomes an affiliate link by appending ?z=<code>, so we
+  // deep-link straight to the matched route page instead of the agent home.
+  const z = env("TWELVEGO_AFFILIATE_Z");
+  if (!z) return null;
   const haystack = `${query} ${location}`;
   const hit = TWELVEGO_ROUTES.find((r) => r.pattern.test(haystack));
   if (!hit) return null;
@@ -194,7 +196,7 @@ async function search12Go(query: string, location: string): Promise<ProductMatch
     partner: "12go",
     productId: hit.route,
     title: `Tickets: ${hit.route.replace("/", " → ")}`,
-    deepLink: link,
+    deepLink: `https://12go.asia/en/travel/${hit.route}?z=${z}`,
   };
 }
 
