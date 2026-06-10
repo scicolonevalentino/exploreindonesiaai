@@ -258,7 +258,6 @@ function Trust() {
     { name: "Booking.com", color: "#1b3aa0" },
     { name: "GetYourGuide", color: "#e0533a" },
     { name: "12Go", color: "#0d9488" },
-    { name: "Agoda", color: "#d72f7a" },
     { name: "Hostelworld", color: "#f15a2b" },
     { name: "Trip.com", color: "#287dfa" },
     { name: "Kiwi.com", color: "#00a991" },
