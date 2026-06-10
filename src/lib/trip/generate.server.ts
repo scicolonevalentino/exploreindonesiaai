@@ -66,20 +66,27 @@ Output rules:
 - Do NOT generate "tip"/insight items about local quirks — those are added separately. Focus on the plan itself.
 - Descriptions: 1-2 concrete sentences a traveler can act on. Realistic timing, travel times, and geography (don't zigzag between regions).`;
 
-// Strip ```json ... ``` fences in case the model wraps its JSON output.
-function stripMarkdownFences(text: string): string {
-  return text
+// Extract the JSON object from the model's reply: strip ```json fences and any
+// stray preamble/trailing prose by slicing from the first { to the last }.
+function extractJson(text: string): string {
+  const cleaned = text
     .trim()
     .replace(/^```(?:json)?\s*/i, "")
     .replace(/\s*```$/, "")
     .trim();
+  const start = cleaned.indexOf("{");
+  const end = cleaned.lastIndexOf("}");
+  return start !== -1 && end > start ? cleaned.slice(start, end + 1) : cleaned;
 }
 
 export async function generateTrip(prefs: TripPreferences): Promise<Trip> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) throw new GenerationFailedError("ANTHROPIC_API_KEY is not configured");
 
-  const maxTokens = (prefs.days ?? 0) > 10 ? 6000 : 4000;
+  // The prompt-first flow has no `days` field, so size generously: a multi-day
+  // itinerary with morning/afternoon/evening items is large JSON. Too small a
+  // cap truncates the response mid-object and parsing fails.
+  const maxTokens = 16000;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -103,10 +110,17 @@ export async function generateTrip(prefs: TripPreferences): Promise<Trip> {
 
   let trip: Trip;
   try {
-    const data = (await res.json()) as { content?: Array<{ text?: string }> };
+    const data = (await res.json()) as {
+      content?: Array<{ text?: string }>;
+      stop_reason?: string;
+    };
+    if (data.stop_reason === "max_tokens") {
+      throw new GenerationFailedError("Itinerary response was truncated (max_tokens)");
+    }
     const text = data.content?.[0]?.text ?? "";
-    trip = TripSchema.parse(JSON.parse(stripMarkdownFences(text)));
-  } catch {
+    trip = TripSchema.parse(JSON.parse(extractJson(text)));
+  } catch (err) {
+    if (err instanceof GenerationFailedError) throw err;
     // No retry by design — the caller returns 500 generation_failed.
     throw new GenerationFailedError("Could not parse itinerary JSON");
   }
