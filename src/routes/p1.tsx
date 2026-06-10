@@ -493,8 +493,15 @@ function TripStage({
   for (const item of trip.items) {
     itemsByDay.set(item.day, [...(itemsByDay.get(item.day) ?? []), item]);
   }
-  const bookableCount = trip.items.filter((i) => i.type === "bookable").length;
-  const infoCount = trip.items.length - bookableCount;
+  // Real, post-generation stats for the trip header (counts, not fake demo data).
+  const recommendedCount = trip.items.filter((i) => i.suggested).length;
+  const bookableCount = trip.items.filter((i) => i.type === "bookable" && !i.suggested).length;
+  const STATS = [
+    { n: trip.days, label: "Days" },
+    { n: bookableCount, label: "Bookable" },
+    { n: recommendedCount, label: "Recommended" },
+    { n: insights.length, label: "Local insights" },
+  ];
 
   // Matched bookables start added (prototype's defaultAdded behavior).
   const [added, setAdded] = useState<Set<string>>(new Set());
@@ -589,14 +596,24 @@ function TripStage({
             {trip.title}
           </h1>
           <p className="text-sm text-[var(--slate-muted)] max-w-2xl">{trip.summary}</p>
-          <p className="text-sm mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
-            <span>📅 {trip.days} days</span>
-            <span>🎟️ {bookableCount} bookable</span>
-            <span>
-              <Footprints className="inline w-3.5 h-3.5 -mt-0.5" aria-hidden /> {infoCount} tips &
-              local moments
-            </span>
-          </p>
+
+          {/* Real trip stats (post-generation), styled like the prototype's
+              assembling counters but with true numbers. */}
+          <div className="mt-6 flex flex-wrap gap-x-10 gap-y-4">
+            {STATS.map((s) => (
+              <div key={s.label}>
+                <div
+                  className="text-3xl sm:text-4xl font-bold leading-none"
+                  style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+                >
+                  {s.n}
+                </div>
+                <div className="text-[11px] uppercase tracking-widest text-[var(--slate-muted)] mt-1.5">
+                  {s.label}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="space-y-12">
