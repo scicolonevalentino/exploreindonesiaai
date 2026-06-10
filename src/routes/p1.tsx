@@ -459,7 +459,14 @@ function buildItineraryHtml(trip: Trip, added: Set<string>, insights: Insight[])
           </li>`;
         })
         .join("\n");
-      return `<h2>Day ${day}</h2><ul>${rows}</ul>`;
+      const dayInsights = insights
+        .filter((ins) => ins.day === day)
+        .map(
+          (ins) =>
+            `<li class="insight">💡 <strong>${esc(ins.destination)}</strong> — ${esc(ins.tip)}</li>`,
+        )
+        .join("\n");
+      return `<h2>Day ${day}</h2><ul>${rows}${dayInsights}</ul>`;
     })
     .join("\n");
 
@@ -477,14 +484,7 @@ function buildItineraryHtml(trip: Trip, added: Set<string>, insights: Insight[])
 <h1>${esc(trip.title)}</h1>
 <p>${esc(trip.summary)}</p>
 ${days}
-${
-  insights.length
-    ? `<h2>Local Insights</h2><ul>${insights
-        .map((ins) => `<li><strong>${esc(ins.destination)}</strong><br/>${esc(ins.tip)}</li>`)
-        .join("\n")}</ul>`
-    : ""
-}
-<footer>★ = added to your trip · Built with exploreindonesia.ai — prices are live at time of booking.</footer>
+<footer>★ = added to your trip · 💡 = local insight · Built with exploreindonesia.ai — prices are live at time of booking.</footer>
 </body></html>`;
 }
 
@@ -617,30 +617,12 @@ function TripStage({
                 key={day}
                 day={day}
                 items={itemsByDay.get(day)!}
+                insights={insights.filter((ins) => ins.day === day)}
                 added={added}
                 onToggle={toggle}
               />
             ))}
         </div>
-
-        {insights.length > 0 && (
-          <div className="mt-16">
-            <p
-              className="text-xs font-semibold uppercase tracking-[0.22em] mb-2"
-              style={{ color: "var(--teal-link)" }}
-            >
-              Local Insights
-            </p>
-            <h2 className="text-2xl font-bold mb-5" style={{ fontFamily: "var(--font-serif)" }}>
-              What most travelers (and AI tools) don't know
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {insights.map((insight, i) => (
-                <InsightCard key={i} insight={insight} />
-              ))}
-            </div>
-          </div>
-        )}
       </section>
 
       {/* Inline totals + CTA — prototype layout, Download instead of Review & book */}
@@ -673,32 +655,32 @@ function TripStage({
   );
 }
 
+// Woven into the day blocks like the prototype's self-guided cards: same
+// dashed-card anatomy (round icon, uppercase kicker, bold title, muted body).
 function InsightCard({ insight }: { insight: Insight }) {
   const label = INSIGHT_LABEL[insight.label] ?? INSIGHT_LABEL.local_knowledge;
   return (
     <div
-      className="rounded-xl border p-4 flex items-start gap-3"
+      className="flex items-start gap-4 p-4 rounded-xl border border-dashed"
       style={{ borderColor: "var(--border-cream)", backgroundColor: "#fbf2dd" }}
     >
       <div
-        className="w-9 h-9 rounded-full flex items-center justify-center shrink-0"
+        className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
         style={{ backgroundColor: "var(--cream)" }}
       >
-        <Lightbulb className="w-4.5 h-4.5" style={{ color: "var(--teal-link)" }} aria-hidden />
+        <Lightbulb className="w-5 h-5" style={{ color: "var(--teal-link)" }} aria-hidden />
       </div>
       <div className="min-w-0">
-        <div className="flex flex-wrap items-center gap-2 mb-1.5">
+        <div className="flex flex-wrap items-center gap-2 mb-1">
           <span
             className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded"
             style={{ backgroundColor: label.bg, color: label.fg }}
           >
             {label.text}
           </span>
-          <span className="text-xs font-semibold text-[var(--slate-muted)]">
-            {insight.destination}
-          </span>
         </div>
-        <p className="text-sm leading-snug">{insight.tip}</p>
+        <h3 className="font-bold text-base">{insight.destination}</h3>
+        <p className="text-sm text-[var(--slate-muted)] mt-1">{insight.tip}</p>
       </div>
     </div>
   );
@@ -707,11 +689,13 @@ function InsightCard({ insight }: { insight: Insight }) {
 function DayBlock({
   day,
   items,
+  insights,
   added,
   onToggle,
 }: {
   day: number;
   items: ItineraryItem[];
+  insights: Insight[];
   added: Set<string>;
   onToggle: (key: string, item: ItineraryItem) => void;
 }) {
@@ -749,6 +733,9 @@ function DayBlock({
             added={added.has(`${day}-${i}`)}
             onToggle={() => onToggle(`${day}-${i}`, item)}
           />
+        ))}
+        {insights.map((insight, i) => (
+          <InsightCard key={`ins-${day}-${i}`} insight={insight} />
         ))}
       </div>
     </div>

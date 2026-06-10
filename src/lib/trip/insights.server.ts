@@ -11,6 +11,7 @@ import type { Insight, Trip } from "@/lib/trip/types";
 
 // Mirrors the client-safe Insight type in types.ts.
 export const InsightSchema: z.ZodType<Insight> = z.object({
+  day: z.number().int().min(1),
   destination: z.string(),
   tip: z.string(),
   label: z.enum(["ai_blind_spot", "local_knowledge", "easy_to_miss"]),
@@ -37,9 +38,10 @@ Rules:
   - "ai_blind_spot" — something AI assistants and blogs typically get wrong about this place
   - "local_knowledge" — something locals know that tourists rarely do
   - "easy_to_miss" — a detail travelers overlook that changes the experience
+- "day" is the day number of the itinerary item the tip relates to — it MUST be one of the day numbers present in the itinerary, because the tip is rendered inside that day's section. At most 2 tips per day.
 
 Respond with ONLY a JSON object, no prose, no markdown fences:
-{"insights": [{"destination": string, "tip": string, "label": "ai_blind_spot" | "local_knowledge" | "easy_to_miss"}]}`;
+{"insights": [{"day": number, "destination": string, "tip": string, "label": "ai_blind_spot" | "local_knowledge" | "easy_to_miss"}]}`;
 
 export async function generateInsights(trip: Trip): Promise<Insight[]> {
   const apiKey = process.env.ANTHROPIC_API_KEY;

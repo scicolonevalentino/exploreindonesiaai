@@ -71,6 +71,8 @@ export type TripPreferences = z.infer<typeof TripPreferencesSchema>;
 export type InsightLabel = "ai_blind_spot" | "local_knowledge" | "easy_to_miss";
 
 export type Insight = {
+  // Day of the itinerary the tip is woven into (rendered inside that day block).
+  day: number;
   destination: string;
   tip: string;
   label: InsightLabel;
