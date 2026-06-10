@@ -18,7 +18,6 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
-import { Route as ApiPublicTripInsightsRouteImport } from './routes/api/public/trip-insights'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
@@ -68,11 +67,6 @@ const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
   path: '/destinations/$destination',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ApiPublicTripInsightsRoute = ApiPublicTripInsightsRouteImport.update({
-  id: '/api/public/trip-insights',
-  path: '/api/public/trip-insights',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ApiPublicMatchTripRoute = ApiPublicMatchTripRouteImport.update({
   id: '/api/public/match-trip',
   path: '/api/public/match-trip',
@@ -102,7 +96,6 @@ export interface FileRoutesByFullPath {
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
-  '/api/public/trip-insights': typeof ApiPublicTripInsightsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -117,7 +110,6 @@ export interface FileRoutesByTo {
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
-  '/api/public/trip-insights': typeof ApiPublicTripInsightsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -133,7 +125,6 @@ export interface FileRoutesById {
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
-  '/api/public/trip-insights': typeof ApiPublicTripInsightsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -150,7 +141,6 @@ export interface FileRouteTypes {
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
-    | '/api/public/trip-insights'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -165,7 +155,6 @@ export interface FileRouteTypes {
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
-    | '/api/public/trip-insights'
   id:
     | '__root__'
     | '/'
@@ -180,7 +169,6 @@ export interface FileRouteTypes {
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
-    | '/api/public/trip-insights'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -196,7 +184,6 @@ export interface RootRouteChildren {
   ApiPublicBuildTripRoute: typeof ApiPublicBuildTripRoute
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
   ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
-  ApiPublicTripInsightsRoute: typeof ApiPublicTripInsightsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -264,13 +251,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DestinationsDestinationRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/api/public/trip-insights': {
-      id: '/api/public/trip-insights'
-      path: '/api/public/trip-insights'
-      fullPath: '/api/public/trip-insights'
-      preLoaderRoute: typeof ApiPublicTripInsightsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/api/public/match-trip': {
       id: '/api/public/match-trip'
       path: '/api/public/match-trip'
@@ -308,9 +288,17 @@ const rootRouteChildren: RootRouteChildren = {
   ApiPublicBuildTripRoute: ApiPublicBuildTripRoute,
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
   ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,
-  ApiPublicTripInsightsRoute: ApiPublicTripInsightsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
 
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

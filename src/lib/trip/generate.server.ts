@@ -30,27 +30,40 @@ Respond with ONLY a JSON object — no prose, no markdown fences — in this exa
   "items": [
     {
       "day": number (1-based),
-      "time": string (optional, e.g. "08:00" or "Afternoon"),
+      "time": "Morning" | "Afternoon" | "Evening" | "Full day",
       "type": "bookable" | "informational",
       "category": "activity" | "spa_wellness" | "private_transfer" | "on_demand_transport" | "accommodation" | "ferry_transport" | "esim" | "tip",
       "title": string,
       "description": string,
       "location": string,
       "searchQuery": string,
+      "suggested": boolean (optional, default false),
       "matchStatus": "pending"
     }
   ]
 }
 
+Time-of-day structure (important):
+- "time" MUST be one of "Morning", "Afternoon", "Evening", or "Full day".
+- Build each day around these slots — typically a Morning item, an Afternoon item, and often an Evening item (dinner area, sunset spot, night market).
+- If an activity genuinely fills the whole day (a full-day tour, a long trek, an island day-trip), use "Full day" for it and do NOT also add separate Morning/Afternoon items that day.
+- Order items within a day: Full day first if present, otherwise Morning → Afternoon → Evening.
+
+Suggestions ("suggested": true):
+- These are OPTIONAL bonus add-ons the traveler might enjoy but that aren't core to the day (e.g. "there's a lovely spa nearby", an optional cooking class, a sunset cocktail spot).
+- A suggestion should be a genuinely bookable experience where possible — use type "bookable" with a real searchQuery and an appropriate category (usually "activity" or "spa_wellness") so it can be matched to an affiliate product.
+- Include 1-3 suggestions across the whole trip, not one per day. Mark them "suggested": true. Core items stay "suggested": false / omitted.
+
 Output rules:
-- Every day gets 2-5 items mixing bookable and informational.
+- Every day gets 2-4 items across the time slots, mixing bookable and informational.
 - type "bookable" only for things genuinely pre-bookable online: tours/activities, spa, private airport/inter-city transfers, hotels, ferries between major islands, eSIM.
 - category "on_demand_transport" (Grab/Gojek rides, local taxis) is ALWAYS type "informational" and its description MUST state: mode, estimated price in IDR, and the app name.
 - category "tip" is ALWAYS informational.
-- Include exactly one "esim" item on day 1.
+- Include exactly one "esim" item on day 1 (time "Morning").
 - Ferries only between routes that actually exist; for remote crossings prefer informational guidance.
 - searchQuery: a precise English partner-marketplace search phrase for the exact product (e.g. "Mount Batur sunrise trekking tour", "private transfer Ngurah Rai airport to Ubud"). Never include dates or party size.
 - matchStatus is always "pending". Never output product IDs, prices, or URLs.
+- Do NOT generate "tip"/insight items about local quirks — those are added separately. Focus on the plan itself.
 - Descriptions: 1-2 concrete sentences a traveler can act on. Realistic timing, travel times, and geography (don't zigzag between regions).`;
 
 // Strip ```json ... ``` fences in case the model wraps its JSON output.

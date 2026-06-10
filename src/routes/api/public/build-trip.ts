@@ -11,6 +11,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
 import { TripPreferencesSchema } from "@/lib/trip/types";
 import { generateTrip } from "@/lib/trip/generate.server";
+import { selectInsights } from "@/lib/trip/insights";
 
 // Best-effort per-instance rate limit (same approach as waitlist.functions.ts).
 // Generation is the expensive call — keep abuse cheap to deflect.
@@ -68,7 +69,15 @@ export const Route = createFileRoute("/api/public/build-trip")({
 
         try {
           const trip = await generateTrip(prefs);
-          return json({ trip });
+          // Local Insights come from the curated static library — instant, free,
+          // no second model call. Never let a lookup hiccup fail the build.
+          let insights: ReturnType<typeof selectInsights> = [];
+          try {
+            insights = selectInsights(trip);
+          } catch {
+            insights = [];
+          }
+          return json({ trip, insights });
         } catch (err) {
           // No retry by design — generation either parses or fails fast.
           console.error("build-trip generation failed:", err);

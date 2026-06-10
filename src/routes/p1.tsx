@@ -6,7 +6,7 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { ArrowLeft, Footprints, Image as ImageIcon, Info, Lightbulb } from "lucide-react";
+import { ArrowLeft, Footprints, Image as ImageIcon, Info, Lightbulb, Sparkles } from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 
@@ -56,6 +56,10 @@ const PARTNER_COLOR: Record<string, string> = {
 };
 
 const MIN_PASTE_LENGTH = 20;
+
+// Day items render grouped into these slots, in this order. "Full day" first so
+// a whole-day tour sits above any stray Morning/Afternoon items.
+const SLOT_ORDER = ["Full day", "Morning", "Afternoon", "Evening"] as const;
 
 const INSIGHT_LABEL: Record<InsightLabel, { text: string; bg: string; fg: string }> = {
   ai_blind_spot: {
@@ -121,7 +125,7 @@ function P1Page() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: prompt.trim() }),
       });
-      const data = (await res.json()) as { trip?: Trip; error?: string };
+      const data = (await res.json()) as { trip?: Trip; insights?: Insight[]; error?: string };
       if (!res.ok || !data.trip) {
         throw new Error(
           data.error === "generation_failed"
@@ -133,25 +137,11 @@ function P1Page() {
       setTrip(data.trip);
       setStage("trip");
       setMatching(true);
-      setInsights([]);
+      // Local Insights arrive with the trip (curated static library, no 2nd call).
+      const tripInsights = data.insights ?? [];
+      setInsights(tripInsights);
       trackEvent("trip_generated", { days: data.trip.days, items: data.trip.items.length });
-
-      // Local Insights: second Claude call with the insider persona, fired in
-      // parallel with matching. Best-effort — any failure silently omits the
-      // section, never an error for the user.
-      fetch("/api/public/trip-insights", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data.trip),
-      })
-        .then((r) => (r.ok ? r.json() : null))
-        .then((d: { insights?: Insight[] } | null) => {
-          if (d?.insights?.length) {
-            setInsights(d.insights);
-            trackEvent("insights_shown", { count: d.insights.length });
-          }
-        })
-        .catch(() => {});
+      if (tripInsights.length) trackEvent("insights_shown", { count: tripInsights.length });
 
       // Phase 2: resolve affiliate matches while the user reads the plan.
       const matchRes = await fetch("/api/public/match-trip", {
@@ -725,15 +715,32 @@ function DayBlock({
         />
       </div>
 
-      <div className="space-y-4">
-        {items.map((item, i) => (
-          <ItemCard
-            key={`${day}-${i}`}
-            item={item}
-            added={added.has(`${day}-${i}`)}
-            onToggle={() => onToggle(`${day}-${i}`, item)}
-          />
-        ))}
+      <div className="space-y-5">
+        {SLOT_ORDER.map((slot) => {
+          // Keep each item's ORIGINAL index so add-to-trip keys stay stable.
+          const inSlot = items
+            .map((item, i) => ({ item, i }))
+            .filter(({ item }) => (item.time ?? "Morning") === slot);
+          if (inSlot.length === 0) return null;
+          return (
+            <div key={slot} className="space-y-3">
+              <p
+                className="text-[11px] font-bold uppercase tracking-[0.18em]"
+                style={{ color: "var(--slate-muted)" }}
+              >
+                {slot}
+              </p>
+              {inSlot.map(({ item, i }) => (
+                <ItemCard
+                  key={`${day}-${i}`}
+                  item={item}
+                  added={added.has(`${day}-${i}`)}
+                  onToggle={() => onToggle(`${day}-${i}`, item)}
+                />
+              ))}
+            </div>
+          );
+        })}
         {insights.map((insight, i) => (
           <InsightCard key={`ins-${day}-${i}`} insight={insight} />
         ))}
@@ -790,10 +797,13 @@ function ItemCard({
 
   return (
     <div
-      className={`p-3 sm:p-4 rounded-xl border bg-white transition-all ${
+      className={`p-3 sm:p-4 rounded-xl border transition-all ${
         added ? "ring-2 ring-[var(--blue-bright)]" : ""
       }`}
-      style={{ borderColor: "var(--border-cream)" }}
+      style={{
+        borderColor: "var(--border-cream)",
+        backgroundColor: item.suggested ? "#fbf2dd" : "white",
+      }}
     >
       <div className="grid grid-cols-[96px_1fr] sm:grid-cols-[140px_1fr_auto] gap-3 sm:gap-4">
         <div
@@ -807,18 +817,18 @@ function ItemCard({
               {item.title.length > 32 ? "…" : ""}
             </div>
           </div>
-          {item.time && (
-            <div
-              className="absolute bottom-1.5 left-1.5 z-10 text-[10px] px-2 py-0.5 rounded-full text-white"
-              style={{ backgroundColor: "var(--navy-deep)" }}
-            >
-              {item.time}
-            </div>
-          )}
         </div>
 
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
+            {item.suggested && (
+              <span
+                className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider"
+                style={{ color: "#b58a3a" }}
+              >
+                <Sparkles className="w-3 h-3" aria-hidden /> Recommended
+              </span>
+            )}
             {matched && item.partner && (
               <span
                 className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded text-white"

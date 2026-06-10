@@ -35,6 +35,10 @@ export const ItineraryItemSchema = z.object({
   deepLink: z.string().optional(),
   matchStatus: z.enum(["pending", "matched", "no_match"]),
   noMatchReason: z.string().optional(),
+  // Optional bookable add-on ("there's a lovely spa nearby") — rendered as a
+  // gold "Recommended" card. Still goes through affiliate matching like any
+  // bookable item.
+  suggested: z.boolean().optional(),
 });
 
 export type ItineraryItem = z.infer<typeof ItineraryItemSchema>;
