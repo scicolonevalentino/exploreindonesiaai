@@ -66,6 +66,16 @@ export const TripPreferencesSchema = z.object({
 
 export type TripPreferences = z.infer<typeof TripPreferencesSchema>;
 
+// "Local Insights" tip produced by the second Claude call (insights.server.ts).
+// Client-safe type — the zod validation lives server-side.
+export type InsightLabel = "ai_blind_spot" | "local_knowledge" | "easy_to_miss";
+
+export type Insight = {
+  destination: string;
+  tip: string;
+  label: InsightLabel;
+};
+
 // Categories that may never carry a booking link, regardless of what the
 // model emits. Enforced in code after generation (defense in depth).
 export const ALWAYS_INFORMATIONAL: ReadonlySet<Category> = new Set(["on_demand_transport", "tip"]);

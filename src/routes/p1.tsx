@@ -6,9 +6,9 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { ArrowLeft, Footprints, Image as ImageIcon, Info } from "lucide-react";
+import { ArrowLeft, Footprints, Image as ImageIcon, Info, Lightbulb } from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
-import type { ItineraryItem, Trip } from "@/lib/trip/types";
+import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 
 export const Route = createFileRoute("/p1")({
   head: () => ({
@@ -57,6 +57,16 @@ const PARTNER_COLOR: Record<string, string> = {
 
 const MIN_PASTE_LENGTH = 20;
 
+const INSIGHT_LABEL: Record<InsightLabel, { text: string; bg: string; fg: string }> = {
+  ai_blind_spot: {
+    text: "AI assistants get this wrong",
+    bg: "var(--gold-warm)",
+    fg: "var(--navy-deep)",
+  },
+  local_knowledge: { text: "Local knowledge", bg: "var(--blue-bright)", fg: "#ffffff" },
+  easy_to_miss: { text: "Easy to miss", bg: "var(--navy-deep)", fg: "#ffffff" },
+};
+
 /* -------------------------------------------------------------------------- */
 /*  GA4                                                                       */
 /* -------------------------------------------------------------------------- */
@@ -93,6 +103,7 @@ function P1Page() {
   const [prompt, setPrompt] = useState("");
   const [trip, setTrip] = useState<Trip | null>(null);
   const [matching, setMatching] = useState(false);
+  const [insights, setInsights] = useState<Insight[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -122,7 +133,25 @@ function P1Page() {
       setTrip(data.trip);
       setStage("trip");
       setMatching(true);
+      setInsights([]);
       trackEvent("trip_generated", { days: data.trip.days, items: data.trip.items.length });
+
+      // Local Insights: second Claude call with the insider persona, fired in
+      // parallel with matching. Best-effort — any failure silently omits the
+      // section, never an error for the user.
+      fetch("/api/public/trip-insights", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data.trip),
+      })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d: { insights?: Insight[] } | null) => {
+          if (d?.insights?.length) {
+            setInsights(d.insights);
+            trackEvent("insights_shown", { count: d.insights.length });
+          }
+        })
+        .catch(() => {});
 
       // Phase 2: resolve affiliate matches while the user reads the plan.
       const matchRes = await fetch("/api/public/match-trip", {
@@ -162,7 +191,12 @@ function P1Page() {
       )}
       {stage === "building" && <BuildingStage />}
       {stage === "trip" && trip && (
-        <TripStage trip={trip} matching={matching} onEdit={() => setStage("input")} />
+        <TripStage
+          trip={trip}
+          matching={matching}
+          insights={insights}
+          onEdit={() => setStage("input")}
+        />
       )}
     </div>
   );
@@ -397,7 +431,7 @@ function itemKey(item: ItineraryItem, indexInDay: number) {
 
 // Self-contained branded HTML the user keeps. Booking links carry the
 // affiliate IDs, so the downloaded itinerary keeps converting offline.
-function buildItineraryHtml(trip: Trip, added: Set<string>): string {
+function buildItineraryHtml(trip: Trip, added: Set<string>, insights: Insight[]): string {
   const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const byDay = new Map<number, ItineraryItem[]>();
   for (const item of trip.items) {
@@ -443,6 +477,13 @@ function buildItineraryHtml(trip: Trip, added: Set<string>): string {
 <h1>${esc(trip.title)}</h1>
 <p>${esc(trip.summary)}</p>
 ${days}
+${
+  insights.length
+    ? `<h2>Local Insights</h2><ul>${insights
+        .map((ins) => `<li><strong>${esc(ins.destination)}</strong><br/>${esc(ins.tip)}</li>`)
+        .join("\n")}</ul>`
+    : ""
+}
 <footer>★ = added to your trip · Built with exploreindonesia.ai — prices are live at time of booking.</footer>
 </body></html>`;
 }
@@ -450,10 +491,12 @@ ${days}
 function TripStage({
   trip,
   matching,
+  insights,
   onEdit,
 }: {
   trip: Trip;
   matching: boolean;
+  insights: Insight[];
   onEdit: () => void;
 }) {
   const itemsByDay = new Map<number, ItineraryItem[]>();
@@ -514,7 +557,7 @@ function TripStage({
       items_added: totals.count,
       estimated_total: totals.total,
     });
-    const html = buildItineraryHtml(trip, added);
+    const html = buildItineraryHtml(trip, added, insights);
     const blob = new Blob([html], { type: "text/html" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -579,6 +622,25 @@ function TripStage({
               />
             ))}
         </div>
+
+        {insights.length > 0 && (
+          <div className="mt-16">
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.22em] mb-2"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Local Insights
+            </p>
+            <h2 className="text-2xl font-bold mb-5" style={{ fontFamily: "var(--font-serif)" }}>
+              What most travelers (and AI tools) don't know
+            </h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {insights.map((insight, i) => (
+                <InsightCard key={i} insight={insight} />
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Inline totals + CTA — prototype layout, Download instead of Review & book */}
@@ -606,6 +668,37 @@ function TripStage({
             Download the itinerary <span aria-hidden>↓</span>
           </button>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function InsightCard({ insight }: { insight: Insight }) {
+  const label = INSIGHT_LABEL[insight.label] ?? INSIGHT_LABEL.local_knowledge;
+  return (
+    <div
+      className="rounded-xl border p-4 flex items-start gap-3"
+      style={{ borderColor: "var(--border-cream)", backgroundColor: "#fbf2dd" }}
+    >
+      <div
+        className="w-9 h-9 rounded-full flex items-center justify-center shrink-0"
+        style={{ backgroundColor: "var(--cream)" }}
+      >
+        <Lightbulb className="w-4.5 h-4.5" style={{ color: "var(--teal-link)" }} aria-hidden />
+      </div>
+      <div className="min-w-0">
+        <div className="flex flex-wrap items-center gap-2 mb-1.5">
+          <span
+            className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded"
+            style={{ backgroundColor: label.bg, color: label.fg }}
+          >
+            {label.text}
+          </span>
+          <span className="text-xs font-semibold text-[var(--slate-muted)]">
+            {insight.destination}
+          </span>
+        </div>
+        <p className="text-sm leading-snug">{insight.tip}</p>
       </div>
     </div>
   );
