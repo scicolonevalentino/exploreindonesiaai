@@ -76,7 +76,8 @@ export async function generateTrip(prefs: TripPreferences): Promise<Trip> {
       "content-type": "application/json",
     },
     body: JSON.stringify({
-      model: "claude-fable-5",
+      // P1: Sonnet is the quality/cost sweet spot for structured generation.
+      model: "claude-sonnet-4-6",
       max_tokens: maxTokens,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: JSON.stringify(prefs) }],

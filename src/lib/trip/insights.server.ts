@@ -67,7 +67,8 @@ export async function generateInsights(trip: Trip): Promise<Insight[]> {
       "content-type": "application/json",
     },
     body: JSON.stringify({
-      model: "claude-fable-5",
+      // P1: insights is a small contained task — cheapest tier is plenty.
+      model: "claude-haiku-4-5",
       max_tokens: 1500,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: JSON.stringify(digest) }],
