@@ -313,7 +313,7 @@ function FooterBar() {
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white border border-white/15 hover:bg-white/5 transition-colors"
             >
               <Heart className="w-4 h-4 fill-emerald-400 text-emerald-400" aria-hidden="true" />
-              Support the Project — contact us
+              Support this project! Contact us
             </button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-md">
