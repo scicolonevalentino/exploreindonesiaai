@@ -49,3 +49,12 @@ create policy "own saved_trips" on public.saved_trips
   for all
   using (auth.uid() = user_id)
   with check (auth.uid() = user_id);
+
+-- ---------------------------------------------------------------------------
+-- API grants — required on newer Supabase projects (no auto-grant). RLS above
+-- still limits every role to its own rows.
+-- ---------------------------------------------------------------------------
+grant usage on schema public to authenticated, service_role;
+grant select, insert, update, delete
+  on public.saved_trips, public.preferences
+  to authenticated, service_role;
