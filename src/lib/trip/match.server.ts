@@ -7,6 +7,7 @@
 
 import { ALWAYS_INFORMATIONAL, PARTNER_ROUTING, type ItineraryItem } from "@/lib/trip/types";
 import { buildDeepLink, PARTNER_SEARCH } from "@/lib/trip/affiliates.server";
+import { resolveImage } from "@/lib/trip/images.server";
 
 export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
   // Hard rules first — these categories never get a booking link.
@@ -42,7 +43,8 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
       price: product.price,
       currency: product.currency,
       deepLink,
-      imageUrl: product.imageUrl,
+      // Viator photo when present, else a Pexels image (or eSIM/ferry standard).
+      imageUrl: await resolveImage(item, product.imageUrl),
       matchStatus: "matched",
       noMatchReason: undefined,
     };
@@ -50,6 +52,8 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
 
   return {
     ...item,
+    // Even unmatched bookables (e.g. accommodation) get a representative photo.
+    imageUrl: await resolveImage(item),
     matchStatus: "no_match",
     noMatchReason:
       item.category === "ferry_transport"
