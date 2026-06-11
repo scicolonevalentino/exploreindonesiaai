@@ -7,14 +7,21 @@
 -- restricts every role to its own rows — grants only open the door, policies
 -- decide who gets which rows.
 
--- profiles: consent record + optional phone + marketing opt-in
+-- profiles: name + consent record + optional phone + marketing opt-in
 create table if not exists public.profiles (
   user_id          uuid primary key references auth.users (id) on delete cascade,
+  first_name       text,
+  last_name        text,
   phone            text,
   marketing_opt_in boolean not null default false,
   consent_at       timestamptz,          -- when the user ticked the data-consent box
   updated_at       timestamptz not null default now()
 );
+
+-- Name columns for projects where the table predates them (idempotent).
+alter table public.profiles
+  add column if not exists first_name text,
+  add column if not exists last_name text;
 
 alter table public.profiles enable row level security;
 

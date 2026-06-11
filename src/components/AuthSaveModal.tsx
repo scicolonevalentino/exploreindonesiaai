@@ -52,6 +52,8 @@ export function AuthSaveModal({
   // Caller stashes the built trip to localStorage so it survives the redirect.
   onBeforeAuth: () => void;
 }) {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [consent, setConsent] = useState(false);
@@ -62,6 +64,8 @@ export function AuthSaveModal({
   const stashAll = () => {
     onBeforeAuth();
     stashPendingProfile({
+      first_name: firstName.trim() || undefined,
+      last_name: lastName.trim() || undefined,
       phone: phone.trim() || undefined,
       marketing_opt_in: marketing,
       consent_at: new Date().toISOString(),
@@ -106,6 +110,12 @@ export function AuthSaveModal({
       email: email.trim(),
       options: {
         emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/p1")}`,
+        // Mirror Google signups, which carry the name in user_metadata.
+        data: {
+          first_name: firstName.trim(),
+          last_name: lastName.trim(),
+          full_name: `${firstName.trim()} ${lastName.trim()}`.trim(),
+        },
       },
     });
     setBusy(null);
@@ -169,6 +179,30 @@ export function AuthSaveModal({
               </div>
 
               <form onSubmit={withEmail} className="flex flex-col gap-3">
+                <div className="grid grid-cols-2 gap-3">
+                  <input
+                    type="text"
+                    required
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
+                    placeholder="Name"
+                    aria-label="First name"
+                    autoComplete="given-name"
+                    className="w-full rounded-md border bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
+                    style={{ borderColor: "var(--border-cream)" }}
+                  />
+                  <input
+                    type="text"
+                    required
+                    value={lastName}
+                    onChange={(e) => setLastName(e.target.value)}
+                    placeholder="Last name"
+                    aria-label="Last name"
+                    autoComplete="family-name"
+                    className="w-full rounded-md border bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
+                    style={{ borderColor: "var(--border-cream)" }}
+                  />
+                </div>
                 <input
                   type="email"
                   required
@@ -176,6 +210,7 @@ export function AuthSaveModal({
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@email.com"
                   aria-label="Email address"
+                  autoComplete="email"
                   className="w-full rounded-md border bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
                   style={{ borderColor: "var(--border-cream)" }}
                 />
@@ -230,17 +265,17 @@ export function AuthSaveModal({
                     aria-label="Receive travel tips and offers"
                   />
                   <span className="text-muted-foreground">
-                    Send me Indonesia travel tips, itineraries, and offers. (optional)
+                    Receive news about exclusive itinerary ideas &amp; hidden gems.
                   </span>
                 </label>
 
                 <button
                   type="submit"
                   disabled={busy !== null}
-                  className="mt-1 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-black disabled:opacity-60"
-                  style={{ backgroundColor: "var(--blue-bright)" }}
+                  className="mt-1 inline-flex w-full items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:opacity-60"
                 >
-                  {busy === "email" ? "Sending…" : "Email me a secure link"}
+                  {busy === "email" ? "Sending…" : "Email me a secure link"}{" "}
+                  <span aria-hidden>→</span>
                 </button>
               </form>
             </div>

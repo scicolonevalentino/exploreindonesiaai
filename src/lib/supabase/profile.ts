@@ -9,6 +9,8 @@ import { getSupabaseBrowserClient } from "./client";
 export const PENDING_PROFILE_KEY = "ei:pendingProfile";
 
 export type PendingProfile = {
+  first_name?: string;
+  last_name?: string;
   phone?: string;
   marketing_opt_in: boolean;
   consent_at: string;
@@ -31,6 +33,9 @@ export async function flushPendingProfile(): Promise<void> {
     const pending = JSON.parse(raw) as PendingProfile;
     const { error } = await supabase.from("profiles").upsert({
       user_id: user.id,
+      // Empty for Google signups — their name lives in user_metadata from Google.
+      first_name: pending.first_name || null,
+      last_name: pending.last_name || null,
       phone: pending.phone || null,
       marketing_opt_in: pending.marketing_opt_in,
       consent_at: pending.consent_at,
