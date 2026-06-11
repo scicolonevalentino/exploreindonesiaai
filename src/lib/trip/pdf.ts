@@ -169,7 +169,8 @@ export function downloadItineraryPdf(trip: Trip, added: Set<string>, insights: I
         const name = item.partner ? (PARTNER_NAME[item.partner] ?? item.partner) : "partner";
         const price =
           item.price !== undefined ? `  from ${item.currency ?? "USD"} ${item.price}` : "";
-        const label = t(`Book now on ${name}${price}`);
+        const verb = item.category === "esim" ? "Buy" : "Book"; // eSIM is bought
+        const label = t(`${verb} now on ${name}${price}`);
         doc.setFont("helvetica", "bold");
         doc.setFontSize(9);
         const w = Math.min(doc.getTextWidth(label) + 22, contentW);

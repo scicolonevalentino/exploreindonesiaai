@@ -772,6 +772,8 @@ function ItemCard({
   const platform = item.partner ? PLATFORM_NAME[item.partner] : undefined;
   const matched = item.matchStatus === "matched" && item.deepLink;
   const pending = item.matchStatus === "pending";
+  // An eSIM is bought, not booked.
+  const bookVerb = item.category === "esim" ? "Buy" : "Book";
 
   return (
     <div
@@ -879,7 +881,7 @@ function ItemCard({
                 className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-bold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-110"
                 style={{ backgroundColor: "var(--blue-bright)" }}
               >
-                Book now on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
+                {bookVerb} now on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
               </a>
               {/* Add-to-trip is the quiet secondary (drives the PDF contents). */}
               <button
@@ -937,7 +939,7 @@ function ItemCard({
                 className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-bold text-white shadow-sm"
                 style={{ backgroundColor: "var(--blue-bright)" }}
               >
-                Book on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
+                {bookVerb} on {platform} <ExternalLink className="w-4 h-4" aria-hidden />
               </a>
             </div>
             <button
