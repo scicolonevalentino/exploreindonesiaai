@@ -1,16 +1,15 @@
 // POST /api/public/build-trip
 //
-// Phase 1 of the two-phase trip build: generate a structured itinerary from
-// user preferences (and/or a pasted itinerary) and return it immediately with
-// every item matchStatus "pending". The frontend then calls
-// /api/public/match-trip to fill in affiliate products progressively — keeps
-// this request inside serverless timeouts and the UI responsive, with no queue
-// infrastructure.
+// Phase 1 of the trip build: STREAM a structured itinerary as it's generated.
+// The response is Server-Sent Events — a `meta` line, then one `item` line per
+// itinerary item as the model writes them, then `insights` and `done`. The
+// frontend renders days as they arrive (no long blank wait). The frontend then
+// calls /api/public/match-trip to fill in affiliate products + prices.
 
 import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
-import { TripPreferencesSchema } from "@/lib/trip/types";
-import { generateTrip } from "@/lib/trip/generate.server";
+import { type ItineraryItem, TripPreferencesSchema } from "@/lib/trip/types";
+import { streamTripParts, type TripMeta } from "@/lib/trip/generate.server";
 import { selectInsights } from "@/lib/trip/insights";
 
 // Best-effort per-instance rate limit (same approach as waitlist.functions.ts).
@@ -67,22 +66,56 @@ export const Route = createFileRoute("/api/public/build-trip")({
           );
         }
 
-        try {
-          const trip = await generateTrip(prefs);
-          // Local Insights come from the curated static library — instant, free,
-          // no second model call. Never let a lookup hiccup fail the build.
-          let insights: ReturnType<typeof selectInsights> = [];
-          try {
-            insights = selectInsights(trip);
-          } catch {
-            insights = [];
-          }
-          return json({ trip, insights });
-        } catch (err) {
-          // No retry by design — generation either parses or fails fast.
-          console.error("build-trip generation failed:", err);
-          return json({ error: "generation_failed" }, 500);
-        }
+        // Stream the itinerary as Server-Sent Events.
+        const encoder = new TextEncoder();
+        const stream = new ReadableStream<Uint8Array>({
+          async start(controller) {
+            const send = (obj: unknown) =>
+              controller.enqueue(encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
+            const items: ItineraryItem[] = [];
+            let meta: TripMeta | undefined;
+            try {
+              for await (const part of streamTripParts(prefs)) {
+                if (part.kind === "meta") {
+                  meta = part.meta;
+                  send({ type: "meta", meta });
+                } else {
+                  items.push(part.item);
+                  send({ type: "item", item: part.item });
+                }
+              }
+              // Local Insights come from the curated static library — instant
+              // and free; never let a lookup hiccup fail the build.
+              let insights: ReturnType<typeof selectInsights> = [];
+              try {
+                insights = selectInsights({
+                  title: meta?.title ?? "Your Indonesia Trip",
+                  summary: meta?.summary ?? "",
+                  days: meta?.days || items.reduce((m, i) => Math.max(m, i.day), 0),
+                  items,
+                });
+              } catch {
+                insights = [];
+              }
+              send({ type: "insights", insights });
+              send({ type: "done" });
+            } catch (err) {
+              console.error("build-trip stream failed:", err);
+              send({ type: "error", error: "generation_failed" });
+            } finally {
+              controller.close();
+            }
+          },
+        });
+
+        return new Response(stream, {
+          headers: {
+            "Content-Type": "text/event-stream; charset=utf-8",
+            "Cache-Control": "no-cache, no-transform",
+            Connection: "keep-alive",
+            "X-Accel-Buffering": "no", // disable proxy buffering so chunks flush
+          },
+        });
       },
     },
   },

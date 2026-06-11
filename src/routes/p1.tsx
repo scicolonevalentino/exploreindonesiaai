@@ -148,6 +148,14 @@ function P1Page() {
     setError(null);
     setStage("building");
     setTrip(null);
+    setInsights([]);
+
+    let meta: { title: string; summary: string; days: number } = {
+      title: "Your Indonesia Trip",
+      summary: "",
+      days: 0,
+    };
+    const collected: ItineraryItem[] = [];
 
     try {
       const res = await fetch("/api/public/build-trip", {
@@ -155,8 +163,10 @@ function P1Page() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: prompt.trim() }),
       });
-      const data = (await res.json()) as { trip?: Trip; insights?: Insight[]; error?: string };
-      if (!res.ok || !data.trip) {
+
+      // Validation / rate-limit errors come back as plain JSON, not a stream.
+      if (!res.ok || !res.body) {
+        const data = (await res.json().catch(() => ({}))) as { error?: string };
         throw new Error(
           data.error === "generation_failed"
             ? "Couldn't build your trip right now — please try again."
@@ -164,29 +174,70 @@ function P1Page() {
         );
       }
 
-      setTrip(data.trip);
-      setStage("trip");
-      setMatching(true);
-      // Local Insights arrive with the trip (curated static library, no 2nd call).
-      const tripInsights = data.insights ?? [];
-      setInsights(tripInsights);
-      trackEvent("trip_generated", { days: data.trip.days, items: data.trip.items.length });
-      if (tripInsights.length) trackEvent("insights_shown", { count: tripInsights.length });
+      // Read the Server-Sent Events: a `meta` line, then one `item` per item,
+      // then `insights` and `done`. Render each item the moment it arrives.
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buf = "";
+      let streamError = false;
+
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buf += decoder.decode(value, { stream: true });
+        const events = buf.split("\n\n");
+        buf = events.pop() ?? ""; // keep the trailing partial event
+        for (const evt of events) {
+          const dataLine = evt.split("\n").find((l) => l.startsWith("data:"));
+          if (!dataLine) continue;
+          let msg: {
+            type: string;
+            meta?: typeof meta;
+            item?: ItineraryItem;
+            insights?: Insight[];
+          };
+          try {
+            msg = JSON.parse(dataLine.slice(5).trim());
+          } catch {
+            continue;
+          }
+          if (msg.type === "meta" && msg.meta) {
+            meta = msg.meta;
+            setStage("trip");
+            setMatching(true);
+            setTrip({ ...meta, items: [] });
+          } else if (msg.type === "item" && msg.item) {
+            collected.push(msg.item);
+            setTrip({ ...meta, items: [...collected] });
+          } else if (msg.type === "insights") {
+            const got = msg.insights ?? [];
+            setInsights(got);
+            if (got.length) trackEvent("insights_shown", { count: got.length });
+          } else if (msg.type === "error") {
+            streamError = true;
+          }
+        }
+      }
+
+      if (streamError || collected.length === 0) {
+        throw new Error("Couldn't build your trip right now — please try again.");
+      }
+      trackEvent("trip_generated", { days: meta.days, items: collected.length });
 
       // Phase 2: resolve affiliate matches while the user reads the plan.
       const matchRes = await fetch("/api/public/match-trip", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ items: data.trip.items }),
+        body: JSON.stringify({ items: collected }),
       });
       if (matchRes.ok) {
         const matchData = (await matchRes.json()) as { items: ItineraryItem[] };
-        setTrip({ ...data.trip, items: matchData.items });
+        setTrip({ ...meta, items: matchData.items });
       } else {
         // Plan is still useful without matches — degrade, don't fail.
         setTrip({
-          ...data.trip,
-          items: data.trip.items.map((it) =>
+          ...meta,
+          items: collected.map((it) =>
             it.matchStatus === "pending"
               ? {
                   ...it,
