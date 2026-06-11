@@ -50,11 +50,20 @@
   * {
     border-color: var(--border-cream);
   }
+  /* Belt-and-suspenders against stray horizontal scroll on phones (e.g. iOS
+     Safari letting a wide animated marquee drag the page sideways). `clip`
+     prevents the scroll WITHOUT creating a scroll container, so position:sticky
+     (the trip price bar, the hello bar) keeps working. */
+  html,
+  body {
+    overflow-x: clip;
+  }
   body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    max-width: 100%;
   }
   h1,
   h2,
