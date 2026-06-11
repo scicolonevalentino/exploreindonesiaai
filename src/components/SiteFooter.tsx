@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Instagram } from "lucide-react";
 import { DESTINATION_CONTENT } from "@/data/destinations";
+import { Logo } from "@/components/Logo";
 import { toast } from "sonner";
 import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
@@ -303,8 +304,8 @@ function FooterBar() {
     >
       <div className="mx-auto max-w-6xl">
         <div className="mb-10">
-          <p className="font-serif text-2xl font-semibold text-white">exploreindonesia.ai</p>
-          <p className="mt-2 text-sm text-white/60">
+          <Logo className="text-xl sm:text-2xl" />
+          <p className="mt-3 text-sm text-white/60">
             AI itinerary planning, powered by real experiences.
           </p>
         </div>
