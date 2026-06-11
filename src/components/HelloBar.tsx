@@ -1,7 +1,9 @@
-import { useRouterState } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
+import { useUser } from "@/lib/supabase/useUser";
 
 export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const { user, loading } = useUser();
 
   // The prototype page has its own dedicated feedback bar — hide the global one
   // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
@@ -31,8 +33,8 @@ export function HelloBar() {
         boxShadow: "0 1px 12px rgba(20,184,166,0.35)",
       }}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 flex items-center justify-center gap-3">
-        <p className="text-center leading-snug font-medium">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 relative flex items-center justify-center gap-3">
+        <p className="text-center leading-snug font-medium pr-24 sm:pr-0">
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
           <span className="sm:hidden">Launching soon. </span>
           <a
@@ -44,6 +46,39 @@ export function HelloBar() {
             Get early access →
           </a>
         </p>
+
+        {/* Auth entry points, top right. Skipped while auth state loads to avoid
+            a login→my-trips flicker for signed-in visitors. */}
+        {!loading && (
+          <nav
+            aria-label="Account"
+            className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 flex items-center gap-2 sm:gap-3"
+          >
+            {user ? (
+              <Link
+                to="/account"
+                className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
+              >
+                My trips
+              </Link>
+            ) : (
+              <>
+                <Link
+                  to="/login"
+                  className="font-semibold text-white/90 hover:text-white underline-offset-2 hover:underline"
+                >
+                  Log in
+                </Link>
+                <Link
+                  to="/login"
+                  className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
+                >
+                  Sign up
+                </Link>
+              </>
+            )}
+          </nav>
+        )}
       </div>
     </div>
   );

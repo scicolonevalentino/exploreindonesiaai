@@ -27,7 +27,7 @@ function P1HomePreview() {
       <HowItWorks />
       {/* The real trip builder, in place of the demo (EmbeddedPrototype). */}
       <section id="try-it" className="w-full scroll-mt-14" style={{ backgroundColor: "#faf9f5" }}>
-        <P1Page />
+        <P1Page embedded />
       </section>
       <Trust />
       <Inspiration />

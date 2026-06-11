@@ -142,7 +142,10 @@ function fireAffiliateClick(item: ItineraryItem) {
 
 type Stage = "input" | "building" | "trip";
 
-export function P1Page() {
+// `embedded` = rendered inside the homepage layout (/p1-home): the page chrome
+// (HelloBar with its own auth links) is present there, so skip the floating
+// auth chip, and scroll within the section instead of jumping to page top.
+export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   const [stage, setStage] = useState<Stage>("input");
   const [prompt, setPrompt] = useState("");
   const [trip, setTrip] = useState<Trip | null>(null);
@@ -151,10 +154,17 @@ export function P1Page() {
   const [error, setError] = useState<string | null>(null);
   const { user, loading: userLoading } = useUser();
   const restoredRef = useRef(false);
+  const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, [stage]);
+    if (embedded) {
+      // Keep the homepage where it is on first paint; align to the section on
+      // stage changes (building → trip).
+      if (stage !== "input") rootRef.current?.scrollIntoView({ block: "start" });
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+  }, [stage, embedded]);
 
   // After a signed-out visitor builds a trip and clicks "Save & Download",
   // they register in the modal and come back here signed in (magic link or
@@ -308,8 +318,12 @@ export function P1Page() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
-      <AuthStatus />
+    <div
+      ref={rootRef}
+      className="min-h-screen flex flex-col"
+      style={{ backgroundColor: "#faf9f5" }}
+    >
+      {!embedded && <AuthStatus />}
       {stage === "input" && (
         <InputStage value={prompt} onChange={setPrompt} onStart={buildTrip} error={error} />
       )}

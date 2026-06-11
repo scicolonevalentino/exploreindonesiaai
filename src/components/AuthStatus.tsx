@@ -30,9 +30,17 @@ export function AuthStatus() {
           </button>
         </>
       ) : (
-        <Link to="/login" className={pill}>
-          Log in
-        </Link>
+        <>
+          <Link to="/login" className={pill}>
+            Log in
+          </Link>
+          <Link
+            to="/login"
+            className="inline-flex items-center gap-1.5 rounded-full bg-[var(--blue-bright)] px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-black"
+          >
+            Sign up
+          </Link>
+        </>
       )}
     </div>
   );
