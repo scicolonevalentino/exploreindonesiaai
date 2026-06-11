@@ -10,13 +10,20 @@ export function HelloBar() {
   // waitlist bar makes no sense where the user is already using the product.
   if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
 
+  // On the product homepage the bar CTA sends visitors to the live builder
+  // (#try-it) instead of the waitlist — same action as "Assemble my trip".
+  const isProductHome = pathname === "/p1-home";
+  const targetId = isProductHome ? "try-it" : "early-access";
+
   const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    const el = document.getElementById("early-access");
+    const el = document.getElementById(targetId);
     if (el) {
       e.preventDefault();
       el.scrollIntoView({ behavior: "smooth", block: "start" });
       window.setTimeout(() => {
-        const input = el.querySelector<HTMLInputElement>('input[type="email"]');
+        const input = isProductHome
+          ? el.querySelector<HTMLTextAreaElement>("textarea")
+          : el.querySelector<HTMLInputElement>('input[type="email"]');
         input?.focus({ preventScroll: true });
       }, 600);
     }
@@ -38,12 +45,16 @@ export function HelloBar() {
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
           <span className="sm:hidden">Launching soon. </span>
           <a
-            href="#early-access"
+            href={`#${targetId}`}
             onClick={handleCta}
-            aria-label="Get early access — jump to the waitlist signup"
+            aria-label={
+              isProductHome
+                ? "Assemble my trip — jump to the trip builder"
+                : "Get early access — jump to the waitlist signup"
+            }
             className="ml-1 inline-flex items-center gap-1 font-bold text-white bg-white/15 hover:bg-black hover:text-white focus-visible:bg-black focus-visible:text-white transition-colors px-3 py-1 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
           >
-            Get early access →
+            {isProductHome ? "Assemble my trip →" : "Get early access →"}
           </a>
         </p>
 

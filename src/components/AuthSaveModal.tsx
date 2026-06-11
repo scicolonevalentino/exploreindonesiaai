@@ -67,7 +67,7 @@ export function AuthSaveModal({
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/p1")}`,
+        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(window.location.pathname)}`,
       },
     });
     if (error) {
@@ -87,7 +87,7 @@ export function AuthSaveModal({
     const { error } = await supabase.auth.signInWithOtp({
       email: email.trim(),
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/p1")}`,
+        emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(window.location.pathname)}`,
         // Mirror Google signups, which carry the name in user_metadata.
         data: {
           first_name: firstName.trim(),

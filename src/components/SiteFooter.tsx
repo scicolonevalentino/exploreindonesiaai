@@ -551,7 +551,7 @@ export function SiteFooter() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   // The waitlist capture is for content/marketing pages; on the planner and
   // auth/account surfaces the user is already in the product.
-  const hideWaitlist = ["/p1", "/login", "/account"].includes(pathname);
+  const hideWaitlist = ["/p1", "/p1-home", "/login", "/account"].includes(pathname);
   return (
     <>
       {!hideWaitlist && <EmailCapture />}
