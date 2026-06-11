@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { matchItem } from "@/lib/trip/match.server";
-import { buildDeepLink } from "@/lib/trip/affiliates.server";
+import { buildDeepLink, __resetViatorDestinationCache } from "@/lib/trip/affiliates.server";
 import type { ItineraryItem } from "@/lib/trip/types";
 
 function item(overrides: Partial<ItineraryItem>): ItineraryItem {
@@ -17,9 +17,32 @@ function item(overrides: Partial<ItineraryItem>): ItineraryItem {
   };
 }
 
+// Viator now calls TWO endpoints: the destination taxonomy + the freetext
+// search. This mock routes by URL. The taxonomy marks Ubud (5467) Indonesian
+// (lookupId contains ".15.") and Hoi An (5229) foreign.
+function mockViator(freetextResults: unknown[]) {
+  return vi.fn(async (url: string) => {
+    if (String(url).includes("/partner/destinations")) {
+      return new Response(
+        JSON.stringify({
+          destinations: [
+            { destinationId: 5467, lookupId: "2.15.98.5467" }, // Ubud, Indonesia
+            { destinationId: 5229, lookupId: "2.21.765.5229" }, // Hoi An, Vietnam
+          ],
+        }),
+        { status: 200 },
+      );
+    }
+    return new Response(JSON.stringify({ products: { results: freetextResults } }), {
+      status: 200,
+    });
+  });
+}
+
 afterEach(() => {
   vi.unstubAllEnvs();
   vi.unstubAllGlobals();
+  __resetViatorDestinationCache();
 });
 
 describe("buildDeepLink (fallback construction)", () => {
@@ -104,24 +127,15 @@ describe("matchItem routing rules", () => {
     vi.stubEnv("VIATOR_API_KEY", "v-key");
     vi.stubGlobal(
       "fetch",
-      vi.fn(
-        async () =>
-          new Response(
-            JSON.stringify({
-              products: {
-                results: [
-                  {
-                    productCode: "5010BALI",
-                    title: "Mount Batur Sunrise Trek",
-                    productUrl: "https://www.viator.com/tours/5010BALI?pid=P00012345",
-                    pricing: { summary: { fromPrice: 38 }, currency: "USD" },
-                  },
-                ],
-              },
-            }),
-            { status: 200 },
-          ),
-      ),
+      mockViator([
+        {
+          productCode: "5010BALI",
+          title: "Mount Batur Sunrise Trek",
+          productUrl: "https://www.viator.com/tours/5010BALI?pid=P00012345",
+          pricing: { summary: { fromPrice: 38 }, currency: "USD" },
+          destinations: [{ ref: "5467", primary: true }], // Ubud, Indonesia
+        },
+      ]),
     );
     const result = await matchItem(item({ searchQuery: "Mount Batur sunrise trek" }));
     expect(result.partner).toBe("viator");
@@ -130,15 +144,57 @@ describe("matchItem routing rules", () => {
     expect(result.price).toBe(38);
   });
 
-  it("activity falls back to a GetYourGuide search deep-link when Viator has no match", async () => {
+  it("rejects a foreign Viator result and skips to the first Indonesian one", async () => {
+    vi.stubEnv("VIATOR_API_KEY", "v-key");
+    vi.stubGlobal(
+      "fetch",
+      mockViator([
+        {
+          productCode: "VN-HOIAN",
+          title: "Traditional Wood Carving Workshop",
+          productUrl: "https://www.viator.com/tours/Hoi-An/x",
+          destinations: [{ ref: "5229", primary: true }], // Hoi An, Vietnam — reject
+        },
+        {
+          productCode: "ID-UBUD",
+          title: "Ubud Craft Workshop",
+          productUrl: "https://www.viator.com/tours/Ubud/x?pid=P0003",
+          pricing: { summary: { fromPrice: 25 }, currency: "USD" },
+          destinations: [{ ref: "5467", primary: true }], // Ubud, Indonesia — keep
+        },
+      ]),
+    );
+    const result = await matchItem(item({ searchQuery: "craft workshop" }));
+    expect(result.partner).toBe("viator");
+    expect(result.productId).toBe("ID-UBUD");
+    expect(result.price).toBe(25);
+  });
+
+  it("falls back to GetYourGuide when EVERY Viator result is foreign", async () => {
     vi.stubEnv("VIATOR_API_KEY", "v-key");
     vi.stubEnv("GETYOURGUIDE_PARTNER_ID", "E2JIZZL");
     vi.stubGlobal(
       "fetch",
-      vi.fn(
-        async () => new Response(JSON.stringify({ products: { results: [] } }), { status: 200 }),
-      ),
+      mockViator([
+        {
+          productCode: "VN-HOIAN",
+          title: "Traditional Wood Carving Workshop",
+          productUrl: "https://www.viator.com/tours/Hoi-An/x",
+          destinations: [{ ref: "5229", primary: true }], // Vietnam only
+        },
+      ]),
     );
+    const result = await matchItem(
+      item({ searchQuery: "ikat weaving workshop", location: "Sumba" }),
+    );
+    expect(result.partner).toBe("getyourguide");
+    expect(result.deepLink).toContain("getyourguide.com");
+  });
+
+  it("activity falls back to a GetYourGuide search deep-link when Viator has no results", async () => {
+    vi.stubEnv("VIATOR_API_KEY", "v-key");
+    vi.stubEnv("GETYOURGUIDE_PARTNER_ID", "E2JIZZL");
+    vi.stubGlobal("fetch", mockViator([]));
     const result = await matchItem(
       item({ searchQuery: "Mount Batur sunrise trek", location: "Kintamani" }),
     );
@@ -154,12 +210,7 @@ describe("matchItem routing rules", () => {
     vi.stubEnv("VIATOR_API_KEY", "v-key");
     // No GETYOURGUIDE_PARTNER_ID set → GYG skipped.
     vi.stubEnv("KLOOK_AFFILIATE_LINK", "https://klook.tpx.lu/test");
-    vi.stubGlobal(
-      "fetch",
-      vi.fn(
-        async () => new Response(JSON.stringify({ products: { results: [] } }), { status: 200 }),
-      ),
-    );
+    vi.stubGlobal("fetch", mockViator([]));
     const result = await matchItem(item({ searchQuery: "obscure village workshop" }));
     expect(result.partner).toBe("klook");
     expect(result.deepLink).toBe("https://klook.tpx.lu/test");

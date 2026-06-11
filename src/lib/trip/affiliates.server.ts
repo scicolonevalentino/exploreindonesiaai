@@ -81,6 +81,66 @@ async function fetchJson(url: string, init: RequestInit): Promise<unknown | null
   }
 }
 
+// Viator's free-text search spans its WHOLE global catalog and never says "no
+// match" — for a query with no real Indonesian product it returns the nearest
+// foreign one (e.g. a Vietnam or Peru workshop). We guard against that by only
+// accepting products whose destination is inside Indonesia.
+//
+// Viator destinations carry a dotted `lookupId` hierarchy; Indonesia is id 15
+// (e.g. Ubud = "2.15.98.5467"). We fetch the destination taxonomy once, cache
+// the set of Indonesian destination ids, and reject any product outside it.
+const VIATOR_INDONESIA_ID = "15";
+let indoDestPromise: Promise<Set<number>> | null = null;
+
+// Test-only: clear the cached Indonesian-destination set between cases.
+export function __resetViatorDestinationCache() {
+  indoDestPromise = null;
+}
+
+async function indonesianDestinationIds(apiKey: string): Promise<Set<number>> {
+  if (!indoDestPromise) {
+    indoDestPromise = (async () => {
+      try {
+        const res = await fetch("https://api.viator.com/partner/destinations", {
+          headers: {
+            "exp-api-key": apiKey,
+            "Accept-Language": "en-US",
+            Accept: "application/json;version=2.0",
+          },
+          signal: AbortSignal.timeout(15000),
+        });
+        if (!res.ok) {
+          indoDestPromise = null; // don't cache a failure — retry next time
+          return new Set<number>();
+        }
+        const data = (await res.json()) as {
+          destinations?: Array<{ destinationId: number; lookupId?: string }>;
+        };
+        const set = new Set<number>([15]);
+        for (const d of data.destinations ?? []) {
+          if ((d.lookupId ?? "").split(".").includes(VIATOR_INDONESIA_ID)) {
+            set.add(d.destinationId);
+          }
+        }
+        return set;
+      } catch {
+        indoDestPromise = null;
+        return new Set<number>();
+      }
+    })();
+  }
+  return indoDestPromise;
+}
+
+type ViatorProduct = {
+  productCode: string;
+  title: string;
+  productUrl?: string;
+  pricing?: { summary?: { fromPrice?: number }; currency?: string };
+  images?: Array<{ variants?: Array<{ width?: number; url?: string }> }>;
+  destinations?: Array<{ ref?: string; primary?: boolean }>;
+};
+
 // Viator Partner API free-text search. Requires VIATOR_API_KEY (exp-api-key).
 async function searchViator(query: string, location: string): Promise<ProductMatch | null> {
   const apiKey = env("VIATOR_API_KEY");
@@ -97,22 +157,24 @@ async function searchViator(query: string, location: string): Promise<ProductMat
     body: JSON.stringify({
       searchTerm: `${query} ${location}`,
       currency: "USD",
-      searchTypes: [{ searchType: "PRODUCTS", pagination: { start: 1, count: 1 } }],
+      // Pull several so we can skip foreign results and keep the first Indonesian one.
+      searchTypes: [{ searchType: "PRODUCTS", pagination: { start: 1, count: 5 } }],
     }),
-  })) as {
-    products?: {
-      results?: Array<{
-        productCode: string;
-        title: string;
-        productUrl?: string;
-        pricing?: { summary?: { fromPrice?: number }; currency?: string };
-        images?: Array<{ variants?: Array<{ width?: number; url?: string }> }>;
-      }>;
-    };
-  } | null;
+  })) as { products?: { results?: ViatorProduct[] } } | null;
 
-  const top = data?.products?.results?.[0];
-  if (!top?.productCode) return null;
+  const results = data?.products?.results ?? [];
+  if (results.length === 0) return null;
+
+  // Keep only products whose destination is inside Indonesia. If the taxonomy
+  // couldn't load (empty set), fall back to the top result rather than break
+  // all Viator matching.
+  const indoIds = await indonesianDestinationIds(apiKey);
+  const isIndonesian = (p: ViatorProduct) =>
+    (p.destinations ?? []).some((d) => d.ref && indoIds.has(Number(d.ref)));
+
+  const top = indoIds.size > 0 ? results.find(isIndonesian) : results[0];
+  if (!top?.productCode) return null; // nothing Indonesian -> fall through to next partner
+
   // Pick a mid-size image variant (~240-540px wide) for the card thumbnail.
   const variants = top.images?.[0]?.variants ?? [];
   const imageUrl =
