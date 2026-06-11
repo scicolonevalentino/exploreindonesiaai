@@ -657,8 +657,8 @@ const STEPS = [
 const PROGRESS_MSGS = [
   "Reading your paste line by line…",
   "Grouping activities into days…",
-  "Searching providers across Klook, Viator, GetYourGuide & 12Go…",
-  "Mocking bookable results, matching prices and de-duping…",
+  "Searching across leading travel platforms…",
+  "Matching bookable results and live prices…",
   "Ranking by rating and proximity…",
   "Ready, your trip is bookable.",
 ];
