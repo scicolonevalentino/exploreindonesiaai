@@ -1,0 +1,252 @@
+// Signup/login modal shown when a signed-out visitor clicks "Save & Download"
+// on a built itinerary. The whole registration happens in this popup:
+// Google OAuth or email magic link, data-consent tick (required), marketing
+// opt-in (optional, unticked — GDPR), optional phone. Before redirecting to
+// auth, the caller stashes the built trip and this modal stashes the profile
+// fields; both are restored + persisted when the user lands back signed in.
+
+import { useState } from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Checkbox } from "@/components/ui/checkbox";
+import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { stashPendingProfile } from "@/lib/supabase/profile";
+import { trackEvent } from "@/lib/analytics-events";
+import { toast } from "sonner";
+
+function GoogleIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="#4285F4"
+        d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47a5.57 5.57 0 0 1-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"
+      />
+      <path
+        fill="#34A853"
+        d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09A11.99 11.99 0 0 0 12 24z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M5.27 14.29A7.2 7.2 0 0 1 4.89 12c0-.8.14-1.57.38-2.29V6.62H1.29a11.99 11.99 0 0 0 0 10.76l3.98-3.09z"
+      />
+      <path
+        fill="#EA4335"
+        d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.69 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75z"
+      />
+    </svg>
+  );
+}
+
+export function AuthSaveModal({
+  open,
+  onOpenChange,
+  onBeforeAuth,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  // Caller stashes the built trip to localStorage so it survives the redirect.
+  onBeforeAuth: () => void;
+}) {
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [marketing, setMarketing] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [busy, setBusy] = useState<"google" | "email" | null>(null);
+
+  const stashAll = () => {
+    onBeforeAuth();
+    stashPendingProfile({
+      phone: phone.trim() || undefined,
+      marketing_opt_in: marketing,
+      consent_at: new Date().toISOString(),
+    });
+  };
+
+  const requireConsent = () => {
+    if (!consent) {
+      toast.error("Please agree to the Privacy Policy and Terms to continue.");
+      return false;
+    }
+    return true;
+  };
+
+  const withGoogle = async () => {
+    if (!requireConsent()) return;
+    setBusy("google");
+    trackEvent("signup_start", { method: "google" });
+    stashAll();
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/p1")}`,
+      },
+    });
+    if (error) {
+      setBusy(null);
+      toast.error("Google sign-in didn't start — please try again.");
+    }
+    // On success the browser navigates away; no further state needed.
+  };
+
+  const withEmail = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim() || !requireConsent()) return;
+    setBusy("email");
+    trackEvent("signup_start", { method: "email" });
+    stashAll();
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signInWithOtp({
+      email: email.trim(),
+      options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/p1")}`,
+      },
+    });
+    setBusy(null);
+    if (error) {
+      toast.error(error.message);
+      return;
+    }
+    setSent(true);
+  };
+
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="sm:max-w-md" style={{ backgroundColor: "var(--cream)" }}>
+        {sent ? (
+          <>
+            <DialogHeader>
+              <DialogTitle className="font-serif text-2xl" style={{ color: "var(--navy-deep)" }}>
+                Check your inbox 📩
+              </DialogTitle>
+              <DialogDescription>
+                We sent a secure link to <strong>{email}</strong>. Open it on this device — your
+                itinerary will be saved and the download will start automatically.
+              </DialogDescription>
+            </DialogHeader>
+            <button
+              type="button"
+              onClick={() => setSent(false)}
+              className="text-sm underline self-start"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Use a different email
+            </button>
+          </>
+        ) : (
+          <>
+            <DialogHeader>
+              <DialogTitle className="font-serif text-2xl" style={{ color: "var(--navy-deep)" }}>
+                Save your itinerary
+              </DialogTitle>
+              <DialogDescription>
+                Create a free account to download the PDF and keep your trips in one place.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className="flex flex-col gap-4 pt-1">
+              <button
+                type="button"
+                onClick={withGoogle}
+                disabled={busy !== null}
+                className="inline-flex w-full items-center justify-center gap-3 rounded-full border bg-white px-5 py-3 text-sm font-semibold transition-colors hover:bg-black hover:text-white disabled:opacity-60"
+                style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+              >
+                <GoogleIcon />
+                {busy === "google" ? "Connecting…" : "Continue with Google"}
+              </button>
+
+              <div className="flex items-center gap-3 text-xs text-muted-foreground">
+                <span className="h-px flex-1 bg-[var(--border-cream)]" />
+                or with your email
+                <span className="h-px flex-1 bg-[var(--border-cream)]" />
+              </div>
+
+              <form onSubmit={withEmail} className="flex flex-col gap-3">
+                <input
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@email.com"
+                  aria-label="Email address"
+                  className="w-full rounded-md border bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
+                  style={{ borderColor: "var(--border-cream)" }}
+                />
+                <input
+                  type="tel"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  placeholder="Mobile phone (optional)"
+                  aria-label="Mobile phone (optional)"
+                  autoComplete="tel"
+                  className="w-full rounded-md border bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
+                  style={{ borderColor: "var(--border-cream)" }}
+                />
+
+                <label className="flex items-start gap-2.5 text-xs leading-relaxed">
+                  <Checkbox
+                    checked={consent}
+                    onCheckedChange={(v) => setConsent(v === true)}
+                    className="mt-0.5"
+                    aria-label="Agree to Privacy Policy and Terms"
+                  />
+                  <span style={{ color: "var(--navy-deep)" }}>
+                    I agree to the{" "}
+                    <a
+                      href="/privacy"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline"
+                      style={{ color: "var(--teal-link)" }}
+                    >
+                      Privacy Policy
+                    </a>{" "}
+                    and{" "}
+                    <a
+                      href="/terms"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline"
+                      style={{ color: "var(--teal-link)" }}
+                    >
+                      Terms
+                    </a>
+                    . *
+                  </span>
+                </label>
+
+                <label className="flex items-start gap-2.5 text-xs leading-relaxed">
+                  <Checkbox
+                    checked={marketing}
+                    onCheckedChange={(v) => setMarketing(v === true)}
+                    className="mt-0.5"
+                    aria-label="Receive travel tips and offers"
+                  />
+                  <span className="text-muted-foreground">
+                    Send me Indonesia travel tips, itineraries, and offers. (optional)
+                  </span>
+                </label>
+
+                <button
+                  type="submit"
+                  disabled={busy !== null}
+                  className="mt-1 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-black disabled:opacity-60"
+                  style={{ backgroundColor: "var(--blue-bright)" }}
+                >
+                  {busy === "email" ? "Sending…" : "Email me a secure link"}
+                </button>
+              </form>
+            </div>
+          </>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}

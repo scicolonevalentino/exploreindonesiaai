@@ -1,7 +1,9 @@
 import { useServerFn } from "@tanstack/react-start";
+import { useRouterState } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { Heart, Instagram } from "lucide-react";
+import { Instagram } from "lucide-react";
+import { DESTINATION_CONTENT } from "@/data/destinations";
 import { toast } from "sonner";
 import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
@@ -296,181 +298,246 @@ function FooterBar() {
 
   return (
     <footer
-      className="w-full px-6 py-10 border-t"
+      className="w-full px-6 py-12 border-t"
       style={{ backgroundColor: "var(--navy-mid)", borderColor: "rgba(255,255,255,0.08)" }}
     >
-      <div className="mx-auto max-w-2xl flex flex-col items-center text-center gap-4">
-        <Dialog
-          open={open}
-          onOpenChange={(o) => {
-            setOpen(o);
-            if (!o) reset();
-          }}
-        >
-          <DialogTrigger asChild>
-            <button
-              type="button"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white border border-white/15 hover:bg-white/5 transition-colors"
-            >
-              <Heart className="w-4 h-4 fill-emerald-400 text-emerald-400" aria-hidden="true" />
-              Support this project! Contact us
-            </button>
-          </DialogTrigger>
-          <DialogContent className="sm:max-w-md">
-            {status === "done" ? (
-              <>
-                <DialogHeader>
-                  <DialogTitle className="sr-only">Message sent</DialogTitle>
-                  <DialogDescription className="sr-only">
-                    Your message has been received.
-                  </DialogDescription>
-                </DialogHeader>
-                <div className="py-6 text-center text-base text-foreground">
-                  Thanks for reaching out, we'll get back to you soon. 💚
-                </div>
-              </>
-            ) : (
-              <>
-                <DialogHeader>
-                  <DialogTitle>Write to the founder</DialogTitle>
-                  <DialogDescription>
-                    Ideas, feedback, or want to support the project? Drop a note: it goes straight
-                    to the founder.
-                  </DialogDescription>
-                </DialogHeader>
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-10">
+          <p className="font-serif text-2xl font-semibold text-white">exploreindonesia.ai</p>
+          <p className="mt-2 text-sm text-white/60">
+            AI itinerary planning, powered by real experiences.
+          </p>
+        </div>
 
-                <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
-                  <div
-                    aria-hidden="true"
-                    style={{
-                      position: "absolute",
-                      left: "-10000px",
-                      top: "auto",
-                      width: 1,
-                      height: 1,
-                      overflow: "hidden",
-                    }}
+        <div className="grid gap-10 sm:grid-cols-3 text-sm">
+          <nav aria-label="Explore Indonesia destinations">
+            <p className="font-semibold text-white mb-4">Explore</p>
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2.5">
+              {DESTINATION_CONTENT.map((d) => (
+                <li key={d.slug}>
+                  <a
+                    href={`/destinations/${d.slug}`}
+                    className="text-white/60 hover:text-white transition-colors"
                   >
-                    <label>
-                      Website
-                      <input
-                        type="text"
-                        tabIndex={-1}
-                        autoComplete="off"
-                        value={website}
-                        onChange={(e) => setWebsite(e.target.value)}
-                      />
-                    </label>
-                  </div>
+                    {d.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-                  <div>
-                    <input
-                      type="text"
-                      required
-                      maxLength={100}
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                      onBlur={() => setTouched((t) => ({ ...t, name: true }))}
-                      placeholder="Your name"
-                      aria-label="Your name"
-                      aria-invalid={(touched.name && !!nameError) || undefined}
-                      className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
-                        touched.name && nameError ? "border-red-500 ring-1 ring-red-400" : ""
-                      }`}
-                    />
-                    {touched.name && nameError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">
-                        {nameError}
-                      </p>
+          <nav aria-label="Plan your trip">
+            <p className="font-semibold text-white mb-4">Plan</p>
+            <ul className="space-y-2.5">
+              <li>
+                <a href="/p1" className="text-white/60 hover:text-white transition-colors">
+                  Trip planner
+                </a>
+              </li>
+              <li>
+                <a href="/trips" className="text-white/60 hover:text-white transition-colors">
+                  All itineraries
+                </a>
+              </li>
+              <li>
+                <a href="/account" className="text-white/60 hover:text-white transition-colors">
+                  My account
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav aria-label="Quick links">
+            <p className="font-semibold text-white mb-4">Quick Links</p>
+            <ul className="space-y-2.5">
+              <li>
+                <a href="/privacy" className="text-white/60 hover:text-white transition-colors">
+                  Privacy
+                </a>
+              </li>
+              <li>
+                <a href="/terms" className="text-white/60 hover:text-white transition-colors">
+                  Terms
+                </a>
+              </li>
+              <li>
+                <Dialog
+                  open={open}
+                  onOpenChange={(o) => {
+                    setOpen(o);
+                    if (!o) reset();
+                  }}
+                >
+                  <DialogTrigger asChild>
+                    <button
+                      type="button"
+                      className="text-white/60 hover:text-white transition-colors"
+                    >
+                      Contact
+                    </button>
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-md">
+                    {status === "done" ? (
+                      <>
+                        <DialogHeader>
+                          <DialogTitle className="sr-only">Message sent</DialogTitle>
+                          <DialogDescription className="sr-only">
+                            Your message has been received.
+                          </DialogDescription>
+                        </DialogHeader>
+                        <div className="py-6 text-center text-base text-foreground">
+                          Thanks for reaching out, we'll get back to you soon. 💚
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <DialogHeader>
+                          <DialogTitle>Write to the founder</DialogTitle>
+                          <DialogDescription>
+                            Ideas, feedback, or want to support the project? Drop a note: it goes
+                            straight to the founder.
+                          </DialogDescription>
+                        </DialogHeader>
+
+                        <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-2">
+                          <div
+                            aria-hidden="true"
+                            style={{
+                              position: "absolute",
+                              left: "-10000px",
+                              top: "auto",
+                              width: 1,
+                              height: 1,
+                              overflow: "hidden",
+                            }}
+                          >
+                            <label>
+                              Website
+                              <input
+                                type="text"
+                                tabIndex={-1}
+                                autoComplete="off"
+                                value={website}
+                                onChange={(e) => setWebsite(e.target.value)}
+                              />
+                            </label>
+                          </div>
+
+                          <div>
+                            <input
+                              type="text"
+                              required
+                              maxLength={100}
+                              value={name}
+                              onChange={(e) => setName(e.target.value)}
+                              onBlur={() => setTouched((t) => ({ ...t, name: true }))}
+                              placeholder="Your name"
+                              aria-label="Your name"
+                              aria-invalid={(touched.name && !!nameError) || undefined}
+                              className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
+                                touched.name && nameError
+                                  ? "border-red-500 ring-1 ring-red-400"
+                                  : ""
+                              }`}
+                            />
+                            {touched.name && nameError && (
+                              <p role="alert" className="mt-1 text-xs text-red-500">
+                                {nameError}
+                              </p>
+                            )}
+                          </div>
+
+                          <div>
+                            <input
+                              type="email"
+                              inputMode="email"
+                              autoComplete="email"
+                              spellCheck={false}
+                              required
+                              maxLength={254}
+                              value={contactEmail}
+                              onChange={(e) => setContactEmail(e.target.value)}
+                              onBlur={() => setTouched((t) => ({ ...t, email: true }))}
+                              placeholder="Your email"
+                              aria-label="Your email"
+                              aria-invalid={(touched.email && !!emailError) || undefined}
+                              className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
+                                touched.email && emailError
+                                  ? "border-red-500 ring-1 ring-red-400"
+                                  : ""
+                              }`}
+                            />
+                            {touched.email && emailError && (
+                              <p role="alert" className="mt-1 text-xs text-red-500">
+                                {emailError}
+                              </p>
+                            )}
+                          </div>
+
+                          <div>
+                            <textarea
+                              required
+                              minLength={10}
+                              maxLength={2000}
+                              rows={5}
+                              value={msg}
+                              onChange={(e) => setMsg(e.target.value)}
+                              onBlur={() => setTouched((t) => ({ ...t, msg: true }))}
+                              placeholder="Your message…"
+                              aria-label="Your message"
+                              aria-invalid={(touched.msg && !!msgError) || undefined}
+                              className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none ${
+                                touched.msg && msgError ? "border-red-500 ring-1 ring-red-400" : ""
+                              }`}
+                            />
+                            {touched.msg && msgError && (
+                              <p role="alert" className="mt-1 text-xs text-red-500">
+                                {msgError}
+                              </p>
+                            )}
+                          </div>
+
+                          {status === "error" &&
+                            errorMsg &&
+                            !nameError &&
+                            !emailError &&
+                            !msgError && (
+                              <p role="alert" className="text-xs text-red-500">
+                                {errorMsg}
+                              </p>
+                            )}
+
+                          <button
+                            type="submit"
+                            disabled={status === "loading"}
+                            className="mt-1 px-5 py-2.5 rounded-md font-semibold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-70"
+                            style={{ backgroundColor: "var(--blue-bright)" }}
+                          >
+                            {status === "loading" ? "Sending…" : "Send message"}
+                          </button>
+                        </form>
+                      </>
                     )}
-                  </div>
+                  </DialogContent>
+                </Dialog>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/exploreindonesia_ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow ExploreIndonesia.ai on Instagram"
+                  className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors"
+                >
+                  <Instagram className="w-4 h-4" aria-hidden="true" />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-                  <div>
-                    <input
-                      type="email"
-                      inputMode="email"
-                      autoComplete="email"
-                      spellCheck={false}
-                      required
-                      maxLength={254}
-                      value={contactEmail}
-                      onChange={(e) => setContactEmail(e.target.value)}
-                      onBlur={() => setTouched((t) => ({ ...t, email: true }))}
-                      placeholder="Your email"
-                      aria-label="Your email"
-                      aria-invalid={(touched.email && !!emailError) || undefined}
-                      className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring ${
-                        touched.email && emailError ? "border-red-500 ring-1 ring-red-400" : ""
-                      }`}
-                    />
-                    {touched.email && emailError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">
-                        {emailError}
-                      </p>
-                    )}
-                  </div>
-
-                  <div>
-                    <textarea
-                      required
-                      minLength={10}
-                      maxLength={2000}
-                      rows={5}
-                      value={msg}
-                      onChange={(e) => setMsg(e.target.value)}
-                      onBlur={() => setTouched((t) => ({ ...t, msg: true }))}
-                      placeholder="Your message…"
-                      aria-label="Your message"
-                      aria-invalid={(touched.msg && !!msgError) || undefined}
-                      className={`w-full px-4 py-2.5 rounded-md border bg-background text-sm outline-none focus:ring-2 focus:ring-ring resize-none ${
-                        touched.msg && msgError ? "border-red-500 ring-1 ring-red-400" : ""
-                      }`}
-                    />
-                    {touched.msg && msgError && (
-                      <p role="alert" className="mt-1 text-xs text-red-500">
-                        {msgError}
-                      </p>
-                    )}
-                  </div>
-
-                  {status === "error" && errorMsg && !nameError && !emailError && !msgError && (
-                    <p role="alert" className="text-xs text-red-500">
-                      {errorMsg}
-                    </p>
-                  )}
-
-                  <button
-                    type="submit"
-                    disabled={status === "loading"}
-                    className="mt-1 px-5 py-2.5 rounded-md font-semibold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-70"
-                    style={{ backgroundColor: "var(--blue-bright)" }}
-                  >
-                    {status === "loading" ? "Sending…" : "Send message"}
-                  </button>
-                </form>
-              </>
-            )}
-          </DialogContent>
-        </Dialog>
-
-        <nav className="flex items-center gap-4 text-xs text-white/60">
-          <a href="/privacy" className="hover:text-white underline-offset-2 hover:underline">
-            Privacy
-          </a>
-          <a href="/terms" className="hover:text-white underline-offset-2 hover:underline">
-            Terms
-          </a>
-          <a
-            href="https://www.instagram.com/exploreindonesia_ai/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow ExploreIndonesia.ai on Instagram"
-            className="text-white/60 hover:text-white transition-colors"
-          >
-            <Instagram className="w-5 h-5" aria-hidden="true" />
-          </a>
-        </nav>
-        <p className="text-xs text-white/50 max-w-xl whitespace-pre-line leading-relaxed">
+        <p className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 whitespace-pre-line leading-relaxed">
           {(settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`)
             .replace(/\s*We may earn a commission[^.]*\.\s*/gi, " ")
             .trim()}
@@ -481,9 +548,13 @@ function FooterBar() {
 }
 
 export function SiteFooter() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  // The waitlist capture is for content/marketing pages; on the planner and
+  // auth/account surfaces the user is already in the product.
+  const hideWaitlist = ["/p1", "/login", "/account"].includes(pathname);
   return (
     <>
-      <EmailCapture />
+      {!hideWaitlist && <EmailCapture />}
       <FooterBar />
     </>
   );

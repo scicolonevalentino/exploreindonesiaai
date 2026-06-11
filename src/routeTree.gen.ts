@@ -15,10 +15,13 @@ import { Route as PrototypeRouteImport } from './routes/prototype'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as P1HomeRouteImport } from './routes/p1-home'
 import { Route as P1RouteImport } from './routes/p1'
+import { Route as LoginRouteImport } from './routes/login'
+import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
+import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
@@ -53,6 +56,16 @@ const P1Route = P1RouteImport.update({
   path: '/p1',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AccountRoute = AccountRouteImport.update({
+  id: '/account',
+  path: '/account',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -73,6 +86,11 @@ const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
   path: '/destinations/$destination',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthCallbackRoute = AuthCallbackRouteImport.update({
+  id: '/auth/callback',
+  path: '/auth/callback',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPublicMatchTripRoute = ApiPublicMatchTripRouteImport.update({
   id: '/api/public/match-trip',
   path: '/api/public/match-trip',
@@ -91,12 +109,15 @@ const ApiPublicBuildTripRoute = ApiPublicBuildTripRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/account': typeof AccountRoute
+  '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
@@ -106,12 +127,15 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/account': typeof AccountRoute
+  '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
@@ -122,12 +146,15 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/account': typeof AccountRoute
+  '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
@@ -139,12 +166,15 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/account'
+    | '/login'
     | '/p1'
     | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/auth/callback'
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
@@ -154,12 +184,15 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/account'
+    | '/login'
     | '/p1'
     | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/auth/callback'
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips'
@@ -169,12 +202,15 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/account'
+    | '/login'
     | '/p1'
     | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/auth/callback'
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
@@ -185,12 +221,15 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AccountRoute: typeof AccountRoute
+  LoginRoute: typeof LoginRoute
   P1Route: typeof P1Route
   P1HomeRoute: typeof P1HomeRoute
   PrivacyRoute: typeof PrivacyRoute
   PrototypeRoute: typeof PrototypeRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
+  AuthCallbackRoute: typeof AuthCallbackRoute
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
@@ -243,6 +282,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof P1RouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/account': {
+      id: '/account'
+      path: '/account'
+      fullPath: '/account'
+      preLoaderRoute: typeof AccountRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -271,6 +324,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DestinationsDestinationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/auth/callback': {
+      id: '/auth/callback'
+      path: '/auth/callback'
+      fullPath: '/auth/callback'
+      preLoaderRoute: typeof AuthCallbackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/public/match-trip': {
       id: '/api/public/match-trip'
       path: '/api/public/match-trip'
@@ -297,12 +357,15 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AccountRoute: AccountRoute,
+  LoginRoute: LoginRoute,
   P1Route: P1Route,
   P1HomeRoute: P1HomeRoute,
   PrivacyRoute: PrivacyRoute,
   PrototypeRoute: PrototypeRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
+  AuthCallbackRoute: AuthCallbackRoute,
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
@@ -313,13 +376,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

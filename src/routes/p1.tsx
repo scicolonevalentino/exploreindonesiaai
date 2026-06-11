@@ -5,7 +5,7 @@
 // generated live and the Book links are real affiliate deep links.
 
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   BedDouble,
@@ -23,6 +23,15 @@ import {
 import { trackEvent } from "@/lib/analytics-events";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
+import { useUser } from "@/lib/supabase/useUser";
+import { saveTrip } from "@/lib/supabase/trips";
+import { flushPendingProfile } from "@/lib/supabase/profile";
+import { AuthSaveModal } from "@/components/AuthSaveModal";
+import { toast } from "sonner";
+
+// localStorage key for stashing a freshly built trip when a signed-out visitor
+// clicks the CTA — restored + auto-saved after they complete the magic link.
+const PENDING_TRIP_KEY = "ei:pendingTrip";
 
 export const Route = createFileRoute("/p1")({
   head: () => ({
@@ -139,10 +148,52 @@ export function P1Page() {
   const [matching, setMatching] = useState(false);
   const [insights, setInsights] = useState<Insight[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const { user, loading: userLoading } = useUser();
+  const restoredRef = useRef(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [stage]);
+
+  // After a signed-out visitor builds a trip and clicks "Save & Download",
+  // they register in the modal and come back here signed in (magic link or
+  // Google). Finish the action they originally asked for: restore the stashed
+  // trip, persist their consent/phone, save the trip, and start the PDF
+  // download. Only signed-in users consume the stash, so a refresh while
+  // logged out keeps it intact.
+  useEffect(() => {
+    if (userLoading || !user || restoredRef.current) return;
+    restoredRef.current = true;
+    void flushPendingProfile();
+    const raw = window.localStorage.getItem(PENDING_TRIP_KEY);
+    if (!raw) return;
+    try {
+      const stash = JSON.parse(raw) as {
+        trip: Trip;
+        insights?: Insight[];
+        added?: string[];
+        prompt?: string;
+      };
+      setPrompt(stash.prompt ?? "");
+      setInsights(stash.insights ?? []);
+      setTrip(stash.trip);
+      setStage("trip");
+      saveTrip({
+        trip: stash.trip,
+        insights: stash.insights ?? [],
+        added: new Set(stash.added ?? []),
+        prompt: stash.prompt ?? "",
+      })
+        .then(() => {
+          toast.success("Saved to your trips ✓ — your download is starting.");
+          downloadItineraryPdf(stash.trip, new Set(stash.added ?? []), stash.insights ?? []);
+        })
+        .catch(() => toast.error("Couldn't save automatically — hit Save & Download again."));
+    } catch {
+      // Corrupt stash — drop it silently.
+    }
+    window.localStorage.removeItem(PENDING_TRIP_KEY);
+  }, [userLoading, user]);
 
   async function buildTrip() {
     setError(null);
@@ -266,6 +317,7 @@ export function P1Page() {
           trip={trip}
           matching={matching}
           insights={insights}
+          prompt={prompt}
           onEdit={() => setStage("input")}
         />
       )}
@@ -493,11 +545,13 @@ function TripStage({
   trip,
   matching,
   insights,
+  prompt,
   onEdit,
 }: {
   trip: Trip;
   matching: boolean;
   insights: Insight[];
+  prompt: string;
   onEdit: () => void;
 }) {
   const itemsByDay = new Map<number, ItineraryItem[]>();
@@ -558,15 +612,44 @@ function TripStage({
     return { count, total: Math.round(total) };
   })();
 
-  // P1 conversion CTA. Future: this is where the login wall goes — the
-  // download becomes the lead-capture moment (sign in to get your itinerary).
-  // The PDF embeds every booking link as a real clickable annotation, so the
-  // affiliate tracking travels with the file.
-  const downloadItinerary = () => {
+  // P1 conversion CTA: one button, "Save & Download" — the lead-capture
+  // moment. Signed in: save to the account and start the PDF in one click.
+  // Signed out: open the signup modal (Google or email); the built trip is
+  // stashed so it survives the auth round-trip, then save + download finish
+  // automatically on return. The PDF embeds every booking link as a real
+  // clickable annotation, so affiliate tracking travels with the file.
+  const { user, loading: userLoading } = useUser();
+  const [saving, setSaving] = useState(false);
+  const [authOpen, setAuthOpen] = useState(false);
+
+  const stashTrip = () => {
+    window.localStorage.setItem(
+      PENDING_TRIP_KEY,
+      JSON.stringify({ trip, insights, added: [...added], prompt }),
+    );
+  };
+
+  const saveAndDownload = async () => {
     trackEvent("download_itinerary_click", {
       items_added: totals.count,
       estimated_total: totals.total,
+      signed_in: !!user,
     });
+    if (!user) {
+      stashTrip();
+      setAuthOpen(true);
+      return;
+    }
+    setSaving(true);
+    try {
+      await saveTrip({ trip, insights, added, prompt });
+      toast.success("Saved to your trips ✓ — your download is starting.");
+    } catch {
+      // The PDF is still worth having even if the save hiccups.
+      toast.error("Couldn't save to your account — downloading anyway.");
+    } finally {
+      setSaving(false);
+    }
     downloadItineraryPdf(trip, added, insights);
   };
 
@@ -657,13 +740,16 @@ function TripStage({
           </div>
           <button
             type="button"
-            onClick={downloadItinerary}
-            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors"
+            onClick={saveAndDownload}
+            disabled={userLoading || saving}
+            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors disabled:opacity-60"
           >
-            Download the itinerary (PDF) <span aria-hidden>↓</span>
+            {saving ? "Saving…" : "Save & Download"} <span aria-hidden>↓</span>
           </button>
         </div>
       </div>
+
+      <AuthSaveModal open={authOpen} onOpenChange={setAuthOpen} onBeforeAuth={stashTrip} />
     </div>
   );
 }

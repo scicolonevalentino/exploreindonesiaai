@@ -3,8 +3,10 @@ import { useRouterState } from "@tanstack/react-router";
 export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
 
-  // The prototype page has its own dedicated feedback bar — hide the global one there.
-  if (pathname === "/prototype") return null;
+  // The prototype page has its own dedicated feedback bar — hide the global one
+  // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
+  // waitlist bar makes no sense where the user is already using the product.
+  if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
 
   const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const el = document.getElementById("early-access");
