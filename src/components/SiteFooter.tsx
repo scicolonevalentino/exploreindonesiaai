@@ -310,7 +310,7 @@ function FooterBar() {
           </p>
         </div>
 
-        <div className="grid gap-10 sm:grid-cols-3 text-sm">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-x-16 lg:gap-x-24 gap-y-10 text-sm">
           <nav aria-label="Explore Indonesia destinations">
             <p className="font-semibold text-white mb-4">Explore</p>
             <ul className="grid grid-cols-2 gap-x-6 gap-y-2.5">
