@@ -25,6 +25,7 @@ import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
+import { Route as ApiAccountDeleteRouteImport } from './routes/api/account/delete'
 
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
@@ -106,6 +107,11 @@ const ApiPublicBuildTripRoute = ApiPublicBuildTripRouteImport.update({
   path: '/api/public/build-trip',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiAccountDeleteRoute = ApiAccountDeleteRouteImport.update({
+  id: '/api/account/delete',
+  path: '/api/account/delete',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -121,6 +127,7 @@ export interface FileRoutesByFullPath {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
+  '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
@@ -139,6 +146,7 @@ export interface FileRoutesByTo {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
+  '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
@@ -158,6 +166,7 @@ export interface FileRoutesById {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
+  '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
@@ -178,6 +187,7 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
+    | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
@@ -196,6 +206,7 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips'
+    | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
@@ -214,6 +225,7 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/trips/$slug'
     | '/trips/'
+    | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
@@ -233,6 +245,7 @@ export interface RootRouteChildren {
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
+  ApiAccountDeleteRoute: typeof ApiAccountDeleteRoute
   ApiPublicBuildTripRoute: typeof ApiPublicBuildTripRoute
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
   ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
@@ -352,6 +365,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicBuildTripRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/account/delete': {
+      id: '/api/account/delete'
+      path: '/api/account/delete'
+      fullPath: '/api/account/delete'
+      preLoaderRoute: typeof ApiAccountDeleteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -369,6 +389,7 @@ const rootRouteChildren: RootRouteChildren = {
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
+  ApiAccountDeleteRoute: ApiAccountDeleteRoute,
   ApiPublicBuildTripRoute: ApiPublicBuildTripRoute,
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
   ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,

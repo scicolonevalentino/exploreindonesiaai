@@ -5,6 +5,17 @@ import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { listTrips, deleteTrip, type SavedTripRow } from "@/lib/supabase/trips";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { Button } from "@/components/ui/button";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/account")({
@@ -47,6 +58,23 @@ function AccountPage() {
   async function signOut() {
     await getSupabaseBrowserClient().auth.signOut();
     navigate({ to: "/login" });
+  }
+
+  const [deleting, setDeleting] = useState(false);
+
+  async function deleteAccount() {
+    setDeleting(true);
+    try {
+      const res = await fetch("/api/account/delete", { method: "POST" });
+      if (!res.ok) throw new Error("delete_failed");
+      // Server already cleared the session cookies; reset the client too.
+      await getSupabaseBrowserClient().auth.signOut();
+      toast.success("Your account and all your data have been deleted.");
+      navigate({ to: "/" });
+    } catch {
+      toast.error("Couldn't delete your account — please try again or contact us.");
+      setDeleting(false);
+    }
   }
 
   function downloadRow(row: SavedTripRow) {
@@ -151,10 +179,41 @@ function AccountPage() {
           </ul>
         )}
 
-        <div className="mt-10">
+        <div className="mt-10 flex items-center justify-between">
           <Button variant="outline" onClick={signOut}>
             Sign out
           </Button>
+
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <button
+                type="button"
+                disabled={deleting}
+                className="text-xs text-red-600/80 underline-offset-2 hover:underline disabled:opacity-60"
+              >
+                {deleting ? "Deleting…" : "Delete my account"}
+              </button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Delete your account?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  This permanently deletes your account, all saved itineraries, and your profile
+                  data. It cannot be undone. Itineraries you already downloaded as PDF stay on your
+                  device.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Keep my account</AlertDialogCancel>
+                <AlertDialogAction
+                  onClick={deleteAccount}
+                  className="bg-red-600 text-white hover:bg-red-700"
+                >
+                  Delete everything
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </div>
       </div>
     </main>
