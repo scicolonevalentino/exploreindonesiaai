@@ -1,17 +1,16 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { GoogleIcon } from "@/components/GoogleIcon";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/login")({
-  // Optional ?next=/path — where to land after the magic link is confirmed.
+  // Optional ?next=/path — where to land after auth completes.
   validateSearch: (search: Record<string, unknown>): { next?: string } =>
     typeof search.next === "string" ? { next: search.next } : {},
   head: () => ({
     meta: [
-      { title: "Sign in — ExploreIndonesia.ai" },
+      { title: "Log in or sign up — ExploreIndonesia.ai" },
       // Private page — keep it out of search engines.
       { name: "robots", content: "noindex, nofollow" },
     ],
@@ -23,21 +22,36 @@ function LoginPage() {
   const { next } = Route.useSearch();
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [busy, setBusy] = useState<"google" | "email" | null>(null);
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (!email) return;
-    setLoading(true);
+  // Returning users land on their trips; flows like the Save & Download wall
+  // pass ?next= to come back where they started.
+  const callback = () =>
+    `${window.location.origin}/auth/callback?next=${encodeURIComponent(next ?? "/account")}`;
+
+  async function withGoogle() {
+    setBusy("google");
     const supabase = getSupabaseBrowserClient();
-    const callback = `${window.location.origin}/auth/callback${
-      next ? `?next=${encodeURIComponent(next)}` : ""
-    }`;
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: callback },
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: callback() },
     });
-    setLoading(false);
+    if (error) {
+      setBusy(null);
+      toast.error("Google sign-in didn't start — please try again.");
+    }
+  }
+
+  async function withEmail(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim()) return;
+    setBusy("email");
+    const supabase = getSupabaseBrowserClient();
+    const { error } = await supabase.auth.signInWithOtp({
+      email: email.trim(),
+      options: { emailRedirectTo: callback() },
+    });
+    setBusy(null);
     if (error) {
       toast.error(error.message);
       return;
@@ -59,11 +73,11 @@ function LoginPage() {
           className="mt-4 font-serif text-3xl font-semibold"
           style={{ color: "var(--navy-deep)" }}
         >
-          Sign in
+          Log in or sign up
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          To save your itineraries and download them as a PDF. We'll email you a secure sign-in link
-          — no password needed.
+          Access your saved itineraries, or create a free account to keep your trips and download
+          them anytime.
         </p>
 
         {sent ? (
@@ -73,8 +87,8 @@ function LoginPage() {
           >
             <p className="font-medium">Check your inbox 📩</p>
             <p className="mt-1 text-muted-foreground">
-              We sent a sign-in link to <strong>{email}</strong>. Open it on this device to
-              continue.
+              We sent a secure link to <strong>{email}</strong>. Open it on this device to continue
+              — that click confirms your email address.
             </p>
             <button
               onClick={() => setSent(false)}
@@ -85,20 +99,57 @@ function LoginPage() {
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="mt-6 space-y-4">
-            <Input
-              type="email"
-              required
-              autoFocus
-              placeholder="you@email.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              aria-label="Email address"
-            />
-            <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? "Sending…" : "Email me a sign-in link"}
-            </Button>
-          </form>
+          <div className="mt-6 flex flex-col gap-4">
+            <button
+              type="button"
+              onClick={withGoogle}
+              disabled={busy !== null}
+              className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-[var(--border-cream)] bg-white px-5 py-3 text-sm font-semibold text-[var(--navy-deep)] transition-colors hover:bg-black hover:text-white disabled:opacity-60"
+            >
+              <GoogleIcon />
+              {busy === "google" ? "Connecting…" : "Continue with Google"}
+            </button>
+
+            <div className="flex items-center gap-3 text-xs text-muted-foreground">
+              <span className="h-px flex-1 bg-[var(--border-cream)]" />
+              or with your email
+              <span className="h-px flex-1 bg-[var(--border-cream)]" />
+            </div>
+
+            <form onSubmit={withEmail} className="flex flex-col gap-3">
+              <input
+                type="email"
+                required
+                autoFocus
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="you@email.com"
+                aria-label="Email address"
+                autoComplete="email"
+                className="w-full rounded-md border border-[var(--border-cream)] bg-white px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-ring"
+              />
+              <button
+                type="submit"
+                disabled={busy !== null}
+                className="inline-flex w-full items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:opacity-60"
+              >
+                {busy === "email" ? "Sending…" : "Email me a secure link"}{" "}
+                <span aria-hidden>→</span>
+              </button>
+            </form>
+
+            <p className="text-[11px] leading-relaxed text-muted-foreground">
+              By continuing you agree to our{" "}
+              <a href="/terms" className="underline" style={{ color: "var(--teal-link)" }}>
+                Terms
+              </a>{" "}
+              and{" "}
+              <a href="/privacy" className="underline" style={{ color: "var(--teal-link)" }}>
+                Privacy Policy
+              </a>
+              .
+            </p>
+          </div>
         )}
       </div>
     </main>

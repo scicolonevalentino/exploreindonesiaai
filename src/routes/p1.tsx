@@ -27,6 +27,7 @@ import { useUser } from "@/lib/supabase/useUser";
 import { saveTrip } from "@/lib/supabase/trips";
 import { flushPendingProfile } from "@/lib/supabase/profile";
 import { AuthSaveModal } from "@/components/AuthSaveModal";
+import { AuthStatus } from "@/components/AuthStatus";
 import { toast } from "sonner";
 
 // localStorage key for stashing a freshly built trip when a signed-out visitor
@@ -308,6 +309,7 @@ export function P1Page() {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#faf9f5" }}>
+      <AuthStatus />
       {stage === "input" && (
         <InputStage value={prompt} onChange={setPrompt} onStart={buildTrip} error={error} />
       )}
