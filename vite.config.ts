@@ -34,4 +34,8 @@ export default defineConfig({
         },
       }
     : false,
+  // NOTE: the server function's maxDuration (for the slow AI generation) is set
+  // by scripts/set-vercel-duration.mjs, which patches the Build Output API
+  // .vc-config.json after the build (vercel.json runs it). Nitro's
+  // vercel.functionRules don't reach this single catch-all function.
 });
