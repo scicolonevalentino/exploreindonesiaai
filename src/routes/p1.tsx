@@ -302,12 +302,6 @@ function InputStage({
         color: "#f2eee4",
       }}
     >
-      <header className="mx-auto max-w-7xl px-6 py-6 flex items-center justify-between">
-        <span className="font-bold text-lg sm:text-xl tracking-tight">
-          exploreindonesia<span style={{ color: "var(--blue-ice)" }}>.ai</span>
-        </span>
-      </header>
-
       <section className="mx-auto max-w-4xl px-6 pt-12 pb-20 text-center">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] mb-6"
@@ -328,8 +322,8 @@ function InputStage({
           We make it <span className="whitespace-nowrap">ready-to-book</span>
         </p>
         <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
-          Paste the Indonesia itinerary you already have — from ChatGPT, a blog, or your notes — or
-          just describe the trip you want. We turn it into a day-by-day plan you can actually book.
+          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
+          structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
         </p>
 
         <div
@@ -343,7 +337,7 @@ function InputStage({
             id="p1-paste"
             value={value}
             onChange={(e) => onChange(e.target.value)}
-            placeholder="e.g. 10 days in Bali and the Gili Islands in July, couple, mid-range, love snorkeling and food — or paste a full itinerary here"
+            placeholder="e.g. 10 days in Bali and the Gili Islands in July, couple, mid-range, love snorkeling and food, or paste a full itinerary here"
             rows={10}
             className="w-full text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
