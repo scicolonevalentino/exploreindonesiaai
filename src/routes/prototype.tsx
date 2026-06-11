@@ -929,13 +929,14 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         )}
       </section>
 
-      {/* Inline totals + CTA — no sticky bar, sits right after the itinerary */}
+      {/* Anchored price bar — sticks to the bottom of the viewport so the total
+          stays in view and updates instantly as items are toggled. */}
       {totals.count > 0 && (
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
-          <div
-            className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
-            style={{ borderColor: "var(--border-cream)" }}
-          >
+        <div
+          className="sticky bottom-0 z-40 border-t bg-[#faf9f5]/95 backdrop-blur supports-[backdrop-filter]:bg-[#faf9f5]/80"
+          style={{ borderColor: "var(--border-cream)" }}
+        >
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
             <div className="text-sm">
               <span className="font-semibold">{totals.count} experiences added</span>
               <span className="text-[var(--slate-muted)] mx-3">·</span>
@@ -1224,7 +1225,7 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
               added
                 ? "bg-[var(--blue-bright)] text-white border-transparent"
-                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:border-[var(--navy-deep)]"
             }`}
           >
             {added ? "✓ Added to trip" : "Add to trip"}
@@ -1268,7 +1269,7 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors border ${
               added
                 ? "bg-[var(--blue-bright)] text-white border-transparent"
-                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:bg-[var(--blue-bright)] hover:text-white"
+                : "bg-white text-[var(--navy-deep)] border-[var(--blue-bright)] hover:border-[var(--navy-deep)]"
             }`}
           >
             {added ? "✓ Added" : "Add to trip"}
