@@ -13,6 +13,7 @@ import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PrototypeRouteImport } from './routes/prototype'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as P1HomeRouteImport } from './routes/p1-home'
 import { Route as P1RouteImport } from './routes/p1'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
@@ -40,6 +41,11 @@ const PrototypeRoute = PrototypeRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const P1HomeRoute = P1HomeRouteImport.update({
+  id: '/p1-home',
+  path: '/p1-home',
   getParentRoute: () => rootRouteImport,
 } as any)
 const P1Route = P1RouteImport.update({
@@ -86,6 +92,7 @@ const ApiPublicBuildTripRoute = ApiPublicBuildTripRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/p1': typeof P1Route
+  '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -100,6 +107,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/p1': typeof P1Route
+  '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -115,6 +123,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/p1': typeof P1Route
+  '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -131,6 +140,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/p1'
+    | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -145,6 +155,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/p1'
+    | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -159,6 +170,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/p1'
+    | '/p1-home'
     | '/privacy'
     | '/prototype'
     | '/sitemap.xml'
@@ -174,6 +186,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   P1Route: typeof P1Route
+  P1HomeRoute: typeof P1HomeRoute
   PrivacyRoute: typeof PrivacyRoute
   PrototypeRoute: typeof PrototypeRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -214,6 +227,13 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/p1-home': {
+      id: '/p1-home'
+      path: '/p1-home'
+      fullPath: '/p1-home'
+      preLoaderRoute: typeof P1HomeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/p1': {
@@ -278,6 +298,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   P1Route: P1Route,
+  P1HomeRoute: P1HomeRoute,
   PrivacyRoute: PrivacyRoute,
   PrototypeRoute: PrototypeRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,

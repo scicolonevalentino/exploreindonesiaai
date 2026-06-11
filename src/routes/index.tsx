@@ -97,7 +97,7 @@ function Logo() {
   );
 }
 
-function Hero() {
+export function Hero() {
   const isMobile = useIsMobile();
   const videoSrc = isMobile ? HERO_VIDEO_MOBILE : HERO_VIDEO_DESKTOP;
 
@@ -193,7 +193,7 @@ function Hero() {
   );
 }
 
-function HowItWorks() {
+export function HowItWorks() {
   const steps = [
     {
       n: 1,
@@ -251,7 +251,7 @@ function HowItWorks() {
   );
 }
 
-function Trust() {
+export function Trust() {
   const partners = [
     { name: "Viator", color: "#1f9e87" },
     { name: "Klook", color: "#ef7a23" },
@@ -705,7 +705,7 @@ function InspirationMarquee() {
   );
 }
 
-function Inspiration() {
+export function Inspiration() {
   return (
     <section
       id="inspiration"
@@ -767,7 +767,7 @@ function EmbeddedPrototype() {
   );
 }
 
-function BrowseByDestination() {
+export function BrowseByDestination() {
   return (
     <section className="w-full px-6 py-20 sm:py-28" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl">

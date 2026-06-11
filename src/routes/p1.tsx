@@ -132,7 +132,7 @@ function fireAffiliateClick(item: ItineraryItem) {
 
 type Stage = "input" | "building" | "trip";
 
-function P1Page() {
+export function P1Page() {
   const [stage, setStage] = useState<Stage>("input");
   const [prompt, setPrompt] = useState("");
   const [trip, setTrip] = useState<Trip | null>(null);
