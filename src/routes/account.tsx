@@ -4,6 +4,8 @@ import { useUser } from "@/lib/supabase/useUser";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { listTrips, deleteTrip, type SavedTripRow } from "@/lib/supabase/trips";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
+import { QuoteRequestModal } from "@/components/QuoteRequestModal";
+import { trackEvent } from "@/lib/analytics-events";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -34,6 +36,8 @@ function AccountPage() {
 
   const [trips, setTrips] = useState<SavedTripRow[]>([]);
   const [tripsLoading, setTripsLoading] = useState(true);
+  // The trip whose "arrange for me" quote popup is open (null = closed).
+  const [quoteTrip, setQuoteTrip] = useState<SavedTripRow | null>(null);
 
   // Client-side guard: bounce signed-out visitors to the login page.
   useEffect(() => {
@@ -165,10 +169,21 @@ function AccountPage() {
                       {days ? `${days} days · ` : ""}Saved {created}
                     </p>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <Button size="sm" onClick={() => downloadRow(row)}>
                       Download PDF
                     </Button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        trackEvent("quote_cta_click", { trip_id: row.id, title: row.title });
+                        setQuoteTrip(row);
+                      }}
+                      className="inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-semibold transition-colors hover:brightness-95"
+                      style={{ backgroundColor: "var(--gold-warm)", color: "var(--navy-deep)" }}
+                    >
+                      Get this trip arranged for you
+                    </button>
                     <Button size="sm" variant="ghost" onClick={() => removeRow(row)}>
                       Delete
                     </Button>
@@ -216,6 +231,16 @@ function AccountPage() {
           </AlertDialog>
         </div>
       </div>
+
+      <QuoteRequestModal
+        trip={quoteTrip}
+        open={!!quoteTrip}
+        onOpenChange={(o) => {
+          if (!o) setQuoteTrip(null);
+        }}
+        userEmail={user.email ?? ""}
+        userName={(user.user_metadata?.full_name as string | undefined) ?? ""}
+      />
     </main>
   );
 }
