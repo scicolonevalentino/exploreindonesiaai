@@ -256,6 +256,10 @@ export function AuthSaveModal({
                   <span aria-hidden>→</span>
                 </button>
               </form>
+
+              <p className="text-center text-[11px] text-muted-foreground">
+                🔒 Free account, no credit card ever, delete anytime.
+              </p>
             </div>
           </>
         )}
