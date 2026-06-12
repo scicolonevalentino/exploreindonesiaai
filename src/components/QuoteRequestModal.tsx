@@ -119,8 +119,8 @@ export function QuoteRequestModal({
               <DialogDescription>
                 {trip ? (
                   <>
-                    A local Indonesia expert will tailor <strong>&ldquo;{trip.title}&rdquo;</strong>{" "}
-                    and send you a quote — free, no obligation.
+                    One of our trusted partners will tailor{" "}
+                    <strong>&ldquo;{trip.title}&rdquo;</strong> and send you a quote for free.
                   </>
                 ) : null}
               </DialogDescription>
