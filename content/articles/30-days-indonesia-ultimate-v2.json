@@ -10,7 +10,7 @@
   "metaTitle": "30-Day Indonesia Itinerary: The Ultimate Route",
   "metaDescription": "A decision-led 30-day Indonesia route: Bali, Java, Komodo, Lombok, Sumatra, Sulawesi and Raja Ampat. What to book, what to skip, and where it gets hard.",
   "focusKeyword": "30 days Indonesia ultimate itinerary",
-  "intro": "This route treats Indonesia as an archipelago, not a Bali holiday with add-ons. An honest, decision-led 30-day plan through seven regions, from Java's volcanoes and Komodo's dragons to Sumatra's orangutans, Sulawesi's highland culture and the reefs of Raja Ampat: what to book, what to skip, and where it gets hard.",
+  "intro": "This route treats Indonesia as an archipelago, not as a Bali holiday with add-ons. Thirty days is enough to connect temples and volcanoes in Java, dragons and pink sand in Komodo, a beach reset in Lombok and the Gilis, orangutans in Sumatra, ancestral villages in Sulawesi, and reef wilderness in Raja Ampat.",
   "route": "Bali → Java → Komodo & Flores → Lombok & Gili → Sumatra → Sulawesi → Raja Ampat",
   "tripLengthDays": 30,
   "tripLengthBucket": "three_weeks_plus",
@@ -48,14 +48,6 @@
     "domestic_flights",
     "private_drivers"
   ],
-  "practicalInfo": {
-    "bestTimeToVisit": "April to September is the broad dry-season window that works across Java's volcanoes, the Komodo and Lombok crossings and Raja Ampat. Regional weather varies, so build a buffer day per region.",
-    "gettingThere": "Start at Bali's Ngurah Rai (DPS) and end out of Sorong (SOQ) for Raja Ampat. The route uses around seven domestic flights between regions, and routes change, so check current schedules.",
-    "gettingAround": "A mix of domestic flights, ferries and private drivers. Hire a driver for spread-out days in Bali, Java, Lombok and Toraja, and pre-book inter-island boats. Allow buffer time around weather-dependent crossings.",
-    "currency": "Indonesian rupiah (IDR). Carry cash for park fees, remote homestays and ranger posts, since cards are unreliable in Flores, Sumatra and Raja Ampat. ATMs thin out away from cities.",
-    "simCard": "An Indonesia eSIM is close to essential on this route, useful in Bali and near-vital in Flores, Sumatra and the islands. Activate it before you land.",
-    "visa": "Most nationalities get the e-VoA, valid 30 days and extendable once, plus a Bali tourist levy. Fees and rules can change, so confirm the current amounts before you travel; this trip uses the full visa window, so plan your extension or exit timing."
-  },
   "faq": [
     {
       "question": "Is 30 days enough for this Indonesia route?",
@@ -97,7 +89,7 @@
           "_type": "span",
           "_key": "k0",
           "marks": [],
-          "text": "Thirty days is enough to string Indonesia's headline regions into one continuous route: temples and volcanoes in Java, dragons and pink sand in Komodo, a beach reset in Lombok and the Gilis, orangutans in Sumatra, ancestral villages in Sulawesi, and reef wilderness in Raja Ampat. It is a thrilling month. It is also intense, and this guide is honest about that: where to slow down, where a single missed flight unravels a week, what to book early, and what to cut if you would rather keep the range with less friction."
+          "text": "It is a thrilling month, and an intense one. This guide is honest about that: where to slow down, where a single missed flight unravels a week, what to book early, and what to cut if you would rather keep the range with less friction."
         }
       ]
     },
@@ -2498,7 +2490,7 @@
           "_type": "span",
           "_key": "k9h",
           "marks": [],
-          "text": " this connection depends on current flight schedules, and there is not always a same-day option, so add a buffer night near the airport if the timing is tight, and do not lock the onward leg until it is confirmed."
+          "text": " the safer version is to overnight near Medan airport and fly to Makassar the next morning. Only attempt the same-day version if your ferry, transfer and flight timing are confirmed with a large buffer."
         }
       ]
     },
@@ -2704,7 +2696,7 @@
           "_type": "span",
           "_key": "kaa",
           "marks": [],
-          "text": " Sorong routes change and do not run daily, so confirm the schedule before you commit the rest of the trip, book this flight among the very first, and overnight in Sorong before the morning ferry. Missing it costs you a day in Raja Ampat itself."
+          "text": " treat this as an exit day from Toraja and a positioning night in Sorong, not a sightseeing day. Sorong routes change and do not run daily, so confirm the schedule before you commit the rest of the trip, book this flight among the very first, and overnight in Sorong before the morning ferry."
         }
       ]
     },
