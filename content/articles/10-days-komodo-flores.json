@@ -1,0 +1,2042 @@
+{
+  "_id": "45b532c0-f84e-4aca-9182-1736731c79b4",
+  "_system": {
+    "base": {
+      "id": "45b532c0-f84e-4aca-9182-1736731c79b4",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-06-02T05:29:55.582Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits travellers who want Indonesia to feel raw and a little unpredictable. If you like nature, photography, volcanic landscapes and long scenic drives, and you have done a beach-only trip before, Komodo and Flores will reward you. Solo travellers, couples and repeat Indonesia visitors tend to enjoy it most."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for travellers who want short transfers, resort comfort and a fixed daily pace. The Trans-Flores drive involves several hours of winding mountain road between most stops, and accommodation east of Labuan Bajo is simple. If anyone in your group gets carsick easily, or you want spa-and-pool downtime, treat this as the wrong itinerary and stay around Labuan Bajo instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 10 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo Airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "End:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " Ende, with a flight out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " adventure travellers, nature lovers, photographers, repeat Indonesia visitors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " travellers wanting short transfers, resort comfort or a slow beach pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " active and overland-heavy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " medium to hard. Easy in Labuan Bajo, harder once you start driving across Flores."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " medium. The Komodo boat day and your Ende exit flight are the two things to lock early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kz",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic is simple: do the water first, then go overland in one direction so you never backtrack. You start in Labuan Bajo because that is where the Komodo National Park boats leave from and where flights connect most easily. Three nights there give you a full Komodo day, a lighter recovery day, and a buffer in case sea conditions push your boat trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "From there the trip runs west to east across Flores: Labuan Bajo to Ruteng, Ruteng to Bajawa, Bajawa to Moni, Moni to Ende. Each leg is a few hours of mountain driving, so you sleep in a new town rather than doubling back. Kelimutu sits near Moni, which is why Moni gets two nights, you arrive, sleep, climb for sunrise, then move on. Ende is the natural end because it has an airport, closing the line cleanly instead of forcing a return drive to Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you fly: data and the two bookings that matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort your connectivity before you board. Set up an "
+        },
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [
+            "k18"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k1a",
+          "_type": "span",
+          "marks": [],
+          "text": " and activate it on the plane, so you land with maps, messaging and the ability to confirm drivers and guesthouses the moment you arrive. Coverage thins out on the remote Flores legs, but an eSIM still beats arriving dark."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k18",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1d",
+          "_type": "span",
+          "marks": [],
+          "text": " two things deserve to be locked before the rest of the trip falls into place. The first is your Komodo boat day out of Labuan Bajo. The second is your exit flight from Ende, which has limited routes. Confirm current flight routes before locking hotels, and allow buffer time around both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1g",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Labuan Bajo and slow down"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo, first of three nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive and keep the day deliberately easy. Labuan Bajo is a small harbour town and the gateway to Komodo National Park. Check in, walk the waterfront, and let yourself adjust to the slower rhythm before the boat day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [],
+          "text": " If you land in the afternoon, pick a sunset viewpoint or a restaurant over the water. Do not overplan day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [],
+          "text": " stay in the harbour area. Hotels there give the most convenient access to boat departures and restaurants, which matters most on the early-start Komodo morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Komodo National Park by boat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [],
+          "text": " Start early on the water. A full-day boat trip from Labuan Bajo typically covers the main highlights in one long day: the Padar Island viewpoint, Pink Beach, a Komodo Island dragon walk with a ranger, Manta Point and snorkeling stops."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [],
+          "text": " Padar is usually the most dramatic viewpoint, worth the short hike for the panorama over three bays. Komodo Island delivers the dragon encounter, always with a local ranger. Pink Beach and the snorkeling stops add the marine side. Bring sunscreen, swimwear, a hat, comfortable shoes and a dry bag."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a sea-dependent day. If conditions are rough it may be cut short or shifted, which is exactly why three nights in Labuan Bajo gives you a fallback. On park fees, if you add a Komodo boat trip the 2026 bundled fee is around IDR 650,000 for the Komodo route or IDR 900,000 for the Rinca and Padar route per person, pre-booked through the SiORA app or a licensed operator. Fees can change, so check the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Lighter day around Labuan Bajo or Rangko Cave"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [],
+          "text": " After the intensity of the Komodo day, keep this one lighter. Slow breakfast, then a shorter coastal experience. Rangko Cave, with its saltwater pool, paired with a sand island stop works well as a half-day without another full day at sea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [],
+          "text": " Head back into Labuan Bajo and watch sunset over the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2m",
+          "_type": "span",
+          "marks": [],
+          "text": " this day doubles as your weather buffer. If the sea pushed your Komodo trip from Day 2, swap the two days and use this slot for the boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Labuan Bajo to Ruteng"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2r",
+          "_type": "span",
+          "marks": [],
+          "text": " Ruteng, one night. This is a positioning day, not a sightseeing day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Labuan Bajo and begin the overland journey across Flores. The drive to Ruteng climbs into greener, cooler country with mountain roads and village stops."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [],
+          "text": " If you can, stop at the spider-web rice fields near Cancar before Ruteng, one of the most distinctive farming landscapes in Flores. Arrive, check in, keep the evening quiet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [],
+          "text": " hire a local driver-guide for the overland legs rather than self-driving. The Trans-Flores road is paved but extremely winding, signage and roadside help are limited, and a driver lets you stop freely and watch the scenery instead of the road. Arrange one in Labuan Bajo before you set off. Accommodation in Ruteng is simple guesthouses in the centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Ruteng to Bajawa"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " Bajawa, first of two nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue east. The leg is long but scenic, with mountain views, villages and shifting landscapes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3b",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive in Bajawa and rest. The town sits higher and cooler than the coast, so pack a light layer for the evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [],
+          "text": " allow buffer time on this drive. Expect roughly three to five hours of winding road, and more in the wet season when landslides are possible, which is another reason the dry months are strongly preferable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Bajawa villages and hot springs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [],
+          "text": " Bajawa."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend the day on the traditional villages around Bajawa. Bena is the best known, with stone formations, traditional houses and views toward Mount Inerie."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3p",
+          "_type": "span",
+          "marks": [],
+          "text": " After the village visit, continue to a local hot spring for a slower end to the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [],
+          "text": " this is one of the strongest cultural days of the trip, connecting landscape, architecture and local life in a small area, so it stays restful rather than rushed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Bajawa to Moni"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [],
+          "text": " Moni, first of two nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Bajawa and continue east toward Moni, the base for Kelimutu. Another long but scenic travel day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " With a private driver you can add short viewpoint or village stops along the way. Arrive in Moni and sleep early, because tomorrow starts before dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " Moni is a quiet village with small guesthouses. Confirm your stay can organise the early Kelimutu transport, most can arrange a shared jeep or driver, and sort it the night before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Kelimutu sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4b",
+          "_type": "span",
+          "marks": [],
+          "text": " Moni."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " Wake before dawn and travel to Kelimutu for sunrise. The volcano is known for its three crater lakes, which can appear in different colours depending on natural conditions. The walk from the parking area to the viewpoint is manageable, but the early start and cool mountain air make warm clothing worth packing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Moni for breakfast and keep the rest of the day slow. You have earned it after several travel days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": " the lake colours are natural and unpredictable, so treat the sunrise itself as the goal rather than any specific colour. Arrange the early transport with your guesthouse the night before, not on the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Moni to Ende"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [],
+          "text": " Ende, one night. A short positioning leg to reach your exit airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Moni and continue to Ende, a coastal town that marks the end of the Flores overland section."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4v",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest, explore the waterfront and have a proper meal after several days of mountain roads. Accommodation here is basic hotels in the town centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " keep this day light on purpose. It exists to put you near the airport with a buffer, not to add more sightseeing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Departure from Ende"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [],
+          "text": " Ende."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it free for a slow breakfast or a final walk before the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": [],
+          "text": " Ende has a small airport with flights back to Bali or to other Indonesian cities, but routes are limited and worth treating as the spine of the whole plan. Confirm current flight routes before locking the rest of the trip, and allow buffer time in case of changes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5c",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [],
+          "text": " Your Komodo boat day, your Flores driver-guide, and above all your exit flight from Ende. The Ende routes are limited, so lock that flight first and build the days around it. Set up your "
+        },
+        {
+          "_key": "k5g",
+          "_type": "span",
+          "marks": [
+            "k5f"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k5h",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly as well, so you can confirm drivers and stays on arrival."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k5f",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k5l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [],
+          "text": " Guesthouses in Ruteng, Bajawa, Moni and Ende are simple and rarely sell out, so you can hold those loosely. The order of your two Labuan Bajo activity days is also flexible, swap the Komodo boat and the lighter day if the sea turns rough."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5n",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5o",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the drives. Three to five hours of winding mountain road between most stops is normal here, and trying to compress it loses the scenery and adds stress."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [],
+          "text": "Treating the Ende flight as an afterthought. With limited routes, a missed or changed flight is hard to recover from out there, so it should be the first booking, not the last."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5s",
+          "_type": "span",
+          "marks": [],
+          "text": "Going in the wet season for lower prices. The mountain roads carry landslide risk and the sea crossings get rougher, so the dry months from April to October are strongly preferable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5u",
+          "_type": "span",
+          "marks": [],
+          "text": "Skipping a driver to save money. The Trans-Flores road has limited signage and roadside help, and a local driver-guide is affordable, safer and lets you stop freely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5x",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut for a slower pace."
+        },
+        {
+          "_key": "k5z",
+          "_type": "span",
+          "marks": [],
+          "text": " Drop the Ruteng night and run Labuan Bajo straight toward Bajawa over a longer single day, or trim Ende to a same-day departure if a morning flight exists. Either choice eases the schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt around the sea."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " If weather threatens the Komodo day, use your spare Labuan Bajo day as the boat day and keep the lighter Rangko Cave option as the fallback rather than the headline."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade where it counts."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend on the Labuan Bajo harbour-area hotel and on a good private driver for the overland legs. Those two upgrades carry the trip. Guesthouse comfort further east matters far less."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k6a",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season, gives calmer seas for the Komodo boats and drier, safer roads across Flores. The wet season brings landslide risk and rougher crossings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k6d",
+          "_type": "span",
+          "marks": [],
+          "text": " Check the latest official guidance on visa-on-arrival or e-visa eligibility for your nationality before you travel, as rules can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k6g",
+          "_type": "span",
+          "marks": [],
+          "text": " You fly into Labuan Bajo and out of Ende, so confirm current flight routes before locking hotels. The Ende routes in particular are limited."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k6j",
+          "_type": "span",
+          "marks": [],
+          "text": " The Komodo segment is boat-based and sea-dependent, and the Flores section is a long overland drive best handled by a local driver-guide. Allow buffer time on every leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for the smaller Flores towns where cards are rarely accepted, and set up your "
+        },
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [
+            "k6n"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly so you have data from the moment you land."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6n",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early versus keep flexible."
+        },
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": " Lock the Ende flight, the Komodo boat and the driver early. Hold the simple highland guesthouses loosely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6v",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6w",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want the scenery most Indonesia visitors never see and you are genuinely comfortable with long, winding drives and simple rooms. The payoff, a Komodo boat day followed by the Trans-Flores climb to Kelimutu, is one of the country's great overland journeys."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6y",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want short transfers, resort comfort or a beach-led pace. In that case base yourself around Labuan Bajo, do the Komodo boat days, and leave the overland crossing for a trip where the road is the point."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [],
+          "text": "If the overland drives feel like too much, compare a lighter, water-focused plan on the "
+        },
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "k73"
+          ],
+          "text": "Komodo and Flores destination hub"
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k73",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/komodo_flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [],
+          "text": "Travellers drawn to the volcanic side of this route often pair it with a "
+        },
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [
+            "k78"
+          ],
+          "text": "Bali and volcanoes itinerary"
+        },
+        {
+          "_key": "k7a",
+          "_type": "span",
+          "marks": [],
+          "text": " for the wider Indonesia picture."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k78",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/bali-volcanoes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k7g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7c",
+          "_type": "span",
+          "marks": [],
+          "text": "For a contrast in pace, a "
+        },
+        {
+          "_key": "k7e",
+          "_type": "span",
+          "marks": [
+            "k7d"
+          ],
+          "text": "Bali highlights trip"
+        },
+        {
+          "_key": "k7f",
+          "_type": "span",
+          "marks": [],
+          "text": " works well as a softer add-on before or after the Flores crossing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k7d",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/bali-highlights"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "komodo_flores",
+  "experienceTags": [
+    "wildlife",
+    "island_day_trip",
+    "overland_route",
+    "local_villages",
+    "volcano_sunrise"
+  ],
+  "faq": [
+    {
+      "answer": "Yes. The Labuan Bajo to Ruteng to Bajawa to Moni to Ende route is one of Indonesia's great road trips, through rice terraces, traditional villages and volcanoes. Expect three to five hours of winding mountain driving between most stops, so plan an overnight at each.",
+      "question": "Is the Trans-Flores overland route worth it, and how long are the drives?"
+    },
+    {
+      "answer": "Hire a local driver-guide. The Trans-Flores road is paved but extremely winding, with landslides possible in the wet season, and signage and roadside help are limited. A driver arranged in Labuan Bajo is affordable, safer, and lets you enjoy the scenery and stop freely.",
+      "question": "Should I self-drive or hire a driver across Flores?"
+    },
+    {
+      "answer": "If you add a Komodo boat trip from Labuan Bajo, the 2026 bundled fee is around IDR 650,000 for the Komodo route or IDR 900,000 for the Rinca and Padar route per person, pre-booked via the SiORA app or a licensed operator. Fees can change, so check the latest official guidance. The overland Flores legs have no equivalent park fee.",
+      "question": "What is the Komodo National Park fee for this trip?"
+    },
+    {
+      "answer": "Yes. Ten days lets you combine a Komodo boat trip from Labuan Bajo with the overland drive across Flores to Kelimutu's coloured crater lakes near Moni, ending in Ende. It is a full itinerary, so trim a stop if you want a slower pace.",
+      "question": "Is 10 days enough for Komodo and Flores?"
+    },
+    {
+      "answer": "April to October, the dry season, is best, with calmer seas for the Komodo boats and drier, safer roads for the Trans-Flores drive. The wet season brings landslide risk on mountain roads and rougher crossings, so the dry months are strongly preferable.",
+      "question": "When is the best time to visit Komodo and Flores?"
+    }
+  ],
+  "focusKeyword": "10 days Komodo Flores itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Flores landscape with Komodo islands, volcanoes and traditional villages",
+    "asset": {
+      "_ref": "image-c3629bf329bb10937ebf12b9aa5285c5cc5eb5a8-5399x3599-jpg",
+      "_type": "reference"
+    },
+    "caption": "Labuan Bajo → Ruteng → Bajawa → Moni → Ende"
+  },
+  "intro": "Most Indonesia trips stay on Bali. This one leaves it behind. Ten days across Komodo and Flores means a boat day among dragons and island viewpoints, then a long overland drive through volcanic highlands to the coloured crater lakes of Kelimutu. The reward is scenery few travellers reach. The cost is winding mountain roads, early starts and flight legs you must lock before anything else.",
+  "logisticsComplexity": "complex",
+  "metaDescription": "A practical 10-day Komodo and Flores itinerary: Labuan Bajo, Komodo park, Ruteng, Bajawa, Kelimutu and Ende, with honest logistics.",
+  "metaTitle": "Komodo & Flores in 10 Days: Day-by-Day Itinerary",
+  "primaryAffiliatePartner": "klook",
+  "route": "Labuan Bajo → Ruteng → Bajawa → Moni → Ende",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-komodo-flores"
+  },
+  "title": "10 Days in Komodo and Flores: Labuan Bajo, Ruteng, Bajawa, Moni and Ende",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "wildlife_nature",
+    "remote_offbeat"
+  ],
+  "travellerTypes": [
+    "solo_travellers",
+    "couples",
+    "repeat_travellers"
+  ],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "vibe": "active"
+}

@@ -1,0 +1,2555 @@
+{
+  "_id": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
+  "_system": {
+    "base": {
+      "id": "4aeb3acb-1f7b-41ef-bca3-334f4d2f7405",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "articleCommercialTier": "supporting",
+  "articleCreatedDate": "2026-06-02T06:17:32.959Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May–September",
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits nature and wildlife travellers, photographers, and people who have already done Bali or Java and want Indonesia at a wilder register. It works well for solo travellers and confident independent couples who are comfortable arranging guides locally and rolling with road conditions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for travellers who want polished resorts, short hops between sights, or a packed checklist. The distances are real, the roads are slow, and one section of the trip is a ferry crossing. If long transfer days drain you, or you need everything booked and confirmed weeks ahead, this itinerary will frustrate you. Consider a single-region Indonesia trip instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 15 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Kualanamu International Airport, Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " nature lovers, wildlife travellers, photographers, repeat Indonesia visitors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " resort travellers, anyone allergic to long road transfers, tight-checklist sightseers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " active, overland, independent."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " medium overall, with a fragile point at the Parapat to Samosir ferry and the long highland transfers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly May to September, the drier window for jungle trekking and volcano views. Sumatra is wetter year-round than Bali, so pack for rain regardless."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " low for hotels and the eSIM, medium for guides which are best arranged on the ground."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kw",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kz",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ky",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic here is geography and contrast. Everything in this itinerary radiates from Medan, the only major air gateway in North Sumatra, so the route starts and ends there by necessity, not preference."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "From Medan you move through three distinct landscapes in a deliberate order. First Bukit Lawang and the lowland rainforest of Gunung Leuser, where the trip's wildlife payoff sits up front while your energy is highest. Then Berastagi in the Karo highlands, where the air cools and the terrain turns volcanic. Finally Lake Toba and Samosir Island, the calm note at the end, where a slow cultural and lakeside stretch lets you decompress before the flight home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": "Ordering it this way means the most physical days come early and the trip relaxes as it goes. It also keeps each road transfer pointed roughly southward, avoiding backtracking, with only the final return to Medan retracing your steps."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Medan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": " Land at Kualanamu International Airport and transfer to your Medan hotel. Keep the first day deliberately simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1a",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner near your accommodation, then an early night. Medan is not a sightseeing priority, so do not feel you are missing anything by resting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1d",
+          "_type": "span",
+          "marks": [],
+          "text": " Medan, one night. Stay near the city centre, or closer to the road towards Bukit Lawang if you plan an early departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1g",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a positioning night, not an experience. Choose for sleep quality and an easy morning exit, not location charm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1j",
+          "_type": "span",
+          "marks": [],
+          "text": " if your eSIM is not already live, sort it now so maps and messaging work from the airport. Activate an "
+        },
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "k1k"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " on the plane and you land connected, which matters when you are arranging onward transport."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1k",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Travel to Bukit Lawang"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Medan by road for Bukit Lawang, around 3 hours by private car or shared minibus. The village sits at the edge of Gunung Leuser National Park, one of the largest protected rainforests in Southeast Asia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and walk the village. The jungle starts right at the edge of the settlement, so you get a first taste without a formal trek."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat by the river and sleep early. Tomorrow is physical."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": " Bukit Lawang, four nights. Simple, comfortable riverside guesthouses, most with a jungle-edge setting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " a private transfer is worth it if you are carrying luggage, since the shared minibuses from Medan's Pinang Baris terminal are cheaper but cramped and slow. Your guesthouse can arrange either."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " 3 hours is the optimistic figure. Allow buffer time for traffic leaving Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Orangutan trekking in Gunung Leuser"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": " Full day in Gunung Leuser with a licensed guide. The park holds a significant population of Sumatran orangutans, one of the few places on earth to observe them semi-wild in their habitat. You may also meet Thomas leaf monkeys, gibbons and a range of birds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay out if your legs allow. A full-day trek gives the most jungle time and improves your odds of a longer sighting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": " the standard and preferred approach in Bukit Lawang is to arrange a licensed guide directly through your guesthouse, not to pre-book online. As a working estimate, expect around $30 to $60 per person per day including the park permit. A multi-day trek runs higher, in the region of €100 per day with meals and permit included. Fees can change, so confirm on arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2k",
+          "_type": "span",
+          "marks": [],
+          "text": " choose operators who keep distance, do not feed wildlife and follow park rules. This is both an ethics point and a safety one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2n",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Second trek or river tubing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": " Decide based on yesterday. If the trekking suited you, head back into a different area of the park with a guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": " If you want something lighter, try river tubing on the Bohorok River, relaxed and scenic and a good contrast to the climb."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2v",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep at least one afternoon this week genuinely free. Sit by the river, do nothing, talk to other travellers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2y",
+          "_type": "span",
+          "marks": [],
+          "text": " Bukit Lawang."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a flexible day by design. Do not lock it in advance, since how you feel after Day 3 should decide it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Slow morning, then travel to Berastagi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [],
+          "text": " A relaxed Bukit Lawang breakfast, then depart."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [],
+          "text": " Road to Berastagi, a highland town on the Karo Plateau, around 4 hours away. The landscape shifts completely: cooler air, volcanic peaks, market gardens."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and rest. The altitude change is noticeable and welcome after the humid lowlands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [],
+          "text": " Berastagi, three nights. Small hotels and guesthouses in the town centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3i",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a transfer day, not a sightseeing one. Treat the 4 hours as the day's main activity and do not over-schedule the arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Mount Sibayak sunrise hike"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": " Mount Sibayak is a twin-peaked active volcano reachable from Berastagi. The hike runs around 3 to 4 hours return, with summit views over the Karo highlands and neighbouring volcanoes. It is doable without a guide, but a guide is recommended, especially in the dark for a sunrise start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Berastagi for a late breakfast and an easy rest of the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3t",
+          "_type": "span",
+          "marks": [],
+          "text": " local guides are widely available in Berastagi, arranged through your guesthouse, as a working estimate around $15 to $25 per person. Fees can change, so confirm locally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3w",
+          "_type": "span",
+          "marks": [],
+          "text": " an early start means cold and dark on the trail. Bring a layer and a headtorch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Markets, Karo villages and hot springs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit the Berastagi fruit and vegetable market, one of the most active markets in highland Sumatra."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " Head to a traditional Karo village such as Lingga, known for its large traditional longhouses and cultural heritage. You can extend the day towards the Sipiso-Piso waterfall near Lake Toba, which makes a strong combined outing if you arrange a driver."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": " Finish at a local hot spring, an easy end to the highland section."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4a",
+          "_type": "span",
+          "marks": [],
+          "text": " Berastagi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [],
+          "text": " these sights are spread out and public transport between them is impractical, so a hired car with a driver for the day makes this itinerary realistic rather than a series of frustrations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Berastagi to Lake Toba and the Samosir ferry"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4i",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Berastagi for Lake Toba, around 3 to 4 hours by road depending on route and traffic. Lake Toba is the world's largest volcanic lake, formed by a supervolcanic eruption roughly 74,000 years ago. The scale registers immediately."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4l",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the ferry from Parapat to Samosir Island, a crossing of around 30 minutes. Arrange your transport to Parapat independently, by shared minibus or private car from Berastagi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4o",
+          "_type": "span",
+          "marks": [],
+          "text": " Samosir Island, five nights. Guesthouses and boutique hotels line the lakefront, especially around Tuk Tuk."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4r",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the most fragile link in the trip. Ferry timings can shift, so confirm the current schedule the day before and allow buffer time so a missed connection does not strand you in Parapat. Note the FAQ range: Medan to this region can run 4 to 7 hours by various transport, so do not under-plan the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4u",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Samosir orientation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": " Slow down. Rent a bicycle or scooter and explore the island at your own pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4z",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit a Batak Toba village, stop at a lake viewpoint, swim at a quiet beach, or simply sit still."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": " Samosir Island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [],
+          "text": " nothing to pre-book here. Lake Toba rewards a slower approach, and the point of arriving with five nights is that you do not need to rush this section."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Batak villages and cultural sites"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [],
+          "text": " Go deeper into Batak Toba culture. Visit Ambarita for the traditional stone chairs and Huta Siallagan, where Batak community courts were once held."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k5d",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue to Simanindo for a traditional Batak dance performance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k5g",
+          "_type": "span",
+          "marks": [],
+          "text": " Samosir Island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5j",
+          "_type": "span",
+          "marks": [],
+          "text": " hire a local guide or take a scooter and arrange the visit independently. Most villages have local guides on hand or entrance fees payable on arrival, so this does not need advance booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5m",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 11 and 12: Slow Lake Toba days"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_key": "k5o",
+          "_type": "span",
+          "marks": [],
+          "text": " Two days without a structured plan. The caldera has a calmer energy than the jungle section."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon and evening."
+        },
+        {
+          "_key": "k5r",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim in the lake, walk the Tuk Tuk peninsula, try local Batak dishes such as pork and arsik fish, and let the elevated stillness do its work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k5u",
+          "_type": "span",
+          "marks": [],
+          "text": " Samosir Island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5x",
+          "_type": "span",
+          "marks": [],
+          "text": " these are intentional buffer days. If an earlier transfer slipped or a guide fell through, this is where the trip absorbs it. If everything ran smoothly, this is your reward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 13: Return to Medan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " Ferry from Samosir back to Parapat, then the road to Medan, around 4 to 5 hours in total."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in near the airport area for an easier departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": " Medan, one night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k6b",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a positioning day, not a sightseeing one. Build in buffer time for the ferry and the road, since a delay here is harder to absorb so close to departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6e",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 14: Medan city and rest"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6g",
+          "_type": "span",
+          "marks": [],
+          "text": " A slow city day. Medan has Maimun Palace and the Great Mosque of Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k6j",
+          "_type": "span",
+          "marks": [],
+          "text": " Lean into the street food, Bika Ambon, Mie Aceh and durian among them. If this is your last full day in Sumatra, it is worth seeing at least one part of the city."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [],
+          "text": " Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": " nothing to arrange. Keep it light before the flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 15: Departure from Medan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6u",
+          "_type": "span",
+          "marks": [],
+          "text": " Final breakfast and departure from Kualanamu Airport. Medan has direct connections to Kuala Lumpur and Singapore as well as routes across Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k6x",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm current flight routes before locking your onward plans, since regional schedules change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [],
+          "text": " your Medan arrival and departure hotels, the eSIM, and your Samosir accommodation if you travel in the May to September window when lakefront guesthouses fill. Flights into and out of Kualanamu should be locked once your dates are firm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": " the guides. In Bukit Lawang and Berastagi, arranging a licensed guide on the ground is the standard and usually better approach than pre-booking online, and it keeps Day 4 genuinely open to how you feel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Stays in passing towns:"
+        },
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [],
+          "text": " Bukit Lawang, Berastagi and the Samosir lakefront are all bookable in advance and worth securing in peak months. Search each town on the usual hotel platforms and prioritise riverside or lakefront positions where they exist."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the transfers."
+        },
+        {
+          "_key": "k7d",
+          "_type": "span",
+          "marks": [],
+          "text": " Every road figure here is optimistic. Treating a 4-hour transfer as a half-day with sightseeing tacked on is how the trip starts to feel rushed and tiring."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trusting the ferry blindly."
+        },
+        {
+          "_key": "k7g",
+          "_type": "span",
+          "marks": [],
+          "text": " The Parapat to Samosir crossing is the trip's single point of failure. Confirm the schedule the day before and leave a buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-booking guides online."
+        },
+        {
+          "_key": "k7j",
+          "_type": "span",
+          "marks": [],
+          "text": " In Bukit Lawang especially, the local guesthouse arrangement is the norm. Forcing an online booking can cost more and lock you into a fixed plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skipping the slow days."
+        },
+        {
+          "_key": "k7m",
+          "_type": "span",
+          "marks": [],
+          "text": " Travellers sometimes try to compress the Lake Toba section to add another destination. The slow days are the recovery engine of this itinerary, and cutting them undoes the pacing logic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7p",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To cut:"
+        },
+        {
+          "_key": "k7r",
+          "_type": "span",
+          "marks": [],
+          "text": " if you have fewer than 15 days, drop one of the Samosir slow days rather than a whole region. Cutting Berastagi or Bukit Lawang removes a core landscape; trimming a buffer day does not."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To adapt:"
+        },
+        {
+          "_key": "k7u",
+          "_type": "span",
+          "marks": [],
+          "text": " travellers short on time sometimes skip the Day 14 Medan city day and fly out a day earlier. That works if you are confident in the Day 13 return transfer, though it removes your final buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To upgrade:"
+        },
+        {
+          "_key": "k7x",
+          "_type": "span",
+          "marks": [],
+          "text": " a private car with driver across the highland transfers, particularly the spread-out Day 7 Karo villages and waterfall loop, turns awkward logistics into an easy day. It is the single upgrade that most improves this trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What not to add:"
+        },
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [],
+          "text": " do not try to bolt on far south or west Sumatra. Those distances do not fit a 15-day frame, and the FAQ is right that 15 days is about the ceiling for North Sumatra done at a humane pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [],
+          "text": " The drier months, roughly May to September, give better trail conditions in Gunung Leuser and clearer volcano views. Sumatra is wetter year-round than Bali, so pack for rain regardless and expect lowland humidity."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [],
+          "text": " Check the latest official guidance for your nationality before you travel, since entry rules change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k8b",
+          "_type": "span",
+          "marks": [],
+          "text": " This is an overland trip. Private cars with drivers are the comfortable option for the long transfers; shared minibuses are cheaper and slower. Arrange both through guesthouses."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k8e",
+          "_type": "span",
+          "marks": [],
+          "text": " The Parapat to Samosir ferry is around 30 minutes and central to the plan. Confirm current timings locally and allow buffer time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health."
+        },
+        {
+          "_key": "k8h",
+          "_type": "span",
+          "marks": [],
+          "text": " Parts of rural Sumatra, including jungle areas, carry malaria risk unlike Bali. Consult a travel-health clinic 4 to 6 weeks before departure about antimalarials and recommended vaccinations. This is general guidance, not medical advice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k8k",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for guides, permits and village entrance fees, since rural card acceptance is limited. For data from the moment you land, set up an "
+        },
+        {
+          "_key": "k8m",
+          "_type": "span",
+          "marks": [
+            "k8l"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k8n",
+          "_type": "span",
+          "marks": [],
+          "text": " and activate it on the plane."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8l",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k8r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early versus keep flexible."
+        },
+        {
+          "_key": "k8q",
+          "_type": "span",
+          "marks": [],
+          "text": " Lock flights and arrival, departure and peak-season lakefront hotels. Keep guides and the flexible Day 4 open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8t",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8u",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want Indonesia at its wilder and slower end, and if a long road day reads to you as part of the experience rather than a tax on it. The reward is genuine: semi-wild orangutans, an active volcano at sunrise, and the vast calm of Lake Toba, strung together with enough buffer to absorb the inevitable delays."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8w",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not do this trip if you want resort comfort, short transfers, or a dense sightseeing checklist. North Sumatra punishes a rushed schedule and rewards patience. Bring the patience, and this is one of the most rewarding 15-day routes in the country."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8z",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [],
+          "text": "If this North Sumatra route appeals, compare it with our other nature-forward Indonesia trips and the regional hub for deeper planning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [],
+          "text": "Browse the "
+        },
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [
+            "k93"
+          ],
+          "text": "Sumatra destination guide"
+        },
+        {
+          "_key": "k95",
+          "_type": "span",
+          "marks": [],
+          "text": " for context on regions beyond this route."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k93",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/sumatra"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [],
+          "text": "For a different wildlife and landscape register, see our "
+        },
+        {
+          "_key": "k99",
+          "_type": "span",
+          "marks": [
+            "k98"
+          ],
+          "text": "Komodo and Flores itinerary"
+        },
+        {
+          "_key": "k9a",
+          "_type": "span",
+          "marks": [],
+          "text": " and our "
+        },
+        {
+          "_key": "k9c",
+          "_type": "span",
+          "marks": [
+            "k9b"
+          ],
+          "text": "Raja Ampat diving and island route"
+        },
+        {
+          "_key": "k9d",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k98",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/komodo-flores"
+        },
+        {
+          "_key": "k9b",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/raja-ampat"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "sumatra",
+  "destinationSecondary": [],
+  "experienceTags": [
+    "wildlife",
+    "waterfalls",
+    "volcano_sunrise",
+    "local_villages",
+    "overland_route"
+  ],
+  "faq": [
+    {
+      "answer": "Bukit Lawang offers genuinely wild orangutan sightings in Gunung Leuser National Park. Choose operators who keep distance, do not feed wildlife and follow park rules. As a working estimate, a full-day trek runs about €70 (IDR 1.15M) and multi-day treks around €100 per day, usually including the park permit, guide and meals. Fees can change, so confirm on arrival.",
+      "question": "Is Bukit Lawang orangutan trekking ethical, and what does it cost?"
+    },
+    {
+      "answer": "Lake Toba is about 170 km from Medan, roughly 4 to 7 hours depending on transport. A private car via the toll road reaches Parapat, the ferry gateway, in about 3 to 4 hours; local buses take 4 to 5 hours. From Parapat, a short ferry crosses to Samosir Island. Confirm the current ferry schedule before you travel and allow buffer time.",
+      "question": "How do I get from Medan to Lake Toba?"
+    },
+    {
+      "answer": "Yes for North Sumatra. Two weeks comfortably links Bukit Lawang for orangutans, Berastagi for volcanoes, and Lake Toba and Samosir for Batak culture and crater-lake calm, with realistic overland travel between them. Sumatra is large and journeys are slow, so 15 days is about right. Do not try to add the far south or west.",
+      "question": "Is 15 days enough for Sumatra?"
+    },
+    {
+      "answer": "The drier months, roughly May to September, are best for jungle trekking and volcano views, with more reliable trail conditions in Gunung Leuser. Sumatra is wetter year-round than Bali, so pack for rain regardless and expect humidity in the lowland jungle.",
+      "question": "When is the best time to visit Sumatra?"
+    },
+    {
+      "answer": "Possibly. Parts of rural Sumatra, including jungle areas, carry malaria risk unlike Bali. Consult a travel-health clinic 4 to 6 weeks before departure about antimalarials and routine or recommended vaccinations. Bring insect repellent and cover up at dusk. This is general guidance, not medical advice.",
+      "question": "Do I need vaccinations or malaria precautions for Sumatra?"
+    },
+    {
+      "answer": "On the ground is the standard and usually better approach in Bukit Lawang and Berastagi. Licensed guides arranged through your guesthouse tend to cost less than online bookings and keep your flexible days genuinely open. Carry cash, since guides, permits and village entrance fees are often paid locally.",
+      "question": "Should I book guides in advance or on the ground?"
+    }
+  ],
+  "focusKeyword": "15 days Sumatra itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "North Sumatra jungle, Lake Toba caldera and Bukit Lawang orangutan habitat",
+    "asset": {
+      "_ref": "image-6f01a3e17afa8506d772e829f6dae8fe4f4e7d90-4000x6000-jpg",
+      "_type": "reference"
+    },
+    "caption": "Medan → Bukit Lawang → Berastagi → Lake Toba → Samosir Island → Medan"
+  },
+  "intro": "North Sumatra is one of Indonesia's slowest itineraries to travel and one of its most rewarding, and those two facts are linked. The road from orangutans to volcanoes to the largest volcanic lake on earth is long, often bumpy, and ferry-dependent. This 15-day route from Medan trades pace for depth. If you accept the transfers, North Sumatra gives back jungle, highland air and Batak culture that few visitors ever reach.",
+  "metaDescription": "A 15-day North Sumatra itinerary: Medan, Bukit Lawang orangutans, Berastagi volcanoes, Lake Toba and Samosir, with honest transfer and booking advice.",
+  "metaTitle": "Sumatra in 15 Days: Orangutans, Jungle & Lake Toba",
+  "route": "Medan → Bukit Lawang → Berastagi → Lake Toba → Samosir Island → Medan",
+  "slug": {
+    "_type": "slug",
+    "current": "15-days-sumatra"
+  },
+  "title": "15 Days in Sumatra: Bukit Lawang, Berastagi, Lake Toba and Samosir Island",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": [
+    "adventure_volcanoes",
+    "remote_offbeat"
+  ],
+  "travellerTypes": [
+    "repeat_travellers",
+    "solo_travellers",
+    "divers"
+  ],
+  "tripLengthBucket": "two_weeks",
+  "tripLengthDays": 15,
+  "vibe": "active"
+}

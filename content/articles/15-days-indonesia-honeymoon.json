@@ -1,0 +1,2533 @@
+{
+  "_id": "e7dbf53d-300a-4cbf-a0ce-b374cd0e161a",
+  "_system": {
+    "base": {
+      "id": "e7dbf53d-300a-4cbf-a0ce-b374cd0e161a",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "private airport transfer",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "private Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+      "experienceCategory": "ubud_highlights",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
+      "anchorText": "Balinese cooking class",
+      "experienceCategory": "cooking_class",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+      "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+      "anchorText": "Mount Batur sunrise jeep experience",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+      "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
+      "anchorText": "private car charter",
+      "experienceCategory": "private_driver",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_SANUR_TRANSFER",
+      "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "fast boat from Sanur to Nusa Penida",
+      "experienceCategory": "boat_ferry",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_SANUR_NUSA_PENIDA",
+      "publicUrl": "https://12go.asia/en/ferry/sanur/nusa-penida"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip",
+      "anchorText": "private Nusa Penida day trip from Bali",
+      "experienceCategory": "island_day_trip",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_NUSA_PENIDA_PRIVATE",
+      "publicUrl": "https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+      "anchorText": "Kecak fire dance at Uluwatu",
+      "experienceCategory": "uluwatu_cultural",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    }
+  ],
+  "articleCommercialTier": "hero",
+  "articleCreatedDate": "2026-06-02T05:37:16.640Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples who want more than one Indonesia. You get Bali's spa-and-rice-terrace comfort, Komodo's wild marine landscapes, and Sumba's empty beaches and boutique eco-lodges, stitched together over 15 days. It rewards travellers who are comfortable with short domestic flights, who like a mix of planned days and slow days, and who are willing to spend on a few standout experiences rather than spreading the budget thin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for couples who want a single base and zero internal flights. There are four flight legs here, and two of them route back through Bali. If the idea of repacking every few days or flying on a honeymoon sounds tiring, a Bali-and-one-island trip will serve you better. It is also not the cheapest way to see Indonesia, since Sumba's lodges and a private Komodo boat day carry real cost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 15 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar, Ngurah Rai International Airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, Sanur, Labuan Bajo, Sumba, Uluwatu."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " honeymooners, couples and premium nature travellers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " couples wanting one base, no flights, or a tight budget."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced, romantic, a mix of curated days and slow days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " as a working estimate, mid-range couples spend roughly US$3,000 to US$6,000 per couple including domestic flights, a private Komodo boat day and resort stays. Budget-conscious couples can do it for around US$2,000 to US$2,800, excluding international flights. Sumba's lodges and Bali villas can push it well above. Prices change, so treat these as planning anchors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " medium overall, harder around the Sumba leg where flights connect and ground transport is limited."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season. May, June and September tend to give good weather with fewer crowds than the July and August peak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": " medium to high. Sumba's small number of lodges and private Komodo boats sell out in peak season, so these anchor your dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is the whole point. You start in Ubud because it is the gentlest landing after a long-haul flight: green, calm and close to the airport without being on a beach strip. Three nights there lets the trip settle before you start moving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "Sanur comes next as a deliberate positioning move, not a sightseeing stop. It is calmer than Canggu and sits right next to the Nusa Penida fast-boat departure, so two nights there buys you an easy island day without a pre-dawn cross-island drive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "Then the trip steps up. Labuan Bajo is your gateway to Komodo, the wild marine heart of the route. Sumba follows as the remote, quiet counterweight, all space and empty beaches. Both legs route through Bali, which is normal for these islands, and the plan accepts that rather than fighting it. Uluwatu closes the loop on the cliffs near the airport, so your last morning is a short transfer, not a scramble."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you fly: data and entry"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort your connectivity before you board. An Indonesia eSIM lets you activate data, maps and messaging on the plane, so you land already connected for transfers and check-ins. Across four islands with private drivers and boat operators messaging you, having data from minute one removes a lot of friction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1e",
+          "_type": "span",
+          "marks": [],
+          "text": "On entry, most nationalities need an e-VOA, listed at IDR 500,000, around US$35, valid 30 days and extendable once, plus Bali's one-time tourist levy, listed at IDR 150,000, around US$10. Apply for both online before you fly via the official evisa and Love Bali portals. Fees and rules can change, so check the latest official guidance close to departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Bali and settle into Ubud"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1j",
+          "_type": "span",
+          "marks": [],
+          "text": " After landing, head straight to Ubud. A "
+        },
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "k1k"
+          ],
+          "text": "private airport transfer"
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " is the sensible choice here because you arrive tired, the drive can take well over an hour in traffic, and a fixed-price private car removes any airport-rank haggling on day one."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1k",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in, rest and keep it simple. Do not plan anything ambitious tonight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, three nights. For a honeymoon, look at rice-field villas or boutique guesthouses with plunge pools. The Jalan Bisma area is a good hunting ground for romantic settings within walking distance of town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm your driver's meeting point and have your eSIM active so you can message on arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1y",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ubud rice terraces, temples and a waterfall"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend your first full day on Ubud's classic landscapes: the Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace and Tirta Empul Temple, plus one waterfall near town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " A "
+        },
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "k24"
+          ],
+          "text": "private Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " suits couples better than a group bus, because you set the pace and skip the fixed group schedule at each stop."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k24",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Ubud for a relaxed dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2c",
+          "_type": "span",
+          "marks": [],
+          "text": " a private guide is worth it here mainly for pacing and flexibility, not access. If you would rather go fully independent, a hired car and driver covers the same loop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2f",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Cooking class or a Batur sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": " Pick the mood. For something hands-on, a "
+        },
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [
+            "k2i"
+          ],
+          "text": "Balinese cooking class"
+        },
+        {
+          "_key": "k2k",
+          "_type": "span",
+          "marks": [],
+          "text": " that starts with a market visit is a good shared experience. For a scenic early start, a "
+        },
+        {
+          "_key": "k2m",
+          "_type": "span",
+          "marks": [
+            "k2l"
+          ],
+          "text": "Mount Batur sunrise jeep experience"
+        },
+        {
+          "_key": "k2n",
+          "_type": "span",
+          "marks": [],
+          "text": " gets you above the cloud line at dawn."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k2i",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+        },
+        {
+          "_key": "k2l",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k2r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2q",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend it at a spa or by the pool. Ubud is one of the better places in Bali for a couples' flower bath or spa treatment, so this is the day to book one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [],
+          "text": " the Batur option means a very early start, often a pickup around 2am to 3am. If you want a slower honeymoon rhythm, the cooking class is the gentler choice and leaves the afternoon fully open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Reposition to Sanur"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2y",
+          "_type": "span",
+          "marks": [],
+          "text": " After breakfast, leave Ubud and move to Sanur with a "
+        },
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [
+            "k2z"
+          ],
+          "text": "private car charter"
+        },
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": ". This is a positioning day, not a sightseeing one. The point is to be next to tomorrow's boat."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k2z",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_SANUR_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the beachfront promenade or settle in early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner near the water. Sanur is quiet by design, which is exactly what you want the night before an island day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3a",
+          "_type": "span",
+          "marks": [],
+          "text": " Sanur, two nights. Calm beachfront hotels here are convenient for the Nusa Penida fast boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Nusa Penida viewpoints"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [],
+          "text": " Use Sanur as your base for a full day on Nusa Penida. Book the "
+        },
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [
+            "k3g"
+          ],
+          "text": "fast boat from Sanur to Nusa Penida"
+        },
+        {
+          "_key": "k3i",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance, especially in peak season. Departures run from around 7am and the crossing is roughly 30 to 45 minutes. Confirm current schedules before you commit, since boat times shift with conditions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k3g",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_SANUR_NUSA_PENIDA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k3p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [],
+          "text": " A "
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [
+            "k3m"
+          ],
+          "text": "private Nusa Penida day trip from Bali"
+        },
+        {
+          "_key": "k3o",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the west-coast highlights: the Kelingking Beach viewpoint, Broken Beach, Angel's Billabong and Crystal Bay. A private car here matters because the island's roads are rough and the sights are spread out."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k3m",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_NUSA_PENIDA_PRIVATE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k3s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Sanur."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [],
+          "text": " for a honeymoon, lean into viewpoints over a frantic checklist. The landscapes carry the day, so slower is better. The island is rugged, so bring proper shoes, sunscreen and water. Allow buffer time, as the return boat can run late."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Fly to Labuan Bajo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Bali to Labuan Bajo, around 1.5 hours, typically on Garuda or Lion Air. Arrange this leg separately and confirm current flight routes before locking your hotel nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in near the harbour or at a sea-view property and take it slow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [],
+          "text": " A sunset dinner over the water is the right speed for an arrival day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo, three nights. For a honeymoon, resort-style properties slightly outside town tend to offer better views and more privacy than the harbour strip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4b",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Komodo National Park by boat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [],
+          "text": " This is one of the strongest days of the trip. A full-day Komodo National Park speedboat tour from Labuan Bajo usually covers Padar Island, Pink Beach, Komodo Island, Manta Point and snorkelling stops."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue across the marine stops, with snorkelling where conditions allow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [],
+          "text": " a private boat is the upgrade that most defines this honeymoon. It lets you reach Padar early, before the day-tour crowds, and set your own pace at each island. Book ahead in peak season, as good boats sell out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [],
+          "text": " seas are calmest in the April to October window, which is part of why the route is timed this way. Confirm your operator's safety setup and departure time the day before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: A slow Labuan Bajo day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4r",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep this day light. Stay by the pool or visit a nearby viewpoint."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4u",
+          "_type": "span",
+          "marks": [],
+          "text": " If you want a little more, a shorter half-day trip such as Rangko Cave and a sand island is an easy option that does not eat the whole day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [],
+          "text": " this slower day is deliberate. It balances the route after a big boat day and before the more demanding Sumba leg. Resist the urge to overfill it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Fly to Sumba"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Labuan Bajo to Sumba, usually with a connection, often routing via Bali. Arrange this in advance and confirm current routes and connection times before booking, since options here are thinner than on the Bali legs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [],
+          "text": " Transfer to your lodge and keep the day open. Sumba is quieter and more remote than Bali, and it is best experienced slowly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": " Sumba, four nights. The island has only a small number of boutique eco-resorts, so book well in advance. This is where the premium side of the honeymoon lives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k5b",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the most fragile connection of the trip. Build in buffer time and avoid scheduling anything tight on the arrival evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Weekuri Lagoon and Mandorak Beach"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5g",
+          "_type": "span",
+          "marks": [],
+          "text": " Start the Sumba section at Weekuri Lagoon, a clear saltwater lagoon, then continue to Mandorak Beach and nearby coastal viewpoints."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k5j",
+          "_type": "span",
+          "marks": [],
+          "text": " A guided Southwest Sumba day tour works well here because the sights are spread out and road quality varies. A driver who knows the routes saves a lot of guesswork."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5m",
+          "_type": "span",
+          "marks": [],
+          "text": " Sumba has limited coverage on the usual booking platforms. If a ready-made tour is not available, arrange the day through your resort or a trusted local Sumba operator rather than improvising on the ground."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5p",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 11 to 12: Slow Sumba days"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning to evening."
+        },
+        {
+          "_key": "k5r",
+          "_type": "span",
+          "marks": [],
+          "text": " Use these days without a heavy plan. Sumba rewards slow travel: sunsets over wide beaches, village walks and unhurried time at your resort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5u",
+          "_type": "span",
+          "marks": [],
+          "text": " arrange any activities through your accommodation, since independent options are limited. This is the stretch where doing less is the point of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5x",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 13: Fly to Bali and move to Uluwatu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5z",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Sumba back to Bali, then head south to Uluwatu. Confirm flight routes and timings before committing your final hotel nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " If timing allows, get down to Padang Padang, Bingin or Melasti Beach for the first taste of the cliffs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu, two nights. Cliff villas with ocean views are a good place to spend a little more on the final nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": " this is another reposition day with a flight in it, so keep expectations modest. The reward is two settled nights to end on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 14: Uluwatu beaches and the Kecak fire dance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6d",
+          "_type": "span",
+          "marks": [],
+          "text": " A full day in Uluwatu. Start at the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k6g",
+          "_type": "span",
+          "marks": [],
+          "text": " Head to Uluwatu Temple in the late afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k6j",
+          "_type": "span",
+          "marks": [],
+          "text": " Time it for the "
+        },
+        {
+          "_key": "k6l",
+          "_type": "span",
+          "marks": [
+            "k6k"
+          ],
+          "text": "Kecak fire dance at Uluwatu"
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [],
+          "text": " as the sun drops. Booking ahead with skip-the-line tickets matters here, because the clifftop amphitheatre fills up and it is one of the more romantic evenings in Bali."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6k",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": " arrive with time to spare, as seating is first come and the best spots go early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 15: Slow morning and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6u",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the final morning slowly: an ocean-view breakfast, a short walk or a last massage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k6x",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu sits around 30 to 45 minutes from the airport, so leave buffer time for the transfer and any traffic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [],
+          "text": " ending near the airport is the reason the route closes here. It turns the last day into an easy exit rather than a long cross-island drive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": " Sumba lodges first, since there are few of them and they sell out. Then your private Komodo boat day, your domestic flights, and the Nusa Penida fast boat in peak season. The Kecak fire dance tickets and Ubud villas are also worth securing ahead in July and August."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [],
+          "text": " The slow days in Labuan Bajo and Sumba, your spa and cooking choices, and most dinners. These are the parts of the trip you can adjust to weather and mood without breaking the plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k7b",
+          "_type": "span",
+          "marks": [],
+          "text": " the rule of thumb is to lock anything scarce or schedule-dependent, and leave anything you can arrange same-day to your resort or a local driver."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the internal flights. Four legs, two routing through Bali, means real airport time. Couples who treat these as throwaway days end up tired, so plan arrival evenings as rest, not activity."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7h",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking Sumba last. The lodges are the constraint that should anchor your dates, not an afterthought once flights are set."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7j",
+          "_type": "span",
+          "marks": [],
+          "text": "Overfilling the slow days. The Labuan Bajo and Sumba down days are structural, not filler. Cramming them defeats the pace the route is built around."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7l",
+          "_type": "span",
+          "marks": [],
+          "text": "Cutting buffer time. The Sumba connection and the Nusa Penida return boat are the two points most likely to run late. Tight scheduling around either is where honeymoons go stressful."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7o",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut."
+        },
+        {
+          "_key": "k7q",
+          "_type": "span",
+          "marks": [],
+          "text": " If 15 days feels long or the budget is tight, Sumba is the cleanest thing to drop. Removing it takes out the most expensive lodges and the most fragile flight connection, and leaves a strong Bali-plus-Komodo honeymoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt."
+        },
+        {
+          "_key": "k7t",
+          "_type": "span",
+          "marks": [],
+          "text": " Swap the Batur sunrise for the cooking class if early starts are not your style, and trade a Labuan Bajo activity day for pure resort time if you want to slow down further."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade."
+        },
+        {
+          "_key": "k7w",
+          "_type": "span",
+          "marks": [],
+          "text": " The two upgrades that change the trip most are a private Komodo boat over a shared day tour, and a higher-end Sumba lodge. If you only splurge twice, splurge here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7z",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k81",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season, gives calm seas for island days and the clearest Komodo crossings. May, June and September tend to balance good weather with fewer crowds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [],
+          "text": " Most nationalities need an e-VOA, listed at IDR 500,000, around US$35, valid 30 days and extendable once, plus Bali's one-time tourist levy, listed at IDR 150,000, around US$10. Apply online before you fly via the official portals. Fees can change, so check the latest official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": [],
+          "text": " Plan on short flights between Bali, Labuan Bajo and Sumba, with Bali as the natural hub. Bali to Labuan Bajo runs around 1.5 hours. Confirm current flight routes before locking hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k8a",
+          "_type": "span",
+          "marks": [],
+          "text": " The Nusa Penida fast boat and the Komodo boat day are weather-dependent. Allow buffer time and treat published schedules as provisional."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k8d",
+          "_type": "span",
+          "marks": [],
+          "text": " Prices on this site are shown in USD and are not geo-localised. Carry some cash for remote stops in Sumba where cards are not always taken, and set up an Indonesia eSIM before you fly so you land connected."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early versus flexible."
+        },
+        {
+          "_key": "k8g",
+          "_type": "span",
+          "marks": [],
+          "text": " Lock Sumba lodges, the Komodo boat and flights first. Keep slow days, spa choices and dinners open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8j",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8k",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want a honeymoon with real range: comfort, then wildness, then quiet, in an order that builds rather than scatters. Couples who enjoy a few short flights and want Komodo and Sumba alongside Bali will get a trip that feels much bigger than two weeks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8m",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want one base and no internal flights, or if the budget cannot stretch to a private Komodo day and a Sumba lodge. In that case, a focused Bali-and-Komodo route delivers most of the romance with far less moving around. This itinerary earns its complexity only if you actually want what Sumba adds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8p",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8q",
+          "_type": "span",
+          "marks": [],
+          "text": "For a simpler version of the same romance, see our "
+        },
+        {
+          "_key": "k8s",
+          "_type": "span",
+          "marks": [
+            "k8r"
+          ],
+          "text": "Bali honeymoon route"
+        },
+        {
+          "_key": "k8t",
+          "_type": "span",
+          "marks": [],
+          "text": " and the "
+        },
+        {
+          "_key": "k8v",
+          "_type": "span",
+          "marks": [
+            "k8u"
+          ],
+          "text": "Komodo and Flores islands trip"
+        },
+        {
+          "_key": "k8w",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8r",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/bali-honeymoon"
+        },
+        {
+          "_key": "k8u",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/komodo-flores-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8y",
+          "_type": "span",
+          "marks": [],
+          "text": "To go deeper on the main hub, browse our "
+        },
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [
+            "k8z"
+          ],
+          "text": "Bali destination guide"
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [],
+          "text": " for where to base, when to go and how to move between regions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8z",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [
+    "komodo_flores",
+    "bali_nearby_islands"
+  ],
+  "experienceTags": [
+    "rice_terraces",
+    "island_day_trip",
+    "beach_sunset",
+    "cultural_performance",
+    "waterfalls",
+    "wildlife",
+    "private_drivers",
+    "airport_transfers"
+  ],
+  "faq": [
+    {
+      "answer": "April to October, the dry season, works best across Bali, Komodo and Sumba: calmer seas for island trips, dry beach weather and the clearest Komodo crossings. May, June and September tend to pair good weather with fewer crowds than the July and August peak. Conditions vary year to year, so check current forecasts close to departure.",
+      "question": "When is the best time for an Indonesia honeymoon?"
+    },
+    {
+      "answer": "By short domestic flights, with Bali as the hub. Bali to Labuan Bajo for Komodo runs around 1.5 hours, and Bali to Sumba is a similar short hop, often with a connection. Routing via Bali between Komodo and Sumba is normal. Confirm current flight routes before booking, and book private transfers and lodges well ahead, since Sumba's options sell out.",
+      "question": "How do honeymooners travel between Bali, Komodo and Sumba?"
+    },
+    {
+      "answer": "As a working estimate, mid-range couples spend roughly US$3,000 to US$6,000 per couple including domestic flights, a private Komodo boat day and resort stays. Sumba's high-end lodges and Bali villas can push it well above. Budget-conscious couples can do it for around US$2,000 to US$2,800, excluding international flights. Prices change, so treat these as planning anchors.",
+      "question": "What is the budget for a 15-day Indonesia honeymoon?"
+    },
+    {
+      "answer": "A private Komodo boat day to Padar Island and Pink Beach, snorkelling near manta points, the clifftop Kecak fire dance at sunset in Uluwatu, spa and flower-bath days in Ubud, and Sumba's empty beaches. The mix of wildlife, culture and seclusion is what makes the route stand out for couples.",
+      "question": "What are the most romantic experiences on this trip?"
+    },
+    {
+      "answer": "For most nationalities, yes to both. Each traveller needs an e-VOA, listed at IDR 500,000, around US$35, valid 30 days and extendable once, plus Bali's one-time tourist levy, listed at IDR 150,000, around US$10. Apply for both online before you fly via the official evisa and Love Bali portals. Fees and rules can change, so check the latest official guidance.",
+      "question": "Do we need visas and is there a tourist tax?"
+    },
+    {
+      "answer": "Sumba adds the most remote and premium stretch of the trip, with empty beaches and boutique lodges, but it also brings the most fragile flight connection and the highest lodging cost. If your budget or appetite for internal flights is limited, dropping Sumba leaves a strong Bali-and-Komodo honeymoon. Add it only if you genuinely want the quiet and seclusion it provides.",
+      "question": "Is Sumba worth adding, or should we keep it simpler?"
+    }
+  ],
+  "focusKeyword": "Indonesia honeymoon itinerary 15 days",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Honeymoon Indonesia — Ubud villas, Komodo private boats and Sumba beaches",
+    "asset": {
+      "_ref": "image-71a11368f5669d312d63e5ef1ec8e0b6c1590853-5464x3640-jpg",
+      "_type": "reference"
+    },
+    "caption": "Ubud → Sanur → Labuan Bajo → Sumba → Uluwatu"
+  },
+  "intro": "Most honeymoon routes through Indonesia try to do everything and end up rushing. This one makes a different bet: pair Bali's easy romance with two genuinely remote stretches, Komodo and Sumba, so the trip builds from comfortable to wild to quiet. It works because the order is deliberate. You land soft in Ubud, earn the islands in the middle, and close on the cliffs of Uluwatu.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 15-day Indonesia honeymoon: Ubud, Nusa Penida, Labuan Bajo, Komodo, Sumba and Uluwatu, with day-by-day logic, flights and what to book early.",
+  "metaTitle": "Indonesia Honeymoon: 15-Day Bali, Komodo & Sumba",
+  "primaryAffiliatePartner": "viator",
+  "route": "Ubud → Sanur → Labuan Bajo → Sumba → Uluwatu",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "12go",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "15-days-indonesia-honeymoon"
+  },
+  "title": "15 Days in Indonesia for Honeymooners: Bali, Komodo and Sumba",
+  "travelStylePrimary": "romantic_escape",
+  "travelStyleSecondary": [
+    "beach_islands",
+    "wildlife_nature"
+  ],
+  "travellerTypes": [
+    "honeymooners",
+    "couples"
+  ],
+  "tripLengthBucket": "two_weeks",
+  "tripLengthDays": 15,
+  "vibe": "balanced"
+}

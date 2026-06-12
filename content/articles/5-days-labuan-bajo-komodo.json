@@ -1,0 +1,1569 @@
+{
+  "_id": "a0bc7e77-c8fd-4262-a224-4c329dabd003",
+  "_system": {
+    "base": {
+      "id": "a0bc7e77-c8fd-4262-a224-4c329dabd003",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-06-02T05:29:55.582Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits travellers who want one concentrated dose of Komodo National Park without committing to a week at sea. It works well for couples, friends and nature-first travellers who are happy to trade a poolside week for early starts, boat transfers and a single big day that justifies the whole journey. If you like the idea of mixing one hard day on the water with slower recovery days on land, this is built for you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for travellers who want nightlife, shopping or a packed city itinerary, for anyone unwilling to take an early-morning boat in open water, or for those expecting Bali-level infrastructure. Labuan Bajo is small and logistics-light, and the park rewards people who plan around the sea rather than fighting it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 5 days, 4 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo (Komodo Airport), one base the whole time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " short adventure trips, couples, friends, nature and snorkelling travellers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " nightlife seekers, travellers who dislike boats or early starts, anyone needing big-city amenities."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced adventure, one big day at sea paired with slower land days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " mid-range, with the park day and boat hire as the main spend."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " easy in town, medium to fragile on the water (weather and boat timing drive everything)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October for the calmest seas and most reliable boat conditions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " medium. Flights and the park day need booking ahead, and from April 2026 park entry must be pre-booked, so leave nothing to chance for the Komodo day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kz",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic is to stay put and let the boats do the moving. Four nights in one Labuan Bajo hotel means no packing and repacking, and the town sits ten minutes from the airport and right beside the harbour where every Komodo trip departs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "The shape of the week is deliberate. Day 1 is a soft arrival and admin day. Day 2 is the single most important day, the full Komodo National Park run, placed early so you have spare days behind it if seas are rough and the trip slips. Day 3 is a lighter cave or canyon day to recover. Day 4 flexes to your energy, either a second, calmer boat day or a slow land day. Day 5 is departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "The key planning idea: never put your one big park day on the last full day. Weather can move a Komodo trip, and you want buffer behind it, not a flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive and set up the park day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1a",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Labuan Bajo. Komodo Airport is roughly ten minutes from the harbour, so even an afternoon arrival leaves time to settle in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1d",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it deliberately light. Walk the harbour, find your bearings and get a feel for the slower rhythm of the town. This is not a sightseeing day, it is a positioning day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1g",
+          "_type": "span",
+          "marks": [],
+          "text": " Head to one of the hilltop bars or viewpoints above town for the first sunset over the bay, then do the one piece of real work this day needs: confirm your Komodo boat trip and check that your operator handles park permits and pre-booking for you. From April 2026 every visitor must be pre-booked through the official SiORA app or a licensed operator, so confirm in writing who is arranging it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1j",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo, all four nights. A harbour-area hotel keeps you close to restaurants and boat departures, while a resort-style stay just outside town trades convenience for quiet and better views."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " Get your data sorted before you even land. Activating an "
+        },
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [
+            "k1n"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [],
+          "text": " on the plane means maps, messaging and your operator's WhatsApp work the moment you step off, which matters when you are confirming an early boat for the next morning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1n",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: The full Komodo National Park day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the day the trip is built around. A full-day Komodo National Park speedboat tour from Labuan Bajo starts early, and that is on purpose: the light at the Padar Island viewpoint is best at first light, and the seas are usually calmest in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [],
+          "text": " The classic route links Padar Island for the panoramic viewpoint, Pink Beach for swimming, Komodo or Rinca Island for a ranger-led walk to see the dragons, and snorkelling at Manta Point or nearby reefs depending on sea conditions. The Taka Makassar sandbar is a common add. Dragons are most active in the cooler morning hours, so an early ranger trek is also the best chance to see them moving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": " Expect to be tired. This is a long day on the water and back-to-back stops, so plan a simple dinner near the harbour rather than anything ambitious."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " Book this through a registered operator who arranges the park permit for you, which is the simplest way to satisfy the pre-booking rule. As a working estimate for 2026 fees, budget around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes taking in Rinca and Padar. A daily cap of 1,000 visitors applies from April 2026. Fees and caps can change, so confirm current figures with your operator before you lock the date."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring sunscreen, swimwear, a hat, comfortable shoes and a dry bag. Because this day can move with the weather, having Day 3 and Day 4 behind it is what keeps a rough-sea morning from wrecking the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Slow day, Rangko Cave or a canyon"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": " After the intensity of the park day, start slowly with a long breakfast. There is no early boat to catch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a Rangko Cave and sand island half-day trip. Rangko is a tidal saltwater pool inside a limestone cavern, reached by a short boat ride south of town, and it is best around midday when sunlight beams through the opening onto the turquoise water. If you would rather stay on land, the Cunca Wulang canyon and waterfall make a good half-day alternative."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": " Head back into Labuan Bajo for sunset over the harbour, from a viewpoint, a hotel terrace or a harbour-facing restaurant."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2k",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the pace gentle here on purpose. This day exists to recover from the long park day and to act as weather buffer, so resist the urge to overload it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2n",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Second boat day or a slow land day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": " Decide based on how you feel after Day 2. If you want more time on the water, this is the day for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": " For more sea without another dawn start, a second boat day to the closer northern islands, Kanawa, Kelor and Sebayur, gives easy snorkelling and quiet beaches. If you missed favourites in the park, a private Komodo National Park boat trip lets you focus on the spots you enjoyed most. Certified divers can aim for Komodo's stronger sites such as Batu Bolong, Castle Rock and Manta Alley, which are genuinely world-class but current-driven, so go with a reputable dive operator."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2v",
+          "_type": "span",
+          "marks": [],
+          "text": " Have a final seafood dinner by the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2y",
+          "_type": "span",
+          "marks": [],
+          "text": " A private boat is worth it on this day specifically because it lets you skip the crowded headline stops and revisit what worked, rather than repeating the full group circuit. If you would rather slow down, most harbour hotels have pools with sunset views, and a spa afternoon is a fair reward after the park."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": " Northern-island trips avoid the early start and the longer open-water crossing, which makes Day 4 a gentler way to get more sea time without repeating Day 2's effort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it simple. Depending on your flight, have breakfast, take a last walk around town, or head straight to the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [],
+          "text": " With a later flight, a final harbour breakfast or a quick stop for handwoven Manggarai textiles rounds the trip off well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [],
+          "text": " The airport is close to town, which makes the last morning easy, but Labuan Bajo runs a single terminal that gets busy at peak times. Allow a comfortable buffer rather than cutting it fine."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [],
+          "text": " flights into Labuan Bajo (seats are limited and sell out in peak season), your four nights of accommodation, and the Komodo park day with an operator who arranges the SiORA pre-booking. From April 2026 the pre-booking and daily cap make walk-up entry unreliable, so the park day is the one thing not to leave open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k3k",
+          "_type": "span",
+          "marks": [],
+          "text": " Day 4's choice between a second boat day and a slow land day, your Day 3 pick between Rangko Cave and Cunca Wulang, and dinner plans throughout. These flex around the weather and your energy without affecting the rest of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in Labuan Bajo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Putting the park day last."
+        },
+        {
+          "_key": "k3p",
+          "_type": "span",
+          "marks": [],
+          "text": " Komodo trips move with the sea. If your one big day sits on the final morning and the weather turns, there is no recovery day, and you fly out having missed the reason you came."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the early start and the open water."
+        },
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [],
+          "text": " The park day is long and begins before dawn, and the crossings are real open-water runs, not lagoon hops. Travellers who expect a gentle boat ride are often caught out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assuming you can sort park entry on the day."
+        },
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [],
+          "text": " With pre-booking required from April 2026 and a 1,000-per-day cap, turning up without a confirmed booking is a risk. Confirm who is arranging it before you arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trying to add more islands than the days allow."
+        },
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [],
+          "text": " Five days covers one strong park day plus recovery. Cramming a multi-day liveaboard into the same window leaves no buffer for weather."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are short on time or budget, drop the Day 4 boat day entirely and make it a pure rest day. The Day 2 park run is the non-negotiable core, and everything after it is optional."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " swap Rangko Cave for the Cunca Wulang canyon on Day 3 if you would rather stay on land, or skip both and simply rest in town if the park day wiped you out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " book a private boat for Day 4 instead of a group tour to revisit your favourite stops on your own schedule, or move to a resort-style stay outside town for quieter nights and better bay views. Certified divers can upgrade the second boat day to a guided dive at Batu Bolong or Castle Rock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October brings the calmest seas and the most reliable boat conditions. Dragons are visible year-round on both Komodo and Rinca, so the season is about the water, not the wildlife."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry:"
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": " check the latest official guidance for your nationality before you travel, as entry rules and fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport:"
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": " fly into Labuan Bajo (Komodo Airport). It is roughly 1h10 to 1h20 from Bali (Denpasar), with connections via Jakarta. Confirm current flight routes before locking hotels, and book seats early because they are limited in peak season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics:"
+        },
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": " everything in the park is boat-access and weather-dependent. Build buffer days behind your main park day and treat boat timings as estimates, not guarantees."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM:"
+        },
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [],
+          "text": " carry some cash for smaller operators and fees, and sort data before you land with an "
+        },
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [
+            "k4r"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": " so navigation and operator messaging work from the moment you arrive."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k4r",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early:"
+        },
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": " flights, four nights of accommodation, and the Komodo park day with SiORA pre-booking handled by your operator. "
+        },
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible:"
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " the Day 4 boat-or-rest decision and your day-to-day dining."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want a focused, achievable hit of Komodo National Park without the commitment of a long liveaboard, and if you are happy to organise your week around one demanding day at sea. Five nights in a single town, one strong park day with buffer behind it, and two flexible recovery days is an honest, well-paced plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want nightlife, dislike early starts or open water, or expect Bali-level infrastructure. And whatever you do, do not gamble the park day on your last morning. Protect it with buffer, and the rest of the trip looks after itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": "Pairing Komodo with more of the region: see the "
+        },
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [
+            "k59"
+          ],
+          "text": "Komodo and Flores destination guide"
+        },
+        {
+          "_key": "k5b",
+          "_type": "span",
+          "marks": [],
+          "text": " for how the park fits into a longer overland or island route."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k59",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k5h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Coming from Bali first? Compare with a "
+        },
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [
+            "k5e"
+          ],
+          "text": "Nusa Penida and Nusa islands itinerary"
+        },
+        {
+          "_key": "k5g",
+          "_type": "span",
+          "marks": [],
+          "text": " for a gentler boat-and-cliffs warm-up before the bigger open-water days here."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k5e",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/nusa-penida-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k5m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [],
+          "text": "Want more diving and remote reefs after Komodo? Look at a "
+        },
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [
+            "k5j"
+          ],
+          "text": "Raja Ampat itinerary"
+        },
+        {
+          "_key": "k5l",
+          "_type": "span",
+          "marks": [],
+          "text": " for Indonesia's deeper-water, longer-haul snorkelling and dive trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k5j",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/raja-ampat"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "komodo_flores",
+  "experienceTags": [
+    "wildlife",
+    "island_day_trip",
+    "snorkeling",
+    "beach_sunset"
+  ],
+  "faq": [
+    {
+      "answer": "As a working estimate, Komodo now uses one bundled ticket per route: around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes including Rinca and Padar, covering park entry, ranger fees and major sites. The older IDR 3.75M conservation fee was cancelled and not reinstated. Fees can change, so confirm current figures with your operator before booking.",
+      "question": "What is the Komodo National Park entrance fee in 2026?"
+    },
+    {
+      "answer": "Yes. From April 2026 all visitors must pre-book through the official SiORA app or a licensed operator, and a daily cap of around 1,000 visitors applies. The simplest route is to book your boat trip with a registered operator who arranges the permit for you. Check the latest official guidance before you travel, as rules can change.",
+      "question": "Do I need to pre-book to enter Komodo National Park?"
+    },
+    {
+      "answer": "Yes. Five days comfortably covers one strong full-day park run through Padar, the dragons on Komodo or Rinca, Pink Beach and Manta Point snorkelling, plus a lighter recovery day, a flexible fourth day and relaxed arrival and departure days, without feeling rushed.",
+      "question": "Is 5 days enough for Labuan Bajo and Komodo?"
+    },
+    {
+      "answer": "Year-round. Dragons are visible on both Komodo and Rinca all year, while the dry season from April to October brings the calmest seas and best boat conditions. They are most active in cooler morning hours, so start ranger-guided treks early.",
+      "question": "When can you see Komodo dragons?"
+    },
+    {
+      "answer": "Fly into Labuan Bajo (Komodo Airport). As a working estimate it is about 1h10 to 1h20 from Bali (Denpasar), with connections via Jakarta. From the airport it is a short drive to the harbour where boat trips depart. Confirm current flight routes and book early, as seats are limited and sell out in peak season.",
+      "question": "How do I get to Labuan Bajo?"
+    },
+    {
+      "answer": "Earlier is safer. The park day depends on the sea, and weather can push it back, so placing it on Day 2 leaves recovery days behind it as a buffer. Putting your one big day on the final morning risks losing it to rough conditions with no time to rebook.",
+      "question": "Should I put the Komodo park day at the start or end of the trip?"
+    }
+  ],
+  "focusKeyword": "5 days Labuan Bajo Komodo itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Komodo National Park dragons, Padar viewpoint and Pink Beach",
+    "asset": {
+      "_ref": "image-3fafea3f13dafef840018556fa615e99181f11d5-4947x3299-jpg",
+      "_type": "reference"
+    },
+    "caption": "Labuan Bajo → Komodo National Park → Labuan Bajo"
+  },
+  "intro": "Most people treat Labuan Bajo as a quick add-on to Bali, then discover the real trip is at sea, not in town. Komodo National Park is a boat-access world of viewpoints, dragons and reefs, and the planning tension is simple: one long, early, weather-dependent park day carries the whole route, and everything else is built to protect it. Five nights based in one town is the honest sweet spot. Here is how to make it hold together.",
+  "logisticsComplexity": "easy",
+  "metaDescription": "A practical 5-day Labuan Bajo and Komodo itinerary: park day logic, Padar, Pink Beach, dragons, Manta Point, fees and the SiORA pre-booking rule.",
+  "metaTitle": "Komodo & Labuan Bajo in 5 Days: Boat Trip Guide",
+  "primaryAffiliatePartner": "klook",
+  "route": "Labuan Bajo → Komodo National Park → Labuan Bajo",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-labuan-bajo-komodo"
+  },
+  "title": "5 Days in Labuan Bajo and Komodo National Park",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "wildlife_nature",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "balanced"
+}
