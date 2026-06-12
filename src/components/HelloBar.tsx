@@ -12,7 +12,8 @@ export function HelloBar() {
 
   // On the product homepage the bar CTA sends visitors to the live builder
   // (#try-it) instead of the waitlist — same action as "Assemble my trip".
-  const isProductHome = pathname === "/p1-home";
+  // Both "/" (post-launch swap) and "/p1-home" embed the live builder.
+  const isProductHome = pathname === "/" || pathname === "/p1-home";
   const targetId = isProductHome ? "try-it" : "early-access";
 
   const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {

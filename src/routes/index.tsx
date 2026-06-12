@@ -1,5 +1,5 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
-import { PrototypeFlow } from "./prototype";
+import { P1Page } from "./p1";
 import { queryOptions, useSuspenseQuery, useQueryErrorResetBoundary } from "@tanstack/react-query";
 import {
   Suspense,
@@ -736,18 +736,16 @@ export function Inspiration() {
 }
 
 function EmbeddedPrototype() {
-  const sectionRef = useRef<HTMLElement>(null);
+  // The live P1 builder, embedded in the homepage's "try it" slot. (Replaced
+  // the illustrative PrototypeFlow demo at the P2 launch swap.)
   return (
     <section
       id="try-it"
-      ref={sectionRef}
-      aria-label="Try the prototype"
-      // scroll-margin keeps each stage's top clear of the sticky HelloBar (~46px)
-      // when PrototypeFlow scrolls this section into view on stage changes.
-      className="w-full flex flex-col scroll-mt-14"
+      aria-label="Build your Indonesia trip"
+      className="w-full scroll-mt-14"
       style={{ backgroundColor: "#faf9f5" }}
     >
-      <PrototypeFlow containerRef={sectionRef} showHelloBarOnInput={false} embedded />
+      <P1Page embedded />
     </section>
   );
 }
