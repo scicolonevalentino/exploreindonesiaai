@@ -45,6 +45,14 @@ const RATE_LIMIT = new Map<string, number[]>();
 const WINDOW_MS = 60_000;
 const MAX_PER_WINDOW = 3;
 
+// Mask an email for server logs — keep the domain (useful signal) but redact the
+// local part so we're not dumping plaintext PII into Vercel logs.
+function maskEmail(email: string): string {
+  const [local = "", domain = ""] = email.split("@");
+  const head = local.slice(0, 2);
+  return `${head}${local.length > 2 ? "***" : ""}@${domain}`;
+}
+
 function rateLimited(key: string) {
   const now = Date.now();
   const arr = (RATE_LIMIT.get(key) ?? []).filter((t) => now - t < WINDOW_MS);
@@ -57,12 +65,23 @@ function rateLimited(key: string) {
 export const joinWaitlist = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => InputSchema.parse(data))
   .handler(async ({ data }) => {
-    // Honeypot tripped → silently succeed
+    // Honeypot tripped → silently succeed (never tip off a bot), but log it.
+    // These branches drop the signup WITHOUT writing to Brevo while still showing
+    // the user a success toast — so a false positive looks like a working signup
+    // but produces no contact. Password managers occasionally autofill the hidden
+    // "website" field, so a spike here on real traffic means the honeypot is
+    // misfiring on humans, not that we're catching bots.
     if (data.website && data.website.length > 0) {
+      console.warn(`[waitlist] honeypot tripped — dropped signup: ${maskEmail(data.email)}`);
       return { ok: true, alreadySubscribed: false };
     }
-    // Submitted too fast (likely bot) → silently succeed
+    // Submitted too fast (likely bot) → silently succeed, but log it: a real user
+    // with browser autofill + a quick click can also dip under 1500ms and be
+    // dropped here, so we want visibility into how often this fires on real email.
     if (typeof data.elapsedMs === "number" && data.elapsedMs < 1500) {
+      console.warn(
+        `[waitlist] time-trap tripped (${data.elapsedMs}ms) — dropped signup: ${maskEmail(data.email)}`,
+      );
       return { ok: true, alreadySubscribed: false };
     }
 

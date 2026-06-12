@@ -5,6 +5,7 @@ import { Heart, Instagram } from "lucide-react";
 import { toast } from "sonner";
 import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
+import { trackEvent } from "@/lib/analytics-events";
 import { sanityClient } from "@/lib/sanity";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 import {
@@ -46,10 +47,31 @@ function EmailCapture() {
   const [errorMsg, setErrorMsg] = useState("");
   const [touched, setTouched] = useState(false);
   const mountedAtRef = useRef<number>(Date.now());
+  const sectionRef = useRef<HTMLElement>(null);
   const submit = useServerFn(joinWaitlist);
 
   useEffect(() => {
     mountedAtRef.current = Date.now();
+  }, []);
+
+  // Fire a one-time "viewed" event when the signup section scrolls into view, so
+  // GA4 can measure the form's funnel (views → submits → successes). Until now
+  // nothing on this form was tracked, so we could never tell whether "clicks with
+  // no signups" meant a broken form or just people not filling it in.
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          trackEvent("waitlist_view");
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
   }, []);
 
   const liveError = touched ? validateEmail(email) : null;
@@ -65,6 +87,7 @@ function EmailCapture() {
     if (validationError) {
       setStatus("error");
       setErrorMsg(validationError);
+      trackEvent("waitlist_submit_error", { reason: "client_validation" });
       return;
     }
     setStatus("loading");
@@ -78,6 +101,9 @@ function EmailCapture() {
         },
       });
       setStatus("done");
+      trackEvent("waitlist_submit_success", {
+        already_subscribed: !!result?.alreadySubscribed,
+      });
       toast.success(
         result?.alreadySubscribed
           ? "You're already on the list — we'll keep you posted."
@@ -86,20 +112,30 @@ function EmailCapture() {
     } catch (err) {
       setStatus("error");
       const raw = err instanceof Error ? err.message : "";
-      const friendly = /too many/i.test(raw)
-        ? "Too many attempts. Please try again in a minute."
+      const reason = /too many/i.test(raw)
+        ? "rate_limited"
         : /disposable/i.test(raw)
-          ? "Please use a non-disposable email address."
+          ? "disposable_email"
           : /invalid.*email|email/i.test(raw) && raw.length < 200
-            ? "That email doesn't look right. Check for typos."
-            : "Couldn't sign you up. Please try again.";
+            ? "invalid_email"
+            : "server_error";
+      const friendly =
+        reason === "rate_limited"
+          ? "Too many attempts. Please try again in a minute."
+          : reason === "disposable_email"
+            ? "Please use a non-disposable email address."
+            : reason === "invalid_email"
+              ? "That email doesn't look right. Check for typos."
+              : "Couldn't sign you up. Please try again.";
       setErrorMsg(friendly);
       toast.error(friendly);
+      trackEvent("waitlist_submit_error", { reason });
     }
   };
 
   return (
     <section
+      ref={sectionRef}
       id="early-access"
       className="w-full px-6 py-20 sm:py-28 scroll-mt-16"
       style={{ backgroundColor: "var(--navy-mid)" }}
