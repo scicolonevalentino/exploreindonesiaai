@@ -482,11 +482,17 @@ function BuildingStage() {
         02 · Assembling
       </p>
       <h2
-        className="text-4xl sm:text-5xl font-bold mb-10 text-center"
+        className="text-4xl sm:text-5xl font-bold mb-8 text-center"
         style={{ fontFamily: "var(--font-serif)" }}
       >
         Building your trip…
       </h2>
+
+      {/* Komo packs the bags while the AI works — a little life during the wait. */}
+      <div className="ei-komo-wrap mb-10" aria-hidden="true">
+        <img src="/komo-mascot.png" alt="" className="ei-komo" />
+        <span className="ei-komo-shadow" />
+      </div>
 
       <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center justify-center gap-2 sm:gap-3 w-full max-w-3xl mb-12">
         {STEPS.map((s, i) => {
@@ -689,10 +695,18 @@ function TripStage({
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-24">
         <div className="mb-10">
           <p
-            className="text-xs font-semibold uppercase tracking-[0.22em] mb-2"
+            className="text-xs font-semibold uppercase tracking-[0.22em] mb-2 flex items-center gap-2"
             style={{ color: "var(--teal-link)" }}
           >
-            {matching ? "Your trip · Matching live prices…" : "Your trip · Ready to book"}
+            {matching ? (
+              <>
+                {/* Komo keeps working while live prices are still resolving. */}
+                <img src="/komo-mascot.png" alt="" className="ei-komo-sm" aria-hidden="true" />
+                Your trip · Matching live prices…
+              </>
+            ) : (
+              "Your trip · Ready to book"
+            )}
           </p>
           <h1
             className="text-4xl sm:text-5xl font-bold mb-2"
