@@ -1,0 +1,3782 @@
+{
+  "_id": "itinerary-30-days-indonesia-ultimate-v2",
+  "_type": "article",
+  "contentStatus": "draft",
+  "title": "30 Days in Indonesia: The Big Archipelago Route",
+  "slug": {
+    "_type": "slug",
+    "current": "30-days-indonesia-ultimate-v2"
+  },
+  "metaTitle": "30-Day Indonesia Itinerary: Big Archipelago Route",
+  "metaDescription": "A decision-led 30-day Indonesia route: Bali, Java, Komodo, Lombok, Sumatra, Sulawesi and Raja Ampat — what to book, what to skip, where it gets hard.",
+  "focusKeyword": "30 days Indonesia ultimate itinerary",
+  "intro": "Most Indonesia trips are really Bali trips — this one is not. An honest, decision-led 30-day route through seven regions, from Java's volcanoes and Komodo's dragons to Sumatra's orangutans, Sulawesi's highlands and the reef wilderness of Raja Ampat: what to book, what to skip, and where it gets hard.",
+  "route": "Bali → Java → Komodo & Flores → Lombok & Gili → Sumatra → Sulawesi → Raja Ampat",
+  "tripLengthDays": 30,
+  "tripLengthBucket": "three_weeks_plus",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [
+    "java",
+    "komodo_flores",
+    "lombok_gili",
+    "sumatra",
+    "wild_indonesia",
+    "raja_ampat"
+  ],
+  "travelStylePrimary": "remote_offbeat",
+  "travelStyleSecondary": [
+    "adventure_volcanoes",
+    "wildlife_nature",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "repeat_travellers",
+    "solo_travellers",
+    "divers"
+  ],
+  "vibe": "active",
+  "bestSeason": "April–September",
+  "experienceTags": [
+    "overland_route",
+    "temples",
+    "volcano_sunrise",
+    "wildlife",
+    "diving",
+    "snorkeling",
+    "local_villages",
+    "island_day_trip",
+    "domestic_flights",
+    "private_drivers"
+  ],
+  "practicalInfo": {
+    "bestTimeToVisit": "April to September is the broad dry-season window that works across Java's volcanoes, the Komodo and Lombok crossings and Raja Ampat. Regional weather varies — build a buffer day per region.",
+    "gettingThere": "Start at Bali's Ngurah Rai (DPS) and end out of Sorong (SOQ) for Raja Ampat. The route uses roughly seven domestic flights between regions.",
+    "gettingAround": "A mix of domestic flights, ferries and private drivers. Hire a driver (Rp 700,000–900,000/day) for spread-out days in Bali, Java, Lombok and Toraja; pre-book inter-island boats.",
+    "currency": "Indonesian rupiah (IDR). Carry cash for park fees, remote homestays and ranger posts — cards are unreliable in Flores, Sumatra and Raja Ampat. ATMs thin out away from cities.",
+    "simCard": "An Indonesia eSIM is essential on this route — useful in Bali, near-vital in Flores, Sumatra and the islands. Activate before you land.",
+    "visa": "Most nationalities get the e-VoA for Rp 500,000 (about $35), valid 30 days and extendable once — this trip uses the full window, so plan your extension or exit timing. Bali adds a Rp 150,000 tourist levy."
+  },
+  "faq": [
+    {
+      "question": "Is 30 days enough for this Indonesia route?",
+      "answer": "Thirty days covers all seven regions but with little slack — it is a range-over-rest trip, not slow travel. You will fly roughly seven times and have several long drives. If you want breathing room, cut Sumatra or Sulawesi and do the rest properly rather than rushing everything."
+    },
+    {
+      "question": "How many domestic flights does this itinerary need?",
+      "answer": "Around seven: Bali–Yogyakarta, Surabaya–Labuan Bajo, Labuan Bajo–Lombok, Lombok or Bali–Medan, Medan–Makassar and Makassar–Sorong, plus the Sorong ferry. Book the Labuan Bajo and Sorong legs first — they are limited and sell out, and a missed flight can cost a whole region."
+    },
+    {
+      "question": "What must I book in advance versus arrange locally?",
+      "answer": "Book ahead: all domestic flights, your Komodo park slot (SiORA, 2–3 days out), your Raja Ampat lodge and permit, and the Sumatra orangutan guide. Arrange locally: most Bali and Java day activities, drivers in Toraja, and slow days — these stay flexible around your energy."
+    },
+    {
+      "question": "Where is this itinerary most fragile?",
+      "answer": "Day 11 (a Bromo sunrise, long drive and flight stacked together) and the Sorong–Raja Ampat connection are the weak points. Both depend on a single on-time link. Add a buffer night before the Sorong ferry and don't book onward flights tight against weather-exposed boats."
+    },
+    {
+      "question": "How much does a 30-day trip like this cost?",
+      "answer": "Mid-to-high — the cost drivers are seven domestic flights, Komodo (Rp 650,000–900,000 in park fees) and Raja Ampat (about Rp 1,000,000 in permits plus pricey remote lodges). Plus the Rp 500,000 e-VoA and Rp 150,000 Bali levy. Sumatra and Sulawesi are comparatively cheap once you are there."
+    },
+    {
+      "question": "Is this a good first trip to Indonesia?",
+      "answer": "No — it is built for experienced or repeat travellers comfortable with flights, ferries and remote logistics. First-timers are better served by a focused Bali, Java and Komodo route over two to three weeks, then returning for Sumatra, Sulawesi and Raja Ampat on a second trip."
+    },
+    {
+      "question": "What is the best time of year for the whole route?",
+      "answer": "April to September, the broad dry season, gives the most reliable conditions across Java's volcanoes, the Komodo and Lombok crossings and Raja Ampat. Regional weather still varies, so build a buffer day per region and check sea conditions before any boat leg."
+    }
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "k1",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k0",
+          "marks": [],
+          "text": "Most Indonesia trips are really Bali trips. This one is not. Thirty days is enough to treat Indonesia as what it actually is — an archipelago — and string its headline regions into one continuous push: temples and volcanoes in Java, dragons and pink sand in Komodo, a beach reset in Lombok and the Gilis, orangutans in Sumatra, ancestral villages in Sulawesi, and reef wilderness in Raja Ampat."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2",
+          "marks": [],
+          "text": "It is a thrilling route. It is also intense, and this guide is honest about that — where to slow down, where a single missed flight unravels a week, what to book months ahead, and what to cut if you would rather keep the range but lose some of the friction. Read the trade-offs before you fall for the map."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5",
+          "marks": [],
+          "text": "Who this route is really for"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6",
+          "marks": [],
+          "text": "This is a high-energy, range-over-rest itinerary for "
+        },
+        {
+          "_type": "span",
+          "_key": "k7",
+          "marks": [
+            "strong"
+          ],
+          "text": "experienced travellers"
+        },
+        {
+          "_type": "span",
+          "_key": "k8",
+          "marks": [],
+          "text": ". You will take roughly seven domestic flights, several ferries and a few pre-dawn starts, and you will be comfortable in places where logistics are improvised and the nearest ATM is a flight away. If that sounds like a great month, this route delivers more of Indonesia than almost any other single trip."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kf",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "kc",
+          "_type": "externalLink",
+          "href": "#what-to-cut",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ka",
+          "marks": [
+            "strong"
+          ],
+          "text": "It is not ideal for"
+        },
+        {
+          "_type": "span",
+          "_key": "kb",
+          "marks": [],
+          "text": " a first trip to Indonesia, for travellers who want to unpack once, or for anyone on a tight budget — the domestic flights and remote lodges add up. If that is you, the honest move is to do fewer regions properly; see the "
+        },
+        {
+          "_type": "span",
+          "_key": "kd",
+          "marks": [
+            "kc"
+          ],
+          "text": "what to cut"
+        },
+        {
+          "_type": "span",
+          "_key": "ke",
+          "marks": [],
+          "text": " section below, and treat this article as a menu rather than a mandate."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kg",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kh",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kk",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ki",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_type": "span",
+          "_key": "kj",
+          "marks": [],
+          "text": " experienced, high-energy travellers and repeat visitors who want breadth."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kn",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kl",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_type": "span",
+          "_key": "km",
+          "marks": [],
+          "text": " first-timers, slow travellers, or tight budgets."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ku",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ko",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_type": "span",
+          "_key": "kp",
+          "marks": [],
+          "text": " 30 days. "
+        },
+        {
+          "_type": "span",
+          "_key": "kq",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start:"
+        },
+        {
+          "_type": "span",
+          "_key": "kr",
+          "marks": [],
+          "text": " Bali (Denpasar). "
+        },
+        {
+          "_type": "span",
+          "_key": "ks",
+          "marks": [
+            "strong"
+          ],
+          "text": "End:"
+        },
+        {
+          "_type": "span",
+          "_key": "kt",
+          "marks": [],
+          "text": " Raja Ampat (out via Sorong)."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kx",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kv",
+          "marks": [
+            "strong"
+          ],
+          "text": "Main regions:"
+        },
+        {
+          "_type": "span",
+          "_key": "kw",
+          "marks": [],
+          "text": " Bali, Java, Komodo & Flores, Lombok & the Gilis, Sumatra, Sulawesi, Raja Ampat."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k12",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ky",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_type": "span",
+          "_key": "kz",
+          "marks": [],
+          "text": " active, multi-region, flight-and-ferry heavy. "
+        },
+        {
+          "_type": "span",
+          "_key": "k10",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_type": "span",
+          "_key": "k11",
+          "marks": [],
+          "text": " mid-to-high (driven by domestic flights, Komodo and Raja Ampat)."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k17",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k13",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_type": "span",
+          "_key": "k14",
+          "marks": [],
+          "text": " April–September dry season. "
+        },
+        {
+          "_type": "span",
+          "_key": "k15",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_type": "span",
+          "_key": "k16",
+          "marks": [],
+          "text": " high — several legs must be booked ahead."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k18",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k19",
+          "marks": [],
+          "text": "Why the route runs in this order"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k1j",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k1a",
+          "marks": [],
+          "text": "The sequence is deliberate. "
+        },
+        {
+          "_type": "span",
+          "_key": "k1b",
+          "marks": [
+            "strong"
+          ],
+          "text": "Bali"
+        },
+        {
+          "_type": "span",
+          "_key": "k1c",
+          "marks": [],
+          "text": " is the soft landing — easy transport, good food, time to beat jet lag before the logistics get harder. "
+        },
+        {
+          "_type": "span",
+          "_key": "k1d",
+          "marks": [
+            "strong"
+          ],
+          "text": "Java"
+        },
+        {
+          "_type": "span",
+          "_key": "k1e",
+          "marks": [],
+          "text": " adds culture and volcanoes while you are still fresh enough for 2am starts. "
+        },
+        {
+          "_type": "span",
+          "_key": "k1f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Komodo and Flores"
+        },
+        {
+          "_type": "span",
+          "_key": "k1g",
+          "marks": [],
+          "text": " deliver the islands-and-wildlife high. "
+        },
+        {
+          "_type": "span",
+          "_key": "k1h",
+          "marks": [
+            "strong"
+          ],
+          "text": "Lombok and the Gilis"
+        },
+        {
+          "_type": "span",
+          "_key": "k1i",
+          "marks": [],
+          "text": " are placed mid-trip on purpose — a beach reset before the two most demanding legs."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k1o",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k1k",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sumatra and Sulawesi"
+        },
+        {
+          "_type": "span",
+          "_key": "k1l",
+          "marks": [],
+          "text": " are the depth of the trip: orangutans in the Leuser rainforest and the ancestral funeral culture of Tana Toraja, both with real travel friction. "
+        },
+        {
+          "_type": "span",
+          "_key": "k1m",
+          "marks": [
+            "strong"
+          ],
+          "text": "Raja Ampat"
+        },
+        {
+          "_type": "span",
+          "_key": "k1n",
+          "marks": [],
+          "text": " is last because it is the reward and the hardest to reach — you finish in the water, in the most remote place on the route, with nothing anticlimactic after it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k1p",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k1q",
+          "marks": [],
+          "text": "Before you fly: the bookings that actually matter"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k1z",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k1w",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k1r",
+          "marks": [],
+          "text": "Two admin jobs first. Apply for your "
+        },
+        {
+          "_type": "span",
+          "_key": "k1s",
+          "marks": [
+            "strong"
+          ],
+          "text": "Indonesia e-VoA"
+        },
+        {
+          "_type": "span",
+          "_key": "k1t",
+          "marks": [],
+          "text": " (about Rp 500,000 / $35, valid 30 days — this trip uses every day of it, so plan a same-day extension or exit if you arrive late and leave late) and pay the "
+        },
+        {
+          "_type": "span",
+          "_key": "k1u",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rp 150,000 Bali tourist levy"
+        },
+        {
+          "_type": "span",
+          "_key": "k1v",
+          "marks": [],
+          "text": " online. Then "
+        },
+        {
+          "_type": "span",
+          "_key": "k1x",
+          "marks": [
+            "k1w"
+          ],
+          "text": "get an Indonesia eSIM with Airalo"
+        },
+        {
+          "_type": "span",
+          "_key": "k1y",
+          "marks": [],
+          "text": " so maps and ride apps work from the airport — useful everywhere, essential in Flores and Sumatra."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k23",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k20",
+          "marks": [],
+          "text": "The single most important planning decision is your "
+        },
+        {
+          "_type": "span",
+          "_key": "k21",
+          "marks": [
+            "strong"
+          ],
+          "text": "domestic flights"
+        },
+        {
+          "_type": "span",
+          "_key": "k22",
+          "marks": [],
+          "text": ". This route flies Bali→Yogyakarta, Surabaya→Labuan Bajo, Labuan Bajo→Lombok, Lombok/Bali→Medan, Medan→Makassar and Makassar→Sorong. Book these as early as you can: seats on the Labuan Bajo, Sorong and Toraja-adjacent legs are limited and sell out, and a single sold-out flight can cost you a full region. Build a buffer day before any flight that protects a non-refundable lodge."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k24",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k25",
+          "marks": [],
+          "text": "BALI — Days 1–7: the soft landing"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k27",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k26",
+          "marks": [],
+          "text": "Bali earns its place not because it is undiscovered but because it is the most forgiving start to a hard month. Use it to reset your body clock, eat well, and get into the rhythm of Indonesian transport before the stakes rise. Base in Ubud first for nature and culture, then move south for the coast."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k28",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k29",
+          "marks": [],
+          "text": "Day 1: Arrive in Bali and settle in Ubud"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k2j",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k2c",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2a",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k2b",
+          "marks": [],
+          "text": " Land at Denpasar and head straight to Ubud — about 60–90 minutes depending on traffic. After a long-haul flight, a "
+        },
+        {
+          "_type": "span",
+          "_key": "k2d",
+          "marks": [
+            "k2c"
+          ],
+          "text": "private airport transfer to Ubud"
+        },
+        {
+          "_type": "span",
+          "_key": "k2e",
+          "marks": [],
+          "text": " is worth it: fixed price, no airport-taxi haggling, and you arrive without a fight. "
+        },
+        {
+          "_type": "span",
+          "_key": "k2f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k2g",
+          "marks": [],
+          "text": " Do nothing demanding — a short walk, an early dinner, sleep. "
+        },
+        {
+          "_type": "span",
+          "_key": "k2h",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "k2i",
+          "marks": [],
+          "text": " only the transfer. Everything else in Bali can stay flexible."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k2k",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2l",
+          "marks": [],
+          "text": "Day 2: Ubud rice terraces, temples and waterfalls"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k2v",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k2q",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2m",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k2n",
+          "marks": [],
+          "text": " Start early at the Tegalalang rice terraces before the tour buses, then a water temple such as Tirta Empul. "
+        },
+        {
+          "_type": "span",
+          "_key": "k2o",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k2p",
+          "marks": [],
+          "text": " A waterfall (Tibumana or Tegenungan) and the Monkey Forest. Because these sit on narrow, traffic-slowed roads, a "
+        },
+        {
+          "_type": "span",
+          "_key": "k2r",
+          "marks": [
+            "k2q"
+          ],
+          "text": "guided Ubud tour covering the Monkey Forest, a rice terrace and a waterfall"
+        },
+        {
+          "_type": "span",
+          "_key": "k2s",
+          "marks": [],
+          "text": " removes the day's logistics — useful while you are still jet-lagged. "
+        },
+        {
+          "_type": "span",
+          "_key": "k2t",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k2u",
+          "marks": [],
+          "text": " Dinner in central Ubud, which is walkable and calm after dark."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k2w",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2x",
+          "marks": [],
+          "text": "Day 3: Mount Batur sunrise"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k37",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k30",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2y",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-dawn."
+        },
+        {
+          "_type": "span",
+          "_key": "k2z",
+          "marks": [],
+          "text": " This is your gentlest volcano start of the trip, so use it to test how you handle early mornings before Bromo and Ijen. The classic option is the dawn hike, but if you want the view without spending the day's energy, a "
+        },
+        {
+          "_type": "span",
+          "_key": "k31",
+          "marks": [
+            "k30"
+          ],
+          "text": "Mount Batur sunrise jeep experience"
+        },
+        {
+          "_type": "span",
+          "_key": "k32",
+          "marks": [],
+          "text": " drives you to the rim instead of climbing it — the smarter choice on a trip this long. "
+        },
+        {
+          "_type": "span",
+          "_key": "k33",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k34",
+          "marks": [],
+          "text": " Sleep. A hot spring near Batur is a good low-effort add-on. "
+        },
+        {
+          "_type": "span",
+          "_key": "k35",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k36",
+          "marks": [],
+          "text": " pickups are around 3:00–3:30am; protect the night before."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k38",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k39",
+          "marks": [],
+          "text": "Day 4: Cooking class and a slow Ubud afternoon"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3j",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k3c",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k3a",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k3b",
+          "marks": [],
+          "text": " A "
+        },
+        {
+          "_type": "span",
+          "_key": "k3d",
+          "marks": [
+            "k3c"
+          ],
+          "text": "Balinese cooking class in Ubud"
+        },
+        {
+          "_type": "span",
+          "_key": "k3e",
+          "marks": [],
+          "text": " is one of the few culture activities that is genuinely hands-on and pays off later — you will understand the food for the rest of the month. "
+        },
+        {
+          "_type": "span",
+          "_key": "k3f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k3g",
+          "marks": [],
+          "text": " Deliberately empty. After three active days, banking a slow afternoon now prevents burnout in week two. "
+        },
+        {
+          "_type": "span",
+          "_key": "k3h",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k3i",
+          "marks": [],
+          "text": " Ubud markets and a long dinner."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3k",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k3l",
+          "marks": [],
+          "text": "Day 5: Nusa Penida day trip"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3w",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k3o",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_NUSA_PENIDA_DAY_TRIP"
+        },
+        {
+          "_key": "k3r",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_SANUR_NUSA_PENIDA"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k3m",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "k3n",
+          "marks": [],
+          "text": " Penida is spectacular and exhausting — a fast boat from Sanur plus rough island roads. The mistake people make is doing it self-guided and losing two hours to transport chaos. A "
+        },
+        {
+          "_type": "span",
+          "_key": "k3p",
+          "marks": [
+            "k3o"
+          ],
+          "text": "private Nusa Penida day trip"
+        },
+        {
+          "_type": "span",
+          "_key": "k3q",
+          "marks": [],
+          "text": " with a driver and pre-booked "
+        },
+        {
+          "_type": "span",
+          "_key": "k3s",
+          "marks": [
+            "k3r"
+          ],
+          "text": "fast boat from Sanur"
+        },
+        {
+          "_type": "span",
+          "_key": "k3t",
+          "marks": [],
+          "text": " is the difference between seeing three viewpoints and seeing one. "
+        },
+        {
+          "_type": "span",
+          "_key": "k3u",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skip-it option:"
+        },
+        {
+          "_type": "span",
+          "_key": "k3v",
+          "marks": [],
+          "text": " if you are tired, drop Penida entirely and take a second slow Bali day — it is the most cuttable day in the Bali week."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3x",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k3y",
+          "marks": [],
+          "text": "Day 6: Move south to Uluwatu"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4b",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k41",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+        },
+        {
+          "_key": "k48",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k3z",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k40",
+          "marks": [],
+          "text": " Transfer from Ubud to the Bukit peninsula — book a "
+        },
+        {
+          "_type": "span",
+          "_key": "k42",
+          "marks": [
+            "k41"
+          ],
+          "text": "private transfer from Ubud to Uluwatu"
+        },
+        {
+          "_type": "span",
+          "_key": "k43",
+          "marks": [],
+          "text": " rather than two scooters with luggage. "
+        },
+        {
+          "_type": "span",
+          "_key": "k44",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k45",
+          "marks": [],
+          "text": " Clifftop beaches and your first proper sunset coast. "
+        },
+        {
+          "_type": "span",
+          "_key": "k46",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k47",
+          "marks": [],
+          "text": " The "
+        },
+        {
+          "_type": "span",
+          "_key": "k49",
+          "marks": [
+            "k48"
+          ],
+          "text": "Kecak fire dance at Uluwatu temple"
+        },
+        {
+          "_type": "span",
+          "_key": "k4a",
+          "marks": [],
+          "text": " at sunset is the rare set-piece worth pre-booking — it sells out and the temple seating fills fast. Watch for the monkeys; they take sunglasses."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4c",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4d",
+          "marks": [],
+          "text": "Day 7: Fly to Yogyakarta"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4i",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4e",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "k4f",
+          "marks": [],
+          "text": " Short flight from Denpasar to Yogyakarta. Keep the afternoon light — settle in, eat, and prep for an early temple start. "
+        },
+        {
+          "_type": "span",
+          "_key": "k4g",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k4h",
+          "marks": [],
+          "text": " this is the first flight that matters. If it is delayed, your Borobudur sunrise slot is the casualty, so book a morning flight and don't schedule anything unmissable for tonight."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4j",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4k",
+          "marks": [],
+          "text": "JAVA — Days 8–11: culture, then a serious volcano"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4m",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4l",
+          "marks": [],
+          "text": "Java is where the trip gets its first real edge. Borobudur and Prambanan are the cultural high point; Bromo is the first big-effort sunrise. The friction here is distance — Yogyakarta to Bromo is a long haul — so this region rewards booking transport rather than improvising it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4n",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4o",
+          "marks": [],
+          "text": "Day 8: Borobudur and Prambanan"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4v",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-dawn."
+        },
+        {
+          "_type": "span",
+          "_key": "k4q",
+          "marks": [],
+          "text": " Borobudur first, ideally for the upper-temple opening — book the timed ticket ahead, as foreigner numbers are capped (around Rp 455,000; the combined Borobudur–Prambanan ticket was discontinued in 2025, so buy each separately). "
+        },
+        {
+          "_type": "span",
+          "_key": "k4r",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k4s",
+          "marks": [],
+          "text": " Prambanan's Hindu spires (about Rp 400,000), quieter after 3pm. A private driver for the day is the practical choice — the two temples sit on opposite sides of the city. "
+        },
+        {
+          "_type": "span",
+          "_key": "k4t",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k4u",
+          "marks": [],
+          "text": " Rest; tomorrow is lighter."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k4w",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4x",
+          "marks": [],
+          "text": "Day 9: Yogyakarta city and culture"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k56",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4y",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k4z",
+          "marks": [],
+          "text": " The Kraton (Sultan's Palace) and Taman Sari water castle, walkable and genuinely interesting. "
+        },
+        {
+          "_type": "span",
+          "_key": "k50",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k51",
+          "marks": [],
+          "text": " A batik workshop or the Kotagede silver quarter — Yogyakarta is the right place for hands-on craft. "
+        },
+        {
+          "_type": "span",
+          "_key": "k52",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k53",
+          "marks": [],
+          "text": " Eat along the food streets near Malioboro; this is a good city to wander on foot. "
+        },
+        {
+          "_type": "span",
+          "_key": "k54",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "k55",
+          "marks": [],
+          "text": " nothing mandatory — this is a flexible day you can reshape around energy."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k57",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k58",
+          "marks": [],
+          "text": "Day 10: Travel to Mount Bromo"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5f",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k59",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "k5a",
+          "marks": [],
+          "text": " The long transfer east toward the Bromo area (Cemoro Lawang). It eats most of the day, so treat it as transit, not sightseeing. "
+        },
+        {
+          "_type": "span",
+          "_key": "k5b",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k5c",
+          "marks": [],
+          "text": " Early dinner and sleep — the next start is brutal. "
+        },
+        {
+          "_type": "span",
+          "_key": "k5d",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k5e",
+          "marks": [],
+          "text": " nights at altitude here are genuinely cold; pack a layer you can reach without unpacking everything."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5g",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5h",
+          "marks": [],
+          "text": "Day 11: Bromo sunrise, then fly toward Komodo"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5r",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k5k",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BROMO_SUNRISE"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-dawn."
+        },
+        {
+          "_type": "span",
+          "_key": "k5j",
+          "marks": [],
+          "text": " A 4WD to the Penanjakan viewpoint for the Tengger caldera at first light, then the walk across the Sea of Sand to the crater rim. A "
+        },
+        {
+          "_type": "span",
+          "_key": "k5l",
+          "marks": [
+            "k5k"
+          ],
+          "text": "Mount Bromo sunrise tour"
+        },
+        {
+          "_type": "span",
+          "_key": "k5m",
+          "marks": [],
+          "text": " handles the jeep, timing and guide so you are not negotiating in the dark. "
+        },
+        {
+          "_type": "span",
+          "_key": "k5n",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k5o",
+          "marks": [],
+          "text": " Transfer to Surabaya and fly to Labuan Bajo (usually via a hub). "
+        },
+        {
+          "_type": "span",
+          "_key": "k5p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k5q",
+          "marks": [],
+          "text": " this is the trip's most fragile single day — a sunrise, a long drive and a flight stacked together. If any connection looks tight, split it across two days."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5s",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5t",
+          "marks": [],
+          "text": "KOMODO AND FLORES — Days 12–15: the islands high"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5v",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5u",
+          "marks": [],
+          "text": "Labuan Bajo is the base for Komodo National Park, and this is one of the trip's clear highlights. The friction is the park's new system: you must pre-book and the daily visitor count is capped, so this is not a leg you can wing on arrival."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5w",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5x",
+          "marks": [],
+          "text": "Day 12: Arrive and settle in Labuan Bajo"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k64",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k5y",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k5z",
+          "marks": [],
+          "text": " Recover from the travel stack of Day 11. Confirm your boat for tomorrow and your park booking. "
+        },
+        {
+          "_type": "span",
+          "_key": "k60",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k61",
+          "marks": [],
+          "text": " Sunset from a hill bar over the harbour islands. "
+        },
+        {
+          "_type": "span",
+          "_key": "k62",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "k63",
+          "marks": [],
+          "text": " your Komodo park entry must be reserved 2–3 days in advance through the official SiORA system or your operator — the park caps entry at 1,000 visitors a day, and turning up without a slot can mean missing it entirely."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k65",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k66",
+          "marks": [],
+          "text": "Day 13: Komodo National Park by boat"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6d",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k67",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "k68",
+          "marks": [],
+          "text": " A speedboat day is the efficient way to combine Padar Island's viewpoint, a Komodo or Rinca dragon walk with a ranger, Pink Beach and a manta or reef snorkel — places that are impossible to link by land. Budget the 2026 park fees: roughly "
+        },
+        {
+          "_type": "span",
+          "_key": "k69",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rp 650,000 for the Komodo Island route or Rp 900,000 for routes including Rinca and Padar"
+        },
+        {
+          "_type": "span",
+          "_key": "k6a",
+          "marks": [],
+          "text": ", on top of the boat. "
+        },
+        {
+          "_type": "span",
+          "_key": "k6b",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k6c",
+          "marks": [],
+          "text": " go with a registered operator who handles the permit; carry cash, as card payment is unreliable at ranger posts."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6e",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6f",
+          "marks": [],
+          "text": "Day 14: A slow Labuan Bajo day"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6o",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6g",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k6h",
+          "marks": [],
+          "text": " Deliberately gentle after a long boat day — Rangko Cave's saltwater pool (a short boat south, best around midday light) or simply a pool morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k6i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k6j",
+          "marks": [],
+          "text": " Optional second, closer-island snorkel (Kanawa, Kelor) if you have the appetite; otherwise rest. "
+        },
+        {
+          "_type": "span",
+          "_key": "k6k",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k6l",
+          "marks": [],
+          "text": " Good seafood on the harbour. "
+        },
+        {
+          "_type": "span",
+          "_key": "k6m",
+          "marks": [
+            "strong"
+          ],
+          "text": "Why this day exists:"
+        },
+        {
+          "_type": "span",
+          "_key": "k6n",
+          "marks": [],
+          "text": " it is a buffer before another flight — keep it that way."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6p",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6q",
+          "marks": [],
+          "text": "Day 15: Fly to Lombok"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6y",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k6v",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6r",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "k6s",
+          "marks": [],
+          "text": " Fly Labuan Bajo to Lombok (usually via Bali). Transfer to Kuta Lombok in the south and do nothing demanding on arrival. "
+        },
+        {
+          "_type": "span",
+          "_key": "k6t",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "k6u",
+          "marks": [],
+          "text": " a "
+        },
+        {
+          "_type": "span",
+          "_key": "k6w",
+          "marks": [
+            "k6v"
+          ],
+          "text": "private airport transfer toward Kuta Lombok"
+        },
+        {
+          "_type": "span",
+          "_key": "k6x",
+          "marks": [],
+          "text": " saves a tedious negotiation at a small airport after a connecting flight."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k6z",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k70",
+          "marks": [],
+          "text": "LOMBOK AND GILI ISLANDS — Days 16–20: the mid-trip reset"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k72",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k71",
+          "marks": [],
+          "text": "This is the breather the route is built around. After volcanoes and dragons, Lombok and the Gilis are deliberately low-stakes: beaches, easy water, no early starts. Resist the urge to over-program it — its job is to recharge you for Sumatra and Sulawesi."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k73",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k74",
+          "marks": [],
+          "text": "Day 16: South Lombok beaches"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k7h",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k79",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK"
+        },
+        {
+          "_key": "k7c",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k75",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k76",
+          "marks": [],
+          "text": " Tanjung Aan and the Kuta Lombok bays — wide, quiet, and a world away from Bali's crowds. "
+        },
+        {
+          "_type": "span",
+          "_key": "k77",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k78",
+          "marks": [],
+          "text": " Selong Belanak is one of Indonesia's best beginner surf beaches; a "
+        },
+        {
+          "_type": "span",
+          "_key": "k7a",
+          "marks": [
+            "k79"
+          ],
+          "text": "beginner surf lesson at Selong Belanak"
+        },
+        {
+          "_type": "span",
+          "_key": "k7b",
+          "marks": [],
+          "text": " is a low-commitment way to spend the afternoon. Because the beaches are spread out, a "
+        },
+        {
+          "_type": "span",
+          "_key": "k7d",
+          "marks": [
+            "k7c"
+          ],
+          "text": "South Lombok beach tour"
+        },
+        {
+          "_type": "span",
+          "_key": "k7e",
+          "marks": [],
+          "text": " with a driver makes the day flow. "
+        },
+        {
+          "_type": "span",
+          "_key": "k7f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "k7g",
+          "marks": [],
+          "text": " Quiet dinner in Kuta town."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k7i",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k7j",
+          "marks": [],
+          "text": "Day 17: Lombok waterfalls and the Rinjani foothills"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k7t",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k7m",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SENARU_WATERFALLS"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k7k",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k7l",
+          "marks": [],
+          "text": " Head north toward Senaru for the "
+        },
+        {
+          "_type": "span",
+          "_key": "k7n",
+          "marks": [
+            "k7m"
+          ],
+          "text": "Sendang Gile and Tiu Kelep waterfalls"
+        },
+        {
+          "_type": "span",
+          "_key": "k7o",
+          "marks": [],
+          "text": " — green, cool, and a complete change of scene from the coast. "
+        },
+        {
+          "_type": "span",
+          "_key": "k7p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k7q",
+          "marks": [],
+          "text": " The Rinjani foothills and rice country; the full summit trek is a 2–3 day commitment this itinerary does not have room for, and that is the right call. "
+        },
+        {
+          "_type": "span",
+          "_key": "k7r",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k7s",
+          "marks": [],
+          "text": " the Senaru drive is long — leave early and accept it is a travel-heavy day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k7u",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k7v",
+          "marks": [],
+          "text": "Day 18: Travel to Gili Trawangan"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k85",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k7y",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LOMBOK_GILI_BOAT"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k7w",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k7x",
+          "marks": [],
+          "text": " Transfer to the harbour and take a "
+        },
+        {
+          "_type": "span",
+          "_key": "k7z",
+          "marks": [
+            "k7y"
+          ],
+          "text": "fast boat from Lombok to Gili Trawangan"
+        },
+        {
+          "_type": "span",
+          "_key": "k80",
+          "marks": [],
+          "text": ". "
+        },
+        {
+          "_type": "span",
+          "_key": "k81",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k82",
+          "marks": [],
+          "text": " There are no cars or scooters on the Gilis — bicycle, walk or cidomo cart. Settle in, swim, and watch sunset from the west side. "
+        },
+        {
+          "_type": "span",
+          "_key": "k83",
+          "marks": [
+            "strong"
+          ],
+          "text": "Choose your island:"
+        },
+        {
+          "_type": "span",
+          "_key": "k84",
+          "marks": [],
+          "text": " Trawangan for life and dive shops, Air for a calmer balance, Meno for quiet. For one reset, Trawangan with an early night beats chasing all three."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k86",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k87",
+          "marks": [],
+          "text": "Day 19: Gili Islands snorkeling"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8h",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k8a",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k88",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "k89",
+          "marks": [],
+          "text": " A "
+        },
+        {
+          "_type": "span",
+          "_key": "k8b",
+          "marks": [
+            "k8a"
+          ],
+          "text": "3-island Gili snorkeling tour"
+        },
+        {
+          "_type": "span",
+          "_key": "k8c",
+          "marks": [],
+          "text": " reliably finds turtles and circles Trawangan, Meno and Air. Go in the morning for the calmest water. "
+        },
+        {
+          "_type": "span",
+          "_key": "k8d",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k8e",
+          "marks": [],
+          "text": " Slow — a swim, a cycle round the island, a long lunch. "
+        },
+        {
+          "_type": "span",
+          "_key": "k8f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Honest note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k8g",
+          "marks": [],
+          "text": " the Gili reefs are recovering, not pristine; the draw here is the easy turtle snorkel and the off-switch, not world-class diving."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8i",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8j",
+          "marks": [],
+          "text": "Day 20: Return to Bali and fly to Medan"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8r",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k8m",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8k",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "k8l",
+          "marks": [],
+          "text": " A "
+        },
+        {
+          "_type": "span",
+          "_key": "k8n",
+          "marks": [
+            "k8m"
+          ],
+          "text": "boat from Gili Trawangan back to Bali"
+        },
+        {
+          "_type": "span",
+          "_key": "k8o",
+          "marks": [],
+          "text": ", then the long flight northwest to Medan in Sumatra. This is one of the route's heaviest transit days. "
+        },
+        {
+          "_type": "span",
+          "_key": "k8p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k8q",
+          "marks": [],
+          "text": " boat-then-flight is exposed to sea conditions; book a morning boat and an evening flight, and keep an alternative in mind if the crossing is cancelled."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8s",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8t",
+          "marks": [],
+          "text": "SUMATRA — Days 21–24: rainforest depth"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8v",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8u",
+          "marks": [],
+          "text": "Sumatra is where the trip stops being easy and starts being memorable. Bukit Lawang and the Gunung Leuser rainforest offer one of the last places on earth to see wild orangutans, and Lake Toba is the giant volcanic lake few first-timers reach. Logistics here are improvised; book your guide and lodge directly and build in buffer."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k8w",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8x",
+          "marks": [],
+          "text": "Day 21: Travel to Bukit Lawang"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k94",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8y",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k8z",
+          "marks": [],
+          "text": " From Medan it is roughly a 3–4 hour drive to Bukit Lawang on the edge of the rainforest. Arrange a private car through your guesthouse rather than chancing public transport with luggage. "
+        },
+        {
+          "_type": "span",
+          "_key": "k90",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k91",
+          "marks": [],
+          "text": " Settle by the river; the village is small and walkable. "
+        },
+        {
+          "_type": "span",
+          "_key": "k92",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "k93",
+          "marks": [],
+          "text": " confirm your trek and a licensed guide before you arrive — quality and ethics vary, and the best guides go through guesthouses, not booking platforms."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k95",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k96",
+          "marks": [],
+          "text": "Day 22: Orangutan trekking in Gunung Leuser"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9d",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k97",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "k98",
+          "marks": [],
+          "text": " A jungle trek with a licensed local guide, typically $30–60 per person depending on length. Sightings are likely but never guaranteed — this is genuinely wild, not a feeding station, which is exactly the point. "
+        },
+        {
+          "_type": "span",
+          "_key": "k99",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k9a",
+          "marks": [],
+          "text": " Many treks finish with a river tube back to the village. "
+        },
+        {
+          "_type": "span",
+          "_key": "k9b",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ethics note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k9c",
+          "marks": [],
+          "text": " choose guides who keep distance and don't feed the animals; it matters for the orangutans and increasingly for park rules."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9e",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9f",
+          "marks": [],
+          "text": "Day 23: Bukit Lawang to Lake Toba"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9k",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9g",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "k9h",
+          "marks": [],
+          "text": " A long overland drive (commonly 6–8 hours) to Parapat, then the ferry across to Samosir Island on Lake Toba. It is a big day, but the payoff is arriving on an island in the middle of a caldera. "
+        },
+        {
+          "_type": "span",
+          "_key": "k9i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "k9j",
+          "marks": [],
+          "text": " roads are slow and unpredictable; start early, accept it will run long, and don't schedule anything for the evening beyond dinner."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9l",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9m",
+          "marks": [],
+          "text": "Day 24: Lake Toba, then fly to Makassar"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9t",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9n",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "k9o",
+          "marks": [],
+          "text": " A slow Samosir morning — Batak villages, the lake, the cool highland air. This is one of the trip's most underrated calm moments, so protect a little of it. "
+        },
+        {
+          "_type": "span",
+          "_key": "k9p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "k9q",
+          "marks": [],
+          "text": " Ferry back and transfer to Medan or the nearest airport for the flight to Makassar in Sulawesi. "
+        },
+        {
+          "_type": "span",
+          "_key": "k9r",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reality check:"
+        },
+        {
+          "_type": "span",
+          "_key": "k9s",
+          "marks": [],
+          "text": " getting off Samosir to a flight is the day's friction — give it more time than feels necessary."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9u",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9v",
+          "marks": [],
+          "text": "SULAWESI — Days 25–27: ancestral highlands"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9x",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9w",
+          "marks": [],
+          "text": "Tana Toraja is the cultural deep end of the trip — a highland culture built around elaborate funeral ceremonies, cliff graves and soaring tongkonan houses. It is remote and the drive from Makassar is long, which is exactly why so few travellers reach it and why it feels like the most distinctive stop on the route."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k9y",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k9z",
+          "marks": [],
+          "text": "Day 25: Travel to Tana Toraja"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ka6",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ka0",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "ka1",
+          "marks": [],
+          "text": " The drive from Makassar to Rantepao is long (around 8 hours) but scenic as you climb into the highlands. An overnight bus or a private car both work; a private car with a stop or two is easier on a trip this long. "
+        },
+        {
+          "_type": "span",
+          "_key": "ka2",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "ka3",
+          "marks": [],
+          "text": " Arrive in Rantepao, the regional base. "
+        },
+        {
+          "_type": "span",
+          "_key": "ka4",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "ka5",
+          "marks": [],
+          "text": " arrange a local Toraja guide for tomorrow — context is everything here, and a good guide is the difference between curiosity and understanding."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ka7",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ka8",
+          "marks": [],
+          "text": "Day 26: Tana Toraja with a local guide"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kaf",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "ka9",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "kaa",
+          "marks": [],
+          "text": " With a guide: the tongkonan houses, the cliff and cave graves at Londa or Lemo, the hanging-grave sites and the megaliths at Bori. If your timing lines up with a funeral ceremony, it is an extraordinary thing to witness respectfully — ask your guide about etiquette and gifts first. "
+        },
+        {
+          "_type": "span",
+          "_key": "kab",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "kac",
+          "marks": [],
+          "text": " Quiet Rantepao. "
+        },
+        {
+          "_type": "span",
+          "_key": "kad",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sensitivity note:"
+        },
+        {
+          "_type": "span",
+          "_key": "kae",
+          "marks": [],
+          "text": " these are active sacred sites, not attractions; follow your guide's lead on photography and access."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kag",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kah",
+          "marks": [],
+          "text": "Day 27: Return to Makassar and fly to Sorong"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kam",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kai",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel day."
+        },
+        {
+          "_type": "span",
+          "_key": "kaj",
+          "marks": [],
+          "text": " The long drive back to Makassar and the flight east to Sorong, the gateway to Raja Ampat — often the trickiest flight to schedule on the whole route. "
+        },
+        {
+          "_type": "span",
+          "_key": "kak",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "kal",
+          "marks": [],
+          "text": " Sorong flights are limited and fill early; book this one of the very first, and arrive in Sorong with a night's buffer before the morning ferry, because missing it costs you a day in Raja Ampat itself."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kan",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kao",
+          "marks": [],
+          "text": "RAJA AMPAT — Days 28–30: the final reward"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kaq",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kap",
+          "marks": [],
+          "text": "Raja Ampat is the most biodiverse marine area on earth and the hardest place on this route to reach — which is exactly why it is last. After a month of movement, you finish in the water, off-grid, somewhere most travellers never get to. Everything here is arranged through your homestay or lodge, not platforms."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kar",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kas",
+          "marks": [],
+          "text": "Day 28: Ferry to Waisai and transfer to your base"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kb1",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kat",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "kau",
+          "marks": [],
+          "text": " The ferry from Sorong to Waisai takes about two hours; from there a local boat carries you to your homestay or eco-resort around Gam or Mansuar. "
+        },
+        {
+          "_type": "span",
+          "_key": "kav",
+          "marks": [
+            "strong"
+          ],
+          "text": "On arrival."
+        },
+        {
+          "_type": "span",
+          "_key": "kaw",
+          "marks": [],
+          "text": " Pay the marine park fees: a "
+        },
+        {
+          "_type": "span",
+          "_key": "kax",
+          "marks": [
+            "strong"
+          ],
+          "text": "Marine Park Entry Permit of about Rp 700,000 (valid a year) plus a Rp 300,000 visitor ticket — roughly Rp 1,000,000 / $65 per person"
+        },
+        {
+          "_type": "span",
+          "_key": "kay",
+          "marks": [],
+          "text": ". Keep the physical card; guides check it. "
+        },
+        {
+          "_type": "span",
+          "_key": "kaz",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book ahead:"
+        },
+        {
+          "_type": "span",
+          "_key": "kb0",
+          "marks": [],
+          "text": " your lodge directly, months out — beds are few and the good ones fill fast."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kb2",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kb3",
+          "marks": [],
+          "text": "Days 29–30: Raja Ampat diving, snorkeling and island wilderness"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kba",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kb4",
+          "marks": [
+            "strong"
+          ],
+          "text": "Both days."
+        },
+        {
+          "_type": "span",
+          "_key": "kb5",
+          "marks": [],
+          "text": " Dive or snorkel the home reef and the signature sites your lodge runs — Cape Kri, Manta Sandy in season, the Piaynemo karst viewpoint. Even non-divers get world-class snorkelling straight off the jetties. "
+        },
+        {
+          "_type": "span",
+          "_key": "kb6",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening of Day 30."
+        },
+        {
+          "_type": "span",
+          "_key": "kb7",
+          "marks": [],
+          "text": " A last sunset over the karst before the journey home via Waisai and Sorong. "
+        },
+        {
+          "_type": "span",
+          "_key": "kb8",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reality check:"
+        },
+        {
+          "_type": "span",
+          "_key": "kb9",
+          "marks": [],
+          "text": " weather and tides set the schedule here, not you — build slack, and do not book an onward flight tight against the return ferry."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kbb",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kbc",
+          "marks": [],
+          "text": "Book before you go — and what to leave flexible"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kbm",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "kbg",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        },
+        {
+          "_key": "kbj",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_NUSA_PENIDA_DAY_TRIP"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kbd",
+          "marks": [],
+          "text": "On a route this stacked, a handful of bookings protect the whole trip, while most days can stay loose. "
+        },
+        {
+          "_type": "span",
+          "_key": "kbe",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early and firm:"
+        },
+        {
+          "_type": "span",
+          "_key": "kbf",
+          "marks": [],
+          "text": " all domestic flights; your "
+        },
+        {
+          "_type": "span",
+          "_key": "kbh",
+          "marks": [
+            "kbg"
+          ],
+          "text": "Bali airport transfer"
+        },
+        {
+          "_type": "span",
+          "_key": "kbi",
+          "marks": [],
+          "text": " for a smooth arrival; the "
+        },
+        {
+          "_type": "span",
+          "_key": "kbk",
+          "marks": [
+            "kbj"
+          ],
+          "text": "Komodo park entry"
+        },
+        {
+          "_type": "span",
+          "_key": "kbl",
+          "marks": [],
+          "text": " slot via SiORA; your Raja Ampat lodge; and the Sumatra orangutan guide. These are the legs where waiting costs you the experience."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kc3",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "kbp",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        },
+        {
+          "_key": "kbs",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BROMO_SUNRISE"
+        },
+        {
+          "_key": "kbv",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        },
+        {
+          "_key": "kby",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kbn",
+          "marks": [
+            "strong"
+          ],
+          "text": "Worth booking ahead for ease, not survival:"
+        },
+        {
+          "_type": "span",
+          "_key": "kbo",
+          "marks": [],
+          "text": " the "
+        },
+        {
+          "_type": "span",
+          "_key": "kbq",
+          "marks": [
+            "kbp"
+          ],
+          "text": "Mount Batur jeep sunrise"
+        },
+        {
+          "_type": "span",
+          "_key": "kbr",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_type": "span",
+          "_key": "kbt",
+          "marks": [
+            "kbs"
+          ],
+          "text": "Bromo sunrise tour"
+        },
+        {
+          "_type": "span",
+          "_key": "kbu",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_type": "span",
+          "_key": "kbw",
+          "marks": [
+            "kbv"
+          ],
+          "text": "Uluwatu Kecak dance"
+        },
+        {
+          "_type": "span",
+          "_key": "kbx",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_type": "span",
+          "_key": "kbz",
+          "marks": [
+            "kby"
+          ],
+          "text": "Gili snorkeling tour"
+        },
+        {
+          "_type": "span",
+          "_key": "kc0",
+          "marks": [],
+          "text": ", and inter-island boats. "
+        },
+        {
+          "_type": "span",
+          "_key": "kc1",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leave flexible:"
+        },
+        {
+          "_type": "span",
+          "_key": "kc2",
+          "marks": [],
+          "text": " Ubud's temples, Yogyakarta's city day, slow days in Labuan Bajo and Lake Toba — reshape these around your energy, not a calendar."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kc4",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kc5",
+          "marks": [],
+          "text": "What to cut if you want an easier route"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kcb",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kc6",
+          "marks": [],
+          "text": "This itinerary is honest about being ambitious, so here is how to make it kinder. "
+        },
+        {
+          "_type": "span",
+          "_key": "kc7",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut one rainforest leg:"
+        },
+        {
+          "_type": "span",
+          "_key": "kc8",
+          "marks": [],
+          "text": " dropping Sumatra (Days 21–24) or Sulawesi (Days 25–27) removes the longest overland drives and two domestic flights, and instantly turns a hard trip into a merely full one. "
+        },
+        {
+          "_type": "span",
+          "_key": "kc9",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut Raja Ampat"
+        },
+        {
+          "_type": "span",
+          "_key": "kca",
+          "marks": [],
+          "text": " if your dates or budget are tight — it is the most expensive and weather-exposed leg, and it deserves its own trip rather than a rushed finish."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kcg",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kcc",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut within Bali:"
+        },
+        {
+          "_type": "span",
+          "_key": "kcd",
+          "marks": [],
+          "text": " drop Nusa Penida (Day 5) for a second slow day. "
+        },
+        {
+          "_type": "span",
+          "_key": "kce",
+          "marks": [
+            "strong"
+          ],
+          "text": "The leg to keep:"
+        },
+        {
+          "_type": "span",
+          "_key": "kcf",
+          "marks": [],
+          "text": " if you only protect one demanding region, keep Komodo and Flores — it is the trip's clearest payoff for the effort. A sensible 21-day version of this route is Bali, Java, Komodo and Lombok, saving Sumatra, Sulawesi and Raja Ampat for a return."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kch",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kci",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kcu",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kcj",
+          "marks": [],
+          "text": "The recurring ones: "
+        },
+        {
+          "_type": "span",
+          "_key": "kck",
+          "marks": [
+            "strong"
+          ],
+          "text": "underestimating transfer times"
+        },
+        {
+          "_type": "span",
+          "_key": "kcl",
+          "marks": [],
+          "text": " (Yogyakarta–Bromo, Bukit Lawang–Toba and Makassar–Toraja are all half-day-plus drives, not hops); "
+        },
+        {
+          "_type": "span",
+          "_key": "kcm",
+          "marks": [
+            "strong"
+          ],
+          "text": "stacking a sunrise, a drive and a flight in one day"
+        },
+        {
+          "_type": "span",
+          "_key": "kcn",
+          "marks": [],
+          "text": " (Day 11 is the classic trap); "
+        },
+        {
+          "_type": "span",
+          "_key": "kco",
+          "marks": [
+            "strong"
+          ],
+          "text": "booking Raja Ampat and Sorong flights late"
+        },
+        {
+          "_type": "span",
+          "_key": "kcp",
+          "marks": [],
+          "text": "; "
+        },
+        {
+          "_type": "span",
+          "_key": "kcq",
+          "marks": [
+            "strong"
+          ],
+          "text": "treating the Gili reset as another activity block"
+        },
+        {
+          "_type": "span",
+          "_key": "kcr",
+          "marks": [],
+          "text": "; and "
+        },
+        {
+          "_type": "span",
+          "_key": "kcs",
+          "marks": [
+            "strong"
+          ],
+          "text": "carrying too much luggage"
+        },
+        {
+          "_type": "span",
+          "_key": "kct",
+          "marks": [],
+          "text": " for a trip with this many boats and small planes. Travel light, pad the flight days, and the route holds together."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kcv",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kcw",
+          "marks": [],
+          "text": "Practical logistics"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kd5",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kcx",
+          "marks": [
+            "strong"
+          ],
+          "text": "Flights:"
+        },
+        {
+          "_type": "span",
+          "_key": "kcy",
+          "marks": [],
+          "text": " roughly seven domestic legs — book through Traveloka or the airlines and screenshot your confirmations, as small-airport check-in is offline-prone. "
+        },
+        {
+          "_type": "span",
+          "_key": "kcz",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and boats:"
+        },
+        {
+          "_type": "span",
+          "_key": "kd0",
+          "marks": [],
+          "text": " Sorong–Waisai and the Lombok–Gili–Bali crossings are weather-dependent; never book the onward flight tight against them. "
+        },
+        {
+          "_type": "span",
+          "_key": "kd1",
+          "marks": [
+            "strong"
+          ],
+          "text": "Drivers:"
+        },
+        {
+          "_type": "span",
+          "_key": "kd2",
+          "marks": [],
+          "text": " a private driver (about Rp 700,000–900,000 a day) is the sane choice for spread-out days in Bali, Java, Lombok and Toraja. "
+        },
+        {
+          "_type": "span",
+          "_key": "kd3",
+          "marks": [
+            "strong"
+          ],
+          "text": "Weather:"
+        },
+        {
+          "_type": "span",
+          "_key": "kd4",
+          "marks": [],
+          "text": " April–September is the dry-season window for most of this route; build a buffer day anyway."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kd6",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kd7",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kd9",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kd8",
+          "marks": [],
+          "text": "This is the most Indonesia you can responsibly see in a month, and it is genuinely thrilling — but it is a route that asks something of you. It rewards travellers who want range, who are comfortable with flights and improvised logistics, and who will protect their buffer days. If that is you, few trips on earth deliver this much variety in 30 days."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kdb",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kda",
+          "marks": [],
+          "text": "If you want to unpack and slow down, this is the wrong itinerary, and there is no shame in that — do four regions instead of seven and you will enjoy them more. Either way, treat the route as a system of decisions, not a checklist: book the legs that can't be improvised, stay flexible on the ones that can, and cut without guilt the moment the map outpaces your energy."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kdc",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kdd",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "kdr",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "kdf",
+          "_type": "externalLink",
+          "href": "/trips/21-days-indonesia-beyond-bali",
+          "blank": false
+        },
+        {
+          "_key": "kdi",
+          "_type": "externalLink",
+          "href": "/trips/20-days-across-indonesia",
+          "blank": false
+        },
+        {
+          "_key": "kdl",
+          "_type": "externalLink",
+          "href": "/destinations/bali",
+          "blank": false
+        },
+        {
+          "_key": "kdo",
+          "_type": "externalLink",
+          "href": "/destinations/wild-indonesia",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "kde",
+          "marks": [],
+          "text": "Want the same spirit with less friction? See the "
+        },
+        {
+          "_type": "span",
+          "_key": "kdg",
+          "marks": [
+            "kdf"
+          ],
+          "text": "21-day Indonesia beyond Bali route"
+        },
+        {
+          "_type": "span",
+          "_key": "kdh",
+          "marks": [],
+          "text": " or the "
+        },
+        {
+          "_type": "span",
+          "_key": "kdj",
+          "marks": [
+            "kdi"
+          ],
+          "text": "20-day across-Indonesia itinerary"
+        },
+        {
+          "_type": "span",
+          "_key": "kdk",
+          "marks": [],
+          "text": ". Building toward this trip? Start with the "
+        },
+        {
+          "_type": "span",
+          "_key": "kdm",
+          "marks": [
+            "kdl"
+          ],
+          "text": "Bali destination hub"
+        },
+        {
+          "_type": "span",
+          "_key": "kdn",
+          "marks": [],
+          "text": " and the "
+        },
+        {
+          "_type": "span",
+          "_key": "kdp",
+          "marks": [
+            "kdo"
+          ],
+          "text": "wild Indonesia hub"
+        },
+        {
+          "_type": "span",
+          "_key": "kdq",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "affiliateLinks": [
+    {
+      "_key": "02e709c0bebb",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "day": "Pre-trip",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "priority": "high",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "9cbb9aa86ff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+      "anchorText": "Kecak fire dance at Uluwatu",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "priority": "medium"
+    },
+    {
+      "_key": "c6d4a3e09e91",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "Ubud Monkey Forest, rice terrace and waterfall tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "priority": "medium"
+    },
+    {
+      "_key": "32c45c1cd55a",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
+      "anchorText": "Balinese cooking class in Ubud",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+      "priority": "medium"
+    },
+    {
+      "_key": "10af520f5556",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "private airport transfer from Bali to Ubud",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "priority": "medium"
+    },
+    {
+      "_key": "f5c701337b90",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+      "anchorText": "Mount Batur sunrise jeep experience",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+      "priority": "medium"
+    },
+    {
+      "_key": "dc034915a165",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
+      "anchorText": "private transfer Ubud to Uluwatu",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
+      "priority": "medium"
+    },
+    {
+      "_key": "ad005cdf0944",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Banyuwangi to Bali ferry",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_BANYUWANGI_BALI",
+      "priority": "medium"
+    },
+    {
+      "_key": "db12541a022f",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Gili Trawangan to Bali boat",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "priority": "medium"
+    },
+    {
+      "_key": "0342f857de66",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip",
+      "anchorText": "private Nusa Penida day trip from Bali",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_NUSA_PENIDA_DAY_TRIP",
+      "priority": "medium"
+    },
+    {
+      "_key": "c1ee7c721b24",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "fast boat from Sanur to Nusa Penida",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_SANUR_NUSA_PENIDA",
+      "priority": "medium"
+    },
+    {
+      "_key": "59446bc90520",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=MountBromo",
+      "anchorText": "Mount Bromo sunrise tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_BROMO_SUNRISE",
+      "priority": "medium"
+    },
+    {
+      "_key": "cf41d70fe8af",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6?pid=P00303362&mcid=42383&medium=link&campaign=LombokairtportransfertoKutaLombok",
+      "anchorText": "private airport transfer to Kuta Lombok",
+      "day": "Day 15",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER",
+      "priority": "high"
+    },
+    {
+      "_key": "0b39ac5b76cb",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour",
+      "anchorText": "South Lombok beach tour",
+      "day": "Day 16",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR",
+      "priority": "high"
+    },
+    {
+      "_key": "4434930778df",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F",
+      "anchorText": "beginner surf lesson at Selong Belanak",
+      "day": "Day 16",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK",
+      "priority": "medium"
+    },
+    {
+      "_key": "299214fa9e2f",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7?pid=P00303362&mcid=42383&medium=link&campaign=SenaruwaterfallstourSendangGileTiuKelep",
+      "anchorText": "Sendang Gile and Tiu Kelep waterfalls day trip",
+      "day": "Day 17",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_SENARU_WATERFALLS",
+      "priority": "high"
+    },
+    {
+      "_key": "232d0b869c7d",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "anchorText": "fast boat from Lombok to Gili Trawangan",
+      "day": "Day 18",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_LOMBOK_GILI_BOAT",
+      "priority": "high"
+    },
+    {
+      "_key": "d0790658a7bf",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "anchorText": "3-island Gili snorkeling tour with turtles",
+      "day": "Day 19",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "priority": "high"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Ultimate Indonesia journey — Bali, Java volcanoes, Komodo, Lombok, Sumatra and Raja Ampat",
+    "asset": {
+      "_ref": "image-325ae30e9b0c9a0bedc41f78da366a80918ec89d-8130x5338-jpg",
+      "_type": "reference"
+    },
+    "caption": "Ubud → Uluwatu → Yogyakarta → Bromo → Labuan Bajo → Flores → Lombok → Gili Trawangan → Sumatra → Sulawesi → Raja Ampat"
+  },
+  "footerBanners": [],
+  "author": {
+    "_type": "reference",
+    "_ref": "author-editorial-team"
+  },
+  "articleCreatedDate": "2026-06-12T16:00:00.000Z"
+}
