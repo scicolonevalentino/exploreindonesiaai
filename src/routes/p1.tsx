@@ -22,11 +22,14 @@ import {
 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
+import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
+import { countGenerationsToday, logGeneration } from "@/lib/supabase/generations";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 import { useUser } from "@/lib/supabase/useUser";
 import { saveTrip } from "@/lib/supabase/trips";
 import { flushPendingProfile } from "@/lib/supabase/profile";
 import { AuthSaveModal } from "@/components/AuthSaveModal";
+import { GenerationLimitModal } from "@/components/GenerationLimitModal";
 import { AuthStatus } from "@/components/AuthStatus";
 import { toast } from "sonner";
 
@@ -152,6 +155,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   const [matching, setMatching] = useState(false);
   const [insights, setInsights] = useState<Insight[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [limitOpen, setLimitOpen] = useState(false);
   const { user, loading: userLoading } = useUser();
   const restoredRef = useRef(false);
   const rootRef = useRef<HTMLDivElement>(null);
@@ -207,6 +211,22 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   }, [userLoading, user]);
 
   async function buildTrip() {
+    // Signed-in users get a daily free-generation cap — a Pro-demand sensor,
+    // not a hard wall (signed-out stays unlimited; the check is client-side and
+    // fails open). At the cap, surface the Pro early-access modal instead of
+    // building, and emit the passive signal.
+    if (user) {
+      const usedToday = await countGenerationsToday();
+      if (usedToday >= DAILY_GENERATION_LIMIT) {
+        trackEvent("generation_limit_reached", {
+          used_today: usedToday,
+          daily_limit: DAILY_GENERATION_LIMIT,
+        });
+        setLimitOpen(true);
+        return;
+      }
+    }
+
     setError(null);
     setStage("building");
     setTrip(null);
@@ -285,6 +305,9 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         throw new Error("Couldn't build your trip right now — please try again.");
       }
       trackEvent("trip_generated", { days: meta.days, items: collected.length });
+      // Count this completed build against the signed-in user's daily allowance
+      // (no-op when signed out). Best-effort — never blocks the flow.
+      if (user) void logGeneration();
 
       // Phase 2: resolve affiliate matches while the user reads the plan.
       const matchRes = await fetch("/api/public/match-trip", {
@@ -337,6 +360,11 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
           onEdit={() => setStage("input")}
         />
       )}
+      <GenerationLimitModal
+        open={limitOpen}
+        onOpenChange={setLimitOpen}
+        limit={DAILY_GENERATION_LIMIT}
+      />
     </div>
   );
 }
