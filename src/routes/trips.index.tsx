@@ -48,7 +48,7 @@ export const Route = createFileRoute("/trips/")({
   loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
   head: () => ({
     meta: [
-      { title: "Explore all Indonesia trips — ExploreIndonesia.ai" },
+      { title: "Explore all Indonesia trips, ExploreIndonesia.ai" },
       {
         name: "description",
         content:

@@ -23,7 +23,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/account")({
   head: () => ({
     meta: [
-      { title: "My account — ExploreIndonesia.ai" },
+      { title: "My account, ExploreIndonesia.ai" },
       { name: "robots", content: "noindex, nofollow" },
     ],
   }),
@@ -76,7 +76,7 @@ function AccountPage() {
       toast.success("Your account and all your data have been deleted.");
       navigate({ to: "/" });
     } catch {
-      toast.error("Couldn't delete your account — please try again or contact us.");
+      toast.error("Couldn't delete your account, please try again or contact us.");
       setDeleting(false);
     }
   }
@@ -141,7 +141,7 @@ function AccountPage() {
           <div className="mt-4 rounded-2xl bg-white p-6 shadow-sm">
             <p className="text-sm text-muted-foreground">
               No saved trips yet. Build one in the planner and hit{" "}
-              <strong>Save &amp; Download</strong> — it'll appear here.
+              <strong>Save &amp; Download</strong>, it'll appear here.
             </p>
           </div>
         ) : (

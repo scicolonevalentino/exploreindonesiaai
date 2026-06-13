@@ -10,7 +10,7 @@ export const Route = createFileRoute("/login")({
     typeof search.next === "string" ? { next: search.next } : {},
   head: () => ({
     meta: [
-      { title: "Log in or sign up — ExploreIndonesia.ai" },
+      { title: "Log in or sign up, ExploreIndonesia.ai" },
       // Private page — keep it out of search engines.
       { name: "robots", content: "noindex, nofollow" },
     ],
@@ -38,7 +38,7 @@ function LoginPage() {
     });
     if (error) {
       setBusy(null);
-      toast.error("Google sign-in didn't start — please try again.");
+      toast.error("Google sign-in didn't start, please try again.");
     }
   }
 
@@ -87,8 +87,8 @@ function LoginPage() {
           >
             <p className="font-medium">Check your inbox 📩</p>
             <p className="mt-1 text-muted-foreground">
-              We sent a secure link to <strong>{email}</strong>. Open it on this device to continue
-              — that click confirms your email address.
+              We sent a secure link to <strong>{email}</strong>. Open it on this device to continue.
+              That click confirms your email address.
             </p>
             <button
               onClick={() => setSent(false)}

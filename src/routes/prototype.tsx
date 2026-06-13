@@ -23,14 +23,14 @@ import {
 export const Route = createFileRoute("/prototype")({
   head: () => ({
     meta: [
-      { title: "Interactive Prototype — exploreindonesia.ai" },
+      { title: "Interactive Prototype, exploreindonesia.ai" },
       {
         name: "description",
         content:
           "Try the exploreindonesia.ai interactive prototype: paste an Indonesia itinerary and see how we turn it into a bookable, day-by-day trip.",
       },
       { name: "robots", content: "noindex,follow" },
-      { property: "og:title", content: "exploreindonesia.ai — interactive prototype" },
+      { property: "og:title", content: "exploreindonesia.ai, interactive prototype" },
       { property: "og:description", content: "Try the prototype and send us feedback." },
     ],
   }),
@@ -442,7 +442,7 @@ export function InputStage({
     onStart();
   };
 
-  // "Don't have an itinerary yet?" CTA — fires the GA4 signal that this visitor
+  // "Don't have an itinerary yet?" CTA, fires the GA4 signal that this visitor
   // arrived WITHOUT a plan (the complement of assemble_trip_click), then
   // smooth-scrolls to the homepage's "Browse curated Indonesia itineraries"
   // section. Only rendered in the embedded (homepage) variant, where #inspiration
@@ -506,7 +506,7 @@ export function InputStage({
                 {!mounted
                   ? ""
                   : canSubmit
-                    ? "Looks good — ready to assemble."
+                    ? "Looks good, ready to assemble."
                     : `${remaining} more character${remaining === 1 ? "" : "s"} to go (${trimmedLength}/${minLength}).`}
               </p>
               <button
@@ -525,7 +525,7 @@ export function InputStage({
             </div>
           </div>
 
-          {/* "Don't have an itinerary yet?" — anchors down to the curated
+          {/* "Don't have an itinerary yet?", anchors down to the curated
               itineraries section and signals has_itinerary=FALSE to GA4. */}
           <div
             className="flex items-center gap-4 mt-7"
@@ -929,7 +929,7 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         )}
       </section>
 
-      {/* Anchored price bar — sticks to the bottom of the viewport so the total
+      {/* Anchored price bar, sticks to the bottom of the viewport so the total
           stays in view and updates instantly as items are toggled. */}
       {totals.count > 0 && (
         <div

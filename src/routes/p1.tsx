@@ -15,6 +15,7 @@ import {
   Footprints,
   Info,
   Lightbulb,
+  Lock,
   Ship,
   Sparkles,
   Wifi,
@@ -40,7 +41,7 @@ const PENDING_TRIP_KEY = "ei:pendingTrip";
 export const Route = createFileRoute("/p1")({
   head: () => ({
     meta: [
-      { title: "Build your Indonesia trip — exploreindonesia.ai" },
+      { title: "Build your Indonesia trip, exploreindonesia.ai" },
       {
         name: "description",
         content:
@@ -200,10 +201,10 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         prompt: stash.prompt ?? "",
       })
         .then(() => {
-          toast.success("Saved to your trips ✓ — your download is starting.");
+          toast.success("Saved to your trips ✓, your download is starting.");
           downloadItineraryPdf(stash.trip, new Set(stash.added ?? []), stash.insights ?? []);
         })
-        .catch(() => toast.error("Couldn't save automatically — hit Save & Download again."));
+        .catch(() => toast.error("Couldn't save automatically, hit Save & Download again."));
     } catch {
       // Corrupt stash — drop it silently.
     }
@@ -251,7 +252,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         const data = (await res.json().catch(() => ({}))) as { error?: string };
         throw new Error(
           data.error === "generation_failed"
-            ? "Couldn't build your trip right now — please try again."
+            ? "Couldn't build your trip right now, please try again."
             : (data.error ?? "Something went wrong"),
         );
       }
@@ -302,7 +303,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       }
 
       if (streamError || collected.length === 0) {
-        throw new Error("Couldn't build your trip right now — please try again.");
+        throw new Error("Couldn't build your trip right now, please try again.");
       }
       trackEvent("trip_generated", { days: meta.days, items: collected.length });
       // Count this completed build against the signed-in user's daily allowance
@@ -327,7 +328,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
               ? {
                   ...it,
                   matchStatus: "no_match",
-                  noMatchReason: "Matching unavailable — try again later",
+                  noMatchReason: "Matching unavailable, try again later",
                 }
               : it,
           ),
@@ -440,7 +441,7 @@ function InputStage({
           />
           <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
             <p className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]">
-              {error ?? (canSubmit ? "Looks good — ready to assemble." : "")}
+              {error ?? (canSubmit ? "Looks good, ready to assemble." : "")}
             </p>
             <button
               type="button"
@@ -477,7 +478,7 @@ const PROGRESS_MSGS = [
   "Grouping activities into days…",
   "Checking routes, timing and geography…",
   "Writing your day-by-day plan…",
-  "Almost there — polishing the details…",
+  "Almost there, polishing the details…",
 ];
 
 function BuildingStage() {
@@ -693,10 +694,10 @@ function TripStage({
     setSaving(true);
     try {
       await saveTrip({ trip, insights, added, prompt });
-      toast.success("Saved to your trips ✓ — your download is starting.");
+      toast.success("Saved to your trips ✓, your download is starting.");
     } catch {
       // The PDF is still worth having even if the save hiccups.
-      toast.error("Couldn't save to your account — downloading anyway.");
+      toast.error("Couldn't save to your account, downloading anyway.");
     } finally {
       setSaving(false);
     }
@@ -779,11 +780,13 @@ function TripStage({
         </div>
       </section>
 
-      {/* Inline totals + CTA — prototype layout, Download instead of Review & book */}
+      {/* Inline totals + CTA. While prices are still resolving (matching) the bar is
+          LOCKED: the estimated total isn't final yet and the PDF would be incomplete,
+          so Save & Download stays disabled until matching finishes. */}
       <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
         <div
-          className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4"
-          style={{ borderColor: "var(--border-cream)" }}
+          className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4 transition-opacity"
+          style={{ borderColor: "var(--border-cream)", opacity: matching ? 0.8 : 1 }}
         >
           <div className="text-sm">
             <span className="font-semibold">{totals.count} experiences added</span>
@@ -795,14 +798,34 @@ function TripStage({
             >
               ${totals.total}
             </span>
+            {matching && (
+              <span className="ml-3 text-xs text-[var(--slate-muted)] inline-flex items-center gap-1.5">
+                <span
+                  className="inline-block w-1.5 h-1.5 rounded-full animate-pulse"
+                  style={{ backgroundColor: "var(--teal-link)" }}
+                  aria-hidden
+                />
+                still updating
+              </span>
+            )}
           </div>
           <button
             type="button"
             onClick={saveAndDownload}
-            disabled={userLoading || saving}
-            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors disabled:opacity-60"
+            disabled={userLoading || saving || matching}
+            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            {saving ? "Saving…" : "Save & Download"} <span aria-hidden>↓</span>
+            {matching ? (
+              <>
+                <Lock className="w-4 h-4" aria-hidden /> Finalizing prices…
+              </>
+            ) : saving ? (
+              "Saving…"
+            ) : (
+              <>
+                Save &amp; Download <span aria-hidden>↓</span>
+              </>
+            )}
           </button>
         </div>
       </div>

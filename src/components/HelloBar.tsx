@@ -5,13 +5,13 @@ export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const { user, loading } = useUser();
 
-  // The prototype page has its own dedicated feedback bar — hide the global one
+  // The prototype page has its own dedicated feedback bar, hide the global one
   // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
   // waitlist bar makes no sense where the user is already using the product.
   if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
 
   // On the product homepage the bar CTA sends visitors to the live builder
-  // (#try-it) instead of the waitlist — same action as "Assemble my trip".
+  // (#try-it) instead of the waitlist, same action as "Assemble my trip".
   // Both "/" (post-launch swap) and "/p1-home" embed the live builder.
   const isProductHome = pathname === "/" || pathname === "/p1-home";
   const targetId = isProductHome ? "try-it" : "early-access";
@@ -50,8 +50,8 @@ export function HelloBar() {
             onClick={handleCta}
             aria-label={
               isProductHome
-                ? "Assemble my trip — jump to the trip builder"
-                : "Get early access — jump to the waitlist signup"
+                ? "Assemble my trip, jump to the trip builder"
+                : "Get early access, jump to the waitlist signup"
             }
             className="ml-1 inline-flex items-center gap-1 font-bold text-white bg-white/15 hover:bg-black hover:text-white focus-visible:bg-black focus-visible:text-white transition-colors px-3 py-1 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
           >

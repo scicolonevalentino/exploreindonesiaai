@@ -3,13 +3,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — ExploreIndonesia.ai" },
+      { title: "Privacy Policy, ExploreIndonesia.ai" },
       {
         name: "description",
         content:
           "How ExploreIndonesia.ai collects, uses, and protects your data. Cookies, analytics, email signups, and your rights.",
       },
-      { property: "og:title", content: "Privacy Policy — ExploreIndonesia.ai" },
+      { property: "og:title", content: "Privacy Policy, ExploreIndonesia.ai" },
       { property: "og:url", content: "https://exploreindonesia.ai/privacy" },
     ],
     links: [{ rel: "canonical", href: "https://exploreindonesia.ai/privacy" }],

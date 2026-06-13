@@ -83,7 +83,7 @@ function EmailCapture() {
       setStatus("done");
       toast.success(
         result?.alreadySubscribed
-          ? "You're already on the list — we'll keep you posted."
+          ? "You're already on the list, we'll keep you posted."
           : "You're on the list! Check your inbox soon.",
       );
     } catch (err) {
@@ -200,7 +200,7 @@ function EmailCapture() {
             aria-live="polite"
             className="mt-5 text-sm text-emerald-300"
           >
-            🎉 Thanks! You're on the list — we'll email you as soon as early access opens.
+            🎉 Thanks! You're on the list, we'll email you as soon as early access opens.
           </p>
         ) : (
           <p

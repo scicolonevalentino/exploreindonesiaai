@@ -1,7 +1,7 @@
 // POST /api/public/build-trip
 //
 // Phase 1 of the trip build: STREAM a structured itinerary as it's generated.
-// The response is Server-Sent Events — a `meta` line, then one `item` line per
+// The response is Server-Sent Events, a `meta` line, then one `item` line per
 // itinerary item as the model writes them, then `insights` and `done`. The
 // frontend renders days as they arrive (no long blank wait). The frontend then
 // calls /api/public/match-trip to fill in affiliate products + prices.
@@ -13,7 +13,7 @@ import { streamTripParts, type TripMeta } from "@/lib/trip/generate.server";
 import { selectInsights } from "@/lib/trip/insights";
 
 // Best-effort per-instance rate limit (same approach as waitlist.functions.ts).
-// Generation is the expensive call — keep abuse cheap to deflect.
+// Generation is the expensive call, keep abuse cheap to deflect.
 const RATE_LIMIT = new Map<string, number[]>();
 const WINDOW_MS = 60_000;
 const MAX_PER_WINDOW = 3;
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/api/public/build-trip")({
       POST: async ({ request }) => {
         const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
         if (rateLimited(ip)) {
-          return json({ error: "Too many requests — try again in a minute." }, 429);
+          return json({ error: "Too many requests, try again in a minute." }, 429);
         }
 
         let prefs;
@@ -60,7 +60,7 @@ export const Route = createFileRoute("/api/public/build-trip")({
         if (!hasAnyInput) {
           return json(
             {
-              error: "Tell us something about your trip — describe it or paste an itinerary.",
+              error: "Tell us something about your trip, describe it or paste an itinerary.",
             },
             400,
           );
@@ -84,7 +84,7 @@ export const Route = createFileRoute("/api/public/build-trip")({
                   send({ type: "item", item: part.item });
                 }
               }
-              // Local Insights come from the curated static library — instant
+              // Local Insights come from the curated static library, instant
               // and free; never let a lookup hiccup fail the build.
               let insights: ReturnType<typeof selectInsights> = [];
               try {

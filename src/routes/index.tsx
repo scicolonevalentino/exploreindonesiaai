@@ -17,7 +17,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 
 // Hero background videos are self-hosted from public/ (served at the site root).
 // Previously these came from Lovable's /__l5e asset runtime, but after the
-// Vercel cutover that path looped back on itself — see public/hero-bg-*.mp4.
+// Vercel cutover that path looped back on itself, see public/hero-bg-*.mp4.
 const HERO_VIDEO_DESKTOP = "/hero-bg-desktop.mp4";
 const HERO_VIDEO_MOBILE = "/hero-bg-mobile.mp4";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
@@ -49,7 +49,7 @@ const articlesQO = queryOptions({
       throw err;
     }
   },
-  // Considered fresh for 5 minutes — most home-page revisits skip the network entirely.
+  // Considered fresh for 5 minutes, most home-page revisits skip the network entirely.
   staleTime: 5 * 60_000,
   // Keep in memory for an hour so back-navigation is instant.
   gcTime: 60 * 60_000,
@@ -64,13 +64,13 @@ const articlesQO = queryOptions({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "exploreindonesia.ai — Turn your Indonesia itinerary into a bookable trip" },
+      { title: "exploreindonesia.ai, Turn your Indonesia itinerary into a bookable trip" },
       {
         name: "description",
         content:
           "Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.",
       },
-      { property: "og:title", content: "exploreindonesia.ai — Indonesia AI Trip Planner" },
+      { property: "og:title", content: "exploreindonesia.ai, Indonesia AI Trip Planner" },
       {
         property: "og:description",
         content: "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
@@ -93,7 +93,7 @@ export function Hero() {
         background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
-      {/* Background video — muted, looping, decorative. Lighter treatment so
+      {/* Background video, muted, looping, decorative. Lighter treatment so
           the footage feels present without overpowering the headline. */}
       <video
         key={videoSrc}
@@ -324,7 +324,7 @@ type WindowWithAnalytics = {
   dataLayer?: Array<Record<string, unknown>>;
 };
 
-// GA4 measurement ID — must match the gtag('config', ...) call in __root.tsx.
+// GA4 measurement ID, must match the gtag('config', ...) call in __root.tsx.
 // Using `send_to` pins the event to this stream so GTM-side GA4 tags don't
 // re-forward it and cause double counting.
 const GA4_MEASUREMENT_ID = "G-ZNEKVH2ETY";
@@ -455,7 +455,7 @@ function InspirationCard({
       onKeyDown={handleKeyDown}
       data-inspiration-card="true"
       role="listitem"
-      aria-label={`${title}${duration ? ` — ${duration}` : ""}${traveller ? `, for ${traveller}` : ""}. Card ${position + 1} of ${totalCards}.`}
+      aria-label={`${title}${duration ? `, ${duration}` : ""}${traveller ? `, for ${traveller}` : ""}. Card ${position + 1} of ${totalCards}.`}
       className="group relative block w-[260px] sm:w-[300px] shrink-0 snap-start rounded-2xl overflow-hidden border bg-white transition-all duration-300 ease-out hover:shadow-xl hover:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 cursor-pointer"
       style={{
         borderColor: "var(--border-cream)",
@@ -591,7 +591,7 @@ class InspirationBoundary extends Component<
     return { hasError: true };
   }
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error("[Inspiration] fetch failed after retries — using fallback UI", {
+    console.error("[Inspiration] fetch failed after retries, using fallback UI", {
       fallbackPath: "InspirationFallback (error boundary)",
       message: error.message,
       stack: error.stack,
@@ -639,12 +639,12 @@ function InspirationMarquee() {
   useMarqueeDrag(trackRef, { step: 240 });
 
   if (!articles || articles.length === 0) {
-    console.warn("[Inspiration] Sanity returned no articles — using empty fallback", {
+    console.warn("[Inspiration] Sanity returned no articles, using empty fallback", {
       fallbackPath: "InspirationFallback (empty result)",
       count: articles?.length ?? 0,
     });
     return (
-      <InspirationFallback message="New itineraries are being prepared. Check back soon — or explore everything we already have." />
+      <InspirationFallback message="New itineraries are being prepared. Check back soon, or explore everything we already have." />
     );
   }
 
@@ -656,7 +656,7 @@ function InspirationMarquee() {
       {fewerThanExpected && (
         <div className="mx-auto max-w-6xl px-6 mb-6 text-center">
           <p className="text-xs" style={{ color: "var(--slate-muted)" }}>
-            Showing {articles.length} of our newest trips — more on the way.
+            Showing {articles.length} of our newest trips, more on the way.
           </p>
         </div>
       )}

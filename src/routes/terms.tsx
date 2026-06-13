@@ -3,13 +3,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Terms of Service — ExploreIndonesia.ai" },
+      { title: "Terms of Service, ExploreIndonesia.ai" },
       {
         name: "description",
         content:
-          "The terms that apply when you use ExploreIndonesia.ai — itinerary content, affiliate bookings, and limits of liability.",
+          "The terms that apply when you use ExploreIndonesia.ai, itinerary content, affiliate bookings, and limits of liability.",
       },
-      { property: "og:title", content: "Terms of Service — ExploreIndonesia.ai" },
+      { property: "og:title", content: "Terms of Service, ExploreIndonesia.ai" },
       { property: "og:url", content: "https://exploreindonesia.ai/terms" },
     ],
     links: [{ rel: "canonical", href: "https://exploreindonesia.ai/terms" }],

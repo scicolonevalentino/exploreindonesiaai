@@ -72,7 +72,7 @@ export function AuthSaveModal({
     });
     if (error) {
       setBusy(null);
-      toast.error("Google sign-in didn't start — please try again.");
+      toast.error("Google sign-in didn't start, please try again.");
     }
     // On success the browser navigates away; no further state needed.
   };
@@ -114,7 +114,7 @@ export function AuthSaveModal({
                 Check your inbox 📩
               </DialogTitle>
               <DialogDescription>
-                We sent a secure link to <strong>{email}</strong>. Open it on this device — your
+                We sent a secure link to <strong>{email}</strong>. Open it on this device, your
                 itinerary will be saved and the download will start automatically.
               </DialogDescription>
             </DialogHeader>

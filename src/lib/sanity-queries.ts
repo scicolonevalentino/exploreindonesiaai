@@ -95,10 +95,10 @@ export const DESTINATIONS = [
 ] as const;
 
 export const TRIP_LENGTHS = [
-  { value: "short_escape", label: "Short escape (3–5 days)" },
-  { value: "one_week", label: "One week (6–8 days)" },
-  { value: "ten_days", label: "10 days (9–11 days)" },
-  { value: "two_weeks", label: "Two weeks (12–16 days)" },
+  { value: "short_escape", label: "Short escape (3-5 days)" },
+  { value: "one_week", label: "One week (6-8 days)" },
+  { value: "ten_days", label: "10 days (9-11 days)" },
+  { value: "two_weeks", label: "Two weeks (12-16 days)" },
   { value: "three_weeks_plus", label: "Three weeks+ (17+ days)" },
 ] as const;
 

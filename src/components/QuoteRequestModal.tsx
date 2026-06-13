@@ -1,4 +1,4 @@
-// "Get this trip arranged for you" — the quote-request popup on each saved-trip
+// "Get this trip arranged for you", the quote-request popup on each saved-trip
 // card. Reuses the existing contact pipeline (sendContactMessage → Brevo →
 // founder's inbox, reply-to = the user). The saved trip's title + original
 // prompt are folded into the message so each lead arrives with its brief.
@@ -65,8 +65,8 @@ export function QuoteRequestModal({
 
     // Fold the trip context into the message so the founder gets the brief.
     const message =
-      `QUOTE REQUEST — saved trip: "${trip.title}"${days ? ` (${days} days)` : ""}\n` +
-      `Original idea: ${trip.prompt || "—"}\n\n` +
+      `QUOTE REQUEST, saved trip: "${trip.title}"${days ? ` (${days} days)` : ""}\n` +
+      `Original idea: ${trip.prompt || "(none)"}\n\n` +
       `What they'd like help with:\n${notes.trim()}`;
 
     setStatus("loading");
@@ -83,14 +83,14 @@ export function QuoteRequestModal({
       });
       setStatus("done");
       trackEvent("quote_request_submit", { trip_id: trip.id, title: trip.title });
-      toast.success("Request sent — we'll be in touch by email.");
+      toast.success("Request sent, we'll be in touch by email.");
     } catch (err) {
       setStatus("error");
       const raw = err instanceof Error ? err.message : "";
       setErrorMsg(
         /too many/i.test(raw)
-          ? "Too many requests — please try again in a minute."
-          : "Couldn't send your request — please try again.",
+          ? "Too many requests, please try again in a minute."
+          : "Couldn't send your request, please try again.",
       );
     }
   }
@@ -127,7 +127,7 @@ export function QuoteRequestModal({
             </DialogHeader>
 
             <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3 pt-1">
-              {/* Honeypot — hidden from humans */}
+              {/* Honeypot, hidden from humans */}
               <div
                 aria-hidden="true"
                 style={{

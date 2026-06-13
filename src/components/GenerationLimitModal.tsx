@@ -37,6 +37,14 @@ export function GenerationLimitModal({
     setRaised(true);
   };
 
+  // Dismissing ("I'll come back tomorrow") is its own signal — people who hit the
+  // wall but DON'T want Pro yet. The ratio of this vs pro_interest_click tells us
+  // how strong the upgrade pull is.
+  const dismissTomorrow = () => {
+    trackEvent("come_back_tomorrow_click", { source: "generation_limit", daily_limit: limit });
+    onOpenChange(false);
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-md" style={{ backgroundColor: "var(--cream)" }}>
@@ -46,8 +54,8 @@ export function GenerationLimitModal({
               You're on the list 🎉
             </DialogTitle>
             <DialogDescription>
-              We'll email you the moment Pro opens — unlimited trips and the power to edit and
-              refine any itinerary. Thanks for helping shape it. Your free trips refresh tomorrow.
+              We'll email you the moment Pro opens, unlimited trips and the power to edit and refine
+              any itinerary. Thanks for helping shape it. Your free trips refresh tomorrow.
             </DialogDescription>
           </DialogHeader>
         ) : (
@@ -57,7 +65,7 @@ export function GenerationLimitModal({
                 You've reached today's free limit
               </DialogTitle>
               <DialogDescription>
-                You've built {limit} trips today — you're clearly planning something good. Your free
+                You've built {limit} trips today, you're clearly planning something good. Your free
                 trips refresh tomorrow.
               </DialogDescription>
             </DialogHeader>
@@ -74,7 +82,7 @@ export function GenerationLimitModal({
               </p>
               <p className="text-sm" style={{ color: "var(--navy-deep)" }}>
                 Want to keep planning now? Pro gives you unlimited trips, the power to edit and
-                refine any itinerary, and a premium PDF. We're opening early access — be first in
+                refine any itinerary, and a premium PDF. We're opening early access, be first in
                 line.
               </p>
             </div>
@@ -90,7 +98,7 @@ export function GenerationLimitModal({
               </button>
               <button
                 type="button"
-                onClick={() => onOpenChange(false)}
+                onClick={dismissTomorrow}
                 className="text-sm font-medium self-center py-1"
                 style={{ color: "var(--slate-muted)" }}
               >

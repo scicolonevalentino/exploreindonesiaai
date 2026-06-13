@@ -49,7 +49,7 @@ describe("SiteFooter", () => {
   it("renders the contact/support button", () => {
     renderWithClient(<SiteFooter />);
     expect(
-      screen.getByRole("button", { name: /support the project — contact us/i }),
+      screen.getByRole("button", { name: /support the project, contact us/i }),
     ).toBeInTheDocument();
   });
 

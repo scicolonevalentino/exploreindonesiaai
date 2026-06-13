@@ -2,12 +2,12 @@
 //
 // Streams the itinerary as newline-delimited JSON (NDJSON): a `meta` header line
 // followed by one `item` line each. Streaming + NDJSON lets the frontend render
-// days as they arrive (no 50s blank wait) and is robust to truncation — a cut-off
+// days as they arrive (no 50s blank wait) and is robust to truncation, a cut-off
 // last line is just skipped instead of failing the whole parse.
 //
 // The model's only job is structure: days, items, categories, and a precise
 // searchQuery per bookable item. It must NOT produce product IDs, prices, or
-// links — match.server.ts owns those.
+// links, match.server.ts owns those.
 
 import {
   ALWAYS_INFORMATIONAL,
@@ -28,7 +28,7 @@ You receive a freeform user prompt (their trip idea, preferences, or a pasted it
 - If only preferences or a rough idea are given, design a realistic itinerary yourself that fits them.
 - If almost nothing is provided, propose a classic first-timer route (e.g. Bali + one island hop) and say so in the summary.
 
-OUTPUT FORMAT — newline-delimited JSON (NDJSON), nothing else. No markdown, no code fences, no array brackets, no commas between lines, no prose.
+OUTPUT FORMAT, newline-delimited JSON (NDJSON), nothing else. No markdown, no code fences, no array brackets, no commas between lines, no prose.
 The FIRST line is the trip header:
 {"kind":"meta","title":string,"summary":string,"days":number}
 Then ONE line per itinerary item, each a complete JSON object on its own line, in day order (day 1 first):
@@ -36,7 +36,7 @@ Then ONE line per itinerary item, each a complete JSON object on its own line, i
 
 Time-of-day structure:
 - "time" MUST be one of "Morning", "Afternoon", "Evening", or "Full day".
-- Build each day around these slots — typically Morning, Afternoon, often Evening (dinner area, sunset spot, night market).
+- Build each day around these slots, typically Morning, Afternoon, often Evening (dinner area, sunset spot, night market).
 - If an activity fills the whole day (full-day tour, long trek, island day-trip), use "Full day" and do NOT also add Morning/Afternoon items that day.
 - Emit items within a day in order: Full day first if present, otherwise Morning -> Afternoon -> Evening.
 
@@ -53,8 +53,9 @@ Rules:
 - Include exactly one "esim" item on day 1 (time "Morning").
 - Ferries only between routes that actually exist; for remote crossings prefer informational guidance.
 - searchQuery: a precise English partner-marketplace search phrase for the exact product (e.g. "Mount Batur sunrise trekking tour"). Never include dates or party size.
-- Never output product IDs, prices, or URLs. Do NOT generate local-quirk "tip" insights — those are added separately.
-- Descriptions: 1-2 concrete sentences. Realistic timing, travel times, and geography (don't zigzag between regions).`;
+- Never output product IDs, prices, or URLs. Do NOT generate local-quirk "tip" insights, those are added separately.
+- Descriptions: 1-2 concrete sentences. Realistic timing, travel times, and geography (don't zigzag between regions).
+- House style: NEVER use em dashes or en dashes (the "—" or "–" characters) in title, summary, or description. Use commas, or split into short sentences, instead.`;
 
 // Parse one NDJSON line into a TripPart, or null to skip (fences, blanks, a
 // truncated final line, or an item that fails validation).

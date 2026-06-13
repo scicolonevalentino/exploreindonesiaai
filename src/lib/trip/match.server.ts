@@ -1,6 +1,6 @@
 // Deterministic affiliate matcher. Server-only.
 //
-// The LLM never invents product IDs, prices, or links — it only emits a good
+// The LLM never invents product IDs, prices, or links, it only emits a good
 // searchQuery per item. This module routes each bookable item through the
 // category's partner chain (types.ts PARTNER_ROUTING) and builds the deep link
 // from env-configured affiliate IDs.
@@ -10,7 +10,7 @@ import { buildDeepLink, PARTNER_SEARCH } from "@/lib/trip/affiliates.server";
 import { resolveImage } from "@/lib/trip/images.server";
 
 export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
-  // Hard rules first — these categories never get a booking link.
+  // Hard rules first, these categories never get a booking link.
   if (ALWAYS_INFORMATIONAL.has(item.category) || item.type === "informational") {
     return {
       ...item,
@@ -35,7 +35,7 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
     // Prefer the partner-provided URL (Viator productUrl, Travelpayouts smart
     // links); fall back to constructing one from the affiliate ID.
     const deepLink = product.deepLink ?? buildDeepLink(partner, product.productId);
-    if (!deepLink) continue; // no usable link — try next partner
+    if (!deepLink) continue; // no usable link, try next partner
     return {
       ...item,
       partner,
@@ -58,7 +58,7 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
     noMatchReason:
       item.category === "ferry_transport"
         ? "arrange locally"
-        : "No bookable product found — search the partner site directly",
+        : "No bookable product found, search the partner site directly",
   };
 }
 
@@ -72,7 +72,7 @@ export async function matchItems(items: ItineraryItem[]): Promise<ItineraryItem[
       : {
           ...items[i],
           matchStatus: "no_match" as const,
-          noMatchReason: "Matching failed — try again",
+          noMatchReason: "Matching failed, try again",
         },
   );
 }

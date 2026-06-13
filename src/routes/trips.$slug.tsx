@@ -216,7 +216,7 @@ export const Route = createFileRoute("/trips/$slug")({
     const description = a.metaDescription;
     return {
       meta: [
-        { title: a.metaTitle || `${a.title} — ExploreIndonesia.ai` },
+        { title: a.metaTitle || `${a.title}, ExploreIndonesia.ai` },
         ...(description ? [{ name: "description", content: description }] : []),
         { property: "og:title", content: title },
         ...(description ? [{ property: "og:description", content: description }] : []),
@@ -265,7 +265,7 @@ function NotFoundComponent() {
           className="text-xs font-semibold uppercase tracking-[0.25em] mb-4"
           style={{ color: "var(--teal-link, #0f766e)" }}
         >
-          404 — Trip not found
+          404, Trip not found
         </p>
         <h1
           className="font-serif text-3xl sm:text-4xl font-semibold mb-4"

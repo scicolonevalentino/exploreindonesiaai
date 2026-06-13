@@ -4,12 +4,12 @@ import { P1Page } from "./p1";
 
 // Hidden preview page: the real homepage layout, but with the LIVE trip builder
 // embedded in the "try it" slot where the public homepage shows the illustrative
-// demo. noindex + preview-branch only (never production) — lets us see the real
+// demo. noindex + preview-branch only (never production), lets us see the real
 // P1 product running inside the real homepage context for the first time.
 export const Route = createFileRoute("/p1-home")({
   head: () => ({
     meta: [
-      { title: "exploreindonesia.ai — preview (real builder)" },
+      { title: "exploreindonesia.ai, preview (real builder)" },
       {
         name: "description",
         content: "Internal preview: the homepage with the live AI trip builder embedded.",
