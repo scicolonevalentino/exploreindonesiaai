@@ -6,4 +6,4 @@
 // normal single-trip planners (who easily make 4-5 variations of one trip)
 // don't hit it; tune DOWN toward the heavy-user tail once the `generations`
 // table shows the real per-user/day distribution. One number, one place.
-export const DAILY_GENERATION_LIMIT = 9;
+export const DAILY_GENERATION_LIMIT = 5;
