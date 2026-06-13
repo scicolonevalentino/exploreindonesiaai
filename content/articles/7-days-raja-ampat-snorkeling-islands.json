@@ -1420,5 +1420,13 @@
     "_type": "reference",
     "_ref": "author-editorial-team"
   },
-  "articleCreatedDate": "2026-06-13T16:00:00.000Z"
+  "articleCreatedDate": "2026-06-13T16:00:00.000Z",
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_type": "reference",
+      "_ref": "image-6db138e2f7c40258955b7371a25fce389b2507fd-3500x2329-jpg"
+    },
+    "alt": "A snorkeller gliding over a coral reef with tropical fish in clear blue water"
+  }
 }
