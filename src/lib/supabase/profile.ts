@@ -31,16 +31,20 @@ export async function flushPendingProfile(): Promise<void> {
 
   try {
     const pending = JSON.parse(raw) as PendingProfile;
-    const { error } = await supabase.from("profiles").upsert({
+    // Only write the fields the stash actually carried. The /login page stashes
+    // just consent + marketing, so omitting the name/phone keys here means an
+    // upsert from there can't null out an existing user's name or phone.
+    const payload: Record<string, unknown> = {
       user_id: user.id,
-      // Empty for Google signups — their name lives in user_metadata from Google.
-      first_name: pending.first_name || null,
-      last_name: pending.last_name || null,
-      phone: pending.phone || null,
       marketing_opt_in: pending.marketing_opt_in,
       consent_at: pending.consent_at,
       updated_at: new Date().toISOString(),
-    });
+    };
+    // Empty for Google signups — their name lives in user_metadata from Google.
+    if (pending.first_name !== undefined) payload.first_name = pending.first_name || null;
+    if (pending.last_name !== undefined) payload.last_name = pending.last_name || null;
+    if (pending.phone !== undefined) payload.phone = pending.phone || null;
+    const { error } = await supabase.from("profiles").upsert(payload);
     if (error) throw error;
   } catch {
     // Don't block the trip flow on profile write issues; the consent stash

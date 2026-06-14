@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { stashPendingProfile } from "@/lib/supabase/profile";
+import { Checkbox } from "@/components/ui/checkbox";
 import { GoogleIcon } from "@/components/GoogleIcon";
 import { toast } from "sonner";
 
@@ -21,6 +23,7 @@ export const Route = createFileRoute("/login")({
 function LoginPage() {
   const { next } = Route.useSearch();
   const [email, setEmail] = useState("");
+  const [marketing, setMarketing] = useState(false);
   const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState<"google" | "email" | null>(null);
 
@@ -29,8 +32,21 @@ function LoginPage() {
   const callback = () =>
     `${window.location.origin}/auth/callback?next=${encodeURIComponent(next ?? "/account")}`;
 
+  // Carry the (optional) marketing opt-in through the auth redirect, the same
+  // way the Save & Download modal does. Stash ONLY when ticked: a partial stash
+  // never opts a returning user out, and flushPendingProfile leaves their name
+  // and phone untouched. consent_at records when they agreed by continuing.
+  const stashConsent = () => {
+    if (!marketing) return;
+    stashPendingProfile({
+      marketing_opt_in: true,
+      consent_at: new Date().toISOString(),
+    });
+  };
+
   async function withGoogle() {
     setBusy("google");
+    stashConsent();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
@@ -46,6 +62,7 @@ function LoginPage() {
     e.preventDefault();
     if (!email.trim()) return;
     setBusy("email");
+    stashConsent();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOtp({
       email: email.trim(),
@@ -137,6 +154,18 @@ function LoginPage() {
                 <span aria-hidden>→</span>
               </button>
             </form>
+
+            <label className="flex items-start gap-2.5 text-xs leading-relaxed">
+              <Checkbox
+                checked={marketing}
+                onCheckedChange={(v) => setMarketing(v === true)}
+                className="mt-0.5"
+                aria-label="Receive travel tips and offers"
+              />
+              <span className="text-muted-foreground">
+                Receive news about exclusive itinerary ideas &amp; hidden gems.
+              </span>
+            </label>
 
             <p className="text-[11px] leading-relaxed text-muted-foreground">
               By continuing you agree to our{" "}

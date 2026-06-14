@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useMemo, useRef, useState, type RefObject } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import {
   MessageSquare,
   ArrowLeft,
@@ -10,6 +10,23 @@ import {
 } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 import { trackEvent } from "@/lib/analytics-events";
+import { tripStops } from "@/lib/trip/places";
+
+// Lazy: pulls in d3-geo + the bundled topology only when the Map tab is opened.
+const TripMap = lazy(() => import("@/components/TripMap"));
+
+// The prototype is a fixed demo whose items carry no per-item location, so map
+// each day to its hub. This keeps the map pins aligned with the header
+// (Ubud · Batur · Nusa Penida · Uluwatu · Canggu).
+const PROTO_DAY_LOCATION: Record<number, string> = {
+  1: "Ubud",
+  2: "Ubud",
+  3: "Mount Batur",
+  4: "Nusa Penida",
+  5: "Uluwatu",
+  6: "Canggu",
+  7: "Canggu",
+};
 
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
@@ -800,6 +817,36 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
   const [showRedirect, setShowRedirect] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
 
+  // Map pins + popups: one per hub, carrying that hub's bookable experiences.
+  const mapStops = useMemo(
+    () =>
+      tripStops(
+        TRIP.days.flatMap((d) =>
+          d.items
+            .filter((it) => it.kind !== "selfguided")
+            .map((it) => ({
+              day: d.num,
+              location: PROTO_DAY_LOCATION[d.num] ?? d.subtitle,
+              type: "bookable" as const,
+              title: it.title,
+              price: it.price,
+              currency: "USD",
+              partner: it.source,
+              imageUrl: it.image,
+            })),
+        ),
+      ),
+    [],
+  );
+  const jumpToDay = (day: number) => {
+    setView("day");
+    window.setTimeout(() => {
+      document
+        .getElementById(`trip-day-${day}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 60);
+  };
+
   const totals = useMemo(() => {
     let count = 0;
     let total = 0;
@@ -911,19 +958,26 @@ export function TripStage({ onEdit }: { onEdit: () => void }) {
         </div>
 
         {view === "map" ? (
-          <div
-            className="rounded-2xl border h-80 flex items-center justify-center text-[var(--slate-muted)]"
-            style={{
-              borderColor: "var(--border-cream)",
-              background: "linear-gradient(135deg, #e8f0ee 0%, #d6e6e2 100%)",
-            }}
-          >
-            Map view, coming soon
+          <div className="mx-auto max-w-4xl">
+            <Suspense
+              fallback={
+                <div
+                  className="rounded-2xl border h-80 flex items-center justify-center text-sm text-[var(--slate-muted)]"
+                  style={{ borderColor: "var(--border-cream)", background: "#eaf2ee" }}
+                >
+                  Loading map…
+                </div>
+              }
+            >
+              <TripMap stops={mapStops} onJump={jumpToDay} />
+            </Suspense>
           </div>
         ) : (
           <div className="space-y-12">
             {TRIP.days.map((d) => (
-              <DayBlock key={d.num} day={d} added={added} onToggle={toggle} />
+              <div id={`trip-day-${d.num}`} key={d.num} className="scroll-mt-24">
+                <DayBlock day={d} added={added} onToggle={toggle} />
+              </div>
             ))}
           </div>
         )}

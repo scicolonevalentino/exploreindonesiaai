@@ -5,17 +5,20 @@
 // generated live and the Book links are real affiliate deep links.
 
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
   BedDouble,
   Camera,
   Car,
   ExternalLink,
+  FileUp,
   Footprints,
   Info,
   Lightbulb,
+  Loader2,
   Lock,
+  ShieldCheck,
   Ship,
   Sparkles,
   Wifi,
@@ -26,9 +29,11 @@ import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
 import { countGenerationsToday, logGeneration } from "@/lib/supabase/generations";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
+import { tripStops, type StopExperience } from "@/lib/trip/places";
 import { useUser } from "@/lib/supabase/useUser";
 import { saveTrip } from "@/lib/supabase/trips";
 import { flushPendingProfile } from "@/lib/supabase/profile";
+import { sendWelcomeEmailOnce } from "@/lib/welcome-email.functions";
 import { AuthSaveModal } from "@/components/AuthSaveModal";
 import { GenerationLimitModal } from "@/components/GenerationLimitModal";
 import { AuthStatus } from "@/components/AuthStatus";
@@ -37,6 +42,9 @@ import { toast } from "sonner";
 // localStorage key for stashing a freshly built trip when a signed-out visitor
 // clicks the CTA — restored + auto-saved after they complete the magic link.
 const PENDING_TRIP_KEY = "ei:pendingTrip";
+
+// Lazy: pulls in d3-geo + the bundled topology only when the Map tab is opened.
+const TripMap = lazy(() => import("@/components/TripMap"));
 
 export const Route = createFileRoute("/p1")({
   head: () => ({
@@ -140,6 +148,20 @@ function fireAffiliateClick(item: ItineraryItem) {
   });
 }
 
+// EKTA travel-insurance affiliate (Travelpayouts). Shown as the last card in
+// every trip, just before Save & Download.
+const EKTA_INSURANCE_URL = "https://ektatraveling.tpx.lu/P8hvoSQm";
+
+// Same dual gtag + dataLayer pattern as fireAffiliateClick, so the insurance
+// CTA lands in the same affiliate funnel (partner "ekta").
+function fireInsuranceClick() {
+  const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+  if (typeof gtag === "function") {
+    gtag("event", "affiliate_click", { partner: "ekta", category: "travel_insurance" });
+  }
+  trackEvent("affiliate_click", { partner: "ekta", category: "travel_insurance" });
+}
+
 /* -------------------------------------------------------------------------- */
 /*  Page: input → building → trip                                             */
 /* -------------------------------------------------------------------------- */
@@ -180,7 +202,11 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   useEffect(() => {
     if (userLoading || !user || restoredRef.current) return;
     restoredRef.current = true;
-    void flushPendingProfile();
+    // Persist the stashed consent/profile first so first_name is on the row,
+    // then fire the one-time welcome email (idempotent server-side).
+    void flushPendingProfile().then(() => {
+      void sendWelcomeEmailOnce();
+    });
     const raw = window.localStorage.getItem(PENDING_TRIP_KEY);
     if (!raw) return;
     try {
@@ -263,6 +289,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       const decoder = new TextDecoder();
       let buf = "";
       let streamError = false;
+      let refusalReason = "";
 
       for (;;) {
         const { done, value } = await reader.read();
@@ -278,6 +305,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
             meta?: typeof meta;
             item?: ItineraryItem;
             insights?: Insight[];
+            reason?: string;
           };
           try {
             msg = JSON.parse(dataLine.slice(5).trim());
@@ -296,12 +324,22 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
             const got = msg.insights ?? [];
             setInsights(got);
             if (got.length) trackEvent("insights_shown", { count: got.length });
+          } else if (msg.type === "refusal") {
+            refusalReason =
+              msg.reason ||
+              "That doesn't look like a trip. Tell me where in Indonesia you'd like to go.";
           } else if (msg.type === "error") {
             streamError = true;
           }
         }
       }
 
+      // A refusal is the guardrail declining off-topic/abusive input — surface
+      // its message and send the user back to the prompt, not a generic error.
+      if (refusalReason) {
+        trackEvent("trip_refused", {});
+        throw new Error(refusalReason);
+      }
       if (streamError || collected.length === 0) {
         throw new Error("Couldn't build your trip right now, please try again.");
       }
@@ -386,6 +424,42 @@ function InputStage({
   const trimmedLength = value.trim().length;
   const canSubmit = trimmedLength >= MIN_PASTE_LENGTH;
 
+  // Upload an itinerary file (Word/Excel). Parsed in-browser via the lazily
+  // imported extractor; only the resulting text is placed into the textarea so
+  // the user sees and can edit exactly what the model will read.
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const [uploadedName, setUploadedName] = useState<string | null>(null);
+  const [dragOver, setDragOver] = useState(false);
+  // Pointer-driven highlight: hover covers mouse, pressed covers touch (tap),
+  // so the upload zone visibly reacts on both desktop and mobile.
+  const [hovered, setHovered] = useState(false);
+  const [pressed, setPressed] = useState(false);
+
+  const handleFile = async (file: File) => {
+    setUploadError(null);
+    setUploadedName(null);
+    setUploading(true);
+    try {
+      const { extractDocument } = await import("@/lib/trip/document-extract");
+      const res = await extractDocument(file);
+      onChange(res.text);
+      setUploadedName(res.filename);
+      trackEvent("itinerary_uploaded", { kind: res.kind, truncated: res.truncated });
+      if (res.truncated) {
+        toast.info("That itinerary was long, so we used the first part. Edit it above if needed.");
+      }
+    } catch (err) {
+      setUploadError(
+        err instanceof Error ? err.message : "Couldn't read that file. Try pasting the text.",
+      );
+    } finally {
+      setUploading(false);
+      if (fileInputRef.current) fileInputRef.current.value = ""; // allow re-uploading the same file
+    }
+  };
+
   const handleStart = () => {
     trackEvent("assemble_trip_click");
     onStart();
@@ -428,7 +502,7 @@ function InputStage({
           style={{ backgroundColor: "#f3f1ea", color: "var(--navy-deep)" }}
         >
           <label htmlFor="p1-paste" className="block text-sm font-bold mb-3">
-            Paste your itinerary, or describe your trip
+            Drop your itinerary, or describe your trip
           </label>
           <textarea
             id="p1-paste"
@@ -439,6 +513,81 @@ function InputStage({
             className="w-full text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
             style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
           />
+
+          {/* Upload an itinerary file. Parsed in-browser; only the extracted
+              text is dropped into the textarea above, the file is never sent. */}
+          <div className="mt-3">
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept=".xlsx,.xls,.xlsm,.docx,.pdf"
+              className="hidden"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) void handleFile(f);
+              }}
+            />
+            <button
+              type="button"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={uploading}
+              onDragOver={(e) => {
+                e.preventDefault();
+                setDragOver(true);
+              }}
+              onDragLeave={() => setDragOver(false)}
+              onDrop={(e) => {
+                e.preventDefault();
+                setDragOver(false);
+                const f = e.dataTransfer.files?.[0];
+                if (f) void handleFile(f);
+              }}
+              onPointerEnter={() => setHovered(true)}
+              onPointerLeave={() => {
+                setHovered(false);
+                setPressed(false);
+              }}
+              onPointerDown={() => setPressed(true)}
+              onPointerUp={() => setPressed(false)}
+              onPointerCancel={() => setPressed(false)}
+              className="w-full flex items-center justify-center gap-2 rounded-lg border border-dashed px-4 py-3 text-sm font-medium cursor-pointer transition-all duration-150 disabled:opacity-60 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2"
+              style={{
+                borderColor:
+                  dragOver || hovered || pressed ? "var(--blue-bright)" : "var(--border-cream)",
+                backgroundColor: dragOver
+                  ? "rgba(20,184,166,0.12)"
+                  : hovered || pressed
+                    ? "rgba(20,184,166,0.07)"
+                    : "rgba(255,255,255,0.4)",
+                boxShadow:
+                  dragOver || hovered || pressed ? "0 2px 10px rgba(20,184,166,0.18)" : "none",
+                transform: pressed ? "scale(0.99)" : "none",
+                color: "var(--navy-deep)",
+              }}
+            >
+              {uploading ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" aria-hidden /> Reading your file…
+                </>
+              ) : uploadedName ? (
+                <>
+                  <FileUp className="w-4 h-4" aria-hidden /> {uploadedName} loaded — edit above,
+                  then assemble
+                </>
+              ) : (
+                <>
+                  <FileUp className="w-4 h-4" aria-hidden /> Or upload a Word, Excel or PDF
+                  itinerary
+                </>
+              )}
+            </button>
+            <p className="mt-2 text-[11px] text-[var(--slate-muted)] flex items-center gap-1.5">
+              <Lock className="w-3 h-3 shrink-0" aria-hidden /> Read in your browser. Your file is
+              never uploaded or stored.
+            </p>
+            {uploadError && <p className="mt-1 text-xs text-red-600">{uploadError}</p>}
+          </div>
+
           <div className="mt-4 flex items-center justify-between gap-3 flex-wrap">
             <p className="text-xs sm:text-sm text-[var(--slate-muted)] min-h-[1.25rem]">
               {error ?? (canSubmit ? "Looks good, ready to assemble." : "")}
@@ -619,6 +768,37 @@ function TripStage({
     { n: insights.length, label: "Local insights" },
   ];
 
+  // Day-by-day vs map. The Map tab is only offered when we can geolocate at
+  // least one stop from the itinerary's locations.
+  // Map shows core bookables only — recommended add-ons (suggested) are excluded.
+  const stops = useMemo(() => tripStops(trip.items.filter((i) => !i.suggested)), [trip.items]);
+  const [view, setView] = useState<"day" | "map">("day");
+
+  // Map popup -> itinerary: switch to the day list and scroll to that day. The
+  // map unmounts on the view change, so wait a beat for the day blocks to mount.
+  const jumpToDay = (day: number) => {
+    setView("day");
+    window.setTimeout(() => {
+      document
+        .getElementById(`trip-day-${day}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 60);
+  };
+
+  // Affiliate click fired from a map popup card. Same dual gtag + dataLayer
+  // pattern as fireAffiliateClick, tagged source:"map" for attribution.
+  const bookFromMap = (exp: StopExperience) => {
+    const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+    const payload = {
+      partner: exp.partner,
+      category: exp.category,
+      price: exp.price,
+      source: "map",
+    };
+    if (typeof gtag === "function") gtag("event", "affiliate_click", payload);
+    trackEvent("affiliate_click", payload);
+  };
+
   // Matched bookables start added (prototype's defaultAdded behavior).
   const [added, setAdded] = useState<Set<string>>(new Set());
   useEffect(() => {
@@ -722,62 +902,112 @@ function TripStage({
       </header>
 
       <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-24">
-        <div className="mb-10">
-          <p
-            className="text-xs font-semibold uppercase tracking-[0.22em] mb-2 flex items-center gap-2"
-            style={{ color: "var(--teal-link)" }}
-          >
-            {matching ? (
-              <>
-                {/* Komo keeps working while live prices are still resolving. */}
-                <img src="/komo-mascot.png" alt="" className="ei-komo-sm" aria-hidden="true" />
-                Your trip · Matching live prices…
-              </>
-            ) : (
-              "Your trip · Ready to book"
-            )}
-          </p>
-          <h1
-            className="text-4xl sm:text-5xl font-bold mb-2"
-            style={{ fontFamily: "var(--font-serif)" }}
-          >
-            {trip.title}
-          </h1>
-          <p className="text-sm text-[var(--slate-muted)] max-w-2xl">{trip.summary}</p>
+        <div className="mb-10 flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+          <div className="min-w-0">
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.22em] mb-2 flex items-center gap-2"
+              style={{ color: "var(--teal-link)" }}
+            >
+              {matching ? (
+                <>
+                  {/* Komo keeps working while live prices are still resolving. */}
+                  <img src="/komo-mascot.png" alt="" className="ei-komo-sm" aria-hidden="true" />
+                  Your trip · Matching live prices…
+                </>
+              ) : (
+                "Your trip · Ready to book"
+              )}
+            </p>
+            <h1
+              className="text-4xl sm:text-5xl font-bold mb-2"
+              style={{ fontFamily: "var(--font-sans)" }}
+            >
+              {trip.title}
+            </h1>
+            <p className="text-sm text-[var(--slate-muted)] max-w-2xl">{trip.summary}</p>
 
-          {/* Real trip stats (post-generation), styled like the prototype's
+            {/* Real trip stats (post-generation), styled like the prototype's
               assembling counters but with true numbers. */}
-          <div className="mt-6 flex flex-wrap gap-x-10 gap-y-4">
-            {STATS.map((s) => (
-              <div key={s.label}>
-                <div
-                  className="text-3xl sm:text-4xl font-bold leading-none"
-                  style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
-                >
-                  {s.n}
+            <div className="mt-6 flex flex-wrap gap-x-10 gap-y-4">
+              {STATS.map((s) => (
+                <div key={s.label}>
+                  <div
+                    className="text-3xl sm:text-4xl font-bold leading-none"
+                    style={{ fontFamily: "var(--font-sans)", color: "var(--navy-deep)" }}
+                  >
+                    {s.n}
+                  </div>
+                  <div className="text-[11px] uppercase tracking-widest text-[var(--slate-muted)] mt-1.5">
+                    {s.label}
+                  </div>
                 </div>
-                <div className="text-[11px] uppercase tracking-widest text-[var(--slate-muted)] mt-1.5">
-                  {s.label}
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
+
+          {stops.length > 0 && (
+            <div
+              className="inline-flex shrink-0 rounded-full p-1 border bg-white text-sm"
+              style={{ borderColor: "var(--border-cream)" }}
+            >
+              {(["day", "map"] as const).map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  onClick={() => {
+                    setView(v);
+                    if (v === "map") trackEvent("trip_map_view");
+                  }}
+                  className={`px-4 py-1.5 rounded-full transition-colors ${
+                    view === v
+                      ? "bg-[var(--navy-deep)] text-white"
+                      : "text-[var(--slate-muted)] hover:text-[var(--navy-deep)]"
+                  }`}
+                >
+                  {v === "day" ? "Day by day" : "Map"}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
-        <div className="space-y-12">
-          {[...itemsByDay.keys()]
-            .sort((a, b) => a - b)
-            .map((day) => (
-              <DayBlock
-                key={day}
-                day={day}
-                items={itemsByDay.get(day)!}
-                insights={insights.filter((ins) => ins.day === day)}
-                added={added}
-                onToggle={toggle}
-              />
-            ))}
-        </div>
+        {stops.length > 0 && view === "map" ? (
+          <div className="mx-auto max-w-4xl">
+            <Suspense
+              fallback={
+                <div
+                  className="rounded-2xl border h-80 flex items-center justify-center text-sm text-[var(--slate-muted)]"
+                  style={{ borderColor: "var(--border-cream)", background: "#eaf2ee" }}
+                >
+                  Loading map…
+                </div>
+              }
+            >
+              <TripMap stops={stops} onJump={jumpToDay} onBook={bookFromMap} />
+            </Suspense>
+          </div>
+        ) : (
+          <>
+            <div className="space-y-12">
+              {[...itemsByDay.keys()]
+                .sort((a, b) => a - b)
+                .map((day) => (
+                  <div id={`trip-day-${day}`} key={day} className="scroll-mt-24">
+                    <DayBlock
+                      day={day}
+                      items={itemsByDay.get(day)!}
+                      insights={insights.filter((ins) => ins.day === day)}
+                      added={added}
+                      onToggle={toggle}
+                    />
+                  </div>
+                ))}
+            </div>
+
+            {/* The last card before Save & Download: travel insurance (EKTA). */}
+            <InsuranceCard />
+          </>
+        )}
       </section>
 
       {/* Inline totals + CTA. While prices are still resolving (matching) the bar is
@@ -794,7 +1024,7 @@ function TripStage({
             <span className="text-[var(--slate-muted)]">Estimated total </span>
             <span
               className="font-bold text-xl"
-              style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+              style={{ fontFamily: "var(--font-sans)", color: "var(--navy-deep)" }}
             >
               ${totals.total}
             </span>
@@ -831,6 +1061,49 @@ function TripStage({
       </div>
 
       <AuthSaveModal open={authOpen} onOpenChange={setAuthOpen} onBeforeAuth={stashTrip} />
+    </div>
+  );
+}
+
+// The closing card of every trip: travel insurance (EKTA affiliate). Optional
+// but highly recommended. Soft mint panel (not the cream of the insight cards)
+// so it ties to the teal shield + CTA and reads as "protection / trust".
+function InsuranceCard() {
+  return (
+    <div
+      className="mt-12 rounded-2xl border p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center gap-5"
+      style={{ borderColor: "#cfe8e1", backgroundColor: "#e9f5f1" }}
+    >
+      <div
+        className="w-12 h-12 rounded-full flex items-center justify-center shrink-0"
+        style={{ backgroundColor: "#ffffff" }}
+      >
+        <ShieldCheck className="w-6 h-6" style={{ color: "var(--teal-link)" }} aria-hidden />
+      </div>
+      <div className="min-w-0 flex-1">
+        <span
+          className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-1.5"
+          style={{ backgroundColor: "#ffffff", color: "var(--teal-link)" }}
+        >
+          Optional but highly recommended
+        </span>
+        <h3 className="font-bold text-lg">Protect your trip with travel insurance</h3>
+        <p className="text-sm text-[var(--slate-muted)] mt-1 max-w-2xl">
+          Indonesia means scooters, boats, volcanoes and remote islands. EKTA covers medical
+          emergencies, trip cancellations and lost luggage, with cover you can buy online in minutes
+          before you fly.
+        </p>
+      </div>
+      <a
+        href={EKTA_INSURANCE_URL}
+        target="_blank"
+        rel="sponsored noopener noreferrer"
+        onClick={fireInsuranceClick}
+        className="inline-flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-bold text-white shadow-sm shrink-0 transition-all hover:-translate-y-0.5 hover:brightness-110"
+        style={{ backgroundColor: "var(--blue-bright)" }}
+      >
+        Get covered with EKTA <ExternalLink className="w-4 h-4" aria-hidden />
+      </a>
     </div>
   );
 }
@@ -889,13 +1162,13 @@ function DayBlock({
           <div className="text-[10px] uppercase tracking-widest opacity-70">Day</div>
           <div
             className="text-xl font-bold leading-none"
-            style={{ fontFamily: "var(--font-serif)" }}
+            style={{ fontFamily: "var(--font-sans)" }}
           >
             {day}
           </div>
         </div>
         <div className="flex-1">
-          <h2 className="text-2xl font-bold" style={{ fontFamily: "var(--font-serif)" }}>
+          <h2 className="text-2xl font-bold" style={{ fontFamily: "var(--font-sans)" }}>
             {items[0]?.location ?? `Day ${day}`}
           </h2>
         </div>
@@ -1054,7 +1327,7 @@ function ItemCard({
 
           <h3
             className="font-bold text-sm sm:text-lg leading-snug break-words"
-            style={{ fontFamily: "var(--font-serif)" }}
+            style={{ fontFamily: "var(--font-sans)" }}
           >
             {item.title}
           </h3>
@@ -1073,7 +1346,7 @@ function ItemCard({
                   <>
                     <span
                       className="text-2xl font-bold"
-                      style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+                      style={{ fontFamily: "var(--font-sans)", color: "var(--navy-deep)" }}
                     >
                       {item.currency === "USD" || !item.currency ? "$" : `${item.currency} `}
                       {item.price}
@@ -1136,7 +1409,7 @@ function ItemCard({
                 {item.price !== undefined && (
                   <span
                     className="text-xl font-bold"
-                    style={{ fontFamily: "var(--font-serif)", color: "var(--navy-deep)" }}
+                    style={{ fontFamily: "var(--font-sans)", color: "var(--navy-deep)" }}
                   >
                     {item.currency === "USD" || !item.currency ? "$" : `${item.currency} `}
                     {item.price}

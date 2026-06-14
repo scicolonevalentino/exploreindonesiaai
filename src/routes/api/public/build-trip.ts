@@ -11,6 +11,7 @@ import { z } from "zod";
 import { type ItineraryItem, TripPreferencesSchema } from "@/lib/trip/types";
 import { streamTripParts, type TripMeta } from "@/lib/trip/generate.server";
 import { selectInsights } from "@/lib/trip/insights";
+import { screenInput } from "@/lib/trip/guard";
 
 // Best-effort per-instance rate limit (same approach as waitlist.functions.ts).
 // Generation is the expensive call, keep abuse cheap to deflect.
@@ -66,6 +67,14 @@ export const Route = createFileRoute("/api/public/build-trip")({
           );
         }
 
+        // Layer 1 guard: reject crude/offensive input for free, before any
+        // Anthropic call. Topicality is enforced separately by the in-call
+        // guard in generate.server.ts (it can emit a refusal mid-stream).
+        const screen = screenInput(prefs);
+        if (!screen.ok) {
+          return json({ error: screen.message }, 400);
+        }
+
         // Stream the itinerary as Server-Sent Events.
         const encoder = new TextEncoder();
         const stream = new ReadableStream<Uint8Array>({
@@ -74,15 +83,26 @@ export const Route = createFileRoute("/api/public/build-trip")({
               controller.enqueue(encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
             const items: ItineraryItem[] = [];
             let meta: TripMeta | undefined;
+            let refused = false;
             try {
               for await (const part of streamTripParts(prefs)) {
-                if (part.kind === "meta") {
+                if (part.kind === "refusal") {
+                  // Layer 2 guard tripped: off-topic/abusive/political input.
+                  // Tell the client and stop, no itinerary will follow.
+                  refused = true;
+                  send({ type: "refusal", reason: part.reason });
+                  break;
+                } else if (part.kind === "meta") {
                   meta = part.meta;
                   send({ type: "meta", meta });
                 } else {
                   items.push(part.item);
                   send({ type: "item", item: part.item });
                 }
+              }
+              if (refused) {
+                send({ type: "done" });
+                return;
               }
               // Local Insights come from the curated static library, instant
               // and free; never let a lookup hiccup fail the build.

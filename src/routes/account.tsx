@@ -1,11 +1,13 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useUser } from "@/lib/supabase/useUser";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { listTrips, deleteTrip, type SavedTripRow } from "@/lib/supabase/trips";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { QuoteRequestModal } from "@/components/QuoteRequestModal";
 import { trackEvent } from "@/lib/analytics-events";
+import { flushPendingProfile } from "@/lib/supabase/profile";
+import { sendWelcomeEmailOnce } from "@/lib/welcome-email.functions";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -45,6 +47,20 @@ function AccountPage() {
       navigate({ to: "/login" });
     }
   }, [loading, user, navigate]);
+
+  // For users who land here after signing in via /login or Google (the
+  // save-flow handles its own in p1): persist any stashed consent/marketing
+  // first so it's on the profile row, then fire the one-time welcome email.
+  // The server fn is idempotent, so this is a no-op for anyone who already
+  // received it.
+  const welcomeFiredRef = useRef(false);
+  useEffect(() => {
+    if (loading || !user || welcomeFiredRef.current) return;
+    welcomeFiredRef.current = true;
+    void flushPendingProfile().then(() => {
+      void sendWelcomeEmailOnce();
+    });
+  }, [loading, user]);
 
   const loadTrips = useCallback(() => {
     if (!user) return;

@@ -44,7 +44,9 @@ export function HelloBar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 relative flex items-center justify-center gap-3">
         <p className="text-center leading-snug font-medium pr-24 sm:pr-0">
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
-          <span className="sm:hidden">Launching soon. </span>
+          <span className="sm:hidden">
+            {isProductHome ? "Plan your trip. " : "Launching soon. "}
+          </span>
           <a
             href={`#${targetId}`}
             onClick={handleCta}
@@ -53,9 +55,12 @@ export function HelloBar() {
                 ? "Assemble my trip, jump to the trip builder"
                 : "Get early access, jump to the waitlist signup"
             }
-            className="ml-1 inline-flex items-center gap-1 font-bold text-white bg-white/15 hover:bg-black hover:text-white focus-visible:bg-black focus-visible:text-white transition-colors px-3 py-1 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
+            className="group ml-2 inline-flex items-center gap-1.5 font-bold text-[var(--navy-deep)] bg-white hover:bg-[var(--navy-deep)] hover:text-white focus-visible:bg-[var(--navy-deep)] focus-visible:text-white shadow-sm hover:shadow-md transition-all px-4 py-1.5 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
           >
-            {isProductHome ? "Assemble my trip →" : "Get early access →"}
+            {isProductHome ? "Assemble my trip" : "Get early access"}
+            <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+              →
+            </span>
           </a>
         </p>
 

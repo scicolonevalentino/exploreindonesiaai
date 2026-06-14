@@ -182,8 +182,8 @@ export function HowItWorks() {
   const steps = [
     {
       n: 1,
-      title: "Paste your plan",
-      body: "Drop in the itinerary you already have. No starting over. No long forms to fill out. Just paste and go.",
+      title: "Drop your plan",
+      body: "Paste it in or drop in a Word, Excel or PDF file. No starting over. No long forms to fill out.",
     },
     {
       n: 2,
