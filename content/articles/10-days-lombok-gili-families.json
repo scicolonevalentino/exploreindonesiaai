@@ -2278,5 +2278,13 @@
       "publicUrl": null,
       "_key": "k304"
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_type": "reference",
+      "_ref": "image-00d6bf5bd82d334f17af0911cfd115de5d0e63be-3685x2457-jpg"
+    },
+    "alt": "A family flying a kite on a calm, shallow beach in Lombok, Indonesia"
+  }
 }
