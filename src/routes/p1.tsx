@@ -382,7 +382,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   return (
     <div
       ref={rootRef}
-      className="min-h-screen flex flex-col"
+      className={embedded ? "flex flex-col" : "min-h-screen flex flex-col"}
       style={{ backgroundColor: "#faf9f5" }}
     >
       {!embedded && <AuthStatus />}
@@ -469,13 +469,15 @@ function InputStage({
 
   return (
     <div
-      className="flex-1 w-full"
+      className={embedded ? "w-full" : "flex-1 w-full"}
       style={{
         background: "radial-gradient(ellipse at top, #0a4a47 0%, #062d2a 65%, #041e1c 100%)",
         color: "#f2eee4",
       }}
     >
-      <section className="mx-auto max-w-4xl px-6 pt-12 pb-20 text-center">
+      <section
+        className={`mx-auto max-w-4xl px-6 text-center ${embedded ? "py-10" : "pt-12 pb-20"}`}
+      >
         {/* On the homepage the top Hero already carries this headline + intro,
             so the embedded builder shows only the input to avoid duplication.
             The standalone /p1 page keeps its own hero. */}
