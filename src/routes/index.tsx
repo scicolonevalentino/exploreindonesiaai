@@ -7,19 +7,22 @@ import {
   useCallback,
   useEffect,
   useRef,
+  useState,
   type ErrorInfo,
   type KeyboardEvent as ReactKeyboardEvent,
   type ReactNode,
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
-import { useIsMobile } from "@/hooks/use-mobile";
 
 // Hero background videos are self-hosted from public/ (served at the site root).
 // Previously these came from Lovable's /__l5e asset runtime, but after the
 // Vercel cutover that path looped back on itself, see public/hero-bg-*.mp4.
 const HERO_VIDEO_DESKTOP = "/hero-bg-desktop.mp4";
 const HERO_VIDEO_MOBILE = "/hero-bg-mobile.mp4";
+// Lightweight poster (~97KB) so the first frame paints instantly when the
+// <video> mounts, instead of a blank box while preload="none" footage decodes.
+const HERO_POSTER = "/hero-bg-poster.jpg";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
@@ -83,8 +86,20 @@ export const Route = createFileRoute("/")({
 });
 
 export function Hero() {
-  const isMobile = useIsMobile();
-  const videoSrc = isMobile ? HERO_VIDEO_MOBILE : HERO_VIDEO_DESKTOP;
+  // Keep the hero video OFF the critical render path. During SSR / first paint
+  // we render no <video> at all, the gradient + scrims below are the instant
+  // backdrop (and the LCP element), so first paint no longer waits on megabytes
+  // of footage. After mount we pick the SINGLE correct source for the viewport,
+  // so phones never download the 16MB desktop clip. (Previously useIsMobile
+  // returned undefined then desktop on first render, then swapped to mobile after
+  // hydration, causing BOTH clips, ~18MB, to download on phones.)
+  const [videoSrc, setVideoSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    setVideoSrc(window.innerWidth < 768 ? HERO_VIDEO_MOBILE : HERO_VIDEO_DESKTOP);
+    // No resize listener: swapping src mid-session would download a second clip
+    // for no visual gain. The viewport at mount wins.
+  }, []);
 
   return (
     <section
@@ -94,20 +109,26 @@ export function Hero() {
       }}
     >
       {/* Background video, muted, looping, decorative. Lighter treatment so
-          the footage feels present without overpowering the headline. */}
-      <video
-        key={videoSrc}
-        className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
-        style={{ filter: "saturate(0.95) brightness(0.92)" }}
-        src={videoSrc}
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
-        aria-hidden="true"
-        tabIndex={-1}
-      />
+          the footage feels present without overpowering the headline. Mounted
+          only after the viewport is known (videoSrc !== null) and streamed in
+          off the critical path (preload="none"); the gradient backdrop carries
+          first paint. */}
+      {videoSrc && (
+        <video
+          key={videoSrc}
+          className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
+          style={{ filter: "saturate(0.95) brightness(0.92)" }}
+          src={videoSrc}
+          poster={HERO_POSTER}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="none"
+          aria-hidden="true"
+          tabIndex={-1}
+        />
+      )}
 
       {/* Desktop overlay: subtle base wash for global legibility */}
       <div

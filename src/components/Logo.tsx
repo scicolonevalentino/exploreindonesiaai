@@ -14,6 +14,9 @@ export function Logo({ className }: { className?: string }) {
       <img
         src="/komo-mascot.png"
         alt="Komo, the Explore Indonesia mascot"
+        width={128}
+        height={128}
+        decoding="async"
         className="h-9 w-9 sm:h-10 sm:w-10 object-contain -translate-y-1"
       />
       <span>
