@@ -217,6 +217,13 @@ async function pool(items, n, fn) {
 
   const checked = await pool(all, 8, async (l, i) => {
     if (!l.url) return { ...l, check: { ok: false, error: l.error || "no-url" } };
+    // Internal/relative links (e.g. "/trips/...", "/destinations/bali") are not
+    // outbound links — this audit only checks external destinations. A raw
+    // fetch() on a hostless path throws (status 0), which would falsely flag
+    // every internal link as broken. Skip them entirely.
+    if (!/^https?:\/\//i.test(l.url)) {
+      return { ...l, internal: true, check: { ok: true, status: 0, internal: true }, flags: [] };
+    }
     process.stderr.write(`\r[${i + 1}/${all.length}]   `);
     const result = await check(l.url);
     const flags = [];
