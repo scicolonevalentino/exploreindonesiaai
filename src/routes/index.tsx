@@ -219,7 +219,7 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="w-full px-6 py-20 sm:py-28" style={{ backgroundColor: "var(--cream)" }}>
+    <section className="w-full px-6 py-12 sm:py-16" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-center mb-14"
@@ -281,7 +281,7 @@ export function Trust() {
   useMarqueeDrag(trackRef, { step: 180 });
 
   return (
-    <section className="w-full pb-24 pt-4" style={{ backgroundColor: "var(--cream)" }}>
+    <section className="w-full pb-16 pt-4" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl px-6">
         <p
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] text-center mb-10 max-w-3xl mx-auto"
@@ -715,7 +715,7 @@ export function Inspiration() {
   return (
     <section
       id="inspiration"
-      className="w-full py-20 sm:py-28 scroll-mt-4"
+      className="w-full py-12 sm:py-16 scroll-mt-4"
       style={{ backgroundColor: "#ffffff" }}
     >
       <div className="mx-auto max-w-6xl px-6">
@@ -773,7 +773,7 @@ function EmbeddedPrototype() {
 
 export function BrowseByDestination() {
   return (
-    <section className="w-full px-6 py-20 sm:py-28" style={{ backgroundColor: "var(--cream)" }}>
+    <section className="w-full px-6 py-12 sm:py-16" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <p
