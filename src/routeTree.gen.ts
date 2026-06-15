@@ -16,15 +16,18 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as P1HomeRouteImport } from './routes/p1-home'
 import { Route as P1RouteImport } from './routes/p1'
 import { Route as LoginRouteImport } from './routes/login'
+import { Route as CreditsRouteImport } from './routes/credits'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
+import { Route as ApiStripeWebhookRouteImport } from './routes/api/stripe/webhook'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
+import { Route as ApiCreditsCheckoutRouteImport } from './routes/api/credits/checkout'
 import { Route as ApiAccountDeleteRouteImport } from './routes/api/account/delete'
 
 const TermsRoute = TermsRouteImport.update({
@@ -62,6 +65,11 @@ const LoginRoute = LoginRouteImport.update({
   path: '/login',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CreditsRoute = CreditsRouteImport.update({
+  id: '/credits',
+  path: '/credits',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AccountRoute = AccountRouteImport.update({
   id: '/account',
   path: '/account',
@@ -92,6 +100,11 @@ const AuthCallbackRoute = AuthCallbackRouteImport.update({
   path: '/auth/callback',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiStripeWebhookRoute = ApiStripeWebhookRouteImport.update({
+  id: '/api/stripe/webhook',
+  path: '/api/stripe/webhook',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPublicMatchTripRoute = ApiPublicMatchTripRouteImport.update({
   id: '/api/public/match-trip',
   path: '/api/public/match-trip',
@@ -107,6 +120,11 @@ const ApiPublicBuildTripRoute = ApiPublicBuildTripRouteImport.update({
   path: '/api/public/build-trip',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiCreditsCheckoutRoute = ApiCreditsCheckoutRouteImport.update({
+  id: '/api/credits/checkout',
+  path: '/api/credits/checkout',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiAccountDeleteRoute = ApiAccountDeleteRouteImport.update({
   id: '/api/account/delete',
   path: '/api/account/delete',
@@ -116,6 +134,7 @@ const ApiAccountDeleteRoute = ApiAccountDeleteRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/credits': typeof CreditsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -128,13 +147,16 @@ export interface FileRoutesByFullPath {
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
+  '/api/credits/checkout': typeof ApiCreditsCheckoutRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/credits': typeof CreditsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -147,14 +169,17 @@ export interface FileRoutesByTo {
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
+  '/api/credits/checkout': typeof ApiCreditsCheckoutRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/credits': typeof CreditsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -167,15 +192,18 @@ export interface FileRoutesById {
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
+  '/api/credits/checkout': typeof ApiCreditsCheckoutRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
     | '/account'
+    | '/credits'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -188,13 +216,16 @@ export interface FileRouteTypes {
     | '/trips/$slug'
     | '/trips/'
     | '/api/account/delete'
+    | '/api/credits/checkout'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/api/stripe/webhook'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/account'
+    | '/credits'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -207,13 +238,16 @@ export interface FileRouteTypes {
     | '/trips/$slug'
     | '/trips'
     | '/api/account/delete'
+    | '/api/credits/checkout'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/api/stripe/webhook'
   id:
     | '__root__'
     | '/'
     | '/account'
+    | '/credits'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -226,14 +260,17 @@ export interface FileRouteTypes {
     | '/trips/$slug'
     | '/trips/'
     | '/api/account/delete'
+    | '/api/credits/checkout'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/api/stripe/webhook'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AccountRoute: typeof AccountRoute
+  CreditsRoute: typeof CreditsRoute
   LoginRoute: typeof LoginRoute
   P1Route: typeof P1Route
   P1HomeRoute: typeof P1HomeRoute
@@ -246,9 +283,11 @@ export interface RootRouteChildren {
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
   ApiAccountDeleteRoute: typeof ApiAccountDeleteRoute
+  ApiCreditsCheckoutRoute: typeof ApiCreditsCheckoutRoute
   ApiPublicBuildTripRoute: typeof ApiPublicBuildTripRoute
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
   ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
+  ApiStripeWebhookRoute: typeof ApiStripeWebhookRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -302,6 +341,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/credits': {
+      id: '/credits'
+      path: '/credits'
+      fullPath: '/credits'
+      preLoaderRoute: typeof CreditsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/account': {
       id: '/account'
       path: '/account'
@@ -344,6 +390,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthCallbackRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/stripe/webhook': {
+      id: '/api/stripe/webhook'
+      path: '/api/stripe/webhook'
+      fullPath: '/api/stripe/webhook'
+      preLoaderRoute: typeof ApiStripeWebhookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/public/match-trip': {
       id: '/api/public/match-trip'
       path: '/api/public/match-trip'
@@ -365,6 +418,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiPublicBuildTripRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/credits/checkout': {
+      id: '/api/credits/checkout'
+      path: '/api/credits/checkout'
+      fullPath: '/api/credits/checkout'
+      preLoaderRoute: typeof ApiCreditsCheckoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/account/delete': {
       id: '/api/account/delete'
       path: '/api/account/delete'
@@ -378,6 +438,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AccountRoute: AccountRoute,
+  CreditsRoute: CreditsRoute,
   LoginRoute: LoginRoute,
   P1Route: P1Route,
   P1HomeRoute: P1HomeRoute,
@@ -390,9 +451,11 @@ const rootRouteChildren: RootRouteChildren = {
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
   ApiAccountDeleteRoute: ApiAccountDeleteRoute,
+  ApiCreditsCheckoutRoute: ApiCreditsCheckoutRoute,
   ApiPublicBuildTripRoute: ApiPublicBuildTripRoute,
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
   ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,
+  ApiStripeWebhookRoute: ApiStripeWebhookRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
