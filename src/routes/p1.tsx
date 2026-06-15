@@ -387,7 +387,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
     >
       {!embedded && <AuthStatus />}
       {stage === "input" && (
-        <InputStage value={prompt} onChange={setPrompt} onStart={buildTrip} error={error} />
+        <InputStage value={prompt} onChange={setPrompt} onStart={buildTrip} error={error} embedded={embedded} />
       )}
       {stage === "building" && <BuildingStage />}
       {stage === "trip" && trip && (
@@ -415,11 +415,13 @@ function InputStage({
   onChange,
   onStart,
   error,
+  embedded = false,
 }: {
   value: string;
   onChange: (next: string) => void;
   onStart: () => void;
   error: string | null;
+  embedded?: boolean;
 }) {
   const trimmedLength = value.trim().length;
   const canSubmit = trimmedLength >= MIN_PASTE_LENGTH;
@@ -474,28 +476,35 @@ function InputStage({
       }}
     >
       <section className="mx-auto max-w-4xl px-6 pt-12 pb-20 text-center">
-        <p
-          className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] mb-6"
-          style={{ color: "var(--blue-ice)" }}
-        >
-          AI itinerary planning · Powered by real experiences
-        </p>
-        <h1
-          className="text-4xl sm:text-6xl md:text-7xl font-bold leading-[1.05] mb-4"
-          style={{ fontFamily: "var(--font-serif)" }}
-        >
-          Have you planned your trip to Indonesia?
-        </h1>
-        <p
-          className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
-          style={{ fontFamily: "var(--font-serif)", color: "var(--gold-warm)" }}
-        >
-          We make it <span className="whitespace-nowrap">ready-to-book</span>
-        </p>
-        <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
-          Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
-          structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
-        </p>
+        {/* On the homepage the top Hero already carries this headline + intro,
+            so the embedded builder shows only the input to avoid duplication.
+            The standalone /p1 page keeps its own hero. */}
+        {!embedded && (
+          <>
+            <p
+              className="text-xs sm:text-sm font-semibold uppercase tracking-[0.22em] mb-6"
+              style={{ color: "var(--blue-ice)" }}
+            >
+              AI itinerary planning · Powered by real experiences
+            </p>
+            <h1
+              className="text-4xl sm:text-6xl md:text-7xl font-bold leading-[1.05] mb-4"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
+              Have you planned your trip to Indonesia?
+            </h1>
+            <p
+              className="text-4xl sm:text-6xl md:text-7xl italic leading-[1.05] mb-10"
+              style={{ fontFamily: "var(--font-serif)", color: "var(--gold-warm)" }}
+            >
+              We make it <span className="whitespace-nowrap">ready-to-book</span>
+            </p>
+            <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
+              Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
+              structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
+            </p>
+          </>
+        )}
 
         <div
           className="rounded-2xl p-5 sm:p-6 text-left shadow-2xl mx-auto"
