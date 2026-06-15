@@ -574,9 +574,10 @@ function FooterBar() {
           </nav>
         </div>
 
-        <p className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 whitespace-pre-line leading-relaxed">
+        <p className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 leading-relaxed">
           {(settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`)
             .replace(/\s*We may earn a commission[^.]*\.\s*/gi, " ")
+            .replace(/\s+/g, " ")
             .trim()}
         </p>
       </div>
