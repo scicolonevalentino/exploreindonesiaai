@@ -53,10 +53,9 @@ Time-of-day structure:
 - If an activity fills the whole day (full-day tour, long trek, island day-trip), use "Full day" and do NOT also add Morning/Afternoon items that day.
 - Emit items within a day in order: Full day first if present, otherwise Morning -> Afternoon -> Evening.
 
-Suggestions ("suggested":true):
-- REQUIRED bonus add-ons (a nearby spa, an optional cooking class, a sunset cocktail spot). These are NOT optional, every trip includes some.
-- How many is a MAXIMUM that scales with trip length, and NEVER exceeds 3: exactly 1 for trips of 5 days or fewer, 2 for 6 to 10 days, 3 for 11 days or more. Spread them across different days, at most one per day.
-- Make them genuinely bookable: type "bookable", a real searchQuery, category usually "activity" or "spa_wellness". Core items use "suggested":false.
+Suggestions ("suggested":true) are MANDATORY, never zero:
+- Every itinerary MUST contain at least 2 items with "suggested":true: bonus add-ons such as a spa treatment, a cooking class, a sunset cruise, or a massage. Aim for 2 to 4 total, each on a different day, at most one per day. An itinerary with no "suggested":true items is INVALID.
+- They must be genuinely bookable: type "bookable", a real searchQuery, category usually "activity" or "spa_wellness". All other items use "suggested":false.
 
 Rules:
 - Every day gets 2-4 items across the time slots, mixing bookable and informational.

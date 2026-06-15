@@ -97,6 +97,14 @@ export type Insight = {
 // model emits. Enforced in code after generation (defense in depth).
 export const ALWAYS_INFORMATIONAL: ReadonlySet<Category> = new Set(["on_demand_transport", "tip"]);
 
+// How many "Recommended" add-ons (suggested:true) a trip may show, scaled to
+// length and hard-capped at 3. LLMs approximate counts, so the prompt asks for
+// these but this is enforced in code after generation (defense in depth): 1 for
+// trips up to 5 days, 2 for 6-10, 3 for 11+. Floor of 1 guards a missing length.
+export function recommendedCap(days: number): number {
+  return Math.min(3, Math.max(1, Math.ceil(days / 5)));
+}
+
 // Partner routing per category: try in order, stop at first match.
 export const PARTNER_ROUTING: Record<Category, Partner[]> = {
   // Viator first (real product + live price). GetYourGuide is a targeted search

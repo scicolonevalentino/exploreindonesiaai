@@ -8,7 +8,7 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { z } from "zod";
-import { type ItineraryItem, TripPreferencesSchema } from "@/lib/trip/types";
+import { type ItineraryItem, TripPreferencesSchema, recommendedCap } from "@/lib/trip/types";
 import { streamTripParts, type TripMeta } from "@/lib/trip/generate.server";
 import { selectInsights } from "@/lib/trip/insights";
 import { screenInput } from "@/lib/trip/guard";
@@ -84,6 +84,12 @@ export const Route = createFileRoute("/api/public/build-trip")({
             const items: ItineraryItem[] = [];
             let meta: TripMeta | undefined;
             let refused = false;
+            // Deterministic cap on "Recommended" add-ons (suggested:true): the
+            // prompt asks for a few, but LLMs approximate counts, so we keep the
+            // first N (scaled to trip length, max 3) and DROP the rest. Dropping
+            // keeps the itinerary lean; demoting would pad the core plan.
+            let recCap = 3;
+            let recKept = 0;
             try {
               for await (const part of streamTripParts(prefs)) {
                 if (part.kind === "refusal") {
@@ -94,10 +100,16 @@ export const Route = createFileRoute("/api/public/build-trip")({
                   break;
                 } else if (part.kind === "meta") {
                   meta = part.meta;
+                  recCap = recommendedCap(meta.days || 0);
                   send({ type: "meta", meta });
                 } else {
-                  items.push(part.item);
-                  send({ type: "item", item: part.item });
+                  const item = part.item;
+                  if (item.suggested) {
+                    if (recKept >= recCap) continue; // drop surplus add-on
+                    recKept += 1;
+                  }
+                  items.push(item);
+                  send({ type: "item", item });
                 }
               }
               if (refused) {
