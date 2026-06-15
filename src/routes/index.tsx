@@ -20,6 +20,9 @@ import { sanityClient, urlFor } from "@/lib/sanity";
 // Vercel cutover that path looped back on itself — see public/hero-bg-*.mp4.
 const HERO_VIDEO_DESKTOP = "/hero-bg-desktop.mp4";
 const HERO_VIDEO_MOBILE = "/hero-bg-mobile.mp4";
+// Lightweight poster (~97KB) so the first frame paints instantly when the
+// <video> mounts, instead of a blank box while preload="none" footage decodes.
+const HERO_POSTER = "/hero-bg-poster.jpg";
 import { useMarqueeDrag } from "@/hooks/useMarqueeDrag";
 import {
   ARTICLES_LIST_QUERY,
@@ -134,6 +137,7 @@ function Hero() {
           className="absolute inset-0 w-full h-full object-cover -z-10 motion-reduce:hidden"
           style={{ filter: "saturate(0.95) brightness(0.92)" }}
           src={videoSrc}
+          poster={HERO_POSTER}
           autoPlay
           muted
           loop
