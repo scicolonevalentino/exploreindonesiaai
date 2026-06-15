@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useUser } from "@/lib/supabase/useUser";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { listTrips, deleteTrip, type SavedTripRow } from "@/lib/supabase/trips";
+import { getCreditBalance } from "@/lib/supabase/credits";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { QuoteRequestModal } from "@/components/QuoteRequestModal";
 import { trackEvent } from "@/lib/analytics-events";
@@ -40,6 +41,8 @@ function AccountPage() {
   const [tripsLoading, setTripsLoading] = useState(true);
   // The trip whose "arrange for me" quote popup is open (null = closed).
   const [quoteTrip, setQuoteTrip] = useState<SavedTripRow | null>(null);
+  // Pro credit balance (null = still loading).
+  const [credits, setCredits] = useState<number | null>(null);
 
   // Client-side guard: bounce signed-out visitors to the login page.
   useEffect(() => {
@@ -74,6 +77,12 @@ function AccountPage() {
   useEffect(() => {
     loadTrips();
   }, [loadTrips]);
+
+  // Load the Pro credit balance (best-effort; 0 on any error).
+  useEffect(() => {
+    if (!user) return;
+    void getCreditBalance().then(setCredits);
+  }, [user]);
 
   async function signOut() {
     await getSupabaseBrowserClient().auth.signOut();
@@ -141,6 +150,24 @@ function AccountPage() {
         <p className="mt-2 text-sm text-muted-foreground">
           Signed in as <strong>{user.email}</strong>
         </p>
+
+        <div className="mt-6 rounded-2xl bg-white p-5 shadow-sm flex items-center justify-between gap-3">
+          <div>
+            <p className="text-sm font-semibold" style={{ color: "var(--navy-deep)" }}>
+              Pro credits: {credits === null ? "…" : `${credits} credit${credits === 1 ? "" : "s"}`}
+            </p>
+            <p className="text-xs text-muted-foreground mt-0.5">
+              1 credit = 1 AI edit to refine a trip. Credits never expire.
+            </p>
+          </div>
+          <Link
+            to="/credits"
+            className="shrink-0 text-sm font-semibold rounded-lg px-4 py-2 text-white"
+            style={{ backgroundColor: "var(--blue-bright)" }}
+          >
+            Get credits
+          </Link>
+        </div>
 
         <div className="mt-8 flex items-center justify-between">
           <h2 className="font-serif text-xl font-semibold" style={{ color: "var(--navy-deep)" }}>
