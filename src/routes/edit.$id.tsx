@@ -34,6 +34,9 @@ function EditPage() {
   const [freeNext, setFreeNext] = useState<boolean | null>(null);
   const [dirty, setDirty] = useState(false); // an edit has been applied but not saved
   const [saving, setSaving] = useState(false);
+  // After an edit, which items changed vs the previous version (by global index),
+  // so the user can see what the AI actually did.
+  const [changes, setChanges] = useState<Map<number, "new" | "updated">>(new Map());
 
   useEffect(() => {
     if (!loading && !user) navigate({ to: "/login" });
@@ -75,6 +78,8 @@ function EditPage() {
     const text = instruction.trim();
     if (text.length < 3 || editing) return;
     setEditing(true);
+    setChanges(new Map());
+    const prevItems = trip?.items ?? [];
     trackEvent("trip_edit_start", { trip_id: id, locked: locked.size });
 
     let meta: { title: string; summary: string; days: number } | null = null;
@@ -157,6 +162,19 @@ function EditPage() {
         // keep unmatched plan, still useful
       }
 
+      // Tag what changed vs the previous version so the user can spot the AI's
+      // edits. Match by (normalized) title: a title not seen before is "new",
+      // a same-title item with a different description is "updated".
+      const norm = (s: string) => s.trim().toLowerCase();
+      const prevByTitle = new Map(prevItems.map((it) => [norm(it.title), it]));
+      const changeMap = new Map<number, "new" | "updated">();
+      items.forEach((it, i) => {
+        const prev = prevByTitle.get(norm(it.title));
+        if (!prev) changeMap.set(i, "new");
+        else if ((prev.description ?? "") !== (it.description ?? "")) changeMap.set(i, "updated");
+      });
+      setChanges(changeMap);
+
       setTrip({ ...finalMeta, items });
       setLocked(new Set()); // indices shifted, clear locks
       setInstruction("");
@@ -168,7 +186,7 @@ function EditPage() {
     } finally {
       setEditing(false);
     }
-  }, [instruction, editing, id, locked, navigate]);
+  }, [instruction, editing, id, locked, navigate, trip]);
 
   const save = useCallback(async () => {
     if (!trip) return;
@@ -241,7 +259,7 @@ function EditPage() {
               onClick={() => void runEdit()}
               disabled={editing || instruction.trim().length < 3}
               className="text-white font-semibold"
-              style={{ backgroundColor: "var(--blue-bright)" }}
+              style={{ backgroundColor: "#7c3aed" }}
             >
               {editing ? "Refining…" : "✦ Apply with AI"}
             </Button>
@@ -251,7 +269,16 @@ function EditPage() {
         {dirty && (
           <div className="mt-4 flex items-center justify-between gap-3 rounded-xl bg-white p-3 shadow-sm">
             <span className="text-sm" style={{ color: "var(--navy-deep)" }}>
-              Edit applied. Save to keep it.
+              {(() => {
+                const added = [...changes.values()].filter((c) => c === "new").length;
+                const updated = [...changes.values()].filter((c) => c === "updated").length;
+                const parts = [];
+                if (added) parts.push(`${added} added`);
+                if (updated) parts.push(`${updated} updated`);
+                return parts.length
+                  ? `Edit applied (${parts.join(", ")}, highlighted below). Save to keep it.`
+                  : "Edit applied. Save to keep it.";
+              })()}
             </span>
             <Button
               onClick={() => void save()}
@@ -277,42 +304,85 @@ function EditPage() {
                   Day {day}
                 </h2>
                 <ul className="space-y-2">
-                  {trip.items.map((item, gi) =>
-                    item.day !== day ? null : (
+                  {trip.items.map((item, gi) => {
+                    if (item.day !== day) return null;
+                    const isLocked = locked.has(String(gi));
+                    const tag = changes.get(gi);
+                    return (
                       <li
                         key={gi}
-                        className="rounded-xl bg-white p-3 shadow-sm flex items-start gap-3"
+                        className="rounded-xl p-3 shadow-sm border"
+                        style={{
+                          borderColor:
+                            tag === "new"
+                              ? "#16a34a"
+                              : tag === "updated"
+                                ? "#d97706"
+                                : "var(--border-cream)",
+                          backgroundColor:
+                            tag === "new" ? "#f0fdf4" : tag === "updated" ? "#fffbeb" : "#fff",
+                        }}
                       >
-                        <button
-                          type="button"
-                          aria-pressed={locked.has(String(gi))}
-                          aria-label={locked.has(String(gi)) ? "Unlock item" : "Lock item"}
-                          onClick={() => toggleLock(String(gi))}
-                          className="shrink-0 mt-0.5 text-lg leading-none"
-                          title={locked.has(String(gi)) ? "Locked, won't change" : "Lock this item"}
-                        >
-                          {locked.has(String(gi)) ? "🔒" : "🔓"}
-                        </button>
-                        <div className="min-w-0">
-                          <p className="text-xs uppercase tracking-wide text-muted-foreground">
-                            {item.time}
-                            {item.suggested ? " · Recommended" : ""}
-                          </p>
-                          <p
-                            className="font-semibold text-sm"
-                            style={{ color: "var(--navy-deep)" }}
-                          >
-                            {item.title}
-                          </p>
-                          {item.description && (
-                            <p className="text-sm text-muted-foreground mt-0.5">
-                              {item.description}
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="min-w-0">
+                            <p className="text-xs uppercase tracking-wide text-muted-foreground flex flex-wrap items-center gap-2">
+                              <span>
+                                {item.time}
+                                {item.suggested ? " · Recommended" : ""}
+                              </span>
+                              {tag && (
+                                <span
+                                  className="rounded-full px-2 py-0.5 text-[10px] font-bold text-white"
+                                  style={{
+                                    backgroundColor: tag === "new" ? "#16a34a" : "#d97706",
+                                  }}
+                                >
+                                  {tag === "new" ? "NEW" : "UPDATED"}
+                                </span>
+                              )}
                             </p>
-                          )}
+                            <p
+                              className="font-semibold text-sm"
+                              style={{ color: "var(--navy-deep)" }}
+                            >
+                              {item.title}
+                            </p>
+                            {item.description && (
+                              <p className="text-sm text-muted-foreground mt-0.5">
+                                {item.description}
+                              </p>
+                            )}
+                          </div>
+                          <button
+                            type="button"
+                            aria-pressed={isLocked}
+                            onClick={() => toggleLock(String(gi))}
+                            className="shrink-0 inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold border transition-colors"
+                            style={
+                              isLocked
+                                ? {
+                                    backgroundColor: "var(--navy-deep)",
+                                    color: "#fff",
+                                    borderColor: "var(--navy-deep)",
+                                  }
+                                : {
+                                    backgroundColor: "#fff",
+                                    color: "var(--navy-deep)",
+                                    borderColor: "var(--border-cream)",
+                                  }
+                            }
+                            title={
+                              isLocked
+                                ? "Locked: the AI will keep this exactly as-is"
+                                : "Lock: keep this item unchanged when the AI re-plans"
+                            }
+                          >
+                            {isLocked ? "🔒 Locked" : "🔓 Lock"}
+                          </button>
                         </div>
                       </li>
-                    ),
-                  )}
+                    );
+                  })}
                 </ul>
               </section>
             ))}

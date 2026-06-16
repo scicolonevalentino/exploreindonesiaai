@@ -221,7 +221,7 @@ function AccountPage() {
                       params={{ id: row.id }}
                       onClick={() => trackEvent("edit_with_ai_click", { trip_id: row.id })}
                       className="inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                      style={{ backgroundColor: "var(--blue-bright)" }}
+                      style={{ backgroundColor: "#7c3aed" }}
                     >
                       ✦ Edit with AI
                     </Link>
