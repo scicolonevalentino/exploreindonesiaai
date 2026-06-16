@@ -10,30 +10,29 @@ export function HelloBar() {
   // waitlist bar makes no sense where the user is already using the product.
   if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
 
-  // On the product homepage the bar CTA sends visitors to the live builder
-  // (#try-it) instead of the waitlist, same action as "Assemble my trip".
-  // Both "/" (post-launch swap) and "/p1-home" embed the live builder.
+  // The bar always drives to the live trip builder. On the product homepage
+  // ("/" or "/p1-home") it scrolls to the embedded builder (#try-it); on every
+  // other page it links to the homepage, where the builder lives.
   const isProductHome = pathname === "/" || pathname === "/p1-home";
-  const targetId = isProductHome ? "try-it" : "early-access";
 
-  const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    const el = document.getElementById(targetId);
+  const scrollToBuilder = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    const el = document.getElementById("try-it");
     if (el) {
       e.preventDefault();
       el.scrollIntoView({ behavior: "smooth", block: "start" });
       window.setTimeout(() => {
-        const input = isProductHome
-          ? el.querySelector<HTMLTextAreaElement>("textarea")
-          : el.querySelector<HTMLInputElement>('input[type="email"]');
-        input?.focus({ preventScroll: true });
+        el.querySelector<HTMLTextAreaElement>("textarea")?.focus({ preventScroll: true });
       }, 600);
     }
   };
 
+  const ctaClass =
+    "group ml-2 inline-flex items-center gap-1.5 font-bold text-[var(--navy-deep)] bg-white hover:bg-[var(--navy-deep)] hover:text-white focus-visible:bg-[var(--navy-deep)] focus-visible:text-white shadow-sm hover:shadow-md transition-all px-4 py-1.5 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]";
+
   return (
     <div
       role="region"
-      aria-label="Early access announcement"
+      aria-label="Trip planner announcement"
       className="sticky top-0 z-50 w-full text-white text-xs sm:text-sm"
       style={{
         backgroundColor: "var(--blue-bright)",
@@ -46,21 +45,26 @@ export function HelloBar() {
           {/* Decorative lead-in: desktop only. On mobile it's dropped so the CTA
               and the auth links fit a phone width without overlapping. */}
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
-          <a
-            href={`#${targetId}`}
-            onClick={handleCta}
-            aria-label={
-              isProductHome
-                ? "Assemble my trip, jump to the trip builder"
-                : "Get early access, jump to the waitlist signup"
-            }
-            className="group ml-2 inline-flex items-center gap-1.5 font-bold text-[var(--navy-deep)] bg-white hover:bg-[var(--navy-deep)] hover:text-white focus-visible:bg-[var(--navy-deep)] focus-visible:text-white shadow-sm hover:shadow-md transition-all px-4 py-1.5 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--blue-bright)]"
-          >
-            {isProductHome ? "Assemble my trip" : "Get early access"}
-            <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
-              →
-            </span>
-          </a>
+          {isProductHome ? (
+            <a
+              href="#try-it"
+              onClick={scrollToBuilder}
+              aria-label="Assemble my trip, jump to the trip builder"
+              className={ctaClass}
+            >
+              Assemble my trip
+              <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+                →
+              </span>
+            </a>
+          ) : (
+            <Link to="/" aria-label="Assemble my trip, go to the trip builder" className={ctaClass}>
+              Assemble my trip
+              <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+                →
+              </span>
+            </Link>
+          )}
         </p>
 
         {/* Auth entry points, top right. Skipped while auth state loads to avoid

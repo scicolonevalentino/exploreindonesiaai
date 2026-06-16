@@ -1,14 +1,11 @@
 import { useServerFn } from "@tanstack/react-start";
-import { useRouterState } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Instagram } from "lucide-react";
 import { DESTINATION_CONTENT } from "@/data/destinations";
 import { Logo } from "@/components/Logo";
 import { toast } from "sonner";
-import { joinWaitlist } from "@/lib/waitlist.functions";
 import { sendContactMessage } from "@/lib/contact.functions";
-import { trackEvent } from "@/lib/analytics-events";
 import { sanityClient } from "@/lib/sanity";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 import {
@@ -40,217 +37,6 @@ function validateEmail(raw: string): string | null {
   if (local.length > 64) return "The part before \u201C@\u201D is too long.";
   if (!EMAIL_RE.test(value)) return "That email doesn't look right. Check for typos.";
   return null;
-}
-
-function EmailCapture() {
-  const { data: settings } = useSiteSettings();
-  const [email, setEmail] = useState("");
-  const [website, setWebsite] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
-  const [errorMsg, setErrorMsg] = useState("");
-  const [touched, setTouched] = useState(false);
-  const mountedAtRef = useRef<number>(Date.now());
-  const sectionRef = useRef<HTMLElement>(null);
-  const submit = useServerFn(joinWaitlist);
-
-  useEffect(() => {
-    mountedAtRef.current = Date.now();
-  }, []);
-
-  // Fire a one-time "viewed" event when the signup section scrolls into view, so
-  // GA4 can measure the form's funnel (views → submits → successes). Until now
-  // nothing on this form was tracked, so we could never tell whether "clicks with
-  // no signups" meant a broken form or just people not filling it in.
-  useEffect(() => {
-    const el = sectionRef.current;
-    if (!el || typeof IntersectionObserver === "undefined") return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((entry) => entry.isIntersecting)) {
-          trackEvent("waitlist_view");
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.5 },
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  const liveError = touched ? validateEmail(email) : null;
-  const showError = status === "error" || !!liveError;
-  const message =
-    status === "error" ? errorMsg || "Couldn't sign you up. Try again." : (liveError ?? "");
-
-  const onSubmit = async (e: FormEvent) => {
-    e.preventDefault();
-    if (status === "loading" || status === "done") return;
-    setTouched(true);
-    const validationError = validateEmail(email);
-    if (validationError) {
-      setStatus("error");
-      setErrorMsg(validationError);
-      trackEvent("waitlist_submit_error", { reason: "client_validation" });
-      return;
-    }
-    setStatus("loading");
-    setErrorMsg("");
-    try {
-      const result = await submit({
-        data: {
-          email: email.trim(),
-          website,
-          elapsedMs: Date.now() - mountedAtRef.current,
-        },
-      });
-      setStatus("done");
-      trackEvent("waitlist_submit_success", {
-        already_subscribed: !!result?.alreadySubscribed,
-      });
-      toast.success(
-        result?.alreadySubscribed
-          ? "You're already on the list, we'll keep you posted."
-          : "You're on the list! Check your inbox soon.",
-      );
-    } catch (err) {
-      setStatus("error");
-      const raw = err instanceof Error ? err.message : "";
-      const reason = /too many/i.test(raw)
-        ? "rate_limited"
-        : /disposable/i.test(raw)
-          ? "disposable_email"
-          : /invalid.*email|email/i.test(raw) && raw.length < 200
-            ? "invalid_email"
-            : "server_error";
-      const friendly =
-        reason === "rate_limited"
-          ? "Too many attempts. Please try again in a minute."
-          : reason === "disposable_email"
-            ? "Please use a non-disposable email address."
-            : reason === "invalid_email"
-              ? "That email doesn't look right. Check for typos."
-              : "Couldn't sign you up. Please try again.";
-      setErrorMsg(friendly);
-      toast.error(friendly);
-      trackEvent("waitlist_submit_error", { reason });
-    }
-  };
-
-  return (
-    <section
-      ref={sectionRef}
-      id="early-access"
-      className="w-full px-6 py-20 sm:py-28 scroll-mt-16"
-      style={{ backgroundColor: "var(--navy-mid)" }}
-    >
-      <div className="mx-auto max-w-2xl text-center">
-        {settings?.tagline && (
-          <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-white/60 mb-4">
-            {settings.tagline}
-          </p>
-        )}
-        {/* Styled like a heading but rendered as a <p>: this is a site-wide
-            footer CTA that appears under every article, so keeping it out of the
-            page's heading outline avoids polluting each article's H2 structure. */}
-        <p className="font-serif text-white text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-          Almost ready.
-          {/* Always break after "Almost ready." so it sits on its own line. */}
-          <br /> Be the first to book your <span className="whitespace-nowrap">
-            AI itinerary
-          </span>{" "}
-          to Indonesia.
-        </p>
-
-        <form
-          onSubmit={onSubmit}
-          noValidate
-          className="mt-8 flex flex-col sm:flex-row gap-3 max-w-xl mx-auto"
-        >
-          <div
-            aria-hidden="true"
-            style={{
-              position: "absolute",
-              left: "-10000px",
-              top: "auto",
-              width: 1,
-              height: 1,
-              overflow: "hidden",
-            }}
-          >
-            <label>
-              Website
-              <input
-                type="text"
-                tabIndex={-1}
-                autoComplete="off"
-                value={website}
-                onChange={(e) => setWebsite(e.target.value)}
-              />
-            </label>
-          </div>
-
-          <input
-            type="email"
-            inputMode="email"
-            autoComplete="email"
-            spellCheck={false}
-            required
-            maxLength={254}
-            value={email}
-            onChange={(e) => {
-              setEmail(e.target.value);
-              if (status === "error") {
-                setStatus("idle");
-                setErrorMsg("");
-              }
-            }}
-            onBlur={() => setTouched(true)}
-            placeholder="Enter your best email here"
-            disabled={status === "loading" || status === "done"}
-            aria-invalid={showError || undefined}
-            aria-describedby="email-help"
-            aria-label="Email address"
-            className={`flex-1 px-5 py-3.5 rounded-lg bg-white text-base outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-70 ${
-              showError ? "ring-2 ring-red-400" : ""
-            }`}
-            style={{ color: "var(--navy-mid)" }}
-          />
-          <button
-            type="submit"
-            disabled={status === "loading" || status === "done"}
-            className="px-6 py-3.5 rounded-lg font-semibold text-white text-base transition-opacity hover:opacity-90 whitespace-nowrap disabled:opacity-70"
-            style={{ backgroundColor: "var(--blue-bright)" }}
-          >
-            {status === "done"
-              ? "You're on the list ✓"
-              : status === "loading"
-                ? "Adding…"
-                : "Get early access →"}
-          </button>
-        </form>
-
-        {status === "done" ? (
-          <p
-            id="email-help"
-            role="status"
-            aria-live="polite"
-            className="mt-5 text-sm text-emerald-300"
-          >
-            🎉 Thanks! You're on the list, we'll email you as soon as early access opens.
-          </p>
-        ) : (
-          <p
-            id="email-help"
-            role={showError ? "alert" : undefined}
-            aria-live="polite"
-            className={`mt-5 text-xs ${showError ? "text-red-300" : "text-white/55"}`}
-          >
-            {showError ? message : "No spam. Just updates when the booking experience is ready."}
-          </p>
-        )}
-      </div>
-    </section>
-  );
 }
 
 function FooterBar() {
@@ -586,14 +372,5 @@ function FooterBar() {
 }
 
 export function SiteFooter() {
-  const pathname = useRouterState({ select: (s) => s.location.pathname });
-  // The waitlist capture is for content/marketing pages; on the planner and
-  // auth/account surfaces the user is already in the product.
-  const hideWaitlist = ["/", "/p1", "/p1-home", "/login", "/account"].includes(pathname);
-  return (
-    <>
-      {!hideWaitlist && <EmailCapture />}
-      <FooterBar />
-    </>
-  );
+  return <FooterBar />;
 }
