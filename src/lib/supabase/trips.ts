@@ -20,6 +20,7 @@ export type SavedTripRow = {
   prompt: string | null;
   trip_json: SavedTripPayload;
   created_at: string;
+  ai_edits_used?: number | null;
 };
 
 export async function saveTrip(args: {
@@ -68,5 +69,33 @@ export async function listTrips(): Promise<SavedTripRow[]> {
 export async function deleteTrip(id: string): Promise<void> {
   const supabase = getSupabaseBrowserClient();
   const { error } = await supabase.from("saved_trips").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// Fetch a single saved trip by id (RLS scopes to the owner). Used by the Pro
+// edit view.
+export async function getTrip(id: string): Promise<SavedTripRow | null> {
+  const supabase = getSupabaseBrowserClient();
+  const { data, error } = await supabase
+    .from("saved_trips")
+    .select("id,title,prompt,trip_json,created_at,ai_edits_used")
+    .eq("id", id)
+    .maybeSingle();
+  if (error) throw error;
+  return (data as unknown as SavedTripRow) ?? null;
+}
+
+// Overwrite a saved trip's itinerary after an AI edit. Resets the booking
+// toggles (item keys shift when the plan changes) and keeps the title in sync.
+export async function updateTripItinerary(
+  id: string,
+  args: { trip: Trip; insights: Insight[] },
+): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  const payload: SavedTripPayload = { trip: args.trip, insights: args.insights, added: [] };
+  const { error } = await supabase
+    .from("saved_trips")
+    .update({ title: args.trip.title, trip_json: payload })
+    .eq("id", id);
   if (error) throw error;
 }

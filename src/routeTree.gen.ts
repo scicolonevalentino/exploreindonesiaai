@@ -21,6 +21,7 @@ import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
+import { Route as EditIdRouteImport } from './routes/edit.$id'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
 import { Route as ApiTripEditRouteImport } from './routes/api/trip/edit'
@@ -91,6 +92,11 @@ const TripsSlugRoute = TripsSlugRouteImport.update({
   path: '/trips/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EditIdRoute = EditIdRouteImport.update({
+  id: '/edit/$id',
+  path: '/edit/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
   id: '/destinations/$destination',
   path: '/destinations/$destination',
@@ -150,6 +156,7 @@ export interface FileRoutesByFullPath {
   '/terms': typeof TermsRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/edit/$id': typeof EditIdRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
@@ -173,6 +180,7 @@ export interface FileRoutesByTo {
   '/terms': typeof TermsRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/edit/$id': typeof EditIdRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
@@ -197,6 +205,7 @@ export interface FileRoutesById {
   '/terms': typeof TermsRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/edit/$id': typeof EditIdRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
@@ -222,6 +231,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/edit/$id'
     | '/trips/$slug'
     | '/trips/'
     | '/api/account/delete'
@@ -245,6 +255,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/edit/$id'
     | '/trips/$slug'
     | '/trips'
     | '/api/account/delete'
@@ -268,6 +279,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/edit/$id'
     | '/trips/$slug'
     | '/trips/'
     | '/api/account/delete'
@@ -292,6 +304,7 @@ export interface RootRouteChildren {
   TermsRoute: typeof TermsRoute
   AuthCallbackRoute: typeof AuthCallbackRoute
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
+  EditIdRoute: typeof EditIdRoute
   TripsSlugRoute: typeof TripsSlugRoute
   TripsIndexRoute: typeof TripsIndexRoute
   ApiAccountDeleteRoute: typeof ApiAccountDeleteRoute
@@ -389,6 +402,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TripsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/edit/$id': {
+      id: '/edit/$id'
+      path: '/edit/$id'
+      fullPath: '/edit/$id'
+      preLoaderRoute: typeof EditIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/destinations/$destination': {
       id: '/destinations/$destination'
       path: '/destinations/$destination'
@@ -468,6 +488,7 @@ const rootRouteChildren: RootRouteChildren = {
   TermsRoute: TermsRoute,
   AuthCallbackRoute: AuthCallbackRoute,
   DestinationsDestinationRoute: DestinationsDestinationRoute,
+  EditIdRoute: EditIdRoute,
   TripsSlugRoute: TripsSlugRoute,
   TripsIndexRoute: TripsIndexRoute,
   ApiAccountDeleteRoute: ApiAccountDeleteRoute,
