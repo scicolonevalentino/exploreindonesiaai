@@ -18,6 +18,7 @@ import {
   Lightbulb,
   Loader2,
   Lock,
+  Mic,
   ShieldCheck,
   Ship,
   Sparkles,
@@ -27,6 +28,7 @@ import {
 import { trackEvent } from "@/lib/analytics-events";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
+import { useSpeechToText } from "@/hooks/useSpeechToText";
 import { countGenerationsToday, logGeneration } from "@/lib/supabase/generations";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 import { tripStops, type StopExperience } from "@/lib/trip/places";
@@ -432,6 +434,18 @@ function InputStage({
   const trimmedLength = value.trim().length;
   const canSubmit = trimmedLength >= MIN_PASTE_LENGTH;
 
+  // Voice-to-text: dictate the prompt via the browser Web Speech API. The mic is
+  // hidden where the browser can't do it (e.g. Firefox). Transcript is appended
+  // to whatever's already typed, so the user can mix typing and speaking.
+  const { status: micStatus, toggle: toggleMic } = useSpeechToText((text) => {
+    onChange(value ? `${value} ${text}` : text);
+  });
+  useEffect(() => {
+    if (micStatus === "error") {
+      toast.error("Couldn't hear you. Check microphone permission and try again.");
+    }
+  }, [micStatus]);
+
   // Upload an itinerary file (Word/Excel). Parsed in-browser via the lazily
   // imported extractor; only the resulting text is placed into the textarea so
   // the user sees and can edit exactly what the model will read.
@@ -521,15 +535,36 @@ function InputStage({
           <label htmlFor="p1-paste" className="block text-sm font-bold mb-3">
             Drop your itinerary, or describe your trip
           </label>
-          <textarea
-            id="p1-paste"
-            value={value}
-            onChange={(e) => onChange(e.target.value)}
-            placeholder="e.g. 10 days in Bali and the Gili Islands in July, couple, mid-range, love snorkeling and food, or paste a full itinerary here"
-            rows={10}
-            className="w-full text-sm sm:text-[15px] leading-6 p-4 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
-            style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
-          />
+          <div className="relative">
+            <textarea
+              id="p1-paste"
+              value={value}
+              onChange={(e) => onChange(e.target.value)}
+              placeholder="e.g. 10 days in Bali and the Gili Islands in July, couple, mid-range, love snorkeling and food, or paste a full itinerary here"
+              rows={10}
+              className="w-full text-sm sm:text-[15px] leading-6 p-4 pr-14 rounded-lg border bg-white/70 whitespace-pre-wrap resize-y focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)] focus:border-transparent"
+              style={{ borderColor: "var(--border-cream)", color: "var(--navy-deep)" }}
+            />
+            {micStatus !== "unsupported" && (
+              <button
+                type="button"
+                onClick={toggleMic}
+                aria-pressed={micStatus === "listening"}
+                aria-label={micStatus === "listening" ? "Stop dictation" : "Speak your trip"}
+                title={micStatus === "listening" ? "Listening… tap to stop" : "Speak your trip"}
+                className={`absolute bottom-3 right-3 inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition-colors ${
+                  micStatus === "listening" ? "text-white animate-pulse" : "bg-white border"
+                }`}
+                style={
+                  micStatus === "listening"
+                    ? { backgroundColor: "#ef4444" }
+                    : { borderColor: "var(--border-cream)", color: "var(--navy-deep)" }
+                }
+              >
+                <Mic className="h-5 w-5" aria-hidden />
+              </button>
+            )}
+          </div>
 
           {/* Upload an itinerary file. Parsed in-browser; only the extracted
               text is dropped into the textarea above, the file is never sent. */}
