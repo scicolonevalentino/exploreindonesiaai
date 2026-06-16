@@ -836,8 +836,7 @@ export function BrowseByDestination() {
               style={{ borderColor: "var(--border-cream)" }}
             >
               <span
-                className="font-serif text-lg font-semibold leading-snug transition-colors group-hover:text-white group-focus-visible:text-white"
-                style={{ color: "var(--navy-deep)" }}
+                className="font-sans text-lg font-semibold leading-snug text-[var(--navy-deep)] transition-colors group-hover:text-white group-focus-visible:text-white"
               >
                 {d.name}
               </span>
