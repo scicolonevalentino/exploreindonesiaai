@@ -176,18 +176,23 @@ export function Hero() {
           className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
           style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          Have you planned your trip to Indonesia?
+          Have you planned your trip to{" "}
+          <span
+            style={{
+              backgroundImage: "linear-gradient(transparent 60%, var(--blue-bright) 60%)",
+              WebkitBoxDecorationBreak: "clone",
+              boxDecorationBreak: "clone",
+            }}
+          >
+            Indonesia
+          </span>
+          ?
           <br />
-          <span className="font-normal text-white">
+          <span className="font-normal italic md:whitespace-nowrap">
             We make it{" "}
             <span
-              className="whitespace-nowrap"
               style={{
-                backgroundColor: "var(--blue-bright)",
-                color: "var(--navy-deep)",
-                padding: "0 0.18em",
-                borderRadius: "0.1em",
-                textShadow: "none",
+                backgroundImage: "linear-gradient(transparent 60%, var(--blue-bright) 60%)",
                 WebkitBoxDecorationBreak: "clone",
                 boxDecorationBreak: "clone",
               }}
