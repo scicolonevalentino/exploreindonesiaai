@@ -6,6 +6,16 @@ import { getCreditBalance } from "@/lib/supabase/credits";
 import type { ItineraryItem, Insight, Trip } from "@/lib/trip/types";
 import { trackEvent } from "@/lib/analytics-events";
 import { Button } from "@/components/ui/button";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/edit/$id")({
@@ -37,6 +47,7 @@ function EditPage() {
   // After an edit, which items changed vs the previous version (by global index),
   // so the user can see what the AI actually did.
   const [changes, setChanges] = useState<Map<number, "new" | "updated">>(new Map());
+  const [confirmOpen, setConfirmOpen] = useState(false);
 
   useEffect(() => {
     if (!loading && !user) navigate({ to: "/login" });
@@ -166,12 +177,31 @@ function EditPage() {
       // edits. Match by (normalized) title: a title not seen before is "new",
       // a same-title item with a different description is "updated".
       const norm = (s: string) => s.trim().toLowerCase();
+      // Word-set similarity, so trivial rewording isn't flagged as a change —
+      // only a substantially different description counts as "updated".
+      const wordsOf = (s: string) =>
+        new Set(
+          (s ?? "")
+            .toLowerCase()
+            .replace(/[^a-z0-9 ]/g, "")
+            .split(/\s+/)
+            .filter(Boolean),
+        );
+      const substantiallyDifferent = (a: string, b: string) => {
+        const wa = wordsOf(a);
+        const wb = wordsOf(b);
+        if (wa.size === 0 && wb.size === 0) return false;
+        const union = new Set([...wa, ...wb]).size;
+        const inter = [...wa].filter((w) => wb.has(w)).length;
+        return union ? inter / union < 0.6 : false; // <60% overlap = real change
+      };
       const prevByTitle = new Map(prevItems.map((it) => [norm(it.title), it]));
       const changeMap = new Map<number, "new" | "updated">();
       items.forEach((it, i) => {
         const prev = prevByTitle.get(norm(it.title));
         if (!prev) changeMap.set(i, "new");
-        else if ((prev.description ?? "") !== (it.description ?? "")) changeMap.set(i, "updated");
+        else if (substantiallyDifferent(prev.description ?? "", it.description ?? ""))
+          changeMap.set(i, "updated");
       });
       setChanges(changeMap);
 
@@ -187,6 +217,22 @@ function EditPage() {
       setEditing(false);
     }
   }, [instruction, editing, id, locked, navigate, trip]);
+
+  // Gate before spending: the free first edit runs straight away; a paid edit
+  // asks for confirmation, or routes to /credits when the wallet is empty.
+  const handleApply = useCallback(() => {
+    if (instruction.trim().length < 3 || editing) return;
+    if (freeNext) {
+      void runEdit();
+      return;
+    }
+    if (balance !== null && balance < 1) {
+      toast.error("You're out of credits. Top up to keep refining.");
+      navigate({ to: "/credits" });
+      return;
+    }
+    setConfirmOpen(true);
+  }, [instruction, editing, freeNext, balance, runEdit, navigate]);
 
   const save = useCallback(async () => {
     if (!trip) return;
@@ -256,15 +302,40 @@ function EditPage() {
                 : "Nothing locked"}
             </span>
             <Button
-              onClick={() => void runEdit()}
+              onClick={handleApply}
               disabled={editing || instruction.trim().length < 3}
               className="text-white font-semibold"
               style={{ backgroundColor: "#7c3aed" }}
             >
-              {editing ? "Refining…" : "✦ Apply with AI"}
+              {editing ? "Refining…" : freeNext ? "✦ Apply with AI (free)" : "✦ Apply with AI"}
             </Button>
           </div>
         </div>
+
+        <AlertDialog open={confirmOpen} onOpenChange={setConfirmOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Use 1 credit for this edit?</AlertDialogTitle>
+              <AlertDialogDescription>
+                Refining this trip will use 1 credit. You have {balance ?? 0} credit
+                {balance === 1 ? "" : "s"} left. Changing one thing or several in this prompt still
+                counts as a single edit.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction
+                onClick={() => {
+                  setConfirmOpen(false);
+                  void runEdit();
+                }}
+                style={{ backgroundColor: "#7c3aed" }}
+              >
+                Use 1 credit
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
 
         {dirty && (
           <div className="mt-4 flex items-center justify-between gap-3 rounded-xl bg-white p-3 shadow-sm">
