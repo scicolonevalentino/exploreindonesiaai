@@ -485,16 +485,16 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       "How to get from Yogyakarta to Mount Bromo. Why most travellers book a 2-day tour rather than the long same-day drive, with time and price estimates.",
     focusKeyword: "yogyakarta to mount bromo",
     summary:
-      "It is a long drive, about 8 hours each way, so almost everyone does it as a 2-day tour rather than a same-day round trip.",
+      "It is a long drive, about 8 to 10 hours each way, so almost everyone does it as a 2-day tour rather than a same-day round trip.",
     recommendation:
-      "Book a 2-day, 1-night package rather than attempting a brutal same-day return. The drive is roughly 8 hours each way and the Bromo sunrise jeep leaves around 3am. Go in the dry season, April to October, for clear skies. Pricing varies widely between per-vehicle and per-person packages, so treat figures as a range.",
+      "Book a 2-day, 1-night package rather than attempting a brutal same-day return. The drive is roughly 8 to 10 hours each way and the Bromo sunrise jeep leaves around 3am. Go in the dry season, April to October, for clear skies. Private tours are priced per car, not per person, so the per-person cost drops sharply with a group; solo travellers are better off on a shared join-in tour.",
     modes: [
       {
         mode: "private-car",
         label: "Private car or 2-day tour",
-        durationText: "About 8 hours of driving each way, usually split over 2 days",
+        durationText: "About 8 to 10 hours of driving each way, usually split over 2 days",
         priceUsdText:
-          "Around $230 to $320 per vehicle, or about $120 to $250 and up per person packaged (working estimate)",
+          "Around $215 to $290 per car (up to 4 people), so roughly $55 to $150 per person by group size (working estimate)",
         frequencyText: "On demand",
         bookingPartner: "klook",
         notes:
@@ -513,12 +513,12 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "How long does it take to get from Yogyakarta to Bromo?",
         answer:
-          "About 7 to 8 hours of driving one way, which is why it is usually done as a 2-day trip rather than a single day.",
+          "About 8 to 10 hours of driving one way, which is why it is usually done as a 2-day trip rather than a single day.",
       },
       {
         question: "How much does it cost?",
         answer:
-          "As a working estimate, around $230 to $320 per car, or roughly $120 to $250 and up per person on a package.",
+          "As a working estimate, a private 2-day tour is around $215 to $290 per car for up to four people, which works out to roughly $55 to $150 per person depending on group size. Solo travellers do better on a shared tour.",
       },
       {
         question: "Is it reliable?",
@@ -546,20 +546,20 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       "How to get from the Gili Islands to Nusa Penida. Direct boats versus connecting through Bali, with times, price estimates and the connection risk.",
     focusKeyword: "gili islands to nusa penida",
     summary:
-      "A few seasonal services run semi-direct in about 2.5 to 4 hours, but many travellers connect through Bali. This is the most fragile route in the region.",
+      "Operators sell a through-ticket in about 2 to 4 hours, but there is no genuine non-stop sailing: boats from the Gilis must clear port at Bangsal or route via a Bali hub, so it is really a timed connection. This is the most fragile route in the region.",
     recommendation:
-      "Book a through-ticketed operator that connects the Gilis to Nusa Penida in one booking, so a single company owns the connection. Build in a buffer, since the Gili to Bali open-water leg is the rough part and a delay can break the onward Nusa Penida boat. True direct sailings are seasonal and thin, so check the exact day's schedule.",
+      "Book a through-ticketed operator that connects the Gilis to Nusa Penida in one booking, so a single company owns the connection. Do not expect an uninterrupted direct boat: port rules force a clearance or transfer stop on the way. Build in a buffer, since the open-water leg is the rough part and a delay can break the onward Nusa Penida boat. Many travellers simply route through a Bali port instead.",
     modes: [
       {
         mode: "fast-boat",
-        label: "Direct or semi-direct fast boat",
-        durationText: "About 2.5 to 4 hours",
+        label: "Through-ticket (with a clearance or transfer stop)",
+        durationText: "About 2 to 4 hours, including the mandatory port stop",
         priceUsdText: "Around $35 to $60 (working estimate)",
-        frequencyText: "1 to 2 daily, seasonal",
+        frequencyText: "Limited daily, seasonal and weather dependent",
         bookingPartner: "12go",
         bookingUrl: TWELVEGO,
         notes:
-          "Direct services are thin and seasonal, so verify the schedule before relying on it.",
+          "Sold as direct, but it always involves a port-clearance or transfer stop. Services are thin and seasonal, so verify the day's schedule.",
       },
       {
         mode: "fast-boat",
@@ -683,8 +683,8 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         mode: "public-ferry",
         label: "Express ferry (Sorong to Waisai)",
         durationText: "About 2 hours",
-        priceUsdText: "Around $8 to $15 (working estimate)",
-        frequencyText: "Roughly 2 daily, around 9am and 2pm",
+        priceUsdText: "Around $6 to $10 (economy to VIP, working estimate)",
+        frequencyText: "Roughly 2 daily; times shift periodically, so confirm locally",
         bookingPartner: null,
         notes: "Tickets are cash at the port counter, with no online booking.",
       },
@@ -698,12 +698,12 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "How much does it cost?",
         answer:
-          "As a working estimate, around $120 to $250 and up for the flight, plus about $8 to $15 for the ferry.",
+          "As a working estimate, around $120 to $250 and up for the flight, plus about $6 to $10 for the ferry (economy to VIP).",
       },
       {
         question: "Is the ferry reliable?",
         answer:
-          "Yes, it runs roughly twice a day, but tickets are cash at the counter only and the last boat is around 2pm.",
+          "Yes, it runs roughly twice a day, but tickets are cash at the counter only and the last boat is in the early afternoon. Departure times shift periodically, so confirm locally and take an early Bali flight to make the connection.",
       },
       {
         question: "Anything else to plan for?",
@@ -944,18 +944,20 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       "How to get from Labuan Bajo to Kelimutu across Flores. Why it is a multi-day overland journey, not a transfer, with realistic time and cost.",
     focusKeyword: "labuan bajo to kelimutu",
     summary:
-      "This is a journey, not a transfer. The drive is 10 to 12 hours each way, so realistically it is a 4 to 7 day overland trip across Flores.",
+      "This is a journey, not a transfer. It is about 545km broken into daily 3 to 6 hour driving legs, so realistically a 5 to 7 day overland trip across Flores, not one long drive.",
     recommendation:
-      "Do not treat this as a quick hop. Book a 4 to 5 day private overland tour, ideally longer, that breaks the journey at Ruteng and Bajawa and times Kelimutu's coloured lakes for sunrise. Pricing is almost always quoted on request and depends on group size and days, so treat figures as indicative. Many travellers fly one leg between Ende and Labuan Bajo to skip the return drive.",
+      "Do not treat this as a quick hop. Book a 5 to 7 day private overland tour that breaks the journey at Ruteng, Bajawa and Riung and times Kelimutu's coloured lakes for sunrise. Private cars are priced per day, not per person, so the cost drops sharply with a group. Pricing is usually quoted on request. Many travellers fly one leg between Ende and Labuan Bajo to skip the return drive.",
     modes: [
       {
         mode: "private-car",
         label: "Private car and driver, multi-day overland",
-        durationText: "10 to 12 hours of driving each way, done over 4 to 7 days",
-        priceUsdText: "Around $300 to $500 and up per person (working estimate, quoted on request)",
+        durationText: "Daily 3 to 6 hour legs over 5 to 7 days (about 545km total)",
+        priceUsdText:
+          "Around $30 to $65 per day for the car; a 6 to 7 day trip totals roughly $300 to $550 and up per person, less with a group (working estimate)",
         frequencyText: "On request",
         bookingPartner: "viator",
-        notes: "Roads are paved but slow and winding, with landslide risk in the wet season.",
+        notes:
+          "Roads are paved but slow and winding, with landslide risk in the wet season. Hotels and meals are often extra on driver-only deals.",
       },
       {
         mode: "shared-shuttle",
@@ -971,12 +973,12 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "How long does it take?",
         answer:
-          "About 10 to 12 hours of driving each way, so it is realistically a 4 to 7 day trip, not a single travel day.",
+          "There is no single long leg: it is about 545km split into daily 3 to 6 hour drives, so realistically a 5 to 7 day trip with stops, not a single travel day.",
       },
       {
         question: "How much does it cost?",
         answer:
-          "As a working estimate, around $300 to $500 and up per person for a multi-day private tour. Most operators quote on request.",
+          "As a working estimate, the private car runs about $30 to $65 per day, so a 6 to 7 day overland trip totals roughly $300 to $550 and up per person, dropping with a larger group. Most operators quote on request.",
       },
       {
         question: "Is it reliable?",
@@ -1005,25 +1007,28 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
     summary:
       "You can fly to Bima in about 1 hour 15 minutes, or take a chain of ferries and a bus over a full day or more. The flight is far faster.",
     recommendation:
-      "Fly to Bima if you are going deep into Sumbawa, since the overland route is three separate legs over a full day. Take the ferry chain only if you are island-hopping slowly or heading just to west Sumbawa. Ferry pricing varies, so treat quotes as approximate.",
+      "Fly to Bima if you are going deep into eastern Sumbawa, since the overland route is three separate legs over a full day. For western Sumbawa, flying to Sumbawa Besar is an option. Take the ferry chain only if you are island-hopping slowly. Use the standard slow public ferries, not the pricier fast boats, to keep it cheap.",
     modes: [
       {
         mode: "flight",
         label: "Domestic flight (DPS to Bima)",
-        durationText: "About 1 hour 15 to 20 minutes",
-        priceUsdText: "Around $65 to $120 one way (working estimate)",
+        durationText: "About 1 hour 15 minutes",
+        priceUsdText: "Around $60 to $110 one way (working estimate)",
         frequencyText: "Roughly daily",
         bookingPartner: null,
+        notes: "Bima serves eastern Sumbawa; for the west, Sumbawa Besar is the closer airport.",
       },
       {
         mode: "public-ferry",
-        label: "Multi-leg ferry and bus via Lombok",
-        durationText: "A full day or more",
-        priceUsdText: "Around $20 to $40 total (working estimate)",
-        frequencyText: "Multiple daily crossings",
+        label: "Slow public ferries and bus via Lombok",
+        durationText: "The better part of a day or more",
+        priceUsdText:
+          "Around $15 to $35 total: about $3 to $5 Padangbai to Lembar, road across Lombok, then $4 to $7 Kayangan to Poto Tano (working estimate)",
+        frequencyText: "Frequent crossings on both ferry legs",
         bookingPartner: "12go",
         bookingUrl: TWELVEGO,
-        notes: "Two ferry crossings plus a long bus, so only worth it for budget or slow travel.",
+        notes:
+          "Use the standard slow public ferries, not the marketed fast boats, which are a pricier product.",
       },
     ],
     faqs: [
@@ -1035,7 +1040,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "How much does it cost?",
         answer:
-          "As a working estimate, around $65 to $120 to fly, or roughly $20 to $40 total via ferries and bus.",
+          "As a working estimate, around $60 to $110 to fly, or roughly $15 to $35 total via the slow public ferries and a bus. The cheap figure is the public ferry, not the marketed fast boat.",
       },
       {
         question: "Is the ferry route reliable?",
