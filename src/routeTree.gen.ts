@@ -23,6 +23,7 @@ import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
+import { Route as ApiTripEditRouteImport } from './routes/api/trip/edit'
 import { Route as ApiStripeWebhookRouteImport } from './routes/api/stripe/webhook'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
@@ -100,6 +101,11 @@ const AuthCallbackRoute = AuthCallbackRouteImport.update({
   path: '/auth/callback',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiTripEditRoute = ApiTripEditRouteImport.update({
+  id: '/api/trip/edit',
+  path: '/api/trip/edit',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiStripeWebhookRoute = ApiStripeWebhookRouteImport.update({
   id: '/api/stripe/webhook',
   path: '/api/stripe/webhook',
@@ -152,6 +158,7 @@ export interface FileRoutesByFullPath {
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
+  '/api/trip/edit': typeof ApiTripEditRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -174,6 +181,7 @@ export interface FileRoutesByTo {
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
+  '/api/trip/edit': typeof ApiTripEditRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -197,6 +205,7 @@ export interface FileRoutesById {
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
+  '/api/trip/edit': typeof ApiTripEditRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -221,6 +230,7 @@ export interface FileRouteTypes {
     | '/api/public/link-health'
     | '/api/public/match-trip'
     | '/api/stripe/webhook'
+    | '/api/trip/edit'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -243,6 +253,7 @@ export interface FileRouteTypes {
     | '/api/public/link-health'
     | '/api/public/match-trip'
     | '/api/stripe/webhook'
+    | '/api/trip/edit'
   id:
     | '__root__'
     | '/'
@@ -265,6 +276,7 @@ export interface FileRouteTypes {
     | '/api/public/link-health'
     | '/api/public/match-trip'
     | '/api/stripe/webhook'
+    | '/api/trip/edit'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -288,6 +300,7 @@ export interface RootRouteChildren {
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
   ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
   ApiStripeWebhookRoute: typeof ApiStripeWebhookRoute
+  ApiTripEditRoute: typeof ApiTripEditRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -390,6 +403,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthCallbackRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/trip/edit': {
+      id: '/api/trip/edit'
+      path: '/api/trip/edit'
+      fullPath: '/api/trip/edit'
+      preLoaderRoute: typeof ApiTripEditRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/stripe/webhook': {
       id: '/api/stripe/webhook'
       path: '/api/stripe/webhook'
@@ -456,6 +476,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
   ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,
   ApiStripeWebhookRoute: ApiStripeWebhookRoute,
+  ApiTripEditRoute: ApiTripEditRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
