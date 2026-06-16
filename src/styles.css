@@ -269,3 +269,15 @@
     display: none;
   }
 }
+
+/* Transport hub: the long tail of non-featured routes stays in the DOM (so it's
+   crawlable) but is visually collapsed until "show all" is clicked. max-height
+   (not display:none) keeps the links indexable. */
+.route-extra {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+.route-extra.open {
+  max-height: 2400px;
+}
