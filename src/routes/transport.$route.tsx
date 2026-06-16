@@ -1,5 +1,4 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { useQuery, queryOptions } from "@tanstack/react-query";
 import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
@@ -8,10 +7,10 @@ import type { SanityImage } from "@/lib/sanity-queries";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
 import { TwelveGoBanner } from "@/components/TwelveGoBanner";
 
-// Related itineraries that use this route — pulled live from Sanity so titles
-// (and the header background image) stay accurate. Graceful: if the fetch fails
-// or returns nothing, the related section is omitted and the header falls back
-// to the plain gradient.
+// Related itineraries that use this route, fetched server-side in the loader so
+// the titles AND the header hero image land in the SSR HTML (no client-side
+// flash). Wrapped in try/catch so a Sanity outage degrades gracefully (no
+// related section, plain gradient header) instead of breaking the page.
 type RelatedTrip = {
   _id: string;
   title: string;
@@ -22,28 +21,28 @@ const RELATED_TRIPS_QUERY = groq`*[
   _type == "article" && contentStatus == "live" && slug.current in $slugs
 ]{ _id, title, slug, heroImage }`;
 
-const relatedTripsQO = (slugs: string[]) =>
-  queryOptions({
-    queryKey: ["sanity", "transportRelatedTrips", slugs],
-    queryFn: () =>
-      slugs.length
-        ? sanityClient.fetch<RelatedTrip[]>(RELATED_TRIPS_QUERY, { slugs })
-        : Promise.resolve([]),
-    staleTime: 5 * 60_000,
-  });
+type LoaderData = { route: TransportRoute; relatedTrips: RelatedTrip[] };
 
 export const Route = createFileRoute("/transport/$route")({
-  loader: ({ params }) => {
+  loader: async ({ params }): Promise<LoaderData> => {
     const r = findRouteBySlug(params.route);
     // "todo" rows are backlog stubs, not publishable pages.
     if (!r || r.status === "todo") throw notFound();
-    // The related-itineraries fetch is intentionally NOT awaited here: it pulls
-    // from Sanity, and a Sanity outage must never block the static route content.
-    // It loads client-side via useQuery and the section is omitted if it fails.
-    return r;
+    let relatedTrips: RelatedTrip[] = [];
+    try {
+      relatedTrips = r.relatedTripSlugs.length
+        ? await sanityClient.fetch<RelatedTrip[]>(RELATED_TRIPS_QUERY, {
+            slugs: r.relatedTripSlugs,
+          })
+        : [];
+    } catch {
+      // A Sanity outage must never block the static route content.
+      relatedTrips = [];
+    }
+    return { route: r, relatedTrips };
   },
   head: ({ params, loaderData }) => {
-    const r = (loaderData as TransportRoute | undefined) ?? findRouteBySlug(params.route);
+    const r = (loaderData as LoaderData | undefined)?.route ?? findRouteBySlug(params.route);
     if (!r) return {};
     const url = `https://exploreindonesia.ai/transport/${r.slug}`;
     return {
@@ -77,8 +76,7 @@ export const Route = createFileRoute("/transport/$route")({
 });
 
 function TransportPage() {
-  const r = Route.useLoaderData() as TransportRoute;
-  const { data: relatedTrips = [] } = useQuery(relatedTripsQO(r.relatedTripSlugs));
+  const { route: r, relatedTrips } = Route.useLoaderData() as LoaderData;
 
   // Header background: reuse the hero image of a related itinerary so transport
   // pages stay visually coherent with the rest of the site. Falls back to the

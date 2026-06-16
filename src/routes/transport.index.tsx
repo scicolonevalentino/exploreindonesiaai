@@ -151,18 +151,25 @@ function TransportHub() {
         </div>
 
         {!showAll && REST.length > 0 && (
-          <button
-            type="button"
-            onClick={() => setShowAll(true)}
-            className="group mt-5 inline-flex items-center gap-1.5 text-sm font-medium"
-            style={{ color: "var(--teal-link)" }}
-          >
-            <span style={{ color: "var(--slate-muted)" }}>Lombok, Java, Flores, Sumatra and</span>{" "}
-            {REST.length} more routes
-            <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
-              →
-            </span>
-          </button>
+          <div className="mt-6 text-center">
+            <button
+              type="button"
+              onClick={() => setShowAll(true)}
+              className="group text-sm font-medium leading-relaxed"
+              style={{ color: "var(--teal-link)" }}
+            >
+              <span style={{ color: "var(--slate-muted)" }}>
+                Also from Lombok, Java, Flores and Sumatra.{" "}
+              </span>
+              Show all {LISTED.length} routes
+              <span
+                aria-hidden
+                className="ml-1 inline-block transition-transform group-hover:translate-x-0.5"
+              >
+                →
+              </span>
+            </button>
+          </div>
         )}
       </main>
     </div>
