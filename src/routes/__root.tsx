@@ -149,8 +149,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { property: "og:image", content: SOCIAL_PREVIEW_IMAGE },
         { name: "twitter:card", content: "summary" },
         { name: "twitter:site", content: "@ExploreIndonesiaAI" },
-        { name: "twitter:title", content: title },
-        { name: "twitter:description", content: description },
+        // twitter:title / twitter:description intentionally omitted — X/Twitter
+        // falls back to og:title / og:description, which are page-specific and
+        // richer than the generic site title. Keep card/site/image here.
         { name: "twitter:image", content: SOCIAL_PREVIEW_IMAGE },
       ],
       links: [
