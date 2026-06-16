@@ -41,12 +41,11 @@ export function HelloBar() {
         boxShadow: "0 1px 12px rgba(20,184,166,0.35)",
       }}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 relative flex items-center justify-center gap-3">
-        <p className="text-center leading-snug font-medium pr-24 sm:pr-0">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2.5 relative flex items-center justify-between sm:justify-center gap-2 sm:gap-3">
+        <p className="min-w-0 text-center leading-snug font-medium">
+          {/* Decorative lead-in: desktop only. On mobile it's dropped so the CTA
+              and the auth links fit a phone width without overlapping. */}
           <span className="hidden sm:inline">Plan your Indonesia trip. Book it in minutes. </span>
-          <span className="sm:hidden">
-            {isProductHome ? "Plan your trip. " : "Launching soon. "}
-          </span>
           <a
             href={`#${targetId}`}
             onClick={handleCta}
@@ -69,7 +68,7 @@ export function HelloBar() {
         {!loading && (
           <nav
             aria-label="Account"
-            className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 flex items-center gap-2 sm:gap-3"
+            className="shrink-0 flex items-center gap-2 sm:gap-3 sm:absolute sm:right-6 sm:top-1/2 sm:-translate-y-1/2"
           >
             {user ? (
               <Link

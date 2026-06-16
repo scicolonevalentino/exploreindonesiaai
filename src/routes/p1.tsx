@@ -387,7 +387,13 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
     >
       {!embedded && <AuthStatus />}
       {stage === "input" && (
-        <InputStage value={prompt} onChange={setPrompt} onStart={buildTrip} error={error} embedded={embedded} />
+        <InputStage
+          value={prompt}
+          onChange={setPrompt}
+          onStart={buildTrip}
+          error={error}
+          embedded={embedded}
+        />
       )}
       {stage === "building" && <BuildingStage />}
       {stage === "trip" && trip && (
@@ -502,8 +508,8 @@ function InputStage({
               We make it <span className="whitespace-nowrap">ready-to-book</span>
             </p>
             <p className="text-base sm:text-lg max-w-2xl mx-auto text-white/80 mb-10">
-              Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a
-              structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
+              Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into
+              a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.
             </p>
           </>
         )}
