@@ -553,7 +553,9 @@ function InputStage({
                 aria-label={micStatus === "listening" ? "Stop dictation" : "Speak your trip"}
                 title={micStatus === "listening" ? "Listening… tap to stop" : "Speak your trip"}
                 className={`absolute bottom-3 right-3 inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition-colors ${
-                  micStatus === "listening" ? "text-white animate-pulse" : "bg-white border"
+                  micStatus === "listening"
+                    ? "text-white animate-pulse motion-reduce:animate-none"
+                    : "bg-white border"
                 }`}
                 style={
                   micStatus === "listening"
@@ -564,6 +566,11 @@ function InputStage({
                 <Mic className="h-5 w-5" aria-hidden />
               </button>
             )}
+            {/* Announce listening state to screen readers (the red pulse is
+                visual-only). */}
+            <span className="sr-only" role="status" aria-live="polite">
+              {micStatus === "listening" ? "Listening, speak now." : ""}
+            </span>
           </div>
 
           {/* Upload an itinerary file. Parsed in-browser; only the extracted

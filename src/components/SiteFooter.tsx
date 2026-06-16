@@ -127,7 +127,7 @@ function FooterBar() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-10">
           <Logo className="text-xl sm:text-2xl" />
-          <p className="mt-3 text-sm text-white/60">
+          <p className="mt-3 text-sm text-white/75">
             AI itinerary planning, powered by real experiences.
           </p>
         </div>
@@ -140,7 +140,7 @@ function FooterBar() {
                 <li key={d.slug}>
                   <a
                     href={`/destinations/${d.slug}`}
-                    className="text-white/60 hover:text-white transition-colors"
+                    className="text-white/75 hover:text-white transition-colors"
                   >
                     {d.name}
                   </a>
@@ -153,17 +153,17 @@ function FooterBar() {
             <p className="font-semibold text-white mb-4">Plan</p>
             <ul className="space-y-2.5">
               <li>
-                <a href="/p1" className="text-white/60 hover:text-white transition-colors">
+                <a href="/p1" className="text-white/75 hover:text-white transition-colors">
                   Trip planner
                 </a>
               </li>
               <li>
-                <a href="/trips" className="text-white/60 hover:text-white transition-colors">
+                <a href="/trips" className="text-white/75 hover:text-white transition-colors">
                   All itineraries
                 </a>
               </li>
               <li>
-                <a href="/account" className="text-white/60 hover:text-white transition-colors">
+                <a href="/account" className="text-white/75 hover:text-white transition-colors">
                   My account
                 </a>
               </li>
@@ -174,12 +174,12 @@ function FooterBar() {
             <p className="font-semibold text-white mb-4">Quick Links</p>
             <ul className="space-y-2.5">
               <li>
-                <a href="/privacy" className="text-white/60 hover:text-white transition-colors">
+                <a href="/privacy" className="text-white/75 hover:text-white transition-colors">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="/terms" className="text-white/60 hover:text-white transition-colors">
+                <a href="/terms" className="text-white/75 hover:text-white transition-colors">
                   Terms
                 </a>
               </li>
@@ -194,7 +194,7 @@ function FooterBar() {
                   <DialogTrigger asChild>
                     <button
                       type="button"
-                      className="text-white/60 hover:text-white transition-colors"
+                      className="text-white/75 hover:text-white transition-colors"
                     >
                       Contact
                     </button>
@@ -350,7 +350,7 @@ function FooterBar() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Follow ExploreIndonesia.ai on Instagram"
-                  className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors"
+                  className="inline-flex items-center gap-2 text-white/75 hover:text-white transition-colors"
                 >
                   <Instagram className="w-4 h-4" aria-hidden="true" />
                   Instagram
@@ -360,7 +360,7 @@ function FooterBar() {
           </nav>
         </div>
 
-        <p className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 leading-relaxed">
+        <p className="mt-10 pt-6 border-t border-white/10 text-xs text-white/70 leading-relaxed">
           {(settings?.footerText ?? `© ${new Date().getFullYear()} exploreindonesia.ai`)
             .replace(/\s*We may earn a commission[^.]*\.\s*/gi, " ")
             .replace(/\s+/g, " ")

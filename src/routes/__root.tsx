@@ -228,9 +228,20 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <JsonLd data={ORGANIZATION_JSONLD} />
       <JsonLd data={WEBSITE_JSONLD} />
+      {/* Keyboard skip link: first focusable element, hidden until focused, lets
+          keyboard/screen-reader users jump past the sticky bar straight to the
+          page content. */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-[var(--navy-deep)] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-[var(--blue-bright)]"
+      >
+        Skip to main content
+      </a>
       <HelloBar />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <div id="main-content" tabIndex={-1} className="outline-none">
+        <Outlet />
+      </div>
       <SiteFooter />
       <Toaster />
     </QueryClientProvider>
