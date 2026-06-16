@@ -14,6 +14,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { FerryRoutesDivider } from "@/components/FerryRoutesDivider";
 
 // Hero background videos are self-hosted from public/ (served at the site root).
 // Previously these came from Lovable's /__l5e asset runtime, but after the
@@ -835,9 +836,7 @@ export function BrowseByDestination() {
               className="group rounded-2xl border-2 bg-white px-5 py-6 text-center transition-all duration-200 ease-out hover:-translate-y-1 hover:border-[var(--teal-link)] hover:bg-[var(--teal-link)] hover:shadow-xl focus:outline-none focus-visible:-translate-y-1 focus-visible:border-[var(--teal-link)] focus-visible:bg-[var(--teal-link)] focus-visible:shadow-xl"
               style={{ borderColor: "var(--border-cream)" }}
             >
-              <span
-                className="font-sans text-lg font-semibold leading-snug text-[var(--navy-deep)] transition-colors group-hover:text-white group-focus-visible:text-white"
-              >
+              <span className="font-sans text-lg font-semibold leading-snug text-[var(--navy-deep)] transition-colors group-hover:text-white group-focus-visible:text-white">
                 {d.name}
               </span>
             </Link>
@@ -857,6 +856,7 @@ function Landing() {
       <Trust />
       <Inspiration />
       <BrowseByDestination />
+      <FerryRoutesDivider />
     </main>
   );
 }

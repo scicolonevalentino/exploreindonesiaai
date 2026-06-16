@@ -184,6 +184,11 @@ function FooterBar() {
                 </a>
               </li>
               <li>
+                <a href="/transport" className="text-white/75 hover:text-white transition-colors">
+                  Getting around
+                </a>
+              </li>
+              <li>
                 <Dialog
                   open={open}
                   onOpenChange={(o) => {

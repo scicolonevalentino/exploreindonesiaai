@@ -201,3 +201,71 @@
     animation: none;
   }
 }
+
+/* Ferry-routes divider: a light "current" glint that travels along the wave
+   toward the CTA. The overlay path uses pathLength=1, so the dash + offset are
+   in fractions of the line. */
+@keyframes ferry-flow {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ferry-flow-line {
+  stroke-dasharray: 0.12 0.88;
+  animation: ferry-flow 3s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ferry-flow-line {
+    display: none;
+  }
+}
+
+/* Transport hub: kinetic headline cycling through route names. Six phrases,
+   2.5s each -> 15s loop; delays are set per-span inline. */
+@keyframes route-cycle {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  2% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  14% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  16.6% {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.route-kin {
+  position: relative;
+  height: 2.6rem;
+}
+.route-kin > span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+  animation: route-cycle 15s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-kin > span {
+    animation: none;
+  }
+  .route-kin > span:not(:first-child) {
+    display: none;
+  }
+}

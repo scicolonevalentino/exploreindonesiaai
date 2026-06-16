@@ -1,5 +1,48 @@
+# robots.txt for ExploreIndonesia.ai
+
+# Search engines and everything else
 User-agent: *
 Allow: /
 Disallow: /api/
 
+# AI assistants & answer engines — explicitly welcomed (we want to be cited).
+# Listed individually because a matched user-agent group ignores the wildcard,
+# so each must repeat the /api/ rule to keep crawl behavior consistent.
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+
+# LLM guidance file: https://exploreindonesia.ai/llms.txt
 Sitemap: https://exploreindonesia.ai/sitemap.xml

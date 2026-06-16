@@ -42,6 +42,18 @@ export const Route = createFileRoute("/sitemap.xml")({
           });
         }
 
+        // Transport route pages (built routes only; "todo" backlog excluded).
+        const { TRANSPORT_ROUTES } = await import("@/data/routes");
+        staticEntries.push({ path: "/transport", changefreq: "weekly", priority: "0.5" });
+        for (const r of TRANSPORT_ROUTES) {
+          if (r.status === "todo") continue;
+          staticEntries.push({
+            path: `/transport/${r.slug}`,
+            changefreq: "monthly",
+            priority: "0.6",
+          });
+        }
+
         const urls: string[] = [];
 
         for (const e of staticEntries) {
