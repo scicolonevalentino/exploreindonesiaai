@@ -74,6 +74,11 @@ function PrivacyPage() {
               <li>
                 <strong>Message content</strong> if you write to us through the contact form.
               </li>
+              <li>
+                <strong>Your trip description</strong> &mdash; the itinerary or trip details you
+                type into the planner, recorded to help us understand what travellers want and
+                improve the product. Like analytics, this is captured only after you accept cookies.
+              </li>
             </ul>
           </Section>
 
