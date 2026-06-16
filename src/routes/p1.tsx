@@ -28,6 +28,7 @@ import {
 import { trackEvent } from "@/lib/analytics-events";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
+import { capturePrompt } from "@/lib/prompt-capture";
 import { useSpeechToText } from "@/hooks/useSpeechToText";
 import { countGenerationsToday, logGeneration } from "@/lib/supabase/generations";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
@@ -255,6 +256,9 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         return;
       }
     }
+
+    // Capture the submitted prompt for product insight (consent-gated, best-effort).
+    capturePrompt(prompt);
 
     setError(null);
     setStage("building");
