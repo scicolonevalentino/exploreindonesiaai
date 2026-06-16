@@ -36,3 +36,11 @@ dist-ssr
 
 # link audit output
 reports/
+
+# Google Indexing API service-account key — NEVER commit
+indexing-service-account.json
+*service-account*.json
+.secrets/
+
+# Local Claude Code session dir
+.claude/
