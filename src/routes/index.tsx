@@ -178,8 +178,22 @@ export function Hero() {
         >
           Have you planned your trip to Indonesia?
           <br />
-          <span className="italic font-normal" style={{ color: "var(--gold-warm)" }}>
-            We make it <span className="whitespace-nowrap">ready-to-book</span>
+          <span className="font-normal text-white">
+            We make it{" "}
+            <span
+              className="whitespace-nowrap"
+              style={{
+                backgroundColor: "var(--blue-bright)",
+                color: "var(--navy-deep)",
+                padding: "0 0.18em",
+                borderRadius: "0.1em",
+                textShadow: "none",
+                WebkitBoxDecorationBreak: "clone",
+                boxDecorationBreak: "clone",
+              }}
+            >
+              ready-to-book
+            </span>
           </span>
         </h1>
 
