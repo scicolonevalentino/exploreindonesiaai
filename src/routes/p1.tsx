@@ -1073,12 +1073,15 @@ function TripStage({
         )}
       </section>
 
-      {/* Inline totals + CTA. While prices are still resolving (matching) the bar is
-          LOCKED: the estimated total isn't final yet and the PDF would be incomplete,
-          so Save & Download stays disabled until matching finishes. */}
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16">
+      {/* Sticky totals + CTA bar: pins to the bottom of the viewport while the
+          traveller scrolls the itinerary, then settles at the end. Stays in flow
+          (sticky, not fixed) so the embedded homepage variant doesn't overlap the
+          footer. While prices are still resolving (matching) the bar is LOCKED: the
+          estimated total isn't final yet and the PDF would be incomplete, so
+          Save & Download stays disabled until matching finishes. */}
+      <div className="sticky bottom-3 sm:bottom-4 z-30 mx-auto max-w-6xl px-4 sm:px-6 pb-6 pt-2">
         <div
-          className="rounded-2xl border bg-white px-6 py-5 flex flex-wrap items-center justify-between gap-4 transition-opacity"
+          className="rounded-2xl border bg-white/95 backdrop-blur px-6 py-5 flex flex-wrap items-center justify-between gap-4 shadow-[0_8px_30px_-8px_rgba(6,45,42,0.35)] transition-opacity"
           style={{ borderColor: "var(--border-cream)", opacity: matching ? 0.8 : 1 }}
         >
           <div className="text-sm">

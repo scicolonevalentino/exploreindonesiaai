@@ -166,8 +166,8 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
         <p
-          className="text-xs sm:text-sm font-medium uppercase tracking-[0.25em] mb-6"
-          style={{ color: "var(--blue-soft)", textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
+          className="text-xs sm:text-sm font-bold uppercase tracking-[0.25em] mb-6 text-white"
+          style={{ textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
         >
           AI itinerary planning, powered by real experiences
         </p>
@@ -832,11 +832,11 @@ export function BrowseByDestination() {
               key={d.slug}
               to="/destinations/$destination"
               params={{ destination: d.slug }}
-              className="group rounded-2xl border bg-white px-5 py-6 text-center transition-shadow hover:shadow-lg"
+              className="group rounded-2xl border-2 bg-white px-5 py-6 text-center transition-all duration-200 ease-out hover:-translate-y-1 hover:border-[var(--teal-link)] hover:bg-[var(--teal-link)] hover:shadow-xl focus:outline-none focus-visible:-translate-y-1 focus-visible:border-[var(--teal-link)] focus-visible:bg-[var(--teal-link)] focus-visible:shadow-xl"
               style={{ borderColor: "var(--border-cream)" }}
             >
               <span
-                className="font-serif text-lg font-semibold leading-snug group-hover:underline underline-offset-4"
+                className="font-serif text-lg font-semibold leading-snug transition-colors group-hover:text-white group-focus-visible:text-white"
                 style={{ color: "var(--navy-deep)" }}
               >
                 {d.name}
