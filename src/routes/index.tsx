@@ -68,13 +68,13 @@ const articlesQO = queryOptions({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "exploreindonesia.ai, Turn your Indonesia itinerary into a bookable trip" },
+      { title: "AI Indonesia Trip Planner | exploreindonesia.ai" },
       {
         name: "description",
         content:
           "Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.",
       },
-      { property: "og:title", content: "exploreindonesia.ai, Indonesia AI Trip Planner" },
+      { property: "og:title", content: "AI Indonesia Trip Planner | exploreindonesia.ai" },
       {
         property: "og:description",
         content: "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
