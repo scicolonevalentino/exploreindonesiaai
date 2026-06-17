@@ -190,8 +190,9 @@ export function Hero() {
           ?
           <br />
           <span className="font-normal italic md:whitespace-nowrap">
-            We make it{" "}
+            We make it <br className="md:hidden" />
             <span
+              className="whitespace-nowrap"
               style={{
                 backgroundImage: "linear-gradient(transparent 60%, var(--blue-bright) 60%)",
                 WebkitBoxDecorationBreak: "clone",
