@@ -248,7 +248,11 @@ async function main() {
     // borrowed itinerary pool. Used where we have genuine destination photos
     // (e.g. Sumatra), so re-seeds keep them instead of reverting to a borrow.
     if (g.imageRef) {
-      g._heroImage = { _type: "image", asset: { _type: "reference", _ref: g.imageRef } };
+      g._heroImage = {
+        _type: "image",
+        asset: { _type: "reference", _ref: g.imageRef },
+        ...(g.imageAlt ? { alt: g.imageAlt } : {}),
+      };
       continue;
     }
     const pool = poolByDest[g.destination] || poolByDest.bali || [];

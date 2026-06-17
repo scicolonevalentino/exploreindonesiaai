@@ -239,7 +239,7 @@ function DestinationInner() {
                             .fit("crop")
                             .auto("format")
                             .url()}
-                          alt={g.title}
+                          alt={g.heroImage?.alt ?? g.title}
                           loading="lazy"
                           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                         />
