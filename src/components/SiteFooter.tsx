@@ -126,7 +126,9 @@ function FooterBar() {
     >
       <div className="mx-auto max-w-6xl">
         <div className="mb-10">
-          <Logo className="text-xl sm:text-2xl" />
+          <a href="/" aria-label="exploreindonesia.ai home" className="inline-block">
+            <Logo className="text-xl sm:text-2xl" />
+          </a>
           <p className="mt-3 text-sm text-white/75">
             AI itinerary planning, powered by real experiences.
           </p>

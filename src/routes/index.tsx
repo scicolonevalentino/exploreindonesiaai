@@ -162,7 +162,9 @@ export function Hero() {
       />
 
       <div className="absolute top-6 left-6 sm:top-8 sm:left-10 z-10">
-        <Logo />
+        <Link to="/" aria-label="exploreindonesia.ai home" className="inline-block">
+          <Logo />
+        </Link>
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-32 text-center">
