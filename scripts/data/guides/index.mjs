@@ -7,6 +7,7 @@ import { komodoFloresGuides } from "./komodo-flores.mjs";
 import { nusaPenidaGuides } from "./nusa-penida.mjs";
 import { rajaAmpatGuides } from "./raja-ampat.mjs";
 import { javaGuides } from "./java.mjs";
+import { sumatraGuides } from "./sumatra.mjs";
 
 export const GUIDES = [
   ...baliGuides,
@@ -15,4 +16,5 @@ export const GUIDES = [
   ...nusaPenidaGuides,
   ...rajaAmpatGuides,
   ...javaGuides,
+  ...sumatraGuides,
 ];

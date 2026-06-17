@@ -223,11 +223,19 @@ async function main() {
   // (bali_nearby_islands) has few articles, so its pool is topped up with Bali
   // images, which are visually coherent for the same island region. alt/caption
   // are dropped; the components label the image with the guide title.
+  //
+  // Multi-region itineraries (slug contains "indonesia", e.g.
+  // 14-days-indonesia-bali-java-komodo) carry marquee heroes of OTHER islands
+  // (Borobudur, Raja Ampat karst, etc.), so they're excluded from the pool — they
+  // produced off-theme cards (a Java temple on a Bali "where to stay" guide).
   const arts = await sanityQuery(
-    `*[_type=="article" && contentStatus=="live" && defined(heroImage.asset)] | order(slug.current asc){ "dest": destinationPrimary, heroImage }`,
+    `*[_type=="article" && contentStatus=="live" && defined(heroImage.asset)] | order(slug.current asc){ "slug": slug.current, "dest": destinationPrimary, heroImage }`,
   );
   const poolByDest = {};
-  for (const a of arts) (poolByDest[a.dest] ||= []).push(a.heroImage);
+  for (const a of arts) {
+    if (/indonesia/.test(a.slug)) continue; // skip multi-region marquee heroes
+    (poolByDest[a.dest] ||= []).push(a.heroImage);
+  }
   if (poolByDest.bali) {
     poolByDest.bali_nearby_islands = [
       ...(poolByDest.bali_nearby_islands || []),
