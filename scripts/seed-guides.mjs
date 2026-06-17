@@ -244,6 +244,13 @@ async function main() {
   }
   const destCounter = {};
   for (const g of guides) {
+    // Explicit, hand-picked image (a real uploaded Sanity asset) wins over the
+    // borrowed itinerary pool. Used where we have genuine destination photos
+    // (e.g. Sumatra), so re-seeds keep them instead of reverting to a borrow.
+    if (g.imageRef) {
+      g._heroImage = { _type: "image", asset: { _type: "reference", _ref: g.imageRef } };
+      continue;
+    }
     const pool = poolByDest[g.destination] || poolByDest.bali || [];
     if (!pool.length) continue;
     const i = destCounter[g.destination] || 0;

@@ -5,6 +5,7 @@ export const sumatraGuides = [
   {
     slug: "best-time-to-visit-sumatra",
     destination: "sumatra",
+    imageRef: "image-12e5c7ce53b566748d1ae8d2fe0b9fd2d3cd26b9-1600x1071-webp",
     guideType: "best_time",
     title: "Best Time to Visit Sumatra",
     status: "live",
@@ -72,6 +73,7 @@ export const sumatraGuides = [
   {
     slug: "things-to-do-in-sumatra",
     destination: "sumatra",
+    imageRef: "image-fbee53b873cb614378a95ac143d4a8aa0f60226a-615x407-png",
     guideType: "things_to_do",
     title: "Things to Do in Sumatra",
     status: "live",
@@ -136,6 +138,7 @@ export const sumatraGuides = [
   {
     slug: "bukit-lawang-orangutan-trekking-guide",
     destination: "sumatra",
+    imageRef: "image-917efde275e3c6d6da3c6d0f3b04ab972e4da39d-1600x1067-webp",
     guideType: "activity_guide",
     subArea: "Bukit Lawang",
     title: "Bukit Lawang Orangutan Trekking Guide",
@@ -207,6 +210,7 @@ export const sumatraGuides = [
   {
     slug: "lake-toba-guide",
     destination: "sumatra",
+    imageRef: "image-05607237f5325a519af793ffdea3a98da7704e1f-1024x683-webp",
     guideType: "activity_guide",
     subArea: "Lake Toba",
     title: "Lake Toba Guide: Samosir Island and Batak Culture",
