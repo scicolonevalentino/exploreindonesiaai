@@ -19,10 +19,7 @@ export async function setCdnCache(seconds = 300) {
   if (!import.meta.env.SSR) return;
   try {
     const { setResponseHeader } = await import("@tanstack/react-start/server");
-    setResponseHeader(
-      "Cache-Control",
-      `public, max-age=0, s-maxage=${seconds}, must-revalidate`,
-    );
+    setResponseHeader("Cache-Control", `public, max-age=0, s-maxage=${seconds}, must-revalidate`);
   } catch {
     /* no-op: keep rendering even if the header can't be set */
   }
