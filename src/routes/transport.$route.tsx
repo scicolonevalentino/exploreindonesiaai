@@ -3,8 +3,9 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
-import type { SanityImage } from "@/lib/sanity-queries";
+import { GUIDES_BY_SLUGS_QUERY, type SanityImage, type GuideListItem } from "@/lib/sanity-queries";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
+import { findDestinationByValue } from "@/data/destinations";
 import { TwelveGoBanner } from "@/components/TwelveGoBanner";
 
 // Related itineraries that use this route, fetched server-side in the loader so
@@ -21,7 +22,11 @@ const RELATED_TRIPS_QUERY = groq`*[
   _type == "article" && contentStatus == "live" && slug.current in $slugs
 ]{ _id, title, slug, heroImage }`;
 
-type LoaderData = { route: TransportRoute; relatedTrips: RelatedTrip[] };
+type LoaderData = {
+  route: TransportRoute;
+  relatedTrips: RelatedTrip[];
+  relatedGuides: GuideListItem[];
+};
 
 export const Route = createFileRoute("/transport/$route")({
   loader: async ({ params }): Promise<LoaderData> => {
@@ -29,17 +34,24 @@ export const Route = createFileRoute("/transport/$route")({
     // "todo" rows are backlog stubs, not publishable pages.
     if (!r || r.status === "todo") throw notFound();
     let relatedTrips: RelatedTrip[] = [];
+    let relatedGuides: GuideListItem[] = [];
     try {
-      relatedTrips = r.relatedTripSlugs.length
-        ? await sanityClient.fetch<RelatedTrip[]>(RELATED_TRIPS_QUERY, {
-            slugs: r.relatedTripSlugs,
-          })
-        : [];
+      [relatedTrips, relatedGuides] = await Promise.all([
+        r.relatedTripSlugs.length
+          ? sanityClient.fetch<RelatedTrip[]>(RELATED_TRIPS_QUERY, { slugs: r.relatedTripSlugs })
+          : Promise.resolve([]),
+        r.relatedGuideSlugs?.length
+          ? sanityClient.fetch<GuideListItem[]>(GUIDES_BY_SLUGS_QUERY, {
+              slugs: r.relatedGuideSlugs,
+            })
+          : Promise.resolve([]),
+      ]);
     } catch {
       // A Sanity outage must never block the static route content.
       relatedTrips = [];
+      relatedGuides = [];
     }
-    return { route: r, relatedTrips };
+    return { route: r, relatedTrips, relatedGuides };
   },
   head: ({ params, loaderData }) => {
     const r = (loaderData as LoaderData | undefined)?.route ?? findRouteBySlug(params.route);
@@ -76,7 +88,7 @@ export const Route = createFileRoute("/transport/$route")({
 });
 
 function TransportPage() {
-  const { route: r, relatedTrips } = Route.useLoaderData() as LoaderData;
+  const { route: r, relatedTrips, relatedGuides } = Route.useLoaderData() as LoaderData;
 
   // Header background: reuse the hero image of a related itinerary so transport
   // pages stay visually coherent with the rest of the site. Falls back to the
@@ -277,6 +289,42 @@ function TransportPage() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </section>
+        )}
+
+        {/* Destination guides — deeper reading for either end of the route */}
+        {relatedGuides.length > 0 && (
+          <section
+            className="mt-10 rounded-2xl border p-6 sm:p-8"
+            style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
+          >
+            <h2
+              className="font-serif text-xl sm:text-2xl font-semibold mb-2"
+              style={{ color: "var(--navy-deep)" }}
+            >
+              Plan around the journey
+            </h2>
+            <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
+              Where to stay, when to go, and what to do at either end.
+            </p>
+            <ul className="flex flex-col gap-3">
+              {relatedGuides.map((g) => {
+                const dest = g.destination ? findDestinationByValue(g.destination) : undefined;
+                if (!dest) return null;
+                return (
+                  <li key={g._id}>
+                    <Link
+                      to="/destinations/$destination/$slug"
+                      params={{ destination: dest.slug, slug: g.slug.current }}
+                      className="inline-flex items-center font-medium underline underline-offset-2"
+                      style={{ color: "var(--teal-link)" }}
+                    >
+                      {g.title} →
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </section>
         )}

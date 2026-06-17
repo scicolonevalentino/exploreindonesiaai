@@ -8,16 +8,20 @@ import { JsonLd } from "@/components/JsonLd";
 import {
   ARTICLE_BY_SLUG_QUERY,
   RELATED_ARTICLES_QUERY,
+  GUIDES_BY_DESTINATION_QUERY,
   DESTINATIONS,
   TRIP_LENGTHS,
   TRAVEL_STYLES,
   VIBES,
+  GUIDE_TYPES,
   labelFor,
   type Article,
   type ArticleListItem,
   type AffiliateLink,
   type FaqItem,
+  type GuideListItem,
 } from "@/lib/sanity-queries";
+import { findDestinationByValue } from "@/data/destinations";
 
 const articleQO = (slug: string) =>
   queryOptions({
@@ -45,6 +49,21 @@ const relatedQO = (
         travelStylePrimary: travelStylePrimary ?? "",
         tripLengthBucket: tripLengthBucket ?? "",
       }),
+    staleTime: 5 * 60_000,
+  });
+
+// Supporting guides for this trip's destination cluster (best-time, where-to-stay,
+// etc.). Surfaced as cross-links so an itinerary reader can go deeper on the
+// destination. Resolved in the loader so the links render in the server HTML.
+const guidesForDestQO = (destinationPrimary?: string) =>
+  queryOptions({
+    queryKey: ["sanity", "guidesForDest", destinationPrimary],
+    queryFn: () =>
+      destinationPrimary
+        ? sanityClient.fetch<GuideListItem[]>(GUIDES_BY_DESTINATION_QUERY, {
+            destination: destinationPrimary,
+          })
+        : Promise.resolve([]),
     staleTime: 5 * 60_000,
   });
 
@@ -200,9 +219,12 @@ export const Route = createFileRoute("/trips/$slug")({
     const a = await context.queryClient.ensureQueryData(articleQO(params.slug));
     // Resolve related articles in the loader so the internal links render in the
     // server HTML (crawlers and AI engines that don't execute JS can see them).
-    await context.queryClient.ensureQueryData(
-      relatedQO(params.slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
-    );
+    await Promise.all([
+      context.queryClient.ensureQueryData(
+        relatedQO(params.slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
+      ),
+      context.queryClient.ensureQueryData(guidesForDestQO(a.destinationPrimary)),
+    ]);
     return a;
   },
   head: ({ loaderData, params }) => {
@@ -359,6 +381,7 @@ function ArticleInner() {
   const { data: related = [] } = useQuery(
     relatedQO(slug, a.destinationPrimary, a.travelStylePrimary, a.tripLengthBucket),
   );
+  const { data: destGuides = [] } = useQuery(guidesForDestQO(a.destinationPrimary));
   const readingMinutes = useMemo(() => calcReadingTime(a.body), [a.body]);
   const jsonLd = useMemo(() => buildTripJsonLd(a, slug), [a, slug]);
 
@@ -717,6 +740,8 @@ function ArticleInner() {
 
           <FaqSection items={a.faq ?? []} />
 
+          <DestinationGuides guides={destGuides} destinationPrimary={a.destinationPrimary} />
+
           <RelatedItineraries items={related} />
 
           <ShareButtons title={a.title} slug={a.slug?.current ?? slug} />
@@ -982,6 +1007,59 @@ function FaqSection({ items }: { items: FaqItem[] }) {
           </details>
         ))}
       </div>
+    </section>
+  );
+}
+
+function DestinationGuides({
+  guides,
+  destinationPrimary,
+}: {
+  guides: GuideListItem[];
+  destinationPrimary?: string;
+}) {
+  const dest = destinationPrimary ? findDestinationByValue(destinationPrimary) : undefined;
+  if (!dest || !guides || guides.length === 0) return null;
+  return (
+    <section
+      className="mt-16 pt-10 border-t"
+      style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+      aria-label="Destination guides"
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-[0.25em] mb-5"
+        style={{ color: "var(--teal-link)" }}
+      >
+        Go deeper
+      </p>
+      <h2
+        className="font-serif text-2xl sm:text-3xl font-semibold mb-6"
+        style={{ color: "var(--navy-deep)" }}
+      >
+        {dest.shortName} guides
+      </h2>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {guides.map((g) => (
+          <li key={g._id}>
+            <Link
+              to="/destinations/$destination/$slug"
+              params={{ destination: dest.slug, slug: g.slug.current }}
+              className="group flex flex-col rounded-xl border bg-white p-4 transition-shadow hover:shadow-md"
+              style={{ borderColor: "var(--border-cream, #e6dfd2)" }}
+            >
+              <span
+                className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-1"
+                style={{ color: "var(--teal-link)" }}
+              >
+                {labelFor(GUIDE_TYPES, g.guideType) || "Guide"}
+              </span>
+              <span className="font-medium leading-snug" style={{ color: "var(--navy-deep)" }}>
+                {g.title}
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

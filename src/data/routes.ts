@@ -56,6 +56,7 @@ export type TransportRoute = {
   modes: TransportMode[]; // every realistic way to make the trip
   faqs: RouteFaq[]; // 4-6 real questions -> FAQPage schema
   relatedTripSlugs: string[]; // /trips/<slug> itineraries that use this route
+  relatedGuideSlugs?: string[]; // /destinations/<dest>/<slug> supporting guides for endpoints
   priority: 1 | 2 | 3;
   status: "live" | "draft" | "todo";
 };
@@ -121,6 +122,11 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["10-days-bali-gili-islands", "7-days-bali-first-timers"],
+    relatedGuideSlugs: [
+      "best-time-to-visit-bali",
+      "gili-islands-comparison",
+      "best-time-to-visit-lombok",
+    ],
     priority: 1,
     status: "live",
   },
@@ -182,6 +188,11 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["10-days-bali-gili-islands", "7-days-bali-first-timers"],
+    relatedGuideSlugs: [
+      "things-to-do-in-nusa-penida",
+      "nusa-penida-vs-nusa-lembongan",
+      "best-time-to-visit-bali",
+    ],
     priority: 1,
     status: "live",
   },
@@ -251,6 +262,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-lombok-gili-islands", "10-days-bali-lombok-gili-islands"],
+    relatedGuideSlugs: ["best-time-to-visit-lombok", "where-to-stay-in-kuta-lombok"],
     priority: 1,
     status: "live",
   },
@@ -302,6 +314,11 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["5-days-labuan-bajo-komodo", "10-days-komodo-flores"],
+    relatedGuideSlugs: [
+      "best-time-to-visit-komodo",
+      "where-to-stay-in-labuan-bajo",
+      "liveaboard-vs-day-trip-labuan-bajo",
+    ],
     priority: 1,
     status: "live",
   },
@@ -361,6 +378,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-lombok-gili-islands", "10-days-bali-lombok-gili-islands"],
+    relatedGuideSlugs: ["gili-islands-comparison", "best-time-to-visit-lombok"],
     priority: 1,
     status: "live",
   },
@@ -422,6 +440,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-yogyakarta-east-java", "15-days-java-bali"],
+    relatedGuideSlugs: ["things-to-do-in-yogyakarta", "borobudur-vs-prambanan"],
     priority: 1,
     status: "live",
   },
@@ -472,6 +491,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-yogyakarta-east-java", "15-days-java-bali"],
+    relatedGuideSlugs: ["things-to-do-in-yogyakarta", "borobudur-vs-prambanan"],
     priority: 2,
     status: "live",
   },
@@ -532,6 +552,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-yogyakarta-east-java"],
+    relatedGuideSlugs: ["best-time-to-visit-mount-bromo"],
     priority: 2,
     status: "live",
   },
@@ -594,6 +615,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["10-days-bali-gili-islands"],
+    relatedGuideSlugs: ["gili-islands-comparison", "things-to-do-in-nusa-penida"],
     priority: 2,
     status: "live",
   },
@@ -652,6 +674,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["5-days-labuan-bajo-komodo", "10-days-komodo-flores"],
+    relatedGuideSlugs: ["diving-in-komodo", "liveaboard-vs-day-trip-labuan-bajo"],
     priority: 2,
     status: "live",
   },
@@ -712,6 +735,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["14-days-raja-ampat-divers", "7-days-raja-ampat-snorkeling-islands"],
+    relatedGuideSlugs: ["how-to-get-to-raja-ampat", "best-time-to-visit-raja-ampat"],
     priority: 2,
     status: "live",
   },
@@ -817,6 +841,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["7-days-yogyakarta-east-java"],
+    relatedGuideSlugs: ["best-time-to-visit-mount-bromo"],
     priority: 2,
     status: "live",
   },
@@ -992,6 +1017,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     relatedTripSlugs: ["10-days-komodo-flores"],
+    relatedGuideSlugs: ["kelimutu-guide"],
     priority: 3,
     status: "live",
   },

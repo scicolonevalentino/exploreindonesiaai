@@ -20,10 +20,12 @@ import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
 import { Route as TransportIndexRouteImport } from './routes/transport.index'
+import { Route as DestinationsIndexRouteImport } from './routes/destinations.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as TransportRouteRouteImport } from './routes/transport.$route'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
+import { Route as DestinationsDestinationSlugRouteImport } from './routes/destinations.$destination_.$slug'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
@@ -84,6 +86,11 @@ const TransportIndexRoute = TransportIndexRouteImport.update({
   path: '/transport/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DestinationsIndexRoute = DestinationsIndexRouteImport.update({
+  id: '/destinations/',
+  path: '/destinations/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TripsSlugRoute = TripsSlugRouteImport.update({
   id: '/trips/$slug',
   path: '/trips/$slug',
@@ -104,6 +111,12 @@ const AuthCallbackRoute = AuthCallbackRouteImport.update({
   path: '/auth/callback',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DestinationsDestinationSlugRoute =
+  DestinationsDestinationSlugRouteImport.update({
+    id: '/destinations/$destination_/$slug',
+    path: '/destinations/$destination/$slug',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ApiPublicMatchTripRoute = ApiPublicMatchTripRouteImport.update({
   id: '/api/public/match-trip',
   path: '/api/public/match-trip',
@@ -139,12 +152,14 @@ export interface FileRoutesByFullPath {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
+  '/destinations/': typeof DestinationsIndexRoute
   '/transport/': typeof TransportIndexRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/destinations/$destination/$slug': typeof DestinationsDestinationSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -160,12 +175,14 @@ export interface FileRoutesByTo {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
+  '/destinations': typeof DestinationsIndexRoute
   '/transport': typeof TransportIndexRoute
   '/trips': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/destinations/$destination/$slug': typeof DestinationsDestinationSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -182,12 +199,14 @@ export interface FileRoutesById {
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
+  '/destinations/': typeof DestinationsIndexRoute
   '/transport/': typeof TransportIndexRoute
   '/trips/': typeof TripsIndexRoute
   '/api/account/delete': typeof ApiAccountDeleteRoute
   '/api/public/build-trip': typeof ApiPublicBuildTripRoute
   '/api/public/link-health': typeof ApiPublicLinkHealthRoute
   '/api/public/match-trip': typeof ApiPublicMatchTripRoute
+  '/destinations/$destination_/$slug': typeof DestinationsDestinationSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -205,12 +224,14 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/transport/$route'
     | '/trips/$slug'
+    | '/destinations/'
     | '/transport/'
     | '/trips/'
     | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/destinations/$destination/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -226,12 +247,14 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/transport/$route'
     | '/trips/$slug'
+    | '/destinations'
     | '/transport'
     | '/trips'
     | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/destinations/$destination/$slug'
   id:
     | '__root__'
     | '/'
@@ -247,12 +270,14 @@ export interface FileRouteTypes {
     | '/destinations/$destination'
     | '/transport/$route'
     | '/trips/$slug'
+    | '/destinations/'
     | '/transport/'
     | '/trips/'
     | '/api/account/delete'
     | '/api/public/build-trip'
     | '/api/public/link-health'
     | '/api/public/match-trip'
+    | '/destinations/$destination_/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -269,12 +294,14 @@ export interface RootRouteChildren {
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TransportRouteRoute: typeof TransportRouteRoute
   TripsSlugRoute: typeof TripsSlugRoute
+  DestinationsIndexRoute: typeof DestinationsIndexRoute
   TransportIndexRoute: typeof TransportIndexRoute
   TripsIndexRoute: typeof TripsIndexRoute
   ApiAccountDeleteRoute: typeof ApiAccountDeleteRoute
   ApiPublicBuildTripRoute: typeof ApiPublicBuildTripRoute
   ApiPublicLinkHealthRoute: typeof ApiPublicLinkHealthRoute
   ApiPublicMatchTripRoute: typeof ApiPublicMatchTripRoute
+  DestinationsDestinationSlugRoute: typeof DestinationsDestinationSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -356,6 +383,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TransportIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/destinations/': {
+      id: '/destinations/'
+      path: '/destinations'
+      fullPath: '/destinations/'
+      preLoaderRoute: typeof DestinationsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/trips/$slug': {
       id: '/trips/$slug'
       path: '/trips/$slug'
@@ -382,6 +416,13 @@ declare module '@tanstack/react-router' {
       path: '/auth/callback'
       fullPath: '/auth/callback'
       preLoaderRoute: typeof AuthCallbackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/destinations/$destination_/$slug': {
+      id: '/destinations/$destination_/$slug'
+      path: '/destinations/$destination/$slug'
+      fullPath: '/destinations/$destination/$slug'
+      preLoaderRoute: typeof DestinationsDestinationSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/public/match-trip': {
@@ -429,12 +470,14 @@ const rootRouteChildren: RootRouteChildren = {
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TransportRouteRoute: TransportRouteRoute,
   TripsSlugRoute: TripsSlugRoute,
+  DestinationsIndexRoute: DestinationsIndexRoute,
   TransportIndexRoute: TransportIndexRoute,
   TripsIndexRoute: TripsIndexRoute,
   ApiAccountDeleteRoute: ApiAccountDeleteRoute,
   ApiPublicBuildTripRoute: ApiPublicBuildTripRoute,
   ApiPublicLinkHealthRoute: ApiPublicLinkHealthRoute,
   ApiPublicMatchTripRoute: ApiPublicMatchTripRoute,
+  DestinationsDestinationSlugRoute: DestinationsDestinationSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

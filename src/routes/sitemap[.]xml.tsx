@@ -1,12 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { sanityClient } from "@/lib/sanity";
+import { SITEMAP_GUIDES_QUERY } from "@/lib/sanity-queries";
 import groq from "groq";
 
 const BASE_URL = "https://exploreindonesia.ai";
 
 type SitemapArticle = {
   slug?: { current?: string };
+  _updatedAt?: string;
+};
+
+type SitemapGuide = {
+  slug?: string;
+  destination?: string;
   _updatedAt?: string;
 };
 
@@ -25,9 +32,17 @@ export const Route = createFileRoute("/sitemap.xml")({
           console.error("sitemap: failed to fetch articles", e);
         }
 
+        let guides: SitemapGuide[] = [];
+        try {
+          guides = await sanityClient.fetch<SitemapGuide[]>(SITEMAP_GUIDES_QUERY);
+        } catch (e) {
+          console.error("sitemap: failed to fetch guides", e);
+        }
+
         const staticEntries = [
           { path: "/", changefreq: "weekly", priority: "1.0" },
           { path: "/trips", changefreq: "weekly", priority: "0.9" },
+          { path: "/destinations", changefreq: "weekly", priority: "0.7" },
           { path: "/privacy", changefreq: "yearly", priority: "0.3" },
           { path: "/terms", changefreq: "yearly", priority: "0.3" },
         ];
@@ -41,6 +56,9 @@ export const Route = createFileRoute("/sitemap.xml")({
             priority: "0.8",
           });
         }
+
+        // Map a guide's `destination` enum value to its URL slug.
+        const destSlugByValue = new Map(DESTINATION_CONTENT.map((d) => [d.value, d.slug]));
 
         // Transport route pages (built routes only; "todo" backlog excluded).
         const { TRANSPORT_ROUTES } = await import("@/data/routes");
@@ -78,6 +96,24 @@ export const Route = createFileRoute("/sitemap.xml")({
               a._updatedAt ? `    <lastmod>${a._updatedAt}</lastmod>` : null,
               "    <changefreq>monthly</changefreq>",
               "    <priority>0.8</priority>",
+              "  </url>",
+            ]
+              .filter(Boolean)
+              .join("\n"),
+          );
+        }
+
+        // Supporting guides, nested under their destination.
+        for (const g of guides) {
+          const destSlug = g.destination ? destSlugByValue.get(g.destination) : undefined;
+          if (!g.slug || !destSlug) continue;
+          urls.push(
+            [
+              "  <url>",
+              `    <loc>${BASE_URL}/destinations/${destSlug}/${g.slug}</loc>`,
+              g._updatedAt ? `    <lastmod>${g._updatedAt}</lastmod>` : null,
+              "    <changefreq>monthly</changefreq>",
+              "    <priority>0.7</priority>",
               "  </url>",
             ]
               .filter(Boolean)

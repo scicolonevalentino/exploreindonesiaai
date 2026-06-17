@@ -82,6 +82,75 @@ export const RELATED_ARTICLES_QUERY = groq`*[
   destinationPrimary, travelStylePrimary, metaDescription
 }`;
 
+// ── Supporting guides ────────────────────────────────────────
+// Standalone editorial pages (best-time, where-to-stay, things-to-do, decision
+// guides) that sit under a destination at /destinations/<dest>/<slug>. Separate
+// `guide` doc type — NOT articles — so itinerary listings/queries stay clean.
+//
+// No contentStatus filter on the single-guide fetch so a draft can be previewed
+// by direct URL (mirrors ARTICLE_BY_SLUG_QUERY); hub/sitemap queries below filter
+// to "live". `destination` matches the DESTINATIONS enum value (e.g. "bali").
+export const GUIDE_BY_SLUG_QUERY = groq`*[
+  _type == "guide" && slug.current == $slug && destination == $destination
+][0] {
+  _id,
+  _createdAt,
+  _updatedAt,
+  title,
+  slug,
+  guideType,
+  destination,
+  subArea,
+  heroImage,
+  intro,
+  body,
+  faq[]{ question, answer },
+  author->{ name, role, bio, sameAs, image, schemaType },
+  relatedTripSlugs,
+  relatedRouteSlugs,
+  metaTitle,
+  metaDescription,
+  focusKeyword,
+  contentStatus
+}`;
+
+// Live guides for a destination hub (and trip-page cross-links).
+export const GUIDES_BY_DESTINATION_QUERY = groq`*[
+  _type == "guide" && contentStatus == "live" && destination == $destination
+] | order(guideType asc, title asc) {
+  _id, title, slug, guideType, destination, subArea, intro, metaDescription, heroImage
+}`;
+
+// Sibling guides for the "More <destination> guides" block (same cluster, not self).
+export const RELATED_GUIDES_QUERY = groq`*[
+  _type == "guide" && contentStatus == "live" && destination == $destination && slug.current != $slug
+] | order(guideType asc, title asc)[0...6] {
+  _id, title, slug, guideType, subArea, metaDescription
+}`;
+
+// Itineraries a guide links to, by explicit slug list (live only).
+export const GUIDE_RELATED_TRIPS_QUERY = groq`*[
+  _type == "article" && contentStatus == "live" && slug.current in $slugs
+] {
+  _id, title, slug, heroImage, route, tripLengthBucket, destinationPrimary, metaDescription
+}`;
+
+// Guides referenced by an explicit slug list (e.g. from a transport route),
+// live only. Returns `destination` so the URL (/destinations/<dest>/<slug>) can
+// be built client-side.
+export const GUIDES_BY_SLUGS_QUERY = groq`*[
+  _type == "guide" && contentStatus == "live" && slug.current in $slugs
+] {
+  _id, title, slug, guideType, destination
+}`;
+
+// Live guides for the sitemap.
+export const SITEMAP_GUIDES_QUERY = groq`*[
+  _type == "guide" && contentStatus == "live" && defined(slug.current) && defined(destination)
+] {
+  "slug": slug.current, destination, _updatedAt
+}`;
+
 // ── Taxonomy label maps ──────────────────────────────────────
 export const DESTINATIONS = [
   { value: "bali", label: "Bali" },
@@ -218,4 +287,42 @@ export type Article = ArticleListItem & {
   footerBanners?: string[];
   metaTitle?: string;
   focusKeyword?: string;
+};
+
+// ── Supporting guide types & labels ──────────────────────────
+export const GUIDE_TYPES = [
+  { value: "best_time", label: "Best time to visit" },
+  { value: "where_to_stay", label: "Where to stay" },
+  { value: "things_to_do", label: "Things to do" },
+  { value: "decision_guide", label: "Decision guide" },
+  { value: "comparison", label: "Comparison" },
+  { value: "activity_guide", label: "Activity guide" },
+  { value: "cost_guide", label: "Cost guide" },
+  { value: "logistics", label: "Getting there" },
+  { value: "itinerary_guide", label: "Itinerary" },
+] as const;
+
+export type GuideListItem = {
+  _id: string;
+  title: string;
+  slug: SanitySlug;
+  guideType?: string;
+  destination?: string;
+  subArea?: string;
+  intro?: string;
+  metaDescription?: string;
+  heroImage?: SanityImage;
+};
+
+export type Guide = GuideListItem & {
+  _createdAt?: string;
+  _updatedAt?: string;
+  body?: Array<Record<string, unknown>>;
+  faq?: FaqItem[];
+  author?: ArticleAuthor;
+  relatedTripSlugs?: string[];
+  relatedRouteSlugs?: string[];
+  metaTitle?: string;
+  focusKeyword?: string;
+  contentStatus?: string;
 };

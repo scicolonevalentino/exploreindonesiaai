@@ -5,7 +5,15 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
-import { DESTINATIONS, TRIP_LENGTHS, labelFor, type ArticleListItem } from "@/lib/sanity-queries";
+import {
+  DESTINATIONS,
+  TRIP_LENGTHS,
+  GUIDE_TYPES,
+  GUIDES_BY_DESTINATION_QUERY,
+  labelFor,
+  type ArticleListItem,
+  type GuideListItem,
+} from "@/lib/sanity-queries";
 import {
   DESTINATION_CONTENT,
   findDestinationBySlug,
@@ -32,11 +40,24 @@ const articlesByDestQO = (value: string) =>
     staleTime: 5 * 60_000,
   });
 
+const guidesByDestQO = (value: string) =>
+  queryOptions({
+    queryKey: ["sanity", "guidesByDestination", value],
+    queryFn: () =>
+      sanityClient.fetch<GuideListItem[]>(GUIDES_BY_DESTINATION_QUERY, {
+        destination: value,
+      }),
+    staleTime: 5 * 60_000,
+  });
+
 export const Route = createFileRoute("/destinations/$destination")({
   loader: async ({ context, params }) => {
     const dest = findDestinationBySlug(params.destination);
     if (!dest) throw notFound();
-    await context.queryClient.ensureQueryData(articlesByDestQO(dest.value));
+    await Promise.all([
+      context.queryClient.ensureQueryData(articlesByDestQO(dest.value)),
+      context.queryClient.ensureQueryData(guidesByDestQO(dest.value)),
+    ]);
     return dest;
   },
   head: ({ params, loaderData }) => {
@@ -85,6 +106,7 @@ function DestinationPage() {
 function DestinationInner() {
   const dest = Route.useLoaderData();
   const { data: articles } = useSuspenseQuery(articlesByDestQO(dest.value));
+  const { data: guides } = useSuspenseQuery(guidesByDestQO(dest.value));
 
   const destUrl = `https://exploreindonesia.ai/destinations/${dest.slug}`;
   const itemListLD = {
@@ -168,6 +190,76 @@ function DestinationInner() {
       </header>
 
       <main className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        {guides.length > 0 && (
+          <section className="mb-16">
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Read first
+            </p>
+            <h2
+              className="font-serif text-2xl sm:text-3xl font-semibold mb-6"
+              style={{ color: "var(--navy-deep)" }}
+            >
+              {dest.shortName} travel guides
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {guides.map((g) => (
+                <li key={g._id}>
+                  <Link
+                    to="/destinations/$destination/$slug"
+                    params={{ destination: dest.slug, slug: g.slug.current }}
+                    className="group flex h-full flex-col overflow-hidden rounded-2xl border bg-white transition-shadow hover:shadow-lg"
+                    style={{ borderColor: "var(--border-cream)" }}
+                  >
+                    {g.heroImage?.asset && (
+                      <div
+                        className="aspect-[16/10] w-full overflow-hidden"
+                        style={{ backgroundColor: "var(--blue-soft)" }}
+                      >
+                        <img
+                          src={urlFor(g.heroImage)
+                            .width(640)
+                            .height(400)
+                            .fit("crop")
+                            .auto("format")
+                            .url()}
+                          alt={g.title}
+                          loading="lazy"
+                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                        />
+                      </div>
+                    )}
+                    <div className="flex flex-1 flex-col p-5">
+                      <span
+                        className="text-[10px] font-semibold uppercase tracking-[0.2em] mb-2"
+                        style={{ color: "var(--teal-link)" }}
+                      >
+                        {labelFor(GUIDE_TYPES, g.guideType) || "Guide"}
+                      </span>
+                      <span
+                        className="font-serif text-lg font-semibold leading-snug mb-1"
+                        style={{ color: "var(--navy-deep)" }}
+                      >
+                        {g.title}
+                      </span>
+                      {g.metaDescription && (
+                        <span
+                          className="text-sm line-clamp-2"
+                          style={{ color: "var(--text-dark)" }}
+                        >
+                          {g.metaDescription}
+                        </span>
+                      )}
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <div className="flex items-end justify-between gap-4 mb-6">
           <h2
             className="font-serif text-2xl sm:text-3xl font-semibold"

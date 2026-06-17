@@ -120,3 +120,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
 export function findDestinationBySlug(slug: string): DestinationContent | undefined {
   return DESTINATION_CONTENT.find((d) => d.slug === slug);
 }
+
+// Look up a destination by its Sanity enum `value` (e.g. "bali_nearby_islands")
+// rather than its URL slug. Used to turn an article's `destinationPrimary` into a
+// destination URL for cross-linking to guides.
+export function findDestinationByValue(value: string): DestinationContent | undefined {
+  return DESTINATION_CONTENT.find((d) => d.value === value);
+}
