@@ -552,7 +552,14 @@ function InputStage({
             {micStatus !== "unsupported" && (
               <button
                 type="button"
-                onClick={toggleMic}
+                onClick={() => {
+                  // Count mic taps; `action` lets GA4 isolate dictation starts
+                  // (intent) from stops.
+                  trackEvent("voice_input_click", {
+                    action: micStatus === "listening" ? "stop" : "start",
+                  });
+                  toggleMic();
+                }}
                 aria-pressed={micStatus === "listening"}
                 aria-label={micStatus === "listening" ? "Stop dictation" : "Speak your trip"}
                 title={micStatus === "listening" ? "Listening… tap to stop" : "Speak your trip"}
