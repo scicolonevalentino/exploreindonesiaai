@@ -130,19 +130,10 @@ const INSIGHT_LABEL: Record<InsightLabel, { text: string; bg: string; fg: string
 /*  GA4                                                                       */
 /* -------------------------------------------------------------------------- */
 
-// GA4 affiliate click event. gtag is lazy-loaded after Cookiebot consent
-// (analytics-consent.ts) — guard so a click before consent never throws.
+// GA4 affiliate click event. trackEvent forwards to GA4 via gtag (with a
+// dataLayer fallback before gtag loads), so one call covers both; a separate
+// direct gtag call here would double-count in GA4.
 function fireAffiliateClick(item: ItineraryItem) {
-  const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-  if (typeof gtag === "function") {
-    gtag("event", "affiliate_click", {
-      partner: item.partner,
-      category: item.category,
-      location: item.location,
-      price: item.price,
-    });
-  }
-  // Also push to dataLayer so GTM-side tags see it regardless of gtag timing.
   trackEvent("affiliate_click", {
     partner: item.partner,
     category: item.category,
@@ -155,13 +146,9 @@ function fireAffiliateClick(item: ItineraryItem) {
 // every trip, just before Save & Download.
 const EKTA_INSURANCE_URL = "https://ektatraveling.tpx.lu/P8hvoSQm";
 
-// Same dual gtag + dataLayer pattern as fireAffiliateClick, so the insurance
-// CTA lands in the same affiliate funnel (partner "ekta").
+// Insurance CTA lands in the same affiliate funnel (partner "ekta"). One
+// trackEvent call (it forwards to GA4 via gtag); no separate gtag call.
 function fireInsuranceClick() {
-  const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-  if (typeof gtag === "function") {
-    gtag("event", "affiliate_click", { partner: "ekta", category: "travel_insurance" });
-  }
   trackEvent("affiliate_click", { partner: "ekta", category: "travel_insurance" });
 }
 
@@ -855,18 +842,15 @@ function TripStage({
     }, 60);
   };
 
-  // Affiliate click fired from a map popup card. Same dual gtag + dataLayer
-  // pattern as fireAffiliateClick, tagged source:"map" for attribution.
+  // Affiliate click fired from a map popup card, tagged source:"map" for
+  // attribution. trackEvent handles GA4 (via gtag) + the dataLayer fallback.
   const bookFromMap = (exp: StopExperience) => {
-    const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-    const payload = {
+    trackEvent("affiliate_click", {
       partner: exp.partner,
       category: exp.category,
       price: exp.price,
       source: "map",
-    };
-    if (typeof gtag === "function") gtag("event", "affiliate_click", payload);
-    trackEvent("affiliate_click", payload);
+    });
   };
 
   // Matched bookables start added (prototype's defaultAdded behavior).
