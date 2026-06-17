@@ -1,8 +1,10 @@
 name: Link Health
 
 # Runs the link-health audit against the live Sanity dataset and uploads
-# an HTML/MD/JSON report. Fails the workflow on any true error
-# (broken HTTP, missing affiliate params, unresolved refs, brand redirect).
+# an HTML/MD/JSON report. Fails the workflow only on a genuinely dead link
+# (HTTP 404/410), a missing affiliate param, an unresolved ref, or a brand
+# redirect. Partner bot-shields (403/429), 5xx, and network timeouts are
+# warnings — they vary by request IP and would otherwise fail CI at random.
 #
 # Triggers:
 #   • push / pull_request — guard rails so a code change can't ship broken links

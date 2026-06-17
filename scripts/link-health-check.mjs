@@ -269,6 +269,13 @@ async function pool(items, n, fn) {
     const h = safeHost(c.url);
     return !!h && AFFILIATE_REDIRECTORS.some((d) => h === d || h.endsWith("." + d));
   };
+  // A non-OK HTTP response is only a hard error when the destination is
+  // definitively dead: 404 (Not Found) or 410 (Gone). A 403/429/401/5xx or a
+  // network timeout (http-err) is almost always partner bot-protection or a
+  // transient edge failure that a real browser never hits — and it varies by
+  // request IP, so from CI's datacenter address it would fail the build at
+  // random (a different couple of links each run). Surface those as warnings.
+  const DEAD_HTTP = new Set(["http-404", "http-410"]);
   const errors = issues.filter(
     (c) =>
       !c.flags.some(isBotShieldFlag) &&
@@ -276,7 +283,7 @@ async function pool(items, n, fn) {
       !isAffiliateRedirect(c) &&
       c.flags.some(
         (f) =>
-          f.startsWith("http-") ||
+          DEAD_HTTP.has(f) ||
           f.startsWith("redirect-domain-change") ||
           f === "missing-affiliate-params" ||
           f === "unresolved-affiliateLinkRef",
@@ -287,7 +294,7 @@ async function pool(items, n, fn) {
   console.log(`\n=== SUMMARY ===`);
   console.log(`Total links checked : ${checked.length}`);
   console.log(`Errors              : ${errors.length}`);
-  console.log(`Warnings (bot-shield): ${warnings.length}`);
+  console.log(`Warnings (bot-shield / transient): ${warnings.length}`);
 
   const print = (b) =>
     `\n[${b.flags.join(", ")}]\n  ${b.articleTitle} (${b.slug})\n  source: ${b.source}${b.blockKey ? " · block " + b.blockKey : ""}${b.anchor ? "\n  anchor: " + b.anchor : ""}\n  url   : ${b.url}\n  final : ${b.check?.finalUrl ?? "-"}  status ${b.check?.status ?? "-"}`;
@@ -299,7 +306,7 @@ async function pool(items, n, fn) {
     console.log("\n✓ No errors — all links resolve to expected destinations");
   }
   if (warnings.length) {
-    console.log(`\n=== WARNINGS (partner bot-shield, not broken) ===`);
+    console.log(`\n=== WARNINGS (bot-shield / transient / non-fatal) ===`);
     for (const b of warnings) console.log(print(b));
   }
 
