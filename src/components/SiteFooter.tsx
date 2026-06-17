@@ -163,6 +163,11 @@ function FooterBar() {
                 </a>
               </li>
               <li>
+                <a href="/transport" className="text-white/75 hover:text-white transition-colors">
+                  Getting around
+                </a>
+              </li>
+              <li>
                 <a href="/account" className="text-white/75 hover:text-white transition-colors">
                   My account
                 </a>
@@ -181,11 +186,6 @@ function FooterBar() {
               <li>
                 <a href="/terms" className="text-white/75 hover:text-white transition-colors">
                   Terms
-                </a>
-              </li>
-              <li>
-                <a href="/transport" className="text-white/75 hover:text-white transition-colors">
-                  Getting around
                 </a>
               </li>
               <li>
