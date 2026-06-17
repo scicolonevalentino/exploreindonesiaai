@@ -14,7 +14,8 @@
     "test:e2e": "playwright test",
     "test:e2e:install": "playwright install chromium",
     "audit:links": "node scripts/link-health-check.mjs --json reports/link-audit.json --html reports/link-audit.html --md reports/link-audit.md",
-    "audit:links:strict": "node scripts/link-health-check.mjs --strict --json reports/link-audit.json --html reports/link-audit.html --md reports/link-audit.md"
+    "audit:links:strict": "node scripts/link-health-check.mjs --strict --json reports/link-audit.json --html reports/link-audit.html --md reports/link-audit.md",
+    "indexnow:submit": "node scripts/indexnow-submit.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
