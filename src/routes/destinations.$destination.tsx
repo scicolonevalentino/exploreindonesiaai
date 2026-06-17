@@ -108,6 +108,14 @@ function DestinationInner() {
   const { data: articles } = useSuspenseQuery(articlesByDestQO(dest.value));
   const { data: guides } = useSuspenseQuery(guidesByDestQO(dest.value));
 
+  // Destinations have no image of their own (static data), so borrow an itinerary
+  // hero for the header backdrop, faded behind the gradient like the transport
+  // and guide pages. Falls back to the plain gradient if no itinerary has one.
+  const heroImage = articles.find((a) => a.heroImage)?.heroImage;
+  const heroUrl = heroImage
+    ? urlFor(heroImage).width(1600).height(520).fit("crop").auto("format").url()
+    : null;
+
   const destUrl = `https://exploreindonesia.ai/destinations/${dest.slug}`;
   const itemListLD = {
     "@context": "https://schema.org",
@@ -153,10 +161,14 @@ function DestinationInner() {
       <JsonLd data={breadcrumbLD} />
       <JsonLd data={itemListLD} />
       <header
-        className="w-full px-6 py-12 sm:py-16"
-        style={{
-          background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
-        }}
+        className="w-full bg-cover bg-center px-6 py-12 sm:py-16"
+        style={
+          heroUrl
+            ? {
+                backgroundImage: `linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.92) 100%), url(${heroUrl})`,
+              }
+            : { background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }
+        }
       >
         <div className="mx-auto max-w-5xl">
           <Link to="/" className="text-sm text-white/70 hover:text-white">
