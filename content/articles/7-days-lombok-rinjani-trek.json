@@ -1,0 +1,1704 @@
+{
+  "_id": "itinerary-7-days-lombok-rinjani-trek",
+  "_type": "article",
+  "contentStatus": "draft",
+  "title": "7 Days in Lombok: Mount Rinjani Trek and Gili Air Recovery",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-lombok-rinjani-trek"
+  },
+  "metaTitle": "7 Days in Lombok: Mount Rinjani Trek + Gili Recovery",
+  "metaDescription": "Climb Mount Rinjani on the 3-day Sembalun to Senaru summit route, then recover on Gili Air. A realistic 7-day Lombok plan with permits, timing and cost.",
+  "focusKeyword": "Mount Rinjani trek itinerary",
+  "intro": "Most Lombok itineraries treat Mount Rinjani as an optional side quest. This plan treats it as the whole point. Rinjani is a hard, cold, three-day climb to a 3,726 metre summit, and the biggest mistake travellers make is bolting it onto a beach holiday with no time to recover. This 7-day route does the opposite: it gives the mountain the days it needs, then sends you to Gili Air to let your legs forgive you. If you are reasonably fit and willing to suffer through one pre-dawn summit push, this is one of the most satisfying weeks in Indonesia. If you want a relaxed island week, book a different trip.",
+  "route": "Lombok (Senggigi) → Sembalun → Mount Rinjani Summit → Segara Anak Lake → Senaru → Gili Air",
+  "destinationPrimary": "lombok_gili",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "friends",
+    "solo_travellers",
+    "couples"
+  ],
+  "vibe": "active",
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "experienceTags": [
+    "mount-rinjani",
+    "volcano-trek",
+    "summit-hike",
+    "gili-air"
+  ],
+  "bestSeason": "May to October",
+  "articleCreatedDate": "2026-06-17T06:29:58.535Z",
+  "author": {
+    "_type": "reference",
+    "_ref": "author-editorial-team"
+  },
+  "faq": [
+    {
+      "question": "How fit do I need to be to climb Mount Rinjani?",
+      "answer": "Reasonably fit, with some hill or stair training behind you. The three-day summit route covers roughly 30 kilometres with a large altitude gain and a long, steep descent, plus a pre-dawn summit push on loose scree. You do not need to be an athlete, but you do need stamina and healthy knees. If you are unsure, the two-day route to the crater rim skips the summit and is a sensible alternative."
+    },
+    {
+      "question": "When is Mount Rinjani open, and when is the best time to trek?",
+      "answer": "The national park closes each year from 1 January to 31 March for the rainy season and trail recovery, and it reopened on 1 April for the 2026 season. As a working estimate the reliable trekking window is May to October, with the clearest summit mornings from May to early October. Closure dates can shift, so check the latest official guidance before booking flights."
+    },
+    {
+      "question": "Can I climb Rinjani without a guide?",
+      "answer": "No. Foreign trekkers must climb with a licensed guide and a registered operator, and independent climbing is not permitted. The operator arranges your park permit through the e-Rinjani system. As a working estimate the park entrance fee is around 250,000 rupiah per person per day for the main routes, though fees can change."
+    },
+    {
+      "question": "Do I need travel insurance to trek Mount Rinjani?",
+      "answer": "Yes. For the 2026 season the park introduced a rule that all trekkers must hold valid travel insurance to enter. Buy a policy that specifically covers high-altitude trekking, since standard travel cover often excludes it. Confirm the current requirement with your operator before you travel."
+    },
+    {
+      "question": "Should I start the trek from Sembalun or Senaru?",
+      "answer": "Sembalun is the standard start for a summit attempt. It opens with a gradual savannah walk to the crater rim, sets you up for the summit on the second morning, and lets you finish with a long descent to Senaru, which is easier on tired knees than the reverse. The three-day Sembalun to Senaru route is the one most fit trekkers should choose."
+    },
+    {
+      "question": "How do I get from the trek to the Gili Islands?",
+      "answer": "Most operators drop you on the northwest coast after the descent at Senaru. From there a fast boat reaches Gili Air in a short crossing, or the public boat from Bangsal harbour is cheaper if you are not in a hurry. We send recovering trekkers to Gili Air rather than Gili Trawangan because it is quieter and flatter to walk."
+    }
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "b1",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s0",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2",
+          "marks": [],
+          "text": "This is a trip built around one hard physical goal: standing on the 3,726 metre summit of Mount Rinjani at sunrise, then giving your body the days it needs to recover. It suits reasonably fit friends, couples and solo travellers who are happy to camp for two nights, walk for long hours on loose volcanic scree, and start one summit push in the cold dark around 2am. If you train a little before you come and you do not mind being uncomfortable for 72 hours, the reward is large."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b6",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who this trip is not for. "
+        },
+        {
+          "_type": "span",
+          "_key": "s5",
+          "marks": [],
+          "text": "Families with young children, anyone with serious knee or ankle problems who cannot handle a long, steep descent, and travellers who want a comfortable bed every night should pick a different Lombok week. This is also the wrong trip if your dates fall between January and March, when the national park closes for the rainy season and trail recovery. If a relaxed island holiday is what you actually want, our beach-focused Lombok routes will serve you better than this one."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b8",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s7",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ba",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s9",
+          "marks": [],
+          "text": "Seven days, structured as three days of mountain and three days of coast, with a travel day in between. You fly into Lombok, transfer up to the village of Sembalun, then walk the classic three-day, two-night Sembalun to Senaru summit route. After the trek you drop to the coast, cross to Gili Air, and spend two slow days letting your legs recover before flying or boating onward. Expect real effort on the mountain and genuine rest at the end. The trek alone covers roughly 30 kilometres with a big altitude gain and an even bigger descent, so the recovery half of this week is not a luxury, it is part of the plan."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "bc",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sb",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "bi",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sd",
+          "marks": [],
+          "text": "Starting from "
+        },
+        {
+          "_type": "span",
+          "_key": "se",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sembalun"
+        },
+        {
+          "_type": "span",
+          "_key": "sf",
+          "marks": [],
+          "text": " rather than Senaru is the standard choice for a summit attempt, and for good reason. The Sembalun side opens with a long but gradual walk across savannah to the crater rim, which positions you for the summit push on the second morning without burning your legs on day one. You then descend to "
+        },
+        {
+          "_type": "span",
+          "_key": "sg",
+          "marks": [
+            "strong"
+          ],
+          "text": "Segara Anak"
+        },
+        {
+          "_type": "span",
+          "_key": "sh",
+          "marks": [],
+          "text": ", the crater lake, with its hot springs, before climbing out to the Senaru rim and down through forest to finish. Walking Sembalun to Senaru means you summit early and end low, which is easier on tired knees than the reverse."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "bm",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sj",
+          "marks": [],
+          "text": "Finishing near Senaru also puts you on the right side of the island for the northwest coast and the Gili Islands. We send you to "
+        },
+        {
+          "_type": "span",
+          "_key": "sk",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gili Air"
+        },
+        {
+          "_type": "span",
+          "_key": "sl",
+          "marks": [],
+          "text": " rather than Gili Trawangan for the recovery half because Air is quieter, flatter to walk, and has calmer evenings, which is what aching legs want. Trawangan is the party island and a poor place to rest a body that has just climbed a volcano."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "bo",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sn",
+          "marks": [],
+          "text": "Day 1: Arrive in Lombok and acclimatise"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "bx",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "afr",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        },
+        {
+          "_key": "afu",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sp",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "sq",
+          "marks": [],
+          "text": "Fly into Lombok International Airport at Praya. Direct hops from Bali take roughly 45 to 50 minutes, and as a working estimate fares run from about 25 to 35 US dollars one way, though you should confirm current flight routes before locking anything else. Sort connectivity on arrival with an "
+        },
+        {
+          "_type": "span",
+          "_key": "ss",
+          "marks": [
+            "afr"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_type": "span",
+          "_key": "st",
+          "marks": [],
+          "text": " so your guide and operator can reach you, then set up a "
+        },
+        {
+          "_type": "span",
+          "_key": "sv",
+          "marks": [
+            "afu"
+          ],
+          "text": "private airport transfer in Lombok"
+        },
+        {
+          "_type": "span",
+          "_key": "sw",
+          "marks": [],
+          "text": " or arrange the pickup through your trekking operator, who can usually collect you from the airport."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b10",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "sy",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "sz",
+          "marks": [],
+          "text": "Base yourself in Senggigi or go straight up to Sembalun village, which sits at around 1,150 metres and helps you start the climb a little acclimatised. Do not plan anything strenuous today. Eat well, drink water, and lay out your gear."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b13",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s11",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s12",
+          "marks": [],
+          "text": "Meet your guide for the pre-trek briefing if your operator runs one tonight. Confirm the wake-up time, the porter arrangement, and what they carry versus what you carry. Repack so your daypack holds only water, layers, sun protection and a headtorch."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b16",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s14",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s15",
+          "marks": [],
+          "text": "Senggigi or Sembalun village."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b19",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s17",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_type": "span",
+          "_key": "s18",
+          "marks": [],
+          "text": "Foreign trekkers cannot climb Rinjani independently. You must go with a licensed guide and a registered operator, and the operator handles your park permit through the e-Rinjani system. Book the trek weeks ahead in peak season, not on arrival."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1c",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1a",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1b",
+          "marks": [],
+          "text": "If you would rather not rush, fly in a day earlier. A jammed same-day arrival followed by a 2am summit start two nights later leaves no slack if a flight slips."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1e",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1d",
+          "marks": [],
+          "text": "Day 2: Sembalun to the crater rim"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1h",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1g",
+          "marks": [],
+          "text": "An early start and a drive to the Sembalun trailhead. The first stretch crosses open grassland with the cone of Rinjani ahead of you. It is long rather than steep, and the heat across the savannah is the main challenge of the morning, so pace yourself and keep drinking."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1k",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1j",
+          "marks": [],
+          "text": "The trail tilts upward for the climb to the Sembalun crater rim at roughly 2,640 metres. This is where most people first feel the altitude and the weight of the day. Take it slowly. Your porters will usually reach camp well ahead of you and have tents and tea ready."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1n",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1l",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1m",
+          "marks": [],
+          "text": "Camp on the rim with the crater lake below and the summit cone above. It gets genuinely cold up here after dark, often near freezing in peak season. Eat, layer up, and sleep early, because the summit push starts in the small hours."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1q",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1o",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1p",
+          "marks": [],
+          "text": "Sembalun crater rim camp (tent)."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1t",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1r",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1s",
+          "marks": [],
+          "text": "Temperatures at the rim can drop close to zero overnight. A warm layer, a hat and gloves are not optional, and a sleeping bag rated for the cold makes the difference between resting and shivering. Check what your operator provides before you pack."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1v",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1u",
+          "marks": [],
+          "text": "Day 3: Rinjani summit, then down to Segara Anak lake"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b1y",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1w",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s1x",
+          "marks": [],
+          "text": "The summit push begins around 2am. The final ridge is loose volcanic scree where you slide back with every step, and it is slow, cold and steep. Reaching the 3,726 metre summit for sunrise, with the caldera and the sea spread out below, is the hardest and best hour of the week. Turn-around discipline matters here, so follow your guide on timing."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b21",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s1z",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s20",
+          "marks": [],
+          "text": "Descend back to the rim camp for breakfast, then drop steeply into the caldera to Segara Anak lake at around 2,000 metres. The hot springs near the lake are the reward, and soaking tired legs in them is the single best thing you can do for the next day's walk."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b24",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s22",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s23",
+          "marks": [],
+          "text": "Camp by the lake. It is lower, warmer and calmer than the rim, and after a 2am start you will sleep hard."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b27",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s25",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s26",
+          "marks": [],
+          "text": "Segara Anak lakeside camp (tent)."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2a",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s28",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_type": "span",
+          "_key": "s29",
+          "marks": [],
+          "text": "If a full summit attempt sounds like too much, say so when you book. Many operators run a two-day, one-night version to the crater rim that skips the summit, which is a sensible choice if you are unsure of your fitness."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2c",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2b",
+          "marks": [],
+          "text": "Day 4: Lake to Senaru, then down to the coast"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2f",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2d",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2e",
+          "marks": [],
+          "text": "The final climb out of the caldera to the Senaru rim is short but steep on legs that are already spent. After that it is downhill the rest of the way, first across the rim and then into cooler forest as you lose altitude toward Senaru village."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2i",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2g",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2h",
+          "marks": [],
+          "text": "The long descent through the trees is hard on knees, so trekking poles earn their keep here. Most groups reach the Senaru gate by early afternoon. Your operator drops you onward from there, usually to Senggigi or to a port for the Gili crossing."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2o",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "af2l",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SENARU_WATERFALLS"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2j",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2k",
+          "marks": [],
+          "text": "Get to a real bed on the coast and do nothing. You have earned it. If your legs still object in the morning, the gentle "
+        },
+        {
+          "_type": "span",
+          "_key": "s2m",
+          "marks": [
+            "af2l"
+          ],
+          "text": "Sendang Gile and Tiu Kelep waterfalls day trip"
+        },
+        {
+          "_type": "span",
+          "_key": "s2n",
+          "marks": [],
+          "text": " near Senaru is an easy way to loosen them up, but it is just as valid to skip it entirely."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2r",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2p",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2q",
+          "marks": [],
+          "text": "Senggigi or Senaru area."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2u",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2s",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2t",
+          "marks": [],
+          "text": "The Senaru descent is where most trekking injuries actually happen, not on the summit. Go slow, use poles, and do not race the group ahead of you down the steep forest section."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b2w",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2v",
+          "marks": [],
+          "text": "Day 5: Recover and cross to Gili Air"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b32",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "af2z",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LOMBOK_GILI_BOAT"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s2x",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s2y",
+          "marks": [],
+          "text": "A slow start. Eat properly, stretch, and make your way to the harbour for the short hop across to Gili Air. A "
+        },
+        {
+          "_type": "span",
+          "_key": "s30",
+          "marks": [
+            "af2z"
+          ],
+          "text": "fast boat to Gili Air"
+        },
+        {
+          "_type": "span",
+          "_key": "s31",
+          "marks": [],
+          "text": " from the northwest coast is quick, and the public boat from Bangsal is cheaper if you are not in a hurry."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b35",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s33",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s34",
+          "marks": [],
+          "text": "Gili Air has no cars or motorbikes, so the pace drops the moment you land. Find your guesthouse, then do very little. Float in the shallows, eat, and let the trek settle into a good memory rather than a sore one."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b38",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s36",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s37",
+          "marks": [],
+          "text": "Watch the sunset toward Bali with Mount Agung on the horizon. This is the payoff for three days on the mountain."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3b",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s39",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3a",
+          "marks": [],
+          "text": "Gili Air."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3e",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3c",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3d",
+          "marks": [],
+          "text": "Keep Gili accommodation flexible until you know how your trek timing lands. You can comfortably book it a day or two out, and prices are better than the airport-transfer-and-resort bundles sold in advance."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3g",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3f",
+          "marks": [],
+          "text": "Day 6: Gili Air, snorkelling and rest"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3m",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "af3j",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3h",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3i",
+          "marks": [],
+          "text": "If your body is ready for gentle movement, the reefs off the Gilis are easy snorkelling, and a "
+        },
+        {
+          "_type": "span",
+          "_key": "s3k",
+          "marks": [
+            "af3j"
+          ],
+          "text": "3-island Gili snorkeling tour with turtles"
+        },
+        {
+          "_type": "span",
+          "_key": "s3l",
+          "marks": [],
+          "text": " loops the three islands with a good chance of seeing green turtles. If you would rather not move at all, that is a perfectly good plan too."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3p",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3n",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3o",
+          "marks": [],
+          "text": "Walk the full loop of Gili Air on foot, which takes a couple of easy hours, or rent a bicycle. The east side has the best swimming and the quietest beach bars."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3s",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3q",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3r",
+          "marks": [],
+          "text": "A long dinner and an early night. You will feel the trek in your legs for a few days, and that is normal."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3v",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3t",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3u",
+          "marks": [],
+          "text": "Gili Air."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b3x",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3w",
+          "marks": [],
+          "text": "Day 7: Gili Air to Bali or onward"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b43",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "af40",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s3y",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "s3z",
+          "marks": [],
+          "text": "Catch a morning boat. A "
+        },
+        {
+          "_type": "span",
+          "_key": "s41",
+          "marks": [
+            "af40"
+          ],
+          "text": "Gili Islands to Bali boat"
+        },
+        {
+          "_type": "span",
+          "_key": "s42",
+          "marks": [],
+          "text": " runs across to several Bali ports, and as a working estimate fast boats cost roughly 23 to 42 US dollars and take between 1.5 and 3.5 hours depending on the operator and the port. Confirm the current schedule the day before, because sea conditions can move departures."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b46",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s44",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "s45",
+          "marks": [],
+          "text": "Connect to your onward flight from Bali, or fly directly out of Lombok if that suits your route better. Build in a buffer either way, since a missed boat or a delayed transfer should not put your international flight at risk."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b49",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s47",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_type": "span",
+          "_key": "s48",
+          "marks": [],
+          "text": "In transit."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4c",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4a",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4b",
+          "marks": [],
+          "text": "Do not book an international departure for the same evening you leave Gili Air. Give yourself a night in Bali or near the airport. Boats are weather-dependent and a tight connection here is a needless gamble."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4e",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4d",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4h",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4g",
+          "marks": [],
+          "text": "The trek itself comes first. Choose a licensed operator, confirm your guide and porter arrangement, and let them secure your park permit through the e-Rinjani system, which now also requires you to hold valid travel insurance for the climb. In peak season from July to August, both operators and the best summit-season dates fill up, so book weeks ahead. Lock your Lombok flights at the same time."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4k",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4j",
+          "marks": [],
+          "text": "Gili Air accommodation, snorkelling and the return boat to Bali can all wait until you are on the ground. Trek timing can shift by half a day, and you do not want a non-refundable resort booking forcing you off the mountain early."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4m",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4l",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4p",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4n",
+          "marks": [
+            "strong"
+          ],
+          "text": "Climbing in the closed season. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4o",
+          "marks": [],
+          "text": "The park shuts from 1 January to 31 March each year for the rainy season and trail recovery, and reopened on 1 April for 2026. As a working estimate the reliable trekking window is May to October, with the clearest summit mornings from May to early October. Check the latest official guidance before you set your dates, because the closure window can move."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4s",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4q",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leaving no recovery time. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4r",
+          "marks": [],
+          "text": "Bolting a summit trek onto a packed beach holiday is the classic error. A three-day climb wrecks your legs, and the two coast days here exist for a reason. Cutting them turns a good week into a miserable one."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4v",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4t",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the cold and the scree. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4u",
+          "marks": [],
+          "text": "People picture a tropical island and pack for the beach. The rim camp can sit near freezing, and the summit ridge is loose volcanic gravel that doubles the effort. Warm layers and decent footwear are the difference between finishing and turning back."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b4y",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4w",
+          "marks": [
+            "strong"
+          ],
+          "text": "Choosing the cheapest operator. "
+        },
+        {
+          "_type": "span",
+          "_key": "s4x",
+          "marks": [],
+          "text": "The lowest quote often means thin food, worn tents and an overloaded porter. On a mountain this serious, the operator is not where to economise. Pay for a fair porter ratio and proper equipment."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b50",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s4z",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b53",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s51",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut the summit. "
+        },
+        {
+          "_type": "span",
+          "_key": "s52",
+          "marks": [],
+          "text": "If you are not confident in your fitness, drop to the two-day, one-night route to the Sembalun crater rim. You still get the savannah walk, the rim camp and the view down to the lake, without the brutal pre-dawn scree. It is the honest choice for many travellers and there is no shame in it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b56",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s54",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt the start. "
+        },
+        {
+          "_type": "span",
+          "_key": "s55",
+          "marks": [],
+          "text": "Tight on time? Some operators run a shorter Senaru-side itinerary, though it makes the summit harder and is less commonly recommended. The Sembalun-start, three-day route in this plan remains the best balance of effort and reward for most fit trekkers."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b59",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s57",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade the support. "
+        },
+        {
+          "_type": "span",
+          "_key": "s58",
+          "marks": [],
+          "text": "If you want the climb to feel less punishing, pay for a private trek, a better porter-to-trekker ratio, and quality sleeping kit. It does not make the mountain shorter, but it makes every camp warmer and every meal better, which matters more than you expect on day three."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5b",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5a",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5e",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5c",
+          "marks": [
+            "strong"
+          ],
+          "text": "Permits and the guide rule. "
+        },
+        {
+          "_type": "span",
+          "_key": "s5d",
+          "marks": [],
+          "text": "Foreign nationals must trek with a licensed guide and a registered operator. Independent climbing is not permitted, and the operator arranges your permit through the e-Rinjani system. As a working estimate the national park entrance fee runs around 250,000 rupiah per person per day for the main Sembalun and Senaru routes, though fees can change, so treat any figure your operator quotes as the current one."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5h",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5f",
+          "marks": [
+            "strong"
+          ],
+          "text": "Insurance is now required. "
+        },
+        {
+          "_type": "span",
+          "_key": "s5g",
+          "marks": [],
+          "text": "For the 2026 season the park introduced a rule that all trekkers must hold valid travel insurance to enter. Buy a policy that explicitly covers high-altitude trekking, since standard travel cover often excludes it. Confirm the latest official requirement before you travel."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5k",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5i",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fitness and gear. "
+        },
+        {
+          "_type": "span",
+          "_key": "s5j",
+          "marks": [],
+          "text": "Train with hills and stairs in the weeks before you come. Bring or rent proper hiking boots, trekking poles, a warm layer, a windproof jacket, a headtorch and a cold-rated sleeping bag. Ask your operator exactly what they supply so you are not carrying or missing anything."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5n",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5l",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa. "
+        },
+        {
+          "_type": "span",
+          "_key": "s5m",
+          "marks": [],
+          "text": "Most visitors enter Indonesia on a visa on arrival, valid for 30 days and extendable once. As a working estimate it costs around 500,000 rupiah, but confirm the current fee and your eligibility before you fly."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5p",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5o",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5r",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5q",
+          "marks": [],
+          "text": "Rinjani is not a casual side trip and this plan does not pretend otherwise. It is a hard three-day climb that asks for fitness, a cold night near the summit, and respect for a real mountain. Build it the way this week is built, with the days the climb needs and two genuine recovery days on Gili Air at the end, and it is one of the most rewarding weeks Indonesia offers a fit traveller. Try to shortcut the recovery or climb in the wrong season, and the same mountain will hand you a week you would rather forget. Come fit, come in the open season, and let the trek be the whole point."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b5t",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5s",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "b64",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "ld5v",
+          "_type": "externalLink",
+          "href": "/trips/7-days-lombok-gili-islands",
+          "blank": false
+        },
+        {
+          "_key": "ld5y",
+          "_type": "externalLink",
+          "href": "/trips/10-days-lombok-gili-families",
+          "blank": false
+        },
+        {
+          "_key": "ld61",
+          "_type": "externalLink",
+          "href": "/destinations/lombok-gili",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "s5u",
+          "marks": [],
+          "text": "If the trek sounds like more than you want, the gentler "
+        },
+        {
+          "_type": "span",
+          "_key": "s5w",
+          "marks": [
+            "ld5v"
+          ],
+          "text": "7 days in Lombok and the Gili Islands"
+        },
+        {
+          "_type": "span",
+          "_key": "s5x",
+          "marks": [],
+          "text": " keeps the beaches and skips the summit. Travelling with children, see "
+        },
+        {
+          "_type": "span",
+          "_key": "s5z",
+          "marks": [
+            "ld5y"
+          ],
+          "text": "10 days in Lombok and the Gilis for families"
+        },
+        {
+          "_type": "span",
+          "_key": "s60",
+          "marks": [],
+          "text": ". For the full picture of the region, including when to go and how to move around, start with our "
+        },
+        {
+          "_type": "span",
+          "_key": "s62",
+          "marks": [
+            "ld61"
+          ],
+          "text": "Lombok and Gili Islands destination guide"
+        },
+        {
+          "_type": "span",
+          "_key": "s63",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "affiliateLinks": [
+    {
+      "_key": "aff65",
+      "placeholderId": "AIRALO_INDONESIA",
+      "partner": "airalo",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "linkStatus": "active"
+    },
+    {
+      "_key": "aff66",
+      "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER",
+      "partner": "viator",
+      "anchorText": "private airport transfer in Lombok",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6?pid=P00303362&mcid=42383&medium=link&campaign=RinjaniLombokairporttransfer",
+      "linkStatus": "active"
+    },
+    {
+      "_key": "aff67",
+      "placeholderId": "VIATOR_SENARU_WATERFALLS",
+      "partner": "viator",
+      "anchorText": "Sendang Gile and Tiu Kelep waterfalls day trip",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7?pid=P00303362&mcid=42383&medium=link&campaign=RinjaniSenaruwaterfalls",
+      "linkStatus": "active"
+    },
+    {
+      "_key": "aff68",
+      "placeholderId": "KLOOK_LOMBOK_GILI_BOAT",
+      "partner": "klook",
+      "anchorText": "fast boat to Gili Air",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "linkStatus": "active"
+    },
+    {
+      "_key": "aff69",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "partner": "klook",
+      "anchorText": "3-island Gili snorkeling tour with turtles",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "linkStatus": "active"
+    },
+    {
+      "_key": "aff6a",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "partner": "12go",
+      "anchorText": "Gili Islands to Bali boat",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "linkStatus": "active"
+    }
+  ]
+}
