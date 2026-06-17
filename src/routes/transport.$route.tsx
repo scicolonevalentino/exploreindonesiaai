@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { GUIDES_BY_SLUGS_QUERY, type SanityImage, type GuideListItem } from "@/lib/sanity-queries";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
 import { findDestinationByValue } from "@/data/destinations";
+import { setCdnCache } from "@/lib/cdn-cache";
 import { TwelveGoBanner } from "@/components/TwelveGoBanner";
 
 // Related itineraries that use this route, fetched server-side in the loader so
@@ -51,6 +52,7 @@ export const Route = createFileRoute("/transport/$route")({
       relatedTrips = [];
       relatedGuides = [];
     }
+    await setCdnCache();
     return { route: r, relatedTrips, relatedGuides };
   },
   head: ({ params, loaderData }) => {

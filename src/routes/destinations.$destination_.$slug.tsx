@@ -35,6 +35,7 @@ import {
 } from "@/lib/sanity-queries";
 import { findDestinationBySlug, type DestinationContent } from "@/data/destinations";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
+import { setCdnCache } from "@/lib/cdn-cache";
 
 const SITE = "https://exploreindonesia.ai";
 
@@ -81,6 +82,7 @@ export const Route = createFileRoute("/destinations/$destination_/$slug")({
       .map((s) => findRouteBySlug(s))
       .filter((r): r is TransportRoute => !!r && r.status !== "todo");
 
+    await setCdnCache();
     return { guide, dest, relatedTrips, relatedGuides, relatedRoutes };
   },
 

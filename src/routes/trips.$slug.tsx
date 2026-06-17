@@ -22,6 +22,7 @@ import {
   type GuideListItem,
 } from "@/lib/sanity-queries";
 import { findDestinationByValue } from "@/data/destinations";
+import { setCdnCache } from "@/lib/cdn-cache";
 
 const articleQO = (slug: string) =>
   queryOptions({
@@ -225,6 +226,7 @@ export const Route = createFileRoute("/trips/$slug")({
       ),
       context.queryClient.ensureQueryData(guidesForDestQO(a.destinationPrimary)),
     ]);
+    await setCdnCache();
     return a;
   },
   head: ({ loaderData, params }) => {

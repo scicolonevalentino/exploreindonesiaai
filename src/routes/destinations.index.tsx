@@ -8,6 +8,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { JsonLd } from "@/components/JsonLd";
 import { DESTINATION_CONTENT } from "@/data/destinations";
+import { setCdnCache } from "@/lib/cdn-cache";
 
 const SITE = "https://exploreindonesia.ai";
 const TITLE = "Indonesia destinations | ExploreIndonesia.ai";
@@ -15,6 +16,9 @@ const DESCRIPTION =
   "Browse Indonesia by destination: Bali, Lombok and the Gilis, Komodo and Flores, Java, Raja Ampat and more. Itineraries, guides and transport, all in one place.";
 
 export const Route = createFileRoute("/destinations/")({
+  loader: async () => {
+    await setCdnCache();
+  },
   head: () => ({
     meta: [
       { title: TITLE },

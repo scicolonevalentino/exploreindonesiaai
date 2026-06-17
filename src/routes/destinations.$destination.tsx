@@ -5,6 +5,7 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
+import { setCdnCache } from "@/lib/cdn-cache";
 import {
   DESTINATIONS,
   TRIP_LENGTHS,
@@ -58,6 +59,7 @@ export const Route = createFileRoute("/destinations/$destination")({
       context.queryClient.ensureQueryData(articlesByDestQO(dest.value)),
       context.queryClient.ensureQueryData(guidesByDestQO(dest.value)),
     ]);
+    await setCdnCache();
     return dest;
   },
   head: ({ params, loaderData }) => {
