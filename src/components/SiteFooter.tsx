@@ -181,6 +181,19 @@ function FooterBar() {
             <p className="font-semibold text-white mb-4">Quick Links</p>
             <ul className="space-y-2.5">
               <li>
+                <a href="/visa-guide" className="text-white/75 hover:text-white transition-colors">
+                  Visa Guide
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/indonesia-travel-costs"
+                  className="text-white/75 hover:text-white transition-colors"
+                >
+                  Travel Costs
+                </a>
+              </li>
+              <li>
                 <a href="/privacy" className="text-white/75 hover:text-white transition-colors">
                   Privacy
                 </a>

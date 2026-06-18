@@ -233,6 +233,19 @@ function TransportPage() {
           ))}
         </div>
 
+        {/* Cross-link to the budget guide: route prices feed the wider trip budget */}
+        <p className="-mt-8 mb-12 text-sm leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+          Fitting this into a wider budget? See our{" "}
+          <Link
+            to="/indonesia-travel-costs"
+            className="underline underline-offset-2"
+            style={{ color: "var(--teal-link)" }}
+          >
+            Indonesia travel costs guide
+          </Link>{" "}
+          for daily budgets by travel style.
+        </p>
+
         {/* 12Go affiliate banner */}
         <TwelveGoBanner />
 

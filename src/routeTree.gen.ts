@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as VisaGuideRouteImport } from './routes/visa-guide'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PrototypeRouteImport } from './routes/prototype'
@@ -16,6 +17,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as P1HomeRouteImport } from './routes/p1-home'
 import { Route as P1RouteImport } from './routes/p1'
 import { Route as LoginRouteImport } from './routes/login'
+import { Route as IndonesiaTravelCostsRouteImport } from './routes/indonesia-travel-costs'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
@@ -31,6 +33,11 @@ import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/lin
 import { Route as ApiPublicBuildTripRouteImport } from './routes/api/public/build-trip'
 import { Route as ApiAccountDeleteRouteImport } from './routes/api/account/delete'
 
+const VisaGuideRoute = VisaGuideRouteImport.update({
+  id: '/visa-guide',
+  path: '/visa-guide',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
@@ -64,6 +71,11 @@ const P1Route = P1RouteImport.update({
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
   path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndonesiaTravelCostsRoute = IndonesiaTravelCostsRouteImport.update({
+  id: '/indonesia-travel-costs',
+  path: '/indonesia-travel-costs',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AccountRoute = AccountRouteImport.update({
@@ -141,6 +153,7 @@ const ApiAccountDeleteRoute = ApiAccountDeleteRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -148,6 +161,7 @@ export interface FileRoutesByFullPath {
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/visa-guide': typeof VisaGuideRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -164,6 +178,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -171,6 +186,7 @@ export interface FileRoutesByTo {
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/visa-guide': typeof VisaGuideRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -188,6 +204,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
@@ -195,6 +212,7 @@ export interface FileRoutesById {
   '/prototype': typeof PrototypeRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
+  '/visa-guide': typeof VisaGuideRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -213,6 +231,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/account'
+    | '/indonesia-travel-costs'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -220,6 +239,7 @@ export interface FileRouteTypes {
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/visa-guide'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -236,6 +256,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/account'
+    | '/indonesia-travel-costs'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -243,6 +264,7 @@ export interface FileRouteTypes {
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/visa-guide'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -259,6 +281,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/account'
+    | '/indonesia-travel-costs'
     | '/login'
     | '/p1'
     | '/p1-home'
@@ -266,6 +289,7 @@ export interface FileRouteTypes {
     | '/prototype'
     | '/sitemap.xml'
     | '/terms'
+    | '/visa-guide'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -283,6 +307,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AccountRoute: typeof AccountRoute
+  IndonesiaTravelCostsRoute: typeof IndonesiaTravelCostsRoute
   LoginRoute: typeof LoginRoute
   P1Route: typeof P1Route
   P1HomeRoute: typeof P1HomeRoute
@@ -290,6 +315,7 @@ export interface RootRouteChildren {
   PrototypeRoute: typeof PrototypeRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
+  VisaGuideRoute: typeof VisaGuideRoute
   AuthCallbackRoute: typeof AuthCallbackRoute
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TransportRouteRoute: typeof TransportRouteRoute
@@ -306,6 +332,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/visa-guide': {
+      id: '/visa-guide'
+      path: '/visa-guide'
+      fullPath: '/visa-guide'
+      preLoaderRoute: typeof VisaGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/terms': {
       id: '/terms'
       path: '/terms'
@@ -353,6 +386,13 @@ declare module '@tanstack/react-router' {
       path: '/login'
       fullPath: '/login'
       preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/indonesia-travel-costs': {
+      id: '/indonesia-travel-costs'
+      path: '/indonesia-travel-costs'
+      fullPath: '/indonesia-travel-costs'
+      preLoaderRoute: typeof IndonesiaTravelCostsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/account': {
@@ -459,6 +499,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AccountRoute: AccountRoute,
+  IndonesiaTravelCostsRoute: IndonesiaTravelCostsRoute,
   LoginRoute: LoginRoute,
   P1Route: P1Route,
   P1HomeRoute: P1HomeRoute,
@@ -466,6 +507,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrototypeRoute: PrototypeRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
+  VisaGuideRoute: VisaGuideRoute,
   AuthCallbackRoute: AuthCallbackRoute,
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TransportRouteRoute: TransportRouteRoute,

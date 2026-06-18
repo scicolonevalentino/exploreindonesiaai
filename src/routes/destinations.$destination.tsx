@@ -368,6 +368,47 @@ function DestinationInner() {
 
         <section
           className="mt-16 rounded-2xl border p-6 sm:p-8"
+          style={{ borderColor: "var(--border-cream)", backgroundColor: "#ffffff" }}
+        >
+          <p
+            className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+            style={{ color: "var(--teal-link)" }}
+          >
+            Before you go
+          </p>
+          <h2
+            className="font-serif text-xl sm:text-2xl font-semibold mb-2"
+            style={{ color: "var(--navy-deep)" }}
+          >
+            Plan the practical side
+          </h2>
+          <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
+            Entry rules and a realistic budget before you book.
+          </p>
+          <ul className="flex flex-col gap-3">
+            <li>
+              <Link
+                to="/visa-guide"
+                className="inline-flex items-center font-medium underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                Indonesia visa guide (eVOA, costs, entry rules) →
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/indonesia-travel-costs"
+                className="inline-flex items-center font-medium underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                Indonesia travel costs (daily budgets by style) →
+              </Link>
+            </li>
+          </ul>
+        </section>
+
+        <section
+          className="mt-16 rounded-2xl border p-6 sm:p-8"
           style={{
             borderColor: "var(--border-cream)",
             backgroundColor: "#ffffff",

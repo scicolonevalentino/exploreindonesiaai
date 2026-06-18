@@ -733,12 +733,78 @@ function ArticleInner() {
                       </dt>
                       <dd className="text-sm" style={{ color: "var(--text-dark)" }}>
                         {v}
+                        {k === "Visa & entry" && (
+                          <>
+                            {" "}
+                            <Link
+                              to="/visa-guide"
+                              className="underline underline-offset-2"
+                              style={{ color: "var(--teal-link)" }}
+                            >
+                              Full Indonesia visa guide &rarr;
+                            </Link>
+                          </>
+                        )}
+                        {k === "Currency & money tips" && (
+                          <>
+                            {" "}
+                            <Link
+                              to="/indonesia-travel-costs"
+                              className="underline underline-offset-2"
+                              style={{ color: "var(--teal-link)" }}
+                            >
+                              See typical Indonesia travel costs &rarr;
+                            </Link>
+                          </>
+                        )}
                       </dd>
                     </div>
                   ))}
               </dl>
             </section>
           )}
+
+          {/* Always-on planning links: every itinerary funnels to the visa + budget guides */}
+          <section
+            className="mt-16 rounded-2xl p-6 sm:p-8 border"
+            style={{ backgroundColor: "var(--cream)", borderColor: "var(--border-cream)" }}
+          >
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Before you go
+            </p>
+            <h2
+              className="font-serif text-2xl font-semibold mb-2"
+              style={{ color: "var(--navy-deep)" }}
+            >
+              Sort the practical side
+            </h2>
+            <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
+              Entry rules and a realistic budget before you book this trip.
+            </p>
+            <ul className="flex flex-col gap-3">
+              <li>
+                <Link
+                  to="/visa-guide"
+                  className="inline-flex items-center font-medium underline underline-offset-2"
+                  style={{ color: "var(--teal-link)" }}
+                >
+                  Indonesia visa guide (eVOA, costs, entry rules) →
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/indonesia-travel-costs"
+                  className="inline-flex items-center font-medium underline underline-offset-2"
+                  style={{ color: "var(--teal-link)" }}
+                >
+                  Indonesia travel costs (daily budgets by style) →
+                </Link>
+              </li>
+            </ul>
+          </section>
 
           <FaqSection items={a.faq ?? []} />
 
