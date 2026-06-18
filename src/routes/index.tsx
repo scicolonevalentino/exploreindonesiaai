@@ -82,13 +82,15 @@ export const Route = createFileRoute("/")({
         content: "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
       },
       { property: "og:type", content: "website" },
-      // Homepage social card = faithful replica of the hero (src/routes/og[.]jpg.tsx).
+      { property: "og:url", content: "https://exploreindonesia.ai/" },
+      // Homepage social card = the brand hero card (src/routes/og[.]jpg.tsx).
       { property: "og:image", content: ogHomeImageUrl() },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: ogHomeImageUrl() },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/" }],
   }),
   loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
   component: Landing,
