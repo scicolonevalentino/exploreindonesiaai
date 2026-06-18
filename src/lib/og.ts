@@ -10,7 +10,7 @@
 // and re-render. It does NOT need bumping for content changes.
 
 const OG_ORIGIN = "https://exploreindonesia.ai";
-const OG_TEMPLATE_VERSION = "2";
+const OG_TEMPLATE_VERSION = "3";
 
 export type OgCardParams = {
   /** Main headline. A trailing " | exploreindonesia.ai" / " - …" is stripped. */
