@@ -16,6 +16,7 @@ import { Route as PrototypeRouteImport } from './routes/prototype'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as P1HomeRouteImport } from './routes/p1-home'
 import { Route as P1RouteImport } from './routes/p1'
+import { Route as OgDotjpgRouteImport } from './routes/og[.]jpg'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as IndonesiaTravelCostsRouteImport } from './routes/indonesia-travel-costs'
 import { Route as AccountRouteImport } from './routes/account'
@@ -66,6 +67,11 @@ const P1HomeRoute = P1HomeRouteImport.update({
 const P1Route = P1RouteImport.update({
   id: '/p1',
   path: '/p1',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OgDotjpgRoute = OgDotjpgRouteImport.update({
+  id: '/og.jpg',
+  path: '/og.jpg',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LoginRoute = LoginRouteImport.update({
@@ -155,6 +161,7 @@ export interface FileRoutesByFullPath {
   '/account': typeof AccountRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
+  '/og.jpg': typeof OgDotjpgRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
@@ -180,6 +187,7 @@ export interface FileRoutesByTo {
   '/account': typeof AccountRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
+  '/og.jpg': typeof OgDotjpgRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
@@ -206,6 +214,7 @@ export interface FileRoutesById {
   '/account': typeof AccountRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
+  '/og.jpg': typeof OgDotjpgRoute
   '/p1': typeof P1Route
   '/p1-home': typeof P1HomeRoute
   '/privacy': typeof PrivacyRoute
@@ -233,6 +242,7 @@ export interface FileRouteTypes {
     | '/account'
     | '/indonesia-travel-costs'
     | '/login'
+    | '/og.jpg'
     | '/p1'
     | '/p1-home'
     | '/privacy'
@@ -258,6 +268,7 @@ export interface FileRouteTypes {
     | '/account'
     | '/indonesia-travel-costs'
     | '/login'
+    | '/og.jpg'
     | '/p1'
     | '/p1-home'
     | '/privacy'
@@ -283,6 +294,7 @@ export interface FileRouteTypes {
     | '/account'
     | '/indonesia-travel-costs'
     | '/login'
+    | '/og.jpg'
     | '/p1'
     | '/p1-home'
     | '/privacy'
@@ -309,6 +321,7 @@ export interface RootRouteChildren {
   AccountRoute: typeof AccountRoute
   IndonesiaTravelCostsRoute: typeof IndonesiaTravelCostsRoute
   LoginRoute: typeof LoginRoute
+  OgDotjpgRoute: typeof OgDotjpgRoute
   P1Route: typeof P1Route
   P1HomeRoute: typeof P1HomeRoute
   PrivacyRoute: typeof PrivacyRoute
@@ -386,6 +399,13 @@ declare module '@tanstack/react-router' {
       path: '/login'
       fullPath: '/login'
       preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/og.jpg': {
+      id: '/og.jpg'
+      path: '/og.jpg'
+      fullPath: '/og.jpg'
+      preLoaderRoute: typeof OgDotjpgRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/indonesia-travel-costs': {
@@ -501,6 +521,7 @@ const rootRouteChildren: RootRouteChildren = {
   AccountRoute: AccountRoute,
   IndonesiaTravelCostsRoute: IndonesiaTravelCostsRoute,
   LoginRoute: LoginRoute,
+  OgDotjpgRoute: OgDotjpgRoute,
   P1Route: P1Route,
   P1HomeRoute: P1HomeRoute,
   PrivacyRoute: PrivacyRoute,

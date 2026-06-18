@@ -5,6 +5,7 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
+import { ogImageUrl } from "@/lib/og";
 import { setCdnCache } from "@/lib/cdn-cache";
 import {
   DESTINATIONS,
@@ -68,6 +69,10 @@ export const Route = createFileRoute("/destinations/$destination")({
       (loaderData as DestinationContent | undefined) ?? findDestinationBySlug(params.destination);
     if (!dest) return {};
     const url = `https://exploreindonesia.ai/destinations/${dest.slug}`;
+    const socialImage = ogImageUrl({
+      title: dest.metaTitle,
+      subtitle: dest.metaDescription,
+    });
     return {
       meta: [
         { title: dest.metaTitle },
@@ -76,6 +81,11 @@ export const Route = createFileRoute("/destinations/$destination")({
         { property: "og:description", content: dest.metaDescription },
         { property: "og:type", content: "website" },
         { property: "og:url", content: url },
+        { property: "og:image", content: socialImage },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:image", content: socialImage },
       ],
       links: [{ rel: "canonical", href: url }],
     };

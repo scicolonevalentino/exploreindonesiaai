@@ -18,6 +18,7 @@ import { initCookiebotConsent } from "@/lib/analytics-consent";
 import { sanityClient } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
+import { ogImageUrl } from "@/lib/og";
 
 // Site-wide JSON-LD. Rendered in the component tree (not head()) so it appears
 // exactly once in the hydrated DOM. See src/components/JsonLd.tsx.
@@ -58,9 +59,6 @@ const FALLBACK_SETTINGS: Required<Pick<SiteSettings, "siteTitle" | "defaultMetaD
   defaultMetaDescription:
     "Indonesia Trip Planner turns your existing travel plans into bookable itineraries.",
 };
-
-const SOCIAL_PREVIEW_IMAGE =
-  "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/096bd6df-91ae-4bf6-931c-6e8eb153d19a/id-preview-1c2a3c7f--387722e6-bf1b-4e7c-8da5-c1e42c7445e7.lovable.app-1780312241769.png";
 
 function NotFoundComponent() {
   return (
@@ -136,6 +134,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     const description =
       loaderData?.settings?.defaultMetaDescription?.trim() ||
       FALLBACK_SETTINGS.defaultMetaDescription;
+    // Site-wide social card, generated on demand from the live title/description
+    // (see src/routes/og[.]png.tsx). Pages with their own image (e.g. itinerary
+    // articles) override og:image in their own head(); this is the default for
+    // the homepage and every page that doesn't set its own.
+    const socialImage = ogImageUrl({ title, subtitle: description });
     return {
       meta: [
         { charSet: "utf-8" },
@@ -146,13 +149,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { property: "og:title", content: title },
         { property: "og:description", content: description },
         { property: "og:type", content: "website" },
-        { property: "og:image", content: SOCIAL_PREVIEW_IMAGE },
-        { name: "twitter:card", content: "summary" },
+        { property: "og:image", content: socialImage },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:site", content: "@ExploreIndonesiaAI" },
         // twitter:title / twitter:description intentionally omitted — X/Twitter
         // falls back to og:title / og:description, which are page-specific and
         // richer than the generic site title. Keep card/site/image here.
-        { name: "twitter:image", content: SOCIAL_PREVIEW_IMAGE },
+        { name: "twitter:image", content: socialImage },
       ],
       links: [
         {

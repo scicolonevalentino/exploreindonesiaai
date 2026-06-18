@@ -15,6 +15,8 @@ import {
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { FerryRoutesDivider } from "@/components/FerryRoutesDivider";
+import { HERO } from "@/data/hero";
+import { ogHomeImageUrl } from "@/lib/og";
 
 // Hero background videos are self-hosted from public/ (served at the site root).
 // Previously these came from Lovable's /__l5e asset runtime, but after the
@@ -80,6 +82,12 @@ export const Route = createFileRoute("/")({
         content: "Paste your Indonesia itinerary and get a bookable, day-by-day plan in seconds.",
       },
       { property: "og:type", content: "website" },
+      // Homepage social card = faithful replica of the hero (src/routes/og[.]jpg.tsx).
+      { property: "og:image", content: ogHomeImageUrl() },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: ogHomeImageUrl() },
     ],
   }),
   loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
@@ -172,14 +180,14 @@ export function Hero() {
           className="text-xs sm:text-sm font-bold uppercase tracking-[0.25em] mb-6 text-white"
           style={{ textShadow: "0 1px 10px rgba(0,0,0,0.7)" }}
         >
-          AI itinerary planning, powered by real experiences
+          {HERO.eyebrow}
         </p>
 
         <h1
           className="font-serif text-white leading-[1.1] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold"
           style={{ textShadow: "0 2px 28px rgba(0,0,0,0.75)" }}
         >
-          Have you planned your trip to{" "}
+          {HERO.title.lead}
           <span
             style={{
               backgroundImage: "linear-gradient(transparent 60%, var(--blue-bright) 60%)",
@@ -187,12 +195,13 @@ export function Hero() {
               boxDecorationBreak: "clone",
             }}
           >
-            Indonesia
+            {HERO.title.highlight1}
           </span>
-          ?
+          {HERO.title.q}
           <br />
           <span className="font-normal italic md:whitespace-nowrap">
-            We make it <br className="md:hidden" />
+            {HERO.title.line2Lead}
+            <br className="md:hidden" />
             <span
               className="whitespace-nowrap"
               style={{
@@ -201,7 +210,7 @@ export function Hero() {
                 boxDecorationBreak: "clone",
               }}
             >
-              ready-to-book
+              {HERO.title.highlight2}
             </span>
           </span>
         </h1>
