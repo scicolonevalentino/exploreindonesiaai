@@ -4,6 +4,7 @@ import { createServerFn } from "@tanstack/react-start";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { trackEvent } from "@/lib/analytics-events";
 
 // The Airalo eSIM CTA reuses the same Travelpayouts smart link the trip builder
 // injects (env: AIRALO_AFFILIATE_LINK). One source of truth; if it is unset we
@@ -145,6 +146,26 @@ function Td({ children }: { children: ReactNode }) {
   );
 }
 
+// Official government portal link: opens in a new tab and fires an outbound_click
+// GA4 event (a useful "did this page drive action" signal). No nofollow: these
+// are authoritative .go.id citations, good for trust/E-E-A-T, not affiliate links.
+function OfficialLink({ domain }: { domain: string }) {
+  return (
+    <a
+      href={`https://${domain}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={() =>
+        trackEvent("outbound_click", { destination: domain, link_type: "official_portal" })
+      }
+      className="underline underline-offset-2"
+      style={{ color: "var(--teal-link)" }}
+    >
+      {domain}
+    </a>
+  );
+}
+
 /* -------------------------------------------------------------------------- */
 /*  Page                                                                      */
 /* -------------------------------------------------------------------------- */
@@ -210,12 +231,16 @@ function VisaGuidePage() {
             </li>
             <li>Cost: IDR 500,000 (about $32 USD, $50 AUD, or 30 euros) per person.</li>
             <li>Stay: 30 days, extendable once for another 30 days (60 days maximum).</li>
-            <li>Apply online before you fly at molina.imigrasi.go.id or evisa.imigrasi.go.id.</li>
+            <li>
+              Apply online before you fly at <OfficialLink domain="molina.imigrasi.go.id" /> or{" "}
+              <OfficialLink domain="evisa.imigrasi.go.id" />.
+            </li>
             <li>Passport must be valid for 6 or more months from your arrival date.</li>
             <li>A return or onward ticket is required.</li>
             <li>
-              Since September 2025, the All Indonesia app (allindonesia.imigrasi.go.id) is mandatory
-              for the electronic arrival card at major ports.
+              Since September 2025, the All Indonesia app (
+              <OfficialLink domain="allindonesia.imigrasi.go.id" />) is mandatory for the electronic
+              arrival card at major ports.
             </li>
           </ul>
           <p className="mt-4">
@@ -323,7 +348,9 @@ function VisaGuidePage() {
         >
           <p>An eVOA is required. The US is not visa-free.</p>
           <p>The process and cost are the same as for EU and Australian travelers.</p>
-          <p>Apply at evisa.imigrasi.go.id.</p>
+          <p>
+            Apply at <OfficialLink domain="evisa.imigrasi.go.id" />.
+          </p>
         </div>
 
         {/* 4. How to apply */}
@@ -333,8 +360,9 @@ function VisaGuidePage() {
           style={{ color: "var(--slate-muted)" }}
         >
           <li>
-            Go to molina.imigrasi.go.id or evisa.imigrasi.go.id. Use the official government portals
-            only and be wary of third-party scam sites charging inflated fees.
+            Go to <OfficialLink domain="molina.imigrasi.go.id" /> or{" "}
+            <OfficialLink domain="evisa.imigrasi.go.id" />. Use the official government portals only
+            and be wary of third-party scam sites charging inflated fees.
           </li>
           <li>
             Create an account, one per traveler. Children need their own separate applications.
@@ -357,13 +385,15 @@ function VisaGuidePage() {
         <div className="mt-12 space-y-6">
           <Callout title="Bali tourism levy">
             Since February 2024, all international visitors to Bali pay an additional IDR 150,000
-            (about $10 USD) tourism levy. Pay online at lovebali.baliprov.go.id or on arrival. This
-            is separate from the visa fee.
+            (about $10 USD) tourism levy. Pay online at{" "}
+            <OfficialLink domain="lovebali.baliprov.go.id" /> or on arrival. This is separate from
+            the visa fee.
           </Callout>
           <Callout title="All Indonesia arrival card">
             Since September 2025, all arrivals at major Indonesian ports must complete an electronic
-            arrival card via the All Indonesia platform (allindonesia.imigrasi.go.id) before
-            landing. It replaces the old paper card.
+            arrival card via the All Indonesia platform (
+            <OfficialLink domain="allindonesia.imigrasi.go.id" />) before landing. It replaces the
+            old paper card.
           </Callout>
         </div>
 
@@ -473,9 +503,10 @@ function VisaGuidePage() {
         </section>
 
         <p className="mt-10 text-xs leading-relaxed" style={{ color: "var(--slate-muted)" }}>
-          Visa rules and fees change. Confirm the current requirements at the official portals
-          (evisa.imigrasi.go.id, molina.imigrasi.go.id) before you travel. Some links are affiliate
-          links; booking through them helps fund the site at no extra cost to you.
+          Visa rules and fees change. Confirm the current requirements at the official portals (
+          <OfficialLink domain="evisa.imigrasi.go.id" />,{" "}
+          <OfficialLink domain="molina.imigrasi.go.id" />) before you travel. Some links are
+          affiliate links; booking through them helps fund the site at no extra cost to you.
         </p>
       </main>
     </div>
