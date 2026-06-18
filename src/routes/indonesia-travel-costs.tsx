@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { trackEvent } from "@/lib/analytics-events";
 
 const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown by Travel Style";
 const DESCRIPTION =
@@ -283,8 +284,17 @@ function TravelCostsPage() {
             <li>Luxury resorts: $150 to $400 or more a night.</li>
           </ul>
           <p>
-            Book via Booking.com for the best rates. Prices rise 30 to 50% in July, August and
-            December.
+            Book via{" "}
+            <a
+              href="https://www.booking.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              Booking.com
+            </a>{" "}
+            for the best rates. Prices rise 30 to 50% in July, August and December.
           </p>
         </Prose>
 
@@ -358,7 +368,24 @@ function TravelCostsPage() {
             >
               Java trains (Jakarta to Yogyakarta)
             </Link>{" "}
-            run $8 to $32 depending on class. Book ferries via 12Go Asia.
+            run $8 to $32 depending on class. Book ferries via{" "}
+            <a
+              href="https://12go.asia/?z=16022946"
+              target="_blank"
+              rel="sponsored nofollow noopener noreferrer"
+              onClick={() =>
+                trackEvent("affiliate_click", {
+                  partner: "12go",
+                  category: "ferries",
+                  source: "costs_page",
+                })
+              }
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              12Go Asia
+            </a>
+            .
           </p>
 
           <p style={{ color: "var(--navy-deep)" }}>
