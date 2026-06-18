@@ -376,17 +376,7 @@ function TravelCostsPage() {
         <Prose>
           <ul className="space-y-2 list-disc pl-5">
             <li>Borobudur temple: $25 (foreign visitor rate).</li>
-            <li>
-              <Link
-                to="/transport/$route"
-                params={{ route: "bali-to-labuan-bajo" }}
-                className="underline underline-offset-2"
-                style={teal}
-              >
-                Komodo
-              </Link>{" "}
-              day trip from Labuan Bajo: $50 to $80.
-            </li>
+            <li>Komodo day trip from Labuan Bajo: $50 to $80.</li>
             <li>Komodo liveaboard, 3 to 4 days: $300 to $865.</li>
             <li>Mount Bromo sunrise tour: $80 from Malang.</li>
             <li>Ubud Monkey Forest: $4 to $10.</li>
