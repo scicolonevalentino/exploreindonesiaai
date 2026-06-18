@@ -20,6 +20,7 @@ import {
   findDestinationBySlug,
   type DestinationContent,
 } from "@/data/destinations";
+import { TRANSPORT_ROUTES } from "@/data/routes";
 
 const ARTICLES_BY_DESTINATION_QUERY = groq`*[
   _type == "article"
@@ -109,6 +110,15 @@ function DestinationInner() {
   const dest = Route.useLoaderData();
   const { data: articles } = useSuspenseQuery(articlesByDestQO(dest.value));
   const { data: guides } = useSuspenseQuery(guidesByDestQO(dest.value));
+
+  // Transport routes touching this destination (static data, so these links land
+  // in the SSR HTML). This is the internal-link that lets crawlers reach the
+  // route pages from an indexed hub instead of only via the footer.
+  const routes = TRANSPORT_ROUTES.filter(
+    (r) =>
+      r.status === "live" &&
+      (r.fromDestinationSlug === dest.slug || r.toDestinationSlug === dest.slug),
+  ).sort((a, b) => a.priority - b.priority);
 
   // Destinations have no image of their own (static data), so borrow an itinerary
   // hero for the header backdrop, faded behind the gradient like the transport
@@ -317,6 +327,43 @@ function DestinationInner() {
               <TripCard key={a._id} article={a} />
             ))}
           </div>
+        )}
+
+        {routes.length > 0 && (
+          <section
+            className="mt-16 rounded-2xl border p-6 sm:p-8"
+            style={{ borderColor: "var(--border-cream)", backgroundColor: "#ffffff" }}
+          >
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.25em] mb-3"
+              style={{ color: "var(--teal-link)" }}
+            >
+              Getting around
+            </p>
+            <h2
+              className="font-serif text-xl sm:text-2xl font-semibold mb-2"
+              style={{ color: "var(--navy-deep)" }}
+            >
+              How to get to and around {dest.shortName}
+            </h2>
+            <p className="text-sm mb-5" style={{ color: "var(--slate-muted)" }}>
+              Routes, journey times and working price estimates for the transfers these trips need.
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+              {routes.map((r) => (
+                <li key={r.slug}>
+                  <Link
+                    to="/transport/$route"
+                    params={{ route: r.slug }}
+                    className="inline-flex items-center font-medium underline underline-offset-2"
+                    style={{ color: "var(--teal-link)" }}
+                  >
+                    {r.fromName} to {r.toName} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         <section
