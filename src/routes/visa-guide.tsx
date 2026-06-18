@@ -456,13 +456,6 @@ function VisaGuidePage() {
             >
               Plan my Indonesia trip &rarr;
             </a>
-            <Link
-              to="/trips"
-              className="inline-flex items-center font-medium underline underline-offset-2"
-              style={{ color: "var(--teal-link)" }}
-            >
-              Browse Indonesia itineraries &rarr;
-            </Link>
           </div>
           <p className="mt-6 text-sm leading-relaxed" style={{ color: "var(--slate-muted)" }}>
             Get your{" "}

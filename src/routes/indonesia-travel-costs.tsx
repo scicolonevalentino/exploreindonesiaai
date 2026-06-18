@@ -592,13 +592,6 @@ function TravelCostsPage() {
             >
               Plan my Indonesia trip &rarr;
             </a>
-            <Link
-              to="/trips"
-              className="inline-flex items-center font-medium underline underline-offset-2"
-              style={teal}
-            >
-              Browse Indonesia itineraries &rarr;
-            </Link>
           </div>
           <p className="mt-6 text-sm leading-relaxed" style={{ color: "var(--slate-muted)" }}>
             Crossing borders first? Check the{" "}
