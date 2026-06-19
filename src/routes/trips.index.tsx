@@ -141,6 +141,14 @@ function TripsInner() {
     });
   }, [articles, sel]);
 
+  const headerImg = useMemo(() => {
+    const featured =
+      articles.find((a) => a.slug?.current === "7-days-lombok-gili-islands") ?? articles[0];
+    return featured?.heroImage?.asset
+      ? urlFor(featured.heroImage).width(1920).height(720).fit("crop").auto("format").url()
+      : null;
+  }, [articles]);
+
   const totalFilters =
     sel.destinations.length +
     sel.tripLengths.length +
@@ -179,12 +187,23 @@ function TripsInner() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--cream)" }}>
       <header
-        className="w-full px-6 py-8 sm:py-10"
+        className="relative w-full overflow-hidden px-6 py-8 sm:py-10"
         style={{
           background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)",
         }}
       >
-        <div className="mx-auto max-w-7xl">
+        {headerImg && (
+          <img
+            src={headerImg}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-cover opacity-60"
+          />
+        )}
+        {headerImg && (
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/80" />
+        )}
+        <div className="relative z-10 mx-auto max-w-7xl">
           <Link to="/" className="text-sm text-white/70 hover:text-white">
             ← Home
           </Link>
