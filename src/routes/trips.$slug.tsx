@@ -91,6 +91,27 @@ function extractDayHeadings(body: Article["body"]): string[] {
   return extractH2Headings(body).filter((t) => /^days?\s*\d/i.test(t));
 }
 
+// Tone phrases shown in place of a bare "N min read". The reading minutes still
+// feed JSON-LD (timeRequired/wordCount) and the aria-label, so search/AI snippets
+// keep the real number; the visible label leads with mood and keeps the minutes
+// quiet so a long itinerary never reads as a slog. Pool is chosen by the trip's
+// vibe (so it always fits), and the phrase within a pool is picked deterministically
+// from the slug, so it is stable per article and never flickers on hydration.
+const READING_MOODS: Record<string, string[]> = {
+  relaxed: ["A relaxed read", "Read it slowly", "One for a quiet morning"],
+  balanced: ["A steady read", "Settle in", "An easy-going read"],
+  active: ["A quick read", "A brisk one", "Read it on the move"],
+  remote: ["A slow read", "For an unhurried evening", "A quiet, longer read"],
+};
+const READING_MOOD_FALLBACK = ["A good read", "Settle in", "Worth a read"];
+
+function readingMoodPhrase(vibe: string | undefined, slug: string): string {
+  const pool = (vibe && READING_MOODS[vibe]) || READING_MOOD_FALLBACK;
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) | 0;
+  return pool[Math.abs(h) % pool.length];
+}
+
 // Estimate reading time in minutes from Portable Text body (~200 wpm).
 function calcReadingTime(body: Article["body"]): number {
   if (!body) return 0;
@@ -385,6 +406,7 @@ function ArticleInner() {
   );
   const { data: destGuides = [] } = useQuery(guidesForDestQO(a.destinationPrimary));
   const readingMinutes = useMemo(() => calcReadingTime(a.body), [a.body]);
+  const readingMood = useMemo(() => readingMoodPhrase(a.vibe, slug), [a.vibe, slug]);
   const jsonLd = useMemo(() => buildTripJsonLd(a, slug), [a, slug]);
 
   const linkMap = useMemo(() => {
@@ -654,7 +676,8 @@ function ArticleInner() {
                   <circle cx="12" cy="12" r="9" />
                   <path d="M12 7v5l3 2" />
                 </svg>
-                {readingMinutes} min read
+                <span>{readingMood}</span>
+                <span className="text-white/45 font-normal">· {readingMinutes} min</span>
               </p>
             )}
             <div
