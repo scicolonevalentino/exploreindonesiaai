@@ -171,6 +171,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   const [limitOpen, setLimitOpen] = useState(false);
   const { user, loading: userLoading } = useUser();
   const restoredRef = useRef(false);
+  const komoStartedRef = useRef(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -227,7 +228,22 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
     window.localStorage.removeItem(PENDING_TRIP_KEY);
   }, [userLoading, user]);
 
-  async function buildTrip() {
+  // Incoming pre-filled prompt, e.g. handed off from the Ask Komo widget via
+  // /p1?prompt=... . Fill the box and assemble immediately, as if the visitor
+  // had typed it and pressed the button.
+  useEffect(() => {
+    if (komoStartedRef.current) return;
+    const incoming = new URLSearchParams(window.location.search).get("prompt");
+    if (incoming && incoming.trim().length >= MIN_PASTE_LENGTH) {
+      komoStartedRef.current = true;
+      setPrompt(incoming);
+      void buildTrip(incoming);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  async function buildTrip(overridePrompt?: string) {
+    const submitted = (overridePrompt ?? prompt).trim();
     // Signed-in users get a daily free-generation cap — a Pro-demand sensor,
     // not a hard wall (signed-out stays unlimited; the check is client-side and
     // fails open). At the cap, surface the Pro early-access modal instead of
@@ -245,7 +261,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
     }
 
     // Capture the submitted prompt for product insight (consent-gated, best-effort).
-    capturePrompt(prompt);
+    capturePrompt(submitted);
 
     setError(null);
     setStage("building");
@@ -263,7 +279,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       const res = await fetch("/api/public/build-trip", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: prompt.trim() }),
+        body: JSON.stringify({ prompt: submitted }),
       });
 
       // Validation / rate-limit errors come back as plain JSON, not a stream.

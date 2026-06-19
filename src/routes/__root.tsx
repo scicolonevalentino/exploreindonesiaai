@@ -186,6 +186,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
               },
             ]
           : []),
+        // Ask Komo widget (Camille white-label). Injects the chat launcher;
+        // skipped on the trip builder (/p1) and legal pages. Functional and sets
+        // no cookies, so it is not consent-gated.
+        {
+          children:
+            "(function(){var p=location.pathname;if(p==='/p1'||p==='/p1-home'||p.indexOf('/privacy')===0||p.indexOf('/terms')===0)return;var s=document.createElement('script');s.src='https://www.camille.travel/embed.js';s.async=true;s.setAttribute('data-expert','exploreindonesia');(document.body||document.head).appendChild(s);})();",
+        },
         // Travelpayouts Drive affiliate loader is NOT injected here — it sets
         // persistent cookies, so it's loaded by analytics-consent.ts only after
         // the visitor grants marketing consent (see loadAffiliate()).
