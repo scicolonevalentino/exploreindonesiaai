@@ -55,6 +55,7 @@ export const Route = createFileRoute("/trips/")({
           "Browse hand-picked Indonesia itineraries. Filter by destination, trip length, travel style, traveller type, and vibe.",
       },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/trips" }],
   }),
   component: TripsPage,
   errorComponent: ({ error }) => (
