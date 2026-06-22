@@ -1,0 +1,1636 @@
+{
+  "_id": "itinerary-7-days-west-sumatra-bukittinggi-harau-valley",
+  "_type": "article",
+  "contentStatus": "draft",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-west-sumatra-bukittinggi-harau-valley"
+  },
+  "title": "7 Days in West Sumatra: Bukittinggi, Harau Valley and the Minangkabau Highlands",
+  "metaTitle": "7 Days in West Sumatra: Bukittinggi & Harau Valley",
+  "metaDescription": "A 7-day West Sumatra itinerary through Bukittinggi, Lake Maninjau, Pagaruyung and Harau Valley. Minangkabau culture, highland food and route logic.",
+  "focusKeyword": "West Sumatra itinerary",
+  "destinationPrimary": "sumatra",
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "travelStylePrimary": "culture_temples",
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "balanced",
+  "author": {
+    "_type": "reference",
+    "_ref": "author-editorial-team"
+  },
+  "articleCreatedDate": "2026-06-22T06:11:12.752Z",
+  "intro": "Most travellers who reach Sumatra go north for the orangutans and never turn west, which is how the Minangkabau highlands stay quiet even in high season. West Sumatra is a different trip from the jungle north. It runs on highland air, matrilineal Minangkabau culture, and a tight string of canyons, lakes and cliff-walled valleys that sit within a couple of hours of each other. This 7-day route from Padang keeps Bukittinggi as its base, adds two nights inside Harau Valley, and treats the long volcanic drives as part of the trip rather than a tax on it. If you want temples and beach clubs, this is not your week. If you want culture, cliffs and rice terraces with very few other foreigners around, it earns its place.",
+  "route": "Padang → Bukittinggi → Lake Maninjau → Pagaruyung → Harau Valley → Padang",
+  "faq": [
+    {
+      "question": "Is one week enough for West Sumatra?",
+      "answer": "One week is enough for the core highland loop of Bukittinggi, Lake Maninjau, Pagaruyung and Harau Valley, ending in Padang. It is not enough to add the northern orangutan region or the Mentawai islands. If you have less time, drop Lake Maninjau and keep five or six days around Bukittinggi and Harau."
+    },
+    {
+      "question": "How do you get to West Sumatra?",
+      "answer": "Fly into Minangkabau International Airport near Padang, airport code PDG. As a working guide it has regular connections from Jakarta and Kuala Lumpur, so most travellers route through one of those. Confirm current flight routes before locking hotels, since regional schedules change."
+    },
+    {
+      "question": "Should I base in Bukittinggi or Padang?",
+      "answer": "Base in Bukittinggi. It sits in the middle of the highlands with Lake Maninjau, Pagaruyung and Harau Valley all within a couple of hours, while Padang is the coastal arrival and departure point. This route keeps Bukittinggi as the hub, moves to Harau Valley for two nights, and uses Padang only for the final night before flying out."
+    },
+    {
+      "question": "Do I need a car and driver?",
+      "answer": "It is the single biggest comfort upgrade here. Public transport exists but is slow and hard to piece together, English is limited, and the mountain roads are winding. Hiring a private car and driver, ideally for the whole week, removes most of the friction. Agree prices and waiting times in advance."
+    },
+    {
+      "question": "What is the Kelok 44 road?",
+      "answer": "Kelok 44 is the road down to Lake Maninjau, made up of forty-four numbered hairpin bends switchbacking down the crater wall. The descent takes around ninety minutes from Bukittinggi as a working estimate and is worth doing in daylight. If anyone gets motion sick, sit in front and take something beforehand."
+    },
+    {
+      "question": "Is West Sumatra suitable for families?",
+      "answer": "It is better for couples, friends and solo travellers than for families with very young children, mainly because of the long winding drives and the light tourist infrastructure. Families wanting easier logistics are usually happier in Bali or the Gili Islands. Older children who travel well can manage this route."
+    },
+    {
+      "question": "What should I budget for entry fees and the visa?",
+      "answer": "Most attractions here are cheap. As a working estimate, Sianok Canyon is around IDR 15,000, the Japanese tunnels a few thousand rupiah, and the Kinantan park around IDR 50,000, while Pagaruyung Palace and Harau Valley charge modest fees that go toward upkeep. The visa on arrival or e-VOA costs around IDR 500,000, roughly USD 35. All of these can change, so confirm current prices on the day."
+    }
+  ],
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Compare Padang to Bukittinggi transfers",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_PADANG_BUKITTINGGI",
+      "publicUrl": "https://12go.asia/en/travel/padang/bukittinggi"
+    }
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "k1",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k0",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k3",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k2",
+          "marks": [],
+          "text": "This route suits travellers who choose culture and landscape over nightlife and beach clubs, who do not mind a few half-day drives, and who are comfortable in a region where English is limited and tourism infrastructure is light. It works well for couples, small groups of friends and solo travellers who want a calmer corner of Indonesia. Minangkabau society is matrilineal, the food is among the best in the country, and the scenery shifts from canyon to lake to cliff-walled valley inside a single week."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k5",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k4",
+          "marks": [],
+          "text": "It is not the right trip for first-time Indonesia visitors who want effortless logistics, for families with very young children who will struggle with the winding drives, or for anyone whose main goal is diving or a polished resort. Those travellers are better served in Bali or the Gili Islands. West Sumatra rewards patience more than it rewards convenience, and it helps to arrive knowing that."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k7",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k6",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k10",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k8",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route: "
+        },
+        {
+          "_type": "span",
+          "_key": "k9",
+          "marks": [],
+          "text": "Padang to Bukittinggi to Lake Maninjau, then Pagaruyung and Harau Valley, then back to Padang."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k13",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k11",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for: "
+        },
+        {
+          "_type": "span",
+          "_key": "k12",
+          "marks": [],
+          "text": "Minangkabau culture, highland scenery and some of the best food in Indonesia."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k16",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k14",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace: "
+        },
+        {
+          "_type": "span",
+          "_key": "k15",
+          "marks": [],
+          "text": "Balanced, built around two or three half-day drives rather than long daily transfers."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k19",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k17",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base changes: "
+        },
+        {
+          "_type": "span",
+          "_key": "k18",
+          "marks": [],
+          "text": "Three. Bukittinggi for the first nights, Harau Valley in the middle, and one night near Padang at the end."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k22",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k20",
+          "marks": [
+            "strong"
+          ],
+          "text": "When to go: "
+        },
+        {
+          "_type": "span",
+          "_key": "k21",
+          "marks": [],
+          "text": "The drier stretch from roughly May to September tends to be easier for viewpoints and valley walks, as a working guide. Sumatra is wet for much of the year, so pack a rain layer whatever the month."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k25",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k23",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there: "
+        },
+        {
+          "_type": "span",
+          "_key": "k24",
+          "marks": [],
+          "text": "Fly into Minangkabau International Airport near Padang, airport code PDG, which has regular connections from Jakarta and Kuala Lumpur. Confirm current routes before locking hotels, since regional schedules change."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k27",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k26",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k29",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k28",
+          "marks": [],
+          "text": "West Sumatra is compact in a way the north is not. Bukittinggi sits in the middle of the highlands and works as a natural hub, with Lake Maninjau about ninety minutes to the southwest down the Kelok 44 road, and the Pagaruyung area and Harau Valley to the east. By basing in Bukittinggi first you can run day trips in both directions without packing and unpacking, then move to Harau Valley for two nights to slow down and sleep inside the scenery rather than visiting it on a day trip."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k31",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k30",
+          "marks": [],
+          "text": "The loop ends back in Padang on purpose. The drive from the highlands down to the coast takes a few hours and Sumatran roads do not reward tight connections, so an overnight near the airport removes the risk of missing a morning flight. The whole route is a triangle that avoids backtracking the same road twice, which matters when each leg is winding and slow."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k33",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k32",
+          "marks": [],
+          "text": "Day 1: Arrive in Padang, transfer to Bukittinggi"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k36",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k34",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k35",
+          "marks": [],
+          "text": "Land at Minangkabau International Airport near Padang. Most international arrivals route through Jakarta or Kuala Lumpur, so plan for a connection rather than a direct long-haul flight, and confirm the current routing before you book."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k42",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k39",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_PADANG_BUKITTINGGI"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k37",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k38",
+          "marks": [],
+          "text": "Head straight up to Bukittinggi. The drive takes around two to three hours as a working estimate, climbing out of the coastal heat into cooler highland air. You can arrange a private car or take a shared minibus. "
+        },
+        {
+          "_type": "span",
+          "_key": "k40",
+          "marks": [
+            "k39"
+          ],
+          "text": "Compare Padang to Bukittinggi transfers"
+        },
+        {
+          "_type": "span",
+          "_key": "k41",
+          "marks": [],
+          "text": " before you arrive so you are not negotiating at the airport curb after a flight."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k45",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k43",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k44",
+          "marks": [],
+          "text": "Settle in around Jam Gadang, the Dutch-era clock tower that anchors the town centre, and walk the Pasar Atas market lanes nearby for a first Minangkabau meal. Padang food is served rendang, gulai and sambal laid out in small dishes, and you pay only for what you eat."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k48",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k46",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_type": "span",
+          "_key": "k47",
+          "marks": [],
+          "text": "Bukittinggi, for three nights."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k54",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k51",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k49",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_type": "span",
+          "_key": "k50",
+          "marks": [],
+          "text": "Mobile coverage thins out in the valleys and on the mountain roads. An "
+        },
+        {
+          "_type": "span",
+          "_key": "k52",
+          "marks": [
+            "k51"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_type": "span",
+          "_key": "k53",
+          "marks": [],
+          "text": " set up before you land saves hunting for a local SIM in Padang and keeps maps and translation working between towns."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k56",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k55",
+          "marks": [],
+          "text": "Day 2: Bukittinggi on foot and around the canyon"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k59",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k57",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k58",
+          "marks": [],
+          "text": "Start at Ngarai Sianok, the green canyon that drops away on the edge of town. The entrance fee is small, around IDR 15,000 as a working estimate, and prices can change. From the rim, the Janjang Koto Gadang stairway, sometimes called the great wall of Koto Gadang, runs down and across the canyon and back up the far side, which makes a good half-day walk for anyone who likes their sightseeing on foot."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k62",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k60",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k61",
+          "marks": [],
+          "text": "Visit Panorama Park and the Japanese tunnels dug into the hillside during the occupation, which carry a token entry fee of a few thousand rupiah. Fort de Kock and the Kinantan park sit a short walk away across a footbridge if you want to fill the afternoon, with a separate ticket of around IDR 50,000 as a working estimate."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k65",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k63",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k64",
+          "marks": [],
+          "text": "Eat well. Bukittinggi is a strong place to work through Minangkabau cooking, from rendang to dendeng balado, and to try kopi from the surrounding highlands."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k68",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k66",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_type": "span",
+          "_key": "k67",
+          "marks": [],
+          "text": "Bukittinggi sits high enough that evenings are genuinely cool. A light layer is worth having, which surprises travellers arriving from Bali."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k70",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k69",
+          "marks": [],
+          "text": "Day 3: Lake Maninjau and the Kelok 44 road"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k73",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k71",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k72",
+          "marks": [],
+          "text": "Drive southwest to Lake Maninjau, a caldera lake reached by the Kelok 44 road, a sequence of forty-four numbered hairpin bends that switchback down the crater wall. The drive from Bukittinggi takes around ninety minutes as a working estimate, and the descent itself is the reason to go. Ask your driver to stop at the upper bends for the view back over the lake."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k76",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k74",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k75",
+          "marks": [],
+          "text": "Spend time at the lakeshore. Maninjau is quiet and rural, with small warungs and swimming spots rather than resorts, so this is a slow afternoon by design. Return to Bukittinggi by late afternoon, since the bends are best driven in daylight."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k79",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k77",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k78",
+          "marks": [],
+          "text": "Back in Bukittinggi for a second highland dinner and an early night before the move east."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k82",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k80",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_type": "span",
+          "_key": "k81",
+          "marks": [],
+          "text": "A private car with a driver for the day makes Maninjau far easier than piecing together public transport, and lets you control the stops. Agree the price and the waiting time in advance."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k85",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k83",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_type": "span",
+          "_key": "k84",
+          "marks": [],
+          "text": "If anyone in your group is prone to motion sickness, the forty-four bends are no joke. Sit in front and take something before you leave."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k87",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k86",
+          "marks": [],
+          "text": "Day 4: Pagaruyung Palace, then move to Harau Valley"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k90",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k88",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k89",
+          "marks": [],
+          "text": "Check out of Bukittinggi and drive east toward Batusangkar to see Istana Basa Pagaruyung, the reconstructed royal palace of the old Minangkabau kingdom. It is a working model of rumah gadang architecture, the horn-roofed great houses of the region, rather than an ancient ruin, and the modest entry ticket goes toward upkeep. Confirm opening hours and the current fee on the day, since both can change."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k93",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k91",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k92",
+          "marks": [],
+          "text": "Continue to Harau Valley, near Payakumbuh, around one and a half to two hours from Bukittinggi as a working estimate. The valley opens up as sheer rock walls rising straight out of rice fields, with homestays and small guesthouses set among the paddies. Arrive with enough daylight to walk out and get your bearings."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k96",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k94",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k95",
+          "marks": [],
+          "text": "Eat at your guesthouse. Harau is rural and options are limited after dark, which is part of why people come."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k99",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k97",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_type": "span",
+          "_key": "k98",
+          "marks": [],
+          "text": "Harau Valley, for two nights."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k102",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k100",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_type": "span",
+          "_key": "k101",
+          "marks": [],
+          "text": "Harau homestays are small and the good ones fill in peak months. Book ahead rather than assuming you can choose on arrival."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k104",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k103",
+          "marks": [],
+          "text": "Day 5: A full day inside Harau Valley"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k107",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k105",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k106",
+          "marks": [],
+          "text": "Walk or cycle the valley floor between the cliffs. There is a small entrance or maintenance fee to access parts of the valley as a working estimate, and it can change. The waterfalls running off the rock walls are the obvious targets, and the rice terraces between them are the quieter pleasure."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k110",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k108",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k109",
+          "marks": [],
+          "text": "Harau is one of the few places in Sumatra set up for rock climbing, with bolted routes on the cliff faces, so this is the day to try it if that appeals. Otherwise, keep walking, find a viewpoint, and let the pace drop. This is the slow centre of the trip and it is meant to feel that way."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k113",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k111",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k112",
+          "marks": [],
+          "text": "A second quiet night in the valley. The cliffs catch the last light, and there is very little to do after dark beyond eat and rest, which is the point."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k116",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k114",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_type": "span",
+          "_key": "k115",
+          "marks": [],
+          "text": "Distances inside the valley are walkable but spread out. A cheap bicycle or scooter rental from your guesthouse opens up the far end without a long walk back."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k118",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k117",
+          "marks": [],
+          "text": "Day 6: Down to Padang and a night on the coast"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k121",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k119",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k120",
+          "marks": [],
+          "text": "Leave Harau early enough to enjoy the drive back down to the coast. The run from the valley to Padang takes roughly three to four hours as a working estimate, depending on traffic and stops, so this is mostly a travel morning."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k124",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k122",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_type": "span",
+          "_key": "k123",
+          "marks": [],
+          "text": "Arrive in Padang and use the afternoon for the city. Air Manis beach and the Malin Kundang rock, tied to the local legend of the ungrateful son turned to stone, make an easy outing, and Padang itself is the home of the food you have been eating all week, so it is worth one proper sit-down meal at the source."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k127",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k125",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_type": "span",
+          "_key": "k126",
+          "marks": [],
+          "text": "Stay near the airport or in central Padang for the night, depending on your morning flight time."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k130",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k128",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_type": "span",
+          "_key": "k129",
+          "marks": [],
+          "text": "Padang, for one night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k133",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k131",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_type": "span",
+          "_key": "k132",
+          "marks": [],
+          "text": "If your flight out is early, a hotel near Minangkabau International Airport is worth more than a more characterful one in town. The road in from the city is short but you do not want to gamble on it before a dawn departure."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k135",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k134",
+          "marks": [],
+          "text": "Day 7: Departure from Padang"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k138",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k136",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_type": "span",
+          "_key": "k137",
+          "marks": [],
+          "text": "Fly out from Minangkabau International Airport, usually connecting through Jakarta or Kuala Lumpur. Build in buffer time, since regional flights here can shift and a missed connection is harder to recover from than in Bali. Confirm your routing the day before."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k140",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k139",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k143",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k141",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early: "
+        },
+        {
+          "_type": "span",
+          "_key": "k142",
+          "marks": [],
+          "text": "Your first night in Bukittinggi and both nights in Harau Valley, because the better guesthouses are small and fill in the drier months. A car and driver for the Maninjau day and for the Harau transfer are also worth arranging ahead, since on-the-spot prices are higher and the good drivers get booked."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k146",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k144",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible: "
+        },
+        {
+          "_type": "span",
+          "_key": "k145",
+          "marks": [],
+          "text": "The Bukittinggi sightseeing days, your Padang afternoon, and meals throughout. None of these need reservations, and weather in the highlands can rearrange a day, so leave room to swap the canyon walk and the Maninjau drive if the cloud comes in."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k148",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k147",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k151",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k149",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the drives. "
+        },
+        {
+          "_type": "span",
+          "_key": "k150",
+          "marks": [],
+          "text": "Every leg here is winding mountain road, not highway. A transfer that looks like ninety minutes on a map can run longer with road works or rain, so do not stack two big drives into one day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k154",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k152",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skipping Harau as a base. "
+        },
+        {
+          "_type": "span",
+          "_key": "k153",
+          "marks": [],
+          "text": "Visiting Harau Valley on a day trip from Bukittinggi is possible but misses the point. The valley is best in the early morning and late afternoon, which only the overnight gets you."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k157",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k155",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating Padang as a throwaway. "
+        },
+        {
+          "_type": "span",
+          "_key": "k156",
+          "marks": [],
+          "text": "Many itineraries rush through Padang to reach the highlands. Giving it the final afternoon and one proper meal closes the loop on the food culture you have been sampling all week."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k160",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k158",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assuming everywhere takes cards. "
+        },
+        {
+          "_type": "span",
+          "_key": "k159",
+          "marks": [],
+          "text": "Outside Bukittinggi and Padang, cash is king. Draw enough rupiah in town before heading to Maninjau and Harau, where ATMs are scarce."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k162",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k161",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k165",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k163",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you have less time, "
+        },
+        {
+          "_type": "span",
+          "_key": "k164",
+          "marks": [],
+          "text": "cut Lake Maninjau and keep the trip to five or six days. The Bukittinggi base plus two nights in Harau is the core, and Maninjau is the most expendable day trip if the schedule tightens."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k168",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k166",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you want more, "
+        },
+        {
+          "_type": "span",
+          "_key": "k167",
+          "marks": [],
+          "text": "add a night in Harau for climbing or slow walking, or extend toward the Mentawai-bound coast and the Mandeh area south of Padang if islands and boats appeal more than highlands. That turns a one-week loop into a ten-day trip."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k171",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k169",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you want to upgrade, "
+        },
+        {
+          "_type": "span",
+          "_key": "k170",
+          "marks": [],
+          "text": "spend on a good private driver for the whole week rather than piecing transport together leg by leg. In a region with light public transport and few signs in English, a reliable driver is the single biggest comfort upgrade, more than any hotel."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k176",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k173",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-sumatra"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k172",
+          "marks": [],
+          "text": "If you want to pair this with the better-known north, the "
+        },
+        {
+          "_type": "span",
+          "_key": "k174",
+          "marks": [
+            "k173"
+          ],
+          "text": "15-day Sumatra itinerary"
+        },
+        {
+          "_type": "span",
+          "_key": "k175",
+          "marks": [],
+          "text": " covers Bukit Lawang, Berastagi and Lake Toba, and the two routes barely overlap, so they combine into a longer Sumatra trip without repeating ground."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k178",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k177",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k181",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k179",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa. "
+        },
+        {
+          "_type": "span",
+          "_key": "k180",
+          "marks": [],
+          "text": "Most visitors enter Indonesia on a visa on arrival or e-VOA, which costs around IDR 500,000, roughly USD 35 as a working estimate, and is valid for thirty days with one extension possible. Fees and rules change, so check the latest official guidance before you travel."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k184",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k182",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money. "
+        },
+        {
+          "_type": "span",
+          "_key": "k183",
+          "marks": [],
+          "text": "Carry cash. Bukittinggi and Padang have ATMs, but Maninjau and Harau are thin on them, and most small warungs and homestays are cash only."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k187",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k185",
+          "marks": [
+            "strong"
+          ],
+          "text": "Connectivity. "
+        },
+        {
+          "_type": "span",
+          "_key": "k186",
+          "marks": [],
+          "text": "Coverage is patchy in the valleys. Set up data before you arrive and download offline maps for the highland roads, where signage is limited."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k190",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k188",
+          "marks": [
+            "strong"
+          ],
+          "text": "Language and respect. "
+        },
+        {
+          "_type": "span",
+          "_key": "k189",
+          "marks": [],
+          "text": "English is limited outside hotels. A few words of Indonesian go a long way, and West Sumatra is a conservative, predominantly Muslim region, so dress modestly away from the lakeshore and ask before photographing people."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k193",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k191",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health and roads. "
+        },
+        {
+          "_type": "span",
+          "_key": "k192",
+          "marks": [],
+          "text": "The drives are long and winding. Bring motion-sickness remedies if you are prone, and do not plan to drive yourself unless you are confident on mountain roads."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k195",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k194",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k197",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k196",
+          "marks": [],
+          "text": "West Sumatra is not the easiest week in Indonesia, and that is the case for it. The drives are slow, the infrastructure is light, and you will see very few other foreign travellers, which is exactly why the Minangkabau highlands still feel like themselves. If you want culture, canyons, a caldera lake and a cliff-walled valley, all within a tight loop and backed by some of the best food in the country, this route delivers more than its length suggests. Go for the highlands and the food, accept the transfers as part of the deal, and end on the coast where the cooking comes from. It is a trip for people who would rather work a little for a place that has not been smoothed over."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k199",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k198",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k204",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k201",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-sumatra"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k200",
+          "marks": [],
+          "text": "For the better-known northern half of the island, see the "
+        },
+        {
+          "_type": "span",
+          "_key": "k202",
+          "marks": [
+            "k201"
+          ],
+          "text": "15 days in Sumatra itinerary"
+        },
+        {
+          "_type": "span",
+          "_key": "k203",
+          "marks": [],
+          "text": " covering orangutans at Bukit Lawang, the Berastagi highlands and Lake Toba."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k209",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k206",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k205",
+          "marks": [],
+          "text": "For another culture-and-volcano week with easier logistics, compare "
+        },
+        {
+          "_type": "span",
+          "_key": "k207",
+          "marks": [
+            "k206"
+          ],
+          "text": "7 days in Yogyakarta and East Java"
+        },
+        {
+          "_type": "span",
+          "_key": "k208",
+          "marks": [],
+          "text": ", which pairs temples with Java's volcanoes."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "k214",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k211",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/sumatra"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "k210",
+          "marks": [],
+          "text": "For the wider region and where this route fits, browse the "
+        },
+        {
+          "_type": "span",
+          "_key": "k212",
+          "marks": [
+            "k211"
+          ],
+          "text": "Sumatra destination guide"
+        },
+        {
+          "_type": "span",
+          "_key": "k213",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    }
+  ]
+}
