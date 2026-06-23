@@ -74,7 +74,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Paste an Indonesia itinerary from ChatGPT, a blog, or your own notes. We turn it into a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.",
+          "Paste an Indonesia itinerary from ChatGPT, a blog, or your notes and get a structured, day-by-day trip with bookable stays, transfers, tours, and experiences.",
       },
       { property: "og:title", content: "AI Indonesia Trip Planner | exploreindonesia.ai" },
       {
