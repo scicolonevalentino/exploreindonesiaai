@@ -25,7 +25,7 @@
     "repeat_travellers"
   ],
   "vibe": "balanced",
-  "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
+  "route": "Makassar \u2192 Tana Toraja (Rantepao) \u2192 Makassar \u2192 Manado \u2192 Bunaken",
   "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
   "faq": [
     {
@@ -1793,5 +1793,14 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_type": "reference",
+      "_ref": "image-ef8a6a20b2cf1c9d0dcffe484add57fbd7bb8951-3264x2448-jpg"
+    },
+    "alt": "Lemo cliff burial site in Tana Toraja, Sulawesi, with carved rock niches, tau tau effigies and tongkonan-roofed grave structures",
+    "caption": "The Lemo cliff graves, Tana Toraja"
+  }
 }
