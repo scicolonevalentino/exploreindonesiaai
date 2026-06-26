@@ -18,9 +18,8 @@ import { FerryRoutesDivider } from "@/components/FerryRoutesDivider";
 import { HERO } from "@/data/hero";
 import { ogHomeImageUrl } from "@/lib/og";
 
-// Hero background videos are self-hosted from public/ (served at the site root).
-// Previously these came from Lovable's /__l5e asset runtime, but after the
-// Vercel cutover that path looped back on itself, see public/hero-bg-*.mp4.
+// Hero background videos are self-hosted from public/ (served at the site root),
+// see public/hero-bg-*.mp4.
 const HERO_VIDEO_DESKTOP = "/hero-bg-desktop.mp4";
 const HERO_VIDEO_MOBILE = "/hero-bg-mobile.mp4";
 // Lightweight poster (~97KB) so the first frame paints instantly when the
