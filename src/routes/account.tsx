@@ -99,7 +99,9 @@ function AccountPage() {
 
   function downloadRow(row: SavedTripRow) {
     const { trip, insights, added } = row.trip_json;
-    downloadItineraryPdf(trip, new Set(added ?? []), insights ?? []);
+    downloadItineraryPdf(trip, new Set(added ?? []), insights ?? []).catch(() =>
+      toast.error("Couldn't generate the PDF, try again."),
+    );
   }
 
   async function removeRow(row: SavedTripRow) {

@@ -219,7 +219,9 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       })
         .then(() => {
           toast.success("Saved to your trips ✓, your download is starting.");
-          downloadItineraryPdf(stash.trip, new Set(stash.added ?? []), stash.insights ?? []);
+          downloadItineraryPdf(stash.trip, new Set(stash.added ?? []), stash.insights ?? []).catch(
+            () => toast.error("Couldn't generate the PDF, try again."),
+          );
         })
         .catch(() => toast.error("Couldn't save automatically, hit Save & Download again."));
     } catch {
@@ -951,7 +953,9 @@ function TripStage({
     } finally {
       setSaving(false);
     }
-    downloadItineraryPdf(trip, added, insights);
+    downloadItineraryPdf(trip, added, insights).catch(() =>
+      toast.error("Couldn't generate the PDF, try again."),
+    );
   };
 
   return (

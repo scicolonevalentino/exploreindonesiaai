@@ -1,8 +1,8 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
-// Call Brevo's API directly (see contact.functions.ts): the Lovable connector
-// gateway required an unprovisioned LOVABLE_API_KEY. Brevo needs only BREVO_API_KEY.
+// Call Brevo's transactional API directly (see contact.functions.ts) — it needs
+// only BREVO_API_KEY.
 const BREVO_API_URL = "https://api.brevo.com/v3";
 const BREVO_LIST_ID = 2;
 

@@ -1,9 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
-// Call Brevo's transactional email API directly. The original Lovable connector
-// gateway required a LOVABLE_API_KEY that isn't provisioned, which made every
-// submission throw before sending. Brevo's API only needs the BREVO_API_KEY.
+// Call Brevo's transactional email API directly — it only needs the BREVO_API_KEY.
 const BREVO_API_URL = "https://api.brevo.com/v3";
 const FOUNDER_EMAIL = "scicolonevalentino@gmail.com";
 // Verified domain in Brevo (exploreindonesia.ai is DKIM/SPF authenticated).
