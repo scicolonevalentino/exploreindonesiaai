@@ -89,20 +89,25 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: ogHomeImageUrl() },
     ],
-    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/" }],
+    links: [
+      // Preload the hero poster — it's the LCP element (see <Hero>). Discovering
+      // it in <head> paints it immediately instead of waiting for the JS-mounted
+      // background video.
+      { rel: "preload", as: "image", href: HERO_POSTER, fetchPriority: "high" },
+      { rel: "canonical", href: "https://exploreindonesia.ai/" },
+    ],
   }),
   loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
   component: Landing,
 });
 
 export function Hero() {
-  // Keep the hero video OFF the critical render path. During SSR / first paint
-  // we render no <video> at all, the gradient + scrims below are the instant
-  // backdrop (and the LCP element), so first paint no longer waits on megabytes
-  // of footage. After mount we pick the SINGLE correct source for the viewport,
-  // so phones never download the 16MB desktop clip. (Previously useIsMobile
-  // returned undefined then desktop on first render, then swapped to mobile after
-  // hydration, causing BOTH clips, ~18MB, to download on phones.)
+  // Keep the hero VIDEO off the critical render path: during SSR we render the
+  // lightweight poster <img> (the LCP element) but no <video>, so first paint
+  // doesn't wait on megabytes of footage. After mount we pick the SINGLE correct
+  // source for the viewport, so phones never download the 16MB desktop clip.
+  // (Previously useIsMobile returned undefined then desktop on first render, then
+  // swapped to mobile after hydration, causing BOTH clips, ~18MB, to download.)
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
 
   useEffect(() => {
@@ -118,11 +123,22 @@ export function Hero() {
         background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--blue-bright) 100%)",
       }}
     >
-      {/* Background video, muted, looping, decorative. Lighter treatment so
-          the footage feels present without overpowering the headline. Mounted
-          only after the viewport is known (videoSrc !== null) and streamed in
-          off the critical path (preload="none"); the gradient backdrop carries
-          first paint. */}
+      {/* Poster image — the hero's largest paint, i.e. the LCP element. Eager +
+          SSR-rendered (and preloaded in the route head) so it paints immediately;
+          the <video> below layers over it once it loads. */}
+      <img
+        src={HERO_POSTER}
+        alt=""
+        aria-hidden="true"
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 -z-10 h-full w-full object-cover"
+        style={{ filter: "saturate(0.95) brightness(0.92)" }}
+      />
+
+      {/* Background video, muted, looping, decorative. Mounted only after the
+          viewport is known (videoSrc !== null) and streamed off the critical path
+          (preload="none"); it layers over the poster above. */}
       {videoSrc && (
         <video
           key={videoSrc}
