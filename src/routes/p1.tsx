@@ -743,7 +743,7 @@ function BuildingStage() {
 
       {/* Komo packs the bags while the AI works — a little life during the wait. */}
       <div className="ei-komo-wrap mb-10" aria-hidden="true">
-        <img src="/komo-mascot.png" alt="" className="ei-komo" />
+        <img src="/komo-mascot.webp" alt="" className="ei-komo" />
         <span className="ei-komo-shadow" />
       </div>
 
@@ -985,7 +985,7 @@ function TripStage({
               {matching ? (
                 <>
                   {/* Komo keeps working while live prices are still resolving. */}
-                  <img src="/komo-mascot.png" alt="" className="ei-komo-sm" aria-hidden="true" />
+                  <img src="/komo-mascot.webp" alt="" className="ei-komo-sm" aria-hidden="true" />
                   Your trip · Matching live prices…
                 </>
               ) : (

@@ -12,7 +12,7 @@ export function Logo({ className }: { className?: string }) {
       )}
     >
       <img
-        src="/komo-mascot.png"
+        src="/komo-mascot.webp"
         alt="Komo, the Explore Indonesia mascot"
         width={128}
         height={128}
