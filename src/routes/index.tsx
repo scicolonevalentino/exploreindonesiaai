@@ -1,8 +1,8 @@
 import { createFileRoute, Link, useRouter } from "@tanstack/react-router";
-import { P1Page } from "./p1";
 import { queryOptions, useSuspenseQuery, useQueryErrorResetBoundary } from "@tanstack/react-query";
 import {
   Suspense,
+  lazy,
   Component,
   useCallback,
   useEffect,
@@ -255,12 +255,12 @@ export function HowItWorks() {
   return (
     <section className="w-full px-6 py-12 sm:py-16" style={{ backgroundColor: "var(--cream)" }}>
       <div className="mx-auto max-w-6xl">
-        <p
+        <h2
           className="text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-center mb-14"
           style={{ color: "var(--teal-link)" }}
         >
           How it works
-        </p>
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
           {steps.map((s) => (
@@ -440,7 +440,7 @@ function InspirationCard({
   const slug = article.slug?.current;
 
   const img = article.heroImage?.asset
-    ? urlFor(article.heroImage).width(720).height(900).fit("crop").auto("format").url()
+    ? urlFor(article.heroImage).width(600).height(750).fit("crop").auto("format").quality(75).url()
     : null;
   const duration =
     typeof article.tripLengthDays === "number" && article.tripLengthDays > 0
@@ -509,7 +509,6 @@ function InspirationCard({
       onClick={() => trackCardClick(article, position)}
       onKeyDown={handleKeyDown}
       data-inspiration-card="true"
-      role="listitem"
       aria-label={`${title}${duration ? `, ${duration}` : ""}${traveller ? `, for ${traveller}` : ""}. Card ${position + 1} of ${totalCards}.`}
       className="group relative block w-[260px] sm:w-[300px] shrink-0 snap-start rounded-2xl overflow-hidden border bg-white transition-all duration-300 ease-out hover:shadow-xl hover:-translate-y-1 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 cursor-pointer"
       style={{
@@ -790,9 +789,63 @@ export function Inspiration() {
   );
 }
 
+// The live P1 builder is by far the heaviest thing on the homepage (it pulls in
+// jsPDF, the Supabase client and the whole interactive flow). Load it as its own
+// chunk, on demand, instead of bundling it into the homepage's initial JS. The
+// /p1 route still imports P1Page directly and SSRs as before.
+const P1Page = lazy(() => import("./p1").then((m) => ({ default: m.P1Page })));
+
+function BuilderPlaceholder() {
+  // Reserves vertical space so swapping in the builder doesn't shift layout, and
+  // gives a quiet on-brand loading state.
+  return (
+    <div
+      className="mx-auto flex max-w-3xl flex-col items-center justify-center px-6 py-24 text-center"
+      style={{ minHeight: 560 }}
+      role="status"
+      aria-live="polite"
+    >
+      <div
+        className="h-9 w-9 animate-spin rounded-full border-2 border-current border-t-transparent"
+        style={{ color: "var(--blue-bright)" }}
+        aria-hidden="true"
+      />
+      <p className="mt-4 text-sm" style={{ color: "var(--slate-muted)" }}>
+        Loading the trip builder…
+      </p>
+    </div>
+  );
+}
+
 function EmbeddedPrototype() {
-  // The live P1 builder, embedded in the homepage's "try it" slot. (Replaced
-  // the illustrative PrototypeFlow demo at the P2 launch swap.)
+  // The builder sits below the fold, so we neither ship nor mount it until the
+  // section is about to scroll into view. SSR renders the placeholder; the client
+  // swaps in the real builder once it's near the viewport (or immediately if
+  // IntersectionObserver is unavailable). This keeps the homepage's initial load
+  // free of the builder's ~1 MB of JS.
+  const [show, setShow] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (show) return;
+    const el = sentinelRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") {
+      setShow(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setShow(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "300px 0px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [show]);
+
   return (
     <section
       id="try-it"
@@ -800,7 +853,14 @@ function EmbeddedPrototype() {
       className="w-full scroll-mt-14"
       style={{ backgroundColor: "#faf9f5" }}
     >
-      <P1Page embedded />
+      <div ref={sentinelRef} aria-hidden="true" />
+      {show ? (
+        <Suspense fallback={<BuilderPlaceholder />}>
+          <P1Page embedded />
+        </Suspense>
+      ) : (
+        <BuilderPlaceholder />
+      )}
     </section>
   );
 }

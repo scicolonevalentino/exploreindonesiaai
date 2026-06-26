@@ -160,6 +160,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         { name: "twitter:image", content: socialImage },
       ],
       links: [
+        // Preload the above-the-fold fonts (self-hosted, same-origin) so the hero
+        // headline (Playfair) and intro (Inter) paint in-brand fast. woff2 is
+        // always fetched in CORS mode, hence crossOrigin even same-origin.
+        {
+          rel: "preload",
+          href: "/fonts/playfair-display-latin.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossOrigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/inter-latin.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossOrigin: "anonymous",
+        },
         {
           rel: "stylesheet",
           href: appCss,
@@ -191,7 +208,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         // no cookies, so it is not consent-gated.
         {
           children:
-            "(function(){var p=location.pathname;if(p==='/p1'||p==='/p1-home'||p.indexOf('/privacy')===0||p.indexOf('/terms')===0)return;var s=document.createElement('script');s.src='https://www.camille.travel/embed.js';s.async=true;s.setAttribute('data-expert','exploreindonesia');(document.body||document.head).appendChild(s);})();",
+            "(function(){var p=location.pathname;if(p==='/p1'||p==='/p1-home'||p.indexOf('/privacy')===0||p.indexOf('/terms')===0)return;var s=document.createElement('script');s.src='https://www.camille.travel/embed.js';s.async=true;s.setAttribute('data-expert','exploreindonesia');(document.body||document.head).appendChild(s);var lbl='Open the ExploreIndonesia travel assistant chat';function L(b){if(!b)return;if(b.getAttribute('aria-label')!==lbl)b.setAttribute('aria-label',lbl);if(b.getAttribute('type')!=='button')b.setAttribute('type','button');var i=b.querySelector('img');if(i&&!i.getAttribute('alt'))i.setAttribute('alt',lbl);}function A(b){L(b);var ao=new MutationObserver(function(){L(b);});ao.observe(b,{attributes:true,attributeFilter:['aria-label','type']});}var b0=document.getElementById('launcher');if(b0){A(b0);}else{var mo=new MutationObserver(function(){var b=document.getElementById('launcher');if(b){mo.disconnect();A(b);}});mo.observe(document.documentElement,{childList:true,subtree:true});}})();",
         },
         // Travelpayouts Drive affiliate loader is NOT injected here — it sets
         // persistent cookies, so it's loaded by analytics-consent.ts only after

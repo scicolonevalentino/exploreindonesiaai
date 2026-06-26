@@ -5,7 +5,9 @@
 // tracking survives the download. A canvas/html2pdf approach would rasterize the
 // page and kill the links, breaking monetization.
 
-import { jsPDF } from "jspdf";
+// jsPDF is loaded on demand (dynamic import inside downloadItineraryPdf) so the
+// ~400 KB library stays out of the initial bundle and only downloads when a
+// visitor actually exports a PDF.
 import type { Insight, ItineraryItem, Trip } from "@/lib/trip/types";
 
 const NAVY: [number, number, number] = [6, 45, 42];
@@ -49,7 +51,8 @@ function t(s: string): string {
     .trim();
 }
 
-export function downloadItineraryPdf(trip: Trip, added: Set<string>, insights: Insight[]) {
+export async function downloadItineraryPdf(trip: Trip, added: Set<string>, insights: Insight[]) {
+  const { jsPDF } = await import("jspdf");
   const doc = new jsPDF({ unit: "pt", format: "a4" });
   const pageW = doc.internal.pageSize.getWidth();
   const pageH = doc.internal.pageSize.getHeight();

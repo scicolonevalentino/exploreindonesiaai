@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap");
+/* Self-hosted fonts (was a render-blocking Google Fonts @import — the report's
+   #1 issue, ~1.44s). See src/fonts.css; the critical weights are preloaded in
+   __root.tsx. */
+@import "./fonts.css";
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
@@ -37,8 +40,10 @@
   --blue-ice: #5eead4;
   --gold-warm: #f2c894;
   --cream: #f7f5ee;
-  --teal-link: #0d9488;
-  --slate-muted: #6a8985;
+  /* Darkened from #0d9488 / #6a8985 to meet WCAG AA (4.5:1) for the small
+     uppercase eyebrow labels + muted text on white/cream backgrounds. */
+  --teal-link: #0b7a6e;
+  --slate-muted: #5c7570;
   --border-cream: #dfe7e2;
   --text-dark: #1f2d2b;
 
