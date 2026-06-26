@@ -134,8 +134,11 @@ function FooterBar() {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-x-16 lg:gap-x-24 gap-y-10 text-sm">
-          <nav aria-label="Explore Indonesia destinations">
+        {/* Mobile: 2-col grid so Plan + Quick Links sit side by side (Explore spans
+            the full width above them) instead of stacking with dead space on the
+            right. sm+ reverts to the original wrapped flex row. */}
+        <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:flex sm:flex-row sm:flex-wrap sm:gap-x-16 lg:gap-x-24 text-sm">
+          <nav aria-label="Explore Indonesia destinations" className="col-span-2 sm:col-auto">
             <p className="font-semibold text-white mb-4">Explore</p>
             <ul className="grid grid-cols-2 gap-x-6 gap-y-2.5">
               {DESTINATION_CONTENT.map((d) => (
