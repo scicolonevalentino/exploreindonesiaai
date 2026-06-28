@@ -838,7 +838,7 @@ function TripStage({
   const bookableCount = trip.items.filter((i) => i.type === "bookable" && !i.suggested).length;
   const STATS = [
     { n: trip.days, label: "Days" },
-    { n: bookableCount, label: "Bookable" },
+    { n: bookableCount, label: "Experiences" },
     { n: recommendedCount, label: "Recommended" },
     { n: insights.length, label: "Local insights" },
   ];
@@ -930,6 +930,15 @@ function TripStage({
       PENDING_TRIP_KEY,
       JSON.stringify({ trip, insights, added: [...added], prompt }),
     );
+  };
+
+  const editItinerary = () => {
+    trackEvent("edit_itinerary_click", {
+      items_added: totals.count,
+      estimated_total: totals.total,
+      signed_in: !!user,
+    });
+    onEdit();
   };
 
   const saveAndDownload = async () => {
@@ -1116,24 +1125,34 @@ function TripStage({
               </span>
             )}
           </div>
-          <button
-            type="button"
-            onClick={saveAndDownload}
-            disabled={userLoading || saving || matching}
-            className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
-          >
-            {matching ? (
-              <>
-                <Lock className="w-4 h-4" aria-hidden /> Finalizing prices…
-              </>
-            ) : saving ? (
-              "Saving…"
-            ) : (
-              <>
-                Save &amp; Download <span aria-hidden>↓</span>
-              </>
-            )}
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={editItinerary}
+              disabled={saving}
+              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full border-2 border-[var(--navy-deep)] text-[var(--navy-deep)] bg-transparent hover:bg-[var(--navy-deep)] hover:text-white transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              <ArrowLeft className="w-4 h-4" aria-hidden /> Edit
+            </button>
+            <button
+              type="button"
+              onClick={saveAndDownload}
+              disabled={userLoading || saving || matching}
+              className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-full text-white bg-[var(--blue-bright)] hover:bg-black transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              {matching ? (
+                <>
+                  <Lock className="w-4 h-4" aria-hidden /> Finalizing prices…
+                </>
+              ) : saving ? (
+                "Saving…"
+              ) : (
+                <>
+                  Save &amp; Download <span aria-hidden>↓</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
