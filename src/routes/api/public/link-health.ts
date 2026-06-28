@@ -35,7 +35,16 @@ const PARTNER_DOMAINS = {
   viator: ["viator.com"],
   airalo: ["airalo.com", "airalo.tpx.lu", "tpx.lu"],
   "12go": ["12go.asia"],
-  booking: ["booking.com"],
+  // Booking.com runs through the CJ Affiliate click servers (the deep link is a
+  // CJ redirect whose ?url= points at booking.com), so those hosts are valid too.
+  booking: [
+    "booking.com",
+    "jdoqocy.com",
+    "tkqlhce.com",
+    "kqzyfj.com",
+    "dpbolvw.com",
+    "anrdoezrs.net",
+  ],
   agoda: ["agoda.com"],
 };
 const AFFILIATE_MARKERS = {
@@ -43,6 +52,9 @@ const AFFILIATE_MARKERS = {
   viator: ["pid=", "mcid="],
   airalo: ["tpx.lu"],
   "12go": ["z="],
+  // CJ-wrapped Booking.com deep link: the click URL carries our SID + the
+  // encoded booking.com target.
+  booking: ["url=", "sid=exploreindonesia"],
 };
 const BOT_SHIELDED_HOSTS = ["viator.com", "klook.com"];
 const UA =

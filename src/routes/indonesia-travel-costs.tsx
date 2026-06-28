@@ -4,6 +4,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
 import { trackEvent } from "@/lib/analytics-events";
+import { buildBookingLink } from "@/lib/booking";
 
 const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown by Travel Style";
 const DESCRIPTION =
@@ -286,9 +287,9 @@ function TravelCostsPage() {
           <p>
             Book via{" "}
             <a
-              href="https://www.booking.com/"
+              href={buildBookingLink("Indonesia", { context: "travel-costs" })}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="underline underline-offset-2"
               style={teal}
             >

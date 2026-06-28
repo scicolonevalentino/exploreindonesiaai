@@ -30,7 +30,7 @@ export async function matchItem(item: ItineraryItem): Promise<ItineraryItem> {
 
   const chain = PARTNER_ROUTING[item.category];
   for (const partner of chain) {
-    const product = await PARTNER_SEARCH[partner](item.searchQuery, item.location);
+    const product = await PARTNER_SEARCH[partner](item.searchQuery, item.location, item.day);
     if (!product) continue;
     // Prefer the partner-provided URL (Viator productUrl, Travelpayouts smart
     // links); fall back to constructing one from the affiliate ID.

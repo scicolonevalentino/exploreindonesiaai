@@ -115,12 +115,33 @@ describe("matchItem routing rules", () => {
     expect(result.deepLink).toBeUndefined();
   });
 
-  it("accommodation has no fallback partner — no_match without Booking API", async () => {
+  it("accommodation deep-links to a CJ-tracked Booking.com search for the location", async () => {
     const result = await matchItem(
-      item({ category: "accommodation", searchQuery: "Ubud jungle resort" }),
+      item({
+        day: 2,
+        category: "accommodation",
+        searchQuery: "Ubud jungle resort",
+        location: "Ubud",
+      }),
     );
-    expect(result.matchStatus).toBe("no_match");
-    expect(result.partner).toBeUndefined();
+    expect(result.matchStatus).toBe("matched");
+    expect(result.partner).toBe("booking");
+    // CJ click wrapper, our day-level SID, and the booking.com target in ?url=.
+    expect(result.deepLink).toContain("jdoqocy.com/click-101767380-11891539");
+    expect(result.deepLink).toContain("sid=exploreindonesia_ubud_trip-planner-day2");
+    expect(result.deepLink).toContain("url=https%3A%2F%2Fwww.booking.com%2Fsearchresults");
+  });
+
+  it("accommodation SID is day-specific — same place on different days tracks separately", async () => {
+    const day1 = await matchItem(
+      item({ day: 1, category: "accommodation", searchQuery: "Ubud stay", location: "Ubud" }),
+    );
+    const day5 = await matchItem(
+      item({ day: 5, category: "accommodation", searchQuery: "Ubud stay", location: "Ubud" }),
+    );
+    expect(day1.deepLink).toContain("sid=exploreindonesia_ubud_trip-planner-day1");
+    expect(day5.deepLink).toContain("sid=exploreindonesia_ubud_trip-planner-day5");
+    expect(day1.deepLink).not.toBe(day5.deepLink);
   });
 
   it("viator match uses the API's productUrl (carries tracking) and live price", async () => {

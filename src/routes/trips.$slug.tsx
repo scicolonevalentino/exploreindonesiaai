@@ -23,6 +23,7 @@ import {
 } from "@/lib/sanity-queries";
 import { findDestinationByValue } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { normalizeBookingHref } from "@/lib/booking";
 
 const articleQO = (slug: string) =>
   queryOptions({
@@ -417,6 +418,13 @@ function ArticleInner() {
     return m;
   }, [a.affiliateLinks]);
 
+  // Primary destination name, used to upgrade bare Booking.com homepage links in
+  // article bodies into proper destination deep links and to slug the SID.
+  const bookingDestHint = useMemo(
+    () => findDestinationByValue(a.destinationPrimary ?? "")?.name,
+    [a.destinationPrimary],
+  );
+
   const toc = useMemo(() => {
     const items: Array<{ id: string; text: string }> = [];
     (a.body ?? []).forEach((block) => {
@@ -546,8 +554,16 @@ function ArticleInner() {
       affiliateLinkRef: ({ value, children }) => {
         const id = value?.placeholderId;
         const link = id ? linkMap.get(id) : undefined;
-        const href = link?.affiliateUrl || link?.publicUrl;
-        if (!href) return <span className="underline">{children}</span>;
+        const rawHref = link?.affiliateUrl || link?.publicUrl;
+        if (!rawHref) return <span className="underline">{children}</span>;
+        // Route any Booking.com link through the CJ deep-link wrapper, whatever
+        // is stored in the CMS (a bare homepage doorway, a direct link, or an
+        // already-wrapped one). Non-Booking links pass through unchanged.
+        const href =
+          normalizeBookingHref(rawHref, {
+            destinationHint: bookingDestHint,
+            context: link?.day ? `article-${link.day}` : "article",
+          }) ?? rawHref;
         return (
           <a
             href={href}
@@ -561,8 +577,16 @@ function ArticleInner() {
         );
       },
       externalLink: ({ value, children }) => {
-        const href: string = value?.href ?? "";
+        const rawHref: string = value?.href ?? "";
+        // Booking.com links (direct or already CJ-wrapped) get normalised into
+        // our CJ deep link; anything else is left as-is.
+        const bookingHref = normalizeBookingHref(rawHref, {
+          destinationHint: bookingDestHint,
+          context: "article",
+        });
+        const href = bookingHref ?? rawHref;
         const isAffiliate =
+          !!bookingHref ||
           /airalo\.tpx\.lu|affiliate\.klook\.com|12go\.asia\/\?z=|[?&]pid=P0030|gygaff\.com|stay22|tpx\.lu/.test(
             href,
           );

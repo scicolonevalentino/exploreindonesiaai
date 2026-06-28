@@ -16,6 +16,7 @@
 // scope — see config.server.ts for why).
 
 import type { Partner } from "@/lib/trip/types";
+import { buildBookingLink } from "@/lib/booking";
 
 export type ProductMatch = {
   partner: Partner;
@@ -49,13 +50,10 @@ export function buildDeepLink(partner: Partner, productId: string): string | nul
       if (!pid) return null;
       return `https://www.viator.com/tours/${productId}?pid=${pid}&mcid=42383&medium=api`;
     }
-    case "booking": {
-      const aid = env("BOOKING_AFFILIATE_ID");
-      if (!aid) return null;
-      return `https://www.booking.com/hotel/id/${productId}.html?aid=${aid}`;
-    }
-    // GetYourGuide and the Travelpayouts partners build their own URL in
-    // search() — nothing to construct here.
+    // Booking.com, GetYourGuide and the Travelpayouts partners all build their
+    // own URL in search() — nothing to construct here. (Booking is a CJ
+    // destination deep link, see searchBooking + src/lib/booking.ts.)
+    case "booking":
     case "getyourguide":
     case "klook":
     case "12go":
@@ -230,13 +228,30 @@ async function searchWelcomePickups(query: string, location: string): Promise<Pr
   };
 }
 
-// Booking.com Demand API requires an approved partnership; until BOOKING_API_KEY
-// exists, accommodation resolves to no_match (rules forbid a fallback partner).
-async function searchBooking(_query: string, _location: string): Promise<ProductMatch | null> {
-  const apiKey = env("BOOKING_API_KEY");
-  if (!apiKey) return null;
-  // TODO(P2): wire Demand API hotel search → hotelSlug once partnership is live.
-  return null;
+// Booking.com via the CJ Affiliate program. The Demand API (live hotel
+// search/prices) is NOT available through CJ — invite-only on the direct
+// program — so the supported model is a CJ-tracked DESTINATION deep link: we
+// send the traveller to Booking.com's results for that day's location and the
+// click is attributed. No specific hotel id, no price (like the Travelpayouts
+// smart links). See src/lib/booking.ts for the CJ wrapper + the Welcome Pack
+// rationale. Always matches when we have a location to search.
+async function searchBooking(
+  query: string,
+  location: string,
+  day?: number,
+): Promise<ProductMatch | null> {
+  const dest = (location || query).trim();
+  if (!dest) return null;
+  // Day-level SID granularity: tag each accommodation click with the itinerary
+  // day so CJ reporting can tell day-2 stays from day-5 stays in the same place
+  // (e.g. exploreindonesia_ubud_trip-planner-day2).
+  const context = day != null ? `trip-planner-day${day}` : "trip-planner";
+  return {
+    partner: "booking",
+    productId: "search", // destination deep link, not a single property
+    title: `Find stays in ${dest}`,
+    deepLink: buildBookingLink(dest, { context }),
+  };
 }
 
 // 12Go via Travelpayouts smart link. The route whitelist still gates WHICH
@@ -300,7 +315,9 @@ async function searchAiralo(_query: string, _location: string): Promise<ProductM
 
 export const PARTNER_SEARCH: Record<
   Partner,
-  (query: string, location: string) => Promise<ProductMatch | null>
+  // `day` is the itinerary day; only Booking.com uses it (for day-level SID
+  // tracking). Other partners take the first two args and ignore the rest.
+  (query: string, location: string, day?: number) => Promise<ProductMatch | null>
 > = {
   viator: searchViator,
   getyourguide: searchGetYourGuide,
