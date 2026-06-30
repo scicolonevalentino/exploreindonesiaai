@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { FeedbackDialog } from "@/components/FeedbackDialog";
 import { trackEvent } from "@/lib/analytics-events";
+import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { tripStops } from "@/lib/trip/places";
 
 // Lazy: pulls in d3-geo + the bundled topology only when the Map tab is opened.
@@ -1291,11 +1292,10 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
               rel={item.bookingUrl ? "sponsored noopener noreferrer" : undefined}
               onClick={(e) => {
                 if (!item.bookingUrl) e.preventDefault();
-                trackEvent("affiliate_click", {
-                  platform,
-                  item_name: item.title,
-                  price: item.price,
-                });
+                trackAffiliateClick(
+                  { platform, item_name: item.title, price: item.price },
+                  item.bookingUrl,
+                );
               }}
               className="text-xs text-[var(--teal-link)] hover:underline"
             >
@@ -1336,11 +1336,10 @@ function ItemCard({ item, added, onToggle }: { item: Item; added: boolean; onTog
             rel={item.bookingUrl ? "sponsored noopener noreferrer" : undefined}
             onClick={(e) => {
               if (!item.bookingUrl) e.preventDefault();
-              trackEvent("affiliate_click", {
-                platform,
-                item_name: item.title,
-                price: item.price,
-              });
+              trackAffiliateClick(
+                { platform, item_name: item.title, price: item.price },
+                item.bookingUrl,
+              );
             }}
             className="block mt-2 text-right text-xs text-[var(--teal-link)] hover:underline"
           >

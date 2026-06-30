@@ -26,6 +26,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
+import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
 import { capturePrompt } from "@/lib/prompt-capture";
@@ -130,26 +131,29 @@ const INSIGHT_LABEL: Record<InsightLabel, { text: string; bg: string; fg: string
 /*  GA4                                                                       */
 /* -------------------------------------------------------------------------- */
 
-// GA4 affiliate click event. trackEvent forwards to GA4 via gtag (with a
-// dataLayer fallback before gtag loads), so one call covers both; a separate
-// direct gtag call here would double-count in GA4.
+// GA4 affiliate click event. trackAffiliateClick forwards to GA4 via gtag and
+// tags item.deepLink as handled so the global affiliate listener (see
+// src/lib/affiliate-tracking.ts) doesn't double-count this same click.
 function fireAffiliateClick(item: ItineraryItem) {
-  trackEvent("affiliate_click", {
-    partner: item.partner,
-    category: item.category,
-    location: item.location,
-    price: item.price,
-  });
+  trackAffiliateClick(
+    {
+      partner: item.partner,
+      category: item.category,
+      location: item.location,
+      price: item.price,
+    },
+    item.deepLink,
+  );
 }
 
 // EKTA travel-insurance affiliate (Travelpayouts). Shown as the last card in
 // every trip, just before Save & Download.
 const EKTA_INSURANCE_URL = "https://ektatraveling.tpx.lu/P8hvoSQm";
 
-// Insurance CTA lands in the same affiliate funnel (partner "ekta"). One
-// trackEvent call (it forwards to GA4 via gtag); no separate gtag call.
+// Insurance CTA lands in the same affiliate funnel (partner "ekta"). Deduped
+// against the global affiliate listener by the EKTA URL.
 function fireInsuranceClick() {
-  trackEvent("affiliate_click", { partner: "ekta", category: "travel_insurance" });
+  trackAffiliateClick({ partner: "ekta", category: "travel_insurance" }, EKTA_INSURANCE_URL);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -863,12 +867,15 @@ function TripStage({
   // Affiliate click fired from a map popup card, tagged source:"map" for
   // attribution. trackEvent handles GA4 (via gtag) + the dataLayer fallback.
   const bookFromMap = (exp: StopExperience) => {
-    trackEvent("affiliate_click", {
-      partner: exp.partner,
-      category: exp.category,
-      price: exp.price,
-      source: "map",
-    });
+    trackAffiliateClick(
+      {
+        partner: exp.partner,
+        category: exp.category,
+        price: exp.price,
+        source: "map",
+      },
+      exp.deepLink,
+    );
   };
 
   // Matched bookables start added (prototype's defaultAdded behavior).

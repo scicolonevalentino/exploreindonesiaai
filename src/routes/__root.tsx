@@ -14,6 +14,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HelloBar } from "@/components/HelloBar";
 import { initCookiebotConsent } from "@/lib/analytics-consent";
+import { initAffiliateClickTracking } from "@/lib/affiliate-tracking";
 import { sanityClient } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
@@ -248,6 +249,9 @@ function RootComponent() {
 
   useEffect(() => {
     initCookiebotConsent();
+    // One delegated listener fires affiliate_click for every affiliate link,
+    // anywhere on the site (article bodies, builder, footer, map popups).
+    initAffiliateClickTracking();
   }, []);
 
   return (

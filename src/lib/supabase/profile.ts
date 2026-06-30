@@ -3,6 +3,7 @@
 // which can't carry custom fields through the redirect themselves).
 
 import { getSupabaseBrowserClient } from "./client";
+import { trackEvent } from "@/lib/analytics-events";
 
 // localStorage stash written by the signup modal before redirecting to auth;
 // consumed (then cleared) on the signed-in return.
@@ -28,6 +29,17 @@ export async function flushPendingProfile(): Promise<void> {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return; // not signed in yet — keep the stash for later
+
+  // Auth completion. The stash exists only right after an intentful auth flow
+  // (signup modal / login page), so this fires once per completion — the missing
+  // counterpart to `signup_start`. A brand-new account (created seconds ago) is a
+  // GA4 `sign_up`; an existing user returning is a `login`. `provider` mirrors the
+  // `method` on signup_start ("google" | "email").
+  const createdMs = user.created_at ? new Date(user.created_at).getTime() : 0;
+  const isNewUser = createdMs > 0 && Date.now() - createdMs < 5 * 60 * 1000;
+  trackEvent(isNewUser ? "sign_up" : "login", {
+    method: user.app_metadata?.provider ?? "unknown",
+  });
 
   try {
     const pending = JSON.parse(raw) as PendingProfile;

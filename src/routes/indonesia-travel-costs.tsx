@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
-import { trackEvent } from "@/lib/analytics-events";
+import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
 const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown by Travel Style";
@@ -375,11 +375,10 @@ function TravelCostsPage() {
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
               onClick={() =>
-                trackEvent("affiliate_click", {
-                  partner: "12go",
-                  category: "ferries",
-                  source: "costs_page",
-                })
+                trackAffiliateClick(
+                  { partner: "12go", category: "ferries", source: "costs_page" },
+                  "https://12go.asia/?z=16022946",
+                )
               }
               className="underline underline-offset-2"
               style={teal}
