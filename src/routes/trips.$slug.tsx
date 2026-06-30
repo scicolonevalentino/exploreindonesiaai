@@ -24,6 +24,7 @@ import {
 import { findDestinationByValue } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
 import { normalizeBookingHref } from "@/lib/booking";
+import { trackEvent } from "@/lib/analytics-events";
 
 const articleQO = (slug: string) =>
   queryOptions({
@@ -467,6 +468,20 @@ function ArticleInner() {
     headings.forEach((h) => observer.observe(h));
     return () => observer.disconnect();
   }, [toc]);
+
+  // Article-read signal for the content -> lead funnel. `page_view` alone can't
+  // be scoped to articles inside a GA4 funnel, so emit a dedicated event once per
+  // article (re-fires on client navigation to another slug).
+  useEffect(() => {
+    trackEvent("article_view", {
+      item_slug: slug,
+      item_name: a.title,
+      item_destination: a.destinationPrimary,
+      item_trip_length: a.tripLengthBucket,
+    });
+    // a.* fields are stable for a given slug; keying on slug fires once per article.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
 
   const scrollToHeading = (id: string) => {
     const el = document.getElementById(id);
