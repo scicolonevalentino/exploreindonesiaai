@@ -207,6 +207,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           children:
             "(function(){var p=location.pathname;if(p==='/p1'||p==='/p1-home'||p.indexOf('/privacy')===0||p.indexOf('/terms')===0)return;var s=document.createElement('script');s.src='https://www.camille.travel/embed.js';s.async=true;s.setAttribute('data-expert','exploreindonesia');(document.body||document.head).appendChild(s);var lbl='Open the ExploreIndonesia travel assistant chat';function L(b){if(!b)return;if(b.getAttribute('aria-label')!==lbl)b.setAttribute('aria-label',lbl);if(b.getAttribute('type')!=='button')b.setAttribute('type','button');var i=b.querySelector('img');if(i&&!i.getAttribute('alt'))i.setAttribute('alt',lbl);}function A(b){L(b);var ao=new MutationObserver(function(){L(b);});ao.observe(b,{attributes:true,attributeFilter:['aria-label','type']});}var b0=document.getElementById('launcher');if(b0){A(b0);}else{var mo=new MutationObserver(function(){var b=document.getElementById('launcher');if(b){mo.disconnect();A(b);}});mo.observe(document.documentElement,{childList:true,subtree:true});}})();",
         },
+        // Camille Ambient (inline context-adaptive planner) on trip articles only. It
+        // mounts into the [data-camille-pretrip] container in the article sidebar, reads
+        // the destination from the page, and drives readers to a lead. Injected on /trips/
+        // pages; it shares the same bundle as the chat launcher (loaded once) and no-ops
+        // where the container is absent. Functional, sets no cookies, not consent-gated.
+        {
+          children:
+            "(function(){if(location.pathname.indexOf('/trips/')!==0)return;var s=document.createElement('script');s.src='https://www.camille.travel/pretrip.js';s.async=true;s.setAttribute('data-expert','exploreindonesia');(document.body||document.head).appendChild(s);})();",
+        },
         // Travelpayouts Drive affiliate loader is NOT injected here — it sets
         // persistent cookies, so it's loaded by analytics-consent.ts only after
         // the visitor grants marketing consent (see loadAffiliate()).

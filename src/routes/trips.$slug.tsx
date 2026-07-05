@@ -880,6 +880,9 @@ function ArticleInner() {
         {toc.length > 1 && (
           <aside className="hidden lg:block lg:col-span-3">
             <div className="sticky top-8">
+              {/* Camille Ambient inline planner: mounts here (client-side) and reads the
+                  trip destination from the page. Loader injected in __root on /trips/. */}
+              <div data-camille-pretrip className="mb-8" />
               <p
                 className="text-[11px] font-semibold uppercase tracking-[0.25em] mb-4"
                 style={{ color: "var(--teal-link)" }}
