@@ -879,7 +879,7 @@ function ArticleInner() {
 
         {toc.length > 1 && (
           <aside className="hidden lg:block lg:col-span-3">
-            <div className="sticky top-8">
+            <div className="sticky top-8 max-h-[calc(100vh-4rem)] overflow-y-auto overscroll-contain pr-1">
               {/* Camille Ambient inline planner: mounts here (client-side) and reads the
                   trip destination from the page. Loader injected in __root on /trips/. */}
               <div data-camille-pretrip className="mb-8" />
