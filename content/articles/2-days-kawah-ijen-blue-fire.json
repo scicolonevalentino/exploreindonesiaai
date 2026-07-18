@@ -1,0 +1,699 @@
+{
+  "_id": "itinerary-2-days-kawah-ijen-blue-fire",
+  "_type": "article",
+  "title": "2 Days at Kawah Ijen: Blue Fire, Sunrise and the Crater Lake",
+  "slug": {
+    "_type": "slug",
+    "current": "2-days-kawah-ijen-blue-fire"
+  },
+  "contentStatus": "draft",
+  "destinationPrimary": "java",
+  "travelStylePrimary": "adventure_volcanoes",
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 2,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "active",
+  "experienceTags": [
+    "volcano_sunrise",
+    "overland_route"
+  ],
+  "bestSeason": "April–October",
+  "route": "Bali/Surabaya → Banyuwangi → Kawah Ijen → Banyuwangi",
+  "focusKeyword": "Kawah Ijen itinerary",
+  "metaTitle": "2 Days at Kawah Ijen: Blue Fire and Crater Lake",
+  "metaDescription": "A focused 2-day, 1-night Kawah Ijen plan from Banyuwangi: the midnight blue fire trek, sunrise over the acid lake, costs, safety and how to add it to Bali.",
+  "intro": "Two days is exactly enough for Kawah Ijen if you treat it as one focused volcano night rather than a slow holiday. You reach Banyuwangi, sleep early, trek at midnight for the electric-blue flames, watch sunrise fill the turquoise crater lake, and are back by late morning. Here is the honest version, with the cold, the sulphur and the logistics included.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "k0001",
+      "_type": "affiliateLink",
+      "placeholderId": "AIRALO_INDONESIA",
+      "partner": "airalo",
+      "anchorText": "an Indonesia eSIM with Airalo",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "publicUrl": "https://www.airalo.com/indonesia-esim",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts"
+    },
+    {
+      "_key": "k0002",
+      "_type": "affiliateLink",
+      "placeholderId": "12GO_BALI_BANYUWANGI",
+      "partner": "12go",
+      "anchorText": "compare boats, trains and buses to Banyuwangi on 12Go",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "publicUrl": "https://12go.asia",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null
+    },
+    {
+      "_key": "k0003",
+      "_type": "affiliateLink",
+      "placeholderId": "VIATOR_IJEN_BLUE_FIRE",
+      "partner": "viator",
+      "anchorText": "a guided Kawah Ijen blue fire night hike from Banyuwangi",
+      "affiliateUrl": "https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=KawahIjen2DayBlueFire",
+      "publicUrl": "https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null
+    },
+    {
+      "_key": "k0004",
+      "_type": "affiliateLink",
+      "placeholderId": "VIATOR_IJEN_FROM_BALI",
+      "partner": "viator",
+      "anchorText": "a round-trip Ijen midnight tour from Bali with hotel drop-off",
+      "affiliateUrl": "https://www.viator.com/tours/Banyuwangi/Kawah-Ijen-Midnight-Tour-1-Day/d50506-178080P3?pid=P00303362&mcid=42383&medium=link&campaign=KawahIjen2DayFromBali",
+      "publicUrl": "https://www.viator.com/tours/Banyuwangi/Kawah-Ijen-Midnight-Tour-1-Day/d50506-178080P3",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0005",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0006",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ]
+    },
+    {
+      "_key": "k0008",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0007",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a short, focused trip for couples, friends and solo travellers who want one unforgettable volcano night without committing to a full Java loop. You give up a single night of sleep to stand on the rim of Kawah Ijen for the electric-blue flames, watch the sun come up over the world's largest acidic crater lake, and be back at your hotel by mid-morning. It works as a standalone two-day escape from Banyuwangi, and it is the natural bolt-on to a Bali holiday, since the ferry crossing is short."
+        }
+      ]
+    },
+    {
+      "_key": "k0010",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0009",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right plan if your priority is rest, or if you are travelling with very young children. The trek starts around midnight, the air at the rim is cold, and the crater floor holds toxic sulphur gas that needs a mask. If that sounds like too much, skip it and enjoy Bali or Lombok instead. Done with open eyes, though, it is one of the most striking few hours in Indonesia."
+        }
+      ]
+    },
+    {
+      "_key": "k0011",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0012",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ]
+    },
+    {
+      "_key": "k0014",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0013",
+          "_type": "span",
+          "marks": [],
+          "text": "Two days, one night, one base in the Banyuwangi area on the eastern tip of Java. Arrive on day one, sort your gear and sleep early. Around half past midnight you set off for the roughly 1.5 hour climb to the crater rim, drop into the crater for the blue fire, then come back up to watch sunrise turn the lake turquoise. You are usually back down by late morning on day two, with the afternoon free to rest or travel onward."
+        }
+      ]
+    },
+    {
+      "_key": "k0020",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k0017",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "children": [
+        {
+          "_key": "k0015",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k0016",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort your data before you arrive. Activating "
+        },
+        {
+          "_key": "k0018",
+          "_type": "span",
+          "marks": [
+            "k0017"
+          ],
+          "text": "an Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k0019",
+          "_type": "span",
+          "marks": [],
+          "text": " before you cross to Java means maps and your guide's WhatsApp work from the moment you land, which matters when you are confirming a small-hours pickup the night before."
+        }
+      ]
+    },
+    {
+      "_key": "k0021",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0022",
+          "_type": "span",
+          "marks": [],
+          "text": "How to get to Banyuwangi"
+        }
+      ]
+    },
+    {
+      "_key": "k0024",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0023",
+          "_type": "span",
+          "marks": [],
+          "text": "Kawah Ijen sits above Banyuwangi, the port town on the far eastern tip of Java, directly across the strait from Bali. The most common approach is from Bali: drive or ride to Gilimanuk in the far west, then take the Ketapang ferry, which runs around the clock and crosses in under an hour. Remember Bali (WITA) runs one hour ahead of Java (WIB), so reset your watch on the boat. From further afield, Banyuwangi has its own airport (code BWX) and a train station with services from Surabaya and Probolinggo."
+        }
+      ]
+    },
+    {
+      "_key": "k0032",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k0026",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_BANYUWANGI"
+        },
+        {
+          "_key": "k0029",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_IJEN_FROM_BALI"
+        }
+      ],
+      "children": [
+        {
+          "_key": "k0025",
+          "_type": "span",
+          "marks": [],
+          "text": "Because the pieces vary by season and day, it is worth checking live options in one place. You can "
+        },
+        {
+          "_key": "k0027",
+          "_type": "span",
+          "marks": [
+            "k0026"
+          ],
+          "text": "compare boats, trains and buses to Banyuwangi on 12Go"
+        },
+        {
+          "_key": "k0028",
+          "_type": "span",
+          "marks": [],
+          "text": " to line up the ferry and any onward train before you go. If you would rather not organise the crossing yourself, many travellers book "
+        },
+        {
+          "_key": "k0030",
+          "_type": "span",
+          "marks": [
+            "k0029"
+          ],
+          "text": "a round-trip Ijen midnight tour from Bali with hotel drop-off"
+        },
+        {
+          "_key": "k0031",
+          "_type": "span",
+          "marks": [],
+          "text": ", which folds the long transfer, the ferry and the trek into one overnight package."
+        }
+      ]
+    },
+    {
+      "_key": "k0033",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0034",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive, prepare and sleep early"
+        }
+      ]
+    },
+    {
+      "_key": "k0036",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0035",
+          "_type": "span",
+          "marks": [],
+          "text": "Aim to reach your Banyuwangi accommodation by late afternoon. This is a logistics day, not a sightseeing one, and the single most useful thing you can do is rest. Confirm your pickup time with your guide, lay out warm layers and a head torch, and eat a proper dinner early. Local warungs around town do good, cheap Javanese food, and rice with grilled fish or chicken is the right kind of fuel for a cold night hike."
+        }
+      ]
+    },
+    {
+      "_key": "k0038",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0037",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack a small daypack with water, snacks, gloves, a hat and a buff or scarf you can pull over your face if the wind turns. Temperatures at the rim can fall to around 5 to 10 degrees Celsius before dawn, which surprises people arriving from the Bali heat. Then get to bed by eight if you can, because the alarm is brutal."
+        }
+      ]
+    },
+    {
+      "_key": "k0039",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0040",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: The blue fire, the sunrise and the crater lake"
+        }
+      ]
+    },
+    {
+      "_key": "k0045",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k0042",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_IJEN_BLUE_FIRE"
+        }
+      ],
+      "children": [
+        {
+          "_key": "k0041",
+          "_type": "span",
+          "marks": [],
+          "text": "Pickup is usually around half past midnight. From the Paltuding base you start the walk to the crater rim, a steady climb of roughly two to three kilometres that most people cover in about 1.5 hours. The path is wide but relentlessly uphill, and porters with two-wheeled carts pass in the dark, so keep to the side. Booking "
+        },
+        {
+          "_key": "k0043",
+          "_type": "span",
+          "marks": [
+            "k0042"
+          ],
+          "text": "a guided Kawah Ijen blue fire night hike from Banyuwangi"
+        },
+        {
+          "_key": "k0044",
+          "_type": "span",
+          "marks": [],
+          "text": " is the simplest way to do this well, since the price bundles the pickup, entrance fees, a guide who knows the timing, and the gas mask you genuinely need."
+        }
+      ]
+    },
+    {
+      "_key": "k0047",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0046",
+          "_type": "span",
+          "marks": [],
+          "text": "At the rim you make the steep descent into the crater itself to see the blue fire up close, an eerie electric-blue flame where sulphuric gases ignite as they escape the vents. This part is optional and demanding: the trail down is loose and about 45 minutes each way, and the sulphur clouds can be thick, which is exactly why the mask matters. If the gas is heavy or you would rather not scramble, the flames are still visible from the rim."
+        }
+      ]
+    },
+    {
+      "_key": "k0049",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0048",
+          "_type": "span",
+          "marks": [],
+          "text": "As the sky lightens you climb back to the rim and the reward changes character entirely. The dawn light reveals the turquoise crater lake below, its colour coming from the extreme acidity of the water, while the miners haul baskets of bright yellow sulphur up the same path you just walked. Take your photos, then start the walk down. Most groups are back at Paltuding by mid-morning and at their hotel not long after, which leaves the rest of day two for sleep, a slow lunch, or the onward journey."
+        }
+      ]
+    },
+    {
+      "_key": "k0050",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0051",
+          "_type": "span",
+          "marks": [],
+          "text": "What the trek is actually like"
+        }
+      ]
+    },
+    {
+      "_key": "k0053",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0052",
+          "_type": "span",
+          "marks": [],
+          "text": "Be honest with yourself about the effort. This is a night hike on an active volcano, not a viewpoint you drive to. The climb to the rim is the fitness test; the descent into the crater is the nerve test. Wear proper closed shoes with grip, bring a head torch so your hands stay free, and do not rely on your phone for light. The sulphur smell reaches the rim on a bad wind, so a mask or at least a damp buff is worth having even if you skip the crater floor."
+        }
+      ]
+    },
+    {
+      "_key": "k0055",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0054",
+          "_type": "span",
+          "marks": [],
+          "text": "Go at your own pace and let faster hikers pass. There is no prize for reaching the top first, and altitude plus cold plus a 1am start makes everyone slower than they expect."
+        }
+      ]
+    },
+    {
+      "_key": "k0056",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0057",
+          "_type": "span",
+          "marks": [],
+          "text": "Costs, permits and the first-Friday closure"
+        }
+      ]
+    },
+    {
+      "_key": "k0059",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0058",
+          "_type": "span",
+          "marks": [],
+          "text": "Entrance for foreign visitors is modest, in the region of IDR 100,000 on weekdays and IDR 150,000 at weekends, as a working estimate; a guided tour usually rolls this into the price. One thing that catches people out: Ijen closes on the first Friday of every month for the Ijen Resik cleaning programme, so do not schedule your trek for that night. Conditions on the mountain can also close the crater floor at short notice when gas levels are high, and a good guide will make that call for you."
+        }
+      ]
+    },
+    {
+      "_key": "k0061",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0060",
+          "_type": "span",
+          "marks": [],
+          "text": "A gas mask, ideally a proper respirator rather than a paper one, is the piece of gear worth insisting on. If your tour hands you a flimsy dust mask, ask for better before you start down."
+        }
+      ]
+    },
+    {
+      "_key": "k0062",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0063",
+          "_type": "span",
+          "marks": [],
+          "text": "Where to stay"
+        }
+      ]
+    },
+    {
+      "_key": "k0065",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0064",
+          "_type": "span",
+          "marks": [],
+          "text": "Most travellers base themselves in or near Banyuwangi town, where guesthouses and small hotels are inexpensive and used to guests leaving in the middle of the night. Staying in town keeps you close to the ferry, the station and the airport for an easy onward move. If you would rather wake up closer to the trailhead, there are simpler homestays and lodges up towards Licin on the road to the Paltuding base, which shaves time off the pre-dawn drive but offers fewer places to eat."
+        }
+      ]
+    },
+    {
+      "_key": "k0067",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0066",
+          "_type": "span",
+          "marks": [],
+          "text": "Whichever you choose, tell your accommodation you are doing the Ijen trek. Many will hold your room late, arrange the guide, and have coffee ready when you stagger back down."
+        }
+      ]
+    },
+    {
+      "_key": "k0068",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0069",
+          "_type": "span",
+          "marks": [],
+          "text": "Adding Kawah Ijen to a longer trip"
+        }
+      ]
+    },
+    {
+      "_key": "k0086",
+      "_type": "block",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "k0071",
+          "_type": "externalLink",
+          "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+        },
+        {
+          "_key": "k0074",
+          "_type": "externalLink",
+          "href": "/trips/7-days-bali-first-timers"
+        },
+        {
+          "_key": "k0077",
+          "_type": "externalLink",
+          "href": "/trips/5-days-yogyakarta-bromo"
+        },
+        {
+          "_key": "k0080",
+          "_type": "externalLink",
+          "href": "/trips/7-days-yogyakarta-east-java"
+        },
+        {
+          "_key": "k0083",
+          "_type": "externalLink",
+          "href": "/trips/15-days-java-bali"
+        }
+      ],
+      "children": [
+        {
+          "_key": "k0070",
+          "_type": "span",
+          "marks": [],
+          "text": "Two days at Ijen slots neatly onto the end of a Bali holiday, or onto a Java route. If you are pairing it with Bali, our "
+        },
+        {
+          "_key": "k0072",
+          "_type": "span",
+          "marks": [
+            "k0071"
+          ],
+          "text": "5 Days in Bali: Ubud, Canggu and Uluwatu"
+        },
+        {
+          "_key": "k0073",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "k0075",
+          "_type": "span",
+          "marks": [
+            "k0074"
+          ],
+          "text": "7 Days in Bali for First-Timers"
+        },
+        {
+          "_key": "k0076",
+          "_type": "span",
+          "marks": [],
+          "text": " plans both end within easy reach of the ferry. Coming the other way across Java, this trip is the missing eastern piece of our "
+        },
+        {
+          "_key": "k0078",
+          "_type": "span",
+          "marks": [
+            "k0077"
+          ],
+          "text": "5 Days in Yogyakarta and Mount Bromo"
+        },
+        {
+          "_key": "k0079",
+          "_type": "span",
+          "marks": [],
+          "text": " route, and both volcanoes together are covered in "
+        },
+        {
+          "_key": "k0081",
+          "_type": "span",
+          "marks": [
+            "k0080"
+          ],
+          "text": "7 Days in Yogyakarta and East Java"
+        },
+        {
+          "_key": "k0082",
+          "_type": "span",
+          "marks": [],
+          "text": " and the longer "
+        },
+        {
+          "_key": "k0084",
+          "_type": "span",
+          "marks": [
+            "k0083"
+          ],
+          "text": "15 Days in Java and Bali"
+        },
+        {
+          "_key": "k0085",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    },
+    {
+      "_key": "k0087",
+      "_type": "block",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_key": "k0088",
+          "_type": "span",
+          "marks": [],
+          "text": "Frequently asked questions"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "_key": "k0089",
+      "_type": "faqItem",
+      "question": "Is two days enough for Kawah Ijen?",
+      "answer": "Yes. Kawah Ijen is a single night-time experience, not a multi-day one, so two days and one night is the honest right length: a day to reach Banyuwangi and rest, then the midnight trek, the blue fire and the sunrise before you head back or move on. Adding a second night only makes sense if you also want to slow down in Banyuwangi or add a nearby waterfall."
+    },
+    {
+      "_key": "k0090",
+      "_type": "faqItem",
+      "question": "What time does the blue fire trek start?",
+      "answer": "Pickup is usually around half past midnight, with the climb to the rim taking about 1.5 hours, because the electric-blue flames are only visible in full darkness. You want to be down in the crater in the small hours and back at the rim for sunrise, so a 1am start on the mountain is normal."
+    },
+    {
+      "_key": "k0091",
+      "_type": "faqItem",
+      "question": "How hard is the hike to the crater?",
+      "answer": "The climb to the rim is a steady uphill walk of roughly two to three kilometres over about 1.5 hours, manageable for anyone reasonably fit. The optional descent into the crater to see the blue fire up close is harder: it is steep, loose underfoot, around 45 minutes each way, and passes through sulphur gas, which is why a proper mask and a guide matter."
+    },
+    {
+      "_key": "k0092",
+      "_type": "faqItem",
+      "question": "Do I need a gas mask at Kawah Ijen?",
+      "answer": "Yes, especially if you go down to the crater floor for the blue fire. The sulphuric gas is genuinely toxic in heavy gusts, so a proper respirator-style mask is essential and reaches the rim on a bad wind too. Guided tours normally provide one; if yours offers only a thin paper mask, ask for a better one before you descend."
+    },
+    {
+      "_key": "k0093",
+      "_type": "faqItem",
+      "question": "Can I do Kawah Ijen as a day trip from Bali?",
+      "answer": "You can, and many people do it as one long overnight loop: cross on the Ketapang ferry, trek through the night and return to Bali the next day. It is efficient but exhausting. Basing yourself in Banyuwangi for a night before and, ideally, after the trek turns a punishing round trip into a far more comfortable two-day escape."
+    },
+    {
+      "_key": "k0094",
+      "_type": "faqItem",
+      "question": "When is the best time to visit Kawah Ijen?",
+      "answer": "The dry season from April to October gives the clearest skies and the safest trail, and is the most reliable window for both the blue fire and the sunrise. Avoid the first Friday of any month, when the mountain closes for the Ijen Resik cleaning programme, and check the forecast, since heavy rain or high gas levels can close the crater floor."
+    }
+  ]
+}
