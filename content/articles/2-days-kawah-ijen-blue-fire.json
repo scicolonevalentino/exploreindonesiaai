@@ -6,7 +6,7 @@
     "_type": "slug",
     "current": "2-days-kawah-ijen-blue-fire"
   },
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "destinationPrimary": "java",
   "travelStylePrimary": "adventure_volcanoes",
   "tripLengthBucket": "short_escape",
@@ -695,5 +695,14 @@
       "question": "When is the best time to visit Kawah Ijen?",
       "answer": "The dry season from April to October gives the clearest skies and the safest trail, and is the most reliable window for both the blue fire and the sunrise. Avoid the first Friday of any month, when the mountain closes for the Ijen Resik cleaning programme, and check the forecast, since heavy rain or high gas levels can close the crater floor."
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Sunrise over the turquoise acidic crater lake at Kawah Ijen, East Java",
+    "caption": "Bali/Surabaya → Banyuwangi → Kawah Ijen → Banyuwangi",
+    "asset": {
+      "_ref": "image-019d067b74b6921377b01d320dd4616e2fe1fcee-1800x1200-jpg",
+      "_type": "reference"
+    }
+  }
 }
