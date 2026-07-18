@@ -30,8 +30,50 @@ export async function countGenerationsToday(): Promise<number> {
   }
 }
 
+/* ----------------------------- anonymous cap ---------------------------- */
+// Signed-out visitors are counted in localStorage (no server identity to key
+// on). Bypassable by design — like the signed-in cap, we only want the signal
+// that drives the signup wall, not a hard lock. Resets at the visitor's local
+// midnight to match the signed-in counter's semantics.
+
+const ANON_COUNT_KEY = "ei:anonGenerations";
+
+// Local calendar day as YYYY-MM-DD, so the count rolls over at the visitor's
+// own midnight rather than UTC.
+function localDayKey(): string {
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
+// How many trips a signed-out visitor has generated today. 0 on any error.
+export function countAnonGenerationsToday(): number {
+  try {
+    const raw = window.localStorage.getItem(ANON_COUNT_KEY);
+    if (!raw) return 0;
+    const parsed = JSON.parse(raw) as { day?: string; count?: number };
+    return parsed.day === localDayKey() ? (parsed.count ?? 0) : 0;
+  } catch {
+    return 0;
+  }
+}
+
+// Record one completed signed-out generation. Best-effort; never throws.
+export function logAnonGeneration(): void {
+  try {
+    const next = countAnonGenerationsToday() + 1;
+    window.localStorage.setItem(
+      ANON_COUNT_KEY,
+      JSON.stringify({ day: localDayKey(), count: next }),
+    );
+  } catch {
+    // Private mode / storage full — skip, the cap just fails open.
+  }
+}
+
 // Log one COMPLETED generation for the signed-in user. No-op when signed out
-// (signed-out generation is unlimited and uncounted by design).
+// (signed-out generation is counted separately, in localStorage).
 export async function logGeneration(): Promise<void> {
   try {
     const supabase = getSupabaseBrowserClient();

@@ -1,15 +1,19 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { stashPendingProfile } from "@/lib/supabase/profile";
+import { stashPendingProfile, markAuthPending } from "@/lib/supabase/profile";
 import { Checkbox } from "@/components/ui/checkbox";
 import { GoogleIcon } from "@/components/GoogleIcon";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/login")({
   // Optional ?next=/path — where to land after auth completes.
-  validateSearch: (search: Record<string, unknown>): { next?: string } =>
-    typeof search.next === "string" ? { next: search.next } : {},
+  // Optional ?error=link — set by /auth/callback when a magic link is expired
+  // or already used, so we can tell the user instead of showing a bare form.
+  validateSearch: (search: Record<string, unknown>): { next?: string; error?: string } => ({
+    ...(typeof search.next === "string" ? { next: search.next } : {}),
+    ...(typeof search.error === "string" ? { error: search.error } : {}),
+  }),
   head: () => ({
     meta: [
       { title: "Log in or sign up, ExploreIndonesia.ai" },
@@ -21,11 +25,12 @@ export const Route = createFileRoute("/login")({
 });
 
 function LoginPage() {
-  const { next } = Route.useSearch();
+  const { next, error: linkError } = Route.useSearch();
   const [email, setEmail] = useState("");
   const [marketing, setMarketing] = useState(false);
   const [sent, setSent] = useState(false);
-  const [busy, setBusy] = useState<"google" | "email" | null>(null);
+  const [otp, setOtp] = useState("");
+  const [busy, setBusy] = useState<"google" | "email" | "verify" | null>(null);
 
   // Returning users land on their trips; flows like the Save & Download wall
   // pass ?next= to come back where they started.
@@ -46,6 +51,7 @@ function LoginPage() {
 
   async function withGoogle() {
     setBusy("google");
+    markAuthPending("google");
     stashConsent();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOAuth({
@@ -62,6 +68,7 @@ function LoginPage() {
     e.preventDefault();
     if (!email.trim()) return;
     setBusy("email");
+    markAuthPending("email");
     stashConsent();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOtp({
@@ -74,6 +81,34 @@ function LoginPage() {
       return;
     }
     setSent(true);
+  }
+
+  // Verify the 6-digit code in place (no redirect). On success the session is
+  // set client-side; land the user where they were headed. /account (and /p1)
+  // flush the pending consent and fire the login/sign_up event on arrival. The
+  // magic link in the same email still works as a fallback.
+  async function verifyCode(e: React.FormEvent) {
+    e.preventDefault();
+    const token = otp.trim();
+    if (token.length < 6) return;
+    setBusy("verify");
+    const supabase = getSupabaseBrowserClient();
+    const addr = email.trim();
+    // Existing users get an "email" (magic-link) OTP; brand-new signups (with
+    // email confirmation on) get a "signup" OTP. A rejected verify doesn't
+    // consume the token, so try "email" first and fall back to "signup".
+    let { error } = await supabase.auth.verifyOtp({ email: addr, token, type: "email" });
+    if (error) {
+      ({ error } = await supabase.auth.verifyOtp({ email: addr, token, type: "signup" }));
+    }
+    setBusy(null);
+    if (error) {
+      toast.error("That code didn't work — check it and try again.");
+      return;
+    }
+    // Full-page nav so the destination (/account or the ?next= page) runs its
+    // signed-in effect: flush the pending consent and fire login/sign_up.
+    window.location.assign(next ?? "/account");
   }
 
   return (
@@ -102,13 +137,38 @@ function LoginPage() {
             className="mt-6 rounded-lg border p-4 text-sm"
             style={{ borderColor: "var(--teal-link)", color: "var(--navy-deep)" }}
           >
-            <p className="font-medium">Check your inbox 📩</p>
+            <p className="font-medium">Enter your code 📩</p>
             <p className="mt-1 text-muted-foreground">
-              We sent a secure link to <strong>{email}</strong>. Open it on this device to continue.
-              That click confirms your email address.
+              We emailed a 6-digit code to <strong>{email}</strong>. Enter it below to continue — no
+              need to leave this page. (The email also has a magic link if you prefer.)
             </p>
+            <form onSubmit={verifyCode} className="mt-3 flex flex-col gap-3">
+              <input
+                type="text"
+                inputMode="numeric"
+                autoComplete="one-time-code"
+                pattern="[0-9]*"
+                maxLength={6}
+                autoFocus
+                value={otp}
+                onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
+                placeholder="123456"
+                aria-label="6-digit code"
+                className="w-full rounded-md border border-[var(--border-cream)] bg-white px-4 py-2.5 text-center text-lg tracking-[0.4em] outline-none focus:ring-2 focus:ring-ring"
+              />
+              <button
+                type="submit"
+                disabled={busy !== null || otp.trim().length < 6}
+                className="inline-flex w-full items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:opacity-60"
+              >
+                {busy === "verify" ? "Verifying…" : "Verify & continue"} <span aria-hidden>→</span>
+              </button>
+            </form>
             <button
-              onClick={() => setSent(false)}
+              onClick={() => {
+                setSent(false);
+                setOtp("");
+              }}
               className="mt-3 text-sm underline"
               style={{ color: "var(--teal-link)" }}
             >
@@ -117,6 +177,15 @@ function LoginPage() {
           </div>
         ) : (
           <div className="mt-6 flex flex-col gap-4">
+            {linkError === "link" && (
+              <div
+                role="alert"
+                className="rounded-lg border p-3 text-sm"
+                style={{ borderColor: "#e0533a", color: "#8a2c1c", backgroundColor: "#fdefec" }}
+              >
+                That sign-in link has expired or was already used. Request a new one below.
+              </div>
+            )}
             <button
               type="button"
               onClick={withGoogle}

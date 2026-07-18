@@ -16,7 +16,7 @@ import {
 import { Checkbox } from "@/components/ui/checkbox";
 import { GoogleIcon } from "@/components/GoogleIcon";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { stashPendingProfile } from "@/lib/supabase/profile";
+import { stashPendingProfile, markAuthPending } from "@/lib/supabase/profile";
 import { trackEvent } from "@/lib/analytics-events";
 import { toast } from "sonner";
 
@@ -24,11 +24,18 @@ export function AuthSaveModal({
   open,
   onOpenChange,
   onBeforeAuth,
+  title = "Save your itinerary",
+  description = "Create a free account to download the PDF and keep your trips in one place.",
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  // Caller stashes the built trip to localStorage so it survives the redirect.
+  // Caller stashes whatever must survive the redirect (a built trip, or the
+  // pending prompt when this is the signup wall).
   onBeforeAuth: () => void;
+  // Override the heading/subtitle so the same auth flow can serve both the
+  // "save & download" moment and the anonymous generation-cap signup wall.
+  title?: string;
+  description?: string;
 }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -37,7 +44,8 @@ export function AuthSaveModal({
   const [consent, setConsent] = useState(false);
   const [marketing, setMarketing] = useState(false);
   const [sent, setSent] = useState(false);
-  const [busy, setBusy] = useState<"google" | "email" | null>(null);
+  const [otp, setOtp] = useState("");
+  const [busy, setBusy] = useState<"google" | "email" | "verify" | null>(null);
 
   const stashAll = () => {
     onBeforeAuth();
@@ -62,6 +70,7 @@ export function AuthSaveModal({
     if (!requireConsent()) return;
     setBusy("google");
     trackEvent("signup_start", { method: "google" });
+    markAuthPending("google");
     stashAll();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOAuth({
@@ -82,6 +91,7 @@ export function AuthSaveModal({
     if (!email.trim() || !requireConsent()) return;
     setBusy("email");
     trackEvent("signup_start", { method: "email" });
+    markAuthPending("email");
     stashAll();
     const supabase = getSupabaseBrowserClient();
     const { error } = await supabase.auth.signInWithOtp({
@@ -104,6 +114,34 @@ export function AuthSaveModal({
     setSent(true);
   };
 
+  // Verify the 6-digit code IN PLACE — no redirect, so the built trip stashed in
+  // localStorage always survives (the magic link could open in a different
+  // browser, e.g. the Gmail in-app viewer on mobile, and lose it). On success
+  // the session is set client-side; the page's signed-in effect finishes the
+  // save + PDF download. The magic link in the same email still works as a
+  // fallback for anyone who prefers it.
+  const verifyCode = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const token = otp.trim();
+    if (token.length < 6) return;
+    setBusy("verify");
+    const supabase = getSupabaseBrowserClient();
+    const addr = email.trim();
+    // Existing users get an "email" (magic-link) OTP; brand-new signups (with
+    // email confirmation on) get a "signup" OTP. A rejected verify doesn't
+    // consume the token, so try "email" first and fall back to "signup".
+    let { error } = await supabase.auth.verifyOtp({ email: addr, token, type: "email" });
+    if (error) {
+      ({ error } = await supabase.auth.verifyOtp({ email: addr, token, type: "signup" }));
+    }
+    setBusy(null);
+    if (error) {
+      toast.error("That code didn't work — check it and try again.");
+      return;
+    }
+    onOpenChange(false);
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-md" style={{ backgroundColor: "var(--cream)" }}>
@@ -111,16 +149,42 @@ export function AuthSaveModal({
           <>
             <DialogHeader>
               <DialogTitle className="font-serif text-2xl" style={{ color: "var(--navy-deep)" }}>
-                Check your inbox 📩
+                Enter your code 📩
               </DialogTitle>
               <DialogDescription>
-                We sent a secure link to <strong>{email}</strong>. Open it on this device, your
-                itinerary will be saved and the download will start automatically.
+                We emailed a 6-digit code to <strong>{email}</strong>. Enter it below to finish — no
+                need to leave this page. (The email also has a magic link if you prefer.)
               </DialogDescription>
             </DialogHeader>
+            <form onSubmit={verifyCode} className="flex flex-col gap-3 pt-1">
+              <input
+                type="text"
+                inputMode="numeric"
+                autoComplete="one-time-code"
+                pattern="[0-9]*"
+                maxLength={6}
+                autoFocus
+                value={otp}
+                onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
+                placeholder="123456"
+                aria-label="6-digit code"
+                className="w-full rounded-md border bg-white px-4 py-2.5 text-center text-lg tracking-[0.4em] outline-none focus:ring-2 focus:ring-ring"
+                style={{ borderColor: "var(--border-cream)" }}
+              />
+              <button
+                type="submit"
+                disabled={busy !== null || otp.trim().length < 6}
+                className="inline-flex w-full items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full text-white transition-all bg-[var(--blue-bright)] hover:bg-black focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--blue-bright)] focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:opacity-60"
+              >
+                {busy === "verify" ? "Verifying…" : "Verify & continue"} <span aria-hidden>→</span>
+              </button>
+            </form>
             <button
               type="button"
-              onClick={() => setSent(false)}
+              onClick={() => {
+                setSent(false);
+                setOtp("");
+              }}
               className="text-sm underline self-start"
               style={{ color: "var(--teal-link)" }}
             >
@@ -131,11 +195,9 @@ export function AuthSaveModal({
           <>
             <DialogHeader>
               <DialogTitle className="font-serif text-2xl" style={{ color: "var(--navy-deep)" }}>
-                Save your itinerary
+                {title}
               </DialogTitle>
-              <DialogDescription>
-                Create a free account to download the PDF and keep your trips in one place.
-              </DialogDescription>
+              <DialogDescription>{description}</DialogDescription>
             </DialogHeader>
 
             <div className="flex flex-col gap-4 pt-1">

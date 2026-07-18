@@ -28,10 +28,15 @@ import {
 import { trackEvent } from "@/lib/analytics-events";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
-import { DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
+import { ANON_GENERATION_LIMIT, DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
 import { capturePrompt } from "@/lib/prompt-capture";
 import { useSpeechToText } from "@/hooks/useSpeechToText";
-import { countGenerationsToday, logGeneration } from "@/lib/supabase/generations";
+import {
+  countAnonGenerationsToday,
+  countGenerationsToday,
+  logAnonGeneration,
+  logGeneration,
+} from "@/lib/supabase/generations";
 import type { Insight, InsightLabel, ItineraryItem, Trip } from "@/lib/trip/types";
 import { tripStops, type StopExperience } from "@/lib/trip/places";
 import { useUser } from "@/lib/supabase/useUser";
@@ -46,6 +51,11 @@ import { toast } from "sonner";
 // localStorage key for stashing a freshly built trip when a signed-out visitor
 // clicks the CTA — restored + auto-saved after they complete the magic link.
 const PENDING_TRIP_KEY = "ei:pendingTrip";
+
+// localStorage key for the prompt a signed-out visitor typed when they hit the
+// anonymous generation cap — restored into the box after signup so they can
+// pick up exactly where the signup wall interrupted them.
+const PENDING_PROMPT_KEY = "ei:pendingPrompt";
 
 // Lazy: pulls in d3-geo + the bundled topology only when the Map tab is opened.
 const TripMap = lazy(() => import("@/components/TripMap"));
@@ -173,6 +183,8 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
   const [insights, setInsights] = useState<Insight[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [limitOpen, setLimitOpen] = useState(false);
+  // Signup wall shown when a signed-out visitor exhausts the anonymous cap.
+  const [signupWallOpen, setSignupWallOpen] = useState(false);
   const { user, loading: userLoading } = useUser();
   const restoredRef = useRef(false);
   const komoStartedRef = useRef(false);
@@ -203,7 +215,18 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       void sendWelcomeEmailOnce();
     });
     const raw = window.localStorage.getItem(PENDING_TRIP_KEY);
-    if (!raw) return;
+    if (!raw) {
+      // No built-trip stash: this may be a return from the anonymous signup
+      // wall. Repopulate the prompt they were about to build so they resume in
+      // one tap — now under the higher signed-in cap.
+      const pendingPrompt = window.localStorage.getItem(PENDING_PROMPT_KEY);
+      if (pendingPrompt) {
+        setPrompt(pendingPrompt);
+        window.localStorage.removeItem(PENDING_PROMPT_KEY);
+      }
+      return;
+    }
+    window.localStorage.removeItem(PENDING_PROMPT_KEY); // trip stash wins over a bare prompt
     try {
       const stash = JSON.parse(raw) as {
         trip: Trip;
@@ -250,10 +273,10 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
 
   async function buildTrip(overridePrompt?: string) {
     const submitted = (overridePrompt ?? prompt).trim();
-    // Signed-in users get a daily free-generation cap — a Pro-demand sensor,
-    // not a hard wall (signed-out stays unlimited; the check is client-side and
-    // fails open). At the cap, surface the Pro early-access modal instead of
-    // building, and emit the passive signal.
+    // Daily free-generation caps (client-side, fail open). Signed-in users get
+    // the higher cap and, at it, the Pro-demand modal. Signed-out visitors get
+    // the lower ANON cap and, at it, the SIGNUP WALL — so creating an account
+    // unlocks more planning (the conversion goal), not less.
     if (user) {
       const usedToday = await countGenerationsToday();
       if (usedToday >= DAILY_GENERATION_LIMIT) {
@@ -262,6 +285,22 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
           daily_limit: DAILY_GENERATION_LIMIT,
         });
         setLimitOpen(true);
+        return;
+      }
+    } else {
+      const usedAnon = countAnonGenerationsToday();
+      if (usedAnon >= ANON_GENERATION_LIMIT) {
+        trackEvent("signup_wall_reached", {
+          used_today: usedAnon,
+          anon_limit: ANON_GENERATION_LIMIT,
+        });
+        // Keep the prompt so it's waiting in the box after they sign up.
+        try {
+          window.localStorage.setItem(PENDING_PROMPT_KEY, submitted);
+        } catch {
+          // best-effort
+        }
+        setSignupWallOpen(true);
         return;
       }
     }
@@ -359,9 +398,10 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         throw new Error("Couldn't build your trip right now, please try again.");
       }
       trackEvent("trip_generated", { days: meta.days, items: collected.length });
-      // Count this completed build against the signed-in user's daily allowance
-      // (no-op when signed out). Best-effort — never blocks the flow.
+      // Count this completed build against the right daily allowance (server
+      // row for signed-in users, localStorage for anonymous). Best-effort.
       if (user) void logGeneration();
+      else logAnonGeneration();
 
       // Phase 2: resolve affiliate matches while the user reads the plan.
       const matchRes = await fetch("/api/public/match-trip", {
@@ -424,6 +464,13 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
         open={limitOpen}
         onOpenChange={setLimitOpen}
         limit={DAILY_GENERATION_LIMIT}
+      />
+      <AuthSaveModal
+        open={signupWallOpen}
+        onOpenChange={setSignupWallOpen}
+        onBeforeAuth={() => {}}
+        title="Keep planning — it's free"
+        description="You've used today's free trips. Create a free account to keep building itineraries and save them all in one place."
       />
     </div>
   );

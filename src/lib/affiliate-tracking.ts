@@ -32,8 +32,12 @@ const PARTNER_HOSTS: Array<{ match: (h: string) => boolean; partner: string }> =
   { match: (h) => CJ_HOSTS.some((d) => h === d || h.endsWith("." + d)), partner: "booking" },
   { match: (h) => h === "viator.com" || h.endsWith(".viator.com"), partner: "viator" },
   { match: (h) => h.endsWith("getyourguide.com"), partner: "getyourguide" },
+  // gygaff.com is GetYourGuide's legacy affiliate redirect domain.
+  { match: (h) => h.endsWith("gygaff.com"), partner: "getyourguide" },
   { match: (h) => h.endsWith("klook.com"), partner: "klook" },
   { match: (h) => h === "12go.asia" || h.endsWith(".12go.asia"), partner: "12go" },
+  // stay22 accommodation aggregator (used in some article bodies).
+  { match: (h) => h === "stay22.com" || h.endsWith(".stay22.com"), partner: "stay22" },
 ];
 
 // Travelpayouts shortener (tpx.lu) is shared by several partners; the subdomain
@@ -53,7 +57,11 @@ function travelpayoutsPartner(host: string): string | null {
 
 function hostOf(href: string): string | null {
   try {
-    return new URL(href, window.location.href).hostname.replace(/^www\./, "").toLowerCase();
+    // SSR-safe: affiliate hrefs are absolute, so the base is only needed for the
+    // (client-only) relative case. `affiliatePartnerFor` runs during server
+    // render too (article rel="sponsored" detection), where window is undefined.
+    const base = typeof window !== "undefined" ? window.location.href : undefined;
+    return new URL(href, base).hostname.replace(/^www\./, "").toLowerCase();
   } catch {
     return null;
   }

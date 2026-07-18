@@ -24,6 +24,7 @@ import {
 import { findDestinationByValue } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
 import { normalizeBookingHref } from "@/lib/booking";
+import { affiliatePartnerFor } from "@/lib/affiliate-tracking";
 import { trackEvent } from "@/lib/analytics-events";
 
 const articleQO = (slug: string) =>
@@ -600,11 +601,11 @@ function ArticleInner() {
           context: "article",
         });
         const href = bookingHref ?? rawHref;
-        const isAffiliate =
-          !!bookingHref ||
-          /airalo\.tpx\.lu|affiliate\.klook\.com|12go\.asia\/\?z=|[?&]pid=P0030|gygaff\.com|stay22|tpx\.lu/.test(
-            href,
-          );
+        // Single source of truth for "is this an affiliate link" — same domain
+        // map that powers global click tracking, so every partner (GYG with any
+        // partner_id, Viator with any pid, 12Go deep links, Travelpayouts,
+        // stay22, …) gets rel="sponsored" and none slips through a stale regex.
+        const isAffiliate = !!bookingHref || affiliatePartnerFor(href) !== null;
         return (
           <a
             href={href}
