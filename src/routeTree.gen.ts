@@ -26,8 +26,15 @@ import { Route as TransportIndexRouteImport } from './routes/transport.index'
 import { Route as DestinationsIndexRouteImport } from './routes/destinations.index'
 import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as TransportRouteRouteImport } from './routes/transport.$route'
+import { Route as OauthTokenRouteImport } from './routes/oauth.token'
+import { Route as OauthRegisterRouteImport } from './routes/oauth.register'
+import { Route as OauthOtpRouteImport } from './routes/oauth.otp'
+import { Route as OauthAuthorizeRouteImport } from './routes/oauth.authorize'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
+import { Route as ApiMcpRouteImport } from './routes/api/mcp'
+import { Route as DotwellKnownOauthProtectedResourceRouteImport } from './routes/[.]well-known.oauth-protected-resource'
+import { Route as DotwellKnownOauthAuthorizationServerRouteImport } from './routes/[.]well-known.oauth-authorization-server'
 import { Route as DestinationsDestinationSlugRouteImport } from './routes/destinations.$destination_.$slug'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
@@ -119,6 +126,26 @@ const TransportRouteRoute = TransportRouteRouteImport.update({
   path: '/transport/$route',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OauthTokenRoute = OauthTokenRouteImport.update({
+  id: '/oauth/token',
+  path: '/oauth/token',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OauthRegisterRoute = OauthRegisterRouteImport.update({
+  id: '/oauth/register',
+  path: '/oauth/register',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OauthOtpRoute = OauthOtpRouteImport.update({
+  id: '/oauth/otp',
+  path: '/oauth/otp',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OauthAuthorizeRoute = OauthAuthorizeRouteImport.update({
+  id: '/oauth/authorize',
+  path: '/oauth/authorize',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DestinationsDestinationRoute = DestinationsDestinationRouteImport.update({
   id: '/destinations/$destination',
   path: '/destinations/$destination',
@@ -129,6 +156,23 @@ const AuthCallbackRoute = AuthCallbackRouteImport.update({
   path: '/auth/callback',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiMcpRoute = ApiMcpRouteImport.update({
+  id: '/api/mcp',
+  path: '/api/mcp',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DotwellKnownOauthProtectedResourceRoute =
+  DotwellKnownOauthProtectedResourceRouteImport.update({
+    id: '/.well-known/oauth-protected-resource',
+    path: '/.well-known/oauth-protected-resource',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const DotwellKnownOauthAuthorizationServerRoute =
+  DotwellKnownOauthAuthorizationServerRouteImport.update({
+    id: '/.well-known/oauth-authorization-server',
+    path: '/.well-known/oauth-authorization-server',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DestinationsDestinationSlugRoute =
   DestinationsDestinationSlugRouteImport.update({
     id: '/destinations/$destination_/$slug',
@@ -169,8 +213,15 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/.well-known/oauth-authorization-server': typeof DotwellKnownOauthAuthorizationServerRoute
+  '/.well-known/oauth-protected-resource': typeof DotwellKnownOauthProtectedResourceRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/oauth/authorize': typeof OauthAuthorizeRoute
+  '/oauth/otp': typeof OauthOtpRoute
+  '/oauth/register': typeof OauthRegisterRoute
+  '/oauth/token': typeof OauthTokenRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/destinations/': typeof DestinationsIndexRoute
@@ -195,8 +246,15 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/.well-known/oauth-authorization-server': typeof DotwellKnownOauthAuthorizationServerRoute
+  '/.well-known/oauth-protected-resource': typeof DotwellKnownOauthProtectedResourceRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/oauth/authorize': typeof OauthAuthorizeRoute
+  '/oauth/otp': typeof OauthOtpRoute
+  '/oauth/register': typeof OauthRegisterRoute
+  '/oauth/token': typeof OauthTokenRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/destinations': typeof DestinationsIndexRoute
@@ -222,8 +280,15 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/.well-known/oauth-authorization-server': typeof DotwellKnownOauthAuthorizationServerRoute
+  '/.well-known/oauth-protected-resource': typeof DotwellKnownOauthProtectedResourceRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
+  '/oauth/authorize': typeof OauthAuthorizeRoute
+  '/oauth/otp': typeof OauthOtpRoute
+  '/oauth/register': typeof OauthRegisterRoute
+  '/oauth/token': typeof OauthTokenRoute
   '/transport/$route': typeof TransportRouteRoute
   '/trips/$slug': typeof TripsSlugRoute
   '/destinations/': typeof DestinationsIndexRoute
@@ -250,8 +315,15 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/.well-known/oauth-authorization-server'
+    | '/.well-known/oauth-protected-resource'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/oauth/authorize'
+    | '/oauth/otp'
+    | '/oauth/register'
+    | '/oauth/token'
     | '/transport/$route'
     | '/trips/$slug'
     | '/destinations/'
@@ -276,8 +348,15 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/.well-known/oauth-authorization-server'
+    | '/.well-known/oauth-protected-resource'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/oauth/authorize'
+    | '/oauth/otp'
+    | '/oauth/register'
+    | '/oauth/token'
     | '/transport/$route'
     | '/trips/$slug'
     | '/destinations'
@@ -302,8 +381,15 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/.well-known/oauth-authorization-server'
+    | '/.well-known/oauth-protected-resource'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
+    | '/oauth/authorize'
+    | '/oauth/otp'
+    | '/oauth/register'
+    | '/oauth/token'
     | '/transport/$route'
     | '/trips/$slug'
     | '/destinations/'
@@ -329,8 +415,15 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
   VisaGuideRoute: typeof VisaGuideRoute
+  DotwellKnownOauthAuthorizationServerRoute: typeof DotwellKnownOauthAuthorizationServerRoute
+  DotwellKnownOauthProtectedResourceRoute: typeof DotwellKnownOauthProtectedResourceRoute
+  ApiMcpRoute: typeof ApiMcpRoute
   AuthCallbackRoute: typeof AuthCallbackRoute
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
+  OauthAuthorizeRoute: typeof OauthAuthorizeRoute
+  OauthOtpRoute: typeof OauthOtpRoute
+  OauthRegisterRoute: typeof OauthRegisterRoute
+  OauthTokenRoute: typeof OauthTokenRoute
   TransportRouteRoute: typeof TransportRouteRoute
   TripsSlugRoute: typeof TripsSlugRoute
   DestinationsIndexRoute: typeof DestinationsIndexRoute
@@ -394,18 +487,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof P1RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/og.jpg': {
       id: '/og.jpg'
       path: '/og.jpg'
       fullPath: '/og.jpg'
       preLoaderRoute: typeof OgDotjpgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/indonesia-travel-costs': {
@@ -464,6 +557,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TransportRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/oauth/token': {
+      id: '/oauth/token'
+      path: '/oauth/token'
+      fullPath: '/oauth/token'
+      preLoaderRoute: typeof OauthTokenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oauth/register': {
+      id: '/oauth/register'
+      path: '/oauth/register'
+      fullPath: '/oauth/register'
+      preLoaderRoute: typeof OauthRegisterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oauth/otp': {
+      id: '/oauth/otp'
+      path: '/oauth/otp'
+      fullPath: '/oauth/otp'
+      preLoaderRoute: typeof OauthOtpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oauth/authorize': {
+      id: '/oauth/authorize'
+      path: '/oauth/authorize'
+      fullPath: '/oauth/authorize'
+      preLoaderRoute: typeof OauthAuthorizeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/destinations/$destination': {
       id: '/destinations/$destination'
       path: '/destinations/$destination'
@@ -476,6 +597,27 @@ declare module '@tanstack/react-router' {
       path: '/auth/callback'
       fullPath: '/auth/callback'
       preLoaderRoute: typeof AuthCallbackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/mcp': {
+      id: '/api/mcp'
+      path: '/api/mcp'
+      fullPath: '/api/mcp'
+      preLoaderRoute: typeof ApiMcpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.well-known/oauth-protected-resource': {
+      id: '/.well-known/oauth-protected-resource'
+      path: '/.well-known/oauth-protected-resource'
+      fullPath: '/.well-known/oauth-protected-resource'
+      preLoaderRoute: typeof DotwellKnownOauthProtectedResourceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.well-known/oauth-authorization-server': {
+      id: '/.well-known/oauth-authorization-server'
+      path: '/.well-known/oauth-authorization-server'
+      fullPath: '/.well-known/oauth-authorization-server'
+      preLoaderRoute: typeof DotwellKnownOauthAuthorizationServerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/destinations/$destination_/$slug': {
@@ -529,8 +671,17 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
   VisaGuideRoute: VisaGuideRoute,
+  DotwellKnownOauthAuthorizationServerRoute:
+    DotwellKnownOauthAuthorizationServerRoute,
+  DotwellKnownOauthProtectedResourceRoute:
+    DotwellKnownOauthProtectedResourceRoute,
+  ApiMcpRoute: ApiMcpRoute,
   AuthCallbackRoute: AuthCallbackRoute,
   DestinationsDestinationRoute: DestinationsDestinationRoute,
+  OauthAuthorizeRoute: OauthAuthorizeRoute,
+  OauthOtpRoute: OauthOtpRoute,
+  OauthRegisterRoute: OauthRegisterRoute,
+  OauthTokenRoute: OauthTokenRoute,
   TransportRouteRoute: TransportRouteRoute,
   TripsSlugRoute: TripsSlugRoute,
   DestinationsIndexRoute: DestinationsIndexRoute,
