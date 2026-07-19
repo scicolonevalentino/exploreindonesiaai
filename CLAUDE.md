@@ -85,7 +85,7 @@ of the build.
   - Never hand-edit `routeTree.gen.ts`.
   - **`routeTree.gen.ts` regeneration gotcha**: running `dev`/`build` can
     regenerate this file with an extra `declare module '@tanstack/react-start'
-    { interface Register … }` block (the `ssr/router/config` augmentation). That
+{ interface Register … }` block (the `ssr/router/config` augmentation). That
     block comes from a `@tanstack/start-plugin-core` (generator) version newer
     than the installed `react-start` runtime types can consume, and it breaks
     `typecheck` with `to="/trips"`-style errors in `trips.index.tsx`. It is a

@@ -28,6 +28,7 @@ import { Route as TripsSlugRouteImport } from './routes/trips.$slug'
 import { Route as TransportRouteRouteImport } from './routes/transport.$route'
 import { Route as DestinationsDestinationRouteImport } from './routes/destinations.$destination'
 import { Route as AuthCallbackRouteImport } from './routes/auth.callback'
+import { Route as ApiMcpRouteImport } from './routes/api/mcp'
 import { Route as DestinationsDestinationSlugRouteImport } from './routes/destinations.$destination_.$slug'
 import { Route as ApiPublicMatchTripRouteImport } from './routes/api/public/match-trip'
 import { Route as ApiPublicLinkHealthRouteImport } from './routes/api/public/link-health'
@@ -129,6 +130,11 @@ const AuthCallbackRoute = AuthCallbackRouteImport.update({
   path: '/auth/callback',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiMcpRoute = ApiMcpRouteImport.update({
+  id: '/api/mcp',
+  path: '/api/mcp',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DestinationsDestinationSlugRoute =
   DestinationsDestinationSlugRouteImport.update({
     id: '/destinations/$destination_/$slug',
@@ -169,6 +175,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -195,6 +202,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -222,6 +230,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms': typeof TermsRoute
   '/visa-guide': typeof VisaGuideRoute
+  '/api/mcp': typeof ApiMcpRoute
   '/auth/callback': typeof AuthCallbackRoute
   '/destinations/$destination': typeof DestinationsDestinationRoute
   '/transport/$route': typeof TransportRouteRoute
@@ -250,6 +259,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -276,6 +286,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -302,6 +313,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms'
     | '/visa-guide'
+    | '/api/mcp'
     | '/auth/callback'
     | '/destinations/$destination'
     | '/transport/$route'
@@ -329,6 +341,7 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsRoute: typeof TermsRoute
   VisaGuideRoute: typeof VisaGuideRoute
+  ApiMcpRoute: typeof ApiMcpRoute
   AuthCallbackRoute: typeof AuthCallbackRoute
   DestinationsDestinationRoute: typeof DestinationsDestinationRoute
   TransportRouteRoute: typeof TransportRouteRoute
@@ -394,18 +407,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof P1RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/og.jpg': {
       id: '/og.jpg'
       path: '/og.jpg'
       fullPath: '/og.jpg'
       preLoaderRoute: typeof OgDotjpgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/indonesia-travel-costs': {
@@ -478,6 +491,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthCallbackRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/mcp': {
+      id: '/api/mcp'
+      path: '/api/mcp'
+      fullPath: '/api/mcp'
+      preLoaderRoute: typeof ApiMcpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/destinations/$destination_/$slug': {
       id: '/destinations/$destination_/$slug'
       path: '/destinations/$destination/$slug'
@@ -529,6 +549,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsRoute: TermsRoute,
   VisaGuideRoute: VisaGuideRoute,
+  ApiMcpRoute: ApiMcpRoute,
   AuthCallbackRoute: AuthCallbackRoute,
   DestinationsDestinationRoute: DestinationsDestinationRoute,
   TransportRouteRoute: TransportRouteRoute,
@@ -545,3 +566,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

@@ -1,1368 +1,1281 @@
 {
- "_id": "itinerary-5-days-nusa-penida-lembongan",
- "_type": "article",
- "affiliateLinks": [
-  {
-   "_key": "k1",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-   "anchorText": "Indonesia eSIM with Airalo",
-   "experienceCategory": "esim_connectivity",
-   "linkStatus": "live",
-   "notes": "travelpayouts",
-   "partner": "airalo",
-   "placeholderId": "AIRALO_INDONESIA",
-   "publicUrl": "https://www.airalo.com/indonesia-esim"
-  },
-  {
-   "_key": "k2",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://12go.asia/?z=16022946",
-   "anchorText": "fast boat tickets from Sanur to Nusa Penida",
-   "experienceCategory": "transfer",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "12go",
-   "placeholderId": "12GO_SANUR_NUSA_PENIDA",
-   "publicUrl": null
-  },
-  {
-   "_key": "k3",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2?pid=P00303362&mcid=42383&medium=link&campaign=WestNusaPenidaLandTour",
-   "anchorText": "guided West Penida tour with a driver",
-   "experienceCategory": "tour",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "viator",
-   "placeholderId": "VIATOR_WEST_PENIDA_LAND",
-   "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2"
-  },
-  {
-   "_key": "k4",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Nusa-Penida-Manta-Snorkeling-Tour/d60448-161518P1?pid=P00303362&mcid=42383&medium=link&campaign=NusaPenidaMantaSnorkel",
-   "anchorText": "Nusa Penida manta snorkeling tour",
-   "experienceCategory": "activity",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "viator",
-   "placeholderId": "VIATOR_NUSA_PENIDA_MANTA",
-   "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Nusa-Penida-Manta-Snorkeling-Tour/d60448-161518P1"
-  },
-  {
-   "_key": "k5",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F21676-nusa-lembongan-ceningan-tour-bali%2F",
-   "anchorText": "Nusa Lembongan and Ceningan day tour",
-   "experienceCategory": "tour",
-   "linkStatus": "live",
-   "notes": "travelpayouts",
-   "partner": "klook",
-   "placeholderId": "KLOOK_LEMBONGAN_CENINGAN",
-   "publicUrl": "https://www.klook.com/activity/21676-nusa-lembongan-ceningan-tour-bali/"
-  }
- ],
- "articleCreatedDate": "2026-06-19T08:00:00.000Z",
- "author": {
-  "_ref": "author-editorial-team",
-  "_type": "reference"
- },
- "body": [
-  {
-   "_key": "k6",
-   "_type": "block",
-   "children": [
+  "_id": "itinerary-5-days-nusa-penida-lembongan",
+  "_type": "article",
+  "affiliateLinks": [
     {
-     "_key": "k7",
-     "_type": "span",
-     "marks": [],
-     "text": "Who this trip is for"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k9",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k8",
-     "_type": "span",
-     "marks": [],
-     "text": "This route suits couples and friends who want island scenery and good snorkeling without making mainland Bali the centre of the trip. You get the big west coast viewpoints on Nusa Penida, a tide-dependent manta snorkel, then a slower finish on Nusa Lembongan where you can walk, cycle and swim without a packed schedule. The pace is balanced, with two active driving days on Penida and a genuine wind-down at the end."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k11",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "s",
-     "_type": "span",
-     "marks": [],
-     "text": "It is not the right trip for families with young children. The famous Penida viewpoints sit at the top of steep, unfenced cliffs, and the island roads are slow and rough in places, which makes long touring days hard with toddlers. If that is you, our "
+      "_key": "k1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
     },
     {
-     "_key": "s1",
-     "_type": "span",
-     "marks": [
-      "inb"
-     ],
-     "text": "7-day Nusa Lembongan and Nusa Ceningan itinerary for families"
+      "_key": "k2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "fast boat tickets from Sanur to Nusa Penida",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_SANUR_NUSA_PENIDA",
+      "publicUrl": null
     },
     {
-     "_key": "s2",
-     "_type": "span",
-     "marks": [],
-     "text": " bases on the calmer, flatter island next door instead. It is also not ideal if you want nightlife, fast transport between sights, or guaranteed wildlife. The manta snorkel depends on weather and tides that no operator controls."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "inb",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-nusa-lembongan-ceningan-with-kids"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k13",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k12",
-     "_type": "span",
-     "marks": [],
-     "text": "If you only have two or three days, this plan will feel rushed. Nusa Penida rewards a base of several nights so you are not timing every move around a return boat to Sanur. Travellers who want serious diving rather than snorkeling should look at a dedicated dive base instead, since this is a scenery-and-snorkel plan."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k14",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k15",
-     "_type": "span",
-     "marks": [],
-     "text": "Trip at a glance"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k18",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k16",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Duration:"
+      "_key": "k3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2?pid=P00303362&mcid=42383&medium=link&campaign=WestNusaPenidaLandTour",
+      "anchorText": "guided West Penida tour with a driver",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_WEST_PENIDA_LAND",
+      "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2"
     },
     {
-     "_key": "k17",
-     "_type": "span",
-     "marks": [],
-     "text": " 5 days, 4 nights."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k21",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k19",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Route:"
+      "_key": "k4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Nusa-Penida-Manta-Snorkeling-Tour/d60448-161518P1?pid=P00303362&mcid=42383&medium=link&campaign=NusaPenidaMantaSnorkel",
+      "anchorText": "Nusa Penida manta snorkeling tour",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_NUSA_PENIDA_MANTA",
+      "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Nusa-Penida-Manta-Snorkeling-Tour/d60448-161518P1"
     },
     {
-     "_key": "k20",
-     "_type": "span",
-     "marks": [],
-     "text": " Sanur to Nusa Penida for three nights, then Nusa Lembongan for one night before the boat back."
+      "_key": "k5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F21676-nusa-lembongan-ceningan-tour-bali%2F",
+      "anchorText": "Nusa Lembongan and Ceningan day tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_LEMBONGAN_CENINGAN",
+      "publicUrl": "https://www.klook.com/activity/21676-nusa-lembongan-ceningan-tour-bali/"
     }
-   ],
-   "markDefs": [],
-   "style": "normal"
+  ],
+  "articleCreatedDate": "2026-06-19T08:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
   },
-  {
-   "_key": "k24",
-   "_type": "block",
-   "children": [
+  "body": [
     {
-     "_key": "k22",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Pace:"
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k23",
-     "_type": "span",
-     "marks": [],
-     "text": " Balanced. Two full touring days on Penida, then a slow Lembongan finish."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k27",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k25",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Best season:"
+      "_key": "k9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples and friends who want island scenery and good snorkeling without making mainland Bali the centre of the trip. You get the big west coast viewpoints on Nusa Penida, a tide-dependent manta snorkel, then a slower finish on Nusa Lembongan where you can walk, cycle and swim without a packed schedule. The pace is balanced, with two active driving days on Penida and a genuine wind-down at the end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k26",
-     "_type": "span",
-     "marks": [],
-     "text": " The drier months, roughly April to October, tend to bring calmer crossings and clearer water, though conditions vary year to year. Manta sightings are never guaranteed in any season, so treat them as a bonus rather than a fixed plan, and confirm current conditions locally."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k30",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k28",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Getting in:"
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right trip for families with young children. The famous Penida viewpoints sit at the top of steep, unfenced cliffs, and the island roads are slow and rough in places, which makes long touring days hard with toddlers. If that is you, our "
+        },
+        {
+          "_key": "s1",
+          "_type": "span",
+          "marks": ["inb"],
+          "text": "7-day Nusa Lembongan and Nusa Ceningan itinerary for families"
+        },
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": " bases on the calmer, flatter island next door instead. It is also not ideal if you want nightlife, fast transport between sights, or guaranteed wildlife. The manta snorkel depends on weather and tides that no operator controls."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "inb",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-nusa-lembongan-ceningan-with-kids"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k29",
-     "_type": "span",
-     "marks": [],
-     "text": " Most people reach the islands by fast boat from Sanur, a crossing of around 30 to 45 minutes as a working estimate. Fares and schedules change with operator and season, so check the latest before you travel."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k31",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k32",
-     "_type": "span",
-     "marks": [],
-     "text": "Why this route makes sense"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k34",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k33",
-     "_type": "span",
-     "marks": [],
-     "text": "Nusa Penida and Nusa Lembongan are often squeezed into a single rushed day trip from Bali, which is how most people end up disappointed. The two islands reward different speeds. Penida is large, dramatic and tiring to get around, so it needs full days and a fixed base. Lembongan is smaller, flatter and easier, which makes it the right place to slow down at the end rather than the start."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k36",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k35",
-     "_type": "span",
-     "marks": [],
-     "text": "Putting Penida first means you tackle the demanding driving and the weather-dependent manta snorkel while you still have flexibility to shuffle days if conditions are poor. By the time you reach Lembongan, the hard logistics are behind you and the only real decision left is which beach to swim at. The short crossing between the two islands ties the plan together without a return trip to the mainland in the middle."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k37",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k38",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 1: Sanur to Nusa Penida and settle in"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k47",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k39",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": "If you only have two or three days, this plan will feel rushed. Nusa Penida rewards a base of several nights so you are not timing every move around a return boat to Sanur. Travellers who want serious diving rather than snorkeling should look at a dedicated dive base instead, since this is a scenery-and-snorkel plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k40",
-     "_type": "span",
-     "marks": [],
-     "text": " Sort connectivity before you leave. An "
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k42",
-     "_type": "span",
-     "marks": [
-      "k41"
-     ],
-     "text": "Indonesia eSIM with Airalo"
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": " 5 days, 4 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k43",
-     "_type": "span",
-     "marks": [],
-     "text": " lets you activate data before you board, so maps, messaging and the boat operator's confirmation all work while you are still on the mainland. Then make the crossing from Sanur. Booking "
+      "_key": "k21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Route:"
+        },
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": " Sanur to Nusa Penida for three nights, then Nusa Lembongan for one night before the boat back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k45",
-     "_type": "span",
-     "marks": [
-      "k44"
-     ],
-     "text": "fast boat tickets from Sanur to Nusa Penida"
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Pace:"
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " Balanced. Two full touring days on Penida, then a slow Lembongan finish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k46",
-     "_type": "span",
-     "marks": [],
-     "text": " in advance locks a departure time and saves haggling at the pier on a busy morning."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k41",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "AIRALO_INDONESIA"
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best season:"
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " The drier months, roughly April to October, tend to bring calmer crossings and clearer water, though conditions vary year to year. Manta sightings are never guaranteed in any season, so treat them as a bonus rather than a fixed plan, and confirm current conditions locally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k44",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "12GO_SANUR_NUSA_PENIDA"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k50",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k48",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Getting in:"
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": " Most people reach the islands by fast boat from Sanur, a crossing of around 30 to 45 minutes as a working estimate. Fares and schedules change with operator and season, so check the latest before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k49",
-     "_type": "span",
-     "marks": [],
-     "text": " Foreign visitors are asked to pay the Bali tourist levy, a one-time charge of around 150,000 rupiah per person as a working estimate, which also covers the Nusa islands. It is easiest to pay through the official Love Bali app before you travel. Fees can change, so check the latest official guidance."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k53",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k51",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k52",
-     "_type": "span",
-     "marks": [],
-     "text": " Arrive, drop your bags and keep the first day light. Crossings can be bumpy and the harbour is busy, so do not schedule a major sight for the same afternoon you land. Settle into your base near Toyapakeh or the north coast, arrange your scooter or driver for the next two days, and walk to a nearby beach or viewpoint within easy reach."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k56",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k54",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Base:"
+      "_key": "k34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": "Nusa Penida and Nusa Lembongan are often squeezed into a single rushed day trip from Bali, which is how most people end up disappointed. The two islands reward different speeds. Penida is large, dramatic and tiring to get around, so it needs full days and a fixed base. Lembongan is smaller, flatter and easier, which makes it the right place to slow down at the end rather than the start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k55",
-     "_type": "span",
-     "marks": [],
-     "text": " Pick one stay on Nusa Penida for all three nights. The north coast near Toyapakeh and Ped puts you closest to the harbour and to most tours, which shortens every transfer over the next two days."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k57",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k58",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 2: West Penida viewpoints"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k64",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k59",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": "Putting Penida first means you tackle the demanding driving and the weather-dependent manta snorkel while you still have flexibility to shuffle days if conditions are poor. By the time you reach Lembongan, the hard logistics are behind you and the only real decision left is which beach to swim at. The short crossing between the two islands ties the plan together without a return trip to the mainland in the middle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k60",
-     "_type": "span",
-     "marks": [],
-     "text": " Start early for the west coast loop. The headline stops are the Kelingking cliff viewpoint, Broken Beach, Angel's Billabong and Crystal Bay. They are close together on the map and much further apart in practice, because the roads are narrow, steep and slow. A "
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Sanur to Nusa Penida and settle in"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k62",
-     "_type": "span",
-     "marks": [
-      "k61"
-     ],
-     "text": "guided West Penida tour with a driver"
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort connectivity before you leave. An "
+        },
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": ["k41"],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you activate data before you board, so maps, messaging and the boat operator's confirmation all work while you are still on the mainland. Then make the crossing from Sanur. Booking "
+        },
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": ["k44"],
+          "text": "fast boat tickets from Sanur to Nusa Penida"
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance locks a departure time and saves haggling at the pier on a busy morning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k41",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        },
+        {
+          "_key": "k44",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_SANUR_NUSA_PENIDA"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k63",
-     "_type": "span",
-     "marks": [],
-     "text": " takes the navigation and the rough driving off your plate, which matters more here than on most Bali day trips."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k61",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "VIATOR_WEST_PENIDA_LAND"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k67",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k65",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " Foreign visitors are asked to pay the Bali tourist levy, a one-time charge of around 150,000 rupiah per person as a working estimate, which also covers the Nusa islands. It is easiest to pay through the official Love Bali app before you travel. Fees can change, so check the latest official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k66",
-     "_type": "span",
-     "marks": [],
-     "text": " If you are a confident scooter rider you can do this loop independently, but the gradients and road surface are unforgiving and accidents are common. Hiring a driver or joining a small-group tour is the safer call for most couples and first-time visitors, and it lets you actually look at the scenery instead of the potholes."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k70",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k68",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive, drop your bags and keep the first day light. Crossings can be bumpy and the harbour is busy, so do not schedule a major sight for the same afternoon you land. Settle into your base near Toyapakeh or the north coast, arrange your scooter or driver for the next two days, and walk to a nearby beach or viewpoint within easy reach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k69",
-     "_type": "span",
-     "marks": [],
-     "text": " Finish at Crystal Bay for a swim and a rest before the drive back. Currents here can be strong, so stay close to shore and ask locally before going in. Build in more travel time than the distances suggest, because the return drive in the late afternoon is slow."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k73",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k71",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [],
+          "text": " Pick one stay on Nusa Penida for all three nights. The north coast near Toyapakeh and Ped puts you closest to the harbour and to most tours, which shortens every transfer over the next two days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k72",
-     "_type": "span",
-     "marks": [],
-     "text": " The Kelingking descent to the beach is a long, exposed scramble on a rough path, not a quick walk. The viewpoint is the realistic goal for most people, and there is no shame in turning back at the top."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k74",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k75",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 3: Manta snorkeling and the east coast"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k81",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k76",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: West Penida viewpoints"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k77",
-     "_type": "span",
-     "marks": [],
-     "text": " This is the day to get in the water. A "
+      "_key": "k64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [],
+          "text": " Start early for the west coast loop. The headline stops are the Kelingking cliff viewpoint, Broken Beach, Angel's Billabong and Crystal Bay. They are close together on the map and much further apart in practice, because the roads are narrow, steep and slow. A "
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": ["k61"],
+          "text": "guided West Penida tour with a driver"
+        },
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [],
+          "text": " takes the navigation and the rough driving off your plate, which matters more here than on most Bali day trips."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k61",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_WEST_PENIDA_LAND"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k79",
-     "_type": "span",
-     "marks": [
-      "k78"
-     ],
-     "text": "Nusa Penida manta snorkeling tour"
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are a confident scooter rider you can do this loop independently, but the gradients and road surface are unforgiving and accidents are common. Hiring a driver or joining a small-group tour is the safer call for most couples and first-time visitors, and it lets you actually look at the scenery instead of the potholes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k80",
-     "_type": "span",
-     "marks": [],
-     "text": " runs by boat to Manta Point and usually adds reef stops such as Gamat Bay or Crystal Bay. Manta rays are wild animals, so sightings are never guaranteed, and operators may switch the order of stops or skip Manta Point entirely if the swell is up. Treat the mantas as the hoped-for highlight, not the whole point of the morning."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k78",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "VIATOR_NUSA_PENIDA_MANTA"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k84",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k82",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": " Finish at Crystal Bay for a swim and a rest before the drive back. Currents here can be strong, so stay close to shore and ask locally before going in. Build in more travel time than the distances suggest, because the return drive in the late afternoon is slow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k83",
-     "_type": "span",
-     "marks": [],
-     "text": " Book a morning departure when seas are usually calmer, and keep this day movable in your plan. If the forecast is rough, swap Day 2 and Day 3 so you snorkel on the better weather window. This is the single most useful piece of flexibility on the trip."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k87",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k85",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [],
+          "text": " The Kelingking descent to the beach is a long, exposed scramble on a rough path, not a quick walk. The viewpoint is the realistic goal for most people, and there is no shame in turning back at the top."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k86",
-     "_type": "span",
-     "marks": [],
-     "text": " If you still have energy, the east coast around Diamond Beach and Atuh is the other side of the island worth seeing, with steep stairways down to the sand. It is a long drive from the north coast, so only add it if the morning tour finished on time. Otherwise, rest. You have an island move tomorrow."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k88",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k89",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 4: Cross to Nusa Lembongan and explore Ceningan"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k92",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k90",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Manta snorkeling and the east coast"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k91",
-     "_type": "span",
-     "marks": [],
-     "text": " Take a short local boat across to Nusa Lembongan, a crossing of roughly 15 to 30 minutes as a working estimate. Boats are small and run to a loose schedule, so confirm the day's departures the evening before and do not plan a tight connection. Once you arrive, the scale of the place is a relief after Penida."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k98",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k93",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the day to get in the water. A "
+        },
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": ["k78"],
+          "text": "Nusa Penida manta snorkeling tour"
+        },
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [],
+          "text": " runs by boat to Manta Point and usually adds reef stops such as Gamat Bay or Crystal Bay. Manta rays are wild animals, so sightings are never guaranteed, and operators may switch the order of stops or skip Manta Point entirely if the swell is up. Treat the mantas as the hoped-for highlight, not the whole point of the morning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k78",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_NUSA_PENIDA_MANTA"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k94",
-     "_type": "span",
-     "marks": [],
-     "text": " Lembongan connects to tiny Nusa Ceningan by the yellow suspension bridge, and the two islands are easy to combine. A "
+      "_key": "k84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k82",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [],
+          "text": " Book a morning departure when seas are usually calmer, and keep this day movable in your plan. If the forecast is rough, swap Day 2 and Day 3 so you snorkel on the better weather window. This is the single most useful piece of flexibility on the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k96",
-     "_type": "span",
-     "marks": [
-      "k95"
-     ],
-     "text": "Nusa Lembongan and Ceningan day tour"
+      "_key": "k87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [],
+          "text": " If you still have energy, the east coast around Diamond Beach and Atuh is the other side of the island worth seeing, with steep stairways down to the sand. It is a long drive from the north coast, so only add it if the morning tour finished on time. Otherwise, rest. You have an island move tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k97",
-     "_type": "span",
-     "marks": [],
-     "text": " links the bridge, the Devil's Tear blowholes and the main viewpoints without the constant stopping and starting of doing it solo. If you would rather go at your own pace, a scooter handles Lembongan easily, since the roads here are far gentler than on Penida."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k95",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "KLOOK_LEMBONGAN_CENINGAN"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k101",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k99",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Base:"
+      "_key": "k88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Cross to Nusa Lembongan and explore Ceningan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k100",
-     "_type": "span",
-     "marks": [],
-     "text": " Shift your stay to Nusa Lembongan for the last night. Mushroom Bay and Jungutbatu are the two main bases, close to the beaches and the boats back to Sanur."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k104",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k102",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a short local boat across to Nusa Lembongan, a crossing of roughly 15 to 30 minutes as a working estimate. Boats are small and run to a loose schedule, so confirm the day's departures the evening before and do not plan a tight connection. Once you arrive, the scale of the place is a relief after Penida."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k103",
-     "_type": "span",
-     "marks": [],
-     "text": " The yellow bridge has a strict limit on how many people and scooters cross at once, so expect a short wait at busy times. Cross on foot if you are unsure."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k105",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k106",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 5: Slow Lembongan morning and the boat back"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k109",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k107",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [],
+          "text": " Lembongan connects to tiny Nusa Ceningan by the yellow suspension bridge, and the two islands are easy to combine. A "
+        },
+        {
+          "_key": "k96",
+          "_type": "span",
+          "marks": ["k95"],
+          "text": "Nusa Lembongan and Ceningan day tour"
+        },
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [],
+          "text": " links the bridge, the Devil's Tear blowholes and the main viewpoints without the constant stopping and starting of doing it solo. If you would rather go at your own pace, a scooter handles Lembongan easily, since the roads here are far gentler than on Penida."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k95",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LEMBONGAN_CENINGAN"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k108",
-     "_type": "span",
-     "marks": [],
-     "text": " Keep the last morning gentle. Swim or snorkel off Mushroom Bay, walk the coast path to Dream Beach and the Devil's Tear, or simply have a long breakfast. This is the part of the trip the rushed day-trippers never get, and it is the reason the route ends here rather than on Penida."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k112",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k110",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k99",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "k100",
+          "_type": "span",
+          "marks": [],
+          "text": " Shift your stay to Nusa Lembongan for the last night. Mushroom Bay and Jungutbatu are the two main bases, close to the beaches and the boats back to Sanur."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k111",
-     "_type": "span",
-     "marks": [],
-     "text": " Take an early-afternoon fast boat from Lembongan back to Sanur. Give yourself a buffer before any onward flight or transfer, because afternoon seas can be choppier and departures occasionally shift. Confirm your return crossing the day before, and do not book the last boat of the day if you have a flight to catch."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k115",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k113",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k102",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k103",
+          "_type": "span",
+          "marks": [],
+          "text": " The yellow bridge has a strict limit on how many people and scooters cross at once, so expect a short wait at busy times. Cross on foot if you are unsure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k114",
-     "_type": "span",
-     "marks": [],
-     "text": " If you are connecting to a flight out of Bali the same day, build in at least half a day of slack between the boat and the airport. The crossing plus the drive from Sanur to the airport can stack up, especially in traffic."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k116",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k117",
-     "_type": "span",
-     "marks": [],
-     "text": "What to book early, and what to keep flexible"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k120",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k118",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Book early:"
+      "_key": "k105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k106",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Slow Lembongan morning and the boat back"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k119",
-     "_type": "span",
-     "marks": [],
-     "text": " the Sanur fast boat for Day 1 and your return crossing, your Nusa Penida base for all three nights, and your Lembongan stay for the last night. In peak season these sell out, and a fixed boat time removes a lot of morning stress."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k123",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k121",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Keep flexible:"
+      "_key": "k109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k107",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k108",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the last morning gentle. Swim or snorkel off Mushroom Bay, walk the coast path to Dream Beach and the Devil's Tear, or simply have a long breakfast. This is the part of the trip the rushed day-trippers never get, and it is the reason the route ends here rather than on Penida."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k122",
-     "_type": "span",
-     "marks": [],
-     "text": " the manta snorkel and the west coast tour. These two days should move around the weather, not the other way around. Book the tours close to the date once you can see a forecast, or choose operators that allow a free change."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k126",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k124",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Decide on arrival:"
+      "_key": "k112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k110",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k111",
+          "_type": "span",
+          "marks": [],
+          "text": " Take an early-afternoon fast boat from Lembongan back to Sanur. Give yourself a buffer before any onward flight or transfer, because afternoon seas can be choppier and departures occasionally shift. Confirm your return crossing the day before, and do not book the last boat of the day if you have a flight to catch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k125",
-     "_type": "span",
-     "marks": [],
-     "text": " whether to add the east coast on Day 3 and whether to rent a scooter or hire a driver. Both depend on how you feel after the first touring day and on the road conditions you see for yourself."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k127",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k128",
-     "_type": "span",
-     "marks": [],
-     "text": "Mistakes travellers make on Nusa Penida"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k131",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k129",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Treating it as a day trip."
+      "_key": "k115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k113",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k114",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are connecting to a flight out of Bali the same day, build in at least half a day of slack between the boat and the airport. The crossing plus the drive from Sanur to the airport can stack up, especially in traffic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k130",
-     "_type": "span",
-     "marks": [],
-     "text": " The single most common mistake is trying to see Penida and Lembongan in one day from Bali. You spend the day in boats and cars and see almost nothing properly. Several nights on the islands is the fix."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k134",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k132",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Underestimating the roads."
+      "_key": "k116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k133",
-     "_type": "span",
-     "marks": [],
-     "text": " The map makes the west coast sights look like a quick loop. The driving is slow and tiring, and inexperienced scooter riders crash here regularly. Plan fewer stops than you think, and consider a driver."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k137",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k135",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Banking on the mantas."
+      "_key": "k120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k119",
+          "_type": "span",
+          "marks": [],
+          "text": " the Sanur fast boat for Day 1 and your return crossing, your Nusa Penida base for all three nights, and your Lembongan stay for the last night. In peak season these sell out, and a fixed boat time removes a lot of morning stress."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k136",
-     "_type": "span",
-     "marks": [],
-     "text": " Booking a non-refundable trip for the one morning you are free, then losing it to swell, is a familiar disappointment. Keep the snorkel day movable and your expectations honest."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k140",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k138",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Cutting it fine with the return boat."
+      "_key": "k123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k121",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k122",
+          "_type": "span",
+          "marks": [],
+          "text": " the manta snorkel and the west coast tour. These two days should move around the weather, not the other way around. Book the tours close to the date once you can see a forecast, or choose operators that allow a free change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k139",
-     "_type": "span",
-     "marks": [],
-     "text": " Afternoon crossings can be delayed, and the Sanur to airport drive is unpredictable. Travellers miss flights this way every season. Leave a real buffer."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k141",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k142",
-     "_type": "span",
-     "marks": [],
-     "text": "What to cut, adapt or upgrade"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k145",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k143",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Cut, if you are short on time:"
+      "_key": "k126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k124",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Decide on arrival:"
+        },
+        {
+          "_key": "k125",
+          "_type": "span",
+          "marks": [],
+          "text": " whether to add the east coast on Day 3 and whether to rent a scooter or hire a driver. Both depend on how you feel after the first touring day and on the road conditions you see for yourself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k144",
-     "_type": "span",
-     "marks": [],
-     "text": " drop Lembongan and run this as a focused three-night Nusa Penida trip, returning to Sanur on the last morning. You lose the slow finish but keep the scenery and the snorkel."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k148",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k146",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Adapt, for a calmer trip:"
+      "_key": "k127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on Nusa Penida"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k147",
-     "_type": "span",
-     "marks": [],
-     "text": " rebalance the nights to two on Penida and two on Lembongan. You give up one Penida touring day, which suits couples who want more beach time and less driving, and shifts the whole trip toward a relaxed pace."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k151",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k149",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Upgrade, if you have a sixth day:"
+      "_key": "k131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k129",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Treating it as a day trip."
+        },
+        {
+          "_key": "k130",
+          "_type": "span",
+          "marks": [],
+          "text": " The single most common mistake is trying to see Penida and Lembongan in one day from Bali. You spend the day in boats and cars and see almost nothing properly. Several nights on the islands is the fix."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k150",
-     "_type": "span",
-     "marks": [],
-     "text": " add a night and slot in the east coast properly, so Diamond Beach and Atuh get their own half-day instead of being squeezed onto the snorkel day. This is the single best use of one extra night here."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k152",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k153",
-     "_type": "span",
-     "marks": [],
-     "text": "Before you build this trip"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k155",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k154",
-     "_type": "span",
-     "marks": [],
-     "text": "Check current fast boat schedules and fares before you lock in accommodation, since operators change times seasonally and the first and last departures shift. Confirm whether your Penida stay can arrange a scooter or driver, because sorting transport on arrival is far easier than negotiating it cold. Pay the Bali tourist levy through the official Love Bali app before you fly to skip the airport queue, and keep the confirmation on your phone."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k157",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k156",
-     "_type": "span",
-     "marks": [],
-     "text": "Pack for rough ground and strong sun. The viewpoints involve walking on uneven paths and stairs, and shade is limited. Bring reef-safe sunscreen, water shoes for rocky entries, and your own snorkel mask if you are particular about fit, since rental gear quality varies. Carry some cash, as card payment is patchy outside the larger places."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k158",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k159",
-     "_type": "span",
-     "marks": [],
-     "text": "Final verdict"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k161",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k160",
-     "_type": "span",
-     "marks": [],
-     "text": "Nusa Penida is worth far more than the day trip most people give it, but only if you respect how big and rough it is. Three nights lets you tour the west coast, chase the mantas on the best weather window, and still have something left for the boat ride. Finishing on Nusa Lembongan is the part that turns a tiring sightseeing sprint into a trip you actually enjoy. Keep the snorkel day flexible, do not gamble on the last boat before a flight, and this five-day plan holds together well. Try to do it in two days and it will not."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k162",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k163",
-     "_type": "span",
-     "marks": [],
-     "text": "Related itineraries"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k174",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k164",
-     "_type": "span",
-     "marks": [],
-     "text": "If you want to fold these islands into a longer trip, see our "
+      "_key": "k134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k132",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Underestimating the roads."
+        },
+        {
+          "_key": "k133",
+          "_type": "span",
+          "marks": [],
+          "text": " The map makes the west coast sights look like a quick loop. The driving is slow and tiring, and inexperienced scooter riders crash here regularly. Plan fewer stops than you think, and consider a driver."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k166",
-     "_type": "span",
-     "marks": [
-      "k165"
-     ],
-     "text": "10 days in Bali and the Gili Islands"
+      "_key": "k137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k135",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Banking on the mantas."
+        },
+        {
+          "_key": "k136",
+          "_type": "span",
+          "marks": [],
+          "text": " Booking a non-refundable trip for the one morning you are free, then losing it to swell, is a familiar disappointment. Keep the snorkel day movable and your expectations honest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k167",
-     "_type": "span",
-     "marks": [],
-     "text": " itinerary, which pairs the mainland with island time. For a different island chain at a slower pace, the "
+      "_key": "k140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k138",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cutting it fine with the return boat."
+        },
+        {
+          "_key": "k139",
+          "_type": "span",
+          "marks": [],
+          "text": " Afternoon crossings can be delayed, and the Sanur to airport drive is unpredictable. Travellers miss flights this way every season. Leave a real buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k169",
-     "_type": "span",
-     "marks": [
-      "k168"
-     ],
-     "text": "7-day Lombok and Gili Islands route"
+      "_key": "k141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k170",
-     "_type": "span",
-     "marks": [],
-     "text": " covers quieter beaches further east. You can also browse more options on our "
+      "_key": "k145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k143",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut, if you are short on time:"
+        },
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [],
+          "text": " drop Lembongan and run this as a focused three-night Nusa Penida trip, returning to Sanur on the last morning. You lose the slow finish but keep the scenery and the snorkel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k172",
-     "_type": "span",
-     "marks": [
-      "k171"
-     ],
-     "text": "Bali and nearby islands"
+      "_key": "k148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k146",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt, for a calmer trip:"
+        },
+        {
+          "_key": "k147",
+          "_type": "span",
+          "marks": [],
+          "text": " rebalance the nights to two on Penida and two on Lembongan. You give up one Penida touring day, which suits couples who want more beach time and less driving, and shifts the whole trip toward a relaxed pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k173",
-     "_type": "span",
-     "marks": [],
-     "text": " destination guide."
+      "_key": "k151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k149",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Upgrade, if you have a sixth day:"
+        },
+        {
+          "_key": "k150",
+          "_type": "span",
+          "marks": [],
+          "text": " add a night and slot in the east coast properly, so Diamond Beach and Atuh get their own half-day instead of being squeezed onto the snorkel day. This is the single best use of one extra night here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k153",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k154",
+          "_type": "span",
+          "marks": [],
+          "text": "Check current fast boat schedules and fares before you lock in accommodation, since operators change times seasonally and the first and last departures shift. Confirm whether your Penida stay can arrange a scooter or driver, because sorting transport on arrival is far easier than negotiating it cold. Pay the Bali tourist levy through the official Love Bali app before you fly to skip the airport queue, and keep the confirmation on your phone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k156",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for rough ground and strong sun. The viewpoints involve walking on uneven paths and stairs, and shade is limited. Bring reef-safe sunscreen, water shoes for rocky entries, and your own snorkel mask if you are particular about fit, since rental gear quality varies. Carry some cash, as card payment is patchy outside the larger places."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k158",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k159",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k160",
+          "_type": "span",
+          "marks": [],
+          "text": "Nusa Penida is worth far more than the day trip most people give it, but only if you respect how big and rough it is. Three nights lets you tour the west coast, chase the mantas on the best weather window, and still have something left for the boat ride. Finishing on Nusa Lembongan is the part that turns a tiring sightseeing sprint into a trip you actually enjoy. Keep the snorkel day flexible, do not gamble on the last boat before a flight, and this five-day plan holds together well. Try to do it in two days and it will not."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k164",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want to fold these islands into a longer trip, see our "
+        },
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": ["k165"],
+          "text": "10 days in Bali and the Gili Islands"
+        },
+        {
+          "_key": "k167",
+          "_type": "span",
+          "marks": [],
+          "text": " itinerary, which pairs the mainland with island time. For a different island chain at a slower pace, the "
+        },
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": ["k168"],
+          "text": "7-day Lombok and Gili Islands route"
+        },
+        {
+          "_key": "k170",
+          "_type": "span",
+          "marks": [],
+          "text": " covers quieter beaches further east. You can also browse more options on our "
+        },
+        {
+          "_key": "k172",
+          "_type": "span",
+          "marks": ["k171"],
+          "text": "Bali and nearby islands"
+        },
+        {
+          "_key": "k173",
+          "_type": "span",
+          "marks": [],
+          "text": " destination guide."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k165",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-gili-islands"
+        },
+        {
+          "_key": "k168",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        },
+        {
+          "_key": "k171",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
+      "style": "normal"
     }
-   ],
-   "markDefs": [
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali_nearby_islands",
+  "faq": [
     {
-     "_key": "k165",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/10-days-bali-gili-islands"
+      "_key": "k175",
+      "answer": "Plan for at least two full days on Nusa Penida itself, which means three nights so you are not timing everything around the boat. The island is large and the roads are slow, so one day only lets you see a fraction of it. This itinerary gives Penida three nights, then adds a short stay on Nusa Lembongan.",
+      "question": "How many days do you need for Nusa Penida?"
     },
     {
-     "_key": "k168",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-lombok-gili-islands"
+      "_key": "k176",
+      "answer": "The manta snorkel at Manta Point is the marquee in-water experience on Penida, but manta rays are wild animals and sightings are never guaranteed. Operators may reorder or skip stops if the swell is up. Book a morning departure for calmer seas, keep the day flexible so you can move it to better weather, and treat the mantas as a hoped-for highlight rather than a sure thing.",
+      "question": "Is the Nusa Penida manta snorkeling worth it, and is it guaranteed?"
     },
     {
-     "_key": "k171",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/destinations/bali-nearby-islands"
+      "_key": "k177",
+      "answer": "Nusa Penida's roads are steep, narrow and rough, and accidents involving inexperienced scooter riders are common. Confident, experienced riders can manage, but most couples and first-time visitors are safer and more relaxed hiring a driver or joining a small-group tour, which also lets you take in the scenery instead of concentrating on the road.",
+      "question": "Should you rent a scooter or hire a driver on Nusa Penida?"
+    },
+    {
+      "_key": "k178",
+      "answer": "A short local boat connects the two islands in roughly 15 to 30 minutes as a working estimate. Boats are small and run to a loose schedule, so confirm the day's departures the evening before and avoid planning a tight connection. Fares and times change, so check locally.",
+      "question": "How do you get from Nusa Penida to Nusa Lembongan?"
+    },
+    {
+      "_key": "k179",
+      "answer": "Yes. The Bali tourist levy applies to foreign visitors and covers the Nusa islands as well as the mainland. It is a one-time charge of around 150,000 rupiah per person as a working estimate, paid most easily through the official Love Bali app before you travel. Fees can change, so check the latest official guidance.",
+      "question": "Do you have to pay the Bali tourist levy for Nusa Penida?"
+    },
+    {
+      "_key": "k180",
+      "answer": "It is a hard fit for families with young kids. The famous viewpoints sit on steep, unfenced cliffs, the descents to beaches like Kelingking are long and exposed, and the touring days involve slow, bumpy driving. Families looking for an easier island trip are usually better served by calmer beach-based destinations.",
+      "question": "Is Nusa Penida good for families with young children?"
+    },
+    {
+      "_key": "k181",
+      "answer": "The drier months, roughly April to October, tend to bring calmer crossings and clearer water, which helps both the boat days and the snorkeling. Conditions vary year to year and manta sightings are seasonal and weather-dependent, so confirm current conditions before you lock in tour days.",
+      "question": "When is the best time to visit Nusa Penida and Lembongan?"
     }
-   ],
-   "style": "normal"
-  }
- ],
- "contentStatus": "live",
- "destinationPrimary": "bali_nearby_islands",
- "faq": [
-  {
-   "_key": "k175",
-   "answer": "Plan for at least two full days on Nusa Penida itself, which means three nights so you are not timing everything around the boat. The island is large and the roads are slow, so one day only lets you see a fraction of it. This itinerary gives Penida three nights, then adds a short stay on Nusa Lembongan.",
-   "question": "How many days do you need for Nusa Penida?"
+  ],
+  "focusKeyword": "5 days Nusa Penida Lembongan itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Blue Lagoon snorkeling bay on the Nusa islands near Bali",
+    "asset": {
+      "_ref": "image-07cccc6c759ca71824af3e24d11dcf19c3537949-4128x2322-jpg",
+      "_type": "reference"
+    },
+    "caption": "Sanur → Nusa Penida → Nusa Lembongan"
   },
-  {
-   "_key": "k176",
-   "answer": "The manta snorkel at Manta Point is the marquee in-water experience on Penida, but manta rays are wild animals and sightings are never guaranteed. Operators may reorder or skip stops if the swell is up. Book a morning departure for calmer seas, keep the day flexible so you can move it to better weather, and treat the mantas as a hoped-for highlight rather than a sure thing.",
-   "question": "Is the Nusa Penida manta snorkeling worth it, and is it guaranteed?"
+  "intro": "Nusa Penida shows up in most plans as a half-day boat trip from Bali. Spend real time there and you see why that is a mistake. The island is bigger and rougher than the photos suggest, the roads between the famous viewpoints are slow and broken in places, and the best snorkeling depends on tides and weather you cannot control from the mainland. This five-day plan gives Nusa Penida three nights, so you are not racing a return boat, then drops the pace with a short stay on Nusa Lembongan. It is built around the two things that go wrong most often here: underestimating transfer times on Penida, and treating the manta snorkel as guaranteed when it is not.",
+  "metaDescription": "A practical 5-day Nusa Penida and Nusa Lembongan itinerary: west coast viewpoints, manta snorkeling and a slow Lembongan finish, with honest boat advice.",
+  "metaTitle": "Nusa Penida & Lembongan in 5 Days: Itinerary",
+  "route": "Sanur → Nusa Penida → Nusa Lembongan",
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-nusa-penida-lembongan"
   },
-  {
-   "_key": "k177",
-   "answer": "Nusa Penida's roads are steep, narrow and rough, and accidents involving inexperienced scooter riders are common. Confident, experienced riders can manage, but most couples and first-time visitors are safer and more relaxed hiring a driver or joining a small-group tour, which also lets you take in the scenery instead of concentrating on the road.",
-   "question": "Should you rent a scooter or hire a driver on Nusa Penida?"
-  },
-  {
-   "_key": "k178",
-   "answer": "A short local boat connects the two islands in roughly 15 to 30 minutes as a working estimate. Boats are small and run to a loose schedule, so confirm the day's departures the evening before and avoid planning a tight connection. Fares and times change, so check locally.",
-   "question": "How do you get from Nusa Penida to Nusa Lembongan?"
-  },
-  {
-   "_key": "k179",
-   "answer": "Yes. The Bali tourist levy applies to foreign visitors and covers the Nusa islands as well as the mainland. It is a one-time charge of around 150,000 rupiah per person as a working estimate, paid most easily through the official Love Bali app before you travel. Fees can change, so check the latest official guidance.",
-   "question": "Do you have to pay the Bali tourist levy for Nusa Penida?"
-  },
-  {
-   "_key": "k180",
-   "answer": "It is a hard fit for families with young kids. The famous viewpoints sit on steep, unfenced cliffs, the descents to beaches like Kelingking are long and exposed, and the touring days involve slow, bumpy driving. Families looking for an easier island trip are usually better served by calmer beach-based destinations.",
-   "question": "Is Nusa Penida good for families with young children?"
-  },
-  {
-   "_key": "k181",
-   "answer": "The drier months, roughly April to October, tend to bring calmer crossings and clearer water, which helps both the boat days and the snorkeling. Conditions vary year to year and manta sightings are seasonal and weather-dependent, so confirm current conditions before you lock in tour days.",
-   "question": "When is the best time to visit Nusa Penida and Lembongan?"
-  }
- ],
- "focusKeyword": "5 days Nusa Penida Lembongan itinerary",
- "heroImage": {
-  "_type": "image",
-  "alt": "Blue Lagoon snorkeling bay on the Nusa islands near Bali",
-  "asset": {
-   "_ref": "image-07cccc6c759ca71824af3e24d11dcf19c3537949-4128x2322-jpg",
-   "_type": "reference"
-  },
-  "caption": "Sanur → Nusa Penida → Nusa Lembongan"
- },
- "intro": "Nusa Penida shows up in most plans as a half-day boat trip from Bali. Spend real time there and you see why that is a mistake. The island is bigger and rougher than the photos suggest, the roads between the famous viewpoints are slow and broken in places, and the best snorkeling depends on tides and weather you cannot control from the mainland. This five-day plan gives Nusa Penida three nights, so you are not racing a return boat, then drops the pace with a short stay on Nusa Lembongan. It is built around the two things that go wrong most often here: underestimating transfer times on Penida, and treating the manta snorkel as guaranteed when it is not.",
- "metaDescription": "A practical 5-day Nusa Penida and Nusa Lembongan itinerary: west coast viewpoints, manta snorkeling and a slow Lembongan finish, with honest boat advice.",
- "metaTitle": "Nusa Penida & Lembongan in 5 Days: Itinerary",
- "route": "Sanur → Nusa Penida → Nusa Lembongan",
- "slug": {
-  "_type": "slug",
-  "current": "5-days-nusa-penida-lembongan"
- },
- "title": "5 Days in Nusa Penida and Nusa Lembongan",
- "travelStylePrimary": "diving_snorkeling",
- "travellerTypes": [
-  "couples",
-  "friends"
- ],
- "tripLengthBucket": "short_escape",
- "tripLengthDays": 5,
- "vibe": "balanced"
+  "title": "5 Days in Nusa Penida and Nusa Lembongan",
+  "travelStylePrimary": "diving_snorkeling",
+  "travellerTypes": ["couples", "friends"],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "balanced"
 }

@@ -11,16 +11,9 @@
   "travelStylePrimary": "adventure_volcanoes",
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 2,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "active",
-  "experienceTags": [
-    "volcano_sunrise",
-    "overland_route"
-  ],
+  "experienceTags": ["volcano_sunrise", "overland_route"],
   "bestSeason": "April–October",
   "route": "Bali/Surabaya → Banyuwangi → Kawah Ijen → Banyuwangi",
   "focusKeyword": "Kawah Ijen itinerary",
@@ -167,9 +160,7 @@
         {
           "_key": "k0015",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -181,9 +172,7 @@
         {
           "_key": "k0018",
           "_type": "span",
-          "marks": [
-            "k0017"
-          ],
+          "marks": ["k0017"],
           "text": "an Indonesia eSIM with Airalo"
         },
         {
@@ -248,9 +237,7 @@
         {
           "_key": "k0027",
           "_type": "span",
-          "marks": [
-            "k0026"
-          ],
+          "marks": ["k0026"],
           "text": "compare boats, trains and buses to Banyuwangi on 12Go"
         },
         {
@@ -262,9 +249,7 @@
         {
           "_key": "k0030",
           "_type": "span",
-          "marks": [
-            "k0029"
-          ],
+          "marks": ["k0029"],
           "text": "a round-trip Ijen midnight tour from Bali with hotel drop-off"
         },
         {
@@ -352,9 +337,7 @@
         {
           "_key": "k0043",
           "_type": "span",
-          "marks": [
-            "k0042"
-          ],
+          "marks": ["k0042"],
           "text": "a guided Kawah Ijen blue fire night hike from Banyuwangi"
         },
         {
@@ -574,9 +557,7 @@
         {
           "_key": "k0072",
           "_type": "span",
-          "marks": [
-            "k0071"
-          ],
+          "marks": ["k0071"],
           "text": "5 Days in Bali: Ubud, Canggu and Uluwatu"
         },
         {
@@ -588,9 +569,7 @@
         {
           "_key": "k0075",
           "_type": "span",
-          "marks": [
-            "k0074"
-          ],
+          "marks": ["k0074"],
           "text": "7 Days in Bali for First-Timers"
         },
         {
@@ -602,9 +581,7 @@
         {
           "_key": "k0078",
           "_type": "span",
-          "marks": [
-            "k0077"
-          ],
+          "marks": ["k0077"],
           "text": "5 Days in Yogyakarta and Mount Bromo"
         },
         {
@@ -616,9 +593,7 @@
         {
           "_key": "k0081",
           "_type": "span",
-          "marks": [
-            "k0080"
-          ],
+          "marks": ["k0080"],
           "text": "7 Days in Yogyakarta and East Java"
         },
         {
@@ -630,9 +605,7 @@
         {
           "_key": "k0084",
           "_type": "span",
-          "marks": [
-            "k0083"
-          ],
+          "marks": ["k0083"],
           "text": "15 Days in Java and Bali"
         },
         {

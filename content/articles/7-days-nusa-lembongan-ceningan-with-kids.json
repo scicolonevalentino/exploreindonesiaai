@@ -1,1439 +1,1371 @@
 {
- "_id": "itinerary-7-days-nusa-lembongan-ceningan-with-kids",
- "_type": "article",
- "affiliateLinks": [
-  {
-   "_key": "k190",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-   "anchorText": "Indonesia eSIM with Airalo",
-   "experienceCategory": "esim_connectivity",
-   "linkStatus": "live",
-   "notes": "travelpayouts",
-   "partner": "airalo",
-   "placeholderId": "AIRALO_INDONESIA",
-   "publicUrl": "https://www.airalo.com/indonesia-esim"
-  },
-  {
-   "_key": "k191",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://12go.asia/?z=16022946",
-   "anchorText": "fast boat tickets from Sanur to Nusa Lembongan",
-   "experienceCategory": "transfer",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "12go",
-   "placeholderId": "12GO_SANUR_NUSA_LEMBONGAN",
-   "publicUrl": null
-  },
-  {
-   "_key": "k192",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F21676-nusa-lembongan-ceningan-tour-bali%2F",
-   "anchorText": "Nusa Lembongan and Ceningan day tour",
-   "experienceCategory": "tour",
-   "linkStatus": "live",
-   "notes": "travelpayouts",
-   "partner": "klook",
-   "placeholderId": "KLOOK_LEMBONGAN_CENINGAN",
-   "publicUrl": "https://www.klook.com/activity/21676-nusa-lembongan-ceningan-tour-bali/"
-  },
-  {
-   "_key": "k193",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2?pid=P00303362&mcid=42383&medium=link&campaign=NusaLembonganFamilyPenidaOption",
-   "anchorText": "guided West Penida tour with a driver",
-   "experienceCategory": "tour",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "viator",
-   "placeholderId": "VIATOR_WEST_PENIDA_LAND",
-   "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2"
-  }
- ],
- "articleCreatedDate": "2026-07-17T09:00:00.000Z",
- "author": {
-  "_ref": "author-editorial-team",
-  "_type": "reference"
- },
- "body": [
-  {
-   "_key": "k2",
-   "_type": "block",
-   "children": [
+  "_id": "itinerary-7-days-nusa-lembongan-ceningan-with-kids",
+  "_type": "article",
+  "affiliateLinks": [
     {
-     "_key": "k1",
-     "_type": "span",
-     "marks": [],
-     "text": "Who this trip is for"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k4",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k3",
-     "_type": "span",
-     "marks": [],
-     "text": "This route suits families with children roughly aged three to twelve who want island time without a daily fight over transport. Nusa Lembongan is small, mostly flat and walkable, the main bay is calm enough for young swimmers, and nothing on the plan requires a long drive. The pace is deliberately slow, with one base for five nights, one boat move at each end, and a single organised activity on most days rather than three."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k6",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k5",
-     "_type": "span",
-     "marks": [],
-     "text": "It is not the right trip for families who want the famous Nusa Penida cliff viewpoints. Those sit on the other island, at the top of steep unfenced drops, at the end of slow and rough roads, and they are a poor fit for small children. It is also not right if your children are teenagers who need constant activity, or if you want nightlife, resort kids' clubs and a big choice of restaurants. Lembongan is quiet by design, and that is the entire point of choosing it."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k8",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k7",
-     "_type": "span",
-     "marks": [],
-     "text": "If you have only three or four days, this plan will feel padded. Cut it to a short Lembongan stay instead. If you want to combine island time with mainland Bali temples, rice fields and a wider choice of family stays, our seven-day Bali route with kids is the better starting point and this trip works as an add-on to it."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k10",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k9",
-     "_type": "span",
-     "marks": [],
-     "text": "Trip at a glance"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k12",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k11",
-     "_type": "span",
-     "marks": [],
-     "text": "Duration: 7 days, 6 nights."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k14",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k13",
-     "_type": "span",
-     "marks": [],
-     "text": "Route: Sanur for one night, Nusa Lembongan for five nights, with Nusa Ceningan reached on foot or by scooter across the yellow bridge, then the boat back to Sanur."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k16",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k15",
-     "_type": "span",
-     "marks": [],
-     "text": "Pace: Relaxed. One boat crossing out, one back, and no day that needs an early start except by choice."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k18",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k17",
-     "_type": "span",
-     "marks": [],
-     "text": "Best season: The drier months, roughly April to October, tend to bring calmer crossings and better in-water visibility, though conditions vary year to year. Sea state matters more than rain on this trip, because the crossing is the part small children notice."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k20",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k19",
-     "_type": "span",
-     "marks": [],
-     "text": "Getting in: Fly into Denpasar, then take a fast boat from Sanur. The crossing runs around 30 to 40 minutes as a working estimate, with one-way fares in the region of 150,000 to 250,000 rupiah per person depending on operator and season. Fares and schedules change, so check the latest before you travel."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k22",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k21",
-     "_type": "span",
-     "marks": [],
-     "text": "Why this route makes sense"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k24",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k23",
-     "_type": "span",
-     "marks": [],
-     "text": "The Nusa islands get sold to families as one destination, and they are not. Nusa Penida is large, dramatic and tiring, built around viewpoints that reward a driver and a full day. Nusa Lembongan is a fraction of the size, has gentle roads, and puts a swimmable bay within walking distance of most stays. Booking Penida because the photograph was taken there, then discovering the logistics with a four-year-old in the back of a car, is the standard family mistake on these islands."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k26",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k25",
-     "_type": "span",
-     "marks": [],
-     "text": "So this plan inverts the usual order. Lembongan is the base, not the afterthought. Nusa Ceningan sits across a footbridge, which gives you a genuine change of scene for the cost of a fifteen-minute walk rather than another boat. Penida stays optional, parked on a free day, and only recommended if your children are old enough for a long day in a car. The single overnight in Sanur at the start exists for one reason: it separates a long flight from a boat crossing, so nobody is queuing at the harbour jet-lagged on day one."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k28",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k27",
-     "_type": "span",
-     "marks": [],
-     "text": "Five nights in one place also does something a moving itinerary cannot. You unpack once. Children settle. You learn which warung the family likes, which stretch of sand is shaded at four in the afternoon, and you stop planning. That is the deliverable here, not a photo list."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k30",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k29",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 1: Land in Bali and stop in Sanur"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k33",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k31",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k190",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
     },
     {
-     "_key": "k175",
-     "_type": "span",
-     "marks": [],
-     "text": " Sort connectivity before anything else. "
+      "_key": "k191",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "fast boat tickets from Sanur to Nusa Lembongan",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_SANUR_NUSA_LEMBONGAN",
+      "publicUrl": null
     },
     {
-     "_key": "k176",
-     "_type": "span",
-     "marks": [
-      "k174"
-     ],
-     "text": "An Indonesia eSIM with Airalo"
+      "_key": "k192",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F21676-nusa-lembongan-ceningan-tour-bali%2F",
+      "anchorText": "Nusa Lembongan and Ceningan day tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_LEMBONGAN_CENINGAN",
+      "publicUrl": "https://www.klook.com/activity/21676-nusa-lembongan-ceningan-tour-bali/"
     },
     {
-     "_key": "k177",
-     "_type": "span",
-     "marks": [],
-     "text": " can be activated the moment you land, so maps, your boat confirmation and family messaging all work before you reach the taxi rank. With children in tow, not queuing for a local SIM at the airport is worth more than the small saving."
+      "_key": "k193",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2?pid=P00303362&mcid=42383&medium=link&campaign=NusaLembonganFamilyPenidaOption",
+      "anchorText": "guided West Penida tour with a driver",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_WEST_PENIDA_LAND",
+      "publicUrl": "https://www.viator.com/tours/Nusa-Penida/Explore-West-Penida-Kelingking-Broken-Beach-Angels-Billabong-Crystal-Bay/d60448-122061P2"
     }
-   ],
-   "markDefs": [
-    {
-     "_key": "k174",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "AIRALO_INDONESIA"
-    }
-   ],
-   "style": "normal"
+  ],
+  "articleCreatedDate": "2026-07-17T09:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
   },
-  {
-   "_key": "k36",
-   "_type": "block",
-   "children": [
+  "body": [
     {
-     "_key": "k34",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k35",
-     "_type": "span",
-     "marks": [],
-     "text": " Go straight to Sanur, roughly 30 to 45 minutes from the airport depending on traffic, as a working estimate. Do not attempt the boat today. Sanur is the right holding pattern: a flat beachfront path, calm shallow water behind the reef, and the harbour you need in the morning is already there."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k39",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k37",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Base:"
+      "_key": "k4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits families with children roughly aged three to twelve who want island time without a daily fight over transport. Nusa Lembongan is small, mostly flat and walkable, the main bay is calm enough for young swimmers, and nothing on the plan requires a long drive. The pace is deliberately slow, with one base for five nights, one boat move at each end, and a single organised activity on most days rather than three."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k38",
-     "_type": "span",
-     "marks": [],
-     "text": " One night in Sanur, close to the beach path. You are not sightseeing, you are absorbing the flight and the time change. An early night here is what makes the next six days work."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k42",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k40",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right trip for families who want the famous Nusa Penida cliff viewpoints. Those sit on the other island, at the top of steep unfenced drops, at the end of slow and rough roads, and they are a poor fit for small children. It is also not right if your children are teenagers who need constant activity, or if you want nightlife, resort kids' clubs and a big choice of restaurants. Lembongan is quiet by design, and that is the entire point of choosing it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k41",
-     "_type": "span",
-     "marks": [],
-     "text": " Foreign visitors pay the Bali tourist levy, a one-time charge of around 150,000 rupiah per person as a working estimate, which also covers the Nusa islands. There is no child discount, so budget it per head including infants, which surprises most families. Pay through the official Love Bali app before you fly and keep the QR confirmation on your phone. Fees can change, so check the latest official guidance."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k44",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k43",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 2: Fast boat to Nusa Lembongan"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k47",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k45",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have only three or four days, this plan will feel padded. Cut it to a short Lembongan stay instead. If you want to combine island time with mainland Bali temples, rice fields and a wider choice of family stays, our seven-day Bali route with kids is the better starting point and this trip works as an add-on to it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k179",
-     "_type": "span",
-     "marks": [],
-     "text": " Take a morning crossing, when seas are usually calmest. Booking "
+      "_key": "k10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k180",
-     "_type": "span",
-     "marks": [
-      "k178"
-     ],
-     "text": "fast boat tickets from Sanur to Nusa Lembongan"
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [],
+          "text": "Duration: 7 days, 6 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k181",
-     "_type": "span",
-     "marks": [],
-     "text": " in advance fixes a departure time and spares you negotiating on a busy pier with luggage and children. Aim to arrive at the harbour with a real buffer, because boarding is chaotic and boats do not wait."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k178",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "12GO_SANUR_NUSA_LEMBONGAN"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k50",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k48",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "Route: Sanur for one night, Nusa Lembongan for five nights, with Nusa Ceningan reached on foot or by scooter across the yellow bridge, then the boat back to Sanur."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k49",
-     "_type": "span",
-     "marks": [],
-     "text": " Boarding at Sanur usually means a short wade to the boat through shallow water, with your bags handed up separately. Children find this either the best or the worst part of the day, and it goes better if nobody is wearing shoes they mind getting wet. Motion sickness is common on the crossing even though it is short, so treat it seriously if anyone in the family is prone to it."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k53",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k51",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "Pace: Relaxed. One boat crossing out, one back, and no day that needs an early start except by choice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k52",
-     "_type": "span",
-     "marks": [],
-     "text": " Arrive, get to your stay and go no further. Mushroom Bay and Jungutbatu are the two main bases, and both are minutes from the harbours. Swim, eat, and let the island be small. The temptation to start the sightseeing on the arrival afternoon is exactly what you came here to avoid."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k56",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k54",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Base:"
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": "Best season: The drier months, roughly April to October, tend to bring calmer crossings and better in-water visibility, though conditions vary year to year. Sea state matters more than rain on this trip, because the crossing is the part small children notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k55",
-     "_type": "span",
-     "marks": [],
-     "text": " One stay on Nusa Lembongan for all five nights. Mushroom Bay suits families best, because the bay is calm and enclosed and you can walk to the water. Jungutbatu is a longer, busier strip with more places to eat. Pick one and do not move."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k58",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k57",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 3: Mushroom Bay, then the mangroves"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k61",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k59",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [],
+          "text": "Getting in: Fly into Denpasar, then take a fast boat from Sanur. The crossing runs around 30 to 40 minutes as a working estimate, with one-way fares in the region of 150,000 to 250,000 rupiah per person depending on operator and season. Fares and schedules change, so check the latest before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k60",
-     "_type": "span",
-     "marks": [],
-     "text": " Spend it in the bay. Mushroom Bay's water is calm and shallow near the shore, which makes it one of the few places in the Nusa islands where young children can swim without an adult managing a current. This is the day the trip proves itself, and it does not need booking."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k64",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k62",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k63",
-     "_type": "span",
-     "marks": [],
-     "text": " Take a mangrove boat tour on the northeast side of the island. It runs roughly 40 to 50 minutes, moves slowly through the channels in a small outrigger, and needs nothing from a child except sitting still and looking. It is the best low-effort activity on Lembongan and works for ages that would not last an hour on a snorkel trip."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k67",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k65",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": "The Nusa islands get sold to families as one destination, and they are not. Nusa Penida is large, dramatic and tiring, built around viewpoints that reward a driver and a full day. Nusa Lembongan is a fraction of the size, has gentle roads, and puts a swimmable bay within walking distance of most stays. Booking Penida because the photograph was taken there, then discovering the logistics with a four-year-old in the back of a car, is the standard family mistake on these islands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k66",
-     "_type": "span",
-     "marks": [],
-     "text": " You do not need to book the mangroves ahead. Arrange it locally the day before, or on the day, and ask for a boat you do not share if you have small children, since a private outrigger is inexpensive here and removes the pressure of other people's schedule."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k69",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k68",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 4: The yellow bridge and Nusa Ceningan"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k72",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k70",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": "So this plan inverts the usual order. Lembongan is the base, not the afterthought. Nusa Ceningan sits across a footbridge, which gives you a genuine change of scene for the cost of a fifteen-minute walk rather than another boat. Penida stays optional, parked on a free day, and only recommended if your children are old enough for a long day in a car. The single overnight in Sanur at the start exists for one reason: it separates a long flight from a boat crossing, so nobody is queuing at the harbour jet-lagged on day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k71",
-     "_type": "span",
-     "marks": [],
-     "text": " Cross to Nusa Ceningan on the yellow suspension bridge. It is a short walk or scooter ride from most of Lembongan, and it is the cheapest change of scenery on the trip. Ceningan is tinier and quieter again, with a rough interior and a handful of viewpoints."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k75",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k73",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [],
+          "text": "Five nights in one place also does something a moving itinerary cannot. You unpack once. Children settle. You learn which warung the family likes, which stretch of sand is shaded at four in the afternoon, and you stop planning. That is the deliverable here, not a photo list."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k74",
-     "_type": "span",
-     "marks": [],
-     "text": " The bridge limits how many people and scooters cross at once, so expect a wait at busy times. With children, cross on foot. It is more fun and it removes the question entirely."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k78",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k76",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land in Bali and stop in Sanur"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k183",
-     "_type": "span",
-     "marks": [],
-     "text": " If you would rather not navigate, a "
+      "_key": "k33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k175",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort connectivity before anything else. "
+        },
+        {
+          "_key": "k176",
+          "_type": "span",
+          "marks": ["k174"],
+          "text": "An Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k177",
+          "_type": "span",
+          "marks": [],
+          "text": " can be activated the moment you land, so maps, your boat confirmation and family messaging all work before you reach the taxi rank. With children in tow, not queuing for a local SIM at the airport is worth more than the small saving."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k174",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k184",
-     "_type": "span",
-     "marks": [
-      "k182"
-     ],
-     "text": "Nusa Lembongan and Ceningan day tour"
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " Go straight to Sanur, roughly 30 to 45 minutes from the airport depending on traffic, as a working estimate. Do not attempt the boat today. Sanur is the right holding pattern: a flat beachfront path, calm shallow water behind the reef, and the harbour you need in the morning is already there."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k185",
-     "_type": "span",
-     "marks": [],
-     "text": " strings the bridge, the main viewpoints and the coast together with a driver, which turns a hot day of stop-start scooter riding into something a family can do without an argument. If you are riding yourselves, Lembongan's roads are gentle, but Ceningan's are not uniformly so and the island is small enough to walk large parts of."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k182",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "KLOOK_LEMBONGAN_CENINGAN"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k81",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k79",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " One night in Sanur, close to the beach path. You are not sightseeing, you are absorbing the flight and the time change. An early night here is what makes the next six days work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k80",
-     "_type": "span",
-     "marks": [],
-     "text": " Devil's Tear is on most Ceningan and Lembongan lists and it deserves a warning rather than a recommendation. It is an unfenced rock platform where swell explodes through a blowhole, people get soaked without notice, and the rock is slippery. With young children, stand well back or skip it. It is not worth a chase across wet rock."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k83",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k82",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 5: Snorkeling from Lembongan"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k86",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k84",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " Foreign visitors pay the Bali tourist levy, a one-time charge of around 150,000 rupiah per person as a working estimate, which also covers the Nusa islands. There is no child discount, so budget it per head including infants, which surprises most families. Pay through the official Love Bali app before you fly and keep the QR confirmation on your phone. Fees can change, so check the latest official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k85",
-     "_type": "span",
-     "marks": [],
-     "text": " Take a snorkel boat out to the reef sites off Lembongan and the channel. Book the gentle version, not the Manta Point run. Manta Point sits off Nusa Penida in open water, the swell there is often significant, and it is a poor first snorkel for a child no matter how much they want to see a manta. The reef stops closer in give calmer water and more to look at for a small person with a mask."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k89",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k87",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Fast boat to Nusa Lembongan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k88",
-     "_type": "span",
-     "marks": [],
-     "text": " Ask two questions before you book: whether they will take children of your ages, and whether they carry child-sized masks and buoyancy vests. Adult masks leak on small faces and turn the whole morning sour. Bring your own if you can. Book a morning slot, when the water is usually flatter."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k92",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k90",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k179",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a morning crossing, when seas are usually calmest. Booking "
+        },
+        {
+          "_key": "k180",
+          "_type": "span",
+          "marks": ["k178"],
+          "text": "fast boat tickets from Sanur to Nusa Lembongan"
+        },
+        {
+          "_key": "k181",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance fixes a departure time and spares you negotiating on a busy pier with luggage and children. Aim to arrive at the harbour with a real buffer, because boarding is chaotic and boats do not wait."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k178",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_SANUR_NUSA_LEMBONGAN"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k91",
-     "_type": "span",
-     "marks": [],
-     "text": " Nothing. This is a deliberate blank. A morning in salt water is a full day for most children, and the whole reason for a five-night base is that you can spend an afternoon doing very little without feeling you wasted the trip."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k95",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k93",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " Boarding at Sanur usually means a short wade to the boat through shallow water, with your bags handed up separately. Children find this either the best or the worst part of the day, and it goes better if nobody is wearing shoes they mind getting wet. Motion sickness is common on the crossing even though it is short, so treat it seriously if anyone in the family is prone to it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k94",
-     "_type": "span",
-     "marks": [],
-     "text": " The channel between the islands carries real current, which is what makes the drift diving here famous and what makes it unsuitable for casual family swimming. Swim in the bays, not the channel, and take local advice on the day rather than judging by how calm the surface looks."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k97",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k96",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 6: A free day, and the Nusa Penida question"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k100",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k98",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive, get to your stay and go no further. Mushroom Bay and Jungutbatu are the two main bases, and both are minutes from the harbours. Swim, eat, and let the island be small. The temptation to start the sightseeing on the arrival afternoon is exactly what you came here to avoid."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k99",
-     "_type": "span",
-     "marks": [],
-     "text": " This day is intentionally unallocated. Repeat whatever worked. Most families end up back in the bay, on a cycle around the flat north of Lembongan, or watching the seaweed farmers at low tide, which is quietly one of the more interesting things to see here and costs nothing."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k103",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k101",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [],
+          "text": " One stay on Nusa Lembongan for all five nights. Mushroom Bay suits families best, because the bay is calm and enclosed and you can walk to the water. Jungutbatu is a longer, busier strip with more places to eat. Pick one and do not move."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k187",
-     "_type": "span",
-     "marks": [],
-     "text": " If your children are older, roughly ten and up, this is the slot for Nusa Penida. Take a boat across and book a "
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Mushroom Bay, then the mangroves"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k188",
-     "_type": "span",
-     "marks": [
-      "k186"
-     ],
-     "text": "guided West Penida tour with a driver"
+      "_key": "k61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend it in the bay. Mushroom Bay's water is calm and shallow near the shore, which makes it one of the few places in the Nusa islands where young children can swim without an adult managing a current. This is the day the trip proves itself, and it does not need booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k189",
-     "_type": "span",
-     "marks": [],
-     "text": " so nobody is riding a scooter on those roads. Treat it as a long day out and go in knowing the viewpoints involve steep, unfenced ground and that the Kelingking descent is a serious scramble, not a walk down to a beach."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k186",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "VIATOR_WEST_PENIDA_LAND"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k106",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k104",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note."
+      "_key": "k64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a mangrove boat tour on the northeast side of the island. It runs roughly 40 to 50 minutes, moves slowly through the channels in a small outrigger, and needs nothing from a child except sitting still and looking. It is the best low-effort activity on Lembongan and works for ages that would not last an hour on a snorkel trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k105",
-     "_type": "span",
-     "marks": [],
-     "text": " With children under about ten, our advice is to skip Penida on this trip and not feel you missed the islands. You did not. You chose the island that suits the family you actually have, and Penida will still be there when they are taller."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k108",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k107",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 7: The boat back to Sanur"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k111",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k109",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [],
+          "text": " You do not need to book the mangroves ahead. Arrange it locally the day before, or on the day, and ask for a boat you do not share if you have small children, since a private outrigger is inexpensive here and removes the pressure of other people's schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k110",
-     "_type": "span",
-     "marks": [],
-     "text": " Take a morning crossing back to Sanur. Confirm it the day before, because departure times shift with the season and the operator, and the last thing you want with children and luggage is to discover a change at the harbour."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k114",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k112",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
+      "_key": "k69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: The yellow bridge and Nusa Ceningan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k113",
-     "_type": "span",
-     "marks": [],
-     "text": " Build in a real buffer before any onward flight. The crossing plus the Sanur to airport drive stacks up, afternoon seas are often choppier than the morning, and Bali traffic is unpredictable. Families miss flights on this route every season by booking the boat that would just about work."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k117",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k115",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic."
+      "_key": "k72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [],
+          "text": " Cross to Nusa Ceningan on the yellow suspension bridge. It is a short walk or scooter ride from most of Lembongan, and it is the cheapest change of scenery on the trip. Ceningan is tinier and quieter again, with a rough interior and a handful of viewpoints."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k116",
-     "_type": "span",
-     "marks": [],
-     "text": " If you are flying out the same day, take the earliest sensible boat and plan to wait at the airport. If your flight is late at night, book a day-use room or a final night in Sanur rather than spending seven hours in a departure hall with tired children. It is the best money on the trip."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k119",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k118",
-     "_type": "span",
-     "marks": [],
-     "text": "What to book early, and what to keep flexible"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k121",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k120",
-     "_type": "span",
-     "marks": [],
-     "text": "Book early: your Lembongan stay for all five nights, the Sanur night on arrival, and both fast boat crossings. Family rooms on Lembongan are limited and the good ones near Mushroom Bay go first in peak season. A fixed boat time removes the only real stress in the plan."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k123",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k122",
-     "_type": "span",
-     "marks": [],
-     "text": "Keep flexible: the snorkel trip and the Ceningan day. Both should move around the sea state and around how the children are actually doing, which you cannot know from home. Arrange them locally once you are on the island and can see a forecast."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k125",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k124",
-     "_type": "span",
-     "marks": [],
-     "text": "Decide on arrival: the mangrove tour, whether to rent a scooter, and the Penida day. All three depend on things you can only assess once you are there, which is the road surface, the swell, and your own children's appetite for a long day."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k127",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k126",
-     "_type": "span",
-     "marks": [],
-     "text": "Mistakes families make on the Nusa islands"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k129",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k128",
-     "_type": "span",
-     "marks": [],
-     "text": "Choosing Penida from a photograph. The cliff shot everyone has seen is Kelingking, on Nusa Penida, at the top of a steep unfenced drop at the end of slow roads. Families book the island for that image and spend the trip in a car. If your children are young, Lembongan is the correct choice, not the compromise."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k131",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k130",
-     "_type": "span",
-     "marks": [],
-     "text": "Doing it as a day trip. Day-tripping the Nusas from Bali with children means two crossings, a rushed loop and a tired evening, for very little. Several nights on one island is the entire fix, and it is cheaper than the day tour per hour of actual holiday."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k133",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k132",
-     "_type": "span",
-     "marks": [],
-     "text": "Booking the manta snorkel for a first-timer. Manta Point is open water and often rough. It is a common first snorkel for a child and a common reason a child never wants to snorkel again. Start in a calm bay or on the inner reef instead."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k135",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k134",
-     "_type": "span",
-     "marks": [],
-     "text": "Underestimating the levy and the cash. The Bali tourist levy is charged per person with no child discount, which catches out families of five. Card payment on Lembongan is patchy outside the larger places, and ATMs are limited and sometimes empty, so bring cash across from the mainland."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k137",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k136",
-     "_type": "span",
-     "marks": [],
-     "text": "Cutting the return boat fine. Afternoon crossings shift, the Sanur to airport drive is unpredictable, and a family moves slower than a couple through every stage of it. Leave a genuine buffer, not a theoretical one."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k139",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k138",
-     "_type": "span",
-     "marks": [],
-     "text": "What to cut, adapt or upgrade"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k141",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k140",
-     "_type": "span",
-     "marks": [],
-     "text": "Cut, if you have less time: drop the Sanur night and one Lembongan night and run this as a five-day trip with four nights on the island. You lose the jet-lag buffer, which is a real cost with young children, so only do this if you are already in Bali and rested rather than arriving off a long-haul flight."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k143",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k142",
-     "_type": "span",
-     "marks": [],
-     "text": "Adapt, for older children: add the Nusa Penida day on Day 6 with a driver, and consider two nights on Penida rather than a day trip if teenagers want the viewpoints properly. That turns this into a different, more active trip, and our five-day Nusa Penida and Lembongan route is the better template for it."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k145",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k144",
-     "_type": "span",
-     "marks": [],
-     "text": "Adapt, for a mixed group: if one parent wants the drift diving in the channel and the other is on beach duty, Lembongan is a good base for exactly that, because the dive boats leave from the island and are back by early afternoon. Split the day rather than compromising both halves of it."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k147",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k146",
-     "_type": "span",
-     "marks": [],
-     "text": "Upgrade, if you have more time: add three or four nights on mainland Bali either side rather than more days on Lembongan. Five nights is about right for the island. A seventh or eighth day here starts to feel long for children, and Bali's mainland gives you the variety that Lembongan deliberately does not."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k149",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k148",
-     "_type": "span",
-     "marks": [],
-     "text": "Before you build this trip"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k151",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k150",
-     "_type": "span",
-     "marks": [],
-     "text": "Check current fast boat schedules and fares before you book accommodation, since first and last departures move seasonally and the return crossing dictates your flight day. Confirm your stay can arrange airport pickup, harbour transfers and a scooter or driver, because sorting transport cold on arrival with children is far harder than asking a host to handle it. Pay the Bali tourist levy for every family member through the official Love Bali app before you fly."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k153",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k152",
-     "_type": "span",
-     "marks": [],
-     "text": "Pack for a small island with limited shops. Bring child-sized snorkel masks if you own them, reef-safe sunscreen in the quantity you actually need, water shoes for rocky entries, and any specific medicine or formula your family relies on, since the pharmacies here are small. Carry cash across from Bali. Shade is limited on the beaches and the sun is stronger than it feels on a breezy boat, which is how most children on this trip get burned."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k155",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k154",
-     "_type": "span",
-     "marks": [],
-     "text": "Final verdict"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k157",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k156",
-     "_type": "span",
-     "marks": [],
-     "text": "Nusa Lembongan is the Nusa island that works with children, and most families never seriously consider it because the marketing belongs to Penida. Five nights in one base, a bay you can actually swim in, a footbridge to a second island and a mangrove channel that entertains a six-year-old for an hour is a better family week than any amount of cliff viewpoints seen through a car window. The plan asks for one decision to be made honestly, which is whether your children are old enough for Penida, and it is a much better trip if the answer is no and you accept it. Go slow, book the boats, skip the mantas, and this is one of the easiest good weeks in Indonesia with kids."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k159",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k158",
-     "_type": "span",
-     "marks": [],
-     "text": "Related itineraries"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k173",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k160",
-     "_type": "span",
-     "marks": [],
-     "text": "If your children are older or you want the famous viewpoints properly, our "
+      "_key": "k75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [],
+          "text": " The bridge limits how many people and scooters cross at once, so expect a wait at busy times. With children, cross on foot. It is more fun and it removes the question entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k162",
-     "_type": "span",
-     "marks": [
-      "k161"
-     ],
-     "text": "5-day Nusa Penida and Nusa Lembongan itinerary"
+      "_key": "k78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [],
+          "text": " If you would rather not navigate, a "
+        },
+        {
+          "_key": "k184",
+          "_type": "span",
+          "marks": ["k182"],
+          "text": "Nusa Lembongan and Ceningan day tour"
+        },
+        {
+          "_key": "k185",
+          "_type": "span",
+          "marks": [],
+          "text": " strings the bridge, the main viewpoints and the coast together with a driver, which turns a hot day of stop-start scooter riding into something a family can do without an argument. If you are riding yourselves, Lembongan's roads are gentle, but Ceningan's are not uniformly so and the island is small enough to walk large parts of."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k182",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LEMBONGAN_CENINGAN"
+        }
+      ],
+      "style": "normal"
     },
     {
-     "_key": "k163",
-     "_type": "span",
-     "marks": [],
-     "text": " covers the same islands at a faster, more demanding pace. To pair this with the mainland, the "
+      "_key": "k81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [],
+          "text": " Devil's Tear is on most Ceningan and Lembongan lists and it deserves a warning rather than a recommendation. It is an unfenced rock platform where swell explodes through a blowhole, people get soaked without notice, and the rock is slippery. With young children, stand well back or skip it. It is not worth a chase across wet rock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k165",
-     "_type": "span",
-     "marks": [
-      "k164"
-     ],
-     "text": "7-day Bali itinerary with kids"
+      "_key": "k83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k82",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Snorkeling from Lembongan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-     "_key": "k166",
-     "_type": "span",
-     "marks": [],
-     "text": " is the natural companion and the two fit together into a fortnight. For a longer family island trip further east, see "
+      "_key": "k86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a snorkel boat out to the reef sites off Lembongan and the channel. Book the gentle version, not the Manta Point run. Manta Point sits off Nusa Penida in open water, the swell there is often significant, and it is a poor first snorkel for a child no matter how much they want to see a manta. The reef stops closer in give calmer water and more to look at for a small person with a mask."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k168",
-     "_type": "span",
-     "marks": [
-      "k167"
-     ],
-     "text": "10 days in Lombok and the Gili Islands for families"
+      "_key": "k89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask two questions before you book: whether they will take children of your ages, and whether they carry child-sized masks and buoyancy vests. Adult masks leak on small faces and turn the whole morning sour. Bring your own if you can. Book a morning slot, when the water is usually flatter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k169",
-     "_type": "span",
-     "marks": [],
-     "text": ". You can also browse more options on our "
+      "_key": "k92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [],
+          "text": " Nothing. This is a deliberate blank. A morning in salt water is a full day for most children, and the whole reason for a five-night base is that you can spend an afternoon doing very little without feeling you wasted the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k171",
-     "_type": "span",
-     "marks": [
-      "k170"
-     ],
-     "text": "Bali and nearby islands destination guide"
+      "_key": "k95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [],
+          "text": " The channel between the islands carries real current, which is what makes the drift diving here famous and what makes it unsuitable for casual family swimming. Swim in the bays, not the channel, and take local advice on the day rather than judging by how calm the surface looks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-     "_key": "k172",
-     "_type": "span",
-     "marks": [],
-     "text": "."
+      "_key": "k97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k96",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: A free day, and the Nusa Penida question"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k99",
+          "_type": "span",
+          "marks": [],
+          "text": " This day is intentionally unallocated. Repeat whatever worked. Most families end up back in the bay, on a cycle around the flat north of Lembongan, or watching the seaweed farmers at low tide, which is quietly one of the more interesting things to see here and costs nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k101",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k187",
+          "_type": "span",
+          "marks": [],
+          "text": " If your children are older, roughly ten and up, this is the slot for Nusa Penida. Take a boat across and book a "
+        },
+        {
+          "_key": "k188",
+          "_type": "span",
+          "marks": ["k186"],
+          "text": "guided West Penida tour with a driver"
+        },
+        {
+          "_key": "k189",
+          "_type": "span",
+          "marks": [],
+          "text": " so nobody is riding a scooter on those roads. Treat it as a long day out and go in knowing the viewpoints involve steep, unfenced ground and that the Kelingking descent is a serious scramble, not a walk down to a beach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k186",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_WEST_PENIDA_LAND"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k104",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k105",
+          "_type": "span",
+          "marks": [],
+          "text": " With children under about ten, our advice is to skip Penida on this trip and not feel you missed the islands. You did not. You chose the island that suits the family you actually have, and Penida will still be there when they are taller."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k107",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: The boat back to Sanur"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k109",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "k110",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a morning crossing back to Sanur. Confirm it the day before, because departure times shift with the season and the operator, and the last thing you want with children and luggage is to discover a change at the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k112",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k113",
+          "_type": "span",
+          "marks": [],
+          "text": " Build in a real buffer before any onward flight. The crossing plus the Sanur to airport drive stacks up, afternoon seas are often choppier than the morning, and Bali traffic is unpredictable. Families miss flights on this route every season by booking the boat that would just about work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k115",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k116",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are flying out the same day, take the earliest sensible boat and plan to wait at the airport. If your flight is late at night, book a day-use room or a final night in Sanur rather than spending seven hours in a departure hall with tired children. It is the best money on the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k120",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: your Lembongan stay for all five nights, the Sanur night on arrival, and both fast boat crossings. Family rooms on Lembongan are limited and the good ones near Mushroom Bay go first in peak season. A fixed boat time removes the only real stress in the plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k122",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the snorkel trip and the Ceningan day. Both should move around the sea state and around how the children are actually doing, which you cannot know from home. Arrange them locally once you are on the island and can see a forecast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k124",
+          "_type": "span",
+          "marks": [],
+          "text": "Decide on arrival: the mangrove tour, whether to rent a scooter, and the Penida day. All three depend on things you can only assess once you are there, which is the road surface, the swell, and your own children's appetite for a long day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes families make on the Nusa islands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing Penida from a photograph. The cliff shot everyone has seen is Kelingking, on Nusa Penida, at the top of a steep unfenced drop at the end of slow roads. Families book the island for that image and spend the trip in a car. If your children are young, Lembongan is the correct choice, not the compromise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k130",
+          "_type": "span",
+          "marks": [],
+          "text": "Doing it as a day trip. Day-tripping the Nusas from Bali with children means two crossings, a rushed loop and a tired evening, for very little. Several nights on one island is the entire fix, and it is cheaper than the day tour per hour of actual holiday."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k132",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking the manta snorkel for a first-timer. Manta Point is open water and often rough. It is a common first snorkel for a child and a common reason a child never wants to snorkel again. Start in a calm bay or on the inner reef instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the levy and the cash. The Bali tourist levy is charged per person with no child discount, which catches out families of five. Card payment on Lembongan is patchy outside the larger places, and ATMs are limited and sometimes empty, so bring cash across from the mainland."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k136",
+          "_type": "span",
+          "marks": [],
+          "text": "Cutting the return boat fine. Afternoon crossings shift, the Sanur to airport drive is unpredictable, and a family moves slower than a couple through every stage of it. Leave a genuine buffer, not a theoretical one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k138",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k140",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut, if you have less time: drop the Sanur night and one Lembongan night and run this as a five-day trip with four nights on the island. You lose the jet-lag buffer, which is a real cost with young children, so only do this if you are already in Bali and rested rather than arriving off a long-haul flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [],
+          "text": "Adapt, for older children: add the Nusa Penida day on Day 6 with a driver, and consider two nights on Penida rather than a day trip if teenagers want the viewpoints properly. That turns this into a different, more active trip, and our five-day Nusa Penida and Lembongan route is the better template for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [],
+          "text": "Adapt, for a mixed group: if one parent wants the drift diving in the channel and the other is on beach duty, Lembongan is a good base for exactly that, because the dive boats leave from the island and are back by early afternoon. Split the day rather than compromising both halves of it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k146",
+          "_type": "span",
+          "marks": [],
+          "text": "Upgrade, if you have more time: add three or four nights on mainland Bali either side rather than more days on Lembongan. Five nights is about right for the island. A seventh or eighth day here starts to feel long for children, and Bali's mainland gives you the variety that Lembongan deliberately does not."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k148",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k150",
+          "_type": "span",
+          "marks": [],
+          "text": "Check current fast boat schedules and fares before you book accommodation, since first and last departures move seasonally and the return crossing dictates your flight day. Confirm your stay can arrange airport pickup, harbour transfers and a scooter or driver, because sorting transport cold on arrival with children is far harder than asking a host to handle it. Pay the Bali tourist levy for every family member through the official Love Bali app before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k152",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for a small island with limited shops. Bring child-sized snorkel masks if you own them, reef-safe sunscreen in the quantity you actually need, water shoes for rocky entries, and any specific medicine or formula your family relies on, since the pharmacies here are small. Carry cash across from Bali. Shade is limited on the beaches and the sun is stronger than it feels on a breezy boat, which is how most children on this trip get burned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k154",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k156",
+          "_type": "span",
+          "marks": [],
+          "text": "Nusa Lembongan is the Nusa island that works with children, and most families never seriously consider it because the marketing belongs to Penida. Five nights in one base, a bay you can actually swim in, a footbridge to a second island and a mangrove channel that entertains a six-year-old for an hour is a better family week than any amount of cliff viewpoints seen through a car window. The plan asks for one decision to be made honestly, which is whether your children are old enough for Penida, and it is a much better trip if the answer is no and you accept it. Go slow, book the boats, skip the mantas, and this is one of the easiest good weeks in Indonesia with kids."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k158",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k160",
+          "_type": "span",
+          "marks": [],
+          "text": "If your children are older or you want the famous viewpoints properly, our "
+        },
+        {
+          "_key": "k162",
+          "_type": "span",
+          "marks": ["k161"],
+          "text": "5-day Nusa Penida and Nusa Lembongan itinerary"
+        },
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the same islands at a faster, more demanding pace. To pair this with the mainland, the "
+        },
+        {
+          "_key": "k165",
+          "_type": "span",
+          "marks": ["k164"],
+          "text": "7-day Bali itinerary with kids"
+        },
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": [],
+          "text": " is the natural companion and the two fit together into a fortnight. For a longer family island trip further east, see "
+        },
+        {
+          "_key": "k168",
+          "_type": "span",
+          "marks": ["k167"],
+          "text": "10 days in Lombok and the Gili Islands for families"
+        },
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": [],
+          "text": ". You can also browse more options on our "
+        },
+        {
+          "_key": "k171",
+          "_type": "span",
+          "marks": ["k170"],
+          "text": "Bali and nearby islands destination guide"
+        },
+        {
+          "_key": "k172",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k161",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-nusa-penida-lembongan"
+        },
+        {
+          "_key": "k164",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-with-kids"
+        },
+        {
+          "_key": "k167",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-lombok-gili-families"
+        },
+        {
+          "_key": "k170",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
+      "style": "normal"
     }
-   ],
-   "markDefs": [
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali_nearby_islands",
+  "faq": [
     {
-     "_key": "k161",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/5-days-nusa-penida-lembongan"
+      "_key": "k194",
+      "answer": "Nusa Lembongan, in almost every case with children under about ten. Lembongan is small, mostly flat, walkable and has calm swimmable bays such as Mushroom Bay. Nusa Penida is much larger, its roads are slow and rough, and its famous viewpoints sit at the top of steep unfenced cliffs, which makes long touring days hard and tense with young children. Penida is the better island for families with teenagers who want the scenery and can handle a full day in a car.",
+      "question": "Is Nusa Lembongan or Nusa Penida better with kids?"
     },
     {
-     "_key": "k164",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-bali-with-kids"
+      "_key": "k195",
+      "answer": "Roughly 30 to 40 minutes as a working estimate, with one-way fares in the region of 150,000 to 250,000 rupiah per person depending on the operator and season. Take a morning crossing when seas are usually calmest, book ahead to fix a departure time, and expect a short wade to the boat at Sanur with bags handed up separately. Schedules and fares change, so confirm the latest before you travel.",
+      "question": "How long is the fast boat from Sanur to Nusa Lembongan?"
     },
     {
-     "_key": "k167",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/10-days-lombok-gili-families"
+      "_key": "k196",
+      "answer": "Yes. The Bali tourist levy is around 150,000 rupiah per person as a working estimate and applies to every foreign visitor with no child discount, including infants and toddlers, which catches out larger families. It is a one-time charge that also covers the Nusa islands. Pay through the official Love Bali app before you fly and keep the confirmation on your phone. Fees can change, so check the latest official guidance.",
+      "question": "Do children have to pay the Bali tourist levy?"
     },
     {
-     "_key": "k170",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/destinations/bali-nearby-islands"
+      "_key": "k197",
+      "answer": "In the bays, generally yes, with normal supervision. Mushroom Bay is calm and shallow near the shore and is the reason this itinerary bases there. The channel between Lembongan, Ceningan and Penida is a different matter, since it carries strong current that makes the drift diving here famous and makes casual family swimming unsuitable. Stay in the bays, and take local advice on the day rather than judging by how calm the surface looks.",
+      "question": "Is Nusa Lembongan safe for children to swim?"
+    },
+    {
+      "_key": "k198",
+      "answer": "We would not. Manta Point sits off Nusa Penida in open water where swell is often significant, sightings are never guaranteed because manta rays are wild animals, and it is a hard first snorkel for a child. Book the gentler reef stops closer to Lembongan instead, ask whether the operator carries child-sized masks and vests, and take a morning departure when the water is usually flatter.",
+      "question": "Should we book the manta snorkeling with young children?"
+    },
+    {
+      "_key": "k199",
+      "answer": "Five nights on the island, which is what this plan gives you, is about right. It lets you unpack once, spend an afternoon doing nothing without feeling you wasted the trip, and still fill days with the mangroves, Ceningan and a snorkel. Beyond that it starts to feel long for children, since the island is small and the choice of restaurants is limited. If you have more time, add nights on mainland Bali rather than here.",
+      "question": "Is seven days too long on Nusa Lembongan with kids?"
+    },
+    {
+      "_key": "k200",
+      "answer": "Not necessarily. Lembongan's roads are gentle and many families rent one, but the island is small enough that a stay near Mushroom Bay puts the beach, food and the yellow bridge within reach on foot or by a short local ride. Ceningan's roads are rougher. With small children, walking the bridge and hiring a driver for the one touring day is the calmer call, and it removes the biggest injury risk on the trip.",
+      "question": "Do we need a scooter on Nusa Lembongan?"
     }
-   ],
-   "style": "normal"
-  }
- ],
- "contentStatus": "live",
- "destinationPrimary": "bali_nearby_islands",
- "faq": [
-  {
-   "_key": "k194",
-   "answer": "Nusa Lembongan, in almost every case with children under about ten. Lembongan is small, mostly flat, walkable and has calm swimmable bays such as Mushroom Bay. Nusa Penida is much larger, its roads are slow and rough, and its famous viewpoints sit at the top of steep unfenced cliffs, which makes long touring days hard and tense with young children. Penida is the better island for families with teenagers who want the scenery and can handle a full day in a car.",
-   "question": "Is Nusa Lembongan or Nusa Penida better with kids?"
+  ],
+  "focusKeyword": "Nusa Lembongan with kids itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "The yellow suspension bridge linking Nusa Lembongan and Nusa Ceningan over a turquoise channel",
+    "asset": {
+      "_ref": "image-5264a7549fcee820a88afc10a21fd0c09e314715-1600x900-jpg",
+      "_type": "reference"
+    },
+    "caption": "Sanur → Nusa Lembongan → Nusa Ceningan → Sanur"
   },
-  {
-   "_key": "k195",
-   "answer": "Roughly 30 to 40 minutes as a working estimate, with one-way fares in the region of 150,000 to 250,000 rupiah per person depending on the operator and season. Take a morning crossing when seas are usually calmest, book ahead to fix a departure time, and expect a short wade to the boat at Sanur with bags handed up separately. Schedules and fares change, so confirm the latest before you travel.",
-   "question": "How long is the fast boat from Sanur to Nusa Lembongan?"
+  "intro": "Most family plans for the Nusa islands start with Nusa Penida, because that is where the famous cliff photograph was taken. With young children, that is the wrong island. Penida is big, the roads between the viewpoints are slow and rough in places, and the best-known lookouts sit at the top of steep, unfenced drops. Nusa Lembongan is the one that actually works with kids: small, mostly flat, and fronted by a bay calm enough to let a five-year-old swim. This seven-day plan puts a single base on Lembongan for five nights, uses tiny Nusa Ceningan across the yellow bridge for the change of scene, and leaves Penida as an optional day for families with older children. It is built around the mistake families make most often here, which is choosing the island from the photographs rather than from the logistics.",
+  "metaDescription": "A relaxed 7-day Nusa Lembongan and Ceningan itinerary for families: one calm island base, gentle snorkeling, mangroves, and honest advice on Penida.",
+  "metaTitle": "Nusa Lembongan with Kids: 7-Day Family Itinerary",
+  "route": "Sanur → Nusa Lembongan → Nusa Ceningan → Sanur",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-nusa-lembongan-ceningan-with-kids"
   },
-  {
-   "_key": "k196",
-   "answer": "Yes. The Bali tourist levy is around 150,000 rupiah per person as a working estimate and applies to every foreign visitor with no child discount, including infants and toddlers, which catches out larger families. It is a one-time charge that also covers the Nusa islands. Pay through the official Love Bali app before you fly and keep the confirmation on your phone. Fees can change, so check the latest official guidance.",
-   "question": "Do children have to pay the Bali tourist levy?"
-  },
-  {
-   "_key": "k197",
-   "answer": "In the bays, generally yes, with normal supervision. Mushroom Bay is calm and shallow near the shore and is the reason this itinerary bases there. The channel between Lembongan, Ceningan and Penida is a different matter, since it carries strong current that makes the drift diving here famous and makes casual family swimming unsuitable. Stay in the bays, and take local advice on the day rather than judging by how calm the surface looks.",
-   "question": "Is Nusa Lembongan safe for children to swim?"
-  },
-  {
-   "_key": "k198",
-   "answer": "We would not. Manta Point sits off Nusa Penida in open water where swell is often significant, sightings are never guaranteed because manta rays are wild animals, and it is a hard first snorkel for a child. Book the gentler reef stops closer to Lembongan instead, ask whether the operator carries child-sized masks and vests, and take a morning departure when the water is usually flatter.",
-   "question": "Should we book the manta snorkeling with young children?"
-  },
-  {
-   "_key": "k199",
-   "answer": "Five nights on the island, which is what this plan gives you, is about right. It lets you unpack once, spend an afternoon doing nothing without feeling you wasted the trip, and still fill days with the mangroves, Ceningan and a snorkel. Beyond that it starts to feel long for children, since the island is small and the choice of restaurants is limited. If you have more time, add nights on mainland Bali rather than here.",
-   "question": "Is seven days too long on Nusa Lembongan with kids?"
-  },
-  {
-   "_key": "k200",
-   "answer": "Not necessarily. Lembongan's roads are gentle and many families rent one, but the island is small enough that a stay near Mushroom Bay puts the beach, food and the yellow bridge within reach on foot or by a short local ride. Ceningan's roads are rougher. With small children, walking the bridge and hiring a driver for the one touring day is the calmer call, and it removes the biggest injury risk on the trip.",
-   "question": "Do we need a scooter on Nusa Lembongan?"
-  }
- ],
- "focusKeyword": "Nusa Lembongan with kids itinerary",
- "heroImage": {
-  "_type": "image",
-  "alt": "The yellow suspension bridge linking Nusa Lembongan and Nusa Ceningan over a turquoise channel",
-  "asset": {
-   "_ref": "image-5264a7549fcee820a88afc10a21fd0c09e314715-1600x900-jpg",
-   "_type": "reference"
-  },
-  "caption": "Sanur → Nusa Lembongan → Nusa Ceningan → Sanur"
- },
- "intro": "Most family plans for the Nusa islands start with Nusa Penida, because that is where the famous cliff photograph was taken. With young children, that is the wrong island. Penida is big, the roads between the viewpoints are slow and rough in places, and the best-known lookouts sit at the top of steep, unfenced drops. Nusa Lembongan is the one that actually works with kids: small, mostly flat, and fronted by a bay calm enough to let a five-year-old swim. This seven-day plan puts a single base on Lembongan for five nights, uses tiny Nusa Ceningan across the yellow bridge for the change of scene, and leaves Penida as an optional day for families with older children. It is built around the mistake families make most often here, which is choosing the island from the photographs rather than from the logistics.",
- "metaDescription": "A relaxed 7-day Nusa Lembongan and Ceningan itinerary for families: one calm island base, gentle snorkeling, mangroves, and honest advice on Penida.",
- "metaTitle": "Nusa Lembongan with Kids: 7-Day Family Itinerary",
- "route": "Sanur → Nusa Lembongan → Nusa Ceningan → Sanur",
- "slug": {
-  "_type": "slug",
-  "current": "7-days-nusa-lembongan-ceningan-with-kids"
- },
- "title": "7 Days in Nusa Lembongan and Nusa Ceningan with Kids",
- "travelStylePrimary": "beach_islands",
- "travellerTypes": [
-  "families"
- ],
- "tripLengthBucket": "one_week",
- "tripLengthDays": 7,
- "vibe": "relaxed"
+  "title": "7 Days in Nusa Lembongan and Nusa Ceningan with Kids",
+  "travelStylePrimary": "beach_islands",
+  "travellerTypes": ["families"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "relaxed"
 }

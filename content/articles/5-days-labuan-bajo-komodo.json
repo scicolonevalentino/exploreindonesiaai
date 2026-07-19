@@ -93,9 +93,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -115,9 +113,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -137,9 +133,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -159,9 +153,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -181,9 +173,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -203,9 +193,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -225,9 +213,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -247,9 +233,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -269,9 +253,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -361,9 +343,7 @@
         {
           "_key": "k19",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -383,9 +363,7 @@
         {
           "_key": "k1c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -405,9 +383,7 @@
         {
           "_key": "k1f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -427,9 +403,7 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -449,9 +423,7 @@
         {
           "_key": "k1l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -463,9 +435,7 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": [
-            "k1n"
-          ],
+          "marks": ["k1n"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -505,9 +475,7 @@
         {
           "_key": "k1t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -527,9 +495,7 @@
         {
           "_key": "k1w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -549,9 +515,7 @@
         {
           "_key": "k1z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -571,9 +535,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -593,9 +555,7 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -629,9 +589,7 @@
         {
           "_key": "k2a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -651,9 +609,7 @@
         {
           "_key": "k2d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -673,9 +629,7 @@
         {
           "_key": "k2g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -695,9 +649,7 @@
         {
           "_key": "k2j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -731,9 +683,7 @@
         {
           "_key": "k2o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -753,9 +703,7 @@
         {
           "_key": "k2r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -775,9 +723,7 @@
         {
           "_key": "k2u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -797,9 +743,7 @@
         {
           "_key": "k2x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -819,9 +763,7 @@
         {
           "_key": "k30",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -855,9 +797,7 @@
         {
           "_key": "k35",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -877,9 +817,7 @@
         {
           "_key": "k38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -899,9 +837,7 @@
         {
           "_key": "k3b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -935,9 +871,7 @@
         {
           "_key": "k3g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -957,9 +891,7 @@
         {
           "_key": "k3j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -993,9 +925,7 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Putting the park day last."
         },
         {
@@ -1015,9 +945,7 @@
         {
           "_key": "k3r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the early start and the open water."
         },
         {
@@ -1037,9 +965,7 @@
         {
           "_key": "k3u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Assuming you can sort park entry on the day."
         },
         {
@@ -1059,9 +985,7 @@
         {
           "_key": "k3x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Trying to add more islands than the days allow."
         },
         {
@@ -1095,9 +1019,7 @@
         {
           "_key": "k42",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -1117,9 +1039,7 @@
         {
           "_key": "k45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -1139,9 +1059,7 @@
         {
           "_key": "k48",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -1175,9 +1093,7 @@
         {
           "_key": "k4d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -1197,9 +1113,7 @@
         {
           "_key": "k4g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -1219,9 +1133,7 @@
         {
           "_key": "k4j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -1241,9 +1153,7 @@
         {
           "_key": "k4m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1263,9 +1173,7 @@
         {
           "_key": "k4p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -1277,9 +1185,7 @@
         {
           "_key": "k4s",
           "_type": "span",
-          "marks": [
-            "k4r"
-          ],
+          "marks": ["k4r"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -1305,9 +1211,7 @@
         {
           "_key": "k4v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early:"
         },
         {
@@ -1319,9 +1223,7 @@
         {
           "_key": "k4x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to keep flexible:"
         },
         {
@@ -1403,9 +1305,7 @@
         {
           "_key": "k5a",
           "_type": "span",
-          "marks": [
-            "k59"
-          ],
+          "marks": ["k59"],
           "text": "Komodo and Flores destination guide"
         },
         {
@@ -1438,9 +1338,7 @@
         {
           "_key": "k5f",
           "_type": "span",
-          "marks": [
-            "k5e"
-          ],
+          "marks": ["k5e"],
           "text": "Nusa Penida and Nusa islands itinerary"
         },
         {
@@ -1473,9 +1371,7 @@
         {
           "_key": "k5k",
           "_type": "span",
-          "marks": [
-            "k5j"
-          ],
+          "marks": ["k5j"],
           "text": "Raja Ampat itinerary"
         },
         {
@@ -1508,9 +1404,7 @@
         {
           "_key": "dins1",
           "_type": "span",
-          "marks": [
-            "dinmd0"
-          ],
+          "marks": ["dinmd0"],
           "text": "7-day Komodo diving itinerary"
         },
         {
@@ -1543,9 +1437,7 @@
         {
           "_key": "kidsxs2",
           "_type": "span",
-          "marks": [
-            "kidsxlinkm0"
-          ],
+          "marks": ["kidsxlinkm0"],
           "text": "8-day Komodo and Flores with kids itinerary"
         },
         {
@@ -1578,9 +1470,7 @@
         {
           "_key": "o2yhi4ukkk",
           "_type": "span",
-          "marks": [
-            "l5ylcqef78"
-          ],
+          "marks": ["l5ylcqef78"],
           "text": "Bali to Labuan Bajo (Komodo)"
         },
         {
@@ -1592,9 +1482,7 @@
         {
           "_key": "o1s7d1q0bf",
           "_type": "span",
-          "marks": [
-            "58vx8nulgu"
-          ],
+          "marks": ["58vx8nulgu"],
           "text": "Labuan Bajo to Komodo Island"
         },
         {
@@ -1623,12 +1511,7 @@
   ],
   "contentStatus": "live",
   "destinationPrimary": "komodo_flores",
-  "experienceTags": [
-    "wildlife",
-    "island_day_trip",
-    "snorkeling",
-    "beach_sunset"
-  ],
+  "experienceTags": ["wildlife", "island_day_trip", "snorkeling", "beach_sunset"],
   "faq": [
     {
       "answer": "As a working estimate, Komodo now uses one bundled ticket per route: around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes including Rinca and Padar, covering park entry, ranger fees and major sites. The older IDR 3.75M conservation fee was cancelled and not reinstated. Fees can change, so confirm current figures with your operator before booking.",
@@ -1671,26 +1554,15 @@
   "metaTitle": "Komodo & Labuan Bajo in 5 Days: Boat Trip Guide",
   "primaryAffiliatePartner": "klook",
   "route": "Labuan Bajo → Komodo National Park → Labuan Bajo",
-  "secondaryAffiliatePartners": [
-    "viator",
-    "booking",
-    "airalo"
-  ],
+  "secondaryAffiliatePartners": ["viator", "booking", "airalo"],
   "slug": {
     "_type": "slug",
     "current": "5-days-labuan-bajo-komodo"
   },
   "title": "5 Days in Labuan Bajo and Komodo National Park",
   "travelStylePrimary": "adventure_volcanoes",
-  "travelStyleSecondary": [
-    "wildlife_nature",
-    "beach_islands"
-  ],
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travelStyleSecondary": ["wildlife_nature", "beach_islands"],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
   "vibe": "balanced"
