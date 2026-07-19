@@ -53,10 +53,22 @@ const TRIP_LENGTH_VALUES = [
 ] as const;
 
 // ── JSON Schema for each tool's input ──
+// annotations carry the MCP behaviour hints the Anthropic connector directory
+// requires: a human `title` plus readOnlyHint/destructiveHint. All three tools
+// only read data (no writes), so readOnlyHint is true; openWorldHint is true
+// because they reach external services (Sanity CMS, affiliate partner APIs).
+export type ToolAnnotations = {
+  title: string;
+  readOnlyHint?: boolean;
+  destructiveHint?: boolean;
+  openWorldHint?: boolean;
+};
+
 export type ToolDef = {
   name: string;
   description: string;
   inputSchema: Record<string, unknown>;
+  annotations: ToolAnnotations;
 };
 
 export const TOOLS: ToolDef[] = [
@@ -103,6 +115,11 @@ export const TOOLS: ToolDef[] = [
       },
       additionalProperties: false,
     },
+    annotations: {
+      title: "Search Indonesia itineraries",
+      readOnlyHint: true,
+      openWorldHint: true,
+    },
   },
   {
     name: "match_trip",
@@ -146,6 +163,11 @@ export const TOOLS: ToolDef[] = [
       required: ["items"],
       additionalProperties: false,
     },
+    annotations: {
+      title: "Make an itinerary bookable",
+      readOnlyHint: true,
+      openWorldHint: true,
+    },
   },
   {
     name: "get_booking_links",
@@ -166,6 +188,11 @@ export const TOOLS: ToolDef[] = [
       },
       required: ["title", "location", "category"],
       additionalProperties: false,
+    },
+    annotations: {
+      title: "Get booking links for an activity",
+      readOnlyHint: true,
+      openWorldHint: true,
     },
   },
 ];
