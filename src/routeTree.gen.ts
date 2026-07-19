@@ -19,6 +19,7 @@ import { Route as P1RouteImport } from './routes/p1'
 import { Route as OgDotjpgRouteImport } from './routes/og[.]jpg'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as IndonesiaTravelCostsRouteImport } from './routes/indonesia-travel-costs'
+import { Route as ConnectRouteImport } from './routes/connect'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TripsIndexRouteImport } from './routes/trips.index'
@@ -89,6 +90,11 @@ const LoginRoute = LoginRouteImport.update({
 const IndonesiaTravelCostsRoute = IndonesiaTravelCostsRouteImport.update({
   id: '/indonesia-travel-costs',
   path: '/indonesia-travel-costs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConnectRoute = ConnectRouteImport.update({
+  id: '/connect',
+  path: '/connect',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AccountRoute = AccountRouteImport.update({
@@ -203,6 +209,7 @@ const ApiAccountDeleteRoute = ApiAccountDeleteRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/connect': typeof ConnectRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/og.jpg': typeof OgDotjpgRoute
@@ -236,6 +243,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/connect': typeof ConnectRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/og.jpg': typeof OgDotjpgRoute
@@ -270,6 +278,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
+  '/connect': typeof ConnectRoute
   '/indonesia-travel-costs': typeof IndonesiaTravelCostsRoute
   '/login': typeof LoginRoute
   '/og.jpg': typeof OgDotjpgRoute
@@ -305,6 +314,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/account'
+    | '/connect'
     | '/indonesia-travel-costs'
     | '/login'
     | '/og.jpg'
@@ -338,6 +348,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/account'
+    | '/connect'
     | '/indonesia-travel-costs'
     | '/login'
     | '/og.jpg'
@@ -371,6 +382,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/account'
+    | '/connect'
     | '/indonesia-travel-costs'
     | '/login'
     | '/og.jpg'
@@ -405,6 +417,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AccountRoute: typeof AccountRoute
+  ConnectRoute: typeof ConnectRoute
   IndonesiaTravelCostsRoute: typeof IndonesiaTravelCostsRoute
   LoginRoute: typeof LoginRoute
   OgDotjpgRoute: typeof OgDotjpgRoute
@@ -506,6 +519,13 @@ declare module '@tanstack/react-router' {
       path: '/indonesia-travel-costs'
       fullPath: '/indonesia-travel-costs'
       preLoaderRoute: typeof IndonesiaTravelCostsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/connect': {
+      id: '/connect'
+      path: '/connect'
+      fullPath: '/connect'
+      preLoaderRoute: typeof ConnectRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/account': {
@@ -661,6 +681,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AccountRoute: AccountRoute,
+  ConnectRoute: ConnectRoute,
   IndonesiaTravelCostsRoute: IndonesiaTravelCostsRoute,
   LoginRoute: LoginRoute,
   OgDotjpgRoute: OgDotjpgRoute,

@@ -163,6 +163,11 @@ function FooterBar() {
                 </a>
               </li>
               <li>
+                <a href="/connect" className="text-white/75 hover:text-white transition-colors">
+                  Use in ChatGPT &amp; Claude
+                </a>
+              </li>
+              <li>
                 <a href="/trips" className="text-white/75 hover:text-white transition-colors">
                   All itineraries
                 </a>

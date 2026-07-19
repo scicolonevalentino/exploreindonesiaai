@@ -4,7 +4,7 @@
 // typography, card anatomy) — the only difference is that the trip here is
 // generated live and the Book links are real affiliate deep links.
 
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics-events";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
+import { OpenAIIcon, ClaudeIcon } from "@/components/BrandIcons";
 import { downloadItineraryPdf } from "@/lib/trip/pdf";
 import { ANON_GENERATION_LIMIT, DAILY_GENERATION_LIMIT } from "@/lib/trip/limits";
 import { capturePrompt } from "@/lib/prompt-capture";
@@ -733,6 +734,30 @@ function InputStage({
             </button>
           </div>
         </div>
+
+        {/* Cross-surface hook: the same trip planner is also a remote MCP
+            connector, so people can plan inside ChatGPT or Claude and get real
+            bookable links back. Quiet, left-aligned under the card so it never
+            competes with the primary "Assemble my trip" CTA. */}
+        <p className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs sm:text-[13px] text-white/70">
+          <span>Also works inside</span>
+          <span className="inline-flex items-center gap-1 font-medium text-white/90">
+            <OpenAIIcon className="h-4 w-4" />
+            ChatGPT
+          </span>
+          <span className="text-white/40">and</span>
+          <span className="inline-flex items-center gap-1 font-medium text-white/90">
+            <ClaudeIcon className="h-4 w-4" />
+            Claude
+          </span>
+          <Link
+            to="/connect"
+            onClick={() => trackEvent("connect_link_click", { source: "input_card" })}
+            className="inline-flex items-center gap-1 font-semibold underline underline-offset-2 decoration-white/40 hover:decoration-white text-white transition-colors"
+          >
+            Connect it <span aria-hidden>→</span>
+          </Link>
+        </p>
       </section>
     </div>
   );
