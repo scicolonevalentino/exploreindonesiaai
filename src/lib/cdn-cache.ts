@@ -9,18 +9,23 @@
 // fresh for the end user's own browser.
 //
 // Call near the END of a route loader (after notFound checks, before return).
-// `@tanstack/react-start/server` is server-only — the client bundle rejects a
-// static import of it. So the import is DYNAMIC and lives inside the SSR guard:
-// in the client build `import.meta.env.SSR` is statically false, the function
-// returns first, and the dead branch (with the import) is eliminated entirely.
-// On the client `setResponseHeader` -> getH3Event() would throw anyway (no server
-// event); the try/catch is a belt-and-braces guard so a header tweak never 500s.
-export async function setCdnCache(seconds = 300) {
-  if (!import.meta.env.SSR) return;
-  try {
-    const { setResponseHeader } = await import("@tanstack/react-start/server");
-    setResponseHeader("Cache-Control", `public, max-age=0, s-maxage=${seconds}, must-revalidate`);
-  } catch {
-    /* no-op: keep rendering even if the header can't be set */
-  }
-}
+//
+// `@tanstack/react-start/server` is server-only, and route modules are part of
+// the client bundle, so a plain import of it from here is rejected by Vite's
+// import-protection plugin. A dynamic import inside an `import.meta.env.SSR`
+// guard does NOT help: import-protection analyses statically and never sees the
+// dead branch get eliminated, so it errors anyway (a full-screen dev overlay on
+// every page). `createIsomorphicFn` is the supported way to say this: the client
+// build keeps only the `.client()` branch and drops the server import with it.
+import { createIsomorphicFn } from "@tanstack/react-start";
+import { setResponseHeader } from "@tanstack/react-start/server";
+
+export const setCdnCache = createIsomorphicFn()
+  .server((seconds: number = 300) => {
+    try {
+      setResponseHeader("Cache-Control", `public, max-age=0, s-maxage=${seconds}, must-revalidate`);
+    } catch {
+      /* no-op: keep rendering even if the header can't be set */
+    }
+  })
+  .client(() => {});
