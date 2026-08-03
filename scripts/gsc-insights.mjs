@@ -33,7 +33,13 @@ function envFromFile() {
         .filter((l) => l.includes("=") && !l.trim().startsWith("#"))
         .map((l) => {
           const i = l.indexOf("=");
-          return [l.slice(0, i).trim(), l.slice(i + 1).trim().replace(/^["']|["']$/g, "")];
+          return [
+            l.slice(0, i).trim(),
+            l
+              .slice(i + 1)
+              .trim()
+              .replace(/^["']|["']$/g, ""),
+          ];
         }),
     );
   } catch {
@@ -277,7 +283,9 @@ if (!cannibal.length) {
     say(`- **${q}** (${rs.reduce((a, r) => a + r.impressions, 0).toFixed(0)} impr)`);
     for (const r of rs.sort((a, b) => b.impressions - a.impressions)) {
       // keys = [query, page] — the page is keys[1].
-      say(`    - ${path(r.keys[1])} — ${r.impressions.toFixed(0)} impr, pos ${r.position.toFixed(1)}`);
+      say(
+        `    - ${path(r.keys[1])} — ${r.impressions.toFixed(0)} impr, pos ${r.position.toFixed(1)}`,
+      );
     }
   }
 }
