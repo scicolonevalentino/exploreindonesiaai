@@ -10,7 +10,7 @@ const MCP_URL = "https://exploreindonesia.ai/api/mcp";
 
 const TITLE = "Connect ExploreIndonesia to ChatGPT & Claude (MCP Connector)";
 const DESCRIPTION =
-  "Plan Indonesia trips inside ChatGPT or Claude and get real, bookable itinerary links back. Add the ExploreIndonesia MCP connector in a couple of clicks. Here's how.";
+  "Plan Indonesia trips inside ChatGPT or Claude and get real, bookable itinerary links back. Add the ExploreIndonesia MCP connector in a couple of clicks.";
 const URL = "https://exploreindonesia.ai/connect";
 
 const FAQS: Array<{ question: string; answer: string }> = [
@@ -102,7 +102,10 @@ function Step({ n, title, children }: { n: number; title: string; children: Reac
         <p className="font-semibold" style={{ color: "var(--navy-deep)" }}>
           {title}
         </p>
-        <div className="mt-1 text-sm sm:text-base leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+        <div
+          className="mt-1 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
           {children}
         </div>
       </div>
@@ -133,7 +136,10 @@ function GuideCard({
         >
           {icon}
         </span>
-        <h2 className="font-serif text-xl sm:text-2xl font-semibold" style={{ color: "var(--navy-deep)" }}>
+        <h2
+          className="font-serif text-xl sm:text-2xl font-semibold"
+          style={{ color: "var(--navy-deep)" }}
+        >
           {name}
         </h2>
         {badge && (
@@ -197,8 +203,8 @@ function ConnectPage() {
             Use ExploreIndonesia inside ChatGPT and Claude
           </h1>
           <p className="mt-5 text-white/85 text-base sm:text-lg leading-relaxed">
-            Add our connector once, then plan any Indonesia trip in the assistant you already use, and
-            get real, bookable stays, tours, transfers and eSIMs back, not just suggestions.
+            Add our connector once, then plan any Indonesia trip in the assistant you already use,
+            and get real, bookable stays, tours, transfers and eSIMs back, not just suggestions.
           </p>
           <div className="mt-6 flex items-center gap-4 text-white/80">
             <span className="inline-flex items-center gap-1.5 text-sm font-medium">
@@ -215,10 +221,16 @@ function ConnectPage() {
       <main className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
         {/* Connector URL */}
         <section className="mb-12">
-          <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-2" style={{ color: "var(--navy-deep)" }}>
+          <h2
+            className="font-serif text-2xl sm:text-3xl font-semibold mb-2"
+            style={{ color: "var(--navy-deep)" }}
+          >
             The connector URL
           </h2>
-          <p className="mb-4 text-sm sm:text-base leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+          <p
+            className="mb-4 text-sm sm:text-base leading-relaxed"
+            style={{ color: "var(--slate-muted)" }}
+          >
             You'll paste this remote MCP server URL into ChatGPT or Claude. Copy it, then follow the
             steps below for your assistant.
           </p>
@@ -235,15 +247,24 @@ function ConnectPage() {
             borderLeft: "4px solid var(--gold-warm)",
           }}
         >
-          <h2 className="font-serif text-lg sm:text-xl font-semibold mb-2" style={{ color: "var(--navy-deep)" }}>
+          <h2
+            className="font-serif text-lg sm:text-xl font-semibold mb-2"
+            style={{ color: "var(--navy-deep)" }}
+          >
             Turn on all three tools
           </h2>
-          <p className="text-sm sm:text-base leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+          <p
+            className="text-sm sm:text-base leading-relaxed"
+            style={{ color: "var(--slate-muted)" }}
+          >
             When you add the connector, keep <strong>every tool enabled</strong>. The booking links
-            only appear when the assistant is allowed to run all three: one finds the trip, the other
-            two turn it into real, bookable links.
+            only appear when the assistant is allowed to run all three: one finds the trip, the
+            other two turn it into real, bookable links.
           </p>
-          <ul className="mt-4 space-y-2 text-sm sm:text-base" style={{ color: "var(--slate-muted)" }}>
+          <ul
+            className="mt-4 space-y-2 text-sm sm:text-base"
+            style={{ color: "var(--slate-muted)" }}
+          >
             <li>
               <strong style={{ color: "var(--navy-deep)" }}>Search Indonesia itineraries</strong>:
               finds curated trips that match your plan.
@@ -253,13 +274,15 @@ function ConnectPage() {
               turns a whole plan into bookable stays, tours, transfers and eSIMs.
             </li>
             <li>
-              <strong style={{ color: "var(--navy-deep)" }}>Get booking links for an activity</strong>:{" "}
-              pulls the booking link for a single item.
+              <strong style={{ color: "var(--navy-deep)" }}>
+                Get booking links for an activity
+              </strong>
+              : pulls the booking link for a single item.
             </li>
           </ul>
           <p className="mt-4 text-sm leading-relaxed" style={{ color: "var(--slate-muted)" }}>
-            If your assistant asks whether to allow a tool, choose <strong>Allow</strong> (or “always
-            allow”) so it doesn't stop halfway.
+            If your assistant asks whether to allow a tool, choose <strong>Allow</strong> (or
+            “always allow”) so it doesn't stop halfway.
           </p>
         </section>
 
@@ -267,18 +290,20 @@ function ConnectPage() {
         <div className="space-y-8">
           <GuideCard icon={<ClaudeIcon className="h-5 w-5" />} name="Add it in Claude">
             <Step n={1} title="Open Connectors settings">
-              In Claude (claude.ai or the desktop app), go to <strong>Settings → Connectors</strong>.
+              In Claude (claude.ai or the desktop app), go to <strong>Settings → Connectors</strong>
+              .
             </Step>
             <Step n={2} title="Add a custom connector">
               Click <strong>Add custom connector</strong>, then paste the URL:{" "}
               <code style={{ color: "var(--navy-deep)" }}>{MCP_URL}</code>
             </Step>
             <Step n={3} title="Sign in to authorize">
-              Approve the connection and sign in with the 6-digit email code when prompted. This only
-              authorizes access to public trip content.
+              Approve the connection and sign in with the 6-digit email code when prompted. This
+              only authorizes access to public trip content.
             </Step>
             <Step n={4} title="Enable all three tools">
-              Make sure all three tools are switched on (<strong>Search Indonesia itineraries</strong>,{" "}
+              Make sure all three tools are switched on (
+              <strong>Search Indonesia itineraries</strong>,{" "}
               <strong>Make an itinerary bookable</strong> and{" "}
               <strong>Get booking links for an activity</strong>), so the booking links actually
               appear.
@@ -320,7 +345,10 @@ function ConnectPage() {
 
         {/* FAQ */}
         <section className="mt-16">
-          <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6" style={{ color: "var(--navy-deep)" }}>
+          <h2
+            className="font-serif text-2xl sm:text-3xl font-semibold mb-6"
+            style={{ color: "var(--navy-deep)" }}
+          >
             Questions
           </h2>
           <div className="space-y-6">
@@ -329,7 +357,10 @@ function ConnectPage() {
                 <p className="font-semibold" style={{ color: "var(--navy-deep)" }}>
                   {f.question}
                 </p>
-                <p className="mt-1 text-sm sm:text-base leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+                <p
+                  className="mt-1 text-sm sm:text-base leading-relaxed"
+                  style={{ color: "var(--slate-muted)" }}
+                >
                   {f.answer}
                 </p>
               </div>

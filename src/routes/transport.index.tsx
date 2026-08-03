@@ -55,7 +55,7 @@ function RouteCard({ r }: { r: TransportRoute }) {
 export const Route = createFileRoute("/transport/")({
   head: () => {
     const url = "https://exploreindonesia.ai/transport";
-    const title = "Getting around Indonesia: routes & transport | ExploreIndonesia.ai";
+    const title = "Getting around Indonesia: routes & transport";
     const description =
       "Island-hopping made simple: how to travel between Indonesia's islands and hubs, with journey times and working price estimates.";
     return {

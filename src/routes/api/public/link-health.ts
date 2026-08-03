@@ -82,9 +82,22 @@ function guessPartner(url: string) {
   }
   return null;
 }
+// Affiliate link shorteners (Travelpayouts' tpx.lu, used for both Klook and
+// Airalo) exist precisely to redirect onto the merchant's own domain, and they
+// append the affiliate params during that hop. So a domain change out of one is
+// expected, not a misconfigured link.
+const AFFILIATE_REDIRECTORS = ["tpx.lu"];
+function isAffiliateRedirector(h: string | null) {
+  return !!h && AFFILIATE_REDIRECTORS.includes(stripDomain(h));
+}
 function hasAffiliateMarker(url: string, partner: string | null) {
-  if (!partner || !AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS]) return true;
-  return AFFILIATE_MARKERS[partner as keyof typeof AFFILIATE_MARKERS].some((m) => url.includes(m));
+  // Partner names come from the CMS and are inconsistently cased ("Klook",
+  // "klook", "Booking.com"), so match case-insensitively — otherwise the whole
+  // check silently no-ops on every capitalised entry.
+  const markers =
+    partner && AFFILIATE_MARKERS[partner.toLowerCase() as keyof typeof AFFILIATE_MARKERS];
+  if (!markers) return true;
+  return markers.some((m) => url.includes(m));
 }
 
 type Link = {
@@ -240,12 +253,19 @@ async function runAudit() {
         fromHost &&
         finalHost &&
         stripDomain(fromHost) !== stripDomain(finalHost) &&
-        !(stripDomain(fromHost) === "tpx.lu" && stripDomain(finalHost) === "airalo.com")
+        !isAffiliateRedirector(fromHost)
       ) {
         flags.push(`redirect-domain-change:${finalHost}`);
       }
     }
-    if (l.expectedPartner && !hasAffiliateMarker(l.url, l.expectedPartner)) {
+    // A shortlink (klook.tpx.lu/…) carries no affiliate params until AFTER the
+    // redirect, so only flag when the marker is missing from BOTH the stored
+    // URL and the resolved one.
+    if (
+      l.expectedPartner &&
+      !hasAffiliateMarker(l.url, l.expectedPartner) &&
+      !hasAffiliateMarker(r.finalUrl ?? "", l.expectedPartner)
+    ) {
       flags.push("missing-affiliate-params");
     }
     return { ...l, check: r, flags };

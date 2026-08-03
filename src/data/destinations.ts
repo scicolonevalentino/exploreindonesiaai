@@ -19,7 +19,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "bali",
     name: "Bali",
     shortName: "Bali",
-    metaTitle: "Bali itineraries, bookable AI trip plans | ExploreIndonesia.ai",
+    metaTitle: "Bali itineraries, bookable AI trip plans",
     metaDescription:
       "Hand-picked Bali itineraries, from short escapes to two-week routes through Ubud, Canggu, Uluwatu and the east. Turn any plan into a bookable trip.",
     intro:
@@ -31,7 +31,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "bali_nearby_islands",
     name: "Bali + Nearby Islands",
     shortName: "Bali & Islands",
-    metaTitle: "Bali + Nusa Islands itineraries | ExploreIndonesia.ai",
+    metaTitle: "Bali + Nusa Islands itineraries, Penida, Lembongan, Gili",
     metaDescription:
       "Pair Bali with Nusa Penida, Nusa Lembongan and Gili, itineraries designed for island-hopping with bookable ferries, stays, and snorkel tours.",
     intro:
@@ -43,7 +43,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "java",
     name: "Java",
     shortName: "Java",
-    metaTitle: "Java itineraries, Yogyakarta, Bromo & Ijen | ExploreIndonesia.ai",
+    metaTitle: "Java itineraries, Yogyakarta, Bromo & Ijen",
     metaDescription:
       "Java trip plans covering Yogyakarta, Borobudur, Prambanan, Mount Bromo and the Ijen blue flames. Bookable day-by-day routes.",
     intro:
@@ -60,7 +60,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "komodo_flores",
     name: "Komodo & Flores",
     shortName: "Komodo & Flores",
-    metaTitle: "Komodo & Flores itineraries, boats, dragons, dives | ExploreIndonesia.ai",
+    metaTitle: "Komodo & Flores itineraries, boats, dragons, dives",
     metaDescription:
       "Multi-day Komodo boat trips, Flores overland routes, and dive itineraries. Every plan is structured day by day and ready to book.",
     intro:
@@ -72,7 +72,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "lombok_gili",
     name: "Lombok & Gili Islands",
     shortName: "Lombok & Gili",
-    metaTitle: "Lombok & Gili Islands itineraries | ExploreIndonesia.ai",
+    metaTitle: "Lombok & Gili Islands itineraries, Rinjani to reefs",
     metaDescription:
       "Surf Lombok's south coast, climb Mount Rinjani, and unwind on the Gili Islands. Bookable, day-by-day Indonesia trip plans.",
     intro:
@@ -84,7 +84,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "sumatra",
     name: "Sumatra",
     shortName: "Sumatra",
-    metaTitle: "Sumatra itineraries, Orangutans, jungle, Lake Toba | ExploreIndonesia.ai",
+    metaTitle: "Sumatra itineraries, orangutans, jungle, Lake Toba",
     metaDescription:
       "Bukit Lawang orangutan trekking, Lake Toba, and remote Sumatran jungle routes. Bookable Indonesia itineraries.",
     intro:
@@ -96,7 +96,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "raja_ampat",
     name: "Raja Ampat",
     shortName: "Raja Ampat",
-    metaTitle: "Raja Ampat itineraries, diving & liveaboards | ExploreIndonesia.ai",
+    metaTitle: "Raja Ampat itineraries, diving & liveaboards",
     metaDescription:
       "Raja Ampat diving itineraries and liveaboard routes through the world's richest reefs. Plan and book your trip day by day.",
     intro:
@@ -108,7 +108,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "wild_indonesia",
     name: "Wild Indonesia",
     shortName: "Wild Indonesia",
-    metaTitle: "Off-the-beaten-path Indonesia itineraries | ExploreIndonesia.ai",
+    metaTitle: "Off-the-beaten-path Indonesia itineraries",
     metaDescription:
       "Remote and offbeat Indonesia routes, Sulawesi, Maluku, Papua. For travellers who want the archipelago beyond Bali.",
     intro:

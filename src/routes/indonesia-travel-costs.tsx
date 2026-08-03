@@ -6,7 +6,7 @@ import { setCdnCache } from "@/lib/cdn-cache";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
-const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown by Travel Style";
+const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown";
 const DESCRIPTION =
   "How much does Indonesia cost in 2026? Real daily budgets for backpackers, mid-range and comfortable travelers: accommodation, food, transport and activities.";
 const URL = "https://exploreindonesia.ai/indonesia-travel-costs";
