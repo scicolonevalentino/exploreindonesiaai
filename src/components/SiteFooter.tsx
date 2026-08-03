@@ -158,7 +158,13 @@ function FooterBar() {
             <p className="font-semibold text-white mb-4">Plan</p>
             <ul className="space-y-2.5">
               <li>
-                <a href="/p1" className="text-white/75 hover:text-white transition-colors">
+                {/* noindex page: rel=nofollow so a site-wide link doesn't point
+                    crawlers at something that can never rank. */}
+                <a
+                  href="/p1"
+                  rel="nofollow"
+                  className="text-white/75 hover:text-white transition-colors"
+                >
                   Trip planner
                 </a>
               </li>
@@ -173,12 +179,25 @@ function FooterBar() {
                 </a>
               </li>
               <li>
+                <a
+                  href="/destinations"
+                  className="text-white/75 hover:text-white transition-colors"
+                >
+                  All destinations
+                </a>
+              </li>
+              <li>
                 <a href="/transport" className="text-white/75 hover:text-white transition-colors">
                   Getting around
                 </a>
               </li>
               <li>
-                <a href="/account" className="text-white/75 hover:text-white transition-colors">
+                {/* noindex page, see above. */}
+                <a
+                  href="/account"
+                  rel="nofollow"
+                  className="text-white/75 hover:text-white transition-colors"
+                >
                   My account
                 </a>
               </li>
