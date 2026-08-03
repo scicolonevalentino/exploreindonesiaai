@@ -10,6 +10,15 @@
 //
 // Call near the END of a route loader (after notFound checks, before return).
 //
+// HOW TO VERIFY IT WORKS — this looks broken in production and is not.
+// Vercel consumes `s-maxage` for its own edge cache and STRIPS it from the
+// Cache-Control it returns, so a live response shows only
+// `public, max-age=0, must-revalidate`. Do not read that as the header failing.
+// Check `x-vercel-cache` instead, and do NOT add a cache-busting query string:
+// a unique URL guarantees a MISS every time and hides the very thing you are
+// testing. Hit the same URL twice — a route calling this goes MISS then HIT
+// with a rising `age`, while a route that does not stays MISS forever.
+//
 // `@tanstack/react-start/server` is server-only, and route modules are part of
 // the client bundle, so a plain import of it from here is rejected by Vite's
 // import-protection plugin. A dynamic import inside an `import.meta.env.SSR`
