@@ -1,0 +1,1688 @@
+{
+  "_id": "itinerary-7-days-komodo-diving",
+  "_type": "article",
+  "title": "7 Days Diving Komodo: A Dive-Led Labuan Bajo Itinerary",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-komodo-diving"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-03T06:14:57Z",
+  "destinationPrimary": "komodo_flores",
+  "travelStylePrimary": "diving_snorkeling",
+  "travelStyleSecondary": [
+    "wildlife_nature"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "travellerTypes": [
+    "divers",
+    "couples",
+    "friends"
+  ],
+  "vibe": "active",
+  "experienceTags": [
+    "diving",
+    "snorkeling",
+    "wildlife",
+    "island_day_trip"
+  ],
+  "bestSeason": "April–November",
+  "route": "Labuan Bajo → Central Komodo dive sites → South Komodo → Labuan Bajo",
+  "focusKeyword": "Komodo diving itinerary",
+  "metaTitle": "Diving Komodo in 7 Days: A Dive-Led Itinerary",
+  "metaDescription": "A dive-led 7-day Komodo itinerary from Labuan Bajo: central and south dive sites, manta season, park fees, the no-fly rule, day-trip vs liveaboard.",
+  "intro": "Most divers arrive in Labuan Bajo with a checklist of famous sites and leave having learned the same lesson: Komodo is not a place you dive on your own schedule, it dives you on the tide's. The current is both the main event and the main risk, so the real planning question is not which sites to hit but in which order and on which day, built around slack water, your logbook and the flight home you must not dive too close to. Seven nights from one base is enough to build up slowly, reach the south, and still fly out safely. Here is how to sequence it.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "m10",
+      "affiliateUrl": "https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3?pid=P00303362&mcid=42383&medium=link&campaign=komodo-diving",
+      "anchorText": "snorkelling trip on the dive boat",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_KOMODO_SNORKEL",
+      "publicUrl": "https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3"
+    },
+    {
+      "_key": "m11",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "m12",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_INDONESIA",
+      "publicUrl": "https://12go.asia"
+    },
+    {
+      "_key": "m13",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F55119-full-day-speedboat-tour-komodo-labuan-bajo%2F",
+      "anchorText": "full-day Komodo speedboat tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_KOMODO_SPEEDBOAT",
+      "publicUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is built for certified divers who want Komodo's current and big animals, for couples or groups of friends where at least one person dives, and for travellers happy to plan around tides and dive-centre schedules rather than a resort timetable. You should be comfortable with early boat starts, some strong current, and disciplined surface intervals between dives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s3",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the trip for a first-time diver who has never dived in current, for a solo non-diver (though a snorkelling partner works well, more on that below), or for anyone unwilling to respect a strict no-fly buffer before departure. It is also wrong for travellers wanting nightlife or a poolside week. Labuan Bajo is a small, logistics-light town, and Komodo rewards divers who plan conservatively and let the sea set the schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "s6",
+          "_type": "span",
+          "marks": [],
+          "text": " 7 days, 6 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo (Komodo Airport, LBJ), one base the whole time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best months to dive:"
+        },
+        {
+          "_key": "s10",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly April to November for calmer seas and visibility, with June to September the most reliable window. Mantas appear year-round but shift by zone. Treat this as a working estimate, conditions change, so check the latest local guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Dive level:"
+        },
+        {
+          "_key": "s12",
+          "_type": "span",
+          "marks": [],
+          "text": " central sites suit Advanced Open Water or experienced Open Water divers who are comfortable in current; some south and channel sites are for experienced divers only."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rough shape:"
+        },
+        {
+          "_key": "s14",
+          "_type": "span",
+          "marks": [],
+          "text": " two central diving days, one land and surface-interval day, one south day, a gentle final morning, then a dry day before flying."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s15",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s16",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic here is current and nitrogen, not geography. Central Komodo (Batu Bolong, Castle Rock, Crystal Rock) offers the strongest, most rewarding current diving and sits closest to Labuan Bajo, so it anchors the early days while you are still reading the tides. The south, with Manta Alley and its cooler cleaning stations, is a longer run in colder water, so it earns a dedicated day once you are diving well. A land day in the middle protects your body and lets a non-diving partner see Padar and the dragons. The final morning is kept deliberately light so your last dive sits well clear of your flight home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s18",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo connects to Bali (Denpasar) in around 1 hour 20 minutes, with several direct flights daily on carriers such as Batik Air and Indonesia AirAsia, from roughly USD 90 one way as a working estimate. Book flexible morning flights and confirm current flight routes before locking hotels, since schedules shift. You can compare and book regional flights and transfers through "
+        },
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [
+            "m1"
+          ],
+          "text": "12Go"
+        },
+        {
+          "_key": "s20",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m1",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s21",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you dive: fees, permits and the pre-booking rule"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [],
+          "text": "Park fees change often and are being restructured, so treat every figure here as a working estimate and check the latest official guidance. As of early 2026, international visitors pay in the region of IDR 250,000 per day for marine park entry, plus a conservation fee around IDR 100,000 and a small harbour fee, with divers adding a modest per-day surcharge on top. A consolidated ticket structure was being introduced and official confirmation was still pending, so ask your dive centre exactly what is bundled into your day rate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s23",
+          "_type": "span",
+          "marks": [],
+          "text": "From April 2026 the park introduced a daily visitor cap (reported at around 1,000 people) and pre-booking through the official SiORA app, with no walk-up tickets. In practice your dive centre handles this for you, which is one more reason to book your diving with an established operator before you arrive rather than shopping on the day. Confirm this is included when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Connectivity."
+        },
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo has patchy signal on the water, and dive plans move with the weather. A local eSIM keeps pickup times, forecasts and messages coordinated. Set up an "
+        },
+        {
+          "_key": "s26",
+          "_type": "span",
+          "marks": [
+            "m2"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "s27",
+          "_type": "span",
+          "marks": [],
+          "text": " before you land so you are online from the airport."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m2",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s28",
+          "_type": "span",
+          "marks": [],
+          "text": "Day-by-day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive Labuan Bajo, settle and gear check"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Komodo Airport from Bali or Jakarta and transfer into town; most dive centres and hotels are a short drive from the strip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s33",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit your dive centre, complete paperwork, sort rental gear, and, if it is offered, do a check dive or gear fitting. Getting your weights and fit right on a calm first day pays off when the current is running later in the week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s35",
+          "_type": "span",
+          "marks": [],
+          "text": " Early dinner on the harbour, and watch the fruit bats stream off Kalong island at dusk if your operator runs a sunset trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s37",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo, all six nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": [],
+          "text": " stay central near the waterfront so you can walk to your dive centre for early briefings, and confirm tomorrow's pickup time and site plan tonight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s40",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: First central dives, easing into the current"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [],
+          "text": " Head out on a central-park day boat, where three dives is standard. Start with gentler sites such as Siaba Besar or Sebayur to reset your buoyancy and get used to Komodo's water before the big channels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s44",
+          "_type": "span",
+          "marks": [],
+          "text": " A second and third dive on moderate sites. Even the easier Komodo sites can carry current, so listen to the briefing and stay with your guide and group."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [],
+          "text": " Log your dives, hydrate and rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": " book central day trips directly with an established PADI dive centre in Labuan Bajo. Scuba day-trips are not something to haggle for on the pier; who briefs you and how many divers share a guide matters more than the headline price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s49",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: The classic central current day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s51",
+          "_type": "span",
+          "marks": [],
+          "text": " The signature Komodo day: Castle Rock and Crystal Rock, submerged pinnacles that pull in reef sharks, trevally and clouds of fish when the current runs. These are drift and hook-in dives timed to slack water and tide, so your guide chooses the window, not you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s53",
+          "_type": "span",
+          "marks": [],
+          "text": " Finish at Batu Bolong, a small rock wrapped in dense coral and life, dived on the sheltered side as the current builds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s55",
+          "_type": "span",
+          "marks": [],
+          "text": " this is demanding diving. Advanced Open Water certification and recent experience in current genuinely matter here, and a good centre will turn you away from these sites if your logbook does not support them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s57",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest properly. Two hard central days back to back is enough before a break."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s58",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Land and surface-interval day, Padar and the dragons"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s60",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a day off the regulator. A full-day speedboat park tour covers Padar Island's viewpoint, the dragons at Komodo or Rinca, and Pink Beach, and it is the day a non-diving partner gets the park too. Book a "
+        },
+        {
+          "_key": "s61",
+          "_type": "span",
+          "marks": [
+            "m3"
+          ],
+          "text": "full-day Komodo speedboat tour"
+        },
+        {
+          "_key": "s62",
+          "_type": "span",
+          "marks": [],
+          "text": " that bundles Padar, the dragons and Pink Beach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m3",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_KOMODO_SPEEDBOAT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Snorkel at Pink Beach or Taka Makassar and let your body offload nitrogen before the south run."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [],
+          "text": " a land and surface day in the middle of the week is a safety choice as much as a sightseeing one. It resets your nitrogen loading before the coldest, deepest day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s68",
+          "_type": "span",
+          "marks": [],
+          "text": " Pack a warmer layer or a thicker wetsuit for tomorrow; south Komodo water is noticeably colder."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: South Komodo, mantas and cooler water"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s71",
+          "_type": "span",
+          "marks": [],
+          "text": " A long run south to sites such as Manta Alley. In season this is the manta day (broadly November to March in the south, with central cleaning stations active over a wider window). Currents and thermoclines are stronger and colder here, which is exactly why it waits until day five, once you are diving confidently."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s73",
+          "_type": "span",
+          "marks": [],
+          "text": " A second south dive if conditions allow, then the long ride back to Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [],
+          "text": " the south is weather-dependent. If the crossing is rough, your operator may swap to central sites, and that is the right call, not a downgrade. Tomorrow is a deliberately gentle final morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s76",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s77",
+          "_type": "span",
+          "marks": [],
+          "text": " Warm up, eat well and rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s78",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Final gentle dives, then stop for the flight home"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [],
+          "text": " Two relaxed central dives on forgiving sites, for example Siaba or Sebayur again, or a central manta cleaning station if the mantas are around. Keep them shallow and easy. This is a leave-the-tank-happy morning, not a place to push depth."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s81",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s82",
+          "_type": "span",
+          "marks": [],
+          "text": " Stop diving. This is the single most important rule of a Komodo trip: leave a generous no-fly buffer. After several days of repeated diving, allow at least 18 to 24 hours before flying, and treat 24 hours as the safer target. Spend the afternoon dry, rinse your kit and settle the dive-centre bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s84",
+          "_type": "span",
+          "marks": [],
+          "text": " Farewell dinner on the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s86",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm your day-seven flight time and airport transfer tonight, and make sure your last dive ends comfortably more than 24 hours before wheels-up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s87",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Fly out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s89",
+          "_type": "span",
+          "marks": [],
+          "text": " A slow morning with no water: coffee on the harbour and any last errands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s91",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly back to Bali or onward. Book a midday or afternoon flight so your final dive on day six sits comfortably beyond a 24-hour buffer, and confirm current flight routes before locking anything."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s92",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s93",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "s94",
+          "_type": "span",
+          "marks": [],
+          "text": " your dive centre and the diving days themselves, since established Labuan Bajo PADI centres fill in peak season and they handle your park pre-booking through SiORA; your central hotel for all six nights; and your Bali to Labuan Bajo flights, ideally flexible morning ones."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "s96",
+          "_type": "span",
+          "marks": [],
+          "text": " which exact sites you dive each day, because that is the tide's decision and your guide's, not yours; the south day, which weather may move; and a possible liveaboard upgrade if you decide on the ground that you want more remote sites."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s98",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut to 5 days:"
+        },
+        {
+          "_key": "s99",
+          "_type": "span",
+          "marks": [],
+          "text": " drop the south day and one central day. You still get Komodo's signature central diving, which is what most people came for. If you want the land-first version of a shorter trip, our "
+        },
+        {
+          "_key": "s100",
+          "_type": "span",
+          "marks": [
+            "m4"
+          ],
+          "text": "5-day Labuan Bajo and Komodo itinerary"
+        },
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the park by day boat rather than by dive tank."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m4",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-labuan-bajo-komodo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade to a liveaboard:"
+        },
+        {
+          "_key": "s103",
+          "_type": "span",
+          "marks": [],
+          "text": " if the south and remote sites are the whole point for you, swap two or three day-boat days for a liveaboard. As a working estimate, a Komodo liveaboard runs roughly USD 150 per night at the budget end to USD 500 or more for a luxury phinisi, with a four-day trip commonly landing around USD 600 to 1,600 per person; prices change and depend on cabin and season. A liveaboard reaches south and northern sites without the daily long runs, but you give up the land day and the flexible base."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt for a non-diving partner:"
+        },
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [],
+          "text": " a snorkeller can join many dive boats or take the park speedboat tour. A "
+        },
+        {
+          "_key": "s106",
+          "_type": "span",
+          "marks": [
+            "m5"
+          ],
+          "text": "snorkelling trip on the dive boat"
+        },
+        {
+          "_key": "s107",
+          "_type": "span",
+          "marks": [],
+          "text": " lets a couple share the same days on the water."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m5",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_KOMODO_SNORKEL"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes divers make in Komodo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s109",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the current."
+        },
+        {
+          "_key": "s110",
+          "_type": "span",
+          "marks": [],
+          "text": " Komodo is drift and hook diving, not a gentle reef holiday. Book with a centre that briefs properly and dive within your certification and recent experience."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Diving too close to the flight."
+        },
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [],
+          "text": " The most common serious mistake. A last dive on the morning of departure is a decompression-illness risk. Build the buffer in and treat 24 hours as your target."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Over-shopping on price."
+        },
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [],
+          "text": " The cheapest boat is rarely the best run in strong current. Judge operators on group size, guide ratios and safety kit, not the headline number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s115",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ignoring the cold south."
+        },
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [],
+          "text": " Divers pack for the tropics and then freeze at Manta Alley. Bring or rent a thicker wetsuit, and a hood if you feel the cold, for the south day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leaving park pre-booking to chance."
+        },
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [],
+          "text": " With the SiORA cap in place, walking up no longer works. Let your dive centre handle permits in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Get current before you go."
+        },
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [],
+          "text": " If your logbook is thin or you have not dived in a while, do a refresher and a couple of easy dives before Komodo, because this is not the place to shake off rust in strong current."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s122",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Match the season to what you want."
+        },
+        {
+          "_key": "s123",
+          "_type": "span",
+          "marks": [],
+          "text": " Broadly, June to September gives the best visibility and calmest seas; the shoulder months around April to May and September to October balance conditions and crowds; and manta timing shifts between the south and central zones through the year. Treat these as working patterns, not guarantees, and ask your dive centre what has been diving well that week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget realistically."
+        },
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [],
+          "text": " Between flights, six nights, several day-boat trips or a liveaboard, park and dive fees and gear, a week of Komodo diving is a mid-to-high budget trip by Indonesian standards. Cost it out before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s126",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [],
+          "text": "Komodo is one of the strongest current-diving weeks in Southeast Asia, and seven nights from a single Labuan Bajo base is the honest amount of time to dive it well without rushing. Build up through the central sites, earn the south, protect one land day, and end dry a full day before you fly. Do that and Komodo delivers the big-animal, high-current diving it is known for. Rush it, dive too close to your flight, or fight the tide instead of planning around it, and you get the version that scares people off. Plan conservatively, and it is one of the best diving trips you can take in Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s129",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want the land-first version of the park, read our "
+        },
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [
+            "m6"
+          ],
+          "text": "5-day Labuan Bajo and Komodo itinerary"
+        },
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [],
+          "text": ". For a longer overland run through Flores, see the "
+        },
+        {
+          "_key": "s132",
+          "_type": "span",
+          "marks": [
+            "m7"
+          ],
+          "text": "10-day Komodo and Flores route"
+        },
+        {
+          "_key": "s133",
+          "_type": "span",
+          "marks": [],
+          "text": ". And if Komodo gives you the taste for remote diving, our "
+        },
+        {
+          "_key": "s134",
+          "_type": "span",
+          "marks": [
+            "m8"
+          ],
+          "text": "14-day Raja Ampat itinerary for divers"
+        },
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [],
+          "text": " is the natural next trip. For more on the region, browse the "
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [
+            "m9"
+          ],
+          "text": "Komodo and Flores destination guide"
+        },
+        {
+          "_key": "s137",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m6",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-labuan-bajo-komodo"
+        },
+        {
+          "_key": "m7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-komodo-flores"
+        },
+        {
+          "_key": "m8",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-raja-ampat-divers"
+        },
+        {
+          "_key": "m9",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/komodo-flores"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "The central sites suit Advanced Open Water or experienced Open Water divers who are comfortable in current, and some south and channel sites are for experienced divers only. If your logbook is thin, do a refresher first and tell your dive centre honestly, because Komodo's currents are not the place to learn. Use this as a general guide only and let your operator match sites to your experience.",
+      "question": "Do I need to be an advanced diver to dive Komodo?"
+    },
+    {
+      "answer": "Broadly the dry season from around April to November, with June to September giving the most reliable visibility and calm seas. Mantas appear year-round but shift zones, roughly favouring the south from November to March. Treat these as working patterns and check current local guidance, since conditions change.",
+      "question": "When is the best time to dive Komodo?"
+    },
+    {
+      "answer": "After several days of repeated diving, allow at least 18 to 24 hours before flying, and treat 24 hours as the safer target. Build your last dives into day six of a seven-day trip and book an afternoon flight home. This is a safety rule, not a suggestion.",
+      "question": "How long before flying should I stop diving in Komodo?"
+    },
+    {
+      "answer": "As a working estimate, a three-dive day trip from Labuan Bajo runs roughly IDR 2,600,000 to 3,300,000 (around USD 165 to 210) including gear and lunch, while liveaboards range from about USD 150 per night for budget cabins to USD 500 or more for luxury boats. Park and diver fees are extra or bundled depending on the operator. Prices change, so confirm current rates when you book.",
+      "question": "How much does diving in Komodo cost?"
+    },
+    {
+      "answer": "Day trips from a Labuan Bajo base give flexibility, a land day and cheaper nights, and are ideal for a first Komodo week. A liveaboard reaches the south and northern sites without long daily runs and suits divers focused purely on remote diving, at a higher price. Many divers do day trips first and a liveaboard on a return visit.",
+      "question": "Should I do day trips or a liveaboard in Komodo?"
+    },
+    {
+      "answer": "Yes. A snorkelling partner can join many dive boats or take a full-day park speedboat tour to Padar, the dragons and Pink Beach on the same days you dive. Base yourselves together in Labuan Bajo and share the surface-interval and land days.",
+      "question": "Can a non-diver join this trip?"
+    },
+    {
+      "answer": "As of 2026 the park has a daily visitor cap and pre-booking through the official SiORA app, with no walk-up tickets reported. In practice an established dive centre handles this for you, which is a good reason to book your diving before you arrive. Confirm the latest official requirements close to your trip.",
+      "question": "Do I need to pre-book Komodo National Park in advance?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Scuba diver over a coral reef in Komodo National Park, Labuan Bajo",
+    "asset": {
+      "_ref": "image-be38472062470d44a5ba892002708e6f73576494-1024x768-jpg",
+      "_type": "reference"
+    }
+  }
+}

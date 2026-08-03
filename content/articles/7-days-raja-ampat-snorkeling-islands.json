@@ -1,0 +1,1523 @@
+{
+  "_id": "itinerary-7-days-raja-ampat-snorkeling-islands",
+  "_type": "article",
+  "title": "7 Days in Raja Ampat: Snorkelling, Islands and Karst",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-raja-ampat-snorkeling-islands"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-13T16:00:00.000Z",
+  "destinationPrimary": "raja_ampat",
+  "destinationSecondary": [],
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": [
+    "beach_islands",
+    "diving_snorkeling"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "remote",
+  "experienceTags": [
+    "snorkeling",
+    "islands",
+    "wildlife",
+    "remote",
+    "karst",
+    "local_villages"
+  ],
+  "bestSeason": "October–April",
+  "route": "Sorong → Waisai → Gam / Mansuar / Kri → Piaynemo → Sorong",
+  "focusKeyword": "Raja Ampat itinerary",
+  "metaTitle": "7 Days in Raja Ampat: A Snorkelling Itinerary",
+  "metaDescription": "A decision-led 7-day Raja Ampat itinerary for snorkellers, no diving needed: Cape Kri, Manta Sandy, Arborek and Piaynemo. What to book, what to skip.",
+  "intro": "Raja Ampat is sold as a divers' destination, which quietly excludes everyone else. This decision-led 7-day route is built for snorkellers and island lovers: world-class jetty reefs, mantas from the surface, the Piaynemo karst and a dawn bird of paradise, from one homestay base, with no diving needed.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Sorong to Waisai ferry",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "TWELVEGO_SORONG_WAISAI"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k0",
+          "_type": "span",
+          "marks": [],
+          "text": "Raja Ampat is sold as a divers' destination, and that framing quietly excludes most travellers. The reality is that the snorkelling straight off the homestay jetties here is among the best on earth, and you do not need a single scuba certification to see reef sharks, turtles, manta rays and walls of fish. This seven-day trip is built for snorkellers and island lovers who want the most biodiverse reefs on the planet without strapping on a tank."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "This is for snorkellers, couples, friends and solo travellers who are comfortable in the water and want marine life over nightlife. You should be an easy swimmer, happy to spend hours with a mask on, and relaxed about simple homestays without air-con or reliable wifi. If that sounds like your kind of week, almost nowhere rewards it like Raja Ampat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for non-swimmers, for travellers who need comfort and connectivity, or for anyone on a tight budget once the flights and the marine park fee are counted. Committed scuba divers should take the longer, dive-focused route instead, where the deeper sites and surface intervals are the point. And if a few hours on a small boat in open water unsettles you, this is not your trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ki",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ka",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [],
+          "text": " 7 days, 6 nights. "
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "kd",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong (SOQ). "
+        },
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " snorkellers, couples, island lovers. "
+        },
+        {
+          "_key": "kg",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [],
+          "text": " non-swimmers, comfort-seekers, dedicated divers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kt",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kj",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [],
+          "text": " remote and water-focused, one homestay base. "
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "km",
+          "_type": "span",
+          "marks": [],
+          "text": " mid to high, driven by the Sorong flights, the marine park fee and homestays. "
+        },
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " hard, ferry and boat dependent. "
+        },
+        {
+          "_key": "kp",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [],
+          "text": " October to April. "
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "ks",
+          "_type": "span",
+          "marks": [],
+          "text": " high, the homestay, permit and flights all want booking early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ku",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kv",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kx",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [],
+          "text": "Almost everything you have seen of Raja Ampat sits in the Dampier Strait, the stretch of water between Waisai, Gam, Mansuar and Kri where the famous sites cluster. Basing in one homestay there, rather than packing up every night, is the whole logic of a short trip. You keep boat times short, you let the tides set each day, and you do not lose half the week in transit. You fly into Sorong, take the ferry to Waisai, and settle. The only long run is the day out to Piaynemo, and that one earns its early start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you fly: data and cash"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "Set up an "
+        },
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [
+            "k11"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": " before you travel, but know that signal is patchy in the islands and many homestays have none, so treat the connected days as Sorong and the journey. More importantly, draw out enough cash on the mainland for the whole trip. There are no ATMs in the islands and homestays, boats and the park fee are all cash only."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k11",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Sorong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Sorong, the mainland gateway, usually via Jakarta, Makassar or Manado. There is no way to reach the islands the same day you arrive from far away, so treat this as a positioning night, not a sightseeing one. "
+        },
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1a",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat well and sleep near the ferry port. "
+        },
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [],
+          "text": " a simple Sorong hotel for one night. "
+        },
+        {
+          "_key": "k1d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1e",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm tomorrow's ferry time and draw your cash today, since ATMs here are far more reliable than anything you will find onward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ferry to Waisai and settle into your homestay"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1j",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the ferry from Sorong to Waisai, around two hours, then a local boat to your homestay around Gam, Mansuar or Kri. Book the "
+        },
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "k1k"
+          ],
+          "text": "Sorong to Waisai ferry"
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " ahead in peak season. "
+        },
+        {
+          "_key": "k1n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "On arrival at Waisai."
+        },
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [],
+          "text": " Pay the marine park fees, which run to roughly Rp 1,000,000 (about $65) per person across the permit and visitor ticket as a working estimate. Fees can change, so check the latest official guidance, and keep the physical card since guides check it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1k",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_SORONG_WAISAI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle in, swim off the jetty and adjust to the slow rhythm. "
+        },
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1t",
+          "_type": "span",
+          "marks": [],
+          "text": " one homestay for five nights. "
+        },
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [],
+          "text": " book the homestay directly, months ahead, because beds are few and the good ones fill fast. "
+        },
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [],
+          "text": " there is no anonymous transfer desk here; your homestay arranges the boat from Waisai, so confirm the pickup before you leave the mainland."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Your house reef and Cape Kri"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [],
+          "text": " Ease in on the home reef, which in Raja Ampat often means turtles, reef sharks and clouds of fish a few fin-kicks from the jetty. "
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [],
+          "text": " A short boat to Cape Kri, one of the richest snorkels in the region, timed to the tide so the current carries the fish to you rather than dragging you along. "
+        },
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset and a homestay dinner. "
+        },
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [],
+          "text": " every snorkel trip is arranged through your homestay, not a platform, so agree the day's plan and the boat fuel cost the night before. "
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2a",
+          "_type": "span",
+          "marks": [],
+          "text": " currents build fast here; snorkel with the tide, not against it, and follow your boatman's timing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Manta Sandy and Arborek jetty"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2f",
+          "_type": "span",
+          "marks": [],
+          "text": " Manta Sandy, a shallow cleaning station where reef mantas circle, is one of the rare places snorkellers watch mantas from the surface. They pass year-round and peak December to February. "
+        },
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": " Arborek village, where the snorkelling under the wooden jetty, giant clams, schooling jackfish and soft coral, is some of the easiest and richest water time in Raja Ampat. Buying a meal or a woven hat here supports the community directly. "
+        },
+        {
+          "_key": "k2i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [],
+          "text": " Manta Sandy has a rope line snorkellers stay behind so the mantas keep coming; your guide will show you where."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2m",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Piaynemo viewpoint and Fam snorkelling"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [],
+          "text": " The longer run of the week, roughly 90 minutes by boat out to Piaynemo, where a wooden staircase climbs to the viewpoint over a maze of jade lagoons and mushroom-shaped karst. Go early to beat the day boats and the heat. "
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2q",
+          "_type": "span",
+          "marks": [],
+          "text": " On the way back, snorkel Melissa's Garden in the nearby Fam islands, a shallow coral garden in clear water. "
+        },
+        {
+          "_key": "k2r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": " A full day on the water, so eat early and rest. "
+        },
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the day most worth confirming with your homestay in advance, since it needs more fuel and an early start. "
+        },
+        {
+          "_key": "k2v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [],
+          "text": " there is no shade on the boat, so bring sun cover, water and a dry bag."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2z",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Red bird of paradise at dawn, then a slow day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-dawn."
+        },
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": " Raja Ampat's great land experience: a short trek before sunrise on Gam to a hide where male red birds of paradise display in the treetops from roughly 6:00 to 7:30am. It takes patience and a little luck, but it is the kind of morning you remember. "
+        },
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it deliberately slow, a paddle through the mangroves at high tide, a snorkel on Friwen Wall close to Gam, or a hammock over the water. "
+        },
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " Your last island sunset. "
+        },
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [],
+          "text": " the bird trek is arranged through your homestay, so confirm it on arrival, as the guide and start time vary by island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3a",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Return to Sorong and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [],
+          "text": " Boat back to Waisai and the ferry to Sorong. "
+        },
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect to your onward flight. "
+        },
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [],
+          "text": " weather and the ferry set this schedule, not you, so never book an onward flight tight against the return crossing. Leave a real buffer, and an overnight in Sorong is the safe move if your flight is early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early and firm:"
+        },
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [],
+          "text": " your flights in and out of Sorong, your homestay (months ahead), and the marine park permit, which you can buy online in advance or on arrival in Waisai. These are the things that, left late, can cost you the trip. "
+        },
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": " the daily snorkel plan, the slow afternoon, and the bird-of-paradise trek. These are arranged on the ground with your homestay and are better shaped around the weather and the tide than a fixed calendar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [],
+          "text": "Food and local rhythm"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [],
+          "text": "Meals are part of the homestay, usually rice, fresh fish and vegetables, served when the family cooks rather than to a menu or a clock. It is simple and good, and eating together is most of the social life on a small island. Bring your own snacks and water for the long boat days, and a refillable bottle, since shops are scarce once you leave Waisai."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in Raja Ampat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [],
+          "text": "The recurring ones: not bringing enough cash for the whole trip; booking homestays too late and missing the good ones; underestimating boat times and fuel costs; expecting wifi and comfort that simply are not there; trying to hop between several homestays in one week instead of basing in one; and booking a tight onward flight against the ferry, which weather can delay. Bring cash, book early, stay put, and pad the exit day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut"
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [],
+          "text": " the Piaynemo day if the seas are rough; it is the most weather-exposed run of the week, and there is no shame in swapping it for closer reefs. "
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt"
+        },
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [],
+          "text": " for weaker swimmers by sticking to the calm jetty snorkels at Arborek, Sawandarek and Yenbuba, which are shallow and sheltered. "
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade"
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " to an eco-resort if you want air-con, a proper bathroom and a dive shop on site, though it costs far more than a homestay. Couples travelling for a honeymoon can build the whole trip around that comfort on the "
+        },
+        {
+          "_key": "k44b",
+          "_type": "span",
+          "marks": [
+            "hmlink1"
+          ],
+          "text": "10-day Raja Ampat honeymoon route"
+        },
+        {
+          "_key": "k44c",
+          "_type": "span",
+          "marks": [],
+          "text": ". "
+        },
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Do not try to add"
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " the far north of Wayag or Misool in the south on this trip; each is a longer, harder journey that deserves its own week."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "hmlink1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-raja-ampat-honeymoon"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k4b",
+          "_type": "span",
+          "marks": [],
+          "text": " October to April brings the calmest seas and the clearest water, with manta numbers peaking December to February. June to August can be windy and rough, and some outer runs become hard."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Entry and fees."
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " Most nationalities use the Indonesia e-VoA, and everyone pays the Raja Ampat marine park permit and visitor ticket, roughly Rp 1,000,000 ($65) per person as a working estimate. Fees and rules can change, so check the latest official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there."
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly to Sorong via Jakarta, Makassar or Manado, then the ferry to Waisai, then a homestay boat. Flights are limited and routes change, so confirm current schedules and build a buffer day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and connectivity."
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for the whole trip; there are no ATMs in the islands and everything is cash only. Signal is patchy to absent, so set expectations at home before you go off-grid."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early."
+        },
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong flights, your homestay and the marine park permit. "
+        },
+        {
+          "_key": "k4o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible."
+        },
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [],
+          "text": " the daily snorkel plan and the bird trek, arranged on the ground."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": "Raja Ampat is not the easiest or cheapest week in Indonesia, and the divers get most of the attention. But for a snorkeller willing to trade comfort and wifi for the most alive water on earth, very little compares. Choose this trip if marine life is the whole point and you are happy off-grid for a week; skip it if you need ease, connectivity or a budget escape, and look at Lombok or the Gilis instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [],
+          "text": "Diving the deeper sites is the point? See the "
+        },
+        {
+          "_key": "k4z",
+          "_type": "span",
+          "marks": [
+            "k4y"
+          ],
+          "text": "14-day Raja Ampat itinerary for divers"
+        },
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [],
+          "text": ". Want Raja Ampat as the finale of a bigger journey? It anchors the "
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [
+            "k51"
+          ],
+          "text": "20-day Wild Indonesia route"
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [],
+          "text": ". Or start with the "
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [
+            "k54"
+          ],
+          "text": "Raja Ampat destination hub"
+        },
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k4y",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-raja-ampat-divers"
+        },
+        {
+          "_key": "k51",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/20-days-wild-indonesia"
+        },
+        {
+          "_key": "k54",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/raja-ampat"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rakids-inb-1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rakids-inb-1-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Travelling with children? The "
+        },
+        {
+          "_key": "rakids-inb-1-s2",
+          "_type": "span",
+          "marks": [
+            "rakids-lnk-1"
+          ],
+          "text": "9-day Raja Ampat with kids itinerary"
+        },
+        {
+          "_key": "rakids-inb-1-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps one base for the whole stay and builds the days around calm, shallow reefs and shorter boat legs."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rakids-lnk-1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-raja-ampat-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0g57yaw6f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ujn5o598n",
+          "_type": "span",
+          "marks": [],
+          "text": "Getting around: "
+        },
+        {
+          "_key": "s29wuidqne",
+          "_type": "span",
+          "marks": [
+            "ebqmgfrfud"
+          ],
+          "text": "Bali to Raja Ampat"
+        },
+        {
+          "_key": "a37ieu38au",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ebqmgfrfud",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-raja-ampat"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes, and many people do. The snorkelling off the homestay jetties and at sites like Cape Kri, Manta Sandy and Arborek is world-class, and you can see reef sharks, turtles and manta rays from the surface. You do not need any diving certification to have an extraordinary week here.",
+      "question": "Can you visit Raja Ampat without diving?"
+    },
+    {
+      "answer": "As a working estimate, the marine park permit and visitor ticket together come to about Rp 1,000,000 (around $65) per person. The permit is valid for a year. Fees can change, so check the latest official guidance, and bring cash since you usually pay on arrival in Waisai.",
+      "question": "How much is the Raja Ampat permit?"
+    },
+    {
+      "answer": "Fly to Sorong via Jakarta, Makassar or Manado, take the ferry to Waisai (around two hours), then a homestay boat to your island. Flights are limited and routes change, so confirm current schedules and build a buffer day, especially before the ferry.",
+      "question": "How do you get to Raja Ampat?"
+    },
+    {
+      "answer": "Homestays, roughly $35 to $65 per person a night including meals as a working estimate, support local communities and sit right on excellent reefs. Eco-resorts cost considerably more but add comfort, air-con and an on-site dive shop. For a snorkelling trip, a good homestay is usually all you need.",
+      "question": "Homestay or eco-resort in Raja Ampat?"
+    },
+    {
+      "answer": "October to April brings the calmest seas and clearest water, with manta sightings peaking December to February. June to August can be windy and rough, which makes the longer boat runs to places like Piaynemo harder, so the shoulder months are a safe bet.",
+      "question": "When is the best time to visit Raja Ampat?"
+    },
+    {
+      "answer": "Yes, and plenty of it. There are no ATMs in the islands, and homestays, boats, guides and the park fee are all cash only. Draw out everything you will need for the whole trip while you are still in Sorong on the mainland.",
+      "question": "Do I need to bring cash to Raja Ampat?"
+    },
+    {
+      "answer": "Yes, for the Dampier Strait highlights from a single base around Gam, Mansuar or Kri. Seven days covers the best snorkelling, Piaynemo and the bird of paradise without rushing. The far north of Wayag and the south at Misool need a longer, separate and more expensive trip.",
+      "question": "Is 7 days enough for Raja Ampat?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "A snorkeller gliding over a coral reef with tropical fish in clear blue water",
+    "asset": {
+      "_ref": "image-6db138e2f7c40258955b7371a25fce389b2507fd-3500x2329-jpg",
+      "_type": "reference"
+    }
+  },
+  "footerBanners": []
+}

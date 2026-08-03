@@ -1,0 +1,1825 @@
+{
+  "_id": "itinerary-9-days-raja-ampat-with-kids",
+  "_type": "article",
+  "title": "9 Days in Raja Ampat with Kids: One Base, Calm Reefs and Honest Logistics",
+  "slug": {
+    "_type": "slug",
+    "current": "9-days-raja-ampat-with-kids"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-29T04:12:28Z",
+  "destinationPrimary": "raja_ampat",
+  "destinationSecondary": "wild_indonesia",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": "diving_snorkeling",
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 9,
+  "travellerTypes": [
+    "families"
+  ],
+  "vibe": "relaxed",
+  "experienceTags": [
+    "snorkeling",
+    "islands",
+    "wildlife",
+    "remote",
+    "karst",
+    "local_villages"
+  ],
+  "bestSeason": "October–April",
+  "route": "Sorong → Waisai → one base on Mansuar or Kri → Arborek and Sawandarek → Piaynemo → Sorong",
+  "focusKeyword": "raja ampat with kids",
+  "metaTitle": "9 Days in Raja Ampat with Kids: A Family Itinerary",
+  "metaDescription": "A 9-day Raja Ampat family itinerary from one island base: calm jetty snorkels, Arborek, Piaynemo if the sea allows, plus fees, malaria and cash advice.",
+  "intro": "Almost nobody recommends Raja Ampat for a family holiday, and for most families that is the right advice. It is expensive to reach, hours from a hospital, and offers none of the fallbacks that rescue a difficult day with children. But for a family with confident swimmers, it does something no easier destination can: it puts turtles, reef sharks and walls of fish a few metres from the steps of the place you are sleeping, every morning, with nothing to book. This nine-day itinerary is built around that single advantage, from one island base, with short boat days and one day left deliberately empty.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "affra1",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA"
+    },
+    {
+      "_key": "affra2",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Sorong to Waisai ferry",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "TWELVEGO_SORONG_WAISAI"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": "This is for families who want their children in the water rather than in a queue, and who are willing to trade comfort and connectivity for it. It suits children roughly eight and up who can swim confidently in open water, wear a mask without panic, sit through an hour on a small boat and cope with a week of no wifi, no shops and no screens. Strong swimmers of six or seven can work if you keep every snorkel to a sheltered jetty and stay in the water beside them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s3",
+          "_type": "span",
+          "marks": [],
+          "text": "It also suits parents who are genuinely comfortable being a long way from a hospital. That is the honest filter for this trip, more than budget or age. If you can accept that, Raja Ampat gives children something almost nowhere else does: turtles, reef sharks and clouds of fish a few metres from the steps of the place you are sleeping, every single day, with no tour to book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is not for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s5",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip this if your children are under six, are nervous swimmers, or need routine, air-conditioning and familiar food to stay happy. Skip it too if anyone in the family has a medical condition that needs quick access to care. There is no hospital in the islands, only a small clinic in Waisai, and the nearest real hospital is back in Sorong, which is a boat plus a two-hour ferry away and weather-dependent at that."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the cheapest family trip in Indonesia either, once you count the flights to Sorong, the marine park fees and full-board accommodation for four. If you want reef and wildlife for children at a fraction of the cost and effort, the "
+        },
+        {
+          "_key": "s7",
+          "_type": "span",
+          "marks": [
+            "m1"
+          ],
+          "text": "8-day Komodo and Flores route for families"
+        },
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [],
+          "text": " is the more forgiving trip, and the "
+        },
+        {
+          "_key": "s9",
+          "_type": "span",
+          "marks": [
+            "m2"
+          ],
+          "text": "7-day Nusa Lembongan and Ceningan week"
+        },
+        {
+          "_key": "s10",
+          "_type": "span",
+          "marks": [],
+          "text": " is the gentlest of all."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-komodo-flores-with-kids"
+        },
+        {
+          "_key": "m2",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-nusa-lembongan-ceningan-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s11",
+          "_type": "span",
+          "marks": [],
+          "text": "Committed snorkellers travelling without children should take the "
+        },
+        {
+          "_key": "s12",
+          "_type": "span",
+          "marks": [
+            "m3"
+          ],
+          "text": "7-day Raja Ampat snorkelling route"
+        },
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [],
+          "text": " instead. It moves faster, chases current-swept sites this itinerary deliberately avoids, and does not build the trip around short boat legs."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m3",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-raja-ampat-snorkeling-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s14",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s15",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration."
+        },
+        {
+          "_key": "s16",
+          "_type": "span",
+          "marks": [],
+          "text": " 9 days, 8 nights, two of them in Sorong. "
+        },
+        {
+          "_key": "s17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end."
+        },
+        {
+          "_key": "s18",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong (SOQ). "
+        },
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for."
+        },
+        {
+          "_key": "s20",
+          "_type": "span",
+          "marks": [],
+          "text": " families with confident swimmers aged roughly eight and up. "
+        },
+        {
+          "_key": "s21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for."
+        },
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [],
+          "text": " under-sixes, nervous swimmers, tight budgets, anyone needing medical facilities nearby."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style."
+        },
+        {
+          "_key": "s24",
+          "_type": "span",
+          "marks": [],
+          "text": " one island base for six nights, short boat days, long empty afternoons. "
+        },
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget."
+        },
+        {
+          "_key": "s26",
+          "_type": "span",
+          "marks": [],
+          "text": " high, driven by the Sorong flights and full-board island accommodation. "
+        },
+        {
+          "_key": "s27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level."
+        },
+        {
+          "_key": "s28",
+          "_type": "span",
+          "marks": [],
+          "text": " hard, flight, ferry and boat dependent. "
+        },
+        {
+          "_key": "s29",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "s30",
+          "_type": "span",
+          "marks": [],
+          "text": " October to April. "
+        },
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty."
+        },
+        {
+          "_key": "s32",
+          "_type": "span",
+          "marks": [],
+          "text": " high, because family rooms in the islands are genuinely scarce."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s33",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [],
+          "text": "Almost every famous Raja Ampat image comes from the Dampier Strait, the stretch of water between Waisai, Gam, Mansuar and Kri. The reefs, the mantas and the closest karst all cluster there, which means a family can see the best of it without ever taking a long crossing. Wayag in the far north and Misool in the south are spectacular and are simply the wrong call with children: each is hours of open water each way and neither forgives a bad-weather day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s35",
+          "_type": "span",
+          "marks": [],
+          "text": "So this trip picks one base and stays in it for six nights. That single decision is what makes Raja Ampat workable for a family. You unpack once, boat times stay under an hour on most days, the tides set the schedule instead of a checklist, and a child who wakes up tired can stay on the jetty while everyone else swims. The alternative, hopping between two or three homestays, costs you a half-day of packing and boats each time and buys you very little new reef."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [],
+          "text": "The nine-day length is not padding. Two of the days are pure transit, one at each end, and at least one island day will be taken by weather or by a child who has had enough. A seven-day version of this trip with children means arriving, being rushed, and losing a third of the water time to the two travel days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s37",
+          "_type": "span",
+          "marks": [],
+          "text": "Set up an "
+        },
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [
+            "m4"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave home, but treat it as insurance for Sorong and the journey rather than for the islands, where signal is patchy to absent. More importantly, draw out cash on the mainland for the entire trip, including a buffer. There are no ATMs in the islands, and accommodation, boats, fuel and park fees are all cash only."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m4",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s40",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly to Sorong and do nothing else"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Sorong, the mainland gateway. As a working estimate the direct hop from Jakarta runs about four hours, with Garuda, Batik, Lion and Citilink among the carriers flying into Sorong from Jakarta, Makassar or Manado, though routes and schedules shift often, so confirm current flight routes before locking anything else. With children you will not reach the islands the day you land from far away, so plan this as a positioning night, not a wasted one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s44",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat a proper meal, draw all your cash while the ATMs are reliable, buy any snacks your children will actually eat, and sleep near the ferry port. "
+        },
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [],
+          "text": " a simple Sorong hotel for one night. "
+        },
+        {
+          "_key": "s47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong town carries more mosquito-borne risk than the island homestays do, so use repellent here even if you plan to be relaxed about it later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s49",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ferry to Waisai and settle into your one base"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s51",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the fast ferry from Sorong to Waisai, around two hours in calm seas. As a working estimate tickets run roughly Rp 150,000 in economy to Rp 250,000 in the business or VIP cabin, sold in person at the port counter on the day rather than online, so check current "
+        },
+        {
+          "_key": "s52",
+          "_type": "span",
+          "marks": [
+            "m5"
+          ],
+          "text": "Sorong to Waisai ferry"
+        },
+        {
+          "_key": "s53",
+          "_type": "span",
+          "marks": [],
+          "text": " times before you travel. With children, pay for the enclosed air-conditioned cabin if it is running. It costs very little and turns a two-hour crossing into a nap."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m5",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_SORONG_WAISAI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "On arrival at Waisai."
+        },
+        {
+          "_key": "s55",
+          "_type": "span",
+          "marks": [],
+          "text": " Pay the marine park fees. As a working estimate this runs to roughly Rp 1,000,000, about $65, per adult across the entry permit and the visitor ticket, and the permit is currently valid for twelve months. The detail worth knowing for families is that children under twelve are currently listed as exempt from the marine park permit, which changes the sum meaningfully for a family of four. Fee structures here have been reorganised more than once, so check the latest official guidance close to your travel dates and carry cash for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s57",
+          "_type": "span",
+          "marks": [],
+          "text": " A local boat to your base around Mansuar or Kri, usually under an hour. Swim off the jetty, let the children find the rhythm of a place with no traffic, and do not plan anything else. "
+        },
+        {
+          "_key": "s58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s59",
+          "_type": "span",
+          "marks": [],
+          "text": " one homestay or eco-resort for six nights. "
+        },
+        {
+          "_key": "s60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s61",
+          "_type": "span",
+          "marks": [],
+          "text": " book directly and months ahead. Rooms that sleep a family are the scarcest thing in Raja Ampat, and there is no late availability to fall back on. "
+        },
+        {
+          "_key": "s62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [],
+          "text": " there is no transfer desk here, so your accommodation arranges the Waisai pickup. Confirm it in writing before you leave Sorong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s64",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: The home reef, and nothing more ambitious"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [],
+          "text": " Snorkel the house reef straight off the jetty. In this part of Raja Ampat that routinely means turtles, reef sharks and walls of fish within a few fin-kicks of the steps, which is exactly the point of basing here. Go in with your children rather than watching from the jetty, and use the first session to work out who is confident and who needs a vest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s68",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay put. Let them get in and out of the water twenty times. "
+        },
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s70",
+          "_type": "span",
+          "marks": [],
+          "text": " tides matter more than the clock here. Slack water is calm and easy, and a running current turns the same reef into something a child should not be in. Ask your hosts each morning which window is safe, and treat that answer as fixed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner is cooked by the family you are staying with, usually rice, fresh fish and vegetables, served when it is ready. It is simple and good. Bring a small stash of familiar snacks for the child who decides on night two that they do not eat fish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s73",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Arborek and Sawandarek, the two easy jetties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [],
+          "text": " A short boat to Arborek, a small village island with a jetty snorkel that is shallow, sheltered and about as forgiving as reef gets. Children can hang on the ladder, get their heads under, and see fish immediately. The village itself is a working one, so let the children meet it on its own terms rather than treating it as a stop on a tour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s76",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s77",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue to Sawandarek, another village jetty with a shallow reef and an easy entry, often with a nursery of young fish under the pilings. "
+        },
+        {
+          "_key": "s78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s79",
+          "_type": "span",
+          "marks": [],
+          "text": " your hosts arrange this boat the night before, and you pay for fuel. There is nothing to book online, and no advantage in trying. "
+        },
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s81",
+          "_type": "span",
+          "marks": [],
+          "text": " both are open, sunny days on a small boat. Rash vests, hats and reef-safe sunscreen do more for a child's day here than any piece of snorkel gear."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s82",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: A deliberately empty day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_key": "s84",
+          "_type": "span",
+          "marks": [],
+          "text": " Nothing scheduled. This is the day that makes the week work. Children who have snorkelled for three days straight need one where they build things on the beach, sleep in the afternoon and eat too many biscuits. Parents need it too."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s86",
+          "_type": "span",
+          "marks": [],
+          "text": " keep this day free on purpose rather than by accident. It is also the slot the weather will take if it wants one, and having it empty means a rough Tuesday does not cost you Piaynemo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s87",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Piaynemo, or the day you honestly drop it"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s89",
+          "_type": "span",
+          "marks": [],
+          "text": " The one big run of the week: roughly ninety minutes each way by open boat to Piaynemo, where a wooden staircase climbs to the viewpoint over the maze of green lagoons and mushroom-shaped karst. Leave early to beat the day boats and the heat. On the way back, the shallow coral garden at Melissa's Garden in the nearby Fam islands is a calm swim in clear water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The honest version."
+        },
+        {
+          "_key": "s91",
+          "_type": "span",
+          "marks": [],
+          "text": " This is three hours of open water in a small boat with children, and it is the most weather-exposed day of the trip. If the sea is up, if anyone gets motion sick, or if the youngest is having a bad morning, cancel it without guilt. The staircase is also a real climb in heat with no shade at the top, which is fine for an eight-year-old and miserable for a four-year-old being carried."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s93",
+          "_type": "span",
+          "marks": [],
+          "text": " arranged through your hosts the day before, priced by fuel and boat rather than per person, so it is the single most expensive day of the week and worth splitting with another family if one is staying."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s94",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Yenbuba jetty and a slow finish"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s96",
+          "_type": "span",
+          "marks": [],
+          "text": " A short hop to the Yenbuba jetty between Mansuar and Kri, one of the calmest and richest shallow snorkels in the strait, with the reef starting almost at the ladder. This is the one to repeat if your children have found their confidence, and the safe alternative to Cape Kri, which is a genuinely strong drift and not a children's site whatever anyone tells you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s98",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to base. Swim, pack loosely, and let the last jetty session run long. "
+        },
+        {
+          "_key": "s99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s100",
+          "_type": "span",
+          "marks": [],
+          "text": " if the bird of paradise trek on Gam appeals, it means a pre-dawn start and an hour of standing quietly in forest. It is a fine morning for a patient eleven-year-old and a poor one for anybody younger, so decide honestly rather than optimistically."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Boat to Waisai, ferry back to Sorong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s103",
+          "_type": "span",
+          "marks": [],
+          "text": " Boat to Waisai and the ferry back to Sorong. "
+        },
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong, a real shower, air-conditioning and a meal that is not rice and fish. Children who have been off-grid for six days tend to be delighted by a hotel pool. "
+        },
+        {
+          "_key": "s106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s107",
+          "_type": "span",
+          "marks": [],
+          "text": " a Sorong hotel for one night. "
+        },
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s109",
+          "_type": "span",
+          "marks": [],
+          "text": " this night in Sorong is not optional padding. It is the buffer that stops a delayed ferry from costing you an international flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s110",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Fly out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly out of Sorong and connect onward. "
+        },
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [],
+          "text": " never book a tight same-day international connection against a domestic Papua flight. Regional schedules shift, and with children a missed connection is a much worse day than an extra night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s115",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early and firm."
+        },
+        {
+          "_key": "s117",
+          "_type": "span",
+          "marks": [],
+          "text": " The Sorong flights in and out, your island accommodation with a family-sized room, and, if you prefer certainty, the marine park permit online in advance. Family rooms are the binding constraint of this whole trip. There are only so many of them in the Dampier Strait and they are taken months out in the October to April window."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [],
+          "text": " Every single day on the island. The boat days, the Piaynemo run, the empty day and the bird trek are all arranged on the ground the evening before, priced by fuel, and they should move with the sea and with your children's mood. Nothing about the island week benefits from being locked in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s120",
+          "_type": "span",
+          "marks": [],
+          "text": "Homestay or eco-resort, with children"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the real decision, and it is not the one most families expect. A Papuan homestay is a simple room, a shared or basic bathroom, no air-con, a mosquito net and full board with the family who runs it, at roughly $40 to $55 per person per night as a working estimate. An eco-resort adds air-conditioning, a private bathroom, filtered water and meals at something closer to a schedule, from roughly $110 per person per night as a working estimate. Rates move, so confirm directly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s122",
+          "_type": "span",
+          "marks": [],
+          "text": "With children roughly ten and up, a homestay is often the better trip as well as the cheaper one. They eat with the family, learn to help with the boat, and the whole week is more interesting than a resort week. With younger children, or with a family that will not sleep well in heat, the resort is worth the money, because a badly slept child ruins more days than any single reef gains. Choose the one that matches how your family actually copes, not how you would like it to."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s123",
+          "_type": "span",
+          "marks": [],
+          "text": "Whichever you pick, ask two questions before booking: whether the room has a mosquito net for every bed, and how far the house reef is from the jetty steps. Those two answers predict a family's week here better than any photograph."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [],
+          "text": "Health and safety, and the things there is no clinic for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [],
+          "text": "Malaria is present in Raja Ampat. Reported risk at the island homestays around Mansuar, Kri, Gam and Arborek is low, and it is higher in populated Sorong, but low is not zero and this is a decision to take with a travel clinic rather than a blog. Talk to a doctor about prophylaxis for each child specifically, well before you fly, and treat bite avoidance as the main defence in any case: nets over every bed, repellent at dawn and dusk, long light clothing near mangroves and forest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s126",
+          "_type": "span",
+          "marks": [],
+          "text": "There is no hospital in the islands. Waisai has a small clinic, and anything serious means the ferry back to Sorong, which does not run at night and does not run in bad weather. Bring a proper family first-aid kit including a full course of anything your children take regularly, motion sickness remedies, antiseptic for reef scrapes, which are the most common injury here by a wide margin, and reef-safe sunscreen in more quantity than you think. Check that your travel insurance genuinely covers remote-area evacuation, and read the exclusions rather than the summary."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes families make in Raja Ampat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [],
+          "text": "The recurring ones: not carrying enough cash for the whole trip and having no way to fix it; booking too late and finding no room that sleeps four; treating the trip as an island-hop and spending half of it packing; putting a child in the water at Cape Kri because it is famous; assuming the ferry runs whenever they need it to; booking a tight onward flight against a crossing that weather can delay; and bringing adult-sized snorkel gear on the assumption that a child's mask can be borrowed on arrival. It usually cannot, so bring child-sized masks and vests from home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s129",
+          "_type": "span",
+          "marks": [],
+          "text": "The bigger one is expectation. Parents who arrive expecting a resort week with excellent snorkelling are disappointed. Parents who arrive expecting six days of water, simple food, early nights and no entertainment tend to describe it as the best family trip they have taken."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut"
+        },
+        {
+          "_key": "s132",
+          "_type": "span",
+          "marks": [],
+          "text": " Piaynemo if the sea is rough or the children are small. It is the single most weather-exposed and least child-shaped day of the week, and the trip loses nothing essential without it. Cut the bird of paradise trek for anyone under about eleven."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s133",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt"
+        },
+        {
+          "_key": "s134",
+          "_type": "span",
+          "marks": [],
+          "text": " for weaker swimmers by staying on the sheltered jetty snorkels at Arborek, Sawandarek and Yenbuba for the entire week and never entering a drift site. Adapt for younger children by shortening the trip to seven days with the same one base, accepting that you will get four water days rather than six. Adapt for two families travelling together by sharing boat days, which cuts the largest variable cost roughly in half."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade"
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [],
+          "text": " to an eco-resort if anyone in the family sleeps badly in heat, or to a private boat for the Piaynemo day so you control the timing and can turn back without negotiating. If the budget allows one upgrade only, make it the room rather than the boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s137",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Entry and fees."
+        },
+        {
+          "_key": "s139",
+          "_type": "span",
+          "marks": [],
+          "text": " Most nationalities use the Indonesia e-VoA, and every adult pays the Raja Ampat marine park permit plus the visitor ticket, roughly Rp 1,000,000 or about $65 per adult all in as a working estimate, with children under twelve currently exempt from the permit. Fees and rules can change, so check the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s140",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there."
+        },
+        {
+          "_key": "s141",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly to Sorong via Jakarta, Makassar or Manado, then the two-hour ferry to Waisai, then a boat to your base. Flights are limited and routes change, so confirm current flight routes before locking accommodation, and build a buffer night at each end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "When to go."
+        },
+        {
+          "_key": "s143",
+          "_type": "span",
+          "marks": [],
+          "text": " October to April gives the calmest seas and the most reliable boat days, which matters more with children than it does for adults who can absorb a bad crossing. Whenever you travel, keep one island day empty so weather has somewhere to land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and connectivity."
+        },
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [],
+          "text": " Cash only, drawn in Sorong, for the whole trip plus a buffer. Assume no wifi, no signal and no shops from the moment you leave Waisai."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s146",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s147",
+          "_type": "span",
+          "marks": [],
+          "text": "Raja Ampat is not the obvious family destination and most families should not go. It is expensive, remote, medically exposed and completely without the things that usually rescue a hard travel day with children. For a family with confident swimmers aged around eight and up, and parents genuinely at ease being far from a hospital, it is also close to unrepeatable: your children spend six days in some of the richest reef on the planet, reached by walking down a set of wooden steps."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s148",
+          "_type": "span",
+          "marks": [],
+          "text": "Nine days, one base, short boat legs and one empty day is the shape that makes it work. Shorten it, or try to see Wayag and Misool as well, and you will spend the trip in transit with tired children. Take the version above and the trip does what it should, which is to be almost entirely about the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s149",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s150",
+          "_type": "span",
+          "marks": [],
+          "text": "If this is not quite your family's trip, the "
+        },
+        {
+          "_key": "s151",
+          "_type": "span",
+          "marks": [
+            "m6"
+          ],
+          "text": "8-day Komodo and Flores itinerary with kids"
+        },
+        {
+          "_key": "s152",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps the wildlife and reef but stays much closer to hospitals, shops and flights. For a gentler, cheaper week in shallow water, the "
+        },
+        {
+          "_key": "s153",
+          "_type": "span",
+          "marks": [
+            "m7"
+          ],
+          "text": "7 days in Nusa Lembongan and Ceningan with kids"
+        },
+        {
+          "_key": "s154",
+          "_type": "span",
+          "marks": [],
+          "text": " is the softest landing of the family routes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m6",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-komodo-flores-with-kids"
+        },
+        {
+          "_key": "m7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-nusa-lembongan-ceningan-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s155",
+          "_type": "span",
+          "marks": [],
+          "text": "Travelling without children, or with teenagers who dive? Read the "
+        },
+        {
+          "_key": "s156",
+          "_type": "span",
+          "marks": [
+            "m8"
+          ],
+          "text": "7-day Raja Ampat snorkelling itinerary"
+        },
+        {
+          "_key": "s157",
+          "_type": "span",
+          "marks": [],
+          "text": " and the "
+        },
+        {
+          "_key": "s158",
+          "_type": "span",
+          "marks": [
+            "m9"
+          ],
+          "text": "14-day route for divers"
+        },
+        {
+          "_key": "s159",
+          "_type": "span",
+          "marks": [],
+          "text": ". For everything else on the region, including how to get there and when to go, start at the "
+        },
+        {
+          "_key": "s160",
+          "_type": "span",
+          "marks": [
+            "m10"
+          ],
+          "text": "Raja Ampat destination guide"
+        },
+        {
+          "_key": "s161",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m8",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-raja-ampat-snorkeling-islands"
+        },
+        {
+          "_key": "m9",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-raja-ampat-divers"
+        },
+        {
+          "_key": "m10",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/raja-ampat"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "_key": "faq1",
+      "answer": "For confident swimmers of roughly eight and up, yes, and it is exceptional. The snorkelling starts at the jetty steps, so children get water time without boats or tours. The genuine constraints are medical and logistical rather than the reef itself: there is no hospital in the islands, malaria is present, and there are no shops or ATMs. Under-sixes, nervous swimmers and anyone with a condition needing quick care should choose a different Indonesian trip.",
+      "question": "Is Raja Ampat suitable for children?"
+    },
+    {
+      "_key": "faq2",
+      "answer": "As a working estimate, adults pay roughly Rp 1,000,000, about $65, across the marine park entry permit and the visitor ticket, and children under twelve are currently listed as exempt from the permit. That changes the total for a family of four significantly. The fee system has been reorganised more than once recently, so check the latest official guidance close to your dates and bring cash, as it is collected in rupiah on arrival at Waisai.",
+      "question": "Do children pay the Raja Ampat marine park fee?"
+    },
+    {
+      "_key": "faq3",
+      "answer": "With children around ten and up, a Papuan homestay is often the better and cheaper trip, at roughly $40 to $55 per person per night full board as a working estimate. With younger children, or if anyone sleeps badly without air-conditioning, an eco-resort from roughly $110 per person per night is worth the money. Whichever you choose, confirm there is a mosquito net for every bed and ask how far the house reef sits from the jetty.",
+      "question": "Should we stay in a homestay or an eco-resort with kids?"
+    },
+    {
+      "_key": "faq4",
+      "answer": "Malaria is present. Reported risk at the island homestays around Mansuar, Kri, Gam and Arborek is low, and it is higher in Sorong town, but this is a conversation for a travel clinic rather than a website, and prophylaxis for children should be prescribed individually and well before you fly. Bite avoidance is the main defence either way: a net over every bed, repellent at dawn and dusk, and long light clothing near forest and mangroves.",
+      "question": "What about malaria in Raja Ampat with children?"
+    },
+    {
+      "_key": "faq5",
+      "answer": "Fly to Sorong (SOQ) via Jakarta, Makassar or Manado, as a working estimate about four hours from Jakarta, then take the roughly two-hour fast ferry to Waisai, then a local boat to your base. Tickets are bought at the port counter on the day, not online. Plan a night in Sorong at each end. Routes and schedules change often, so confirm current flight routes before locking accommodation.",
+      "question": "How do we get to Raja Ampat with kids, and how long does it take?"
+    },
+    {
+      "_key": "faq6",
+      "answer": "Nine days is the honest minimum for a comfortable family trip: two transit days, six nights at one base, and one day held empty for weather or a tired child. Seven days works if you accept four water days instead of six. Anything shorter means the flights and the ferry eat most of the trip, which is a poor return on what it costs to get there.",
+      "question": "How many days do we need in Raja Ampat with a family?"
+    },
+    {
+      "_key": "faq7",
+      "answer": "It depends entirely on which days you take. Basing in one place keeps most legs under an hour on sheltered water, which nearly all children manage. The exception is the Piaynemo run, roughly ninety minutes each way in open sea, which is the day to drop without hesitation if the water is up or anyone is prone to motion sickness. Bring remedies, sit them low and central, and go early when the sea is calmest.",
+      "question": "Is the boat travel hard on children?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Raja Ampat's limestone islands and shallow turquoise lagoons seen from a viewpoint",
+    "asset": {
+      "_ref": "image-470fef71f373a3b034c6c75c77aa456e54b37618-8151x5377-jpg",
+      "_type": "reference"
+    },
+    "caption": "The sheltered lagoons of Raja Ampat, West Papua"
+  }
+}

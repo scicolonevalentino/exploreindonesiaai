@@ -1,0 +1,1672 @@
+{
+  "_id": "itinerary-4-days-gili-islands-trawangan-meno-air",
+  "_type": "article",
+  "title": "4 Days in the Gili Islands: Trawangan, Meno and Air",
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-gili-islands-trawangan-meno-air"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-27T00:00:00.000Z",
+  "destinationPrimary": "lombok_gili",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": "diving_snorkeling",
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "relaxed",
+  "route": "Bali (Padang Bai) → Gili Air → Gili Meno → Gili Trawangan → Bali",
+  "focusKeyword": "Gili Islands itinerary",
+  "metaTitle": "4 Days in the Gili Islands: Trawangan, Meno, Air",
+  "metaDescription": "A 4-day Gili Islands itinerary: which island to base on, how to reach Meno and Trawangan by day boat, boat timings and what to book ahead.",
+  "intro": "The Gili Islands get sold as one destination and booked as three, which is how a short trip goes wrong. Four days is enough to see Trawangan, Meno and Air properly, but only if you sleep on one of them. Every hotel change here costs you a morning: a checkout, a boat you have to catch, and a new room that is not ready until the afternoon. This plan picks one base, uses the public hopping boats and a single snorkeling trip to cover the other two islands, and keeps the days slow enough to be worth the crossing.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "a1",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "anchorText": "compare fast boat tickets between Bali, the Gili Islands and Lombok",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_GILI_FAST_BOAT",
+      "publicUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/"
+    },
+    {
+      "_key": "a2",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "anchorText": "a shared three-island snorkeling boat from Gili Trawangan",
+      "experienceCategory": "snorkeling",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "publicUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/"
+    },
+    {
+      "_key": "a3",
+      "affiliateUrl": "https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5?pid=P00303362&mcid=42383&medium=link&campaign=GiliIslandsStatuesTurtles",
+      "anchorText": "a smaller turtle and underwater statue snorkeling trip",
+      "experienceCategory": "snorkeling",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_GILI_STATUES_TURTLES",
+      "publicUrl": "https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5"
+    },
+    {
+      "_key": "a4",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare boat and onward transport options from the Gili Islands",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_ONWARD",
+      "publicUrl": "https://12go.asia/en/travel/gili-trawangan/bali"
+    },
+    {
+      "_key": "a5",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "an Indonesia eSIM from Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s3",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits travellers with four days and a low tolerance for logistics: couples bolting an island stretch onto a Bali trip, friends who want swimming and a sunset rather than a schedule, and solo travellers who like somewhere small enough to walk around in an hour. It works best if you would rather snorkel twice than tick off three harbours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s5",
+          "_type": "span",
+          "marks": [],
+          "text": "It is the wrong trip for a few people. If nightlife is the point, skip the hopping and simply base on Gili Trawangan. If you are travelling in January or February with a tight flight home, the crossing is the weakest link in the chain and rough seas do cancel boats, so build in a spare day or choose somewhere reachable by road. Divers wanting to finish a certification course need more than four days. Families with toddlers will find the open boats, the midday heat and the walk from the beach landing to the room harder than a four-day plan allows for, and are better served by a longer, slower version."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route: "
+        },
+        {
+          "_key": "s10",
+          "_type": "span",
+          "marks": [],
+          "text": "Bali (Padang Bai or Serangan) to Gili Air, with day trips to Gili Meno and Gili Trawangan, then back to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s12",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [],
+          "text": "one island for all three nights. Gili Air is the default recommendation below, with clear reasons to choose differently."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s15",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best months: "
+        },
+        {
+          "_key": "s16",
+          "_type": "span",
+          "marks": [],
+          "text": "April to October, when seas are calmest. June, September and October give you dry-season conditions without July and August prices."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s18",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level: "
+        },
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [],
+          "text": "low once you arrive, medium on the two crossing days. No cars, no motorbikes, no roads to speak of."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty: "
+        },
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [],
+          "text": "easy for rooms, worth booking ahead for the fast boat in peak months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget shape: "
+        },
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [],
+          "text": "simple rooms on Gili Air and Gili Trawangan start around $25 to $40 a night as a working estimate, and climb steeply in July and August. Prices change by season, so treat these as a starting point rather than a quote."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s28",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s29",
+          "_type": "span",
+          "marks": [],
+          "text": "The three Gilis sit roughly ten to fifteen minutes apart by boat. That closeness is exactly why people over-plan them. Because hopping looks trivial on a map, travellers book a night on each, and then spend three of their four mornings checking out, waiting for a boat, and standing outside a room that is not ready until two in the afternoon. On a four-day trip that is most of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [],
+          "text": "Hopping by day is cheap and easy. Sleeping across all three is neither. So this plan does the sensible version: one base, one snorkeling boat that covers all three islands from the water, and one morning ashore on the quietest of them. You still see Trawangan, Meno and Air. You just stop dragging a suitcase between them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s33",
+          "_type": "span",
+          "marks": [],
+          "text": "On the base itself, the honest answer depends on what you want out of the evenings. "
+        },
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gili Air"
+        },
+        {
+          "_key": "s35",
+          "_type": "span",
+          "marks": [],
+          "text": " is the middle option and the safest default: walkable, a decent spread of warungs and beach bars, regular boats, quiet by ten. "
+        },
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gili Trawangan"
+        },
+        {
+          "_key": "s37",
+          "_type": "span",
+          "marks": [],
+          "text": " is the right call if you want dive schools, late bars and the widest choice of rooms and boat departures, and you can still find silence on its western side. "
+        },
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gili Meno"
+        },
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": [],
+          "text": " is for people who genuinely want near-nothing in the evening, and who accept limited food choice, patchy banking and fewer boats as the price of that."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": [],
+          "text": "Fast boats from Bali mostly serve Trawangan and Air. Calls at Meno are limited, so if you set your heart on staying there, confirm with the operator whether your boat stops at all rather than assuming it does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s44",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Cross from Bali, then stop moving"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the earliest crossing you can get. Morning seas are usually calmer than afternoon seas, and an early boat leaves room to recover if a departure slips. From Padang Bai the crossing is commonly around ninety minutes; from the southern Bali ports of Serangan or Sanur it is closer to two and a half or three hours, with a road transfer on top. As a working estimate, a one-way ticket sits somewhere around $25 to $45 depending on operator and season, and fares change, so compare before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": "It is worth taking a minute to "
+        },
+        {
+          "_key": "s50",
+          "_type": "span",
+          "marks": [
+            "m49"
+          ],
+          "text": "compare fast boat tickets between Bali, the Gili Islands and Lombok"
+        },
+        {
+          "_key": "s51",
+          "_type": "span",
+          "marks": [],
+          "text": ", since operators, ports and departure times differ more than the fares do. If you plan to carry on to mainland Lombok afterwards rather than doubling back to Bali, "
+        },
+        {
+          "_key": "s53",
+          "_type": "span",
+          "marks": [
+            "m52"
+          ],
+          "text": "compare boat and onward transport options from the Gili Islands"
+        },
+        {
+          "_key": "s54",
+          "_type": "span",
+          "marks": [],
+          "text": " before you lock in a return ticket you may not use."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m49",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_GILI_FAST_BOAT"
+        },
+        {
+          "_key": "m52",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_ONWARD"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s57",
+          "_type": "span",
+          "marks": [],
+          "text": "Land, find your room, and do nothing structured. Gili Air's harbour is on the south side and most stays are within a fifteen to twenty minute walk, though a cidomo cart will move luggage for somewhere around 50,000 to 100,000 IDR as a working estimate. Agree the price before you get in. Then walk the east coast, get in the water, and let the trip start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s60",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat on the east-facing side, which catches the calmer water and looks across to Lombok and, on clear evenings, Mount Rinjani. Sunsets face the other way, towards Bali and Mount Agung, so if you want the sunset view, cross the island on foot. It takes about twenty minutes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [],
+          "text": "book the boat and the first night before you fly, especially between June and September. Everything after that can wait."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [],
+          "text": "carry cash. ATMs exist on Trawangan and Air, but they run empty, and card acceptance thins out fast once you leave the bigger hotels and beach clubs. Pick up "
+        },
+        {
+          "_key": "s68",
+          "_type": "span",
+          "marks": [
+            "m67"
+          ],
+          "text": "an Indonesia eSIM from Airalo"
+        },
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave Bali if you want data working the moment you land, because signal on the islands is fine but sorting a local SIM is not a harbour-side errand."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m67",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: The three-island snorkeling run, done early"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s73",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s74",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the day that earns the trip. Shared snorkeling boats leave most mornings and loop the three islands, typically stopping at a turtle point off Gili Meno or Gili Air, the "
+        },
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Nest"
+        },
+        {
+          "_key": "s76",
+          "_type": "span",
+          "marks": [],
+          "text": " underwater statues off Meno, and a reef on the Trawangan side. The statues are a circle of life-size figures by the sculptor Jason deCaires Taylor, set shallow enough to see from the surface, which is why they draw crowds from around nine in the morning onwards. Earlier is better, and calmer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s78",
+          "_type": "span",
+          "marks": [],
+          "text": "Book "
+        },
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [
+            "m79"
+          ],
+          "text": "a shared three-island snorkeling boat from Gili Trawangan"
+        },
+        {
+          "_key": "s81",
+          "_type": "span",
+          "marks": [],
+          "text": " if you want the standard loop at the standard price. If you would rather not share a boat with thirty people at the statues, "
+        },
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [
+            "m82"
+          ],
+          "text": "a smaller turtle and underwater statue snorkeling trip"
+        },
+        {
+          "_key": "s84",
+          "_type": "span",
+          "marks": [],
+          "text": " costs more and gives you the site before the fleet arrives. On a four-day trip, that upgrade is one of the few worth paying for."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m79",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        },
+        {
+          "_key": "m82",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_GILI_STATUES_TURTLES"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s87",
+          "_type": "span",
+          "marks": [],
+          "text": "Most shared boats put you ashore on Trawangan or Meno for a couple of hours around lunch. Take Trawangan if given the choice, since Meno gets a proper morning of its own tomorrow. Walk the west side, which is where Trawangan's beach is widest and its bars sit, and get a look at the island before deciding whether you wish you had based there."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s90",
+          "_type": "span",
+          "marks": [],
+          "text": "Back on Gili Air, eat early and turn in early. A day in salt water and sun is more tiring than it sounds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s93",
+          "_type": "span",
+          "marks": [],
+          "text": "the public hopping boats stop running mid-afternoon, commonly with a last departure from Trawangan somewhere around four o'clock. Times shift and boats sometimes wait to fill, so confirm the day's schedule locally rather than trusting a timetable you read online. If you want to stay on Trawangan for sunset, you will need to charter a boat back, negotiated at the harbour, or accept that Trawangan is a daytime visit on this trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s96",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Gili Meno ashore, before anyone else gets there"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s98",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the first hopping boat of the day. The rough public pattern runs Gili Air to Meno to Trawangan in the early morning and back again shortly after, with an afternoon pair in the other direction, and a hop costs somewhere in the region of 25,000 to 45,000 IDR per person as a working estimate. Get to Meno before the day-trip boats and the island is close to empty."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s100",
+          "_type": "span",
+          "marks": [],
+          "text": "Walk to the east beach, snorkel over the statues from the shore rather than from a boat, and then cut inland to the saltwater lake in the middle of the island, which is a strange, still, mangrove-edged thing and takes about half an hour to loop. Meno also has a turtle hatchery near the main beach path, and it is worth reading up on how the site is run before you visit, since standards vary at hatcheries across Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s103",
+          "_type": "span",
+          "marks": [],
+          "text": "Come back on the late-morning or early-afternoon boat, eat on Gili Air, and give the rest of the day to the water or a book. If you want structure, this is the slot for a single fun dive or a discover-scuba session. All three islands have dive shops, and the sites around them are shallow and forgiving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s106",
+          "_type": "span",
+          "marks": [],
+          "text": "Sunset on the west side of Gili Air, then dinner. If the trip has been good, tonight is when you notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s109",
+          "_type": "span",
+          "marks": [],
+          "text": "still Gili Air. You have now covered all three islands without changing rooms once."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: One last swim, then the crossing back"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [],
+          "text": "Swim before breakfast, when the water is flattest and the island is quiet. Check out, and go to the harbour with more time than feels necessary."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s117",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the crossing back to Bali, or on to Lombok if you are continuing. The Bangsal route to mainland Lombok is the cheap option, with a public boat that costs around 20,000 IDR plus a small harbour fee of roughly 10,000 IDR as a working estimate, and it runs through the day rather than to a fixed slot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s120",
+          "_type": "span",
+          "marks": [],
+          "text": "do not book a same-day international flight out of Denpasar off the back of a Gili crossing. Boats get delayed, and in the wet season they get cancelled. Give yourself a night in Bali, ideally near Sanur or the airport, and treat that night as insurance rather than a wasted evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s123",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early. "
+        },
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [],
+          "text": "The fast boat, both directions, if you are travelling between June and September or over Christmas and New Year. Your first night's room. That is the whole list."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible. "
+        },
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [],
+          "text": "The snorkeling day, which you want to be able to move by twenty-four hours if the wind is up. Nights two and three, if you are the kind of traveller who might decide on arrival that Trawangan suits you better. Dives, which you can arrange the afternoon before at any shop on any of the three islands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Do not book at all. "
+        },
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [],
+          "text": "Airport-style transfers on the islands, since there are no cars. Restaurants, since almost nowhere takes bookings. A day-by-day plan, since the only real variable here is the sea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s134",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on a short Gili trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sleeping on all three islands. "
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [],
+          "text": "It is the single most common way to waste a four-day trip. Two hotel changes cost you two mornings and gain you nothing you cannot get on a day boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assuming Trawangan is only a party island. "
+        },
+        {
+          "_key": "s139",
+          "_type": "span",
+          "marks": [],
+          "text": "The eastern strip near the harbour is busy, and the western side is quiet enough that people who assumed otherwise regret not staying there. Look before you judge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Snorkeling the statues at eleven in the morning. "
+        },
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": [],
+          "text": "You will share them with several boatloads of people. Go at eight, or pay for a private trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the sun. "
+        },
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [],
+          "text": "There is very little shade on the boats and the walk from the harbour to your room is longer than you think with luggage. Reef-safe sunscreen, a hat and water, all bought before you get on the boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating the crossing as a formality. "
+        },
+        {
+          "_key": "s148",
+          "_type": "span",
+          "marks": [],
+          "text": "Cancellations are real, particularly from December to February. Buy tickets from operators with a clear rebooking policy and never plan the crossing for the same day as a flight home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Bringing no cash. "
+        },
+        {
+          "_key": "s151",
+          "_type": "span",
+          "marks": [],
+          "text": "The islands are not cashless, ATMs empty out, and a failed card at a warung is a bad start to a short trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s154",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut the Meno morning "
+        },
+        {
+          "_key": "s156",
+          "_type": "span",
+          "marks": [],
+          "text": "if the wind is up or you simply want a lazier trip. Day three becomes a beach day on Gili Air, and you lose less than you would think, because the boat trip on day two already showed you Meno's best snorkeling. The trade-off is that you never set foot on the quietest of the three islands, which is the part most people remember."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt the base to Gili Trawangan "
+        },
+        {
+          "_key": "s159",
+          "_type": "span",
+          "marks": [],
+          "text": "if you are travelling as a group, want dive schools within walking distance, or care about the evenings. The itinerary runs identically in reverse, with the morning hopper going Trawangan to Meno instead of Air to Meno. The trade-off is more noise and more people on your doorstep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt the base to Gili Meno "
+        },
+        {
+          "_key": "s162",
+          "_type": "span",
+          "marks": [],
+          "text": "only if quiet is the entire point and you are content with a handful of restaurants. The trade-off is real: fewer boats, thinner banking, and a much shorter list of places to eat on night three."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s164",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade the snorkeling "
+        },
+        {
+          "_key": "s165",
+          "_type": "span",
+          "marks": [],
+          "text": "to a private or small-group boat rather than upgrading the room. On a trip this short, the difference between the statues at eight in the morning and the statues at ten is larger than the difference between a fan room and an air-conditioned one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s167",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Stretch to five or six days "
+        },
+        {
+          "_key": "s168",
+          "_type": "span",
+          "marks": [],
+          "text": "if you can, and add either a night on a second island or a proper dive course. Four days is the practical floor here, not the ideal number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s171",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s172",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visas. "
+        },
+        {
+          "_key": "s173",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors use the visa on arrival, commonly around 500,000 IDR for 30 days and extendable once, with extensions now involving an in-person biometric step at an immigration office. Rules change, so check the latest official guidance for your nationality before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s175",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The Bali levy. "
+        },
+        {
+          "_key": "s176",
+          "_type": "span",
+          "marks": [],
+          "text": "Bali charges a tourist levy of 150,000 IDR per person as a working estimate. Travellers who leave Bali for the Gilis and return by boat without leaving Indonesia generally are not asked to pay twice, but the guidance around this shifts, so keep your payment voucher on your phone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s178",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting around. "
+        },
+        {
+          "_key": "s179",
+          "_type": "span",
+          "marks": [],
+          "text": "There are no cars or motorbikes on any of the three islands. It is walking, bicycles at somewhere around 50,000 IDR a day as a working estimate, electric bikes at meaningfully more, cidomo carts, and boats. Sandy paths make cycling harder than it looks on Trawangan's north end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Season. "
+        },
+        {
+          "_key": "s182",
+          "_type": "span",
+          "marks": [],
+          "text": "April to October is the dry, calm window and the reliable one for boats. January and February bring the roughest seas and the highest cancellation risk. July and August are calm, busy and expensive at once."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s184",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health and water. "
+        },
+        {
+          "_key": "s185",
+          "_type": "span",
+          "marks": [],
+          "text": "Bring or buy refill water rather than a case of plastic bottles, since the islands have a serious waste problem and refill stations are widespread. Mosquito repellent matters more here than the beach-holiday framing suggests."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s187",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Medical cover. "
+        },
+        {
+          "_key": "s188",
+          "_type": "span",
+          "marks": [],
+          "text": "There is limited medical care on the islands and serious cases are moved to Lombok or Bali. If you are diving, check that your travel insurance covers it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s191",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s192",
+          "_type": "span",
+          "marks": [],
+          "text": "Four days is enough for the Gili Islands, but only in the version above. The trip fails when people try to give each island its own night, and it works when they give each island its own reason: Trawangan for a look at what everyone talks about, Meno for the one genuinely quiet morning, and one base to come back to every evening. The reef here is not the best in Indonesia, and anyone who has snorkeled Raja Ampat or Komodo will say so, but the turtles are reliable, the water is warm and the absence of traffic does something to the pace of a trip that is hard to get elsewhere this close to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b195",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s194",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have six days, take six. If you have four, take these four, book the boat properly, and stop moving once you land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s197",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s198",
+          "_type": "span",
+          "marks": [],
+          "text": "If four days is not enough, "
+        },
+        {
+          "_key": "s200",
+          "_type": "span",
+          "marks": [
+            "m199"
+          ],
+          "text": "7 days in Lombok and the Gili Islands"
+        },
+        {
+          "_key": "s201",
+          "_type": "span",
+          "marks": [],
+          "text": " adds the south Lombok beaches and the Senaru waterfalls to the same island section."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m199",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s203",
+          "_type": "span",
+          "marks": [],
+          "text": "Coming from Bali and want the crossing built into a longer trip? "
+        },
+        {
+          "_key": "s205",
+          "_type": "span",
+          "marks": [
+            "m204"
+          ],
+          "text": "10 days in Bali and the Gili Islands"
+        },
+        {
+          "_key": "s206",
+          "_type": "span",
+          "marks": [],
+          "text": " covers both halves properly. For a beach-first alternative on the mainland, see "
+        },
+        {
+          "_key": "s208",
+          "_type": "span",
+          "marks": [
+            "m207"
+          ],
+          "text": "7 days in South Lombok"
+        },
+        {
+          "_key": "s209",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m204",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-gili-islands"
+        },
+        {
+          "_key": "m207",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-south-lombok-kuta-beaches"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s211",
+          "_type": "span",
+          "marks": [],
+          "text": "For the wider region, including ferries, seasons and where each island sits, start at the "
+        },
+        {
+          "_key": "s213",
+          "_type": "span",
+          "marks": [
+            "m212"
+          ],
+          "text": "Lombok and Gili Islands destination guide"
+        },
+        {
+          "_key": "s214",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m212",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes, if you sleep on one island and visit the other two by day boat. Four days gives you two full days on the water and one arrival and one departure day. It is not enough to give each island its own night, because two hotel changes would cost you two of your four mornings.",
+      "question": "Is 4 days enough for the Gili Islands?"
+    },
+    {
+      "answer": "Gili Air is the safest default: walkable, a good spread of places to eat, regular boats and quiet by mid-evening. Choose Gili Trawangan if you want dive schools, late bars and the widest choice of rooms and departures. Choose Gili Meno only if near-silence is the point and you accept limited food choice and fewer boats.",
+      "question": "Which Gili island should I stay on?"
+    },
+    {
+      "answer": "By fast boat, usually from Padang Bai in east Bali or from Serangan or Sanur in the south. Padang Bai crossings are commonly around ninety minutes; southern ports run closer to two and a half or three hours plus a road transfer. As a working estimate a one-way ticket sits around $25 to $45 depending on operator and season. Fares and schedules change, so confirm before booking.",
+      "question": "How do you get from Bali to the Gili Islands?"
+    },
+    {
+      "answer": "Public hopping boats connect all three, taking roughly ten to fifteen minutes per leg, at somewhere in the region of 25,000 to 45,000 IDR per person as a working estimate. They run through the day with a last departure in the mid-afternoon, and boats sometimes wait to fill rather than leaving on the dot. Confirm the day's timings locally rather than relying on a published timetable.",
+      "question": "How do you travel between the Gili Islands?"
+    },
+    {
+      "answer": "April to October, when the seas are calmest and fast boats run most reliably. June, September and October give dry-season conditions without July and August crowds and prices. January and February bring the roughest water and the highest chance of a cancelled crossing.",
+      "question": "When is the best time to visit the Gili Islands?"
+    },
+    {
+      "answer": "Yes. Both sit on the standard three-island snorkeling loop, and the Nest statues off Gili Meno are shallow enough to see from the surface. Go early, since the site gets busy from around nine in the morning. You can also snorkel to the statues from Gili Meno's east beach without a boat.",
+      "question": "Can you see turtles and the underwater statues on a short trip?"
+    },
+    {
+      "answer": "Yes. ATMs exist on Gili Trawangan and Gili Air but run empty, card acceptance thins outside the larger hotels and beach clubs, and small warungs, bicycle hire and cidomo carts are cash-only. Draw what you need in Bali or Lombok before you cross.",
+      "question": "Do you need cash on the Gili Islands?"
+    },
+    {
+      "answer": "It is a risk worth avoiding. Fast boats are weather-dependent and cancellations are common between December and February. Build in a night in Bali, ideally near Sanur or the airport, rather than connecting a crossing straight into an international flight.",
+      "question": "Is it safe to fly out of Bali the same day you leave the Gilis?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Empty white-sand beach on Gili Meno with turquoise shallows and the mountains of Lombok across the strait",
+    "asset": {
+      "_ref": "image-1df116eb9b8eb24a6dd5547d6d4e58ab4b49f998-4032x2688-jpg",
+      "_type": "reference"
+    },
+    "caption": "Bali → Gili Air → Gili Meno → Gili Trawangan"
+  }
+}

@@ -1,0 +1,2709 @@
+{
+  "_id": "e6406803-a7cd-47d9-b15e-914e8cf53bb3",
+  "_type": "article",
+  "title": "15 Days in Java and Bali: Yogyakarta, Bromo, Ijen, Ubud and Uluwatu",
+  "slug": {
+    "_type": "slug",
+    "current": "15-days-java-bali"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-02T05:19:43.411Z",
+  "destinationPrimary": "java",
+  "destinationSecondary": [
+    "bali"
+  ],
+  "travelStylePrimary": "culture_temples",
+  "travelStyleSecondary": [
+    "adventure_volcanoes",
+    "first_time_indonesia"
+  ],
+  "tripLengthBucket": "two_weeks",
+  "tripLengthDays": 15,
+  "travellerTypes": [
+    "couples",
+    "solo_travellers",
+    "friends"
+  ],
+  "vibe": "active",
+  "experienceTags": [
+    "temples",
+    "volcano_sunrise",
+    "rice_terraces",
+    "waterfalls",
+    "beach_sunset",
+    "cultural_performance",
+    "private_drivers",
+    "airport_transfers",
+    "overland_route"
+  ],
+  "bestSeason": "April–October",
+  "route": "Yogyakarta → Mount Bromo → Ijen → Ubud → Uluwatu",
+  "focusKeyword": "15 days Java and Bali itinerary",
+  "metaTitle": "Java & Bali in 15 Days: Temples, Volcanoes & Beaches",
+  "metaDescription": "A decision-led 15-day Java and Bali itinerary: Yogyakarta, Borobudur, Prambanan, Bromo, Ijen, Ubud and Uluwatu, with day-by-day booking logic.",
+  "intro": "Most people imagine Java and Bali as one smooth holiday. It is really two trips stitched together. Java is overland, early starts and volcanic distance. Bali is the slow exhale that follows. This 15-day route runs Yogyakarta to Bromo to Ijen, then crosses to Ubud and Uluwatu, so the hardest days come while you still have energy, and the beach lands when you need it.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=MountBromo",
+      "anchorText": "Mount Bromo sunrise tour",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BROMO_SUNRISE",
+      "publicUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Banyuwangi to Bali ferry",
+      "experienceCategory": "boat_ferry",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_BANYUWANGI_BALI",
+      "publicUrl": "https://12go.asia/en/ferry/banyuwangi/bali"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+      "experienceCategory": "ubud_highlights",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "affiliateUrl": null,
+      "anchorText": "Balinese cooking class",
+      "experienceCategory": "cooking_class",
+      "linkStatus": "pending",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+      "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+      "anchorText": "Mount Batur sunrise jeep experience",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+      "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
+    },
+    {
+      "affiliateUrl": null,
+      "anchorText": "private car charter",
+      "experienceCategory": "private_driver",
+      "linkStatus": "pending",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
+      "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+      "anchorText": "Kecak fire dance at Uluwatu",
+      "experienceCategory": "uluwatu_cultural",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    },
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits first-time Indonesia travellers who want more than a beach week. If you like the idea of ancient temples, two volcano sunrises and a culture-heavy opening before you settle into Bali, the structure works in your favour. Couples, solo travellers and friends all fit it well, because the pace is demanding early and forgiving late."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for travellers who want to relax from day one, who dislike pre-dawn starts, or who get worn down by long transfer days. The Java leg involves overland distance and two early mornings in a row. If that sounds like a chore rather than the point of the trip, a Bali-only plan or a shorter Yogyakarta-plus-Bali version will make you happier."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 15 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta International Airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "End:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar / Ngurah Rai International Airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " culture seekers, nature travellers, couples and first-time Indonesia visitors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " travellers who want a slow beach holiday from day one or who dislike very early starts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " culture and temples, active at the front, slower at the end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " mid-range travellers spend roughly US$1,200 to US$2,000 per person for two weeks excluding international flights, while budget travellers using trains, guesthouses and shared tours can do it for around US$700 to US$1,000. Treat these as working estimates that move with season and choices."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " medium overall, with one harder stretch across East Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": " low to medium. Temple and volcano days are easy to organise ahead, the Bromo and Ijen connection is the part most worth locking early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is deliberate. You start in Yogyakarta because it gives the trip a cultural anchor before any volcano or beach. Four nights there cover Borobudur, Prambanan and the city itself without rushing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "From Yogyakarta you move east through Java to Bromo, then Ijen, because these volcanoes sit on the way to Bali, not as a detour. Doing them in sequence means you only cross East Java once. After Ijen you reach Banyuwangi and cross to Bali by ferry, so the geography flows in one direction rather than doubling back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "Bali then runs from inland to coast. Ubud first, as a recovery base after the intense Java section, then Uluwatu for the beach finish. Ending on the cliffs near the airport keeps the last day calm and the departure simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you fly: data and entry"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort your connectivity before you board. An "
+        },
+        {
+          "_key": "k1e",
+          "_type": "span",
+          "marks": [
+            "k1d"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [],
+          "text": " activated on the plane gives you maps, ride apps and messaging the moment you land, which matters most on the Java transfer days when plans shift."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1d",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [],
+          "text": " check the latest official entry guidance before you go, since visa-on-arrival rules and fees can change. Allow buffer time for arrival formalities on day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Yogyakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1n",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, 4 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1q",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive and keep it simple. Check in, rest and let the trip start gently. Yogyakarta is one of Java's most important cultural cities, so even an easy first day sets the tone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1t",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk Malioboro or stay near your hotel for dinner. Do not plan anything demanding, you want to be fresh for the temples tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [],
+          "text": " stay near Malioboro or Prawirotaman. Both give good access to the palace, transport and restaurants, which keeps the next three days efficient. You can "
+        },
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [],
+          "text": "search Yogyakarta stays on Booking.com"
+        },
+        {
+          "_key": "k1y",
+          "_type": "span",
+          "marks": [],
+          "text": " for either area."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Borobudur and Prambanan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " Borobudur first, ideally early to beat the heat and the largest crowds. The scale of it is the point, give it time rather than rushing back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " Prambanan, which feels sharper and more vertical than Borobudur. Seeing both in one day gives a strong read on Java's history."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": " a guided Borobudur and Prambanan day with transfers included removes the logistics of linking two sites that sit on opposite sides of the city. "
+        },
+        {
+          "_key": "k2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": " the Borobudur and Prambanan combo ticket ended in 2025, so each entry is now separate. As a working estimate, budget around IDR 455,000 for Borobudur and IDR 400,000 for Prambanan for foreign visitors, but fees can change, so confirm current prices when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Yogyakarta for dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Yogyakarta city culture"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [],
+          "text": " The city itself. Sultan's Palace, the Kraton, then Taman Sari Water Castle nearby. These sit close together, so the morning flows without much transport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2m",
+          "_type": "span",
+          "marks": [],
+          "text": " A batik workshop, then cafes, markets and local food at a slower pace. Yogyakarta rewards curiosity more than a checklist, so leave room to wander."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": " a private city tour is worth it here mainly for context, since the palace and old town make far more sense with someone explaining the history."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Extra Yogyakarta day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [],
+          "text": " This is a buffer day on purpose, so the route does not feel rushed. Use it for an additional cultural site, a village cycling ride or more time in the food scene, depending on energy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [],
+          "text": " Prepare for the East Java section. Repack, charge everything and get an early night, because the next stretch involves real distance and two early mornings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are short on time, this is the most natural day to cut, which collapses the trip to a tighter 14 days without losing a headline sight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Positioning day to Mount Bromo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " Cemoro Lawang, 1 night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " Treat this as a transfer, not a sightseeing day. Leaving Yogyakarta and reaching the Bromo area is a long haul east across Java, so set expectations accordingly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3b",
+          "_type": "span",
+          "marks": [],
+          "text": " managing the trains, drivers and a remote mountain hotel separately is the fiddly part of this whole itinerary. A guided Yogyakarta to Bromo and Ijen overland route is the smoother way to connect the volcano section as one package rather than improvising each leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive near Bromo, eat and sleep early. Cemoro Lawang is the closest base for the sunrise, so "
+        },
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [],
+          "text": "search Cemoro Lawang stays on Booking.com"
+        },
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [],
+          "text": " for somewhere within reach of the jeep pickup. "
+        },
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3i",
+          "_type": "span",
+          "marks": [],
+          "text": " nights here are cold, pack a warm layer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Mount Bromo sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": " A pre-dawn start. Most visits begin with a 4WD jeep ride to a viewpoint over the Tengger Caldera for sunrise. The landscape is wide and cinematic, completely unlike Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [],
+          "text": " a "
+        },
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [
+            "k3r"
+          ],
+          "text": "Mount Bromo sunrise tour"
+        },
+        {
+          "_key": "k3t",
+          "_type": "span",
+          "marks": [],
+          "text": " handles the very early timing and the local jeep transport, which is the hard part to arrange alone in the dark. As a working estimate, Bromo entry runs around IDR 220,000 on a weekday and IDR 320,000 at the weekend, and guided tours often bundle the fee, but confirm current pricing when booking."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k3r",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BROMO_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k3x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3w",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue east towards the Ijen area so you are positioned for another early start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a fragile, weather-dependent morning. Clear skies are not guaranteed, so hold it loosely rather than treating the view as a sure thing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Ijen crater, then cross to Bali"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " Another early start for Ijen. The crater is known for its acidic lake, the sulphur mining landscape and, before 5am, the blue fire. Wear proper shoes and bring warm layers, the climb and the gases both demand respect."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue to Banyuwangi and cross to Bali. "
+        },
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " book the "
+        },
+        {
+          "_key": "k4b",
+          "_type": "span",
+          "marks": [
+            "k4a"
+          ],
+          "text": "Banyuwangi to Bali ferry"
+        },
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [],
+          "text": " through 12Go so the crossing is arranged rather than left to chance at the port. "
+        },
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " ferry timings can shift, so allow buffer time and check the latest schedule before you commit to an arrival plan in Ubud."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k4a",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BANYUWANGI_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k4m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, 4 nights. "
+        },
+        {
+          "_key": "k4i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [],
+          "text": " Reach Ubud and keep it quiet. This is the reset point after the intense Java section, so do not stack anything onto arrival night. You can "
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": "search Ubud stays on Booking.com"
+        },
+        {
+          "_key": "k4l",
+          "_type": "span",
+          "marks": [],
+          "text": " near Ubud Palace or Jalan Bisma for walkable access. As a working estimate, Ijen entry sits around IDR 100,000 to 150,000, but confirm current fees."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4o",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Rest day in Ubud"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [],
+          "text": " Deliberately empty. After two volcano mornings and a ferry, the first full Ubud day is for recovery. Slow breakfast, a massage, a walk around the centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": " do not book a tour today. The temptation is to fill it, but the trip works precisely because this day is soft. Pushing through here is where people burn out for the rest of Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Ubud rice terraces, temples and waterfalls"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " The classic Ubud loop: Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace, then Tirta Empul Temple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": " A waterfall near Ubud to close the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": " these sights are spread out and awkward to link by public transport, so an "
+        },
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [
+            "k55"
+          ],
+          "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": " with hotel pickup keeps the day structured and saves you negotiating transfers between each stop."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k55",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Cooking class or Mount Batur"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5c",
+          "_type": "span",
+          "marks": [],
+          "text": " Choose based on how the Java leg left you. For something lighter, a "
+        },
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [
+            "k5d"
+          ],
+          "text": "Balinese cooking class"
+        },
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [],
+          "text": " with a market visit stays gentle. For more adventure, the "
+        },
+        {
+          "_key": "k5h",
+          "_type": "span",
+          "marks": [
+            "k5g"
+          ],
+          "text": "Mount Batur sunrise jeep experience"
+        },
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [],
+          "text": " is another pre-dawn climb."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k5d",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+        },
+        {
+          "_key": "k5g",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k5m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5l",
+          "_type": "span",
+          "marks": [],
+          "text": " be honest about your energy. If Bromo and Ijen already gave you your volcano sunrises, the cooking class is the smarter pick and Batur becomes optional rather than essential."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k5o",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it slow either way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5r",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 11: Move from Ubud to Uluwatu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu, 4 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5w",
+          "_type": "span",
+          "marks": [],
+          "text": " After breakfast, transfer from Ubud to Uluwatu."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5z",
+          "_type": "span",
+          "marks": [],
+          "text": " a "
+        },
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "k60"
+          ],
+          "text": "private car charter"
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " is the practical way to cover this, since the route is long enough that a fixed transfer beats stitching together rides."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k60",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle in and head to Padang Padang, Bingin or Melasti Beach. "
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu sits around 30 to 45 minutes from the airport, which is why it makes a low-stress final base. You can "
+        },
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": "search Uluwatu stays on Booking.com"
+        },
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": " for a cliff villa or guesthouse with ocean views."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6c",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 12: Uluwatu beaches and Kecak fire dance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6e",
+          "_type": "span",
+          "marks": [],
+          "text": " Beach time at one of the southern coves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k6h",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu Temple in the late afternoon, timed for the light."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k6k",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay for the "
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [
+            "k6l"
+          ],
+          "text": "Kecak fire dance at Uluwatu"
+        },
+        {
+          "_key": "k6n",
+          "_type": "span",
+          "marks": [],
+          "text": ", which runs at sunset against the cliff backdrop. "
+        },
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": " it fills up, so skip-the-line tickets are worth holding rather than queuing on the day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6l",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 13 to 14: Slow Uluwatu days"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_key": "k6u",
+          "_type": "span",
+          "marks": [],
+          "text": " These are open by design. Padang Padang, Bingin and Melasti are all within reach for slower beach time. Surfing lessons are available locally if you want something active."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k6x",
+          "_type": "span",
+          "marks": [],
+          "text": " Jimbaran seafood makes a good dinner on one of these nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [],
+          "text": " if you arrived behind schedule because of a ferry delay earlier, these are the days that absorb it, which is why the buffer sits at the end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 15: Slow morning and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": " An ocean-view breakfast, a short walk or a last massage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [],
+          "text": " leave buffer time for the airport. The drive is short, but traffic in south Bali is unpredictable, so do not cut it fine on a departure day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7b",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k7d",
+          "_type": "span",
+          "marks": [],
+          "text": " The East Java volcano connection is the piece most worth locking ahead, because the overland Yogyakarta to Bromo to Ijen logistics and the limited Cemoro Lawang accommodation get tight in peak months. The Banyuwangi to Bali ferry and your Bromo sunrise jeep also benefit from being arranged in advance. In July and August, book Yogyakarta and Ubud stays early too."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k7g",
+          "_type": "span",
+          "marks": [],
+          "text": " The Ubud rest day, the day 10 choice between a cooking class and Mount Batur, and the two slow Uluwatu days can all stay loose. They are the shock absorbers of the trip. Confirm current flight routes before locking hotels if you decide to fly any leg instead of going overland."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7j",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7k",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the Java distances. Bromo and Ijen are not quick side trips, they are full positioning days, and treating day 5 as sightseeing rather than transfer leads to frustration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7m",
+          "_type": "span",
+          "marks": [],
+          "text": "Stacking activities onto arrival days. Reaching Ubud after Ijen and immediately booking a tour is how people exhaust themselves. The rest day exists for a reason."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7o",
+          "_type": "span",
+          "marks": [],
+          "text": "Doing three volcano sunrises. Bromo, Ijen and then Batur in one trip is a lot of pre-dawn climbs. Pick the cooking class on day 10 unless you genuinely want a third."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7q",
+          "_type": "span",
+          "marks": [],
+          "text": "Cutting the end buffer instead of the middle. If you need to shorten the trip, trim the extra Yogyakarta day, not the slow Uluwatu days that absorb any ferry or transfer delays."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7t",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut."
+        },
+        {
+          "_key": "k7v",
+          "_type": "span",
+          "marks": [],
+          "text": " Day 4, the extra Yogyakarta day, is the cleanest thing to drop for a 14-day version. You keep every headline sight and only lose slack."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt."
+        },
+        {
+          "_key": "k7y",
+          "_type": "span",
+          "marks": [],
+          "text": " If the overland East Java leg feels too heavy, you can fly Surabaya or Yogyakarta to Denpasar to save time, at the cost of skipping one or both volcanoes. Confirm current flight routes before you rebook hotels around a flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade."
+        },
+        {
+          "_key": "k81",
+          "_type": "span",
+          "marks": [],
+          "text": " Ending in Uluwatu lends itself to a cliff villa splurge for the final nights, since the days there are unstructured and the view becomes the activity."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October is the dry season and the safest window for the volcano sunrises and Bali beaches. May, June and September balance decent weather with thinner crowds at Borobudur and Bromo, which get busy in July and August."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [],
+          "text": " Check the latest official entry guidance before travel, since rules and fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k8c",
+          "_type": "span",
+          "marks": [],
+          "text": " Trains link Java's cities comfortably and cheaply, and are the easy backbone of the Java leg. The medium-difficulty part is the East Java overland push to the volcanoes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k8f",
+          "_type": "span",
+          "marks": [],
+          "text": " The Ketapang to Gilimanuk crossing connects Java to Bali. Ferry timings can shift, so allow buffer time and check the latest schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k8i",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for temple and volcano fees, which are quoted in rupiah and can change. Set up an "
+        },
+        {
+          "_key": "k8k",
+          "_type": "span",
+          "marks": [
+            "k8j"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k8l",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly so you have data from landing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8j",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k8r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early."
+        },
+        {
+          "_key": "k8o",
+          "_type": "span",
+          "marks": [],
+          "text": " The volcano section, the ferry and peak-season accommodation. "
+        },
+        {
+          "_key": "k8p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible."
+        },
+        {
+          "_key": "k8q",
+          "_type": "span",
+          "marks": [],
+          "text": " The rest day, the day 10 choice and the final Uluwatu stretch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8t",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8u",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want Indonesia's range in one go and you are willing to earn the beach. The structure is honest about its trade-off: a demanding, culture-and-volcano first week buys you a genuinely relaxed second one. For first-time visitors who like the idea of temples and volcano sunrises before they slow down, it is one of the strongest two-week routes in the country."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8w",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if early starts and long transfer days drain rather than excite you. In that case a Bali-focused plan, or Yogyakarta plus Bali without the East Java volcanoes, will give you a better trip than forcing this one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8z",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [],
+          "text": "If the volcano section is the part that draws you, compare it against a dedicated "
+        },
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [
+            "k91"
+          ],
+          "text": "Java overland route"
+        },
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k91",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k95",
+          "_type": "span",
+          "marks": [],
+          "text": "For the Bali half on its own, see a "
+        },
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [
+            "k96"
+          ],
+          "text": "Bali highlights itinerary"
+        },
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": [],
+          "text": " covering Ubud and the south."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k96",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k9a",
+          "_type": "span",
+          "marks": [],
+          "text": "To go deeper on the region first, start with the "
+        },
+        {
+          "_key": "k9c",
+          "_type": "span",
+          "marks": [
+            "k9b"
+          ],
+          "text": "Java destination guide"
+        },
+        {
+          "_key": "k9d",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k9b",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "java10-inb-1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "java10-inb-1-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Want Java without the Bali half? The "
+        },
+        {
+          "_key": "java10-inb-1-s2",
+          "_type": "span",
+          "marks": [
+            "java10-lnk-1"
+          ],
+          "text": "10-day Java route by train"
+        },
+        {
+          "_key": "java10-inb-1-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " runs Jakarta, Bandung, Yogyakarta and Bromo on the rail network, covering the western cities this route skips."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "java10-lnk-1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bvhyhj4ajw",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "xcyy8k2paz",
+          "_type": "span",
+          "marks": [],
+          "text": "Getting around: "
+        },
+        {
+          "_key": "rpxy76j3fj",
+          "_type": "span",
+          "marks": [
+            "cys4qq2xsg"
+          ],
+          "text": "Jakarta to Yogyakarta"
+        },
+        {
+          "_key": "mfb4wkk8h7",
+          "_type": "span",
+          "marks": [],
+          "text": " · "
+        },
+        {
+          "_key": "hega6ypsbt",
+          "_type": "span",
+          "marks": [
+            "c0w9wj3dsp"
+          ],
+          "text": "Bali to Yogyakarta"
+        },
+        {
+          "_key": "21hozr4arn",
+          "_type": "span",
+          "marks": [],
+          "text": " · "
+        },
+        {
+          "_key": "4ib7yjmjqf",
+          "_type": "span",
+          "marks": [
+            "4yf1mrbz3d"
+          ],
+          "text": "Jakarta to Bali"
+        },
+        {
+          "_key": "ymbmw7evho",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cys4qq2xsg",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/jakarta-to-yogyakarta"
+        },
+        {
+          "_key": "c0w9wj3dsp",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-yogyakarta"
+        },
+        {
+          "_key": "4yf1mrbz3d",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/jakarta-to-bali"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes. Two weeks comfortably links Yogyakarta's temples, the East Java volcanoes at Bromo and Ijen, and Bali's Ubud and Uluwatu, with realistic travel time between regions. It is a classic overland-then-island route. Rushing it into less than 12 days makes the long Java legs exhausting.",
+      "question": "Is 15 days enough for Java and Bali?"
+    },
+    {
+      "answer": "As working estimates, budget for Borobudur around IDR 455,000 for foreign visitors, Prambanan around IDR 400,000, Mount Bromo around IDR 220,000 on a weekday or 320,000 at the weekend, and Ijen around IDR 100,000 to 150,000. The Borobudur and Prambanan combo ticket ended in 2025, so each is now separate. Fees can change, so confirm current prices, and note guided tours often bundle the volcano fees.",
+      "question": "What do the main temple and volcano entry fees cost?"
+    },
+    {
+      "answer": "Most travellers go overland east through Java, from Yogyakarta to Bromo to Ijen to Banyuwangi, then take the short ferry from Ketapang to Gilimanuk, or fly Surabaya or Yogyakarta to Denpasar to save time. Trains link Java's cities comfortably and cheaply. Ferry timings can shift, so check the latest schedule and allow buffer time.",
+      "question": "How do I travel from Java to Bali?"
+    },
+    {
+      "answer": "April to October, the dry season, is ideal for the volcano sunrises and Bali's beaches. The shoulder months of May, June and September balance good weather with fewer crowds at Borobudur and Bromo, which get busy in July and August.",
+      "question": "When is the best time for a Java and Bali trip?"
+    },
+    {
+      "answer": "As a working estimate, mid-range travellers spend roughly US$1,200 to 2,000 per person for two weeks, covering decent hotels, guided volcano tours, domestic transport and temple fees, and excluding international flights. Budget travellers using trains, guesthouses and shared tours can do it for around US$700 to 1,000. Costs move with season and choices.",
+      "question": "How much does 15 days in Java and Bali cost?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Java and Bali — Borobudur, Mount Bromo crater and Ubud rice terraces",
+    "asset": {
+      "_ref": "image-5e6e740bce794c73dff68d4b0f76d26f7caf4a0a-3584x5376-jpg",
+      "_type": "reference"
+    },
+    "caption": "Yogyakarta → Mount Bromo → Ijen → Ubud → Uluwatu"
+  },
+  "_system": {
+    "base": {
+      "id": "e6406803-a7cd-47d9-b15e-914e8cf53bb3",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "articleCommercialTier": "standard",
+  "logisticsComplexity": "moderate",
+  "primaryAffiliatePartner": "viator",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "12go",
+    "airalo"
+  ]
+}

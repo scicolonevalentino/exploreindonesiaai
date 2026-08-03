@@ -1,0 +1,1568 @@
+{
+  "_id": "itinerary-8-days-wakatobi-diving-southeast-sulawesi",
+  "_type": "article",
+  "title": "Wakatobi: An 8-Day Diving Itinerary in Southeast Sulawesi",
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-wakatobi-diving-southeast-sulawesi"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-15T07:06:40.600Z",
+  "destinationPrimary": "wild_indonesia",
+  "travelStylePrimary": "diving_snorkeling",
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "travellerTypes": [
+    "divers",
+    "couples",
+    "repeat_travellers"
+  ],
+  "vibe": "remote",
+  "route": "Makassar → Wangi-Wangi → Hoga → Tomia",
+  "focusKeyword": "wakatobi diving itinerary",
+  "metaTitle": "Wakatobi Diving: An 8-Day Southeast Sulawesi Trip",
+  "metaDescription": "How to dive Wakatobi in 8 days: reaching Wangi-Wangi, island-hopping to Hoga and Tomia, and choosing between independent travel and a dive resort.",
+  "intro": "Wakatobi sits near the top of most serious divers lists of Indonesian reefs, and near the bottom of most lists of places that are simple to reach. Off the southeast corner of Sulawesi, its four islands reward the divers who make the effort with healthy coral and few other boats, but they punish anyone who treats it like an easy beach week. This is a diving-first plan that walks the independent island-hopping route and is honest about when a fly-in dive resort is the smarter call instead.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "k1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "k2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "flights and boat tickets across Sulawesi",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_WAKATOBI_FLIGHTS",
+      "publicUrl": null
+    }
+  ],
+  "body": [
+    {
+      "_key": "k4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3",
+          "_type": "span",
+          "marks": [],
+          "text": "Wakatobi sits near the top of most serious divers lists of Indonesian reefs, and near the bottom of most lists of places that are simple to reach. That tension runs through the whole trip. The four islands that give the marine park its name, Wangi-Wangi, Kaledupa, Tomia and Binongko, sit off the southeast corner of Sulawesi, and getting between them depends on flights that run a few times a week and boats that leave every couple of days. What you get in return is some of the healthiest coral in the country with a fraction of the boats you would share it with in Bali or the Gilis."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a diving and snorkeling week, and it asks you to make one big decision up front: do you travel independently from a base on Wangi-Wangi, or do you fly in to a single all-inclusive dive resort and let it handle everything? The two versions of Wakatobi barely resemble each other in cost, effort and pace. This plan walks the independent route in detail and is honest about where the resort route makes more sense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits certified divers and committed snorkelers who care more about reef quality than comfort, and who are relaxed about slow, weather-dependent logistics. It works for couples and repeat travellers who have already done the easier Indonesian islands and want something quieter and further out. Patience is the real entry requirement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [],
+          "text": "It is a poor fit if you want nightlife, shopping or a packed roster of land activities, because the outer islands have little of any of them. It is not the trip for a tight schedule, since a single missed boat or cancelled flight can cost you a day or more. And if you are not a diver or a keen snorkeler, the effort of getting here is hard to justify. Non-divers chasing warm water and beaches will be happier on the "
+        },
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [
+            "k12"
+          ],
+          "text": "South Lombok beaches"
+        },
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [],
+          "text": " or in the "
+        },
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [
+            "k15"
+          ],
+          "text": "Gili Islands"
+        },
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-south-lombok-kuta-beaches"
+        },
+        {
+          "_key": "k15",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": "Eight days, built around Wangi-Wangi as the entry point, with a boat excursion to the Kaledupa and Hoga area and, for those with schedule luck, a push out to Tomia. You reach Wangi-Wangi by flying to Makassar, the main Sulawesi hub, then taking a short onward flight to the island airport. As a working estimate, the Makassar and Kendari flights to Wangi-Wangi run only a few times a week and start from roughly 65 to 120 USD each way, so lock them before anything else. The Wakatobi National Park fee for foreign visitors is commonly around 150,000 IDR, though fees change, so confirm the current rate on arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": "Diving is arranged locally, either through a homestay-linked operator on a shared boat, from roughly 80 to 180 USD a day as a rough guide, or through one of the island dive resorts on a weekly package. Everything here is a planning number, not a quote. Boat and flight schedules shift with weather and season, so build in buffer and confirm current routes before you commit to hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": "The one decision that shapes everything: independent or resort"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you book a flight, decide which Wakatobi you are doing. The "
+        },
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "independent route"
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": " bases you in a homestay or small hotel on Wangi-Wangi, dives with local operators, and hops between islands on public and chartered boats. It is far cheaper, more flexible and more social, and it puts you among the Bajo sea communities and island life. It also means slow transfers, variable dive gear, and schedules that do not always cooperate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "resort route"
+        },
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": " means flying in to a single all-inclusive property, often on a private charter, and diving a house reef and boat sites without ever thinking about logistics. It is expensive, with weekly packages running into the thousands of dollars per person, but it removes every transfer headache and delivers consistent, high-end diving. Neither is better in the abstract. This itinerary follows the independent route; if the descriptions of boat schedules below make you tense rather than curious, the resort route is likely your trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly to Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort connectivity first. An "
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "k39"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " gives you data the moment you land in Makassar, which matters for confirming onward flights and messaging homestays while signal is still strong. Coverage thins out on the outer islands, so use the mainland leg to lock any bookings you can."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k39",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " Most routes to Wakatobi funnel through Makassar (airport code UPG), so plan an overnight here rather than gambling on a same-day connection. Booking "
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [
+            "k45"
+          ],
+          "text": "flights and boat tickets across Sulawesi"
+        },
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": " in one place makes it easier to line up the Makassar leg with the short island hop the next day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k45",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_WAKATOBI_FLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat well in Makassar, since dining choices narrow considerably from here on. "
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [],
+          "text": " Makassar, one night. "
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": " The island flight is the fragile link in the chain. Book it before your international arrival, not after."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Makassar to Wangi-Wangi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the onward flight to Wangi-Wangi (airport code WNI). It is a short hop, but these flights run only a few days a week and fill up, which is why they anchor the whole plan. From Kendari the flight is roughly an hour; from Makassar it is longer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle into your homestay or hotel on Wangi-Wangi and pay the National Park fee if you have not already. If time and energy allow, arrange a checkout dive or a snorkel on a nearby house reef to shake off the travel and let your operator gauge your level."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the next few days of diving and, crucially, the onward boat schedule to Kaledupa and Tomia. "
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [],
+          "text": " Inter-island boats do not run daily, so your operator or homestay host is your best source for the current timetable. Plan around the boats, not the other way round."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Dive Wangi-Wangi, meet the Bajo communities"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [],
+          "text": " Dive the reefs off Wangi-Wangi. The island has plenty of accessible sites with healthy hard and soft coral, and they make a gentle start before the more remote diving further out. Two morning dives is a comfortable rhythm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit the Bajo sea communities at Mola or Sampela, stilt villages built over the water whose lives are tied to the sea. Go with a local guide, be respectful with photos, and treat it as a quiet visit rather than a spectacle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [],
+          "text": " Early night before the boat day. "
+        },
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [],
+          "text": " If the fast boat that links Wangi-Wangi, Kaledupa and Tomia is running tomorrow, build your plan around it. If not, a chartered boat is the fallback, at higher cost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k82",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Boat to Kaledupa and Hoga"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the boat across to the Kaledupa area. Public boats are slow and infrequent, so this is a travel morning, not a diving one. From the harbour at Ambeua you arrange a short local boat over to tiny Hoga Island, long a base for reef research and simple dive lodges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [],
+          "text": " Dive or snorkel the Hoga and Kaledupa reefs, which are among the reasons Wakatobi earned its reputation. Walls and slopes here are in good shape and quiet. Accommodation is basic, so set expectations toward fan rooms and shared meals rather than comfort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner is usually a set meal at your lodge. "
+        },
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": [],
+          "text": " Power and connectivity on Hoga can be limited and scheduled, so charge cameras and dive computers when you can and do not count on being reachable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k95",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Kaledupa reefs and the Sampela stilt village"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": [],
+          "text": " A full diving morning around Hoga and Kaledupa. With fewer boats in the water than the headline Indonesian sites, you often have reefs largely to yourself, which is the real payoff for the effort of getting here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k101",
+          "_type": "span",
+          "marks": [],
+          "text": " If you did not see it from Wangi-Wangi, the Bajo village of Sampela near Kaledupa is worth a slow visit by boat. Otherwise, take a surface-interval afternoon: rest, read, and let your nitrogen off-gas before the next stretch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k103",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k104",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm tomorrow onward boat. "
+        },
+        {
+          "_key": "k105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k106",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the decision point. If the schedule gives you a clean run to Tomia, take it. If it does not, it is smarter to return toward Wangi-Wangi than to risk being stranded by a missed connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k108",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Onward to Tomia, or back toward Wangi-Wangi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k111",
+          "_type": "span",
+          "marks": [],
+          "text": " If the boats align, continue to Tomia, home to some of the marine park best-known dive sites and the upmarket resort scene. Expect a few hours on the water. If the schedule does not cooperate, treat today as a return leg toward Wangi-Wangi with a buffer for the flight out, which is the safer play on a fixed holiday."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k114",
+          "_type": "span",
+          "marks": [],
+          "text": " On Tomia, get in the water on the reefs the island is known for, or if you have turned back, take an easy dive or snorkel near Wangi-Wangi. Either way, keep at least 18 to 24 hours between your last dive and your flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k116",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [],
+          "text": " Quiet night wherever you land. "
+        },
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k119",
+          "_type": "span",
+          "marks": [],
+          "text": " Reaching Tomia independently in a fixed week is genuinely weather and schedule dependent. If Tomia diving is your priority, the fly-in resort route removes the gamble entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k121",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Tomia diving and a sunset climb"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k124",
+          "_type": "span",
+          "marks": [],
+          "text": " A last full morning of diving, whether on the Tomia reefs or back around Wangi-Wangi. Make it count and keep it well clear of your flight time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k127",
+          "_type": "span",
+          "marks": [],
+          "text": " On Tomia, the Puncak Kahyangan viewpoint gives a long look over the reef flats and neighbouring islands, best in the late afternoon. If you are back on Wangi-Wangi, spend the afternoon on a quiet beach or house reef."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k130",
+          "_type": "span",
+          "marks": [],
+          "text": " Begin the slow journey back toward the airport island if you are not already there. "
+        },
+        {
+          "_key": "k131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k132",
+          "_type": "span",
+          "marks": [],
+          "text": " Do not plan a dive on the same day as your onward flight. Give yourself a full buffer day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Return flight via Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k136",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k137",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Wangi-Wangi back to Makassar, then connect onward. Because the island flights are infrequent, the return timing often dictates when your diving has to stop, so plan backwards from it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k139",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k140",
+          "_type": "span",
+          "marks": [],
+          "text": " A Makassar layover is common. If you have hours to spare, the city has enough to fill an afternoon before an evening onward flight. "
+        },
+        {
+          "_key": "k141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave real slack in your connections. A delayed island flight should not cost you an international departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k146",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k147",
+          "_type": "span",
+          "marks": [],
+          "text": " the Wangi-Wangi flights in both directions, and your first two nights of accommodation. These are the scarce, inflexible pieces, and everything else bends around them. If you are taking the resort route, book the whole package well ahead, since charter flights and rooms are limited."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k149",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k150",
+          "_type": "span",
+          "marks": [],
+          "text": " the day-to-day dive plan and any push out to Tomia. Inter-island boats run on their own rhythm, so hold those decisions until you are on the ground and can read the schedule and the weather. Book connectivity in advance so you can still coordinate when signal is thin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k152",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in Wakatobi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating the island flights as an afterthought."
+        },
+        {
+          "_key": "k155",
+          "_type": "span",
+          "marks": [],
+          "text": " They run only a few times a week and are the single most likely thing to derail a trip. Book them first and build the holiday around them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Overpacking the islands into too few days."
+        },
+        {
+          "_key": "k158",
+          "_type": "span",
+          "marks": [],
+          "text": " Trying to dive Wangi-Wangi, Hoga, Tomia and Binongko in one week leaves no margin for a missed boat. Pick two or three areas and go deep rather than chasing all four."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k160",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Diving too close to the flight home."
+        },
+        {
+          "_key": "k161",
+          "_type": "span",
+          "marks": [],
+          "text": " The remoteness makes this trip long, and it is tempting to squeeze a final dive in. Keep a proper surface interval before flying, ideally a full buffer day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Expecting resort comfort on the independent route."
+        },
+        {
+          "_key": "k164",
+          "_type": "span",
+          "marks": [],
+          "text": " Homestays and outer-island lodges are basic, with fan rooms, set meals and intermittent power. That is the trade for the price and the quiet. Go in expecting it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k168",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut it to a Wangi-Wangi and Hoga loop"
+        },
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": [],
+          "text": " if your dates are tight. Base on Wangi-Wangi, make one boat trip to the Kaledupa and Hoga reefs, and skip Tomia. You lose the hardest logistics and keep most of the diving quality."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k171",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt it for snorkelers"
+        },
+        {
+          "_key": "k172",
+          "_type": "span",
+          "marks": [],
+          "text": " by leaning on house reefs and shallow sites off Wangi-Wangi and Hoga, which are rich enough to reward a mask and fins without a tank."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade it to the resort route"
+        },
+        {
+          "_key": "k175",
+          "_type": "span",
+          "marks": [],
+          "text": " if Tomia diving is the goal and you would rather pay to erase the logistics. A single all-inclusive property with its own charter flight turns a schedule-anxious week into a simple one, at a much higher price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k177",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k179",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Season."
+        },
+        {
+          "_key": "k180",
+          "_type": "span",
+          "marks": [],
+          "text": " Diving here is generally best in the calmer, drier months, often around March to December, with conditions varying year to year. Confirm current seasonal guidance and flight routes with your operator before you lock dates, since schedules change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k182",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting in."
+        },
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [],
+          "text": " Most visitors enter Indonesia on a visa on arrival, commonly around 500,000 IDR for 30 days and extendable once, but visa rules change, so check the latest official guidance for your nationality before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k185",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and connectivity."
+        },
+        {
+          "_key": "k186",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring enough cash for the whole trip. ATMs are limited to Wangi-Wangi and can be unreliable, and the outer islands are effectively cash-only. Signal is decent on Wangi-Wangi and patchy beyond it, so set up your eSIM before arrival and do not rely on being online."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k188",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Diving readiness."
+        },
+        {
+          "_key": "k189",
+          "_type": "span",
+          "marks": [],
+          "text": " Some sites suit all levels, but the remoteness means you should be comfortable and current before you come. Carry your certification and logbook, consider dive insurance that covers evacuation, and know that the nearest chamber is far away, so dive conservatively."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k191",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k193",
+          "_type": "span",
+          "marks": [],
+          "text": "Wakatobi rewards the divers who make the effort and quietly punishes anyone who treats it like an easy beach week. The reefs are genuinely among the best in Indonesia, and the low traffic on them is the whole point, but you pay for that in travel time, thin infrastructure and schedules that do not bend to your plans. The honest advice is to decide early which version you want. Go independent if the slow logistics read as part of the adventure and your budget is tight, and go the resort route if you would rather spend money than patience. Either way, book the island flights first, keep a buffer day, and come for the water, not the comforts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k195",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k197",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want more of the Sulawesi underwater scene with easier access, our "
+        },
+        {
+          "_key": "k199",
+          "_type": "span",
+          "marks": [
+            "k198"
+          ],
+          "text": "10 days diving North Sulawesi, Bunaken and Lembeh"
+        },
+        {
+          "_key": "k200",
+          "_type": "span",
+          "marks": [],
+          "text": " pairs reef walls with muck diving. For the other great remote reef trip, the "
+        },
+        {
+          "_key": "k202",
+          "_type": "span",
+          "marks": [
+            "k201"
+          ],
+          "text": "14-day Raja Ampat itinerary for divers"
+        },
+        {
+          "_key": "k203",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the richest marine region in Indonesia. For the wider region and how it fits together, see our "
+        },
+        {
+          "_key": "k205",
+          "_type": "span",
+          "marks": [
+            "k204"
+          ],
+          "text": "Wild Indonesia destination guide"
+        },
+        {
+          "_key": "k206",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k198",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-north-sulawesi-diving-bunaken-lembeh"
+        },
+        {
+          "_key": "k201",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-raja-ampat-divers"
+        },
+        {
+          "_key": "k204",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "_key": "k208",
+      "answer": "Most travellers fly to Makassar in Sulawesi, then take a short onward flight to Wangi-Wangi (airport code WNI). From Kendari the flight is roughly an hour. These island flights run only a few days a week and fill up, so book them before anything else. Some dive resorts also run private charter flights from Bali.",
+      "question": "How do you get to Wakatobi?"
+    },
+    {
+      "_key": "k209",
+      "answer": "It is a stretch. Wakatobi is built around its reefs, so the effort of getting there is hardest to justify for non-divers. Keen snorkelers do well on the shallow house reefs off Wangi-Wangi and Hoga, but if you mainly want beaches and warm water with easy access, Lombok or the Gili Islands are a better use of your time.",
+      "question": "Is Wakatobi worth it if I do not dive?"
+    },
+    {
+      "_key": "k210",
+      "answer": "It depends on budget and temperament. The independent route bases you on Wangi-Wangi with homestays and local dive boats. It is far cheaper and more social but involves slow, weather-dependent transfers. A fly-in all-inclusive resort removes every logistic and delivers consistent diving, but weekly packages run into the thousands of dollars per person.",
+      "question": "Should I travel independently or book a dive resort?"
+    },
+    {
+      "_key": "k211",
+      "answer": "By boat, and not often. Public boats connect Wangi-Wangi, Kaledupa, Tomia and Binongko but leave only every couple of days, and a fast boat links the main three on a rolling schedule. Wangi-Wangi to Tomia is roughly three to four hours by public boat. Plan your days around the boat timetable and keep a buffer.",
+      "question": "How do you get between the Wakatobi islands?"
+    },
+    {
+      "_key": "k212",
+      "answer": "It varies enormously. Independent travel with homestays and shared dive boats can run from roughly 80 to 180 USD a day as a working estimate, plus flights and the National Park fee. All-inclusive dive resorts charge weekly packages that can reach several thousand dollars per person. Treat every figure as a planning number and confirm current prices.",
+      "question": "How much does a Wakatobi trip cost?"
+    },
+    {
+      "_key": "k213",
+      "answer": "Yes. Foreign visitors commonly pay around 150,000 IDR as a working estimate, though the fee can change and is sometimes collected through your operator or on arrival. Confirm the current rate locally rather than relying on a fixed number.",
+      "question": "Is there an entrance fee for Wakatobi National Park?"
+    },
+    {
+      "_key": "k214",
+      "answer": "Diving is generally best in the calmer, drier months, often around March to December, though conditions shift year to year. Sea state and visibility matter more than the calendar here, so confirm current seasonal guidance and flight schedules with your dive operator before booking.",
+      "question": "When is the best time to dive Wakatobi?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-3b9bf1eecd5bc8f8d9ad2530e433b220de47b2b1-549x364-jpg",
+      "_type": "reference"
+    }
+  }
+}

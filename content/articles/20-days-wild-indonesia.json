@@ -1,0 +1,2480 @@
+{
+  "_id": "5ecb315e-5725-4684-a9c4-6d64d16b55b2",
+  "_type": "article",
+  "title": "20 Days in Wild Indonesia: Kalimantan, Sulawesi and Raja Ampat",
+  "slug": {
+    "_type": "slug",
+    "current": "20-days-wild-indonesia"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-02T06:17:32.959Z",
+  "destinationPrimary": "wild_indonesia",
+  "destinationSecondary": [
+    "raja_ampat"
+  ],
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": [
+    "remote_offbeat",
+    "diving_snorkeling"
+  ],
+  "tripLengthBucket": "three_weeks_plus",
+  "tripLengthDays": 20,
+  "travellerTypes": [
+    "repeat_travellers",
+    "divers",
+    "solo_travellers"
+  ],
+  "vibe": "remote",
+  "experienceTags": [
+    "wildlife",
+    "diving",
+    "snorkeling",
+    "local_villages",
+    "overland_route",
+    "island_day_trip"
+  ],
+  "bestSeason": "April–October for Kalimantan and Sulawesi; October–April for Raja Ampat",
+  "route": "Pangkalan Bun (Tanjung Puting) → Makassar → Tana Toraja → Sorong → Raja Ampat",
+  "focusKeyword": "20 days Wild Indonesia itinerary",
+  "metaTitle": "Wild Indonesia in 20 Days: Off-Grid Adventure",
+  "metaDescription": "A 20-day Wild Indonesia itinerary: Tanjung Puting, Tana Toraja and Raja Ampat. Orangutans, Torajan culture and marine wilderness, with honest logistics.",
+  "intro": "You have done Bali. You want the parts of the archipelago that ask something of you. This 20-day route chains three of Indonesia's hardest-to-reach worlds: orangutans from a river boat in Kalimantan, the funeral culture of Tana Toraja in the Sulawesi highlands, and the reef density of Raja Ampat. It is logistics-heavy and flight-dependent. Done with buffer time, it is one of the most rewarding trips in the country.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits repeat Indonesia travellers, wildlife watchers, divers, snorkellers and photographers who measure a trip by access, not comfort. You should be happy sleeping on a river boat, taking long road transfers, and treating a ferry timetable as a suggestion rather than a guarantee. Solo travellers do well here because so much is arranged through local guides and lodges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal for a first Indonesia trip, for travellers on a tight or fixed timeline, or for anyone who needs polished resorts and reliable connections. If a missed flight or a slipped ferry would derail your whole plan, this is the wrong route. The reward is real wilderness, and wilderness does not run to schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 20 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Pangkalan Bun (PKN), southern Kalimantan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "End:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong (SOQ), West Papua."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " experienced Indonesia travellers, wildlife enthusiasts, divers and photographers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " first-timers, fixed-schedule travellers, or anyone needing predictable logistics and resort comfort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " adventurous and remote, slow within each region."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " mid to high, driven by domestic flights and the klotok cruise. As a working estimate the Tanjung Puting boat runs $150 to $300 per person per day all-inclusive, and prices can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " hard, and fragile at the Raja Ampat ferry stage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly April to October for Kalimantan and Sulawesi, October to April for Raja Ampat. The shoulder around September to October is the closest thing to an overlap. Confirm current conditions before locking dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": " medium to high. Flights and the Raja Ampat lodge need to go first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is built around geography and weather, not convenience. You move west to east: Kalimantan first, then Sulawesi, then West Papua. Each leg is a domestic flight through a hub, so the sequence keeps you moving forward rather than backtracking across a country that spans three time zones."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "The seasonal tension is the real planning problem. Kalimantan rivers and Sulawesi roads are easiest in the dry months, while Raja Ampat dives best in its own calmer window. There is no date that is perfect for all three, so the September to October shoulder is the usual compromise. Treat that as a starting point and check the latest guidance for each region before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "Raja Ampat sits at the end on purpose. It rewards slow, settled days, and you do not want to rush the most remote and most expensive part of the trip to make a connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you fly: sort your data"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [],
+          "text": "Connectivity is patchy across all three regions, and it disappears almost entirely on the river and in Raja Ampat. Sort a data plan before you board so maps, messaging and confirmations work from the moment you land in Pangkalan Bun. A practical option is an "
+        },
+        {
+          "_key": "k1e",
+          "_type": "span",
+          "marks": [
+            "k1d"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [],
+          "text": ", activated on the plane so you are connected on arrival rather than hunting for a SIM counter."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1d",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not rely on having signal once you push upriver or reach your dive lodge. Download offline maps and save your lodge and operator contacts before you lose coverage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1k",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Pangkalan Bun"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Pangkalan Bun (PKN), the gateway to Tanjung Puting National Park. Connections typically run from Jakarta (CGK) or Semarang. Confirm current flight routes before locking anything, as regional schedules change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and meet your klotok operator. The klotok is the traditional wooden river boat that becomes your home for the next few days, and the boat itself is the accommodation, so there is no separate hotel to arrange for the cruise nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [],
+          "text": " A simple hotel in Pangkalan Bun is enough before the river. Search local stays on Booking.com for a single night near town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [],
+          "text": " Pangkalan Bun (1 night)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1y",
+          "_type": "span",
+          "marks": [],
+          "text": " most lodges and licensed local operators in Pangkalan Bun and nearby Kumai arrange the klotok. This is the standard approach and works well booked locally or by message in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a positioning day, not a sightseeing day. Treat it as a buffer in case your inbound flight slips."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 2 to 4: Tanjung Puting klotok river cruise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " Board the klotok and head upriver into primary rainforest. Days are slow and deck-bound: you watch proboscis monkeys, hornbills and river life drift past as the boat moves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": " Stop at the orangutan feeding stations, including Camp Leakey, Pondok Tanggui and Camp Pesalat, timed to feeding hours when the apes come in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2c",
+          "_type": "span",
+          "marks": [],
+          "text": " You sleep on the boat deck under mosquito nets, which is part of the experience rather than a compromise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2f",
+          "_type": "span",
+          "marks": [],
+          "text": " klotok boat (2 to 3 nights on the water)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2i",
+          "_type": "span",
+          "marks": [],
+          "text": " a guided Tanjung Puting river cruise is sometimes listed on Viator and worth checking. If it is not available, book directly through a licensed Pangkalan Bun operator, which is the most common route. As a working estimate, all-inclusive cost runs $150 to $300 per person per day covering boat, crew, guide, meals and park permit. Fees can change, so confirm what the permit covers when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2l",
+          "_type": "span",
+          "marks": [],
+          "text": " there is no usable phone signal upriver. Tell anyone expecting you that you will be offline for these days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Return to Pangkalan Bun and fly to Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2q",
+          "_type": "span",
+          "marks": [],
+          "text": " Cruise back downriver to Pangkalan Bun."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [],
+          "text": " Take an afternoon or evening flight to Makassar (UPG), the gateway to Sulawesi. If there is no direct connection, you will route via Jakarta, which makes for a long day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive in Makassar and check in to a city hotel near the centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2z",
+          "_type": "span",
+          "marks": [],
+          "text": " Makassar (1 night)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [],
+          "text": " book a flexible or refundable flight if you can, because the river return time depends on water levels and the boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a transit day. Do not stack plans on top of it, and allow buffer time for the connection through Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Travel to Tana Toraja"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3a",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Makassar for the Toraja highlands. Two options: fly to Palopo and continue by road for roughly 3 to 4 hours total, or take the overland drive of around 8 to 10 hours from Makassar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [],
+          "text": " Most experienced travellers choose the overland drive for the landscapes, rice terraces and mountain villages along the way. If you are tight on energy after the Kalimantan leg, the fly-and-drive option saves hours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive in Rantepao, the main Toraja town and the best base for guesthouses."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [],
+          "text": " Tana Toraja, Rantepao (4 nights). Search Tana Toraja stays on Booking.com."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [],
+          "text": " arrange the driver or transfer through your accommodation or a trusted local operator. A private driver is worth it here because the road is long and the stops are spread out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3p",
+          "_type": "span",
+          "marks": [],
+          "text": " the overland drive is scenic but slow. Start early and do not plan anything firm for the arrival evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 7 to 9: Tana Toraja cultural days"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [],
+          "text": " Explore the Torajan cultural landscape with a local guide. The region is known for its funeral rituals, boat-roofed tongkonan houses, cliff burials and tau-tau effigies of the dead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [],
+          "text": " Work through the key sites: Kete Kesu for traditional architecture and cliffside graves, Londa or Lemo for hanging graves and effigies, and Bori Kalimbuang for stone megaliths. The local market and buffalo trade are worth seeing, as buffalo are central to Torajan funeral culture."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [],
+          "text": " If your visit overlaps a funeral ceremony, which can run several days, a guide can advise whether and how to attend respectfully. The funeral season tends to peak around July and August."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " Tana Toraja, Rantepao."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " a Tana Toraja cultural tour is occasionally sold from Makassar and worth verifying. Most travellers instead hire a guide in Rantepao, which is widely available and strongly recommended. Do not pre-book specific funeral ceremonies or village visits you cannot confirm, as these are arranged locally and depend on what is happening that week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " ceremonies are real events for grieving families, not performances. Go with a guide who can read the etiquette."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Return to Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Toraja and return to Makassar by road or air, depending on how you came up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the time to repack and reset before the most remote leg of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep Makassar quiet and prepare for the early move toward Raja Ampat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": " Makassar (1 night)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a positioning day. Its job is to protect the next flight, not to fit in more sightseeing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 11: Fly to Sorong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4v",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Makassar to Sorong (SOQ), the mainland gateway to Raja Ampat. Expect one or two connections depending on the schedule, so confirm current flight routes before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive in Sorong and check in to a standard city hotel near the ferry port, which sets you up for an early ferry the next morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm your ferry plan and your lodge transfer. Search Sorong stays on Booking.com for a single night close to the port."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong (1 night)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": " stay near the port so you are not racing across town for the morning ferry."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [],
+          "text": " Sorong is a transit town, not a destination. One night is enough."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 12: Ferry to Waisai and transfer to your Raja Ampat base"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the morning ferry from Sorong to Waisai. The crossing runs roughly two hours, and you can check current timings on 12Go before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [],
+          "text": " From Waisai, continue by local boat to your dive lodge, eco-resort or homestay, then settle in and swim near your accommodation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k5l",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest. The pace here is deliberately slow from day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k5o",
+          "_type": "span",
+          "marks": [],
+          "text": " Raja Ampat lodge or homestay (8 nights)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5r",
+          "_type": "span",
+          "marks": [],
+          "text": " book directly with your lodge, as most Raja Ampat properties are not on the standard booking platforms. As a working estimate, mandatory marine park and visitor fees come to around IDR 1,000,000 total, roughly US$65, often collected on arrival. Fees can change, so confirm the current amount and what it covers when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k5u",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the most fragile connection on the route. Ferry times can slip, so do not plan the crossing on the same day as a flight in either direction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5x",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 13 to 19: Diving, snorkelling and island days in Raja Ampat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k5z",
+          "_type": "span",
+          "marks": [],
+          "text": " A typical day is built around morning dives or snorkel trips arranged through your lodge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest, kayak, or take a viewpoint or village visit. The reef here rewards travellers who slow down rather than chase sites."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " Quiet nights at the lodge. Connectivity is minimal, which is part of the appeal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": " Raja Ampat lodge or homestay."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k6b",
+          "_type": "span",
+          "marks": [],
+          "text": " ask your lodge about the signature spots: the Dampier Strait for coral diversity, sharks and mantas, the Piaynemo viewpoint over the karst islands, Cape Kri for its famous fish counts, and Manta Sandy as a seasonal manta cleaning station. Village visits to Arborek, Sawinggrai or Yenbuba show local life. All of this is arranged locally, so let your lodge match sites to conditions and tides."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k6e",
+          "_type": "span",
+          "marks": [],
+          "text": " dive conditions shift with the season and the day. Trust your lodge over a fixed wishlist."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6h",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 20: Return to Sorong and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k6j",
+          "_type": "span",
+          "marks": [],
+          "text": " Transfer back to Waisai and take the ferry to Sorong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect to your onward flight out of Sorong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": " Onward, or an extra Sorong night if your flight is the next day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": " in transit, or Sorong if needed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k6v",
+          "_type": "span",
+          "marks": [],
+          "text": " allow generous buffer time. Ferry schedules can slip and Sorong airport has limited departure windows, so a same-day ferry-to-flight is a real risk. Where possible, leave a night of margin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6y",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6z",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [],
+          "text": " Your domestic flights, especially the Makassar to Sorong leg, because routes and seats are limited. Your Raja Ampat lodge, because the good ones fill and most are direct-booking only. The Tanjung Puting klotok, arranged with a licensed operator in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [],
+          "text": " Your Toraja day plans, which are guide-led and depend on what ceremonies are happening that week. Your exact dive sites in Raja Ampat, which the lodge will set by conditions. Your buffer nights, which exist to absorb a slipped ferry or a delayed flight rather than to be filled."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [],
+          "text": "Treating it as three separate trips stitched together and leaving no buffer. The connections are fragile, and one slipped ferry can cascade."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking a same-day ferry and flight at the Sorong end. If the crossing slips, you miss the plane."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the offline stretches. You lose signal on the river and in Raja Ampat, so confirmations and check-ins need to happen before you go dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7d",
+          "_type": "span",
+          "marks": [],
+          "text": "Expecting to pre-book everything. Much of this route, the Toraja guiding and the Raja Ampat activities, is arranged on the ground by design."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Rushing Raja Ampat to save a day elsewhere. It is the most remote and most expensive leg, and it punishes a tight schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7i",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To cut."
+        },
+        {
+          "_key": "k7k",
+          "_type": "span",
+          "marks": [],
+          "text": " If 20 days is too long, drop one region rather than thinning all three. Cutting Sulawesi gives a tighter Kalimantan-plus-Raja-Ampat wildlife and diving trip. Cutting Kalimantan gives a culture-plus-reef route."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To adapt."
+        },
+        {
+          "_key": "k7n",
+          "_type": "span",
+          "marks": [],
+          "text": " Swap the long Toraja overland drive for the fly-to-Palopo option if energy is short after Kalimantan. Shorten the klotok to two nights if river time is not your priority."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To upgrade."
+        },
+        {
+          "_key": "k7q",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend more on a higher-end Raja Ampat dive lodge, where the jump in quality is real. A private guide and driver in Toraja also makes the spread-out sites far easier than improvising transport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7t",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k7w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k7v",
+          "_type": "span",
+          "marks": [],
+          "text": " Roughly April to October suits Kalimantan rivers and Sulawesi roads, while Raja Ampat dives best around October to April. The September to October shoulder is the usual compromise. Check the latest guidance for each region before locking dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k7y",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm current visa and entry requirements for your nationality through official guidance before you travel, as rules can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k81",
+          "_type": "span",
+          "marks": [],
+          "text": " Internal flights carry this route between Pangkalan Bun, Makassar and Sorong. Confirm current flight routes before locking hotels, and build buffer days around the connections."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [],
+          "text": " The Sorong to Waisai ferry is the fragile link. Timings can slip, so never pair it with a same-day flight, and allow buffer time at both ends."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for the river, Toraja and Raja Ampat, where cards and ATMs are unreliable. Sort data before you fly, for example an "
+        },
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [
+            "k88"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k8a",
+          "_type": "span",
+          "marks": [],
+          "text": " activated on the plane, so you are connected on arrival."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k88",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k8g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early."
+        },
+        {
+          "_key": "k8d",
+          "_type": "span",
+          "marks": [],
+          "text": " Flights, the Raja Ampat lodge, and the klotok. "
+        },
+        {
+          "_key": "k8e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible."
+        },
+        {
+          "_key": "k8f",
+          "_type": "span",
+          "marks": [],
+          "text": " Toraja guiding, Raja Ampat dive sites, and your buffer nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8i",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8j",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you are a confident, repeat Indonesia traveller who wants wildlife, culture and reef in one demanding loop, and who can absorb a slipped connection without losing the plot. The payoff is access most visitors never get: orangutans from a river deck, Toraja's funeral culture, and one of the richest reef systems on the planet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8l",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not do this trip if it is your first time in Indonesia, if your dates are rigid, or if you need comfort and predictability. For those travellers, a tighter single-region route will deliver more joy and less stress. This is a route that rewards patience, buffer time and a tolerance for the unplanned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8o",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k8w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8p",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want the diving without the full overland haul, look at a focused "
+        },
+        {
+          "_key": "k8r",
+          "_type": "span",
+          "marks": [
+            "k8q"
+          ],
+          "text": "Raja Ampat itinerary"
+        },
+        {
+          "_key": "k8s",
+          "_type": "span",
+          "marks": [],
+          "text": " and the wider "
+        },
+        {
+          "_key": "k8u",
+          "_type": "span",
+          "marks": [
+            "k8t"
+          ],
+          "text": "West Papua and Raja Ampat hub"
+        },
+        {
+          "_key": "k8v",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8q",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-raja-ampat-divers"
+        },
+        {
+          "_key": "k8t",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/raja-ampat"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8x",
+          "_type": "span",
+          "marks": [],
+          "text": "For more wildlife-led planning across the archipelago, browse the "
+        },
+        {
+          "_key": "k8z",
+          "_type": "span",
+          "marks": [
+            "k8y"
+          ],
+          "text": "Wild Indonesia destination hub"
+        },
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [],
+          "text": " and a dedicated "
+        },
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [
+            "k91"
+          ],
+          "text": "Sulawesi and Tana Toraja route"
+        },
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k8y",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        },
+        {
+          "_key": "k91",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-sulawesi-toraja-bunaken"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "You explore Tanjung Puting National Park by traditional klotok riverboat over 2 to 3 days, visiting orangutan feeding stations such as Camp Leakey and sleeping on deck. Trips run from Kumai near Pangkalan Bun airport. A private klotok with guide, crew and meals is the classic way to do it, and as a working estimate runs $150 to $300 per person per day all-inclusive.",
+      "question": "What is the Tanjung Puting orangutan experience in Kalimantan?"
+    },
+    {
+      "answer": "Tana Toraja is known for its funeral ceremonies, cliffside graves, hanging tau-tau effigies and boat-roofed tongkonan houses. It is a highland cultural region reached overland from Makassar in about 8 to 10 hours, or by flying to Palopo and driving. The elaborate funeral season tends to peak around July and August, though dates vary by family.",
+      "question": "What is there to see in Tana Toraja, Sulawesi?"
+    },
+    {
+      "answer": "As a working estimate there are mandatory marine park and visitor fees totalling around IDR 1,000,000, roughly US$65, often collected on arrival. Fees can change, so confirm the current amount and what it covers before you travel. Access is via a flight to Sorong then a ferry of around two hours to Waisai.",
+      "question": "What are the Raja Ampat permit fees?"
+    },
+    {
+      "answer": "Roughly April to October suits Kalimantan rivers and Sulawesi roads, while Raja Ampat dives best around October to April. The shoulder months of September to October come closest to balancing all three. This is a remote, logistics-heavy route, so build in buffer days for connections and check the latest guidance before locking dates.",
+      "question": "When is the best time for this wild Indonesia route?"
+    },
+    {
+      "answer": "Mostly by domestic flights between regions, routing through hubs like Pangkalan Bun, Makassar and Sorong, then local transport on the ground: klotok boats in Kalimantan, a private driver in Sulawesi, and ferries and small boats in Raja Ampat. Internal flights are essential given the distances, so confirm current flight routes before locking hotels.",
+      "question": "How do I get around on this trip?"
+    },
+    {
+      "answer": "No, and you should not try. Book your domestic flights, your Raja Ampat lodge and the klotok cruise early. Keep the Toraja guiding and the Raja Ampat dive sites flexible, since these are arranged locally and depend on conditions and what is happening that week. Leave buffer nights to absorb a slipped ferry or a delayed flight.",
+      "question": "Can I book everything in advance?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Wild Indonesia — Kalimantan rainforest, Tana Toraja and Raja Ampat seascapes",
+    "asset": {
+      "_ref": "image-005a7468ed86b57ded1369e5d263da555ad58dff-5394x3593-jpg",
+      "_type": "reference"
+    },
+    "caption": "Tanjung Puting → Makassar → Tana Toraja → Sorong → Raja Ampat"
+  },
+  "_system": {
+    "base": {
+      "id": "5ecb315e-5725-4684-a9c4-6d64d16b55b2",
+      "rev": "z9ohDc4QESGs0XGP6yTxsw"
+    }
+  },
+  "articleCommercialTier": "supporting"
+}

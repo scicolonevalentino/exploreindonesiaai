@@ -1,0 +1,2125 @@
+{
+  "_id": "8d8d8cc6-000e-4388-9019-17cda00b8a34",
+  "_type": "article",
+  "title": "10 Days in Bali, Lombok and the Gili Islands",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-bali-lombok-gili-islands"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-02T05:19:43.411Z",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [
+    "lombok_gili"
+  ],
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": [
+    "first_time_indonesia",
+    "culture_temples"
+  ],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "balanced",
+  "experienceTags": [
+    "rice_terraces",
+    "temples",
+    "waterfalls",
+    "island_day_trip",
+    "beach_sunset",
+    "snorkeling",
+    "private_drivers",
+    "airport_transfers"
+  ],
+  "bestSeason": "April–October",
+  "route": "Ubud → Kuta Lombok → Gili Trawangan → Uluwatu",
+  "focusKeyword": "10 days in Bali Lombok Gili Islands",
+  "metaTitle": "Bali, Lombok & Gili in 10 Days: Island-Hop Plan",
+  "metaDescription": "A decision-led 10-day Bali, Lombok and Gili itinerary: Ubud, Kuta Lombok, Gili Trawangan, Uluwatu, with booking logic and honest transfer warnings.",
+  "intro": "Most ten-day Bali plans try to do everything and end up rushing. This route does the opposite. It moves you west to east across three islands in a deliberate order, soft cultural start in Ubud, wilder open coast in Kuta Lombok, car-free water time on Gili Trawangan, then a cliff-top finish in Uluwatu near the airport. The catch is real: it leans on short flights and fast boats, so calm-season timing and buffer days are doing the heavy lifting.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "private airport transfer",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+      "experienceCategory": "ubud_highlights",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "anchorText": "private car charter",
+      "experienceCategory": "private_driver",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
+      "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
+    },
+    {
+      "affiliateUrl": null,
+      "anchorText": "return boat from Gili Trawangan to Bali",
+      "experienceCategory": "boat_ferry",
+      "linkStatus": "pending",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "publicUrl": "https://12go.asia/en/travel/gili-trawangan/bali"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+      "anchorText": "Kecak fire dance at Uluwatu",
+      "experienceCategory": "uluwatu_cultural",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits beach lovers, couples, friends and first-time Indonesia travellers who want variety without a punishing pace. You get rice terraces and temples, then open Lombok coastline, then clear water and bicycles on Gili Trawangan, then one polished evening in Uluwatu. It works well if you are happy to combine a short domestic flight with two fast-boat crossings and treat them as part of the experience rather than a chore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not ideal if you want a single base and zero packing up. You change accommodation four times in ten days, so light packers do better here. It is also not the trip for anyone set on climbing Rinjani. As the article's own guidance notes, ten days covers the island highlights but not the multi-day Rinjani trek, so pick a relaxed island circuit or one big adventure, not both. Nervous sailors should know the whole chain depends on boats running."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ka",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": " 10 days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "kc",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar, Ngurah Rai International Airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kg",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "kf",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, then Kuta Lombok, then Gili Trawangan, then Uluwatu."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kj",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "ki",
+          "_type": "span",
+          "marks": [],
+          "text": " beach lovers, couples, friends, first-time Indonesia travellers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "km",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kl",
+          "_type": "span",
+          "marks": [],
+          "text": " single-base travellers, Rinjani trekkers, anyone uneasy on boats."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kp",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "ko",
+          "_type": "span",
+          "marks": [],
+          "text": " beach and islands, balanced pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ks",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kr",
+          "_type": "span",
+          "marks": [],
+          "text": " mid-range and flexible. Kuta Lombok guesthouses and boutique hotels start around $25 a night as a working figure, with plenty of room to go higher."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kv",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "ku",
+          "_type": "span",
+          "marks": [],
+          "text": " medium overall, with two fragile boat-dependent days that lift it toward hard if seas are rough."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ky",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kx",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season, for the calmest crossings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": " medium. The Bali to Lombok flight and the two fast boats are the parts worth locking early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is the whole point. Ubud first gives you a gentle cultural landing while jet lag fades, temples, rice terraces and a slower start before any sea crossing. From there a short flight east drops you into Kuta Lombok, which feels more open and less dense than Bali's beach towns, a useful change of texture mid-trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k16",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Trawangan then becomes your water and decompression block, no cars or motorbikes, just bicycles, snorkeling and short hops to Gili Meno and Gili Air. Saving Uluwatu for last is deliberate logistics, not just scenery. Uluwatu sits around 30 to 45 minutes from the airport, so ending there shortens your final-morning transfer and protects your flight home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "One honest note on direction: this plan flies Bali to Lombok early, then returns by boat from Gili Trawangan to Bali near the end. That keeps the cultural start and the airport-side finish, at the cost of one longer sea return. If rough seas worry you, that return is the day to build in slack."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land in Bali and transfer up to Ubud"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1d",
+          "_type": "span",
+          "marks": [],
+          "text": " Clear the airport and head straight up to Ubud rather than lingering in the south. After a long-haul arrival, a "
+        },
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [
+            "k1e"
+          ],
+          "text": "private airport transfer"
+        },
+        {
+          "_key": "k1g",
+          "_type": "span",
+          "marks": [],
+          "text": " is the low-friction choice, you skip the taxi negotiation and the driver knows the Ubud lanes that get tight near the centre."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1e",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1j",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it light. Check in, rest, and only walk central Ubud if you still have energy. Do not schedule anything you would mind missing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1m",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, two nights, ideally near Ubud Palace or Jalan Bisma so you can walk to dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k1p",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar to Ubud is roughly an hour but can stretch in traffic, so treat the first evening as arrival buffer, not sightseeing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ubud temples, terraces and a waterfall"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [],
+          "text": " This is your one full Ubud day, so use it on the classics, the Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace and Tirta Empul Temple, with a waterfall near Ubud to finish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1x",
+          "_type": "span",
+          "marks": [],
+          "text": " These sights sit apart from each other and public transport between them is not practical, which is exactly why a guided day earns its place. An "
+        },
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [
+            "k1y"
+          ],
+          "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+        },
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [],
+          "text": " bundles the driving and includes hotel pickup from across south Bali, so you are not stitching together separate rides."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1y",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner in Ubud and an early night. You move islands tomorrow and an early start makes the flight day calmer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k26",
+          "_type": "span",
+          "marks": [],
+          "text": " book the Ubud day before you arrive so it lands on this single full day rather than competing with your travel days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Fly to Lombok and settle into Kuta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": " After breakfast, fly Bali to Lombok. The hop is around 25 minutes on carriers such as Garuda, Citilink or Wings Air, arranged independently through a flights tool of your choice. Confirm current routes and times before you lock anything, schedules can change and you want margin around this connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2e",
+          "_type": "span",
+          "marks": [],
+          "text": " Land and continue to Kuta Lombok by airport transfer. Kuta Lombok reads very differently from Bali's beach towns, more open, less built up, closer to nature. Spend the afternoon settling in, walking the town and heading to a nearby beach for sunset."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k2h",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok, three nights. Tanjung Aan and Selong Belanak beaches are close, and stays start around $25 a night as a working figure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k2k",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a positioning day as much as a sightseeing one. A short flight plus two transfers eats the morning, so do not over-program the afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2n",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: South Lombok beaches"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": " Start at Tanjung Aan, one of the most accessible beaches in the area, then continue to Selong Belanak, which is good for beginner surfing and long beach walks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": " South Lombok's beaches are spread out and a driver makes the day smoother, so a private day with a car beats trying to scooter the whole loop with gear. If you would rather be in the water than on the road, swap part of the day for a beginner surf lesson at Selong Belanak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2v",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Kuta for dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2y",
+          "_type": "span",
+          "marks": [],
+          "text": " decide the driver-versus-surf split the night before so your morning is not lost to logistics."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Lombok waterfalls or a slow south-coast day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": " This is your flex day, and it is worth deciding the night before. For contrast, head north toward Senaru for the Sendang Gile and Tiu Kelep waterfalls, jungle paths and mountain air, a completely different landscape from the south coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [],
+          "text": " The Senaru run is a long drive each way, so a guided waterfalls day that handles the logistics keeps it manageable. If a full day in the car does not appeal, stay south instead, more beaches, more scooter time, more Kuta restaurants."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [],
+          "text": " the waterfall option is the more tiring choice, so weigh it against the boat day coming up. Two big days back to back can wear thin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Cross to Gili Trawangan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Lombok for Gili Trawangan. A harbour transfer plus short boat crossing handles the connection. Remember the island rule, no cars or motorbikes, so it is bicycle, walking or horse cart once you arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in, rent a bicycle and settle into beach time. For sunset, head to the west side of the island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k3k",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Trawangan, three nights. The south and west sides are most convenient for restaurants and beach access."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": " this crossing is short but still weather-dependent, so keep the afternoon loose in case departure slips. Confirm the boat the day before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Snorkeling around the three Gilis"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend your first full island day in the water. A Gili Islands snorkeling trip loops Gili Trawangan, Gili Meno and Gili Air with stops for turtles, coral, reef fish and the Gili Meno underwater statues."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it free. Cycle the island or settle back on the sand. After a travel-heavy stretch, an unstructured afternoon is the point, not a gap to fill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [],
+          "text": " group snorkeling boats fill in peak months, so reserve a day ahead rather than walking up on the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Slow island day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " No plan. Breakfast by the beach, then cycle the island perimeter and stop at the quieter stretches of sand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [],
+          "text": " If you want a little structure, ask a local dive centre about an introductory scuba session, the Gilis have strong visibility. Otherwise let it stay empty."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [],
+          "text": " this buffer day is doing real work. If a boat ran late earlier in the trip, this is where the slack lives, so resist the urge to fill it completely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Boat back to Bali and move to Uluwatu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the "
+        },
+        {
+          "_key": "k4g",
+          "_type": "span",
+          "marks": [
+            "k4f"
+          ],
+          "text": "return boat from Gili Trawangan to Bali"
+        },
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [],
+          "text": ", then transfer south to Uluwatu. This is the longest crossing of the trip, so this is the day calm-season timing matters most."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k4f",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k4l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4k",
+          "_type": "span",
+          "marks": [],
+          "text": " Once south, head to Padang Padang, Bingin or Melasti Beach to reset after the boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu, one night, around 30 to 45 minutes from the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [],
+          "text": " fast boats can be delayed or cancelled at short notice, more so outside dry season, so allow buffer time and avoid booking anything unmissable for this evening. If you can move a private leg of the journey, a "
+        },
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [
+            "k4r"
+          ],
+          "text": "private car charter"
+        },
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": " gives you a fixed pickup once you land rather than scrambling for a ride at the harbour."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k4r",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k4v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Uluwatu beaches, Kecak and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " A final beach morning in Uluwatu before the trip winds down."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": " Late in the day, visit Uluwatu Temple and stay for the "
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "k52"
+          ],
+          "text": "Kecak fire dance at Uluwatu"
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": ", with skip-the-line tickets worth holding so you are not queuing at sunset. Dinner in Uluwatu or Jimbaran."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k52",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": " the Kecak performance is timed to sunset and fills up, so book the slot ahead and work your flight around it. Uluwatu's airport proximity makes a same-evening or next-morning departure straightforward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k5c",
+          "_type": "span",
+          "marks": [],
+          "text": " The Bali to Lombok flight, both fast-boat crossings, your Day 2 Ubud tour and the Day 10 Kecak slot are the fixed pins. These either sell out or shape the rest of the day, so locking them protects the structure. Confirm current flight routes and boat schedules before you commit to non-refundable hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [],
+          "text": " Day 5 in Lombok and Day 8 on the Gilis are deliberately open. Leave them loose so you can absorb a delayed boat, a tired morning or a change of mood without breaking the plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating boats as guaranteed."
+        },
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [],
+          "text": " The biggest error is planning a tight onward connection right after a fast-boat day. Crossings can slip or cancel, so never stack something unmissable immediately after the sea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Over-programming the flex days."
+        },
+        {
+          "_key": "k5n",
+          "_type": "span",
+          "marks": [],
+          "text": " Days 5 and 8 are your shock absorbers. Fill them completely and you lose the slack that keeps the trip calm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Going in wet season without a plan B."
+        },
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [],
+          "text": " November to March can cancel fast boats at short notice, which is disruptive on a route built on crossings. If you must travel then, pad the schedule and keep refundable bookings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trying to add Rinjani."
+        },
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [],
+          "text": " As the trip's own guidance flags, ten days does not fit both a relaxed island circuit and the multi-day Rinjani trek. Choosing both is how the whole plan unravels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5w",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut."
+        },
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [],
+          "text": " If you want a calmer trip, drop the Day 5 waterfall run and stay south in Lombok. You lose a landscape but gain a genuine rest day before the Gili crossing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt."
+        },
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [],
+          "text": " Prefer quiet over nightlife? The article notes Gili Air is a relaxed alternative with good snorkeling and easy onward boats, and Gili Meno is the quietest of the three. Swapping your Gili base changes the feel without touching the route."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade."
+        },
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [],
+          "text": " On the transfer-heavy days, paying for private legs removes the most friction. A private car for the Day 9 land transfer means a fixed pickup and no harbour haggling, which is worth it when you are tired after the long crossing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry season, gives the calmest seas for the multiple crossings plus the best snorkeling and surf. Wet season, November to March, can cancel fast boats at short notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k6c",
+          "_type": "span",
+          "marks": [],
+          "text": " As a working estimate from current guidance, the e-VOA runs IDR 500,000, about US$35, for 30 days, plus Bali's one-time IDR 150,000 levy, about US$10. Lombok and the Gilis charge no separate tourist tax. Fees and rules can change, so check the latest official guidance before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k6f",
+          "_type": "span",
+          "marks": [],
+          "text": " The Bali to Lombok flight is short, around 25 minutes, on carriers such as Garuda, Citilink or Wings Air. Confirm current routes before locking hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics."
+        },
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [],
+          "text": " Fast boats connect Bali to the Gilis and Lombok in roughly 1.5 to 3 hours for about US$25 to US$42 one way as a working figure, with Gili-to-Lombok hops of 15 to 45 minutes. Within Lombok, public transport is limited, so plan on a private driver or ride-hailing. Allow buffer time around every crossing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k6l",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort data before you board so maps and messaging work on landing, then activate on the plane. Carry some cash for the islands, where card acceptance thins out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early."
+        },
+        {
+          "_key": "k6o",
+          "_type": "span",
+          "marks": [],
+          "text": " Flights, both boats, the Ubud day and the Kecak slot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible."
+        },
+        {
+          "_key": "k6r",
+          "_type": "span",
+          "marks": [],
+          "text": " The Lombok flex day and the slow Gili day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6u",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6v",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want genuine variety in ten days and you are comfortable letting short flights and fast boats carry you between three distinct islands. The order is well judged, a soft cultural start, an open-coast middle, a car-free water block, and an airport-side finish that protects your flight home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6y",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6x",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not do this trip if you want a single base, if you are set on Rinjani, or if rough water unsettles you, because the whole chain leans on crossings running. Travel in dry season, keep the flex days genuinely flexible, and the plan holds together comfortably."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [],
+          "text": "Want to go deeper on one island instead of hopping? Compare this with a focused "
+        },
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [
+            "k72"
+          ],
+          "text": "Bali destination guide"
+        },
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [],
+          "text": " and a slower "
+        },
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": [
+            "k75"
+          ],
+          "text": "Lombok-only route"
+        },
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k72",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali"
+        },
+        {
+          "_key": "k75",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [],
+          "text": "If the water days are the draw, look at a dedicated "
+        },
+        {
+          "_key": "k7b",
+          "_type": "span",
+          "marks": [
+            "k7a"
+          ],
+          "text": "Gili Islands snorkeling and diving trip"
+        },
+        {
+          "_key": "k7c",
+          "_type": "span",
+          "marks": [],
+          "text": " before you finalise which island becomes your base."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k7a",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0dpj6bdcnc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "mypu1tjynp",
+          "_type": "span",
+          "marks": [],
+          "text": "Getting around: "
+        },
+        {
+          "_key": "995nemsh85",
+          "_type": "span",
+          "marks": [
+            "3n3rpwsno7"
+          ],
+          "text": "Bali to Lombok"
+        },
+        {
+          "_key": "1rtwpgtlwg",
+          "_type": "span",
+          "marks": [],
+          "text": " · "
+        },
+        {
+          "_key": "ou3eb4juh5",
+          "_type": "span",
+          "marks": [
+            "ca2dl4bc8q"
+          ],
+          "text": "Lombok to Gili Islands"
+        },
+        {
+          "_key": "ndiu0tdo35",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3n3rpwsno7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-lombok"
+        },
+        {
+          "_key": "ca2dl4bc8q",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/lombok-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes, if you keep it simple: a few days in Bali, a fast boat to the Gilis, and a short hop to Lombok. Ten days covers the highlights but not Rinjani's multi-day trek, so choose either a relaxed island circuit or one big adventure, not both.",
+      "question": "Is 10 days enough for Bali, Lombok and the Gili Islands?"
+    },
+    {
+      "answer": "Fast boats connect Bali to the Gilis and Lombok in about 1.5 to 3 hours for roughly US$25 to US$42 one way as a working figure, with Gili-to-Lombok hops of 15 to 45 minutes. Within Lombok, use ride-hailing or a private driver, as public transport is limited. Confirm current schedules and allow buffer time.",
+      "question": "How do I travel between Bali, the Gili Islands and Lombok?"
+    },
+    {
+      "answer": "For a Bali to Lombok circuit, Gili Air is a relaxed choice with good snorkeling and easy onward boats to Lombok. Choose Gili Trawangan if you want nightlife, or Gili Meno for the quietest stay. All three are car-free and walkable, so swapping your base changes the feel without changing the route.",
+      "question": "Which Gili island suits this trip?"
+    },
+    {
+      "answer": "April to October, the dry season, gives the calmest seas for the multiple boat crossings and the best snorkeling and surf. The wet season, November to March, can cancel fast boats at short notice, which is disruptive on an island-hopping route, so pad the schedule if you travel then.",
+      "question": "When is the best time for this trip?"
+    },
+    {
+      "answer": "As a working estimate from current guidance, the e-VOA costs IDR 500,000, about US$35, for 30 days, plus Bali's one-time IDR 150,000 levy, about US$10. Lombok and the Gilis charge no separate tourist tax, so your main extra costs are the fast-boat tickets. Fees can change, so check the latest official guidance.",
+      "question": "Do I need a visa and pay a tourist tax?"
+    },
+    {
+      "answer": "Four times in ten days: two nights in Ubud, three in Kuta Lombok, three on Gili Trawangan and one in Uluwatu. That is the trade-off for the variety, so pack light and treat the transfer days as part of the plan rather than dead time.",
+      "question": "How many times will I change hotels on this route?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Bali, Lombok and Gili Islands — jungle, surf beaches and clear snorkel waters",
+    "asset": {
+      "_ref": "image-49dab23392b5e7bc6419c60ae1153228eeb6dc77-4030x2879-jpg",
+      "_type": "reference"
+    },
+    "caption": "Ubud → Kuta Lombok → Gili Trawangan → Uluwatu"
+  },
+  "_system": {
+    "base": {
+      "id": "8d8d8cc6-000e-4388-9019-17cda00b8a34",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "articleCommercialTier": "standard",
+  "logisticsComplexity": "moderate",
+  "primaryAffiliatePartner": "viator",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "12go",
+    "airalo"
+  ]
+}

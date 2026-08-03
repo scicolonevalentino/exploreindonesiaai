@@ -1,0 +1,1921 @@
+{
+  "_id": "28bac5f8-9b32-4528-970c-1387f166e371",
+  "_type": "article",
+  "title": "7 Days in Bali for Solo Travellers: Ubud, Canggu and Uluwatu",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-bali-solo-travellers"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-02T05:19:43.410Z",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [],
+  "travelStylePrimary": "first_time_indonesia",
+  "travelStyleSecondary": [
+    "beach_islands",
+    "culture_temples"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "travellerTypes": [
+    "solo_travellers"
+  ],
+  "vibe": "balanced",
+  "experienceTags": [
+    "rice_terraces",
+    "temples",
+    "waterfalls",
+    "volcano_sunrise",
+    "beach_sunset",
+    "cultural_performance",
+    "cooking_classes",
+    "private_drivers",
+    "airport_transfers"
+  ],
+  "bestSeason": "April–October",
+  "route": "Ubud → Canggu → Uluwatu",
+  "focusKeyword": "7 days in Bali solo traveller itinerary",
+  "metaTitle": "Solo Bali in 7 Days: Safe, Social Itinerary",
+  "metaDescription": "A 7-day solo Bali itinerary: Ubud, Canggu and Uluwatu, ordered to meet people easily, cut backtracking and keep logistics simple.",
+  "intro": "Most Bali itineraries throw a dozen scattered stops at you and call it a week. Solo travel needs a different logic: a route that makes meeting people easy when you want company and disappearing simple when you don't. This seven-day plan does that with two real bases, Ubud and Canggu, plus a southern Uluwatu finish, ordered so you never backtrack and never feel stranded eating dinner alone.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "private airport transfer",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+      "experienceCategory": "ubud_highlights",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
+      "anchorText": "Balinese cooking class",
+      "experienceCategory": "cooking_class",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+      "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
+      "anchorText": "private car charter",
+      "experienceCategory": "private_driver",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
+      "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+      "anchorText": "Kecak fire dance at Uluwatu",
+      "experienceCategory": "uluwatu_cultural",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits solo travellers and first-time visitors to Indonesia who want a balanced week: temples and rice terraces, surf and cafe culture, plus structured ways to meet other people without committing to a fixed group the whole time. It works well for remote workers tacking travel days onto a Canggu stint, and for solo women, who consistently rate Bali as one of the easier places in Asia to travel alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is "
+        },
+        {
+          "_key": "k5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "not"
+        },
+        {
+          "_key": "k6",
+          "_type": "span",
+          "marks": [],
+          "text": " ideal for travellers chasing remote, quiet islands. Ubud and Canggu are busy and developed, and the social energy that makes them easy for solo trips is exactly what some people come to Indonesia to escape. If you want isolation over connection, this is the wrong week. It is also not built for divers or anyone whose main goal is Nusa Penida or the Gili Islands, which need their own days and their own ferries."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ka",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "kb",
+          "_type": "span",
+          "marks": [],
+          "text": " 7 days, 6 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start and end:"
+        },
+        {
+          "_key": "ke",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar, Ngurah Rai International Airport (DPS)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ki",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kg",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kh",
+          "_type": "span",
+          "marks": [],
+          "text": " solo travellers, first-time visitors, remote workers adding travel days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kl",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kj",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "kk",
+          "_type": "span",
+          "marks": [],
+          "text": " travellers wanting remote islands, divers, or anyone after total quiet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ko",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "km",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "kn",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced, social when you want it, flexible when you don't."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kr",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kp",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kq",
+          "_type": "span",
+          "marks": [],
+          "text": " as a working estimate, roughly US$300 to US$450 for a budget week and US$700 to US$1,000 mid-range, with solo accommodation costing a little more per head than sharing. Prices change, so treat these as planning anchors, not quotes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ku",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ks",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "kt",
+          "_type": "span",
+          "marks": [],
+          "text": " easy. Short transfers, no ferries, no domestic flights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kx",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kv",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kw",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the drier months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ky",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "kz",
+          "_type": "span",
+          "marks": [],
+          "text": " low. Most of this can be arranged a few days out, with two exceptions noted below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k13",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic is geographic and social, not just scenic. You start inland in Ubud, where the draws are culture, nature and slow mornings, then move to coastal Canggu for surf and social energy, then finish in the far south at Uluwatu, which is the closest of the three to the airport. Each move points roughly southward, so you are never doubling back across the island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "Ubud first also makes sense for arrival energy. After a long flight, a calmer base with walkable cafes beats landing straight into Canggu's beach-bar pace. You ease in, then build up. Canggu in the middle gives you the most social days when you are rested enough to enjoy them, and Uluwatu at the end sets you up for a manageable run to departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": "The one honest caveat: Ubud to the airport is long, around 90 minutes or more in traffic, which is exactly why Ubud goes first and not last. Ending in the south keeps your final transfer short."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1a",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive and settle into Ubud"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1c",
+          "_type": "span",
+          "marks": [],
+          "text": " You will likely land tired, so keep expectations low. Clear immigration, sort your bags and resist the urge to plan anything ambitious for today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1f",
+          "_type": "span",
+          "marks": [],
+          "text": " Head straight to Ubud. A pre-arranged "
+        },
+        {
+          "_key": "k1h",
+          "_type": "span",
+          "marks": [
+            "k1g"
+          ],
+          "text": "private airport transfer"
+        },
+        {
+          "_key": "k1i",
+          "_type": "span",
+          "marks": [],
+          "text": " is the easiest way to start a solo trip, because you skip the taxi negotiation at arrivals and have a fixed price and a known driver after a long flight. The ride runs roughly 90 minutes, so allow buffer time if you land late."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k1g",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k1m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k1l",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it simple. Walk central Ubud, eat near your accommodation and get your bearings. Solo dining here is genuinely easy, cafes and casual restaurants dominate and nobody blinks at a table for one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1n",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k1o",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud for three nights. Guesthouses with common areas are the move for solo travellers who want to meet people. Jalan Bisma and the Penestanan area mix solo visitors with longer-stay guests and stay walkable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1s",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1q",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k1r",
+          "_type": "span",
+          "marks": [],
+          "text": " book the airport transfer ahead of any other activity, because it is the one moment of the trip where arriving without a plan costs you the most in stress and hassle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k1t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1u",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ubud's classic loop"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k1x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k1w",
+          "_type": "span",
+          "marks": [],
+          "text": " Use your first full day for the Ubud highlights that are spread too far apart to walk between: Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace, Tirta Empul Temple and a waterfall near town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k1z",
+          "_type": "span",
+          "marks": [],
+          "text": " These stops are scattered across the countryside north of Ubud, so a guided "
+        },
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [
+            "k20"
+          ],
+          "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+        },
+        {
+          "_key": "k22",
+          "_type": "span",
+          "marks": [],
+          "text": " is the practical way to cover them in a day. The group version doubles as a social move, it naturally creates conversation with other travellers, and hotel pickup means you do not negotiate transport stop to stop."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k20",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Ubud, eat where you like. The cafe density makes solo dinners effortless."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [],
+          "text": " Tirta Empul is a working temple with a sarong requirement and a holy-spring ritual, so factor in time and modest dress rather than treating it as a quick photo stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2b",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Cooking class, or a Batur sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2h",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2d",
+          "_type": "span",
+          "marks": [],
+          "text": " This is your choose-your-energy day. For something social and hands-on, a "
+        },
+        {
+          "_key": "k2f",
+          "_type": "span",
+          "marks": [
+            "k2e"
+          ],
+          "text": "Balinese cooking class"
+        },
+        {
+          "_key": "k2g",
+          "_type": "span",
+          "marks": [],
+          "text": " works particularly well solo, it starts with a market visit, ends with eating what you made, and the shared-table format makes conversation automatic."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k2e",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k2k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2i",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2j",
+          "_type": "span",
+          "marks": [],
+          "text": " If you cooked in the morning, spend the afternoon slowly: a massage, a rice-field walk or a long cafe stop. Ubud rewards an unstructured half-day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2l",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k2m",
+          "_type": "span",
+          "marks": [],
+          "text": " Quiet night. If instead you choose the alternative below, you will be doing the opposite of a relaxed evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2q",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2o",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k2p",
+          "_type": "span",
+          "marks": [],
+          "text": " the Mount Batur sunrise trek is the one swap that changes your whole day. It means a roughly 2am pickup and a pre-dawn climb, with the payoff of sunrise from the summit and a built-in group of other early risers. It is memorable but it is not relaxing, so pick it only if you are happy to lose a night's sleep and recover the next day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k2r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2s",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Move to Canggu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k2v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2t",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k2u",
+          "_type": "span",
+          "marks": [],
+          "text": " Breakfast in Ubud, then go. After a few inland days you will be ready for the coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2w",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k2x",
+          "_type": "span",
+          "marks": [],
+          "text": " Move to Canggu by "
+        },
+        {
+          "_key": "k2z",
+          "_type": "span",
+          "marks": [
+            "k2y"
+          ],
+          "text": "private car charter"
+        },
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [],
+          "text": ". A private transfer is the sensible call here because there is no good direct public-transport link between Ubud and Canggu, and a charter lets you leave on your own schedule with your luggage and skip the multi-app ride-hailing dance. Settle in around Batu Bolong or Echo Beach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k2y",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": " Canggu is one of the easiest areas in Bali for solo travellers, cafes, gyms, surf schools, coworking spaces and beach bars sit close together with a genuinely social feel. Find sunset at Batu Bolong or Echo Beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k36",
+          "_type": "span",
+          "marks": [],
+          "text": " Canggu for three nights. A social guesthouse or boutique hotel around Batu Bolong or Berawa puts you in walking range of the action."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k39",
+          "_type": "span",
+          "marks": [],
+          "text": " the Ubud to Canggu drive is roughly 1.5 to 2 hours depending on traffic, which is heavy near Canggu in the afternoons, so an earlier departure is calmer than a midday one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Surf and slow Canggu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3e",
+          "_type": "span",
+          "marks": [],
+          "text": " Start in the water. A beginner surf lesson is a low-stakes way into Canggu's beach culture and one of the more reliable ways to meet other travellers, since lessons are small and social by design."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3i",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3g",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3h",
+          "_type": "span",
+          "marks": [],
+          "text": " Decompress. Work through the cafes and boutiques, or just claim a spot on the sand. Canggu is built for an aimless afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3l",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3j",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3k",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset at Batu Bolong or Echo Beach again, this time without the rush of an arrival day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k3n",
+          "_type": "span",
+          "marks": [],
+          "text": " surf lessons here can usually be arranged a day ahead and rarely need locking in early, so keep this one flexible and read the swell and your own energy before committing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3p",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3q",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: South to Uluwatu and the Kecak dance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3r",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k3s",
+          "_type": "span",
+          "marks": [],
+          "text": " Slow start in Canggu, then pack up for the south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k3w",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3u",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k3v",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave in the late morning and head to the Uluwatu area. Spend the afternoon on one of the cliff-backed beaches, Padang Padang, Bingin or Melasti, each a short drive apart."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k3y",
+          "_type": "span",
+          "marks": [],
+          "text": " In the late afternoon, visit Uluwatu Temple and stay for the "
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "k3z"
+          ],
+          "text": "Kecak fire dance at Uluwatu"
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": ". This is one of the easier cultural experiences to do alone, it is structured, atmospheric and time-bound, so you are not improvising. The clifftop setting at sunset is the reason to time it for the late slot."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k3z",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " the temple has resident monkeys known for grabbing sunglasses and phones, so keep loose items secured. If your Day 7 flight is early, consider staying in Uluwatu overnight to cut the morning airport run."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": " the Kecak performance is popular and seating is limited, so securing tickets ahead is worth it on this one rather than chancing a walk-up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Slow morning and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k4c",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the last morning loose. If you headed back toward Canggu or stayed central, have a relaxed breakfast, take a short walk, do any last shopping or fit in a spa treatment before the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k4f",
+          "_type": "span",
+          "marks": [],
+          "text": " Head to Ngurah Rai for departure. From Canggu, allow roughly 45 to 60 minutes in normal traffic, and more if you are travelling at a busy time. From Uluwatu the run is shorter, which is the payoff for ending in the south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k4i",
+          "_type": "span",
+          "marks": [],
+          "text": " Bali traffic is unpredictable, so build in buffer time and leave earlier than the map suggests rather than cutting it fine for a flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4k",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4l",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4m",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early."
+        },
+        {
+          "_key": "k4n",
+          "_type": "span",
+          "marks": [],
+          "text": " The airport transfer for Day 1, the Kecak dance tickets for Day 6, and your two accommodation bases. Ubud and Canggu rooms in the popular zones fill in high season, and the two transfers and the show are the items where a no-plan day actually costs you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible."
+        },
+        {
+          "_key": "k4q",
+          "_type": "span",
+          "marks": [],
+          "text": " The Day 3 choice between a cooking class and the Batur trek, the Day 5 surf lesson, and most meals and afternoons. These can be sorted a day or two out, which lets you read the weather, your energy and whether you have found people to do things with."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A note on getting around locally."
+        },
+        {
+          "_key": "k4t",
+          "_type": "span",
+          "marks": [],
+          "text": " For short hops within Ubud or Canggu, ride-hailing apps like Grab and Gojek are cheap and registered, which is the safer late-night option than an unmarked car. Scooters are everywhere but scooter accidents are the single biggest real risk on a Bali trip, so only ride if you are confident and licensed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k4v",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4w",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes solo travellers make in Bali"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4z",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4x",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Spreading across too many areas."
+        },
+        {
+          "_key": "k4y",
+          "_type": "span",
+          "marks": [],
+          "text": " A week split across five places means you spend it packing and transferring. Two real bases plus a short southern finish is the right density for seven days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating Ubud and Canggu as interchangeable."
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": " They are not. Ubud is culture, nature and quiet mornings; Canggu is surf, coworking and nightlife. Ordering them inland-then-coast lets each one do its job."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating transfer times."
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud to the airport and Ubud to Canggu both run long, especially in afternoon traffic, and a tight connection at the end of the trip is where solo travellers most often get caught."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Riding a scooter on day one."
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": " The roads, the rain and the traffic are a lot to take on jet-lagged. Use Grab or Gojek early and decide about scooters once you have a feel for the place."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5a",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To cut:"
+        },
+        {
+          "_key": "k5c",
+          "_type": "span",
+          "marks": [],
+          "text": " if you want a slower week, drop the Uluwatu day trip and stay put in Canggu, ending with a short southern transfer only on departure day. You lose the Kecak dance but gain an unhurried finish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5g",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To adapt:"
+        },
+        {
+          "_key": "k5f",
+          "_type": "span",
+          "marks": [],
+          "text": " swap the Day 3 cooking class for the Batur sunrise trek if you want one big adventure day, but plan a genuinely slow Day 4 to recover from the pre-dawn start. Do not stack the trek against the Canggu move on the same day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5h",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "To upgrade:"
+        },
+        {
+          "_key": "k5i",
+          "_type": "span",
+          "marks": [],
+          "text": " add a third or fourth night in Canggu if you are a remote worker, and lean on the coworking cafes. The route holds up well as an eight or nine day trip with extra Canggu days rather than new destinations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5m",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5k",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k5l",
+          "_type": "span",
+          "marks": [],
+          "text": " every upgrade here is about adding nights in a base you already have, not adding new bases. That keeps logistics easy and avoids buying back the backtracking the route was designed to avoid."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5n",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5o",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k5r",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5p",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_key": "k5q",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October are the drier months and the easier window for beach days and clear sunsets. Conditions vary year to year, so check current forecasts before locking dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5u",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5s",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_key": "k5t",
+          "_type": "span",
+          "marks": [],
+          "text": " As a working estimate, the e-VOA costs IDR 500,000 (around US$35) for 30 days and is extendable once, and Bali's one-time tourist levy is IDR 150,000 (around US$10). Both can usually be arranged online before you fly via the official evisa.imigrasi.go.id and Love Bali portals. Fees and rules change, so confirm the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5x",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5v",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport."
+        },
+        {
+          "_key": "k5w",
+          "_type": "span",
+          "marks": [],
+          "text": " This route needs no domestic flights or ferries. Moves are by private car and transfer, with Grab and Gojek for short local hops."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5y",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM."
+        },
+        {
+          "_key": "k5z",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring some cash for small vendors and warungs, since not everywhere takes cards. For data, set up an Indonesia eSIM before you board and activate it on the plane so you have maps and messaging the moment you land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to book early."
+        },
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [],
+          "text": " Airport transfer, Kecak tickets, both accommodation bases."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What to keep flexible."
+        },
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [],
+          "text": " The Day 3 activity choice, the surf lesson, meals and afternoons."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you are travelling solo, it is your first time in Indonesia, and you want a week that makes connection easy without forcing it. The two-base structure plus a southern finish gives you social days when you want them and quiet ones when you don't, with logistics simple enough that the planning never overwhelms the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you came to Indonesia for remote islands, diving or genuine quiet. Ubud and Canggu are busy and developed by design, and you would be fighting the route the whole way. For that traveller, a Komodo, Flores or Raja Ampat trip is a far better use of the same week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6e",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k6j",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6f",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want to extend the islands side of this trip, look at the "
+        },
+        {
+          "_key": "k6h",
+          "_type": "span",
+          "marks": [
+            "k6g"
+          ],
+          "text": "Nusa Penida and Gili Islands routes"
+        },
+        {
+          "_key": "k6i",
+          "_type": "span",
+          "marks": [],
+          "text": " from the same southern bases."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6g",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6o",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6k",
+          "_type": "span",
+          "marks": [],
+          "text": "For a different pace, compare this with a "
+        },
+        {
+          "_key": "k6m",
+          "_type": "span",
+          "marks": [
+            "k6l"
+          ],
+          "text": "quieter eastern Bali and Sidemen plan"
+        },
+        {
+          "_key": "k6n",
+          "_type": "span",
+          "marks": [],
+          "text": " that trades social hubs for rice valleys and slow mornings."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6l",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k6t",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6p",
+          "_type": "span",
+          "marks": [],
+          "text": "And if you are weighing Bali against the rest of the country, start with the "
+        },
+        {
+          "_key": "k6r",
+          "_type": "span",
+          "marks": [
+            "k6q"
+          ],
+          "text": "Indonesia destinations hub"
+        },
+        {
+          "_key": "k6s",
+          "_type": "span",
+          "marks": [],
+          "text": " to see how a solo week here fits a longer trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k6q",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes, Bali is one of Asia's most popular and welcoming destinations for solo travellers, including solo women. The biggest real risk is scooter accidents, so ride cautiously or use Grab and Gojek. Standard precautions apply: watch your drink on nights out and use registered drivers late at night.",
+      "question": "Is Bali safe for solo travellers?"
+    },
+    {
+      "answer": "Canggu and Ubud are the best bases for solo travel, with sociable guesthouses, coworking cafes and easy group tours for meeting people. Finish near Uluwatu for a quieter surf-and-sunset day or two. Avoid spreading across too many areas, pick two hubs and a short southern finish.",
+      "question": "Where should solo travellers stay in Bali?"
+    },
+    {
+      "answer": "Very. Canggu's guesthouses, surf schools and coworking spaces, plus Ubud's cooking classes and group day tours, make it easy to meet people solo. The Mount Batur sunrise trek and group highlight tours are reliable ways to connect with other travellers.",
+      "question": "Is Bali good for meeting other travellers?"
+    },
+    {
+      "answer": "As a working estimate, solo travellers can do a week from about US$300 to US$450 on a budget, or US$700 to US$1,000 mid-range with private rooms and drivers. Solo travel costs a little more per head than sharing, mainly on accommodation, and prices change, so treat these as planning anchors.",
+      "question": "How much does a solo week in Bali cost?"
+    },
+    {
+      "answer": "Yes. As a working estimate, the e-VOA costs IDR 500,000 (around US$35) for 30 days and is extendable once, and Bali's one-time tourist levy is IDR 150,000 (around US$10). Both can usually be arranged online before you fly via evisa.imigrasi.go.id and the Love Bali portal. Confirm the latest official guidance before travelling.",
+      "question": "Do I need a visa and pay the Bali tourist tax?"
+    },
+    {
+      "answer": "Ubud is calmer and easier to handle straight off a long flight, and it sits furthest from the airport. Starting inland and moving south through Canggu to Uluwatu means you never backtrack and your final airport transfer stays short.",
+      "question": "Why start in Ubud and not Canggu?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Bali for solo travellers — Ubud jungle, Canggu beaches and Uluwatu sunsets",
+    "asset": {
+      "_ref": "image-1e6202bfde6f7ece1db14ffa9f602a862e1afb9f-6000x4000-jpg",
+      "_type": "reference"
+    },
+    "caption": "Ubud → Canggu → Uluwatu"
+  },
+  "_system": {
+    "base": {
+      "id": "28bac5f8-9b32-4528-970c-1387f166e371",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
+  "articleCommercialTier": "hero",
+  "logisticsComplexity": "easy",
+  "primaryAffiliatePartner": "viator",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "airalo"
+  ]
+}

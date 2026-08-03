@@ -1,0 +1,1841 @@
+{
+  "_id": "itinerary-10-days-sulawesi-toraja-bunaken",
+  "_type": "article",
+  "title": "10 Days in Sulawesi: Tana Toraja, Bunaken and the Long Road Between",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-sulawesi-toraja-bunaken"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-24T06:11:27.174Z",
+  "destinationPrimary": "wild_indonesia",
+  "travelStylePrimary": "remote_offbeat",
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "repeat_travellers"
+  ],
+  "vibe": "balanced",
+  "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
+  "focusKeyword": "Sulawesi itinerary",
+  "metaTitle": "10 Days in Sulawesi: Tana Toraja & Bunaken",
+  "metaDescription": "A 10-day Sulawesi itinerary pairing Tana Toraja's highland culture with the reef walls of Bunaken. Route logic, the long drives and what to book first.",
+  "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Compare Makassar to Toraja transfers",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_MAKASSAR_TORAJA",
+      "publicUrl": "https://12go.asia/en/travel/makassar/tana-toraja"
+    }
+  ],
+  "body": [
+    {
+      "_key": "k0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits travellers who treat the journey as part of the point. It pairs the highland funeral culture of Tana Toraja with the reef walls off Bunaken, two of the strongest reasons to fly all the way to Sulawesi, and it accepts that getting between them takes time. It works well for couples, small groups of friends and repeat visitors to Indonesia who have already done Bali or Lombok and want a trip with more cultural weight and fewer crowds. You should be comfortable with long overland drives, light tourism infrastructure and a region where English is limited outside the dive resorts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right trip for first-time Indonesia visitors who want effortless logistics, for families with very young children who will struggle with the mountain road to Toraja, or for anyone whose main goal is a polished beach resort. Those travellers are better served in Bali, the Gili Islands or Nusa Penida. Sulawesi rewards patience, and the single biggest mistake is underestimating the transfers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route: "
+        },
+        {
+          "_key": "k9",
+          "_type": "span",
+          "marks": [],
+          "text": "Makassar to Tana Toraja and the Rantepao highlands, back to Makassar, then a flight north to Manado and out to Bunaken."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for: "
+        },
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": "Toraja highland culture, Sulawesi food, and wall diving or snorkelling off Bunaken."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace: "
+        },
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": "Balanced, but front-loaded with travel. Two long transfer days bookend three full days in Toraja and three on the reef."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base changes: "
+        },
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": "Three main bases. Rantepao for Toraja, one transit night in Makassar, and a Bunaken island resort for the diving stretch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "When to go: "
+        },
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": "The drier months from around May to October are the safest window for both the highlands and the reef. Toraja funeral ceremonies cluster in the July and August peak. Confirm timing locally, as ceremony dates are not fixed in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": "Sulawesi is shaped like a sprawling letter K, and its highlights sit far apart. Tana Toraja is in the south, reached overland from Makassar. Bunaken is in the far north, reached by sea from Manado. There is no quick way to connect the two, so the honest version of this trip routes you back through Makassar between them rather than pretending a shortcut exists."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [],
+          "text": "The payoff for that backtrack is range. You get a culture that organises life around elaborate funerals and cliff-carved graves, then a marine park where the reef drops away in vertical walls a short boat ride from your room. Trying to add the Togean Islands or Wakatobi on top would turn ten days into a transit marathon, so this version keeps two anchors and gives each enough time to be worth the airfare."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [],
+          "text": "Land at Sultan Hasanuddin International Airport in Makassar, airport code UPG. As a working guide, most travellers connect through Jakarta, Bali or Singapore and Kuala Lumpur, so confirm current flight routes before locking hotels. Makassar is the gateway for the whole south, and a night here lets you start the Toraja drive fresh rather than groggy from a long-haul connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat at the Losari waterfront, where the seafood and the grilled fish stalls are the reason to be in the city at all. If you land early, Fort Rotterdam is a calm hour of Dutch-era history near the seafront."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": "Set up an "
+        },
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "k39"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave the airport. Coverage holds in Makassar and Manado but thins on the Toraja road and around Bunaken, so having maps and translation working from the start saves real friction."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k39",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": "Makassar, one night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Makassar to Tana Toraja"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k48",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the trip's first long transfer, and it sets the tone. Tana Toraja sits roughly 300 to 310 kilometres north of Makassar on a winding mountain road, and the drive runs about eight to ten hours as a working estimate, depending on traffic out of the city, rest stops and roadworks. Leave early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k51",
+          "_type": "span",
+          "marks": [],
+          "text": "Decide your transfer before today. A private car with a driver is the most comfortable option and lets you stop at the Bambapuang viewpoint and the Kandora cliffs on the way. Long-distance buses also run the route, often overnight. You can "
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [
+            "k52"
+          ],
+          "text": "compare Makassar to Toraja transfers"
+        },
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [],
+          "text": " to see current bus and shared-car options and rough prices, which can change, rather than negotiating cold at the terminal."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k52",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_MAKASSAR_TORAJA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [],
+          "text": "There is a seasonal alternative worth knowing about. Wings Air has run a short flight from Makassar to Toraja Airport, also called Buntu Kunik, at roughly 50 minutes. As a working note it has been a seasonal and low-frequency route, often only a couple of departures a week and not year-round, so treat it as a bonus rather than a plan. Check the latest official guidance and only build around it if you can confirm a flight on your dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrive in Rantepao, the practical base for the highlands. Eat early and rest. Tomorrow is the first full day on foot and on small roads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [],
+          "text": "Rantepao, three nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [],
+          "text": "Stay in or near Rantepao rather than the smaller town of Makale. It puts you closer to most of the village sites and to the drivers and guides who arrange them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Southern Toraja, graves and the funeral landscape"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the classic southern loop. Lemo is a cliff face lined with carved burial niches and rows of tau tau, the wooden effigies that watch over the dead. Londa is a cave and cliff site where coffins and skulls sit in the rock, usually visited with a lamp-carrying local guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [],
+          "text": "Continue to Kete Kesu, a village of towering tongkonan houses with their boat-shaped roofs, rice barns and an old hillside burial ground behind. It is the most visited site in Toraja for good reason, and it explains the architecture you will keep seeing all week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [],
+          "text": "Sites in Toraja typically charge a small entry or village fee, often in the region of a few tens of thousands of rupiah each, paid in cash. Carry small notes, as card payment is rare outside Rantepao and fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k80",
+          "_type": "span",
+          "marks": [],
+          "text": "Back in Rantepao for dinner. If a funeral ceremony is taking place during your visit, your guide may raise it now, since attending one is a question of timing rather than booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Highland villages and a possible ceremony"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [],
+          "text": "Drive up to Batutumonga on the slopes of Mount Sesean. The road climbs through terraced rice fields to viewpoints over the whole Rantepao valley, and the megalithic site at Bori with its standing stones sits along the way. The air up here is noticeably cooler."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [],
+          "text": "If a Toraja funeral ceremony is happening, this is the kind of day to attend. These are large multi-day community events, not performances, and visitors are generally welcome with a guide and a respectful gift such as cigarettes or sugar for the host family. They are most common in the July and August peak but can fall in other months too. Your guide will know what is on. If nothing is scheduled, spend the afternoon walking between highland hamlets instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [],
+          "text": "Ceremonies involve animal sacrifice, including buffalo, which some visitors find confronting. Decide in advance whether you want to attend, and follow your guide's lead on where to stand and when to photograph."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k93",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [],
+          "text": "Return to Rantepao."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: A slower Toraja day, markets and trekking"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k99",
+          "_type": "span",
+          "marks": [],
+          "text": "If your visit lines up with it, the Bolu livestock market near Rantepao is the social and economic engine of the region, busiest on its rotating market days when prized buffalo change hands for serious money. It runs on a six-day cycle rather than a fixed weekday, so ask locally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k101",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k102",
+          "_type": "span",
+          "marks": [],
+          "text": "Use this day to slow down. A half-day walk through the rice terraces and villages around Batutumonga or Tikala is the best way to see daily Toraja life away from the main sites. A local guide turns a pretty walk into an explanation of houses, graves and family lines."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k105",
+          "_type": "span",
+          "marks": [],
+          "text": "Last night in the highlands. Pack and confirm tomorrow's transfer back to Makassar, as your onward flight north depends on it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k108",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Toraja back to Makassar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k109",
+          "_type": "span",
+          "marks": [],
+          "text": "Today you give back the eight to ten hours you spent getting up here. There is no way around it on this route, which is the main reason Sulawesi takes longer than its map distances suggest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k112",
+          "_type": "span",
+          "marks": [],
+          "text": "Leave Rantepao early for the drive south. If you managed to confirm the seasonal Wings Air flight, this is where it saves you most, turning a full travel day into a short hop, but only if it runs on your date."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k114",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k115",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrive back in Makassar and overnight near the airport. You want to be close to the terminal for an early flight to Manado, not fighting city traffic at dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": [],
+          "text": "Makassar, one transit night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "k121",
+          "_type": "span",
+          "marks": [],
+          "text": "Book an airport-area hotel for tonight specifically. The convenience matters more than the location on a pure transit night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k124",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Fly to Manado and cross to Bunaken"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k125",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly from Makassar to Sam Ratulangi Airport in Manado, airport code MDC. As a working estimate the flight runs about one hour 45 minutes nonstop, and several carriers serve the route with frequent departures, so you have flexibility on timing. Confirm current schedules before you commit to a morning flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k129",
+          "_type": "span",
+          "marks": [],
+          "text": "From Manado, transfer to the harbour and take a boat out to Bunaken Island, usually around 45 minutes to an hour depending on the boat and sea state. Most island resorts arrange the transfer as part of your stay, which is simpler than chasing the public boat that runs to a fixed local schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "k132",
+          "_type": "span",
+          "marks": [],
+          "text": "Bunaken sits inside a national marine park, and there is an entry fee for visitors, in the region of 150,000 rupiah as a working figure, sometimes collected as a daily or trip pass. Fees can change, so confirm the current rate and whether your resort handles it on arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k135",
+          "_type": "span",
+          "marks": [],
+          "text": "Settle into your resort. The pace shifts completely here from road days to reef days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "k138",
+          "_type": "span",
+          "marks": [],
+          "text": "Bunaken, three nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k141",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Bunaken's walls"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k143",
+          "_type": "span",
+          "marks": [],
+          "text": "Bunaken's signature is the wall dive. The reef drops vertically into deep blue along sites like Lekuan and Fukui, and the visibility, turtles and reef fish are the reason divers fly here specifically. Two morning dives is the standard rhythm. Certified divers can get straight in; resorts also run courses if you want to start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k145",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k146",
+          "_type": "span",
+          "marks": [],
+          "text": "If you do not dive, the snorkelling here is genuinely strong, because the wall starts close to the surface and you can drift along the top of it from a boat. You do not need a tank to see why the park has its reputation. Book a snorkelling boat through your resort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k148",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k149",
+          "_type": "span",
+          "marks": [],
+          "text": "Quiet island evening. Bunaken has limited nightlife by design, which is part of the appeal after the road days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k152",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: More reef, or Siladen and the wider park"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k153",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k154",
+          "_type": "span",
+          "marks": [],
+          "text": "Spend a second day on the water. Dive or snorkel a different stretch of the park, or take a boat across to nearby Siladen, a smaller, quieter island with its own reef, for a change of scene."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k158",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k156",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k157",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep one afternoon genuinely free. Three days of boats and salt water is tiring, and a slow afternoon in a hammock is part of why this stretch balances the cultural intensity of Toraja."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k159",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "k160",
+          "_type": "span",
+          "marks": [],
+          "text": "Leave at least a full day, ideally more, between your last dive and any onward flight, to stay within standard no-fly guidance after diving. Plan your final-day flight time with that in mind."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k162",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [],
+          "text": "Last night on the island. Confirm your morning boat back to Manado."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Bunaken to Manado and onward"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k167",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "k168",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the boat back to Manado and connect to your onward flight, usually via Jakarta or another hub for international travellers. Build in a generous buffer for the boat crossing, which depends on weather more than a road transfer does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k170",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "k171",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have a late flight, Manado has good Minahasan food worth a final meal, though the spicier local dishes are an acquired taste. Otherwise, head straight to the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k173",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "k174",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not book a tight same-day international connection out of Manado. A weather-delayed boat or a held domestic flight can unravel it, and a night in Jakarta on the way out is cheap insurance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k177",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k178",
+          "_type": "span",
+          "marks": [],
+          "text": "Book your domestic flights and your Bunaken resort early. The Makassar to Manado leg and the island resorts both fill in the dry-season peak, and the resort transfer is the cleanest way onto the island. Lock the long-haul connections into and out of Sulawesi too, since Makassar and Manado are not daily-direct from most countries."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k180",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the Toraja days flexible. Whether you attend a funeral ceremony, catch the Bolu market or trek depends on dates you cannot fully control, so arrange a local driver and guide for the three highland days and let them shape the itinerary around what is actually happening. The seasonal Toraja flight is the one thing not to count on. Treat it as a possible upgrade you confirm late, not a fixed leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on a Sulawesi trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k184",
+          "_type": "span",
+          "marks": [],
+          "text": "The first mistake is underestimating the Makassar to Toraja drive. It is long, it is winding, and doing it as a same-day round trip ruins both ends. Give Toraja at least three nights so the eight-to-ten-hour drives each way are worth it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k186",
+          "_type": "span",
+          "marks": [],
+          "text": "The second is trying to add the Togean Islands or Wakatobi to a ten-day trip. Both are wonderful and both are slow to reach, and bolting them on turns this into a transfer schedule with a holiday attached. Save them for a longer trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k188",
+          "_type": "span",
+          "marks": [],
+          "text": "The third is cutting the no-fly buffer after diving Bunaken to make an earlier flight. That is a safety call, not a scheduling one. Build the gap in and protect it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k191",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k192",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Short on time? "
+        },
+        {
+          "_key": "k193",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut a Bunaken night before you cut a Toraja one. Two nights on the reef still gives a full day of diving or snorkelling, whereas Toraja loses its meaning if you rush the cultural sites and skip a possible ceremony."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k195",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not a diver? "
+        },
+        {
+          "_key": "k196",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep Bunaken anyway and snorkel. The wall starts shallow, so the best of the park is visible from the surface, and you can always do a discover-scuba session to test the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k198",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Want it gentler? "
+        },
+        {
+          "_key": "k199",
+          "_type": "span",
+          "marks": [],
+          "text": "If the long drives are the dealbreaker, build the trip around the seasonal Toraja flight once you can confirm it, or consider a North Sulawesi only trip pairing Bunaken with the Tangkoko reserve for tarsiers and not attempting Toraja at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k201",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Have more time? "
+        },
+        {
+          "_key": "k202",
+          "_type": "span",
+          "marks": [],
+          "text": "With two weeks you can add the Togean Islands after Toraja for a slower, more remote island stretch, or extend in the north with Tangkoko wildlife and the Minahasa highlands around Tomohon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k205",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k206",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa. "
+        },
+        {
+          "_key": "k207",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors enter Indonesia on a visa on arrival, around 500,000 rupiah for a 30-day stay that can usually be extended once, and ten days sits comfortably inside that. Rules and prices change, so check the latest official guidance for your nationality before you travel. An "
+        },
+        {
+          "_key": "k209",
+          "_type": "span",
+          "marks": [
+            "k208"
+          ],
+          "text": "Indonesia eSIM"
+        },
+        {
+          "_key": "k210",
+          "_type": "span",
+          "marks": [],
+          "text": " also lets you handle any online visa or arrival paperwork the moment you land."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k208",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k212",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cash. "
+        },
+        {
+          "_key": "k213",
+          "_type": "span",
+          "marks": [],
+          "text": "Carry enough rupiah in cash for the Toraja days and the marine park fee. ATMs are reliable in Makassar, Rantepao and Manado but scarce on Bunaken and at village sites, where almost everything is cash only."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k215",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health and timing. "
+        },
+        {
+          "_key": "k216",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a dry-season trip. The roads, the highland walks and the boat crossings are all easier from roughly May to October. Travel insurance that covers diving is worth it if you plan to dive Bunaken."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k218",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Guides. "
+        },
+        {
+          "_key": "k219",
+          "_type": "span",
+          "marks": [],
+          "text": "A good local guide is close to essential in Toraja, both for access to ceremonies and for the meaning behind the graves and houses. It is one of the few places where a guide changes the trip rather than just easing it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k222",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k223",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a strong second or third trip to Indonesia, not a first one. The reward is genuine range, a highland culture you will not find anywhere else and a marine park that earns its reputation, and the price you pay for it is time on the road and a backtrack through Makassar. If you accept the transfers as part of the deal and give both Toraja and Bunaken room to breathe, ten days is enough to do justice to a side of Indonesia most visitors never reach. If long drives and light infrastructure sound like work rather than adventure, this is not your trip, and there is no shame in choosing Bali instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k225",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k226",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k227",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want even more remote Sulawesi and the wider east, our "
+        },
+        {
+          "_key": "k229",
+          "_type": "span",
+          "marks": [
+            "k228"
+          ],
+          "text": "20-day wild Indonesia route"
+        },
+        {
+          "_key": "k230",
+          "_type": "span",
+          "marks": [],
+          "text": " strings several frontier regions together at a slower pace. For a different reef-led trip in the far east, the "
+        },
+        {
+          "_key": "k232",
+          "_type": "span",
+          "marks": [
+            "k231"
+          ],
+          "text": "7-day Raja Ampat snorkelling islands itinerary"
+        },
+        {
+          "_key": "k233",
+          "_type": "span",
+          "marks": [],
+          "text": " trades Toraja's culture for the richest marine life in the country. You can also browse more options on our "
+        },
+        {
+          "_key": "k235",
+          "_type": "span",
+          "marks": [
+            "k234"
+          ],
+          "text": "Wild Indonesia destination guide"
+        },
+        {
+          "_key": "k236",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k228",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/20-days-wild-indonesia"
+        },
+        {
+          "_key": "k231",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-raja-ampat-snorkeling-islands"
+        },
+        {
+          "_key": "k234",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "nsd-inb-1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nsd-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "If Bunaken is the half that draws you, the "
+        },
+        {
+          "_key": "nsd-s2",
+          "_type": "span",
+          "marks": [
+            "nsd-lnk-1"
+          ],
+          "text": "10-day North Sulawesi diving itinerary"
+        },
+        {
+          "_key": "nsd-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " gives the reef walls and the macro life of the Lembeh Strait a full trip of their own, without the Toraja overland leg."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "nsd-lnk-1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-north-sulawesi-diving-bunaken-lembeh"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Ten days is a sensible minimum to pair Tana Toraja with Bunaken without rushing, because two of those days go to transfers. With less time, focus on one region, either Toraja from Makassar or Bunaken from Manado, rather than trying to link both. With two weeks you could add the Togean Islands or North Sulawesi wildlife.",
+      "question": "How many days do you need for Sulawesi?"
+    },
+    {
+      "answer": "As a working estimate the drive runs about eight to ten hours over roughly 300 to 310 kilometres of winding mountain road, depending on traffic and rest stops. There is also a seasonal, low-frequency Wings Air flight to Toraja Airport at around 50 minutes, but it does not run year-round, so confirm current schedules before relying on it.",
+      "question": "How long is the drive from Makassar to Tana Toraja?"
+    },
+    {
+      "answer": "Toraja funeral ceremonies are most common in the July and August peak, when many families hold them, but they can fall in other months too. Dates are set by families rather than a fixed calendar, so you cannot book one in advance. A local guide in Rantepao will know which ceremonies are happening during your visit and can arrange a respectful way to attend.",
+      "question": "When is the best time to see a Toraja funeral ceremony?"
+    },
+    {
+      "answer": "No. Bunaken is famous for wall diving, but the reef wall starts close to the surface, so snorkellers drift along the top of it and see turtles and reef fish without a tank. Divers get more out of the deeper walls, and resorts run courses if you want to start, but snorkelling alone is well worth the trip north.",
+      "question": "Do you need to dive to enjoy Bunaken?"
+    },
+    {
+      "answer": "There is a marine park entry fee for visitors, in the region of 150,000 rupiah as a working figure, sometimes collected as a daily or per-trip pass. Boat transfers and dive packages are separate. Fees can change and are usually paid in cash, so carry rupiah and confirm the current rate, since many resorts handle the fee on arrival.",
+      "question": "What does it cost to enter Bunaken National Marine Park?"
+    },
+    {
+      "answer": "Most visitors enter on a visa on arrival, around 500,000 rupiah for a 30-day stay that can usually be extended once, which comfortably covers a ten-day trip. Rules and prices vary by nationality and change over time, so check the latest official guidance before you travel.",
+      "question": "Do you need a visa for Indonesia?"
+    },
+    {
+      "answer": "It is a stretch for families with very young children. The long mountain drive to Toraja, the limited infrastructure and the boat crossing to Bunaken make it tiring for small kids. Older children who travel well may enjoy it, but families wanting an easier first trip are better served in Bali, the Gili Islands or Nusa Penida.",
+      "question": "Is this Sulawesi trip suitable for families with young children?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Lemo cliff burial site in Tana Toraja, Sulawesi, with carved rock niches, tau tau effigies and tongkonan-roofed grave structures",
+    "asset": {
+      "_ref": "image-ef8a6a20b2cf1c9d0dcffe484add57fbd7bb8951-3264x2448-jpg",
+      "_type": "reference"
+    },
+    "caption": "The Lemo cliff graves, Tana Toraja"
+  }
+}

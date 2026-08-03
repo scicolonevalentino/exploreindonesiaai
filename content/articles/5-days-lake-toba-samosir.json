@@ -1,0 +1,1739 @@
+{
+  "_id": "itinerary-5-days-lake-toba-samosir",
+  "_type": "article",
+  "title": "5 Days at Lake Toba: Samosir Island Without the Rush",
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-lake-toba-samosir"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-08-03T04:14:52Z",
+  "destinationPrimary": "sumatra",
+  "travelStylePrimary": "culture_temples",
+  "travelStyleSecondary": "remote_offbeat",
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "relaxed",
+  "experienceTags": [
+    "batak_culture",
+    "lake",
+    "highlands",
+    "slow_travel"
+  ],
+  "bestSeason": "May to September",
+  "route": "Medan (Kualanamu) → Parapat → Tuk Tuk, Samosir → Simanindo, Ambarita and Tomok → Pangururan and Tele → Parapat → Medan",
+  "focusKeyword": "Lake Toba itinerary",
+  "metaTitle": "5 Days at Lake Toba and Samosir Island, Sumatra",
+  "metaDescription": "A 5-day Lake Toba itinerary around Samosir Island: getting there from Medan or Silangit, what to book, what to skip, and what to cut.",
+  "intro": "Lake Toba is the biggest thing in North Sumatra and the easiest to get wrong in a hurry. It sits about four hours from Medan by road, in a volcanic caldera so large that the island in the middle, Samosir, is a little smaller than Singapore. Five days is the shortest trip that gives the lake more time than the drive. Two of those days belong to transport, which sounds like a poor trade until you see what the other three buy: cool highland air at around 900 metres, Batak villages that still work as villages, and a lake people swim in rather than photograph and leave. This itinerary is built around that arithmetic.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "a1",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare buses and shared shuttles from Medan to Parapat",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_MEDAN_PARAPAT",
+      "publicUrl": "https://12go.asia/en/travel/medan/parapat"
+    },
+    {
+      "_key": "a2",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "an Indonesia eSIM from Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "a3",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F155269-5d4n-lake-toba-samosir-and-berastagi-from-medan%2F",
+      "anchorText": "a packaged five-day Medan to Toba and Berastagi run",
+      "experienceCategory": "multi_day_tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_TOBA_5D4N",
+      "publicUrl": "https://www.klook.com/activity/155269-5d4n-lake-toba-samosir-and-berastagi-from-medan/"
+    },
+    {
+      "_key": "a4",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F157311-3d2n-tour-lake-toba-berastagi-samosir-from-medan-with-drone-shot%2F",
+      "anchorText": "the three-day, two-night version of the same loop",
+      "experienceCategory": "multi_day_tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_TOBA_3D2N",
+      "publicUrl": "https://www.klook.com/activity/157311-3d2n-tour-lake-toba-berastagi-samosir-from-medan-with-drone-shot/"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": "This suits couples, friends and solo travellers who want a highland stop with a slow daily rhythm, and who are comfortable with two long road days as the price of it. It works well for anyone who has done Bali and wants somewhere cooler, quieter and more Batak than Balinese. It also works as the second half of a longer North Sumatra loop, bolted onto Bukit Lawang, since both sit within a few hours of Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who this trip is NOT for."
+        },
+        {
+          "_key": "s4",
+          "_type": "span",
+          "marks": [],
+          "text": " It is not a beach holiday. Toba is a freshwater caldera lake at around 900 metres, so evenings are cool, there is no reef and no surf. It is a poor fit if you have only three days in Sumatra in total, since the transfers would eat most of them, and a poor fit if you want nightlife or a full sightseeing schedule. Families with young children will find the pacing easier in the longer version of this route, "
+        },
+        {
+          "_key": "s5",
+          "_type": "span",
+          "marks": [
+            "m1"
+          ],
+          "text": "the nine-day North Sumatra trip with kids"
+        },
+        {
+          "_key": "s6",
+          "_type": "span",
+          "marks": [],
+          "text": ", which spreads the same driving over more nights."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-north-sumatra-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s7",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route. "
+        },
+        {
+          "_key": "s9",
+          "_type": "span",
+          "marks": [],
+          "text": "Medan (Kualanamu) to Parapat, ferry to Tuk Tuk on Samosir Island, three full days on the island, then back across the lake and north to Medan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Nights. "
+        },
+        {
+          "_key": "s11",
+          "_type": "span",
+          "marks": [],
+          "text": "Four nights in Tuk Tuk, on the Samosir side. Parapat is the port, and staying there means crossing the lake twice a day for no gain."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s12",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace. "
+        },
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [],
+          "text": "Two travel days bracketing three unhurried ones. One culture day, one day doing very little, one loop around the island's west side."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s14",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there. "
+        },
+        {
+          "_key": "s15",
+          "_type": "span",
+          "marks": [],
+          "text": "Most travellers fly into Kualanamu International Airport near Medan, airport code KNO, then drive roughly three and a half to four and a half hours to Parapat. Silangit Airport near Balige, code DTB, sits around two hours from Parapat and has direct flights from Jakarta with several carriers, which removes half the driving. Routes and frequencies change, so confirm current flight routes before locking hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget shape. "
+        },
+        {
+          "_key": "s17",
+          "_type": "span",
+          "marks": [],
+          "text": "The two big line items are the road transfer and the room. As a working estimate, a private car from Medan to Parapat runs around $45 to $55 per vehicle, and the public ferry to Tuk Tuk is roughly IDR 15,000 to 25,000 per person. Fees can change, so treat these as planning numbers rather than quotes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s18",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [],
+          "text": "Lake Toba is a caldera, and Samosir is the island that rose in the middle of it. Samosir is a little smaller than Singapore, which is the fact most itineraries quietly skip. People read \"island in a lake\" and plan a day trip. The island's roads are slow, the sights sit an hour apart, and the ferry timetable ends in the early evening, so a day trip from Medan means around nine hours of driving for about three hours on the ground."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s20",
+          "_type": "span",
+          "marks": [],
+          "text": "Five days is the shortest version that inverts that ratio. Day 1 and Day 5 are honest travel days. The three days between them are the trip. Tuk Tuk, the small peninsula on Samosir's east coast, is the right base for all three: it has the guesthouses, the ferry connection, the scooter rentals and swimming access straight off the shore, and it puts the culture sites on the east coast within an hour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s21",
+          "_type": "span",
+          "marks": [],
+          "text": "The order of the days is deliberate. The Batak sites at Simanindo, Ambarita and Tomok sit north and south of Tuk Tuk along the same coast road, so they group into one day. The west side, Pangururan and the Tele viewpoint, is a separate half-island loop that needs a full day. Splitting them the other way around means driving the same road twice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Medan or Silangit to Tuk Tuk, Samosir"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s24",
+          "_type": "span",
+          "marks": [],
+          "text": "Land at Kualanamu and go straight to the road. This leg is the whole day, so there is nothing to gain by lingering in Medan. If your flight lands after about 1pm, plan on arriving in Tuk Tuk after dark, or break the journey with a night near the airport and start fresh. Arriving into Silangit instead makes this a half day rather than a full one, with roughly two hours of road to Parapat and the same ferry at the end of it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s26",
+          "_type": "span",
+          "marks": [],
+          "text": "The drive south to Parapat runs around three and a half to four and a half hours by private car, and anywhere from four and a half to seven by public bus. You can "
+        },
+        {
+          "_key": "s27",
+          "_type": "span",
+          "marks": [
+            "m2"
+          ],
+          "text": "compare buses and shared shuttles from Medan to Parapat"
+        },
+        {
+          "_key": "s28",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly, which is better than negotiating at the airport curb after a long flight. The full comparison of cars, buses and fares sits in our "
+        },
+        {
+          "_key": "s29",
+          "_type": "span",
+          "marks": [
+            "m3"
+          ],
+          "text": "Medan to Lake Toba transport guide"
+        },
+        {
+          "_key": "s30",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m2",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_MEDAN_PARAPAT"
+        },
+        {
+          "_key": "m3",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/medan-to-lake-toba"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s32",
+          "_type": "span",
+          "marks": [],
+          "text": "From Tigaraja pier in Parapat, the public passenger ferry crosses to Tuk Tuk in roughly 30 to 45 minutes. It runs about hourly through the day and thins out in the evening, so aim to be at the pier well before dusk. Tell the crew your guesthouse name, since the boat drops passengers at lakeside jetties along the peninsula rather than at one central dock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s33",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base. "
+        },
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [],
+          "text": "Tuk Tuk, four nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [],
+          "text": "The last ferry is the pinch point of the whole trip. If the drive runs long, a vehicle ferry also crosses from Ajibata to Tomok, and a taxi from Tomok to Tuk Tuk closes the gap. Schedules vary by season, so ask your guesthouse for the current evening times rather than trusting a blog."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s37",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: The Batak coast, Simanindo to Tomok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": [],
+          "text": "Start at the far end and work back. Simanindo, at the island's northern tip, is about an hour from Tuk Tuk and holds the Huta Bolon museum in a traditional Batak house compound, with dance performances that generally run in the morning. Times change and sometimes depend on group bookings, so confirm the day before rather than arriving hopefully at 11am."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": [],
+          "text": "Ambarita on the way back has the Siallagan stone chairs, a village court where the Batak kings once tried and executed prisoners. Entry is a small local fee, typically a few thousand rupiah, and a guide will usually attach themselves to you at the gate. Take one. The stones mean very little without the story, and the guides here are the reason the site is worth the stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s43",
+          "_type": "span",
+          "marks": [],
+          "text": "Tomok, just south of Tuk Tuk, has the tomb of King Sidabutar and a long run of souvenir stalls you walk through to reach it. It is the most touristed of the three and the quickest. Finish there, then head back for a swim before dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [],
+          "text": "Nothing on this day needs booking ahead. Hire a scooter in Tuk Tuk for the day, as a working estimate around IDR 100,000 to 150,000, or a car with driver if there are three or more of you. Rates change and are usually cash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "s47",
+          "_type": "span",
+          "marks": [],
+          "text": "Samosir's roads are narrow, patchy in places and shared with dogs, buffalo and trucks. If you have never ridden a scooter, this is a poor place to learn. A driver for the day costs more and removes the single most common way this trip goes wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: A deliberately empty day on the water"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s50",
+          "_type": "span",
+          "marks": [],
+          "text": "Swim. The lake is warm enough to be pleasant and deep enough to be clear, and most Tuk Tuk guesthouses have steps or a jetty straight into it. Kayaks and paddleboards are widely available along the peninsula, usually by the hour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s52",
+          "_type": "span",
+          "marks": [],
+          "text": "Walk or ride the Tuk Tuk loop, which takes an hour or two and passes the small church, the lakeside cafes and a handful of workshops selling Batak carving and ulos weaving. If you want more, the hills directly behind the peninsula give a view down over the whole bay from a short, steep climb."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s54",
+          "_type": "span",
+          "marks": [],
+          "text": "Somebody in Tuk Tuk will be playing live Batak music, which is a genuine local tradition rather than a staged one. Ask your guesthouse who is on tonight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s55",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_key": "s56",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep this day unbooked on purpose. It absorbs the weather, the tiredness from Day 1 and anything that overran on Day 2. Deciding on Day 3 how to use Day 4 is the whole point of having it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s57",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Pangururan, the hot springs and the Tele viewpoint"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s59",
+          "_type": "span",
+          "marks": [],
+          "text": "Cross the island west to Pangururan, roughly an hour to an hour and a half depending on the road and your vehicle. Samosir is joined to the mainland here by a short bridge over the Tano Ponggol channel, which is why the west side feels different: it is the working side of the island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s61",
+          "_type": "span",
+          "marks": [],
+          "text": "The hot springs on the slope of Mount Pusuk Buhit sit just across the bridge, with pools fed by sulphur water and a view back over the lake. They are simple, local and hot enough to need easing into. Entry is a small fee paid on arrival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [],
+          "text": "The Tele viewpoint, another 30 to 45 minutes beyond Pangururan on the mainland rim road, gives the one view that explains the geography: the caldera wall dropping to the water with Samosir laid out inside it. Cloud builds through the afternoon in the wet months, so an early start is worth more than a late one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "s65",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a long day of driving on the least maintained roads of the trip, and phone signal is patchy on the western rim. Fill the tank in Pangururan, carry cash and start back before the light goes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic. "
+        },
+        {
+          "_key": "s67",
+          "_type": "span",
+          "marks": [],
+          "text": "If Day 3 left you flat, cut Tele and keep the day to Pangururan and the springs. The viewpoint is the best photograph of the trip, and it is also the part that turns a half day of driving into a full one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s68",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Ferry to Parapat and the road north"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s70",
+          "_type": "span",
+          "marks": [],
+          "text": "Take an early ferry, ideally the first or second of the day from around half past eight, and be on the road out of Parapat by mid morning. Your guesthouse will know the current departure times and can usually flag the boat from their own jetty."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [],
+          "text": "The drive north to Kualanamu runs three and a half to four and a half hours in good conditions, and longer once Medan traffic starts. Build in a buffer of at least two hours before check-in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s73",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s74",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly out, or stay near the airport if your flight is early the next day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "s76",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not book a morning flight out of Kualanamu on Day 5. The only way to make one work is a 4am ferry that does not exist. If your onward flight is early, add a night near the airport and treat Day 5 as a transfer day, or fly from Silangit instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s77",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early. "
+        },
+        {
+          "_key": "s79",
+          "_type": "span",
+          "marks": [],
+          "text": "Flights, the Day 1 road transfer, and the first two nights in Tuk Tuk. Samosir's better lakeside rooms are a small pool and they fill in Indonesian holiday periods and over Christmas and Easter, when domestic and Batak diaspora travel peaks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible. "
+        },
+        {
+          "_key": "s81",
+          "_type": "span",
+          "marks": [],
+          "text": "Everything on the island. Scooters, drivers, guides, the museum, the springs and the boats are all arranged on the day, usually in cash, usually within an hour of asking. Prepaying an island day tour online buys you nothing here and locks you into weather you cannot see yet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sort before you fly. "
+        },
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [],
+          "text": "Get "
+        },
+        {
+          "_key": "s84",
+          "_type": "span",
+          "marks": [
+            "m4"
+          ],
+          "text": "an Indonesia eSIM from Airalo"
+        },
+        {
+          "_key": "s85",
+          "_type": "span",
+          "marks": [],
+          "text": " loaded before departure so maps and messaging work from the moment you land, and draw rupiah in Medan. ATMs exist in Tuk Tuk and Pangururan, and they are neither plentiful nor reliable."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m4",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s86",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on a short Lake Toba trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Basing in Parapat. "
+        },
+        {
+          "_key": "s88",
+          "_type": "span",
+          "marks": [],
+          "text": "Parapat is the port town. Staying there to \"save the ferry\" means paying for the crossing twice a day and sleeping on the wrong side of the view."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating Samosir as a day trip. "
+        },
+        {
+          "_key": "s90",
+          "_type": "span",
+          "marks": [],
+          "text": "Around nine hours of driving from Medan for three hours on the ground is the version most one-day tours actually deliver. If three days on the island is impossible, the honest alternative is to skip Toba on this trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Packing for a beach. "
+        },
+        {
+          "_key": "s92",
+          "_type": "span",
+          "marks": [],
+          "text": "At around 900 metres, evenings run cool and the wet months are genuinely wet. A fleece and a rain layer get used."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s93",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cutting the ferry too fine on arrival. "
+        },
+        {
+          "_key": "s94",
+          "_type": "span",
+          "marks": [],
+          "text": "Evening crossings thin out and stop. A delayed flight plus Medan traffic is enough to strand you in Parapat for a night you did not plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arriving without cash. "
+        },
+        {
+          "_key": "s96",
+          "_type": "span",
+          "marks": [],
+          "text": "Guides, entry fees, scooters and most small guesthouses run on rupiah in hand. Card acceptance on the island is thin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking Sunday morning activities. "
+        },
+        {
+          "_key": "s98",
+          "_type": "span",
+          "marks": [],
+          "text": "Samosir is strongly Christian Batak and Sunday mornings are quiet. Plan the lazy day around it rather than fighting it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s99",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut to four days. "
+        },
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [],
+          "text": "Drop Day 3, the empty day. You keep the culture coast and the west loop, and you lose the margin that absorbs bad weather. Acceptable if your dates are fixed, regrettable if it rains."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut to three days, but only via Silangit. "
+        },
+        {
+          "_key": "s103",
+          "_type": "span",
+          "marks": [],
+          "text": "Flying into Silangit removes roughly two hours of driving in each direction, which is exactly the amount that makes a three-day trip viable. Fares and schedules move, so price both airports before deciding, and confirm current flight routes before locking hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade the driving. "
+        },
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [],
+          "text": "A private car with a driver held for the whole trip costs more than piecing it together, and it turns Day 4 from a navigation exercise into a day out. For three or four people it is often close to the same money as scooters plus transfers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Hand the logistics over. "
+        },
+        {
+          "_key": "s107",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather not arrange anything, "
+        },
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [
+            "m5"
+          ],
+          "text": "a packaged five-day Medan to Toba and Berastagi run"
+        },
+        {
+          "_key": "s109",
+          "_type": "span",
+          "marks": [],
+          "text": " covers roughly this ground with the transfers built in, and "
+        },
+        {
+          "_key": "s110",
+          "_type": "span",
+          "marks": [
+            "m6"
+          ],
+          "text": "the three-day, two-night version of the same loop"
+        },
+        {
+          "_key": "s111",
+          "_type": "span",
+          "marks": [],
+          "text": " compresses it if your dates are tight. Packages of this kind trade flexibility for certainty, so they suit travellers who want the route without the arranging, and they suit Day 3 badly, since a packaged day is never an empty one."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m5",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_TOBA_5D4N"
+        },
+        {
+          "_key": "m6",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_TOBA_3D2N"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Add Berastagi and Sipiso-piso. "
+        },
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [],
+          "text": "Returning to Medan via Tongging and the Karo highlands puts the Sipiso-piso waterfall, which drops into the northern end of the lake, on your route for a small entry fee. It adds a couple of hours and only works with a private car and a late flight, or as the start of a longer Sumatra loop like "
+        },
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [
+            "m7"
+          ],
+          "text": "the fifteen-day Sumatra itinerary"
+        },
+        {
+          "_key": "s115",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-sumatra"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa. "
+        },
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors enter on a visa on arrival or e-VOA, which costs around IDR 500,000, roughly USD 35 as a working estimate, valid for thirty days with one extension possible. Rules change, so check the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Season. "
+        },
+        {
+          "_key": "s120",
+          "_type": "span",
+          "marks": [],
+          "text": "Toba gets rain year round, with the drier stretch generally falling between about May and September. The lake is at altitude, so \"dry season\" here means fewer afternoon storms rather than cloudless days. Our "
+        },
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [
+            "m8"
+          ],
+          "text": "guide to the best time to visit Sumatra"
+        },
+        {
+          "_key": "s122",
+          "_type": "span",
+          "marks": [],
+          "text": " has the month-by-month picture."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m8",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/sumatra/best-time-to-visit-sumatra"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money. "
+        },
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [],
+          "text": "Cash, in rupiah, drawn in Medan. Budget for guides, entry fees, scooter hire and meals in small notes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Altitude and clothing. "
+        },
+        {
+          "_key": "s126",
+          "_type": "span",
+          "marks": [],
+          "text": "Around 900 metres at the lake surface, higher on the rim. Days are mild, evenings need a layer, and the sun at altitude is stronger than it feels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Combining it. "
+        },
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [],
+          "text": "Toba pairs naturally with Bukit Lawang, since both hang off Medan. For background on the lake itself, the villages and Batak culture, read our "
+        },
+        {
+          "_key": "s129",
+          "_type": "span",
+          "marks": [
+            "m9"
+          ],
+          "text": "Lake Toba guide"
+        },
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m9",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/sumatra/lake-toba-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s132",
+          "_type": "span",
+          "marks": [],
+          "text": "Five days is the shortest honest Lake Toba trip from Medan. Anything less and the caldera becomes a long drive with a view at the end of it. What you are buying with those three middle days is a change of register: cool air, a lake you swim in, Batak villages that are still doing their own thing, and enough time to have one day where nothing is planned. Travellers who need a full itinerary every day tend to leave underwhelmed. Travellers who want three days of nothing much in a very large landscape tend to rate it as the best part of their Sumatra trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s133",
+          "_type": "span",
+          "marks": [],
+          "text": "If your dates cannot stretch to five days, fly into Silangit and keep the three days on the island. If neither is possible, put Toba on the next trip and give these days to Bukit Lawang instead, where a short stay still works."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s134",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [],
+          "text": "For the wider region, "
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [
+            "m10"
+          ],
+          "text": "15 days in Sumatra"
+        },
+        {
+          "_key": "s137",
+          "_type": "span",
+          "marks": [],
+          "text": " covers Bukit Lawang, Berastagi and Toba at a slower pace. Travelling with children, "
+        },
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [
+            "m11"
+          ],
+          "text": "9 days in North Sumatra with kids"
+        },
+        {
+          "_key": "s139",
+          "_type": "span",
+          "marks": [],
+          "text": " spreads the same driving over more nights. For the other side of the island, "
+        },
+        {
+          "_key": "s140",
+          "_type": "span",
+          "marks": [
+            "m12"
+          ],
+          "text": "7 days in West Sumatra"
+        },
+        {
+          "_key": "s141",
+          "_type": "span",
+          "marks": [],
+          "text": " covers Bukittinggi and the Harau Valley. Everything else we have written about the island sits on the "
+        },
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": [
+            "m13"
+          ],
+          "text": "Sumatra destination hub"
+        },
+        {
+          "_key": "s143",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m10",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-sumatra"
+        },
+        {
+          "_key": "m11",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-north-sumatra-with-kids"
+        },
+        {
+          "_key": "m12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-west-sumatra-bukittinggi-harau-valley"
+        },
+        {
+          "_key": "m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/sumatra"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Five days from Medan is the practical minimum, because two of them are road days. That leaves three full days on Samosir Island, which is enough for the Batak sites on the east coast, the Pangururan and Tele loop on the west, and one unplanned day. Flying into Silangit instead of Medan cuts roughly two hours of driving each way and makes a three-day version workable.",
+      "question": "How many days do you need at Lake Toba?"
+    },
+    {
+      "answer": "Kualanamu near Medan has far more international and domestic connections but sits three and a half to four and a half hours from Parapat by road. Silangit near Balige is around two hours from Parapat and has direct flights from Jakarta with several carriers. If your itinerary includes Bukit Lawang, fly Medan. If Toba is the only stop, price Silangit first. Confirm current flight routes before locking hotels.",
+      "question": "Should I fly to Medan or Silangit for Lake Toba?"
+    },
+    {
+      "answer": "Samosir, and specifically Tuk Tuk. Parapat is the ferry port on the mainland shore, so basing there means crossing the lake twice a day to reach anything you came for. Tuk Tuk has the guesthouses, the lake access, the scooter hire and the ferry jetties.",
+      "question": "Should you stay in Parapat or on Samosir Island?"
+    },
+    {
+      "answer": "The public passenger ferry from Tigaraja pier in Parapat reaches Tuk Tuk in roughly 30 to 45 minutes, running about hourly through the day for around IDR 15,000 to 25,000 per person as a working estimate. A separate vehicle ferry runs from Ajibata to Tomok. Evening departures thin out, so do not plan to arrive late. Fares and schedules can change, so confirm locally.",
+      "question": "How do you get from Parapat to Samosir?"
+    },
+    {
+      "answer": "Scooter hire in Tuk Tuk is the standard option, as a working estimate around IDR 100,000 to 150,000 a day, paid in cash. Roads are narrow and shared with animals and trucks, so a car with driver is the better call for groups of three or more, or for anyone who has not ridden before. Both are arranged on the day rather than online.",
+      "question": "How do you get around Samosir Island?"
+    },
+    {
+      "answer": "Yes. It is a freshwater caldera lake, warm enough to be comfortable and deep enough to stay clear, and most Tuk Tuk guesthouses have steps or a jetty into it. Water temperature is pleasant year round, while the air at around 900 metres cools quickly after sunset.",
+      "question": "Can you swim in Lake Toba?"
+    },
+    {
+      "answer": "The drier stretch generally runs from about May to September, though rain is possible in any month at this altitude. Indonesian school holidays and the Christmas and Easter periods bring heavy domestic and Batak diaspora travel to Samosir, so book rooms further ahead if your dates fall in those windows.",
+      "question": "When is the best time to visit Lake Toba?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Lake Toba seen from the green hills above the shore, with Batak villages and rice fields below",
+    "asset": {
+      "_ref": "image-243cf738f1e3330ad1b8fdd0fcf6bdfe2c1a2ada-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": "Lake Toba from the hills above Samosir, North Sumatra"
+  }
+}

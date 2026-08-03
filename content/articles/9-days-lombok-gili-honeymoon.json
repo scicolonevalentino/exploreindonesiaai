@@ -1,0 +1,1742 @@
+{
+  "_id": "itinerary-9-days-lombok-gili-honeymoon",
+  "_type": "article",
+  "title": "9 Days in Lombok and the Gili Islands for a Honeymoon",
+  "slug": {
+    "_type": "slug",
+    "current": "9-days-lombok-gili-honeymoon"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-01T09:00:00.000Z",
+  "destinationPrimary": "lombok_gili",
+  "travelStylePrimary": "romantic_escape",
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 9,
+  "travellerTypes": [
+    "honeymooners",
+    "couples"
+  ],
+  "vibe": "relaxed",
+  "route": "Kuta Lombok → Gili Meno → Gili Air",
+  "focusKeyword": "Lombok Gili Islands honeymoon itinerary",
+  "metaTitle": "Lombok & Gili Honeymoon: 9-Day Itinerary",
+  "metaDescription": "A relaxed 9-day Lombok and Gili Islands honeymoon: quiet south Lombok beaches, Gili Meno for seclusion and Gili Air, with honest boat and transfer advice.",
+  "intro": "Most honeymoon plans for this part of Indonesia start and end in Bali, and then spend half the trip trying to escape the crowds. This route skips that problem by working east instead. You land near the quiet south coast of Lombok, spend a few gentle beach days there while you settle in, then travel out to the Gili Islands for the slow second half, ending on the two that suit a honeymoon best. It is built around a relaxed pace, one scenic transfer day, and the two things couples most want here: warm easy water and time to do very little.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "k220",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "k221",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6?pid=P00303362&mcid=42383&medium=link&campaign=LombokairportransferhoneymoonKuta",
+      "anchorText": "private airport transfer in Lombok",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6"
+    },
+    {
+      "_key": "k222",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtourhoneymoon",
+      "anchorText": "South Lombok beach tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR",
+      "publicUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1"
+    },
+    {
+      "_key": "k223",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F",
+      "anchorText": "beginner surf lesson at Selong Belanak",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK",
+      "publicUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/"
+    },
+    {
+      "_key": "k224",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7?pid=P00303362&mcid=42383&medium=link&campaign=SenaruwaterfallshoneymoonTiuKelep",
+      "anchorText": "Sendang Gile and Tiu Kelep waterfalls day trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_SENARU_WATERFALLS",
+      "publicUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7"
+    },
+    {
+      "_key": "k225",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "anchorText": "fast boat to the Gili Islands",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_LOMBOK_GILI_BOAT",
+      "publicUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/"
+    },
+    {
+      "_key": "k226",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "anchorText": "3-island Gili snorkeling tour with turtles",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "publicUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/"
+    },
+    {
+      "_key": "k227",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Gili Islands to Bali boat",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "publicUrl": null
+    }
+  ],
+  "body": [
+    {
+      "_key": "k1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k3",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a honeymoon route for couples who want quiet beaches and slow island days rather than a packed sightseeing schedule. It stays out of the busiest parts of Bali and works east instead, through the calmer south coast of Lombok and then out to the Gili Islands, ending on the two that suit a honeymoon best. The pace is relaxed by design. You get a few gentle beach days, one scenic transfer, and plenty of time to do very little on an island with no cars."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k5",
+          "_type": "span",
+          "marks": [],
+          "text": "It is a good fit if you like the idea of a beach honeymoon that still has a bit of variety, a couple of south Lombok surf beaches and a waterfall stop at one end, three easy Gili days at the other, without long drives or a new hotel every night. It also suits couples who want good snorkeling from the beach and a real chance of swimming with turtles, but do not want to build the whole trip around diving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k7",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right trip if you want nightlife, resort golf and spa complexes, or a long list of temples and culture. Gili Meno in particular is very quiet, which is the point, but couples who get restless without things to do can find it slow. It is also not ideal in the wet season, roughly November to March, when crossings are rougher and rain is more likely, so if your dates fall then, keep the plan flexible and check conditions before you commit to boats."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": " 9 days, 8 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok in the south for three nights, then Gili Meno for three nights, then Gili Air for two nights before you head back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "k18",
+          "_type": "span",
+          "marks": [],
+          "text": " Relaxed. Two easy beach days in the south, one longer transfer day, and five slow island days across the two Gilis."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k20",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best season:"
+        },
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": " The drier months, roughly April to October, tend to bring calmer crossings and clearer water. Conditions vary year to year, so confirm the forecast before you lock in boat days, especially outside those months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting in:"
+        },
+        {
+          "_key": "k24",
+          "_type": "span",
+          "marks": [],
+          "text": " Most couples fly into Lombok International Airport near Praya, which is close to the south coast, then take the boat out to the Gilis later in the trip. Confirm current flight routes before locking hotels, since schedules into Lombok change seasonally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k28",
+          "_type": "span",
+          "marks": [],
+          "text": "The obvious honeymoon move is to fly to Bali and stay there, but the south of Bali is crowded and the quiet parts take time to reach. Lombok and the Gilis give you the same warm-water, easy-beach honeymoon with far fewer people, and the geography lines up neatly if you travel south to north. You land near the south coast, spend the first few days there while you are still adjusting, then work your way out to the islands for the slow second half."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k30",
+          "_type": "span",
+          "marks": [],
+          "text": "Front-loading Lombok also means the one demanding day, the drive north with a waterfall stop and the boat crossing, sits in the middle of the trip rather than at the start or the end. By the time you reach Gili Meno the logistics are behind you. Ending on Gili Air rather than Gili Meno is deliberate too. Meno is the quietest island and best for the seclusion in the middle of a honeymoon, while Gili Air has a little more life and easier onward boats, which makes it the better place to finish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k33",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Lombok and settle in the south"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort your connection before anything else. An "
+        },
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "k36"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you activate data as you land, so maps, messaging and your transfer confirmation all work before you clear the airport. Most nationalities enter on a visa on arrival, currently 500,000 rupiah per person as a working estimate, valid for 30 days and extendable once. Fees and rules can change, so check the latest official guidance and consider the online eVisa to skip the airport queue."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k36",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " Head straight to the south coast around Kuta Lombok, a short drive from the airport. Booking a "
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [
+            "k42"
+          ],
+          "text": "private airport transfer in Lombok"
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [],
+          "text": " takes the guesswork out of your first afternoon and means someone is waiting when you land tired. Keep the first day light. Drop your bags, walk the beach near your hotel, and leave the touring for tomorrow."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k42",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k46",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay in the Kuta Lombok area for three nights. It puts you within easy reach of the south coast beaches, and it saves changing hotels while you are still finding your feet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok is a small town, not a resort strip, and it is a different place from Kuta in Bali. That is part of why it is quieter, but it also means fewer late-night options, so plan dinners around your hotel or the main village."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: South Lombok beaches"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [],
+          "text": " The south coast is the reason to base here. Tanjung Aan, with its two curved bays, and the long pale sweep of Selong Belanak are the standout stretches, and Merese hill between them gives you the view down over both. A "
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [
+            "k56"
+          ],
+          "text": "South Lombok beach tour"
+        },
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": " links the main beaches in one relaxed day with a driver, which saves you navigating the back roads yourselves and lets you just move from one swim to the next."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k56",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k61",
+          "_type": "span",
+          "marks": [],
+          "text": " Time the day so you finish at Merese hill for late afternoon. The light is best then and it is an easy walk up from the road, an unfussy way to end a beach day together. Carry water and sun cover, since shade is limited on the hill and the beaches alike."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k64",
+          "_type": "span",
+          "marks": [],
+          "text": " These beaches are calm to look at but currents can be strong in places, especially away from the main bays. Ask locally before swimming out, and keep to the sheltered ends of Tanjung Aan if you are unsure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k67",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: A slow Kuta day, at your own pace"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": " Build in one genuinely unstructured day here, which a honeymoon should have. If you want a shared thing to do rather than pure beach time, Selong Belanak is one of the gentler places in Indonesia to try surfing, with a soft sandy bottom and small inside waves. A "
+        },
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [
+            "k70"
+          ],
+          "text": "beginner surf lesson at Selong Belanak"
+        },
+        {
+          "_key": "k72",
+          "_type": "span",
+          "marks": [],
+          "text": " is an easy first attempt for two, with instructors used to complete beginners."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k70",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [],
+          "text": " Otherwise, do very little. Read on the beach, have a long lunch, book a couples massage, and let yourselves reset before the island half of the trip. This is the last day with a car and proper roads for a while, so if there is anything you want that needs a drive, today is the day for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the surf lesson optional and weather-dependent rather than fixed. If the swell is wrong or you simply want to rest, drop it without losing anything, since the point of this day is flexibility."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k81",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: North with a waterfall stop, then the boat to Gili Meno"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the one longer day, so start reasonably early. The drive from the south to the north coast passes near Senaru, where the "
+        },
+        {
+          "_key": "k85",
+          "_type": "span",
+          "marks": [
+            "k84"
+          ],
+          "text": "Sendang Gile and Tiu Kelep waterfalls day trip"
+        },
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [],
+          "text": " makes a good break in the journey. Sendang Gile is a short walk in, while Tiu Kelep is a rougher path with a river crossing, so wear shoes you can get wet and take it slowly."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k84",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SENARU_WATERFALLS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry on to Bangsal, the main jumping-off port for the Gilis, and take the boat across to Gili Meno. Booking a "
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [
+            "k90"
+          ],
+          "text": "fast boat to the Gili Islands"
+        },
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance fixes a departure and saves waiting at the harbour, though the small public boats from Bangsal are cheaper if you are happy to go when they fill. Fares and times change, so confirm the day's crossings before you rely on them."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k90",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LOMBOK_GILI_BOAT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k95",
+          "_type": "span",
+          "marks": [],
+          "text": " There are no direct boats to Gili Meno from most departure points, so some crossings stop first at Gili Trawangan or Gili Air. Check the routing when you book, and build in slack, because this is the day most likely to run late. Do not add anything time-critical to the evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay on Gili Meno for three nights. It is the smallest and quietest of the three islands, and the one most set up for couples, with a handful of bungalows rather than a strip of bars."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k101",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Gili Meno, the slow island"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k103",
+          "_type": "span",
+          "marks": [],
+          "text": " There are no cars or scooters on the Gilis, so the whole island runs at walking pace. Spend the morning snorkeling straight off the beach. Meno's house reefs are easy to reach without a boat, and the underwater statue circle off the west side is a well-known spot you can swim to when conditions are calm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k106",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the island, which takes only a couple of hours all the way round, and pick a west-facing spot for sunset over the water toward Bali's Mount Agung on a clear evening. Dinner on Meno is low-key by nature, so keep expectations set to quiet and early rather than lively."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k109",
+          "_type": "span",
+          "marks": [],
+          "text": " Meno has limited shops, patchy card payment and a couple of small clinics only. Bring enough cash for your stay, carry any medication you need, and do not count on a pharmacy for anything specific."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k112",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Snorkeling the three islands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k114",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the day to get on the water properly. A "
+        },
+        {
+          "_key": "k116",
+          "_type": "span",
+          "marks": [
+            "k115"
+          ],
+          "text": "3-island Gili snorkeling tour with turtles"
+        },
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [],
+          "text": " loops the reefs around all three Gilis by boat, with a strong chance of swimming with green turtles at the sites off Meno and Air. Turtles are wild, so nothing is guaranteed, but the odds here are among the better ones in Indonesia for snorkelers."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k115",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k119",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k120",
+          "_type": "span",
+          "marks": [],
+          "text": " Most of these tours run as a half-day, so you are back with the afternoon free. Rest, swim off the beach again, or have an early dinner. Resist the urge to fill the day. The relaxed pace is what you came for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k122",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k123",
+          "_type": "span",
+          "marks": [],
+          "text": " Book a morning departure, when the sea is usually calmest and the light is best for spotting turtles, and keep the day movable if the forecast is rough. Shared tours are inexpensive and social. If you would rather have the boat to yourselves, ask about a private charter on the island, which suits a honeymoon and is easy to arrange locally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Cross to Gili Air"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the short local boat hop from Gili Meno to Gili Air, a crossing of only around 10 to 15 minutes as a working estimate. The island-hopping boats run a few times a day on a loose schedule, so check the day's times the evening before and do not plan a tight morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k131",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Air sits between Meno's silence and Trawangan's busier scene, which makes it a comfortable place to finish. Settle in, hire bicycles, and ride the flat track around the island. The east side faces Lombok's Mount Rinjani and catches the morning light, while the sunset bars sit on the west."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k133",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay on Gili Air for the last two nights. It has a wider choice of places to eat than Meno and easier onward connections, which matters for your departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k137",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: A last slow day on Gili Air"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k139",
+          "_type": "span",
+          "marks": [],
+          "text": " Snorkel off the east side of Gili Air, where the reef starts close to shore and turtles are often seen without a boat at all. Otherwise, keep the morning for a long breakfast and a walk. There is nothing here you have to do, which is the whole idea of ending on an island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [],
+          "text": " Cycle to the west side for the final sunset, and book dinner somewhere on the water for your last night. Confirm tomorrow's boat today, so departure morning is calm rather than a scramble."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note."
+        },
+        {
+          "_key": "k145",
+          "_type": "span",
+          "marks": [],
+          "text": " Like Meno, Gili Air runs on cash and island time. Settle any bills the night before and keep enough rupiah aside for the boat and transfers, since card machines and cash points are limited and not always working."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k148",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: The boat back and onward"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k149",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k150",
+          "_type": "span",
+          "marks": [],
+          "text": " How you leave depends on where you are going next. If you are heading back to Bali, a "
+        },
+        {
+          "_key": "k152",
+          "_type": "span",
+          "marks": [
+            "k151"
+          ],
+          "text": "Gili Islands to Bali boat"
+        },
+        {
+          "_key": "k153",
+          "_type": "span",
+          "marks": [],
+          "text": " runs the fast crossing directly, so you can book the whole leg in one place. If you are flying out of Lombok instead, take the short boat back to Bangsal and drive to the airport near Praya."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k151",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k156",
+          "_type": "span",
+          "marks": [],
+          "text": " Whichever way you go, give yourself a real buffer. Sea crossings can be delayed by weather, and the drive from Bangsal to Lombok airport, or from Sanur to Bali's airport, adds up. Do not book the last boat of the day if you have a flight to catch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "k159",
+          "_type": "span",
+          "marks": [],
+          "text": " If you have an international flight the same day, plan for a full half-day of slack between the boat and the airport. Missing a connection because a morning crossing ran late is a common and avoidable way to end a honeymoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k162",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k164",
+          "_type": "span",
+          "marks": [],
+          "text": " your Gili Meno and Gili Air stays, which are limited in number and fill fast in peak season, and your Kuta Lombok hotel for the first three nights. On small islands with few rooms, the best honeymoon bungalows go early, so this is the part not to leave late."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k167",
+          "_type": "span",
+          "marks": [],
+          "text": " the snorkeling tour and the surf lesson. Both should move around the weather rather than the other way round. Book them close to the date once you can see a forecast, or choose operators that allow a free change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Decide on arrival:"
+        },
+        {
+          "_key": "k170",
+          "_type": "span",
+          "marks": [],
+          "text": " whether to add the waterfall on the transfer day and whether you want a private snorkeling charter. Both depend on how you feel and on the conditions you see for yourselves once you are there."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k173",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes couples make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating the transfer day as a short hop."
+        },
+        {
+          "_key": "k175",
+          "_type": "span",
+          "marks": [],
+          "text": " The drive north plus the boat crossing is the longest day of the trip, and the waterfall adds to it. Start early, keep the evening empty, and do not book a sunset dinner you might miss."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k177",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Running out of cash on the islands."
+        },
+        {
+          "_key": "k178",
+          "_type": "span",
+          "marks": [],
+          "text": " The Gilis run largely on cash, card payment is patchy, and the few cash points are unreliable. Bring enough rupiah for your whole island stretch, and do not assume you can top up on Meno."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k180",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Expecting Meno to have things to do."
+        },
+        {
+          "_key": "k181",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Meno is deliberately sleepy. That is why it suits the middle of a honeymoon, but couples who need activity can find three nights long. If that sounds like you, shift a night to Gili Air."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the wet season."
+        },
+        {
+          "_key": "k184",
+          "_type": "span",
+          "marks": [],
+          "text": " Roughly November to March, crossings are rougher and rain more likely. People still honeymoon here then, but keep boat days flexible and do not plan a tight departure if your dates fall in that window."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k187",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k188",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut, if you want pure island time:"
+        },
+        {
+          "_key": "k189",
+          "_type": "span",
+          "marks": [],
+          "text": " drop the south Lombok half, fly in and go straight to the Gilis, and split the extra nights between Meno and Air. You lose the beaches and the waterfall but gain a slower, simpler trip on the islands alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k191",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt, for a livelier finish:"
+        },
+        {
+          "_key": "k192",
+          "_type": "span",
+          "marks": [],
+          "text": " swap the last two nights on Gili Air for Gili Trawangan if you want more restaurants and a bit of a scene at the end. It is the busiest of the three, so it trades quiet for choice, which some couples prefer for the final stretch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k194",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade, if you have more days:"
+        },
+        {
+          "_key": "k195",
+          "_type": "span",
+          "marks": [],
+          "text": " add a night on Gili Meno for a true switch-off in the middle, or add two days at the start for a proper Rinjani foothills stay around Senaru rather than a passing waterfall stop. Either extension leans the trip further toward rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k198",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k199",
+          "_type": "span",
+          "marks": [],
+          "text": "Check current flight routes into Lombok before you book hotels, since seasonal schedules change and a poor connection can cost you a day at either end. Confirm the Gili boat operators and their day's crossings before you rely on a fixed plan, and remember that many routes stop at Trawangan or Air before Meno, so allow extra time on the transfer day. Sort your visa on arrival or eVisa ahead of time, and keep the confirmation on your phone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k201",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for islands with no cars and limited shops. Bring reef-safe sunscreen, shoes you can get wet for the waterfall walk and rocky beach entries, and your own snorkel mask if fit matters to you, since rental quality varies. Carry enough cash for the whole island stretch, since card payment is unreliable across the Gilis, and bring any medication you need rather than counting on a pharmacy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k204",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k206",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k205",
+          "_type": "span",
+          "marks": [],
+          "text": "This is one of the better honeymoons in Indonesia for couples who want quiet water and slow days without the crowds of southern Bali. The south Lombok beaches give the first half a bit of variety, the transfer day earns its keep with a waterfall on the way, and the two Gilis at the end deliver exactly the seclusion most honeymooners are after, with a strong chance of swimming with turtles thrown in. The plan works because it travels in one direction, keeps the hard logistics in the middle, and ends on the island with the easiest onward boats. Respect the wet season, carry enough cash, and leave a real buffer on the last day, and this nine-day route holds together well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k208",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k219",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k209",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather see the Gilis at a slightly quicker pace with more of Lombok itself, our "
+        },
+        {
+          "_key": "k211",
+          "_type": "span",
+          "marks": [
+            "k210"
+          ],
+          "text": "7-day Lombok and Gili Islands route"
+        },
+        {
+          "_key": "k212",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the same islands with a different balance. For a romantic trip that stays on Bali instead, see our "
+        },
+        {
+          "_key": "k214",
+          "_type": "span",
+          "marks": [
+            "k213"
+          ],
+          "text": "7 days in Bali for couples"
+        },
+        {
+          "_key": "k215",
+          "_type": "span",
+          "marks": [],
+          "text": " itinerary. You can also browse more options on our "
+        },
+        {
+          "_key": "k217",
+          "_type": "span",
+          "marks": [
+            "k216"
+          ],
+          "text": "Lombok and Gili Islands"
+        },
+        {
+          "_key": "k218",
+          "_type": "span",
+          "marks": [],
+          "text": " destination guide."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k210",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        },
+        {
+          "_key": "k213",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-couples"
+        },
+        {
+          "_key": "k216",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "_key": "k228",
+      "answer": "Yes, especially for couples who want quiet beaches and slow days rather than nightlife or a long sightseeing list. The south of Lombok has calm, uncrowded beaches, and the Gili Islands have no cars, easy snorkeling and a strong chance of swimming with turtles. Gili Meno in particular is the quietest of the three and the most set up for couples.",
+      "question": "Is Lombok and the Gili Islands good for a honeymoon?"
+    },
+    {
+      "_key": "k229",
+      "answer": "Around nine days works well. It gives you three nights in south Lombok, three on Gili Meno for seclusion and two on Gili Air to finish, without changing hotels too often. You can trim it to a week by skipping the south Lombok section, or stretch it by adding a night on the islands or a Rinjani foothills stay.",
+      "question": "How many days do you need for a Lombok and Gili honeymoon?"
+    },
+    {
+      "_key": "k230",
+      "answer": "Gili Meno is the quietest and most romantic of the three, with a handful of couple-focused bungalows rather than bars, which is why it suits the middle of a honeymoon. Gili Air is a comfortable middle ground with more places to eat and easier onward boats, making it a good island to finish on. Gili Trawangan is the busiest and best if you want restaurants and a scene.",
+      "question": "Which Gili island is best for couples?"
+    },
+    {
+      "_key": "k231",
+      "answer": "Most people drive to Bangsal, the main port on Lombok's northwest coast, then take a boat across. Small public boats are cheap and leave when they fill, while fast boats can be booked in advance for a fixed departure. Note that many crossings stop first at Gili Trawangan or Gili Air, since direct boats to Meno are limited, so allow extra time. Fares and schedules change, so confirm locally.",
+      "question": "How do you get from Lombok to Gili Meno?"
+    },
+    {
+      "_key": "k232",
+      "answer": "Often, yes. Green turtles are regularly seen on the reefs around Gili Meno and Gili Air, sometimes straight off the beach and reliably on the three-island snorkeling tours. Turtles are wild animals, so sightings are never guaranteed, but the Gilis are among the better places in Indonesia for snorkelers to see them.",
+      "question": "Can you swim with turtles on the Gili Islands?"
+    },
+    {
+      "_key": "k233",
+      "answer": "Yes, plan to carry enough for your whole island stay. Card payment is patchy across the Gilis and the few cash points are unreliable and can run empty, especially on Gili Meno. Bring enough rupiah for accommodation, food, tours, boats and transfers rather than counting on topping up once you are there.",
+      "question": "Do you need cash on the Gili Islands?"
+    },
+    {
+      "_key": "k234",
+      "answer": "The drier months, roughly April to October, tend to bring calmer boat crossings and clearer water for snorkeling. The wet season, roughly November to March, brings rougher seas and more rain, though couples still travel then. Conditions vary year to year, so keep boat days flexible and check the forecast before you commit.",
+      "question": "When is the best time for a Lombok and Gili honeymoon?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Couple on a quiet beach in Lombok on a honeymoon by the Gili Islands",
+    "asset": {
+      "_ref": "image-bb6097784ef1954cee07defa213850e624e0d139-6000x4000-jpg",
+      "_type": "reference"
+    },
+    "caption": "Kuta Lombok → Gili Meno → Gili Air"
+  }
+}

@@ -1,0 +1,2436 @@
+{
+  "_id": "itinerary-10-days-java-jakarta-bandung-yogyakarta-bromo",
+  "_type": "article",
+  "title": "10 Days in Java: Jakarta, Bandung, Yogyakarta and Mount Bromo by Train",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-java-jakarta-bandung-yogyakarta-bromo"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-31T04:12:29Z",
+  "destinationPrimary": "java",
+  "travelStylePrimary": "culture_temples",
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "travellerTypes": [
+    "solo_travellers",
+    "couples",
+    "friends"
+  ],
+  "vibe": "active",
+  "route": "Jakarta → Bandung → Yogyakarta → Borobudur → Prambanan → Mount Bromo → Surabaya",
+  "focusKeyword": "10 days in Java itinerary",
+  "metaTitle": "10 Days in Java by Train: Jakarta, Bandung, Yogyakarta",
+  "metaDescription": "A decision-led 10-day Java itinerary by train: Jakarta, Bandung and Kawah Putih, Borobudur and Prambanan, then Mount Bromo at sunrise.",
+  "intro": "Almost every Java itinerary starts in Yogyakarta, which is a reasonable place to start a holiday and a strange place to start a trip, because most long-haul flights land in Jakarta. This ten-day route uses Java's railway to run west to east instead, giving Bandung and the Ciwidey craters two real days before the temples and the volcano.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "aff01",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "an Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "aff02",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare and book Java's long-distance trains on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_JAVA_TRAINS",
+      "publicUrl": "https://12go.asia"
+    },
+    {
+      "_key": "aff03",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Bandung/Kawah-Putih-White-Crater-Day-Trip-from-Bandung/d24417-11161P2?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayKawahPutih",
+      "anchorText": "a Kawah Putih and Ciwidey day trip from Bandung",
+      "experienceCategory": "tours_activities",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BANDUNG_KAWAH_PUTIH",
+      "publicUrl": "https://www.viator.com/tours/Bandung/Kawah-Putih-White-Crater-Day-Trip-from-Bandung/d24417-11161P2"
+    },
+    {
+      "_key": "aff04",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan",
+      "anchorText": "a guided Borobudur and Prambanan day tour",
+      "experienceCategory": "tours_activities",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_YOGYA_BOROBUDUR_PRAMBANAN",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12"
+    },
+    {
+      "_key": "aff05",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F15964-merapi-kaliadem-private-jeep-yogyakarta%2F",
+      "anchorText": "a private Merapi Kaliadem jeep tour",
+      "experienceCategory": "tours_activities",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_MERAPI_JEEP",
+      "publicUrl": "https://www.klook.com/activity/15964-merapi-kaliadem-private-jeep-yogyakarta/"
+    },
+    {
+      "_key": "aff06",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBromoSunrise",
+      "anchorText": "a Mount Bromo sunrise tour",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BROMO_SUNRISE",
+      "publicUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b0002",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0001",
+          "_type": "span",
+          "marks": [],
+          "text": "Almost every Java itinerary you will read starts in Yogyakarta. That is a reasonable place to start a holiday and a strange place to start a trip, because most long-haul flights into Indonesia do not land there. They land in Jakarta. So travellers do one of two things: they burn a whole day and an extra fare on a domestic hop to Yogyakarta, or they write off Jakarta and West Java entirely as the boring bit before the real trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0004",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0003",
+          "_type": "span",
+          "marks": [],
+          "text": "This route takes the third option. It treats the arrival airport as the start line, uses Java's genuinely good railway to move west to east, and gives West Java the two days it deserves before the temples and the volcano. Ten days is enough to do that properly. It is not enough to also add Bali, and this itinerary does not pretend otherwise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0005",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0006",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0008",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0007",
+          "_type": "span",
+          "marks": [],
+          "text": "This suits travellers who like moving through a place rather than settling in one. You will change base four times in ten days, spend two full days on trains, and end with a 3am alarm. In exchange you get a coherent line across Java: a capital, a colonial hill city, two volcanic craters, the largest Buddhist monument in the world, and a caldera at sunrise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0010",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0009",
+          "_type": "span",
+          "marks": [],
+          "text": "It works well for first-time visitors to Indonesia who arrive at Jakarta's Soekarno-Hatta airport, for couples and friends who are comfortable with public transport, and for solo travellers who want a route with enough structure to book ahead but enough slack to change plans mid-way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0016",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0011",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who this is not for. "
+        },
+        {
+          "_key": "s0012",
+          "_type": "span",
+          "marks": [],
+          "text": "Anyone with under ten days, because the West Java leg is the first thing that breaks. Families with young children, because two 6 to 8 hour train days plus a pre-dawn volcano start is a hard sell to a five-year-old, and the "
+        },
+        {
+          "_key": "s0014",
+          "_type": "span",
+          "marks": [
+            "m0013"
+          ],
+          "text": "8-day Yogyakarta and Central Java route with kids"
+        },
+        {
+          "_key": "s0015",
+          "_type": "span",
+          "marks": [],
+          "text": " handles that better. Beach travellers, because there is no beach on this itinerary at all. And anyone whose main goal is Bali, since adding it here would leave you with two rushed days in each place instead of one good trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0013",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "h0017",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0018",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0019",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Length. "
+        },
+        {
+          "_key": "s0020",
+          "_type": "span",
+          "marks": [],
+          "text": "10 days, 9 nights, four bases."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0024",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0022",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route. "
+        },
+        {
+          "_key": "s0023",
+          "_type": "span",
+          "marks": [],
+          "text": "Jakarta, Bandung, Yogyakarta, Mount Bromo, out of Surabaya."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0027",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0025",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace. "
+        },
+        {
+          "_key": "s0026",
+          "_type": "span",
+          "marks": [],
+          "text": "Active. Two of the ten days are almost entirely travel days, and one night is effectively cut short by the Bromo sunrise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0030",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0028",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Transport spine. "
+        },
+        {
+          "_key": "s0029",
+          "_type": "span",
+          "marks": [],
+          "text": "Trains, apart from the road transfer up to the Bromo rim. No domestic flights are needed, which is the main reason the route works on ten days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0031",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best months. "
+        },
+        {
+          "_key": "s0032",
+          "_type": "span",
+          "marks": [],
+          "text": "May to September is the drier stretch across Java, which matters most for the Bromo sunrise and for Kawah Putih, where low cloud can close the view. January and February are the wettest and the least reliable for both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0036",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0034",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rough budget. "
+        },
+        {
+          "_key": "s0035",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate, mid-range travellers spend somewhere around US$900 to US$1,500 per person for the ten days excluding international flights. Travellers using economy train classes and guesthouses can bring that closer to US$500 to US$800. Prices move, so treat these as a planning bracket, not a quote."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0037",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0038",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0040",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0039",
+          "_type": "span",
+          "marks": [],
+          "text": "The logic is geographic and it is boring in the best way: Java is long and thin, the railway runs its full length, and everything on this list sits on or near that line. Going west to east means you never double back, and it means your final position is East Java, which is the right place to end whether you are flying home from Surabaya or continuing overland to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0042",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0041",
+          "_type": "span",
+          "marks": [],
+          "text": "The Jakarta to Bandung leg is the piece that changed. The high-speed service covers it in roughly 40 to 50 minutes, which turns Bandung from an awkward 3 to 4 hour road slog into a genuine half-day move. As a working estimate, fares run from around 175,000 rupiah in premium economy up to roughly 400,000 rupiah in first class, and pricing is dynamic, so confirm the current fare when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0047",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0043",
+          "_type": "span",
+          "marks": [],
+          "text": "After Bandung the pace deliberately slows. Bandung to Yogyakarta is a long daytime ride of roughly 7 to 8 hours with only a couple of departures a day, and Yogyakarta to East Java is another 5 to 6 hours. Those are not wasted days if you plan for them. They are the days you do not have to spend in an airport queue. You can "
+        },
+        {
+          "_key": "s0045",
+          "_type": "span",
+          "marks": [
+            "m0044"
+          ],
+          "text": "compare and book Java's long-distance trains on 12Go"
+        },
+        {
+          "_key": "s0046",
+          "_type": "span",
+          "marks": [],
+          "text": ", or use the official Access by KAI app if you are comfortable with an Indonesian payment method."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0044",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_JAVA_TRAINS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0049",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0048",
+          "_type": "span",
+          "marks": [],
+          "text": "The volcano goes last on purpose. Bromo means a wake-up somewhere around 3am and a cold, dusty morning. Doing that on day two, jet-lagged, is how people end up sleeping through the rest of Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0050",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0051",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Jakarta and do nothing ambitious"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0054",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0052",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0053",
+          "_type": "span",
+          "marks": [],
+          "text": "Most long-haul arrivals land at Soekarno-Hatta in the morning or early afternoon. The airport rail link into the city centre is the least stressful option and avoids the traffic that gives Jakarta its reputation. Get to your hotel, get a SIM sorted, and accept that today is a logistics day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0057",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0055",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0056",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat close to where you are staying. Jakarta rewards a short walk and a bowl of soto ayam far more than it rewards a cross-city taxi on your first night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0060",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0058",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s0059",
+          "_type": "span",
+          "marks": [],
+          "text": "Central Jakarta, around Menteng or the Sudirman corridor. Both put you near a commuter rail or MRT station, which is the difference between a 20-minute trip and a 70-minute one tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0066",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0061",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s0062",
+          "_type": "span",
+          "marks": [],
+          "text": "sorting data before you land removes a lot of friction on a route that leans on app-based taxis and train apps. Buying "
+        },
+        {
+          "_key": "s0064",
+          "_type": "span",
+          "marks": [
+            "m0063"
+          ],
+          "text": "an Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "s0065",
+          "_type": "span",
+          "marks": [],
+          "text": " means you step off the plane already connected instead of queuing at an airport counter."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0063",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "h0067",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0068",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Jakarta's old town, then decide how you feel about the city"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0071",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0069",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0070",
+          "_type": "span",
+          "marks": [],
+          "text": "Kota Tua, the old Batavia core, is the one part of Jakarta that reads clearly as a place with a story. The Fatahillah Square buildings, the Jakarta History Museum and the old harbour at Sunda Kelapa with its wooden pinisi schooners make a coherent two to three hours. Go early, because the square is exposed and the heat arrives fast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0074",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0072",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0073",
+          "_type": "span",
+          "marks": [],
+          "text": "The National Museum is the single best-value stop in the city for anyone about to spend a week looking at temples, because it gives you the Hindu-Buddhist context that makes Prambanan and Borobudur legible later. If museums are not your thing, Glodok for lunch and a walk through the old Chinatown lanes is the alternative."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0077",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0075",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0076",
+          "_type": "span",
+          "marks": [],
+          "text": "An early night. Tomorrow starts with a train."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0080",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0078",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0079",
+          "_type": "span",
+          "marks": [],
+          "text": "Jakarta traffic is not a cliche, it is a scheduling constraint. Assume any cross-city road trip between roughly 7am and 10am or 4pm and 8pm will take double what a map app first tells you. Plan around the MRT and commuter rail lines where you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0081",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0082",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: High-speed train to Bandung and the colonial core"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0083",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0084",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the high-speed service from Halim in East Jakarta. The ride itself is 40 to 50 minutes, but budget properly for the leg to Halim and, at the Bandung end, for the shuttle from Tegalluar or Padalarang into the city, which is where the real time goes. Door to door you should plan on roughly 2.5 to 3 hours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0088",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0086",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0087",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung sits at around 750 metres and you will feel it the moment you step outside. Walk Jalan Braga and the Art Deco strip around it, look at Gedung Sate, and take the temperature drop as the reward it is after two days in Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0091",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0089",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0090",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung is a student city and it eats well and late. The area around Dago and Riau has the density."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0094",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0092",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s0093",
+          "_type": "span",
+          "marks": [],
+          "text": "central Bandung near Braga or Dago. Staying central matters here because both of tomorrow's options are day trips that start with a long drive out of town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0095",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0096",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Kawah Putih and the Ciwidey highlands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0099",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0097",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0098",
+          "_type": "span",
+          "marks": [],
+          "text": "Head south into the Ciwidey highlands for Kawah Putih, a crater lake that sits somewhere between milk-white and pale turquoise depending on the light and the sulphur. The drive is roughly 1.5 to 2 hours each way, and going early is not optional: cloud usually rolls into the crater by late morning and the view can close entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0101",
+          "_type": "span",
+          "marks": [],
+          "text": "The road back passes tea plantations and Situ Patenggang, and in season the strawberry farms that West Java is oddly famous for. It is a slow, green, unhurried afternoon and a deliberate counterweight to Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0103",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s0104",
+          "_type": "span",
+          "marks": [],
+          "text": "this is a day where a driver earns their fee, because the crater, the tea estates and the lake are strung along one mountain road with no useful public transport between them. Booking "
+        },
+        {
+          "_key": "s0106",
+          "_type": "span",
+          "marks": [
+            "m0105"
+          ],
+          "text": "a Kawah Putih and Ciwidey day trip from Bandung"
+        },
+        {
+          "_key": "s0107",
+          "_type": "span",
+          "marks": [],
+          "text": " bundles the driving and the timing, which is most of the problem."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0105",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BANDUNG_KAWAH_PUTIH"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0109",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0110",
+          "_type": "span",
+          "marks": [],
+          "text": "as a working estimate, foreign entry to Kawah Putih sits in the region of 81,000 to 90,000 rupiah, with small extra charges for parking and the Sunan Ibu viewpoint. Fees can change, so check the current rate. Bring a layer, because at roughly 2,400 metres the crater rim is genuinely cold, and the sulphur means most people last 20 to 30 minutes at the water's edge before their eyes complain."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Alternative. "
+        },
+        {
+          "_key": "s0113",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather go north than south, Tangkuban Perahu is the drive-up crater above Lembang, closer to town and easier to combine with the Lembang food and market strip. As a working estimate, foreign entry runs around 200,000 rupiah on weekdays and 300,000 at weekends, and fees can change. Pick one. Doing both in a day means four hours in a car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0116",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: The long train to Yogyakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0118",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a travel day and it is better to accept that than fight it. The Bandung to Yogyakarta run takes roughly 7 to 8 hours through the Priangan highlands, rice terraces and river valleys, and there are only a couple of direct departures a day, so the departure time dictates the day rather than the other way around."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0121",
+          "_type": "span",
+          "marks": [],
+          "text": "Executive class is the sensible choice on a ride this long: reclining seats, air conditioning, and enough space to actually read. As a working estimate, executive fares tend to land somewhere around 200,000 to 500,000 rupiah, with the panoramic carriages priced well above that. Prices and schedules change, so confirm current fares when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0124",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrive at Yogyakarta Tugu station, which is a ten-minute walk from Malioboro. Drop bags, walk the street once, eat, sleep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0126",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s0127",
+          "_type": "span",
+          "marks": [],
+          "text": "Yogyakarta, for three nights. Prawirotaman is the quieter, more guesthouse-heavy side of town, while staying near Malioboro or Tugu puts you closest to the station and the Kraton."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s0130",
+          "_type": "span",
+          "marks": [],
+          "text": "book this specific train ahead. There are few departures, they sell out around weekends and Indonesian public holidays, and there is no easy same-day workaround on this leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0133",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Borobudur and Prambanan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0134",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0135",
+          "_type": "span",
+          "marks": [],
+          "text": "Borobudur is about an hour from Yogyakarta and is worth the early start. The thing to understand before you book is that entering the grounds and climbing onto the stone terraces of the monument are two different tickets. The terrace climb is capped, timed, guided, requires special sandals, and needs to be booked in advance. As a working estimate, budget around 455,000 rupiah for foreign grounds entry with the climb slot charged on top, and check the latest official guidance, because the rules here have changed more than once."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0138",
+          "_type": "span",
+          "marks": [],
+          "text": "Prambanan sits on the other side of the city and reads completely differently: tall, sharp, Hindu, vertical where Borobudur is broad and horizontal. As a working estimate, foreign entry is around 400,000 rupiah. The combined Borobudur and Prambanan ticket that older guides mention ended in 2025, so plan on two separate purchases."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0140",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0141",
+          "_type": "span",
+          "marks": [],
+          "text": "Ramayana ballet performances run at Prambanan on a seasonal schedule, outdoors in the dry months and indoors otherwise. Worth checking dates before you fix the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0143",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s0144",
+          "_type": "span",
+          "marks": [],
+          "text": "two temples on opposite sides of Yogyakarta with two separate ticketing systems and one driver is a genuinely fiddly day to self-assemble. "
+        },
+        {
+          "_key": "s0146",
+          "_type": "span",
+          "marks": [
+            "m0145"
+          ],
+          "text": "a guided Borobudur and Prambanan day tour"
+        },
+        {
+          "_key": "s0147",
+          "_type": "span",
+          "marks": [],
+          "text": " folds the transport and entries into one booking, which is the version most people should take."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0145",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_YOGYA_BOROBUDUR_PRAMBANAN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0149",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0150",
+          "_type": "span",
+          "marks": [],
+          "text": "if the climb slot is sold out, the grounds ticket still gets you close, and the wide view of the monument from the gardens is the photograph most people have in their heads anyway."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0153",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Yogyakarta itself, or Merapi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0155",
+          "_type": "span",
+          "marks": [],
+          "text": "The Kraton, the Sultan's palace, still functions as a court, and the water palace at Taman Sari behind it is the more photogenic half. Both are compact and can be done on foot in a morning if you stay central."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0158",
+          "_type": "span",
+          "marks": [],
+          "text": "Kotagede for silverwork and the old royal cemetery, or a batik workshop, which is one of the few hands-on things in Yogyakarta that is not staged for a coach party. The alternative is heading north to Mount Merapi, where "
+        },
+        {
+          "_key": "s0160",
+          "_type": "span",
+          "marks": [
+            "m0159"
+          ],
+          "text": "a private Merapi Kaliadem jeep tour"
+        },
+        {
+          "_key": "s0161",
+          "_type": "span",
+          "marks": [],
+          "text": " runs through the lava fields and the villages rebuilt after the 2010 eruption."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0159",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MERAPI_JEEP"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0164",
+          "_type": "span",
+          "marks": [],
+          "text": "Last proper night's sleep before the volcano leg. Repack so that a small bag carries what you need for Bromo and the rest can stay lighter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0166",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0167",
+          "_type": "span",
+          "marks": [],
+          "text": "if you did the Merapi jeep this afternoon, you have already had your volcano morning in miniature. Some travellers use that as the honest test of whether they actually want the Bromo alarm clock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0170",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: East to the Bromo rim"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0171",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0172",
+          "_type": "span",
+          "marks": [],
+          "text": "Train east from Yogyakarta. Malang is roughly 5 to 6 hours and Probolinggo is the closer railhead for Bromo, so the choice depends on which onward transfer you have arranged. As a working estimate, executive fares on this leg run somewhere around 200,000 to 350,000 rupiah, and fares change, so confirm when booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0175",
+          "_type": "span",
+          "marks": [],
+          "text": "Transfer up to Cemoro Lawang on the caldera rim, which takes roughly 2 to 3 hours from Probolinggo and climbs steeply at the end. The temperature at the top can sit 10 to 15 degrees below what you left behind at the coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0177",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0178",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat early, sleep early, lay out every warm layer you own. The 3am start is real."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0180",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base: "
+        },
+        {
+          "_key": "s0181",
+          "_type": "span",
+          "marks": [],
+          "text": "Cemoro Lawang, on the rim. Accommodation here is basic and cold, and that is the trade for being 20 minutes from the viewpoint instead of two hours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0183",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0184",
+          "_type": "span",
+          "marks": [],
+          "text": "this is the most fragile connection on the whole route. A late train means a late arrival on a mountain road in the dark. Give the day slack rather than stacking anything else onto it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0187",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Bromo sunrise, then back down"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0188",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0189",
+          "_type": "span",
+          "marks": [],
+          "text": "A 3am to 3.30am start, a jeep to the viewpoint, and then the wait. What you are there for is the moment the light separates Bromo's smoking cone from Batok beside it and Semeru venting behind, all of it sitting in a sea of sand. Afterwards most trips drop down into the caldera itself for the walk and the stairs up to the crater rim."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0191",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0192",
+          "_type": "span",
+          "marks": [],
+          "text": "Back to Cemoro Lawang by mid-morning, then down to Malang or Surabaya. Sleep in the car without guilt."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0194",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s0195",
+          "_type": "span",
+          "marks": [],
+          "text": "Surabaya is a working port city rather than a sightseeing one, and after two broken nights that is fine. A good hotel and an early dinner is the correct plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0197",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s0198",
+          "_type": "span",
+          "marks": [],
+          "text": "assembling a jeep, a viewpoint ticket and the park fee yourself at 3am is a bad use of the one morning you get. Almost everyone books "
+        },
+        {
+          "_key": "s0200",
+          "_type": "span",
+          "marks": [
+            "m0199"
+          ],
+          "text": "a Mount Bromo sunrise tour"
+        },
+        {
+          "_key": "s0201",
+          "_type": "span",
+          "marks": [],
+          "text": " through their guesthouse or an operator so the fee, the jeep and the timing come as one thing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0199",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BROMO_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0203",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0204",
+          "_type": "span",
+          "marks": [],
+          "text": "as a working estimate the Bromo Tengger Semeru park fee runs around 220,000 rupiah on weekdays and around 320,000 at weekends, and fees can change, so check the current rate. Weekends also bring noticeably bigger crowds at the viewpoint."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0206",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0207",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Surabaya and out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0208",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning. "
+        },
+        {
+          "_key": "s0209",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have hours to spare, the Arab Quarter around the Ampel mosque and the House of Sampoerna are the two stops in Surabaya that justify themselves. If you do not, sleep in without apology. You have earned it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0211",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "s0212",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly out of Surabaya, or continue overland. Surabaya to Denpasar flights are short and frequent, and if you are carrying on to Bali by road the "
+        },
+        {
+          "_key": "s0214",
+          "_type": "span",
+          "marks": [
+            "m0213"
+          ],
+          "text": "Bromo and Ijen volcano crossing"
+        },
+        {
+          "_key": "s0215",
+          "_type": "span",
+          "marks": [],
+          "text": " covers that continuation in detail."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0213",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-bromo-ijen-volcano-crossing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0219",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0217",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "s0218",
+          "_type": "span",
+          "marks": [],
+          "text": "confirm current flight routes before locking your last two hotels. Domestic schedules out of Surabaya change with the season and an assumed evening departure that turns out to be a morning one rearranges the whole final day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0221",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0222",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early. "
+        },
+        {
+          "_key": "s0223",
+          "_type": "span",
+          "marks": [],
+          "text": "The Bandung to Yogyakarta train, because there are only a couple of departures a day and no good fallback. The Borobudur terrace climb slot, because it is capped and sells out. Your Cemoro Lawang room, because the rim has limited beds and they go first in the dry season. And your international flights in and out of two different cities, since Jakarta in and Surabaya out is usually cheaper as one multi-city ticket than as two returns."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0225",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible. "
+        },
+        {
+          "_key": "s0226",
+          "_type": "span",
+          "marks": [],
+          "text": "The Bandung day trip, which you can decide on the morning based on cloud. Your third Yogyakarta day, which works as either a city day or a Merapi day. The Jakarta to Bandung high-speed train, which runs often enough that same-day booking is usually fine outside holidays. And restaurants everywhere, because nothing on this route needs a reservation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0230",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0228",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Watch the calendar. "
+        },
+        {
+          "_key": "s0229",
+          "_type": "span",
+          "marks": [],
+          "text": "Indonesian public holidays and the Eid travel period turn every train on this route into a scramble and push fares up sharply. If your dates land near one, book the whole rail spine as soon as the booking window opens."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0232",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on a 10-day Java route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0233",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trying to add Bali. "
+        },
+        {
+          "_key": "s0234",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the big one. Bali sits at the end of a long east-west run and adding it to ten days means cutting either West Java or Yogyakarta to a single night. If Bali is non-negotiable, the honest answer is a longer trip, and the "
+        },
+        {
+          "_key": "s0236",
+          "_type": "span",
+          "marks": [
+            "m0235"
+          ],
+          "text": "15-day Java and Bali route"
+        },
+        {
+          "_key": "s0237",
+          "_type": "span",
+          "marks": [],
+          "text": " is built for exactly that."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0235",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-java-bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0239",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the train days. "
+        },
+        {
+          "_key": "s0240",
+          "_type": "span",
+          "marks": [],
+          "text": "Seven hours is seven hours. Travellers who book a 6am departure and then schedule a temple visit for the same afternoon usually end up doing neither well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0244",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0242",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Putting Bromo early. "
+        },
+        {
+          "_key": "s0243",
+          "_type": "span",
+          "marks": [],
+          "text": "A 3am start on day two, on top of jet lag, costs you the following day as well. The volcano belongs at the end, when your body has adjusted and it does not matter if you are wrecked afterwards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0245",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking Bandung as a day trip from Jakarta. "
+        },
+        {
+          "_key": "s0246",
+          "_type": "span",
+          "marks": [],
+          "text": "The fast train makes this technically possible, and it wastes the point. Kawah Putih needs an early start from Bandung, not a mid-morning arrival from Jakarta, and you end the day back in traffic rather than in the hills."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0250",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0248",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arriving at Kawah Putih at midday. "
+        },
+        {
+          "_key": "s0249",
+          "_type": "span",
+          "marks": [],
+          "text": "The crater fills with cloud, and there is no second chance on a fixed itinerary. The early start is the whole strategy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0251",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Packing for the tropics only. "
+        },
+        {
+          "_key": "s0252",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung is cool, Kawah Putih is cold, and the Bromo rim before dawn is genuinely freezing. A fleece and a windproof layer are not optional on this route even though you are on the equator."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0254",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0255",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0256",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you only have 8 days, cut Jakarta to one night. "
+        },
+        {
+          "_key": "s0257",
+          "_type": "span",
+          "marks": [],
+          "text": "Land, sleep, and take the fast train to Bandung the next morning. You lose the old town and the National Museum, which is a real loss for temple context but the cheapest cut available."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0264",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0259",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you only have 7 days, cut West Java entirely. "
+        },
+        {
+          "_key": "s0260",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly Jakarta to Yogyakarta on arrival day and run the classic eastern half. That is a different trip and the "
+        },
+        {
+          "_key": "s0262",
+          "_type": "span",
+          "marks": [
+            "m0261"
+          ],
+          "text": "7-day Yogyakarta and East Java itinerary"
+        },
+        {
+          "_key": "s0263",
+          "_type": "span",
+          "marks": [],
+          "text": " already lays it out properly, so use that rather than compressing this one."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0261",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0267",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0265",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "If you have 12 days, add Ijen rather than a fourth Yogyakarta day. "
+        },
+        {
+          "_key": "s0266",
+          "_type": "span",
+          "marks": [],
+          "text": "Continuing from Bromo to Banyuwangi for the Kawah Ijen blue fire hike is the highest-value extension on this route, and it puts you at the ferry port for Bali if you want it. As a working estimate, Ijen entry sits around 100,000 to 150,000 rupiah, and fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0270",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0268",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade worth paying for: train class. "
+        },
+        {
+          "_key": "s0269",
+          "_type": "span",
+          "marks": [],
+          "text": "Executive over economy on the two long legs is a modest amount of money for the difference between arriving rested and arriving wrecked. This is the single best spend on the itinerary."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0271",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade that is usually not worth it: a private car for the whole route. "
+        },
+        {
+          "_key": "s0272",
+          "_type": "span",
+          "marks": [],
+          "text": "Java's trains are faster, cheaper and more comfortable than the roads on every long leg here. Hire drivers by the day for the Bandung and Yogyakarta excursions instead, where they genuinely help."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0276",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0274",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trade-off to be honest about: Bromo accommodation. "
+        },
+        {
+          "_key": "s0275",
+          "_type": "span",
+          "marks": [],
+          "text": "Sleeping at Cemoro Lawang is cold and basic, and sleeping in Malang or Probolinggo is comfortable but means leaving at around 1am. There is no comfortable version of this morning. Pick which discomfort you prefer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0278",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0279",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visas. "
+        },
+        {
+          "_key": "s0280",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors use the visa on arrival or its online version. As a working estimate it costs 500,000 rupiah for 30 days and can be extended once for another 30. Rules and fees change, so check the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0284",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0282",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Flights. "
+        },
+        {
+          "_key": "s0283",
+          "_type": "span",
+          "marks": [],
+          "text": "Book Jakarta in and Surabaya out as a single multi-city ticket rather than a return into one city, otherwise you pay for a domestic backtrack you do not need. Confirm current flight routes before locking hotels, since domestic schedules in Indonesia change more often than most travellers expect."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0287",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0285",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cash. "
+        },
+        {
+          "_key": "s0286",
+          "_type": "span",
+          "marks": [],
+          "text": "Temple and park fees are quoted in rupiah, and the smaller sites on the Bandung leg often want cash. Carry more than you think you need before the volcano days, because Cemoro Lawang is not the place to discover the ATM is empty."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0290",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0288",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Seasons. "
+        },
+        {
+          "_key": "s0289",
+          "_type": "span",
+          "marks": [],
+          "text": "The dry months from roughly May to September give you the best odds on both craters and on the Bromo sunrise. In the wet season, keep the Bandung day trip flexible and consider building a spare morning near Bromo, because a clouded-out sunrise on a fixed itinerary has no second attempt."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0293",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0291",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Altitude and cold. "
+        },
+        {
+          "_key": "s0292",
+          "_type": "span",
+          "marks": [],
+          "text": "Kawah Putih sits at around 2,400 metres and the Bromo viewpoints are higher again. Nobody needs altitude precautions at these heights, but the temperature swing between a Jakarta afternoon and a Bromo dawn is close to 25 degrees, and packing for only one of them is the most common error on this route."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0294",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0295",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0297",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0296",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the best ten-day shape for Java if you are landing in Jakarta and you are willing to sit on trains. The railway is what makes it work: no domestic flights, no backtracking, and two travel days that are genuinely pleasant rather than lost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0299",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0298",
+          "_type": "span",
+          "marks": [],
+          "text": "The honest weakness is the middle. Day 5 is a full travel day and day 8 is close to one, so a third of the trip is spent moving. If that sounds like a waste rather than a pleasure, you want a route with fewer bases, and a Yogyakarta-anchored week will make you happier."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0301",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0300",
+          "_type": "span",
+          "marks": [],
+          "text": "The part most travellers will not expect to like is West Java. Bandung and the Ciwidey crater road are the two days people arrive planning to skip and leave talking about, mostly because they are the only cool, quiet, green days on an itinerary otherwise built from a capital city, two crowded temples and a volcano at dawn. Keep them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "h0302",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0303",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b0308",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0304",
+          "_type": "span",
+          "marks": [],
+          "text": "If ten days is more than you have, the "
+        },
+        {
+          "_key": "s0306",
+          "_type": "span",
+          "marks": [
+            "m0305"
+          ],
+          "text": "5-day Yogyakarta and Mount Bromo route"
+        },
+        {
+          "_key": "s0307",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the temples and the volcano on a much tighter clock."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0305",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0313",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0309",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want to finish in Bali instead of flying home from Surabaya, the "
+        },
+        {
+          "_key": "s0311",
+          "_type": "span",
+          "marks": [
+            "m0310"
+          ],
+          "text": "15 days in Java and Bali itinerary"
+        },
+        {
+          "_key": "s0312",
+          "_type": "span",
+          "marks": [],
+          "text": " continues east from Bromo through Ijen and across to Ubud and Uluwatu."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0310",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-java-bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b0318",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s0314",
+          "_type": "span",
+          "marks": [],
+          "text": "For the full picture of the island, including the routes and guides that feed into this one, start at the "
+        },
+        {
+          "_key": "s0316",
+          "_type": "span",
+          "marks": [
+            "m0315"
+          ],
+          "text": "Java destination hub"
+        },
+        {
+          "_key": "s0317",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m0315",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Ten days is enough for one clean west-to-east line across Java: Jakarta, Bandung, Yogyakarta and Mount Bromo, with two of those days spent on trains. It is not enough to also add Bali without cutting something to a single night. If Bali is part of the plan, budget 14 to 15 days instead.",
+      "question": "Is 10 days enough for Java?"
+    },
+    {
+      "answer": "Take the train. Java's rail network runs the length of the island, the Jakarta to Bandung high-speed service covers that leg in roughly 40 to 50 minutes, and the longer executive-class runs are more comfortable than the equivalent road journeys. Flying only makes sense if you are skipping West Java entirely and going straight to Yogyakarta.",
+      "question": "Should I fly or take the train between Java's cities?"
+    },
+    {
+      "answer": "Roughly 7 to 8 hours, with only a couple of direct departures a day. As a working estimate, executive-class fares run somewhere around 200,000 to 500,000 rupiah, and prices and schedules change, so confirm current fares when you book. Book this leg well ahead, because there is no easy same-day alternative.",
+      "question": "How long is the Bandung to Yogyakarta train?"
+    },
+    {
+      "answer": "One full day is worth it, mainly for the Kota Tua old town and the National Museum, which gives you the Hindu-Buddhist context that makes Borobudur and Prambanan far more readable later. Beyond that, Jakarta's traffic eats time faster than the sights repay it, so a second full day is the first thing to cut if your trip shortens.",
+      "question": "Is Jakarta worth two days on a Java itinerary?"
+    },
+    {
+      "answer": "Entering the grounds and climbing onto the monument's stone terraces are two separate tickets. As a working estimate, budget around 455,000 rupiah for foreign grounds entry, with the capped and timed terrace climb charged on top and needing to be booked in advance. Rules and fees here have changed more than once, so check the latest official guidance before you book.",
+      "question": "What does Borobudur cost to visit in 2026?"
+    },
+    {
+      "answer": "May to September is the drier stretch and gives the best odds at both Kawah Putih and the Bromo sunrise, which are the two things on this itinerary that cloud can ruin outright. January and February are the wettest. If you travel in the wet season, keep the Bandung day trip flexible and consider a spare morning near Bromo.",
+      "question": "When is the best time to do this Java route?"
+    },
+    {
+      "answer": "Not for the whole route. The long legs are all better by train. Hire a driver by the day for the Bandung day trip into the Ciwidey highlands and for the Borobudur and Prambanan day, where the sites are spread out and there is no useful public transport between them.",
+      "question": "Do I need a car and driver for this itinerary?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "High-rise towers along the business district in central Jakarta, Java",
+    "asset": {
+      "_ref": "image-307dda116c0e6dbddf51c882a398eb04a4be8723-6000x4000-jpg",
+      "_type": "reference"
+    },
+    "caption": "Central Jakarta, the starting point of the Java rail route"
+  }
+}

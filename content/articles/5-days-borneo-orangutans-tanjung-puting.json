@@ -1,0 +1,1211 @@
+{
+  "_id": "itinerary-5-days-borneo-orangutans-tanjung-puting",
+  "_type": "article",
+  "title": "5 Days in Borneo: Tanjung Puting Orangutan River Cruise",
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-borneo-orangutans-tanjung-puting"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-24T00:00:00.000Z",
+  "destinationPrimary": "wild_indonesia",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": "remote_offbeat",
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "travellerTypes": [
+    "families",
+    "couples",
+    "repeat_travellers"
+  ],
+  "vibe": "relaxed",
+  "route": "Pangkalan Bun → Kumai → Sekonyer River → Tanjung Harapan → Pondok Tanggui → Camp Leakey → Kumai",
+  "focusKeyword": "Tanjung Puting itinerary",
+  "metaTitle": "5 Days in Borneo: Tanjung Puting Orangutan Cruise",
+  "metaDescription": "A 5-day Tanjung Puting itinerary: a klotok houseboat up the Sekonyer River to Borneo's wild orangutans, with costs, timing and what to book first.",
+  "intro": "Most people picture orangutans as a hard jungle trek: hours of sweating uphill hoping for a glimpse. Tanjung Puting works the other way. You board a wooden klotok, the crew cooks while you drift up a coffee-coloured river, and the wildlife comes to the water to meet you. That one decision, boat instead of trek, is what makes this one of the few genuine wildlife trips in Indonesia that a young child, a grandparent and a serious photographer can all do together. It is a slow trip, and it rewards travellers who treat the pace as the point rather than a problem.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "a1",
+      "affiliateUrl": "https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28?pid=P00303362&mcid=42383&medium=link&campaign=TanjungPutingKlotokStandard",
+      "anchorText": "a standard 3-day klotok liveaboard in Tanjung Puting",
+      "experienceCategory": "wildlife_cruise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_TANJUNG_PUTING_KLOTOK",
+      "publicUrl": "https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28"
+    },
+    {
+      "_key": "a2",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare flights and transfers to Pangkalan Bun",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_PANGKALAN_BUN",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/pangkalan-bun"
+    },
+    {
+      "_key": "a3",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "an Indonesia eSIM from Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "body": [
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s6",
+          "_type": "span",
+          "marks": [],
+          "text": "This trip suits families with children old enough to sit still on a boat for stretches, couples who want wildlife without a hard trek, and photographers who will trade comfort for access. The klotok, a wooden riverboat, does the walking for you, so it works across a wide range of fitness levels, including grandparents who could not manage a jungle hike."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who this trip is NOT for."
+        },
+        {
+          "_key": "s9",
+          "_type": "span",
+          "marks": [],
+          "text": " It is not for travellers who need a hotel every night, air conditioning while they sleep, or a packed sightseeing schedule. There is no wifi worth the name, the bathroom onboard is basic, and the daily rhythm is slow by design. If three days on a river with almost no phone signal sounds like a problem rather than a relief, look elsewhere. This is also not a beach holiday, so do not bolt it onto Bali expecting the same energy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s11",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [],
+          "text": "Five days, four nights: three nights sleeping on a klotok houseboat and a final night in a Pangkalan Bun guesthouse. The wildlife core is three orangutan feeding stations, Tanjung Harapan, Pondok Tanggui and Camp Leakey, strung along the Sekonyer River. You fly in and out of Pangkalan Bun (airport code PKN). Almost everything, the boat, crew, guide, meals and park fees, is bundled into one klotok package, which keeps the logistics simple once you have chosen an operator."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s15",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s17",
+          "_type": "span",
+          "marks": [],
+          "text": "The river runs one way, so the route plans itself. You head upstream to Camp Leakey over the first days and drift back down over the last. Done in this order, the trip builds toward its strongest sighting instead of peaking on day one. The only real decision is how many nights to spend on the water. Two nights is enough to reach Camp Leakey once. Three nights, the version here, buys a second feeding session, better odds of a large male, and slack for a slow river or a missed appointment. Beyond four nights you are paying for repetition rather than new ground."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly to Pangkalan Bun, board the klotok, first feeding"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Pangkalan Bun (PKN). Most connections route through Jakarta, Surabaya or Semarang on Batik Air, NAM Air or Wings Air, and schedules shift with the season, so confirm current routes before you lock a klotok date. From Bali you will usually connect through Surabaya or Jakarta rather than fly direct."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [],
+          "text": " your klotok for the next three nights. It is a wooden houseboat with an open upper deck where the crew lays out mattresses and mosquito nets, and a simple bathroom below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s28",
+          "_type": "span",
+          "marks": [],
+          "text": " A 30 to 45 minute drive takes you from the airport to Kumai harbour. You board, the engine settles into a slow chug, and the boat turns up the Sekonyer River. By mid afternoon you reach Tanjung Harapan, the first feeding station, where rangers put out fruit around 3pm and semi-wild orangutans come in from the forest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [],
+          "text": " The crew moors against the bank. Dinner is cooked onboard, the generator shuts off, and the soundtrack becomes frogs, insects and the occasional splash. Fireflies gather in the riverside trees. Sleeping on deck under a net is part of the trip, not a compromise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s33",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [],
+          "text": " if your flight lands late or is delayed, you may start the cruise the next morning and spend the first night in a simple Pangkalan Bun guesthouse instead. Build that buffer in rather than fighting it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Pondok Tanggui and deeper up the Sekonyer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": [],
+          "text": " An early breakfast on the water, then a short walk to Pondok Tanggui for the 9am feeding. This station rehabilitates younger orangutans, so you often see mothers with infants. Keep your distance, keep food and plastic out of sight, and let the guide set the pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [],
+          "text": " Back on the boat, the river narrows and the water shifts from brown toward near black as you push deeper. Watch the banks for proboscis monkeys with their heavy noses and pot bellies, long-tailed macaques, and hornbills crossing overhead. Lunch is served as you cruise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [],
+          "text": " moored near the Camp Leakey entrance for an early start tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": " Some crews run a short night cruise to look for tarsiers and sleeping kingfishers. Otherwise it is another quiet night on deck."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s50",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Camp Leakey, the heart of the park"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s53",
+          "_type": "span",
+          "marks": [],
+          "text": " Camp Leakey is the reason most people come. It is the research station Birute Galdikas founded in 1971, and its orangutans are the most habituated in the park. Walk the boardwalk and forest trails with your guide, watch the canopy for gibbons, and read the small information centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s55",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s56",
+          "_type": "span",
+          "marks": [],
+          "text": " The Camp Leakey feeding usually runs around 2pm. Large dominant males sometimes appear, which is the sighting photographers wait for. There are no guarantees, wild animals do not keep a timetable, but the odds here are as good as anywhere in Borneo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s59",
+          "_type": "span",
+          "marks": [],
+          "text": " Cruise a little way back downriver and moor. Trade the day's photos with the crew over dinner. This is the trip's high point, so resist the urge to rush the return."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s61",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Slow return and a night on solid ground"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s64",
+          "_type": "span",
+          "marks": [],
+          "text": " A slower return cruise. If the schedule allows, stop again at a feeding station you liked, or call at Sekonyer village on the park's edge to see how families live alongside the reserve."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s67",
+          "_type": "span",
+          "marks": [],
+          "text": " Reach Kumai by late afternoon. For a five-day trip we recommend disembarking here and taking a room in Pangkalan Bun for the last night. After three nights on deck, a real shower, air conditioning and a proper bed are worth the small extra cost, and they de-risk an early flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s70",
+          "_type": "span",
+          "marks": [],
+          "text": " keeping the last night in town rather than on the boat also gives your crew a clean handover and you a calm morning, instead of a scramble from the river straight to the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s73",
+          "_type": "span",
+          "marks": [],
+          "text": " A quiet night in town. Pangkalan Bun is a working river town, not a resort, so keep expectations plain and eat where your guide points you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Fly out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s78",
+          "_type": "span",
+          "marks": [],
+          "text": " Transfer to Iskandar Airport for your flight out, connecting onward through Surabaya or Jakarta. If you have a late flight, most guesthouses will hold your bags while you take a slow breakfast. Give yourself margin, because Pangkalan Bun departures are prone to delay."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [],
+          "text": " the klotok itself, especially in the July to September peak, when the better boats and English-speaking guides sell out weeks ahead. Book the operator first, then build your flights around the confirmed cruise date, not the other way round. As a working estimate, a multi-day klotok tour starts from around USD 500 per person and climbs with boat quality and smaller group size. Prices move, so confirm what is included, park fees, meals, guide and transfers, before you pay."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s85",
+          "_type": "span",
+          "marks": [],
+          "text": "You can compare "
+        },
+        {
+          "_key": "s87",
+          "_type": "span",
+          "marks": [
+            "m86"
+          ],
+          "text": "a standard 3-day klotok liveaboard in Tanjung Puting"
+        },
+        {
+          "_key": "s88",
+          "_type": "span",
+          "marks": [],
+          "text": " to gauge the going rate, though many travellers book directly with a Kumai operator, which is common and often cheaper. Whichever way you go, read recent reviews and confirm the boat has proper mattresses and mosquito nets."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m86",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_TANJUNG_PUTING_KLOTOK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "s91",
+          "_type": "span",
+          "marks": [],
+          "text": " your flights, to the extent that you build a buffer into them. Avoid a same-day onward international connection out of Jakarta on your exit. Once your cruise date is set you can "
+        },
+        {
+          "_key": "s93",
+          "_type": "span",
+          "marks": [
+            "m92"
+          ],
+          "text": "compare flights and transfers to Pangkalan Bun"
+        },
+        {
+          "_key": "s94",
+          "_type": "span",
+          "marks": [],
+          "text": ". Buy "
+        },
+        {
+          "_key": "s96",
+          "_type": "span",
+          "marks": [
+            "m95"
+          ],
+          "text": "an Indonesia eSIM from Airalo"
+        },
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [],
+          "text": " for the city legs, but accept there is little to no signal on the river, and tell people at home so in advance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m92",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_PANGKALAN_BUN"
+        },
+        {
+          "_key": "m95",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s99",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on a Tanjung Puting trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Flying in on the same day the cruise starts, with no margin."
+        },
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [],
+          "text": " One delayed flight and you lose a day of a short trip. Arrive the night before if your schedule is tight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking the cheapest boat blind."
+        },
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [],
+          "text": " The gap between a basic klotok and a well-run one is the guide, the food and whether the mattresses stay dry. Read recent reviews, not just the price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Chasing selfies with the orangutans."
+        },
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [],
+          "text": " These are wild, powerful animals that can catch and pass on diseases we share. Stay behind your guide, never feed them, and keep well back. Rangers will end an encounter that gets too close, correctly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underpacking for insects and rain."
+        },
+        {
+          "_key": "s111",
+          "_type": "span",
+          "marks": [],
+          "text": " Even in the dry season an afternoon downpour is normal. Long sleeves, strong repellent, a dry bag for cameras and a light rain layer matter more than a nice outfit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Treating three nights as too long."
+        },
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [],
+          "text": " Travellers who trim to two nights to save time often regret missing the second Camp Leakey window. That extra night is where the trip pays off."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut"
+        },
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [],
+          "text": " the trip to three days, two nights if your total holiday is tight or you are pairing it with Java or Bali. You still reach Camp Leakey once, and you lose a night on the water rather than a headline sighting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt"
+        },
+        {
+          "_key": "s122",
+          "_type": "span",
+          "marks": [],
+          "text": " the sleeping setup if open-deck nights worry you. Some operators run boats with enclosed, fan-cooled or air-conditioned cabins for a higher price, which suits light sleepers and families with very young children."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade"
+        },
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [],
+          "text": " to a four-night cruise, or add a private guide, if you are a serious photographer. More time on the water, with a guide who reads animal behaviour, is the difference between a good sighting and a great frame."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health."
+        },
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [],
+          "text": " Kalimantan is a malaria area. Talk to a travel clinic well ahead about antimalarials and routine vaccinations, and pack repellent that contains DEET. This is general information, not medical advice, so check current guidance for your own situation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "When to go."
+        },
+        {
+          "_key": "s133",
+          "_type": "span",
+          "marks": [],
+          "text": " The drier months, roughly June to September, mean easier river travel and fewer insects, though orangutans are present year round. The wet season, roughly October to April, brings higher water and afternoon rain but greener forest and fewer boats. Conditions and schedules change, so check the latest official park guidance before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money."
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [],
+          "text": " Draw enough cash in Pangkalan Bun for tips and extras. Town ATMs can be unreliable and there are none on the river. A tip for the crew and guide at the end is expected, so budget for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Park permits."
+        },
+        {
+          "_key": "s139",
+          "_type": "span",
+          "marks": [],
+          "text": " Foreign visitor fees are charged per day inside the park and are usually handled by your operator, but confirm they are included in your quote. As a working estimate the daily foreign entry fee sits in the low hundreds of thousands of rupiah, and fees can change, so ask."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s141",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s143",
+          "_type": "span",
+          "marks": [],
+          "text": "Tanjung Puting is the most accessible place on earth to watch wild orangutans up close, and the klotok is what sets it apart. You are not hiking to the animals, you are living quietly at the edge of their forest while they get on with their lives. Five days is the right length to do it without rushing, and the slow pace is the reward, not a flaw. Book a well-reviewed boat, build a flight buffer, accept three nights off the grid, and this is one of the most rewarding short trips in Indonesia for families and couples alike. You come for the orangutans, but the proboscis monkeys, the fireflies and the quiet of the river are what you will describe when you get home."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s147",
+          "_type": "span",
+          "marks": [],
+          "text": "For more Borneo-and-Sumatra wildlife, pair this with "
+        },
+        {
+          "_key": "s149",
+          "_type": "span",
+          "marks": [
+            "m148"
+          ],
+          "text": "9 days in North Sumatra with kids"
+        },
+        {
+          "_key": "s150",
+          "_type": "span",
+          "marks": [],
+          "text": ", which reaches the orangutans of Bukit Lawang on foot rather than by boat, a useful contrast in how you meet the same animal. For a longer wildlife-led route across the archipelago, see "
+        },
+        {
+          "_key": "s152",
+          "_type": "span",
+          "marks": [
+            "m151"
+          ],
+          "text": "20 days in wild Indonesia"
+        },
+        {
+          "_key": "s153",
+          "_type": "span",
+          "marks": [],
+          "text": ". And for the wider region, start at the "
+        },
+        {
+          "_key": "s155",
+          "_type": "span",
+          "marks": [
+            "m154"
+          ],
+          "text": "Wild Indonesia destination guide"
+        },
+        {
+          "_key": "s156",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m148",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-north-sumatra-with-kids"
+        },
+        {
+          "_key": "m151",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/20-days-wild-indonesia"
+        },
+        {
+          "_key": "m154",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Three days and two nights is the practical minimum to reach Camp Leakey once. Four days and three nights, the version in this itinerary, adds a second feeding session and a safety margin for slow river travel, which is why we recommend it inside a five-day trip that includes flights.",
+      "question": "How many days do you need in Tanjung Puting?"
+    },
+    {
+      "answer": "Yes. It is one of the more family-friendly wildlife trips in Indonesia because the boat does the moving, not the children. Kids old enough to sit still on deck for stretches and follow a guide near the orangutans do well, and some operators offer cabins with fans or air conditioning for younger children.",
+      "question": "Is Tanjung Puting suitable for children?"
+    },
+    {
+      "answer": "Fly to Pangkalan Bun (PKN), usually connecting through Jakarta, Surabaya or Semarang on Batik Air, NAM Air or Wings Air. From the airport it is a 30 to 45 minute drive to Kumai harbour, where you board your klotok. Confirm current flight routes before booking, as they shift with the season.",
+      "question": "How do you get to Tanjung Puting?"
+    },
+    {
+      "answer": "As a working estimate, a multi-day klotok liveaboard starts from around USD 500 per person and rises with boat quality and smaller group size. Most packages bundle the boat, crew, guide, meals, park fees and airport transfers, but confirm exactly what is included before you pay, as prices change.",
+      "question": "What does a klotok tour cost?"
+    },
+    {
+      "answer": "The drier months, roughly June to September, make river travel easier and reduce insects, though orangutans are present all year. The wet season, roughly October to April, brings afternoon rain and higher water but fewer boats. Check current conditions before locking dates.",
+      "question": "When is the best time to visit?"
+    },
+    {
+      "answer": "Sightings at the feeding stations are very likely but never guaranteed, because these are wild animals. Visiting all three stations over three or four days, as this trip does, gives you the best odds, including a chance at a large dominant male at Camp Leakey.",
+      "question": "Will I definitely see orangutans?"
+    },
+    {
+      "answer": "Kalimantan is a malaria-risk area, so speak to a travel clinic well before you go about antimalarials and vaccinations, and pack insect repellent. This is general information rather than medical advice, so follow current health guidance for your circumstances.",
+      "question": "Do I need malaria precautions?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Sungai Sekonyer, the tea-coloured river winding through Tanjung Puting National Park, Borneo",
+    "asset": {
+      "_ref": "image-9522e694e2309416c230f09e512f3364cfe16080-3520x1980-jpg",
+      "_type": "reference"
+    },
+    "caption": "Cruising the Sekonyer River, Tanjung Puting, Central Kalimantan"
+  }
+}

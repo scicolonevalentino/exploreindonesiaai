@@ -1,0 +1,1277 @@
+{
+  "_id": "itinerary-4-days-bromo-ijen-volcano-crossing",
+  "_type": "article",
+  "title": "Bromo and Ijen in 4 Days: Java's Volcano Crossing",
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-bromo-ijen-volcano-crossing"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-07-22T04:14:46Z",
+  "destinationPrimary": "java",
+  "travelStylePrimary": "adventure_volcanoes",
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "active",
+  "experienceTags": [
+    "volcano_sunrise",
+    "overland_route"
+  ],
+  "bestSeason": "April–October",
+  "route": "Surabaya → Mount Bromo (Cemoro Lawang) → Kawah Ijen (Banyuwangi) → Bali",
+  "focusKeyword": "Bromo Ijen itinerary",
+  "metaTitle": "Bromo & Ijen in 4 Days: Java's Volcano Crossing",
+  "metaDescription": "A 4-day Bromo and Ijen itinerary from Surabaya: the Bromo sunrise, the Ijen blue fire, then the short ferry into Bali. Costs, timing and honest logistics.",
+  "intro": "Nearly every East Java plan lists Mount Bromo and Kawah Ijen as two separate day trips. The better move is to treat them as one overland crossing. You start inland at Bromo, work east to Ijen, then cross the strait into Bali, so the two hardest early starts in Java come back to back and the trip ends on a beach rather than back where you began. It is a punishing little route, two broken nights of sleep in four days, but it is also the most efficient way to stand on both craters and keep moving in one direction.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "bi0001",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "an Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "bi0002",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare trains, buses and private transfers across East Java on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_EAST_JAVA_TRANSPORT",
+      "publicUrl": "https://12go.asia"
+    },
+    {
+      "_key": "bi0003",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=BromoIjen4DayBromoSunrise",
+      "anchorText": "Mount Bromo sunrise tour",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BROMO_SUNRISE",
+      "publicUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1"
+    },
+    {
+      "_key": "bi0004",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=BromoIjen4DayIjenBlueFire",
+      "anchorText": "a guided Kawah Ijen blue fire night hike from Banyuwangi",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_IJEN_BLUE_FIRE",
+      "publicUrl": "https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1"
+    },
+    {
+      "_key": "bi0005",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Banyuwangi/Kawah-Ijen-Midnight-Tour-1-Day/d50506-178080P3?pid=P00303362&mcid=42383&medium=link&campaign=BromoIjen4DayIjenFromBali",
+      "anchorText": "a round-trip Ijen midnight tour from Bali with hotel drop-off",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_IJEN_FROM_BALI",
+      "publicUrl": "https://www.viator.com/tours/Banyuwangi/Kawah-Ijen-Midnight-Tour-1-Day/d50506-178080P3"
+    }
+  ],
+  "body": [
+    {
+      "_key": "bi0006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0007",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0008",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a short, hard-charging trip for couples, friends and solo travellers who want both of East Java's headline volcanoes without building a full two-week Java loop. You trade two nights of proper sleep for a pre-dawn sunrise over the Tengger caldera and a midnight climb to the blue flames of Ijen, then you roll straight into Bali with the difficult part behind you. It suits people who are comfortable with early alarms, cold rims and long transfer days, and who would rather cover ground than linger."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0011",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0010",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right plan if rest is your priority, or if you are travelling with very young children. Two of the four mornings start in the dark, one of them around midnight, and the drive between the two volcanoes is long and winding. If back-to-back 1am wake-ups sound like too much, do one volcano well instead of both and keep the other for another trip. Done with clear eyes, though, the crossing gives you Java's two best volcano mornings and a natural bridge to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0012",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0013",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0015",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0014",
+          "_type": "span",
+          "marks": [],
+          "text": "Four days, three nights, moving one direction from Surabaya to Bali. Day one is arrival and the climb up to Cemoro Lawang on the lip of the Tengger caldera. Day two is the Bromo sunrise, then a long transfer east to the Banyuwangi area. Day three is the midnight Ijen trek, the blue fire and sunrise over the acid lake, with the afternoon to recover. Day four is the short ferry crossing into Bali and onward to wherever you are based."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0016",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bi0017",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort your data before you start. Activating "
+        },
+        {
+          "_key": "bi0019",
+          "_type": "span",
+          "marks": [
+            "bi0018"
+          ],
+          "text": "an Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "bi0020",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave Surabaya means maps, ride-hailing and your guide's WhatsApp all work from the first morning, which matters when you are confirming small-hours pickups the night before."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0018",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0022",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0023",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0025",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0024",
+          "_type": "span",
+          "marks": [],
+          "text": "Bromo sits inland in the Tengger highlands, and Ijen sits on the far eastern tip of Java, close to the Bali ferry. Doing them in that order means you are always travelling east, never doubling back, and you finish a short walk from the crossing into Bali. Reversing it and starting from Bali works too and is popular, but if you are already flying into Surabaya or Malang for the rest of Java, the west-to-east direction saves you a backtrack and lets the trip end on the coast. The one real cost is the transfer day between the two mountains, which no route around here avoids."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0026",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0027",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Surabaya to Cemoro Lawang"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0030",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0028",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bi0029",
+          "_type": "span",
+          "marks": [],
+          "text": " Land at Surabaya's Juanda Airport, the main gateway for this corner of Java, or arrive by train if you are coming from elsewhere on the island. Surabaya itself is a working port city rather than a sightseeing stop, so most travellers move on the same day rather than stay."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0036",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0031",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bi0032",
+          "_type": "span",
+          "marks": [],
+          "text": " Make the climb up to Cemoro Lawang, the village on the rim of the Tengger caldera and the closest base to Bromo. As a working estimate the drive takes around four hours from Surabaya, longer from the airport in traffic, and the last stretch climbs steeply into cool mountain air, so confirm your transfer the day before and leave a buffer. You can "
+        },
+        {
+          "_key": "bi0034",
+          "_type": "span",
+          "marks": [
+            "bi0033"
+          ],
+          "text": "compare trains, buses and private transfers across East Java on 12Go"
+        },
+        {
+          "_key": "bi0035",
+          "_type": "span",
+          "marks": [],
+          "text": " to line up the first leg."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0033",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_EAST_JAVA_TRANSPORT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0039",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0037",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bi0038",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle in early, eat something warm, and lay out your layers for the morning. Cemoro Lawang sits high enough that nights are genuinely cold, and the Bromo start is early, so there is no upside to a late night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0042",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0040",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bi0041",
+          "_type": "span",
+          "marks": [],
+          "text": " Cemoro Lawang, on the caldera rim, so you are minutes from the jeep pickup rather than driving up in the dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0044",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Bromo sunrise, then the transfer to Ijen"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0047",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0045",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bi0046",
+          "_type": "span",
+          "marks": [],
+          "text": " A jeep collects you well before dawn and climbs to a viewpoint on Mount Penanjakan, or a quieter alternative, to watch the sun come up over the Tengger caldera with Bromo smoking in the foreground and Semeru venting behind. Afterwards the jeep drops onto the sea of sand, and you walk or ride a horse to the base of Bromo and climb the steps to the crater rim."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0053",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0048",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bi0049",
+          "_type": "span",
+          "marks": [],
+          "text": " Rather than piecing together a jeep, viewpoint tickets and the park fee at 3am, most travellers book the sunrise as one package through their guesthouse or an operator. A "
+        },
+        {
+          "_key": "bi0051",
+          "_type": "span",
+          "marks": [
+            "bi0050"
+          ],
+          "text": "Mount Bromo sunrise tour"
+        },
+        {
+          "_key": "bi0052",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the jeep and the timing so you are not arranging logistics in the dark. As a working estimate the Bromo Tengger Semeru park fee runs around 220,000 rupiah on weekdays and more at weekends, and fees can change, so check the current rate."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0050",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BROMO_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0056",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0054",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bi0055",
+          "_type": "span",
+          "marks": [],
+          "text": " Come down, pack, and start the long transfer east toward Banyuwangi and Ijen. This is the hard leg of the trip. As a working estimate the drive runs around five to six hours depending on the route and road conditions, so confirm current timings with your driver and do not plan anything for the evening beyond dinner and sleep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0059",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0057",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bi0058",
+          "_type": "span",
+          "marks": [],
+          "text": " You sleep the evening you arrive near Ijen, then wake around midnight, so treat this transfer as the day's main event and protect the rest that follows it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0062",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0060",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bi0061",
+          "_type": "span",
+          "marks": [],
+          "text": " A guesthouse in or near Banyuwangi, or up toward the Ijen trailhead if you want a shorter pre-trek drive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0063",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0064",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: The Ijen blue fire, then recover"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0067",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0065",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bi0066",
+          "_type": "span",
+          "marks": [],
+          "text": " Around midnight you set off for Kawah Ijen. The climb to the rim takes roughly an hour and a half, then an optional and demanding descent of about 45 minutes reaches the crater floor where the electric-blue flames burn. The trail down is loose and the sulphur gas is real, which is why a proper mask matters, so if your guide hands you a flimsy paper one, ask for better before you start down. Back at the rim, sunrise turns the world's largest acidic crater lake a pale turquoise, and you descend in daylight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0073",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0068",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bi0069",
+          "_type": "span",
+          "marks": [],
+          "text": " Booking "
+        },
+        {
+          "_key": "bi0071",
+          "_type": "span",
+          "marks": [
+            "bi0070"
+          ],
+          "text": "a guided Kawah Ijen blue fire night hike from Banyuwangi"
+        },
+        {
+          "_key": "bi0072",
+          "_type": "span",
+          "marks": [],
+          "text": " is the simplest way to do this well, since the price usually bundles the pickup, the entrance fee, a guide who knows the timing and the gas mask you genuinely need. As a working estimate, entrance for foreign visitors is in the region of 100,000 rupiah on weekdays and 150,000 at weekends, and fees can change. Ijen also closes on the first Friday of most months for maintenance and can shut in bad weather, so check the current closure schedule before you fix your dates."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0070",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_IJEN_BLUE_FIRE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0076",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0074",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bi0075",
+          "_type": "span",
+          "marks": [],
+          "text": " You are usually back down by late morning. Use the afternoon to rest, because you have earned it, or if you still have energy, cross to Bali the same day rather than waiting for the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0079",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0077",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bi0078",
+          "_type": "span",
+          "marks": [],
+          "text": " Banyuwangi, close to the ferry, the train station and the small BWX airport for an easy onward move."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0080",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0081",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: The ferry into Bali"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0087",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0082",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bi0083",
+          "_type": "span",
+          "marks": [],
+          "text": " The Ketapang ferry to Gilimanuk in west Bali runs around the clock and crosses in under an hour, which is what makes this route end so neatly. As a foot passenger the fare is small; with a car it costs more. You can "
+        },
+        {
+          "_key": "bi0085",
+          "_type": "span",
+          "marks": [
+            "bi0084"
+          ],
+          "text": "check schedules and onward transport on 12Go"
+        },
+        {
+          "_key": "bi0086",
+          "_type": "span",
+          "marks": [],
+          "text": ", though the ferry itself is frequent enough that most people simply turn up."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0084",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_EAST_JAVA_TRANSPORT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0090",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0088",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bi0089",
+          "_type": "span",
+          "marks": [],
+          "text": " Once you roll off at Gilimanuk you are in Bali, though the west coast is a long way from the southern hubs. As a working estimate it is a further three to four hours by road to Ubud or the south, so build that into the day or break the drive on the west or north coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0093",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0091",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bi0092",
+          "_type": "span",
+          "marks": [],
+          "text": " Wherever your Bali trip begins. Many travellers point straight for Ubud or the beaches of the south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0094",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0095",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0098",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0096",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book before you go:"
+        },
+        {
+          "_key": "bi0097",
+          "_type": "span",
+          "marks": [],
+          "text": " your Surabaya arrival and first transfer up to Cemoro Lawang, your Bromo sunrise jeep or package, and your Ijen night trek, since guides and jeeps fill on busy dates and you do not want to be arranging either at the trailhead. Confirm your flights into Surabaya or Malang early too, and check current routes before locking hotels."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0099",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "bi0100",
+          "_type": "span",
+          "marks": [],
+          "text": " the ferry crossing, which runs frequently enough that a fixed time rarely helps, and your first night in Bali, which is easy to sort once you know how you feel after two broken nights. Leave the Banyuwangi afternoon open as well, so you can rest or move on depending on your energy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0103",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on the Bromo to Ijen crossing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the transfer day."
+        },
+        {
+          "_key": "bi0105",
+          "_type": "span",
+          "marks": [],
+          "text": " The drive between Bromo and Ijen is long and winding, and travellers who book an evening activity near Ijen for the arrival day usually regret it. Treat that leg as the whole afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skimping on cold-weather layers."
+        },
+        {
+          "_key": "bi0108",
+          "_type": "span",
+          "marks": [],
+          "text": " Both rims are cold before dawn, and Ijen in particular can sit around 5 to 10 degrees, which surprises people who packed only for Bali heat. A warm layer, a hat and gloves are worth the space."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trusting a flimsy mask at Ijen."
+        },
+        {
+          "_key": "bi0111",
+          "_type": "span",
+          "marks": [],
+          "text": " The sulphur on the crater floor is genuinely toxic. A proper respirator, not a paper dust mask, is the one piece of gear worth insisting on, and a good tour provides it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fixing dates without checking the Ijen closure."
+        },
+        {
+          "_key": "bi0114",
+          "_type": "span",
+          "marks": [],
+          "text": " The mountain closes on the first Friday of most months and can shut in bad weather, so a rigid itinerary can collide with a closed crater. Check before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0117",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut a volcano if time is tight."
+        },
+        {
+          "_key": "bi0119",
+          "_type": "span",
+          "marks": [],
+          "text": " If four days is a stretch, drop Bromo and keep Ijen, which is the single most striking few hours of the two and sits closest to Bali. Our "
+        },
+        {
+          "_key": "bi0121",
+          "_type": "span",
+          "marks": [
+            "bi0120"
+          ],
+          "text": "2 Days at Kawah Ijen"
+        },
+        {
+          "_key": "bi0122",
+          "_type": "span",
+          "marks": [],
+          "text": " plan does exactly that."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0120",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/2-days-kawah-ijen-blue-fire"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt the direction if you are starting from Bali."
+        },
+        {
+          "_key": "bi0125",
+          "_type": "span",
+          "marks": [],
+          "text": " Plenty of travellers run this in reverse and do Ijen first as an overnight from the island. A "
+        },
+        {
+          "_key": "bi0127",
+          "_type": "span",
+          "marks": [
+            "bi0126"
+          ],
+          "text": "round-trip Ijen midnight tour from Bali with hotel drop-off"
+        },
+        {
+          "_key": "bi0128",
+          "_type": "span",
+          "marks": [],
+          "text": " folds the ferry, the long transfer and the trek into one package, which suits anyone who wants only the blue fire and not the full crossing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0126",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_IJEN_FROM_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade the transfer"
+        },
+        {
+          "_key": "bi0131",
+          "_type": "span",
+          "marks": [],
+          "text": " by hiring a private car with a driver for the long leg to Ijen rather than joining a shared vehicle, which shortens the hardest day and lets you leave when you are ready. As a working estimate a private transfer costs more than a seat in a shared car, and rates change, so confirm the current price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0134",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Time it for the dry season."
+        },
+        {
+          "_key": "bi0136",
+          "_type": "span",
+          "marks": [],
+          "text": " As a working estimate the months from April to October give the clearest volcano mornings; the rainy season can hide the Bromo sunrise in cloud and close Ijen in bad weather. Season aside, weekends bring higher park fees and bigger crowds at both craters."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sort your entry and connectivity in advance."
+        },
+        {
+          "_key": "bi0139",
+          "_type": "span",
+          "marks": [],
+          "text": " Check the latest official visa guidance for your passport before you fly, since rules change, and set up your eSIM so navigation and pickups work from the first morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Be honest about the sleep debt."
+        },
+        {
+          "_key": "bi0142",
+          "_type": "span",
+          "marks": [],
+          "text": " Two of these four nights are broken, one of them badly, so plan a soft landing in Bali rather than a big first day. This is a trip you recover from, not one you power through and straight into a packed beach schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0145",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0146",
+          "_type": "span",
+          "marks": [],
+          "text": "The Bromo to Ijen crossing is the most efficient way to see East Java's two great volcano mornings, and ending it in Bali rather than back in Surabaya is what makes it worth the broken sleep. It is not a relaxing four days, and it is not for anyone chasing rest, but if you are already coming through Java and want both craters without a longer loop, this is the route that strings them together and points you at the beach. Go in fit, pack for the cold, book the two treks ahead, and let the ferry do the rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bi0148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0149",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bi0163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bi0150",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want more of Java before the volcanoes, "
+        },
+        {
+          "_key": "bi0152",
+          "_type": "span",
+          "marks": [
+            "bi0151"
+          ],
+          "text": "5 Days in Yogyakarta and Mount Bromo"
+        },
+        {
+          "_key": "bi0153",
+          "_type": "span",
+          "marks": [],
+          "text": " pairs the temples of Yogyakarta with the same Bromo sunrise. To go deeper on the blue fire alone, "
+        },
+        {
+          "_key": "bi0155",
+          "_type": "span",
+          "marks": [
+            "bi0154"
+          ],
+          "text": "2 Days at Kawah Ijen"
+        },
+        {
+          "_key": "bi0156",
+          "_type": "span",
+          "marks": [],
+          "text": " covers it as a standalone escape. For where this crossing leaves you, "
+        },
+        {
+          "_key": "bi0158",
+          "_type": "span",
+          "marks": [
+            "bi0157"
+          ],
+          "text": "5 Days in Bali: Ubud, Canggu and Uluwatu"
+        },
+        {
+          "_key": "bi0159",
+          "_type": "span",
+          "marks": [],
+          "text": " picks the trip up on the other side of the ferry. You can also browse more routes on our "
+        },
+        {
+          "_key": "bi0161",
+          "_type": "span",
+          "marks": [
+            "bi0160"
+          ],
+          "text": "Java travel guide"
+        },
+        {
+          "_key": "bi0162",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bi0151",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        },
+        {
+          "_key": "bi0154",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/2-days-kawah-ijen-blue-fire"
+        },
+        {
+          "_key": "bi0157",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+        },
+        {
+          "_key": "bi0160",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "_key": "bi0164",
+      "_type": "faqItem",
+      "answer": "Yes, and the overland crossing is the natural way to do it. You start at Bromo in the Tengger highlands, transfer east to Ijen near the coast, then take the short ferry into Bali. Four days gives you both volcano mornings with a buffer for the long transfer and the broken sleep, rather than rushing both into a punishing two-night dash.",
+      "question": "Can you do Bromo and Ijen in one trip?"
+    },
+    {
+      "_key": "bi0165",
+      "_type": "faqItem",
+      "answer": "Four days and three nights is a comfortable minimum. It covers arrival and the climb to Cemoro Lawang, the Bromo sunrise, the transfer to Ijen, the midnight blue fire trek and sunrise, and the ferry into Bali. You can compress it to three days, but that stacks two broken nights with no recovery, which is hard on most people.",
+      "question": "Is four days enough for the Bromo to Ijen crossing?"
+    },
+    {
+      "_key": "bi0166",
+      "_type": "faqItem",
+      "answer": "Both work. Starting from Surabaya and finishing in Bali means you always travel east and end on the coast, which suits anyone already flying into Java. Starting from Bali and doing Ijen first as an overnight suits travellers who only want the blue fire and not the full crossing.",
+      "question": "Should I start from Surabaya or from Bali?"
+    },
+    {
+      "_key": "bi0167",
+      "_type": "faqItem",
+      "answer": "The climb to the rim takes roughly an hour and a half on a steady but steep trail. The optional descent to the crater floor for the blue fire is about 45 minutes each way on loose ground, through real sulphur gas, so it needs a proper mask and reasonable fitness. You can stop at the rim for the sunrise and lake view without going down.",
+      "question": "How hard is the Kawah Ijen trek?"
+    },
+    {
+      "_key": "bi0168",
+      "_type": "faqItem",
+      "answer": "As a working estimate, the Bromo Tengger Semeru park fee is around 220,000 rupiah on weekdays and more at weekends, and Ijen entrance is in the region of 100,000 rupiah on weekdays and 150,000 at weekends. Jeeps, guides, transfers and the ferry are extra. Fees change, so check current rates before you go.",
+      "question": "What does the Bromo to Ijen trip cost in fees?"
+    },
+    {
+      "_key": "bi0169",
+      "_type": "faqItem",
+      "answer": "As a working estimate the dry season from April to October gives the clearest volcano mornings. The rainy season can hide the Bromo sunrise in cloud and close Ijen in bad weather. Weekends bring higher park fees and larger crowds at both craters, so weekdays are calmer if your dates are flexible.",
+      "question": "When is the best time to do the crossing?"
+    },
+    {
+      "_key": "bi0170",
+      "_type": "faqItem",
+      "answer": "From the Banyuwangi area you reach the Ketapang ferry terminal, and the crossing to Gilimanuk in west Bali runs around the clock and takes under an hour. From Gilimanuk it is a further three to four hours by road to Ubud or the south, so most people build that drive into the day or break it on the west or north coast.",
+      "question": "How do you get from Ijen to Bali?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Mount Bromo at sunrise, mist filling the Tengger caldera with the crater smoking and Semeru behind",
+    "asset": {
+      "_ref": "image-7d041721fea66f77e019c60836aaa253c24af1f0-547x365-jpg",
+      "_type": "reference"
+    }
+  }
+}

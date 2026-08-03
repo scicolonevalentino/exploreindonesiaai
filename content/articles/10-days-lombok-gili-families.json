@@ -1,0 +1,2290 @@
+{
+  "_id": "itinerary-10-days-lombok-gili-families",
+  "_type": "article",
+  "title": "10 Days in Lombok and the Gili Islands with Kids: A Relaxed Family Itinerary",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-lombok-gili-families"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-06-15T09:00:00Z",
+  "destinationPrimary": "lombok_gili",
+  "destinationSecondary": [],
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": [],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "travellerTypes": [
+    "families"
+  ],
+  "vibe": "relaxed",
+  "experienceTags": [
+    "family-friendly",
+    "beaches",
+    "snorkeling",
+    "relaxed",
+    "island_day_trip"
+  ],
+  "bestSeason": "April to October (dry season)",
+  "route": "Kuta Lombok → Gili Air",
+  "focusKeyword": "Lombok Gili Islands family itinerary",
+  "metaTitle": "Lombok & Gili Islands With Kids: 10-Day Family Plan",
+  "metaDescription": "A relaxed 10-day Lombok and Gili Air family itinerary: calm Kuta beaches, turtle snorkeling and car-free island days, with honest transfer advice.",
+  "intro": "Plenty of families try to do Lombok the way they would do Bali, packing in beaches, waterfalls and a mountain inside a week. This plan does the opposite. It picks two calm bases, the south Lombok coast and car-free Gili Air, and connects them with a single easy crossing, so the days stay slow enough for kids and parents both. The hardest part is not the sights, it is resisting the urge to add more.",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "k298",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "k299",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6?pid=P00303362&mcid=42383&medium=link&campaign=LombokairportransferfamilyKuta",
+      "anchorText": "private airport transfer in Lombok",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.viator.com/tours/Lombok/Lombok-Private-Airport-Transfers-To-Bangsal-Port-Lombok-and-Gili-Trawangan/d22869-146698P6"
+    },
+    {
+      "_key": "k300",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtourfamily",
+      "anchorText": "South Lombok beach tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR",
+      "publicUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1"
+    },
+    {
+      "_key": "k301",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7?pid=P00303362&mcid=42383&medium=link&campaign=SenaruwaterfallsfamilyTiuKelep",
+      "anchorText": "Sendang Gile and Tiu Kelep waterfalls day trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "viator",
+      "placeholderId": "VIATOR_SENARU_WATERFALLS",
+      "publicUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Sembalun-Sendang-Gile-Waterfall-Tiu-Kelep-Waterfall/d22869-223745P7"
+    },
+    {
+      "_key": "k302",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F",
+      "anchorText": "fast boat to the Gili Islands",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_LOMBOK_GILI_BOAT",
+      "publicUrl": "https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/"
+    },
+    {
+      "_key": "k303",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "anchorText": "Gili snorkeling tour with turtles",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "publicUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/"
+    },
+    {
+      "_key": "k304",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "Gili Islands to Bali boat",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "publicUrl": null
+    }
+  ],
+  "body": [
+    {
+      "_key": "k002",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k001",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k004",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k003",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is for families who want a calm, beach-led trip and are happy to trade a packed sightseeing schedule for slow days and short distances. It works best for parents travelling with young or primary-age kids who want safe swimming, easy snorkeling and a base they can settle into for several nights at a time. You spend four nights on Lombok's south coast and five nights on Gili Air, the most family-suited of the three Gili islands, with one real transfer day in between."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k005",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the right fit if your family wants constant activity, nightlife, or a fast multi-island tour. It is also not built around the Mount Rinjani trek, which is a serious multi-day climb that does not belong in a relaxed family week. Teenagers who want surf and adventure can find some here, but the pace is deliberately gentle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k008",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k007",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want a denser, quicker island trip, a Bali-anchored plan will move faster. This one is built around rest, with enough structure to keep kids engaged and enough downtime to keep everyone sane."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k010",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k009",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k013",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k011",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "k012",
+          "_type": "span",
+          "marks": [],
+          "text": " 10 days, 9 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k018",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k014",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start:"
+        },
+        {
+          "_key": "k015",
+          "_type": "span",
+          "marks": [],
+          "text": " Lombok International Airport. "
+        },
+        {
+          "_key": "k016",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "End:"
+        },
+        {
+          "_key": "k017",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Air, with an onward boat option back to Lombok or on to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k019",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "k020",
+          "_type": "span",
+          "marks": [],
+          "text": " families with kids who want safe beaches, easy snorkeling and a slow pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k024",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k022",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not ideal for:"
+        },
+        {
+          "_key": "k023",
+          "_type": "span",
+          "marks": [],
+          "text": " Rinjani trekkers, nightlife-first travellers, or families who want to move fast and see a lot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k027",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k025",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel style:"
+        },
+        {
+          "_key": "k026",
+          "_type": "span",
+          "marks": [],
+          "text": " beach and islands, relaxed pace."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k030",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k028",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "k029",
+          "_type": "span",
+          "marks": [],
+          "text": " flexible. Family rooms and guesthouses in Kuta Lombok and on Gili Air start around $30 to $50 per night as a working estimate, and prices change by season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k031",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics level:"
+        },
+        {
+          "_key": "k032",
+          "_type": "span",
+          "marks": [],
+          "text": " low, with one real transfer day (Kuta Lombok to the Bangsal boat to Gili Air)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k036",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k034",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "k035",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly April to October, the drier months with calmer crossings. Confirm current conditions before locking dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k039",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k037",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking difficulty:"
+        },
+        {
+          "_key": "k038",
+          "_type": "span",
+          "marks": [],
+          "text": " easy for stays, low to medium for the boat and the snorkeling day, which are worth arranging ahead in peak months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k041",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k040",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k042",
+          "_type": "span",
+          "marks": [],
+          "text": "The plan is built around two fixed bases and a single move between them, which is what keeps it relaxed. Four nights in Kuta Lombok mean you unpack once and explore the south coast beaches at a child's pace, with no daily repacking. Then one transfer day takes you to Gili Air, where you settle again for five nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k045",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k044",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Air is the deliberate choice for the island half. Gili Trawangan is busier and more party-led, and Gili Meno is very quiet with fewer services. Gili Air sits in between: calm shallow beaches on the east side, a small ring of cafes and warungs, bicycles instead of cars, and the easiest turtle snorkeling of the three. For a family, that combination is hard to beat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k047",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k046",
+          "_type": "span",
+          "marks": [],
+          "text": "The one weak point is the transfer on Day 5. It is short by Indonesian standards, but it still involves a drive across part of the island and a harbour crossing with luggage and kids. Plan it for the morning, keep the afternoon free, and it stays easy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k049",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k048",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you go: data and arrival"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k054",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k050",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort connectivity before you fly. An "
+        },
+        {
+          "_key": "k052",
+          "_type": "span",
+          "marks": [
+            "k051"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k053",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you activate data on the plane, so maps, ride apps and messaging work the moment you land. With kids in tow, arriving to a working phone for your transfer and your first stay removes one real source of stress."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k051",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k057",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k055",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k056",
+          "_type": "span",
+          "marks": [],
+          "text": " download offline maps of South Lombok and save your accommodation details offline, because rural signal can be patchy and you do not want to be hunting for a guesthouse with tired children in the car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k059",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k058",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land in Lombok and settle into Kuta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k062",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k060",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k061",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive at Lombok International Airport, which sits in the south of the island, relatively close to Kuta. The transfer is short and uncomplicated compared with most Indonesian arrivals, which matters when you are travelling with kids after a long flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k068",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k063",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k064",
+          "_type": "span",
+          "marks": [],
+          "text": " Book a "
+        },
+        {
+          "_key": "k066",
+          "_type": "span",
+          "marks": [
+            "k065"
+          ],
+          "text": "private airport transfer in Lombok"
+        },
+        {
+          "_key": "k067",
+          "_type": "span",
+          "marks": [],
+          "text": " so there is a fixed car and a child-friendly arrangement waiting, rather than a taxi negotiation at the curb. Get to Kuta, check in, and let everyone reset."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k065",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_LOMBOK_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k071",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k069",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k070",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the first night light. Walk into Kuta town for an early dinner, then an early night. Do not try to do anything else today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k074",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k072",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k073",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok for 4 nights. Family rooms and guesthouses start around $30 to $50 per night as a working estimate, with Tanjung Aan and Selong Belanak within easy reach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k077",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k075",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k076",
+          "_type": "span",
+          "marks": [],
+          "text": " lock the Kuta stay before arrival in peak season, and ask specifically for a family room and a pool if that matters to your kids, because a pool buys you easy afternoons."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k079",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k078",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Tanjung Aan and easy beach time"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k082",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k080",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k081",
+          "_type": "span",
+          "marks": [],
+          "text": " Start at Tanjung Aan, a wide horseshoe bay with pale sand and calm, shallow water that suits young swimmers. The gentle entry and lack of strong surf make it one of the more relaxed beach mornings on the south coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k083",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k084",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the pace slow. Have lunch at a beach warung, let the kids dig and paddle, and head back before the heat peaks. There is no need to chase more than one beach today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k088",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k086",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k087",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner in Kuta, then back to the pool or an early night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k091",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k089",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k090",
+          "_type": "span",
+          "marks": [],
+          "text": " south coast sun is strong and shade is limited on the open beaches, so bring rash guards, reef-safe sunscreen and a beach umbrella, and plan beach time for early and late rather than midday."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k093",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k092",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Selong Belanak and a gentle surf option"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k096",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k094",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k095",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Selong Belanak, a long crescent of flat sand with a gentle, forgiving wave. It is one of the best beaches in Lombok for a first surf lesson, and older kids and teenagers often take to it quickly on the soft inside section."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k097",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k098",
+          "_type": "span",
+          "marks": [],
+          "text": " The south beaches are spread out and public transport is thin, so a "
+        },
+        {
+          "_key": "k100",
+          "_type": "span",
+          "marks": [
+            "k099"
+          ],
+          "text": "South Lombok beach tour"
+        },
+        {
+          "_key": "k101",
+          "_type": "span",
+          "marks": [],
+          "text": " with a driver is the practical way to link Selong Belanak with nearby coves without anyone melting in the heat between stops. Younger kids who are not surfing can paddle and build sandcastles on the same beach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k099",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k103",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k104",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to Kuta for dinner and rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k107",
+          "_type": "span",
+          "marks": [],
+          "text": " the driver-led day is a logistics call, not a luxury. Self-driving a scooter between scattered beaches with kids in the heat is slow and not worth it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k109",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Slow day or an optional waterfall trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k112",
+          "_type": "span",
+          "marks": [],
+          "text": " This is your flexible day, and how you use it depends on how your kids travel. The relaxed option is to stay near Kuta: pool in the morning, a short visit to a traditional weaving or pottery village, and an easy beach afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k114",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k115",
+          "_type": "span",
+          "marks": [],
+          "text": " If your family travels well and wants one active day, the "
+        },
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [
+            "k116"
+          ],
+          "text": "Sendang Gile and Tiu Kelep waterfalls day trip"
+        },
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": [],
+          "text": " near Senaru is the standout, with a short forest walk between two falls. Be honest with yourself first, though: it is a long drive north and back from Kuta, and it makes for a tiring day with small children. Save it for families with older kids who do not mind car time."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k116",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SENARU_WATERFALLS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k121",
+          "_type": "span",
+          "marks": [],
+          "text": " Either way, keep dinner simple and pack tonight, because tomorrow you move to Gili Air."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k124",
+          "_type": "span",
+          "marks": [],
+          "text": " if you do the waterfall day, leave very early and treat the rest of the day as a write-off for anything else. If you skip it, you lose nothing essential to a relaxed beach trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Transfer to Gili Air"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k129",
+          "_type": "span",
+          "marks": [],
+          "text": " Travel from Kuta up to Bangsal harbour, the mainland departure point for the Gili Islands. Do this in the morning while everyone is fresh, with snacks and water packed for the drive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k132",
+          "_type": "span",
+          "marks": [],
+          "text": " Cross from Bangsal to Gili Air. The public boat takes only 10 to 20 minutes and costs a few dollars, around IDR 20,000 as a working estimate, with public fast boats available for a little more. A "
+        },
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [
+            "k133"
+          ],
+          "text": "fast boat to the Gili Islands"
+        },
+        {
+          "_key": "k135",
+          "_type": "span",
+          "marks": [],
+          "text": " is the simpler option if you prefer a fixed departure and less waiting with kids. Fares and schedules change, so confirm current prices. Check in on Gili Air, then walk straight to the beach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k133",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_LOMBOK_GILI_BOAT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k138",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Air has no cars or motorbikes, only bicycles and the occasional horse cart, which makes it unusually safe to let kids roam near your accommodation. Find dinner at one of the beachfront warungs and watch the sunset over the water toward Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k140",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k141",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Air for 5 nights. The east and south sides have the calmest, shallowest swimming and the most family-friendly cafes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k143",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [],
+          "text": " book your Gili Air stay ahead in peak months, and choose the east side if safe shallow swimming for young kids is your priority."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k146",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Settle into Gili Air"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k148",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k149",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend the first full island day doing very little. The east coast beaches are shallow and calm, with almost no waves, so young children can paddle safely close to shore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k151",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k152",
+          "_type": "span",
+          "marks": [],
+          "text": " Rent bicycles, including ones with child seats if you need them, and ride the flat sandy loop around the island. It is small enough that even young kids can manage part of it, and there is no traffic to worry about."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k155",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner on the beach, then an early night. Island days are for slowing down."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k158",
+          "_type": "span",
+          "marks": [],
+          "text": " the inland sandy paths can be soft and bumpy for bikes, so the packed coastal track is easier with kids. Cash is essential here, as card acceptance is limited and ATMs are unreliable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k160",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Turtle snorkeling"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k162",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k163",
+          "_type": "span",
+          "marks": [],
+          "text": " The highlight for most families is the turtles. A "
+        },
+        {
+          "_key": "k165",
+          "_type": "span",
+          "marks": [
+            "k164"
+          ],
+          "text": "Gili snorkeling tour with turtles"
+        },
+        {
+          "_key": "k166",
+          "_type": "span",
+          "marks": [],
+          "text": " loops the three islands and stops at the calm spots off Gili Meno where green turtles feed near the surface, often in water shallow enough that even nervous swimmers see them easily."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k164",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k168",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": [],
+          "text": " Many of these boats offer a glass-bottom option, so a child who does not want to put their face in the water can still watch turtles from inside the boat. Keep the afternoon free for beach rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k171",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k172",
+          "_type": "span",
+          "marks": [],
+          "text": " An easy dinner and an early night after a morning in the sun."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k175",
+          "_type": "span",
+          "marks": [],
+          "text": " turtle sightings are common but never guaranteed, and conditions vary by day. Morning departures usually mean calmer water and better visibility, and confirming the boat carries kids' size masks makes a real difference."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k177",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Free beach and pool day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k179",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k180",
+          "_type": "span",
+          "marks": [],
+          "text": " Build in a genuine nothing day. Let the kids choose: more beach, the pool, or another short bike ride. A relaxed trip needs days with no plan at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k182",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [],
+          "text": " If anyone wants a little more water time, the house-reef snorkeling straight off Gili Air's east coast is gentle and does not need a boat. Otherwise rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k185",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k186",
+          "_type": "span",
+          "marks": [],
+          "text": " Try a different warung for dinner and watch the sunset again. It does not get old."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k188",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k189",
+          "_type": "span",
+          "marks": [],
+          "text": " this buffer day also absorbs any weather, since a windy day can push the snorkeling tour to a calmer one without breaking the plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k191",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Last full island day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k195",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k193",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k194",
+          "_type": "span",
+          "marks": [],
+          "text": " Use your last full day for whatever your family liked most. If the turtles were the hit, a short repeat snorkel off the beach is easy. If cycling was the winner, ride the loop one more time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k196",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k197",
+          "_type": "span",
+          "marks": [],
+          "text": " Start thinking about the next day's departure. Buy any snacks for the journey, and confirm your boat time for the morning so there are no surprises."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k201",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k199",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k200",
+          "_type": "span",
+          "marks": [],
+          "text": " A final beachfront dinner. If you are continuing to Bali, this is a good night to double-check your onward boat and buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k202",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k203",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are connecting to a Bali flight, do not book a same-day departure on a tight margin, because sea crossings can shift. Leave a night of buffer in Bali rather than racing a boat to the airport with kids."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k206",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k205",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Slow morning and onward travel"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k209",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k207",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k208",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the last morning slowly. One more swim, breakfast by the beach, then the short boat back to Bangsal and on to the airport, or onward toward Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k210",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k211",
+          "_type": "span",
+          "marks": [],
+          "text": " From Gili Air you can return to Lombok for a flight home, continue to Bali by "
+        },
+        {
+          "_key": "k213",
+          "_type": "span",
+          "marks": [
+            "k212"
+          ],
+          "text": "Gili Islands to Bali boat"
+        },
+        {
+          "_key": "k214",
+          "_type": "span",
+          "marks": [],
+          "text": ", or extend with extra nights if your plans are loose. With kids, the simpler the departure, the better."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k212",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k216",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k217",
+          "_type": "span",
+          "marks": [],
+          "text": " build in buffer around the crossing and the drive to the airport. A relaxed trip should not end with a stressful dash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k219",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k221",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k222",
+          "_type": "span",
+          "marks": [],
+          "text": " your Kuta Lombok and Gili Air stays, especially family rooms from April to October when demand peaks. The eSIM is worth sorting before you fly. The airport transfer and the turtle snorkeling tour are easy to fix in advance and remove friction on the busiest days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k226",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k224",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k225",
+          "_type": "span",
+          "marks": [],
+          "text": " the south coast beach days, the optional waterfall trip, and your free island days, which are better matched to the calmest weather. The Bangsal to Gili Air boat runs regularly through the day, so you do not need a rigid slot unless you prefer a booked fast boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k227",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k228",
+          "_type": "span",
+          "marks": [],
+          "text": " the one thing not to leave loose is your onward travel buffer if you are connecting to a Bali flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k230",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes families make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k233",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k232",
+          "_type": "span",
+          "marks": [],
+          "text": "Packing the days too tightly. The whole point of this plan is space. Families who try to add daily excursions lose the rest that makes a beach trip with kids actually restful."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k234",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing the wrong Gili. Gili Trawangan is louder and more party-led, and Gili Meno can feel too quiet with restless kids. Gili Air is the balance, and basing there is what makes the island half work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k236",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the sun and the cash problem. The south coast sun is strong with little shade, and the Gilis run largely on cash. Bring sun protection and enough rupiah, because hunting for a working ATM with kids is its own small ordeal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k239",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k238",
+          "_type": "span",
+          "marks": [],
+          "text": "Forcing the waterfall day. It is a long drive from Kuta and can wreck a relaxed rhythm with young children. It is optional for a reason. Skip it without guilt if your kids do not travel well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k240",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k244",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k242",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "k243",
+          "_type": "span",
+          "marks": [],
+          "text": " drop the waterfall day entirely and give that time back to the beach. For families with young kids, this often makes the trip better, not worse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k245",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "k246",
+          "_type": "span",
+          "marks": [],
+          "text": " shift the balance of nights to suit your family. If your kids love the island more than the mainland, trim a Kuta night and add a sixth night on Gili Air. If they need more variety, keep the split as it is."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k250",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k248",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "k249",
+          "_type": "span",
+          "marks": [],
+          "text": " if you have the budget, a stay with a pool on both halves of the trip changes the texture of the days, giving you easy afternoons that do not depend on the beach or the weather. On Gili Air, a quieter east-side stay puts safe shallow swimming right outside your door."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k251",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k255",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k253",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "k254",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly April to October is the dry season, with the calmest seas and the best snorkeling and beach days. The wettest months, around January to March, bring rougher crossings. Confirm current conditions before booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k256",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry:"
+        },
+        {
+          "_key": "k257",
+          "_type": "span",
+          "marks": [],
+          "text": " check the latest official guidance for your nationality and your children before you travel, as entry rules and any visa-on-arrival fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k261",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k259",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Domestic transport:"
+        },
+        {
+          "_key": "k260",
+          "_type": "span",
+          "marks": [],
+          "text": " South Lombok is car-and-driver country, with public transport thin between beaches. A private driver or a guided beach day is the practical way to cover scattered stops with kids. Gili Air itself has no motorised transport at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k264",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k262",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ferries and remote logistics:"
+        },
+        {
+          "_key": "k263",
+          "_type": "span",
+          "marks": [],
+          "text": " the Bangsal to Gili Air crossing is short and frequent but still weather-dependent. Confirm current schedules, and allow buffer time around any onward flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k270",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k265",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and eSIM:"
+        },
+        {
+          "_key": "k266",
+          "_type": "span",
+          "marks": [],
+          "text": " carry cash for the Gilis and rural Lombok, where card acceptance is limited and ATMs are sparse and sometimes empty. An "
+        },
+        {
+          "_key": "k268",
+          "_type": "span",
+          "marks": [
+            "k267"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k269",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps maps and ride apps working from arrival, which is useful given patchy rural coverage."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k267",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k271",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health and safety:"
+        },
+        {
+          "_key": "k272",
+          "_type": "span",
+          "marks": [],
+          "text": " bring a basic kit for kids, including motion-sickness remedies for the boat, reef-safe sunscreen, and any regular medication, as island pharmacies are limited."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k275",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k274",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k276",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want a genuinely relaxed beach holiday with kids and you are happy to move slowly. The combination of calm south Lombok beaches and car-free Gili Air, with just one transfer in the middle, is about as low-stress as island travel in Indonesia gets with children. The turtles off Gili Air are the kind of thing kids remember for years."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k279",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k278",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if your family wants a fast, varied, sightseeing-heavy trip, or if the Rinjani trek is the real draw. Those goals belong to a different plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k280",
+          "_type": "span",
+          "marks": [],
+          "text": "Built around two settled bases and one easy crossing, this is one of the more sensible family island weeks in Indonesia, precisely because it refuses to rush."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k282",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k285",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k284",
+          "_type": "span",
+          "marks": [],
+          "text": "Pair or compare this route with these planning guides:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k289",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k287",
+          "_type": "span",
+          "marks": [
+            "k286"
+          ],
+          "text": "7 days in Lombok and the Gili Islands"
+        },
+        {
+          "_key": "k288",
+          "_type": "span",
+          "marks": [],
+          "text": " for a faster, couples-and-friends version of the same region with a Senaru waterfall night and Gili Trawangan."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k286",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k293",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k291",
+          "_type": "span",
+          "marks": [
+            "k290"
+          ],
+          "text": "7 days in Bali with kids"
+        },
+        {
+          "_key": "k292",
+          "_type": "span",
+          "marks": [],
+          "text": " for a relaxed family itinerary if you would rather base the trip in Bali."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k290",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k297",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k295",
+          "_type": "span",
+          "marks": [
+            "k294"
+          ],
+          "text": "Lombok and Gili Islands hub"
+        },
+        {
+          "_key": "k296",
+          "_type": "span",
+          "marks": [],
+          "text": " for stays, crossings and seasonal timing across the islands."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k294",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "faq": [
+    {
+      "answer": "Yes. The south coast has calm, shallow beaches like Tanjung Aan, and Gili Air is car-free with safe east-side swimming and easy turtle snorkeling. The pace is gentle, with only one short transfer day. It is not built around the Mount Rinjani trek, which is too demanding for a relaxed family week.",
+      "question": "Is Lombok good for families with young kids?"
+    },
+    {
+      "answer": "Gili Air. Gili Trawangan is busier and more party-led, Gili Meno is very quiet with fewer services, and Gili Air sits in between with calm shallow beaches, a small ring of cafes, bicycles instead of cars, and the easiest turtle snorkeling of the three.",
+      "question": "Which Gili island is best for families?"
+    },
+    {
+      "answer": "From Bangsal harbour the public boat takes about 10 to 20 minutes and costs a few dollars, around IDR 20,000 as a working estimate, with public fast boats for a little more. Fares and schedules change, so confirm current prices before you travel.",
+      "question": "How do you get from Lombok to Gili Air with kids?"
+    },
+    {
+      "answer": "Not for a relaxed trip. Ten days lets you settle for four nights in Kuta Lombok and five on Gili Air with only one move between them, which is what keeps it restful. If you want to move faster, a 7-day version covers the same region at a quicker pace.",
+      "question": "Is 10 days too long for Lombok and the Gilis with kids?"
+    },
+    {
+      "answer": "Yes. A boat snorkeling tour visits the calm turtle spots off Gili Meno where green turtles feed near the surface, and many boats offer a glass-bottom option so a child who does not want to put their face in the water still sees them. Sightings are common but never guaranteed.",
+      "question": "Can children snorkel with turtles on Gili Air?"
+    },
+    {
+      "answer": "Roughly April to October, the dry season, brings the calmest seas and the best beach and snorkeling days. The wettest months, around January to March, mean rougher crossings. Check current conditions before booking.",
+      "question": "When is the best time to visit Lombok and the Gilis with kids?"
+    },
+    {
+      "answer": "Yes. Card acceptance is limited and ATMs are sparse and sometimes empty, so bring enough rupiah from the mainland for your stay, including the boat, food and activities.",
+      "question": "Do you need cash on Gili Air?"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "A family flying a kite on a calm, shallow beach in Lombok, Indonesia",
+    "asset": {
+      "_ref": "image-00d6bf5bd82d334f17af0911cfd115de5d0e63be-3685x2457-jpg",
+      "_type": "reference"
+    }
+  },
+  "articleCommercialTier": "standard"
+}
