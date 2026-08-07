@@ -20,6 +20,12 @@
 
 const TWELVEGO = "https://12go.asia/?z=16022946";
 
+// Route-level 12Go deep links. Prefer these over the bare homepage link above:
+// they land on the actual origin/destination page instead of a doorway. Verified
+// 200 on 2026-08-07 (12Go answers curl with 202 + empty body as bot mitigation,
+// so status has to be checked in a real browser).
+const TWELVEGO_PADANG_BUKITTINGGI = "https://12go.asia/en/travel/padang/bukittinggi?z=16022946";
+
 export type TransportModeKey =
   | "fast-boat"
   | "public-ferry"
@@ -842,6 +848,109 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
     ],
     relatedTripSlugs: ["7-days-yogyakarta-east-java"],
     relatedGuideSlugs: ["best-time-to-visit-mount-bromo"],
+    priority: 2,
+    status: "live",
+  },
+  // Padang to Bukittinggi carries a second job: it is the only page we have for
+  // drive times INSIDE the Minangkabau highland corridor (Harau Valley,
+  // Pagaruyung, Padang Panjang). Those three queries already sit at position 7
+  // to 9 on impressions bouncing off the West Sumatra itinerary, so the FAQs
+  // deliberately mirror their exact wording. Do not "tidy" them into generic
+  // phrasing.
+  {
+    slug: "padang-to-bukittinggi",
+    fromName: "Padang",
+    toName: "Bukittinggi",
+    fromDestinationSlug: "sumatra",
+    toDestinationSlug: "sumatra",
+    metaTitle: "Padang to Bukittinggi: Times, Buses & Prices",
+    metaDescription:
+      "How to get from Padang to Bukittinggi by bus, shared van or car, plus drive times on to Harau Valley, Pagaruyung and Padang Panjang.",
+    focusKeyword: "padang to bukittinggi",
+    summary:
+      "Padang to Bukittinggi is about 89 km of mountain road and takes roughly 2 to 3 hours door to door, with intercity buses and shared travel vans from around Rp 50,000 to Rp 60,000 a seat as a working estimate. Rome2Rio clocks the pure drive at about 1 hour 25 minutes, so treat anything under 2 hours as a best case rather than a plan.",
+    recommendation:
+      "For most travellers the shared travel van wins. It is sold locally as travel rather than bus, fares start around Rp 50,000, and it collects you in Padang and drops you at your Bukittinggi address instead of at Aur Kuning terminal on the edge of town. Intercity buses with operators such as PO ANS, NPM or Minang Jaya cost about the same, roughly Rp 55,000 to Rp 60,000, and suit you better if you want a fixed departure time. Pay for a private car only if Bukittinggi is a base rather than a destination, because it is the one option that can break the drive at Padang Panjang and carry on to Pagaruyung Palace or Harau Valley the same day. If you are flying in, do not go into Padang at all: Minangkabau airport sits north of the city on the Bukittinggi side.",
+    modes: [
+      {
+        mode: "shared-shuttle",
+        label: "Shared travel van, door to door",
+        durationText: "About 2 to 3 hours, including the pickup loop around Padang",
+        priceUsdText: "From around Rp 50,000 a seat, roughly $3 to $5 (working estimate)",
+        frequencyText: "Several departures through the day; book a seat a day ahead in high season",
+        bookingPartner: "12go",
+        bookingUrl: TWELVEGO_PADANG_BUKITTINGGI,
+        notes:
+          "The door-to-door pickup is why this is the default local choice, but collecting other passengers adds half an hour or so before you actually leave town.",
+      },
+      {
+        mode: "shared-shuttle",
+        label: "Intercity bus (PO ANS, NPM, Minang Jaya)",
+        durationText: "About 2 to 3 hours to Aur Kuning terminal",
+        priceUsdText:
+          "Around Rp 55,000 to Rp 60,000, roughly $4 to $5 (working estimate); PO ANS lists regular class from Rp 60,000",
+        frequencyText: "Regular departures through the day",
+        bookingPartner: "12go",
+        bookingUrl: TWELVEGO_PADANG_BUKITTINGGI,
+        notes:
+          "Aur Kuning terminal is about 2 km from the centre of Bukittinggi, so budget a short ojek or Grab hop at the end.",
+      },
+      {
+        mode: "private-car",
+        label: "Private car or Grab",
+        durationText: "About 1.5 hours of pure driving, realistically 2 to 3 hours with traffic",
+        priceUsdText: "Around $27 to $35 per car (working estimate), based on Rome2Rio taxi quotes",
+        frequencyText: "On demand",
+        bookingPartner: "klook",
+        notes:
+          "The only option that can stop at Padang Panjang, detour to Pagaruyung Palace, or run straight through to Harau Valley in a single day.",
+      },
+      {
+        mode: "shared-shuttle",
+        label: "Damri airport bus from Minangkabau (PDG)",
+        durationText: "Listed by Rome2Rio at about 1 hour 45 minutes from the airport",
+        priceUsdText:
+          "A few dollars a seat (working estimate); confirm the current fare on the day",
+        frequencyText: "Roughly hourly through the day, per Rome2Rio",
+        bookingPartner: null,
+        notes:
+          "The airport is north of Padang, already on the Bukittinggi side, so heading into the city first adds an hour for nothing.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does it take to get from Padang to Bukittinggi?",
+        answer:
+          "About 2 to 3 hours for the 89 km, although the pure drive is nearer 1 hour 25 minutes according to Rome2Rio. Buses and shared vans sit at the upper end because of pickups and stops. Landslides and roadworks on this mountain stretch can add hours, so avoid tight onward connections.",
+      },
+      {
+        question: "How much is the bus from Padang to Bukittinggi?",
+        answer:
+          "From around Rp 50,000 for a shared travel van and roughly Rp 55,000 to Rp 60,000 for an intercity bus with operators such as PO ANS or Minang Jaya, as a working estimate. A private car or Grab runs closer to $27 to $35. Fares move, so confirm before you travel.",
+      },
+      {
+        question: "How long does it take to drive from Bukittinggi to Harau Valley?",
+        answer:
+          "About 60 to 90 minutes for the 48 km via Payakumbuh, and closer to an hour when the road is clear. One 2026 traveller report puts a Gojek car at just over an hour for around Rp 220,000. The local minibus plus opelet combination costs roughly Rp 35,000 but takes longer.",
+      },
+      {
+        question: "How far is Pagaruyung Palace from Harau Valley?",
+        answer:
+          "Roughly 55 km, about 1 to 1.5 hours by car. Rome2Rio puts Batusangkar to Nagari Harau at 52.8 km and 1 hour 5 minutes, and Pagaruyung Palace sits about 5 km southeast of Batusangkar. Day trips from Bukittinggi often pair the two, so allow a full day rather than a half.",
+      },
+      {
+        question: "How long is the drive from Harau Valley to Padang Panjang?",
+        answer:
+          "About 1 to 1.5 hours for 68 km. Rome2Rio clocks the pure drive at 1 hour 9 minutes, but that assumes clear roads through Payakumbuh and Bukittinggi, so 1.5 hours is the safer working estimate. Padang Panjang sits on the main Padang road, which makes it a natural last stop before turning south.",
+      },
+      {
+        question: "Is there a train from Padang to Bukittinggi?",
+        answer:
+          "No. The Minangkabau Express train links Padang city with the airport only, so the Bukittinggi leg is always by road. Rome2Rio itineraries that show a train are just combining that airport rail link with an onward bus or taxi, which is slower than taking the road the whole way.",
+      },
+    ],
+    relatedTripSlugs: ["7-days-west-sumatra-bukittinggi-harau-valley"],
+    relatedGuideSlugs: ["things-to-do-in-sumatra", "best-time-to-visit-sumatra"],
     priority: 2,
     status: "live",
   },
