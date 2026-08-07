@@ -1,28 +1,6 @@
 {
   "_id": "itinerary-9-days-lombok-gili-honeymoon",
   "_type": "article",
-  "title": "9 Days in Lombok and the Gili Islands for a Honeymoon",
-  "slug": {
-    "_type": "slug",
-    "current": "9-days-lombok-gili-honeymoon"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-01T09:00:00.000Z",
-  "destinationPrimary": "lombok_gili",
-  "travelStylePrimary": "romantic_escape",
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 9,
-  "travellerTypes": ["honeymooners", "couples"],
-  "vibe": "relaxed",
-  "route": "Kuta Lombok → Gili Meno → Gili Air",
-  "focusKeyword": "Lombok Gili Islands honeymoon itinerary",
-  "metaTitle": "Lombok & Gili Honeymoon: 9-Day Itinerary",
-  "metaDescription": "A relaxed 9-day Lombok and Gili Islands honeymoon: quiet south Lombok beaches, Gili Meno for seclusion and Gili Air, with honest boat and transfer advice.",
-  "intro": "Most honeymoon plans for this part of Indonesia start and end in Bali, and then spend half the trip trying to escape the crowds. This route skips that problem by working east instead. You land near the quiet south coast of Lombok, spend a few gentle beach days there while you settle in, then travel out to the Gili Islands for the slow second half, ending on the two that suit a honeymoon best. It is built around a relaxed pace, one scenic transfer day, and the two things couples most want here: warm easy water and time to do very little.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "k220",
@@ -119,8 +97,49 @@
       "partner": "12go",
       "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
       "publicUrl": null
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Kuta+Lombok%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Kuta Lombok",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_KUTA_LOMBOK",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Kuta+Lombok%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Senggigi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Senggigi and the Sire coast",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_SENGGIGI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Senggigi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Meno%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays on Gili Meno",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_GILI_MENO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Gili+Meno%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Air%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays on Gili Air",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_GILI_AIR",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Gili+Air%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
+  "articleCreatedDate": "2026-07-01T09:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
       "_key": "k1",
@@ -177,6 +196,96 @@
       ],
       "markDefs": [],
       "style": "normal"
+    },
+    {
+      "_key": "rfh1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs2",
+          "_type": "span",
+          "marks": [],
+          "text": "Is Lombok a good honeymoon destination?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rfb3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs4",
+          "_type": "span",
+          "marks": [],
+          "text": "Lombok works well for a honeymoon if you want quiet beaches and warm, easy water rather than nightlife or big resort complexes. It is calmer and cheaper than southern Bali, the south coast beaches are wide and uncrowded, and the Gili Islands sit an hour offshore. The trade-off is fewer restaurants and longer transfers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rfh5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs6",
+          "_type": "span",
+          "marks": [],
+          "text": "Which Gili island is best for a honeymoon?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rfb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs8",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Meno is the quietest of the three and the one most couples pick for a honeymoon, with a handful of bungalows and almost nothing to do. Gili Air is the balanced choice, quiet but with places to eat. Gili Trawangan is the busiest, better for couples who want a scene."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rft9",
+      "_type": "comparisonTable",
+      "columns": ["Island", "Feel", "Pick it for a honeymoon if", "Watch out for"],
+      "rows": [
+        {
+          "_key": "rfr10",
+          "cells": [
+            "Gili Meno",
+            "Smallest and quietest, a handful of bungalows",
+            "You want seclusion and almost nothing on the schedule",
+            "Few places to eat, patchy card payment, three nights can feel long"
+          ]
+        },
+        {
+          "_key": "rfr11",
+          "cells": [
+            "Gili Air",
+            "Quiet, with a working village and more choice for dinner",
+            "You want calm without isolation, and an easy last stop",
+            "The south beachfront gets busier in peak season"
+          ]
+        },
+        {
+          "_key": "rfr12",
+          "cells": [
+            "Gili Trawangan",
+            "Largest and liveliest, bars and beach clubs",
+            "You want restaurants and some nightlife at the end",
+            "The party crowd concentrates on the east strip"
+          ]
+        }
+      ]
     },
     {
       "_key": "k9",
@@ -332,6 +441,241 @@
         }
       ],
       "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rfh13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs14",
+          "_type": "span",
+          "marks": [],
+          "text": "Where should you stay on a Lombok and Gili honeymoon?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rfb15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs16",
+          "_type": "span",
+          "marks": [],
+          "text": "Split the stay rather than picking one base. Kuta Lombok in the south puts you near the best beaches and the airport. Senggigi and the Sire coast in the north hold most of the island's larger resorts. On the Gilis, Meno suits seclusion and Air suits a comfortable finish with more choice for dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rft17",
+      "_type": "comparisonTable",
+      "columns": ["Area", "Why couples base here", "Trade-off"],
+      "rows": [
+        {
+          "_key": "rfr18",
+          "cells": [
+            "Kuta Lombok (south)",
+            "Closest to the south coast beaches and the airport",
+            "A small town, limited dinner options"
+          ]
+        },
+        {
+          "_key": "rfr19",
+          "cells": [
+            "Senggigi and Sire (north-west)",
+            "Most of Lombok's larger resorts and spa hotels",
+            "Far from the south beaches"
+          ]
+        },
+        {
+          "_key": "rfr20",
+          "cells": ["Gili Meno", "The seclusion half of the trip", "Very few rooms, book early"]
+        },
+        {
+          "_key": "rfr21",
+          "cells": [
+            "Gili Air",
+            "A comfortable finish with easier onward boats",
+            "Less secluded than Meno"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rfb35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs22",
+          "_type": "span",
+          "marks": [],
+          "text": "Rooms in all four areas are limited in peak season, so compare "
+        },
+        {
+          "_key": "rfs24",
+          "_type": "span",
+          "marks": ["rfm23"],
+          "text": "stays in Kuta Lombok"
+        },
+        {
+          "_key": "rfs25",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "rfs27",
+          "_type": "span",
+          "marks": ["rfm26"],
+          "text": "stays in Senggigi and the Sire coast"
+        },
+        {
+          "_key": "rfs28",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "rfs30",
+          "_type": "span",
+          "marks": ["rfm29"],
+          "text": "stays on Gili Meno"
+        },
+        {
+          "_key": "rfs31",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "rfs33",
+          "_type": "span",
+          "marks": ["rfm32"],
+          "text": "stays on Gili Air"
+        },
+        {
+          "_key": "rfs34",
+          "_type": "span",
+          "marks": [],
+          "text": " well before you lock the boats."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rfm23",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_KUTA_LOMBOK"
+        },
+        {
+          "_key": "rfm26",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SENGGIGI"
+        },
+        {
+          "_key": "rfm29",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_MENO"
+        },
+        {
+          "_key": "rfm32",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_AIR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rfh36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs37",
+          "_type": "span",
+          "marks": [],
+          "text": "Lombok or Bali for a honeymoon?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rfb38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs39",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose Bali if you want variety, restaurants, spas and short transfers between very different places. Choose Lombok if the point of the honeymoon is quiet. Lombok has better empty beaches and lower prices, but fewer flights, fewer places to eat and longer drives. Many couples split the two, which the Gili boats make simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rfh40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs41",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does a Lombok and Gili honeymoon cost?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rfb42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs43",
+          "_type": "span",
+          "marks": [],
+          "text": "Our Indonesia cost guide puts mid-range travel at 70 to 100 US dollars a day per person and comfortable travel at 150 to 250, and a honeymoon usually sits between the two. Lombok runs cheaper than southern Bali, but rooms on Gili Meno and Gili Air cost more than the mainland for the same standard. Treat these as planning ranges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rfb45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rfs46",
+          "_type": "span",
+          "marks": [],
+          "text": "For the full breakdown by category, see our "
+        },
+        {
+          "_key": "rfs47",
+          "_type": "span",
+          "marks": ["rfm44"],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "rfs48",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rfm44",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/indonesia-travel-costs"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1580,6 +1924,8 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "lombok_gili",
   "faq": [
     {
       "_key": "k228",
@@ -1592,9 +1938,9 @@
       "question": "How many days do you need for a Lombok and Gili honeymoon?"
     },
     {
-      "_key": "k230",
-      "answer": "Gili Meno is the quietest and most romantic of the three, with a handful of couple-focused bungalows rather than bars, which is why it suits the middle of a honeymoon. Gili Air is a comfortable middle ground with more places to eat and easier onward boats, making it a good island to finish on. Gili Trawangan is the busiest and best if you want restaurants and a scene.",
-      "question": "Which Gili island is best for couples?"
+      "_type": "faqItem",
+      "answer": "Bali suits couples who want variety, restaurants and short transfers. Lombok suits couples whose priority is quiet: emptier beaches, lower prices, and the Gili Islands an hour offshore. Many couples split the two, and the fast boats between them make that straightforward.",
+      "question": "Is Lombok or Bali better for a honeymoon?"
     },
     {
       "_key": "k231",
@@ -1617,6 +1963,7 @@
       "question": "When is the best time for a Lombok and Gili honeymoon?"
     }
   ],
+  "focusKeyword": "Lombok Gili Islands honeymoon itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Couple on a quiet beach in Lombok on a honeymoon by the Gili Islands",
@@ -1625,5 +1972,19 @@
       "_type": "reference"
     },
     "caption": "Kuta Lombok → Gili Meno → Gili Air"
-  }
+  },
+  "intro": "Most honeymoon plans for this part of Indonesia start and end in Bali, and then spend half the trip trying to escape the crowds. This route skips that problem by working east instead. You land near the quiet south coast of Lombok, spend a few gentle beach days there while you settle in, then travel out to the Gili Islands for the slow second half, ending on the two that suit a honeymoon best. It is built around a relaxed pace, one scenic transfer day, and the two things couples most want here: warm easy water and time to do very little.",
+  "metaDescription": "Which Gili island suits a honeymoon, where to stay on Lombok, and a 9-day route from Kuta Lombok to Gili Meno and Gili Air, with honest boat advice.",
+  "metaTitle": "Lombok Honeymoon: Which Gili Island, and a 9-Day Route",
+  "route": "Kuta Lombok → Gili Meno → Gili Air",
+  "slug": {
+    "_type": "slug",
+    "current": "9-days-lombok-gili-honeymoon"
+  },
+  "title": "9 Days in Lombok and the Gili Islands for a Honeymoon",
+  "travelStylePrimary": "romantic_escape",
+  "travellerTypes": ["honeymooners", "couples"],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 9,
+  "vibe": "relaxed"
 }
