@@ -4,6 +4,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
+import { ComparisonTable } from "@/components/ComparisonTable";
 
 import {
   ARTICLE_BY_SLUG_QUERY,
@@ -622,6 +623,7 @@ function ArticleInner() {
       em: ({ children }) => <em className="italic">{children}</em>,
     },
     types: {
+      comparisonTable: ({ value }) => <ComparisonTable value={value} />,
       image: ({ value }) => {
         if (!value?.asset) return null;
         const src = urlFor(value).width(1200).auto("format").url();

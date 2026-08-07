@@ -21,6 +21,7 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
+import { ComparisonTable } from "@/components/ComparisonTable";
 import {
   GUIDE_BY_SLUG_QUERY,
   RELATED_GUIDES_QUERY,
@@ -238,6 +239,7 @@ const guideComponents: PortableTextComponents = {
     },
   },
   types: {
+    comparisonTable: ({ value }) => <ComparisonTable value={value} />,
     image: ({ value }) => {
       if (!value?.asset) return null;
       const src = urlFor(value).width(1200).auto("format").url();
