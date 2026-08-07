@@ -13,11 +13,7 @@
   "travelStyleSecondary": "diving_snorkeling",
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 4,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "relaxed",
   "route": "Bali (Padang Bai) → Gili Air → Gili Meno → Gili Trawangan → Bali",
   "focusKeyword": "Gili Islands itinerary",
@@ -64,7 +60,7 @@
     },
     {
       "_key": "a4",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/gili-trawangan/bali?z=16022946",
       "anchorText": "compare boat and onward transport options from the Gili Islands",
       "experienceCategory": "transport",
       "linkStatus": "live",
@@ -149,9 +145,7 @@
         {
           "_key": "s9",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route: "
         },
         {
@@ -171,9 +165,7 @@
         {
           "_key": "s12",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -193,9 +185,7 @@
         {
           "_key": "s15",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best months: "
         },
         {
@@ -215,9 +205,7 @@
         {
           "_key": "s18",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level: "
         },
         {
@@ -237,9 +225,7 @@
         {
           "_key": "s21",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty: "
         },
         {
@@ -259,9 +245,7 @@
         {
           "_key": "s24",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget shape: "
         },
         {
@@ -329,9 +313,7 @@
         {
           "_key": "s34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Gili Air"
         },
         {
@@ -343,9 +325,7 @@
         {
           "_key": "s36",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Gili Trawangan"
         },
         {
@@ -357,9 +337,7 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Gili Meno"
         },
         {
@@ -407,9 +385,7 @@
         {
           "_key": "s45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -435,9 +411,7 @@
         {
           "_key": "s50",
           "_type": "span",
-          "marks": [
-            "m49"
-          ],
+          "marks": ["m49"],
           "text": "compare fast boat tickets between Bali, the Gili Islands and Lombok"
         },
         {
@@ -449,9 +423,7 @@
         {
           "_key": "s53",
           "_type": "span",
-          "marks": [
-            "m52"
-          ],
+          "marks": ["m52"],
           "text": "compare boat and onward transport options from the Gili Islands"
         },
         {
@@ -482,9 +454,7 @@
         {
           "_key": "s56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -504,9 +474,7 @@
         {
           "_key": "s59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -526,9 +494,7 @@
         {
           "_key": "s62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -548,9 +514,7 @@
         {
           "_key": "s65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -562,9 +526,7 @@
         {
           "_key": "s68",
           "_type": "span",
-          "marks": [
-            "m67"
-          ],
+          "marks": ["m67"],
           "text": "an Indonesia eSIM from Airalo"
         },
         {
@@ -604,9 +566,7 @@
         {
           "_key": "s73",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -618,9 +578,7 @@
         {
           "_key": "s75",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Nest"
         },
         {
@@ -646,9 +604,7 @@
         {
           "_key": "s80",
           "_type": "span",
-          "marks": [
-            "m79"
-          ],
+          "marks": ["m79"],
           "text": "a shared three-island snorkeling boat from Gili Trawangan"
         },
         {
@@ -660,9 +616,7 @@
         {
           "_key": "s83",
           "_type": "span",
-          "marks": [
-            "m82"
-          ],
+          "marks": ["m82"],
           "text": "a smaller turtle and underwater statue snorkeling trip"
         },
         {
@@ -693,9 +647,7 @@
         {
           "_key": "s86",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -715,9 +667,7 @@
         {
           "_key": "s89",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -737,9 +687,7 @@
         {
           "_key": "s92",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -773,9 +721,7 @@
         {
           "_key": "s97",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -809,9 +755,7 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -831,9 +775,7 @@
         {
           "_key": "s105",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -853,9 +795,7 @@
         {
           "_key": "s108",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -889,9 +829,7 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -911,9 +849,7 @@
         {
           "_key": "s116",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -933,9 +869,7 @@
         {
           "_key": "s119",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -969,9 +903,7 @@
         {
           "_key": "s124",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early. "
         },
         {
@@ -991,9 +923,7 @@
         {
           "_key": "s127",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible. "
         },
         {
@@ -1013,9 +943,7 @@
         {
           "_key": "s130",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Do not book at all. "
         },
         {
@@ -1049,9 +977,7 @@
         {
           "_key": "s135",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Sleeping on all three islands. "
         },
         {
@@ -1071,9 +997,7 @@
         {
           "_key": "s138",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Assuming Trawangan is only a party island. "
         },
         {
@@ -1093,9 +1017,7 @@
         {
           "_key": "s141",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Snorkeling the statues at eleven in the morning. "
         },
         {
@@ -1115,9 +1037,7 @@
         {
           "_key": "s144",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the sun. "
         },
         {
@@ -1137,9 +1057,7 @@
         {
           "_key": "s147",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Treating the crossing as a formality. "
         },
         {
@@ -1159,9 +1077,7 @@
         {
           "_key": "s150",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Bringing no cash. "
         },
         {
@@ -1195,9 +1111,7 @@
         {
           "_key": "s155",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut the Meno morning "
         },
         {
@@ -1217,9 +1131,7 @@
         {
           "_key": "s158",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt the base to Gili Trawangan "
         },
         {
@@ -1239,9 +1151,7 @@
         {
           "_key": "s161",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt the base to Gili Meno "
         },
         {
@@ -1261,9 +1171,7 @@
         {
           "_key": "s164",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade the snorkeling "
         },
         {
@@ -1283,9 +1191,7 @@
         {
           "_key": "s167",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Stretch to five or six days "
         },
         {
@@ -1319,9 +1225,7 @@
         {
           "_key": "s172",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visas. "
         },
         {
@@ -1341,9 +1245,7 @@
         {
           "_key": "s175",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "The Bali levy. "
         },
         {
@@ -1363,9 +1265,7 @@
         {
           "_key": "s178",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting around. "
         },
         {
@@ -1385,9 +1285,7 @@
         {
           "_key": "s181",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Season. "
         },
         {
@@ -1407,9 +1305,7 @@
         {
           "_key": "s184",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Health and water. "
         },
         {
@@ -1429,9 +1325,7 @@
         {
           "_key": "s187",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Medical cover. "
         },
         {
@@ -1513,9 +1407,7 @@
         {
           "_key": "s200",
           "_type": "span",
-          "marks": [
-            "m199"
-          ],
+          "marks": ["m199"],
           "text": "7 days in Lombok and the Gili Islands"
         },
         {
@@ -1548,9 +1440,7 @@
         {
           "_key": "s205",
           "_type": "span",
-          "marks": [
-            "m204"
-          ],
+          "marks": ["m204"],
           "text": "10 days in Bali and the Gili Islands"
         },
         {
@@ -1562,9 +1452,7 @@
         {
           "_key": "s208",
           "_type": "span",
-          "marks": [
-            "m207"
-          ],
+          "marks": ["m207"],
           "text": "7 days in South Lombok"
         },
         {
@@ -1603,9 +1491,7 @@
         {
           "_key": "s213",
           "_type": "span",
-          "marks": [
-            "m212"
-          ],
+          "marks": ["m212"],
           "text": "Lombok and Gili Islands destination guide"
         },
         {

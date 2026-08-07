@@ -12,11 +12,7 @@
   "travelStylePrimary": "remote_offbeat",
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 10,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "repeat_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "repeat_travellers"],
   "vibe": "balanced",
   "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
   "focusKeyword": "Sulawesi itinerary",
@@ -39,7 +35,7 @@
       "publicUrl": "https://www.airalo.com/indonesia-esim"
     },
     {
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/makassar/toraja?z=16022946",
       "anchorText": "Compare Makassar to Toraja transfers",
       "experienceCategory": "airport_transfer",
       "linkStatus": "live",
@@ -47,6 +43,33 @@
       "partner": "12go",
       "placeholderId": "12GO_MAKASSAR_TORAJA",
       "publicUrl": "https://12go.asia/en/travel/makassar/tana-toraja"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Makassar%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Makassar stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_MAKASSAR",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Makassar%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Rantepao%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Rantepao stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_RANTEPAO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Rantepao%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Bunaken%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Bunaken stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_BUNAKEN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Bunaken%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
   "body": [
@@ -113,9 +136,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route: "
         },
         {
@@ -135,9 +156,7 @@
         {
           "_key": "k11",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for: "
         },
         {
@@ -157,9 +176,7 @@
         {
           "_key": "k14",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pace: "
         },
         {
@@ -179,9 +196,7 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base changes: "
         },
         {
@@ -201,9 +216,7 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "When to go: "
         },
         {
@@ -279,9 +292,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -301,9 +312,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -323,9 +332,7 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -337,9 +344,7 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": [
-            "k39"
-          ],
+          "marks": ["k39"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -365,19 +370,29 @@
         {
           "_key": "k43",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_key": "k44",
+          "_key": "k44b",
+          "_type": "span",
+          "marks": ["bk0makassar"],
+          "text": "Makassar"
+        },
+        {
+          "_key": "k44c",
           "_type": "span",
           "marks": [],
-          "text": "Makassar, one night."
+          "text": ", one night."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk0makassar",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MAKASSAR"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -415,9 +430,7 @@
         {
           "_key": "k50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -429,9 +442,7 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": [
-            "k52"
-          ],
+          "marks": ["k52"],
           "text": "compare Makassar to Toraja transfers"
         },
         {
@@ -457,9 +468,7 @@
         {
           "_key": "k56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -479,9 +488,7 @@
         {
           "_key": "k59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -501,19 +508,29 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_key": "k63",
+          "_key": "k63b",
+          "_type": "span",
+          "marks": ["bk1rantepao"],
+          "text": "Rantepao"
+        },
+        {
+          "_key": "k63c",
           "_type": "span",
           "marks": [],
-          "text": "Rantepao, three nights."
+          "text": ", three nights."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk1rantepao",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_RANTEPAO"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -523,9 +540,7 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -559,9 +574,7 @@
         {
           "_key": "k70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -581,9 +594,7 @@
         {
           "_key": "k73",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -603,9 +614,7 @@
         {
           "_key": "k76",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -625,9 +634,7 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -661,9 +668,7 @@
         {
           "_key": "k84",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -683,9 +688,7 @@
         {
           "_key": "k87",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -705,9 +708,7 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -727,9 +728,7 @@
         {
           "_key": "k93",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -763,9 +762,7 @@
         {
           "_key": "k98",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -785,9 +782,7 @@
         {
           "_key": "k101",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -807,9 +802,7 @@
         {
           "_key": "k104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -857,9 +850,7 @@
         {
           "_key": "k111",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -879,9 +870,7 @@
         {
           "_key": "k114",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -901,9 +890,7 @@
         {
           "_key": "k117",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -923,9 +910,7 @@
         {
           "_key": "k120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -959,9 +944,7 @@
         {
           "_key": "k125",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -981,9 +964,7 @@
         {
           "_key": "k128",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1003,9 +984,7 @@
         {
           "_key": "k131",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -1025,9 +1004,7 @@
         {
           "_key": "k134",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1047,19 +1024,29 @@
         {
           "_key": "k137",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_key": "k138",
+          "_key": "k138b",
+          "_type": "span",
+          "marks": ["bk2bunaken"],
+          "text": "Bunaken"
+        },
+        {
+          "_key": "k138c",
           "_type": "span",
           "marks": [],
-          "text": "Bunaken, three nights."
+          "text": ", three nights."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk2bunaken",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_BUNAKEN"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1083,9 +1070,7 @@
         {
           "_key": "k142",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1105,9 +1090,7 @@
         {
           "_key": "k145",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1127,9 +1110,7 @@
         {
           "_key": "k148",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1163,9 +1144,7 @@
         {
           "_key": "k153",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1185,9 +1164,7 @@
         {
           "_key": "k156",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1207,9 +1184,7 @@
         {
           "_key": "k159",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -1229,9 +1204,7 @@
         {
           "_key": "k162",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1265,9 +1238,7 @@
         {
           "_key": "k167",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1287,9 +1258,7 @@
         {
           "_key": "k170",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1309,9 +1278,7 @@
         {
           "_key": "k173",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -1443,9 +1410,7 @@
         {
           "_key": "k192",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Short on time? "
         },
         {
@@ -1465,9 +1430,7 @@
         {
           "_key": "k195",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not a diver? "
         },
         {
@@ -1487,9 +1450,7 @@
         {
           "_key": "k198",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Want it gentler? "
         },
         {
@@ -1509,9 +1470,7 @@
         {
           "_key": "k201",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Have more time? "
         },
         {
@@ -1545,9 +1504,7 @@
         {
           "_key": "k206",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa. "
         },
         {
@@ -1559,9 +1516,7 @@
         {
           "_key": "k209",
           "_type": "span",
-          "marks": [
-            "k208"
-          ],
+          "marks": ["k208"],
           "text": "Indonesia eSIM"
         },
         {
@@ -1587,9 +1542,7 @@
         {
           "_key": "k212",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cash. "
         },
         {
@@ -1609,9 +1562,7 @@
         {
           "_key": "k215",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Health and timing. "
         },
         {
@@ -1631,9 +1582,7 @@
         {
           "_key": "k218",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Guides. "
         },
         {
@@ -1701,9 +1650,7 @@
         {
           "_key": "k229",
           "_type": "span",
-          "marks": [
-            "k228"
-          ],
+          "marks": ["k228"],
           "text": "20-day wild Indonesia route"
         },
         {
@@ -1715,9 +1662,7 @@
         {
           "_key": "k232",
           "_type": "span",
-          "marks": [
-            "k231"
-          ],
+          "marks": ["k231"],
           "text": "7-day Raja Ampat snorkelling islands itinerary"
         },
         {
@@ -1729,9 +1674,7 @@
         {
           "_key": "k235",
           "_type": "span",
-          "marks": [
-            "k234"
-          ],
+          "marks": ["k234"],
           "text": "Wild Indonesia destination guide"
         },
         {
@@ -1776,9 +1719,7 @@
         {
           "_key": "nsd-s2",
           "_type": "span",
-          "marks": [
-            "nsd-lnk-1"
-          ],
+          "marks": ["nsd-lnk-1"],
           "text": "10-day North Sulawesi diving itinerary"
         },
         {

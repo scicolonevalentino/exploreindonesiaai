@@ -9,22 +9,12 @@
   "contentStatus": "live",
   "articleCreatedDate": "2026-06-02T05:00:00.000Z",
   "destinationPrimary": "bali",
-  "destinationSecondary": [
-    "java",
-    "komodo_flores"
-  ],
+  "destinationSecondary": ["java", "komodo_flores"],
   "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": [
-    "adventure_volcanoes",
-    "culture_temples"
-  ],
+  "travelStyleSecondary": ["adventure_volcanoes", "culture_temples"],
   "tripLengthBucket": "two_weeks",
   "tripLengthDays": 14,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "active",
   "experienceTags": [
     "rice_terraces",
@@ -79,7 +69,7 @@
       "publicUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1"
     },
     {
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/banyuwangi/bali?z=16022946",
       "anchorText": "Banyuwangi to Bali ferry",
       "experienceCategory": "boat_ferry",
       "linkStatus": "live",
@@ -97,6 +87,60 @@
       "partner": "viator",
       "placeholderId": "VIATOR_ULUWATU_KECAK",
       "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Ubud stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_UBUD",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Yogyakarta stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_YOGYAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Cemoro+Lawang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Cemoro Lawang stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_CEMORO_LAWANG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Cemoro+Lawang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Banyuwangi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Banyuwangi stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_BANYUWANGI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Banyuwangi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Labuan Bajo stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_LABUAN_BAJO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Uluwatu stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_ULUWATU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
   "body": [
@@ -163,9 +207,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -185,9 +227,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -207,9 +247,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -229,9 +267,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -251,9 +287,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -273,9 +307,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -295,9 +327,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -317,9 +347,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -339,9 +367,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -431,9 +457,7 @@
         {
           "_key": "k19",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -445,9 +469,7 @@
         {
           "_key": "k1c",
           "_type": "span",
-          "marks": [
-            "k1b"
-          ],
+          "marks": ["k1b"],
           "text": "private airport transfer"
         },
         {
@@ -473,9 +495,7 @@
         {
           "_key": "k1f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -495,19 +515,35 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k1j",
+          "_key": "k1ja",
           "_type": "span",
           "marks": [],
-          "text": " Ubud for two nights. Stay centrally, near Ubud Palace or Jalan Bisma, so you can walk to dinner without a scooter."
+          "text": " "
+        },
+        {
+          "_key": "k1jb",
+          "_type": "span",
+          "marks": ["bk0ubud"],
+          "text": "Ubud"
+        },
+        {
+          "_key": "k1jc",
+          "_type": "span",
+          "marks": [],
+          "text": " for two nights. Stay centrally, near Ubud Palace or Jalan Bisma, so you can walk to dinner without a scooter."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk0ubud",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -517,9 +553,7 @@
         {
           "_key": "k1l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -553,9 +587,7 @@
         {
           "_key": "k1q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning to afternoon."
         },
         {
@@ -575,9 +607,7 @@
         {
           "_key": "k1t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -589,9 +619,7 @@
         {
           "_key": "k1w",
           "_type": "span",
-          "marks": [
-            "k1v"
-          ],
+          "marks": ["k1v"],
           "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -617,9 +645,7 @@
         {
           "_key": "k1z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -639,9 +665,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -675,9 +699,7 @@
         {
           "_key": "k27",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -697,9 +719,7 @@
         {
           "_key": "k2a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -719,19 +739,35 @@
         {
           "_key": "k2d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k2e",
+          "_key": "k2ea",
           "_type": "span",
           "marks": [],
-          "text": " Yogyakarta for two nights, near Malioboro or the Prawirotaman area."
+          "text": " "
+        },
+        {
+          "_key": "k2eb",
+          "_type": "span",
+          "marks": ["bk1yogyakar"],
+          "text": "Yogyakarta"
+        },
+        {
+          "_key": "k2ec",
+          "_type": "span",
+          "marks": [],
+          "text": " for two nights, near Malioboro or the Prawirotaman area."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk1yogyakar",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_YOGYAKARTA"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -741,9 +777,7 @@
         {
           "_key": "k2g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -777,9 +811,7 @@
         {
           "_key": "k2l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -799,9 +831,7 @@
         {
           "_key": "k2o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -821,9 +851,7 @@
         {
           "_key": "k2r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -843,9 +871,7 @@
         {
           "_key": "k2u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -879,9 +905,7 @@
         {
           "_key": "k2z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning to afternoon."
         },
         {
@@ -901,9 +925,7 @@
         {
           "_key": "k32",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -923,9 +945,7 @@
         {
           "_key": "k35",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -959,9 +979,7 @@
         {
           "_key": "k3a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "All day."
         },
         {
@@ -981,9 +999,7 @@
         {
           "_key": "k3d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1003,19 +1019,35 @@
         {
           "_key": "k3g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k3h",
+          "_key": "k3ha",
           "_type": "span",
           "marks": [],
-          "text": " Cemoro Lawang for one night, the closest village to the caldera."
+          "text": " "
+        },
+        {
+          "_key": "k3hb",
+          "_type": "span",
+          "marks": ["bk2cemorola"],
+          "text": "Cemoro Lawang"
+        },
+        {
+          "_key": "k3hc",
+          "_type": "span",
+          "marks": [],
+          "text": " for one night, the closest village to the caldera."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk2cemorola",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_CEMORO_LAWANG"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1025,9 +1057,7 @@
         {
           "_key": "k3j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1061,9 +1091,7 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pre-dawn."
         },
         {
@@ -1075,9 +1103,7 @@
         {
           "_key": "k3r",
           "_type": "span",
-          "marks": [
-            "k3q"
-          ],
+          "marks": ["k3q"],
           "text": "Mount Bromo sunrise tour"
         },
         {
@@ -1103,9 +1129,7 @@
         {
           "_key": "k3u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1125,9 +1149,7 @@
         {
           "_key": "k3x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1147,9 +1169,7 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1183,9 +1203,7 @@
         {
           "_key": "k45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pre-dawn."
         },
         {
@@ -1205,9 +1223,7 @@
         {
           "_key": "k48",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1219,9 +1235,7 @@
         {
           "_key": "k4b",
           "_type": "span",
-          "marks": [
-            "k4a"
-          ],
+          "marks": ["k4a"],
           "text": "Banyuwangi to Bali ferry via 12Go"
         },
         {
@@ -1247,9 +1261,7 @@
         {
           "_key": "k4e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1269,19 +1281,35 @@
         {
           "_key": "k4h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k4i",
+          "_key": "k4ia",
           "_type": "span",
           "marks": [],
-          "text": " Banyuwangi for one night."
+          "text": " "
+        },
+        {
+          "_key": "k4ib",
+          "_type": "span",
+          "marks": ["bk3banyuwan"],
+          "text": "Banyuwangi"
+        },
+        {
+          "_key": "k4ic",
+          "_type": "span",
+          "marks": [],
+          "text": " for one night."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk3banyuwan",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_BANYUWANGI"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1291,9 +1319,7 @@
         {
           "_key": "k4k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1327,9 +1353,7 @@
         {
           "_key": "k4p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1349,9 +1373,7 @@
         {
           "_key": "k4s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1371,19 +1393,35 @@
         {
           "_key": "k4v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k4w",
+          "_key": "k4wa",
           "_type": "span",
           "marks": [],
-          "text": " Labuan Bajo for two nights. Harbour-area hotels give the easiest access to boat departures."
+          "text": " "
+        },
+        {
+          "_key": "k4wb",
+          "_type": "span",
+          "marks": ["bk4labuanba"],
+          "text": "Labuan Bajo"
+        },
+        {
+          "_key": "k4wc",
+          "_type": "span",
+          "marks": [],
+          "text": " for two nights. Harbour-area hotels give the easiest access to boat departures."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk4labuanba",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_LABUAN_BAJO"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1393,9 +1431,7 @@
         {
           "_key": "k4y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1429,9 +1465,7 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Full day."
         },
         {
@@ -1451,9 +1485,7 @@
         {
           "_key": "k56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1473,9 +1505,7 @@
         {
           "_key": "k59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1509,9 +1539,7 @@
         {
           "_key": "k5e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning to afternoon."
         },
         {
@@ -1531,9 +1559,7 @@
         {
           "_key": "k5h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1553,9 +1579,7 @@
         {
           "_key": "k5k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1575,9 +1599,7 @@
         {
           "_key": "k5n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1611,9 +1633,7 @@
         {
           "_key": "k5s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1633,9 +1653,7 @@
         {
           "_key": "k5v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1655,19 +1673,35 @@
         {
           "_key": "k5y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k5z",
+          "_key": "k5za",
           "_type": "span",
           "marks": [],
-          "text": " Uluwatu for two nights, around 30 to 45 minutes from the airport."
+          "text": " "
+        },
+        {
+          "_key": "k5zb",
+          "_type": "span",
+          "marks": ["bk5uluwatu"],
+          "text": "Uluwatu"
+        },
+        {
+          "_key": "k5zc",
+          "_type": "span",
+          "marks": [],
+          "text": " for two nights, around 30 to 45 minutes from the airport."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk5uluwatu",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_ULUWATU"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1677,9 +1711,7 @@
         {
           "_key": "k61",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1713,9 +1745,7 @@
         {
           "_key": "k66",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1735,9 +1765,7 @@
         {
           "_key": "k69",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Late afternoon."
         },
         {
@@ -1749,9 +1777,7 @@
         {
           "_key": "k6c",
           "_type": "span",
-          "marks": [
-            "k6b"
-          ],
+          "marks": ["k6b"],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -1777,9 +1803,7 @@
         {
           "_key": "k6f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1799,9 +1823,7 @@
         {
           "_key": "k6i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1835,9 +1857,7 @@
         {
           "_key": "k6n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1857,9 +1877,7 @@
         {
           "_key": "k6q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1893,9 +1911,7 @@
         {
           "_key": "k6v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early."
         },
         {
@@ -1915,9 +1931,7 @@
         {
           "_key": "k6y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book ahead but lower stakes."
         },
         {
@@ -1937,9 +1951,7 @@
         {
           "_key": "k71",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible."
         },
         {
@@ -1959,9 +1971,7 @@
         {
           "_key": "k74",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -2065,9 +2075,7 @@
         {
           "_key": "k7j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut."
         },
         {
@@ -2087,9 +2095,7 @@
         {
           "_key": "k7m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt."
         },
         {
@@ -2109,9 +2115,7 @@
         {
           "_key": "k7p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade."
         },
         {
@@ -2131,9 +2135,7 @@
         {
           "_key": "k7s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt the pace."
         },
         {
@@ -2167,9 +2169,7 @@
         {
           "_key": "k7x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time."
         },
         {
@@ -2189,9 +2189,7 @@
         {
           "_key": "k80",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry."
         },
         {
@@ -2211,9 +2209,7 @@
         {
           "_key": "k83",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport."
         },
         {
@@ -2233,9 +2229,7 @@
         {
           "_key": "k86",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics."
         },
         {
@@ -2255,9 +2249,7 @@
         {
           "_key": "k89",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM."
         },
         {
@@ -2277,9 +2269,7 @@
         {
           "_key": "k8c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early."
         },
         {
@@ -2291,9 +2281,7 @@
         {
           "_key": "k8e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to keep flexible."
         },
         {
@@ -2375,9 +2363,7 @@
         {
           "_key": "k8r",
           "_type": "span",
-          "marks": [
-            "k8q"
-          ],
+          "marks": ["k8q"],
           "text": "Labuan Bajo and Komodo island-hopping route"
         },
         {
@@ -2410,9 +2396,7 @@
         {
           "_key": "k8w",
           "_type": "span",
-          "marks": [
-            "k8v"
-          ],
+          "marks": ["k8v"],
           "text": "Bali-only slow itinerary"
         },
         {
@@ -2445,9 +2429,7 @@
         {
           "_key": "k91",
           "_type": "span",
-          "marks": [
-            "k90"
-          ],
+          "marks": ["k90"],
           "text": "Bali destination hub"
         },
         {
@@ -2508,10 +2490,5 @@
   "articleCommercialTier": "standard",
   "logisticsComplexity": "moderate",
   "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": [
-    "klook",
-    "booking",
-    "12go",
-    "airalo"
-  ]
+  "secondaryAffiliatePartners": ["klook", "booking", "12go", "airalo"]
 }

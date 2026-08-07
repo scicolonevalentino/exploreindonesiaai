@@ -10,22 +10,12 @@
   "articleCreatedDate": "2026-06-02T05:29:55.581Z",
   "destinationPrimary": "java",
   "travelStylePrimary": "adventure_volcanoes",
-  "travelStyleSecondary": [
-    "culture_temples"
-  ],
+  "travelStyleSecondary": ["culture_temples"],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
-  "travellerTypes": [
-    "solo_travellers",
-    "couples",
-    "repeat_travellers"
-  ],
+  "travellerTypes": ["solo_travellers", "couples", "repeat_travellers"],
   "vibe": "active",
-  "experienceTags": [
-    "temples",
-    "volcano_sunrise",
-    "overland_route"
-  ],
+  "experienceTags": ["temples", "volcano_sunrise", "overland_route"],
   "bestSeason": "April–October",
   "route": "Yogyakarta → Mount Bromo → Ijen → Banyuwangi",
   "focusKeyword": "7 days Yogyakarta East Java itinerary",
@@ -48,7 +38,7 @@
       "publicUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1"
     },
     {
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/banyuwangi/bali?z=16022946",
       "anchorText": "Banyuwangi to Bali ferry",
       "experienceCategory": "boat_ferry",
       "linkStatus": "live",
@@ -122,9 +112,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -144,9 +132,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start:"
         },
         {
@@ -166,9 +152,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "End:"
         },
         {
@@ -188,9 +172,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -210,9 +192,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -232,9 +212,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -254,9 +232,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -276,9 +252,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -298,9 +272,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -320,9 +292,7 @@
         {
           "_key": "kz",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -398,9 +368,7 @@
         {
           "_key": "k1a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -420,9 +388,7 @@
         {
           "_key": "k1d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -442,9 +408,7 @@
         {
           "_key": "k1g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -456,9 +420,7 @@
         {
           "_key": "k1j",
           "_type": "span",
-          "marks": [
-            "k1i"
-          ],
+          "marks": ["k1i"],
           "text": "search Yogyakarta stays on Booking.com"
         },
         {
@@ -485,9 +447,7 @@
         {
           "_key": "k1m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -499,9 +459,7 @@
         {
           "_key": "k1p",
           "_type": "span",
-          "marks": [
-            "k1o"
-          ],
+          "marks": ["k1o"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -542,9 +500,7 @@
         {
           "_key": "k1u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -564,9 +520,7 @@
         {
           "_key": "k1x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -586,9 +540,7 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -600,9 +552,7 @@
         {
           "_key": "k23",
           "_type": "span",
-          "marks": [
-            "k22"
-          ],
+          "marks": ["k22"],
           "text": "Borobudur and Prambanan temple trip from Yogyakarta"
         },
         {
@@ -617,7 +567,7 @@
           "_key": "k22",
           "_type": "externalLink",
           "blank": true,
-          "href": "https://www.viator.com"
+          "href": "https://www.viator.com/Yogyakarta/d22560-ttd?pid=P00303362&mcid=42383&medium=link&campaign=BorobudurPrambananYogyakarta"
         }
       ],
       "style": "normal"
@@ -629,9 +579,7 @@
         {
           "_key": "k26",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -665,9 +613,7 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -679,9 +625,7 @@
         {
           "_key": "k2e",
           "_type": "span",
-          "marks": [
-            "k2d"
-          ],
+          "marks": ["k2d"],
           "text": "Yogyakarta private city tour"
         },
         {
@@ -696,7 +640,7 @@
           "_key": "k2d",
           "_type": "externalLink",
           "blank": true,
-          "href": "https://www.viator.com"
+          "href": "https://www.viator.com/Yogyakarta/d22560-ttd?pid=P00303362&mcid=42383&medium=link&campaign=YogyakartaPrivateCityTour"
         }
       ],
       "style": "normal"
@@ -708,9 +652,7 @@
         {
           "_key": "k2h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -730,9 +672,7 @@
         {
           "_key": "k2k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -766,9 +706,7 @@
         {
           "_key": "k2p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning to evening."
         },
         {
@@ -788,9 +726,7 @@
         {
           "_key": "k2s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -802,9 +738,7 @@
         {
           "_key": "k2v",
           "_type": "span",
-          "marks": [
-            "k2u"
-          ],
+          "marks": ["k2u"],
           "text": "search Cemoro Lawang stays on Booking.com"
         },
         {
@@ -831,9 +765,7 @@
         {
           "_key": "k2y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -845,9 +777,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "k30"
-          ],
+          "marks": ["k30"],
           "text": "4-day Yogyakarta to Bromo and Ijen route"
         },
         {
@@ -859,9 +789,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "k33"
-          ],
+          "marks": ["k33"],
           "text": "Klook overland package"
         },
         {
@@ -876,13 +804,13 @@
           "_key": "k30",
           "_type": "externalLink",
           "blank": true,
-          "href": "https://www.viator.com"
+          "href": "https://www.viator.com/Surabaya/d23060-ttd?pid=P00303362&mcid=42383&medium=link&campaign=YogyakartaBromoIjenOverland"
         },
         {
           "_key": "k33",
           "_type": "externalLink",
           "blank": true,
-          "href": "https://www.klook.com"
+          "href": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fcity%2F34-yogyakarta-things-to-do%2F"
         }
       ],
       "style": "normal"
@@ -894,9 +822,7 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -930,9 +856,7 @@
         {
           "_key": "k3c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -952,9 +876,7 @@
         {
           "_key": "k3f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -974,9 +896,7 @@
         {
           "_key": "k3i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -988,9 +908,7 @@
         {
           "_key": "k3l",
           "_type": "span",
-          "marks": [
-            "k3k"
-          ],
+          "marks": ["k3k"],
           "text": "Mount Bromo sunrise tour"
         },
         {
@@ -1016,9 +934,7 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1052,9 +968,7 @@
         {
           "_key": "k3t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1074,9 +988,7 @@
         {
           "_key": "k3w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1096,9 +1008,7 @@
         {
           "_key": "k3z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1110,9 +1020,7 @@
         {
           "_key": "k42",
           "_type": "span",
-          "marks": [
-            "k41"
-          ],
+          "marks": ["k41"],
           "text": "search Banyuwangi stays on Booking.com"
         },
         {
@@ -1139,9 +1047,7 @@
         {
           "_key": "k45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1153,9 +1059,7 @@
         {
           "_key": "k48",
           "_type": "span",
-          "marks": [
-            "k47"
-          ],
+          "marks": ["k47"],
           "text": "Bromo and Ijen overland tour"
         },
         {
@@ -1170,7 +1074,7 @@
           "_key": "k47",
           "_type": "externalLink",
           "blank": true,
-          "href": "https://www.viator.com"
+          "href": "https://www.viator.com/Surabaya/d23060-ttd?pid=P00303362&mcid=42383&medium=link&campaign=BromoIjenOverlandTour"
         }
       ],
       "style": "normal"
@@ -1196,9 +1100,7 @@
         {
           "_key": "k4d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1218,9 +1120,7 @@
         {
           "_key": "k4g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1232,9 +1132,7 @@
         {
           "_key": "k4j",
           "_type": "span",
-          "marks": [
-            "k4i"
-          ],
+          "marks": ["k4i"],
           "text": "Banyuwangi to Bali ferry"
         },
         {
@@ -1260,9 +1158,7 @@
         {
           "_key": "k4m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1296,9 +1192,7 @@
         {
           "_key": "k4r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1318,9 +1212,7 @@
         {
           "_key": "k4u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1340,9 +1232,7 @@
         {
           "_key": "k4x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1418,9 +1308,7 @@
         {
           "_key": "k58",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -1440,9 +1328,7 @@
         {
           "_key": "k5b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -1462,9 +1348,7 @@
         {
           "_key": "k5e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -1498,9 +1382,7 @@
         {
           "_key": "k5j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -1520,9 +1402,7 @@
         {
           "_key": "k5m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -1542,9 +1422,7 @@
         {
           "_key": "k5p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -1564,9 +1442,7 @@
         {
           "_key": "k5s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1586,9 +1462,7 @@
         {
           "_key": "k5v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -1608,9 +1482,7 @@
         {
           "_key": "k5y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early:"
         },
         {
@@ -1622,9 +1494,7 @@
         {
           "_key": "k60",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to keep flexible:"
         },
         {
@@ -1706,9 +1576,7 @@
         {
           "_key": "k6d",
           "_type": "span",
-          "marks": [
-            "k6c"
-          ],
+          "marks": ["k6c"],
           "text": "Bali itineraries"
         },
         {
@@ -1741,9 +1609,7 @@
         {
           "_key": "k6i",
           "_type": "span",
-          "marks": [
-            "k6h"
-          ],
+          "marks": ["k6h"],
           "text": "Java destination guide"
         },
         {
@@ -1776,9 +1642,7 @@
         {
           "_key": "k6n",
           "_type": "span",
-          "marks": [
-            "k6m"
-          ],
+          "marks": ["k6m"],
           "text": "Bromo and Ijen itineraries"
         },
         {
@@ -1811,9 +1675,7 @@
         {
           "_key": "famkidssp2",
           "_type": "span",
-          "marks": [
-            "famkidsmd1"
-          ],
+          "marks": ["famkidsmd1"],
           "text": "8-day Yogyakarta and Central Java with kids itinerary"
         },
         {
@@ -1846,9 +1708,7 @@
         {
           "_key": "y2b5s2",
           "_type": "span",
-          "marks": [
-            "y2b5daybromoref"
-          ],
+          "marks": ["y2b5daybromoref"],
           "text": "5-day Yogyakarta and Mount Bromo itinerary"
         },
         {
@@ -1881,9 +1741,7 @@
         {
           "_key": "jstujvlvyi",
           "_type": "span",
-          "marks": [
-            "10yedw3wj6"
-          ],
+          "marks": ["10yedw3wj6"],
           "text": "Jakarta to Yogyakarta"
         },
         {
@@ -1895,9 +1753,7 @@
         {
           "_key": "o9yg9x9har",
           "_type": "span",
-          "marks": [
-            "cbvj5n6y6n"
-          ],
+          "marks": ["cbvj5n6y6n"],
           "text": "Bali to Yogyakarta"
         },
         {
@@ -1909,9 +1765,7 @@
         {
           "_key": "ttbkjnuw7g",
           "_type": "span",
-          "marks": [
-            "wm9ipfxtd"
-          ],
+          "marks": ["wm9ipfxtd"],
           "text": "Yogyakarta to Mount Bromo"
         },
         {
@@ -1984,10 +1838,5 @@
   "articleCommercialTier": "standard",
   "logisticsComplexity": "complex",
   "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": [
-    "klook",
-    "booking",
-    "12go",
-    "airalo"
-  ]
+  "secondaryAffiliatePartners": ["klook", "booking", "12go", "airalo"]
 }

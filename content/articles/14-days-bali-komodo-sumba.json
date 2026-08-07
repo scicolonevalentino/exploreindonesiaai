@@ -9,20 +9,12 @@
   "contentStatus": "live",
   "articleCreatedDate": "2026-06-02T05:37:16.639Z",
   "destinationPrimary": "komodo_flores",
-  "destinationSecondary": [
-    "bali"
-  ],
+  "destinationSecondary": ["bali"],
   "travelStylePrimary": "remote_offbeat",
-  "travelStyleSecondary": [
-    "wildlife_nature",
-    "beach_islands"
-  ],
+  "travelStyleSecondary": ["wildlife_nature", "beach_islands"],
   "tripLengthBucket": "two_weeks",
   "tripLengthDays": 14,
-  "travellerTypes": [
-    "couples",
-    "repeat_travellers"
-  ],
+  "travellerTypes": ["couples", "repeat_travellers"],
   "vibe": "balanced",
   "experienceTags": [
     "rice_terraces",
@@ -160,9 +152,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -182,9 +172,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -204,9 +192,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -226,9 +212,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -248,9 +232,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -270,9 +252,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -292,9 +272,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -314,9 +292,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -336,9 +312,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -414,9 +388,7 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -428,9 +400,7 @@
         {
           "_key": "k1a",
           "_type": "span",
-          "marks": [
-            "k19"
-          ],
+          "marks": ["k19"],
           "text": "private airport transfer"
         },
         {
@@ -456,9 +426,7 @@
         {
           "_key": "k1d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -478,9 +446,7 @@
         {
           "_key": "k1g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -500,9 +466,7 @@
         {
           "_key": "k1j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -536,9 +500,7 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -558,9 +520,7 @@
         {
           "_key": "k1r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -572,9 +532,7 @@
         {
           "_key": "k1u",
           "_type": "span",
-          "marks": [
-            "k1t"
-          ],
+          "marks": ["k1t"],
           "text": "private Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -600,9 +558,7 @@
         {
           "_key": "k1x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -622,9 +578,7 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -658,9 +612,7 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -672,9 +624,7 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": [
-            "k27"
-          ],
+          "marks": ["k27"],
           "text": "Mount Batur sunrise jeep experience"
         },
         {
@@ -700,9 +650,7 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -714,9 +662,7 @@
         {
           "_key": "k2e",
           "_type": "span",
-          "marks": [
-            "k2d"
-          ],
+          "marks": ["k2d"],
           "text": "Balinese cooking class"
         },
         {
@@ -742,9 +688,7 @@
         {
           "_key": "k2h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -764,9 +708,7 @@
         {
           "_key": "k2k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -800,9 +742,7 @@
         {
           "_key": "k2p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -822,9 +762,7 @@
         {
           "_key": "k2s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -844,9 +782,7 @@
         {
           "_key": "k2v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -866,9 +802,7 @@
         {
           "_key": "k2y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -888,9 +822,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -924,9 +856,7 @@
         {
           "_key": "k36",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -946,9 +876,7 @@
         {
           "_key": "k39",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -968,9 +896,7 @@
         {
           "_key": "k3c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -990,9 +916,7 @@
         {
           "_key": "k3f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1012,9 +936,7 @@
         {
           "_key": "k3i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1048,9 +970,7 @@
         {
           "_key": "k3n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1070,9 +990,7 @@
         {
           "_key": "k3q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1092,9 +1010,7 @@
         {
           "_key": "k3t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1114,9 +1030,7 @@
         {
           "_key": "k3w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1150,9 +1064,7 @@
         {
           "_key": "k41",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1172,9 +1084,7 @@
         {
           "_key": "k44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1194,9 +1104,7 @@
         {
           "_key": "k47",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1216,9 +1124,7 @@
         {
           "_key": "k4a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1252,9 +1158,7 @@
         {
           "_key": "k4f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1274,9 +1178,7 @@
         {
           "_key": "k4i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1296,9 +1198,7 @@
         {
           "_key": "k4l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1318,9 +1218,7 @@
         {
           "_key": "k4o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1354,9 +1252,7 @@
         {
           "_key": "k4t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1376,9 +1272,7 @@
         {
           "_key": "k4w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1398,9 +1292,7 @@
         {
           "_key": "k4z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1420,9 +1312,7 @@
         {
           "_key": "k52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1456,9 +1346,7 @@
         {
           "_key": "k57",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1478,9 +1366,7 @@
         {
           "_key": "k5a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1500,9 +1386,7 @@
         {
           "_key": "k5d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1522,9 +1406,7 @@
         {
           "_key": "k5g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1558,9 +1440,7 @@
         {
           "_key": "k5l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1580,9 +1460,7 @@
         {
           "_key": "k5o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1602,9 +1480,7 @@
         {
           "_key": "k5r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1624,9 +1500,7 @@
         {
           "_key": "k5u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1660,9 +1534,7 @@
         {
           "_key": "k5z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1682,9 +1554,7 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1704,9 +1574,7 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1726,9 +1594,7 @@
         {
           "_key": "k68",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1762,9 +1628,7 @@
         {
           "_key": "k6d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1784,9 +1648,7 @@
         {
           "_key": "k6g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1798,9 +1660,7 @@
         {
           "_key": "k6j",
           "_type": "span",
-          "marks": [
-            "k6i"
-          ],
+          "marks": ["k6i"],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -1826,9 +1686,7 @@
         {
           "_key": "k6m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1848,9 +1706,7 @@
         {
           "_key": "k6p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1884,9 +1740,7 @@
         {
           "_key": "k6u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1906,9 +1760,7 @@
         {
           "_key": "k6x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1928,9 +1780,7 @@
         {
           "_key": "k70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1964,9 +1814,7 @@
         {
           "_key": "k75",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1986,9 +1834,7 @@
         {
           "_key": "k78",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -2106,9 +1952,7 @@
         {
           "_key": "k7p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -2128,9 +1972,7 @@
         {
           "_key": "k7s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -2150,9 +1992,7 @@
         {
           "_key": "k7v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -2186,9 +2026,7 @@
         {
           "_key": "k80",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -2208,9 +2046,7 @@
         {
           "_key": "k83",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -2230,9 +2066,7 @@
         {
           "_key": "k86",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -2252,9 +2086,7 @@
         {
           "_key": "k89",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -2274,9 +2106,7 @@
         {
           "_key": "k8c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -2296,9 +2126,7 @@
         {
           "_key": "k8f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early:"
         },
         {
@@ -2318,9 +2146,7 @@
         {
           "_key": "k8i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to keep flexible:"
         },
         {
@@ -2402,9 +2228,7 @@
         {
           "_key": "k8v",
           "_type": "span",
-          "marks": [
-            "k8u"
-          ],
+          "marks": ["k8u"],
           "text": "Bali and Komodo without the Sumba leg"
         },
         {
@@ -2437,9 +2261,7 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": [
-            "k8z"
-          ],
+          "marks": ["k8z"],
           "text": "Komodo and Flores focused route"
         },
         {
@@ -2472,9 +2294,7 @@
         {
           "_key": "k95",
           "_type": "span",
-          "marks": [
-            "k94"
-          ],
+          "marks": ["k94"],
           "text": "Komodo and Flores destination guide"
         },
         {
@@ -2507,9 +2327,7 @@
         {
           "_key": "xqgbo402w7",
           "_type": "span",
-          "marks": [
-            "wtwnyuwe69"
-          ],
+          "marks": ["wtwnyuwe69"],
           "text": "Bali to Sumbawa"
         },
         {
@@ -2570,9 +2388,5 @@
   "articleCommercialTier": "standard",
   "logisticsComplexity": "moderate",
   "primaryAffiliatePartner": "klook",
-  "secondaryAffiliatePartners": [
-    "viator",
-    "booking",
-    "airalo"
-  ]
+  "secondaryAffiliatePartners": ["viator", "booking", "airalo"]
 }

@@ -9,21 +9,12 @@
   "contentStatus": "live",
   "articleCreatedDate": "2026-06-02T05:00:00.000Z",
   "destinationPrimary": "bali",
-  "destinationSecondary": [
-    "bali_nearby_islands"
-  ],
+  "destinationSecondary": ["bali_nearby_islands"],
   "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": [
-    "culture_temples",
-    "beach_islands"
-  ],
+  "travelStyleSecondary": ["culture_temples", "beach_islands"],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
-  "travellerTypes": [
-    "solo_travellers",
-    "couples",
-    "friends"
-  ],
+  "travellerTypes": ["solo_travellers", "couples", "friends"],
   "vibe": "balanced",
   "experienceTags": [
     "rice_terraces",
@@ -98,7 +89,7 @@
       "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
     },
     {
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/sanur/nusa-penida?z=16022946",
       "anchorText": "Sanur to Nusa Penida fast boat",
       "experienceCategory": "boat_ferry",
       "linkStatus": "live",
@@ -192,9 +183,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -214,9 +203,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -236,9 +223,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -258,9 +243,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -280,9 +263,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -302,9 +283,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -324,9 +303,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -346,9 +323,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -368,9 +343,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -502,9 +475,7 @@
         {
           "_key": "k1f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning / Afternoon."
         },
         {
@@ -524,9 +495,7 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -546,9 +515,7 @@
         {
           "_key": "k1l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -560,9 +527,7 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": [
-            "k1n"
-          ],
+          "marks": ["k1n"],
           "text": "private airport transfer"
         },
         {
@@ -588,9 +553,7 @@
         {
           "_key": "k1r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -624,9 +587,7 @@
         {
           "_key": "k1w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -646,9 +607,7 @@
         {
           "_key": "k1z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -668,9 +627,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -682,9 +639,7 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": [
-            "k24"
-          ],
+          "marks": ["k24"],
           "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -710,9 +665,7 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -732,9 +685,7 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -782,9 +733,7 @@
         {
           "_key": "k2i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning, Option A, more active."
         },
         {
@@ -796,9 +745,7 @@
         {
           "_key": "k2l",
           "_type": "span",
-          "marks": [
-            "k2k"
-          ],
+          "marks": ["k2k"],
           "text": "Mount Batur sunrise jeep experience"
         },
         {
@@ -810,9 +757,7 @@
         {
           "_key": "k2n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -838,9 +783,7 @@
         {
           "_key": "k2q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning, Option B, slower and cultural."
         },
         {
@@ -852,9 +795,7 @@
         {
           "_key": "k2t",
           "_type": "span",
-          "marks": [
-            "k2s"
-          ],
+          "marks": ["k2s"],
           "text": "Balinese cooking class"
         },
         {
@@ -880,9 +821,7 @@
         {
           "_key": "k2w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon / Evening."
         },
         {
@@ -902,9 +841,7 @@
         {
           "_key": "k2z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -938,9 +875,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -960,9 +895,7 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -974,9 +907,7 @@
         {
           "_key": "k3a",
           "_type": "span",
-          "marks": [
-            "k39"
-          ],
+          "marks": ["k39"],
           "text": "private car charter"
         },
         {
@@ -1002,9 +933,7 @@
         {
           "_key": "k3d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1024,9 +953,7 @@
         {
           "_key": "k3g",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1046,9 +973,7 @@
         {
           "_key": "k3j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1082,9 +1007,7 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Early morning."
         },
         {
@@ -1104,9 +1027,7 @@
         {
           "_key": "k3r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic, the boat."
         },
         {
@@ -1118,9 +1039,7 @@
         {
           "_key": "k3u",
           "_type": "span",
-          "marks": [
-            "k3t"
-          ],
+          "marks": ["k3t"],
           "text": "Sanur to Nusa Penida fast boat"
         },
         {
@@ -1146,9 +1065,7 @@
         {
           "_key": "k3x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Daytime."
         },
         {
@@ -1160,9 +1077,7 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": [
-            "k3z"
-          ],
+          "marks": ["k3z"],
           "text": "Nusa Penida full-day trip from Bali"
         },
         {
@@ -1188,9 +1103,7 @@
         {
           "_key": "k43",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1210,9 +1123,7 @@
         {
           "_key": "k46",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1246,9 +1157,7 @@
         {
           "_key": "k4b",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1268,9 +1177,7 @@
         {
           "_key": "k4e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1290,9 +1197,7 @@
         {
           "_key": "k4h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1312,9 +1217,7 @@
         {
           "_key": "k4k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1326,9 +1229,7 @@
         {
           "_key": "k4n",
           "_type": "span",
-          "marks": [
-            "k4m"
-          ],
+          "marks": ["k4m"],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -1340,9 +1241,7 @@
         {
           "_key": "k4p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1382,9 +1281,7 @@
         {
           "_key": "k4u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1404,9 +1301,7 @@
         {
           "_key": "k4x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1440,9 +1335,7 @@
         {
           "_key": "k52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1462,9 +1355,7 @@
         {
           "_key": "k55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1568,9 +1459,7 @@
         {
           "_key": "k5k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -1590,9 +1479,7 @@
         {
           "_key": "k5n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -1612,9 +1499,7 @@
         {
           "_key": "k5q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -1648,9 +1533,7 @@
         {
           "_key": "k5v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -1670,9 +1553,7 @@
         {
           "_key": "k5y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -1692,9 +1573,7 @@
         {
           "_key": "k61",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -1714,9 +1593,7 @@
         {
           "_key": "k64",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1736,9 +1613,7 @@
         {
           "_key": "k67",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -1758,9 +1633,7 @@
         {
           "_key": "k6a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early vs keep flexible:"
         },
         {
@@ -1842,9 +1715,7 @@
         {
           "_key": "k6n",
           "_type": "span",
-          "marks": [
-            "k6m"
-          ],
+          "marks": ["k6m"],
           "text": "Nusa Penida and Nusa Lembongan focused route"
         },
         {
@@ -1877,9 +1748,7 @@
         {
           "_key": "k6s",
           "_type": "span",
-          "marks": [
-            "k6r"
-          ],
+          "marks": ["k6r"],
           "text": "10-day Bali and Lombok itinerary"
         },
         {
@@ -1912,9 +1781,7 @@
         {
           "_key": "k6x",
           "_type": "span",
-          "marks": [
-            "k6w"
-          ],
+          "marks": ["k6w"],
           "text": "Bali destination hub"
         },
         {
@@ -1947,9 +1814,7 @@
         {
           "_key": "2ofbuq2fvy",
           "_type": "span",
-          "marks": [
-            "7hn0oebo1a"
-          ],
+          "marks": ["7hn0oebo1a"],
           "text": "Bali to Gili Islands"
         },
         {
@@ -1961,9 +1826,7 @@
         {
           "_key": "4zddatx4kj",
           "_type": "span",
-          "marks": [
-            "ntkoo4hmyf"
-          ],
+          "marks": ["ntkoo4hmyf"],
           "text": "Bali to Nusa Penida"
         },
         {
@@ -1975,9 +1838,7 @@
         {
           "_key": "63t67gzdno",
           "_type": "span",
-          "marks": [
-            "e20sis0y9y"
-          ],
+          "marks": ["e20sis0y9y"],
           "text": "Jakarta to Bali"
         },
         {

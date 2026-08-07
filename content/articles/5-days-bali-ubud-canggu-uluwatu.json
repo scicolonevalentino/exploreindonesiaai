@@ -11,17 +11,10 @@
   "destinationPrimary": "bali",
   "destinationSecondary": [],
   "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": [
-    "culture_temples",
-    "beach_islands"
-  ],
+  "travelStyleSecondary": ["culture_temples", "beach_islands"],
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "active",
   "experienceTags": [
     "rice_terraces",
@@ -103,6 +96,33 @@
       "partner": "viator",
       "placeholderId": "VIATOR_ULUWATU_KECAK",
       "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Ubud stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_UBUD",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Canggu stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_CANGGU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Uluwatu stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_ULUWATU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
   "body": [
@@ -169,9 +189,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -191,9 +209,7 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -213,9 +229,7 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -235,9 +249,7 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -257,9 +269,7 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -279,9 +289,7 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -301,9 +309,7 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -323,9 +329,7 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -345,9 +349,7 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -423,9 +425,7 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -437,9 +437,7 @@
         {
           "_key": "k1a",
           "_type": "span",
-          "marks": [
-            "k19"
-          ],
+          "marks": ["k19"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -466,9 +464,7 @@
         {
           "_key": "k1d",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -502,9 +498,7 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -516,9 +510,7 @@
         {
           "_key": "k1l",
           "_type": "span",
-          "marks": [
-            "k1k"
-          ],
+          "marks": ["k1k"],
           "text": "private airport transfer"
         },
         {
@@ -530,9 +522,7 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": [
-            "k1n"
-          ],
+          "marks": ["k1n"],
           "text": "private airport transfer"
         },
         {
@@ -564,9 +554,7 @@
         {
           "_key": "k1r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -586,19 +574,35 @@
         {
           "_key": "k1u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k1v",
+          "_key": "k1va",
           "_type": "span",
           "marks": [],
-          "text": " Ubud, 2 nights. Staying near Ubud Palace or Jalan Bisma keeps you walking distance from restaurants, the morning market and drivers. Search Ubud stays on Booking.com when you compare areas."
+          "text": " Ubud, 2 nights. Staying near Ubud Palace or Jalan Bisma keeps you walking distance from restaurants, the morning market and drivers. "
+        },
+        {
+          "_key": "k1vb",
+          "_type": "span",
+          "marks": ["bk0ubud"],
+          "text": "Search Ubud stays on Booking.com"
+        },
+        {
+          "_key": "k1vc",
+          "_type": "span",
+          "marks": [],
+          "text": " when you compare areas."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk0ubud",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -608,9 +612,7 @@
         {
           "_key": "k1x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -644,9 +646,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -666,9 +666,7 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -680,9 +678,7 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": [
-            "k27"
-          ],
+          "marks": ["k27"],
           "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -694,9 +690,7 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": [
-            "k2a"
-          ],
+          "marks": ["k2a"],
           "text": "Ubud highlights tour"
         },
         {
@@ -728,9 +722,7 @@
         {
           "_key": "k2e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -750,9 +742,7 @@
         {
           "_key": "k2h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -786,9 +776,7 @@
         {
           "_key": "k2m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -800,9 +788,7 @@
         {
           "_key": "k2p",
           "_type": "span",
-          "marks": [
-            "k2o"
-          ],
+          "marks": ["k2o"],
           "text": "Mount Batur sunrise jeep experience"
         },
         {
@@ -828,9 +814,7 @@
         {
           "_key": "k2s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -842,9 +826,7 @@
         {
           "_key": "k2v",
           "_type": "span",
-          "marks": [
-            "k2u"
-          ],
+          "marks": ["k2u"],
           "text": "Balinese cooking class"
         },
         {
@@ -870,9 +852,7 @@
         {
           "_key": "k2y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -884,9 +864,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "k30"
-          ],
+          "marks": ["k30"],
           "text": "private car charter"
         },
         {
@@ -912,9 +890,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -934,19 +910,35 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k38",
+          "_key": "k38a",
           "_type": "span",
           "marks": [],
-          "text": " Canggu, 1 night. The Batu Bolong or Berawa area gives the best beach access. Search Canggu stays on Booking.com to compare."
+          "text": " Canggu, 1 night. The Batu Bolong or Berawa area gives the best beach access. "
+        },
+        {
+          "_key": "k38b",
+          "_type": "span",
+          "marks": ["bk1canggu"],
+          "text": "Search Canggu stays on Booking.com"
+        },
+        {
+          "_key": "k38c",
+          "_type": "span",
+          "marks": [],
+          "text": " to compare."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk1canggu",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_CANGGU"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -970,9 +962,7 @@
         {
           "_key": "k3c",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -992,9 +982,7 @@
         {
           "_key": "k3f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1014,9 +1002,7 @@
         {
           "_key": "k3i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1028,9 +1014,7 @@
         {
           "_key": "k3l",
           "_type": "span",
-          "marks": [
-            "k3k"
-          ],
+          "marks": ["k3k"],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -1056,19 +1040,35 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
-          "_key": "k3p",
+          "_key": "k3pa",
           "_type": "span",
           "marks": [],
-          "text": " Uluwatu, 1 night. It sits closer to the airport than Ubud or Canggu, around 30 to 45 minutes in normal traffic. Search Uluwatu stays on Booking.com."
+          "text": " Uluwatu, 1 night. It sits closer to the airport than Ubud or Canggu, around 30 to 45 minutes in normal traffic. "
+        },
+        {
+          "_key": "k3pb",
+          "_type": "span",
+          "marks": ["bk2uluwatu"],
+          "text": "Search Uluwatu stays on Booking.com"
+        },
+        {
+          "_key": "k3pc",
+          "_type": "span",
+          "marks": [],
+          "text": "."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "bk2uluwatu",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_ULUWATU"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1078,9 +1078,7 @@
         {
           "_key": "k3r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1114,9 +1112,7 @@
         {
           "_key": "k3w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1136,9 +1132,7 @@
         {
           "_key": "k3z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1172,9 +1166,7 @@
         {
           "_key": "k44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1194,9 +1186,7 @@
         {
           "_key": "k47",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1272,9 +1262,7 @@
         {
           "_key": "k4i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -1294,9 +1282,7 @@
         {
           "_key": "k4l",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -1316,9 +1302,7 @@
         {
           "_key": "k4o",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -1352,9 +1336,7 @@
         {
           "_key": "k4t",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -1374,9 +1356,7 @@
         {
           "_key": "k4w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -1396,9 +1376,7 @@
         {
           "_key": "k4z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -1418,9 +1396,7 @@
         {
           "_key": "k52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1440,9 +1416,7 @@
         {
           "_key": "k55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -1462,9 +1436,7 @@
         {
           "_key": "k58",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early vs flexible:"
         },
         {
@@ -1546,9 +1518,7 @@
         {
           "_key": "k5l",
           "_type": "span",
-          "marks": [
-            "k5k"
-          ],
+          "marks": ["k5k"],
           "text": "7-day Bali and Nusa Penida itinerary"
         },
         {
@@ -1581,9 +1551,7 @@
         {
           "_key": "k5q",
           "_type": "span",
-          "marks": [
-            "k5p"
-          ],
+          "marks": ["k5p"],
           "text": "Bali surf and beaches itinerary"
         },
         {
@@ -1616,9 +1584,7 @@
         {
           "_key": "k5v",
           "_type": "span",
-          "marks": [
-            "k5u"
-          ],
+          "marks": ["k5u"],
           "text": "Bali destination hub"
         },
         {
@@ -1651,9 +1617,7 @@
         {
           "_key": "ku49mkz2xx",
           "_type": "span",
-          "marks": [
-            "7bjc1me7nq"
-          ],
+          "marks": ["7bjc1me7nq"],
           "text": "Denpasar Airport to Ubud"
         },
         {
@@ -1718,9 +1682,5 @@
   "articleCommercialTier": "hero",
   "logisticsComplexity": "easy",
   "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": [
-    "klook",
-    "booking",
-    "airalo"
-  ]
+  "secondaryAffiliatePartners": ["klook", "booking", "airalo"]
 }

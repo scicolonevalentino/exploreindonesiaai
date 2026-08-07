@@ -11,24 +11,12 @@
   "destinationPrimary": "lombok_gili",
   "destinationSecondary": [],
   "travelStylePrimary": "beach_islands",
-  "travelStyleSecondary": [
-    "adventure_volcanoes",
-    "wildlife_nature"
-  ],
+  "travelStyleSecondary": ["adventure_volcanoes", "wildlife_nature"],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "balanced",
-  "experienceTags": [
-    "waterfalls",
-    "beach_sunset",
-    "snorkeling",
-    "island_day_trip"
-  ],
+  "experienceTags": ["waterfalls", "beach_sunset", "snorkeling", "island_day_trip"],
   "bestSeason": "April–October",
   "route": "Kuta Lombok → Senaru → Gili Trawangan",
   "focusKeyword": "7 days Lombok Gili Islands itinerary",
@@ -51,7 +39,7 @@
       "publicUrl": "https://www.airalo.com/indonesia-esim"
     },
     {
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/gili-trawangan/bali?z=16022946",
       "anchorText": "Gili Trawangan to Bali boat",
       "experienceCategory": null,
       "linkStatus": "live",
@@ -199,9 +187,7 @@
         {
           "_key": "ka",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -221,9 +207,7 @@
         {
           "_key": "kd",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start:"
         },
         {
@@ -235,9 +219,7 @@
         {
           "_key": "kf",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "End:"
         },
         {
@@ -257,9 +239,7 @@
         {
           "_key": "ki",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -279,9 +259,7 @@
         {
           "_key": "kl",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -301,9 +279,7 @@
         {
           "_key": "ko",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -323,9 +299,7 @@
         {
           "_key": "kr",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -345,9 +319,7 @@
         {
           "_key": "ku",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -367,9 +339,7 @@
         {
           "_key": "kx",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -389,9 +359,7 @@
         {
           "_key": "k10",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -487,9 +455,7 @@
         {
           "_key": "k1f",
           "_type": "span",
-          "marks": [
-            "k1e"
-          ],
+          "marks": ["k1e"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -515,9 +481,7 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -551,9 +515,7 @@
         {
           "_key": "k1n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -573,9 +535,7 @@
         {
           "_key": "k1q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -587,9 +547,7 @@
         {
           "_key": "k1t",
           "_type": "span",
-          "marks": [
-            "k1s"
-          ],
+          "marks": ["k1s"],
           "text": "private airport transfer to Kuta Lombok"
         },
         {
@@ -615,9 +573,7 @@
         {
           "_key": "k1w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -637,9 +593,7 @@
         {
           "_key": "k1z",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -659,9 +613,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -695,9 +647,7 @@
         {
           "_key": "k27",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -717,9 +667,7 @@
         {
           "_key": "k2a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -731,9 +679,7 @@
         {
           "_key": "k2d",
           "_type": "span",
-          "marks": [
-            "k2c"
-          ],
+          "marks": ["k2c"],
           "text": "South Lombok beach tour"
         },
         {
@@ -745,9 +691,7 @@
         {
           "_key": "k2g",
           "_type": "span",
-          "marks": [
-            "k2f"
-          ],
+          "marks": ["k2f"],
           "text": "beginner surf lesson at Selong Belanak"
         },
         {
@@ -778,9 +722,7 @@
         {
           "_key": "k2j",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -800,9 +742,7 @@
         {
           "_key": "k2m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -836,9 +776,7 @@
         {
           "_key": "k2r",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -858,9 +796,7 @@
         {
           "_key": "k2u",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -880,9 +816,7 @@
         {
           "_key": "k2x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -902,9 +836,7 @@
         {
           "_key": "k30",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -938,9 +870,7 @@
         {
           "_key": "k35",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -960,9 +890,7 @@
         {
           "_key": "k38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -974,9 +902,7 @@
         {
           "_key": "k3b",
           "_type": "span",
-          "marks": [
-            "k3a"
-          ],
+          "marks": ["k3a"],
           "text": "Sendang Gile and Tiu Kelep waterfalls day trip"
         },
         {
@@ -1002,9 +928,7 @@
         {
           "_key": "k3e",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1024,9 +948,7 @@
         {
           "_key": "k3h",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1046,9 +968,7 @@
         {
           "_key": "k3k",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1082,9 +1002,7 @@
         {
           "_key": "k3p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1096,9 +1014,7 @@
         {
           "_key": "k3s",
           "_type": "span",
-          "marks": [
-            "k3r"
-          ],
+          "marks": ["k3r"],
           "text": "fast boat from Lombok to Gili Trawangan"
         },
         {
@@ -1124,9 +1040,7 @@
         {
           "_key": "k3v",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1146,9 +1060,7 @@
         {
           "_key": "k3y",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1168,9 +1080,7 @@
         {
           "_key": "k41",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1190,9 +1100,7 @@
         {
           "_key": "k44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1226,9 +1134,7 @@
         {
           "_key": "k49",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1240,9 +1146,7 @@
         {
           "_key": "k4c",
           "_type": "span",
-          "marks": [
-            "k4b"
-          ],
+          "marks": ["k4b"],
           "text": "3-island Gili snorkeling tour with turtles"
         },
         {
@@ -1268,9 +1172,7 @@
         {
           "_key": "k4f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1290,9 +1192,7 @@
         {
           "_key": "k4i",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1326,9 +1226,7 @@
         {
           "_key": "k4n",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1348,9 +1246,7 @@
         {
           "_key": "k4q",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1362,9 +1258,7 @@
         {
           "_key": "k4t",
           "_type": "span",
-          "marks": [
-            "k4s"
-          ],
+          "marks": ["k4s"],
           "text": "Gili Trawangan to Bali boat"
         },
         {
@@ -1390,9 +1284,7 @@
         {
           "_key": "k4w",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1426,9 +1318,7 @@
         {
           "_key": "k51",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1448,9 +1338,7 @@
         {
           "_key": "k54",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1470,9 +1358,7 @@
         {
           "_key": "k57",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1576,9 +1462,7 @@
         {
           "_key": "k5m",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut:"
         },
         {
@@ -1598,9 +1482,7 @@
         {
           "_key": "k5p",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt:"
         },
         {
@@ -1620,9 +1502,7 @@
         {
           "_key": "k5s",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade:"
         },
         {
@@ -1656,9 +1536,7 @@
         {
           "_key": "k5x",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -1678,9 +1556,7 @@
         {
           "_key": "k60",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa and entry:"
         },
         {
@@ -1700,9 +1576,7 @@
         {
           "_key": "k63",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Domestic transport:"
         },
         {
@@ -1722,9 +1596,7 @@
         {
           "_key": "k66",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1744,9 +1616,7 @@
         {
           "_key": "k69",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and eSIM:"
         },
         {
@@ -1758,9 +1628,7 @@
         {
           "_key": "k6c",
           "_type": "span",
-          "marks": [
-            "k6b"
-          ],
+          "marks": ["k6b"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -1786,9 +1654,7 @@
         {
           "_key": "k6f",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early vs flexible:"
         },
         {
@@ -1892,9 +1758,7 @@
         {
           "_key": "k6v",
           "_type": "span",
-          "marks": [
-            "k6u"
-          ],
+          "marks": ["k6u"],
           "text": "Explore the Lombok and Gili Islands hub"
         },
         {
@@ -1921,9 +1785,7 @@
         {
           "_key": "k6z",
           "_type": "span",
-          "marks": [
-            "k6y"
-          ],
+          "marks": ["k6y"],
           "text": "Bali and the Gili Islands itinerary"
         },
         {
@@ -1950,9 +1812,7 @@
         {
           "_key": "k73",
           "_type": "span",
-          "marks": [
-            "k72"
-          ],
+          "marks": ["k72"],
           "text": "Nusa Islands island-hopping itinerary"
         },
         {
@@ -1985,9 +1845,7 @@
         {
           "_key": "hmInboundS2",
           "_type": "span",
-          "marks": [
-            "hmInboundMd1"
-          ],
+          "marks": ["hmInboundMd1"],
           "text": "Lombok and Gili Islands honeymoon itinerary"
         },
         {
@@ -2020,9 +1878,7 @@
         {
           "_key": "gili4-inb-1-s2",
           "_type": "span",
-          "marks": [
-            "gili4-lnk-1"
-          ],
+          "marks": ["gili4-lnk-1"],
           "text": "4-day Gili Islands escape"
         },
         {
@@ -2055,9 +1911,7 @@
         {
           "_key": "y2h39h3lwn",
           "_type": "span",
-          "marks": [
-            "pijq8q4y4b"
-          ],
+          "marks": ["pijq8q4y4b"],
           "text": "Bali to Lombok"
         },
         {
@@ -2069,9 +1923,7 @@
         {
           "_key": "qwtucyjq24",
           "_type": "span",
-          "marks": [
-            "7ximue23tg"
-          ],
+          "marks": ["7ximue23tg"],
           "text": "Lombok to Gili Islands"
         },
         {
@@ -2143,10 +1995,5 @@
   "logisticsComplexity": "easy",
   "primaryAffiliatePartner": "klook",
   "routeSummary": "Kuta Lombok → Senaru → Gili Trawangan",
-  "secondaryAffiliatePartners": [
-    "viator",
-    "booking",
-    "12go",
-    "airalo"
-  ]
+  "secondaryAffiliatePartners": ["viator", "booking", "12go", "airalo"]
 }

@@ -10,23 +10,12 @@
   "articleCreatedDate": "2026-07-03T06:14:57Z",
   "destinationPrimary": "komodo_flores",
   "travelStylePrimary": "diving_snorkeling",
-  "travelStyleSecondary": [
-    "wildlife_nature"
-  ],
+  "travelStyleSecondary": ["wildlife_nature"],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
-  "travellerTypes": [
-    "divers",
-    "couples",
-    "friends"
-  ],
+  "travellerTypes": ["divers", "couples", "friends"],
   "vibe": "active",
-  "experienceTags": [
-    "diving",
-    "snorkeling",
-    "wildlife",
-    "island_day_trip"
-  ],
+  "experienceTags": ["diving", "snorkeling", "wildlife", "island_day_trip"],
   "bestSeason": "April–November",
   "route": "Labuan Bajo → Central Komodo dive sites → South Komodo → Labuan Bajo",
   "focusKeyword": "Komodo diving itinerary",
@@ -143,9 +132,7 @@
         {
           "_key": "s5",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -165,9 +152,7 @@
         {
           "_key": "s7",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -187,9 +172,7 @@
         {
           "_key": "s9",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best months to dive:"
         },
         {
@@ -209,9 +192,7 @@
         {
           "_key": "s11",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Dive level:"
         },
         {
@@ -231,9 +212,7 @@
         {
           "_key": "s13",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Rough shape:"
         },
         {
@@ -281,9 +260,7 @@
         {
           "_key": "s17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -295,9 +272,7 @@
         {
           "_key": "s19",
           "_type": "span",
-          "marks": [
-            "m1"
-          ],
+          "marks": ["m1"],
           "text": "12Go"
         },
         {
@@ -365,9 +340,7 @@
         {
           "_key": "s24",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Connectivity."
         },
         {
@@ -379,9 +352,7 @@
         {
           "_key": "s26",
           "_type": "span",
-          "marks": [
-            "m2"
-          ],
+          "marks": ["m2"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -435,9 +406,7 @@
         {
           "_key": "s30",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -457,9 +426,7 @@
         {
           "_key": "s32",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -479,9 +446,7 @@
         {
           "_key": "s34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -501,9 +466,7 @@
         {
           "_key": "s36",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -523,9 +486,7 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -559,9 +520,7 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -581,9 +540,7 @@
         {
           "_key": "s43",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -603,9 +560,7 @@
         {
           "_key": "s45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -625,9 +580,7 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -661,9 +614,7 @@
         {
           "_key": "s50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -683,9 +634,7 @@
         {
           "_key": "s52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -705,9 +654,7 @@
         {
           "_key": "s54",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -727,9 +674,7 @@
         {
           "_key": "s56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -763,9 +708,7 @@
         {
           "_key": "s59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -777,9 +720,7 @@
         {
           "_key": "s61",
           "_type": "span",
-          "marks": [
-            "m3"
-          ],
+          "marks": ["m3"],
           "text": "full-day Komodo speedboat tour"
         },
         {
@@ -805,9 +746,7 @@
         {
           "_key": "s63",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -827,9 +766,7 @@
         {
           "_key": "s65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -849,9 +786,7 @@
         {
           "_key": "s67",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -885,9 +820,7 @@
         {
           "_key": "s70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -907,9 +840,7 @@
         {
           "_key": "s72",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -929,9 +860,7 @@
         {
           "_key": "s74",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -951,9 +880,7 @@
         {
           "_key": "s76",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -987,9 +914,7 @@
         {
           "_key": "s79",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1009,9 +934,7 @@
         {
           "_key": "s81",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1031,9 +954,7 @@
         {
           "_key": "s83",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1053,9 +974,7 @@
         {
           "_key": "s85",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -1089,9 +1008,7 @@
         {
           "_key": "s88",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1111,9 +1028,7 @@
         {
           "_key": "s90",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1147,9 +1062,7 @@
         {
           "_key": "s93",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1169,9 +1082,7 @@
         {
           "_key": "s95",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1205,9 +1116,7 @@
         {
           "_key": "s98",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut to 5 days:"
         },
         {
@@ -1219,9 +1128,7 @@
         {
           "_key": "s100",
           "_type": "span",
-          "marks": [
-            "m4"
-          ],
+          "marks": ["m4"],
           "text": "5-day Labuan Bajo and Komodo itinerary"
         },
         {
@@ -1248,9 +1155,7 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade to a liveaboard:"
         },
         {
@@ -1270,9 +1175,7 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt for a non-diving partner:"
         },
         {
@@ -1284,9 +1187,7 @@
         {
           "_key": "s106",
           "_type": "span",
-          "marks": [
-            "m5"
-          ],
+          "marks": ["m5"],
           "text": "snorkelling trip on the dive boat"
         },
         {
@@ -1326,9 +1227,7 @@
         {
           "_key": "s109",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the current."
         },
         {
@@ -1348,9 +1247,7 @@
         {
           "_key": "s111",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Diving too close to the flight."
         },
         {
@@ -1370,9 +1267,7 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Over-shopping on price."
         },
         {
@@ -1392,9 +1287,7 @@
         {
           "_key": "s115",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Ignoring the cold south."
         },
         {
@@ -1414,9 +1307,7 @@
         {
           "_key": "s117",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Leaving park pre-booking to chance."
         },
         {
@@ -1450,9 +1341,7 @@
         {
           "_key": "s120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Get current before you go."
         },
         {
@@ -1472,9 +1361,7 @@
         {
           "_key": "s122",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Match the season to what you want."
         },
         {
@@ -1494,9 +1381,7 @@
         {
           "_key": "s124",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget realistically."
         },
         {
@@ -1564,9 +1449,7 @@
         {
           "_key": "s130",
           "_type": "span",
-          "marks": [
-            "m6"
-          ],
+          "marks": ["m6"],
           "text": "5-day Labuan Bajo and Komodo itinerary"
         },
         {
@@ -1578,9 +1461,7 @@
         {
           "_key": "s132",
           "_type": "span",
-          "marks": [
-            "m7"
-          ],
+          "marks": ["m7"],
           "text": "10-day Komodo and Flores route"
         },
         {
@@ -1592,9 +1473,7 @@
         {
           "_key": "s134",
           "_type": "span",
-          "marks": [
-            "m8"
-          ],
+          "marks": ["m8"],
           "text": "14-day Raja Ampat itinerary for divers"
         },
         {
@@ -1606,9 +1485,7 @@
         {
           "_key": "s136",
           "_type": "span",
-          "marks": [
-            "m9"
-          ],
+          "marks": ["m9"],
           "text": "Komodo and Flores destination guide"
         },
         {

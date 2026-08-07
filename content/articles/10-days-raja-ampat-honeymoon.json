@@ -12,19 +12,9 @@
   "travelStylePrimary": "romantic_escape",
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 10,
-  "travellerTypes": [
-    "honeymooners",
-    "couples"
-  ],
+  "travellerTypes": ["honeymooners", "couples"],
   "vibe": "remote",
-  "experienceTags": [
-    "snorkeling",
-    "islands",
-    "wildlife",
-    "remote",
-    "karst",
-    "romantic"
-  ],
+  "experienceTags": ["snorkeling", "islands", "wildlife", "remote", "karst", "romantic"],
   "bestSeason": "October–April",
   "route": "Sorong → Waisai → Gam / Mansuar / Kri → Piaynemo → Sorong",
   "focusKeyword": "Raja Ampat honeymoon",
@@ -43,7 +33,7 @@
     },
     {
       "_key": "aff227",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/sorong/waisai?z=16022946",
       "placeholderId": "TWELVEGO_SORONG_WAISAI"
     }
   ],
@@ -125,9 +115,7 @@
         {
           "_key": "s11",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -139,9 +127,7 @@
         {
           "_key": "s13",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Start and end:"
         },
         {
@@ -153,9 +139,7 @@
         {
           "_key": "s15",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for:"
         },
         {
@@ -167,9 +151,7 @@
         {
           "_key": "s17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not ideal for:"
         },
         {
@@ -189,9 +171,7 @@
         {
           "_key": "s20",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel style:"
         },
         {
@@ -203,9 +183,7 @@
         {
           "_key": "s22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget:"
         },
         {
@@ -217,9 +195,7 @@
         {
           "_key": "s24",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Logistics level:"
         },
         {
@@ -231,9 +207,7 @@
         {
           "_key": "s26",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time:"
         },
         {
@@ -245,9 +219,7 @@
         {
           "_key": "s28",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking difficulty:"
         },
         {
@@ -315,9 +287,7 @@
         {
           "_key": "s39",
           "_type": "span",
-          "marks": [
-            "a37"
-          ],
+          "marks": ["a37"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -357,9 +327,7 @@
         {
           "_key": "s44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -371,9 +339,7 @@
         {
           "_key": "s46",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -385,9 +351,7 @@
         {
           "_key": "s48",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -399,9 +363,7 @@
         {
           "_key": "s50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -435,9 +397,7 @@
         {
           "_key": "s56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -449,9 +409,7 @@
         {
           "_key": "s58",
           "_type": "span",
-          "marks": [
-            "a55"
-          ],
+          "marks": ["a55"],
           "text": "Sorong to Waisai ferry"
         },
         {
@@ -463,9 +421,7 @@
         {
           "_key": "s60",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "On arrival at Waisai."
         },
         {
@@ -491,9 +447,7 @@
         {
           "_key": "s63",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -505,9 +459,7 @@
         {
           "_key": "s65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -519,9 +471,7 @@
         {
           "_key": "s67",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -533,9 +483,7 @@
         {
           "_key": "s69",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -569,9 +517,7 @@
         {
           "_key": "s74",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -583,9 +529,7 @@
         {
           "_key": "s76",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -597,9 +541,7 @@
         {
           "_key": "s78",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -611,9 +553,7 @@
         {
           "_key": "s80",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -625,9 +565,7 @@
         {
           "_key": "s82",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -661,9 +599,7 @@
         {
           "_key": "s87",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -675,9 +611,7 @@
         {
           "_key": "s89",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -689,9 +623,7 @@
         {
           "_key": "s91",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -725,9 +657,7 @@
         {
           "_key": "s96",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -739,9 +669,7 @@
         {
           "_key": "s98",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -753,9 +681,7 @@
         {
           "_key": "s100",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -767,9 +693,7 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -781,9 +705,7 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -817,9 +739,7 @@
         {
           "_key": "s109",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "All day."
         },
         {
@@ -831,9 +751,7 @@
         {
           "_key": "s111",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -845,9 +763,7 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -859,9 +775,7 @@
         {
           "_key": "s115",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -895,9 +809,7 @@
         {
           "_key": "s120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -909,9 +821,7 @@
         {
           "_key": "s122",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "The bigger option."
         },
         {
@@ -923,9 +833,7 @@
         {
           "_key": "s124",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -959,9 +867,7 @@
         {
           "_key": "s129",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pre-dawn."
         },
         {
@@ -973,9 +879,7 @@
         {
           "_key": "s131",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -987,9 +891,7 @@
         {
           "_key": "s133",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1001,9 +903,7 @@
         {
           "_key": "s135",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1037,9 +937,7 @@
         {
           "_key": "s140",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "All day."
         },
         {
@@ -1051,9 +949,7 @@
         {
           "_key": "s142",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1065,9 +961,7 @@
         {
           "_key": "s144",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1101,9 +995,7 @@
         {
           "_key": "s149",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1115,9 +1007,7 @@
         {
           "_key": "s151",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1129,9 +1019,7 @@
         {
           "_key": "s153",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1165,9 +1053,7 @@
         {
           "_key": "s158",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early and firm:"
         },
         {
@@ -1179,9 +1065,7 @@
         {
           "_key": "s160",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1271,9 +1155,7 @@
         {
           "_key": "s173",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut"
         },
         {
@@ -1285,9 +1167,7 @@
         {
           "_key": "s175",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt"
         },
         {
@@ -1299,9 +1179,7 @@
         {
           "_key": "s177",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade"
         },
         {
@@ -1313,9 +1191,7 @@
         {
           "_key": "s179",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Do not try to add"
         },
         {
@@ -1349,9 +1225,7 @@
         {
           "_key": "s184",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best time."
         },
         {
@@ -1371,9 +1245,7 @@
         {
           "_key": "s187",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Entry and fees."
         },
         {
@@ -1393,9 +1265,7 @@
         {
           "_key": "s190",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting there."
         },
         {
@@ -1415,9 +1285,7 @@
         {
           "_key": "s193",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and connectivity."
         },
         {
@@ -1437,9 +1305,7 @@
         {
           "_key": "s196",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to book early."
         },
         {
@@ -1451,9 +1317,7 @@
         {
           "_key": "s198",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "What to keep flexible."
         },
         {
@@ -1521,9 +1385,7 @@
         {
           "_key": "s211",
           "_type": "span",
-          "marks": [
-            "l207"
-          ],
+          "marks": ["l207"],
           "text": "7-day Raja Ampat snorkelling itinerary"
         },
         {
@@ -1535,9 +1397,7 @@
         {
           "_key": "s213",
           "_type": "span",
-          "marks": [
-            "l208"
-          ],
+          "marks": ["l208"],
           "text": "9-day Lombok and Gili honeymoon"
         },
         {
@@ -1549,9 +1409,7 @@
         {
           "_key": "s215",
           "_type": "span",
-          "marks": [
-            "l209"
-          ],
+          "marks": ["l209"],
           "text": "Raja Ampat destination hub"
         },
         {
@@ -1596,9 +1454,7 @@
         {
           "_key": "s221",
           "_type": "span",
-          "marks": [
-            "l218"
-          ],
+          "marks": ["l218"],
           "text": "14-day Raja Ampat itinerary for divers"
         },
         {
@@ -1610,9 +1466,7 @@
         {
           "_key": "s223",
           "_type": "span",
-          "marks": [
-            "l219"
-          ],
+          "marks": ["l219"],
           "text": "Bali to Raja Ampat"
         },
         {

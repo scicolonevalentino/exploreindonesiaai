@@ -12,11 +12,7 @@
   "travelStylePrimary": "beach_islands",
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "relaxed",
   "route": "Kuta Lombok → Selong Belanak → Tanjung Aan → Pink Beach",
   "focusKeyword": "south lombok itinerary",
@@ -135,9 +131,7 @@
         {
           "_key": "k14",
           "_type": "span",
-          "marks": [
-            "k13"
-          ],
+          "marks": ["k13"],
           "text": "10-day Lombok and Gili family itinerary"
         },
         {
@@ -262,9 +256,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -276,9 +268,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "k33"
-          ],
+          "marks": ["k33"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -304,9 +294,7 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -326,9 +314,7 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -340,9 +326,7 @@
         {
           "_key": "k42",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -354,9 +338,7 @@
         {
           "_key": "k44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -390,9 +372,7 @@
         {
           "_key": "k49",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -412,9 +392,7 @@
         {
           "_key": "k52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -434,9 +412,7 @@
         {
           "_key": "k55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -448,9 +424,7 @@
         {
           "_key": "k57",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -484,9 +458,7 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -506,9 +478,7 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -528,9 +498,7 @@
         {
           "_key": "k68",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -542,9 +510,7 @@
         {
           "_key": "k70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -578,9 +544,7 @@
         {
           "_key": "k75",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -600,9 +564,7 @@
         {
           "_key": "k78",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -622,9 +584,7 @@
         {
           "_key": "k81",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -636,9 +596,7 @@
         {
           "_key": "k83",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -672,9 +630,7 @@
         {
           "_key": "k88",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -686,9 +642,7 @@
         {
           "_key": "k91",
           "_type": "span",
-          "marks": [
-            "k90"
-          ],
+          "marks": ["k90"],
           "text": "Pink Beach and southern Gili snorkeling day trip"
         },
         {
@@ -714,9 +668,7 @@
         {
           "_key": "k94",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -736,9 +688,7 @@
         {
           "_key": "k97",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -750,9 +700,7 @@
         {
           "_key": "k99",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -786,9 +734,7 @@
         {
           "_key": "k104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -808,9 +754,7 @@
         {
           "_key": "k107",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -830,9 +774,7 @@
         {
           "_key": "k110",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -844,9 +786,7 @@
         {
           "_key": "k112",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -880,9 +820,7 @@
         {
           "_key": "k117",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -902,9 +840,7 @@
         {
           "_key": "k120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -916,9 +852,7 @@
         {
           "_key": "k122",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -938,9 +872,7 @@
         {
           "_key": "k125",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -952,9 +884,7 @@
         {
           "_key": "k128",
           "_type": "span",
-          "marks": [
-            "k127"
-          ],
+          "marks": ["k127"],
           "text": "Fast boat and ferry tickets from Lombok"
         },
         {
@@ -994,9 +924,7 @@
         {
           "_key": "k133",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -1016,9 +944,7 @@
         {
           "_key": "k136",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -1052,9 +978,7 @@
         {
           "_key": "k141",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the sun and the roads."
         },
         {
@@ -1074,9 +998,7 @@
         {
           "_key": "k144",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Trying to day-trip the northwest Gilis from Kuta."
         },
         {
@@ -1096,9 +1018,7 @@
         {
           "_key": "k147",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Assuming every beach is calm swimming."
         },
         {
@@ -1118,9 +1038,7 @@
         {
           "_key": "k150",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Overpaying at the airport."
         },
         {
@@ -1154,9 +1072,7 @@
         {
           "_key": "k155",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut it to five days"
         },
         {
@@ -1176,9 +1092,7 @@
         {
           "_key": "k158",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt it for surfers"
         },
         {
@@ -1198,9 +1112,7 @@
         {
           "_key": "k161",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade it to ten days"
         },
         {
@@ -1212,9 +1124,7 @@
         {
           "_key": "k164",
           "_type": "span",
-          "marks": [
-            "k163"
-          ],
+          "marks": ["k163"],
           "text": "7-day Lombok and Gili Islands route"
         },
         {
@@ -1255,9 +1165,7 @@
         {
           "_key": "k169",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Season."
         },
         {
@@ -1277,9 +1185,7 @@
         {
           "_key": "k172",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting in."
         },
         {
@@ -1299,9 +1205,7 @@
         {
           "_key": "k175",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and connectivity."
         },
         {
@@ -1321,9 +1225,7 @@
         {
           "_key": "k178",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting around."
         },
         {
@@ -1391,9 +1293,7 @@
         {
           "_key": "k189",
           "_type": "span",
-          "marks": [
-            "k188"
-          ],
+          "marks": ["k188"],
           "text": "7 days in Lombok and the Gili Islands"
         },
         {
@@ -1405,9 +1305,7 @@
         {
           "_key": "k192",
           "_type": "span",
-          "marks": [
-            "k191"
-          ],
+          "marks": ["k191"],
           "text": "7-day Lombok and Rinjani trek route"
         },
         {
@@ -1419,9 +1317,7 @@
         {
           "_key": "k195",
           "_type": "span",
-          "marks": [
-            "k194"
-          ],
+          "marks": ["k194"],
           "text": "Lombok and Gili Islands destination guide"
         },
         {

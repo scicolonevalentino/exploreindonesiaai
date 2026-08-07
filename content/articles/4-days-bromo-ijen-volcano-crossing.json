@@ -12,16 +12,9 @@
   "travelStylePrimary": "adventure_volcanoes",
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 4,
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "vibe": "active",
-  "experienceTags": [
-    "volcano_sunrise",
-    "overland_route"
-  ],
+  "experienceTags": ["volcano_sunrise", "overland_route"],
   "bestSeason": "April–October",
   "route": "Surabaya → Mount Bromo (Cemoro Lawang) → Kawah Ijen (Banyuwangi) → Bali",
   "focusKeyword": "Bromo Ijen itinerary",
@@ -172,9 +165,7 @@
         {
           "_key": "bi0016",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -186,9 +177,7 @@
         {
           "_key": "bi0019",
           "_type": "span",
-          "marks": [
-            "bi0018"
-          ],
+          "marks": ["bi0018"],
           "text": "an Indonesia eSIM with Airalo"
         },
         {
@@ -256,9 +245,7 @@
         {
           "_key": "bi0028",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -278,9 +265,7 @@
         {
           "_key": "bi0031",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -292,9 +277,7 @@
         {
           "_key": "bi0034",
           "_type": "span",
-          "marks": [
-            "bi0033"
-          ],
+          "marks": ["bi0033"],
           "text": "compare trains, buses and private transfers across East Java on 12Go"
         },
         {
@@ -320,9 +303,7 @@
         {
           "_key": "bi0037",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -342,9 +323,7 @@
         {
           "_key": "bi0040",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -378,9 +357,7 @@
         {
           "_key": "bi0045",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -400,9 +377,7 @@
         {
           "_key": "bi0048",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -414,9 +389,7 @@
         {
           "_key": "bi0051",
           "_type": "span",
-          "marks": [
-            "bi0050"
-          ],
+          "marks": ["bi0050"],
           "text": "Mount Bromo sunrise tour"
         },
         {
@@ -442,9 +415,7 @@
         {
           "_key": "bi0054",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -464,9 +435,7 @@
         {
           "_key": "bi0057",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -486,9 +455,7 @@
         {
           "_key": "bi0060",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -522,9 +489,7 @@
         {
           "_key": "bi0065",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -544,9 +509,7 @@
         {
           "_key": "bi0068",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -558,9 +521,7 @@
         {
           "_key": "bi0071",
           "_type": "span",
-          "marks": [
-            "bi0070"
-          ],
+          "marks": ["bi0070"],
           "text": "a guided Kawah Ijen blue fire night hike from Banyuwangi"
         },
         {
@@ -586,9 +547,7 @@
         {
           "_key": "bi0074",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -608,9 +567,7 @@
         {
           "_key": "bi0077",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -644,9 +601,7 @@
         {
           "_key": "bi0082",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -658,9 +613,7 @@
         {
           "_key": "bi0085",
           "_type": "span",
-          "marks": [
-            "bi0084"
-          ],
+          "marks": ["bi0084"],
           "text": "check schedules and onward transport on 12Go"
         },
         {
@@ -686,9 +639,7 @@
         {
           "_key": "bi0088",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -708,9 +659,7 @@
         {
           "_key": "bi0091",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -744,9 +693,7 @@
         {
           "_key": "bi0096",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book before you go:"
         },
         {
@@ -766,9 +713,7 @@
         {
           "_key": "bi0099",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -802,9 +747,7 @@
         {
           "_key": "bi0104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the transfer day."
         },
         {
@@ -824,9 +767,7 @@
         {
           "_key": "bi0107",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Skimping on cold-weather layers."
         },
         {
@@ -846,9 +787,7 @@
         {
           "_key": "bi0110",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Trusting a flimsy mask at Ijen."
         },
         {
@@ -868,9 +807,7 @@
         {
           "_key": "bi0113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Fixing dates without checking the Ijen closure."
         },
         {
@@ -904,9 +841,7 @@
         {
           "_key": "bi0118",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut a volcano if time is tight."
         },
         {
@@ -918,9 +853,7 @@
         {
           "_key": "bi0121",
           "_type": "span",
-          "marks": [
-            "bi0120"
-          ],
+          "marks": ["bi0120"],
           "text": "2 Days at Kawah Ijen"
         },
         {
@@ -947,9 +880,7 @@
         {
           "_key": "bi0124",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt the direction if you are starting from Bali."
         },
         {
@@ -961,9 +892,7 @@
         {
           "_key": "bi0127",
           "_type": "span",
-          "marks": [
-            "bi0126"
-          ],
+          "marks": ["bi0126"],
           "text": "round-trip Ijen midnight tour from Bali with hotel drop-off"
         },
         {
@@ -989,9 +918,7 @@
         {
           "_key": "bi0130",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade the transfer"
         },
         {
@@ -1025,9 +952,7 @@
         {
           "_key": "bi0135",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Time it for the dry season."
         },
         {
@@ -1047,9 +972,7 @@
         {
           "_key": "bi0138",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Sort your entry and connectivity in advance."
         },
         {
@@ -1069,9 +992,7 @@
         {
           "_key": "bi0141",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Be honest about the sleep debt."
         },
         {
@@ -1139,9 +1060,7 @@
         {
           "_key": "bi0152",
           "_type": "span",
-          "marks": [
-            "bi0151"
-          ],
+          "marks": ["bi0151"],
           "text": "5 Days in Yogyakarta and Mount Bromo"
         },
         {
@@ -1153,9 +1072,7 @@
         {
           "_key": "bi0155",
           "_type": "span",
-          "marks": [
-            "bi0154"
-          ],
+          "marks": ["bi0154"],
           "text": "2 Days at Kawah Ijen"
         },
         {
@@ -1167,9 +1084,7 @@
         {
           "_key": "bi0158",
           "_type": "span",
-          "marks": [
-            "bi0157"
-          ],
+          "marks": ["bi0157"],
           "text": "5 Days in Bali: Ubud, Canggu and Uluwatu"
         },
         {
@@ -1181,9 +1096,7 @@
         {
           "_key": "bi0161",
           "_type": "span",
-          "marks": [
-            "bi0160"
-          ],
+          "marks": ["bi0160"],
           "text": "Java travel guide"
         },
         {

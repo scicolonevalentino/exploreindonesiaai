@@ -13,11 +13,7 @@
   "travelStyleSecondary": "remote_offbeat",
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
-  "travellerTypes": [
-    "families",
-    "couples",
-    "repeat_travellers"
-  ],
+  "travellerTypes": ["families", "couples", "repeat_travellers"],
   "vibe": "relaxed",
   "route": "Pangkalan Bun → Kumai → Sekonyer River → Tanjung Harapan → Pondok Tanggui → Camp Leakey → Kumai",
   "focusKeyword": "Tanjung Puting itinerary",
@@ -42,7 +38,7 @@
     },
     {
       "_key": "a2",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/pangkalan-bun?z=16022946",
       "anchorText": "compare flights and transfers to Pangkalan Bun",
       "experienceCategory": "airport_transfer",
       "linkStatus": "live",
@@ -99,9 +95,7 @@
         {
           "_key": "s8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Who this trip is NOT for."
         },
         {
@@ -191,9 +185,7 @@
         {
           "_key": "s21",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -213,9 +205,7 @@
         {
           "_key": "s24",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -235,9 +225,7 @@
         {
           "_key": "s27",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -257,9 +245,7 @@
         {
           "_key": "s30",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -279,9 +265,7 @@
         {
           "_key": "s33",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -315,9 +299,7 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -337,9 +319,7 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -359,9 +339,7 @@
         {
           "_key": "s44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -381,9 +359,7 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -417,9 +393,7 @@
         {
           "_key": "s52",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -439,9 +413,7 @@
         {
           "_key": "s55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -461,9 +433,7 @@
         {
           "_key": "s58",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -497,9 +467,7 @@
         {
           "_key": "s63",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -519,9 +487,7 @@
         {
           "_key": "s66",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -541,9 +507,7 @@
         {
           "_key": "s69",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -563,9 +527,7 @@
         {
           "_key": "s72",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -599,9 +561,7 @@
         {
           "_key": "s77",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -635,9 +595,7 @@
         {
           "_key": "s82",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -663,9 +621,7 @@
         {
           "_key": "s87",
           "_type": "span",
-          "marks": [
-            "m86"
-          ],
+          "marks": ["m86"],
           "text": "a standard 3-day klotok liveaboard in Tanjung Puting"
         },
         {
@@ -691,9 +647,7 @@
         {
           "_key": "s90",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -705,9 +659,7 @@
         {
           "_key": "s93",
           "_type": "span",
-          "marks": [
-            "m92"
-          ],
+          "marks": ["m92"],
           "text": "compare flights and transfers to Pangkalan Bun"
         },
         {
@@ -719,9 +671,7 @@
         {
           "_key": "s96",
           "_type": "span",
-          "marks": [
-            "m95"
-          ],
+          "marks": ["m95"],
           "text": "an Indonesia eSIM from Airalo"
         },
         {
@@ -766,9 +716,7 @@
         {
           "_key": "s101",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Flying in on the same day the cruise starts, with no margin."
         },
         {
@@ -788,9 +736,7 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking the cheapest boat blind."
         },
         {
@@ -810,9 +756,7 @@
         {
           "_key": "s107",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Chasing selfies with the orangutans."
         },
         {
@@ -832,9 +776,7 @@
         {
           "_key": "s110",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underpacking for insects and rain."
         },
         {
@@ -854,9 +796,7 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Treating three nights as too long."
         },
         {
@@ -890,9 +830,7 @@
         {
           "_key": "s118",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut"
         },
         {
@@ -912,9 +850,7 @@
         {
           "_key": "s121",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt"
         },
         {
@@ -934,9 +870,7 @@
         {
           "_key": "s124",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade"
         },
         {
@@ -970,9 +904,7 @@
         {
           "_key": "s129",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Health."
         },
         {
@@ -992,9 +924,7 @@
         {
           "_key": "s132",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "When to go."
         },
         {
@@ -1014,9 +944,7 @@
         {
           "_key": "s135",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money."
         },
         {
@@ -1036,9 +964,7 @@
         {
           "_key": "s138",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Park permits."
         },
         {
@@ -1106,9 +1032,7 @@
         {
           "_key": "s149",
           "_type": "span",
-          "marks": [
-            "m148"
-          ],
+          "marks": ["m148"],
           "text": "9 days in North Sumatra with kids"
         },
         {
@@ -1120,9 +1044,7 @@
         {
           "_key": "s152",
           "_type": "span",
-          "marks": [
-            "m151"
-          ],
+          "marks": ["m151"],
           "text": "20 days in wild Indonesia"
         },
         {
@@ -1134,9 +1056,7 @@
         {
           "_key": "s155",
           "_type": "span",
-          "marks": [
-            "m154"
-          ],
+          "marks": ["m154"],
           "text": "Wild Indonesia destination guide"
         },
         {
