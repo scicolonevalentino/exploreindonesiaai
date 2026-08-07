@@ -1,42 +1,12 @@
 {
   "_id": "05fc4cd9-6413-4d14-98be-9521c0393756",
+  "_system": {
+    "base": {
+      "id": "05fc4cd9-6413-4d14-98be-9521c0393756",
+      "rev": "8PcJO7vIGtbFPPrxGzyH8Q"
+    }
+  },
   "_type": "article",
-  "title": "7 Days in Bali for First-Timers: Ubud, Canggu, Nusa Penida and Uluwatu",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-bali-first-timers"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:00:00.000Z",
-  "destinationPrimary": "bali",
-  "destinationSecondary": ["bali_nearby_islands"],
-  "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": ["culture_temples", "beach_islands"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["solo_travellers", "couples", "friends"],
-  "vibe": "balanced",
-  "experienceTags": [
-    "rice_terraces",
-    "temples",
-    "waterfalls",
-    "volcano_sunrise",
-    "island_day_trip",
-    "beach_sunset",
-    "cultural_performance",
-    "private_drivers",
-    "airport_transfers"
-  ],
-  "bestSeason": "April–October",
-  "route": "Ubud → Canggu → Nusa Penida → Uluwatu",
-  "focusKeyword": "7 days in Bali itinerary",
-  "metaTitle": "First-Timer Bali in 7 Days: Easy Itinerary",
-  "metaDescription": "A 7-day Bali itinerary for first-timers: Ubud, Canggu, Nusa Penida and Uluwatu, built around three bases and one-direction travel.",
-  "intro": "Most first Bali trips fail in the same way: too many stops, a new hotel every night, and three hours a day lost to traffic on narrow roads. The smarter move is fewer bases and a route that flows in one direction. This week runs Ubud to Canggu to Nusa Penida to Uluwatu, three bases over seven nights, ending near the airport so departure day stays calm.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
@@ -119,6 +89,13 @@
       "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
     }
   ],
+  "articleCommercialTier": "hero",
+  "articleCreatedDate": "2026-06-02T05:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "k0",
@@ -1683,9 +1660,34 @@
           "_type": "span",
           "marks": [],
           "text": "It is the right plan for couples, friends and solo travellers who like variety and a balanced pace. It is the wrong plan if you want one quiet beach to settle into, or if you are determined not to move hotels at all. For everyone in between, ending near the airport in Uluwatu is the detail that makes the whole week land smoothly."
+        },
+        {
+          "_key": "k6hy1",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are going alone, our "
+        },
+        {
+          "_key": "k6hy2",
+          "_type": "span",
+          "marks": ["inbsolo"],
+          "text": "7-day Bali route for solo travellers"
+        },
+        {
+          "_key": "k6hy3",
+          "_type": "span",
+          "marks": [],
+          "text": " reorders the same places so meeting people is easier."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "inbsolo",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/7-days-bali-solo-travellers"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1871,6 +1873,20 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali",
+  "destinationSecondary": ["bali_nearby_islands"],
+  "experienceTags": [
+    "rice_terraces",
+    "temples",
+    "waterfalls",
+    "volcano_sunrise",
+    "island_day_trip",
+    "beach_sunset",
+    "cultural_performance",
+    "private_drivers",
+    "airport_transfers"
+  ],
   "faq": [
     {
       "answer": "Yes. A week lets first-timers see Bali's four main sides, Ubud's culture and rice terraces, Canggu's beaches and cafes, a Nusa Penida day trip, and Uluwatu's clifftop temples, without rushing, as long as you base yourself in two or three areas rather than moving hotels nightly.",
@@ -1897,6 +1913,7 @@
       "question": "How much does a week in Bali cost?"
     }
   ],
+  "focusKeyword": "7 days in Bali itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Bali landscape — Ubud rice terraces, Canggu surf and Uluwatu cliffs",
@@ -1906,11 +1923,19 @@
     },
     "caption": "Ubud → Canggu → Nusa Penida → Uluwatu"
   },
-  "_system": {
-    "base": {
-      "id": "05fc4cd9-6413-4d14-98be-9521c0393756",
-      "rev": "8PcJO7vIGtbFPPrxGzyH8Q"
-    }
+  "intro": "Most first Bali trips fail in the same way: too many stops, a new hotel every night, and three hours a day lost to traffic on narrow roads. The smarter move is fewer bases and a route that flows in one direction. This week runs Ubud to Canggu to Nusa Penida to Uluwatu, three bases over seven nights, ending near the airport so departure day stays calm.",
+  "metaDescription": "A 7-day Bali itinerary for first-timers: Ubud, Canggu, Nusa Penida and Uluwatu, built around three bases and one-direction travel.",
+  "metaTitle": "First-Timer Bali in 7 Days: Easy Itinerary",
+  "route": "Ubud → Canggu → Nusa Penida → Uluwatu",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-bali-first-timers"
   },
-  "articleCommercialTier": "hero"
+  "title": "7 Days in Bali for First-Timers: Ubud, Canggu, Nusa Penida and Uluwatu",
+  "travelStylePrimary": "first_time_indonesia",
+  "travelStyleSecondary": ["culture_temples", "beach_islands"],
+  "travellerTypes": ["solo_travellers", "couples", "friends"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "balanced"
 }

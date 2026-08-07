@@ -57,6 +57,33 @@
       "partner": "viator",
       "placeholderId": "VIATOR_ULUWATU_KECAK",
       "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Canggu",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_CANGGU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Ubud",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_UBUD",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Uluwatu",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_ULUWATU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
   "articleCommercialTier": "hero",
@@ -116,6 +143,280 @@
           "_type": "span",
           "marks": [],
           "text": " ideal for travellers chasing remote, quiet islands. Ubud and Canggu are busy and developed, and the social energy that makes them easy for solo trips is exactly what some people come to Indonesia to escape. If you want isolation over connection, this is the wrong week. It is also not built for divers or anyone whose main goal is Nusa Penida or the Gili Islands, which need their own days and their own ferries."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sob2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos1",
+          "_type": "span",
+          "marks": [],
+          "text": "Is Bali safe for solo travellers?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sob4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos3",
+          "_type": "span",
+          "marks": [],
+          "text": "Bali is one of the easier places in Asia to travel alone, including for women. The usual problems are traffic and scooter accidents rather than crime, followed by drink spiking in the busiest nightlife areas and petty theft from bags left on beaches. Take the same precautions you would in any busy tourist town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sob6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos5",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical version: do not ride a scooter if you have never ridden one at home, keep your own drink in sight in Canggu and Kuta, and use a registered driver or ride-hailing app at night rather than walking unlit roads. Medical care for a serious accident means a transfer, so check your insurance actually covers scooters."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sob8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos7",
+          "_type": "span",
+          "marks": [],
+          "text": "Where should you stay in Bali as a solo traveller?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sob10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos9",
+          "_type": "span",
+          "marks": [],
+          "text": "Base yourself where meeting people is easy rather than where the view is best. Canggu has the largest concentration of solo travellers, co-working and hostels. Ubud suits quieter trips and courses. Uluwatu is the least social of the three, so put it last rather than first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sot11",
+      "_type": "comparisonTable",
+      "caption": "This is why the route runs Ubud, then Canggu, then Uluwatu: it ends near the airport and puts the most social stretch in the middle.",
+      "columns": ["Base", "Who it suits", "How easy it is to meet people", "Watch out for"],
+      "rows": [
+        {
+          "_key": "sor12",
+          "cells": [
+            "Canggu",
+            "First-time solo travellers, remote workers",
+            "Easiest. Hostels, co-working and surf schools do the work",
+            "Traffic is genuinely bad, and it is the least Balinese part of Bali"
+          ]
+        },
+        {
+          "_key": "sor13",
+          "cells": [
+            "Ubud",
+            "Slower trips, courses, anyone travelling to read and walk",
+            "Moderate. Classes and shared tables rather than bars",
+            "Quiet after about ten at night, and further from a beach than people expect"
+          ]
+        },
+        {
+          "_key": "sor14",
+          "cells": [
+            "Uluwatu",
+            "Surfers and couples more than solo travellers",
+            "Hardest. Spread out, and most people arrive in pairs",
+            "You need a driver or scooter for everything, so budget for it"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "sob25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos15",
+          "_type": "span",
+          "marks": [],
+          "text": "Book the first two nights before you fly and leave the rest open: compare "
+        },
+        {
+          "_key": "sos17",
+          "_type": "span",
+          "marks": ["som16"],
+          "text": "stays in Canggu"
+        },
+        {
+          "_key": "sos18",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "sos20",
+          "_type": "span",
+          "marks": ["som19"],
+          "text": "stays in Ubud"
+        },
+        {
+          "_key": "sos21",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "sos23",
+          "_type": "span",
+          "marks": ["som22"],
+          "text": "stays in Uluwatu"
+        },
+        {
+          "_key": "sos24",
+          "_type": "span",
+          "marks": [],
+          "text": " once you know which version of the trip you want."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "som16",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_CANGGU"
+        },
+        {
+          "_key": "som19",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        },
+        {
+          "_key": "som22",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_ULUWATU"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sob27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos26",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does a week in Bali cost for one person?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sob29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos28",
+          "_type": "span",
+          "marks": [],
+          "text": "Our Indonesia cost guide puts mid-range travel at 70 to 100 US dollars a day per person and budget travel at 30 to 50, and solo travellers sit higher per head because a room costs the same for one as for two. Add roughly a third for a week alone versus the same week shared."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sob34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos31",
+          "_type": "span",
+          "marks": [],
+          "text": "Hostels and shared transfers close most of that gap, and the full breakdown by category is in our "
+        },
+        {
+          "_key": "sos32",
+          "_type": "span",
+          "marks": ["som30"],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "sos33",
+          "_type": "span",
+          "marks": [],
+          "text": ". Treat every figure as a planning range."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "som30",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/indonesia-travel-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sob36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos35",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you meet people travelling alone in Bali?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sob38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos37",
+          "_type": "span",
+          "marks": [],
+          "text": "Surf lessons, co-working spaces and hostel common rooms do most of the work, in that order. Canggu is where this happens easily and Uluwatu is where it does not. Booking a multi-day course rather than single activities is the most reliable way to end up with the same people twice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sob40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sos39",
+          "_type": "span",
+          "marks": [],
+          "text": "The thing that does not work is waiting for it to happen in a private villa. If meeting people matters to you, pay for the hostel or the course, not the room."
         }
       ],
       "markDefs": [],
