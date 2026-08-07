@@ -1343,7 +1343,7 @@
       "style": "normal"
     }
   ],
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "destinationPrimary": "komodo_flores",
   "destinationSecondary": ["bali"],
   "faq": [
@@ -1384,6 +1384,14 @@
     }
   ],
   "focusKeyword": "Komodo honeymoon",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Padar Island at first light, with its curved bays and empty ridgeline in Komodo National Park",
+    "asset": {
+      "_ref": "image-5299d8fb8ad43c71d9cdf059d76a1086d9fedffa-5222x3481-jpg",
+      "_type": "reference"
+    }
+  },
   "intro": "Seven days in Komodo built for two, around a private boat day at Padar and two quiet island nights instead of a week in a harbour town.",
   "metaDescription": "A 7-day Komodo honeymoon: why to charter rather than join a shared boat, what park fees cost in 2026, and where to land softly afterwards.",
   "metaTitle": "Komodo Honeymoon: Private Boat, Padar, 7 Days",

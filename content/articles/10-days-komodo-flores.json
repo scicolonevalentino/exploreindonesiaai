@@ -1,37 +1,12 @@
 {
   "_id": "45b532c0-f84e-4aca-9182-1736731c79b4",
+  "_system": {
+    "base": {
+      "id": "45b532c0-f84e-4aca-9182-1736731c79b4",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
   "_type": "article",
-  "title": "10 Days in Komodo and Flores: Labuan Bajo, Ruteng, Bajawa, Moni and Ende",
-  "slug": {
-    "_type": "slug",
-    "current": "10-days-komodo-flores"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:29:55.582Z",
-  "destinationPrimary": "komodo_flores",
-  "travelStylePrimary": "adventure_volcanoes",
-  "travelStyleSecondary": ["wildlife_nature", "remote_offbeat"],
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 10,
-  "travellerTypes": ["solo_travellers", "couples", "repeat_travellers"],
-  "vibe": "active",
-  "experienceTags": [
-    "wildlife",
-    "island_day_trip",
-    "overland_route",
-    "local_villages",
-    "volcano_sunrise"
-  ],
-  "bestSeason": "April–October",
-  "route": "Labuan Bajo → Ruteng → Bajawa → Moni → Ende",
-  "focusKeyword": "10 days Komodo Flores itinerary",
-  "metaTitle": "Komodo & Flores in 10 Days: Day-by-Day Itinerary",
-  "metaDescription": "A practical 10-day Komodo and Flores itinerary: Labuan Bajo, Komodo park, Ruteng, Bajawa, Kelimutu and Ende, with honest logistics.",
-  "intro": "Most Indonesia trips stay on Bali. This one leaves it behind. Ten days across Komodo and Flores means a boat day among dragons and island viewpoints, then a long overland drive through volcanic highlands to the coloured crater lakes of Kelimutu. The reward is scenery few travellers reach. The cost is winding mountain roads, early starts and flight legs you must lock before anything else.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
@@ -44,6 +19,13 @@
       "publicUrl": "https://www.airalo.com/indonesia-esim"
     }
   ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-06-02T05:29:55.582Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "k0",
@@ -1540,9 +1522,34 @@
           "_type": "span",
           "marks": [],
           "text": " Spend on the Labuan Bajo harbour-area hotel and on a good private driver for the overland legs. Those two upgrades carry the trip. Guesthouse comfort further east matters far less."
+        },
+        {
+          "_key": "k65z1",
+          "_type": "span",
+          "marks": [],
+          "text": " If this is a honeymoon rather than a general trip, our "
+        },
+        {
+          "_key": "k65z2",
+          "_type": "span",
+          "marks": ["inbkomhm"],
+          "text": "7-day Komodo honeymoon"
+        },
+        {
+          "_key": "k65z3",
+          "_type": "span",
+          "marks": [],
+          "text": " builds the same islands around a private boat instead of a shared one."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "inbkomhm",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/7-days-komodo-honeymoon-private-boat"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1922,6 +1929,15 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "komodo_flores",
+  "experienceTags": [
+    "wildlife",
+    "island_day_trip",
+    "overland_route",
+    "local_villages",
+    "volcano_sunrise"
+  ],
   "faq": [
     {
       "answer": "Yes. The Labuan Bajo to Ruteng to Bajawa to Moni to Ende route is one of Indonesia's great road trips, through rice terraces, traditional villages and volcanoes. Expect three to five hours of winding mountain driving between most stops, so plan an overnight at each.",
@@ -1944,6 +1960,7 @@
       "question": "When is the best time to visit Komodo and Flores?"
     }
   ],
+  "focusKeyword": "10 days Komodo Flores itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Flores landscape with Komodo islands, volcanoes and traditional villages",
@@ -1953,14 +1970,22 @@
     },
     "caption": "Labuan Bajo → Ruteng → Bajawa → Moni → Ende"
   },
-  "_system": {
-    "base": {
-      "id": "45b532c0-f84e-4aca-9182-1736731c79b4",
-      "rev": "yoqobxKtA2iTDPf0nKICJN"
-    }
-  },
-  "articleCommercialTier": "standard",
+  "intro": "Most Indonesia trips stay on Bali. This one leaves it behind. Ten days across Komodo and Flores means a boat day among dragons and island viewpoints, then a long overland drive through volcanic highlands to the coloured crater lakes of Kelimutu. The reward is scenery few travellers reach. The cost is winding mountain roads, early starts and flight legs you must lock before anything else.",
   "logisticsComplexity": "complex",
+  "metaDescription": "A practical 10-day Komodo and Flores itinerary: Labuan Bajo, Komodo park, Ruteng, Bajawa, Kelimutu and Ende, with honest logistics.",
+  "metaTitle": "Komodo & Flores in 10 Days: Day-by-Day Itinerary",
   "primaryAffiliatePartner": "klook",
-  "secondaryAffiliatePartners": ["viator", "booking", "airalo"]
+  "route": "Labuan Bajo → Ruteng → Bajawa → Moni → Ende",
+  "secondaryAffiliatePartners": ["viator", "booking", "airalo"],
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-komodo-flores"
+  },
+  "title": "10 Days in Komodo and Flores: Labuan Bajo, Ruteng, Bajawa, Moni and Ende",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": ["wildlife_nature", "remote_offbeat"],
+  "travellerTypes": ["solo_travellers", "couples", "repeat_travellers"],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "vibe": "active"
 }
