@@ -1,42 +1,12 @@
 {
   "_id": "28bac5f8-9b32-4528-970c-1387f166e371",
+  "_system": {
+    "base": {
+      "id": "28bac5f8-9b32-4528-970c-1387f166e371",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
   "_type": "article",
-  "title": "7 Days in Bali for Solo Travellers: Ubud, Canggu and Uluwatu",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-bali-solo-travellers"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:19:43.410Z",
-  "destinationPrimary": "bali",
-  "destinationSecondary": [],
-  "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": ["beach_islands", "culture_temples"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["solo_travellers"],
-  "vibe": "balanced",
-  "experienceTags": [
-    "rice_terraces",
-    "temples",
-    "waterfalls",
-    "volcano_sunrise",
-    "beach_sunset",
-    "cultural_performance",
-    "cooking_classes",
-    "private_drivers",
-    "airport_transfers"
-  ],
-  "bestSeason": "April–October",
-  "route": "Ubud → Canggu → Uluwatu",
-  "focusKeyword": "7 days in Bali solo traveller itinerary",
-  "metaTitle": "Solo Bali in 7 Days: Safe, Social Itinerary",
-  "metaDescription": "A 7-day solo Bali itinerary: Ubud, Canggu and Uluwatu, ordered to meet people easily, cut backtracking and keep logistics simple.",
-  "intro": "Most Bali itineraries throw a dozen scattered stops at you and call it a week. Solo travel needs a different logic: a route that makes meeting people easy when you want company and disappearing simple when you don't. This seven-day plan does that with two real bases, Ubud and Canggu, plus a southern Uluwatu finish, ordered so you never backtrack and never feel stranded eating dinner alone.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
@@ -89,6 +59,13 @@
       "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
     }
   ],
+  "articleCommercialTier": "hero",
+  "articleCreatedDate": "2026-06-02T05:19:43.410Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "k0",
@@ -1734,6 +1711,20 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [],
+  "experienceTags": [
+    "rice_terraces",
+    "temples",
+    "waterfalls",
+    "volcano_sunrise",
+    "beach_sunset",
+    "cultural_performance",
+    "cooking_classes",
+    "private_drivers",
+    "airport_transfers"
+  ],
   "faq": [
     {
       "answer": "Yes, Bali is one of Asia's most popular and welcoming destinations for solo travellers, including solo women. The biggest real risk is scooter accidents, so ride cautiously or use Grab and Gojek. Standard precautions apply: watch your drink on nights out and use registered drivers late at night.",
@@ -1760,6 +1751,7 @@
       "question": "Why start in Ubud and not Canggu?"
     }
   ],
+  "focusKeyword": "7 days in Bali solo traveller itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Bali for solo travellers — Ubud jungle, Canggu beaches and Uluwatu sunsets",
@@ -1769,14 +1761,22 @@
     },
     "caption": "Ubud → Canggu → Uluwatu"
   },
-  "_system": {
-    "base": {
-      "id": "28bac5f8-9b32-4528-970c-1387f166e371",
-      "rev": "yoqobxKtA2iTDPf0nKICJN"
-    }
-  },
-  "articleCommercialTier": "hero",
+  "intro": "Most Bali itineraries throw a dozen scattered stops at you and call it a week. Solo travel needs a different logic: a route that makes meeting people easy when you want company and disappearing simple when you don't. This seven-day plan does that with two real bases, Ubud and Canggu, plus a southern Uluwatu finish, ordered so you never backtrack and never feel stranded eating dinner alone.",
   "logisticsComplexity": "easy",
+  "metaDescription": "Bali solo travel done properly: where to base, how to meet people without forcing it, and a 7-day route through Ubud, Canggu and Uluwatu.",
+  "metaTitle": "Bali Solo Travel: Where to Base, and a 7-Day Route",
   "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": ["klook", "booking", "airalo"]
+  "route": "Ubud → Canggu → Uluwatu",
+  "secondaryAffiliatePartners": ["klook", "booking", "airalo"],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-bali-solo-travellers"
+  },
+  "title": "7 Days in Bali for Solo Travellers: Ubud, Canggu and Uluwatu",
+  "travelStylePrimary": "first_time_indonesia",
+  "travelStyleSecondary": ["beach_islands", "culture_temples"],
+  "travellerTypes": ["solo_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "balanced"
 }

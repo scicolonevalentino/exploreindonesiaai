@@ -1,0 +1,1401 @@
+{
+  "_id": "itinerary-7-days-komodo-honeymoon-private-boat",
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "other",
+      "linkStatus": "live",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/en/travel/bali/labuan-bajo?z=16022946",
+      "anchorText": "compare Bali to Labuan Bajo flights on 12Go",
+      "experienceCategory": "flight",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_BALI_LABUAN_BAJO",
+      "publicUrl": "https://12go.asia/en/travel/bali/labuan-bajo"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays around Labuan Bajo and the nearby islands",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_LABUAN_BAJO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCreatedDate": "2026-08-07",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
+  "body": [
+    {
+      "_key": "kmb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms1",
+          "_type": "span",
+          "marks": [],
+          "text": "Komodo is sold as an adventure trip, and for most people it is: a shared boat, thirty strangers, a queue on the Padar ridge at sunrise. As a honeymoon that is a strange choice. But the same islands, on a private boat, on the right days, are among the most genuinely dramatic places you can spend a week together in Indonesia. This route builds the trip around two decisions most couples get wrong: chartering rather than joining, and giving yourselves somewhere soft to land afterwards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms3",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms5",
+          "_type": "span",
+          "marks": [],
+          "text": "Couples who want scenery rather than spa treatments, and who would rather spend the budget on a private boat day than on a bigger room. It suits honeymooners who are comfortable with early starts, small planes and a bit of heat, and who want a trip that does not look like everyone else's."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms7",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if your idea of a honeymoon is a resort you never leave, if either of you is uneasy on boats, or if you need reliable connectivity. Labuan Bajo is a working harbour town, not a romantic one, and the romance here is entirely in the islands and the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms9",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms11",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Route: "
+        },
+        {
+          "_key": "kms12",
+          "_type": "span",
+          "marks": [],
+          "text": "Bali to Labuan Bajo, four nights there, then two nights on a quiet island, then back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms14",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base changes: "
+        },
+        {
+          "_key": "kms15",
+          "_type": "span",
+          "marks": [],
+          "text": "Two, deliberately. Labuan Bajo for the boat days, an island for the decompression."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms17",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Pace: "
+        },
+        {
+          "_key": "kms18",
+          "_type": "span",
+          "marks": [],
+          "text": "One hard day, the rest slow. The Padar sunrise is the only alarm clock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms20",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best for: "
+        },
+        {
+          "_key": "kms21",
+          "_type": "span",
+          "marks": [],
+          "text": "Couples who want the private boat, not the shared one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms23",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms25",
+          "_type": "span",
+          "marks": [],
+          "text": "Labuan Bajo is the gateway and the accommodation, not the experience. Every hour you spend there is an hour not on the water, so this route front-loads the boat days while you have energy and weather flexibility, then moves you to a quiet island for the end. Doing it the other way round means finishing the honeymoon in a harbour town, which is an anticlimax."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms27",
+          "_type": "span",
+          "marks": [],
+          "text": "Is Komodo a good honeymoon destination?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms29",
+          "_type": "span",
+          "marks": [],
+          "text": "Komodo works for a honeymoon if you want landscape rather than pampering. The islands are genuinely spectacular and a private boat makes them feel like yours. The trade-off is that Labuan Bajo itself is a functional harbour town, the days start early, and the comfort level is closer to good hotel than luxury resort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms31",
+          "_type": "span",
+          "marks": [],
+          "text": "Should you charter a private boat or join a shared trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms33",
+          "_type": "span",
+          "marks": [],
+          "text": "Charter, if the budget stretches at all. On a shared boat you arrive at Padar and Pink Beach at the same time as everyone else, which is exactly when they are least worth seeing. A private boat lets you go an hour earlier or later, and on a honeymoon that single decision changes the trip more than the room does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmt35",
+      "_type": "comparisonTable",
+      "caption": "Prices vary widely by boat and season, so get two or three quotes from licensed operators rather than booking the first one you find.",
+      "columns": ["", "Shared day boat", "Private charter"],
+      "rows": [
+        {
+          "_key": "kmr36",
+          "cells": [
+            "Timing",
+            "Fixed, and everyone arrives together",
+            "Yours, which is the whole point at Padar"
+          ]
+        },
+        {
+          "_key": "kmr37",
+          "cells": [
+            "Cost",
+            "The cheapest way to see the park",
+            "Materially more, and the best-value upgrade on this trip"
+          ]
+        },
+        {
+          "_key": "kmr38",
+          "cells": [
+            "Feel",
+            "Sociable, busy, thirty people on one deck",
+            "Quiet, and the reason to do this as a honeymoon"
+          ]
+        },
+        {
+          "_key": "kmr39",
+          "cells": [
+            "Best for",
+            "Solo travellers and friends counting costs",
+            "Couples, and anyone who wants the ridge without a queue"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "kmb41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms40",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly in and do nothing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms42",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms43",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly from Bali. The direct flight takes about 1 hour 15 minutes, and it is the only sensible way in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms45",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms46",
+          "_type": "span",
+          "marks": [],
+          "text": "Settle in, walk the harbour front, meet your boat operator in person if you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms48",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "kms49",
+          "_type": "span",
+          "marks": [],
+          "text": "Sunset from a hill bar above the town, which is the one thing Labuan Bajo genuinely does well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms51",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "kms52",
+          "_type": "span",
+          "marks": [],
+          "text": "Labuan Bajo, four nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms55",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "kms56",
+          "_type": "span",
+          "marks": [],
+          "text": "Flights fill fast in June to September and December, so "
+        },
+        {
+          "_key": "kms57",
+          "_type": "span",
+          "marks": ["kmm54"],
+          "text": "compare Bali to Labuan Bajo flights on 12Go"
+        },
+        {
+          "_key": "kms58",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fix anything else. Published fares start around IDR 1.6 million and move a lot with season."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm54",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_LABUAN_BAJO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms60",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "kms61",
+          "_type": "span",
+          "marks": [],
+          "text": "Take a morning flight. Afternoon delays are common at this small airport and a late arrival costs you the first evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms63",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: The private boat day, and Padar at sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms65",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms66",
+          "_type": "span",
+          "marks": [],
+          "text": "Leave in the dark for Padar. Being first on the ridge rather than fortieth is the single thing you are paying the charter for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms68",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms69",
+          "_type": "span",
+          "marks": [],
+          "text": "Pink Beach, then a snorkel stop, then Komodo or Rinca for the dragons with a ranger."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms71",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "kms72",
+          "_type": "span",
+          "marks": [],
+          "text": "Back late and tired. Eat simply."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms74",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "kms75",
+          "_type": "span",
+          "marks": [],
+          "text": "Park entry in 2026 uses a single bundled ticket per route, around IDR 650,000 per person for the Komodo Island route or around IDR 900,000 for routes taking in Rinca and Padar, pre-booked through the SiORA app or a licensed operator. Treat these as working figures and confirm when you book, since the system has changed more than once."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms77",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "kms78",
+          "_type": "span",
+          "marks": [],
+          "text": "The dragons are the least romantic part of the day and the most photographed. Do them, but do not build the day around them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms80",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: A slow second water day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms82",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms83",
+          "_type": "span",
+          "marks": [],
+          "text": "Manta Point or Kanawa, depending on conditions. Ask the operator the night before, not a week before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms85",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms86",
+          "_type": "span",
+          "marks": [],
+          "text": "Swim, read, and stay on the boat rather than rushing back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms88",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "kms89",
+          "_type": "span",
+          "marks": [],
+          "text": "Dinner in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms91",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "kms92",
+          "_type": "span",
+          "marks": [],
+          "text": "If day 2 was blown out by weather, this is the day it moves to. That is why the route holds two water days and not one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms94",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Off the water"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms96",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms97",
+          "_type": "span",
+          "marks": [],
+          "text": "A slow start. Cunca Wulang waterfall inland, or a spa morning, or nothing at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms99",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms100",
+          "_type": "span",
+          "marks": [],
+          "text": "Repack for the island. Anything you do not need can stay in Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms102",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "kms103",
+          "_type": "span",
+          "marks": [],
+          "text": "Last night in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms105",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Move to a quiet island"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms107",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms108",
+          "_type": "span",
+          "marks": [],
+          "text": "Short boat transfer to one of the small resort islands off the coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms110",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms111",
+          "_type": "span",
+          "marks": [],
+          "text": "The point of these two nights is that there is nothing to do."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms113",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "kms114",
+          "_type": "span",
+          "marks": [],
+          "text": "Island resort, two nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms117",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Book early: "
+        },
+        {
+          "_key": "kms118",
+          "_type": "span",
+          "marks": [],
+          "text": "Island rooms are few and go early, so compare "
+        },
+        {
+          "_key": "kms119",
+          "_type": "span",
+          "marks": ["kmm116"],
+          "text": "stays around Labuan Bajo and the nearby islands"
+        },
+        {
+          "_key": "kms120",
+          "_type": "span",
+          "marks": [],
+          "text": " as soon as your flights are fixed."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm116",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_LABUAN_BAJO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms122",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "kms123",
+          "_type": "span",
+          "marks": [],
+          "text": "Check what is actually included before booking an island stay. Some run full board because there is genuinely nowhere else to eat, and that is a feature rather than a catch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms125",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: The day you do not plan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms127",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms128",
+          "_type": "span",
+          "marks": [],
+          "text": "Snorkel from the beach. Sleep late. This is the day the honeymoon actually feels like one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms130",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "kms131",
+          "_type": "span",
+          "marks": [],
+          "text": "Nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms133",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "kms134",
+          "_type": "span",
+          "marks": [],
+          "text": "Nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms136",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Back to Labuan Bajo and out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms138",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "kms139",
+          "_type": "span",
+          "marks": [],
+          "text": "Boat back and fly out. Give yourself a wide margin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms141",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note: "
+        },
+        {
+          "_key": "kms142",
+          "_type": "span",
+          "marks": [],
+          "text": "If either of you dived on this trip, leave at least 18 to 24 hours before flying. Plan the last dive for day 5 at the latest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms144",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms146",
+          "_type": "span",
+          "marks": [],
+          "text": "Book the flights, the boat charter and the island nights well ahead: all three are capacity-limited and all three get expensive late. Keep the individual island stops flexible, because the operator will know on the morning which order works with the wind. A charter that refuses to adjust the route to conditions is the wrong charter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms148",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes couples make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms150",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking a shared boat to save money, then spending the honeymoon in a queue. Staying in Labuan Bajo the whole week and wondering why it felt like a logistics exercise. Putting the boat day last, so bad weather has nowhere to move to. And flying out the same day as the final dive, which is both a bad idea and easily avoided."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms152",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms154",
+          "_type": "span",
+          "marks": [],
+          "text": "Short on time, cut the island stay and run this in five days from Labuan Bajo, accepting that the trip ends in a harbour town. If a charter is out of budget, take a shared boat but pay for the smallest one you can find rather than the cheapest. Upgrading, swap the two island nights for a liveaboard and sleep out among the islands, which is the version most couples wish they had booked."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms156",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms158",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Money. "
+        },
+        {
+          "_key": "kms159",
+          "_type": "span",
+          "marks": [],
+          "text": "Park fees are bundled per route and paid ahead through the official app or your operator, around IDR 650,000 or IDR 900,000 per person in 2026 depending on the route. Carry cash for everything else, since card payment outside hotels is unreliable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms161",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Season. "
+        },
+        {
+          "_key": "kms162",
+          "_type": "span",
+          "marks": [],
+          "text": "The dry months, roughly April to October, bring the calmest seas. January and February are the worst for cancelled boat days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms164",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Health. "
+        },
+        {
+          "_key": "kms165",
+          "_type": "span",
+          "marks": [],
+          "text": "The nearest serious medical care is in Bali. Check your insurance covers boat travel and, if relevant, diving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms168",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Connectivity. "
+        },
+        {
+          "_key": "kms169",
+          "_type": "span",
+          "marks": [],
+          "text": "Signal drops away as soon as you leave the harbour, and you will want it back when you return. An "
+        },
+        {
+          "_key": "kms170",
+          "_type": "span",
+          "marks": ["kmm167"],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "kms171",
+          "_type": "span",
+          "marks": [],
+          "text": " saves hunting for a local SIM on arrival."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm167",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms173",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms175",
+          "_type": "span",
+          "marks": [],
+          "text": "Komodo is not the obvious honeymoon, and that is most of its appeal. Booked as a shared day trip from a harbour hotel it is a mediocre one. Booked as a private boat and two quiet island nights, it is a week of scenery almost nobody else has photographs of, and the money goes into the experience rather than the thread count. If you want to be looked after rather than moved around, go to Lombok and the Gilis instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms177",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kmb183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms180",
+          "_type": "span",
+          "marks": [],
+          "text": "For a gentler island honeymoon, see our "
+        },
+        {
+          "_key": "kms181",
+          "_type": "span",
+          "marks": ["kmm179"],
+          "text": "9-day Lombok and Gili honeymoon"
+        },
+        {
+          "_key": "kms182",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm179",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/9-days-lombok-gili-honeymoon"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms185",
+          "_type": "span",
+          "marks": [],
+          "text": "To give Komodo a longer run with Flores overland, see "
+        },
+        {
+          "_key": "kms186",
+          "_type": "span",
+          "marks": ["kmm184"],
+          "text": "10 days in Komodo and Flores"
+        },
+        {
+          "_key": "kms187",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm184",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/10-days-komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kmb193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kms190",
+          "_type": "span",
+          "marks": [],
+          "text": "For the reef-first version of a honeymoon, see "
+        },
+        {
+          "_key": "kms191",
+          "_type": "span",
+          "marks": ["kmm189"],
+          "text": "10 days in Raja Ampat for honeymooners"
+        },
+        {
+          "_key": "kms192",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kmm189",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/10-days-raja-ampat-honeymoon"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "draft",
+  "destinationPrimary": "komodo_flores",
+  "destinationSecondary": ["bali"],
+  "faq": [
+    {
+      "_type": "faqItem",
+      "answer": "Yes, if you want landscape over pampering. The islands are spectacular and a private boat makes them feel private. Labuan Bajo itself is a working harbour town, so plan to spend your time on the water, not in it.",
+      "question": "Is Komodo a good place for a honeymoon?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "For a honeymoon, yes if the budget allows. It buys you the timing, which is what separates the Padar ridge at sunrise from the Padar ridge with forty other people on it. It is the best-value upgrade on the trip.",
+      "question": "Should you charter a private boat in Komodo?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "Park entry uses a bundled ticket per route: around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes including Rinca and Padar, booked ahead through the official app or your operator. The system has changed before, so confirm when booking.",
+      "question": "How much are Komodo National Park fees in 2026?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "Roughly April to October, when seas are calmest and boat days are least likely to be cancelled. January and February are the worst months for weather disruption.",
+      "question": "When is the best time for a Komodo honeymoon?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "Fly to Labuan Bajo, about 1 hour 15 minutes direct. It is the only sensible option: the sea alternative is a multi-day liveaboard, not a transfer. Take a morning flight, since afternoon delays are common.",
+      "question": "How do you get from Bali to Komodo?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "Five days is the practical minimum for two water days plus a weather buffer. Seven lets you add a quiet island stay at the end, which is what turns a sightseeing trip into a honeymoon.",
+      "question": "How many days do you need in Komodo?"
+    },
+    {
+      "_type": "faqItem",
+      "answer": "Komodo is easier to reach and more dramatic above water. Raja Ampat is far better below it, and much harder to get to. If this is your first trip east of Bali, Komodo is the more forgiving choice.",
+      "question": "Is Komodo or Raja Ampat better for a honeymoon?"
+    }
+  ],
+  "focusKeyword": "Komodo honeymoon",
+  "intro": "Seven days in Komodo built for two, around a private boat day at Padar and two quiet island nights instead of a week in a harbour town.",
+  "metaDescription": "A 7-day Komodo honeymoon: why to charter rather than join a shared boat, what park fees cost in 2026, and where to land softly afterwards.",
+  "metaTitle": "Komodo Honeymoon: Private Boat, Padar, 7 Days",
+  "route": "Bali → Labuan Bajo → Komodo National Park → island stay → Bali",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-komodo-honeymoon-private-boat"
+  },
+  "title": "7 Days in Komodo for a Honeymoon: Padar, Pink Beach and a Private Boat",
+  "travelStylePrimary": "romantic_escape",
+  "travellerTypes": ["honeymooners", "couples"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "balanced"
+}
