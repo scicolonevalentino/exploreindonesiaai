@@ -221,6 +221,19 @@ function TravelCostsPage() {
             <li>Luxury: $250 to $400 or more a day.</li>
             <li>Bali tourist areas cost 30 to 50% more than Java or the eastern islands.</li>
             <li>
+              Travelling alone costs roughly a third more per head, because a room costs the same
+              for one as for two. See{" "}
+              <Link
+                to="/trips/$slug"
+                params={{ slug: "7-days-bali-solo-travellers" }}
+                className="underline underline-offset-2"
+                style={teal}
+              >
+                what a week in Bali costs on your own
+              </Link>
+              .
+            </li>
+            <li>
               Biggest hidden costs: island-hopping flights, alcohol (high import tax), and peak
               season (July, August, December add 30 to 50% on accommodation).
             </li>
