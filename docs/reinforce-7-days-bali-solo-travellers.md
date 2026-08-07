@@ -2,8 +2,8 @@
 
 > **STATO: APPLICATO il 2026-08-07.** Sezioni H2, tabella, link Booking e link in entrata sono in produzione. Il campo `title` resta intatto per scelta del founder.
 
-Generato dalla run di prova del 2026-08-07 (PARTE 3). **Non applicato: decide il founder.**
-La PARTE 1 di quella run ha già applicato title e meta in produzione, vedi sotto.
+Generato dalla run di prova del 2026-08-07 (PARTE 3), approvato e applicato lo stesso giorno.
+La PARTE 1 aveva già applicato metaTitle e metaDescription; le sezioni della PARTE 5 sono seguite dopo l'approvazione.
 
 ## 1. La pagina e il cluster
 
