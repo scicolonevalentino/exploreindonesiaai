@@ -2,15 +2,33 @@
 // `value` maps to the Sanity `destinationPrimary` / `destinationSecondary` enum
 // in src/lib/sanity-queries.ts (DESTINATIONS).
 
+// An editorial section rendered on the hub above the itinerary list. Hubs used
+// to be a bare listing with a one-sentence intro, which is why a page like
+// bali-nearby-islands could take 563 impressions and no clicks: it never
+// answered the question people were actually asking. Optional, so the hubs that
+// have nothing to say stay exactly as they were.
+export type DestinationSection = {
+  // Phrased the way someone types it into a search box, not as a label.
+  heading: string;
+  // The first paragraph must answer the heading on its own, in 40 to 60 words.
+  body: string[];
+  table?: { columns: string[]; rows: string[][]; caption?: string };
+  // Trailing sentence carrying one internal link.
+  link?: { before: string; href: string; anchor: string; after: string };
+};
+
 export type DestinationContent = {
   slug: string;
   value: string;
   name: string;
   shortName: string;
+  // Overrides the H1 when the nav-friendly `name` is not what people search.
+  h1?: string;
   metaTitle: string;
   metaDescription: string;
   intro: string;
   highlights: string[];
+  sections?: DestinationSection[];
 };
 
 export const DESTINATION_CONTENT: DestinationContent[] = [
@@ -31,12 +49,120 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "bali_nearby_islands",
     name: "Bali + Nearby Islands",
     shortName: "Bali & Islands",
-    metaTitle: "Bali + Nusa Islands itineraries, Penida, Lembongan, Gili",
+    h1: "Islands Near Bali",
+    metaTitle: "Islands Near Bali: Which to Visit and How to Get There",
     metaDescription:
-      "Pair Bali with Nusa Penida, Nusa Lembongan and Gili, itineraries designed for island-hopping with bookable ferries, stays, and snorkel tours.",
+      "Which islands sit near Bali, how long each takes to reach by fast boat or plane, and how to pick the one that fits your trip. Honest trade-offs.",
     intro:
       "Bali is best paired with the islands at its doorstep. These itineraries combine the mainland with Nusa Penida, Lembongan and the Gilis, with the ferries, transfers and dive spots already mapped out for you.",
     highlights: ["Nusa Penida", "Nusa Lembongan", "Gili Islands", "Manta dives"],
+    // Journey times below are the ones already published on our /transport/*
+    // pages, kept in sync deliberately rather than re-researched.
+    sections: [
+      {
+        heading: "Which islands are near Bali?",
+        body: [
+          "Nine islands sit within easy reach of Bali. The three Nusa islands, Penida, Lembongan and Ceningan, are the closest, around 30 to 45 minutes by fast boat from Sanur. The three Gilis and Lombok are an hour or two further east. Komodo, Java and Sumbawa need a short flight.",
+        ],
+        table: {
+          columns: ["Island", "Getting there from Bali", "Go for", "Skip it if"],
+          rows: [
+            [
+              "Nusa Penida",
+              "Fast boat from Sanur, about 30 to 45 minutes",
+              "Cliff viewpoints and manta snorkelling",
+              "You dislike rough roads, the island's tracks are hard work",
+            ],
+            [
+              "Nusa Lembongan",
+              "Same Sanur corridor, about 30 to 45 minutes",
+              "An easy first island, walkable and calm",
+              "You want variety, it is small",
+            ],
+            [
+              "Nusa Ceningan",
+              "Bridge from Lembongan, a few minutes",
+              "A quiet half day next door",
+              "You need it to fill a whole trip",
+            ],
+            [
+              "Gili Trawangan",
+              "Fast boat, roughly 1.5 to 2.5 hours",
+              "Restaurants, bars and easy reef swims",
+              "You want quiet",
+            ],
+            [
+              "Gili Air",
+              "Fast boat, roughly 1.5 to 2.5 hours",
+              "The balance of calm and somewhere to eat",
+              "You want full seclusion",
+            ],
+            [
+              "Gili Meno",
+              "Fast boat, roughly 1.5 to 2.5 hours",
+              "Seclusion, very little on the schedule",
+              "Three nights would bore you",
+            ],
+            [
+              "Lombok",
+              "Flight about 45 minutes, or fast boat 2 to 3.5 hours",
+              "Empty surf beaches and the Rinjani trek",
+              "Your trip is under a week",
+            ],
+            [
+              "Komodo (via Labuan Bajo)",
+              "Flight about 1 hour 15 minutes",
+              "Dragons, Padar, and the best boat days in Indonesia",
+              "You cannot spare three days",
+            ],
+            [
+              "Java",
+              "Flight to Yogyakarta about 1 hour 25 minutes",
+              "Borobudur, Prambanan and volcano sunrises",
+              "You want beach time",
+            ],
+          ],
+          caption:
+            "Working estimates. Sea crossings depend on conditions and operators change schedules, so confirm before you book.",
+        },
+      },
+      {
+        heading: "What are the Nusa Islands?",
+        body: [
+          "The Nusa Islands are three small islands off Bali's south-east coast: Nusa Penida, Nusa Lembongan and Nusa Ceningan. Penida is the largest and most dramatic, Lembongan the easiest to spend a few slow days on, and Ceningan is joined to Lembongan by a bridge. All three run from Sanur.",
+        ],
+        link: {
+          before: "If you are choosing between the first two, we compare them in detail in ",
+          href: "/destinations/bali-nearby-islands/nusa-penida-vs-nusa-lembongan",
+          anchor: "Nusa Penida vs Nusa Lembongan",
+          after: ".",
+        },
+      },
+      {
+        heading: "Which islands near Bali can you visit as a day trip?",
+        body: [
+          "Only the Nusa islands work as a day trip, and even then Nusa Penida is a long day: an early boat, a full schedule on poor roads, and a late return. Lembongan and Ceningan are the gentler choice. The Gilis, Lombok and Komodo all need at least one overnight to be worth the crossing.",
+        ],
+      },
+      {
+        heading: "Nusa Penida or Lombok?",
+        body: [
+          "Pick Nusa Penida if you have two or three days and want the famous cliff viewpoints close to Bali. Pick Lombok if you have a week or more and want beaches, surf and a volcano trek with far fewer people. Penida is a side trip from Bali. Lombok is a destination of its own.",
+        ],
+      },
+      {
+        heading: "Which island near Bali is best for a honeymoon?",
+        body: [
+          "Gili Meno is the usual answer: the quietest of the three Gilis, a handful of bungalows and almost nothing to do. Gili Air suits couples who want calm plus somewhere to eat. Nusa Lembongan works if you want to stay close to Bali. Lombok's north coast holds the larger resorts.",
+        ],
+        link: {
+          before: "For a route that puts those islands together, see our ",
+          href: "/trips/9-days-lombok-gili-honeymoon",
+          anchor: "9-day Lombok and Gili honeymoon",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "java",

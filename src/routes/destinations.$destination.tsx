@@ -5,6 +5,7 @@ import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
 import { JsonLd } from "@/components/JsonLd";
+import { ComparisonTable } from "@/components/ComparisonTable";
 import { ogImageUrl } from "@/lib/og";
 import { setCdnCache } from "@/lib/cdn-cache";
 import {
@@ -20,6 +21,7 @@ import {
   DESTINATION_CONTENT,
   findDestinationBySlug,
   type DestinationContent,
+  type DestinationSection,
 } from "@/data/destinations";
 import { TRANSPORT_ROUTES } from "@/data/routes";
 
@@ -203,7 +205,7 @@ function DestinationInner() {
             Destination
           </p>
           <h1 className="mt-2 font-serif text-white text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">
-            {dest.name}
+            {dest.h1 ?? dest.name}
           </h1>
           <p className="mt-5 text-white/85 text-base sm:text-lg max-w-3xl leading-relaxed">
             {dest.intro}
@@ -224,6 +226,54 @@ function DestinationInner() {
       </header>
 
       <main className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        {/* Editorial answer sections, above the listings: a hub that only lists
+            itineraries never answers the question that brought people here. */}
+        {(dest.sections?.length ?? 0) > 0 && (
+          <section className="mb-16 max-w-3xl">
+            {dest.sections!.map((s: DestinationSection) => (
+              <div key={s.heading}>
+                <h2
+                  id={s.heading
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-|-$/g, "")}
+                  className="font-serif text-2xl sm:text-3xl font-semibold mt-12 first:mt-0 mb-4 scroll-mt-24"
+                  style={{ color: "var(--navy-deep)" }}
+                >
+                  {s.heading}
+                </h2>
+                {s.body.map((p: string) => (
+                  <p key={p} className="my-4 leading-relaxed" style={{ color: "var(--text-dark)" }}>
+                    {p}
+                  </p>
+                ))}
+                {s.table && (
+                  <ComparisonTable
+                    value={{
+                      columns: s.table.columns,
+                      rows: s.table.rows.map((cells: string[]) => ({ cells })),
+                      caption: s.table.caption,
+                    }}
+                  />
+                )}
+                {s.link && (
+                  <p className="my-4 leading-relaxed" style={{ color: "var(--text-dark)" }}>
+                    {s.link.before}
+                    <Link
+                      to={s.link.href}
+                      className="font-medium underline underline-offset-2"
+                      style={{ color: "var(--teal-link)" }}
+                    >
+                      {s.link.anchor}
+                    </Link>
+                    {s.link.after}
+                  </p>
+                )}
+              </div>
+            ))}
+          </section>
+        )}
+
         {guides.length > 0 && (
           <section className="mb-16">
             <p
