@@ -1,25 +1,27 @@
 # Piano di rinforzo: /trips/9-days-lombok-gili-honeymoon
 
+> **STATO: APPLICATO il 2026-08-07.** Title, meta, le cinque sezioni, le due tabelle e i link Booking sono in produzione.
+
 Generato dal task schedulato del 2026-08-05. **Non applicato: decide il founder.**
 
 ## 1. La pagina e il cluster
 
 Pagina: `https://exploreindonesia.ai/trips/9-days-lombok-gili-honeymoon`
-_id Sanity: `itinerary-9-days-lombok-gili-honeymoon` (contentStatus `live`, online dal 2026-07-01)
+\_id Sanity: `itinerary-9-days-lombok-gili-honeymoon` (contentStatus `live`, online dal 2026-07-01)
 
 Cluster di query (GSC, 28 giorni: 2026-07-06 → 2026-08-02):
 
-| query | impression | click | posizione |
-|---|---|---|---|
-| honeymoon in lombok | 53 | 0 | 72,3 |
-| gili honeymoon | 39 | 0 | 46,9 |
-| honeymoon lombok | 35 | 0 | 68,7 |
-| lombok honeymoons | 34 | 0 | 81,2 |
-| lombok honeymoon | 4 | 0 | 71,5 |
-| bali and lombok honeymoon | 2 | 0 | 49,0 |
-| gili islands honeymoon | 2 | 0 | 38,0 |
-| gili island honeymoon | 1 | 0 | 37,0 |
-| gili trawangan honeymoon | 1 | 0 | 54,0 |
+| query                     | impression | click | posizione |
+| ------------------------- | ---------- | ----- | --------- |
+| honeymoon in lombok       | 53         | 0     | 72,3      |
+| gili honeymoon            | 39         | 0     | 46,9      |
+| honeymoon lombok          | 35         | 0     | 68,7      |
+| lombok honeymoons         | 34         | 0     | 81,2      |
+| lombok honeymoon          | 4          | 0     | 71,5      |
+| bali and lombok honeymoon | 2          | 0     | 49,0      |
+| gili islands honeymoon    | 2          | 0     | 38,0      |
+| gili island honeymoon     | 1          | 0     | 37,0      |
+| gili trawangan honeymoon  | 1          | 0     | 54,0      |
 
 **Totale pagina: 205 impression, 0 click, posizione media 60,0.**
 
@@ -32,8 +34,8 @@ senza trend di miglioramento. La pagina è indicizzata e ferma, non ancora in sa
 
 ## 2. Perché non ranka
 
-**Causa principale: mismatch di intento.** Le query sono di *decisione sulla destinazione*,
-la pagina è un *itinerario logistico*. Chi cerca "honeymoon in lombok" vuole sapere se Lombok
+**Causa principale: mismatch di intento.** Le query sono di _decisione sulla destinazione_,
+la pagina è un _itinerario logistico_. Chi cerca "honeymoon in lombok" vuole sapere se Lombok
 va bene per una luna di miele, in quale isola stare, dove dormire e quanto costa. La pagina
 risponde invece a "come si incastrano nove giorni", che è la domanda successiva.
 
@@ -76,13 +78,16 @@ in due settimane. L'obiettivo realistico è passare dalla pagina 6 alla pagina 2
 ```
 Lombok Honeymoon: Which Gili Island, and a 9-Day Route
 ```
+
 54 caratteri. Mette "Lombok honeymoon" come frase esatta iniziale, aggiunge "Gili Island"
 per il secondo cluster, e mantiene il segnale itinerario così che il click non venga deluso.
 
 Alternativa se si vuole spingere l'accommodation invece del confronto isole:
+
 ```
 Lombok Honeymoon: Where to Stay, and a 9-Day Gili Route
 ```
+
 54 caratteri.
 
 ## 4. Meta description riscritta
@@ -90,6 +95,7 @@ Lombok Honeymoon: Where to Stay, and a 9-Day Gili Route
 ```
 Which Gili island suits a honeymoon, where to stay on Lombok, and a 9-day route from Kuta Lombok to Gili Meno and Gili Air, with honest boat advice.
 ```
+
 148 caratteri.
 
 ## 5. Sezioni H2 da aggiungere
@@ -115,11 +121,11 @@ le altre dopo "Why this route makes sense". Il day-by-day resta intatto.
 
 (51 parole.) Seguita dalla **tabella comparativa**, il formato più citato dagli AI:
 
-| Island | Feel | Pick it for a honeymoon if | Watch out for |
-|---|---|---|---|
-| Gili Meno | Smallest and quietest, a handful of bungalows | You want seclusion and almost nothing on the schedule | Few places to eat, patchy card payment, three nights can feel long |
-| Gili Air | Quiet, with a working village and more choice for dinner | You want calm without isolation, and an easy last stop | The south beachfront gets busier in peak season |
-| Gili Trawangan | Largest and liveliest, bars and beach clubs | You want restaurants and some nightlife at the end | The party crowd concentrates on the east strip |
+| Island         | Feel                                                     | Pick it for a honeymoon if                             | Watch out for                                                      |
+| -------------- | -------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------ |
+| Gili Meno      | Smallest and quietest, a handful of bungalows            | You want seclusion and almost nothing on the schedule  | Few places to eat, patchy card payment, three nights can feel long |
+| Gili Air       | Quiet, with a working village and more choice for dinner | You want calm without isolation, and an easy last stop | The south beachfront gets busier in peak season                    |
+| Gili Trawangan | Largest and liveliest, bars and beach clubs              | You want restaurants and some nightlife at the end     | The party crowd concentrates on the east strip                     |
 
 Linkare da qui alla guida esistente `/destinations/lombok-gili/gili-islands-comparison`
 (oggi 11 impression, pos 18,8) invece di duplicarne il contenuto.
@@ -134,12 +140,12 @@ Linkare da qui alla guida esistente `/destinations/lombok-gili/gili-islands-comp
 (54 parole.) Seguita dalla tabella aree, **con link affiliati Booking.com** (l'affiliazione CJ
 ora esiste, `normalizeBookingHref()` in `src/lib/booking.ts` incapsula l'URL):
 
-| Area | Why couples base here | Trade-off |
-|---|---|---|
-| Kuta Lombok (south) | Closest to the south coast beaches and the airport | A small town, limited dinner options |
-| Senggigi and Sire (north-west) | Most of Lombok's larger resorts and spa hotels | Far from the south beaches |
-| Gili Meno | The seclusion half of the trip | Very few rooms, book early |
-| Gili Air | A comfortable finish with easier onward boats | Less secluded than Meno |
+| Area                           | Why couples base here                              | Trade-off                            |
+| ------------------------------ | -------------------------------------------------- | ------------------------------------ |
+| Kuta Lombok (south)            | Closest to the south coast beaches and the airport | A small town, limited dinner options |
+| Senggigi and Sire (north-west) | Most of Lombok's larger resorts and spa hotels     | Far from the south beaches           |
+| Gili Meno                      | The seclusion half of the trip                     | Very few rooms, book early           |
+| Gili Air                       | A comfortable finish with easier onward boats      | Less secluded than Meno              |
 
 `affiliateLinks` da aggiungere (URL di ricerca semplice, il wrapper CJ è automatico):
 
@@ -176,14 +182,14 @@ per non ripetere. Sostituirla con "Is Lombok or Bali better for a honeymoon?".
 
 ## 6. Link interni da aggiungere
 
-| Da | Perché | Anchor suggerito |
-|---|---|---|
-| `/destinations/lombok-gili` (330 impr, pos 24,0) | La nostra pagina Lombok più forte, oggi linka l'articolo solo come card automatica | riga in-content: "Couples planning a honeymoon here should start with our **9-day Lombok and Gili honeymoon route**." |
-| `/indonesia-travel-costs` (1956 impr, pos 8,9) | Pagina con più autorità del sito, passa peso reale | "what a **Lombok and Gili honeymoon** actually costs" |
-| `/destinations/lombok-gili/gili-islands-comparison` (pos 18,8) | Tema quasi identico, chiude il loop col nuovo H2 | "if you are choosing for a **honeymoon**, see the couples version" |
-| `/destinations/lombok-gili/where-to-stay-in-kuta-lombok` | Sub-intento accommodation | "**honeymoon couples** usually pair Kuta Lombok with the Gilis" |
-| `/trips/7-days-bali-couples` e `/trips/15-days-indonesia-honeymoon` | Fratelli romantici, oggi non linkano | link reciproco in "Related itineraries" |
-| `/destinations/bali-nearby-islands` (653 impr, pos 45,3) | Ranka per "best island in bali for honeymoon" a pos 55 senza rispondere | "if the honeymoon is the point, **Lombok and the Gilis** do it better" |
+| Da                                                                  | Perché                                                                             | Anchor suggerito                                                                                                      |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `/destinations/lombok-gili` (330 impr, pos 24,0)                    | La nostra pagina Lombok più forte, oggi linka l'articolo solo come card automatica | riga in-content: "Couples planning a honeymoon here should start with our **9-day Lombok and Gili honeymoon route**." |
+| `/indonesia-travel-costs` (1956 impr, pos 8,9)                      | Pagina con più autorità del sito, passa peso reale                                 | "what a **Lombok and Gili honeymoon** actually costs"                                                                 |
+| `/destinations/lombok-gili/gili-islands-comparison` (pos 18,8)      | Tema quasi identico, chiude il loop col nuovo H2                                   | "if you are choosing for a **honeymoon**, see the couples version"                                                    |
+| `/destinations/lombok-gili/where-to-stay-in-kuta-lombok`            | Sub-intento accommodation                                                          | "**honeymoon couples** usually pair Kuta Lombok with the Gilis"                                                       |
+| `/trips/7-days-bali-couples` e `/trips/15-days-indonesia-honeymoon` | Fratelli romantici, oggi non linkano                                               | link reciproco in "Related itineraries"                                                                               |
+| `/destinations/bali-nearby-islands` (653 impr, pos 45,3)            | Ranka per "best island in bali for honeymoon" a pos 55 senza rispondere            | "if the honeymoon is the point, **Lombok and the Gilis** do it better"                                                |
 
 Regola di casa: ogni nuovo link in-content richiede `bun run indexnow:submit`.
 

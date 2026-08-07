@@ -1,5 +1,7 @@
 # Piano di rinforzo: /trips/7-days-bali-solo-travellers
 
+> **STATO: APPLICATO il 2026-08-07.** Sezioni H2, tabella, link Booking e link in entrata sono in produzione. Il campo `title` resta intatto per scelta del founder.
+
 Generato dalla run di prova del 2026-08-07 (PARTE 3). **Non applicato: decide il founder.**
 La PARTE 1 di quella run ha già applicato title e meta in produzione, vedi sotto.
 

@@ -1,5 +1,7 @@
 # Piano di rinforzo: /destinations/bali-nearby-islands
 
+> **STATO: APPLICATO il 2026-08-07.** Title, meta, H1 e le cinque sezioni con tabella sono in produzione.
+
 Generato dal task schedulato del 2026-08-07. **Non applicato: decide il founder.**
 
 ## 1. La pagina e il cluster
@@ -10,21 +12,21 @@ Sorgente: **codice, non Sanity.** Il contenuto vive in `src/data/destinations.ts
 
 Cluster di query (GSC, 28 giorni: 2026-07-08 → 2026-08-04, dimensioni page+query):
 
-| query | impression | click | posizione |
-|---|---|---|---|
-| islands near bali | 85 | 0 | 39,8 |
-| islands around bali | 65 | 0 | 39,2 |
-| islands close to bali | 63 | 0 | 56,3 |
-| islands off bali | 63 | 0 | 59,5 |
-| island near bali | 51 | 0 | 66,9 |
-| islands in bali | 33 | 0 | 39,3 |
-| islands of bali | 33 | 0 | 42,2 |
-| best island in bali for honeymoon | 24 | 0 | 55,0 |
-| nusa islands bali | 22 | 0 | 23,0 |
-| islands bali | 15 | 0 | 46,9 |
-| islands in bali indonesia | 12 | 0 | 43,3 |
-| day trips from bali to other islands | 10 | 0 | 35,6 |
-| coda lunga (37 query residue) | 87 | 0 | 30-79 |
+| query                                | impression | click | posizione |
+| ------------------------------------ | ---------- | ----- | --------- |
+| islands near bali                    | 85         | 0     | 39,8      |
+| islands around bali                  | 65         | 0     | 39,2      |
+| islands close to bali                | 63         | 0     | 56,3      |
+| islands off bali                     | 63         | 0     | 59,5      |
+| island near bali                     | 51         | 0     | 66,9      |
+| islands in bali                      | 33         | 0     | 39,3      |
+| islands of bali                      | 33         | 0     | 42,2      |
+| best island in bali for honeymoon    | 24         | 0     | 55,0      |
+| nusa islands bali                    | 22         | 0     | 23,0      |
+| islands bali                         | 15         | 0     | 46,9      |
+| islands in bali indonesia            | 12         | 0     | 43,3      |
+| day trips from bali to other islands | 10         | 0     | 35,6      |
+| coda lunga (37 query residue)        | 87         | 0     | 30-79     |
 
 **Totale pagina: 563 impression, 0 click, posizione media 46,9. Su 49 query distinte.**
 
@@ -57,7 +59,7 @@ per "islands near bali" (agosto 2026). I primi dieci risultati sono, senza eccez
 - Tripadvisor, "THE 15 BEST Bali Islands to Visit (2026)"
 - Holidify, "13 Islands Near Bali That Every Traveller Must Know"
 
-Tutte rispondono alla stessa domanda: *quali sono queste isole, una per una.*
+Tutte rispondono alla stessa domanda: _quali sono queste isole, una per una._
 Il set che Google si aspetta (dal risultato in posizione 1) è: Lombok, Gili Trawangan,
 Gili Meno, Gili Air, Nusa Lembongan, Nusa Penida, Nusa Ceningan, Komodo, Java, Moyo.
 
@@ -82,7 +84,7 @@ blocco di contenuto che elenchi le isole e dica com'è ciascuna.** Google ci mos
 
 1. **Il title non contiene mai la formulazione cercata.** Oggi:
    `Bali + Nusa Islands itineraries, Penida, Lembongan, Gili`. Il token dominante è
-   "itineraries", che è l'intento *successivo*. La frase "islands near Bali" non compare
+   "itineraries", che è l'intento _successivo_. La frase "islands near Bali" non compare
    né nel title né nell'H1 (`Bali + Nearby Islands`, che è un'etichetta di navigazione
    interna, non una frase che qualcuno digita).
 2. **Copriamo 9 isole su 10 ma non lo diciamo da nessuna parte.** Abbiamo 6 itinerari e
@@ -124,6 +126,7 @@ Ricordarsi il gotcha `routeTree.gen.ts`: se compare nel diff, `git restore`.
 ```
 Islands Near Bali: Which to Visit and How to Get There
 ```
+
 54 caratteri. Mette "Islands Near Bali" come frase esatta iniziale (il cluster da 393
 impression), poi promette le due cose che la SERP non dà bene: la scelta e la logistica.
 
@@ -134,6 +137,7 @@ Cambiare anche l'**H1** da `Bali + Nearby Islands` a `Islands Near Bali`.
 ```
 Which islands sit near Bali, how long each takes to reach by fast boat or plane, and how to pick the one that fits your trip. Honest trade-offs.
 ```
+
 144 caratteri.
 
 ## 6. Sezioni H2 da aggiungere
@@ -151,17 +155,17 @@ restano tutte, in coda.
 Seguita dalla **tabella comparativa**, il pezzo centrale di tutto l'intervento. Le cifre sono
 riprese dalle nostre pagine transport già pubblicate, non nuove:
 
-| Island | Getting there from Bali | Go for | Skip it if |
-|---|---|---|---|
-| Nusa Penida | Fast boat from Sanur, about 30 to 45 minutes | Cliff viewpoints and manta snorkelling | You dislike rough roads, the island's tracks are hard work |
-| Nusa Lembongan | Same Sanur corridor, about 30 to 45 minutes | An easy first island, walkable and calm | You want variety, it is small |
-| Nusa Ceningan | Bridge from Lembongan, a few minutes | A quiet half day next door | You need it to fill a whole trip |
-| Gili Trawangan | Fast boat, roughly 1.5 to 2.5 hours | Restaurants, bars and easy reef swims | You want quiet |
-| Gili Air | Fast boat, roughly 1.5 to 2.5 hours | The balance of calm and somewhere to eat | You want full seclusion |
-| Gili Meno | Fast boat, roughly 1.5 to 2.5 hours | Seclusion, very little on the schedule | Three nights would bore you |
-| Lombok | Flight about 45 minutes, or fast boat 2 to 3.5 hours | Empty surf beaches and the Rinjani trek | Your trip is under a week |
-| Komodo (via Labuan Bajo) | Flight about 1 hour 15 minutes | Dragons, Padar, the best boat days in Indonesia | You cannot spare three days |
-| Java | Flight to Yogyakarta about 1 hour 25 minutes | Borobudur, Prambanan and volcano sunrises | You want beach time |
+| Island                   | Getting there from Bali                              | Go for                                          | Skip it if                                                 |
+| ------------------------ | ---------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
+| Nusa Penida              | Fast boat from Sanur, about 30 to 45 minutes         | Cliff viewpoints and manta snorkelling          | You dislike rough roads, the island's tracks are hard work |
+| Nusa Lembongan           | Same Sanur corridor, about 30 to 45 minutes          | An easy first island, walkable and calm         | You want variety, it is small                              |
+| Nusa Ceningan            | Bridge from Lembongan, a few minutes                 | A quiet half day next door                      | You need it to fill a whole trip                           |
+| Gili Trawangan           | Fast boat, roughly 1.5 to 2.5 hours                  | Restaurants, bars and easy reef swims           | You want quiet                                             |
+| Gili Air                 | Fast boat, roughly 1.5 to 2.5 hours                  | The balance of calm and somewhere to eat        | You want full seclusion                                    |
+| Gili Meno                | Fast boat, roughly 1.5 to 2.5 hours                  | Seclusion, very little on the schedule          | Three nights would bore you                                |
+| Lombok                   | Flight about 45 minutes, or fast boat 2 to 3.5 hours | Empty surf beaches and the Rinjani trek         | Your trip is under a week                                  |
+| Komodo (via Labuan Bajo) | Flight about 1 hour 15 minutes                       | Dragons, Padar, the best boat days in Indonesia | You cannot spare three days                                |
+| Java                     | Flight to Yogyakarta about 1 hour 25 minutes         | Borobudur, Prambanan and volcano sunrises       | You want beach time                                        |
 
 Nota di cautela da tenere nel testo: "these are working estimates, sea crossings depend on
 conditions and operators change schedules, so confirm before you book." I tempi delle tratte
@@ -216,14 +220,14 @@ onestamente di non farlo, che è la voce editoriale di casa.
 La pagina linka già bene in uscita (itinerari, guide, transport). Il problema è in entrata:
 **nessuna pagina forte del sito la linka in-content.**
 
-| Da | Perché | Anchor suggerito |
-|---|---|---|
-| `/indonesia-travel-costs` (1904 impr, pos 9,2) | La nostra pagina più forte in assoluto, oggi non la linka | "the **islands near Bali** each add a boat or a flight to the budget" |
-| `/destinations/bali` | L'hub padre, passaggio naturale | "when you are ready to leave the mainland, see the **islands near Bali**" |
-| `/trips/7-days-bali-first-timers` | Già taggato `bali_nearby_islands`, alto traffico potenziale | "deciding **which island to add**" |
-| `/destinations/lombok-gili` (204 impr, pos 29,9) | Link reciproco, chiude il loop tra i due hub isole | "how the Gilis compare with the **other islands near Bali**" |
-| `/trips/5-days-nusa-penida-lembongan` | Il figlio più diretto del cluster Nusa | "the **Nusa Islands** in context" |
-| `/destinations/bali-nearby-islands/nusa-penida-vs-nusa-lembongan` | Dalla nuova sezione Nusa verso la guida comparativa esistente | "the full **Penida vs Lembongan** comparison" |
+| Da                                                                | Perché                                                        | Anchor suggerito                                                          |
+| ----------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `/indonesia-travel-costs` (1904 impr, pos 9,2)                    | La nostra pagina più forte in assoluto, oggi non la linka     | "the **islands near Bali** each add a boat or a flight to the budget"     |
+| `/destinations/bali`                                              | L'hub padre, passaggio naturale                               | "when you are ready to leave the mainland, see the **islands near Bali**" |
+| `/trips/7-days-bali-first-timers`                                 | Già taggato `bali_nearby_islands`, alto traffico potenziale   | "deciding **which island to add**"                                        |
+| `/destinations/lombok-gili` (204 impr, pos 29,9)                  | Link reciproco, chiude il loop tra i due hub isole            | "how the Gilis compare with the **other islands near Bali**"              |
+| `/trips/5-days-nusa-penida-lembongan`                             | Il figlio più diretto del cluster Nusa                        | "the **Nusa Islands** in context"                                         |
+| `/destinations/bali-nearby-islands/nusa-penida-vs-nusa-lembongan` | Dalla nuova sezione Nusa verso la guida comparativa esistente | "the full **Penida vs Lembongan** comparison"                             |
 
 Regola di casa: ogni nuovo link in-content richiede `bun run indexnow:submit`.
 
