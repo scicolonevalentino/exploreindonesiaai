@@ -1580,5 +1580,14 @@
       "question": "Are you guaranteed to see manta rays at Manta Bay?",
       "answer": "No. Mantas are wild and sightings depend on conditions no operator controls. Most trips add a second manta site if the first is empty, and Mangrove Point is reliably good regardless. Book the snorkel early in your stay so there is room to try again if the sea does not cooperate."
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "The Yellow Bridge linking Nusa Lembongan and Nusa Ceningan at low tide, with boats moored in the channel",
+    "asset": {
+      "_ref": "image-fc1771738c101bbbc028270afd860dcfb35e67cf-1500x999-jpg",
+      "_type": "reference"
+    },
+    "caption": "Nusa Lembongan to Nusa Ceningan over the Yellow Bridge"
+  }
 }
