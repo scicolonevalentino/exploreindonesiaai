@@ -33,50 +33,50 @@
   },
   "body": [
     {
-      "_type": "block",
       "_key": "nhb1",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs2",
+          "_type": "span",
           "marks": [],
           "text": "Which island near Bali is best for a honeymoon?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb3",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs4",
+          "_type": "span",
           "marks": [],
           "text": "For a honeymoon, Nusa Lembongan is the best base of the islands near Bali. It is small enough to cross on foot, it has the widest choice of places to eat and sleep, and it sits about twenty minutes by boat from the others. Nusa Ceningan is quieter still and suits the final nights. Nusa Penida deserves one day, not a stay."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb5",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs6",
+          "_type": "span",
           "marks": [],
-          "text": "That answer runs against the search results, where Nusa Penida takes almost all the attention. Penida photographs better than anywhere else in the group, and for a honeymoon that is exactly the problem. The island is large, the roads between the famous viewpoints are slow and broken in places, and the good hours of the morning go to a car and a queue. Lembongan and Ceningan give you the same water with a fraction of the driving."
+          "text": "Most guides point the other way, at Nusa Penida, and Penida does photograph better than anywhere else in the group. For a honeymoon that is exactly the problem. Kelingking, Broken Beach and Crystal Bay sit far apart on an island where a short hop on the map can eat an hour, so the days fill with driving and with everyone else arriving at the same viewpoint on the same day-trip schedule. Lembongan and Ceningan put you in the same water with a fraction of the transfers."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "nht7",
+      "_type": "comparisonTable",
       "columns": [
         "Island",
         "What it feels like",
@@ -123,219 +123,248 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "nhb12",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs13",
+          "_type": "span",
           "marks": [],
           "text": "Who this trip is for, and who it is not for"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb14",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs15",
+          "_type": "span",
           "marks": [],
           "text": "This is a honeymoon route for couples who want warm easy water, short distances and slow evenings, with one properly organised sightseeing day rather than five. It suits people who would rather walk to dinner than book a driver, and who are happy for a day to have nothing in it."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb16",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs17",
+          "_type": "span",
           "marks": [],
           "text": "It is a good fit if you like snorkeling straight off a boat, if a scooter or a golf cart is your idea of transport, and if you want the trip to get quieter as it goes rather than busier."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb18",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs19",
+          "_type": "span",
           "marks": [],
           "text": "It is the wrong trip if you want a large resort with a spa complex and several restaurants, if you need nightlife, or if the point of the holiday is to tick off every viewpoint on Nusa Penida. It is also the wrong trip if rough water makes you anxious, because every leg here involves a boat."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb20",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs21",
+          "_type": "span",
           "marks": [],
           "text": "Trip at a glance"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb22",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs23",
+          "_type": "span",
           "marks": [],
           "text": "Duration: 6 days, 5 nights."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb24",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs25",
+          "_type": "span",
           "marks": [],
           "text": "Route: Sanur to Nusa Lembongan for three nights, then Nusa Ceningan for two, with a day trip to Nusa Penida in the middle."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb26",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs27",
+          "_type": "span",
           "marks": [],
           "text": "Pace: Relaxed. Two days with something booked in them, three with nothing."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb28",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs29",
+          "_type": "span",
           "marks": [],
           "text": "Best season: The drier months, roughly May to October, usually bring calmer crossings and better visibility for snorkeling. Conditions vary year to year, so check the forecast the week before rather than trusting the calendar."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb30",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs31",
+          "_type": "span",
           "marks": [],
           "text": "Getting in: Fly into Denpasar, transfer to Sanur, and take a fast boat across. Most couples add this to the end of a Bali stay rather than flying in for it alone."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb32",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs33",
+          "_type": "span",
           "marks": [],
           "text": "Why this route makes sense"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb34",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs35",
+          "_type": "span",
           "marks": [],
           "text": "The order here is built around one fact: both of the days that need the sea to cooperate, the Penida trip and the manta snorkel, leave from Lembongan. Basing there for the first three nights means neither day starts with a bridge crossing and a hunt for a boat."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb36",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs37",
+          "_type": "span",
           "marks": [],
           "text": "Moving to Ceningan on day four then works as a deliberate deceleration. You do the two active days first, while you still want them, and the trip ends somewhere with almost nothing on it. That is the right shape for a honeymoon, and it is the opposite of how most couples build this trip, which is Penida first and a scramble at the end."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb38",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs39",
+          "_type": "span",
           "marks": [],
           "text": "Keeping Penida to a single day is the other deliberate choice. One organised day covers the west coast properly. Three days there covers the same ground more slowly, on worse roads, from a worse base."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb40",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs41",
+          "_type": "span",
           "marks": [],
           "text": "Day 1: Bali to Nusa Lembongan"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb43",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "nhs45",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort connectivity before you leave the mainland. An "
+        },
+        {
+          "_key": "nhs46",
+          "_type": "span",
+          "marks": [
+            "nhm42"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "nhs47",
+          "_type": "span",
+          "marks": [],
+          "text": " activates as you land, which matters here because your boat confirmation, your hotel and your island entry ticket all live on your phone."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm42",
@@ -343,41 +372,41 @@
           "placeholderId": "AIRALO_INDONESIA"
         }
       ],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb49",
+      "_type": "block",
       "children": [
         {
+          "_key": "nhs50",
           "_type": "span",
-          "_key": "nhs44",
           "marks": [
             "strong"
           ],
-          "text": "Morning."
+          "text": "Afternoon."
         },
         {
+          "_key": "nhs51",
           "_type": "span",
-          "_key": "nhs45",
           "marks": [],
-          "text": " Sort connectivity before you leave the mainland. An "
+          "text": " Cross from Sanur. The crossing to Nusa Lembongan takes roughly 30 to 45 minutes depending on the operator and the sea. Book "
         },
         {
+          "_key": "nhs52",
           "_type": "span",
-          "_key": "nhs46",
           "marks": [
-            "nhm42"
+            "nhm48"
           ],
-          "text": "Indonesia eSIM with Airalo"
+          "text": "fast boat tickets from Sanur to Nusa Lembongan"
         },
         {
+          "_key": "nhs53",
           "_type": "span",
-          "_key": "nhs47",
           "marks": [],
-          "text": " activates as you land, which matters here because your boat confirmation, your hotel and your island entry ticket all live on your phone."
+          "text": " ahead in peak season, when the morning and early afternoon departures sell out first."
         }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb49",
-      "style": "normal",
+      ],
       "markDefs": [
         {
           "_key": "nhm48",
@@ -385,55 +414,55 @@
           "placeholderId": "12GO_SANUR_NUSA_LEMBONGAN"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs50",
-          "marks": [
-            "strong"
-          ],
-          "text": "Afternoon."
-        },
-        {
-          "_type": "span",
-          "_key": "nhs51",
-          "marks": [],
-          "text": " Cross from Sanur. The crossing to Nusa Lembongan takes roughly 30 to 45 minutes depending on the operator and the sea. Book "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs52",
-          "marks": [
-            "nhm48"
-          ],
-          "text": "fast boat tickets from Sanur to Nusa Lembongan"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs53",
-          "marks": [],
-          "text": " ahead in peak season, when the morning and early afternoon departures sell out first."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb54",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs55",
+          "_type": "span",
           "marks": [],
           "text": "Evening. Walk the Jungut Batu beachfront and eat early. The day boats have gone by then and the strip empties out, which is the version of Lembongan most day-trippers never see."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb57",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "nhs59",
+          "_type": "span",
+          "marks": [],
+          "text": " three nights on Nusa Lembongan. Compare "
+        },
+        {
+          "_key": "nhs60",
+          "_type": "span",
+          "marks": [
+            "nhm56"
+          ],
+          "text": "stays on Nusa Lembongan"
+        },
+        {
+          "_key": "nhs61",
+          "_type": "span",
+          "marks": [],
+          "text": " around Jungut Batu for walkable dinners, or Mushroom Bay and the Sunset Point side for quieter rooms with a longer walk to eat."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm56",
@@ -441,139 +470,139 @@
           "placeholderId": "BOOKING_NUSA_LEMBONGAN"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs58",
-          "marks": [
-            "strong"
-          ],
-          "text": "Base:"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs59",
-          "marks": [],
-          "text": " three nights on Nusa Lembongan. Compare "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs60",
-          "marks": [
-            "nhm56"
-          ],
-          "text": "stays on Nusa Lembongan"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs61",
-          "marks": [],
-          "text": " around Jungut Batu for walkable dinners, or Mushroom Bay and the Sunset Point side for quieter rooms with a longer walk to eat."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb62",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs63",
+          "_type": "span",
           "marks": [],
           "text": "Travel note. Sanur's boats leave from the consolidated harbour, and the terminal is busy and poorly signed at peak times. Arrive with an hour in hand, and be aware that boarding often means wading a short way in shallow water, so pack your luggage accordingly."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb64",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs65",
+          "_type": "span",
           "marks": [],
           "text": "Day 2: Lembongan on foot, and the sunset side"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb66",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs67",
+          "_type": "span",
           "marks": [],
           "text": "Morning. Do nothing with a schedule attached. Swim off the beach, have a long breakfast, and get a feel for how small the island really is. Lembongan is walkable end to end, and a scooter or golf cart only becomes useful if you are staying on the far side."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb68",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs69",
+          "_type": "span",
           "marks": [],
           "text": "Afternoon. Ride or walk south across the island to Dream Beach and Devil's Tear, the rock shelf where the swell forces up through a blowhole. It is the one bit of drama on Lembongan and it is fifteen minutes from anywhere."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb70",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs71",
+          "_type": "span",
           "marks": [],
           "text": "Evening. Stay at Devil's Tear for sunset, then eat on the Sunset Point side. This is the best evening of the first half of the trip, and it costs nothing to arrange."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb72",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs73",
+          "_type": "span",
           "marks": [],
           "text": "Travel note. The rock at Devil's Tear is uneven and the spray reaches further than it looks, particularly at high tide with a swell running. Keep back from the edge and do not climb down for a photograph."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb74",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs75",
+          "_type": "span",
           "marks": [],
           "text": "Day 3: One organised day on Nusa Penida"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb77",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "nhs79",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the alarm-clock day. Cross early to Penida and do the west coast with a driver rather than a rented scooter. A "
+        },
+        {
+          "_key": "nhs80",
+          "_type": "span",
+          "marks": [
+            "nhm76"
+          ],
+          "text": "guided West Penida tour with a driver"
+        },
+        {
+          "_key": "nhs81",
+          "_type": "span",
+          "marks": [],
+          "text": " covers Kelingking, Broken Beach, Angel's Billabong and Crystal Bay in one loop, which is the only sane way to see them in a day."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm76",
@@ -581,55 +610,55 @@
           "placeholderId": "VIATOR_WEST_PENIDA_LAND"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs78",
-          "marks": [
-            "strong"
-          ],
-          "text": "Morning."
-        },
-        {
-          "_type": "span",
-          "_key": "nhs79",
-          "marks": [],
-          "text": " This is the alarm-clock day. Cross early to Penida and do the west coast with a driver rather than a rented scooter. A "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs80",
-          "marks": [
-            "nhm76"
-          ],
-          "text": "guided West Penida tour with a driver"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs81",
-          "marks": [],
-          "text": " covers Kelingking, Broken Beach, Angel's Billabong and Crystal Bay in one loop, which is the only sane way to see them in a day."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb82",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs83",
+          "_type": "span",
           "marks": [],
           "text": "Afternoon. Finish at Crystal Bay for a swim, then take an afternoon boat back. Getting home for dinner on Lembongan is part of the point of doing Penida this way."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb85",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic."
+        },
+        {
+          "_key": "nhs87",
+          "_type": "span",
+          "marks": [],
+          "text": " Book the driver, not the day tour that starts in Bali, because you are already halfway there. For the crossing itself, small local boats run through the day and take about 20 to 30 minutes, and you can also "
+        },
+        {
+          "_key": "nhs88",
+          "_type": "span",
+          "marks": [
+            "nhm84"
+          ],
+          "text": "compare Lembongan to Nusa Penida crossings"
+        },
+        {
+          "_key": "nhs89",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance if you would rather have a seat confirmed."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm84",
@@ -637,69 +666,69 @@
           "placeholderId": "12GO_NUSA_LEMBONGAN_NUSA_PENIDA"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs86",
-          "marks": [
-            "strong"
-          ],
-          "text": "Booking logic."
-        },
-        {
-          "_type": "span",
-          "_key": "nhs87",
-          "marks": [],
-          "text": " Book the driver, not the day tour that starts in Bali, because you are already halfway there. For the crossing itself, small local boats run through the day and take about 20 to 30 minutes, and you can also "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs88",
-          "marks": [
-            "nhm84"
-          ],
-          "text": "compare Lembongan to Nusa Penida crossings"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs89",
-          "marks": [],
-          "text": " in advance if you would rather have a seat confirmed."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb90",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs91",
+          "_type": "span",
           "marks": [],
           "text": "Travel note. Penida's roads are genuinely rough in sections and the distances take longer than a map suggests. Kelingking has a steep, informal descent to the beach that people underestimate every week, and turning back partway is the normal outcome. Treat the viewpoint as the destination."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb92",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs93",
+          "_type": "span",
           "marks": [],
           "text": "Day 4: Manta Bay in the morning, Ceningan by the afternoon"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb95",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs96",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "nhs97",
+          "_type": "span",
+          "marks": [],
+          "text": " Get on the water early, when the sea is usually calmest. A "
+        },
+        {
+          "_key": "nhs98",
+          "_type": "span",
+          "marks": [
+            "nhm94"
+          ],
+          "text": "Lembongan snorkeling trip to Manta Bay, Crystal Bay and Mangrove Point"
+        },
+        {
+          "_key": "nhs99",
+          "_type": "span",
+          "marks": [],
+          "text": " runs about three hours and covers the three sites worth doing from this side, with a stop at Mangrove Point that is reliably good even when the mantas are not showing."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm94",
@@ -707,41 +736,41 @@
           "placeholderId": "VIATOR_LEMBONGAN_MANTA_SNORKEL"
         }
       ],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb101",
+      "_type": "block",
       "children": [
         {
+          "_key": "nhs102",
           "_type": "span",
-          "_key": "nhs96",
           "marks": [
             "strong"
           ],
-          "text": "Morning."
+          "text": "Afternoon."
         },
         {
+          "_key": "nhs103",
           "_type": "span",
-          "_key": "nhs97",
           "marks": [],
-          "text": " Get on the water early, when the sea is usually calmest. A "
+          "text": " Move across the Yellow Bridge to Nusa Ceningan, which takes about ten minutes by scooter with luggage, or twenty on foot. "
         },
         {
+          "_key": "nhs104",
           "_type": "span",
-          "_key": "nhs98",
           "marks": [
-            "nhm94"
+            "nhm100"
           ],
-          "text": "Lembongan snorkeling trip to Manta Bay, Crystal Bay and Mangrove Point"
+          "text": "Stays on Nusa Ceningan"
         },
         {
+          "_key": "nhs105",
           "_type": "span",
-          "_key": "nhs99",
           "marks": [],
-          "text": " runs about three hours and covers the three sites worth doing from this side, with a stop at Mangrove Point that is reliably good even when the mantas are not showing."
+          "text": " are fewer and simpler than on Lembongan, which is the reason to come."
         }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb101",
-      "style": "normal",
+      ],
       "markDefs": [
         {
           "_key": "nhm100",
@@ -749,111 +778,111 @@
           "placeholderId": "BOOKING_NUSA_CENINGAN"
         }
       ],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb106",
+      "_type": "block",
       "children": [
         {
+          "_key": "nhs107",
           "_type": "span",
-          "_key": "nhs102",
+          "marks": [],
+          "text": "Evening. Watch sunset from the west side of Ceningan, near Secret Point, and plan on crossing back to Lembongan for dinner unless your hotel serves food."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs109",
+          "_type": "span",
+          "marks": [],
+          "text": "Base: two nights on Nusa Ceningan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs111",
+          "_type": "span",
+          "marks": [],
+          "text": "Travel note. Manta rays are wild animals and sightings are never guaranteed, whatever a booking page implies. Operators usually add a second manta site if the first is empty, but budget for the possibility of a good snorkel with no mantas in it, and treat a sighting as the upside rather than the plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs113",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: A day with nothing in it on Nusa Ceningan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "nhb114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs115",
+          "_type": "span",
+          "marks": [],
+          "text": "Morning. Ceningan is small, hilly and mostly seaweed farms and cliffs. Walk or ride the loop, stop at the Blue Lagoon where the water sits between high walls of rock, and watch the cliff jumping at Mahana Point rather than joining in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "nhb117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs118",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon."
         },
         {
+          "_key": "nhs119",
           "_type": "span",
-          "_key": "nhs103",
           "marks": [],
-          "text": " Move across the Yellow Bridge to Nusa Ceningan, which takes about ten minutes by scooter with luggage, or twenty on foot. "
+          "text": " Keep it empty. If you want one shared thing to do, a "
         },
         {
+          "_key": "nhs120",
           "_type": "span",
-          "_key": "nhs104",
           "marks": [
-            "nhm100"
+            "nhm116"
           ],
-          "text": "Stays on Nusa Ceningan"
+          "text": "Nusa Lembongan and Ceningan day tour"
         },
         {
+          "_key": "nhs121",
           "_type": "span",
-          "_key": "nhs105",
           "marks": [],
-          "text": " are fewer and simpler than on Lembongan, which is the reason to come."
+          "text": " covers both islands with snorkeling stops, though by this point in the trip you will have seen most of it and doing less is the better call."
         }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb106",
-      "style": "normal",
-      "markDefs": [],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs107",
-          "marks": [],
-          "text": "Evening. Watch sunset from the west side of Ceningan, near Secret Point, and plan on crossing back to Lembongan for dinner unless your hotel serves food."
-        }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb108",
-      "style": "normal",
-      "markDefs": [],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs109",
-          "marks": [],
-          "text": "Base: two nights on Nusa Ceningan."
-        }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb110",
-      "style": "normal",
-      "markDefs": [],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs111",
-          "marks": [],
-          "text": "Travel note. Manta rays are wild animals and sightings are never guaranteed, whatever a booking page implies. Operators usually add a second manta site if the first is empty, but budget for the possibility of a good snorkel with no mantas in it, and treat a sighting as the upside rather than the plan."
-        }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb112",
-      "style": "h2",
-      "markDefs": [],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs113",
-          "marks": [],
-          "text": "Day 5: A day with nothing in it on Nusa Ceningan"
-        }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb114",
-      "style": "normal",
-      "markDefs": [],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs115",
-          "marks": [],
-          "text": "Morning. Ceningan is small, hilly and mostly seaweed farms and cliffs. Walk or ride the loop, stop at the Blue Lagoon where the water sits between high walls of rock, and watch the cliff jumping at Mahana Point rather than joining in."
-        }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "nhb117",
-      "style": "normal",
+      ],
       "markDefs": [
         {
           "_key": "nhm116",
@@ -861,194 +890,165 @@
           "placeholderId": "KLOOK_LEMBONGAN_CENINGAN"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs118",
-          "marks": [
-            "strong"
-          ],
-          "text": "Afternoon."
-        },
-        {
-          "_type": "span",
-          "_key": "nhs119",
-          "marks": [],
-          "text": " Keep it empty. If you want one shared thing to do, a "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs120",
-          "marks": [
-            "nhm116"
-          ],
-          "text": "Nusa Lembongan and Ceningan day tour"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs121",
-          "marks": [],
-          "text": " covers both islands with snorkeling stops, though by this point in the trip you will have seen most of it and doing less is the better call."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb122",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs123",
+          "_type": "span",
           "marks": [],
           "text": "Evening. Last dinner. Cross back over the bridge, eat on the water at Lembongan, and settle your bill tonight rather than in the morning."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb124",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs125",
+          "_type": "span",
           "marks": [],
           "text": "Booking logic. Keep this day genuinely unbooked. If the weather turned on day four and the manta trip was cancelled, this is the slot that rescues it, and that only works if nothing else is in it."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb126",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs127",
+          "_type": "span",
           "marks": [],
           "text": "Day 6: A slow morning, then the boat back"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb128",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs129",
+          "_type": "span",
           "marks": [],
           "text": "Morning. Swim, eat, and cross the bridge back to Lembongan in time for your boat. Confirm the departure the evening before, because operators shuffle times with the sea and a cancelled sailing is not unusual in rougher months."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb130",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs131",
+          "_type": "span",
           "marks": [],
           "text": "Afternoon. The crossing back to Sanur runs 30 to 45 minutes, and the drive from Sanur to the airport is another 45 minutes to an hour depending on traffic."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb132",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs133",
+          "_type": "span",
           "marks": [],
           "text": "Booking logic. If you fly out the same day, leave a half-day of slack between the boat and the airport. Sea crossings get delayed, and this is the single most common way couples turn a calm week into a stressful one."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb134",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs135",
+          "_type": "span",
           "marks": [],
           "text": "How many days do you need on the Nusa islands?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb136",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs137",
+          "_type": "span",
           "marks": [],
           "text": "Five to six days is the right length for a honeymoon on the Nusa islands. That gives three nights on Lembongan, two on Ceningan, and one full day on Penida without rushing. Three days works if you skip Penida entirely. Anything beyond a week starts to repeat itself, because the islands are small."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb138",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs139",
+          "_type": "span",
           "marks": [],
           "text": "The common mistake runs the other way. A single day trip from Bali gives you four hours ashore, most of them in a car on Penida, and it is where the islands' reputation for being crowded and disappointing comes from."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb140",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs141",
+          "_type": "span",
           "marks": [],
           "text": "What does a Nusa islands honeymoon cost in 2026?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb142",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs143",
+          "_type": "span",
           "marks": [],
           "text": "Beyond your room and food, budget for four fixed costs: the Bali tourist levy, the Klungkung Regency entry charge covering all three Nusa islands, the fast boat from Sanur, and the short local boat to Penida. Together they come to well under a hundred US dollars per couple for the whole trip."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "nht144",
+      "_type": "comparisonTable",
       "columns": [
         "What you pay",
         "Working estimate",
@@ -1090,9 +1090,30 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "nhb150",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs151",
+          "_type": "span",
+          "marks": [],
+          "text": "These are working estimates and Indonesian levies change, so confirm current amounts before you travel, particularly the online entry ticket, which is new. For daily spending rather than fixed fees, see our "
+        },
+        {
+          "_key": "nhs152",
+          "_type": "span",
+          "marks": [
+            "nhm149"
+          ],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "nhs153",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm149",
@@ -1101,285 +1122,313 @@
           "href": "https://exploreindonesia.ai/indonesia-travel-costs"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs151",
-          "marks": [],
-          "text": "These are working estimates and Indonesian levies change, so confirm current amounts before you travel, particularly the online entry ticket, which is new. For daily spending rather than fixed fees, see our "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs152",
-          "marks": [
-            "nhm149"
-          ],
-          "text": "Indonesia travel costs guide"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs153",
-          "marks": [],
-          "text": "."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb154",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs155",
+          "_type": "span",
           "marks": [],
           "text": "What to book early, and what to keep flexible"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb156",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs157",
+          "_type": "span",
           "marks": [],
           "text": "Book early: your Lembongan and Ceningan rooms, which are limited in number and go first in July, August and around New Year, and the Sanur crossing for your arrival day."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb158",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs159",
+          "_type": "span",
           "marks": [],
           "text": "Keep flexible: the manta snorkel and the Penida driver. Both should move with the weather rather than the other way round, and both can be arranged a day or two ahead once you can see a forecast."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb160",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs161",
+          "_type": "span",
           "marks": [],
           "text": "Decide on arrival: whether you want the Ceningan half at all. If the sea has been rough and you have spent the week eating on Lembongan anyway, staying put for five nights is a legitimate call."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb162",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs163",
+          "_type": "span",
           "marks": [],
           "text": "Mistakes couples make on the Nusa islands"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb164",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs165",
+          "_type": "span",
           "marks": [],
           "text": "Basing on Penida because the photographs are there. It is the largest and slowest island to get around, and a honeymoon spends its best hours in a car. Visit for a day from Lembongan."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb166",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs167",
+          "_type": "span",
           "marks": [],
           "text": "Treating the manta snorkel as a certainty. Sightings depend on conditions no operator controls. Book it early in the stay so there is room to try again."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb168",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs169",
+          "_type": "span",
           "marks": [],
           "text": "Ignoring the season. Roughly November to March brings rougher crossings, more cancellations and murkier water. People still honeymoon here then, but keep boat days movable and do not plan a same-day international flight."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb170",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs171",
+          "_type": "span",
           "marks": [],
           "text": "Underestimating the Yellow Bridge with luggage. It is narrow, it is a bridge for scooters and people, and dragging a large suitcase across it in the heat is a poor start to the quiet half of the trip. Pack light or arrange help."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb172",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs173",
+          "_type": "span",
           "marks": [],
           "text": "What to cut, adapt or upgrade"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb174",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs175",
+          "_type": "span",
           "marks": [],
           "text": "Cut, if you have four days: drop Penida and stay on Lembongan and Ceningan. You lose Kelingking and keep everything that made the trip restful."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb176",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs177",
+          "_type": "span",
           "marks": [],
           "text": "Adapt, for divers: swap the Manta Bay snorkel for a dive day, and build the trip around Crystal Bay and Manta Point instead. Our Nusa Penida dive route covers when the mola mola season actually falls and which sites close in swell."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb178",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs179",
+          "_type": "span",
           "marks": [],
           "text": "Upgrade, if you have nine or ten days: pair this with a few nights in Bali's south or east coast before the crossing, so the islands are the quiet finish rather than the whole holiday."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb180",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs181",
+          "_type": "span",
           "marks": [],
           "text": "Before you build this trip"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb182",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs183",
+          "_type": "span",
           "marks": [],
           "text": "Check whether the online entry ticket for the Nusa islands is required for your arrival date and where it is sold, since the system started in April 2026 and the official channel has been changing. Confirm your fast boat operator's departure harbour on both sides, because Sanur and Lembongan each have more than one landing point. Check the swell forecast the week before, not the month before. And confirm the Bali tourist levy has been paid before you leave the mainland, since it is a Bali-wide charge rather than an island one."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb184",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs185",
+          "_type": "span",
           "marks": [],
           "text": "Final verdict"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb186",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs187",
+          "_type": "span",
           "marks": [],
           "text": "If you are choosing an island near Bali for a honeymoon, choose Lembongan and give Ceningan the last two nights. It is the least dramatic answer and the one that produces the better week: short distances, warm water, dinner within walking range, and one properly run day on Penida that gets you the coastline without the fatigue. Couples who base on Penida instead usually come back saying the scenery was extraordinary and the trip was tiring, which is not the trade you want to make on a honeymoon."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "nhb188",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "nhs189",
+          "_type": "span",
           "marks": [],
           "text": "Related itineraries"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "nhb193",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nhs194",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want Penida properly rather than as a day trip, our "
+        },
+        {
+          "_key": "nhs195",
+          "_type": "span",
+          "marks": [
+            "nhm190"
+          ],
+          "text": "5-day Nusa Penida and Lembongan route"
+        },
+        {
+          "_key": "nhs196",
+          "_type": "span",
+          "marks": [],
+          "text": " gives it three nights. For a car-free honeymoon with more sea time, compare the "
+        },
+        {
+          "_key": "nhs197",
+          "_type": "span",
+          "marks": [
+            "nhm191"
+          ],
+          "text": "9-day Lombok and Gili honeymoon"
+        },
+        {
+          "_key": "nhs198",
+          "_type": "span",
+          "marks": [],
+          "text": ". And if the islands are one half of a longer trip, the "
+        },
+        {
+          "_key": "nhs199",
+          "_type": "span",
+          "marks": [
+            "nhm192"
+          ],
+          "text": "7-day Bali route for couples"
+        },
+        {
+          "_key": "nhs200",
+          "_type": "span",
+          "marks": [],
+          "text": " is the natural first week."
+        }
+      ],
       "markDefs": [
         {
           "_key": "nhm190",
@@ -1400,56 +1449,7 @@
           "href": "https://exploreindonesia.ai/trips/7-days-bali-couples"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "nhs194",
-          "marks": [],
-          "text": "If you want Penida properly rather than as a day trip, our "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs195",
-          "marks": [
-            "nhm190"
-          ],
-          "text": "5-day Nusa Penida and Lembongan route"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs196",
-          "marks": [],
-          "text": " gives it three nights. For a car-free honeymoon with more sea time, compare the "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs197",
-          "marks": [
-            "nhm191"
-          ],
-          "text": "9-day Lombok and Gili honeymoon"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs198",
-          "marks": [],
-          "text": ". And if the islands are one half of a longer trip, the "
-        },
-        {
-          "_type": "span",
-          "_key": "nhs199",
-          "marks": [
-            "nhm192"
-          ],
-          "text": "7-day Bali route for couples"
-        },
-        {
-          "_type": "span",
-          "_key": "nhs200",
-          "marks": [],
-          "text": " is the natural first week."
-        }
-      ]
+      "style": "normal"
     }
   ],
   "affiliateLinks": [
