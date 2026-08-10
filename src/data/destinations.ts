@@ -198,9 +198,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "lombok_gili",
     name: "Lombok & Gili Islands",
     shortName: "Lombok & Gili",
-    metaTitle: "Lombok & Gili Islands itineraries, Rinjani to reefs",
+    h1: "Lombok and the Gili Islands",
+    metaTitle: "Lombok and the Gili Islands: Day-by-Day Itineraries",
     metaDescription:
-      "Surf Lombok's south coast, climb Mount Rinjani, and unwind on the Gili Islands. Bookable, day-by-day Indonesia trip plans.",
+      "Which Gili to stay on, how the boats connect to Lombok, and how many days each leg needs. Day-by-day routes with transfer times and booking notes.",
     intro:
       "Lombok is Bali's quieter cousin, empty surf, the Rinjani volcano trek, and the three Gilis just offshore. These itineraries balance adventure days with reef time.",
     highlights: ["Mount Rinjani", "Kuta Lombok surf", "Gili Trawangan", "Gili Meno"],
