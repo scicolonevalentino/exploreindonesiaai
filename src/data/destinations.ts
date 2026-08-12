@@ -169,9 +169,14 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "java",
     name: "Java",
     shortName: "Java",
-    metaTitle: "Java itineraries, Yogyakarta, Bromo & Ijen",
+    // "Java" alone is the nav label and an ambiguous H1 (the language outranks
+    // the island). The hub takes 128 impressions and no clicks, and its biggest
+    // query is "java itinerary" at position 69, so the H1 and title now carry
+    // that wording instead of a bare comma list of landmarks.
+    h1: "Java Itineraries",
+    metaTitle: "Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day",
     metaDescription:
-      "Java trip plans covering Yogyakarta, Borobudur, Prambanan, Mount Bromo and the Ijen blue flames. Bookable day-by-day routes.",
+      "How many days Java needs, the order that saves the most road time, and where Borobudur, Bromo and Ijen fit. Day-by-day routes with transfer times.",
     intro:
       "Java is volcanoes, temples, and overnight trains. From the sunrise over Borobudur to the blue flames of Kawah Ijen, these itineraries get you across the island without losing days to logistics.",
     highlights: [
