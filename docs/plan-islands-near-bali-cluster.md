@@ -1,7 +1,15 @@
 # Piano ad hoc: il cluster "islands near bali"
 
-> **STATO: NON APPLICATO.** Richiesto dal founder il 2026-08-14, fuori dalla coda
-> dei piani PARTE 3 (che è piena). Nessuna modifica è stata fatta. Decide lui.
+> **STATO: APPLICATO il 2026-08-14**, commit `6ec4782`. Le nove sottosezioni per
+> isola, i tre nuovi H2 e le due tabelle aggiuntive sono in produzione; la pagina
+> passa da 1.2k a 2.5k parole. Title, meta e H1 restano volutamente quelli del
+> 7 agosto, servono i 28 giorni pieni per leggerli.
+>
+> Aggiunto il 2026-08-14 fuori piano: link contestuale in entrata da
+> `/indonesia-travel-costs`, la pagina con più impression del sito, con anchor
+> "islands near Bali". Il piano trattava solo il contenuto della pagina, ma la
+> posizione si era mossa da 46,9 a 44,8 dopo la riscrittura del 7 agosto: segnale
+> che il contenuto non era il collo di bottiglia.
 
 ## 1. Il cluster e i numeri
 
@@ -11,19 +19,19 @@ Finestra GSC 2026-07-15 → 2026-08-11.
 impression non monetizzate del sito, quasi tutta su una singola URL,
 `/destinations/bali-nearby-islands`.
 
-| Query | Impr | Pos |
-| --- | ---: | ---: |
-| islands near bali | 86 | 35,5 |
-| islands around bali | 64 | 38,5 |
-| islands close to bali | 64 | 58,0 |
-| islands off bali | 62 | 57,4 |
-| island near bali | 46 | 65,3 |
-| islands in bali | 35 | 40,2 |
-| islands of bali | 33 | 42,1 |
-| **nusa islands bali** | 31 | **23,9** |
-| best island in bali for honeymoon | 24 | 53,6 |
-| day trips from bali to other islands | 18 | 34,4 |
-| *(altre 33 query)* | 104 | 22-86 |
+| Query                                | Impr |      Pos |
+| ------------------------------------ | ---: | -------: |
+| islands near bali                    |   86 |     35,5 |
+| islands around bali                  |   64 |     38,5 |
+| islands close to bali                |   64 |     58,0 |
+| islands off bali                     |   62 |     57,4 |
+| island near bali                     |   46 |     65,3 |
+| islands in bali                      |   35 |     40,2 |
+| islands of bali                      |   33 |     42,1 |
+| **nusa islands bali**                |   31 | **23,9** |
+| best island in bali for honeymoon    |   24 |     53,6 |
+| day trips from bali to other islands |   18 |     34,4 |
+| _(altre 33 query)_                   |  104 |    22-86 |
 
 Due cose da notare subito. La prima: `nusa islands bali` a **23,9** è di gran
 lunga la nostra posizione migliore del cluster, ed è anche la query più
@@ -144,13 +152,13 @@ L'hub è linkato dalla navigazione, che non conta. Serve un link in-content dai
 cinque itinerari `bali_nearby_islands`, nelle "Related itineraries", con
 un'ancora che contenga la frase esatta:
 
-| Da | Ancora |
-| --- | --- |
-| `10-days-bali-gili-islands` | which islands near Bali to pick |
-| `5-days-nusa-penida-lembongan` | the full list of islands near Bali |
-| `6-days-nusa-penida-diving-manta-mola` | how the islands near Bali compare |
-| `7-days-nusa-lembongan-ceningan-with-kids` | choosing between the islands near Bali |
-| `6-days-nusa-islands-honeymoon` | which island near Bali suits a honeymoon |
+| Da                                         | Ancora                                   |
+| ------------------------------------------ | ---------------------------------------- |
+| `10-days-bali-gili-islands`                | which islands near Bali to pick          |
+| `5-days-nusa-penida-lembongan`             | the full list of islands near Bali       |
+| `6-days-nusa-penida-diving-manta-mola`     | how the islands near Bali compare        |
+| `7-days-nusa-lembongan-ceningan-with-kids` | choosing between the islands near Bali   |
+| `6-days-nusa-islands-honeymoon`            | which island near Bali suits a honeymoon |
 
 Ancore diverse, stessa destinazione. Cinque link in-content da pagine a tema
 sono il segnale più forte che possiamo mandarci da soli.

@@ -1446,6 +1446,24 @@
           "_type": "span",
           "marks": [],
           "text": " is the natural first week."
+        },
+        {
+          "_key": "hb4a",
+          "_type": "span",
+          "marks": [],
+          "text": " We compare "
+        },
+        {
+          "_key": "hb4b",
+          "_type": "span",
+          "marks": ["hb4"],
+          "text": "which island near Bali suits a honeymoon"
+        },
+        {
+          "_key": "hb4c",
+          "_type": "span",
+          "marks": [],
+          "text": " across the Gilis, the Nusas and Lombok."
         }
       ],
       "markDefs": [
@@ -1466,6 +1484,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "https://exploreindonesia.ai/trips/7-days-bali-couples"
+        },
+        {
+          "_key": "hb4",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
         }
       ],
       "style": "normal"
