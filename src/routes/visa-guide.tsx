@@ -14,9 +14,19 @@ const getAiraloLink = createServerFn({ method: "GET" }).handler(() => {
   return process.env.AIRALO_AFFILIATE_LINK || "https://www.airalo.com/";
 });
 
-const TITLE = "Indonesia Visa Guide 2026: eVOA, Requirements & Entry Rules";
+// Retargeted 2026-08-14 from the generic "visa" intent to "visa on arrival".
+// On the head terms we are nowhere: "indonesia visa" sits at position 61.1 and
+// "indonesia visit visa requirements" at 59.8. The visa-on-arrival family is the
+// only sub-intent where we compete, led by "indonesia visa on arrival fee 2026"
+// at position 10.0, and neither "visa on arrival" nor "fees" was in the title.
+// Old values, for a fast revert:
+//   TITLE:       Indonesia Visa Guide 2026: eVOA, Requirements & Entry Rules
+//   DESCRIPTION: Everything EU, US and Australian travelers need to know about
+//                entering Indonesia in 2026, eVOA, costs, extension rules and
+//                the All Indonesia arrival card.
+const TITLE = "Indonesia Visa on Arrival 2026: Fees, eVOA & Entry Rules";
 const DESCRIPTION =
-  "Everything EU, US and Australian travelers need to know about entering Indonesia in 2026, eVOA, costs, extension rules and the All Indonesia arrival card.";
+  "Indonesia's visa on arrival costs IDR 500,000 (about $32) for 30 days, extendable once. How to get the eVOA online, who needs one, and the 2026 entry rules.";
 const URL = "https://exploreindonesia.ai/visa-guide";
 
 // FAQ content, used for both the visible Q&A and the FAQPage JSON-LD so the two
@@ -212,7 +222,9 @@ function VisaGuidePage() {
             Before you go
           </p>
           <h1 className="mt-2 font-serif text-white text-4xl sm:text-5xl font-semibold leading-tight">
-            Indonesia Visa Guide 2026
+            {/* Was "Indonesia Visa Guide 2026" until 2026-08-14, aligned with the
+                title on the visa-on-arrival intent. Revert both together. */}
+            Indonesia Visa on Arrival 2026
           </h1>
           <p className="mt-5 text-white/85 text-base sm:text-lg leading-relaxed">
             What EU, US and Australian travelers need to enter Indonesia in 2026: the eVOA, what it
@@ -256,7 +268,34 @@ function VisaGuidePage() {
           </p>
         </Callout>
 
-        {/* 2. Visa options table */}
+        {/* 2. The fee question, phrased as people search it. This is the one
+            sub-intent where we already rank inside the top 10 ("indonesia visa
+            on arrival fee 2026", position 10.0), and it had no heading of its
+            own: the figure only existed in a bullet and in the FAQ. A
+            self-contained 40-to-60-word answer under a question H2 is the shape
+            AI answers extract. */}
+        <SectionHeading id="fee">
+          How much does the Indonesia visa on arrival cost in 2026?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            The Indonesia visa on arrival costs <strong>IDR 500,000 per person</strong>, roughly $32
+            USD, $50 AUD or 30 euros. The fee is identical whether you buy the eVOA online
+            beforehand or pay at the airport counter. It covers a 30-day stay, and extending once
+            for a further 30 days costs another IDR 500,000, so the maximum you pay for 60 days is
+            IDR 1,000,000.
+          </p>
+          <p>
+            One charge is often confused with it and is separate: the Bali tourism levy of IDR
+            150,000, about $10, which applies only when you enter Bali. The All Indonesia arrival
+            card is a separate requirement too, and is not part of the visa fee.
+          </p>
+        </div>
+
+        {/* 3. Visa options table */}
         <SectionHeading id="visa-options">Visa options at a glance</SectionHeading>
         <div
           className="overflow-x-auto rounded-2xl border"
@@ -305,7 +344,7 @@ function VisaGuidePage() {
           </table>
         </div>
 
-        {/* 3. Nationality sections */}
+        {/* 4. Nationality sections */}
         <SectionHeading id="netherlands-germany">
           Netherlands &amp; Germany (and most of the EU)
         </SectionHeading>
@@ -353,7 +392,7 @@ function VisaGuidePage() {
           </p>
         </div>
 
-        {/* 4. How to apply */}
+        {/* 5. How to apply */}
         <SectionHeading id="how-to-apply">How to apply, step by step</SectionHeading>
         <ol
           className="space-y-3 text-sm sm:text-base leading-relaxed list-decimal pl-5"
@@ -381,7 +420,7 @@ function VisaGuidePage() {
           </li>
         </ol>
 
-        {/* 5 + 6. Callouts */}
+        {/* 6 + 7. Callouts */}
         <div className="mt-12 space-y-6">
           <Callout title="Bali tourism levy">
             Since February 2024, all international visitors to Bali pay an additional IDR 150,000
@@ -397,7 +436,7 @@ function VisaGuidePage() {
           </Callout>
         </div>
 
-        {/* 7. Extension */}
+        {/* 8. Extension */}
         <SectionHeading id="extensions">Extending your stay</SectionHeading>
         <ul
           className="space-y-2 text-sm sm:text-base leading-relaxed list-disc pl-5"
@@ -413,7 +452,7 @@ function VisaGuidePage() {
           <li>You cannot apply for a new visa while inside Indonesia.</li>
         </ul>
 
-        {/* 8. Quick facts */}
+        {/* 9. Quick facts */}
         <SectionHeading id="quick-facts">Quick facts</SectionHeading>
         <div
           className="overflow-x-auto rounded-2xl border"
@@ -445,7 +484,7 @@ function VisaGuidePage() {
           </table>
         </div>
 
-        {/* 9. Q&A */}
+        {/* 10. Q&A */}
         <SectionHeading id="faq">Common questions</SectionHeading>
         <dl className="flex flex-col gap-5">
           {FAQS.map((f, i) => (
@@ -460,7 +499,7 @@ function VisaGuidePage() {
           ))}
         </dl>
 
-        {/* 10. CTA */}
+        {/* 11. CTA */}
         <section
           className="mt-16 rounded-2xl border p-6 sm:p-8"
           style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}

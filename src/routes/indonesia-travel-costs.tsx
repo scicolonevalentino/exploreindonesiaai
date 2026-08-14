@@ -7,8 +7,12 @@ import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
 const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown";
+// The old description asked the question without answering it, and the page was
+// taking 1994 impressions at position 9.1 for 6 clicks. Leading with the figures
+// gives the snippet a reason to be clicked and gives an AI Overview something to
+// cite us for rather than around us. Changed 2026-08-14; read the CTR on 11 Sep.
 const DESCRIPTION =
-  "How much does Indonesia cost in 2026? Real daily budgets for backpackers, mid-range and comfortable travelers: accommodation, food, transport and activities.";
+  "Indonesia costs $30 to $50 a day on a budget, $70 to $100 mid-range, $150 to $250 in comfort. Full 2026 breakdown of rooms, food, transport and flights.";
 const URL = "https://exploreindonesia.ai/indonesia-travel-costs";
 
 const FAQS: Array<{ question: string; answer: string }> = [
