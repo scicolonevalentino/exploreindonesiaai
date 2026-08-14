@@ -256,6 +256,42 @@ function DestinationInner() {
                     }}
                   />
                 )}
+                {s.subsections?.map((sub) => (
+                  <div key={sub.heading}>
+                    <h3
+                      id={sub.heading
+                        .toLowerCase()
+                        .replace(/[^a-z0-9]+/g, "-")
+                        .replace(/^-|-$/g, "")}
+                      className="font-serif text-xl sm:text-2xl font-semibold mt-8 mb-3 scroll-mt-24"
+                      style={{ color: "var(--navy-deep)" }}
+                    >
+                      {sub.heading}
+                    </h3>
+                    {sub.body.map((p: string) => (
+                      <p
+                        key={p}
+                        className="my-4 leading-relaxed"
+                        style={{ color: "var(--text-dark)" }}
+                      >
+                        {p}
+                      </p>
+                    ))}
+                    {sub.link && (
+                      <p className="my-4 leading-relaxed" style={{ color: "var(--text-dark)" }}>
+                        {sub.link.before}
+                        <Link
+                          to={sub.link.href}
+                          className="font-medium underline underline-offset-2"
+                          style={{ color: "var(--teal-link)" }}
+                        >
+                          {sub.link.anchor}
+                        </Link>
+                        {sub.link.after}
+                      </p>
+                    )}
+                  </div>
+                ))}
                 {s.link && (
                   <p className="my-4 leading-relaxed" style={{ color: "var(--text-dark)" }}>
                     {s.link.before}
