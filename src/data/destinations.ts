@@ -443,6 +443,195 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     intro:
       "Lombok is Bali's quieter cousin, empty surf, the Rinjani volcano trek, and the three Gilis just offshore. These itineraries balance adventure days with reef time.",
     highlights: ["Mount Rinjani", "Kuta Lombok surf", "Gili Trawangan", "Gili Meno"],
+    // PARTE 4 of docs/reinforce-lombok-gili.md, applied 2026-08-14. The hub took
+    // 208 impressions and 0 clicks at position 30.7 across 50 queries while
+    // offering a two-sentence intro and a card grid: it answered none of the
+    // questions the cluster implies. The SERP here is entirely blogs, no
+    // institutional sites and no large aggregator, so it is winnable on content.
+    //
+    // Journey times and prices below come from src/data/routes.ts rather than the
+    // plan, which quoted 1.5 to 2.5 hours for the Lombok crossing as well as the
+    // Gili one. The route pages have them apart: Gilis 1.5 to 2.5 hours, Lombok 2
+    // to 3.5. Keep the two in sync if either changes.
+    sections: [
+      {
+        heading: "Which Gili island should you stay on?",
+        body: [
+          "Gili Air is the safest choice for most travellers: quiet enough to unwind, but with enough restaurants and dive shops to fill a week. Gili Trawangan is the largest and the only one with nightlife. Gili Meno is the smallest and stillest, best for couples who want almost nothing on the schedule.",
+          "All three are car-free and small enough to walk around in a couple of hours. The choice is about how much company you want at dinner, not about the snorkelling, which is good from all three.",
+        ],
+        table: {
+          columns: ["Island", "What it feels like", "Pick it if", "The trade-off"],
+          rows: [
+            [
+              "Gili Trawangan",
+              "Largest and liveliest, with bars, dive shops and a beachfront strip",
+              "You want restaurants and some nightlife",
+              "The east strip is busy and loud in peak season",
+            ],
+            [
+              "Gili Air",
+              "Quiet, with a working village and real choice for dinner",
+              "You want calm without isolation",
+              "The south beachfront gets crowded mid-morning",
+            ],
+            [
+              "Gili Meno",
+              "Smallest and stillest, a handful of bungalows",
+              "You are a couple and want almost nothing on the schedule",
+              "Few places to eat and patchy card payment",
+            ],
+          ],
+        },
+        link: {
+          before:
+            "For the longer version, with beaches, diving and where each island falls down, see ",
+          href: "/destinations/lombok-gili/gili-islands-comparison",
+          anchor: "our full Gili islands comparison",
+          after: ".",
+        },
+      },
+      {
+        heading: "How do you get from Bali to Lombok and the Gili Islands?",
+        body: [
+          "Fast boats leave Bali's east coast ports daily and reach the Gili Islands in roughly 1.5 to 2.5 hours at sea, or Lombok in 2 to 3.5 hours. Lombok also has an international airport near Praya, about 45 minutes' flying from Denpasar, which is faster if you are starting in the south.",
+        ],
+        table: {
+          columns: ["Crossing", "How", "Journey time", "Worth knowing"],
+          rows: [
+            [
+              "Bali to the Gili Islands",
+              "Fast boat from Padangbai, Amed, Sanur or Serangan",
+              "1.5 to 2.5 hours at sea",
+              "Add 1 to 3 hours by road to the port, depending on your Bali base",
+            ],
+            [
+              "Bali to Lombok",
+              "Domestic flight, Denpasar to Praya",
+              "30 to 45 minutes in the air, near 2 hours door to door",
+              "Around $60 to $90 one way, and weather-proof",
+            ],
+            [
+              "Bali to Lombok",
+              "Fast boat",
+              "2 to 3.5 hours",
+              "Worth it only for the northwest coast or the Gilis",
+            ],
+            [
+              "Lombok to the Gili Islands",
+              "Public boat from Bangsal",
+              "15 to 30 minutes",
+              "Around $2 to $4, leaves when it fills, last departures mid-afternoon",
+            ],
+          ],
+          caption: "Times are working estimates and depend on sea conditions.",
+        },
+        subsections: [
+          {
+            // Carries the Italian query "da lombok a isole gili", 16 impressions
+            // at position 27.8, which lands on this hub while the answer lives on
+            // the transport route page with no link between them.
+            heading: "How do you get from Lombok to the Gili Islands?",
+            body: [
+              "The public boat from Bangsal harbour on Lombok's northwest coast reaches Gili Air, Gili Meno and Gili Trawangan in 15 to 30 minutes for around $2 to $4. It leaves when roughly twenty passengers have filled it, so allow a buffer, and buy at the official counter rather than from the touts outside.",
+            ],
+            link: {
+              before: "Fares, the counter to use and the last sailings are on our ",
+              href: "/transport/lombok-to-gili-islands",
+              anchor: "Lombok to Gili Islands route page",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before:
+            "Flight against fast boat, with prices and which to pick for your side of the island, is on our ",
+          href: "/transport/bali-to-lombok",
+          anchor: "Bali to Lombok route page",
+          after: ".",
+        },
+      },
+      {
+        heading: "How many days do you need in Lombok and the Gilis?",
+        body: [
+          "Seven days is the working minimum for both, with three or four nights in Lombok and three on one Gili. Four days is enough if you only do the Gilis. Ten days is where the Rinjani trek and the south coast beaches fit without the trip becoming a chain of transfers.",
+        ],
+        table: {
+          columns: ["Trip length", "What fits", "What you give up"],
+          rows: [
+            [
+              "4 days",
+              "The Gilis on their own, one or two islands",
+              "Lombok entirely: no Rinjani, no south coast",
+            ],
+            [
+              "7 days",
+              "Three or four nights in Lombok and three on one Gili",
+              "Rinjani, which needs two to three days of its own",
+            ],
+            [
+              "10 days",
+              "Lombok, the Gilis, and either the Rinjani trek or the Kuta Lombok beaches",
+              "Little, unless you are adding Bali at the front",
+            ],
+          ],
+        },
+        link: {
+          before: "The seven-day version is mapped out day by day in our ",
+          href: "/trips/7-days-lombok-gili-islands",
+          anchor: "7-day Lombok and Gili route",
+          after: ", with the transfers and boat times already placed.",
+        },
+      },
+      {
+        heading: "Lombok or Bali: which one should you pick?",
+        body: [
+          "Choose Bali if you want variety, restaurants and short transfers between very different places. Choose Lombok if the point of the trip is quiet. Lombok has emptier beaches and lower prices, but fewer places to eat, longer drives, and less to fall back on when the weather turns.",
+          "Most travellers with ten days or more do not choose. Bali first, then the boat east, is the usual shape, and it puts the busiest part of the trip at the start when you still have energy for it.",
+        ],
+        table: {
+          columns: ["What matters", "Bali", "Lombok"],
+          rows: [
+            [
+              "Beaches",
+              "Busier, with beach clubs and full services",
+              "Emptier, especially along the south coast",
+            ],
+            ["Eating out", "Wide choice at every price", "Thin outside Kuta Lombok and Senggigi"],
+            [
+              "Getting around",
+              "Short hops, but heavy traffic in the south",
+              "Longer drives on lighter roads",
+            ],
+            ["Cost", "Higher across the tourist south", "Lower for the same standard of room"],
+            [
+              "A rainy day",
+              "Temples, museums, cafes, plenty to fall back on",
+              "Much less to do indoors",
+            ],
+          ],
+        },
+        link: {
+          before: "If the answer is both, the ",
+          href: "/trips/10-days-bali-lombok-gili-islands",
+          anchor: "10-day Bali, Lombok and Gili Islands route",
+          after: " runs them in the order that works.",
+        },
+      },
+      {
+        heading: "When is the best time to visit Lombok and the Gilis?",
+        body: [
+          "Roughly May to October, the drier months, when the fast boat crossings are calmest and the water is clearest for snorkelling. November to March brings rougher seas and more cancelled sailings. Conditions vary year to year, so check the forecast in the week before you travel.",
+          "The crossing, not the rain, is what usually breaks a plan here. A cancelled boat costs a day, so avoid booking a same-day onward flight out of Bali on the day you cross back.",
+        ],
+        link: {
+          before: "Month by month, including the Rinjani trekking window, see ",
+          href: "/destinations/lombok-gili/best-time-to-visit-lombok",
+          anchor: "the best time to visit Lombok",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "sumatra",

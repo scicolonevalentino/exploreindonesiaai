@@ -1,8 +1,29 @@
 # Piano di rinforzo: /destinations/lombok-gili
 
-> **STATO: NON APPLICATO.** Generato dal task schedulato del 2026-08-10. La PARTE 1
-> (metaTitle, metaDescription, h1) è già in produzione, commit `10f4043`. Tutto quello
-> che segue dalla sezione 4 in poi **non è applicato: decide il founder.**
+> **STATO: APPLICATO il 2026-08-14.** La PARTE 1 (metaTitle, metaDescription, h1) era
+> già in produzione dal 2026-08-10, commit `10f4043`. La PARTE 4 (cinque sezioni H2,
+> tre tabelle, una sottosezione h3) e i punti 1, 2 e 3 della sezione 6 sono stati
+> applicati oggi in `src/data/destinations.ts` e `src/routes/indonesia-travel-costs.tsx`.
+>
+> **Due scostamenti dal piano, entrambi voluti:**
+>
+> 1. I tempi di traversata della sezione 4, H2 2, erano sbagliati nel piano. Diceva
+>    "1.5 to 2.5 hours" per barche verso "Gili Trawangan, Gili Air and Lombok",
+>    accorpando due tratte diverse. `src/data/routes.ts` le tiene separate: Gili 1,5-2,5
+>    ore, Lombok 2-3,5 ore. Applicati i valori di `routes.ts`, che è la fonte pubblicata.
+> 2. Il template `DestinationSection` porta un solo link per sezione, quindi i due link
+>    trasporto del punto 6.1 sono stati divisi: `/transport/bali-to-lombok` sul link di
+>    sezione, `/transport/lombok-to-gili-islands` su una sottosezione h3 intitolata
+>    "How do you get from Lombok to the Gili Islands?", che è anche la traduzione della
+>    query italiana da 16 impression. Stessa logica per il punto 6.2: il 7 giorni sul
+>    link della sezione "How many days", il 10 giorni su quella "Lombok or Bali".
+>
+> **Ancora aperto:** il punto 5 (metaTitle di `/trips/7-days-lombok-gili-islands`) e il
+> punto 6.4 (link da `6-days-nusa-islands-honeymoon` alla hub, richiede scrittura Sanity).
+>
+> **Nota sulla lettura dei dati.** La PARTE 1 ha ora quattro giorni di vita e la PARTE 4
+> zero. I due effetti si mescolano, come previsto dalla sezione 7: la data di giudizio
+> resta il **2026-09-07** e la metrica primaria la posizione media della pagina, oggi 30,7.
 
 ## 1. La pagina e il cluster
 
@@ -43,12 +64,12 @@ L'H1 aveva lo stesso problema. Questa parte è già stata corretta, vedi sezione
 **b) Cannibalizzazione reale con `/trips/7-days-lombok-gili-islands`.** Su quattro
 query le due URL si contendono la SERP e la hub vince sempre:
 
-| query                                 | hub       | trip 7 giorni |
-| ------------------------------------- | --------- | ------------- |
-| lombok and gili islands itinerary     | pos 4,9   | pos 13,3      |
-| lombok gili islands                   | pos 37,1  | pos 86,8      |
-| lombok and gili islands               | pos 45,2  | pos 87,2      |
-| lombok and the gili islands indonesia | pos 37,1  | pos 76,5      |
+| query                                 | hub      | trip 7 giorni |
+| ------------------------------------- | -------- | ------------- |
+| lombok and gili islands itinerary     | pos 4,9  | pos 13,3      |
+| lombok gili islands                   | pos 37,1 | pos 86,8      |
+| lombok and gili islands               | pos 45,2 | pos 87,2      |
+| lombok and the gili islands indonesia | pos 37,1 | pos 76,5      |
 
 Il trip da 7 giorni prende 57 impression totali a posizione media 64,5, quindi non sta
 difendendo niente. **La hub è la pagina che Google ha scelto.** L'intervento va fatto lì
@@ -99,7 +120,7 @@ riportati qui sopra in `src/data/destinations.ts`.
 
 ---
 
-## 4. Le sezioni H2 da aggiungere (NON applicato)
+## 4. Le sezioni H2 da aggiungere (APPLICATO il 2026-08-14, con i due scostamenti in testa)
 
 Da inserire come `sections: [...]` nella voce `lombok-gili` di
 `src/data/destinations.ts`, stessa struttura già usata per `bali-nearby-islands`.
@@ -116,11 +137,11 @@ Prima frase autoconclusiva (52 parole):
 
 Poi una tabella comparativa:
 
-| Island          | What it feels like                                    | Pick it if                                        | The trade-off                                    |
-| --------------- | ----------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
-| Gili Trawangan  | Largest, with bars, dive shops and a beachfront strip  | You want restaurants and some nightlife            | The east strip is busy and loud in peak season    |
-| Gili Air        | Quiet, with a working village and real dinner choice   | You want calm without isolation                    | The south beachfront gets crowded mid-morning     |
-| Gili Meno       | Smallest and stillest, a handful of bungalows          | You are a couple and want almost nothing to do     | Few places to eat, patchy card payment            |
+| Island         | What it feels like                                    | Pick it if                                     | The trade-off                                  |
+| -------------- | ----------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Gili Trawangan | Largest, with bars, dive shops and a beachfront strip | You want restaurants and some nightlife        | The east strip is busy and loud in peak season |
+| Gili Air       | Quiet, with a working village and real dinner choice  | You want calm without isolation                | The south beachfront gets crowded mid-morning  |
+| Gili Meno      | Smallest and stillest, a handful of bungalows         | You are a couple and want almost nothing to do | Few places to eat, patchy card payment         |
 
 Nota: le tre righe esistono già come contenuto verificato dentro
 `/trips/9-days-lombok-gili-honeymoon` (tabella "Island / Feel / Pick it for a honeymoon

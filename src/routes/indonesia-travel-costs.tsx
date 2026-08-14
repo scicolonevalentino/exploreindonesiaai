@@ -474,6 +474,36 @@ function TravelCostsPage() {
             </tr>
           </tbody>
         </TableShell>
+        {/* Contextual links into the two hubs with the most impressions and no
+            clicks: bali-nearby-islands (622 impr, position 44.8) and lombok-gili
+            (352 impr, position 25.2). This is the strongest page we have to point
+            at them, and both anchors are the query verbatim. Same move as the
+            solo-traveller link above (commit c7e95fa). */}
+        <Prose>
+          <p className="mt-4">
+            Costs drop as soon as you leave the mainland: the{" "}
+            <Link
+              to="/destinations/$destination"
+              params={{ destination: "bali-nearby-islands" }}
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              islands near Bali
+            </Link>{" "}
+            run 20 to 30% cheaper than Seminyak or Canggu for the same standard of room, and the
+            Nusa crossing from Sanur takes 25 to 45 minutes. Further east,{" "}
+            <Link
+              to="/destinations/$destination"
+              params={{ destination: "lombok-gili" }}
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              Lombok and the Gili Islands
+            </Link>{" "}
+            sit a rung cheaper again, with the same room costing less than it does anywhere in
+            Bali's tourist south.
+          </p>
+        </Prose>
 
         {/* 8. Seasonal */}
         <SectionHeading id="seasonal">Seasonal costs</SectionHeading>
