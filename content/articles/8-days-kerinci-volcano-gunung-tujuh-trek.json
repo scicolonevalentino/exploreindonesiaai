@@ -1,116 +1,149 @@
 {
   "_id": "itinerary-8-days-kerinci-volcano-gunung-tujuh-trek",
   "_type": "article",
-  "contentStatus": "draft",
-  "title": "8 Days in Kerinci: Sumatra's Highest Volcano and the Crater Lake Below It",
-  "slug": {
-    "_type": "slug",
-    "current": "8-days-kerinci-volcano-gunung-tujuh-trek"
-  },
-  "author": {
-    "_type": "reference",
-    "_ref": "author-editorial-team"
-  },
+  "affiliateLinks": [
+    {
+      "_key": "a284",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "a data eSIM before you leave the coast",
+      "day": "Day 1",
+      "experienceCategory": "connectivity",
+      "linkStatus": "live",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "priority": "medium",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "a285",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Padang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "a night near Padang's airport side",
+      "day": "Day 1",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_PADANG",
+      "priority": "high",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Padang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "a286",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sungai+Penuh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "a hotel night in Sungai Penuh",
+      "day": "Day 6",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_SUNGAI_PENUH",
+      "priority": "medium",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sungai+Penuh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "a287",
+      "affiliateUrl": "https://12go.asia/en/travel/padang/bukittinggi?z=16022946",
+      "anchorText": "the Padang to Bukittinggi run",
+      "day": "Extension",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_PADANG_BUKITTINGGI",
+      "priority": "medium",
+      "publicUrl": "https://12go.asia/en/travel/padang/bukittinggi"
+    }
+  ],
   "articleCreatedDate": "2026-08-14T04:18:27.244Z",
-  "intro": "Sumatra's highest volcano is not the hard part of this trip. The hard part is the two long drives that bracket it, and the fact that the mountain you came for sits under a standing volcanic advisory that can close the summit at short notice. Plan the Kerinci valley as a week in a high, cold, tea-covered basin that happens to have a 3,805 metre volcano at one end, and the trip works whether or not you stand on the crater rim. Plan it as a summit-or-nothing mission and you have gambled a week of your holiday on a seismograph.",
-  "route": "Padang → Kersik Tuo → Danau Gunung Tujuh → Mount Kerinci → Sungai Penuh → Bukit Tapan → Padang",
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 8,
-  "destinationPrimary": "sumatra",
-  "travelStylePrimary": "adventure_volcanoes",
-  "travellerTypes": ["solo_travellers", "friends", "repeat_travellers"],
-  "vibe": "remote",
-  "metaTitle": "Mount Kerinci Trek: 8-Day Kerinci Valley Itinerary",
-  "metaDescription": "An 8-day Kerinci route from Padang: the crater lake first, then Sumatra's highest volcano. Drive times, permits and what to do if the summit shuts.",
-  "focusKeyword": "Mount Kerinci trek",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
-      "_type": "block",
       "_key": "b1",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s2",
+          "_type": "span",
           "marks": [],
           "text": "Who is this trip for, and who should skip it?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b3",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s4",
+          "_type": "span",
           "marks": [],
           "text": "This trip suits hikers who are comfortable with a cold, steep, unglamorous two-day climb and a week in a valley with almost no tourist infrastructure. It works for solo travellers, small groups of friends, and repeat visitors to Indonesia who have already done Bali and Java and want something harder. Fitness matters more than experience here."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b5",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s6",
+          "_type": "span",
           "marks": [],
           "text": "It is the wrong trip for first-time visitors to Indonesia, for anyone travelling with young children, and for travellers who need a plan that cannot move. Two of the eight days are long road days, the mountain runs under a standing volcanic advisory, and the valley empties of options fast if the weather turns. If any of that reads as a dealbreaker, the Minangkabau highlands around Bukittinggi give you the same region with far softer edges."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b7",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s8",
+          "_type": "span",
           "marks": [],
           "text": "You should also skip it if summiting is the only outcome you would accept. Kerinci has been at the Indonesian volcanology agency's second alert level, Waspada, through 2026, with gas and vapour plumes reported to around 200 metres above the vent. The trail has stayed open and climbers reported summits through the year, but that status can change between booking your flights and arriving. Build the week so the summit is the best day, not the only day."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b9",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s10",
+          "_type": "span",
           "marks": [],
           "text": "Trip at a glance"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b11",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s12",
+          "_type": "span",
           "marks": [],
           "text": "Eight days, one valley, two long drives. You fly into Padang on the west coast, cross the Barisan range to the Kerinci basin, spend four working days between a crater lake, a volcano and a tea plateau, then drive back. Nothing about the shape is clever. The value is in the order."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "t13",
+      "_type": "comparisonTable",
       "caption": "The eight-day shape. Drive times are door to door and assume daylight; add an hour in heavy rain.",
       "columns": ["Days", "Base", "The shape of the day"],
       "rows": [
@@ -165,119 +198,144 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "b22",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s23",
+          "_type": "span",
           "marks": [],
           "text": "Why does this route run from Padang, and why the long way round?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b24",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s25",
+          "_type": "span",
           "marks": [],
           "text": "Padang is the practical gateway to the Kerinci valley because Minangkabau International Airport has the most frequent domestic connections of any airport within reach, and the road east is the most maintained of the three roads into the basin. Jambi is closer on a map and worse in practice, with fewer flights and a rougher approach."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b26",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s27",
+          "_type": "span",
           "marks": [],
           "text": "The valley itself has no airport worth planning around. That single fact sets the whole trip: you spend two of your eight days in a car, so the route has to earn those days back. It does, because the Kerinci basin stacks a 3,805 metre volcano, the highest large crater lake in Southeast Asia, one of the world's biggest single-block tea estates and a national park holding an estimated 165 Sumatran tigers inside about forty kilometres of each other."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b28",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s29",
+          "_type": "span",
           "marks": [],
           "text": "The order matters more than most itineraries. Danau Gunung Tujuh goes before Kerinci, not after, because it is a three-hour climb to around 1,950 metres that tells you honestly how your body handles altitude and cold, one day before you commit to a mountain where turning back costs a full day. Travellers who reverse this find out at Shelter 3, in the dark, at 3,000 metres."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b30",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s31",
+          "_type": "span",
           "marks": [],
           "text": "Day 1: Land in Padang and stay on the coast"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b32",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s33",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s34",
+          "_type": "span",
           "marks": [],
           "text": "Fly into Minangkabau International, twenty minutes or so north of Padang city. Do not try to push straight through to the valley on arrival day. The crossing is a seven to eight hour drive and the shared cars that run it leave early, so an arrival-day departure usually means a night drive over mountain roads, which is the one thing worth paying to avoid on this trip."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b35",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s36",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s37",
+          "_type": "span",
           "marks": [],
           "text": "Eat properly. Padang is the source of the cooking that got exported across Indonesia as masakan Padang, and eating it here, where the rendang is dark and dry rather than saucy, is worth the stop on its own. It is also your last reliable night of good food until you come back down."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b43",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s39",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "s40",
+          "_type": "span",
+          "marks": [],
+          "text": "Stay on the airport side rather than in the city centre if your onward car leaves at dawn. "
+        },
+        {
+          "_key": "s41",
+          "_type": "span",
+          "marks": ["md38"],
+          "text": "a night near Padang's airport side"
+        },
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps the morning simple, and Padang is one of the few places on this route where accommodation is genuinely bookable online."
+        }
+      ],
       "markDefs": [
         {
           "_key": "md38",
@@ -285,37 +343,37 @@
           "placeholderId": "BOOKING_PADANG"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "s39",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_type": "span",
-          "_key": "s40",
-          "marks": [],
-          "text": "Stay on the airport side rather than in the city centre if your onward car leaves at dawn. "
-        },
-        {
-          "_type": "span",
-          "_key": "s41",
-          "marks": ["md38"],
-          "text": "a night near Padang's airport side"
-        },
-        {
-          "_type": "span",
-          "_key": "s42",
-          "marks": [],
-          "text": " keeps the morning simple, and Padang is one of the few places on this route where accommodation is genuinely bookable online."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b49",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic: "
+        },
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort your connectivity before you leave the coast. Signal in the Kerinci valley is patchy and thins to nothing on the mountain, so pick up "
+        },
+        {
+          "_key": "s47",
+          "_type": "span",
+          "marks": ["md44"],
+          "text": "a data eSIM before you leave the coast"
+        },
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [],
+          "text": " while you still have city bandwidth to activate it. It matters here more than it does on a Bali trip, because your guide arrangements happen over WhatsApp."
+        }
+      ],
       "markDefs": [
         {
           "_key": "md44",
@@ -323,647 +381,647 @@
           "placeholderId": "AIRALO_INDONESIA"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "s45",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_type": "span",
-          "_key": "s46",
-          "marks": [],
-          "text": "Sort your connectivity before you leave the coast. Signal in the Kerinci valley is patchy and thins to nothing on the mountain, so pick up "
-        },
-        {
-          "_type": "span",
-          "_key": "s47",
-          "marks": ["md44"],
-          "text": "a data eSIM before you leave the coast"
-        },
-        {
-          "_type": "span",
-          "_key": "s48",
-          "marks": [],
-          "text": " while you still have city bandwidth to activate it. It matters here more than it does on a Bali trip, because your guide arrangements happen over WhatsApp."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b50",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s51",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s52",
+          "_type": "span",
           "marks": [],
           "text": "Padang sits at sea level and Kersik Tuo sits at roughly 1,400 metres. You will feel the temperature drop tomorrow more than you expect. Pack a warm layer where you can reach it, not at the bottom of the bag."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b53",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s54",
+          "_type": "span",
           "marks": [],
           "text": "Day 2: The crossing to Kersik Tuo"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b55",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s56",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s57",
+          "_type": "span",
           "marks": [],
           "text": "Leave early. The shared cars locals call travel run the Padang to Sungai Penuh route on set departures around the middle of the morning and again in the evening, though in practice they spend the first hour collecting passengers around town, so the clock starts later than the schedule says. Reckon on seven to eight hours door to door, more in heavy rain."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b58",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s59",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s60",
+          "_type": "span",
           "marks": [],
           "text": "The road climbs through the Barisan range and the landscape changes twice: coastal palm, then dense hill forest, then the open highland basin. Ask to be dropped at Kersik Tuo rather than continuing to Sungai Penuh. Kersik Tuo is the village at the foot of the mountain and the place the guides and homestays actually are."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b61",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s62",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s63",
+          "_type": "span",
           "marks": [],
           "text": "Walk out into the tea. Kayu Aro spreads across roughly 3,000 hectares on Kerinci's lower slopes at around 1,600 metres, planted in the Dutch colonial period and still working, and the light on it an hour before sunset is the reason people photograph this valley. The volcano sits directly behind it on a clear evening."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b64",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s65",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s66",
+          "_type": "span",
           "marks": [],
           "text": "Kersik Tuo, in a homestay. This is the part of the trip that does not work like the rest of Indonesia: the village guesthouses are booked directly, by phone or WhatsApp, not through accommodation platforms. Your guide almost always arranges the room as part of the trek, which is why the guide conversation happens first and the bed follows."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b67",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s68",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s69",
+          "_type": "span",
           "marks": [],
           "text": "Fix the guide before you fix anything else. Guiding on Kerinci is arranged locally and priced by negotiation rather than published rates, and the same person handles the park permit, the porters, the camping gear and the transport to the trailhead. Message two or three homestays a fortnight out, compare what is actually included, and expect to pay a deposit."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b70",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s71",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s72",
+          "_type": "span",
           "marks": [],
           "text": "Draw cash in Padang. ATMs exist in Sungai Penuh but not reliably in Kersik Tuo, and guides, permits and homestays are cash businesses."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b73",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s74",
+          "_type": "span",
           "marks": [],
           "text": "Day 3: Danau Gunung Tujuh, the crater lake and the altitude test"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b75",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s76",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s77",
+          "_type": "span",
           "marks": [],
           "text": "Drive the short hop to the trailhead, under ten kilometres from the Kersik Tuo homestays, register at the park post and start climbing. The path to Danau Gunung Tujuh takes around three hours up through forest that is steep, root-laced and often wet, and there is no viewpoint until the rim, at which point the lake appears all at once."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b78",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s79",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s80",
+          "_type": "span",
           "marks": [],
           "text": "The lake sits at roughly 1,950 metres, ringed by seven peaks, and is the highest lake of its size in Southeast Asia. Boatmen at the shore will take you across for a negotiated fare if you want the far side. Budget more time at the top than you think you need and start down with daylight in hand, because the descent is slippery rather than hard."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b81",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s82",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s83",
+          "_type": "span",
           "marks": [],
           "text": "Back in Kersik Tuo, do the honest debrief with your guide. How the three-hour climb felt is the single best predictor of how tomorrow goes, and this is the moment to swap the summit for a second easier day if the answer is bad."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b84",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s85",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s86",
+          "_type": "span",
           "marks": [],
           "text": "Kersik Tuo again. Repack tonight, not tomorrow morning."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b87",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s88",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s89",
+          "_type": "span",
           "marks": [],
           "text": "The national park charges a per-day entry fee that is collected at the post, and Indonesia restructured its national park tariffs during 2026, so the number quoted online is often stale. Treat somewhere around IDR 150,000 a day for foreign visitors as a working estimate and confirm the current figure at the park office in Kersik Tuo, which is where your guide will register you anyway."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b90",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s91",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s92",
+          "_type": "span",
           "marks": [],
           "text": "This is the day to find out that your rain shell is not waterproof. Kerinci Seblat is one of the wettest national parks in Sumatra and afternoon rain is normal even in the drier months."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b93",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s94",
+          "_type": "span",
           "marks": [],
           "text": "Day 4: Up Kerinci to Shelter 3"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b95",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s96",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s97",
+          "_type": "span",
           "marks": [],
           "text": "A slow start is fine. The climb from the trailhead above Kersik Tuo to the camp at Shelter 3 is usually five to seven hours and there is no reason to arrive at a cold, exposed campsite at midday. Most groups leave late morning."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b98",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s99",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s100",
+          "_type": "span",
           "marks": [],
           "text": "The trail goes up through farmland, then into forest, then into a long muddy trench worn into the mountainside where you climb using roots as rungs. It is relentless rather than technical. Shelter 3 sits at roughly 3,000 metres, near the treeline, and is where almost everyone camps."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b101",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s102",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s103",
+          "_type": "span",
           "marks": [],
           "text": "Cook, drink, sleep early. It is genuinely cold at Shelter 3 and the wind funnels across the camp. This is where travellers who packed for Indonesia rather than for altitude have a bad night."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b104",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s105",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s106",
+          "_type": "span",
           "marks": [],
           "text": "Tents at Shelter 3, carried and pitched by your guide's team. Water is carried up or collected on the way, so check with your guide how much you are expected to bring."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b107",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s108",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s109",
+          "_type": "span",
           "marks": [],
           "text": "Confirm what the trek fee covers before you leave the village: tents, sleeping bags rated for cold, mats, food, porter loads and trailhead transport are all sometimes included and sometimes not. The difference between two quotes is almost always in this list, not in the guiding."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b110",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s111",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s112",
+          "_type": "span",
           "marks": [],
           "text": "The summit push starts around one or two in the morning. Lay out your headtorch, gloves, hat and windproof layer before you sleep, because finding them at that hour in a shared tent is miserable."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b113",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s114",
+          "_type": "span",
           "marks": [],
           "text": "Day 5: The summit push and the whole way down"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b115",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s116",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s117",
+          "_type": "span",
           "marks": [],
           "text": "You leave camp in the dark for the last section, which changes character completely: forest gives way to loose volcanic scree and rock, and the footing gets worse as the angle steepens. Reckon on three to four hours from Shelter 3 to the crater rim at 3,805 metres, the highest volcano in Indonesia and the highest point on Sumatra. On a clear morning you see the Indian Ocean on one side and the basin on the other."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b118",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s119",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s120",
+          "_type": "span",
           "marks": [],
           "text": "Come down, break camp and keep going. Most groups descend the whole mountain in one day and sleep in Kersik Tuo, which is the right call: the descent through the mud trench is hard on knees and much worse in the dark."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b121",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s122",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s123",
+          "_type": "span",
           "marks": [],
           "text": "Back in the village, wash, eat, sleep. There is no nightlife here and you will not want any."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b124",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s125",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s126",
+          "_type": "span",
           "marks": [],
           "text": "Kersik Tuo, same homestay."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b127",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s128",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s129",
+          "_type": "span",
           "marks": [],
           "text": "Nothing to book today. If you have a flight out of Padang, this is the day that proves why it should not be tomorrow."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b130",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s131",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s132",
+          "_type": "span",
           "marks": [],
           "text": "Do not treat the crater rim as a viewpoint to linger on. Kerinci vents continuously, the gas is genuinely unpleasant when the wind turns, and guides move groups off the rim quickly for a reason. If your guide says the summit is off today, that judgement is worth more than your schedule."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b133",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s134",
+          "_type": "span",
           "marks": [],
           "text": "Day 6: The valley floor, and the road that comes alive at night"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b135",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s136",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s137",
+          "_type": "span",
           "marks": [],
           "text": "A deliberately soft morning. Drive down to Sungai Penuh, the valley's main town, and see the Masjid Agung Pondok Tinggi, an old timber mosque built without nails that is the one piece of built heritage in the basin worth crossing town for."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b138",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s139",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s140",
+          "_type": "span",
           "marks": [],
           "text": "Sleep, or go back into the tea. If your legs are working, the walk through the Kayu Aro estate to the old factory buildings is flat, long and quiet, and it is the closest this trip comes to a rest day that still shows you something."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b146",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "s143",
+          "_type": "span",
+          "marks": [],
+          "text": "Do the Bukit Tapan night drive. The road between Sungai Penuh and Tapan runs through unbroken national park forest, and going out around ten at night and back by one or two in the morning is the most reliable wildlife watching in the region: siamang, leaf monkeys, civets, slow loris and, on a good night, something bigger crossing the road. Kerinci Seblat holds an estimated 165 Sumatran tigers and over 370 bird species, so this is real habitat rather than a set-piece. Base yourself in town for it with "
+        },
+        {
+          "_key": "s144",
+          "_type": "span",
+          "marks": ["md141"],
+          "text": "a hotel night in Sungai Penuh"
+        },
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [],
+          "text": ", which puts you the right side of a very late finish."
+        }
+      ],
       "markDefs": [
         {
           "_key": "md141",
@@ -971,368 +1029,343 @@
           "placeholderId": "BOOKING_SUNGAI_PENUH"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "s142",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_type": "span",
-          "_key": "s143",
-          "marks": [],
-          "text": "Do the Bukit Tapan night drive. The road between Sungai Penuh and Tapan runs through unbroken national park forest, and going out around ten at night and back by one or two in the morning is the most reliable wildlife watching in the region: siamang, leaf monkeys, civets, slow loris and, on a good night, something bigger crossing the road. Kerinci Seblat holds an estimated 165 Sumatran tigers and over 370 bird species, so this is real habitat rather than a set-piece. Base yourself in town for it with "
-        },
-        {
-          "_type": "span",
-          "_key": "s144",
-          "marks": ["md141"],
-          "text": "a hotel night in Sungai Penuh"
-        },
-        {
-          "_type": "span",
-          "_key": "s145",
-          "marks": [],
-          "text": ", which puts you the right side of a very late finish."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b147",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s148",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s149",
+          "_type": "span",
           "marks": [],
           "text": "Sungai Penuh tonight rather than Kersik Tuo, purely so the night drive does not end with another forty minutes of road."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b150",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s151",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s152",
+          "_type": "span",
           "marks": [],
           "text": "The night drive is arranged through the same guides who run the mountain, and it needs a driver who knows where to slow down. Book it on Day 2, not on Day 6."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b153",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s154",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s155",
+          "_type": "span",
           "marks": [],
           "text": "You will not see a tiger. Almost nobody does. Go for the forest at night and treat anything else as a bonus, and the drive is excellent rather than disappointing."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b156",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s157",
+          "_type": "span",
           "marks": [],
           "text": "Day 7: The long crossing back to the coast"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b158",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s159",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s160",
+          "_type": "span",
           "marks": [],
           "text": "Leave early on the same road you came in on, and take it in daylight. Seven to eight hours, one long descent, and a landscape that reads completely differently going west because you can see how far the basin sits from everything."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b161",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s162",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s163",
+          "_type": "span",
           "marks": [],
           "text": "Arrive in Padang. If you have energy, Air Manis beach and the Batang Arau waterfront give you an hour of coast before dinner, which after a week at altitude feels like a bigger reward than it should."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b164",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s165",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s166",
+          "_type": "span",
           "marks": [],
           "text": "Padang food again, properly this time, now that you know what a week of homestay cooking tastes like by comparison."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b167",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s168",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s169",
+          "_type": "span",
           "marks": [],
           "text": "Padang."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b170",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s171",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s172",
+          "_type": "span",
           "marks": [],
           "text": "This is the fragile day. A landslide or a washout on the Barisan road adds hours with no alternative route, which is exactly why Day 8 exists."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b173",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s174",
+          "_type": "span",
           "marks": [],
           "text": "Day 8: Buffer and fly out"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b175",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s176",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s177",
+          "_type": "span",
           "marks": [],
           "text": "Fly home, or use the day. Padang is a decent city to be stuck in and Bukittinggi is only a couple of hours north if the buffer turns out to be spare."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b178",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s179",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s180",
+          "_type": "span",
           "marks": [],
           "text": "Book the international connection out of Jakarta or Kuala Lumpur with a night's gap rather than a same-day transfer. The Padang road is the weak link in this trip and a missed domestic flight is the most likely way it costs you money."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b181",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s182",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Travel note: "
         },
         {
-          "_type": "span",
           "_key": "s183",
+          "_type": "span",
           "marks": [],
           "text": "If you are heading onward rather than home, this valley pairs naturally with the Minangkabau highlands and not with anything on the north Sumatra circuit, which is a very long way away."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b184",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s185",
+          "_type": "span",
           "marks": [],
           "text": "Can you actually climb Mount Kerinci right now?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b186",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s187",
+          "_type": "span",
           "marks": [],
           "text": "Usually yes, but check before you book flights. Kerinci has sat at Level II, Waspada, on Indonesia's four-level volcanic alert scale through 2026, with continuous gas and vapour plumes and an advisory exclusion radius around the active vent. Despite that, the trekking route has remained open and climbers have reported reaching the summit throughout the year."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b188",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s189",
+          "_type": "span",
           "marks": [],
           "text": "The reason this needs saying plainly is that the two things are not contradictory. A standing Level II advisory is Kerinci's normal state rather than an emergency, and the national park keeps the Kersik Tuo route open under it. What changes fast is the exclusion radius: when seismicity picks up, the summit closes first and the mountain reopens to the treeline only, sometimes for weeks."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b190",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s191",
+          "_type": "span",
           "marks": [],
           "text": "The practical version: confirm the current alert level with the volcanology agency's published status and confirm the trail with your guide or the park office in Kersik Tuo, in that order, about a week before you fly. If the summit is shut, this itinerary loses one day and gains one, because Danau Gunung Tujuh, the Ladeh Panjang wetlands above 2,000 metres and the Bukit Tapan forest are all still open and all still good."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b192",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s193",
+          "_type": "span",
           "marks": [],
           "text": "Mount Kerinci or Danau Gunung Tujuh: which hike should you do?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b194",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s195",
+          "_type": "span",
           "marks": [],
           "text": "Do Gunung Tujuh if you have one hiking day, are unsure about altitude, or are travelling with anyone who is not a confident hiker. Do Kerinci only if you have two clear days, cold-weather kit and the fitness for around 1,800 metres of ascent on mud and scree. Doing both, in that order, is the point of this itinerary."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "t196",
+      "_type": "comparisonTable",
       "caption": "Both hikes start within ten kilometres of Kersik Tuo and both need a park fee and a guide. Times are moving averages from local operators and vary widely with fitness and weather.",
       "columns": ["", "Danau Gunung Tujuh", "Mount Kerinci"],
       "rows": [
@@ -1383,50 +1416,50 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "b203",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s204",
+          "_type": "span",
           "marks": [],
           "text": "One more honest comparison: if you only ever do one of them, most travellers get more out of Gunung Tujuh. The lake is the better place to spend time, the climb is hard enough to feel earned, and the day does not hinge on a seismograph."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b205",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s206",
+          "_type": "span",
           "marks": [],
           "text": "How do you get from Padang to the Kerinci valley?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b207",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s208",
+          "_type": "span",
           "marks": [],
           "text": "There are three ways and no good fourth. Shared cars, called travel, are the standard: seven to eight hours, several departures a day, and they will drop you at Kersik Tuo if you ask. Public buses are cheaper and slower. A private car costs several times more and buys you flexibility, an early start and the ability to stop."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "t209",
+      "_type": "comparisonTable",
       "caption": "Padang to Kersik Tuo or Sungai Penuh, roughly 240 kilometres over the Barisan range. Fares are 2026 working estimates in rupiah and move with fuel prices.",
       "columns": ["Option", "Time", "Roughly what it costs", "Best for"],
       "rows": [
@@ -1469,177 +1502,196 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "b214",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s215",
+          "_type": "span",
           "marks": [],
           "text": "Split between two or three people, the private car is close enough to the shared fare that it usually wins, mostly because it lets you leave at six in the morning and arrive with light left for the tea plateau."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b216",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s217",
+          "_type": "span",
           "marks": [],
           "text": "What to book early, and what to keep flexible"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b218",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s219",
+          "_type": "span",
           "marks": [],
           "text": "Book early: the domestic flight into Padang, your guide in Kersik Tuo, and the Padang hotel for the arrival and departure nights. Keep flexible: the summit day, the night drive, and everything on the valley floor. That split holds because the scarce things here are seats and guides, not rooms."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b220",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s221",
+          "_type": "span",
           "marks": [],
           "text": "The guide is the genuine bottleneck. Kersik Tuo is a small village with a limited number of people who guide Kerinci properly, and in the drier months from May to September they are booked. Two weeks' notice is comfortable, three days is a gamble, and turning up unannounced in August usually means waiting or taking whoever is left."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b222",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s223",
+          "_type": "span",
           "marks": [],
           "text": "What you should not pre-book is a rigid summit date. Build the trek into a window of two possible days and tell your guide that up front. Weather, alert level and how the Gunung Tujuh day went can all move it, and a guide who knows you have flexibility will use it in your favour."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b224",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s225",
+          "_type": "span",
           "marks": [],
           "text": "Mistakes travellers make in the Kerinci valley"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b226",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s227",
+          "_type": "span",
           "marks": [],
           "text": "The most common mistake is arriving with Bali packing. This is a valley at 1,400 metres with a campsite at 3,000, and travellers routinely turn up with a rain jacket that is not waterproof, shoes with no grip and nothing warm, then buy a fleece in Sungai Penuh at a bad price or have a genuinely cold night."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b228",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s229",
+          "_type": "span",
           "marks": [],
           "text": "The second is treating the summit as fixed. People book a flight out of Padang for the day after the descent, then push a summit attempt in bad conditions because the alternative is losing the trip. That is the decision that gets travellers hurt on the scree section, and it is entirely avoidable by adding the buffer day."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b230",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s231",
+          "_type": "span",
           "marks": [],
           "text": "The third is skipping Gunung Tujuh to save a day. It reads like the soft option and it is the day that tells you whether the mountain is realistic, at a point when you can still change your mind cheaply."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b232",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s233",
+          "_type": "span",
           "marks": [],
           "text": "The fourth is arriving without cash. Guides, permits, homestays and the night drive are all cash, the ATMs are in Sungai Penuh rather than Kersik Tuo, and card acceptance in the valley is close to non-existent."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b234",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s235",
+          "_type": "span",
           "marks": [],
           "text": "What to cut, adapt or upgrade"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b236",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s237",
+          "_type": "span",
           "marks": [],
           "text": "To cut this to six days, drop Day 6 and Day 8 and accept the risk: valley on arrival, Gunung Tujuh, two days on Kerinci, drive back, fly out. It works when the weather cooperates and it is genuinely tight when it does not. To cut it further, drop Kerinci rather than dropping the buffer, and you have a four-day trip built around the crater lake and the tea."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b242",
-      "style": "normal",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s239",
+          "_type": "span",
+          "marks": [],
+          "text": "To extend it, go north rather than east. The Minangkabau highlands around Bukittinggi and Harau Valley are the natural companion to this valley, reachable on "
+        },
+        {
+          "_key": "s240",
+          "_type": "span",
+          "marks": ["md238"],
+          "text": "the Padang to Bukittinggi run"
+        },
+        {
+          "_key": "s241",
+          "_type": "span",
+          "marks": [],
+          "text": ", and adding four or five days there turns a hiking trip into a proper West Sumatra fortnight. That extension also gives you a soft landing after the mountain, which most people want more than they expect to."
+        }
+      ],
       "markDefs": [
         {
           "_key": "md238",
@@ -1647,373 +1699,381 @@
           "placeholderId": "12GO_PADANG_BUKITTINGGI"
         }
       ],
-      "children": [
-        {
-          "_type": "span",
-          "_key": "s239",
-          "marks": [],
-          "text": "To extend it, go north rather than east. The Minangkabau highlands around Bukittinggi and Harau Valley are the natural companion to this valley, reachable on "
-        },
-        {
-          "_type": "span",
-          "_key": "s240",
-          "marks": ["md238"],
-          "text": "the Padang to Bukittinggi run"
-        },
-        {
-          "_type": "span",
-          "_key": "s241",
-          "marks": [],
-          "text": ", and adding four or five days there turns a hiking trip into a proper West Sumatra fortnight. That extension also gives you a soft landing after the mountain, which most people want more than they expect to."
-        }
-      ]
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b243",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s244",
+          "_type": "span",
           "marks": [],
           "text": "The upgrade worth paying for is the private car on both long drives, and a guide with a real wildlife background for Bukit Tapan rather than whoever is free. The upgrade not worth paying for is a longer summit package: the extra night on the mountain adds cold rather than value, and Shelter 3 is the right camp."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b245",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s246",
+          "_type": "span",
           "marks": [],
           "text": "Before you build this trip"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b247",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s248",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Visa. "
         },
         {
-          "_type": "span",
           "_key": "s249",
+          "_type": "span",
           "marks": [],
           "text": "Most visitors enter Indonesia on a visa on arrival or e-VOA, which costs around IDR 500,000, roughly USD 35 as a working estimate, and is valid for thirty days with one extension possible. Fees and rules change, so check the latest official guidance before you fly."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b250",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s251",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Season. "
         },
         {
-          "_type": "span",
           "_key": "s252",
+          "_type": "span",
           "marks": [],
           "text": "May to September is the drier window and the one to aim for, with clearer summit mornings and firmer trails. October to April brings heavier rain, a much lower chance of a clear crater rim, and a valley that is quiet and green. There is no season in which you should leave the rain shell at home."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b253",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s254",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Fitness. "
         },
         {
-          "_type": "span",
           "_key": "s255",
+          "_type": "span",
           "marks": [],
           "text": "Kerinci is a fitness problem rather than a technical one. If you can walk uphill for six hours carrying a daypack and are willing to be cold, you can do it. If you cannot, Gunung Tujuh is not a consolation prize."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b256",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s257",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Money. "
         },
         {
-          "_type": "span",
           "_key": "s258",
+          "_type": "span",
           "marks": [],
           "text": "Carry more cash than you think you need, drawn in Padang. Between the park fee, the guide, the homestay, the night drive and the shared cars, a week here is a sequence of cash transactions."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b259",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s260",
+          "_type": "span",
           "marks": ["strong"],
           "text": "Getting there. "
         },
         {
-          "_type": "span",
           "_key": "s261",
+          "_type": "span",
           "marks": [],
           "text": "Padang is served by domestic flights from Jakarta and by a small number of regional international routes. Confirm current flight routes before locking anything else, because the schedule into Padang changes more often than the road does."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b262",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s263",
+          "_type": "span",
           "marks": [],
           "text": "Final verdict"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b264",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s265",
+          "_type": "span",
           "marks": [],
           "text": "Kerinci is the best hard trip in Sumatra and the one most travellers should not take. Two days of driving, a mountain under a permanent advisory, no infrastructure and cash-only logistics is a lot of friction for a summit you might not get. If that ratio bothers you, the honest answer is that West Sumatra or north Sumatra will give you more per day."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b266",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s267",
+          "_type": "span",
           "marks": [],
           "text": "But if you want the version of Indonesia where nobody is selling you anything, where a 3,000-hectare tea estate runs up to the foot of the country's highest volcano and the road out of town at night is full of gibbons, this valley has almost no competition. It rewards travellers who plan for the trip to go partly wrong, and it punishes travellers who plan for it to go exactly right."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b268",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s269",
+          "_type": "span",
           "marks": [],
           "text": "Take the eight days. Take the buffer day especially. Treat the summit as the best possible version of the week rather than the point of it, and Kerinci is one of the few places left in Indonesia that feels genuinely unmanaged."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b270",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s271",
+          "_type": "span",
           "marks": [],
           "text": "Related itineraries"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b272",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "md275",
-          "_type": "externalLink",
-          "href": "https://exploreindonesia.ai/trips/7-days-west-sumatra-bukittinggi-harau-valley",
-          "blank": false
-        },
-        {
-          "_key": "md278",
-          "_type": "externalLink",
-          "href": "https://exploreindonesia.ai/trips/15-days-sumatra",
-          "blank": false
-        },
-        {
-          "_key": "md281",
-          "_type": "externalLink",
-          "href": "https://exploreindonesia.ai/trips/20-days-wild-indonesia",
-          "blank": false
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s274",
+          "_type": "span",
           "marks": [],
           "text": "If this valley appeals but the mountain does not, "
         },
         {
-          "_type": "span",
           "_key": "s276",
+          "_type": "span",
           "marks": ["md275"],
           "text": "the West Sumatra highlands"
         },
         {
-          "_type": "span",
           "_key": "s277",
+          "_type": "span",
           "marks": [],
           "text": " run the same region at a gentler pace, and "
         },
         {
-          "_type": "span",
           "_key": "s279",
+          "_type": "span",
           "marks": ["md278"],
           "text": "the fifteen-day Sumatra route"
         },
         {
-          "_type": "span",
           "_key": "s280",
+          "_type": "span",
           "marks": [],
           "text": " stitches the north and west together for travellers with a longer window. For a different kind of remote, the "
         },
         {
-          "_type": "span",
           "_key": "s282",
+          "_type": "span",
           "marks": ["md281"],
           "text": "wildlife-led trips through Indonesia's outer islands"
         },
         {
-          "_type": "span",
           "_key": "s283",
+          "_type": "span",
           "marks": [],
           "text": " cover similar ground in feel and very different ground on a map."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "md275",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/7-days-west-sumatra-bukittinggi-harau-valley"
+        },
+        {
+          "_key": "md278",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/15-days-sumatra"
+        },
+        {
+          "_key": "md281",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "https://exploreindonesia.ai/trips/20-days-wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cred1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cs1",
+          "_type": "span",
+          "marks": [],
+          "text": "Hero image: Mount Kerinci seen from the Kayu Aro tea estate, by "
+        },
+        {
+          "_key": "cs2",
+          "_type": "span",
+          "marks": ["cd1"],
+          "text": "Muhamad Izzul Fiqih"
+        },
+        {
+          "_key": "cs3",
+          "_type": "span",
+          "marks": [],
+          "text": ", via Wikimedia Commons, licensed "
+        },
+        {
+          "_key": "cs4",
+          "_type": "span",
+          "marks": ["cd2"],
+          "text": "CC BY-SA 4.0"
+        },
+        {
+          "_key": "cs5",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cd1",
+          "_type": "externalLink",
+          "blank": true,
+          "href": "https://commons.wikimedia.org/wiki/File:Pemandangan_Gunung_Kerinci_dari_Kebun_Teh_07.jpg"
+        },
+        {
+          "_key": "cd2",
+          "_type": "externalLink",
+          "blank": true,
+          "href": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ],
+      "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "sumatra",
   "faq": [
     {
-      "question": "How many days do you need for Mount Kerinci?",
-      "answer": "Eight days from Padang and back is the comfortable minimum, and six is the tight version. The mountain itself takes two days, but the drive from Padang is seven to eight hours each way and the summit needs a spare day in case weather or the alert level moves it. Trips that skip the buffer day are the ones that fail."
+      "answer": "Eight days from Padang and back is the comfortable minimum, and six is the tight version. The mountain itself takes two days, but the drive from Padang is seven to eight hours each way and the summit needs a spare day in case weather or the alert level moves it. Trips that skip the buffer day are the ones that fail.",
+      "question": "How many days do you need for Mount Kerinci?"
     },
     {
-      "question": "Is Mount Kerinci open to climbers in 2026?",
-      "answer": "Yes, as of mid-2026 the Kersik Tuo trekking route has stayed open and climbers have reported summits through the year, even though the volcano has sat at alert Level II, Waspada, with an advisory exclusion zone around the vent. That status can tighten quickly, so confirm with the park office in Kersik Tuo or your guide about a week before you fly."
+      "answer": "Yes, as of mid-2026 the Kersik Tuo trekking route has stayed open and climbers have reported summits through the year, even though the volcano has sat at alert Level II, Waspada, with an advisory exclusion zone around the vent. That status can tighten quickly, so confirm with the park office in Kersik Tuo or your guide about a week before you fly.",
+      "question": "Is Mount Kerinci open to climbers in 2026?"
     },
     {
-      "question": "Do you need a guide to climb Mount Kerinci?",
-      "answer": "In practice yes. Guiding is arranged locally in Kersik Tuo and the same person handles the national park permit, camping gear, porters and trailhead transport, so going without one means solving four problems yourself in a village where little of it is arranged in English. Costs are negotiated rather than published."
+      "answer": "In practice yes. Guiding is arranged locally in Kersik Tuo and the same person handles the national park permit, camping gear, porters and trailhead transport, so going without one means solving four problems yourself in a village where little of it is arranged in English. Costs are negotiated rather than published.",
+      "question": "Do you need a guide to climb Mount Kerinci?"
     },
     {
-      "question": "How hard is the Mount Kerinci trek?",
-      "answer": "Hard on fitness, easy on technique. You climb roughly 1,800 metres over two days, the middle section is a deep mud trench where you pull yourself up on tree roots, and the final push to 3,805 metres is loose volcanic scree in the dark. No ropes or climbing skill are needed, but you will be cold and it is relentless."
+      "answer": "Hard on fitness, easy on technique. You climb roughly 1,800 metres over two days, the middle section is a deep mud trench where you pull yourself up on tree roots, and the final push to 3,805 metres is loose volcanic scree in the dark. No ropes or climbing skill are needed, but you will be cold and it is relentless.",
+      "question": "How hard is the Mount Kerinci trek?"
     },
     {
-      "question": "What is the best time of year to visit the Kerinci valley?",
-      "answer": "May to September is the drier window, with better odds of a clear summit morning and firmer trails, and it is also when guides get booked out. October to April is much wetter and much quieter. Kerinci Seblat is among the wettest parks in Sumatra, so rain is possible in any month."
+      "answer": "May to September is the drier window, with better odds of a clear summit morning and firmer trails, and it is also when guides get booked out. October to April is much wetter and much quieter. Kerinci Seblat is among the wettest parks in Sumatra, so rain is possible in any month.",
+      "question": "What is the best time of year to visit the Kerinci valley?"
     },
     {
-      "question": "How do you get from Padang to Kersik Tuo?",
-      "answer": "By road, in seven to eight hours. Shared cars known as travel run the route daily for roughly IDR 130,000 to 300,000 a seat and will drop you in Kersik Tuo, public buses are slower and cheaper, and a private car with driver runs around IDR 1,000,000 to 1,200,000 and is worth it split between two or three people."
+      "answer": "By road, in seven to eight hours. Shared cars known as travel run the route daily for roughly IDR 130,000 to 300,000 a seat and will drop you in Kersik Tuo, public buses are slower and cheaper, and a private car with driver runs around IDR 1,000,000 to 1,200,000 and is worth it split between two or three people.",
+      "question": "How do you get from Padang to Kersik Tuo?"
     },
     {
-      "question": "Can you see Sumatran tigers in Kerinci Seblat National Park?",
-      "answer": "Realistically, no. The park holds an estimated 165 Sumatran tigers across a very large area and sightings by visitors are rare enough to be newsworthy. The night drive along the Bukit Tapan road reliably produces siamang, leaf monkeys, civets and slow loris, and the park's 370-plus bird species are the more achievable draw."
+      "answer": "Realistically, no. The park holds an estimated 165 Sumatran tigers across a very large area and sightings by visitors are rare enough to be newsworthy. The night drive along the Bukit Tapan road reliably produces siamang, leaf monkeys, civets and slow loris, and the park's 370-plus bird species are the more achievable draw.",
+      "question": "Can you see Sumatran tigers in Kerinci Seblat National Park?"
     }
   ],
-  "affiliateLinks": [
-    {
-      "_key": "a284",
-      "placeholderId": "AIRALO_INDONESIA",
-      "partner": "airalo",
-      "experienceCategory": "connectivity",
-      "anchorText": "a data eSIM before you leave the coast",
-      "publicUrl": "https://www.airalo.com/indonesia-esim",
-      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-      "day": "Day 1",
-      "priority": "medium",
-      "linkStatus": "live"
+  "focusKeyword": "Mount Kerinci trek",
+  "heroImage": {
+    "_type": "image",
+    "alt": "The cone of Mount Kerinci rising behind the tea rows of the Kayu Aro estate in Jambi, Sumatra",
+    "asset": {
+      "_ref": "image-a4eb4f95d82d3697f0ec1f1765baceb63207c21f-5472x3648-jpg",
+      "_type": "reference"
     },
-    {
-      "_key": "a285",
-      "placeholderId": "BOOKING_PADANG",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "a night near Padang's airport side",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Padang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Padang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "day": "Day 1",
-      "priority": "high",
-      "linkStatus": "live"
-    },
-    {
-      "_key": "a286",
-      "placeholderId": "BOOKING_SUNGAI_PENUH",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "a hotel night in Sungai Penuh",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sungai+Penuh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sungai+Penuh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "day": "Day 6",
-      "priority": "medium",
-      "linkStatus": "live"
-    },
-    {
-      "_key": "a287",
-      "placeholderId": "12GO_PADANG_BUKITTINGGI",
-      "partner": "12go",
-      "experienceCategory": "transport",
-      "anchorText": "the Padang to Bukittinggi run",
-      "publicUrl": "https://12go.asia/en/travel/padang/bukittinggi",
-      "affiliateUrl": "https://12go.asia/en/travel/padang/bukittinggi?z=16022946",
-      "day": "Extension",
-      "priority": "medium",
-      "linkStatus": "live"
-    }
-  ]
+    "caption": "Mount Kerinci from the Kayu Aro tea estate. Photo by Muhamad Izzul Fiqih, CC BY-SA 4.0, via Wikimedia Commons."
+  },
+  "intro": "Sumatra's highest volcano is not the hard part of this trip. The hard part is the two long drives that bracket it, and the fact that the mountain you came for sits under a standing volcanic advisory that can close the summit at short notice. Plan the Kerinci valley as a week in a high, cold, tea-covered basin that happens to have a 3,805 metre volcano at one end, and the trip works whether or not you stand on the crater rim. Plan it as a summit-or-nothing mission and you have gambled a week of your holiday on a seismograph.",
+  "metaDescription": "An 8-day Kerinci route from Padang: the crater lake first, then Sumatra's highest volcano. Drive times, permits and what to do if the summit shuts.",
+  "metaTitle": "Mount Kerinci Trek: 8-Day Kerinci Valley Itinerary",
+  "route": "Padang → Kersik Tuo → Danau Gunung Tujuh → Mount Kerinci → Sungai Penuh → Bukit Tapan → Padang",
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-kerinci-volcano-gunung-tujuh-trek"
+  },
+  "title": "8 Days in Kerinci: Sumatra's Highest Volcano and the Crater Lake Below It",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travellerTypes": ["solo_travellers", "friends", "repeat_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "vibe": "remote"
 }

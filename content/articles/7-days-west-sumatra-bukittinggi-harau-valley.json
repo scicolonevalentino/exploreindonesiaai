@@ -1456,6 +1456,24 @@
           "_type": "span",
           "marks": [],
           "text": " covering orangutans at Bukit Lawang, the Berastagi highlands and Lake Toba."
+        },
+        {
+          "_key": "kn921",
+          "_type": "span",
+          "marks": [],
+          "text": " If you want a harder week in the same province, the "
+        },
+        {
+          "_key": "kn922",
+          "_type": "span",
+          "marks": ["kn920"],
+          "text": "8-day Kerinci valley route"
+        },
+        {
+          "_key": "kn923",
+          "_type": "span",
+          "marks": [],
+          "text": " climbs Sumatra's highest volcano and pairs naturally onto either end of this one."
         }
       ],
       "markDefs": [
@@ -1464,6 +1482,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/trips/15-days-sumatra"
+        },
+        {
+          "_key": "kn920",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-kerinci-volcano-gunung-tujuh-trek"
         }
       ],
       "style": "normal"
