@@ -1274,6 +1274,24 @@
           "_type": "span",
           "marks": [],
           "text": "."
+        },
+        {
+          "_key": "kn901",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are travelling as a couple rather than as a family, the same two islands work at a slower pace as a "
+        },
+        {
+          "_key": "kn902",
+          "_type": "span",
+          "marks": ["kn900"],
+          "text": "six-day Nusa islands honeymoon"
+        },
+        {
+          "_key": "kn903",
+          "_type": "span",
+          "marks": [],
+          "text": "."
         }
       ],
       "markDefs": [
@@ -1300,6 +1318,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/destinations/bali-nearby-islands"
+        },
+        {
+          "_key": "kn900",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-nusa-islands-honeymoon"
         }
       ],
       "style": "normal"

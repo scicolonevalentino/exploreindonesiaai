@@ -1,28 +1,6 @@
 {
   "_id": "itinerary-10-days-sulawesi-toraja-bunaken",
   "_type": "article",
-  "title": "10 Days in Sulawesi: Tana Toraja, Bunaken and the Long Road Between",
-  "slug": {
-    "_type": "slug",
-    "current": "10-days-sulawesi-toraja-bunaken"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-24T06:11:27.174Z",
-  "destinationPrimary": "wild_indonesia",
-  "travelStylePrimary": "remote_offbeat",
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 10,
-  "travellerTypes": ["couples", "friends", "repeat_travellers"],
-  "vibe": "balanced",
-  "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
-  "focusKeyword": "Sulawesi itinerary",
-  "metaTitle": "Sulawesi Itinerary: 10-Day Toraja to Bunaken Route",
-  "metaDescription": "Ten days is enough for Sulawesi if you pick one half. This route pairs Tana Toraja with Bunaken, with honest drive times and what to book first.",
-  "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
@@ -72,6 +50,11 @@
       "publicUrl": "https://www.booking.com/searchresults.html?ss=Bunaken%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
+  "articleCreatedDate": "2026-06-24T06:11:27.174Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
       "_key": "k0",
@@ -1682,6 +1665,24 @@
           "_type": "span",
           "marks": [],
           "text": "."
+        },
+        {
+          "_key": "kn911",
+          "_type": "span",
+          "marks": [],
+          "text": " If you have a fortnight rather than ten days, the "
+        },
+        {
+          "_key": "kn912",
+          "_type": "span",
+          "marks": ["kn910"],
+          "text": "14-day route that adds the Togean Islands"
+        },
+        {
+          "_key": "kn913",
+          "_type": "span",
+          "marks": [],
+          "text": " is the same journey with the ferry crossing built in."
         }
       ],
       "markDefs": [
@@ -1702,6 +1703,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/destinations/wild-indonesia"
+        },
+        {
+          "_key": "kn910",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-sulawesi-toraja-togean-bunaken"
         }
       ],
       "style": "normal"
@@ -1740,6 +1747,8 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
   "faq": [
     {
       "answer": "Ten days is a sensible minimum to pair Tana Toraja with Bunaken without rushing, because two of those days go to transfers. With less time, focus on one region, either Toraja from Makassar or Bunaken from Manado, rather than trying to link both. With two weeks you could add the Togean Islands or North Sulawesi wildlife.",
@@ -1770,6 +1779,7 @@
       "question": "Is this Sulawesi trip suitable for families with young children?"
     }
   ],
+  "focusKeyword": "Sulawesi itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Lemo cliff burial site in Tana Toraja, Sulawesi, with carved rock niches, tau tau effigies and tongkonan-roofed grave structures",
@@ -1778,5 +1788,19 @@
       "_type": "reference"
     },
     "caption": "The Lemo cliff graves, Tana Toraja"
-  }
+  },
+  "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
+  "metaDescription": "Ten days is enough for Sulawesi if you pick one half. This route pairs Tana Toraja with Bunaken, with honest drive times and what to book first.",
+  "metaTitle": "Sulawesi Itinerary: 10-Day Toraja to Bunaken Route",
+  "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-sulawesi-toraja-bunaken"
+  },
+  "title": "10 Days in Sulawesi: Tana Toraja, Bunaken and the Long Road Between",
+  "travelStylePrimary": "remote_offbeat",
+  "travellerTypes": ["couples", "friends", "repeat_travellers"],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "vibe": "balanced"
 }
