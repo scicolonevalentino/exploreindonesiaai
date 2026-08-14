@@ -693,9 +693,34 @@
           "_type": "span",
           "marks": [],
           "text": "Continue to Harau Valley, near Payakumbuh, around one and a half to two hours from Bukittinggi as a working estimate. The valley opens up as sheer rock walls rising straight out of rice fields, with homestays and small guesthouses set among the paddies. Arrive with enough daylight to walk out and get your bearings."
+        },
+        {
+          "_key": "k2601s",
+          "_type": "span",
+          "marks": [],
+          "text": " Full "
+        },
+        {
+          "_key": "k2602s",
+          "_type": "span",
+          "marks": ["k2601"],
+          "text": "drive times across the Minangkabau highlands"
+        },
+        {
+          "_key": "k2603s",
+          "_type": "span",
+          "marks": [],
+          "text": ", including Batusangkar, Pagaruyung and Padang Panjang, are on the Padang to Bukittinggi route page."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "k2601",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/padang-to-bukittinggi"
+        }
+      ],
       "style": "normal"
     },
     {
