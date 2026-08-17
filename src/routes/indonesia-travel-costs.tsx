@@ -259,7 +259,9 @@ function TravelCostsPage() {
         </Callout>
 
         {/* 2. Daily budget table */}
-        <SectionHeading id="daily-budget">How much does Indonesia cost per day in 2026?</SectionHeading>
+        <SectionHeading id="daily-budget">
+          How much does Indonesia cost per day in 2026?
+        </SectionHeading>
         <TableShell>
           <thead>
             <tr>

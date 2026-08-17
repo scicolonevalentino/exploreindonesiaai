@@ -895,9 +895,24 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
         table: {
           columns: ["Region", "Best for", "Suggested days", "Best season"],
           rows: [
-            ["North Sulawesi (Bunaken, Lembeh)", "Reef diving and muck diving", "3 to 5 days", "May to October"],
-            ["Tana Toraja", "Highland culture, funeral ceremonies", "2 to 3 days", "Year-round; June to September for ceremony season"],
-            ["Togean Islands", "Slow island time between the two ends", "3 to 4 days", "April to November"],
+            [
+              "North Sulawesi (Bunaken, Lembeh)",
+              "Reef diving and muck diving",
+              "3 to 5 days",
+              "May to October",
+            ],
+            [
+              "Tana Toraja",
+              "Highland culture, funeral ceremonies",
+              "2 to 3 days",
+              "Year-round; June to September for ceremony season",
+            ],
+            [
+              "Togean Islands",
+              "Slow island time between the two ends",
+              "3 to 4 days",
+              "April to November",
+            ],
             ["Wakatobi", "Remote reef, fewer boats", "4 to 6 days", "April to November"],
           ],
         },
