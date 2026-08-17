@@ -1,0 +1,2330 @@
+{
+ "_id": "itinerary-7-days-bali-diving-tulamben-amed-menjangan",
+ "_type": "article",
+ "contentStatus": "draft",
+ "title": "7 Days Diving Bali: Amed, Tulamben and Menjangan",
+ "slug": {
+  "_type": "slug",
+  "current": "7-days-bali-diving-tulamben-amed-menjangan"
+ },
+ "author": {
+  "_type": "reference",
+  "_ref": "author-editorial-team"
+ },
+ "articleCreatedDate": "2026-08-17T00:00:00.000Z",
+ "route": "Denpasar, Amed, Tulamben, Pemuteran, Menjangan, Denpasar",
+ "destinationPrimary": "bali",
+ "destinationSecondary": [
+  "bali_nearby_islands"
+ ],
+ "tripLengthBucket": "one_week",
+ "tripLengthDays": 7,
+ "travelStylePrimary": "diving_snorkeling",
+ "travelStyleSecondary": [
+  "beach_islands"
+ ],
+ "travellerTypes": [
+  "divers",
+  "couples",
+  "friends"
+ ],
+ "vibe": "active",
+ "intro": "Bali's best diving is nowhere near the parts of Bali most people visit. The wreck, the walls and the coral gardens all sit on the far side of the island, three to four hours from the airport, and that distance is the reason they have stayed good. This week gives you two bases, Amed in the east and Pemuteran in the northwest, and asks you to accept one long transfer in the middle in return for water that does not feel like queueing. The decision that shapes everything else is when your last dive ends, because a dive in the morning and a flight home that night is not a plan you can safely make.",
+ "body": [
+  {
+   "_type": "block",
+   "_key": "b7",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s8",
+     "marks": [],
+     "text": "Who is this Bali diving week for, and who should skip it?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b10",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s9",
+     "marks": [],
+     "text": "This week suits certified divers who want the USAT Liberty wreck, the Menjangan walls and easy shore entries in a single trip, plus snorkellers happy in the same water. Skip it if you also want Ubud, the south-coast beach clubs and the rice terraces, because east and northwest Bali sit hours from all of that."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b12",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s11",
+     "marks": [],
+     "text": "It works well for a couple where one dives and one does not, since Amed and Pemuteran both have shore snorkelling good enough to fill a morning. It works badly for absolute beginners on a tight clock: you can certify here, but an Open Water course eats three of your seven days and leaves no room for the second base. It is not a family trip either. The drives are long, the villages are quiet, and the entertainment is underwater."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b13",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s14",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b17",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s15",
+     "marks": [
+      "strong"
+     ],
+     "text": "Route. "
+    },
+    {
+     "_type": "span",
+     "_key": "s16",
+     "marks": [],
+     "text": "Denpasar to Amed, day trips to Tulamben, overland to Pemuteran, boat dives at Menjangan, then back south to fly out."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b20",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s18",
+     "marks": [
+      "strong"
+     ],
+     "text": "Bases. "
+    },
+    {
+     "_type": "span",
+     "_key": "s19",
+     "marks": [],
+     "text": "Two only. Three nights in Amed, three nights in Pemuteran, one night near the airport if your flight is early."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b23",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s21",
+     "marks": [
+      "strong"
+     ],
+     "text": "Diving days. "
+    },
+    {
+     "_type": "span",
+     "_key": "s22",
+     "marks": [],
+     "text": "Four, with roughly eight to ten dives if you keep to two a day."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b26",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s24",
+     "marks": [
+      "strong"
+     ],
+     "text": "Longest transfer. "
+    },
+    {
+     "_type": "span",
+     "_key": "s25",
+     "marks": [],
+     "text": "Amed to Pemuteran, about 139 kilometres and close to four hours."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b29",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s27",
+     "marks": [
+      "strong"
+     ],
+     "text": "Season. "
+    },
+    {
+     "_type": "span",
+     "_key": "s28",
+     "marks": [],
+     "text": "April to October reads best across the operators on both coasts, with the clearest water in the middle of that window."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b32",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s30",
+     "marks": [
+      "strong"
+     ],
+     "text": "Certification needed. "
+    },
+    {
+     "_type": "span",
+     "_key": "s31",
+     "marks": [],
+     "text": "Open Water covers most of it. Advanced opens the deeper half of the Liberty and the lower Menjangan walls."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b33",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s34",
+     "marks": [],
+     "text": "How many days do you need to dive Bali properly?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b36",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s35",
+     "marks": [],
+     "text": "Seven days is the honest minimum for two dive regions. Day one goes to the drive east, day four to the crossing west, and the last morning to the no-fly window before your flight. That leaves four full diving days, enough for the Liberty, the Amed reefs and two trips out to Menjangan without rushing any of them."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b38",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s37",
+     "marks": [],
+     "text": "Five days works if you pick one base and stay there. Ten days lets you add Nusa Penida at the end, though that is a different trip with different currents and a separate boat logistic, and it belongs on its own week rather than bolted onto this one."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b39",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s40",
+     "marks": [],
+     "text": "Why does this route run east to west?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b42",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s41",
+     "marks": [],
+     "text": "Going east first puts the wreck on your freshest days, while your air consumption is still settling, and saves Menjangan for the end when your buoyancy is better and the walls repay it. It also moves the long inland transfer to the middle of the trip instead of the arrival day, when you are tired and the light is going."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b44",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s43",
+     "marks": [],
+     "text": "The reverse direction is not wrong, it is just worse in one specific way. Pemuteran is the furthest point from the airport, so ending there means either a four-hour drive on the morning of your flight or a wasted extra night. Ending in the south, as this route does, gives you a short airport run and a clean 24-hour gap after your final dive."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b45",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s46",
+     "marks": [],
+     "text": "Amed, Tulamben or Pemuteran: which base should you pick?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b48",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s47",
+     "marks": [],
+     "text": "Amed is the practical base for the east because it has the beds, the restaurants and the widest choice of dive centres, and Tulamben is only a short drive up the coast. Pemuteran is the only sensible base for Menjangan. Tulamben itself is a working dive village with almost nothing else, which suits some people and not others."
+    }
+   ]
+  },
+  {
+   "_type": "comparisonTable",
+   "_key": "t49",
+   "caption": "How the three bases compare. Drive times are working estimates for normal daytime traffic and stretch in the wet season or around ceremonies.",
+   "columns": [
+    "Base",
+    "What you dive from it",
+    "Getting there",
+    "Who it suits"
+   ],
+   "rows": [
+    {
+     "_key": "r50",
+     "cells": [
+      "Amed",
+      "Jemeluk Bay, the Japanese wreck at Lipah, Gili Selang on calm days, plus Tulamben 25 to 30 minutes north",
+      "About 2 hours 35 to 3 hours 30 from Ngurah Rai airport, roughly 100 kilometres",
+      "Most people. Beds at every price, food after dark, and two dive regions within reach of one room"
+     ]
+    },
+    {
+     "_key": "r51",
+     "cells": [
+      "Tulamben",
+      "The USAT Liberty from the beach, plus the Drop Off and the Coral Garden either side of it",
+      "Another 25 to 30 minutes north of Amed",
+      "Divers who want to be in the water at first light and do not mind a village with one street"
+     ]
+    },
+    {
+     "_key": "r52",
+     "cells": [
+      "Pemuteran",
+      "Menjangan walls by boat, the Biorock reef straight off the beach, Secret Bay muck diving nearby",
+      "About 139 kilometres and close to 4 hours from Amed, or roughly 4 hours from the airport",
+      "Divers heading for Menjangan, and anyone who wants a calm bay and an easy house reef"
+     ]
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b53",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s54",
+     "marks": [],
+     "text": "Day 1: Land in Denpasar and drive to Amed"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b60",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m57",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s55",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s56",
+     "marks": [],
+     "text": "Clear Ngurah Rai and get straight into a car. Amed is roughly 100 kilometres away and takes about 2 hours 35 to 3 hours 30 depending on how the coast road is running. Sort your data before you leave the terminal: an "
+    },
+    {
+     "_type": "span",
+     "_key": "s58",
+     "marks": [
+      "m57"
+     ],
+     "text": "Indonesia eSIM with Airalo"
+    },
+    {
+     "_type": "span",
+     "_key": "s59",
+     "marks": [],
+     "text": " means dive centre messages and maps work from the kerb, which matters on a coast where a lot of booking still happens over WhatsApp."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b66",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m63",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_AMED"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s61",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s62",
+     "marks": [],
+     "text": "Check in and walk the bay. Amed is not one village but a string of them, Jemeluk, Bunutan, Lipah and Selang, spread along several kilometres of black-sand coast, so where you sleep decides how far you walk to dinner. There are "
+    },
+    {
+     "_type": "span",
+     "_key": "s64",
+     "marks": [
+      "m63"
+     ],
+     "text": "dive lodges and guesthouses in Amed"
+    },
+    {
+     "_type": "span",
+     "_key": "s65",
+     "marks": [],
+     "text": " at every level, from simple rooms above a dive shop to small resorts with a pool."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b69",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s67",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s68",
+     "marks": [],
+     "text": "Walk into a dive centre in person and book the next two days. Prices and availability are easier to settle face to face than by email, and the shop will want to see your certification card and log anyway."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b72",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s70",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s71",
+     "marks": [],
+     "text": "Amed, three nights."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b75",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s73",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s74",
+     "marks": [],
+     "text": "Book the room now and the diving on arrival. Rooms in Amed fill in July, August and around Christmas; dive slots almost never do."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b78",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s76",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s77",
+     "marks": [],
+     "text": "Do not dive today. You have flown, and the coast road is tiring. Starting on day two costs you nothing on this itinerary."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b79",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s80",
+     "marks": [],
+     "text": "Day 2: The USAT Liberty at Tulamben, before the crowds"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b83",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s81",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s82",
+     "marks": [],
+     "text": "Leave Amed early enough to be in the water by first light. The USAT Liberty is a cargo ship of roughly 120 to 130 metres lying about 30 metres off a black pebble beach, with the shallowest section around 5 metres and the deepest end near 30. It is a shore dive, which is why it gets busy: by mid-morning you can be sharing it with a dozen groups, and the sand takes a while to settle once it is stirred."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b92",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m86",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_TULAMBEN_LIBERTY"
+    },
+    {
+     "_key": "m89",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_TULAMBEN_DAYTRIP"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s84",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s85",
+     "marks": [],
+     "text": "A second dive on the Drop Off or the Coral Garden, both a short walk along the same beach, then back to Amed. If you would rather not arrange your own transport and guide, a "
+    },
+    {
+     "_type": "span",
+     "_key": "s87",
+     "marks": [
+      "m86"
+     ],
+     "text": "guided two-dive trip on the USAT Liberty"
+    },
+    {
+     "_type": "span",
+     "_key": "s88",
+     "marks": [],
+     "text": " bundles the guide, tanks and pickup, and there is a "
+    },
+    {
+     "_type": "span",
+     "_key": "s90",
+     "marks": [
+      "m89"
+     ],
+     "text": "Tulamben wreck day trip with hotel pickup"
+    },
+    {
+     "_type": "span",
+     "_key": "s91",
+     "marks": [],
+     "text": " that runs the same site from further south if you are joining this route mid-week."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b95",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s93",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s94",
+     "marks": [],
+     "text": "Log the dive, eat early, and decide whether you want a night dive tomorrow. The Liberty after dark is a genuinely different site, but it is a second trip up the coast."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b98",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s96",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s97",
+     "marks": [],
+     "text": "Amed."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b101",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s99",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s100",
+     "marks": [],
+     "text": "Ask for the earliest slot the shop runs. On this wreck the hour you enter matters more than the operator you pick."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b104",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s102",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s103",
+     "marks": [],
+     "text": "Entry is over loose pebbles with a bit of surge. Fins on at the water's edge, not on the beach, and let the porters carry the tanks. That is what they are there for and it is how the village earns."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b105",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s106",
+     "marks": [],
+     "text": "Day 3: Amed's own reefs and the Japanese wreck"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b109",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s107",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s108",
+     "marks": [],
+     "text": "Two dives on Amed's own sites. The Japanese wreck in Lipah Bay is a small steel vessel of about 20 metres sitting in roughly 6 to 12 metres of water, close enough to swim to from the beach, and it is coral-covered enough that most people spend the dive looking at what grows on it rather than the hull. Jemeluk Bay gives you a wall and a coral slope in calm, protected water."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b112",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s110",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s111",
+     "marks": [],
+     "text": "Rest, or snorkel Jemeluk from the beach, which is genuinely good and costs nothing but a mask rental. If the sea is flat, some shops run out to Gili Selang at the island's eastern tip, which has the strongest current on this coast and is worth doing only with a guide who knows the timing."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b115",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s113",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s114",
+     "marks": [],
+     "text": "Pack. Tomorrow is the long one."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b118",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s116",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s117",
+     "marks": [],
+     "text": "Amed."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b121",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s119",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s120",
+     "marks": [],
+     "text": "Confirm tomorrow's driver tonight and agree the price before you get in. The Amed to Pemuteran run is a fixed-price job for most local drivers."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b124",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s122",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s123",
+     "marks": [],
+     "text": "Gili Selang is not a beginner site. If a shop offers it to you on your fourth ever dive, that tells you something about the shop."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b125",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s126",
+     "marks": [],
+     "text": "Day 4: Cross to Pemuteran and the Biorock reef"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b129",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s127",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s128",
+     "marks": [],
+     "text": "Drive. It is about 139 kilometres around the northeast corner of the island to Pemuteran and takes close to four hours, longer if your room sits at the far end of Amed. The road runs along the north coast most of the way and it is a pleasant drive, but it is still most of a morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b135",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m132",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_PEMUTERAN"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s130",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s131",
+     "marks": [],
+     "text": "Check into one of the "
+    },
+    {
+     "_type": "span",
+     "_key": "s133",
+     "marks": [
+      "m132"
+     ],
+     "text": "places to stay in Pemuteran"
+    },
+    {
+     "_type": "span",
+     "_key": "s134",
+     "marks": [],
+     "text": " and get in the water off the beach. Pemuteran's Biorock reef has been growing since 2000 as a project of the Karang Lestari Foundation with the Global Coral Reef Alliance, and it is roughly 70 submerged steel structures carrying a low current that speeds coral growth. You can shore-dive or snorkel it without a boat, which makes it the easiest good dive on this whole itinerary."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b138",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s136",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s137",
+     "marks": [],
+     "text": "Book tomorrow's Menjangan boat at your dive centre and check whether your dates fall on a weekend or a public holiday, because the park fee changes if they do."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b141",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s139",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s140",
+     "marks": [],
+     "text": "Pemuteran, three nights."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b144",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s142",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s143",
+     "marks": [],
+     "text": "Pemuteran has far fewer rooms than Amed and a handful of them absorb most of the diving traffic. Book this one ahead."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b147",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s145",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s146",
+     "marks": [],
+     "text": "Leave Amed by nine. Arriving with daylight left is what turns this into a half-day of diving instead of a lost one."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b148",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s149",
+     "marks": [],
+     "text": "Day 5: The walls of Menjangan"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b152",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s150",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s151",
+     "marks": [],
+     "text": "Two dives at Menjangan, inside West Bali National Park. The boat from Pemuteran takes roughly 25 to 40 minutes depending on the sea, and the sites are walls rather than slopes, dropping from about 10 metres to 50 with overhangs and sea fans on the way down. Visibility is usually the best you will see this week."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b158",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m155",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_MENJANGAN_SNORKEL"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s153",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s154",
+     "marks": [],
+     "text": "Back to Pemuteran and out of the water. If you are travelling with a non-diver, the "
+    },
+    {
+     "_type": "span",
+     "_key": "s156",
+     "marks": [
+      "m155"
+     ],
+     "text": "full-day Menjangan snorkelling boat trip from Pemuteran"
+    },
+    {
+     "_type": "span",
+     "_key": "s157",
+     "marks": [],
+     "text": " covers the same reefs from the surface with lunch and park fees handled, so both of you can be on the same boat."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b161",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s159",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s160",
+     "marks": [],
+     "text": "Quiet. Pemuteran closes early and that is most of its appeal."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b164",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s162",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s163",
+     "marks": [],
+     "text": "Pemuteran."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b167",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s165",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s166",
+     "marks": [],
+     "text": "Park entry, permits and a guide are all arranged through your dive centre or at the park office. Let the shop handle it rather than turning up at the jetty yourself."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b170",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s168",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s169",
+     "marks": [],
+     "text": "The park charges a foreign-visitor entrance fee that has been published at around Rp 200,000 on weekdays and Rp 300,000 at weekends and on public holidays, with a small additional permit for diving or snorkelling on top. Fees change, so confirm the current figure with the park office at Labuhan Lalang or through your operator before you budget the day."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b171",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s172",
+     "marks": [],
+     "text": "Day 6: One last morning underwater, then the clock starts"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b175",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s173",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s174",
+     "marks": [],
+     "text": "One shore dive on the Biorock reef, or a second Menjangan trip if you want to spend the fee again and are certain about your flight time. Whatever you choose, be out of the water and dry by late morning. This is the dive that sets your no-fly window, and everything after it is land."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b178",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s176",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s177",
+     "marks": [],
+     "text": "Drive south. Sanur or the Seminyak side is roughly four hours from Pemuteran, and doing it today rather than tomorrow morning is the whole reason the route ends this way. Lovina is a shorter hop if you would rather break the drive and see the north coast."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b181",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s179",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s180",
+     "marks": [],
+     "text": "A night near the airport, and a proper meal that is not fried rice at a dive shop."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b184",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s182",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s183",
+     "marks": [],
+     "text": "Sanur, Kuta or wherever suits your terminal."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b187",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s185",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s186",
+     "marks": [],
+     "text": "Book the final night as late as you like. Rooms in the south are the one thing Bali never runs out of."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b190",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s188",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s189",
+     "marks": [],
+     "text": "If your flight is before midday on day seven, skip the morning dive entirely and drive south after breakfast. Nobody has ever regretted the dive they did not squeeze in before a long-haul flight."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b191",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s192",
+     "marks": [],
+     "text": "Day 7: Fly out"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b195",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s193",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s194",
+     "marks": [],
+     "text": "Airport. From Sanur it is 30 to 45 minutes, from the Seminyak side a little more in traffic, and Ngurah Rai wants you there early for international departures."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b198",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s196",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s197",
+     "marks": [],
+     "text": "None."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b201",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s199",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s200",
+     "marks": [],
+     "text": "Nothing left to book. Check your dive insurance covers you until you land, not until your last dive."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b204",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s202",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s203",
+     "marks": [],
+     "text": "Count the hours from your final dive, not from the day it happened. A dive that ended at 10am on day six clears a 24-hour window at 10am on day seven, not at midnight."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b205",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s206",
+     "marks": [],
+     "text": "What should you book early, and what can wait?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b208",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s207",
+     "marks": [],
+     "text": "Book the Pemuteran room and your flights early, and leave almost everything else. Pemuteran has a small bed count and the good dive lodges go first in July, August and over Christmas. Dive slots, drivers and Menjangan boats can be arranged a day ahead in person, and usually cheaper that way."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b211",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s209",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book ahead. "
+    },
+    {
+     "_type": "span",
+     "_key": "s210",
+     "marks": [],
+     "text": "Flights, the Pemuteran room, the Amed room in high season, and dive insurance if your policy does not already cover recreational scuba."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b214",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s212",
+     "marks": [
+      "strong"
+     ],
+     "text": "Leave flexible. "
+    },
+    {
+     "_type": "span",
+     "_key": "s213",
+     "marks": [],
+     "text": "Every dive, the Menjangan boat, the Amed to Pemuteran driver, and any day trip. Weather moves these around and a fixed booking becomes a liability, not a saving."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b217",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s215",
+     "marks": [
+      "strong"
+     ],
+     "text": "Do not book at all. "
+    },
+    {
+     "_type": "span",
+     "_key": "s216",
+     "marks": [],
+     "text": "A packaged multi-day dive itinerary bought before you arrive. You will pay a premium for a schedule you would have arranged locally in twenty minutes."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b218",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s219",
+     "marks": [],
+     "text": "What does a week of diving in Bali actually cost?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b221",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s220",
+     "marks": [],
+     "text": "Diving is the largest line and it is not the one that surprises people. Two shore dives a day at an Amed or Tulamben centre have been quoted around Rp 400,000 per dive, so a four-day diving week lands in the low millions of rupiah before park fees, boats and gear. Menjangan is the expensive day, because the park charges on top of the boat."
+    }
+   ]
+  },
+  {
+   "_type": "comparisonTable",
+   "_key": "t222",
+   "caption": "Working figures published by operators and park offices in 2026, as a planning estimate rather than a quote. Rupiah prices are what you pay locally; convert at the day's rate. Everything here changes, so confirm before you budget.",
+   "columns": [
+    "Item",
+    "Typical published price",
+    "Notes"
+   ],
+   "rows": [
+    {
+     "_key": "r223",
+     "cells": [
+      "Fun dive, Amed or Tulamben",
+      "Around Rp 400,000 per dive at an Amed centre",
+      "Shore dives. Some centres add roughly Rp 225,000 per person per dive for boat entries"
+     ]
+    },
+    {
+     "_key": "r224",
+     "cells": [
+      "Gear rental",
+      "Roughly Rp 80,000 to Rp 150,000 per day",
+      "Usually a full set. Bring your own mask and computer if you have them"
+     ]
+    },
+    {
+     "_key": "r225",
+     "cells": [
+      "Menjangan, two dives",
+      "From about Rp 1,200,000 per person",
+      "Boat and guide. Park fees and permits are normally charged separately"
+     ]
+    },
+    {
+     "_key": "r226",
+     "cells": [
+      "West Bali National Park entry",
+      "About Rp 200,000 weekdays, Rp 300,000 weekends and holidays",
+      "Foreign visitors. A diving permit of around Rp 25,000 and a snorkelling permit of around Rp 15,000 sit on top"
+     ]
+    },
+    {
+     "_key": "r227",
+     "cells": [
+      "Menjangan snorkelling, shared boat",
+      "Roughly Rp 600,000 to Rp 800,000 per person",
+      "Boat, guide, lunch and gear. A private charter has been quoted at Rp 800,000 to Rp 1,200,000 per boat"
+     ]
+    },
+    {
+     "_key": "r228",
+     "cells": [
+      "Airport to Amed by car",
+      "A fixed private transfer, agreed before you leave",
+      "About 100 kilometres and 2 hours 35 to 3 hours 30"
+     ]
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b229",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s230",
+     "marks": [],
+     "text": "How long before your flight should your last dive end?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b232",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s231",
+     "marks": [],
+     "text": "Plan on a full 24 hours. Standard recreational guidance is a minimum of 12 hours after a single no-decompression dive and 18 hours after repetitive diving or several days of it, which is what this week is. Divers Alert Network's more conservative advice is a day, and on a trip this dive-heavy the extra margin costs you almost nothing."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b234",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s233",
+     "marks": [],
+     "text": "On this route that means your last dive ends on the morning of day six. It is the single constraint that decides the shape of the week, and it is the one most people discover too late, usually while standing on a beach at Pemuteran doing arithmetic they do not like."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b235",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s236",
+     "marks": [],
+     "text": "Mistakes travellers make diving Bali"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b239",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s237",
+     "marks": [
+      "strong"
+     ],
+     "text": "Trying to add Nusa Penida. "
+    },
+    {
+     "_type": "span",
+     "_key": "s238",
+     "marks": [],
+     "text": "It is a separate boat logistic from the south of the island, the currents are in a different league, and squeezing it into this week means two more transfer days. Give it its own trip."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b242",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s240",
+     "marks": [
+      "strong"
+     ],
+     "text": "Diving the Liberty at ten in the morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s241",
+     "marks": [],
+     "text": "The site is fine. The forty other people on it are the problem, and so is the sand they have kicked up. Early or late, never mid-morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b245",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s243",
+     "marks": [
+      "strong"
+     ],
+     "text": "Basing in the south and commuting. "
+    },
+    {
+     "_type": "span",
+     "_key": "s244",
+     "marks": [],
+     "text": "Day trips to Tulamben from Seminyak exist and they work, but you spend six hours in a car to get two dives. Over four days that is a day and a half of your holiday spent looking at the back of a driver's head."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b248",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s246",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking Menjangan for a Sunday without checking. "
+    },
+    {
+     "_type": "span",
+     "_key": "s247",
+     "marks": [],
+     "text": "The park entrance fee for foreign visitors has been published higher at weekends and on public holidays. It is not a large sum, but it is avoidable."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b251",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s249",
+     "marks": [
+      "strong"
+     ],
+     "text": "Assuming the wet season is unusable. "
+    },
+    {
+     "_type": "span",
+     "_key": "s250",
+     "marks": [],
+     "text": "It is not. Operators on both coasts point at April to October for the calmest seas and clearest water, and the months either side are often fine. January and February are the gamble, mostly because of surface conditions rather than the reef."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b252",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s253",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b256",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s254",
+     "marks": [
+      "strong"
+     ],
+     "text": "Cut to five days. "
+    },
+    {
+     "_type": "span",
+     "_key": "s255",
+     "marks": [],
+     "text": "Drop Pemuteran and stay in Amed. You get the Liberty, the Japanese wreck and Jemeluk, and you lose the walls. It is the cleanest short version of this trip and it removes the four-hour transfer entirely."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b259",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s257",
+     "marks": [
+      "strong"
+     ],
+     "text": "Adapt for a non-diver. "
+    },
+    {
+     "_type": "span",
+     "_key": "s258",
+     "marks": [],
+     "text": "Jemeluk and the Biorock reef are both good from the surface, and the Menjangan boats take snorkellers on the same trip. The two of you only really separate at Tulamben, where the wreck starts at about 5 metres and is visible from above on a calm day."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b262",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s260",
+     "marks": [
+      "strong"
+     ],
+     "text": "Adapt for a beginner. "
+    },
+    {
+     "_type": "span",
+     "_key": "s261",
+     "marks": [],
+     "text": "An Open Water course runs three to four days and Amed is a good place to do it, with calm bays and shallow entries. If you certify here, cut Pemuteran and treat Menjangan as the reason to come back."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b265",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s263",
+     "marks": [
+      "strong"
+     ],
+     "text": "Upgrade with a night dive. "
+    },
+    {
+     "_type": "span",
+     "_key": "s264",
+     "marks": [],
+     "text": "The Liberty after dark, or the Biorock structures, which look like nothing else you will dive. Both cost you an evening and neither is a beginner's first night dive."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b268",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s266",
+     "marks": [
+      "strong"
+     ],
+     "text": "Upgrade with a muck day. "
+    },
+    {
+     "_type": "span",
+     "_key": "s267",
+     "marks": [],
+     "text": "Secret Bay near Gilimanuk, an easy detour from Pemuteran, is a serious critter site. Cold, shallow, dull-looking, and full of things macro photographers travel for."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b269",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s270",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b273",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s271",
+     "marks": [
+      "strong"
+     ],
+     "text": "Certification and logs. "
+    },
+    {
+     "_type": "span",
+     "_key": "s272",
+     "marks": [],
+     "text": "Bring the card and a log. Shops here will ask, and if your last dive was three years ago they will sensibly want a refresher before the wall dives."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b276",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s274",
+     "marks": [
+      "strong"
+     ],
+     "text": "Insurance. "
+    },
+    {
+     "_type": "span",
+     "_key": "s275",
+     "marks": [],
+     "text": "Most standard travel policies exclude scuba past a shallow depth or exclude it entirely. Check the wording rather than the marketing summary, and check it covers the chamber, not just the ambulance."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b279",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s277",
+     "marks": [
+      "strong"
+     ],
+     "text": "Visa. "
+    },
+    {
+     "_type": "span",
+     "_key": "s278",
+     "marks": [],
+     "text": "Most nationalities arrive on a visa on arrival that can be extended once. Fees and eligibility change, so read the current official guidance before you fly rather than a blog written two seasons ago."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b282",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s280",
+     "marks": [
+      "strong"
+     ],
+     "text": "Cash. "
+    },
+    {
+     "_type": "span",
+     "_key": "s281",
+     "marks": [],
+     "text": "Amed and Pemuteran both have ATMs, but small dive shops and warungs often prefer cash and card fees are common. Draw in the south or in Amed rather than relying on Pemuteran."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b285",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s283",
+     "marks": [
+      "strong"
+     ],
+     "text": "Timing your week. "
+    },
+    {
+     "_type": "span",
+     "_key": "s284",
+     "marks": [],
+     "text": "If your dates are flexible, aim at the middle of the dry season and avoid the Nyepi shutdown, when the island stops for a day and the airport closes with it."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b286",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s287",
+     "marks": [],
+     "text": "Final verdict"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b289",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s288",
+     "marks": [],
+     "text": "This is the version of Bali most visitors never see, and diving is the reason to come to this half of the island rather than an activity you slot into a beach holiday. Four diving days across two coasts gives you a genuine wreck, a genuine wall and one of the easiest good shore dives in Indonesia, at prices that stay reasonable because you are booking locally rather than in a package. The costs are real too: two half-days lost to driving, quiet villages with little to do after dark, and a last morning governed by a flight time. If that trade reads well to you, book the Pemuteran room and build the rest around it. If it does not, dive Nusa Penida for a weekend instead and keep the rest of your Bali week for Bali."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b290",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s291",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b305",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m293",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/6-days-nusa-penida-diving-manta-mola"
+    },
+    {
+     "_key": "m296",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-komodo-diving"
+    },
+    {
+     "_key": "m299",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+    },
+    {
+     "_key": "m302",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s292",
+     "marks": [],
+     "text": "If you would rather dive the currents off the south coast, the "
+    },
+    {
+     "_type": "span",
+     "_key": "s294",
+     "marks": [
+      "m293"
+     ],
+     "text": "6-day Nusa Penida diving trip for mantas and mola mola"
+    },
+    {
+     "_type": "span",
+     "_key": "s295",
+     "marks": [],
+     "text": " covers that side of the island. For bigger water and a liveaboard, see the "
+    },
+    {
+     "_type": "span",
+     "_key": "s297",
+     "marks": [
+      "m296"
+     ],
+     "text": "7-day Komodo diving itinerary"
+    },
+    {
+     "_type": "span",
+     "_key": "s298",
+     "marks": [],
+     "text": ". And if you want the classic Bali week alongside this one, the "
+    },
+    {
+     "_type": "span",
+     "_key": "s300",
+     "marks": [
+      "m299"
+     ],
+     "text": "5-day Ubud, Canggu and Uluwatu route"
+    },
+    {
+     "_type": "span",
+     "_key": "s301",
+     "marks": [],
+     "text": " is the one to pair it with. Everything else sits on the "
+    },
+    {
+     "_type": "span",
+     "_key": "s303",
+     "marks": [
+      "m302"
+     ],
+     "text": "Bali destination hub"
+    },
+    {
+     "_type": "span",
+     "_key": "s304",
+     "marks": [],
+     "text": "."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "_key": "f306",
+   "question": "Do you need to be an experienced diver to dive Bali?",
+   "answer": "No. Open Water certification covers most of this route, including the shallow half of the USAT Liberty, the Japanese wreck at Lipah and the Biorock reef at Pemuteran. Advanced certification opens the deeper end of the wreck and the lower Menjangan walls, and Gili Selang's currents are for experienced divers only."
+  },
+  {
+   "_key": "f307",
+   "question": "How far is Tulamben from Amed?",
+   "answer": "About 25 to 30 minutes by car up the coast road. That is close enough to base yourself in Amed for the whole eastern half of this trip and drive over for the wreck, which is what most divers do, since Amed has far more choice of rooms and places to eat."
+  },
+  {
+   "_key": "f308",
+   "question": "What does it cost to dive Menjangan Island?",
+   "answer": "Two dives at Menjangan have been quoted from around Rp 1,200,000 per person for boat and guide, with the West Bali National Park entrance fee charged separately at about Rp 200,000 on weekdays and Rp 300,000 at weekends and public holidays, plus a small diving permit. Confirm the current figures with your operator."
+  },
+  {
+   "_key": "f309",
+   "question": "When is the best time of year to dive Bali?",
+   "answer": "April to October is the window operators on both coasts point at, with calm seas and the clearest water. Menjangan visibility is generally reported as good from roughly April to November. The wet season is still divable, and surface conditions rather than the reef are what turn a day back."
+  },
+  {
+   "_key": "f310",
+   "question": "How long should you wait between your last dive and your flight?",
+   "answer": "Plan on 24 hours. The recreational minimum is 12 hours after one no-decompression dive and 18 hours after repetitive diving, which is what a week like this involves, and Divers Alert Network advises a full day. On this route the last dive ends on the morning of day six."
+  },
+  {
+   "_key": "f311",
+   "question": "Can a non-diver enjoy this trip?",
+   "answer": "Yes, if they snorkel. Jemeluk Bay in Amed and the Biorock reef at Pemuteran are both good from the surface and reachable from the beach, and the Menjangan boats carry snorkellers alongside divers. Someone who does not want to be in the water at all will find these villages very quiet."
+  },
+  {
+   "_key": "f312",
+   "question": "Is Nusa Penida worth adding to this itinerary?",
+   "answer": "Not in seven days. Nusa Penida is reached by fast boat from the south of Bali, which means unwinding this route and adding two transfer days, and its currents are a different level of diving. It works far better as its own short trip either before or after this one."
+  },
+  {
+   "_key": "f313",
+   "question": "Should you bring your own dive gear to Bali?",
+   "answer": "Bring a mask, a computer and anything that has to fit you. Full sets rent for roughly Rp 80,000 to Rp 150,000 a day at Amed and Tulamben centres, which rarely justifies the baggage cost, though wetsuit sizing above about 185 centimetres can be hit and miss."
+  }
+ ],
+ "affiliateLinks": [
+  {
+   "_key": "a1",
+   "_type": "affiliateLink",
+   "placeholderId": "AIRALO_INDONESIA",
+   "partner": "airalo",
+   "experienceCategory": "esim_connectivity",
+   "linkStatus": "live",
+   "anchorText": "Indonesia eSIM with Airalo",
+   "publicUrl": "https://www.airalo.com/indonesia-esim",
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+   "notes": "travelpayouts",
+   "day": "Day 1"
+  },
+  {
+   "_key": "a2",
+   "_type": "affiliateLink",
+   "placeholderId": "BOOKING_AMED",
+   "partner": "booking",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "anchorText": "dive lodges and guesthouses in Amed",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Amed%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Amed%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "notes": "CJ deep link applied at render by normalizeBookingHref()",
+   "day": "Day 1"
+  },
+  {
+   "_key": "a3",
+   "_type": "affiliateLink",
+   "placeholderId": "KLOOK_TULAMBEN_LIBERTY",
+   "partner": "klook",
+   "experienceCategory": "diving",
+   "linkStatus": "live",
+   "anchorText": "guided two-dive trip on the USAT Liberty",
+   "publicUrl": "https://www.klook.com/en-US/activity/16518-uss-liberty-scuba-dive-bali/",
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F16518-uss-liberty-scuba-dive-bali%2F",
+   "notes": "travelpayouts",
+   "day": "Day 2"
+  },
+  {
+   "_key": "a4",
+   "_type": "affiliateLink",
+   "placeholderId": "KLOOK_TULAMBEN_DAYTRIP",
+   "partner": "klook",
+   "experienceCategory": "diving",
+   "linkStatus": "live",
+   "anchorText": "Tulamben wreck day trip with hotel pickup",
+   "publicUrl": "https://www.klook.com/en-US/activity/925-tulamben-wreck-diving-day-trip-bali/",
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F925-tulamben-wreck-diving-day-trip-bali%2F",
+   "notes": "travelpayouts",
+   "day": "Day 2"
+  },
+  {
+   "_key": "a5",
+   "_type": "affiliateLink",
+   "placeholderId": "BOOKING_PEMUTERAN",
+   "partner": "booking",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "anchorText": "places to stay in Pemuteran",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Pemuteran%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Pemuteran%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "notes": "CJ deep link applied at render by normalizeBookingHref()",
+   "day": "Day 4"
+  },
+  {
+   "_key": "a6",
+   "_type": "affiliateLink",
+   "placeholderId": "VIATOR_MENJANGAN_SNORKEL",
+   "partner": "viator",
+   "experienceCategory": "snorkeling",
+   "linkStatus": "live",
+   "anchorText": "full-day Menjangan snorkelling boat trip from Pemuteran",
+   "publicUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-snorkeling-full-day-boat-trip/d51549-212334P3",
+   "affiliateUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-snorkeling-full-day-boat-trip/d51549-212334P3?pid=P00303362&mcid=42383&medium=link&campaign=bali-diving-week",
+   "notes": "viator partner program",
+   "day": "Day 5"
+  }
+ ],
+ "metaTitle": "Diving Bali: 7 Days in Amed, Tulamben and Menjangan",
+ "metaDescription": "A 7-day Bali diving route: the USAT Liberty wreck, Amed's reefs and the Menjangan walls, with real drive times, 2026 park fees and the no-fly window.",
+ "focusKeyword": "diving Bali itinerary"
+}
