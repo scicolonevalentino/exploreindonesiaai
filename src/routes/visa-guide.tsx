@@ -200,11 +200,22 @@ function VisaGuidePage() {
       { "@type": "ListItem", position: 2, name: "Visa Guide", item: URL },
     ],
   };
+  const articleLD = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: TITLE,
+    datePublished: "2026-05-20",
+    dateModified: "2026-08-14",
+    author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+    publisher: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+    mainEntityOfPage: URL,
+  };
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--cream)" }}>
       <JsonLd data={faqLD} />
       <JsonLd data={breadcrumbLD} />
+      <JsonLd data={articleLD} />
 
       {/* Header */}
       <header
@@ -229,6 +240,9 @@ function VisaGuidePage() {
           <p className="mt-5 text-white/85 text-base sm:text-lg leading-relaxed">
             What EU, US and Australian travelers need to enter Indonesia in 2026: the eVOA, what it
             costs, how to extend it, and the new All Indonesia arrival card.
+          </p>
+          <p className="mt-3 text-xs text-white/60">
+            Last updated 14 August 2026 &middot; fees verified against 2026 immigration rates
           </p>
         </div>
       </header>

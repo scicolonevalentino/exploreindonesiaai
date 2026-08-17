@@ -180,11 +180,22 @@ function TravelCostsPage() {
       { "@type": "ListItem", position: 2, name: "Indonesia Travel Costs", item: URL },
     ],
   };
+  const articleLD = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: TITLE,
+    datePublished: "2026-06-12",
+    dateModified: "2026-08-14",
+    author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+    publisher: { "@type": "Organization", name: "ExploreIndonesia.ai" },
+    mainEntityOfPage: URL,
+  };
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--cream)" }}>
       <JsonLd data={faqLD} />
       <JsonLd data={breadcrumbLD} />
+      <JsonLd data={articleLD} />
 
       <header
         className="w-full px-6 py-12 sm:py-16"
@@ -206,6 +217,9 @@ function TravelCostsPage() {
           <p className="mt-5 text-white/85 text-base sm:text-lg leading-relaxed">
             Real daily budgets for backpackers, mid-range and comfortable travelers, with what you
             actually spend on accommodation, food, transport and activities.
+          </p>
+          <p className="mt-3 text-xs text-white/60">
+            Last updated 14 August 2026 &middot; prices verified against 2026 operator rates
           </p>
         </div>
       </header>
@@ -245,7 +259,7 @@ function TravelCostsPage() {
         </Callout>
 
         {/* 2. Daily budget table */}
-        <SectionHeading id="daily-budget">Daily budget by travel style</SectionHeading>
+        <SectionHeading id="daily-budget">How much does Indonesia cost per day in 2026?</SectionHeading>
         <TableShell>
           <thead>
             <tr>
@@ -334,8 +348,17 @@ function TravelCostsPage() {
         </Prose>
 
         {/* 5. Transport */}
-        <SectionHeading id="transport">Transport costs</SectionHeading>
+        <SectionHeading id="transport">
+          How much does it cost to travel between Indonesian islands?
+        </SectionHeading>
         <Prose>
+          <p>
+            Inter-island flights are the single biggest cost in Indonesia, at $40 to $70 per hop.
+            Ferries between neighbouring islands cost $2 to $25 and take four to twelve times
+            longer. On the ground, budget $5 a day for a scooter, $35 to $50 for a private driver,
+            and under $2 for a Grab ride.
+          </p>
+
           <SubHeading>Getting around each day</SubHeading>
           <p>
             Scooter rental $4 to $5 a day; Grab or Gojek motorbike taxi $1 to $3 a ride; Grab car $3
@@ -432,7 +455,14 @@ function TravelCostsPage() {
         </Prose>
 
         {/* 7. Regional comparison */}
-        <SectionHeading id="regional">Regional cost comparison</SectionHeading>
+        <SectionHeading id="regional">Which parts of Indonesia are most expensive?</SectionHeading>
+        <Prose>
+          <p>
+            Bali's tourist strips (Seminyak, Canggu, Ubud) run 30 to 50% above the rest of the
+            country. Java and Yogyakarta are the cheapest region for cultural travel, while Lombok
+            and the Gili Islands sit in between and are getting pricier as tourism grows.
+          </p>
+        </Prose>
         <TableShell>
           <thead>
             <tr>
@@ -506,8 +536,14 @@ function TravelCostsPage() {
         </Prose>
 
         {/* 8. Seasonal */}
-        <SectionHeading id="seasonal">Seasonal costs</SectionHeading>
+        <SectionHeading id="seasonal">When is the cheapest time to visit Indonesia?</SectionHeading>
         <Prose>
+          <p>
+            Shoulder months, May, June and September to October, offer 20 to 30% cheaper
+            accommodation and flights than peak season, with 70 to 80% of the dry-season weather.
+            Wet season (November to April) is cheapest of all, though some destinations are harder
+            to reach.
+          </p>
           <ul className="space-y-2 list-disc pl-5">
             <li>
               Peak season: July, August and December add 30 to 50% on accommodation and flights, and

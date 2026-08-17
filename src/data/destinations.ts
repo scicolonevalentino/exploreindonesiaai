@@ -668,6 +668,73 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     intro:
       "Beyond the well-trodden routes lies the rest of the archipelago, 17,000 islands of it. These itineraries cover Sulawesi, Maluku, Papua and other remote corners for travellers who want depth, not crowds.",
     highlights: ["Sulawesi", "Maluku spice islands", "Papua highlands", "Banda Sea"],
+    sections: [
+      {
+        heading: "Sulawesi itinerary: which route fits your trip?",
+        body: [
+          "Sulawesi splits into four trips, not one. North Sulawesi is world-class diving at Bunaken and Lembeh. Tana Toraja is highland culture and funeral ceremonies. Wakatobi is remote reef in the southeast. The Togean Islands are the slow middle. Ten days covers two; fourteen covers three.",
+        ],
+        table: {
+          columns: ["Region", "Best for", "Suggested days", "Best season"],
+          rows: [
+            ["North Sulawesi (Bunaken, Lembeh)", "Reef diving and muck diving", "3 to 5 days", "May to October"],
+            ["Tana Toraja", "Highland culture, funeral ceremonies", "2 to 3 days", "Year-round; June to September for ceremony season"],
+            ["Togean Islands", "Slow island time between the two ends", "3 to 4 days", "April to November"],
+            ["Wakatobi", "Remote reef, fewer boats", "4 to 6 days", "April to November"],
+          ],
+        },
+        subsections: [
+          {
+            heading: "10 days: Toraja + North Sulawesi",
+            body: [
+              "The standard first Sulawesi trip: highland culture in Tana Toraja, then diving at Bunaken. Enough time in each without a rushed handover.",
+            ],
+            link: {
+              before: "Full day-by-day plan on the ",
+              href: "/trips/10-days-sulawesi-toraja-bunaken",
+              anchor: "10-day Toraja and Bunaken itinerary",
+              after: ".",
+            },
+          },
+          {
+            heading: "10 days: North Sulawesi diving focus",
+            body: [
+              "Skips Toraja for more time underwater, splitting days between Bunaken's reef walls and Lembeh's muck diving, a different style of dive from anywhere else in Indonesia.",
+            ],
+            link: {
+              before: "Full day-by-day plan on the ",
+              href: "/trips/10-days-north-sulawesi-diving-bunaken-lembeh",
+              anchor: "10-day North Sulawesi diving itinerary",
+              after: ".",
+            },
+          },
+          {
+            heading: "14 days: Toraja, Togean and Bunaken",
+            body: [
+              "The full traverse: highlands, the slow middle islands of the Togeans, then North Sulawesi diving to close. Two weeks is the minimum to do all three without feeling rushed.",
+            ],
+            link: {
+              before: "Full day-by-day plan on the ",
+              href: "/trips/14-days-sulawesi-toraja-togean-bunaken",
+              anchor: "14-day Sulawesi itinerary",
+              after: ".",
+            },
+          },
+          {
+            heading: "8 days: Wakatobi diving",
+            body: [
+              "A dedicated trip to the southeast, further from the Bunaken crowds and built around one of Indonesia's most intact reef systems.",
+            ],
+            link: {
+              before: "Full day-by-day plan on the ",
+              href: "/trips/8-days-wakatobi-diving-southeast-sulawesi",
+              anchor: "8-day Wakatobi diving itinerary",
+              after: ".",
+            },
+          },
+        ],
+      },
+    ],
   },
 ];
 
