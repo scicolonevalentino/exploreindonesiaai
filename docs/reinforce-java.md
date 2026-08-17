@@ -1,9 +1,28 @@
 # Piano di rinforzo: /destinations/java
 
-> **STATO: NON APPLICATO.** Generato dal task schedulato del 2026-08-12. La PARTE 1
-> (metaTitle, metaDescription, h1) è già in produzione, commit `855fd27`, verificata
-> live. Tutto quello che segue dalla sezione 4 in poi **non è applicato: decide il
-> founder.**
+> **STATO: APPLICATO il 2026-08-17.** La PARTE 1 (metaTitle, metaDescription, h1) era
+> già in produzione dal 2026-08-12, commit `855fd27`. Le cinque sezioni della PARTE 4,
+> con le due tabelle, e i link della sezione 5 sono stati applicati oggi.
+>
+> **Tre scostamenti dal piano, tutti voluti:**
+>
+> 1. **Due sottosezioni h3 aggiunte, non previste dal piano.** Il template
+>    `DestinationSection` porta un solo link per sezione, quindi le quattro guide Java
+>    da nominare (sezione 5) non entravano nei cinque link di chiusura. Ho aggiunto
+>    "How long should you spend in Yogyakarta itself?" sotto la sezione 1, che porta il
+>    link a `things-to-do-in-yogyakarta`, e "How hard is the Ijen blue flames hike?"
+>    sotto la sezione 5, che porta il link a `ijen-crater-guide`. Stesso schema già
+>    usato su `lombok-gili`. Ora tutte e quattro le guide sono linkate.
+> 2. **`/trips/5-days-yogyakarta-bromo` non toccato**: linkava già la hub, con URL
+>    assoluto, in fondo al corpo. Stesso per `/trips/7-days-yogyakarta-east-java`, che
+>    ha già un link alla hub in un altro punto del corpo. Ho aggiunto solo il link
+>    mancante, quello dalla guida `borobudur-vs-prambanan`.
+> 3. **Tempi delle tabelle presi da `src/data/routes.ts`**, non dal piano, dopo verifica
+>    che coincidessero. Coincidevano: 6-7,5 ore e ~19 treni Jakarta-Yogyakarta, 8-10 ore
+>    Yogyakarta-Bromo, 3-4 ore Surabaya-Bromo.
+>
+> **Ancora aperto:** il punto 6 (le 14 rotte in `src/data/routes.ts` che usano la
+> doorway 12Go invece del deep link di tratta), fuori scope allora e ancora oggi.
 
 ## 1. La pagina e il cluster
 

@@ -418,6 +418,173 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
       "Ijen blue flames",
       "Jakarta gateway",
     ],
+    // PARTE 4 of docs/reinforce-java.md, applied 2026-08-17. The hub took 128
+    // impressions and 0 clicks at position 29.0, and 43% of that cluster is one
+    // query, "java itinerary", sitting at position 69. It was a bare intro plus
+    // four highlights: it answered none of the three questions that SERP is
+    // built on, how many days, in what order, and whether the train works. The
+    // competing set is entirely editorial blogs, no institutional sites, so it
+    // is winnable on content.
+    //
+    // Train and transfer times below come from src/data/routes.ts, which is the
+    // published source. Keep the two in sync if either changes.
+    sections: [
+      {
+        heading: "How many days do you need in Java?",
+        body: [
+          "Five days covers Yogyakarta and one volcano. Seven to eight gets Yogyakarta, Bromo and Ijen in a single east-bound line. Ten days adds Jakarta or Bandung at the western end without rushing. Two weeks lets you cross into Bali overland at the end instead of flying back. Below three days, pick one city.",
+          "The number that decides everything is how many pre-dawn starts you are willing to accept. Borobudur at sunrise, Bromo at sunrise and Ijen at 1am are three of them inside a week, and travellers who plan all three back to back usually cut one on the day.",
+        ],
+        table: {
+          columns: ["Days", "Route", "What you get", "What you give up"],
+          rows: [
+            [
+              "5",
+              "Yogyakarta, then Bromo via Surabaya",
+              "Borobudur, Prambanan and one sunrise volcano",
+              "Ijen, and any time in Jakarta or Bandung",
+            ],
+            [
+              "7 to 8",
+              "Yogyakarta, Bromo, Ijen, exit to Bali",
+              "The classic east-bound crossing, both volcanoes",
+              "West Java entirely, and unhurried temple days",
+            ],
+            [
+              "10",
+              "Jakarta, Bandung, Yogyakarta, Bromo",
+              "The western half plus the temples and one volcano",
+              "Ijen, unless you cut a night in Bandung",
+            ],
+            [
+              "14",
+              "Jakarta to Bali overland, west to east",
+              "Everything above, with room for a rest day",
+              "Very little, this is the comfortable version",
+            ],
+          ],
+          caption:
+            "How the common Java trip lengths trade off. Treat these as working shapes rather than fixed plans, since one cancelled crater morning changes the whole line.",
+        },
+        subsections: [
+          {
+            heading: "How long should you spend in Yogyakarta itself?",
+            body: [
+              "Two full days is the honest minimum. One goes to Borobudur and Prambanan, which sit on opposite sides of the city, and the second to the kraton, Malioboro and the batik and silver workshops. A third day is what turns it from a temple stop into a city you have actually seen.",
+            ],
+            link: {
+              before: "We list the city day by day in ",
+              href: "/destinations/java/things-to-do-in-yogyakarta",
+              anchor: "things to do in Yogyakarta",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "The version most people end up booking is the ",
+          href: "/trips/7-days-yogyakarta-east-java",
+          anchor: "7-day Yogyakarta and East Java route",
+          after: ".",
+        },
+      },
+      {
+        heading: "What order should you travel Java in?",
+        body: [
+          "West to east, almost always. Jakarta or Bandung first, then Yogyakarta, then Bromo, then Ijen, then the ferry or a short flight into Bali. That direction puts the long train legs at the start while you are fresh, ends the trip on a beach rather than in traffic, and keeps the two pre-dawn volcano starts close together.",
+          "Going the other way is not wrong, it is just harder to end well. Arriving in Jakarta on your last day means a large, slow city and an airport run in traffic, instead of a ferry into Bali with a week of coast still ahead of you.",
+        ],
+        link: {
+          before: "The full crossing, west coast to Bali, is the ",
+          href: "/trips/15-days-java-bali",
+          anchor: "15-day Java to Bali route",
+          after: ".",
+        },
+      },
+      {
+        heading: "Can you cross Java by train?",
+        body: [
+          "Yes, and for most of the island it is the better choice. Java's rail network is the best in Indonesia, and an executive train such as the Taksaka or Argo services covers Jakarta to Yogyakarta in about six to seven and a half hours, city centre to city centre. The volcanoes are the exception, and both need a road transfer.",
+          "Book executive class rather than economy for the long legs, and book it ahead in the Indonesian holiday weeks, when the trains genuinely sell out. Seats are assigned, luggage is your own problem, and the carriages are cold enough that a layer is worth carrying.",
+        ],
+        table: {
+          columns: ["Leg", "Best way", "Working time", "Note"],
+          rows: [
+            [
+              "Jakarta to Yogyakarta",
+              "Executive train",
+              "About 6 to 7.5 hours, around 19 trains daily",
+              "Often wins door to door, since YIA airport is about an hour from town",
+            ],
+            [
+              "Yogyakarta to Bromo",
+              "Two-day, one-night road package",
+              "About 8 to 10 hours of driving each way, usually split over 2 days",
+              "The sunrise jeep leaves around 3am, so a same-day return is brutal",
+            ],
+            [
+              "Surabaya to Bromo",
+              "Road transfer or shuttle",
+              "About 3 to 4 hours",
+              "The closest gateway, and the only one where a single-day trip makes sense",
+            ],
+            [
+              "Bali to Yogyakarta",
+              "Direct flight",
+              "About 1 hour 25 minutes",
+              "There is no sensible overland version coming the other way",
+            ],
+          ],
+          caption:
+            "These are the journey times published on our transport pages. Schedules and operators change, so confirm before you book.",
+        },
+        link: {
+          before: "We compare the two options in full in ",
+          href: "/transport/jakarta-to-yogyakarta",
+          anchor: "Jakarta to Yogyakarta, train against flight",
+          after: ".",
+        },
+      },
+      {
+        heading: "Borobudur or Prambanan, and can you do both?",
+        body: [
+          "Both, and in one day if you plan it. They sit on opposite sides of Yogyakarta, roughly an hour apart by road, and the usual pairing is Borobudur at sunrise and Prambanan in the late afternoon. If you only have time for one, Borobudur is the more famous and the more crowded, Prambanan the quieter visit.",
+          "Doing both in a day means a 4am start and a long stretch in a car in between, so it suits travellers on a tight week more than it suits anyone with three days in the city. Ticket rules and access to the upper levels of Borobudur have changed more than once, so check the current conditions before you build the morning around them.",
+        ],
+        link: {
+          before: "The trade-offs are laid out in ",
+          href: "/destinations/java/borobudur-vs-prambanan",
+          anchor: "our full Borobudur against Prambanan comparison",
+          after: ".",
+        },
+      },
+      {
+        heading: "When is the best time to visit Java?",
+        body: [
+          "The dry season, roughly April to October. That window gives the clearest sunrises at Bromo and the most reliable conditions at Ijen, where the blue flames need a pre-dawn hike and cloud ruins it. The wet months bring haze and cancelled crater access more often than travellers expect.",
+          "July and August are dry but busy, and Bromo's viewpoints fill with jeeps well before dawn. May, June and September are the balance most people are looking for without knowing to ask for them.",
+        ],
+        subsections: [
+          {
+            heading: "How hard is the Ijen blue flames hike?",
+            body: [
+              "It is a steady 3 kilometre climb starting around 1am, then a steep and loose descent into the crater to reach the flames themselves. Most reasonably fit walkers manage the climb. The sulphur is the real issue, and a proper gas mask rather than a paper one is not optional.",
+            ],
+            link: {
+              before: "What to expect, hour by hour, is in ",
+              href: "/destinations/java/ijen-crater-guide",
+              anchor: "our Ijen crater guide",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "For the volcano specifically, see ",
+          href: "/destinations/java/best-time-to-visit-mount-bromo",
+          anchor: "when to visit Mount Bromo",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "komodo-flores",
@@ -644,6 +811,57 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     intro:
       "Sumatra is wild. Orangutans in Bukit Lawang, the vast caldera of Lake Toba, and the surf of Mentawai. Our itineraries give structure to a region that rewards travellers who plan ahead.",
     highlights: ["Bukit Lawang orangutans", "Lake Toba", "Mentawai surf", "Banda Aceh diving"],
+    // Section 6.2 of docs/reinforce-7-days-pulau-weh-sabang-diving-beach.md,
+    // applied 2026-08-17. The hub named Pulau Weh nowhere and passed it nothing,
+    // while the article sat at position 33.2 with 136 impressions and no page of
+    // ours competing for the cluster. Regions and gateways below match the
+    // `route` field of the six live Sumatra itineraries, kept in sync on purpose.
+    sections: [
+      {
+        heading: "Which part of Sumatra should you pick?",
+        body: [
+          "Sumatra is too big for one trip, so you pick a region and fly into its own gateway. North Sumatra out of Medan is the orangutan and Lake Toba half. West Sumatra out of Padang is Minangkabau culture and the Harau Valley. Aceh, in the far north, is the diving. Kerinci is the trekking.",
+          "The mistake is trying to join two of them overland. The distances are long, the roads are slow, and a domestic flight between gateways almost always beats the bus. If you have one week, take one region. If you have two, take two and fly between them.",
+        ],
+        table: {
+          columns: ["Region", "Gateway", "What it is for", "A route we publish"],
+          rows: [
+            [
+              "North Sumatra",
+              "Medan (KNO)",
+              "Bukit Lawang orangutans, Tangkahan, Berastagi and Lake Toba",
+              "The 15-day Sumatra loop, or 9 days with kids",
+            ],
+            [
+              "West Sumatra",
+              "Padang (PDG)",
+              "Bukittinggi, Lake Maninjau, Pagaruyung and the Harau Valley",
+              "The 7-day West Sumatra route",
+            ],
+            [
+              "Aceh and Pulau Weh",
+              "Banda Aceh (BTJ)",
+              "Quiet, warm-water diving and snorkelling, plus the tsunami memorial sites",
+              "The 7-day Pulau Weh trip",
+            ],
+            [
+              "Kerinci",
+              "Padang (PDG), then a long road transfer",
+              "Indonesia's highest volcano and the Gunung Tujuh crater lake",
+              "The 8-day Kerinci trek",
+            ],
+          ],
+          caption:
+            "The four regions our Sumatra itineraries cover, with the airport each one actually runs from. Flight routes change, so confirm current connections before you fix dates.",
+        },
+        link: {
+          before: "The one most travellers have never considered is the far north: our ",
+          href: "/trips/7-days-pulau-weh-sabang-diving-beach",
+          anchor: "7-day Pulau Weh diving and beach itinerary",
+          after: " covers the ferry from Banda Aceh, the dive sites and what a week there costs.",
+        },
+      },
+    ],
   },
   {
     slug: "raja-ampat",

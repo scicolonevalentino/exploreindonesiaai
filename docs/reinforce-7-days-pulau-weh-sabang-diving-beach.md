@@ -1,9 +1,28 @@
 # Piano di rinforzo: /trips/7-days-pulau-weh-sabang-diving-beach
 
-> **STATO: NON APPLICATO.** Generato dal task schedulato del 2026-08-17. La PARTE 1
-> (metaTitle e metaDescription) è già in produzione, transazione Sanity
-> `9I1TyPaxC6m0CvrgC94ORe`, verificata live. Tutto quello che segue dalla sezione 4 in
-> poi **non è applicato: decide il founder.**
+> **STATO: APPLICATO il 2026-08-17,** lo stesso giorno in cui è stato scritto, su
+> richiesta esplicita del founder. La PARTE 1 (metaTitle, metaDescription) è la
+> transazione `9I1TyPaxC6m0CvrgC94ORe`; le cinque sezioni della PARTE 4, le due tabelle
+> della sezione 5 e il nuovo H1 della sezione 7 sono la transazione
+> `JGL0huXkJ0GLhKCwlvIRVi`; i link della sezione 6 sono `VoOtV9CudNsDJXNHZut2sV` più una
+> modifica a `src/data/destinations.ts`.
+>
+> **Due scostamenti dal piano, entrambi voluti:**
+>
+> 1. **La stagione.** Il piano proponeva "April to October", preso da Stingy Nomads, ma
+>    la FAQ già pubblicata nell'articolo diceva "broadly February to around August", e i
+>    due centri immersione residenti (Lumba Lumba, Iboih Dive Centre) dichiarano
+>    entrambi immersioni **tutto l'anno** senza indicare mesi migliori. Applicare il
+>    piano alla lettera avrebbe creato una contraddizione dentro la stessa pagina. La
+>    sezione dice quindi che si immerge tutto l'anno, che la finestra più calma viene
+>    generalmente collocata nella prima metà dell'anno fino a circa agosto e che alcune
+>    guide la estendono a ottobre, e sposta il peso sulla regola del venerdì, che è
+>    l'unico dato non ambiguo.
+> 2. **La tabella dei siti d'immersione.** Il piano diceva di riempirla con i siti già
+>    nominati nel corpo dell'articolo. Il corpo **non ne nominava nessuno** (verificato:
+>    zero occorrenze di Canyon, Batee, Sophie, Seulako, Arus). Gli otto siti in tabella
+>    vengono quindi dai listini pubblicati dai due centri residenti, con profondità e
+>    livello come li pubblicano loro, e la caption lo dichiara.
 
 ## 1. La pagina e il cluster
 

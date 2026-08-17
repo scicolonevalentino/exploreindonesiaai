@@ -1,1799 +1,1968 @@
 {
-  "_id": "itinerary-9-days-north-sumatra-with-kids",
-  "_type": "article",
-  "title": "9 Days in North Sumatra with Kids: Orangutans, Elephants and Lake Toba",
-  "slug": {
-    "_type": "slug",
-    "current": "9-days-north-sumatra-with-kids"
+ "_id": "itinerary-9-days-north-sumatra-with-kids",
+ "_type": "article",
+ "affiliateLinks": [
+  {
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+   "anchorText": "Indonesia eSIM with Airalo",
+   "experienceCategory": "other",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "airalo",
+   "placeholderId": "AIRALO_INDONESIA",
+   "publicUrl": "https://www.airalo.com/indonesia-esim"
   },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-29T06:14:03.269Z",
-  "destinationPrimary": "sumatra",
-  "travelStylePrimary": "wildlife_nature",
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 9,
-  "travellerTypes": ["families"],
-  "vibe": "relaxed",
-  "route": "Medan → Bukit Lawang → Tangkahan → Berastagi → Lake Toba (Samosir) → Medan",
-  "focusKeyword": "North Sumatra family itinerary",
-  "metaTitle": "9 Days in North Sumatra: Orangutans, Elephants & Toba",
-  "metaDescription": "A 9-day North Sumatra family itinerary: orangutans at Bukit Lawang, elephants at Tangkahan, then slow days on Lake Toba's Samosir island.",
-  "intro": "Most families who think about Indonesia think about Bali, and most who reach Sumatra come as backpackers chasing orangutans on multi-day jungle camps that no parent wants to attempt with a seven-year-old. North Sumatra works for families anyway, as long as you build the trip around what children actually enjoy and pace it for short legs and real rest. This nine-day route runs from Medan to the orangutan forest at Bukit Lawang, across to the elephants at Tangkahan, then south through the cool Berastagi highlands to Lake Toba, where the trip slows down on Samosir island for a few unhurried days by the water. It is wildlife first, with the jungle treks kept short and the long lake stay built in on purpose. If your children are old enough to walk a forest path for a couple of hours and sit through a few transfers, this is one of the most rewarding family weeks in the country.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
+  {
+   "affiliateUrl": "https://12go.asia/en/travel/medan/bukit-lawang?z=16022946",
+   "anchorText": "Compare Medan to Bukit Lawang transfers",
+   "experienceCategory": "airport_transfer",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "12go",
+   "placeholderId": "12GO_MEDAN_BUKITLAWANG",
+   "publicUrl": "https://12go.asia/en/travel/medan/bukit-lawang"
   },
-  "affiliateLinks": [
-    {
-      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-      "anchorText": "Indonesia eSIM with Airalo",
-      "experienceCategory": "other",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "airalo",
-      "placeholderId": "AIRALO_INDONESIA",
-      "publicUrl": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-      "affiliateUrl": "https://12go.asia/en/travel/medan/bukit-lawang?z=16022946",
-      "anchorText": "Compare Medan to Bukit Lawang transfers",
-      "experienceCategory": "airport_transfer",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "12go",
-      "placeholderId": "12GO_MEDAN_BUKITLAWANG",
-      "publicUrl": "https://12go.asia/en/travel/medan/bukit-lawang"
-    },
-    {
-      "affiliateUrl": "https://www.viator.com/tours/Medan/Three-days-orangutans-adventure-in-Gunung-Leuser/d4866-241384P4?pid=P00303362&mcid=42383&medium=link&campaign=north-sumatra-families",
-      "anchorText": "guided Gunung Leuser orangutan trek",
-      "experienceCategory": "tour",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "viator",
-      "placeholderId": "VIATOR_GUNUNG_LEUSER_ORANGUTAN",
-      "publicUrl": "https://www.viator.com/tours/Medan/Three-days-orangutans-adventure-in-Gunung-Leuser/d4866-241384P4"
-    }
-  ],
-  "body": [
-    {
-      "_key": "k1",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2",
-          "_type": "span",
-          "marks": [],
-          "text": "Who this trip is for"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k3",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4",
-          "_type": "span",
-          "marks": [],
-          "text": "This route suits families with children who are roughly six and up, who can manage a short jungle walk on uneven ground and a couple of half-day drives without melting down. It rewards parents who want their children near wild animals in the animals' own forest rather than in a zoo, and who are happy to trade polished resorts for guesthouses, river swims and early nights. It works for a single family or for two families travelling together, and the long Lake Toba stay at the end gives everyone room to decompress before flying home."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k6",
-          "_type": "span",
-          "marks": [],
-          "text": "It is not the right trip for families with toddlers or babies, who will find the forest paths slippery and the road transfers long, nor for anyone whose idea of a family holiday is a beach club and a kids' pool. North Sumatra is humid, rural and light on Western comforts, the drives are winding, and medical care is basic outside Medan. Families who want effortless logistics and beaches are far better served in Bali or the Gili Islands. This region asks for a little patience from parents and a little resilience from children, and gives back wildlife encounters that are hard to match elsewhere in Asia."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k7",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k8",
-          "_type": "span",
-          "marks": [],
-          "text": "Trip at a glance"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k9",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k10",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Route: "
-        },
-        {
-          "_key": "k11",
-          "_type": "span",
-          "marks": [],
-          "text": "Medan to Bukit Lawang, then Tangkahan, then Berastagi, then Lake Toba and Samosir island, returning to Medan."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k12",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k13",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Best for: "
-        },
-        {
-          "_key": "k14",
-          "_type": "span",
-          "marks": [],
-          "text": "Families who want orangutans, elephants and a long, slow lake stay in one trip, with the wildlife days kept short enough for children."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k15",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k16",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Pace: "
-        },
-        {
-          "_key": "k17",
-          "_type": "span",
-          "marks": [],
-          "text": "Relaxed overall, built around two short jungle mornings and a three-night lake stay, with two longer transfer days flagged in advance."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k18",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k19",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base changes: "
-        },
-        {
-          "_key": "k20",
-          "_type": "span",
-          "marks": [],
-          "text": "Four. Bukit Lawang for the jungle, Tangkahan for the elephants, Berastagi to break the drive south, then Samosir island for the final stretch, plus a night near Medan at the end."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k21",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k22",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "When to go: "
-        },
-        {
-          "_key": "k23",
-          "_type": "span",
-          "marks": [],
-          "text": "The drier months from roughly May to September tend to be kinder for forest treks and lake swimming as a working guide, though Sumatra sees rain in most months, so pack light rain layers whatever the season."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k24",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k25",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Getting there: "
-        },
-        {
-          "_key": "k26",
-          "_type": "span",
-          "marks": [],
-          "text": "Fly into Kualanamu International Airport near Medan, airport code KNO, which has regional connections through Jakarta, Kuala Lumpur and Singapore. Confirm current flight routes before locking hotels, since schedules into Medan change."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k27",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k28",
-          "_type": "span",
-          "marks": [],
-          "text": "Why this route makes sense"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k29",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k30",
-          "_type": "span",
-          "marks": [],
-          "text": "North Sumatra's two big wildlife draws, the orangutans at Bukit Lawang and the elephants at Tangkahan, sit close together in the northwest, within a few hours of each other. Doing both back to back, before turning south, means you handle the jungle while everyone is fresh and the children are excited, then spend the back half of the trip winding down. It is the right order for a family, because the demanding days come first and the rest comes last, not the other way round."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k31",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k32",
-          "_type": "span",
-          "marks": [],
-          "text": "Lake Toba is the reason the trip works as a family holiday rather than an expedition. After the forest, three nights on Samosir island give children space to swim, cycle and do very little, while parents catch their breath. Berastagi slots in between the jungle and the lake as a natural halfway stop, breaking what would otherwise be a punishing single drive south and adding a cool highland night that comes as a relief after the humid forest. The route only doubles back once, near Medan, which is hard to avoid given the geography, and the long Lake Toba stay more than pays for it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k33",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k34",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 1: Arrive in Medan, transfer to Bukit Lawang"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k35",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k36",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k37",
-          "_type": "span",
-          "marks": [],
-          "text": "Land at Kualanamu International Airport near Medan. Most families arrive on a connection through Jakarta, Kuala Lumpur or Singapore, so plan for a change of plane rather than a direct long-haul flight, and confirm the routing before you book."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k43",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k38",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k39",
-          "_type": "span",
-          "marks": [],
-          "text": "Head straight for Bukit Lawang. The drive runs around four to five hours as a working estimate, depending on Medan traffic and the state of the road, so it is a long first leg with young children. "
-        },
-        {
-          "_key": "k41",
-          "_type": "span",
-          "marks": ["k40"],
-          "text": "Compare Medan to Bukit Lawang transfers"
-        },
-        {
-          "_key": "k42",
-          "_type": "span",
-          "marks": [],
-          "text": " before you fly so you are not arranging a car at the airport curb after a flight. A private car with a driver is worth it here, since it lets you stop for food and toilets on your own schedule."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k40",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_MEDAN_BUKITLAWANG"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k44",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k45",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k46",
-          "_type": "span",
-          "marks": [],
-          "text": "Arrive in Bukit Lawang, a riverside village strung along the Bohorok River at the edge of Gunung Leuser National Park. Settle into your guesthouse, let the children watch the river, and eat early. The forest starts on the far bank, and you will hear it before you see it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k47",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k48",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "k49",
-          "_type": "span",
-          "marks": [],
-          "text": "Bukit Lawang, for two nights."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k55",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k50",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "k51",
-          "_type": "span",
-          "marks": [],
-          "text": "Mobile coverage is patchy on the road in and thin in the village. An "
-        },
-        {
-          "_key": "k53",
-          "_type": "span",
-          "marks": ["k52"],
-          "text": "Indonesia eSIM with Airalo"
-        },
-        {
-          "_key": "k54",
-          "_type": "span",
-          "marks": [],
-          "text": " set up before you land keeps maps and messages working on the long transfer and saves hunting for a local SIM in Medan."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k52",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "AIRALO_INDONESIA"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k56",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k57",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 2: Orangutan trek and river tubing"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k58",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k59",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k60",
-          "_type": "span",
-          "marks": [],
-          "text": "Take a short guided orangutan trek into Gunung Leuser National Park. Ask your guesthouse for a half-day family trek rather than a full day, and tell them the ages of your children, so they pick a gentler route. Treks run with a licensed guide who carries the park permit, and you should expect to pay a per-person fee that bundles the permit and the guide, often around USD 55 to 75 a head for a half day as a working estimate, with the exact rate changing by season and group size. Confirm the latest price and what it includes when you book."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k61",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k62",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k63",
-          "_type": "span",
-          "marks": [],
-          "text": "After lunch, float back down the Bohorok River on a tube raft, the traditional way trekkers return to the village. It is a gentle, splashy ride that children tend to remember more than the walk itself. Life jackets are standard, and the guides run it slowly with families. Check that your child is a confident enough swimmer and that the life jackets fit before you set off."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k64",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k65",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k66",
-          "_type": "span",
-          "marks": [],
-          "text": "A quiet night back in the village. The treks start early and the river tires everyone out, so this is not a late night."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k67",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k68",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "k69",
-          "_type": "span",
-          "marks": [],
-          "text": "Arrange the trek through your guesthouse rather than a street tout. Reputable Bukit Lawang guesthouses work with licensed guides who follow the park's distance rules around the orangutans, which matters both for safety and for the animals."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k70",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k71",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "k72",
-          "_type": "span",
-          "marks": [],
-          "text": "The forest is hot and humid. Long light sleeves, closed shoes with grip, insect repellent and plenty of water make the difference between a child who enjoys the walk and one who does not."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k73",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k74",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 3: Across to Tangkahan"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k75",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k76",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k77",
-          "_type": "span",
-          "marks": [],
-          "text": "Slow start in Bukit Lawang. Let the children swim in the river or watch the village wake up before you pack."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k78",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k79",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k80",
-          "_type": "span",
-          "marks": [],
-          "text": "Transfer across to Tangkahan, around two to three hours away as a working estimate on rough back roads. Tangkahan sits where the Buluh and Batang rivers meet, on the other side of the same national park, and it is greener, quieter and even more rural than Bukit Lawang. Settle in and walk down to the river crossing."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k81",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k82",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k83",
-          "_type": "span",
-          "marks": [],
-          "text": "Eat at your guesthouse and turn in early. There is very little to do after dark here, which suits a family that has been on the move."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k84",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k85",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "k86",
-          "_type": "span",
-          "marks": [],
-          "text": "Tangkahan, for one night."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k87",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k88",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "k89",
-          "_type": "span",
-          "marks": [],
-          "text": "The road to Tangkahan is rough and can wash out in heavy rain. Build in extra time, and do not plan anything tight for the afternoon you arrive."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k90",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k91",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 4: Tangkahan elephants, then on to Berastagi"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k92",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k93",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k94",
-          "_type": "span",
-          "marks": [],
-          "text": "Spend the morning with the elephants of the Conservation Response Unit, a patrol team of former working elephants now cared for by local mahouts. The usual visit is a guided walk to meet the elephants in the forest and watch them feed and bathe at the river, rather than rides, which the better-run programme has moved away from. There is a set conservation fee plus a guided-activity fee, payable locally, and prices can change, so confirm the current rate and what is allowed on the day. For most children, this is the high point of the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k95",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k96",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k97",
-          "_type": "span",
-          "marks": [],
-          "text": "After the elephants, start the long drive south toward Berastagi. This is the longest transfer of the trip, roughly four to five hours as a working estimate, skirting back past the Medan side before climbing into the highlands. Break it with stops, and accept that it is mostly a travel afternoon."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k98",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k99",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k100",
-          "_type": "span",
-          "marks": [],
-          "text": "Arrive in Berastagi, a cool highland town ringed by two volcanoes and known for its fruit and vegetable market. The temperature drop after the jungle is a relief. Eat well and sleep under a blanket for once."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k101",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k102",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "k103",
-          "_type": "span",
-          "marks": [],
-          "text": "Berastagi, for one night."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k104",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k105",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "k106",
-          "_type": "span",
-          "marks": [],
-          "text": "Confirm your Tangkahan elephant visit and your onward driver the day before, since the morning activity and the long drive need to dovetail. One driver who waits and then takes you on to Berastagi saves juggling two separate cars."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k107",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k108",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 5: Berastagi to Lake Toba and Samosir island"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k109",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k110",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k111",
-          "_type": "span",
-          "marks": [],
-          "text": "See a little of Berastagi before you leave. The fruit market is an easy, child-friendly stop, and Gundaling Hill gives a view over the two volcanoes, Sibayak and Sinabung, on a clear morning. Keep it light, since there is a drive and a ferry ahead."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k112",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k113",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k114",
-          "_type": "span",
-          "marks": [],
-          "text": "Drive south to Parapat on the shore of Lake Toba, around three hours as a working estimate. If the timing works, stop at the Sipiso-piso waterfall on the way, which drops off the northern crater rim in a single long fall and is a short walk from the car park. Parapat is the mainland port for the ferry across to Samosir."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k115",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k116",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k117",
-          "_type": "span",
-          "marks": [],
-          "text": "Cross to Samosir as the light drops. The ferry from Parapat to the Tuk Tuk peninsula runs roughly hourly through the day and costs around IDR 25,000 per person as a working estimate, with the schedule thinning in the evening, so aim to be at the pier in good time. Many Tuk Tuk guesthouses sit right on the water with their own jetties. Settle in for the longest stay of the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k118",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k119",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "k120",
-          "_type": "span",
-          "marks": [],
-          "text": "Samosir island, Tuk Tuk, for three nights."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k121",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k122",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "k123",
-          "_type": "span",
-          "marks": [],
-          "text": "Ferry times at Lake Toba shift with demand and season, and tickets are bought on board, not in advance. Ask your Samosir guesthouse for the current crossing times the day before, since the printed schedules go out of date."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k124",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k125",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 6: A slow day on Samosir"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k126",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k127",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k128",
-          "_type": "span",
-          "marks": [],
-          "text": "Do very little on purpose. Swim off your guesthouse jetty, where the lake water is warm and calm, and let the children settle into lake time after the forest."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k129",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k130",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k131",
-          "_type": "span",
-          "marks": [],
-          "text": "Make a short, easy outing to the Batak villages near Tuk Tuk. Tomok has the old stone tombs of the Batak kings, and Ambarita has a set of carved stone chairs tied to the island's history. Both are quick, low-effort stops that work with children, and the souvenir lanes at Tomok are a small adventure in themselves."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k132",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k133",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k134",
-          "_type": "span",
-          "marks": [],
-          "text": "Dinner by the water. Samosir runs at a gentle pace, and the evenings are cool enough to sit out comfortably."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k135",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k136",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 7: Samosir at your own pace"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k137",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k138",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k139",
-          "_type": "span",
-          "marks": [],
-          "text": "Rent bicycles or a scooter from your guesthouse and explore the Tuk Tuk loop, which is flat, quiet and easy for a family to ride together. Stop wherever a swimming spot or a warung looks good."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k140",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k141",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k142",
-          "_type": "span",
-          "marks": [],
-          "text": "If the children are up for a longer outing, drive across the island to the hot springs near Pangururan, where warm sulphur water runs into pools above the lake. Otherwise, keep the afternoon free for the water and a nap. The point of these three nights is that you do not have to fill them."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k143",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k144",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k145",
-          "_type": "span",
-          "marks": [],
-          "text": "A last quiet evening on the lake before the trip turns back toward Medan."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k146",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k147",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "k148",
-          "_type": "span",
-          "marks": [],
-          "text": "Samosir guesthouses with their own lakefront and a shallow swimming area are worth booking ahead in peak months, since the best stretches of shore go first."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k149",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k150",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 8: Samosir back to Medan"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k151",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k152",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k153",
-          "_type": "span",
-          "marks": [],
-          "text": "Take the ferry back to Parapat and start the drive north to Medan, around four hours as a working estimate. It is a long travel day, so leave with the morning rather than the afternoon and build in a lunch stop."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k154",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k155",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "k156",
-          "_type": "span",
-          "marks": [],
-          "text": "Arrive in Medan with time to see a little of the city before flying out. The Maimun Palace and the Great Mosque are easy, shaded stops, and Medan is a strong place to eat, from Indonesian to the city's well-known Chinese and Indian food."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k157",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k158",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "k159",
-          "_type": "span",
-          "marks": [],
-          "text": "Stay near Kualanamu airport or in central Medan depending on your morning flight. If you fly early, the airport side removes the risk of the morning drive."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k160",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k161",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "k162",
-          "_type": "span",
-          "marks": [],
-          "text": "Medan, for one night."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k163",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k164",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "k165",
-          "_type": "span",
-          "marks": [],
-          "text": "Kualanamu is well outside the city, around an hour from the centre depending on traffic. For an early departure, a hotel near the airport is worth more than a more central one in town."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k166",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k167",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 9: Departure from Medan"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k168",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k169",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "k170",
-          "_type": "span",
-          "marks": [],
-          "text": "Fly out from Kualanamu International Airport, usually connecting through Jakarta, Kuala Lumpur or Singapore. Build in buffer time, since a missed connection out of Medan is harder to recover from than out of Bali, and confirm your routing the day before."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k171",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k172",
-          "_type": "span",
-          "marks": [],
-          "text": "What to book early, and what to keep flexible"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k173",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k174",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Book early: "
-        },
-        {
-          "_key": "k175",
-          "_type": "span",
-          "marks": [],
-          "text": "Your Bukit Lawang guesthouse and the family orangutan trek, your Tangkahan elephant visit and the driver who links it to the Berastagi leg, and your Samosir lakefront guesthouse for the three-night stay. These are the parts that fill in peak months or need coordinating in advance, and a good driver for the long transfer days is worth arranging ahead rather than on the day."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k176",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k177",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Keep flexible: "
-        },
-        {
-          "_key": "k178",
-          "_type": "span",
-          "marks": [],
-          "text": "The Berastagi sightseeing, the Sipiso-piso stop, your Medan afternoon and the Samosir slow days. None of these need reservations, and rain in the highlands or a tired child can rearrange any of them, so leave room to swap a viewpoint for a rest."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k179",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k180",
-          "_type": "span",
-          "marks": [],
-          "text": "Mistakes travellers make on this route"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k181",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k182",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking a multi-day jungle camp with young children. "
-        },
-        {
-          "_key": "k183",
-          "_type": "span",
-          "marks": [],
-          "text": "The two and three-night Bukit Lawang treks that fill the search results are built for backpackers, not families. A half-day trek gets children close to orangutans without an overnight in a forest camp, and everyone sleeps in a bed."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k184",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k185",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Underestimating the transfers. "
-        },
-        {
-          "_key": "k186",
-          "_type": "span",
-          "marks": [],
-          "text": "The drives here are long and winding, and two of them, the Tangkahan to Berastagi leg and the Samosir to Medan leg, are travel days in their own right. Stacking a transfer onto an activity day is how a family trip unravels."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k187",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k188",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Skipping the Berastagi break. "
-        },
-        {
-          "_key": "k189",
-          "_type": "span",
-          "marks": [],
-          "text": "It is tempting to push straight from the jungle to the lake, but the single drive is hard on children. The highland night resets everyone and cools them down after the humid forest."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k190",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k191",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Treating Lake Toba as a quick stop. "
-        },
-        {
-          "_key": "k192",
-          "_type": "span",
-          "marks": [],
-          "text": "The three nights on Samosir are not padding, they are the part that makes the rest sustainable for a family. Cut them short and the trip becomes a march from one wildlife encounter to the next."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k193",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k194",
-          "_type": "span",
-          "marks": [],
-          "text": "What to cut, adapt or upgrade"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k195",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k196",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "If you have less time, "
-        },
-        {
-          "_key": "k197",
-          "_type": "span",
-          "marks": [],
-          "text": "cut Tangkahan and the elephants, and run a seven-day version that does Bukit Lawang for the orangutans, then Berastagi and Lake Toba. It loses the trip's gentlest animal encounter but removes the two roughest transfers, which some families with younger children will prefer."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k203",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k198",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "If you want more, "
-        },
-        {
-          "_key": "k199",
-          "_type": "span",
-          "marks": [],
-          "text": "add a night in Tangkahan to slow the elephant leg down, or a second highland day around Berastagi for the volcanoes and the fruit farms. Older children and teens who travel well can also step up to a "
-        },
-        {
-          "_key": "k201",
-          "_type": "span",
-          "marks": ["k200"],
-          "text": "guided Gunung Leuser orangutan trek"
-        },
-        {
-          "_key": "k202",
-          "_type": "span",
-          "marks": [],
-          "text": " with an overnight forest camp, which goes deeper into the park than the half-day walk and turns the nine days into a more relaxed ten or eleven."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k200",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "VIATOR_GUNUNG_LEUSER_ORANGUTAN"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k204",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k205",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "If you are travelling with younger children, "
-        },
-        {
-          "_key": "k206",
-          "_type": "span",
-          "marks": [],
-          "text": "shorten every jungle walk, lean on the river and the lake for the parts they will actually love, and consider hiring a private car and driver for the whole trip rather than piecing transport together. In a region with light public transport and rough roads, a reliable driver is the single biggest comfort upgrade for a family, more than any hotel."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k211",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k207",
-          "_type": "span",
-          "marks": [],
-          "text": "For the full island and a more demanding version of this region, the "
-        },
-        {
-          "_key": "k209",
-          "_type": "span",
-          "marks": ["k208"],
-          "text": "15-day Sumatra itinerary"
-        },
-        {
-          "_key": "k210",
-          "_type": "span",
-          "marks": [],
-          "text": " covers Bukit Lawang, Berastagi and Lake Toba at an adult pace and adds the harder corners that this family route leaves out."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k208",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/15-days-sumatra"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k212",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k213",
-          "_type": "span",
-          "marks": [],
-          "text": "Before you build this trip"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k214",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k215",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Visa. "
-        },
-        {
-          "_key": "k216",
-          "_type": "span",
-          "marks": [],
-          "text": "Most visitors enter Indonesia on a visa on arrival or e-VOA, which costs around IDR 500,000, roughly USD 35 as a working estimate, and is valid for thirty days with one extension possible. Children usually need their own visa. Fees and rules change, so check the latest official guidance before you travel."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k217",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k218",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Money. "
-        },
-        {
-          "_key": "k219",
-          "_type": "span",
-          "marks": [],
-          "text": "Carry cash. Bukit Lawang, Tangkahan and the smaller Samosir villages are largely cash only, and ATMs are scarce once you leave Medan and Berastagi, so draw enough rupiah in the cities before heading into the forest and onto the island."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k220",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k221",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Connectivity. "
-        },
-        {
-          "_key": "k222",
-          "_type": "span",
-          "marks": [],
-          "text": "Coverage is patchy in the forest and on the back roads. Set up data before you arrive and download offline maps, since signage is limited and the drives are long."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k223",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k224",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "With kids. "
-        },
-        {
-          "_key": "k225",
-          "_type": "span",
-          "marks": [],
-          "text": "Pack closed shoes with grip, light long sleeves, strong insect repellent, rehydration salts and any regular medication, since pharmacies are basic outside the cities. The forest is humid and the highland nights are cool, so you are packing for two climates in one trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k226",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k227",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Health and roads. "
-        },
-        {
-          "_key": "k228",
-          "_type": "span",
-          "marks": [],
-          "text": "The transfers are long and winding, so bring motion-sickness remedies if anyone is prone, and do not plan to self-drive unless you are confident on rough rural roads. Tap water is not safe to drink, so stick to bottled or filtered water throughout."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k229",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k230",
-          "_type": "span",
-          "marks": [],
-          "text": "Final verdict"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k231",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k232",
-          "_type": "span",
-          "marks": [],
-          "text": "North Sumatra is not the easy option for a family holiday, and that is exactly why it stays with children long after a beach week fades. Orangutans in their own forest, elephants at the river and three slow days on a volcanic lake add up to a trip most children will talk about for years, as long as you keep the jungle days short, the transfers honest and the rest built in. Skip it if your children are very young or you want a holiday that runs itself. Choose it if they are old enough to walk a forest path and you would rather give them wild animals and a lake than a pool and a buffet. Done at this pace, with the wildlife first and Lake Toba last, it is one of the most rewarding family trips in Indonesia."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k233",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k234",
-          "_type": "span",
-          "marks": [],
-          "text": "Related itineraries"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k239",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k235",
-          "_type": "span",
-          "marks": [],
-          "text": "For the full island at an adult pace, see the "
-        },
-        {
-          "_key": "k237",
-          "_type": "span",
-          "marks": ["k236"],
-          "text": "15 days in Sumatra itinerary"
-        },
-        {
-          "_key": "k238",
-          "_type": "span",
-          "marks": [],
-          "text": " covering orangutans at Bukit Lawang, the Berastagi highlands and Lake Toba in more depth."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k236",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/15-days-sumatra"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k244",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k240",
-          "_type": "span",
-          "marks": [],
-          "text": "For a quieter, culture-led week in the other half of the island, compare the "
-        },
-        {
-          "_key": "k242",
-          "_type": "span",
-          "marks": ["k241"],
-          "text": "7-day West Sumatra itinerary"
-        },
-        {
-          "_key": "k243",
-          "_type": "span",
-          "marks": [],
-          "text": " through Bukittinggi and Harau Valley, which pairs well with this route on a longer Sumatra trip since the two barely overlap."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k241",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/7-days-west-sumatra-bukittinggi-harau-valley"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k249",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k245",
-          "_type": "span",
-          "marks": [],
-          "text": "For the wider region and where this route fits, browse the "
-        },
-        {
-          "_key": "k247",
-          "_type": "span",
-          "marks": ["k246"],
-          "text": "Sumatra destination guide"
-        },
-        {
-          "_key": "k248",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k246",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/sumatra"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "tpblk1",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "tps1",
-          "_type": "span",
-          "marks": [],
-          "text": "And if the orangutans are the main reason you are coming, it is worth seeing how you meet the same animal a different way. Compare this on-foot trek with the slower, water-based version on our "
-        },
-        {
-          "_key": "tps2",
-          "_type": "span",
-          "marks": ["tpmd1"],
-          "text": "5-day Tanjung Puting orangutan river cruise in Borneo"
-        },
-        {
-          "_key": "tps3",
-          "_type": "span",
-          "marks": [],
-          "text": ", where the boat does the walking and the wildlife comes to the river."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "tpmd1",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/5-days-borneo-orangutans-tanjung-puting"
-        }
-      ],
-      "style": "normal"
-    }
-  ],
-  "faq": [
-    {
-      "answer": "Yes, for children roughly six and up who can manage a short jungle walk and a few longer drives. The orangutan trek can be kept to a family-friendly half day, the Tangkahan elephants and the Bohorok River tubing are gentle highlights, and the three-night Lake Toba stay gives everyone time to rest. It is not suited to toddlers or babies, who will struggle with the slippery forest paths and the long transfers.",
-      "question": "Is North Sumatra suitable for families with children?"
-    },
-    {
-      "answer": "Nine days is comfortable for orangutans, elephants and a proper Lake Toba stay without rushing. If you have less time, drop Tangkahan and run seven days through Bukit Lawang, Berastagi and Lake Toba. If you have more, add a night in Tangkahan or an extra day in the Berastagi highlands.",
-      "question": "How long should a North Sumatra family trip be?"
-    },
-    {
-      "answer": "Fly into Kualanamu International Airport near Medan, then drive to Bukit Lawang, around four to five hours as a working estimate depending on traffic and road conditions. A private car with a driver is the easiest option for a family, since it lets you stop on your own schedule. Confirm current flight routes into Medan before locking hotels.",
-      "question": "How do you get to Bukit Lawang from Medan?"
-    },
-    {
-      "answer": "A half-day trek with a licensed guide who follows the park's distance rules is the right choice for families. Book through a reputable Bukit Lawang guesthouse rather than a street tout, ask for a gentle family route, and avoid any operator that promises feeding or touching the orangutans, which is neither safe nor allowed. Closed shoes, insect repellent and plenty of water tend to matter more than fitness.",
-      "question": "Are the orangutan treks safe and ethical for children?"
-    },
-    {
-      "answer": "The usual visit is a guided walk to meet the Conservation Response Unit's elephants in the forest and watch them feed and bathe at the river, led by local mahouts. The better-run programme has moved away from rides. There is a set conservation fee plus a guided-activity fee paid locally, and the exact amounts can change, so confirm the current rate and what is permitted on the day.",
-      "question": "What does the Tangkahan elephant experience involve?"
-    },
-    {
-      "answer": "Drive to Parapat, around three hours from Berastagi as a working estimate, then take the passenger ferry across to the Tuk Tuk peninsula on Samosir. The crossing runs roughly hourly through the day and costs around IDR 25,000 per person as a working estimate. Schedules shift with demand and tickets are bought on board, so ask your guesthouse for current times.",
-      "question": "How do you get to Samosir island on Lake Toba?"
-    },
-    {
-      "answer": "The drier months from roughly May to September tend to be easier for forest treks and lake swimming as a working guide. That said, Sumatra is wet for much of the year, so pack light rain layers whatever the month and expect the odd downpour even in the dry season. Avoid building tight connections around the long transfer days in case rain slows the roads.",
-      "question": "When is the best time for a North Sumatra family trip?"
-    }
-  ],
-  "heroImage": {
-    "_type": "image",
-    "alt": "Two wild Sumatran orangutans resting together in the green undergrowth of the Gunung Leuser rainforest near Bukit Lawang, North Sumatra",
-    "asset": {
-      "_ref": "image-f08087a7be600a8382be7977e8902ce43c3b72e9-6531x3693-jpg",
-      "_type": "reference"
-    }
+  {
+   "affiliateUrl": "https://www.viator.com/tours/Medan/Three-days-orangutans-adventure-in-Gunung-Leuser/d4866-241384P4?pid=P00303362&mcid=42383&medium=link&campaign=north-sumatra-families",
+   "anchorText": "guided Gunung Leuser orangutan trek",
+   "experienceCategory": "tour",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "viator",
+   "placeholderId": "VIATOR_GUNUNG_LEUSER_ORANGUTAN",
+   "publicUrl": "https://www.viator.com/tours/Medan/Three-days-orangutans-adventure-in-Gunung-Leuser/d4866-241384P4"
   }
+ ],
+ "articleCreatedDate": "2026-06-29T06:14:03.269Z",
+ "author": {
+  "_ref": "author-editorial-team",
+  "_type": "reference"
+ },
+ "body": [
+  {
+   "_key": "k1",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2",
+     "_type": "span",
+     "marks": [],
+     "text": "Who this trip is for"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k3",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4",
+     "_type": "span",
+     "marks": [],
+     "text": "This route suits families with children who are roughly six and up, who can manage a short jungle walk on uneven ground and a couple of half-day drives without melting down. It rewards parents who want their children near wild animals in the animals' own forest rather than in a zoo, and who are happy to trade polished resorts for guesthouses, river swims and early nights. It works for a single family or for two families travelling together, and the long Lake Toba stay at the end gives everyone room to decompress before flying home."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k6",
+     "_type": "span",
+     "marks": [],
+     "text": "It is not the right trip for families with toddlers or babies, who will find the forest paths slippery and the road transfers long, nor for anyone whose idea of a family holiday is a beach club and a kids' pool. North Sumatra is humid, rural and light on Western comforts, the drives are winding, and medical care is basic outside Medan. Families who want effortless logistics and beaches are far better served in Bali or the Gili Islands. This region asks for a little patience from parents and a little resilience from children, and gives back wildlife encounters that are hard to match elsewhere in Asia."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k7",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k8",
+     "_type": "span",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k9",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k10",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Route: "
+    },
+    {
+     "_key": "k11",
+     "_type": "span",
+     "marks": [],
+     "text": "Medan to Bukit Lawang, then Tangkahan, then Berastagi, then Lake Toba and Samosir island, returning to Medan."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k12",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k13",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best for: "
+    },
+    {
+     "_key": "k14",
+     "_type": "span",
+     "marks": [],
+     "text": "Families who want orangutans, elephants and a long, slow lake stay in one trip, with the wildlife days kept short enough for children."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k15",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k16",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Pace: "
+    },
+    {
+     "_key": "k17",
+     "_type": "span",
+     "marks": [],
+     "text": "Relaxed overall, built around two short jungle mornings and a three-night lake stay, with two longer transfer days flagged in advance."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k18",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k19",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base changes: "
+    },
+    {
+     "_key": "k20",
+     "_type": "span",
+     "marks": [],
+     "text": "Four. Bukit Lawang for the jungle, Tangkahan for the elephants, Berastagi to break the drive south, then Samosir island for the final stretch, plus a night near Medan at the end."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k21",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k22",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "When to go: "
+    },
+    {
+     "_key": "k23",
+     "_type": "span",
+     "marks": [],
+     "text": "The drier months from roughly May to September tend to be kinder for forest treks and lake swimming as a working guide, though Sumatra sees rain in most months, so pack light rain layers whatever the season."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k24",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k25",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Getting there: "
+    },
+    {
+     "_key": "k26",
+     "_type": "span",
+     "marks": [],
+     "text": "Fly into Kualanamu International Airport near Medan, airport code KNO, which has regional connections through Jakarta, Kuala Lumpur and Singapore. Confirm current flight routes before locking hotels, since schedules into Medan change."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k27",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k28",
+     "_type": "span",
+     "marks": [],
+     "text": "Why this route makes sense"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k29",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k30",
+     "_type": "span",
+     "marks": [],
+     "text": "North Sumatra's two big wildlife draws, the orangutans at Bukit Lawang and the elephants at Tangkahan, sit close together in the northwest, within a few hours of each other. Doing both back to back, before turning south, means you handle the jungle while everyone is fresh and the children are excited, then spend the back half of the trip winding down. It is the right order for a family, because the demanding days come first and the rest comes last, not the other way round."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k31",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k32",
+     "_type": "span",
+     "marks": [],
+     "text": "Lake Toba is the reason the trip works as a family holiday rather than an expedition. After the forest, three nights on Samosir island give children space to swim, cycle and do very little, while parents catch their breath. Berastagi slots in between the jungle and the lake as a natural halfway stop, breaking what would otherwise be a punishing single drive south and adding a cool highland night that comes as a relief after the humid forest. The route only doubles back once, near Medan, which is hard to avoid given the geography, and the long Lake Toba stay more than pays for it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k33",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k34",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 1: Arrive in Medan, transfer to Bukit Lawang"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k35",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k36",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k37",
+     "_type": "span",
+     "marks": [],
+     "text": "Land at Kualanamu International Airport near Medan. Most families arrive on a connection through Jakarta, Kuala Lumpur or Singapore, so plan for a change of plane rather than a direct long-haul flight, and confirm the routing before you book."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k43",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k38",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k39",
+     "_type": "span",
+     "marks": [],
+     "text": "Head straight for Bukit Lawang. The drive runs around four to five hours as a working estimate, depending on Medan traffic and the state of the road, so it is a long first leg with young children. "
+    },
+    {
+     "_key": "k41",
+     "_type": "span",
+     "marks": [
+      "k40"
+     ],
+     "text": "Compare Medan to Bukit Lawang transfers"
+    },
+    {
+     "_key": "k42",
+     "_type": "span",
+     "marks": [],
+     "text": " before you fly so you are not arranging a car at the airport curb after a flight. A private car with a driver is worth it here, since it lets you stop for food and toilets on your own schedule."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k40",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "12GO_MEDAN_BUKITLAWANG"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k44",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k45",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k46",
+     "_type": "span",
+     "marks": [],
+     "text": "Arrive in Bukit Lawang, a riverside village strung along the Bohorok River at the edge of Gunung Leuser National Park. Settle into your guesthouse, let the children watch the river, and eat early. The forest starts on the far bank, and you will hear it before you see it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k47",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k48",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "k49",
+     "_type": "span",
+     "marks": [],
+     "text": "Bukit Lawang, for two nights."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k55",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k50",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "k51",
+     "_type": "span",
+     "marks": [],
+     "text": "Mobile coverage is patchy on the road in and thin in the village. An "
+    },
+    {
+     "_key": "k53",
+     "_type": "span",
+     "marks": [
+      "k52"
+     ],
+     "text": "Indonesia eSIM with Airalo"
+    },
+    {
+     "_key": "k54",
+     "_type": "span",
+     "marks": [],
+     "text": " set up before you land keeps maps and messages working on the long transfer and saves hunting for a local SIM in Medan."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k52",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k56",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k57",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 2: Orangutan trek and river tubing"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k58",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k59",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k60",
+     "_type": "span",
+     "marks": [],
+     "text": "Take a short guided orangutan trek into Gunung Leuser National Park. Ask your guesthouse for a half-day family trek rather than a full day, and tell them the ages of your children, so they pick a gentler route. Treks run with a licensed guide who carries the park permit, and you should expect to pay a per-person fee that bundles the permit and the guide, often around USD 55 to 75 a head for a half day as a working estimate, with the exact rate changing by season and group size. Confirm the latest price and what it includes when you book."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k61",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k62",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k63",
+     "_type": "span",
+     "marks": [],
+     "text": "After lunch, float back down the Bohorok River on a tube raft, the traditional way trekkers return to the village. It is a gentle, splashy ride that children tend to remember more than the walk itself. Life jackets are standard, and the guides run it slowly with families. Check that your child is a confident enough swimmer and that the life jackets fit before you set off."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k64",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k65",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k66",
+     "_type": "span",
+     "marks": [],
+     "text": "A quiet night back in the village. The treks start early and the river tires everyone out, so this is not a late night."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k67",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k68",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "k69",
+     "_type": "span",
+     "marks": [],
+     "text": "Arrange the trek through your guesthouse rather than a street tout. Reputable Bukit Lawang guesthouses work with licensed guides who follow the park's distance rules around the orangutans, which matters both for safety and for the animals."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k70",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k71",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "k72",
+     "_type": "span",
+     "marks": [],
+     "text": "The forest is hot and humid. Long light sleeves, closed shoes with grip, insect repellent and plenty of water make the difference between a child who enjoys the walk and one who does not."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k73",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k74",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 3: Across to Tangkahan"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k75",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k76",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k77",
+     "_type": "span",
+     "marks": [],
+     "text": "Slow start in Bukit Lawang. Let the children swim in the river or watch the village wake up before you pack."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k78",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k79",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k80",
+     "_type": "span",
+     "marks": [],
+     "text": "Transfer across to Tangkahan, around two to three hours away as a working estimate on rough back roads. Tangkahan sits where the Buluh and Batang rivers meet, on the other side of the same national park, and it is greener, quieter and even more rural than Bukit Lawang. Settle in and walk down to the river crossing."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k81",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k82",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k83",
+     "_type": "span",
+     "marks": [],
+     "text": "Eat at your guesthouse and turn in early. There is very little to do after dark here, which suits a family that has been on the move."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k84",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k85",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "k86",
+     "_type": "span",
+     "marks": [],
+     "text": "Tangkahan, for one night."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k87",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k88",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "k89",
+     "_type": "span",
+     "marks": [],
+     "text": "The road to Tangkahan is rough and can wash out in heavy rain. Build in extra time, and do not plan anything tight for the afternoon you arrive."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k90",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k91",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 4: Tangkahan elephants, then on to Berastagi"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k92",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k93",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k94",
+     "_type": "span",
+     "marks": [],
+     "text": "Spend the morning with the elephants of the Conservation Response Unit, a patrol team of former working elephants now cared for by local mahouts. The usual visit is a guided walk to meet the elephants in the forest and watch them feed and bathe at the river, rather than rides, which the better-run programme has moved away from. There is a set conservation fee plus a guided-activity fee, payable locally, and prices can change, so confirm the current rate and what is allowed on the day. For most children, this is the high point of the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k95",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k96",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k97",
+     "_type": "span",
+     "marks": [],
+     "text": "After the elephants, start the long drive south toward Berastagi. This is the longest transfer of the trip, roughly four to five hours as a working estimate, skirting back past the Medan side before climbing into the highlands. Break it with stops, and accept that it is mostly a travel afternoon."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k98",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k99",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k100",
+     "_type": "span",
+     "marks": [],
+     "text": "Arrive in Berastagi, a cool highland town ringed by two volcanoes and known for its fruit and vegetable market. The temperature drop after the jungle is a relief. Eat well and sleep under a blanket for once."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k101",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k102",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "k103",
+     "_type": "span",
+     "marks": [],
+     "text": "Berastagi, for one night."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k104",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k105",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "k106",
+     "_type": "span",
+     "marks": [],
+     "text": "Confirm your Tangkahan elephant visit and your onward driver the day before, since the morning activity and the long drive need to dovetail. One driver who waits and then takes you on to Berastagi saves juggling two separate cars."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k107",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k108",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 5: Berastagi to Lake Toba and Samosir island"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k109",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k110",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k111",
+     "_type": "span",
+     "marks": [],
+     "text": "See a little of Berastagi before you leave. The fruit market is an easy, child-friendly stop, and Gundaling Hill gives a view over the two volcanoes, Sibayak and Sinabung, on a clear morning. Keep it light, since there is a drive and a ferry ahead."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k112",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k113",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k114",
+     "_type": "span",
+     "marks": [],
+     "text": "Drive south to Parapat on the shore of Lake Toba, around three hours as a working estimate. If the timing works, stop at the Sipiso-piso waterfall on the way, which drops off the northern crater rim in a single long fall and is a short walk from the car park. Parapat is the mainland port for the ferry across to Samosir."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k115",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k116",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k117",
+     "_type": "span",
+     "marks": [],
+     "text": "Cross to Samosir as the light drops. The ferry from Parapat to the Tuk Tuk peninsula runs roughly hourly through the day and costs around IDR 25,000 per person as a working estimate, with the schedule thinning in the evening, so aim to be at the pier in good time. Many Tuk Tuk guesthouses sit right on the water with their own jetties. Settle in for the longest stay of the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k118",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k119",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "k120",
+     "_type": "span",
+     "marks": [],
+     "text": "Samosir island, Tuk Tuk, for three nights."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k121",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k122",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "k123",
+     "_type": "span",
+     "marks": [],
+     "text": "Ferry times at Lake Toba shift with demand and season, and tickets are bought on board, not in advance. Ask your Samosir guesthouse for the current crossing times the day before, since the printed schedules go out of date."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k124",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k125",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 6: A slow day on Samosir"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k126",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k127",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k128",
+     "_type": "span",
+     "marks": [],
+     "text": "Do very little on purpose. Swim off your guesthouse jetty, where the lake water is warm and calm, and let the children settle into lake time after the forest."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k129",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k130",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k131",
+     "_type": "span",
+     "marks": [],
+     "text": "Make a short, easy outing to the Batak villages near Tuk Tuk. Tomok has the old stone tombs of the Batak kings, and Ambarita has a set of carved stone chairs tied to the island's history. Both are quick, low-effort stops that work with children, and the souvenir lanes at Tomok are a small adventure in themselves."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k132",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k133",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k134",
+     "_type": "span",
+     "marks": [],
+     "text": "Dinner by the water. Samosir runs at a gentle pace, and the evenings are cool enough to sit out comfortably."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k135",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k136",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 7: Samosir at your own pace"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k137",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k138",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k139",
+     "_type": "span",
+     "marks": [],
+     "text": "Rent bicycles or a scooter from your guesthouse and explore the Tuk Tuk loop, which is flat, quiet and easy for a family to ride together. Stop wherever a swimming spot or a warung looks good."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k140",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k141",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k142",
+     "_type": "span",
+     "marks": [],
+     "text": "If the children are up for a longer outing, drive across the island to the hot springs near Pangururan, where warm sulphur water runs into pools above the lake. Otherwise, keep the afternoon free for the water and a nap. The point of these three nights is that you do not have to fill them."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k143",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k144",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k145",
+     "_type": "span",
+     "marks": [],
+     "text": "A last quiet evening on the lake before the trip turns back toward Medan."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k146",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k147",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "k148",
+     "_type": "span",
+     "marks": [],
+     "text": "Samosir guesthouses with their own lakefront and a shallow swimming area are worth booking ahead in peak months, since the best stretches of shore go first."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k149",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k150",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 8: Samosir back to Medan"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k151",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k152",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k153",
+     "_type": "span",
+     "marks": [],
+     "text": "Take the ferry back to Parapat and start the drive north to Medan, around four hours as a working estimate. It is a long travel day, so leave with the morning rather than the afternoon and build in a lunch stop."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k154",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k155",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "k156",
+     "_type": "span",
+     "marks": [],
+     "text": "Arrive in Medan with time to see a little of the city before flying out. The Maimun Palace and the Great Mosque are easy, shaded stops, and Medan is a strong place to eat, from Indonesian to the city's well-known Chinese and Indian food."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k157",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k158",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "k159",
+     "_type": "span",
+     "marks": [],
+     "text": "Stay near Kualanamu airport or in central Medan depending on your morning flight. If you fly early, the airport side removes the risk of the morning drive."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k160",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k161",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "k162",
+     "_type": "span",
+     "marks": [],
+     "text": "Medan, for one night."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k163",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k164",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "k165",
+     "_type": "span",
+     "marks": [],
+     "text": "Kualanamu is well outside the city, around an hour from the centre depending on traffic. For an early departure, a hotel near the airport is worth more than a more central one in town."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k166",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k167",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 9: Departure from Medan"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k168",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k169",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "k170",
+     "_type": "span",
+     "marks": [],
+     "text": "Fly out from Kualanamu International Airport, usually connecting through Jakarta, Kuala Lumpur or Singapore. Build in buffer time, since a missed connection out of Medan is harder to recover from than out of Bali, and confirm your routing the day before."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k171",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k172",
+     "_type": "span",
+     "marks": [],
+     "text": "What to book early, and what to keep flexible"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k173",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k174",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early: "
+    },
+    {
+     "_key": "k175",
+     "_type": "span",
+     "marks": [],
+     "text": "Your Bukit Lawang guesthouse and the family orangutan trek, your Tangkahan elephant visit and the driver who links it to the Berastagi leg, and your Samosir lakefront guesthouse for the three-night stay. These are the parts that fill in peak months or need coordinating in advance, and a good driver for the long transfer days is worth arranging ahead rather than on the day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k176",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k177",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Keep flexible: "
+    },
+    {
+     "_key": "k178",
+     "_type": "span",
+     "marks": [],
+     "text": "The Berastagi sightseeing, the Sipiso-piso stop, your Medan afternoon and the Samosir slow days. None of these need reservations, and rain in the highlands or a tired child can rearrange any of them, so leave room to swap a viewpoint for a rest."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k179",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k180",
+     "_type": "span",
+     "marks": [],
+     "text": "Mistakes travellers make on this route"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k181",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k182",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking a multi-day jungle camp with young children. "
+    },
+    {
+     "_key": "k183",
+     "_type": "span",
+     "marks": [],
+     "text": "The two and three-night Bukit Lawang treks that fill the search results are built for backpackers, not families. A half-day trek gets children close to orangutans without an overnight in a forest camp, and everyone sleeps in a bed."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k184",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k185",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Underestimating the transfers. "
+    },
+    {
+     "_key": "k186",
+     "_type": "span",
+     "marks": [],
+     "text": "The drives here are long and winding, and two of them, the Tangkahan to Berastagi leg and the Samosir to Medan leg, are travel days in their own right. Stacking a transfer onto an activity day is how a family trip unravels."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k187",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k188",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Skipping the Berastagi break. "
+    },
+    {
+     "_key": "k189",
+     "_type": "span",
+     "marks": [],
+     "text": "It is tempting to push straight from the jungle to the lake, but the single drive is hard on children. The highland night resets everyone and cools them down after the humid forest."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k190",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k191",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Treating Lake Toba as a quick stop. "
+    },
+    {
+     "_key": "k192",
+     "_type": "span",
+     "marks": [],
+     "text": "The three nights on Samosir are not padding, they are the part that makes the rest sustainable for a family. Cut them short and the trip becomes a march from one wildlife encounter to the next."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k193",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k194",
+     "_type": "span",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k195",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k196",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "If you have less time, "
+    },
+    {
+     "_key": "k197",
+     "_type": "span",
+     "marks": [],
+     "text": "cut Tangkahan and the elephants, and run a seven-day version that does Bukit Lawang for the orangutans, then Berastagi and Lake Toba. It loses the trip's gentlest animal encounter but removes the two roughest transfers, which some families with younger children will prefer."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k203",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k198",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "If you want more, "
+    },
+    {
+     "_key": "k199",
+     "_type": "span",
+     "marks": [],
+     "text": "add a night in Tangkahan to slow the elephant leg down, or a second highland day around Berastagi for the volcanoes and the fruit farms. Older children and teens who travel well can also step up to a "
+    },
+    {
+     "_key": "k201",
+     "_type": "span",
+     "marks": [
+      "k200"
+     ],
+     "text": "guided Gunung Leuser orangutan trek"
+    },
+    {
+     "_key": "k202",
+     "_type": "span",
+     "marks": [],
+     "text": " with an overnight forest camp, which goes deeper into the park than the half-day walk and turns the nine days into a more relaxed ten or eleven."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k200",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_GUNUNG_LEUSER_ORANGUTAN"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k204",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k205",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "If you are travelling with younger children, "
+    },
+    {
+     "_key": "k206",
+     "_type": "span",
+     "marks": [],
+     "text": "shorten every jungle walk, lean on the river and the lake for the parts they will actually love, and consider hiring a private car and driver for the whole trip rather than piecing transport together. In a region with light public transport and rough roads, a reliable driver is the single biggest comfort upgrade for a family, more than any hotel."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k211",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k207",
+     "_type": "span",
+     "marks": [],
+     "text": "For the full island and a more demanding version of this region, the "
+    },
+    {
+     "_key": "k209",
+     "_type": "span",
+     "marks": [
+      "k208"
+     ],
+     "text": "15-day Sumatra itinerary"
+    },
+    {
+     "_key": "k210",
+     "_type": "span",
+     "marks": [],
+     "text": " covers Bukit Lawang, Berastagi and Lake Toba at an adult pace and adds the harder corners that this family route leaves out."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k208",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/15-days-sumatra"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k212",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k213",
+     "_type": "span",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k214",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k215",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Visa. "
+    },
+    {
+     "_key": "k216",
+     "_type": "span",
+     "marks": [],
+     "text": "Most visitors enter Indonesia on a visa on arrival or e-VOA, which costs around IDR 500,000, roughly USD 35 as a working estimate, and is valid for thirty days with one extension possible. Children usually need their own visa. Fees and rules change, so check the latest official guidance before you travel."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k217",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k218",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Money. "
+    },
+    {
+     "_key": "k219",
+     "_type": "span",
+     "marks": [],
+     "text": "Carry cash. Bukit Lawang, Tangkahan and the smaller Samosir villages are largely cash only, and ATMs are scarce once you leave Medan and Berastagi, so draw enough rupiah in the cities before heading into the forest and onto the island."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k220",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k221",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Connectivity. "
+    },
+    {
+     "_key": "k222",
+     "_type": "span",
+     "marks": [],
+     "text": "Coverage is patchy in the forest and on the back roads. Set up data before you arrive and download offline maps, since signage is limited and the drives are long."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k223",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k224",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "With kids. "
+    },
+    {
+     "_key": "k225",
+     "_type": "span",
+     "marks": [],
+     "text": "Pack closed shoes with grip, light long sleeves, strong insect repellent, rehydration salts and any regular medication, since pharmacies are basic outside the cities. The forest is humid and the highland nights are cool, so you are packing for two climates in one trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k226",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k227",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Health and roads. "
+    },
+    {
+     "_key": "k228",
+     "_type": "span",
+     "marks": [],
+     "text": "The transfers are long and winding, so bring motion-sickness remedies if anyone is prone, and do not plan to self-drive unless you are confident on rough rural roads. Tap water is not safe to drink, so stick to bottled or filtered water throughout."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k229",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k230",
+     "_type": "span",
+     "marks": [],
+     "text": "Final verdict"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k231",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k232",
+     "_type": "span",
+     "marks": [],
+     "text": "North Sumatra is not the easy option for a family holiday, and that is exactly why it stays with children long after a beach week fades. Orangutans in their own forest, elephants at the river and three slow days on a volcanic lake add up to a trip most children will talk about for years, as long as you keep the jungle days short, the transfers honest and the rest built in. Skip it if your children are very young or you want a holiday that runs itself. Choose it if they are old enough to walk a forest path and you would rather give them wild animals and a lake than a pool and a buffet. Done at this pace, with the wildlife first and Lake Toba last, it is one of the most rewarding family trips in Indonesia."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k233",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k234",
+     "_type": "span",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k239",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k235",
+     "_type": "span",
+     "marks": [],
+     "text": "For the full island at an adult pace, see the "
+    },
+    {
+     "_key": "k237",
+     "_type": "span",
+     "marks": [
+      "k236"
+     ],
+     "text": "15 days in Sumatra itinerary"
+    },
+    {
+     "_key": "k238",
+     "_type": "span",
+     "marks": [],
+     "text": " covering orangutans at Bukit Lawang, the Berastagi highlands and Lake Toba in more depth."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k236",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/15-days-sumatra"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k244",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k240",
+     "_type": "span",
+     "marks": [],
+     "text": "For a quieter, culture-led week in the other half of the island, compare the "
+    },
+    {
+     "_key": "k242",
+     "_type": "span",
+     "marks": [
+      "k241"
+     ],
+     "text": "7-day West Sumatra itinerary"
+    },
+    {
+     "_key": "k243",
+     "_type": "span",
+     "marks": [],
+     "text": " through Bukittinggi and Harau Valley, which pairs well with this route on a longer Sumatra trip since the two barely overlap."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k241",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-west-sumatra-bukittinggi-harau-valley"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k249",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k245",
+     "_type": "span",
+     "marks": [],
+     "text": "For the wider region and where this route fits, browse the "
+    },
+    {
+     "_key": "k247",
+     "_type": "span",
+     "marks": [
+      "k246"
+     ],
+     "text": "Sumatra destination guide"
+    },
+    {
+     "_key": "k248",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k246",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/sumatra"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "tpblk1",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "tps1",
+     "_type": "span",
+     "marks": [],
+     "text": "And if the orangutans are the main reason you are coming, it is worth seeing how you meet the same animal a different way. Compare this on-foot trek with the slower, water-based version on our "
+    },
+    {
+     "_key": "tps2",
+     "_type": "span",
+     "marks": [
+      "tpmd1"
+     ],
+     "text": "5-day Tanjung Puting orangutan river cruise in Borneo"
+    },
+    {
+     "_key": "tps3",
+     "_type": "span",
+     "marks": [],
+     "text": ", where the boat does the walking and the wildlife comes to the river."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "tpmd1",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/5-days-borneo-orangutans-tanjung-puting"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "l12",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "s13",
+     "_type": "span",
+     "marks": [],
+     "text": "If you want to finish on the coast rather than in the jungle, the "
+    },
+    {
+     "_key": "s14",
+     "_type": "span",
+     "marks": [
+      "m11"
+     ],
+     "text": "7-day Pulau Weh diving and beach escape"
+    },
+    {
+     "_key": "s15",
+     "_type": "span",
+     "marks": [],
+     "text": " sits at Sumatra's far northern tip. It is a slow reef week with warm, calm water, and it suits older children who already snorkel more than it suits toddlers."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "m11",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-pulau-weh-sabang-diving-beach"
+    }
+   ],
+   "style": "normal"
+  }
+ ],
+ "contentStatus": "live",
+ "destinationPrimary": "sumatra",
+ "faq": [
+  {
+   "answer": "Yes, for children roughly six and up who can manage a short jungle walk and a few longer drives. The orangutan trek can be kept to a family-friendly half day, the Tangkahan elephants and the Bohorok River tubing are gentle highlights, and the three-night Lake Toba stay gives everyone time to rest. It is not suited to toddlers or babies, who will struggle with the slippery forest paths and the long transfers.",
+   "question": "Is North Sumatra suitable for families with children?"
+  },
+  {
+   "answer": "Nine days is comfortable for orangutans, elephants and a proper Lake Toba stay without rushing. If you have less time, drop Tangkahan and run seven days through Bukit Lawang, Berastagi and Lake Toba. If you have more, add a night in Tangkahan or an extra day in the Berastagi highlands.",
+   "question": "How long should a North Sumatra family trip be?"
+  },
+  {
+   "answer": "Fly into Kualanamu International Airport near Medan, then drive to Bukit Lawang, around four to five hours as a working estimate depending on traffic and road conditions. A private car with a driver is the easiest option for a family, since it lets you stop on your own schedule. Confirm current flight routes into Medan before locking hotels.",
+   "question": "How do you get to Bukit Lawang from Medan?"
+  },
+  {
+   "answer": "A half-day trek with a licensed guide who follows the park's distance rules is the right choice for families. Book through a reputable Bukit Lawang guesthouse rather than a street tout, ask for a gentle family route, and avoid any operator that promises feeding or touching the orangutans, which is neither safe nor allowed. Closed shoes, insect repellent and plenty of water tend to matter more than fitness.",
+   "question": "Are the orangutan treks safe and ethical for children?"
+  },
+  {
+   "answer": "The usual visit is a guided walk to meet the Conservation Response Unit's elephants in the forest and watch them feed and bathe at the river, led by local mahouts. The better-run programme has moved away from rides. There is a set conservation fee plus a guided-activity fee paid locally, and the exact amounts can change, so confirm the current rate and what is permitted on the day.",
+   "question": "What does the Tangkahan elephant experience involve?"
+  },
+  {
+   "answer": "Drive to Parapat, around three hours from Berastagi as a working estimate, then take the passenger ferry across to the Tuk Tuk peninsula on Samosir. The crossing runs roughly hourly through the day and costs around IDR 25,000 per person as a working estimate. Schedules shift with demand and tickets are bought on board, so ask your guesthouse for current times.",
+   "question": "How do you get to Samosir island on Lake Toba?"
+  },
+  {
+   "answer": "The drier months from roughly May to September tend to be easier for forest treks and lake swimming as a working guide. That said, Sumatra is wet for much of the year, so pack light rain layers whatever the month and expect the odd downpour even in the dry season. Avoid building tight connections around the long transfer days in case rain slows the roads.",
+   "question": "When is the best time for a North Sumatra family trip?"
+  }
+ ],
+ "focusKeyword": "North Sumatra family itinerary",
+ "heroImage": {
+  "_type": "image",
+  "alt": "Two wild Sumatran orangutans resting together in the green undergrowth of the Gunung Leuser rainforest near Bukit Lawang, North Sumatra",
+  "asset": {
+   "_ref": "image-f08087a7be600a8382be7977e8902ce43c3b72e9-6531x3693-jpg",
+   "_type": "reference"
+  }
+ },
+ "intro": "Most families who think about Indonesia think about Bali, and most who reach Sumatra come as backpackers chasing orangutans on multi-day jungle camps that no parent wants to attempt with a seven-year-old. North Sumatra works for families anyway, as long as you build the trip around what children actually enjoy and pace it for short legs and real rest. This nine-day route runs from Medan to the orangutan forest at Bukit Lawang, across to the elephants at Tangkahan, then south through the cool Berastagi highlands to Lake Toba, where the trip slows down on Samosir island for a few unhurried days by the water. It is wildlife first, with the jungle treks kept short and the long lake stay built in on purpose. If your children are old enough to walk a forest path for a couple of hours and sit through a few transfers, this is one of the most rewarding family weeks in the country.",
+ "metaDescription": "A 9-day North Sumatra family itinerary: orangutans at Bukit Lawang, elephants at Tangkahan, then slow days on Lake Toba's Samosir island.",
+ "metaTitle": "9 Days in North Sumatra: Orangutans, Elephants & Toba",
+ "route": "Medan → Bukit Lawang → Tangkahan → Berastagi → Lake Toba (Samosir) → Medan",
+ "slug": {
+  "_type": "slug",
+  "current": "9-days-north-sumatra-with-kids"
+ },
+ "title": "9 Days in North Sumatra with Kids: Orangutans, Elephants and Lake Toba",
+ "travelStylePrimary": "wildlife_nature",
+ "travellerTypes": [
+  "families"
+ ],
+ "tripLengthBucket": "ten_days",
+ "tripLengthDays": 9,
+ "vibe": "relaxed"
 }
