@@ -1,1686 +1,1848 @@
 {
-  "_id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
-  "_type": "article",
-  "title": "5 Days in Bali: Ubud, Canggu and Uluwatu",
-  "slug": {
-    "_type": "slug",
-    "current": "5-days-bali-ubud-canggu-uluwatu"
+ "_id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
+ "_system": {
+  "base": {
+   "id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
+   "rev": "yoqobxKtA2iTDPf0nKICJN"
+  }
+ },
+ "_type": "article",
+ "affiliateLinks": [
+  {
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+   "anchorText": "private airport transfer",
+   "experienceCategory": "airport_transfer",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "klook",
+   "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+   "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
   },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:11:58.525Z",
-  "destinationPrimary": "bali",
-  "destinationSecondary": [],
-  "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": ["culture_temples", "beach_islands"],
-  "tripLengthBucket": "short_escape",
-  "tripLengthDays": 5,
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
-  "vibe": "active",
-  "experienceTags": [
-    "rice_terraces",
-    "temples",
-    "waterfalls",
-    "volcano_sunrise",
-    "beach_sunset",
-    "cultural_performance",
-    "private_drivers",
-    "airport_transfers"
-  ],
-  "bestSeason": "April–October",
-  "route": "Ubud → Canggu → Uluwatu",
-  "focusKeyword": "5 days in Bali itinerary",
-  "metaTitle": "Bali in 5 Days: Ubud, Canggu & Uluwatu Trip Plan",
-  "metaDescription": "A practical 5-day Bali itinerary, Ubud to Canggu to Uluwatu, with day-by-day logic, transfer times, booking advice and honest trade-offs.",
-  "intro": "Five days in Bali forces a choice: chase everything and spend half your trip in traffic, or pick three places that genuinely contrast and let each one land. This route does the second. Ubud gives you rice terraces and temples, Canggu gives you cafes and a beach sunset, Uluwatu gives you cliffs and the Kecak fire dance, with the airport close at the end. It moves north to south so each transfer shortens the road back to your flight.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
+  {
+   "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+   "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+   "experienceCategory": "ubud_highlights",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "viator",
+   "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+   "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
   },
-  "affiliateLinks": [
-    {
-      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
-      "anchorText": "private airport transfer",
-      "experienceCategory": "airport_transfer",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "klook",
-      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
-      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
-    },
-    {
-      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
-      "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
-      "experienceCategory": "ubud_highlights",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "viator",
-      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
-      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
-    },
-    {
-      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
-      "anchorText": "Mount Batur sunrise jeep experience",
-      "experienceCategory": "volcano_sunrise",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "klook",
-      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
-      "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
-    },
-    {
-      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
-      "anchorText": "Balinese cooking class",
-      "experienceCategory": "cooking_class",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "klook",
-      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
-      "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
-    },
-    {
-      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
-      "anchorText": "private car charter",
-      "experienceCategory": "private_driver",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "klook",
-      "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
-      "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
-    },
-    {
-      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
-      "anchorText": "Kecak fire dance at Uluwatu",
-      "experienceCategory": "uluwatu_cultural",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "viator",
-      "placeholderId": "VIATOR_ULUWATU_KECAK",
-      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
-    },
-    {
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "anchorText": "Ubud stays",
-      "experienceCategory": "accommodation",
-      "linkStatus": "live",
-      "partner": "Booking.com",
-      "placeholderId": "BOOKING_UBUD",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    },
-    {
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "anchorText": "Canggu stays",
-      "experienceCategory": "accommodation",
-      "linkStatus": "live",
-      "partner": "Booking.com",
-      "placeholderId": "BOOKING_CANGGU",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    },
-    {
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "anchorText": "Uluwatu stays",
-      "experienceCategory": "accommodation",
-      "linkStatus": "live",
-      "partner": "Booking.com",
-      "placeholderId": "BOOKING_ULUWATU",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    }
-  ],
-  "body": [
-    {
-      "_key": "k0",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1",
-          "_type": "span",
-          "marks": [],
-          "text": "Who this trip is for"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k3",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2",
-          "_type": "span",
-          "marks": [],
-          "text": "This is a first-taste Bali trip built for couples, friends and solo travellers who want contrast over completeness. You get culture and nature in Ubud, a social beach day in Canggu, and a clifftop finish near Uluwatu, without backtracking across the island. The pace is active but realistic, with one early start and short transfers between bases."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4",
-          "_type": "span",
-          "marks": [],
-          "text": "It is not ideal if you want island day trips like Nusa Penida or the Gili Islands, which need a 7-day-plus trip to fit without rushing. It is also not the right plan if your idea of a holiday is staying in one resort the whole week, since you change base three times. If you dislike early alarms, you can drop the one pre-dawn start and still keep the route intact."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k6",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k7",
-          "_type": "span",
-          "marks": [],
-          "text": "Trip at a glance"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "ka",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k8",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Duration:"
-        },
-        {
-          "_key": "k9",
-          "_type": "span",
-          "marks": [],
-          "text": " 5 days, 4 nights."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kd",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kb",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Start and end:"
-        },
-        {
-          "_key": "kc",
-          "_type": "span",
-          "marks": [],
-          "text": " Ngurah Rai International Airport, Denpasar."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kg",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ke",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Best for:"
-        },
-        {
-          "_key": "kf",
-          "_type": "span",
-          "marks": [],
-          "text": " first-time visitors, couples, friends, solo travellers."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kj",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kh",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Not ideal for:"
-        },
-        {
-          "_key": "ki",
-          "_type": "span",
-          "marks": [],
-          "text": " travellers wanting island-hopping or a single-base resort week."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "km",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kk",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel style:"
-        },
-        {
-          "_key": "kl",
-          "_type": "span",
-          "marks": [],
-          "text": " active but realistic, three bases, mostly road transfers."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kp",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kn",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Budget:"
-        },
-        {
-          "_key": "ko",
-          "_type": "span",
-          "marks": [],
-          "text": " roughly US$200 to US$300 per person on a budget, or US$500 to US$700 mid-range, excluding flights, as a working estimate. Costs can change, so confirm current rates when you book."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "ks",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kq",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Logistics level:"
-        },
-        {
-          "_key": "kr",
-          "_type": "span",
-          "marks": [],
-          "text": " easy. Short road transfers, no ferries or domestic flights."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kv",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kt",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Best time:"
-        },
-        {
-          "_key": "ku",
-          "_type": "span",
-          "marks": [],
-          "text": " April to October, the drier window."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "ky",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "kw",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking difficulty:"
-        },
-        {
-          "_key": "kx",
-          "_type": "span",
-          "marks": [],
-          "text": " low to medium. The Kecak dance and your first Ubud nights are the items worth locking early."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "kz",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k10",
-          "_type": "span",
-          "marks": [],
-          "text": "Why this route makes sense"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k12",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k11",
-          "_type": "span",
-          "marks": [],
-          "text": "The order is north to south for one practical reason: each move brings you closer to the airport, so the final morning is relaxed rather than a long dash. Ubud sits inland and furthest from Ngurah Rai, Canggu is roughly halfway down the west coast, and Uluwatu sits on the southern peninsula about 30 to 45 minutes from departures in normal traffic."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k14",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k13",
-          "_type": "span",
-          "marks": [],
-          "text": "Front-loading Ubud also means you hit the temples, terraces and the optional Mount Batur sunrise while you still have full days, then wind down toward beaches and sunsets. Two nights in Ubud is the anchor because it has the most to see and the longest transfer in and out. Canggu and Uluwatu each get one night, which is enough for their headline experiences on a short trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k15",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k16",
-          "_type": "span",
-          "marks": [],
-          "text": "Before you fly: data and entry"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k1c",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k17",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic:"
-        },
-        {
-          "_key": "k18",
-          "_type": "span",
-          "marks": [],
-          "text": " sort connectivity before you land so maps, ride-hailing and messaging work from the curb. An "
-        },
-        {
-          "_key": "k1a",
-          "_type": "span",
-          "marks": ["k19"],
-          "text": "Indonesia eSIM with Airalo"
-        },
-        {
-          "_key": "k1b",
-          "_type": "span",
-          "marks": [],
-          "text": " installed and activated on the plane means you are not hunting for wifi at arrivals. Fees and plan sizes can change, so check current options before you travel."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k19",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/bali"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k1f",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1d",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note:"
-        },
-        {
-          "_key": "k1e",
-          "_type": "span",
-          "marks": [],
-          "text": " most nationalities need the e-VOA, listed at IDR 500,000 (about US$35) for 30 days, plus Bali's one-time tourist levy of IDR 150,000 (about US$10). Apply and pay through the official portals before arrival to skip queues. Visa rules and fees change, so check the latest official guidance close to your trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k1g",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1h",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 1: Arrive and settle into Ubud"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k1q",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1i",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k1j",
-          "_type": "span",
-          "marks": [],
-          "text": " After landing at Ngurah Rai, head straight to Ubud. A "
-        },
-        {
-          "_key": "k1l",
-          "_type": "span",
-          "marks": ["k1k"],
-          "text": "private airport transfer"
-        },
-        {
-          "_key": "k1m",
-          "_type": "span",
-          "marks": [],
-          "text": " using the "
-        },
-        {
-          "_key": "k1o",
-          "_type": "span",
-          "marks": ["k1n"],
-          "text": "private airport transfer"
-        },
-        {
-          "_key": "k1p",
-          "_type": "span",
-          "marks": [],
-          "text": " removes the arrival-day friction of negotiating a ride after a long flight. The drive takes about 1.5 hours in normal traffic and up to two and a half in the late afternoon, so allow buffer time."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k1k",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/bali"
-        },
-        {
-          "_key": "k1n",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k1t",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1r",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening."
-        },
-        {
-          "_key": "k1s",
-          "_type": "span",
-          "marks": [],
-          "text": " Keep the first day simple. Check in, rest, then walk central Ubud. Jalan Bisma and the Campuhan Ridge Walk are both a short stroll, and a slow walk along the ridge at dusk is a gentle way to shake off the flight. Pass Ubud Palace and have a relaxed dinner nearby."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k1w",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1u",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base:"
-        },
-        {
-          "_key": "k1va",
-          "_type": "span",
-          "marks": [],
-          "text": " Ubud, 2 nights. Staying near Ubud Palace or Jalan Bisma keeps you walking distance from restaurants, the morning market and drivers. "
-        },
-        {
-          "_key": "k1vb",
-          "_type": "span",
-          "marks": ["bk0ubud"],
-          "text": "Search Ubud stays on Booking.com"
-        },
-        {
-          "_key": "k1vc",
-          "_type": "span",
-          "marks": [],
-          "text": " when you compare areas."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "bk0ubud",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_UBUD"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k1z",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1x",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note:"
-        },
-        {
-          "_key": "k1y",
-          "_type": "span",
-          "marks": [],
-          "text": " if you land late, eat near your hotel and save sightseeing for the morning rather than forcing a tired drive into the hills."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k20",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k21",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 2: Ubud terraces, temples and a waterfall"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k24",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k22",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k23",
-          "_type": "span",
-          "marks": [],
-          "text": " This is your only full day in Ubud, so use it on the area's strongest stops: Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace, Tirta Empul Temple and a waterfall near town. Start early to beat the heat and the tour buses, since Tegalalang and the Monkey Forest are calmest before 9am."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k2d",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k25",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic:"
-        },
-        {
-          "_key": "k26",
-          "_type": "span",
-          "marks": [],
-          "text": " these stops are spread out and awkward to chain by ride-hailing apps. A guided "
-        },
-        {
-          "_key": "k28",
-          "_type": "span",
-          "marks": ["k27"],
-          "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
-        },
-        {
-          "_key": "k29",
-          "_type": "span",
-          "marks": [],
-          "text": " via the "
-        },
-        {
-          "_key": "k2b",
-          "_type": "span",
-          "marks": ["k2a"],
-          "text": "Ubud highlights tour"
-        },
-        {
-          "_key": "k2c",
-          "_type": "span",
-          "marks": [],
-          "text": " keeps the day focused and includes hotel pickup, which is why it is worth the spend here over piecing it together yourself."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k27",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/bali"
-        },
-        {
-          "_key": "k2a",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k2g",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2e",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k2f",
-          "_type": "span",
-          "marks": [],
-          "text": " Entry fees are small, a few dollars each, and at Tirta Empul you can join the holy-spring purification ritual if you bring a sarong and a change of clothes. Keep a hand on sunglasses and snacks around the macaques in the Monkey Forest, as they are bold and quick."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k2j",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2h",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening."
-        },
-        {
-          "_key": "k2i",
-          "_type": "span",
-          "marks": [],
-          "text": " If you want one highlight to prioritise, Tegalalang is the most visually distinctive and Tirta Empul the most culturally significant. For dinner, try nasi campur, bebek betutu or sate lilit."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k2k",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2l",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 3: Mount Batur sunrise, then move to Canggu"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k2r",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2m",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k2n",
-          "_type": "span",
-          "marks": [],
-          "text": " For a memorable early start, leave before dawn for a "
-        },
-        {
-          "_key": "k2p",
-          "_type": "span",
-          "marks": ["k2o"],
-          "text": "Mount Batur sunrise jeep experience"
-        },
-        {
-          "_key": "k2q",
-          "_type": "span",
-          "marks": [],
-          "text": ". Expect a roughly 2am pickup and about a two-hour climb in the dark to reach the summit for sunrise over the lake and caldera. It is cold at the top, so bring a layer. You should be back in Ubud by mid-morning."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k2o",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k2x",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2s",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic:"
-        },
-        {
-          "_key": "k2t",
-          "_type": "span",
-          "marks": [],
-          "text": " if a pre-dawn alarm is not for you, skip Batur and do a "
-        },
-        {
-          "_key": "k2v",
-          "_type": "span",
-          "marks": ["k2u"],
-          "text": "Balinese cooking class"
-        },
-        {
-          "_key": "k2w",
-          "_type": "span",
-          "marks": [],
-          "text": " instead before the transfer. Both are good uses of the morning, so choose by energy level, not fear of missing out."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k2u",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k33",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k2y",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k2z",
-          "_type": "span",
-          "marks": [],
-          "text": " After breakfast, check out and move to Canggu with a "
-        },
-        {
-          "_key": "k31",
-          "_type": "span",
-          "marks": ["k30"],
-          "text": "private car charter"
-        },
-        {
-          "_key": "k32",
-          "_type": "span",
-          "marks": [],
-          "text": ". The drive takes about 1 to 1.5 hours and a private car makes the door-to-door move with luggage simpler than juggling app rides."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k30",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k36",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k34",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening."
-        },
-        {
-          "_key": "k35",
-          "_type": "span",
-          "marks": [],
-          "text": " Batu Bolong and Echo Beach are the classic spots for a first sunset drink."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k39",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k37",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base:"
-        },
-        {
-          "_key": "k38a",
-          "_type": "span",
-          "marks": [],
-          "text": " Canggu, 1 night. The Batu Bolong or Berawa area gives the best beach access. "
-        },
-        {
-          "_key": "k38b",
-          "_type": "span",
-          "marks": ["bk1canggu"],
-          "text": "Search Canggu stays on Booking.com"
-        },
-        {
-          "_key": "k38c",
-          "_type": "span",
-          "marks": [],
-          "text": " to compare."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "bk1canggu",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_CANGGU"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k3a",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3b",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 4: Slow Canggu morning, Uluwatu sunset"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k3e",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3c",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k3d",
-          "_type": "span",
-          "marks": [],
-          "text": " Start slowly with breakfast, coffee and a short beach walk in Canggu. This is a soft day by design after the early Batur start."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k3h",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3f",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k3g",
-          "_type": "span",
-          "marks": [],
-          "text": " Around midday, leave for Uluwatu, about a 1 to 1.5 hour drive south. Spend the afternoon at Padang Padang, Bingin or Melasti Beach."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k3n",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3i",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening."
-        },
-        {
-          "_key": "k3j",
-          "_type": "span",
-          "marks": [],
-          "text": " In the late afternoon, visit Uluwatu Temple and stay for the clifftop "
-        },
-        {
-          "_key": "k3l",
-          "_type": "span",
-          "marks": ["k3k"],
-          "text": "Kecak fire dance at Uluwatu"
-        },
-        {
-          "_key": "k3m",
-          "_type": "span",
-          "marks": [],
-          "text": ". It starts around 6pm as the sun drops behind the sea, and tickets sell out, so book ahead. Skip-the-line tickets give you a good seat without queuing. The cliffside setting is one of the strongest ways to close a short Bali trip. Afterwards, eat in Uluwatu or head to Jimbaran for seafood by the beach."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k3k",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "VIATOR_ULUWATU_KECAK"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k3q",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3o",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base:"
-        },
-        {
-          "_key": "k3pa",
-          "_type": "span",
-          "marks": [],
-          "text": " Uluwatu, 1 night. It sits closer to the airport than Ubud or Canggu, around 30 to 45 minutes in normal traffic. "
-        },
-        {
-          "_key": "k3pb",
-          "_type": "span",
-          "marks": ["bk2uluwatu"],
-          "text": "Search Uluwatu stays on Booking.com"
-        },
-        {
-          "_key": "k3pc",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "bk2uluwatu",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_ULUWATU"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k3t",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3r",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note:"
-        },
-        {
-          "_key": "k3s",
-          "_type": "span",
-          "marks": [],
-          "text": " watch your belongings near the temple's resident monkeys, which are known for snatching glasses and phones from distracted visitors."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k3u",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3v",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 5: Slow morning and departure"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k3y",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3w",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k3x",
-          "_type": "span",
-          "marks": [],
-          "text": " Take the final morning slowly. An ocean-view breakfast, a short beach walk or a last massage all fit, since Uluwatu is only about 30 to 45 minutes from the airport."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k41",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3z",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note:"
-        },
-        {
-          "_key": "k40",
-          "_type": "span",
-          "marks": [],
-          "text": " if you did not pay the IDR 150,000 (about US$10) Bali tourist levy on arrival, settle it online before you leave to skip the queue. Build in buffer time for check-in on busy afternoon and evening flights, and confirm your departure time against current traffic."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k42",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k43",
-          "_type": "span",
-          "marks": [],
-          "text": "What to book early, and what to keep flexible"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k46",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k44",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Book early:"
-        },
-        {
-          "_key": "k45",
-          "_type": "span",
-          "marks": [],
-          "text": " your first two Ubud nights, since arrival-day logistics are easier when your base is locked, and the Kecak fire dance, which sells out in peak months. If you want the Mount Batur sunrise, reserve it a day or two ahead so pickup is arranged."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k49",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k47",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Keep flexible:"
-        },
-        {
-          "_key": "k48",
-          "_type": "span",
-          "marks": [],
-          "text": " the Canggu and Uluwatu beach choices, your restaurants, and whether Day 3 is Batur or a cooking class. None of these need committing in advance, so you can read the weather and your energy on the day."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4a",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4b",
-          "_type": "span",
-          "marks": [],
-          "text": "Mistakes travellers make on a 5-day Bali trip"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k4d",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4c",
-          "_type": "span",
-          "marks": [],
-          "text": "The biggest one is trying to add Nusa Penida or the Gili Islands to five days. The boat days and transfers eat the trip, and you end up rushing the mainland. Save the islands for a longer visit."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4f",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4e",
-          "_type": "span",
-          "marks": [],
-          "text": "A second mistake is basing in one spot and day-tripping everywhere, which means hours in traffic daily. Changing base three times along this route keeps each drive short. A third is underestimating afternoon traffic on the Ubud road and the airport approach, so always pad transfer times rather than booking back-to-back."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4g",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4h",
-          "_type": "span",
-          "marks": [],
-          "text": "What to cut, adapt or upgrade"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k4k",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4i",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Cut:"
-        },
-        {
-          "_key": "k4j",
-          "_type": "span",
-          "marks": [],
-          "text": " the Mount Batur sunrise if early starts ruin your day. Swap in the cooking class and a slower Ubud morning with no real loss to the route."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4n",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4l",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Adapt:"
-        },
-        {
-          "_key": "k4m",
-          "_type": "span",
-          "marks": [],
-          "text": " if you want more beach time, shift the extra night from Ubud to Uluwatu and treat Canggu as a daytime stop on the way south. The FAQ split of two nights coast-side works well for sun-seekers."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4q",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4o",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Upgrade:"
-        },
-        {
-          "_key": "k4p",
-          "_type": "span",
-          "marks": [],
-          "text": " a full-day private driver for the Ubud sights instead of a group tour buys you control over timing and stops, which matters most if you want the terraces before the crowds. Costs change, so confirm current driver day rates when you arrange it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4r",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4s",
-          "_type": "span",
-          "marks": [],
-          "text": "Before you build this trip"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k4v",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4t",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Best time:"
-        },
-        {
-          "_key": "k4u",
-          "_type": "span",
-          "marks": [],
-          "text": " April to October is the drier window and the easier season for this outdoor-heavy route."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k4y",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4w",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Visa and entry:"
-        },
-        {
-          "_key": "k4x",
-          "_type": "span",
-          "marks": [],
-          "text": " most nationalities use the e-VOA, listed at IDR 500,000 (about US$35) for 30 days, plus the one-time tourist levy of IDR 150,000 (about US$10). Apply and pay via the official portals before arrival. Rules change, so check the latest official guidance."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k51",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k4z",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Domestic transport:"
-        },
-        {
-          "_key": "k50",
-          "_type": "span",
-          "marks": [],
-          "text": " Grab and Gojek apps cover affordable cars and scooter-taxis. A private driver for full-day sightseeing runs around IDR 700,000 to 900,000 per day as a working estimate. Scooter rental is cheap and flexible but only sensible for confident riders, as traffic is the main risk."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k54",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k52",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Ferries and remote logistics:"
-        },
-        {
-          "_key": "k53",
-          "_type": "span",
-          "marks": [],
-          "text": " none on this route, which is part of why it stays easy. That changes the moment you add Nusa Penida or the Gilis."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k57",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k55",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Money and eSIM:"
-        },
-        {
-          "_key": "k56",
-          "_type": "span",
-          "marks": [],
-          "text": " carry some cash for small entries and warungs, and set up an Indonesia eSIM with Airalo before you fly so you have data on landing."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5a",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k58",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Book early vs flexible:"
-        },
-        {
-          "_key": "k59",
-          "_type": "span",
-          "marks": [],
-          "text": " lock Ubud nights and the Kecak dance, keep beaches, food and the Day 3 choice open."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5b",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5c",
-          "_type": "span",
-          "marks": [],
-          "text": "Final verdict"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k5e",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5d",
-          "_type": "span",
-          "marks": [],
-          "text": "Do this trip if you want a clear, low-stress first taste of Bali that shows three genuinely different sides of the island in five days without long ferry days or constant repacking. The north-to-south flow is the quiet strength here, since it shortens every transfer toward your flight."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5g",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5f",
-          "_type": "span",
-          "marks": [],
-          "text": "Do not do this trip if your heart is set on Nusa Penida, the Gili Islands or a single-resort week. For those, give yourself seven days or more, or pick a different structure. For everyone else on a tight schedule, this route delivers contrast over a checklist, which is the right trade on a short visit."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k5h",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5i",
-          "_type": "span",
-          "marks": [],
-          "text": "Related itineraries"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k5n",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5j",
-          "_type": "span",
-          "marks": [],
-          "text": "If you have more time, extend with an island leg using a "
-        },
-        {
-          "_key": "k5l",
-          "_type": "span",
-          "marks": ["k5k"],
-          "text": "7-day Bali and Nusa Penida itinerary"
-        },
-        {
-          "_key": "k5m",
-          "_type": "span",
-          "marks": [],
-          "text": " so the boat days have room to breathe."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k5k",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/7-days-bali-first-timers"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k5s",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5o",
-          "_type": "span",
-          "marks": [],
-          "text": "Prefer a beach-led version? Compare a "
-        },
-        {
-          "_key": "k5q",
-          "_type": "span",
-          "marks": ["k5p"],
-          "text": "Bali surf and beaches itinerary"
-        },
-        {
-          "_key": "k5r",
-          "_type": "span",
-          "marks": [],
-          "text": " that leans into Canggu and Uluwatu."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k5p",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k5x",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5t",
-          "_type": "span",
-          "marks": [],
-          "text": "For area guides, hotel zones and transport detail, see the "
-        },
-        {
-          "_key": "k5v",
-          "_type": "span",
-          "marks": ["k5u"],
-          "text": "Bali destination hub"
-        },
-        {
-          "_key": "k5w",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k5u",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/bali"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "89cm4uuj1v",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "nv6j3kd3m1",
-          "_type": "span",
-          "marks": [],
-          "text": "Getting around: "
-        },
-        {
-          "_key": "ku49mkz2xx",
-          "_type": "span",
-          "marks": ["7bjc1me7nq"],
-          "text": "Denpasar Airport to Ubud"
-        },
-        {
-          "_key": "yt1w7vv20t",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "7bjc1me7nq",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/transport/denpasar-airport-to-ubud"
-        }
-      ],
-      "style": "normal"
-    }
-  ],
-  "faq": [
-    {
-      "answer": "Yes, for a focused first taste. Five days comfortably covers Ubud (rice terraces, temples, waterfalls), Canggu (beaches and cafes) and Uluwatu (clifftop sunsets and the Kecak fire dance), but it is tight for adding island day trips. Save Nusa Penida for a 7-day-plus trip.",
-      "question": "Is 5 days enough for Bali?"
-    },
-    {
-      "answer": "Base in two areas to avoid daily long drives: two nights in Ubud for culture and nature, then two or three nights in Canggu or near Uluwatu for the coast. The Ubud-to-south transfer takes about 1.5 to 2 hours depending on traffic, so build in buffer time.",
-      "question": "What is the best way to split 5 days in Bali?"
-    },
-    {
-      "answer": "Use the Grab and Gojek apps for affordable cars and scooter-taxis, or hire a private driver for full-day sightseeing at around IDR 700,000 to 900,000 per day as a working estimate. Renting a scooter is cheap and flexible but only advisable for confident riders, since traffic is the main risk.",
-      "question": "How do I get around Bali for 5 days?"
-    },
-    {
-      "answer": "For most nationalities, yes to both: the e-VOA is listed at IDR 500,000 (about US$35) for 30 days, and Bali's tourist levy is a one-time IDR 150,000 (about US$10). Apply for the e-VOA and pay the levy through the official portals before arrival. Fees and rules can change, so check the latest official guidance.",
-      "question": "Do I need a visa and pay a tourist tax?"
-    },
-    {
-      "answer": "As a working estimate, roughly US$200 to US$300 per person on a budget (guesthouses, local food, Grab) or US$500 to US$700 mid-range (boutique stays, a private driver, nicer restaurants), excluding flights. The Kecak dance ticket and temple entries add only a few dollars each. Prices can change, so confirm current rates.",
-      "question": "How much does 5 days in Bali cost?"
-    },
-    {
-      "answer": "Yes. The Batur sunrise means a roughly 2am pickup, so if that is not for you, swap in a Balinese cooking class and a slower Ubud morning before moving to Canggu. The route stays intact either way.",
-      "question": "Can I skip the early Mount Batur start?"
-    }
-  ],
-  "heroImage": {
-    "_type": "image",
-    "alt": "Bali highlights — Ubud rice terraces, Canggu surf and Uluwatu cliffs",
-    "asset": {
-      "_ref": "image-f2745b557cc187a22534ee6682f90d0028d11f99-5116x3401-jpg",
-      "_type": "reference"
-    },
-    "caption": "Ubud → Canggu → Uluwatu"
+  {
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+   "anchorText": "Mount Batur sunrise jeep experience",
+   "experienceCategory": "volcano_sunrise",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "klook",
+   "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+   "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
   },
-  "_system": {
-    "base": {
-      "id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
-      "rev": "yoqobxKtA2iTDPf0nKICJN"
-    }
+  {
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
+   "anchorText": "Balinese cooking class",
+   "experienceCategory": "cooking_class",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "klook",
+   "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+   "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
   },
-  "articleCommercialTier": "hero",
-  "logisticsComplexity": "easy",
-  "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": ["klook", "booking", "airalo"]
+  {
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F",
+   "anchorText": "private car charter",
+   "experienceCategory": "private_driver",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "klook",
+   "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER",
+   "publicUrl": "https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/"
+  },
+  {
+   "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu",
+   "anchorText": "Kecak fire dance at Uluwatu",
+   "experienceCategory": "uluwatu_cultural",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "viator",
+   "placeholderId": "VIATOR_ULUWATU_KECAK",
+   "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+  },
+  {
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "Ubud stays",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "partner": "Booking.com",
+   "placeholderId": "BOOKING_UBUD",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  },
+  {
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "Canggu stays",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "partner": "Booking.com",
+   "placeholderId": "BOOKING_CANGGU",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  },
+  {
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "Uluwatu stays",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "partner": "Booking.com",
+   "placeholderId": "BOOKING_ULUWATU",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  }
+ ],
+ "articleCommercialTier": "hero",
+ "articleCreatedDate": "2026-06-02T05:11:58.525Z",
+ "author": {
+  "_ref": "author-editorial-team",
+  "_type": "reference"
+ },
+ "bestSeason": "April–October",
+ "body": [
+  {
+   "_key": "k0",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1",
+     "_type": "span",
+     "marks": [],
+     "text": "Who this trip is for"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k3",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2",
+     "_type": "span",
+     "marks": [],
+     "text": "This is a first-taste Bali trip built for couples, friends and solo travellers who want contrast over completeness. You get culture and nature in Ubud, a social beach day in Canggu, and a clifftop finish near Uluwatu, without backtracking across the island. The pace is active but realistic, with one early start and short transfers between bases."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4",
+     "_type": "span",
+     "marks": [],
+     "text": "It is not ideal if you want island day trips like Nusa Penida or the Gili Islands, which need a 7-day-plus trip to fit without rushing. It is also not the right plan if your idea of a holiday is staying in one resort the whole week, since you change base three times. If you dislike early alarms, you can drop the one pre-dawn start and still keep the route intact."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k7",
+     "_type": "span",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "ka",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k8",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Duration:"
+    },
+    {
+     "_key": "k9",
+     "_type": "span",
+     "marks": [],
+     "text": " 5 days, 4 nights."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kd",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kb",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Start and end:"
+    },
+    {
+     "_key": "kc",
+     "_type": "span",
+     "marks": [],
+     "text": " Ngurah Rai International Airport, Denpasar."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kg",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ke",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best for:"
+    },
+    {
+     "_key": "kf",
+     "_type": "span",
+     "marks": [],
+     "text": " first-time visitors, couples, friends, solo travellers."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kj",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kh",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Not ideal for:"
+    },
+    {
+     "_key": "ki",
+     "_type": "span",
+     "marks": [],
+     "text": " travellers wanting island-hopping or a single-base resort week."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "km",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kk",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel style:"
+    },
+    {
+     "_key": "kl",
+     "_type": "span",
+     "marks": [],
+     "text": " active but realistic, three bases, mostly road transfers."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kp",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kn",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Budget:"
+    },
+    {
+     "_key": "ko",
+     "_type": "span",
+     "marks": [],
+     "text": " roughly US$200 to US$300 per person on a budget, or US$500 to US$700 mid-range, excluding flights, as a working estimate. Costs can change, so confirm current rates when you book."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ks",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kq",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Logistics level:"
+    },
+    {
+     "_key": "kr",
+     "_type": "span",
+     "marks": [],
+     "text": " easy. Short road transfers, no ferries or domestic flights."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kv",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kt",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best time:"
+    },
+    {
+     "_key": "ku",
+     "_type": "span",
+     "marks": [],
+     "text": " April to October, the drier window."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ky",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kw",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking difficulty:"
+    },
+    {
+     "_key": "kx",
+     "_type": "span",
+     "marks": [],
+     "text": " low to medium. The Kecak dance and your first Ubud nights are the items worth locking early."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "kz",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k10",
+     "_type": "span",
+     "marks": [],
+     "text": "Why this route makes sense"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k12",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k11",
+     "_type": "span",
+     "marks": [],
+     "text": "The order is north to south for one practical reason: each move brings you closer to the airport, so the final morning is relaxed rather than a long dash. Ubud sits inland and furthest from Ngurah Rai, Canggu is roughly halfway down the west coast, and Uluwatu sits on the southern peninsula about 30 to 45 minutes from departures in normal traffic."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k14",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k13",
+     "_type": "span",
+     "marks": [],
+     "text": "Front-loading Ubud also means you hit the temples, terraces and the optional Mount Batur sunrise while you still have full days, then wind down toward beaches and sunsets. Two nights in Ubud is the anchor because it has the most to see and the longest transfer in and out. Canggu and Uluwatu each get one night, which is enough for their headline experiences on a short trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k15",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k16",
+     "_type": "span",
+     "marks": [],
+     "text": "Before you fly: data and entry"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k1c",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k17",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic:"
+    },
+    {
+     "_key": "k18",
+     "_type": "span",
+     "marks": [],
+     "text": " sort connectivity before you land so maps, ride-hailing and messaging work from the curb. An "
+    },
+    {
+     "_key": "k1a",
+     "_type": "span",
+     "marks": [
+      "k19"
+     ],
+     "text": "Indonesia eSIM with Airalo"
+    },
+    {
+     "_key": "k1b",
+     "_type": "span",
+     "marks": [],
+     "text": " installed and activated on the plane means you are not hunting for wifi at arrivals. Fees and plan sizes can change, so check current options before you travel."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k19",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k1f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1d",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note:"
+    },
+    {
+     "_key": "k1e",
+     "_type": "span",
+     "marks": [],
+     "text": " most nationalities need the e-VOA, listed at IDR 500,000 (about US$35) for 30 days, plus Bali's one-time tourist levy of IDR 150,000 (about US$10). Apply and pay through the official portals before arrival to skip queues. Visa rules and fees change, so check the latest official guidance close to your trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k1g",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1h",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 1: Arrive and settle into Ubud"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k1q",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1i",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k1j",
+     "_type": "span",
+     "marks": [],
+     "text": " After landing at Ngurah Rai, head straight to Ubud. A "
+    },
+    {
+     "_key": "k1l",
+     "_type": "span",
+     "marks": [
+      "k1k"
+     ],
+     "text": "private airport transfer"
+    },
+    {
+     "_key": "k1m",
+     "_type": "span",
+     "marks": [],
+     "text": " using the "
+    },
+    {
+     "_key": "k1o",
+     "_type": "span",
+     "marks": [
+      "k1n"
+     ],
+     "text": "private airport transfer"
+    },
+    {
+     "_key": "k1p",
+     "_type": "span",
+     "marks": [],
+     "text": " removes the arrival-day friction of negotiating a ride after a long flight. The drive takes about 1.5 hours in normal traffic and up to two and a half in the late afternoon, so allow buffer time."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k1k",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali"
+    },
+    {
+     "_key": "k1n",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k1t",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1r",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening."
+    },
+    {
+     "_key": "k1s",
+     "_type": "span",
+     "marks": [],
+     "text": " Keep the first day simple. Check in, rest, then walk central Ubud. Jalan Bisma and the Campuhan Ridge Walk are both a short stroll, and a slow walk along the ridge at dusk is a gentle way to shake off the flight. Pass Ubud Palace and have a relaxed dinner nearby."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k1w",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1u",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base:"
+    },
+    {
+     "_key": "k1va",
+     "_type": "span",
+     "marks": [],
+     "text": " Ubud, 2 nights. Staying near Ubud Palace or Jalan Bisma keeps you walking distance from restaurants, the morning market and drivers. "
+    },
+    {
+     "_key": "k1vb",
+     "_type": "span",
+     "marks": [
+      "bk0ubud"
+     ],
+     "text": "Search Ubud stays on Booking.com"
+    },
+    {
+     "_key": "k1vc",
+     "_type": "span",
+     "marks": [],
+     "text": " when you compare areas."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "bk0ubud",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_UBUD"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k1z",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1x",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note:"
+    },
+    {
+     "_key": "k1y",
+     "_type": "span",
+     "marks": [],
+     "text": " if you land late, eat near your hotel and save sightseeing for the morning rather than forcing a tired drive into the hills."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k20",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k21",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 2: Ubud terraces, temples and a waterfall"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k24",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k22",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k23",
+     "_type": "span",
+     "marks": [],
+     "text": " This is your only full day in Ubud, so use it on the area's strongest stops: Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace, Tirta Empul Temple and a waterfall near town. Start early to beat the heat and the tour buses, since Tegalalang and the Monkey Forest are calmest before 9am."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k2d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k25",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic:"
+    },
+    {
+     "_key": "k26",
+     "_type": "span",
+     "marks": [],
+     "text": " these stops are spread out and awkward to chain by ride-hailing apps. A guided "
+    },
+    {
+     "_key": "k28",
+     "_type": "span",
+     "marks": [
+      "k27"
+     ],
+     "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+    },
+    {
+     "_key": "k29",
+     "_type": "span",
+     "marks": [],
+     "text": " via the "
+    },
+    {
+     "_key": "k2b",
+     "_type": "span",
+     "marks": [
+      "k2a"
+     ],
+     "text": "Ubud highlights tour"
+    },
+    {
+     "_key": "k2c",
+     "_type": "span",
+     "marks": [],
+     "text": " keeps the day focused and includes hotel pickup, which is why it is worth the spend here over piecing it together yourself."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k27",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali"
+    },
+    {
+     "_key": "k2a",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k2g",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2e",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k2f",
+     "_type": "span",
+     "marks": [],
+     "text": " Entry fees are small, a few dollars each, and at Tirta Empul you can join the holy-spring purification ritual if you bring a sarong and a change of clothes. Keep a hand on sunglasses and snacks around the macaques in the Monkey Forest, as they are bold and quick."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k2j",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2h",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening."
+    },
+    {
+     "_key": "k2i",
+     "_type": "span",
+     "marks": [],
+     "text": " If you want one highlight to prioritise, Tegalalang is the most visually distinctive and Tirta Empul the most culturally significant. For dinner, try nasi campur, bebek betutu or sate lilit."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k2k",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2l",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 3: Mount Batur sunrise, then move to Canggu"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k2r",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2m",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k2n",
+     "_type": "span",
+     "marks": [],
+     "text": " For a memorable early start, leave before dawn for a "
+    },
+    {
+     "_key": "k2p",
+     "_type": "span",
+     "marks": [
+      "k2o"
+     ],
+     "text": "Mount Batur sunrise jeep experience"
+    },
+    {
+     "_key": "k2q",
+     "_type": "span",
+     "marks": [],
+     "text": ". Expect a roughly 2am pickup and about a two-hour climb in the dark to reach the summit for sunrise over the lake and caldera. It is cold at the top, so bring a layer. You should be back in Ubud by mid-morning."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k2o",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k2x",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2s",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic:"
+    },
+    {
+     "_key": "k2t",
+     "_type": "span",
+     "marks": [],
+     "text": " if a pre-dawn alarm is not for you, skip Batur and do a "
+    },
+    {
+     "_key": "k2v",
+     "_type": "span",
+     "marks": [
+      "k2u"
+     ],
+     "text": "Balinese cooking class"
+    },
+    {
+     "_key": "k2w",
+     "_type": "span",
+     "marks": [],
+     "text": " instead before the transfer. Both are good uses of the morning, so choose by energy level, not fear of missing out."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k2u",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k33",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k2y",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k2z",
+     "_type": "span",
+     "marks": [],
+     "text": " After breakfast, check out and move to Canggu with a "
+    },
+    {
+     "_key": "k31",
+     "_type": "span",
+     "marks": [
+      "k30"
+     ],
+     "text": "private car charter"
+    },
+    {
+     "_key": "k32",
+     "_type": "span",
+     "marks": [],
+     "text": ". The drive takes about 1 to 1.5 hours and a private car makes the door-to-door move with luggage simpler than juggling app rides."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k30",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k36",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k34",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening."
+    },
+    {
+     "_key": "k35",
+     "_type": "span",
+     "marks": [],
+     "text": " Batu Bolong and Echo Beach are the classic spots for a first sunset drink."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k39",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k37",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base:"
+    },
+    {
+     "_key": "k38a",
+     "_type": "span",
+     "marks": [],
+     "text": " Canggu, 1 night. The Batu Bolong or Berawa area gives the best beach access. "
+    },
+    {
+     "_key": "k38b",
+     "_type": "span",
+     "marks": [
+      "bk1canggu"
+     ],
+     "text": "Search Canggu stays on Booking.com"
+    },
+    {
+     "_key": "k38c",
+     "_type": "span",
+     "marks": [],
+     "text": " to compare."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "bk1canggu",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_CANGGU"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k3a",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3b",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 4: Slow Canggu morning, Uluwatu sunset"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k3e",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3c",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k3d",
+     "_type": "span",
+     "marks": [],
+     "text": " Start slowly with breakfast, coffee and a short beach walk in Canggu. This is a soft day by design after the early Batur start."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k3h",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3f",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k3g",
+     "_type": "span",
+     "marks": [],
+     "text": " Around midday, leave for Uluwatu, about a 1 to 1.5 hour drive south. Spend the afternoon at Padang Padang, Bingin or Melasti Beach."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k3n",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3i",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening."
+    },
+    {
+     "_key": "k3j",
+     "_type": "span",
+     "marks": [],
+     "text": " In the late afternoon, visit Uluwatu Temple and stay for the clifftop "
+    },
+    {
+     "_key": "k3l",
+     "_type": "span",
+     "marks": [
+      "k3k"
+     ],
+     "text": "Kecak fire dance at Uluwatu"
+    },
+    {
+     "_key": "k3m",
+     "_type": "span",
+     "marks": [],
+     "text": ". It starts around 6pm as the sun drops behind the sea, and tickets sell out, so book ahead. Skip-the-line tickets give you a good seat without queuing. The cliffside setting is one of the strongest ways to close a short Bali trip. Afterwards, eat in Uluwatu or head to Jimbaran for seafood by the beach."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k3k",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_ULUWATU_KECAK"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k3q",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3o",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base:"
+    },
+    {
+     "_key": "k3pa",
+     "_type": "span",
+     "marks": [],
+     "text": " Uluwatu, 1 night. It sits closer to the airport than Ubud or Canggu, around 30 to 45 minutes in normal traffic. "
+    },
+    {
+     "_key": "k3pb",
+     "_type": "span",
+     "marks": [
+      "bk2uluwatu"
+     ],
+     "text": "Search Uluwatu stays on Booking.com"
+    },
+    {
+     "_key": "k3pc",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "bk2uluwatu",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_ULUWATU"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k3t",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3r",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note:"
+    },
+    {
+     "_key": "k3s",
+     "_type": "span",
+     "marks": [],
+     "text": " watch your belongings near the temple's resident monkeys, which are known for snatching glasses and phones from distracted visitors."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k3u",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3v",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 5: Slow morning and departure"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k3y",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3w",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k3x",
+     "_type": "span",
+     "marks": [],
+     "text": " Take the final morning slowly. An ocean-view breakfast, a short beach walk or a last massage all fit, since Uluwatu is only about 30 to 45 minutes from the airport."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k41",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3z",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note:"
+    },
+    {
+     "_key": "k40",
+     "_type": "span",
+     "marks": [],
+     "text": " if you did not pay the IDR 150,000 (about US$10) Bali tourist levy on arrival, settle it online before you leave to skip the queue. Build in buffer time for check-in on busy afternoon and evening flights, and confirm your departure time against current traffic."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k42",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k43",
+     "_type": "span",
+     "marks": [],
+     "text": "What to book early, and what to keep flexible"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k46",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k44",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early:"
+    },
+    {
+     "_key": "k45",
+     "_type": "span",
+     "marks": [],
+     "text": " your first two Ubud nights, since arrival-day logistics are easier when your base is locked, and the Kecak fire dance, which sells out in peak months. If you want the Mount Batur sunrise, reserve it a day or two ahead so pickup is arranged."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k49",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k47",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Keep flexible:"
+    },
+    {
+     "_key": "k48",
+     "_type": "span",
+     "marks": [],
+     "text": " the Canggu and Uluwatu beach choices, your restaurants, and whether Day 3 is Batur or a cooking class. None of these need committing in advance, so you can read the weather and your energy on the day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4a",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4b",
+     "_type": "span",
+     "marks": [],
+     "text": "Mistakes travellers make on a 5-day Bali trip"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k4d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4c",
+     "_type": "span",
+     "marks": [],
+     "text": "The biggest one is trying to add Nusa Penida or the Gili Islands to five days. The boat days and transfers eat the trip, and you end up rushing the mainland. Save the islands for a longer visit."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4e",
+     "_type": "span",
+     "marks": [],
+     "text": "A second mistake is basing in one spot and day-tripping everywhere, which means hours in traffic daily. Changing base three times along this route keeps each drive short. A third is underestimating afternoon traffic on the Ubud road and the airport approach, so always pad transfer times rather than booking back-to-back."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4g",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4h",
+     "_type": "span",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k4k",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4i",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Cut:"
+    },
+    {
+     "_key": "k4j",
+     "_type": "span",
+     "marks": [],
+     "text": " the Mount Batur sunrise if early starts ruin your day. Swap in the cooking class and a slower Ubud morning with no real loss to the route."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4n",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4l",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Adapt:"
+    },
+    {
+     "_key": "k4m",
+     "_type": "span",
+     "marks": [],
+     "text": " if you want more beach time, shift the extra night from Ubud to Uluwatu and treat Canggu as a daytime stop on the way south. The FAQ split of two nights coast-side works well for sun-seekers."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4q",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4o",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Upgrade:"
+    },
+    {
+     "_key": "k4p",
+     "_type": "span",
+     "marks": [],
+     "text": " a full-day private driver for the Ubud sights instead of a group tour buys you control over timing and stops, which matters most if you want the terraces before the crowds. Costs change, so confirm current driver day rates when you arrange it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4r",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4s",
+     "_type": "span",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k4v",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4t",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best time:"
+    },
+    {
+     "_key": "k4u",
+     "_type": "span",
+     "marks": [],
+     "text": " April to October is the drier window and the easier season for this outdoor-heavy route."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k4y",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4w",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Visa and entry:"
+    },
+    {
+     "_key": "k4x",
+     "_type": "span",
+     "marks": [],
+     "text": " most nationalities use the e-VOA, listed at IDR 500,000 (about US$35) for 30 days, plus the one-time tourist levy of IDR 150,000 (about US$10). Apply and pay via the official portals before arrival. Rules change, so check the latest official guidance."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k51",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k4z",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Domestic transport:"
+    },
+    {
+     "_key": "k50",
+     "_type": "span",
+     "marks": [],
+     "text": " Grab and Gojek apps cover affordable cars and scooter-taxis. A private driver for full-day sightseeing runs around IDR 700,000 to 900,000 per day as a working estimate. Scooter rental is cheap and flexible but only sensible for confident riders, as traffic is the main risk."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k54",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k52",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Ferries and remote logistics:"
+    },
+    {
+     "_key": "k53",
+     "_type": "span",
+     "marks": [],
+     "text": " none on this route, which is part of why it stays easy. That changes the moment you add Nusa Penida or the Gilis."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k57",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k55",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Money and eSIM:"
+    },
+    {
+     "_key": "k56",
+     "_type": "span",
+     "marks": [],
+     "text": " carry some cash for small entries and warungs, and set up an Indonesia eSIM with Airalo before you fly so you have data on landing."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5a",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k58",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early vs flexible:"
+    },
+    {
+     "_key": "k59",
+     "_type": "span",
+     "marks": [],
+     "text": " lock Ubud nights and the Kecak dance, keep beaches, food and the Day 3 choice open."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5c",
+     "_type": "span",
+     "marks": [],
+     "text": "Final verdict"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k5e",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5d",
+     "_type": "span",
+     "marks": [],
+     "text": "Do this trip if you want a clear, low-stress first taste of Bali that shows three genuinely different sides of the island in five days without long ferry days or constant repacking. The north-to-south flow is the quiet strength here, since it shortens every transfer toward your flight."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5g",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5f",
+     "_type": "span",
+     "marks": [],
+     "text": "Do not do this trip if your heart is set on Nusa Penida, the Gili Islands or a single-resort week. For those, give yourself seven days or more, or pick a different structure. For everyone else on a tight schedule, this route delivers contrast over a checklist, which is the right trade on a short visit."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k5h",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5i",
+     "_type": "span",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k5n",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5j",
+     "_type": "span",
+     "marks": [],
+     "text": "If you have more time, extend with an island leg using a "
+    },
+    {
+     "_key": "k5l",
+     "_type": "span",
+     "marks": [
+      "k5k"
+     ],
+     "text": "7-day Bali and Nusa Penida itinerary"
+    },
+    {
+     "_key": "k5m",
+     "_type": "span",
+     "marks": [],
+     "text": " so the boat days have room to breathe."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k5k",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-bali-first-timers"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k5s",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5o",
+     "_type": "span",
+     "marks": [],
+     "text": "Prefer a beach-led version? Compare a "
+    },
+    {
+     "_key": "k5q",
+     "_type": "span",
+     "marks": [
+      "k5p"
+     ],
+     "text": "Bali surf and beaches itinerary"
+    },
+    {
+     "_key": "k5r",
+     "_type": "span",
+     "marks": [],
+     "text": " that leans into Canggu and Uluwatu."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k5p",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k5x",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5t",
+     "_type": "span",
+     "marks": [],
+     "text": "For area guides, hotel zones and transport detail, see the "
+    },
+    {
+     "_key": "k5v",
+     "_type": "span",
+     "marks": [
+      "k5u"
+     ],
+     "text": "Bali destination hub"
+    },
+    {
+     "_key": "k5w",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k5u",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "h7",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "s8",
+     "_type": "span",
+     "marks": [],
+     "text": "If you dive, the east and northwest coasts are a wholly different Bali from this one. Our "
+    },
+    {
+     "_key": "s9",
+     "_type": "span",
+     "marks": [
+      "m6"
+     ],
+     "text": "7-day Bali diving itinerary for Amed, Tulamben and Menjangan"
+    },
+    {
+     "_key": "s10",
+     "_type": "span",
+     "marks": [],
+     "text": " covers the USAT Liberty wreck and the Menjangan walls, and it explains why the last dive has to end a day before your flight."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "m6",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-bali-diving-tulamben-amed-menjangan"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "89cm4uuj1v",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "nv6j3kd3m1",
+     "_type": "span",
+     "marks": [],
+     "text": "Getting around: "
+    },
+    {
+     "_key": "ku49mkz2xx",
+     "_type": "span",
+     "marks": [
+      "7bjc1me7nq"
+     ],
+     "text": "Denpasar Airport to Ubud"
+    },
+    {
+     "_key": "yt1w7vv20t",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "7bjc1me7nq",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/transport/denpasar-airport-to-ubud"
+    }
+   ],
+   "style": "normal"
+  }
+ ],
+ "contentStatus": "live",
+ "destinationPrimary": "bali",
+ "destinationSecondary": [],
+ "experienceTags": [
+  "rice_terraces",
+  "temples",
+  "waterfalls",
+  "volcano_sunrise",
+  "beach_sunset",
+  "cultural_performance",
+  "private_drivers",
+  "airport_transfers"
+ ],
+ "faq": [
+  {
+   "answer": "Yes, for a focused first taste. Five days comfortably covers Ubud (rice terraces, temples, waterfalls), Canggu (beaches and cafes) and Uluwatu (clifftop sunsets and the Kecak fire dance), but it is tight for adding island day trips. Save Nusa Penida for a 7-day-plus trip.",
+   "question": "Is 5 days enough for Bali?"
+  },
+  {
+   "answer": "Base in two areas to avoid daily long drives: two nights in Ubud for culture and nature, then two or three nights in Canggu or near Uluwatu for the coast. The Ubud-to-south transfer takes about 1.5 to 2 hours depending on traffic, so build in buffer time.",
+   "question": "What is the best way to split 5 days in Bali?"
+  },
+  {
+   "answer": "Use the Grab and Gojek apps for affordable cars and scooter-taxis, or hire a private driver for full-day sightseeing at around IDR 700,000 to 900,000 per day as a working estimate. Renting a scooter is cheap and flexible but only advisable for confident riders, since traffic is the main risk.",
+   "question": "How do I get around Bali for 5 days?"
+  },
+  {
+   "answer": "For most nationalities, yes to both: the e-VOA is listed at IDR 500,000 (about US$35) for 30 days, and Bali's tourist levy is a one-time IDR 150,000 (about US$10). Apply for the e-VOA and pay the levy through the official portals before arrival. Fees and rules can change, so check the latest official guidance.",
+   "question": "Do I need a visa and pay a tourist tax?"
+  },
+  {
+   "answer": "As a working estimate, roughly US$200 to US$300 per person on a budget (guesthouses, local food, Grab) or US$500 to US$700 mid-range (boutique stays, a private driver, nicer restaurants), excluding flights. The Kecak dance ticket and temple entries add only a few dollars each. Prices can change, so confirm current rates.",
+   "question": "How much does 5 days in Bali cost?"
+  },
+  {
+   "answer": "Yes. The Batur sunrise means a roughly 2am pickup, so if that is not for you, swap in a Balinese cooking class and a slower Ubud morning before moving to Canggu. The route stays intact either way.",
+   "question": "Can I skip the early Mount Batur start?"
+  }
+ ],
+ "focusKeyword": "5 days in Bali itinerary",
+ "heroImage": {
+  "_type": "image",
+  "alt": "Bali highlights — Ubud rice terraces, Canggu surf and Uluwatu cliffs",
+  "asset": {
+   "_ref": "image-f2745b557cc187a22534ee6682f90d0028d11f99-5116x3401-jpg",
+   "_type": "reference"
+  },
+  "caption": "Ubud → Canggu → Uluwatu"
+ },
+ "intro": "Five days in Bali forces a choice: chase everything and spend half your trip in traffic, or pick three places that genuinely contrast and let each one land. This route does the second. Ubud gives you rice terraces and temples, Canggu gives you cafes and a beach sunset, Uluwatu gives you cliffs and the Kecak fire dance, with the airport close at the end. It moves north to south so each transfer shortens the road back to your flight.",
+ "logisticsComplexity": "easy",
+ "metaDescription": "A practical 5-day Bali itinerary, Ubud to Canggu to Uluwatu, with day-by-day logic, transfer times, booking advice and honest trade-offs.",
+ "metaTitle": "Bali in 5 Days: Ubud, Canggu & Uluwatu Trip Plan",
+ "primaryAffiliatePartner": "viator",
+ "route": "Ubud → Canggu → Uluwatu",
+ "secondaryAffiliatePartners": [
+  "klook",
+  "booking",
+  "airalo"
+ ],
+ "slug": {
+  "_type": "slug",
+  "current": "5-days-bali-ubud-canggu-uluwatu"
+ },
+ "title": "5 Days in Bali: Ubud, Canggu and Uluwatu",
+ "travelStylePrimary": "first_time_indonesia",
+ "travelStyleSecondary": [
+  "culture_temples",
+  "beach_islands"
+ ],
+ "travellerTypes": [
+  "couples",
+  "friends",
+  "solo_travellers"
+ ],
+ "tripLengthBucket": "short_escape",
+ "tripLengthDays": 5,
+ "vibe": "active"
 }

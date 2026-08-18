@@ -1,1361 +1,1525 @@
 {
-  "_id": "itinerary-6-days-nusa-penida-diving-manta-mola",
-  "_type": "article",
-  "affiliateLinks": [
-    {
-      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-      "anchorText": "Indonesia eSIM with Airalo",
-      "experienceCategory": "other",
-      "linkStatus": "live",
-      "partner": "airalo",
-      "placeholderId": "AIRALO_INDONESIA",
-      "publicUrl": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-      "affiliateUrl": "https://12go.asia/en/travel/sanur/nusa-penida?z=16022946",
-      "anchorText": "compare Sanur to Nusa Penida crossings on 12Go",
-      "experienceCategory": "ferry",
-      "linkStatus": "live",
-      "partner": "12go",
-      "placeholderId": "12GO_SANUR_NUSA_PENIDA",
-      "publicUrl": "https://12go.asia/en/travel/sanur/nusa-penida"
-    },
-    {
-      "affiliateUrl": "https://www.viator.com/tours/Kuta/Nusa-Penida-and-Manta-Point-Day-Dive-in-Bali-Close-Encounter-With-Manta-Ray/d22290-9217P3?pid=P00303362&mcid=42383&medium=link&campaign=nusa-penida-diving",
-      "anchorText": "this certified-diver Manta Point trip",
-      "experienceCategory": "activity",
-      "linkStatus": "live",
-      "partner": "viator",
-      "placeholderId": "VIATOR_NUSA_PENIDA_MANTA_DIVE",
-      "publicUrl": "https://www.viator.com/tours/Kuta/Nusa-Penida-and-Manta-Point-Day-Dive-in-Bali-Close-Encounter-With-Manta-Ray/d22290-9217P3"
-    },
-    {
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "anchorText": "stays on Nusa Penida",
-      "experienceCategory": "accommodation",
-      "linkStatus": "live",
-      "partner": "Booking.com",
-      "placeholderId": "BOOKING_NUSA_PENIDA",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    }
-  ],
-  "articleCreatedDate": "2026-08-07",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
+ "_id": "itinerary-6-days-nusa-penida-diving-manta-mola",
+ "_type": "article",
+ "affiliateLinks": [
+  {
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+   "anchorText": "Indonesia eSIM with Airalo",
+   "experienceCategory": "other",
+   "linkStatus": "live",
+   "partner": "airalo",
+   "placeholderId": "AIRALO_INDONESIA",
+   "publicUrl": "https://www.airalo.com/indonesia-esim"
   },
-  "bestSeason": "May–October",
-  "body": [
-    {
-      "_key": "nb2",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns1",
-          "_type": "span",
-          "marks": [],
-          "text": "Nusa Penida is the rare dive destination where the headline animals are genuinely reliable and the diving is genuinely demanding. Mantas patrol a single exposed bay in the swell, and the mola mola comes up out of cold water for a few months a year. Most people try to do it as a day trip from Bali, get one rushed dive at Manta Point, and leave thinking they saw it. Six days based on the island turns the same sites into a proper trip: you dive on the right tide instead of the tour schedule, and you get second chances when the sea says no."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb4",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns3",
-          "_type": "span",
-          "marks": [],
-          "text": "Who this trip is for"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb6",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns5",
-          "_type": "span",
-          "marks": [],
-          "text": "Certified divers with some current experience who want the two signature animals without treating them as a lottery ticket. It suits couples and friends who dive together, and repeat visitors to Bali who have done the temples and want a week in the water instead."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb8",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns7",
-          "_type": "span",
-          "marks": [],
-          "text": "It is not for you if you are newly certified and nervous, if you want to learn to dive from scratch, or if you need smooth roads and reliable card payment. Nusa Penida's sites have real current, and the island's interior tracks are rough. If you want easy warm water and a beginner course, the Gili Islands are the better call."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb10",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns9",
-          "_type": "span",
-          "marks": [],
-          "text": "Trip at a glance"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb13",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns11",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Route: "
-        },
-        {
-          "_key": "ns12",
-          "_type": "span",
-          "marks": [],
-          "text": "Sanur to Nusa Penida, six nights on the island, back to Sanur."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb16",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns14",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base changes: "
-        },
-        {
-          "_key": "ns15",
-          "_type": "span",
-          "marks": [],
-          "text": "One. You stay on Nusa Penida the whole time, which is the entire point of the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb19",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns17",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Dive days: "
-        },
-        {
-          "_key": "ns18",
-          "_type": "span",
-          "marks": [],
-          "text": "Four, with two rest days built in so a cancelled boat does not end the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb22",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns20",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Pace: "
-        },
-        {
-          "_key": "ns21",
-          "_type": "span",
-          "marks": [],
-          "text": "Active. Early boats, long surface intervals, cold water on the mola dives."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb24",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns23",
-          "_type": "span",
-          "marks": [],
-          "text": "Why this route makes sense"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb26",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns25",
-          "_type": "span",
-          "marks": [],
-          "text": "The mistake is treating Nusa Penida as a day trip. Manta Point sits on the exposed south-west coast and gets shut down by swell with no warning, and Crystal Bay's thermocline moves. Both are tide-dependent. Staying on the island means your dive shop picks the slot that actually works that morning instead of the one that fits a Bali pickup schedule, and a blown-out day costs you a morning rather than the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb28",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns27",
-          "_type": "span",
-          "marks": [],
-          "text": "When can you see mola mola and manta rays in Nusa Penida?"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb30",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns29",
-          "_type": "span",
-          "marks": [],
-          "text": "Mantas are around all year at Manta Point, with better concentrations from roughly May to October. Mola mola is seasonal and much narrower: the usual window is July to October, when colder water pushes them up to cleaning stations. Neither is guaranteed on any given dive, so plan several attempts rather than one."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nt31",
-      "_type": "comparisonTable",
-      "caption": "Seasons are a planning guide, not a promise. Ask your dive shop what the last two weeks have actually been like before you commit.",
-      "columns": ["What you came for", "Realistic window", "Where", "What can stop you"],
-      "rows": [
-        {
-          "_key": "nr32",
-          "cells": [
-            "Manta rays",
-            "Year-round, better May to October",
-            "Manta Point, Manta Bay",
-            "Swell on the exposed south-west coast closes the site"
-          ]
-        },
-        {
-          "_key": "nr33",
-          "cells": [
-            "Mola mola",
-            "Roughly July to October",
-            "Crystal Bay, Blue Corner",
-            "Deep, cold and current-heavy, and they simply may not come up"
-          ]
-        },
-        {
-          "_key": "nr34",
-          "cells": [
-            "Easy reef diving",
-            "Year-round",
-            "Toyapakeh, Gamat Bay",
-            "Little. This is the fallback when the big sites are shut"
-          ]
-        }
-      ]
-    },
-    {
-      "_key": "nb36",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns35",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 1: Cross to Nusa Penida and set up"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb39",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns37",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns38",
-          "_type": "span",
-          "marks": [],
-          "text": "Take an early fast boat from Sanur. The crossing runs about 30 to 45 minutes and boats are frequent, so this is one of the easier island hops in Bali."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb42",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns40",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns41",
-          "_type": "span",
-          "marks": [],
-          "text": "Settle in and walk to your dive shop in person. Talk through the week, your logged dives and what has been diveable lately."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb45",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns43",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "ns44",
-          "_type": "span",
-          "marks": [],
-          "text": "Eat early. Boats leave at first light and the island goes quiet."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb48",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns46",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base: "
-        },
-        {
-          "_key": "ns47",
-          "_type": "span",
-          "marks": [],
-          "text": "Nusa Penida, six nights, near Toyapakeh or Ped for the shortest morning transfers to the harbour."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb54",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns50",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "ns51",
-          "_type": "span",
-          "marks": [],
-          "text": "Fast boats run all morning, and you can "
-        },
-        {
-          "_key": "ns52",
-          "_type": "span",
-          "marks": ["nm49"],
-          "text": "compare Sanur to Nusa Penida crossings on 12Go"
-        },
-        {
-          "_key": "ns53",
-          "_type": "span",
-          "marks": [],
-          "text": ". Published fares start around IDR 135,000, though this varies by operator and season."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm49",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_SANUR_NUSA_PENIDA"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb57",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns55",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns56",
-          "_type": "span",
-          "marks": [],
-          "text": "There are no ATMs on the island as of 2026. Boat tickets, dive trips, meals and scooter rental are cash, so draw what you need in Bali before you board."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb59",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns58",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 2: Two check dives on the calm side"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb62",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns60",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns61",
-          "_type": "span",
-          "marks": [],
-          "text": "Toyapakeh and Gamat Bay. Sheltered, colourful and a fair test of how you handle mild current before the island's harder sites."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb65",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns63",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns64",
-          "_type": "span",
-          "marks": [],
-          "text": "Rest properly. Do not stack a third dive on day one of a six-day trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb68",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns66",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "ns67",
-          "_type": "span",
-          "marks": [],
-          "text": "Confirm tomorrow's plan with the shop. Manta Point is decided the morning of, not the night before."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb71",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns69",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns70",
-          "_type": "span",
-          "marks": [],
-          "text": "If you have not dived in over a year, say so and pay for the refresher here. Manta Point in swell is not where you want to rediscover your buoyancy."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb73",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns72",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 3: Manta Point, on the first slot"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb76",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns74",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns75",
-          "_type": "span",
-          "marks": [],
-          "text": "Manta Point. Take the earliest boat: wind and swell usually build through the day, and the site closes when it does."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb79",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns77",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns78",
-          "_type": "span",
-          "marks": [],
-          "text": "A second easy dive if conditions hold, otherwise the cliffs at Kelingking on land."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb82",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns80",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "ns81",
-          "_type": "span",
-          "marks": [],
-          "text": "Early night. If the mantas did not show, you still have three days."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb88",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns84",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic: "
-        },
-        {
-          "_key": "ns85",
-          "_type": "span",
-          "marks": [],
-          "text": "If your shop is full or you are still based in Bali for this leg, "
-        },
-        {
-          "_key": "ns86",
-          "_type": "span",
-          "marks": ["nm83"],
-          "text": "this certified-diver Manta Point trip"
-        },
-        {
-          "_key": "ns87",
-          "_type": "span",
-          "marks": [],
-          "text": " is a working alternative, though diving from the island beats a day trip from the mainland."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm83",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "VIATOR_NUSA_PENIDA_MANTA_DIVE"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb91",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns89",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns90",
-          "_type": "span",
-          "marks": [],
-          "text": "The surge at Manta Point is the real difficulty, not depth. It is shallow, and that is exactly why it moves you around."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb93",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns92",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 4: Crystal Bay and the cold water"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb96",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns94",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns95",
-          "_type": "span",
-          "marks": [],
-          "text": "Crystal Bay. In mola season this is the site, and it is cold, deep and current-heavy. Follow the guide's plan exactly."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb99",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns97",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns98",
-          "_type": "span",
-          "marks": [],
-          "text": "Surface interval and a slow lunch. Two dives here is plenty."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb102",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns100",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "ns101",
-          "_type": "span",
-          "marks": [],
-          "text": "Nothing. This is a tiring day."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb105",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns103",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns104",
-          "_type": "span",
-          "marks": [],
-          "text": "Water at depth here is noticeably colder than the rest of Bali. Divers regularly underestimate this and cut the dive short, so rent the thicker wetsuit."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb107",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns106",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 5: A land day, deliberately"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb110",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns108",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns109",
-          "_type": "span",
-          "marks": [],
-          "text": "Kelingking, Angel's Billabong and Broken Beach by scooter or driver. The roads are rough and the viewpoints are genuinely worth it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb113",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns111",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns112",
-          "_type": "span",
-          "marks": [],
-          "text": "Rest. This day exists so that a cancelled dive earlier in the week has somewhere to move to."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb116",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns114",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening. "
-        },
-        {
-          "_key": "ns115",
-          "_type": "span",
-          "marks": [],
-          "text": "If you lost a dive day to swell, this is when you claim it back."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb119",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns117",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns118",
-          "_type": "span",
-          "marks": [],
-          "text": "Scooter accidents are the most common way this trip goes wrong. The descents are steep and loose. Hire a driver if you are not confident, and never ride the day before a dive."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb121",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns120",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 6: A last dive, then the boat back"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb124",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns122",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning. "
-        },
-        {
-          "_key": "ns123",
-          "_type": "span",
-          "marks": [],
-          "text": "One easy dive if your flight allows. Otherwise snorkel Manta Bay from the surface, which is a genuinely good consolation."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb127",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns125",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon. "
-        },
-        {
-          "_key": "ns126",
-          "_type": "span",
-          "marks": [],
-          "text": "Fast boat back to Sanur."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb130",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns128",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note: "
-        },
-        {
-          "_key": "ns129",
-          "_type": "span",
-          "marks": [],
-          "text": "Leave at least 18 to 24 hours between your last dive and any flight. This is the single most common way divers ruin an otherwise good trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb132",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns131",
-          "_type": "span",
-          "marks": [],
-          "text": "What to book early, and what to keep flexible"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb134",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns133",
-          "_type": "span",
-          "marks": [],
-          "text": "Book the dive shop and your room ahead, especially from July to October when mola season collides with peak season and the island is small. Leave the individual dive sites completely open. Any shop that promises you Manta Point on a fixed date before seeing the forecast is selling you something it cannot control."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb140",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns136",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Book early: "
-        },
-        {
-          "_key": "ns137",
-          "_type": "span",
-          "marks": [],
-          "text": "Rooms near the north coast harbours fill first in mola season, so compare "
-        },
-        {
-          "_key": "ns138",
-          "_type": "span",
-          "marks": ["nm135"],
-          "text": "stays on Nusa Penida"
-        },
-        {
-          "_key": "ns139",
-          "_type": "span",
-          "marks": [],
-          "text": " well before you book flights."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm135",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_NUSA_PENIDA"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb142",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns141",
-          "_type": "span",
-          "marks": [],
-          "text": "Mistakes divers make in Nusa Penida"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb144",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns143",
-          "_type": "span",
-          "marks": [],
-          "text": "Treating it as a Bali day trip is the big one: one dive, wrong tide, no second chance. Close behind is arriving with no cash, underestimating the cold at Crystal Bay, and booking a flight home the morning after the last dive. The current-heavy sites also catch out divers who logged their last dive three years ago and did not mention it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb146",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns145",
-          "_type": "span",
-          "marks": [],
-          "text": "What to cut, adapt or upgrade"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb148",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns147",
-          "_type": "span",
-          "marks": [],
-          "text": "Short on time, cut day 5 and run this in five days, accepting that you lose your weather buffer. Travelling outside mola season, drop Crystal Bay's deep profile and spend that day on the reefs at Toyapakeh instead. Upgrading, add Nusa Lembongan for two nights: it is a short crossing and a much gentler island in the evenings."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb150",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns149",
-          "_type": "span",
-          "marks": [],
-          "text": "Before you build this trip"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb153",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns151",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Money. "
-        },
-        {
-          "_key": "ns152",
-          "_type": "span",
-          "marks": [],
-          "text": "Cash only on the island, no ATMs as of 2026. Fun dives were running around IDR 500,000 per dive in 2026, with multi-dive packages cheaper per dive. Treat this as a working estimate and confirm with your shop."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb156",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns154",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Certification. "
-        },
-        {
-          "_key": "ns155",
-          "_type": "span",
-          "marks": [],
-          "text": "Bring your card and your logbook. Shops here do check, and they are right to."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb159",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns157",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Insurance. "
-        },
-        {
-          "_key": "ns158",
-          "_type": "span",
-          "marks": [],
-          "text": "Make sure your policy actually covers recreational diving to the depths you plan. Many standard travel policies do not."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb165",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns161",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Connectivity. "
-        },
-        {
-          "_key": "ns162",
-          "_type": "span",
-          "marks": [],
-          "text": "Signal is patchy on the island's south side, which matters when your dive shop moves the pickup time. An "
-        },
-        {
-          "_key": "ns163",
-          "_type": "span",
-          "marks": ["nm160"],
-          "text": "Indonesia eSIM with Airalo"
-        },
-        {
-          "_key": "ns164",
-          "_type": "span",
-          "marks": [],
-          "text": " keeps you reachable without hunting for a local SIM."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm160",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "AIRALO_INDONESIA"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb167",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns166",
-          "_type": "span",
-          "marks": [],
-          "text": "Final verdict"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb169",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns168",
-          "_type": "span",
-          "marks": [],
-          "text": "This is the best short dive trip in Bali's orbit, and almost everyone does it wrong. The animals are real and reasonably reliable, but only if you give the sea more than one morning to cooperate. Six days on the island costs barely more than a string of day trips and turns a coin flip into a genuinely good week of diving. If you are not a confident diver in current, go to the Gilis first and come back to this one."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "nb171",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns170",
-          "_type": "span",
-          "marks": [],
-          "text": "Related itineraries"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "nb176",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns173",
-          "_type": "span",
-          "marks": [],
-          "text": "For the same islands without the tanks, see our "
-        },
-        {
-          "_key": "ns174",
-          "_type": "span",
-          "marks": ["nm172"],
-          "text": "5 days in Nusa Penida and Nusa Lembongan"
-        },
-        {
-          "_key": "ns175",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm172",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "https://exploreindonesia.ai/trips/5-days-nusa-penida-lembongan"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb181",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns178",
-          "_type": "span",
-          "marks": [],
-          "text": "If you would rather learn to dive first, start with "
-        },
-        {
-          "_key": "ns179",
-          "_type": "span",
-          "marks": ["nm177"],
-          "text": "7 days learning to dive in the Gili Islands"
-        },
-        {
-          "_key": "ns180",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm177",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "https://exploreindonesia.ai/trips/7-days-gili-islands-learn-to-dive"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "nb186",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "ns183",
-          "_type": "span",
-          "marks": [],
-          "text": "For how the islands around Bali compare, see "
-        },
-        {
-          "_key": "ns184",
-          "_type": "span",
-          "marks": ["nm182"],
-          "text": "islands near Bali"
-        },
-        {
-          "_key": "ns185",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "nm182",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "https://exploreindonesia.ai/destinations/bali-nearby-islands"
-        }
-      ],
-      "style": "normal"
-    }
-  ],
-  "contentStatus": "draft",
-  "destinationPrimary": "bali_nearby_islands",
-  "destinationSecondary": ["bali"],
-  "faq": [
-    {
-      "_type": "faqItem",
-      "answer": "Not really. The signature sites have real current and surge, and Crystal Bay is deep and cold. Newly certified divers are better off building experience somewhere gentler, like the Gili Islands, and coming back.",
-      "question": "Is Nusa Penida good for beginner divers?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "Roughly May to October for mantas, and July to October if mola mola is your priority. Conditions still change day to day, so plan several dive days rather than one.",
-      "question": "When is the best time to dive Nusa Penida?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "You can, and many people do, but you get one shot on whatever tide the tour schedule allows. If Manta Point is closed by swell that morning, the trip is over. Staying on the island is the fix.",
-      "question": "Can you dive Nusa Penida as a day trip from Bali?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "Fun dives were running around IDR 500,000 per dive in 2026, with multi-dive packages cheaper per dive. Prices change and vary by shop, so treat that as a working estimate and confirm directly.",
-      "question": "How much does diving in Nusa Penida cost?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "No, as of 2026 there are none, and card payment is unreliable. Bring enough cash from Bali for boats, dives, food and transport.",
-      "question": "Are there ATMs on Nusa Penida?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "Fast boats from Sanur take about 30 to 45 minutes and run frequently through the morning. Book the earliest crossing on your arrival day so a cancellation still leaves you options.",
-      "question": "How do you get from Bali to Nusa Penida?"
-    },
-    {
-      "_type": "faqItem",
-      "answer": "Leave at least 18 to 24 hours between your last dive and a flight. Build the buffer into the itinerary rather than hoping the last dive runs early.",
-      "question": "How long should you wait to fly after diving?"
-    }
-  ],
-  "focusKeyword": "Nusa Penida diving",
-  "intro": "Six days based on Nusa Penida, built so the sea gets more than one chance to cooperate at Manta Point and Crystal Bay.",
-  "metaDescription": "A 6-day Nusa Penida dive trip: when mantas and mola mola actually show, which sites close in swell, and why day trips from Bali get it wrong.",
-  "metaTitle": "Nusa Penida Diving: Manta Point, Mola Mola, 6 Days",
-  "route": "Sanur → Nusa Penida → Sanur",
-  "slug": {
-    "_type": "slug",
-    "current": "6-days-nusa-penida-diving-manta-mola"
+  {
+   "affiliateUrl": "https://12go.asia/en/travel/sanur/nusa-penida?z=16022946",
+   "anchorText": "compare Sanur to Nusa Penida crossings on 12Go",
+   "experienceCategory": "ferry",
+   "linkStatus": "live",
+   "partner": "12go",
+   "placeholderId": "12GO_SANUR_NUSA_PENIDA",
+   "publicUrl": "https://12go.asia/en/travel/sanur/nusa-penida"
   },
-  "title": "6 Days Diving Nusa Penida: Manta Point, Crystal Bay and Mola Mola",
-  "travelStylePrimary": "diving_snorkeling",
-  "travellerTypes": ["divers", "couples", "friends"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 6,
-  "vibe": "active"
+  {
+   "affiliateUrl": "https://www.viator.com/tours/Kuta/Nusa-Penida-and-Manta-Point-Day-Dive-in-Bali-Close-Encounter-With-Manta-Ray/d22290-9217P3?pid=P00303362&mcid=42383&medium=link&campaign=nusa-penida-diving",
+   "anchorText": "this certified-diver Manta Point trip",
+   "experienceCategory": "activity",
+   "linkStatus": "live",
+   "partner": "viator",
+   "placeholderId": "VIATOR_NUSA_PENIDA_MANTA_DIVE",
+   "publicUrl": "https://www.viator.com/tours/Kuta/Nusa-Penida-and-Manta-Point-Day-Dive-in-Bali-Close-Encounter-With-Manta-Ray/d22290-9217P3"
+  },
+  {
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "stays on Nusa Penida",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "partner": "Booking.com",
+   "placeholderId": "BOOKING_NUSA_PENIDA",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  }
+ ],
+ "articleCreatedDate": "2026-08-07",
+ "author": {
+  "_ref": "author-editorial-team",
+  "_type": "reference"
+ },
+ "bestSeason": "May–October",
+ "body": [
+  {
+   "_key": "nb2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns1",
+     "_type": "span",
+     "marks": [],
+     "text": "Nusa Penida is the rare dive destination where the headline animals are genuinely reliable and the diving is genuinely demanding. Mantas patrol a single exposed bay in the swell, and the mola mola comes up out of cold water for a few months a year. Most people try to do it as a day trip from Bali, get one rushed dive at Manta Point, and leave thinking they saw it. Six days based on the island turns the same sites into a proper trip: you dive on the right tide instead of the tour schedule, and you get second chances when the sea says no."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns3",
+     "_type": "span",
+     "marks": [],
+     "text": "Who this trip is for"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns5",
+     "_type": "span",
+     "marks": [],
+     "text": "Certified divers with some current experience who want the two signature animals without treating them as a lottery ticket. It suits couples and friends who dive together, and repeat visitors to Bali who have done the temples and want a week in the water instead."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns7",
+     "_type": "span",
+     "marks": [],
+     "text": "It is not for you if you are newly certified and nervous, if you want to learn to dive from scratch, or if you need smooth roads and reliable card payment. Nusa Penida's sites have real current, and the island's interior tracks are rough. If you want easy warm water and a beginner course, the Gili Islands are the better call."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb10",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns9",
+     "_type": "span",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb13",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns11",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Route: "
+    },
+    {
+     "_key": "ns12",
+     "_type": "span",
+     "marks": [],
+     "text": "Sanur to Nusa Penida, six nights on the island, back to Sanur."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb16",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns14",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base changes: "
+    },
+    {
+     "_key": "ns15",
+     "_type": "span",
+     "marks": [],
+     "text": "One. You stay on Nusa Penida the whole time, which is the entire point of the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb19",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns17",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Dive days: "
+    },
+    {
+     "_key": "ns18",
+     "_type": "span",
+     "marks": [],
+     "text": "Four, with two rest days built in so a cancelled boat does not end the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb22",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns20",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Pace: "
+    },
+    {
+     "_key": "ns21",
+     "_type": "span",
+     "marks": [],
+     "text": "Active. Early boats, long surface intervals, cold water on the mola dives."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb24",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns23",
+     "_type": "span",
+     "marks": [],
+     "text": "Why this route makes sense"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb26",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns25",
+     "_type": "span",
+     "marks": [],
+     "text": "The mistake is treating Nusa Penida as a day trip. Manta Point sits on the exposed south-west coast and gets shut down by swell with no warning, and Crystal Bay's thermocline moves. Both are tide-dependent. Staying on the island means your dive shop picks the slot that actually works that morning instead of the one that fits a Bali pickup schedule, and a blown-out day costs you a morning rather than the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb28",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns27",
+     "_type": "span",
+     "marks": [],
+     "text": "When can you see mola mola and manta rays in Nusa Penida?"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb30",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns29",
+     "_type": "span",
+     "marks": [],
+     "text": "Mantas are around all year at Manta Point, with better concentrations from roughly May to October. Mola mola is seasonal and much narrower: the usual window is July to October, when colder water pushes them up to cleaning stations. Neither is guaranteed on any given dive, so plan several attempts rather than one."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nt31",
+   "_type": "comparisonTable",
+   "caption": "Seasons are a planning guide, not a promise. Ask your dive shop what the last two weeks have actually been like before you commit.",
+   "columns": [
+    "What you came for",
+    "Realistic window",
+    "Where",
+    "What can stop you"
+   ],
+   "rows": [
+    {
+     "_key": "nr32",
+     "cells": [
+      "Manta rays",
+      "Year-round, better May to October",
+      "Manta Point, Manta Bay",
+      "Swell on the exposed south-west coast closes the site"
+     ]
+    },
+    {
+     "_key": "nr33",
+     "cells": [
+      "Mola mola",
+      "Roughly July to October",
+      "Crystal Bay, Blue Corner",
+      "Deep, cold and current-heavy, and they simply may not come up"
+     ]
+    },
+    {
+     "_key": "nr34",
+     "cells": [
+      "Easy reef diving",
+      "Year-round",
+      "Toyapakeh, Gamat Bay",
+      "Little. This is the fallback when the big sites are shut"
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "nb36",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns35",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 1: Cross to Nusa Penida and set up"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb39",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns37",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns38",
+     "_type": "span",
+     "marks": [],
+     "text": "Take an early fast boat from Sanur. The crossing runs about 30 to 45 minutes and boats are frequent, so this is one of the easier island hops in Bali."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb42",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns40",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns41",
+     "_type": "span",
+     "marks": [],
+     "text": "Settle in and walk to your dive shop in person. Talk through the week, your logged dives and what has been diveable lately."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb45",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns43",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "ns44",
+     "_type": "span",
+     "marks": [],
+     "text": "Eat early. Boats leave at first light and the island goes quiet."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb48",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns46",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_key": "ns47",
+     "_type": "span",
+     "marks": [],
+     "text": "Nusa Penida, six nights, near Toyapakeh or Ped for the shortest morning transfers to the harbour."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb54",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns50",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "ns51",
+     "_type": "span",
+     "marks": [],
+     "text": "Fast boats run all morning, and you can "
+    },
+    {
+     "_key": "ns52",
+     "_type": "span",
+     "marks": [
+      "nm49"
+     ],
+     "text": "compare Sanur to Nusa Penida crossings on 12Go"
+    },
+    {
+     "_key": "ns53",
+     "_type": "span",
+     "marks": [],
+     "text": ". Published fares start around IDR 135,000, though this varies by operator and season."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm49",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "12GO_SANUR_NUSA_PENIDA"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb57",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns55",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns56",
+     "_type": "span",
+     "marks": [],
+     "text": "There are no ATMs on the island as of 2026. Boat tickets, dive trips, meals and scooter rental are cash, so draw what you need in Bali before you board."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb59",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns58",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 2: Two check dives on the calm side"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb62",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns60",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns61",
+     "_type": "span",
+     "marks": [],
+     "text": "Toyapakeh and Gamat Bay. Sheltered, colourful and a fair test of how you handle mild current before the island's harder sites."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb65",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns63",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns64",
+     "_type": "span",
+     "marks": [],
+     "text": "Rest properly. Do not stack a third dive on day one of a six-day trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb68",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns66",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "ns67",
+     "_type": "span",
+     "marks": [],
+     "text": "Confirm tomorrow's plan with the shop. Manta Point is decided the morning of, not the night before."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb71",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns69",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns70",
+     "_type": "span",
+     "marks": [],
+     "text": "If you have not dived in over a year, say so and pay for the refresher here. Manta Point in swell is not where you want to rediscover your buoyancy."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb73",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns72",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 3: Manta Point, on the first slot"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb76",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns74",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns75",
+     "_type": "span",
+     "marks": [],
+     "text": "Manta Point. Take the earliest boat: wind and swell usually build through the day, and the site closes when it does."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb79",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns77",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns78",
+     "_type": "span",
+     "marks": [],
+     "text": "A second easy dive if conditions hold, otherwise the cliffs at Kelingking on land."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb82",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns80",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "ns81",
+     "_type": "span",
+     "marks": [],
+     "text": "Early night. If the mantas did not show, you still have three days."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb88",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns84",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_key": "ns85",
+     "_type": "span",
+     "marks": [],
+     "text": "If your shop is full or you are still based in Bali for this leg, "
+    },
+    {
+     "_key": "ns86",
+     "_type": "span",
+     "marks": [
+      "nm83"
+     ],
+     "text": "this certified-diver Manta Point trip"
+    },
+    {
+     "_key": "ns87",
+     "_type": "span",
+     "marks": [],
+     "text": " is a working alternative, though diving from the island beats a day trip from the mainland."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm83",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_NUSA_PENIDA_MANTA_DIVE"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb91",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns89",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns90",
+     "_type": "span",
+     "marks": [],
+     "text": "The surge at Manta Point is the real difficulty, not depth. It is shallow, and that is exactly why it moves you around."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb93",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns92",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 4: Crystal Bay and the cold water"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb96",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns94",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns95",
+     "_type": "span",
+     "marks": [],
+     "text": "Crystal Bay. In mola season this is the site, and it is cold, deep and current-heavy. Follow the guide's plan exactly."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb99",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns97",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns98",
+     "_type": "span",
+     "marks": [],
+     "text": "Surface interval and a slow lunch. Two dives here is plenty."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb102",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns100",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "ns101",
+     "_type": "span",
+     "marks": [],
+     "text": "Nothing. This is a tiring day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb105",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns103",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns104",
+     "_type": "span",
+     "marks": [],
+     "text": "Water at depth here is noticeably colder than the rest of Bali. Divers regularly underestimate this and cut the dive short, so rent the thicker wetsuit."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb107",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns106",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 5: A land day, deliberately"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb110",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns108",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns109",
+     "_type": "span",
+     "marks": [],
+     "text": "Kelingking, Angel's Billabong and Broken Beach by scooter or driver. The roads are rough and the viewpoints are genuinely worth it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb113",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns111",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns112",
+     "_type": "span",
+     "marks": [],
+     "text": "Rest. This day exists so that a cancelled dive earlier in the week has somewhere to move to."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb116",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns114",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_key": "ns115",
+     "_type": "span",
+     "marks": [],
+     "text": "If you lost a dive day to swell, this is when you claim it back."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb119",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns117",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns118",
+     "_type": "span",
+     "marks": [],
+     "text": "Scooter accidents are the most common way this trip goes wrong. The descents are steep and loose. Hire a driver if you are not confident, and never ride the day before a dive."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb121",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns120",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 6: A last dive, then the boat back"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb124",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns122",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_key": "ns123",
+     "_type": "span",
+     "marks": [],
+     "text": "One easy dive if your flight allows. Otherwise snorkel Manta Bay from the surface, which is a genuinely good consolation."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb127",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns125",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_key": "ns126",
+     "_type": "span",
+     "marks": [],
+     "text": "Fast boat back to Sanur."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb130",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns128",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_key": "ns129",
+     "_type": "span",
+     "marks": [],
+     "text": "Leave at least 18 to 24 hours between your last dive and any flight. This is the single most common way divers ruin an otherwise good trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb132",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns131",
+     "_type": "span",
+     "marks": [],
+     "text": "What to book early, and what to keep flexible"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb134",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns133",
+     "_type": "span",
+     "marks": [],
+     "text": "Book the dive shop and your room ahead, especially from July to October when mola season collides with peak season and the island is small. Leave the individual dive sites completely open. Any shop that promises you Manta Point on a fixed date before seeing the forecast is selling you something it cannot control."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb140",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns136",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early: "
+    },
+    {
+     "_key": "ns137",
+     "_type": "span",
+     "marks": [],
+     "text": "Rooms near the north coast harbours fill first in mola season, so compare "
+    },
+    {
+     "_key": "ns138",
+     "_type": "span",
+     "marks": [
+      "nm135"
+     ],
+     "text": "stays on Nusa Penida"
+    },
+    {
+     "_key": "ns139",
+     "_type": "span",
+     "marks": [],
+     "text": " well before you book flights."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm135",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_NUSA_PENIDA"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb142",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns141",
+     "_type": "span",
+     "marks": [],
+     "text": "Mistakes divers make in Nusa Penida"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb144",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns143",
+     "_type": "span",
+     "marks": [],
+     "text": "Treating it as a Bali day trip is the big one: one dive, wrong tide, no second chance. Close behind is arriving with no cash, underestimating the cold at Crystal Bay, and booking a flight home the morning after the last dive. The current-heavy sites also catch out divers who logged their last dive three years ago and did not mention it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb146",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns145",
+     "_type": "span",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb148",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns147",
+     "_type": "span",
+     "marks": [],
+     "text": "Short on time, cut day 5 and run this in five days, accepting that you lose your weather buffer. Travelling outside mola season, drop Crystal Bay's deep profile and spend that day on the reefs at Toyapakeh instead. Upgrading, add Nusa Lembongan for two nights: it is a short crossing and a much gentler island in the evenings."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb150",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns149",
+     "_type": "span",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb153",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns151",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Money. "
+    },
+    {
+     "_key": "ns152",
+     "_type": "span",
+     "marks": [],
+     "text": "Cash only on the island, no ATMs as of 2026. Fun dives were running around IDR 500,000 per dive in 2026, with multi-dive packages cheaper per dive. Treat this as a working estimate and confirm with your shop."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb156",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns154",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Certification. "
+    },
+    {
+     "_key": "ns155",
+     "_type": "span",
+     "marks": [],
+     "text": "Bring your card and your logbook. Shops here do check, and they are right to."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb159",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns157",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Insurance. "
+    },
+    {
+     "_key": "ns158",
+     "_type": "span",
+     "marks": [],
+     "text": "Make sure your policy actually covers recreational diving to the depths you plan. Many standard travel policies do not."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb165",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns161",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Connectivity. "
+    },
+    {
+     "_key": "ns162",
+     "_type": "span",
+     "marks": [],
+     "text": "Signal is patchy on the island's south side, which matters when your dive shop moves the pickup time. An "
+    },
+    {
+     "_key": "ns163",
+     "_type": "span",
+     "marks": [
+      "nm160"
+     ],
+     "text": "Indonesia eSIM with Airalo"
+    },
+    {
+     "_key": "ns164",
+     "_type": "span",
+     "marks": [],
+     "text": " keeps you reachable without hunting for a local SIM."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm160",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb167",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns166",
+     "_type": "span",
+     "marks": [],
+     "text": "Final verdict"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb169",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns168",
+     "_type": "span",
+     "marks": [],
+     "text": "This is the best short dive trip in Bali's orbit, and almost everyone does it wrong. The animals are real and reasonably reliable, but only if you give the sea more than one morning to cooperate. Six days on the island costs barely more than a string of day trips and turns a coin flip into a genuinely good week of diving. If you are not a confident diver in current, go to the Gilis first and come back to this one."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "nb171",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns170",
+     "_type": "span",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nb176",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns173",
+     "_type": "span",
+     "marks": [],
+     "text": "For the same islands without the tanks, see our "
+    },
+    {
+     "_key": "ns174",
+     "_type": "span",
+     "marks": [
+      "nm172"
+     ],
+     "text": "5 days in Nusa Penida and Nusa Lembongan"
+    },
+    {
+     "_key": "ns175",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    },
+    {
+     "_key": "hb2a",
+     "_type": "span",
+     "marks": [],
+     "text": " If you want to see "
+    },
+    {
+     "_key": "hb2b",
+     "_type": "span",
+     "marks": [
+      "hb2"
+     ],
+     "text": "how the islands near Bali compare"
+    },
+    {
+     "_key": "hb2c",
+     "_type": "span",
+     "marks": [],
+     "text": " before you commit, start with the hub."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm172",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "https://exploreindonesia.ai/trips/5-days-nusa-penida-lembongan"
+    },
+    {
+     "_key": "hb2",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali-nearby-islands"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb181",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns178",
+     "_type": "span",
+     "marks": [],
+     "text": "If you would rather learn to dive first, start with "
+    },
+    {
+     "_key": "ns179",
+     "_type": "span",
+     "marks": [
+      "nm177"
+     ],
+     "text": "7 days learning to dive in the Gili Islands"
+    },
+    {
+     "_key": "ns180",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm177",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "https://exploreindonesia.ai/trips/7-days-gili-islands-learn-to-dive"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "nb186",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ns183",
+     "_type": "span",
+     "marks": [],
+     "text": "For how the islands around Bali compare, see "
+    },
+    {
+     "_key": "ns184",
+     "_type": "span",
+     "marks": [
+      "nm182"
+     ],
+     "text": "islands near Bali"
+    },
+    {
+     "_key": "ns185",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nm182",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "https://exploreindonesia.ai/destinations/bali-nearby-islands"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "h2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "s3",
+     "_type": "span",
+     "marks": [],
+     "text": "The other half of Bali's diving sits on the mainland, and it is a different kind of week. The "
+    },
+    {
+     "_key": "s4",
+     "_type": "span",
+     "marks": [
+      "m1"
+     ],
+     "text": "7-day Bali diving route through Amed, Tulamben and Menjangan"
+    },
+    {
+     "_key": "s5",
+     "_type": "span",
+     "marks": [],
+     "text": " swaps these currents for a shore-entry wreck and the Menjangan walls, and it pairs well with this trip if you have a second week."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "m1",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-bali-diving-tulamben-amed-menjangan"
+    }
+   ],
+   "style": "normal"
+  }
+ ],
+ "contentStatus": "live",
+ "destinationPrimary": "bali_nearby_islands",
+ "destinationSecondary": [
+  "bali"
+ ],
+ "faq": [
+  {
+   "_type": "faqItem",
+   "answer": "Not really. The signature sites have real current and surge, and Crystal Bay is deep and cold. Newly certified divers are better off building experience somewhere gentler, like the Gili Islands, and coming back.",
+   "question": "Is Nusa Penida good for beginner divers?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "Roughly May to October for mantas, and July to October if mola mola is your priority. Conditions still change day to day, so plan several dive days rather than one.",
+   "question": "When is the best time to dive Nusa Penida?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "You can, and many people do, but you get one shot on whatever tide the tour schedule allows. If Manta Point is closed by swell that morning, the trip is over. Staying on the island is the fix.",
+   "question": "Can you dive Nusa Penida as a day trip from Bali?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "Fun dives were running around IDR 500,000 per dive in 2026, with multi-dive packages cheaper per dive. Prices change and vary by shop, so treat that as a working estimate and confirm directly.",
+   "question": "How much does diving in Nusa Penida cost?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "No, as of 2026 there are none, and card payment is unreliable. Bring enough cash from Bali for boats, dives, food and transport.",
+   "question": "Are there ATMs on Nusa Penida?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "Fast boats from Sanur take about 30 to 45 minutes and run frequently through the morning. Book the earliest crossing on your arrival day so a cancellation still leaves you options.",
+   "question": "How do you get from Bali to Nusa Penida?"
+  },
+  {
+   "_type": "faqItem",
+   "answer": "Leave at least 18 to 24 hours between your last dive and a flight. Build the buffer into the itinerary rather than hoping the last dive runs early.",
+   "question": "How long should you wait to fly after diving?"
+  }
+ ],
+ "focusKeyword": "Nusa Penida diving",
+ "heroImage": {
+  "_type": "image",
+  "alt": "A manta ray gliding over the sandy bottom at a cleaning station off Nusa Penida",
+  "asset": {
+   "_ref": "image-40c75108e4cf7e93dec9bcccffd5ff060866a240-1024x768-jpg",
+   "_type": "reference"
+  }
+ },
+ "intro": "Six days based on Nusa Penida, built so the sea gets more than one chance to cooperate at Manta Point and Crystal Bay.",
+ "metaDescription": "A 6-day Nusa Penida dive trip: when mantas and mola mola actually show, which sites close in swell, and why day trips from Bali get it wrong.",
+ "metaTitle": "Nusa Penida Diving: Manta Point, Mola Mola, 6 Days",
+ "route": "Sanur → Nusa Penida → Sanur",
+ "slug": {
+  "_type": "slug",
+  "current": "6-days-nusa-penida-diving-manta-mola"
+ },
+ "title": "6 Days Diving Nusa Penida: Manta Point, Crystal Bay and Mola Mola",
+ "travelStylePrimary": "diving_snorkeling",
+ "travellerTypes": [
+  "divers",
+  "couples",
+  "friends"
+ ],
+ "tripLengthBucket": "one_week",
+ "tripLengthDays": 6,
+ "vibe": "active"
 }
