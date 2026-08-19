@@ -1,322 +1,375 @@
 {
  "_id": "itinerary-6-days-karimunjawa-java-islands",
  "_type": "article",
- "title": "6 Days in Karimunjawa: Java's Island Week, Built Around the Ferry",
- "slug": {
-  "_type": "slug",
-  "current": "6-days-karimunjawa-java-islands"
- },
- "contentStatus": "draft",
- "author": {
-  "_type": "reference",
-  "_ref": "author-editorial-team"
- },
- "articleCreatedDate": "2026-08-19T04:17:45Z",
- "destinationPrimary": "java",
- "tripLengthBucket": "one_week",
- "tripLengthDays": 6,
- "travelStylePrimary": "beach_islands",
- "travellerTypes": [
-  "couples",
-  "friends",
-  "solo_travellers"
+ "affiliateLinks": [
+  {
+   "_key": "a255",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+   "anchorText": "Indonesia eSIM from Airalo",
+   "experienceCategory": "esim_connectivity",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "airalo",
+   "placeholderId": "AIRALO_INDONESIA",
+   "publicUrl": "https://www.airalo.com/indonesia-esim"
+  },
+  {
+   "_key": "a256",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://12go.asia/en/travel/semarang/jepara?z=16022946",
+   "anchorText": "current Semarang to Jepara departures",
+   "experienceCategory": "transfer",
+   "linkStatus": "live",
+   "notes": "route deep link verified 2026-08-19, ~240 daily services",
+   "partner": "12go",
+   "placeholderId": "12GO_SEMARANG_JEPARA",
+   "publicUrl": "https://12go.asia/en/travel/semarang/jepara"
+  },
+  {
+   "_key": "a257",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://12go.asia/en/travel/yogyakarta/jepara?z=16022946",
+   "anchorText": "Yogyakarta to Jepara buses",
+   "experienceCategory": "transfer",
+   "linkStatus": "live",
+   "notes": "route deep link verified 2026-08-19",
+   "partner": "12go",
+   "placeholderId": "12GO_YOGYAKARTA_JEPARA",
+   "publicUrl": "https://12go.asia/en/travel/yogyakarta/jepara"
+  },
+  {
+   "_key": "a258",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F117731-snorkelling-island-hopping-tour-karimunjawa-sharing%2F",
+   "anchorText": "shared snorkelling and island-hopping trip",
+   "experienceCategory": "snorkeling",
+   "linkStatus": "live",
+   "notes": "travelpayouts, activity 117731 verified live 2026-08-19",
+   "partner": "klook",
+   "placeholderId": "KLOOK_KARIMUNJAWA_SNORKEL",
+   "publicUrl": "https://www.klook.com/activity/117731-snorkelling-island-hopping-tour-karimunjawa-sharing/"
+  },
+  {
+   "_key": "a259",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Karimunjawa%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "Look at what is available in Karimunjawa",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "notes": "normalizeBookingHref wraps this in the CJ deep link",
+   "partner": "booking",
+   "placeholderId": "BOOKING_KARIMUNJAWA",
+   "publicUrl": null
+  },
+  {
+   "_key": "a260",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Jepara%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "anchorText": "Compare places to stay in Jepara",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "notes": "normalizeBookingHref wraps this in the CJ deep link",
+   "partner": "booking",
+   "placeholderId": "BOOKING_JEPARA",
+   "publicUrl": null
+  }
  ],
- "vibe": "relaxed",
- "focusKeyword": "Karimunjawa itinerary",
- "metaTitle": "Karimunjawa Itinerary: 6 Days on Java's Island Escape",
- "metaDescription": "Six days in Karimunjawa, planned around the ferry that really runs it: which boat to take, where to base, and what the snorkelling is like.",
- "route": "Yogyakarta or Semarang, Jepara, Karimunjawa village, Kemujan, Jepara",
- "intro": "Java has volcanoes, temples and some of the best overland travel in Indonesia, and almost no beach week worth the name. Karimunjawa is the exception, a small archipelago in the Java Sea reached by ferry from Jepara. The reason most people never go is not the distance. It is the timetable. The boat does not sail every day, and since the Semarang flight was dropped in March 2026 there is nothing to fall back on. So this trip is planned backwards, from the sailing days inward.",
+ "articleCreatedDate": "2026-08-19T04:17:45Z",
+ "author": {
+  "_ref": "author-editorial-team",
+  "_type": "reference"
+ },
  "body": [
   {
-   "_type": "block",
    "_key": "k1",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s2",
+     "_type": "span",
      "marks": [],
      "text": "Who this trip is for, and who it is not"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k4",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s3",
+     "_type": "span",
      "marks": [],
      "text": "Karimunjawa suits travellers who want a quiet island week at the end of a Java trip and can live with a schedule that boats decide. It works for couples, friends and solo travellers who snorkel or want to learn. It does not suit anyone flying home on a fixed date with no slack, and it is not a first trip to Indonesia."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k6",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s5",
+     "_type": "span",
      "marks": [],
      "text": "The archipelago sits in the Java Sea, roughly 80 kilometres north of the Central Java coast, and it is the only part of Java where you can spend a week doing nothing but reef and beach. That is exactly why it belongs at the end of a Java route rather than at the start. After Borobudur, Prambanan and a volcano or two, most people are ready to stop moving. Karimunjawa is where you stop."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k8",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s7",
+     "_type": "span",
      "marks": [],
      "text": "It is not for you if you want resort service, reliable hot water or a nightlife scene. Accommodation is mostly homestays and small guesthouses. Electricity runs around the clock but blackouts happen. Cards are barely accepted and the cash machines on the island are few and run dry at busy weekends, so you arrive with rupiah in hand or you have a problem."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k10",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s9",
+     "_type": "span",
      "marks": [],
      "text": "It is also the wrong trip if you cannot absorb a lost day. The sea closes here. Not often between April and November, but it does, and when it does you sit and wait."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k11",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s12",
+     "_type": "span",
      "marks": [],
      "text": "How many days do you need in Karimunjawa?"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k14",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s13",
+     "_type": "span",
      "marks": [],
      "text": "Six days is the honest minimum from Yogyakarta or Semarang. Two of them go to getting there and back, because the ferry sails from Jepara only on certain mornings. That leaves three island days, enough for one island-hopping trip, one slow day and one held in reserve for weather."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k16",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s15",
+     "_type": "span",
      "marks": [],
      "text": "Four days is possible if you are already in Semarang and the sailing days line up perfectly, but you will have no margin at all. Eight to ten days is genuinely pleasant if you dive, or if you want to add Kemujan properly instead of visiting it. This route is built on six because that is the shortest version that still survives one bad sea day."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k17",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s18",
+     "_type": "span",
      "marks": [],
      "text": "Trip at a glance"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k21",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s19",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Route: "
     },
     {
-     "_type": "span",
      "_key": "s20",
+     "_type": "span",
      "marks": [],
      "text": "Yogyakarta or Semarang, Jepara, Karimunjawa village, Kemujan, back to Jepara."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k24",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s22",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Nights: "
     },
     {
-     "_type": "span",
      "_key": "s23",
+     "_type": "span",
      "marks": [],
      "text": "one in Jepara, four in Karimunjawa, with the sixth day given to the crossing home."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k27",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s25",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Pace: "
     },
     {
-     "_type": "span",
      "_key": "s26",
+     "_type": "span",
      "marks": [],
      "text": "slow. One water day, one exploring day, one deliberately empty day."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k30",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s28",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Getting in: "
     },
     {
-     "_type": "span",
      "_key": "s29",
+     "_type": "span",
      "marks": [],
      "text": "ferry only. There is no scheduled flight at the time of writing."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k33",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s31",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Best window: "
     },
     {
-     "_type": "span",
      "_key": "s32",
+     "_type": "span",
      "marks": [],
      "text": "April to around November, when the sea is settled."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k36",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s34",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Budget shape: "
     },
     {
-     "_type": "span",
      "_key": "s35",
+     "_type": "span",
      "marks": [],
      "text": "cheap by Indonesian island standards. The costs that matter are the park fee, the boat trips and the road transfer, not the rooms."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k37",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s38",
+     "_type": "span",
      "marks": [],
      "text": "How do you actually get to Karimunjawa?"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k40",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s39",
+     "_type": "span",
      "marks": [],
      "text": "You take a ferry from Jepara, on the north coast of Central Java. There is currently no scheduled flight. Dewadaru airport opened to commercial traffic in July 2025 with Wings Air flying three times a week from Semarang, and that route ended in March 2026. Two boats cover the crossing, a car ferry and a faster passenger boat."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "comparisonTable",
    "_key": "t41",
+   "_type": "comparisonTable",
    "caption": "The two crossings from Jepara, as working estimates. Fares and sailing days are published by the operators and change with the season and the month, so confirm before you book a room around them.",
    "columns": [
     "Boat",
@@ -346,897 +399,897 @@
    ]
   },
   {
-   "_type": "block",
    "_key": "k45",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s44",
+     "_type": "span",
      "marks": [],
      "text": "The sailing days are the part that shapes your whole trip. The Siginjai timetable published for Jepara departures runs on Monday, Wednesday, Friday and Saturday mornings, with returns on Tuesday, Thursday, Friday and Sunday. Those days move. Friday sailings were dropped for part of March 2026, for example. Treat any schedule you read, including this one, as a starting point and confirm the week you travel."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k53",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "12GO_SEMARANG_JEPARA",
-     "_key": "m47"
-    },
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "12GO_YOGYAKARTA_JEPARA",
-     "_key": "m50"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s46",
+     "_type": "span",
      "marks": [],
      "text": "Getting to Jepara is the easy half. From Semarang it is a road transfer of roughly three hours and the buses are frequent and cheap; you can "
     },
     {
-     "_type": "span",
      "_key": "s48",
+     "_type": "span",
      "marks": [
       "m47"
      ],
      "text": "check current Semarang to Jepara departures"
     },
     {
-     "_type": "span",
      "_key": "s49",
+     "_type": "span",
      "marks": [],
      "text": " before you commit to a sailing. From Yogyakarta it is a longer haul, and it is worth "
     },
     {
-     "_type": "span",
      "_key": "s51",
+     "_type": "span",
      "marks": [
       "m50"
      ],
      "text": "looking at the Yogyakarta to Jepara buses"
     },
     {
-     "_type": "span",
      "_key": "s52",
+     "_type": "span",
      "marks": [],
      "text": " rather than assuming you can do it in a morning. You cannot. That is why day one of this trip exists."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m47",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "12GO_SEMARANG_JEPARA"
+    },
+    {
+     "_key": "m50",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "12GO_YOGYAKARTA_JEPARA"
+    }
+   ],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k56",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s54",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Travel note: "
     },
     {
-     "_type": "span",
      "_key": "s55",
+     "_type": "span",
      "marks": [],
      "text": "the ferry leaves Jepara early, between roughly 06:30 and 07:00 depending on the day. There is no realistic way to make that from Yogyakarta on the same morning. Sleeping in Jepara the night before is not padding, it is the plan."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k57",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s58",
+     "_type": "span",
      "marks": [],
      "text": "Why this route makes sense"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k60",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s59",
+     "_type": "span",
      "marks": [],
      "text": "Most Karimunjawa write-ups start on the island and treat the journey as an afterthought. That is backwards. The single decision that makes or breaks this trip is which day you sail, because it fixes your arrival, your departure and how much reef time you actually get. Everything in this route is arranged around that."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k62",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s61",
+     "_type": "span",
      "marks": [],
      "text": "The second decision is where you sleep. Nearly all the accommodation clusters in the southern village beside the port, which is convenient and slightly busy. Kemujan, in the north, is quieter and further from the boats. This route bases you in the village and visits Kemujan, because splitting four nights across two bases on an island this size costs you half a day and buys very little."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k64",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s63",
+     "_type": "span",
      "marks": [],
      "text": "The third is what you actually book. One shared island-hopping day covers the reef that most people come for. A second water day is optional and better decided once you have seen the first. So this route commits to one and leaves the rest open."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k65",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s66",
+     "_type": "span",
      "marks": [],
      "text": "Day 1: Yogyakarta or Semarang to Jepara"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k69",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s67",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s68",
+     "_type": "span",
      "marks": [],
      "text": "Leave Yogyakarta early if that is your starting point. The road north through Central Java is slow and the buses stop often. From Semarang you have a much easier day and can leave after lunch."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k72",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s70",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s71",
+     "_type": "span",
      "marks": [],
      "text": "Arrive in Jepara. It is a working furniture town rather than a destination, and that is fine. Buy or confirm your ferry ticket for the morning if you have not already, and find out where the boat actually leaves from, because the fast boat and the car ferry do not always use the same berth."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k75",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s73",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Evening. "
     },
     {
-     "_type": "span",
      "_key": "s74",
+     "_type": "span",
      "marks": [],
      "text": "Eat early and sleep early. You are up before dawn."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k81",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "BOOKING_JEPARA",
-     "_key": "m78"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s76",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Base: "
     },
     {
-     "_type": "span",
      "_key": "s77",
+     "_type": "span",
      "marks": [],
      "text": "Jepara, close to the port. There is no reason to stay anywhere scenic; you want the ten-minute version of the morning, not the pretty one. "
     },
     {
-     "_type": "span",
      "_key": "s79",
+     "_type": "span",
      "marks": [
       "m78"
      ],
      "text": "Compare places to stay in Jepara"
     },
     {
-     "_type": "span",
      "_key": "s80",
+     "_type": "span",
      "marks": [],
      "text": " and pick on location rather than looks."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m78",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_JEPARA"
+    }
+   ],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k84",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s82",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Booking logic: "
     },
     {
-     "_type": "span",
      "_key": "s83",
+     "_type": "span",
      "marks": [],
      "text": "book the room the moment you know your sailing day. Jepara has limited stock and it fills when the ferry runs."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k85",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s86",
+     "_type": "span",
      "marks": [],
      "text": "Day 2: The crossing, and a first afternoon on the island"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k89",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s87",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s88",
+     "_type": "span",
      "marks": [],
      "text": "The crossing. On the Siginjai it is four to five hours on an open deck; on the fast boat it is around two in an air-conditioned cabin with the windows fogged. Either way, sit outside if you can. The approach through the outer islands is the best hour of the journey."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k92",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s90",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s91",
+     "_type": "span",
      "marks": [],
      "text": "You land at Karimunjawa port and pay the national park fee at a booth near the harbour. As published for foreign visitors this runs at Rp 150,000 on weekdays and Rp 225,000 at weekends and on public holidays, with a further Rp 15,000 if you plan to snorkel or swim with fins. It is cash only. Then find your room, rent a scooter and do nothing else."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k95",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s93",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Evening. "
     },
     {
-     "_type": "span",
      "_key": "s94",
+     "_type": "span",
      "marks": [],
      "text": "The night market by the main square is where the island eats. Grilled fish, cheap, and it is the one social hour Karimunjawa has."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k101",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "BOOKING_KARIMUNJAWA",
-     "_key": "m98"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s96",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Base: "
     },
     {
-     "_type": "span",
      "_key": "s97",
+     "_type": "span",
      "marks": [],
      "text": "Karimunjawa village. "
     },
     {
-     "_type": "span",
      "_key": "s99",
+     "_type": "span",
      "marks": [
       "m98"
      ],
      "text": "Look at what is available in Karimunjawa"
     },
     {
-     "_type": "span",
      "_key": "s100",
+     "_type": "span",
      "marks": [],
      "text": " and read the location notes carefully, because a place described as five minutes from town means five minutes by scooter."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m98",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_KARIMUNJAWA"
+    }
+   ],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k104",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s102",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Travel note: "
     },
     {
-     "_type": "span",
      "_key": "s103",
+     "_type": "span",
      "marks": [],
      "text": "bring more cash than you think. The island's cash machines are few and it is normal for them to empty out over a busy weekend."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k105",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s106",
+     "_type": "span",
      "marks": [],
      "text": "Day 3: The island-hopping and snorkelling day"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k109",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s107",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s108",
+     "_type": "span",
      "marks": [],
      "text": "This is the day the trip is really about. Shared boats leave from the main square around 08:30 and run roughly eight hours, visiting two or three islands and two snorkelling stops, with gear, a guide and lunch cooked on a beach included. Menjangan Kecil is the usual first stop, about 45 minutes out, with coral in one to five metres of water and easy conditions for anyone still finding their fins."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k112",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s110",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s111",
+     "_type": "span",
      "marks": [],
      "text": "The second stop is typically Menjangan Besar or one of the sandbars such as Gosong Cemara, which is a strip of sand with no shade and no facilities. The boat usually turns for home in time for the sunset run."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k115",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s113",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Evening. "
     },
     {
-     "_type": "span",
      "_key": "s114",
+     "_type": "span",
      "marks": [],
      "text": "Back in the village. You will be salt-crusted and sunburnt in places you did not think about."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k121",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "KLOOK_KARIMUNJAWA_SNORKEL",
-     "_key": "m118"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s116",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Booking logic: "
     },
     {
-     "_type": "span",
      "_key": "s117",
+     "_type": "span",
      "marks": [],
      "text": "you can arrange this at any guesthouse the night before, and that is often cheapest. If you would rather have it fixed before you arrive, particularly at a weekend when the boats fill, "
     },
     {
-     "_type": "span",
      "_key": "s119",
+     "_type": "span",
      "marks": [
       "m118"
      ],
      "text": "the shared snorkelling and island-hopping trip is bookable in advance"
     },
     {
-     "_type": "span",
      "_key": "s120",
+     "_type": "span",
      "marks": [],
      "text": "."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m118",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "KLOOK_KARIMUNJAWA_SNORKEL"
+    }
+   ],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k124",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s122",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Travel note: "
     },
     {
-     "_type": "span",
      "_key": "s123",
+     "_type": "span",
      "marks": [],
      "text": "the shared boats do not carry much shade and the reef stops are shallow. Use a rash vest rather than more sunscreen. Reef-safe or not, less of it in the water is better, and you will burn through a shoulder in an hour otherwise."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k125",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s126",
+     "_type": "span",
      "marks": [],
      "text": "Day 4: North to Kemujan, mangroves and the quiet coast"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k129",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s127",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s128",
+     "_type": "span",
      "marks": [],
      "text": "Ride north. Karimunjawa island and Kemujan are joined by a causeway, so it is one continuous road and about 40 minutes end to end on a scooter. The mangrove boardwalk on the way is worth the stop, particularly early when the kingfishers and herons are working the roots."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k132",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s130",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s131",
+     "_type": "span",
      "marks": [],
      "text": "The north coast beaches are emptier than anything near the village. There is little infrastructure, which is the point. Take water and something to eat, because you will not reliably find either."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k135",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s133",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Evening. "
     },
     {
-     "_type": "span",
      "_key": "s134",
+     "_type": "span",
      "marks": [],
      "text": "Back south before dark. The road is unlit in stretches and there is no reason to learn that the hard way."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k138",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s136",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Travel note: "
     },
     {
-     "_type": "span",
      "_key": "s137",
+     "_type": "span",
      "marks": [],
      "text": "if you decided on day 3 that you want more time in the water, this is the day to trade. Swap the ride north for a second boat trip or, if you are certified, a dive day. Kemujan will still be there."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k139",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s140",
+     "_type": "span",
      "marks": [],
      "text": "Day 5: The spare day you should not fill"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k143",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s141",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s142",
+     "_type": "span",
      "marks": [],
      "text": "Deliberately unplanned. If the weather has been kind and you have done everything you wanted, this is a beach and a book. If a boat trip was cancelled earlier in the week, this is where it goes."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k146",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s144",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s145",
+     "_type": "span",
      "marks": [],
      "text": "The obvious optional add is the short climb to the viewpoint above the village, best late in the day, or a second snorkel trip to spots the shared boats skip."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k149",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s147",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Evening. "
     },
     {
-     "_type": "span",
      "_key": "s148",
+     "_type": "span",
      "marks": [],
      "text": "Confirm tomorrow's sailing. Ask your guesthouse, not the internet. They will know before any website does whether the boat is running."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k152",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s150",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Booking logic: "
     },
     {
-     "_type": "span",
      "_key": "s151",
+     "_type": "span",
      "marks": [],
      "text": "leave this day empty when you plan. A trip like this needs one day of slack more than it needs one more activity, and if the sea closes on your departure morning this is the buffer that saves your onward connection."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k153",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s154",
+     "_type": "span",
      "marks": [],
      "text": "Day 6: The ferry back, and the connection onward"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k157",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s155",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Morning. "
     },
     {
-     "_type": "span",
      "_key": "s156",
+     "_type": "span",
      "marks": [],
      "text": "The return sailing. Departures from Karimunjawa are published across Tuesday, Thursday, Friday and Sunday, at times that vary between early morning and early afternoon. Be at the port well ahead; boarding is not orderly."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k160",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s158",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Afternoon. "
     },
     {
-     "_type": "span",
      "_key": "s159",
+     "_type": "span",
      "marks": [],
      "text": "Land in Jepara and continue. Semarang is around three hours by road and has the nearest airport with real connections. Yogyakarta is a long afternoon and evening."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k163",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s161",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Travel note: "
     },
     {
-     "_type": "span",
      "_key": "s162",
+     "_type": "span",
      "marks": [],
      "text": "do not book a flight out of Semarang or Yogyakarta on this same day unless it is late, and never book an international connection on it at all. Put a night in Semarang between the ferry and the plane. This is the single most common way this trip goes wrong."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k164",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s165",
+     "_type": "span",
      "marks": [],
      "text": "Where should you base yourself, Karimunjawa village or Kemujan?"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k167",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s166",
+     "_type": "span",
      "marks": [],
      "text": "Stay in Karimunjawa village unless you have a specific reason not to. It has the port, the night market, the boat operators, the dive centres and almost all the accommodation, so everything is a short walk away. Kemujan in the north is quieter, but it puts 30 to 40 minutes between you and every boat you book."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "comparisonTable",
    "_key": "t168",
+   "_type": "comparisonTable",
    "caption": "Choosing a base on Karimunjawa. Both are on the same road, joined by a causeway, so this is a question of daily friction rather than distance.",
    "columns": [
     "Base",
@@ -1266,712 +1319,668 @@
    ]
   },
   {
-   "_type": "block",
    "_key": "k172",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s171",
+     "_type": "span",
      "marks": [],
      "text": "Rooms across the island are mostly homestays and small guesthouses. Air conditioning is common; hot water is not. Expect to pay very little by Indonesian island standards, and expect the room to be simple rather than charming."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k173",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s174",
+     "_type": "span",
      "marks": [],
      "text": "When is the best time to visit Karimunjawa?"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k176",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s175",
+     "_type": "span",
      "marks": [],
      "text": "April to around November is the settled window, when the Java Sea is calm enough for the boats to run to schedule and visibility on the reef is at its best. Late December through March is the west monsoon, when sailings get cancelled. It is not a question of rain but of whether the boat goes at all."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k178",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s177",
+     "_type": "span",
      "marks": [],
      "text": "The risk is real rather than theoretical. Around 500 travellers were stranded on the island over New Year 2014 and 2015 when waves reached three and a half metres, and the island's cash machines emptied while they waited. That is the tail end of the distribution, but it is the same mechanism as a two-day delay, which is far more common."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k180",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s179",
+     "_type": "span",
      "marks": [],
      "text": "Within the good window, the shoulder months either side of the Indonesian school holidays are the sweet spot. Karimunjawa is primarily a domestic destination, so it is the local calendar, not the international one, that determines whether the boats and the guesthouses are full."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k181",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s182",
+     "_type": "span",
      "marks": [],
      "text": "What to book early, and what to keep flexible"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k185",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s183",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Book early: "
     },
     {
-     "_type": "span",
      "_key": "s184",
+     "_type": "span",
      "marks": [],
      "text": "your Jepara room, tied to your sailing day. Your Karimunjawa room if you are travelling at a weekend, an Indonesian public holiday, or in July and August. Ferry tickets in high season, where booking is generally possible up to about 24 hours before departure. A dive course, if you want one, because the island's dive centres are small."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k188",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s186",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Keep flexible: "
     },
     {
-     "_type": "span",
      "_key": "s187",
+     "_type": "span",
      "marks": [],
      "text": "the island-hopping day, which any guesthouse can arrange the night before and which is often cheaper that way. Your second water day, if you have one. Scooter hire, which is available everywhere on arrival. And the day you actually leave, if your onward plans allow it."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k190",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s189",
+     "_type": "span",
      "marks": [],
      "text": "The general rule on this trip is that anything involving a boat crossing the open sea should be booked with a day of margin, and anything happening on the island itself can wait until you are standing there."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k191",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s192",
+     "_type": "span",
      "marks": [],
      "text": "Mistakes travellers make on a Karimunjawa trip"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k195",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s193",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Treating it as a weekend. "
     },
     {
-     "_type": "span",
      "_key": "s194",
+     "_type": "span",
      "marks": [],
      "text": "Two nights on Karimunjawa means you spend more time travelling than swimming, and one cancelled sailing wipes out the trip entirely. The ferry timetable does not reward short stays."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k198",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s196",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Arriving without cash. "
     },
     {
-     "_type": "span",
      "_key": "s197",
+     "_type": "span",
      "marks": [],
      "text": "The park fee is cash, the boat trips are usually cash, the night market is cash, and the island's cash machines are few and unreliable. Draw money in Semarang or Jepara."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k201",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s199",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Booking a flight for the day you sail back. "
     },
     {
-     "_type": "span",
      "_key": "s200",
+     "_type": "span",
      "marks": [],
      "text": "This is the one that actually hurts people. The crossing plus the road to Semarang eats the day even when everything works, and when the sea closes you are not going anywhere."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k204",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s202",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Coming in January or February. "
     },
     {
-     "_type": "span",
      "_key": "s203",
+     "_type": "span",
      "marks": [],
      "text": "Cheap flights into Java in the wet season tempt people north. The boats do not care about your itinerary."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k207",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s205",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Planning two bases on a small island. "
     },
     {
-     "_type": "span",
      "_key": "s206",
+     "_type": "span",
      "marks": [],
      "text": "Splitting four nights between the village and Kemujan sounds balanced and mostly just costs you an afternoon of packing and riding."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k208",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s209",
+     "_type": "span",
      "marks": [],
      "text": "What to cut, adapt or upgrade"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k212",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s210",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Cut. "
     },
     {
-     "_type": "span",
      "_key": "s211",
+     "_type": "span",
      "marks": [],
      "text": "If you are already in Semarang, day 1 collapses into a short afternoon transfer and you can run this as five days. If you are not diving and one snorkel day was enough, day 4's ride north is the most droppable thing here."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k215",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s213",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Adapt. "
     },
     {
-     "_type": "span",
      "_key": "s214",
+     "_type": "span",
      "marks": [],
      "text": "Certified divers should convert day 4 or day 5 into a two-tank day; the reefs off Kemujan and the outer islands are better than the shared snorkel stops. Travellers with children should base in the village, take the shared boat, and skip the north entirely."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k218",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s216",
+     "_type": "span",
      "marks": [
       "strong"
      ],
      "text": "Upgrade. "
     },
     {
-     "_type": "span",
      "_key": "s217",
+     "_type": "span",
      "marks": [],
      "text": "The single upgrade worth paying for is a private boat rather than the shared one. It costs meaningfully more and it buys you the reef without twenty other people on it, plus the ability to leave when you want rather than when the group does. The second is a room with reliable air conditioning and a decent bed, which on this island is a real difference and still cheap."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k219",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s220",
+     "_type": "span",
      "marks": [],
      "text": "Before you build this trip"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k222",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s221",
+     "_type": "span",
      "marks": [],
      "text": "Fix the sailing days first. Look up the current Jepara timetable for the month you are travelling, pick your outbound and return, and build the rest of the trip in the gap between them. Every other decision on this trip is downstream of that one."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k224",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s223",
+     "_type": "span",
      "marks": [],
      "text": "Second, decide honestly whether you have a spare day. If you do not, this is the wrong trip and Nusa Penida or the Gili Islands will serve you better, because both have far more frequent boats. Karimunjawa's appeal and its risk are the same thing: not many people go, because not many boats run."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k229",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "affiliateLinkRef",
-     "placeholderId": "AIRALO_INDONESIA",
-     "_key": "m226"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s225",
+     "_type": "span",
      "marks": [],
      "text": "Third, sort connectivity before you leave the mainland. Mobile coverage on the island is workable but patchy, and you will want it for confirming the return sailing. An "
     },
     {
-     "_type": "span",
      "_key": "s227",
+     "_type": "span",
      "marks": [
       "m226"
      ],
      "text": "Indonesia eSIM from Airalo"
     },
     {
-     "_type": "span",
      "_key": "s228",
+     "_type": "span",
      "marks": [],
      "text": " set up before you fly saves you hunting for a SIM counter in Semarang."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m226",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k231",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s230",
+     "_type": "span",
      "marks": [],
      "text": "Finally, carry the visa question in your head rather than on your phone. Most nationalities enter Indonesia on a visa on arrival that can be extended once, but the rules and the fee change, so check the latest official guidance close to your departure rather than trusting a blog, this one included."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k232",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s233",
+     "_type": "span",
      "marks": [],
      "text": "Final verdict"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k235",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s234",
+     "_type": "span",
      "marks": [],
      "text": "Karimunjawa is the best beach week Java has, and it is worth six days if, and only if, you can give it a spare one. The reef is good rather than world-class, the island is modest, and the pleasure of the place is that almost nobody international is there. What you are buying is quiet, at the price of a schedule you do not control."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k237",
-   "style": "normal",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s236",
+     "_type": "span",
      "marks": [],
      "text": "If you have just finished a Java route of temples and volcanoes and you want to stop moving somewhere warm without flying to Bali, this is the answer and there is no close second. If you are treating it as a quick add-on to a packed itinerary, do not. The ferry will eventually make that decision for you, and you will not like how."
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "normal"
   },
   {
-   "_type": "block",
    "_key": "k238",
-   "style": "h2",
-   "markDefs": [],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s239",
+     "_type": "span",
      "marks": [],
      "text": "Related itineraries"
     }
-   ]
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
   {
-   "_type": "block",
    "_key": "k244",
-   "style": "normal",
-   "markDefs": [
-    {
-     "_type": "externalLink",
-     "href": "/trips/7-days-yogyakarta-east-java",
-     "blank": false,
-     "_key": "m241"
-    }
-   ],
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s240",
+     "_type": "span",
      "marks": [],
      "text": "If Karimunjawa is the end of a longer Java trip, the "
     },
     {
-     "_type": "span",
      "_key": "s242",
+     "_type": "span",
      "marks": [
       "m241"
      ],
      "text": "seven-day Yogyakarta and East Java route"
     },
     {
-     "_type": "span",
      "_key": "s243",
+     "_type": "span",
      "marks": [],
      "text": " is the natural first half, and it finishes close enough to Semarang to make the transfer north straightforward."
     }
-   ]
-  },
-  {
-   "_type": "block",
-   "_key": "k249",
-   "style": "normal",
+   ],
    "markDefs": [
     {
+     "_key": "m241",
      "_type": "externalLink",
-     "href": "/trips/5-days-yogyakarta-bromo",
      "blank": false,
-     "_key": "m246"
+     "href": "/trips/7-days-yogyakarta-east-java"
     }
    ],
+   "style": "normal"
+  },
+  {
+   "_key": "k249",
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s245",
+     "_type": "span",
      "marks": [],
      "text": "For a shorter run at the temples and one volcano before you head to the coast, see the "
     },
     {
-     "_type": "span",
      "_key": "s247",
+     "_type": "span",
      "marks": [
       "m246"
      ],
      "text": "five-day Yogyakarta and Bromo itinerary"
     },
     {
-     "_type": "span",
      "_key": "s248",
+     "_type": "span",
      "marks": [],
      "text": "."
     }
-   ]
-  },
-  {
-   "_type": "block",
-   "_key": "k254",
-   "style": "normal",
+   ],
    "markDefs": [
     {
+     "_key": "m246",
      "_type": "externalLink",
-     "href": "/destinations/java",
      "blank": false,
-     "_key": "m251"
+     "href": "/trips/5-days-yogyakarta-bromo"
     }
    ],
+   "style": "normal"
+  },
+  {
+   "_key": "k254",
+   "_type": "block",
    "children": [
     {
-     "_type": "span",
      "_key": "s250",
+     "_type": "span",
      "marks": [],
      "text": "And if you want the wider picture of what Java holds and how the pieces connect, start from the "
     },
     {
-     "_type": "span",
      "_key": "s252",
+     "_type": "span",
      "marks": [
       "m251"
      ],
      "text": "Java destination guide"
     },
     {
-     "_type": "span",
      "_key": "s253",
+     "_type": "span",
      "marks": [],
      "text": "."
     }
-   ]
+   ],
+   "markDefs": [
+    {
+     "_key": "m251",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/java"
+    }
+   ],
+   "style": "normal"
   }
  ],
+ "contentStatus": "live",
+ "destinationPrimary": "java",
  "faq": [
   {
-   "question": "How do you get to Karimunjawa from Java?",
+   "_key": "f261",
    "answer": "By ferry from Jepara on the north coast of Central Java. The KMP Siginjai car ferry takes roughly four to five hours and the Express Bahari fast boat around two. There is currently no scheduled flight: the Wings Air service from Semarang to Dewadaru airport ended in March 2026. Confirm sailing days locally, as they change by month.",
-   "_key": "f261"
+   "question": "How do you get to Karimunjawa from Java?"
   },
   {
-   "question": "How many days do you need in Karimunjawa?",
+   "_key": "f262",
    "answer": "Six days from Yogyakarta or Semarang, of which two go to travel. That leaves three island days and one day held back for weather. Four is possible if you start in Semarang and the sailings line up, but you will have no margin if a boat is cancelled.",
-   "_key": "f262"
+   "question": "How many days do you need in Karimunjawa?"
   },
   {
-   "question": "What is the Karimunjawa national park entrance fee?",
+   "_key": "f263",
    "answer": "As published for foreign visitors, Rp 150,000 on weekdays and Rp 225,000 at weekends and public holidays, with an extra Rp 15,000 if you snorkel or swim with fins. It is paid in cash at a booth near the harbour when you land. Fees change, so treat these as a working estimate.",
-   "_key": "f263"
+   "question": "What is the Karimunjawa national park entrance fee?"
   },
   {
-   "question": "When is the best time to visit Karimunjawa?",
+   "_key": "f264",
    "answer": "April to around November, when the Java Sea is settled and the boats run to schedule. Late December through March is the west monsoon and sailings are regularly cancelled when the waves build. The risk is being stuck rather than being rained on.",
-   "_key": "f264"
+   "question": "When is the best time to visit Karimunjawa?"
   },
   {
-   "question": "Is Karimunjawa better than the Gili Islands or Nusa Penida?",
+   "_key": "f265",
    "answer": "It is quieter and far less international, and it is much harder to reach. The Gilis and Nusa Penida have frequent boats, more places to eat and better dive infrastructure. Karimunjawa wins on emptiness and loses on everything logistical. Choose it if quiet is the point.",
-   "_key": "f265"
+   "question": "Is Karimunjawa better than the Gili Islands or Nusa Penida?"
   },
   {
-   "question": "Where should you stay in Karimunjawa?",
+   "_key": "f266",
    "answer": "In the southern village beside the port, where nearly all the accommodation, the boat operators, the dive centres and the night market are. Kemujan in the north is quieter but sits 30 to 40 minutes from every boat you book. Rooms are mostly simple homestays with air conditioning but rarely hot water.",
-   "_key": "f266"
+   "question": "Where should you stay in Karimunjawa?"
   },
   {
-   "question": "Do you need cash in Karimunjawa?",
+   "_key": "f267",
    "answer": "Yes, and more than you expect. The park fee, most boat trips, the night market and many guesthouses are cash only. The island has few cash machines and they are known to run empty over busy weekends and holidays. Withdraw what you need in Semarang or Jepara before you sail.",
-   "_key": "f267"
+   "question": "Do you need cash in Karimunjawa?"
   }
  ],
- "affiliateLinks": [
-  {
-   "_type": "affiliateLink",
-   "_key": "a255",
-   "partner": "airalo",
-   "placeholderId": "AIRALO_INDONESIA",
-   "anchorText": "Indonesia eSIM from Airalo",
-   "experienceCategory": "esim_connectivity",
-   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-   "publicUrl": "https://www.airalo.com/indonesia-esim",
-   "linkStatus": "live",
-   "notes": "travelpayouts"
+ "focusKeyword": "Karimunjawa itinerary",
+ "heroImage": {
+  "_type": "image",
+  "alt": "Aerial view of a bare sand bar ringed by shallow turquoise reef in the Java Sea",
+  "asset": {
+   "_ref": "image-4305e6cda185e5504f52298e6382d6be6c22d725-3000x1688-jpg",
+   "_type": "reference"
   },
-  {
-   "_type": "affiliateLink",
-   "_key": "a256",
-   "partner": "12go",
-   "placeholderId": "12GO_SEMARANG_JEPARA",
-   "anchorText": "current Semarang to Jepara departures",
-   "experienceCategory": "transfer",
-   "affiliateUrl": "https://12go.asia/en/travel/semarang/jepara?z=16022946",
-   "publicUrl": "https://12go.asia/en/travel/semarang/jepara",
-   "linkStatus": "live",
-   "notes": "route deep link verified 2026-08-19, ~240 daily services"
-  },
-  {
-   "_type": "affiliateLink",
-   "_key": "a257",
-   "partner": "12go",
-   "placeholderId": "12GO_YOGYAKARTA_JEPARA",
-   "anchorText": "Yogyakarta to Jepara buses",
-   "experienceCategory": "transfer",
-   "affiliateUrl": "https://12go.asia/en/travel/yogyakarta/jepara?z=16022946",
-   "publicUrl": "https://12go.asia/en/travel/yogyakarta/jepara",
-   "linkStatus": "live",
-   "notes": "route deep link verified 2026-08-19"
-  },
-  {
-   "_type": "affiliateLink",
-   "_key": "a258",
-   "partner": "klook",
-   "placeholderId": "KLOOK_KARIMUNJAWA_SNORKEL",
-   "anchorText": "shared snorkelling and island-hopping trip",
-   "experienceCategory": "snorkeling",
-   "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F117731-snorkelling-island-hopping-tour-karimunjawa-sharing%2F",
-   "publicUrl": "https://www.klook.com/activity/117731-snorkelling-island-hopping-tour-karimunjawa-sharing/",
-   "linkStatus": "live",
-   "notes": "travelpayouts, activity 117731 verified live 2026-08-19"
-  },
-  {
-   "_type": "affiliateLink",
-   "_key": "a259",
-   "partner": "booking",
-   "placeholderId": "BOOKING_KARIMUNJAWA",
-   "anchorText": "Look at what is available in Karimunjawa",
-   "experienceCategory": "accommodation",
-   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Karimunjawa%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-   "publicUrl": null,
-   "linkStatus": "live",
-   "notes": "normalizeBookingHref wraps this in the CJ deep link"
-  },
-  {
-   "_type": "affiliateLink",
-   "_key": "a260",
-   "partner": "booking",
-   "placeholderId": "BOOKING_JEPARA",
-   "anchorText": "Compare places to stay in Jepara",
-   "experienceCategory": "accommodation",
-   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Jepara%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-   "publicUrl": null,
-   "linkStatus": "live",
-   "notes": "normalizeBookingHref wraps this in the CJ deep link"
-  }
- ]
+  "caption": "The sandbars off Karimunjawa, no shade and no facilities, which is the point"
+ },
+ "intro": "Java has volcanoes, temples and some of the best overland travel in Indonesia, and almost no beach week worth the name. Karimunjawa is the exception, a small archipelago in the Java Sea reached by ferry from Jepara. The reason most people never go is not the distance. It is the timetable. The boat does not sail every day, and since the Semarang flight was dropped in March 2026 there is nothing to fall back on. So this trip is planned backwards, from the sailing days inward.",
+ "metaDescription": "Six days in Karimunjawa, planned around the ferry that really runs it: which boat to take, where to base, and what the snorkelling is like.",
+ "metaTitle": "Karimunjawa Itinerary: 6 Days on Java's Island Escape",
+ "route": "Yogyakarta or Semarang, Jepara, Karimunjawa village, Kemujan, Jepara",
+ "slug": {
+  "_type": "slug",
+  "current": "6-days-karimunjawa-java-islands"
+ },
+ "title": "6 Days in Karimunjawa: Java's Island Week, Built Around the Ferry",
+ "travelStylePrimary": "beach_islands",
+ "travellerTypes": [
+  "couples",
+  "friends",
+  "solo_travellers"
+ ],
+ "tripLengthBucket": "one_week",
+ "tripLengthDays": 6,
+ "vibe": "relaxed"
 }
