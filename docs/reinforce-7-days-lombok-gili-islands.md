@@ -1,10 +1,22 @@
 # Piano di rinforzo: /trips/7-days-lombok-gili-islands
 
-> **STATO: NON APPLICATO. Decide il founder.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-08-19,** lo stesso giorno in cui è stato
+> scritto, su richiesta esplicita del founder.
 >
-> Generato dal task schedulato del 2026-08-19. La **PARTE 1** (solo `metaTitle` e
-> `metaDescription`) è già in produzione da oggi, transazione `sZarkGCWKodXiPseaUUR9a`.
-> Tutto il resto di questo documento è una proposta.
+> - **PARTE 1** (`metaTitle`, `metaDescription`): transazione `sZarkGCWKodXiPseaUUR9a`.
+> - **Sezione 4 e 5** (le quattro H2 in forma di domanda e le due tabelle comparative):
+>   transazione `uBwiUtn9Wx8WqRIUPfUNhE`, 15 blocchi inseriti prima di
+>   "What to book early", da 89 a 104 blocchi.
+> - **Sezione 6.1 e 6.2** (link in-content a `/transport/lombok-to-gili-islands` e a
+>   `/trips/4-days-gili-islands-trawangan-meno-air`): stessa transazione. I due URL ora
+>   compaiono due volte ciascuno, una in-content con ancora descrittiva e una nel footer
+>   con l'ancora breve preesistente. È voluto: posizioni e ancore diverse.
+>
+> **Sezione 6.3 e 6.4: nessun intervento necessario, verificato.** La hub linkava già
+> questa pagina in due punti di `src/data/destinations.ts` (righe 269 e 748) con l'ancora
+> `7-day Lombok and Gili route`, che contiene già il numero di giorni come chiedeva il
+> punto 6.2 del piano della hub. E `7-days-lombok-rinjani-trek` linkava già questa pagina.
+> Il punto 6.4 era quindi basato su un presupposto sbagliato: il link esisteva di già.
 >
 > Questo piano chiude il **punto 5 rimasto aperto** in `docs/reinforce-lombok-gili.md`,
 > che rimandava esplicitamente il ritocco di questa pagina a "un secondo run di verifica".
