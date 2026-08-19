@@ -18,8 +18,9 @@
 >    query italiana da 16 impression. Stessa logica per il punto 6.2: il 7 giorni sul
 >    link della sezione "How many days", il 10 giorni su quella "Lombok or Bali".
 >
-> **Ancora aperto:** il punto 5 (metaTitle di `/trips/7-days-lombok-gili-islands`) e il
-> punto 6.4 (link da `6-days-nusa-islands-honeymoon` alla hub, richiede scrittura Sanity).
+> **Ancora aperto:** il punto 6.4 (link da `6-days-nusa-islands-honeymoon` alla hub,
+> richiede scrittura Sanity). **Il punto 5 (metaTitle di `/trips/7-days-lombok-gili-islands`)
+> è stato CHIUSO il 2026-08-19**, vedi `docs/reinforce-7-days-lombok-gili-islands.md`.
 >
 > **Nota sulla lettura dei dati.** La PARTE 1 ha ora quattro giorni di vita e la PARTE 4
 > zero. I due effetti si mescolano, come previsto dalla sezione 7: la data di giudizio
