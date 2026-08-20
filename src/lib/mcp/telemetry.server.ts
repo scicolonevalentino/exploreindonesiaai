@@ -24,16 +24,25 @@ function serviceClient() {
 export function logMcpCall(entry: McpCallLog) {
   const supabase = serviceClient();
   if (!supabase) return;
-  void supabase
-    .from("mcp_traffic_log")
-    .insert({
-      method: entry.method,
-      tool_name: entry.toolName ?? null,
-      client_name: entry.clientName ?? null,
-      ip: entry.ip,
-      user_agent: entry.userAgent,
-    })
-    .then(({ error }) => {
-      if (error) console.error("[mcp telemetry] insert failed:", error.message);
-    });
+  void (async () => {
+    try {
+      const { error } = await supabase.from("mcp_traffic_log").insert({
+        method: entry.method,
+        tool_name: entry.toolName ?? null,
+        client_name: entry.clientName ?? null,
+        ip: entry.ip,
+        user_agent: entry.userAgent,
+      });
+      if (error) {
+        const cause = (error as { cause?: unknown }).cause;
+        console.error(
+          "[mcp telemetry] insert failed:",
+          error.message,
+          cause instanceof Error ? `cause: ${cause.name} ${cause.message}` : "",
+        );
+      }
+    } catch (err) {
+      console.error("[mcp telemetry] insert threw:", err);
+    }
+  })();
 }
