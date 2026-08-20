@@ -13,6 +13,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { TOOLS, callTool } from "@/lib/mcp/tools.server";
 import { authRequired, verifyBearer } from "@/lib/mcp/oauth.server";
 import { SITE_URL } from "@/lib/mcp/config";
+import { logMcpCall } from "@/lib/mcp/telemetry.server";
 
 const SUPPORTED_PROTOCOL = "2025-06-18";
 const SERVER_INFO = { name: "exploreindonesia-ai", version: "0.1.0" };
@@ -28,6 +29,22 @@ function unauthorized() {
       "WWW-Authenticate": `Bearer resource_metadata="${SITE_URL}/.well-known/oauth-protected-resource"`,
     },
   });
+}
+
+// Best-effort per-instance rate limit (same approach as build-trip.ts). This is
+// a read-only, cheap search endpoint, so the ceiling is generous — it exists to
+// deflect abuse of a now-public, unauthenticated tier, not to throttle normal use.
+const RATE_LIMIT = new Map<string, number[]>();
+const WINDOW_MS = 60_000;
+const MAX_PER_WINDOW = 30;
+
+function rateLimited(key: string) {
+  const now = Date.now();
+  const arr = (RATE_LIMIT.get(key) ?? []).filter((t) => now - t < WINDOW_MS);
+  if (arr.length >= MAX_PER_WINDOW) return true;
+  arr.push(now);
+  RATE_LIMIT.set(key, arr);
+  return false;
 }
 
 type JsonRpcId = string | number | null;
@@ -53,7 +70,9 @@ function jsonResponse(body: unknown, status = 200) {
   });
 }
 
-async function handleRpc(msg: Record<string, unknown>): Promise<unknown | null> {
+type RpcContext = { ip: string; userAgent: string };
+
+async function handleRpc(msg: Record<string, unknown>, ctx: RpcContext): Promise<unknown | null> {
   const id = (msg.id ?? null) as JsonRpcId;
   const method = msg.method;
   const params = (msg.params ?? {}) as Record<string, unknown>;
@@ -62,7 +81,9 @@ async function handleRpc(msg: Record<string, unknown>): Promise<unknown | null> 
   const isNotification = msg.id === undefined;
 
   switch (method) {
-    case "initialize":
+    case "initialize": {
+      const clientInfo = params.clientInfo as { name?: string } | undefined;
+      logMcpCall({ method, clientName: clientInfo?.name, ...ctx });
       return result(id, {
         protocolVersion:
           typeof params.protocolVersion === "string" ? params.protocolVersion : SUPPORTED_PROTOCOL,
@@ -73,6 +94,7 @@ async function handleRpc(msg: Record<string, unknown>): Promise<unknown | null> 
           "search_itineraries finds curated published trips; match_trip / get_booking_links " +
           "turn a drafted plan into bookable items with affiliate deep links.",
       });
+    }
 
     case "notifications/initialized":
     case "notifications/cancelled":
@@ -82,11 +104,13 @@ async function handleRpc(msg: Record<string, unknown>): Promise<unknown | null> 
       return result(id, {});
 
     case "tools/list":
+      logMcpCall({ method, ...ctx });
       return result(id, { tools: TOOLS });
 
     case "tools/call": {
       const name = String(params.name ?? "");
       const args = (params.arguments ?? {}) as Record<string, unknown>;
+      logMcpCall({ method, toolName: name, ...ctx });
       try {
         const data = await callTool(name, args);
         return result(id, {
@@ -128,6 +152,12 @@ export const Route = createFileRoute("/api/mcp")({
           return unauthorized();
         }
 
+        const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+        if (rateLimited(ip)) {
+          return jsonResponse(error(null, -32000, "Rate limit exceeded, try again shortly."), 429);
+        }
+        const ctx: RpcContext = { ip, userAgent: request.headers.get("user-agent") ?? "unknown" };
+
         let payload: unknown;
         try {
           payload = await request.json();
@@ -138,7 +168,7 @@ export const Route = createFileRoute("/api/mcp")({
         // JSON-RPC batch support.
         if (Array.isArray(payload)) {
           const responses = (
-            await Promise.all(payload.map((m) => handleRpc(m as Record<string, unknown>)))
+            await Promise.all(payload.map((m) => handleRpc(m as Record<string, unknown>, ctx)))
           ).filter((r) => r !== null);
           return responses.length === 0 ? jsonResponse(null, 202) : jsonResponse(responses);
         }
@@ -147,7 +177,7 @@ export const Route = createFileRoute("/api/mcp")({
           return jsonResponse(error(null, -32600, "Invalid Request"), 200);
         }
 
-        const response = await handleRpc(payload as Record<string, unknown>);
+        const response = await handleRpc(payload as Record<string, unknown>, ctx);
         // Notifications produce no body -> 202 Accepted.
         return response === null ? jsonResponse(null, 202) : jsonResponse(response);
       },
