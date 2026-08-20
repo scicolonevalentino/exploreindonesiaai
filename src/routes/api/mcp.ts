@@ -83,7 +83,7 @@ async function handleRpc(msg: Record<string, unknown>, ctx: RpcContext): Promise
   switch (method) {
     case "initialize": {
       const clientInfo = params.clientInfo as { name?: string } | undefined;
-      logMcpCall({ method, clientName: clientInfo?.name, ...ctx });
+      await logMcpCall({ method, clientName: clientInfo?.name, ...ctx });
       return result(id, {
         protocolVersion:
           typeof params.protocolVersion === "string" ? params.protocolVersion : SUPPORTED_PROTOCOL,
@@ -104,13 +104,13 @@ async function handleRpc(msg: Record<string, unknown>, ctx: RpcContext): Promise
       return result(id, {});
 
     case "tools/list":
-      logMcpCall({ method, ...ctx });
+      await logMcpCall({ method, ...ctx });
       return result(id, { tools: TOOLS });
 
     case "tools/call": {
       const name = String(params.name ?? "");
       const args = (params.arguments ?? {}) as Record<string, unknown>;
-      logMcpCall({ method, toolName: name, ...ctx });
+      await logMcpCall({ method, toolName: name, ...ctx });
       try {
         const data = await callTool(name, args);
         return result(id, {
