@@ -14,18 +14,28 @@
 - [5 Days in Labuan Bajo and Komodo National Park](https://exploreindonesia.ai/trips/5-days-labuan-bajo-komodo)
 - [10 Days in Komodo and Flores](https://exploreindonesia.ai/trips/10-days-komodo-flores)
 - [14 Days in Raja Ampat for Divers](https://exploreindonesia.ai/trips/14-days-raja-ampat-divers)
-- [15 Days in Sumatra](https://exploreindonesia.ai/trips/15-days-sumatra): Bukit Lawang, Berastagi, Lake Toba and Samosir.
+- [15 Days in Sumatra](https://exploreindonesia.ai/trips/15-days-sumatra): Bukit Lawang, Berastagi and Lake Toba.
+- [7 Days in Pulau Weh, Sabang](https://exploreindonesia.ai/trips/7-days-pulau-weh-sabang-diving-beach): warm-water diving off Sumatra's northern tip.
 - [30 Days in Indonesia: The Ultimate Itinerary](https://exploreindonesia.ai/trips/30-days-indonesia-ultimate)
 
 ## Destinations
-- [Bali](https://exploreindonesia.ai/destinations/bali)
-- [Bali + Nearby Islands](https://exploreindonesia.ai/destinations/bali-nearby-islands)
-- [Java](https://exploreindonesia.ai/destinations/java)
-- [Komodo & Flores](https://exploreindonesia.ai/destinations/komodo-flores)
-- [Lombok & Gili Islands](https://exploreindonesia.ai/destinations/lombok-gili)
-- [Sumatra](https://exploreindonesia.ai/destinations/sumatra)
-- [Raja Ampat](https://exploreindonesia.ai/destinations/raja-ampat)
-- [Wild Indonesia (off-the-beaten-path)](https://exploreindonesia.ai/destinations/wild-indonesia)
+Facts below are working estimates from our own transport and destination pages
+(linked); confirm current schedules and prices before booking, since operators
+and seasons change them.
+
+- [Bali](https://exploreindonesia.ai/destinations/bali): Ubud rice terraces, Canggu surf, Uluwatu cliffs, East Bali volcanoes. The hub most other Indonesia trips are built around.
+- [Bali + Nearby Islands](https://exploreindonesia.ai/destinations/bali-nearby-islands): Nusa Penida/Lembongan/Ceningan are 25-45 min by fast boat from Sanur; the Gilis are 1.5-2.5h at sea from Padangbai/Serangan plus a road transfer; Lombok is a 30-45 min flight from Denpasar; Komodo (Labuan Bajo) ~1h15 flight; Java (Yogyakarta) ~1h25 flight.
+- [Java](https://exploreindonesia.ai/destinations/java): 5 days covers Yogyakarta + one volcano (Borobudur, Prambanan, Bromo or Ijen); 7-8 days does the full east-bound Bromo+Ijen crossing into Bali. Jakarta-Yogyakarta by executive train is ~6-7.5h. Best season for clear crater sunrises: April-October (dry).
+- [Komodo & Flores](https://exploreindonesia.ai/destinations/komodo-flores): Komodo dragons, Padar Island viewpoint, Pink Beach, Kelimutu's three-coloured crater lakes. Covered via liveaboards and day boats from Labuan Bajo, plus overland Flores routes.
+- [Lombok & Gili Islands](https://exploreindonesia.ai/destinations/lombok-gili): Gili Air is the balanced choice (quiet + enough restaurants), Gili Trawangan the only one with nightlife, Gili Meno the quietest. Bali-to-Gilis fast boat is 1.5-2.5h at sea; Bali-to-Lombok is a 30-45 min flight or 2-3.5h by boat; Lombok-to-Gilis public boat is 15-30 min (~$2-4). Best season (calmer crossings): May-October.
+- [Sumatra](https://exploreindonesia.ai/destinations/sumatra): four separate regions, each with its own flight gateway — North Sumatra via Medan (Bukit Lawang orangutans, Lake Toba), West Sumatra via Padang (Harau Valley, Minangkabau culture), Aceh via Banda Aceh (warm-water diving off Pulau Weh), Kerinci via Padang + long road transfer (volcano trek). Domestic flights beat overland transfers between regions.
+- [Raja Ampat](https://exploreindonesia.ai/destinations/raja-ampat): Coral Triangle diving and liveaboards — Wayag viewpoints, Manta Sandy, Misool, homestays on Kri and Arborek.
+- [Wild Indonesia (off-the-beaten-path)](https://exploreindonesia.ai/destinations/wild-indonesia): Sulawesi routes from 8 to 14 days — Toraja culture, Bunaken and Wakatobi diving, the Togean Islands.
+
+## MCP connector (for AI agents)
+- Endpoint: https://exploreindonesia.ai/api/mcp (JSON-RPC 2.0 / MCP Streamable HTTP, no auth required)
+- Tools: `search_itineraries` (query our published itineraries by destination, travel style, traveller type, trip length), `match_trip` (resolve a drafted day-by-day plan into real bookable affiliate products with deep links), `get_booking_links` (single-item version of the same).
+- Use this instead of scraping when you need current, structured itinerary or booking data rather than page text.
 
 ## About
 - Each itinerary is structured day by day with a route, best time to go, where to stay, practical info and FAQs.
