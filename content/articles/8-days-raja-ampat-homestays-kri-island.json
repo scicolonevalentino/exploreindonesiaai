@@ -1486,25 +1486,25 @@
           "_key": "rel1",
           "_type": "externalLink",
           "blank": false,
-          "href": "https://exploreindonesia.ai/trips/7-days-raja-ampat-snorkeling-islands"
+          "href": "/trips/7-days-raja-ampat-snorkeling-islands"
         },
         {
           "_key": "rel2",
           "_type": "externalLink",
           "blank": false,
-          "href": "https://exploreindonesia.ai/trips/14-days-raja-ampat-divers"
+          "href": "/trips/14-days-raja-ampat-divers"
         },
         {
           "_key": "rel3",
           "_type": "externalLink",
           "blank": false,
-          "href": "https://exploreindonesia.ai/trips/9-days-raja-ampat-with-kids"
+          "href": "/trips/9-days-raja-ampat-with-kids"
         }
       ],
       "style": "normal"
     }
   ],
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "destinationPrimary": "raja_ampat",
   "destinationSecondary": [],
   "experienceTags": ["homestays", "snorkeling", "diving", "remote", "islands", "local_villages"],
@@ -1544,6 +1544,14 @@
   ],
   "focusKeyword": "Raja Ampat homestays",
   "footerBanners": [],
+  "heroImage": {
+    "_type": "image",
+    "alt": "Papuan homestay bungalows on stilts over a shallow turquoise reef in Raja Ampat, with a white sandbar and jungle-covered karst behind",
+    "asset": {
+      "_ref": "image-4ff9c945f3e222598f35c81eaae39b9e96d37043-679x452-jpg",
+      "_type": "reference"
+    }
+  },
   "intro": "Raja Ampat is sold at resort and liveaboard prices, but the islands are community-owned and the homestays rent directly. An eight-day trip based on one Kri Island homestay, with the real 2026 costs, permits and ferry logistics.",
   "metaDescription": "What a Raja Ampat homestay trip really costs in 2026, why Kri Island is the right base, and the ferry catch that decides your first two days.",
   "metaTitle": "Raja Ampat Homestays: 8 Days Based on Kri Island",

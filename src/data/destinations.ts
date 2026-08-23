@@ -659,6 +659,19 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
         },
       },
       {
+        heading: "Can you learn to dive in the Gili Islands?",
+        body: [
+          "Yes, and it is one of the most common places in Indonesia to do it. A PADI Open Water course takes three to four days, costs roughly IDR 5,000,000 to 6,900,000 as a working estimate, and runs on shallow, sheltered sites. Warm water and gentle conditions are why so many people certify here rather than at home.",
+          "Prices barely vary between schools. Most established centres on Gili Trawangan belong to the Gili Indah Dive Alliance, which sets minimum prices across its members, so compare group size, instructors and gear rather than quotes. Allow more days than the course itself needs, because a cancelled crossing from Bali eats the buffer first.",
+        ],
+        link: {
+          before: "The full week, course plus fun dives afterwards, is mapped out in our ",
+          href: "/trips/7-days-gili-islands-learn-to-dive",
+          anchor: "7-day Gili Islands diving itinerary",
+          after: ".",
+        },
+      },
+      {
         heading: "How do you get from Bali to Lombok and the Gili Islands?",
         body: [
           "Fast boats leave Bali's east coast ports daily and reach the Gili Islands in roughly 1.5 to 2.5 hours at sea, or Lombok in 2 to 3.5 hours. Lombok also has an international airport near Praya, about 45 minutes' flying from Denpasar, which is faster if you are starting in the south.",

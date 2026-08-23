@@ -225,6 +225,130 @@
       "style": "normal"
     },
     {
+      "_key": "gx1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx2",
+          "_type": "span",
+          "marks": [],
+          "text": "Which dive sites will you actually dive in the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "gx3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx4",
+          "_type": "span",
+          "marks": [],
+          "text": "Most Gili diving happens inside a ring of about a dozen sites between the three islands. Shark Point and Halik sit off Gili Trawangan, Meno Wall and Turtle Heaven off Gili Meno, Air Wall and Air Slope off Gili Air. Almost all are boat dives of ten to twenty minutes, and none are far offshore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx6",
+          "_type": "span",
+          "marks": [],
+          "text": "The spread matters because the sites are not interchangeable. Shark Point drops past thirty metres and is current-influenced, which is why it sits on the Advanced list rather than the course list. Turtle Heaven is a pinnacle with coral cover from roughly ten to thirty metres and the turtle density the name promises. Meno Wall is a drift along a steep wall and the islands' best night dive. Air Wall drops vertically from about five to thirty metres with gorgonian fans and bumphead parrotfish deeper down."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx7",
+      "_type": "comparisonTable",
+      "caption": "The sites a seven-day trip realistically covers. Depths and conditions are working estimates taken from operator briefings and they shift with tide and season, so let your guide sequence the week.",
+      "columns": ["Site", "Island", "Depth and conditions", "What you see", "Course or after"],
+      "rows": [
+        {
+          "_key": "gx8",
+          "cells": [
+            "Shark Point",
+            "Gili Trawangan, north-west tip",
+            "Ridges dropping past 30 metres, current-influenced",
+            "White-tip and black-tip reef sharks, jackfish schools, occasional eagle rays, a tug wreck at depth",
+            "After, and realistically after an Advanced course"
+          ]
+        },
+        {
+          "_key": "gx9",
+          "cells": [
+            "Halik Reef",
+            "Gili Trawangan, north-west",
+            "A gentle slope from roughly 6 to 40 metres",
+            "Gorgonian fans and snapper schools, turtles on the shallow shoulder",
+            "Either. The shallow part works as a course dive"
+          ]
+        },
+        {
+          "_key": "gx10",
+          "cells": [
+            "Turtle Heaven",
+            "North-east of Gili Meno",
+            "A pinnacle with coral cover from roughly 10 to 30 metres",
+            "Green and hawksbill turtles in numbers, which is the site's whole reputation",
+            "Either, and the dive most people remember"
+          ]
+        },
+        {
+          "_key": "gx11",
+          "cells": [
+            "Meno Wall",
+            "Gili Meno",
+            "A drift along a steep coral wall",
+            "Turtles and cuttlefish, and the best night diving in the islands",
+            "After. Drift and night diving are not course skills"
+          ]
+        },
+        {
+          "_key": "gx12",
+          "cells": [
+            "Air Wall",
+            "Gili Air, east side",
+            "A vertical drop from roughly 5 to 30 metres",
+            "Gorgonian fans, with bumphead parrotfish deeper down",
+            "After for the wall itself, though the shallow top suits students"
+          ]
+        },
+        {
+          "_key": "gx13",
+          "cells": [
+            "Air Slope",
+            "Gili Air",
+            "A gentle reef and muck mix, shallow throughout",
+            "Macro life and nudibranchs, plus room to practise skills with no wall below you",
+            "Course. This is the kind of site day three usually uses"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "gx14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx15",
+          "_type": "span",
+          "marks": [],
+          "text": "Read that last column before you pick a school on reputation alone. A student on a four-day course dives shallow, sheltered sites, and the ones people arrive wanting, Shark Point above all, are the ones they are not yet qualified for. That gap is the strongest argument for staying on after certification instead of flying home with a card and four logged dives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
       "_key": "nb214",
       "_type": "block",
       "children": [
@@ -297,6 +421,123 @@
       ]
     },
     {
+      "_key": "gx16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx17",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does diving in the Gili Islands cost in 2026?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "gx18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx19",
+          "_type": "span",
+          "marks": [],
+          "text": "Budget roughly IDR 5,000,000 to 6,900,000 for a PADI Open Water course, about $310 to $390, depending on the school and what the package covers. Individual fun dives run around IDR 500,000 to 700,000 each, with real discounts on packages of five or ten, plus a one-off marine park fee of about IDR 100,000."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx21",
+          "_type": "span",
+          "marks": [],
+          "text": "There is one local fact that saves you a day of research. Almost every established dive centre on Gili Trawangan belongs to the Gili Indah Dive Alliance, formed in 2008 and led by the local elders, and the alliance sets minimum prices across its member shops. Whichever member you walk into, the course price is broadly the same, and so are the package discounts. Hunting for a cheaper quote is time you will not get back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx23",
+          "_type": "span",
+          "marks": [],
+          "text": "So compare the things that genuinely vary: how many students per instructor, whether the instructor who showed you around is the one who will teach you, how well maintained the rental gear looks, and which sites the shop actually dives. Treat every figure here as a working estimate for 2026, because listings move each season, and confirm with the school before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx25",
+          "_type": "span",
+          "marks": [],
+          "text": "When is the best time to dive in the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "gx26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx27",
+          "_type": "span",
+          "marks": [],
+          "text": "April to November is the reliable window, with calm seas, visibility around 25 to 30 metres and currents a newly certified diver can handle. Water sits between 28 and 29 degrees all year, so the season is really about surface conditions and visibility rather than temperature."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx29",
+          "_type": "span",
+          "marks": [],
+          "text": "December to March you can still dive, and plenty of people do. What breaks a four-day course in that window is the crossing rather than the water: fast boats from Bali cancel more often, and losing the first day is what turns a seven-day plan into a rushed one. Green and hawksbill turtles are around all year, so there is no season to chase for them. If you are timing the wider trip, our "
+        },
+        {
+          "_key": "gx30",
+          "_type": "span",
+          "marks": ["cLnk"],
+          "text": "guide to the best time to visit Lombok"
+        },
+        {
+          "_key": "gx31",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the same window on the mainland."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cLnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili/best-time-to-visit-lombok"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "nb223",
       "_type": "block",
       "children": [
@@ -324,10 +565,29 @@
           "_key": "ns225",
           "_type": "span",
           "marks": [],
-          "text": "Fast boat from Bali. Budget 1.5 to 2.5 hours at sea plus the road transfer to the port, and take a morning departure."
+          "text": "Fast boat from Bali. Budget 1.5 to 2.5 hours at sea plus the road transfer to the port, and take a morning departure, and our "
+        },
+        {
+          "_key": "gxT1",
+          "_type": "span",
+          "marks": ["tLnk"],
+          "text": "Bali to Gili Islands transport guide"
+        },
+        {
+          "_key": "gxT2",
+          "_type": "span",
+          "marks": [],
+          "text": " lays out the operators and the crossing times."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "tLnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-gili-islands"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1205,6 +1465,67 @@
       "style": "normal"
     },
     {
+      "_key": "gx32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx33",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Trawangan, Gili Air or Gili Meno: where should a diver stay?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "gx34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx35",
+          "_type": "span",
+          "marks": [],
+          "text": "Trawangan has the most dive schools and the only real nightlife, Gili Air has a quieter strip with a handful of good centres, and Gili Meno has the fewest of everything. For a seven-day trip built around a course, certifying on Trawangan and doing the fun dives from Gili Air gives you both halves without a second crossing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "gx36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "gx37",
+          "_type": "span",
+          "marks": [],
+          "text": "That split is why this itinerary changes base once rather than twice. Meno is the quietest of the three and the least practical island to certify from, because a session cancelled there is harder to rearrange at short notice. To weigh the three on more than diving, our "
+        },
+        {
+          "_key": "gx38",
+          "_type": "span",
+          "marks": ["dLnk"],
+          "text": "comparison of the Gili Islands"
+        },
+        {
+          "_key": "gx39",
+          "_type": "span",
+          "marks": [],
+          "text": " sets them side by side on beaches, food, cost and crowds."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dLnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili/gili-islands-comparison"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "nb359",
       "_type": "block",
       "children": [
@@ -1346,7 +1667,7 @@
       "style": "normal"
     }
   ],
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "destinationPrimary": "lombok_gili",
   "destinationSecondary": ["bali"],
   "faq": [
@@ -1387,15 +1708,23 @@
     }
   ],
   "focusKeyword": "learn to dive Gili Islands",
+  "heroImage": {
+    "_type": "image",
+    "alt": "A green turtle resting on the shallow reef off the Gili Islands",
+    "asset": {
+      "_ref": "image-96d5394bdf34ada7198cdb78574a18822f2aaff5-1024x768-jpg",
+      "_type": "reference"
+    }
+  },
   "intro": "Seven days in the Gili Islands built around an open water course, with enough fun dives afterwards to make the certification worth having.",
-  "metaDescription": "How long an open water course really takes in the Gili Islands, what it costs in 2026, and why four days is not enough. A 7-day plan that works.",
-  "metaTitle": "Learn to Dive in the Gili Islands: A 7-Day Plan",
+  "metaDescription": "What diving in the Gili Islands is really like, what an open water course costs in 2026, and why four days is not enough. A tested 7-day plan.",
+  "metaTitle": "Gili Islands Diving Holiday: 7 Days, Course Included",
   "route": "Bali → Gili Trawangan → Gili Air → Bali",
   "slug": {
     "_type": "slug",
     "current": "7-days-gili-islands-learn-to-dive"
   },
-  "title": "7 Days Learning to Dive in the Gili Islands",
+  "title": "Diving the Gili Islands: A 7-Day Learn to Dive Trip",
   "travelStylePrimary": "diving_snorkeling",
   "travellerTypes": ["divers", "solo_travellers", "friends", "couples"],
   "tripLengthBucket": "one_week",

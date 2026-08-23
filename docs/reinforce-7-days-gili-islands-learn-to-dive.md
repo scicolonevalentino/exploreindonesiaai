@@ -1,8 +1,14 @@
 # Piano di rinforzo, `/trips/7-days-gili-islands-learn-to-dive`
 
-> **STATO: IN ATTESA DI APPROVAZIONE.** Generato dal task schedulato del 2026-08-21 (PARTE 3).
-> La PARTE 1 dello stesso run ha già applicato `metaTitle` e `metaDescription` in produzione.
-> **Tutto il resto in questo documento NON è applicato: decide il founder.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-08-21,** lo stesso giorno in cui è stato scritto.
+> La PARTE 1 aveva già applicato `metaTitle` e `metaDescription`; il founder ha approvato il
+> resto in giornata, quindi sono stati applicati anche il `title` nuovo, le quattro sezioni H2
+> con la seconda tabella comparativa, e i link interni. Il corpo è passato da 66 a 81 blocchi.
+>
+> **Correzione al punto 5.4 di questo documento:** la stesura originale diceva che da
+> `/trips/4-days-gili-islands-trawangan-meno-air` "oggi non c'è link". Falso, verificato al
+> momento di applicare: il link esiste già, aggiunto da una run precedente, nel blocco
+> "Stretch to five or six days". Non è stato toccato.
 
 \_id Sanity: `itinerary-7-days-gili-islands-learn-to-dive` (contentStatus `live`)
 URL: https://exploreindonesia.ai/trips/7-days-gili-islands-learn-to-dive
@@ -203,3 +209,43 @@ Metrica da guardare il lunedì, su `/trips/7-days-gili-islands-learn-to-dive`:
 - **se si applica la PARTE 3:** primi click su "gili islands diving holidays" (oggi 0 su 17
   impression) e comparsa della pagina su query di singolo sito ("turtle heaven gili",
   "meno wall", "shark point gili"), che oggi non generano nessuna impression per noi.
+
+---
+
+## 7. Cosa è stato applicato davvero, 2026-08-21
+
+**`title`** (deciso dal founder, non era un ritocco meccanico):
+
+```
+vecchio: 7 Days Learning to Dive in the Gili Islands
+nuovo:   Diving the Gili Islands: A 7-Day Learn to Dive Trip
+```
+
+**Quattro sezioni H2 nuove**, nell'ordine in cui compaiono ora nella pagina:
+
+1. `Which dive sites will you actually dive in the Gili Islands?`, con una
+   **`comparisonTable` nuova** (Site / Island / Depth and conditions / What you see /
+   Course or after) su Shark Point, Halik Reef, Turtle Heaven, Meno Wall, Air Wall e Air Slope.
+   La colonna "Course or after" è il punto di vista di casa: chi fa l'Open Water non si immerge
+   sui siti che crede, e quello è l'argomento per restare dopo il brevetto.
+2. `How much does diving in the Gili Islands cost in 2026?`, con Open Water a
+   IDR 5.000.000-6.900.000, fun dive a IDR 500.000-700.000, marine park fee IDR 100.000.
+3. `When is the best time to dive in the Gili Islands?`
+4. `Gili Trawangan, Gili Air or Gili Meno: where should a diver stay?`
+
+**Fatto verificato aggiunto in fase di scrittura, non era nel piano:** la **Gili Indah Dive
+Alliance**, nata nel 2008 e guidata dagli anziani locali, fissa prezzi minimi comuni fra i dive
+centre associati. Cercare il preventivo più basso alle Gili è tempo perso, e questo nessuna
+delle pagine che ci stanno davanti lo dice con chiarezza. È il differenziale editoriale della
+pagina, non solo un numero in più.
+
+**Link interni applicati:**
+
+- in uscita → `/destinations/lombok-gili/gili-islands-comparison` (guida a zero impression, ora
+  ha un ingresso contestuale), `/destinations/lombok-gili/best-time-to-visit-lombok`,
+  `/transport/bali-to-gili-islands`
+- in entrata → da `/trips/7-days-lombok-gili-islands` nel Day 6 (snorkeling), e dall'hub
+  `/destinations/lombok-gili` con una sezione nuova `Can you learn to dive in the Gili Islands?`
+  in `src/data/destinations.ts`. Prima l'hub la linkava solo con una card automatica.
+- da `/trips/4-days-gili-islands-trawangan-meno-air` il link esisteva già, vedi la correzione
+  in cima.

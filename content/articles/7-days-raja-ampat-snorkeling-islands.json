@@ -1,32 +1,6 @@
 {
   "_id": "itinerary-7-days-raja-ampat-snorkeling-islands",
   "_type": "article",
-  "title": "7 Days in Raja Ampat: Snorkelling, Islands and Karst",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-raja-ampat-snorkeling-islands"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-13T16:00:00.000Z",
-  "destinationPrimary": "raja_ampat",
-  "destinationSecondary": [],
-  "travelStylePrimary": "wildlife_nature",
-  "travelStyleSecondary": ["beach_islands", "diving_snorkeling"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
-  "vibe": "remote",
-  "experienceTags": ["snorkeling", "islands", "wildlife", "remote", "karst", "local_villages"],
-  "bestSeason": "October–April",
-  "route": "Sorong → Waisai → Gam / Mansuar / Kri → Piaynemo → Sorong",
-  "focusKeyword": "Raja Ampat itinerary",
-  "metaTitle": "7 Days in Raja Ampat: A Snorkelling Itinerary",
-  "metaDescription": "A decision-led 7-day Raja Ampat itinerary for snorkellers, no diving needed: Cape Kri, Manta Sandy, Arborek and Piaynemo. What to book, what to skip.",
-  "intro": "Raja Ampat is sold as a divers' destination, which quietly excludes everyone else. This decision-led 7-day route is built for snorkellers and island lovers: world-class jetty reefs, mantas from the surface, the Piaynemo karst and a dawn bird of paradise, from one homestay base, with no diving needed.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
@@ -45,6 +19,12 @@
       "placeholderId": "TWELVEGO_SORONG_WAISAI"
     }
   ],
+  "articleCreatedDate": "2026-06-13T16:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "October–April",
   "body": [
     {
       "_key": "k1",
@@ -882,7 +862,19 @@
           "_key": "k3l",
           "_type": "span",
           "marks": [],
-          "text": " your flights in and out of Sorong, your homestay (months ahead), and the marine park permit, which you can buy online in advance or on arrival in Waisai. These are the things that, left late, can cost you the trip. "
+          "text": " your flights in and out of Sorong, your homestay (months ahead), and the marine park permit, which you can buy online in advance or on arrival in Waisai. These are the things that, left late, can cost you the trip. If the homestay side is the part you want to get right, the "
+        },
+        {
+          "_key": "k3lA",
+          "_type": "span",
+          "marks": ["lnkkri"],
+          "text": "8-day Kri Island homestay trip"
+        },
+        {
+          "_key": "k3lB",
+          "_type": "span",
+          "marks": [],
+          "text": " works through the 2026 costs, the permits and how to share a boat. "
         },
         {
           "_key": "k3m",
@@ -897,7 +889,14 @@
           "text": " the daily snorkel plan, the slow afternoon, and the bird-of-paradise trek. These are arranged on the ground with your homestay and are better shaped around the weather and the tide than a fixed calendar."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "lnkkri",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-raja-ampat-homestays-kri-island"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1349,6 +1348,10 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "raja_ampat",
+  "destinationSecondary": [],
+  "experienceTags": ["snorkeling", "islands", "wildlife", "remote", "karst", "local_villages"],
   "faq": [
     {
       "answer": "Yes, and many people do. The snorkelling off the homestay jetties and at sites like Cape Kri, Manta Sandy and Arborek is world-class, and you can see reef sharks, turtles and manta rays from the surface. You do not need any diving certification to have an extraordinary week here.",
@@ -1379,6 +1382,8 @@
       "question": "Is 7 days enough for Raja Ampat?"
     }
   ],
+  "focusKeyword": "Raja Ampat itinerary",
+  "footerBanners": [],
   "heroImage": {
     "_type": "image",
     "alt": "A snorkeller gliding over a coral reef with tropical fish in clear blue water",
@@ -1387,5 +1392,19 @@
       "_type": "reference"
     }
   },
-  "footerBanners": []
+  "intro": "Raja Ampat is sold as a divers' destination, which quietly excludes everyone else. This decision-led 7-day route is built for snorkellers and island lovers: world-class jetty reefs, mantas from the surface, the Piaynemo karst and a dawn bird of paradise, from one homestay base, with no diving needed.",
+  "metaDescription": "A decision-led 7-day Raja Ampat itinerary for snorkellers, no diving needed: Cape Kri, Manta Sandy, Arborek and Piaynemo. What to book, what to skip.",
+  "metaTitle": "7 Days in Raja Ampat: A Snorkelling Itinerary",
+  "route": "Sorong → Waisai → Gam / Mansuar / Kri → Piaynemo → Sorong",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-raja-ampat-snorkeling-islands"
+  },
+  "title": "7 Days in Raja Ampat: Snorkelling, Islands and Karst",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": ["beach_islands", "diving_snorkeling"],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "remote"
 }

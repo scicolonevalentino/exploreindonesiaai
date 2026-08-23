@@ -1,32 +1,12 @@
 {
   "_id": "cf1690ad-14cc-4b46-b08a-6c39d860e9ab",
+  "_system": {
+    "base": {
+      "id": "cf1690ad-14cc-4b46-b08a-6c39d860e9ab",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
   "_type": "article",
-  "title": "7 Days in Lombok and the Gili Islands: Kuta Lombok, Senaru and Gili Trawangan",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-lombok-gili-islands"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:00:00.000Z",
-  "destinationPrimary": "lombok_gili",
-  "destinationSecondary": [],
-  "travelStylePrimary": "beach_islands",
-  "travelStyleSecondary": ["adventure_volcanoes", "wildlife_nature"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
-  "vibe": "balanced",
-  "experienceTags": ["waterfalls", "beach_sunset", "snorkeling", "island_day_trip"],
-  "bestSeason": "April–October",
-  "route": "Kuta Lombok → Senaru → Gili Trawangan",
-  "focusKeyword": "7 days Lombok Gili Islands itinerary",
-  "metaTitle": "Lombok & Gili Islands in 7 Days: Full Itinerary",
-  "metaDescription": "A practical 7-day Lombok and Gili Islands itinerary: Kuta Lombok beaches, Senaru waterfalls and Gili Trawangan, with honest transfer and ferry advice.",
-  "intro": "Most people treat Lombok as a quieter version of Bali. It is closer to the truth to call it a different trip with a different rhythm. This route gives you three nights of empty surf beaches in the south, one night in the cool green foothills near Senaru, then two slow car-free days on Gili Trawangan. The hard part is not the sights, it is the single long transfer day and the ferry timing that holds the whole plan together.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
@@ -109,6 +89,13 @@
       "publicUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/"
     }
   ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-06-02T05:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "k0",
@@ -1154,6 +1141,24 @@
           "_type": "span",
           "marks": [],
           "text": " typically loops Gili Trawangan, Gili Meno and Gili Air, with chances to see turtles, coral, tropical fish and the underwater statues near Gili Meno."
+        },
+        {
+          "_key": "k4d1",
+          "_type": "span",
+          "marks": [],
+          "text": " If you would rather be under the surface than on it, the same reefs are the setting for "
+        },
+        {
+          "_key": "k4d2",
+          "_type": "span",
+          "marks": ["lnkdive"],
+          "text": "a 7-day Gili Islands diving trip with an open water course"
+        },
+        {
+          "_key": "k4d3",
+          "_type": "span",
+          "marks": [],
+          "text": " built around them."
         }
       ],
       "markDefs": [
@@ -1161,6 +1166,12 @@
           "_key": "k4b",
           "_type": "affiliateLinkRef",
           "placeholderId": "KLOOK_GILI_SNORKELING"
+        },
+        {
+          "_key": "lnkdive",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-gili-islands-learn-to-dive"
         }
       ],
       "style": "normal"
@@ -1295,6 +1306,296 @@
         }
       ],
       "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs2",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Lombok?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs3",
+          "_type": "span",
+          "marks": [],
+          "text": "Five to seven days is the realistic range for Lombok, and seven is the version that also fits the Gili Islands. Lombok is big and the roads are slow, so a week buys you one region properly plus a few nights offshore. Under five days you are choosing between the south coast and the north, not doing both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs5",
+          "_type": "span",
+          "marks": [],
+          "text": "The reason is geography rather than distance on a map. Kuta and the south beaches sit at one end, Senaru and the waterfalls at the other, and the drive between them takes most of a day once you allow for the state of the road. Every itinerary that promises Lombok in three days is quietly skipping one of those two ends."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs8",
+          "_type": "span",
+          "marks": [],
+          "text": "Is one week enough for Lombok and the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rf10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs9",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you accept one Gili rather than three. Seven days covers the south coast beaches around Kuta, the drive north to the Senaru waterfalls and three or four nights on Gili Trawangan. What it does not cover is the Rinjani trek, which needs two to three days on its own and belongs in a different trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs11",
+          "_type": "span",
+          "marks": [],
+          "text": "There are really only three honest ways to divide the week, and the one this itinerary uses is the middle option. It is worth looking at all three before you book, because the right answer depends on whether you came for the reef or for the island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rt13",
+      "_type": "comparisonTable",
+      "caption": "The three realistic ways to split a week between Lombok and the Gilis. All of them assume you fly into Lombok and leave from either Lombok or Bali.",
+      "columns": ["Split", "What you get", "What you give up", "Best for"],
+      "rows": [
+        {
+          "_key": "rr14",
+          "cells": [
+            "Seven nights on Lombok, no Gilis",
+            "The south coast, the north and Senaru without rushing, plus time in the interior",
+            "The reef, and the slow island rhythm the Gilis are actually for",
+            "Travellers who want to drive and see the island itself"
+          ]
+        },
+        {
+          "_key": "rr15",
+          "cells": [
+            "Four nights Lombok, three on the Gilis",
+            "Both halves of the trip, and one Gili properly rather than three in passing",
+            "One of the two Lombok coasts, usually the far north beyond Senaru",
+            "Most people, and the split this itinerary uses"
+          ]
+        },
+        {
+          "_key": "rr16",
+          "cells": [
+            "Two nights Lombok, five on the Gilis",
+            "A genuine beach and snorkelling week with almost no driving",
+            "The waterfalls, the interior and most of what makes Lombok different from the Gilis",
+            "Snorkellers, divers, and anyone who came for the water"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rf17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs18",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get from Lombok to the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rf20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs19",
+          "_type": "span",
+          "marks": [],
+          "text": "The public boat from Bangsal harbour reaches the Gilis in 15 to 30 minutes for a few dollars, and it leaves when it fills rather than on a timetable. A private speedboat charter does it in 10 to 15 minutes from around $35 per boat. Buy public tickets only at the official Karya Bahari counter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs21",
+          "_type": "span",
+          "marks": [],
+          "text": "The part that catches people out is not the crossing, it is Bangsal itself. The approach road is worked by touts who will tell you the public boat is finished for the day, or full, or not running. Walk past them to the official counter and check for yourself. The slow boats also stop mid-afternoon, so a late arrival from Senaru can leave you paying for a charter you did not plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rf27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs23",
+          "_type": "span",
+          "marks": [],
+          "text": "Full timings, current fares and the charter option are laid out in our "
+        },
+        {
+          "_key": "rs25",
+          "_type": "span",
+          "marks": ["rm24"],
+          "text": "guide to the Bangsal boats to the Gili Islands"
+        },
+        {
+          "_key": "rs26",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rm24",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/lombok-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rf28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs29",
+          "_type": "span",
+          "marks": [],
+          "text": "Which Gili island should you choose?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rf31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs30",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Trawangan is the biggest and the only one with a real evening, Gili Air is the compromise most couples end up preferring, and Gili Meno is the quiet one where there is deliberately nothing to do. All three are 15 to 30 minutes from Bangsal and hop between each other, so the choice is about where you sleep, not where you go."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rt32",
+      "_type": "comparisonTable",
+      "caption": "The three Gilis compared. Local boats connect all three, so you can visit the others on a day trip whichever one you base yourself on.",
+      "columns": ["Island", "What it gives you", "What it costs you", "Who should pick it"],
+      "rows": [
+        {
+          "_key": "rr33",
+          "cells": [
+            "Gili Trawangan",
+            "The most accommodation, the dive shops, the restaurants, and the only real nightlife in the group",
+            "It is the busy one, and the strip can be loud well after you want to sleep",
+            "First visits, divers, and anyone who wants options rather than quiet"
+          ]
+        },
+        {
+          "_key": "rr34",
+          "cells": [
+            "Gili Air",
+            "Enough places to eat that you have a choice, and quiet enough that you sleep",
+            "Fewer dive operators than Trawangan and very little happening after dinner",
+            "Couples, and most people who have already done Trawangan once"
+          ]
+        },
+        {
+          "_key": "rr35",
+          "cells": [
+            "Gili Meno",
+            "Snorkelling straight off the beach, turtles, and genuine silence",
+            "Limited food options and almost nothing to do, which gets long over a week",
+            "Honeymooners, and anyone who actually wants nothing"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rf40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rs36",
+          "_type": "span",
+          "marks": [],
+          "text": "If you read that table and realised you want more island and less Lombok, the "
+        },
+        {
+          "_key": "rs38",
+          "_type": "span",
+          "marks": ["rm37"],
+          "text": "four-day Gili Islands route across Trawangan, Meno and Air"
+        },
+        {
+          "_key": "rs39",
+          "_type": "span",
+          "marks": [],
+          "text": " is the trip you are describing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rm37",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-gili-islands-trawangan-meno-air"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1950,6 +2251,10 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "lombok_gili",
+  "destinationSecondary": [],
+  "experienceTags": ["waterfalls", "beach_sunset", "snorkeling", "island_day_trip"],
   "faq": [
     {
       "answer": "Yes for this route. A week covers Kuta Lombok's surf beaches, a Senaru waterfall day in the Rinjani foothills, and two to three nights on the Gilis. It is not enough for the full 2 to 3 day Rinjani summit trek, so plan that as a dedicated add-on if it is a priority.",
@@ -1976,6 +2281,7 @@
       "question": "Should I rent a scooter or use a driver in South Lombok?"
     }
   ],
+  "focusKeyword": "7 days Lombok Gili Islands itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Lombok and Gili Islands — Kuta beaches, Senaru waterfalls and Gili Trawangan sunsets",
@@ -1985,15 +2291,23 @@
     },
     "caption": "Kuta Lombok → Senaru → Gili Trawangan"
   },
-  "_system": {
-    "base": {
-      "id": "cf1690ad-14cc-4b46-b08a-6c39d860e9ab",
-      "rev": "yoqobxKtA2iTDPf0nKICJN"
-    }
-  },
-  "articleCommercialTier": "standard",
+  "intro": "Most people treat Lombok as a quieter version of Bali. It is closer to the truth to call it a different trip with a different rhythm. This route gives you three nights of empty surf beaches in the south, one night in the cool green foothills near Senaru, then two slow car-free days on Gili Trawangan. The hard part is not the sights, it is the single long transfer day and the ferry timing that holds the whole plan together.",
   "logisticsComplexity": "easy",
+  "metaDescription": "Seven days on Lombok and one Gili: Kuta's south beaches, the Senaru waterfalls and Gili Trawangan, with real ferry times and what to book first.",
+  "metaTitle": "Lombok 7 Day Itinerary: Kuta, Senaru, Gili Trawangan",
   "primaryAffiliatePartner": "klook",
+  "route": "Kuta Lombok → Senaru → Gili Trawangan",
   "routeSummary": "Kuta Lombok → Senaru → Gili Trawangan",
-  "secondaryAffiliatePartners": ["viator", "booking", "12go", "airalo"]
+  "secondaryAffiliatePartners": ["viator", "booking", "12go", "airalo"],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-lombok-gili-islands"
+  },
+  "title": "7 Days in Lombok and the Gili Islands: Kuta Lombok, Senaru and Gili Trawangan",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": ["adventure_volcanoes", "wildlife_nature"],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "balanced"
 }
