@@ -1054,6 +1054,62 @@
       "style": "normal"
     },
     {
+      "_key": "sw1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw2",
+          "_type": "span",
+          "marks": [],
+          "text": "Can you see birds of paradise in Raja Ampat?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw4",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, and it is the one land experience worth building a morning around. Red birds of paradise are common on Waigeo and Gam, and the display site behind Sawinggrai village on Gam is the most accessible of them. From the village it is an easy walk of about twenty minutes to the display trees."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw6",
+          "_type": "span",
+          "marks": [],
+          "text": "Most operators sell this as a pre-dawn expedition, with a boat around 04:30 and the walk starting at first light, and that is the version with the best odds. It is worth knowing it is not the only version. The professional birding report published in the local homestay association's guide records five or six males displaying at the same site in the afternoon, around half past three. If a 04:30 start would wreck the rest of your week, ask your host about the afternoon window before you write the birds off entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw8",
+          "_type": "span",
+          "marks": [],
+          "text": "Budget a guide fee of roughly $50 to $100 per group as a working estimate, paid directly to the Papuan guide community rather than to an agency, plus the boat. Sawinggrai sits a short run from Kri, well inside an hour, so this is a half day rather than the full-day commitment Piaynemo demands. Confirm the crossing time with your host, wear something you can walk in, and expect the forest floor to be wet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
       "_key": "b152",
       "_type": "block",
       "children": [
@@ -1236,7 +1292,7 @@
           "_key": "b177",
           "_type": "span",
           "marks": [],
-          "text": "Cut Piaynemo first. It is the longest run, the most weather-dependent and the most expensive single day, and the reefs twenty minutes from your jetty are better underwater. Cutting it turns this into a calmer, cheaper trip without weakening it."
+          "text": "Cut Piaynemo first. It is the longest run, the most weather-dependent and the most expensive single day, and the reefs twenty minutes from your jetty are better underwater. Cutting it turns this into a calmer, cheaper trip without weakening it. Put the Sawinggrai birds in its place. You get a half day instead of a full one, a short crossing instead of an exposed ninety-minute run, and the only thing on this trip you cannot see with a mask on."
         }
       ],
       "markDefs": [],
@@ -1507,7 +1563,15 @@
   "contentStatus": "live",
   "destinationPrimary": "raja_ampat",
   "destinationSecondary": [],
-  "experienceTags": ["homestays", "snorkeling", "diving", "remote", "islands", "local_villages"],
+  "experienceTags": [
+    "homestays",
+    "snorkeling",
+    "diving",
+    "remote",
+    "islands",
+    "local_villages",
+    "wildlife"
+  ],
   "faq": [
     {
       "answer": "Yes, if you sleep in a Papuan homestay. Full board typically runs around IDR 850,000 to 950,000 per room per night for two, roughly $27 to $30 per person, as a working estimate. The flights to Sorong and the mandatory permits, not the accommodation, are what make Raja Ampat expensive.",
