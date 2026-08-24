@@ -598,6 +598,135 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     intro:
       "Komodo National Park and Flores offer some of Indonesia's most cinematic landscapes, Padar Island, Pink Beach, and the dragons themselves. Our itineraries cover liveaboards, day boats from Labuan Bajo, and overland routes inland.",
     highlights: ["Padar Island", "Komodo dragons", "Pink Beach", "Kelimutu lakes"],
+    // PARTE 4 of docs/reinforce-komodo-flores.md, applied 2026-08-24. The hub took
+    // 43 impressions and 0 clicks at position 34.2 across 16 queries, and twelve of
+    // those sixteen ask the same thing: whether the dragons live on Flores. The page
+    // offered an intro and a card grid and never answered it, which is why three
+    // queries sat at position 16 to 22 with no clicks. The SERP is a conservation
+    // NGO, travel blogs and Labuan Bajo operators, no institutional sites, so it is
+    // winnable on content.
+    //
+    // Two deviations from the plan as written, both deliberate:
+    //
+    // 1. Park fees. The plan quoted IDR 250,000 per day plus a IDR 200,000 ranger
+    //    fee. That is the older unbundled structure. Five documents already live
+    //    (5-days-labuan-bajo-komodo, 10-days-komodo-flores, 14-days-bali-komodo-sumba,
+    //    7-days-komodo-honeymoon-private-boat and their FAQs) publish the 2026
+    //    bundled ticket instead, around IDR 650,000 or IDR 900,000 per route through
+    //    the SiORA app. The published value wins. Note 7-days-komodo-diving keeps the
+    //    per-day marine park figure on purpose: divers pay a different structure.
+    // 2. Season. The plan implied the dry season improves your chances of seeing a
+    //    dragon. best-time-to-visit-komodo already says the opposite and is right:
+    //    dragons are seen year-round on ranger walks, and the season decides the
+    //    crossings, not the sightings. Rewritten to match.
+    sections: [
+      {
+        heading: "Do Komodo dragons live on Flores?",
+        body: [
+          "Yes, but almost nobody sees them there. The wild population lives inside Komodo National Park, on Komodo, Rinca, Nusa Kode and Gili Motang, and in scattered pockets on the west and north coasts of Flores itself. There is no organised way to see the Flores animals, so every visitor meets them in the park.",
+          "The confusion in the question is geographic, and it is reasonable. Labuan Bajo, the town every Komodo boat leaves from, sits on the western tip of Flores. So you do fly to Flores to see the dragons, you sleep on Flores the night before, and then you cross to a different island to actually meet one.",
+        ],
+        link: {
+          before: "For what fills the days either side of the boat trip, see ",
+          href: "/destinations/komodo-flores/things-to-do-in-labuan-bajo",
+          anchor: "what there is to do in Labuan Bajo",
+          after: ".",
+        },
+      },
+      {
+        heading: "Where do you actually see the dragons, Komodo or Rinca?",
+        body: [
+          "Rinca, for most people. Loh Buaya on Rinca is the closer of the two ranger posts to Labuan Bajo, the trails are short and flat, and the dragon density is high. Komodo Island has the name and the longer crossing, and it suits an overnight boat trip better than a day trip.",
+          "Either way the walk is guided. Ranger-led trails are the only way to see the dragons on both islands, and the rangers are there for safety as much as for spotting, since these are large, fast wild predators. Padar, the island on every photograph of this region, has the viewpoint and no resident dragons.",
+        ],
+        table: {
+          columns: ["Island", "Crossing from Labuan Bajo", "The walk", "Pick it if"],
+          rows: [
+            [
+              "Rinca (Loh Buaya)",
+              "The shorter run, roughly 1 to 2 hours by boat",
+              "Short, flat, ranger-led, high chance of a sighting",
+              "You have one day and want the dragons to be the point",
+            ],
+            [
+              "Komodo (Loh Liang)",
+              "The longer run, commonly 2 to 4 hours depending on the boat",
+              "Longer ranger-led trails on a much bigger island",
+              "You are on an overnight or multi-day boat anyway",
+            ],
+            [
+              "Padar",
+              "Usually paired with the Komodo route",
+              "A steep climb to the viewpoint, no dragons",
+              "You want the photograph, not the animal",
+            ],
+            [
+              "Flores coast",
+              "You are already on it",
+              "Nothing organised, no ranger posts, no access",
+              "Never. Treat a sighting here as an accident, not a plan",
+            ],
+          ],
+          caption:
+            "Crossing times are working estimates and depend on the vessel and the sea, which is the single biggest variable in this park.",
+        },
+        link: {
+          before:
+            "Whether to do this on a day boat or sleep aboard is its own decision, covered in our ",
+          href: "/destinations/komodo-flores/liveaboard-vs-day-trip-labuan-bajo",
+          anchor: "liveaboard versus day trip comparison",
+          after: ".",
+        },
+      },
+      {
+        heading: "How much does it cost to enter Komodo National Park?",
+        body: [
+          "Komodo now sells one bundled ticket per route rather than stacked fees. As a working estimate for 2026, budget around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes taking in Rinca and Padar. Divers pay a different per-day structure. Fees change, so check the current official guidance.",
+          "The bigger change is not the price, it is the booking. Tickets are pre-booked through the SiORA app or a licensed operator, and walk-up sales at the ranger post are no longer the route in. Most travellers never touch the app because their boat operator holds the slots, which is the practical argument for booking the boat rather than assembling the day yourself.",
+        ],
+        subsections: [
+          {
+            heading: "Is there a daily limit on visitors to Komodo National Park?",
+            body: [
+              "Yes. The park applies a cap of around 1,000 visitors per day across the whole park, with published per-site limits of roughly 250 at Loh Liang on Komodo, 150 at Loh Buaya on Rinca and 60 on Padar. Book several days ahead in high season, and treat a same-week plan as optimistic.",
+              "This is the part that catches independent travellers. A boat operator with allocated slots is not selling you convenience, it is selling you entry, and in peak months that is the difference between a park day and a day in Labuan Bajo. Caps and quotas are adjusted by the park authority, so confirm the current numbers before you build a trip around them.",
+            ],
+            link: {
+              before: "A route that already has the park days sequenced around this is our ",
+              href: "/trips/5-days-labuan-bajo-komodo",
+              anchor: "5-day Labuan Bajo and Komodo itinerary",
+              after: ".",
+            },
+          },
+        ],
+      },
+      {
+        heading: "How many days do you need for Komodo and Flores?",
+        body: [
+          "Three days covers Komodo National Park from Labuan Bajo and nothing else. Five to seven adds a second boat day, better snorkelling and room for a cancelled crossing. Ten days is the point at which overland Flores becomes possible, with Kelimutu and the villages inland, and that is a slower and much harder trip.",
+          "The mistake is treating Flores as a bolt-on. The overland road east from Labuan Bajo is long, winding and slow, and it deserves its own week rather than two rushed days at the end of a boat trip. If the dragons are what you came for, stay west and use the extra days on the water.",
+        ],
+        link: {
+          before: "If the overland stretch tempts you, start with ",
+          href: "/destinations/komodo-flores/kelimutu-guide",
+          anchor: "the Kelimutu crater lakes",
+          after: ".",
+        },
+      },
+      {
+        heading: "When is the best time to see Komodo dragons?",
+        body: [
+          "Any month, as far as the dragons are concerned. They are seen year-round on ranger walks, so the season does not decide whether you spot one. What the season decides is the boat: the dry months, broadly April to October, bring smooth predictable crossings, while the wet months can turn choppy enough to cancel a day on the water.",
+          "Within the day, timing does matter. Dragons are most active in the cooler morning hours, which is one reason park boats leave Labuan Bajo before dawn. If you travel in the wet season, build slack into the itinerary rather than booking the park day on the morning of your flight out.",
+        ],
+        link: {
+          before: "Month by month, including diving and manta season, see ",
+          href: "/destinations/komodo-flores/best-time-to-visit-komodo",
+          anchor: "when to go to Komodo",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "lombok-gili",

@@ -1,8 +1,41 @@
 # Piano di rinforzo: /destinations/komodo-flores
 
-> **STATO: PARTE 1 APPLICATA il 2026-08-24**, commit `04635ae`, pushata su `main`.
-> Sono in produzione solo `metaTitle`, `metaDescription` e il nuovo `h1`.
-> **Le sezioni della sezione 4 e i link della sezione 5 NON sono applicati: decide il founder.**
+> **STATO: APPLICATO il 2026-08-24,** lo stesso giorno in cui è stato scritto, su
+> richiesta esplicita del founder.
+>
+> - **PARTE 1** (`metaTitle`, `metaDescription`, `h1`): commit `04635ae`.
+> - **PARTE 4** (le cinque sezioni H2, la tabella comparativa, una sottosezione h3
+>   non prevista dal piano): applicata in `src/data/destinations.ts`.
+>
+> **Tre scostamenti dal piano, tutti voluti:**
+>
+> 1. **Le tariffe del parco erano sbagliate nel piano.** La sezione 4, H2 3 qui sotto
+>    propone IDR 250.000 al giorno più IDR 200.000 di ranger per gruppo, cioè la
+>    vecchia struttura non consolidata. Cinque documenti già live
+>    (`5-days-labuan-bajo-komodo`, `10-days-komodo-flores`, `14-days-bali-komodo-sumba`,
+>    `7-days-komodo-honeymoon-private-boat` e le rispettive FAQ) pubblicano invece il
+>    biglietto consolidato 2026: circa IDR 650.000 sulla rotta Komodo, circa IDR 900.000
+>    sulla rotta Rinca e Padar, prenotato tramite l'app SiORA. **Vince il valore già in
+>    produzione.** `7-days-komodo-diving` conserva di proposito la tariffa giornaliera
+>    per il parco marino, perché i subacquei pagano una struttura diversa.
+> 2. **La stagione era invertita nel piano.** La sezione 4, H2 5 diceva che la stagione
+>    secca migliora le probabilità di vedere un drago. La guida `best-time-to-visit-komodo`
+>    già live dice il contrario ed ha ragione: i draghi si vedono tutto l'anno nelle
+>    passeggiate con i ranger, e la stagione decide le traversate, non gli avvistamenti.
+>    Riscritta per allinearsi.
+> 3. **Aggiunta una sottosezione h3 non prevista**, "Is there a daily limit on visitors
+>    to Komodo National Park?", sotto H2 3. Il tetto di ~1.000 visitatori al giorno, i
+>    limiti per sito (circa 250 a Loh Liang, 150 a Loh Buaya, 60 a Padar) e la
+>    prenotazione obbligatoria SiORA sono la parte editorialmente più preziosa e nessun
+>    blog davanti a noi la spiega bene. Verificata su più fonti indipendenti prima di
+>    scriverla, e comunque cautelata: i contingenti li aggiusta l'ente parco.
+>
+> **I tempi di traversata della tabella non contraddicono niente:** nessun documento
+> pubblicato indica ore precise per Labuan Bajo → Rinca o → Komodo, quindi non c'era un
+> valore di casa da rispettare. Sono espressi come stime di lavoro e dichiarano che la
+> variabile vera è la barca e il mare.
+>
+> **I due link in entrata della sezione 5 restano NON applicati.**
 
 Generato dal task schedulato del 2026-08-24.
 
