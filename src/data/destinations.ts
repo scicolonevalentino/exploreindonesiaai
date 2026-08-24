@@ -591,9 +591,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "komodo_flores",
     name: "Komodo & Flores",
     shortName: "Komodo & Flores",
-    metaTitle: "Komodo & Flores itineraries, boats, dragons, dives",
+    h1: "Komodo Dragons and Flores",
+    metaTitle: "Komodo Dragons on Flores: Where to See Them, Day by Day",
     metaDescription:
-      "Multi-day Komodo boat trips, Flores overland routes, and dive itineraries. Every plan is structured day by day and ready to book.",
+      "Komodo dragons live on Komodo, Rinca and parts of Flores. Where to see them from Labuan Bajo, plus day-by-day Komodo and Flores itineraries.",
     intro:
       "Komodo National Park and Flores offer some of Indonesia's most cinematic landscapes, Padar Island, Pink Beach, and the dragons themselves. Our itineraries cover liveaboards, day boats from Labuan Bajo, and overland routes inland.",
     highlights: ["Padar Island", "Komodo dragons", "Pink Beach", "Kelimutu lakes"],
