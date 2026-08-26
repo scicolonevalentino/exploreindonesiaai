@@ -1,100 +1,125 @@
 {
   "_id": "itinerary-11-days-sumatra-honeymoon-lake-toba-pulau-weh",
   "_type": "article",
-  "contentStatus": "draft",
-  "title": "11 Days in Sumatra for a Honeymoon: Lake Toba and Pulau Weh",
-  "slug": {
-    "_type": "slug",
-    "current": "11-days-sumatra-honeymoon-lake-toba-pulau-weh"
-  },
-  "author": {
-    "_type": "reference",
-    "_ref": "author-editorial-team"
-  },
-  "articleCreatedDate": "2026-08-26T07:00:00.000Z",
-  "metaTitle": "Sumatra Honeymoon: 11 Days, Lake Toba to Pulau Weh",
-  "metaDescription": "A quiet Sumatra honeymoon: four nights on Samosir, four on Pulau Weh, one flight and one ferry between them, with real transfer times and 2026 fares.",
-  "focusKeyword": "Sumatra honeymoon",
-  "intro": "A honeymoon in Sumatra costs you travel days, and pretending otherwise is how couples spend their first married week in a car. This route buys the trade down to two moves: a highland lake where the air is cool and nothing happens quickly, then an island at the far northwest tip of the country where the water is warm and the diving is cheap. One flight and one ferry sit between them. Everything else is staying still.",
-  "route": "Medan (Kualanamu) → Parapat → Tuk Tuk, Samosir → Medan → Banda Aceh → Pulau Weh (Iboih or Gapang) → Banda Aceh",
-  "destinationPrimary": "sumatra",
-  "destinationSecondary": [],
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 11,
-  "travelStylePrimary": "romantic_escape",
-  "travelStyleSecondary": [
-    "beach_islands",
-    "diving_snorkeling"
+  "affiliateLinks": [
+    {
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM from Airalo",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/en/travel/medan/parapat?z=16022946",
+      "anchorText": "compare Medan to Parapat transfers",
+      "day": "Day 1",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_MEDAN_PARAPAT",
+      "publicUrl": "https://12go.asia/en/travel/medan/parapat"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/en/travel/medan/banda-aceh?z=16022946",
+      "anchorText": "overnight buses run Medan to Banda Aceh",
+      "day": "Day 6",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_MEDAN_BANDA_ACEH",
+      "publicUrl": "https://12go.asia/en/travel/medan/banda-aceh"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tuk+Tuk%2C+Samosir%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Tuk Tuk and Samosir stays",
+      "day": "Day 1",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_TUK_TUK",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Tuk+Tuk%2C+Samosir%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Medan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Rooms on the Kualanamu side of Medan",
+      "day": "Day 5",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_MEDAN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Medan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sabang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Sabang and Pulau Weh stays",
+      "day": "Day 6",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_SABANG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sabang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Banda+Aceh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Banda Aceh rooms",
+      "day": "Day 10",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_BANDA_ACEH",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Banda+Aceh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
   ],
-  "travellerTypes": [
-    "honeymooners",
-    "couples"
-  ],
-  "vibe": "relaxed",
-  "experienceTags": [
-    "lake",
-    "beaches",
-    "snorkeling",
-    "diving",
-    "romantic",
-    "slow_travel",
-    "batak_culture",
-    "local_villages"
-  ],
-  "bestSeason": "May–September",
   "articleCommercialTier": "standard",
-  "footerBanners": [],
+  "articleCreatedDate": "2026-08-26T07:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May–September",
   "body": [
     {
-      "_type": "block",
       "_key": "b2",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s1",
+          "_type": "span",
           "marks": [],
           "text": "Who is this Sumatra honeymoon for, and who should skip it?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b4",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s3",
+          "_type": "span",
           "marks": [],
           "text": "This route suits couples who would rather have space than service, who are comfortable with cash, small guesthouses and plans made the morning of, and who read a long transfer as part of the holiday rather than a tax on it. It works best as a second Indonesia trip, once Bali has already been done."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b9",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m5",
-          "_type": "externalLink",
-          "href": "/trips/9-days-lombok-gili-honeymoon",
-          "blank": false
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s6",
+          "_type": "span",
           "marks": [],
           "text": "Skip it if you want a resort with a spa and a concierge, if either of you needs a drink at sunset, or if the honeymoon is shorter than ten days. Aceh is a conservative province and alcohol is not openly sold, so evenings on Pulau Weh are quiet and early. Skip it too if a cancelled ferry would ruin the week rather than reshape it. Lombok and the Gili Islands deliver a similar mood with a fraction of the moving, and the "
         },
         {
-          "_type": "span",
           "_key": "s7",
+          "_type": "span",
           "marks": [
             "strong",
             "m5"
@@ -102,232 +127,241 @@
           "text": "nine-day Lombok and Gili honeymoon"
         },
         {
-          "_type": "span",
           "_key": "s8",
+          "_type": "span",
           "marks": [],
           "text": " is built for exactly that."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m5",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-lombok-gili-honeymoon"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b11",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s10",
+          "_type": "span",
           "marks": [],
           "text": "Trip at a glance"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b14",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s12",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Route. "
         },
         {
-          "_type": "span",
           "_key": "s13",
+          "_type": "span",
           "marks": [],
           "text": "Medan (Kualanamu, KNO) to Parapat, ferry to Tuk Tuk on Samosir Island, four nights on the lake, then back north to Medan, a flight to Banda Aceh, and the ferry to Pulau Weh for four nights, with a buffer night back in Banda Aceh before you fly."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b17",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s15",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Nights. "
         },
         {
-          "_type": "span",
           "_key": "s16",
+          "_type": "span",
           "marks": [],
           "text": "Four on Samosir, one near Kualanamu airport, four on Pulau Weh in Iboih or Gapang, one in Banda Aceh."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b20",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s18",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Pace. "
         },
         {
-          "_type": "span",
           "_key": "s19",
+          "_type": "span",
           "marks": [],
           "text": "Relaxed, with three honest travel days built in rather than hidden."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b23",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s21",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Logistics level. "
         },
         {
-          "_type": "span",
           "_key": "s22",
+          "_type": "span",
           "marks": [],
           "text": "Medium to high. Two fragile links carry the whole plan: the evening ferry to Tuk Tuk on Day 1, and the crossing back off Pulau Weh on Day 10."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b26",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s24",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Best window. "
         },
         {
-          "_type": "span",
           "_key": "s25",
+          "_type": "span",
           "marks": [],
           "text": "Roughly May to September, when Lake Toba is at its driest and the sea off Weh is at its calmest. The two halves do not have identical seasons, and this is the stretch where they overlap."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b29",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s27",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Budget shape. "
         },
         {
-          "_type": "span",
           "_key": "s28",
+          "_type": "span",
           "marks": [],
           "text": "As a working estimate, around $1,400 to $2,300 for two people for eleven days on the ground, excluding international flights. Rooms and the two internal transfers carry most of it. Prices move, so treat these as planning figures."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b31",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s30",
+          "_type": "span",
           "marks": [],
           "text": "Why does this route pair a highland lake with an island?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b33",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s32",
+          "_type": "span",
           "marks": [],
           "text": "Because the two halves feel nothing alike, and eleven days is long enough for the contrast to register. Samosir sits at around 900 metres, so nights are cool and you sleep under a blanket. Pulau Weh is at sea level and warm from waking to dark."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b35",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s34",
+          "_type": "span",
           "marks": [],
           "text": "Putting the lake first and the sea last also leaves the easiest travel for the end of the trip, which is the right way round when one of you is going to be tired of transfers by Day 6."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b37",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s36",
+          "_type": "span",
           "marks": [],
           "text": "Lake Toba is the largest volcanic lake in the world, formed by an eruption roughly 74,000 years ago, and Samosir is the island that rose in the middle of the caldera afterwards. Pulau Weh sits at the opposite extreme of the country's northwest, past Banda Aceh, where the Andaman Sea meets the Indian Ocean. Between them you get Batak highland culture and Acehnese coast, which is more variation than most Indonesian honeymoons manage without three internal flights."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b39",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s38",
+          "_type": "span",
           "marks": [],
           "text": "The other reason the order works is recovery. Day 1 is a long road day and Samosir absorbs it: there is nothing to see quickly and no reason to rush. By the time you reach Weh you have already done the hard travel, and the island rewards staying still."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "t40",
+      "_type": "comparisonTable",
       "caption": "The two halves side by side, as a planning comparison rather than a ranking.",
       "columns": [
         "",
@@ -386,64 +420,64 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "b48",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s47",
+          "_type": "span",
           "marks": [],
           "text": "How do you get from Lake Toba to Pulau Weh?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b50",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s49",
+          "_type": "span",
           "marks": [],
           "text": "You cannot do it in one day. The realistic version is a road day from Samosir back to Medan with a night near Kualanamu airport, then a morning flight to Banda Aceh of around an hour and a half, a short taxi to Ulee Lheue harbour, and a fast ferry of roughly 45 minutes to Balohan on Pulau Weh."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b52",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s51",
+          "_type": "span",
           "marks": [],
           "text": "Wings Air and Super Air Jet run the direct Medan to Banda Aceh hop, and other carriers connect through Jakarta or Kuala Lumpur. Schedules on this route are thin enough that the flight decides your day rather than the other way round, so book it before you book the room either side of it."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b54",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s53",
+          "_type": "span",
           "marks": [],
           "text": "Two ferries cross to Pulau Weh from Ulee Lheue. The fast Express Bahari boats and the slower ASDP car ferries leave at broadly similar times, and the fare difference between them is small in absolute terms. Weather cancels both, which is why Day 10 in this itinerary exists."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "comparisonTable",
       "_key": "t55",
+      "_type": "comparisonTable",
       "caption": "The two crossings to Pulau Weh. Times and fares follow the operators' published tariffs and shift with weather and season, so confirm locally the day before.",
       "columns": [
         "Ferry",
@@ -476,70 +510,62 @@
       ]
     },
     {
-      "_type": "block",
       "_key": "b59",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s58",
+          "_type": "span",
           "marks": [],
           "text": "Day 1: Land in Medan and cross to Samosir"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b64",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s62",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s63",
+          "_type": "span",
           "marks": [],
           "text": "Land at Kualanamu International Airport, code KNO, and go straight to the road. Nothing in Medan is worth the hour it would cost you. If your flight lands after about 1pm you will reach Tuk Tuk after dark, which is a poor first evening of a honeymoon: take a room near the airport and start the day properly the next morning instead."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b69",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m60",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_MEDAN_PARAPAT"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s65",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s66",
+          "_type": "span",
           "marks": [],
           "text": "The drive south to Parapat runs around three and a half to four and a half hours by private car, and longer by public bus. Arranging the car through your Samosir guesthouse is usually the cheapest route, somewhere around $45 to $55 per vehicle as a working estimate. You can also "
         },
         {
-          "_type": "span",
           "_key": "s67",
+          "_type": "span",
           "marks": [
             "strong",
             "m60"
@@ -547,64 +573,64 @@
           "text": "compare Medan to Parapat transfers"
         },
         {
-          "_type": "span",
           "_key": "s68",
+          "_type": "span",
           "marks": [],
           "text": " before you fly, where the same journey is listed as a fixed-price private taxi at a higher rate. Fees change, so price both."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m60",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_MEDAN_PARAPAT"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b72",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s70",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s71",
+          "_type": "span",
           "marks": [],
           "text": "From Tigaraja pier in Parapat the public passenger ferry crosses to Tuk Tuk in roughly 30 to 45 minutes, for something in the region of IDR 15,000 to 25,000 per person. It runs about hourly through the day and thins out after dusk. Tell the crew your guesthouse name, because the boat drops passengers at lakeside jetties rather than at one terminal."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b77",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m61",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_TUK_TUK"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s73",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s74",
+          "_type": "span",
           "marks": [],
           "text": "Tuk Tuk, the small peninsula on Samosir's east coast. It has the lakefront rooms, the jetties, the scooter hire and the ferry link. Look at "
         },
         {
-          "_type": "span",
           "_key": "s75",
+          "_type": "span",
           "marks": [
             "strong",
             "m61"
@@ -612,450 +638,450 @@
           "text": "Tuk Tuk and Samosir stays"
         },
         {
-          "_type": "span",
           "_key": "s76",
+          "_type": "span",
           "marks": [],
           "text": " and lock the first two nights before you fly."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m61",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_TUK_TUK"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b80",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s78",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s79",
+          "_type": "span",
           "marks": [],
           "text": "The last ferry is the most fragile link of the first week. A delayed flight plus Medan traffic is enough to strand you in Parapat for a night you did not plan. If it happens, the vehicle ferry from Ajibata to Tomok runs later, and a taxi from Tomok closes the gap to Tuk Tuk."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b82",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s81",
+          "_type": "span",
           "marks": [],
           "text": "Day 2: A day that does nothing, on purpose"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b85",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s83",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s84",
+          "_type": "span",
           "marks": [],
           "text": "Swim. Most Tuk Tuk guesthouses have steps or a jetty straight into the lake, the water is warm enough to want to be in and deep enough to be clear, and at 900 metres the air stays cool until mid morning. This is the day the trip stops being travel."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b88",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s86",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s87",
+          "_type": "span",
           "marks": [],
           "text": "Walk or ride the Tuk Tuk loop, an hour or two past the small church, the lakeside cafes and a handful of workshops selling Batak carving and ulos weaving. The ulos is a handwoven cloth given at Batak weddings, which makes it a more considered thing to carry home from a honeymoon than anything sold at the airport."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b91",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s89",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s90",
+          "_type": "span",
           "marks": [],
           "text": "Grilled fish from the lake and an early night. There is no scene here, and that is the reason to come."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b94",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s92",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s93",
+          "_type": "span",
           "marks": [],
           "text": "nothing at all. Scooters, kayaks and paddleboards are hired along the peninsula by the hour, in cash, within ten minutes of asking."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b96",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s95",
+          "_type": "span",
           "marks": [],
           "text": "Day 3: The north of Samosir, Simanindo and Ambarita"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b99",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s97",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s98",
+          "_type": "span",
           "marks": [],
           "text": "Ride north to Simanindo at the island's northern tip, about an hour from Tuk Tuk, where the Huta Bolon museum sits inside a traditional Batak house compound. Dance performances generally run in the morning and sometimes depend on group bookings, so ask your guesthouse the night before rather than turning up hopeful."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b102",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s100",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s101",
+          "_type": "span",
           "marks": [],
           "text": "Ambarita, on the way back, holds the Siallagan stone chairs, the village court where Batak kings once tried and executed prisoners. Entry is a small local fee, typically a few thousand rupiah, and a guide will attach themselves to you at the gate. Take one. The stones say very little unexplained."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b105",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s103",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s104",
+          "_type": "span",
           "marks": [],
           "text": "Back in Tuk Tuk for sunset across the water toward the caldera wall."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b108",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s106",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s107",
+          "_type": "span",
           "marks": [],
           "text": "hire a scooter for the day, as a working estimate IDR 100,000 to 150,000, or a car with driver if neither of you wants to ride. Cash, arranged that morning."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b111",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s109",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s110",
+          "_type": "span",
           "marks": [],
           "text": "Samosir is a little smaller than Singapore, which is the fact most itineraries quietly skip. Sights sit an hour apart on slow roads, so take one direction per day and let the other wait."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b113",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s112",
+          "_type": "span",
           "marks": [],
           "text": "Day 4: Across the island to Pangururan and the Tele rim"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b116",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s114",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s115",
+          "_type": "span",
           "marks": [],
           "text": "Cross west to Pangururan, an hour to an hour and a half depending on the road and your vehicle. Samosir joins the mainland here by a short bridge over the Tano Ponggol channel, which is why the west side feels different: it is the working side of the island. The hot springs on the slope above town are volcanic and genuinely hot, and they are a local bathing spot rather than a spa, so arrive with that expectation."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b119",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s117",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s118",
+          "_type": "span",
           "marks": [],
           "text": "Continue to the Tele viewpoint, another 30 to 45 minutes along the mainland rim road. This is the one view that explains the geography: the caldera wall dropping to the water with Samosir laid out inside it. Cloud builds through the afternoon in the wetter months, so if the morning is clear, reverse the day and drive to Tele first."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b122",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s120",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s121",
+          "_type": "span",
           "marks": [],
           "text": "Back across for a last night on the lake. Pack tonight, because tomorrow starts on a ferry."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b125",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s123",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s124",
+          "_type": "span",
           "marks": [],
           "text": "a car with driver for the day is easier than a scooter on this route, and the two of you will want the shade on the rim road."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b127",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s126",
+          "_type": "span",
           "marks": [],
           "text": "Day 5: Ferry, road, and a night by the airport"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b131",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s129",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s130",
+          "_type": "span",
           "marks": [],
           "text": "Take an early ferry, ideally the first or second of the day from around half past eight, and be on the road out of Parapat by mid morning. Your guesthouse knows the current departure times and can usually flag the boat from their own jetty."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b134",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s132",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s133",
+          "_type": "span",
           "marks": [],
           "text": "The drive north to Kualanamu runs three and a half to four and a half hours in good conditions, and longer once Medan traffic starts. Build in a buffer of at least two hours on top of whatever figure you were given."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b139",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m128",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_MEDAN"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s135",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s136",
+          "_type": "span",
           "marks": [],
           "text": "Stay near the airport. This is a positioning night and there is no reason to sleep anywhere with a view. "
         },
         {
-          "_type": "span",
           "_key": "s137",
+          "_type": "span",
           "marks": [
             "strong",
             "m128"
@@ -1063,122 +1089,122 @@
           "text": "Rooms on the Kualanamu side of Medan"
         },
         {
-          "_type": "span",
           "_key": "s138",
+          "_type": "span",
           "marks": [],
           "text": " cost less than the pre-dawn taxi you would otherwise be taking from the city."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m128",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MEDAN"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b142",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s140",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s141",
+          "_type": "span",
           "marks": [],
           "text": "Do not try to fly to Banda Aceh on Day 5. Making it work would need a ferry off Samosir that leaves before the ferries start, and the whole plan collapses into a stressful day for no gain."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b144",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s143",
+          "_type": "span",
           "marks": [],
           "text": "Day 6: Fly to Banda Aceh and cross to Pulau Weh"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b149",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s147",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s148",
+          "_type": "span",
           "marks": [],
           "text": "Fly Medan to Banda Aceh, code BTJ. Wings Air and Super Air Jet run the direct hop and it takes around an hour and a half. Take the earliest departure you can get, because the ferry is what you are really catching."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b152",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s150",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s151",
+          "_type": "span",
           "marks": [],
           "text": "Sultan Iskandar Muda airport sits roughly 13 kilometres from the city, and Ulee Lheue harbour is a short taxi beyond it. The Express Bahari fast ferry to Balohan takes around 45 minutes, with departures broadly at 08:00, 10:00 and 16:30 and an adult fare in the region of Rp 100,000, or Rp 125,000 for the VIP deck, according to the operator's published tariff. Treat that as the shape of the day rather than a timetable, since weather moves both."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b157",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m146",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_SABANG"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s153",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s154",
+          "_type": "span",
           "marks": [],
           "text": "From Balohan it is a short road transfer to Iboih or Gapang on the island's west side, which is where the water and the dive centres are. "
         },
         {
-          "_type": "span",
           "_key": "s155",
+          "_type": "span",
           "marks": [
             "strong",
             "m146"
@@ -1186,64 +1212,64 @@
           "text": "Sabang and Pulau Weh stays"
         },
         {
-          "_type": "span",
           "_key": "s156",
+          "_type": "span",
           "marks": [],
           "text": " run from simple wooden cabins over the water to a handful of small resorts, and the good ones are a small pool."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m146",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SABANG"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b160",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s158",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Base: "
         },
         {
-          "_type": "span",
           "_key": "s159",
+          "_type": "span",
           "marks": [],
           "text": "Iboih for the snorkelling and the over-water cabins, Gapang for a little more comfort and an easier house reef. You will not want to move once you have chosen, so choose properly."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b165",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m145",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_MEDAN_BANDA_ACEH"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s161",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s162",
+          "_type": "span",
           "marks": [],
           "text": "If the flights are full, or you would rather not fly at all, "
         },
         {
-          "_type": "span",
           "_key": "s163",
+          "_type": "span",
           "marks": [
             "strong",
             "m145"
@@ -1251,406 +1277,406 @@
           "text": "overnight buses run Medan to Banda Aceh"
         },
         {
-          "_type": "span",
           "_key": "s164",
+          "_type": "span",
           "marks": [],
           "text": " with departures through the afternoon and evening and a journey of ten hours or more. It is cheap and it is a long night. Make that decision with both of you awake."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m145",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_MEDAN_BANDA_ACEH"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b167",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s166",
+          "_type": "span",
           "marks": [],
           "text": "Day 7: Rubiah, and the reef you can walk into"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b170",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s168",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s169",
+          "_type": "span",
           "marks": [],
           "text": "Snorkel Rubiah. The marine park water off Rubiah Island is clear, often to something like 25 metres, and a local fisherman will run you across from Iboih and collect you later for a fee agreed on the beach. The coral and fish life here are the reason many people come to Weh at all."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b173",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s171",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s172",
+          "_type": "span",
           "marks": [],
           "text": "The house reef. At Gapang you walk in from the sand, at Iboih you step off the jetty. No boat, no schedule, no fee, which after five days of transfers is the point."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b176",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s174",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s175",
+          "_type": "span",
           "marks": [],
           "text": "Eat early. Aceh is dry, so dinner is the evening, and Acehnese cooking is good enough that this stops feeling like a compromise by about the second night."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b179",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s177",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s178",
+          "_type": "span",
           "marks": [],
           "text": "nothing. Masks and fins are rented by the day at every guesthouse, usually for small change."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b181",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s180",
+          "_type": "span",
           "marks": [],
           "text": "Day 8: A dive day, or a loop of the island"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b184",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s182",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s183",
+          "_type": "span",
           "marks": [],
           "text": "Dive, if either of you does. Fun dives on Weh run in the region of 20 to 25 US dollars per dive including gear as a working estimate, which is cheap by Indonesian standards. Gapang's house reef and the Rubiah Sea Garden are beginner water. Batee Tokong, Shark Plateau and the Canyon are not, and the Sophie Rickmers wreck sits deep enough that the centres treat it as a technical dive. Current, rather than depth, is what sorts the sites here."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b187",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s185",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s186",
+          "_type": "span",
           "marks": [],
           "text": "If neither of you dives, hire a scooter and loop the island. Weh is small enough to ride round in a few hours, and the stretch between Iboih and Sabang town is the good part. Fill up before you leave the beach, because fuel is sold from bottles at roadside stalls once you are away from the town."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b190",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s188",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s189",
+          "_type": "span",
           "marks": [],
           "text": "The west coast faces the right way for sunset. Walk down for it rather than driving."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b193",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s191",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking logic: "
         },
         {
-          "_type": "span",
           "_key": "s192",
+          "_type": "span",
           "marks": [],
           "text": "message a dive centre a few days ahead if you want a course rather than fun dives, so they can put an instructor on your dates. Fun dives can be arranged the evening before."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b195",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s194",
+          "_type": "span",
           "marks": [],
           "text": "Day 9: Kilometre Zero, and an afternoon with nothing in it"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b198",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s196",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s197",
+          "_type": "span",
           "marks": [],
           "text": "Kilometre Zero, the monument marking Indonesia's northwestern extreme, is about half an hour by scooter from Iboih through forest where you will probably meet macaques on the road. It is a marker on a cliff, and the appeal is standing at the end of the country rather than the architecture."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b201",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s199",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s200",
+          "_type": "span",
           "marks": [],
           "text": "Nothing planned. This afternoon absorbs the weather, a rough crossing earlier in the week, or the plain fact that you are on honeymoon and do not need a schedule."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b204",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s202",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s203",
+          "_type": "span",
           "marks": [],
           "text": "Settle the dive bill in cash and confirm tomorrow's ferry with your guesthouse rather than with a timetable you found online."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b207",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s205",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s206",
+          "_type": "span",
           "marks": [],
           "text": "Keep this day empty even if the week has gone perfectly. It is also the insurance policy for the crossing on Day 10."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b209",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s208",
+          "_type": "span",
           "marks": [],
           "text": "Day 10: The ferry back, and an afternoon in Banda Aceh"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b213",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s211",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s212",
+          "_type": "span",
           "marks": [],
           "text": "Take a morning ferry back to Ulee Lheue rather than leaving it late. Express Bahari departures from Sabang run broadly at 08:00, 14:30 and 16:30. Returning to the mainland a full day before your flight means a cancelled or rough crossing costs you an afternoon instead of a flight home."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b216",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s214",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Afternoon. "
         },
         {
-          "_type": "span",
           "_key": "s215",
+          "_type": "span",
           "marks": [],
           "text": "Give the tsunami memorial sites a couple of unhurried hours. The PLTD Apung, a power-generator ship the 2004 wave carried more than three kilometres inland and left sitting in a residential street, is the one that stays with you. The Tsunami Museum and the Baiturrahman Grand Mosque are both central and both worth the walk."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b221",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m210",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "BOOKING_BANDA_ACEH"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s217",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Evening. "
         },
         {
-          "_type": "span",
           "_key": "s218",
+          "_type": "span",
           "marks": [],
           "text": "Mie Aceh, a thick spiced noodle dish, is the local classic and it is excellent. "
         },
         {
-          "_type": "span",
           "_key": "s219",
+          "_type": "span",
           "marks": [
             "strong",
             "m210"
@@ -1658,172 +1684,172 @@
           "text": "Banda Aceh rooms"
         },
         {
-          "_type": "span",
           "_key": "s220",
+          "_type": "span",
           "marks": [],
           "text": " sit either in the centre or out by the airport: pick by what time you fly, not by the price difference."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m210",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_BANDA_ACEH"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b224",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s222",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Travel note. "
         },
         {
-          "_type": "span",
           "_key": "s223",
+          "_type": "span",
           "marks": [],
           "text": "Do not book a same-day ferry and flight. This buffer is the single most important line in the itinerary, and it is the one couples cut first."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b226",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s225",
+          "_type": "span",
           "marks": [],
           "text": "Day 11: Fly out"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b229",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s227",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Morning. "
         },
         {
-          "_type": "span",
           "_key": "s228",
+          "_type": "span",
           "marks": [],
           "text": "Transfer to Sultan Iskandar Muda airport and fly on, usually via Medan, Jakarta or Kuala Lumpur. Confirm the connection the night before, since a missed morning flight out of Banda Aceh can mean a long wait for the next one, and confirm current routes before you lock anything else around them."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b231",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s230",
+          "_type": "span",
           "marks": [],
           "text": "What should you book early, and what can you keep flexible?"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b234",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s233",
+          "_type": "span",
           "marks": [],
           "text": "Book the international flights, the Medan to Banda Aceh hop, the first two nights on Samosir and the first two on Pulau Weh. Leave everything else open. Scooters, drivers, guides, boats, snorkel gear and fun dives are all arranged on the day, in cash, usually within an hour of asking."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b237",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s235",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Book early. "
         },
         {
-          "_type": "span",
           "_key": "s236",
+          "_type": "span",
           "marks": [],
           "text": "The Medan to Banda Aceh flight is the real constraint, because the route is thin and it decides both your ferry and your first night on the island. Lakefront rooms on Samosir and the better cabins on Weh are also small pools, and they fill over Indonesian holiday periods, Christmas and Easter."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b240",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s238",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Keep flexible. "
         },
         {
-          "_type": "span",
           "_key": "s239",
+          "_type": "span",
           "marks": [],
           "text": "Every day on Samosir and every day on Weh. Prepaying an island day tour online buys you nothing in either place, and locks you into weather you cannot see yet."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b245",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m232",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "AIRALO_INDONESIA"
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s241",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Sort before you fly. "
         },
         {
-          "_type": "span",
           "_key": "s242",
+          "_type": "span",
           "marks": [],
           "text": "Load an "
         },
         {
-          "_type": "span",
           "_key": "s243",
+          "_type": "span",
           "marks": [
             "strong",
             "m232"
@@ -1831,231 +1857,224 @@
           "text": "Indonesia eSIM from Airalo"
         },
         {
-          "_type": "span",
           "_key": "s244",
+          "_type": "span",
           "marks": [],
           "text": " before departure so maps and messaging work from the moment you land, which matters most on the two transfer days. Draw rupiah in Medan and again in Banda Aceh: ATMs exist on Samosir and in Sabang town, and they are neither plentiful nor reliable."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m232",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b247",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s246",
+          "_type": "span",
           "marks": [],
           "text": "Mistakes couples make on this route"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b250",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s248",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Cutting the buffer day. "
         },
         {
-          "_type": "span",
           "_key": "s249",
+          "_type": "span",
           "marks": [],
           "text": "The most common and the most expensive. Couples who ferry back the same morning they fly out are gambling their flight home on the weather in the Andaman Sea."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b253",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s251",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Treating Samosir as a day trip. "
         },
         {
-          "_type": "span",
           "_key": "s252",
+          "_type": "span",
           "marks": [],
           "text": "Around nine hours of driving from Medan for three hours on the ground is what most one-day tours actually deliver. If four nights on the island is impossible, the honest move is to drop Toba from this trip."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b256",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s254",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Basing in Parapat to save the ferry. "
         },
         {
-          "_type": "span",
           "_key": "s255",
+          "_type": "span",
           "marks": [],
           "text": "Staying on the mainland means paying for the crossing twice a day and sleeping on the wrong side of the view."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b259",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s257",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Booking a morning flight out of Kualanamu on Day 5. "
         },
         {
-          "_type": "span",
           "_key": "s258",
+          "_type": "span",
           "marks": [],
           "text": "There is no early enough ferry. Either add the airport night this itinerary already includes, or fly from Silangit instead."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b262",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s260",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Arriving without cash. "
         },
         {
-          "_type": "span",
           "_key": "s261",
+          "_type": "span",
           "marks": [],
           "text": "Guides, entry fees, scooters, boat hops and most small guesthouses in both halves of this trip run on rupiah in hand. Card acceptance is thin once you are off the mainland."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b265",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s263",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Expecting a bar. "
         },
         {
-          "_type": "span",
           "_key": "s264",
+          "_type": "span",
           "marks": [],
           "text": "Aceh is a dry province. Couples who plan a honeymoon around evening drinks should read that line twice before booking the second half."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b267",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s266",
+          "_type": "span",
           "marks": [],
           "text": "What to cut, adapt or upgrade"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b270",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s268",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Cut to nine days by flying into Silangit. "
         },
         {
-          "_type": "span",
           "_key": "s269",
+          "_type": "span",
           "marks": [],
           "text": "Silangit airport, code DTB, near Balige, sits one to two hours from the lake instead of three and a half to four and a half, and Citilink, Super Air Jet, Garuda Indonesia and AirAsia serve it from Jakarta in around two hours. That removes roughly two hours of driving in each direction, which is exactly the amount that makes a shorter version viable. Price both airports before deciding, and confirm current routes before locking hotels."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b279",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m271",
-          "_type": "externalLink",
-          "href": "/trips/5-days-lake-toba-samosir",
-          "blank": false
-        },
-        {
-          "_key": "m272",
-          "_type": "externalLink",
-          "href": "/trips/7-days-pulau-weh-sabang-diving-beach",
-          "blank": false
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s273",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Split it, if eleven days is too many. "
         },
         {
-          "_type": "span",
           "_key": "s274",
+          "_type": "span",
           "marks": [],
           "text": "Each half stands alone. The "
         },
         {
-          "_type": "span",
           "_key": "s275",
+          "_type": "span",
           "marks": [
             "strong",
             "m271"
@@ -2063,14 +2082,14 @@
           "text": "five-day Lake Toba and Samosir route"
         },
         {
-          "_type": "span",
           "_key": "s276",
+          "_type": "span",
           "marks": [],
           "text": " and the "
         },
         {
-          "_type": "span",
           "_key": "s277",
+          "_type": "span",
           "marks": [
             "strong",
             "m272"
@@ -2078,43 +2097,49 @@
           "text": "seven days on Pulau Weh"
         },
         {
-          "_type": "span",
           "_key": "s278",
+          "_type": "span",
           "marks": [],
           "text": " are the same trips without the connection between them, and either makes a reasonable short honeymoon on its own."
         }
-      ]
-    },
-    {
-      "_type": "block",
-      "_key": "b285",
-      "style": "normal",
+      ],
       "markDefs": [
         {
-          "_key": "m280",
+          "_key": "m271",
           "_type": "externalLink",
-          "href": "/trips/15-days-sumatra",
-          "blank": false
+          "blank": false,
+          "href": "/trips/5-days-lake-toba-samosir"
+        },
+        {
+          "_key": "m272",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-pulau-weh-sabang-diving-beach"
         }
       ],
+      "style": "normal"
+    },
+    {
+      "_key": "b285",
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s281",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Add orangutans at the front. "
         },
         {
-          "_type": "span",
           "_key": "s282",
+          "_type": "span",
           "marks": [],
           "text": "Bukit Lawang and Gunung Leuser sit a few hours northwest of Medan, so two nights there before Toba turns this into a two-week trip. It also turns a relaxed honeymoon into an active one, and the jungle guesthouses are basic. If wildlife is the priority over quiet, the "
         },
         {
-          "_type": "span",
           "_key": "s283",
+          "_type": "span",
           "marks": [
             "strong",
             "m280"
@@ -2122,249 +2147,237 @@
           "text": "fifteen-day Sumatra overland route"
         },
         {
-          "_type": "span",
           "_key": "s284",
+          "_type": "span",
           "marks": [],
           "text": " already does that properly."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m280",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/15-days-sumatra"
+        }
+      ],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b288",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s286",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Upgrade the sleeping, not the moving. "
         },
         {
-          "_type": "span",
           "_key": "s287",
+          "_type": "span",
           "marks": [],
           "text": "Money spent on a better lakefront room and a proper cabin on Weh changes the trip. Money spent on faster transfers mostly does not, because the road to Parapat and the ferry timetable are fixed for everybody."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b290",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s289",
+          "_type": "span",
           "marks": [],
           "text": "Before you build this trip"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b293",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s291",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Visa. "
         },
         {
-          "_type": "span",
           "_key": "s292",
+          "_type": "span",
           "marks": [],
           "text": "Most visitors enter on a visa on arrival or e-VOA, listed at IDR 500,000 on the official Indonesian e-visa portal, roughly USD 30 to 35 as a working estimate, valid for thirty days and extendable once. Indonesia's immigration directorate has publicly proposed raising the e-VOA to IDR 750,000, with no effective date announced at the time of writing, so check the official guidance before you budget for it."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b296",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s294",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Money. "
         },
         {
-          "_type": "span",
           "_key": "s295",
+          "_type": "span",
           "marks": [],
           "text": "Cash, in rupiah, drawn in Medan and topped up in Banda Aceh. Budget small notes for guides, entry fees, scooter hire, boat hops and meals."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b299",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s297",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Alcohol and dress. "
         },
         {
-          "_type": "span",
           "_key": "s298",
+          "_type": "span",
           "marks": [],
           "text": "Aceh province applies Islamic law and alcohol is not openly sold. On the beaches at Iboih and Gapang, swimwear is normal; away from them, cover shoulders and knees, and carry a scarf if you plan to visit the Baiturrahman mosque."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b302",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s300",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Season. "
         },
         {
-          "_type": "span",
           "_key": "s301",
+          "_type": "span",
           "marks": [],
           "text": "May to September is the overlap where Toba is driest and the sea off Weh is calmest. November to February brings rougher crossings and more cancellations, which is when the buffer day earns its place twice over."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b305",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s303",
+          "_type": "span",
           "marks": [
             "strong"
           ],
           "text": "Health. "
         },
         {
-          "_type": "span",
           "_key": "s304",
+          "_type": "span",
           "marks": [],
           "text": "There is no hyperbaric chamber on Pulau Weh and the nearest facilities are on the mainland, so divers should keep conservative profiles and leave a proper surface interval before the flight home. The buffer day on Day 10 covers that as well."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b307",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s306",
+          "_type": "span",
           "marks": [],
           "text": "Final verdict"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b309",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s308",
+          "_type": "span",
           "marks": [],
           "text": "This is the honeymoon for couples who measure a trip by how little they had to think, and who are willing to spend three days moving to buy eight days of quiet. Samosir gives you cool air, an empty schedule and a culture that has nothing to do with Bali. Pulau Weh gives you warm, clear water at a price that still surprises people. Eleven days is the shortest version that does justice to both."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b311",
-      "style": "normal",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s310",
+          "_type": "span",
           "marks": [],
           "text": "If either of you would rather not spend a honeymoon on ferries and regional flights, take that seriously and go somewhere with fewer moving parts. Nobody wins an argument on Day 5 of a trip they were talked into. For everyone else, this is one of the best-value honeymoons in Indonesia, and it costs a fraction of what the same number of nights buys in Bali."
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "normal"
     },
     {
-      "_type": "block",
       "_key": "b313",
-      "style": "h2",
-      "markDefs": [],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s312",
+          "_type": "span",
           "marks": [],
           "text": "Related itineraries"
         }
-      ]
+      ],
+      "markDefs": [],
+      "style": "h2"
     },
     {
-      "_type": "block",
       "_key": "b324",
-      "style": "normal",
-      "markDefs": [
-        {
-          "_key": "m314",
-          "_type": "externalLink",
-          "href": "/trips/5-days-lake-toba-samosir",
-          "blank": false
-        },
-        {
-          "_key": "m315",
-          "_type": "externalLink",
-          "href": "/trips/7-days-pulau-weh-sabang-diving-beach",
-          "blank": false
-        },
-        {
-          "_key": "m316",
-          "_type": "externalLink",
-          "href": "/trips/9-days-lombok-gili-honeymoon",
-          "blank": false
-        }
-      ],
+      "_type": "block",
       "children": [
         {
-          "_type": "span",
           "_key": "s317",
+          "_type": "span",
           "marks": [],
           "text": "If you want the lake on its own, read "
         },
         {
-          "_type": "span",
           "_key": "s318",
+          "_type": "span",
           "marks": [
             "strong",
             "m314"
@@ -2372,14 +2385,14 @@
           "text": "5 days at Lake Toba and Samosir"
         },
         {
-          "_type": "span",
           "_key": "s319",
+          "_type": "span",
           "marks": [],
           "text": ". If the island is the part that appeals, "
         },
         {
-          "_type": "span",
           "_key": "s320",
+          "_type": "span",
           "marks": [
             "strong",
             "m315"
@@ -2387,14 +2400,14 @@
           "text": "7 days on Pulau Weh"
         },
         {
-          "_type": "span",
           "_key": "s321",
+          "_type": "span",
           "marks": [],
           "text": " covers the diving in more depth. And if the transfers here look like too much, "
         },
         {
-          "_type": "span",
           "_key": "s322",
+          "_type": "span",
           "marks": [
             "strong",
             "m316"
@@ -2402,116 +2415,111 @@
           "text": "9 days in Lombok and the Gili Islands"
         },
         {
-          "_type": "span",
           "_key": "s323",
+          "_type": "span",
           "marks": [],
           "text": " is the low-effort honeymoon alternative."
         }
-      ]
+      ],
+      "markDefs": [
+        {
+          "_key": "m314",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-lake-toba-samosir"
+        },
+        {
+          "_key": "m315",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-pulau-weh-sabang-diving-beach"
+        },
+        {
+          "_key": "m316",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-lombok-gili-honeymoon"
+        }
+      ],
+      "style": "normal"
     }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "sumatra",
+  "destinationSecondary": [],
+  "experienceTags": [
+    "lake",
+    "beaches",
+    "snorkeling",
+    "diving",
+    "romantic",
+    "slow_travel",
+    "batak_culture",
+    "local_villages"
   ],
   "faq": [
     {
-      "question": "Is Sumatra a good place for a honeymoon?",
-      "answer": "It is, for a specific kind of couple. Sumatra trades polish for space: you get a highland lake and an island with clear water, at a fraction of Bali's prices, in exchange for three real travel days out of eleven. If you want a resort with a spa and a concierge, look at Bali or Lombok instead."
+      "answer": "It is, for a specific kind of couple. Sumatra trades polish for space: you get a highland lake and an island with clear water, at a fraction of Bali's prices, in exchange for three real travel days out of eleven. If you want a resort with a spa and a concierge, look at Bali or Lombok instead.",
+      "question": "Is Sumatra a good place for a honeymoon?"
     },
     {
-      "question": "How many days do you need for Lake Toba and Pulau Weh together?",
-      "answer": "Eleven is the honest minimum. Four nights on Samosir, four on Pulau Weh, and three days spent moving between them and in and out of the country. Nine days works only if you fly into Silangit airport near the lake instead of driving from Medan, which removes about two hours of road in each direction."
+      "answer": "Eleven is the honest minimum. Four nights on Samosir, four on Pulau Weh, and three days spent moving between them and in and out of the country. Nine days works only if you fly into Silangit airport near the lake instead of driving from Medan, which removes about two hours of road in each direction.",
+      "question": "How many days do you need for Lake Toba and Pulau Weh together?"
     },
     {
-      "question": "How do you get from Lake Toba to Pulau Weh?",
-      "answer": "Ferry from Samosir to Parapat, road to Medan, a night near Kualanamu airport, then a morning flight to Banda Aceh of around an hour and a half on Wings Air or Super Air Jet, a taxi to Ulee Lheue harbour, and a fast ferry of roughly 45 minutes to Balohan. There is no way to compress it into one day."
+      "answer": "Ferry from Samosir to Parapat, road to Medan, a night near Kualanamu airport, then a morning flight to Banda Aceh of around an hour and a half on Wings Air or Super Air Jet, a taxi to Ulee Lheue harbour, and a fast ferry of roughly 45 minutes to Balohan. There is no way to compress it into one day.",
+      "question": "How do you get from Lake Toba to Pulau Weh?"
     },
     {
-      "question": "How much does the ferry to Pulau Weh cost?",
-      "answer": "The Express Bahari fast ferry is around Rp 100,000 per adult, or Rp 125,000 for the VIP deck, and takes about 45 minutes. The slower ASDP car ferry is around Rp 35,000 and takes closer to two hours. Those are the operators' published tariffs and they change, so confirm before you travel."
+      "answer": "The Express Bahari fast ferry is around Rp 100,000 per adult, or Rp 125,000 for the VIP deck, and takes about 45 minutes. The slower ASDP car ferry is around Rp 35,000 and takes closer to two hours. Those are the operators' published tariffs and they change, so confirm before you travel.",
+      "question": "How much does the ferry to Pulau Weh cost?"
     },
     {
-      "question": "Can you drink alcohol on Pulau Weh?",
-      "answer": "Not openly. Aceh province applies Islamic law and alcohol is not sold in shops, bars or most restaurants. A small number of places catering to divers are the exception, and travellers should not count on it. Evenings on the island are quiet and early, which suits some honeymoons and ruins others."
+      "answer": "Not openly. Aceh province applies Islamic law and alcohol is not sold in shops, bars or most restaurants. A small number of places catering to divers are the exception, and travellers should not count on it. Evenings on the island are quiet and early, which suits some honeymoons and ruins others.",
+      "question": "Can you drink alcohol on Pulau Weh?"
     },
     {
-      "question": "What is the best time of year for this trip?",
-      "answer": "Roughly May to September. That window is when Lake Toba is at its driest and the sea between Banda Aceh and Pulau Weh is at its calmest. November to February brings rougher crossings and more ferry cancellations, so if you travel then, protect the buffer day at the end."
+      "answer": "Roughly May to September. That window is when Lake Toba is at its driest and the sea between Banda Aceh and Pulau Weh is at its calmest. November to February brings rougher crossings and more ferry cancellations, so if you travel then, protect the buffer day at the end.",
+      "question": "What is the best time of year for this trip?"
     },
     {
-      "question": "Is Pulau Weh good for non-divers?",
-      "answer": "Yes. The snorkelling off Rubiah Island and the house reefs at Iboih and Gapang are reached without a boat or a certification, and the water is often clear to something like 25 metres. Scooter loops, Kilometre Zero and long empty afternoons fill the rest of the time without anyone getting in a tank."
+      "answer": "Yes. The snorkelling off Rubiah Island and the house reefs at Iboih and Gapang are reached without a boat or a certification, and the water is often clear to something like 25 metres. Scooter loops, Kilometre Zero and long empty afternoons fill the rest of the time without anyone getting in a tank.",
+      "question": "Is Pulau Weh good for non-divers?"
     },
     {
-      "question": "How much does a Sumatra honeymoon cost?",
-      "answer": "As a working estimate, around $1,400 to $2,300 for two people for eleven days on the ground, excluding international flights. Rooms and the two internal transfers carry most of it, and dives on Weh at roughly $20 to $25 each are the cheapest part. Prices move, so treat these as planning figures."
+      "answer": "As a working estimate, around $1,400 to $2,300 for two people for eleven days on the ground, excluding international flights. Rooms and the two internal transfers carry most of it, and dives on Weh at roughly $20 to $25 each are the cheapest part. Prices move, so treat these as planning figures.",
+      "question": "How much does a Sumatra honeymoon cost?"
     }
   ],
-  "affiliateLinks": [
-    {
-      "placeholderId": "AIRALO_INDONESIA",
-      "partner": "Airalo",
-      "experienceCategory": "esim",
-      "anchorText": "Indonesia eSIM from Airalo",
-      "linkStatus": "live",
-      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe"
-    },
-    {
-      "placeholderId": "12GO_MEDAN_PARAPAT",
-      "partner": "12go",
-      "experienceCategory": "transport",
-      "anchorText": "compare Medan to Parapat transfers",
-      "linkStatus": "live",
-      "day": "Day 1",
-      "publicUrl": "https://12go.asia/en/travel/medan/parapat",
-      "affiliateUrl": "https://12go.asia/en/travel/medan/parapat?z=16022946"
-    },
-    {
-      "placeholderId": "12GO_MEDAN_BANDA_ACEH",
-      "partner": "12go",
-      "experienceCategory": "transport",
-      "anchorText": "overnight buses run Medan to Banda Aceh",
-      "linkStatus": "live",
-      "day": "Day 6",
-      "publicUrl": "https://12go.asia/en/travel/medan/banda-aceh",
-      "affiliateUrl": "https://12go.asia/en/travel/medan/banda-aceh?z=16022946"
-    },
-    {
-      "placeholderId": "BOOKING_TUK_TUK",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "Tuk Tuk and Samosir stays",
-      "linkStatus": "live",
-      "day": "Day 1",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Tuk+Tuk%2C+Samosir%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tuk+Tuk%2C+Samosir%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    },
-    {
-      "placeholderId": "BOOKING_MEDAN",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "Rooms on the Kualanamu side of Medan",
-      "linkStatus": "live",
-      "day": "Day 5",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Medan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Medan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    },
-    {
-      "placeholderId": "BOOKING_SABANG",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "Sabang and Pulau Weh stays",
-      "linkStatus": "live",
-      "day": "Day 6",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sabang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sabang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
-    },
-    {
-      "placeholderId": "BOOKING_BANDA_ACEH",
-      "partner": "Booking.com",
-      "experienceCategory": "accommodation",
-      "anchorText": "Banda Aceh rooms",
-      "linkStatus": "live",
-      "day": "Day 10",
-      "publicUrl": "https://www.booking.com/searchresults.html?ss=Banda+Aceh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
-      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Banda+Aceh%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  "focusKeyword": "Sumatra honeymoon",
+  "footerBanners": [],
+  "heroImage": {
+    "_type": "image",
+    "alt": "The green caldera rim of Lake Toba dropping to the water in North Sumatra, with a cultivated valley floor below and cumulus cloud over the far shore",
+    "asset": {
+      "_ref": "image-c43ee9588649d92b0801766688168fe4cbff975b-3000x2000-jpg",
+      "_type": "reference"
     }
-  ]
+  },
+  "intro": "A honeymoon in Sumatra costs you travel days, and pretending otherwise is how couples spend their first married week in a car. This route buys the trade down to two moves: a highland lake where the air is cool and nothing happens quickly, then an island at the far northwest tip of the country where the water is warm and the diving is cheap. One flight and one ferry sit between them. Everything else is staying still.",
+  "metaDescription": "A quiet Sumatra honeymoon: four nights on Samosir, four on Pulau Weh, one flight and one ferry between them, with real transfer times and 2026 fares.",
+  "metaTitle": "Sumatra Honeymoon: 11 Days, Lake Toba to Pulau Weh",
+  "route": "Medan (Kualanamu) → Parapat → Tuk Tuk, Samosir → Medan → Banda Aceh → Pulau Weh (Iboih or Gapang) → Banda Aceh",
+  "slug": {
+    "_type": "slug",
+    "current": "11-days-sumatra-honeymoon-lake-toba-pulau-weh"
+  },
+  "title": "11 Days in Sumatra for a Honeymoon: Lake Toba and Pulau Weh",
+  "travelStylePrimary": "romantic_escape",
+  "travelStyleSecondary": [
+    "beach_islands",
+    "diving_snorkeling"
+  ],
+  "travellerTypes": [
+    "honeymooners",
+    "couples"
+  ],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 11,
+  "vibe": "relaxed"
 }
