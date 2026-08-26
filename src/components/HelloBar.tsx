@@ -4,7 +4,6 @@ import { PUBLIC_AUTH_UI } from "@/lib/public-auth-ui";
 
 export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
-  const { user, loading } = useUser();
 
   // The prototype page has its own dedicated feedback bar, hide the global one
   // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
@@ -68,40 +67,52 @@ export function HelloBar() {
           )}
         </p>
 
-        {/* Auth entry points, top right. Skipped while auth state loads to avoid
-            a login→my-trips flicker for signed-in visitors. Hidden entirely
-            while PUBLIC_AUTH_UI is off (affiliate-only mode). */}
-        {PUBLIC_AUTH_UI && !loading && (
-          <nav
-            aria-label="Account"
-            className="shrink-0 flex items-center gap-2 sm:gap-3 sm:absolute sm:right-6 sm:top-1/2 sm:-translate-y-1/2"
-          >
-            {user ? (
-              <Link
-                to="/account"
-                className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
-              >
-                My trips
-              </Link>
-            ) : (
-              <>
-                <Link
-                  to="/login"
-                  className="font-semibold text-white/90 hover:text-white underline-offset-2 hover:underline"
-                >
-                  Log in
-                </Link>
-                <Link
-                  to="/login"
-                  className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
-                >
-                  Sign up
-                </Link>
-              </>
-            )}
-          </nav>
-        )}
+        {/* Auth entry points, top right. Rendered as a child component so that
+            with PUBLIC_AUTH_UI off nothing in the always-mounted site shell
+            touches useUser() — and therefore no Supabase browser client is
+            constructed on every page. */}
+        {PUBLIC_AUTH_UI && <AccountNav />}
       </div>
     </div>
+  );
+}
+
+// Only mounted while PUBLIC_AUTH_UI is on — see src/lib/public-auth-ui.ts.
+function AccountNav() {
+  const { user, loading } = useUser();
+
+  // Skipped while auth state loads, to avoid a login→my-trips flicker for
+  // signed-in visitors.
+  if (loading) return null;
+
+  return (
+    <nav
+      aria-label="Account"
+      className="shrink-0 flex items-center gap-2 sm:gap-3 sm:absolute sm:right-6 sm:top-1/2 sm:-translate-y-1/2"
+    >
+      {user ? (
+        <Link
+          to="/account"
+          className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
+        >
+          My trips
+        </Link>
+      ) : (
+        <>
+          <Link
+            to="/login"
+            className="font-semibold text-white/90 hover:text-white underline-offset-2 hover:underline"
+          >
+            Log in
+          </Link>
+          <Link
+            to="/login"
+            className="inline-flex items-center gap-1 font-bold bg-white text-[var(--navy-deep)] hover:bg-black hover:text-white transition-colors px-3 py-1 rounded-full"
+          >
+            Sign up
+          </Link>
+        </>
+      )}
+    </nav>
   );
 }
