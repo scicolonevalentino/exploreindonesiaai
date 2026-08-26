@@ -1,15 +1,18 @@
-// TEMPORARY kill-switch for the PUBLIC login UI.
+// Kill-switch for the PUBLIC login UI.
 //
-// While the site runs affiliate-only and the Supabase project is paused to cut
-// compute cost, every *visible* invitation to log in / sign up is hidden. This
-// is a UI-only change and is fully reversible: flip this constant back to true.
+// Flipping this to false hides every *visible* invitation to log in or sign up
+// (the HelloBar account nav, the footer "My account" link, the /p1 AuthStatus
+// chip) and makes the two auth GATES fail open — no signup wall on the daily
+// generation cap, and "Save & Download" hands a signed-out visitor the PDF
+// directly instead of opening AuthSaveModal. That combination is what lets the
+// site run affiliate-only with the Supabase project paused, without leaving
+// visitors at a dead end on the page that produces the affiliate clicks.
 //
-// Deliberately NOT touched (so nothing is lost):
-//   - Supabase Auth, the users, the database, RLS
-//   - the /login, /auth/callback and /account routes (still reachable by URL)
-//   - AuthStatus / AuthSaveModal / useUser and the whole src/lib/supabase layer
+// It is UI-only in both positions: Supabase Auth, the users, the database, RLS
+// and the /login, /auth/callback and /account routes are never touched.
 //
-// While this is false the trip builder must FAIL OPEN: no signup wall on the
-// daily cap and no auth gate in front of the PDF download, otherwise a paused
-// Auth backend would leave visitors at a dead end on the affiliate money path.
-export const PUBLIC_AUTH_UI = false;
+// History: switched off on 2026-08-26 while the Supabase project was moved to a
+// Free org and paused; switched back on the same day once the project was
+// resumed, because the MCP connector's OAuth delegates to the Supabase email
+// OTP login and must stay reachable.
+export const PUBLIC_AUTH_UI = true;
