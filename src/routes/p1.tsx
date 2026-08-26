@@ -47,6 +47,7 @@ import { sendWelcomeEmailOnce } from "@/lib/welcome-email.functions";
 import { AuthSaveModal } from "@/components/AuthSaveModal";
 import { GenerationLimitModal } from "@/components/GenerationLimitModal";
 import { AuthStatus } from "@/components/AuthStatus";
+import { PUBLIC_AUTH_UI } from "@/lib/public-auth-ui";
 import { toast } from "sonner";
 
 // localStorage key for stashing a freshly built trip when a signed-out visitor
@@ -278,7 +279,11 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
     // the higher cap and, at it, the Pro-demand modal. Signed-out visitors get
     // the lower ANON cap and, at it, the SIGNUP WALL — so creating an account
     // unlocks more planning (the conversion goal), not less.
-    if (user) {
+    // With the public login UI off (affiliate-only mode) there is nothing to
+    // sign up FOR, so both caps fail open rather than dead-ending the visitor.
+    if (!PUBLIC_AUTH_UI) {
+      // no cap, no wall
+    } else if (user) {
       const usedToday = await countGenerationsToday();
       if (usedToday >= DAILY_GENERATION_LIMIT) {
         trackEvent("generation_limit_reached", {
@@ -441,7 +446,7 @@ export function P1Page({ embedded = false }: { embedded?: boolean } = {}) {
       className={embedded ? "flex flex-col" : "min-h-screen flex flex-col"}
       style={{ backgroundColor: "#faf9f5" }}
     >
-      {!embedded && <AuthStatus />}
+      {PUBLIC_AUTH_UI && !embedded && <AuthStatus />}
       {stage === "input" && (
         <InputStage
           value={prompt}
@@ -1026,9 +1031,17 @@ function TripStage({
       estimated_total: totals.total,
       signed_in: !!user,
     });
-    if (!user) {
+    // While the public login UI is off, a signed-out visitor gets the PDF
+    // straight away instead of hitting a signup wall they cannot clear.
+    if (!user && PUBLIC_AUTH_UI) {
       stashTrip();
       setAuthOpen(true);
+      return;
+    }
+    if (!user) {
+      downloadItineraryPdf(trip, added, insights).catch(() =>
+        toast.error("Couldn't generate the PDF, try again."),
+      );
       return;
     }
     setSaving(true);

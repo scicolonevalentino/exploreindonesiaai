@@ -6,6 +6,7 @@ import { DESTINATION_CONTENT } from "@/data/destinations";
 import { Logo } from "@/components/Logo";
 import { toast } from "sonner";
 import { sendContactMessage } from "@/lib/contact.functions";
+import { PUBLIC_AUTH_UI } from "@/lib/public-auth-ui";
 import { sanityClient } from "@/lib/sanity";
 import { SITE_SETTINGS_QUERY, type SiteSettings } from "@/lib/sanity-queries";
 import {
@@ -191,16 +192,18 @@ function FooterBar() {
                   Getting around
                 </a>
               </li>
-              <li>
-                {/* noindex page, see above. */}
-                <a
-                  href="/account"
-                  rel="nofollow"
-                  className="text-white/75 hover:text-white transition-colors"
-                >
-                  My account
-                </a>
-              </li>
+              {PUBLIC_AUTH_UI && (
+                <li>
+                  {/* noindex page, see above. */}
+                  <a
+                    href="/account"
+                    rel="nofollow"
+                    className="text-white/75 hover:text-white transition-colors"
+                  >
+                    My account
+                  </a>
+                </li>
+              )}
             </ul>
           </nav>
 

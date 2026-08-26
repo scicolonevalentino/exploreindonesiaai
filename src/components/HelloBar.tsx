@@ -1,5 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useUser } from "@/lib/supabase/useUser";
+import { PUBLIC_AUTH_UI } from "@/lib/public-auth-ui";
 
 export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
@@ -68,8 +69,9 @@ export function HelloBar() {
         </p>
 
         {/* Auth entry points, top right. Skipped while auth state loads to avoid
-            a login→my-trips flicker for signed-in visitors. */}
-        {!loading && (
+            a login→my-trips flicker for signed-in visitors. Hidden entirely
+            while PUBLIC_AUTH_UI is off (affiliate-only mode). */}
+        {PUBLIC_AUTH_UI && !loading && (
           <nav
             aria-label="Account"
             className="shrink-0 flex items-center gap-2 sm:gap-3 sm:absolute sm:right-6 sm:top-1/2 sm:-translate-y-1/2"
