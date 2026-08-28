@@ -1011,9 +1011,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "raja_ampat",
     name: "Raja Ampat",
     shortName: "Raja Ampat",
-    metaTitle: "Raja Ampat itineraries, diving & liveaboards",
+    h1: "Raja Ampat Itineraries",
+    metaTitle: "Raja Ampat Itineraries: Which Route, How Many Days",
     metaDescription:
-      "Raja Ampat diving itineraries and liveaboard routes through the world's richest reefs. Plan and book your trip day by day.",
+      "Five Raja Ampat routes compared, 7 to 14 days: homestays, diving, family and honeymoon. Ferry times from Sorong and what to book first.",
     intro:
       "Raja Ampat sits at the heart of the Coral Triangle, the most biodiverse marine ecosystem on Earth. These itineraries cover homestays in Arborek and Kri, plus liveaboard options for serious divers.",
     highlights: ["Wayag viewpoints", "Manta Sandy", "Misool", "Kri homestays"],
