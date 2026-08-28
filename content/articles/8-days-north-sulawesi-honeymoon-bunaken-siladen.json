@@ -1,0 +1,2382 @@
+{
+ "_id": "itinerary-8-days-north-sulawesi-honeymoon-bunaken-siladen",
+ "_type": "article",
+ "slug": {
+  "_type": "slug",
+  "current": "8-days-north-sulawesi-honeymoon-bunaken-siladen"
+ },
+ "title": "8 Days in North Sulawesi for a Honeymoon: Bunaken and the Minahasa Highlands",
+ "contentStatus": "draft",
+ "author": {
+  "_type": "reference",
+  "_ref": "author-editorial-team"
+ },
+ "articleCreatedDate": "2026-08-28T08:00:00.000Z",
+ "destinationPrimary": "wild_indonesia",
+ "destinationSecondary": [],
+ "tripLengthBucket": "one_week",
+ "tripLengthDays": 8,
+ "travelStylePrimary": "romantic_escape",
+ "travelStyleSecondary": [
+  "diving_snorkeling",
+  "wildlife_nature"
+ ],
+ "travellerTypes": [
+  "honeymooners",
+  "couples"
+ ],
+ "vibe": "relaxed",
+ "bestSeason": "May–October",
+ "experienceTags": [
+  "snorkeling",
+  "diving",
+  "romantic",
+  "slow_travel",
+  "volcanoes",
+  "highlands",
+  "wildlife",
+  "marine_park"
+ ],
+ "articleCommercialTier": "standard",
+ "footerBanners": [],
+ "focusKeyword": "North Sulawesi honeymoon",
+ "metaTitle": "North Sulawesi Honeymoon: 8 Days, Bunaken and Tomohon",
+ "metaDescription": "A quiet North Sulawesi honeymoon: four nights on the Bunaken reef, three in the cool Minahasa highlands, with real transfer times and 2026 costs.",
+ "route": "Manado (Sam Ratulangi) → Bunaken or Siladen → Manado → Tomohon, Minahasa highlands → Manado",
+ "intro": "Most Indonesian honeymoons make you choose between a reef and a mountain. North Sulawesi puts the two about ninety minutes apart, which is why this route does not ask you to pick. Four nights on the Bunaken walls, where snorkelling off the jetty is as good as most people's diving, then three in the Minahasa highlands where the mornings are cold enough to need a jumper and the volcanoes are close enough to walk up before breakfast. One airport, two bases, no internal flights, and a bill well under what the same week costs in Bali.",
+ "faq": [
+  {
+   "question": "How many days do you need in North Sulawesi for a honeymoon?",
+   "answer": "Eight days is the practical minimum for both halves. Four nights in the Bunaken marine park and three in the Minahasa highlands leaves each part long enough to settle into, with the transfer between them taking a morning rather than a day. Under a week, drop the highlands and keep the reef."
+  },
+  {
+   "question": "Is Bunaken good for a honeymoon if only one of you dives?",
+   "answer": "Unusually good. The reef top sits close to the surface and drops away almost vertically, so a snorkeller floating over the wall sees turtles, reef fish and the same coral the divers are looking at from below. Most resorts also run snorkel trips on the same boats, so nobody spends the morning waiting on land."
+  },
+  {
+   "question": "When is the best time to visit Bunaken?",
+   "answer": "Diving runs all year, and the drier months from roughly May to October usually bring the calmest crossings and the clearest water. That window is also more comfortable in the highlands. Conditions shift from year to year, so check recent dive reports before you commit to dates rather than relying on a fixed season."
+  },
+  {
+   "question": "Do you have to pay a fee to enter Bunaken National Park?",
+   "answer": "Yes. The park charges an entry fee, commonly quoted at around 150,000 rupiah per person as a working estimate, and it is sometimes issued as a tag valid for a longer period rather than a single day. Amounts and collection methods vary by operator, so ask your resort whether it is included and confirm current official guidance."
+  },
+  {
+   "question": "Can you drink alcohol in North Sulawesi?",
+   "answer": "Yes. North Sulawesi is a majority-Christian province and alcohol is sold openly, so a drink with dinner is unremarkable in Manado, Tomohon and at the dive resorts. This makes it a noticeably easier honeymoon destination than parts of Indonesia where alcohol is restricted, such as Aceh."
+  },
+  {
+   "question": "How far is Tomohon from Manado?",
+   "answer": "Roughly an hour to an hour and a half by road, depending on traffic and weather. The road climbs steadily and the temperature falls with it, so you arrive somewhere noticeably cooler than the coast. Allow extra time in the rain, when the highland roads slow down considerably."
+  },
+  {
+   "question": "Is Tangkoko worth adding to a honeymoon?",
+   "answer": "It is worth one afternoon if you want to see spectral tarsiers and black crested macaques, and it is a long day out at around an hour and a half to two hours each way from Manado. Skip it if you are already tired from four days of boats. The reserve is best walked late in the day, as the tarsiers wake."
+  }
+ ],
+ "affiliateLinks": [
+  {
+   "placeholderId": "AIRALO_INDONESIA",
+   "partner": "Airalo",
+   "experienceCategory": "esim",
+   "linkStatus": "live",
+   "anchorText": "Indonesia eSIM from Airalo",
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe"
+  },
+  {
+   "placeholderId": "BOOKING_MANADO",
+   "partner": "Booking.com",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "day": "Day 1",
+   "anchorText": "Rooms in Manado",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Manado%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Manado%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  },
+  {
+   "placeholderId": "BOOKING_BUNAKEN",
+   "partner": "Booking.com",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "day": "Day 1",
+   "anchorText": "Places to stay around Bunaken and Siladen",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Bunaken%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Bunaken%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  },
+  {
+   "placeholderId": "BOOKING_TOMOHON",
+   "partner": "Booking.com",
+   "experienceCategory": "accommodation",
+   "linkStatus": "live",
+   "day": "Day 5",
+   "anchorText": "Tomohon and the surrounding highlands",
+   "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tomohon%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+   "publicUrl": "https://www.booking.com/searchresults.html?ss=Tomohon%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+  },
+  {
+   "placeholderId": "VIATOR_BUNAKEN_SNORKEL",
+   "partner": "Viator",
+   "experienceCategory": "activity",
+   "linkStatus": "live",
+   "day": "Day 4",
+   "anchorText": "a Bunaken snorkelling day from Manado",
+   "affiliateUrl": "https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon",
+   "publicUrl": "https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5"
+  },
+  {
+   "placeholderId": "VIATOR_MAHAWU_LOKON",
+   "partner": "Viator",
+   "experienceCategory": "activity",
+   "linkStatus": "live",
+   "day": "Day 6",
+   "anchorText": "A guided Mahawu and Lokon trekking day",
+   "affiliateUrl": "https://www.viator.com/tours/Manado/Private-Sulawesi-Trekking-Mount-Mahawu-and-Lokon-from-Manado/d50663-92029P504?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon",
+   "publicUrl": "https://www.viator.com/tours/Manado/Private-Sulawesi-Trekking-Mount-Mahawu-and-Lokon-from-Manado/d50663-92029P504"
+  },
+  {
+   "placeholderId": "VIATOR_TANGKOKO",
+   "partner": "Viator",
+   "experienceCategory": "activity",
+   "linkStatus": "live",
+   "day": "Day 7",
+   "anchorText": "A private Tangkoko day from Manado",
+   "affiliateUrl": "https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon",
+   "publicUrl": "https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497"
+  }
+ ],
+ "body": [
+  {
+   "_type": "block",
+   "_key": "b2",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s1",
+     "marks": [],
+     "text": "Who is this North Sulawesi honeymoon for, and who should skip it?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b4",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s3",
+     "marks": [],
+     "text": "It suits couples who want warm water in the morning and cool air at night, and who would rather have one airport and two bases than a chain of internal flights. Eight days is enough because Manado sits between the reef and the highlands, so neither transfer eats a whole day of the holiday."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b6",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s5",
+     "marks": [],
+     "text": "It also suits couples where one of you dives and the other does not. Bunaken's reef starts in about a metre of water and falls away almost immediately, so a snorkeller floating above the drop-off sees most of what the divers see, which is rare and is the single strongest argument for this region over a liveaboard."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b11",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m8",
+     "_type": "externalLink",
+     "href": "/trips/9-days-lombok-gili-honeymoon",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s7",
+     "marks": [],
+     "text": "Skip it if you want a resort with a full spa, three restaurants and a beach club. Rooms here are dive resorts and highland guesthouses, comfortable rather than polished, and the good ones are small. Skip it too if neither of you will put a face in the water, because the Bunaken half is the reason to come at all. For service and choice, "
+    },
+    {
+     "_type": "span",
+     "_key": "s9",
+     "marks": [
+      "m8"
+     ],
+     "text": "Lombok and the Gili Islands"
+    },
+    {
+     "_type": "span",
+     "_key": "s10",
+     "marks": [],
+     "text": " do that better."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b13",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s12",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b16",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s14",
+     "marks": [
+      "strong"
+     ],
+     "text": "Route: "
+    },
+    {
+     "_type": "span",
+     "_key": "s15",
+     "marks": [],
+     "text": "Manado (Sam Ratulangi) to Siladen or Bunaken, back through Manado, up to Tomohon in the Minahasa highlands, then down to Manado for the flight home."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b19",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s17",
+     "marks": [
+      "strong"
+     ],
+     "text": "Shape: "
+    },
+    {
+     "_type": "span",
+     "_key": "s18",
+     "marks": [],
+     "text": "Four nights in the marine park, three nights in the highlands, one airport at both ends and no internal flights."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b22",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s20",
+     "marks": [
+      "strong"
+     ],
+     "text": "Pace: "
+    },
+    {
+     "_type": "span",
+     "_key": "s21",
+     "marks": [],
+     "text": "Relaxed. Two boat trips a day at most on the reef, one early start in the highlands, and a lot of deliberately unfilled afternoons."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b25",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s23",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best season: "
+    },
+    {
+     "_type": "span",
+     "_key": "s24",
+     "marks": [],
+     "text": "Diving runs year round, and the drier months from roughly May to October usually bring the calmest crossings and the clearest water at Bunaken. Conditions move year to year, so read recent reports before you lock dates."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b28",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s26",
+     "marks": [
+      "strong"
+     ],
+     "text": "Money: "
+    },
+    {
+     "_type": "span",
+     "_key": "s27",
+     "marks": [],
+     "text": "Cash matters more than it does in Bali. Manado has ATMs, the islands largely do not, and highland guesthouses often prefer cash. Draw what you need before you get on the boat."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b30",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s29",
+     "marks": [],
+     "text": "Why does this route pair a reef with a highland?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b32",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s31",
+     "marks": [],
+     "text": "Because Manado sits between them. The Bunaken marine park is a boat ride west of the city and the Minahasa highlands are an hour or so of road to the south, so both halves hang off one airport. That geography turns what would be two separate trips almost anywhere else into a single eight-day honeymoon."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b34",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s33",
+     "marks": [],
+     "text": "The order is deliberate. Doing the reef first and the highlands second puts your no-fly window on land: by the time you are walking a crater rim in Tomohon, the eighteen to twenty-four hours most agencies advise between a last dive and a flight have already passed without costing you a day. Run the route the other way and your final highland morning becomes a waiting room."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b36",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s35",
+     "marks": [],
+     "text": "The contrast is also the point. You spend four days at sea level in heat and humidity, then climb to around 700 to 1,000 metres where the mornings are genuinely cold and the roads run past flower farms and vegetable terraces. Two climates in one week is more holiday than two beaches in one week."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b38",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s37",
+     "marks": [],
+     "text": "How do you actually get to Bunaken or Siladen from Manado?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b40",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s39",
+     "marks": [],
+     "text": "Your resort arranges it, and you should let them. You are met at Sam Ratulangi airport, driven twenty to forty minutes to a jetty on the Manado waterfront, then taken across by boat. Operators commonly quote around thirty to forty-five minutes to Bunaken and a little longer to Siladen. Door to door is usually one to two hours, sea permitting."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b43",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s41",
+     "marks": [
+      "strong"
+     ],
+     "text": "The catch is the afternoon boat. "
+    },
+    {
+     "_type": "span",
+     "_key": "s42",
+     "marks": [],
+     "text": "Most resorts run a fixed crossing schedule and will not send a boat across in the dark or in bad weather. A delayed connection into Manado can therefore cost you a night in the city rather than an hour of waiting. Check your resort's last crossing before you book flights, and if you land late in the evening, plan on a night in Manado and cross in the morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b48",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m45",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_MANADO"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s44",
+     "marks": [],
+     "text": "Manado is served by direct flights from Jakarta on Garuda Indonesia, Batik Air and Citilink, and from Makassar on Lion Air and Batik Air, with some international connections including Singapore. Routes and frequencies change, so confirm current schedules before you lock rooms. If you need a night on the mainland at either end, "
+    },
+    {
+     "_type": "span",
+     "_key": "s46",
+     "marks": [
+      "m45"
+     ],
+     "text": "rooms in Manado"
+    },
+    {
+     "_type": "span",
+     "_key": "s47",
+     "marks": [],
+     "text": " sit close to both the airport and the jetties."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b50",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s49",
+     "marks": [],
+     "text": "Bunaken or Siladen: which island should you base on?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b52",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s51",
+     "marks": [],
+     "text": "Bunaken is the larger island, with more places to stay across a wider range of budgets and the shortest hops to the best-known wall sites. Siladen is smaller and quieter, with only a handful of properties and a stronger sense of having the beach to yourselves. For a honeymoon, Siladen usually wins on privacy and Bunaken on choice and price."
+    }
+   ]
+  },
+  {
+   "_type": "comparisonTable",
+   "_key": "t53",
+   "columns": [
+    "",
+    "Bunaken",
+    "Siladen"
+   ],
+   "caption": "Both islands sit inside the same marine park, so the diving itself is shared. The real difference is how many other people are on your beach.",
+   "rows": [
+    {
+     "_key": "r54",
+     "cells": [
+      "Size and feel",
+      "Larger, several villages, a spread of resorts and homestays along the shore",
+      "Small and quiet, one main stretch of beach, very few places to stay"
+     ]
+    },
+    {
+     "_key": "r55",
+     "cells": [
+      "Choice of rooms",
+      "Wide, from simple homestays to mid-range dive resorts",
+      "Narrow, mostly a couple of small resorts at the higher end"
+     ]
+    },
+    {
+     "_key": "r56",
+     "cells": [
+      "Crossing from Manado",
+      "Commonly around 30 to 45 minutes by boat",
+      "A little further, usually under an hour"
+     ]
+    },
+    {
+     "_key": "r57",
+     "cells": [
+      "In the water",
+      "Closest to the best-known walls, with a house reef straight off the shore",
+      "Its own house reef, and the same park sites a short boat ride away"
+     ]
+    },
+    {
+     "_key": "r58",
+     "cells": [
+      "Evenings",
+      "A few warungs and resort bars, still very quiet",
+      "Whatever your resort serves, and very little else"
+     ]
+    },
+    {
+     "_key": "r59",
+     "cells": [
+      "Best for",
+      "Couples who want options, and a lower nightly rate",
+      "Couples who want privacy and will pay for it"
+     ]
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b64",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m61",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_BUNAKEN"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s60",
+     "marks": [],
+     "text": "Whichever you pick, stay put for the whole reef half. Moving between the two mid-week costs you the better part of a morning and buys almost nothing, since the boats visit the same sites either way. "
+    },
+    {
+     "_type": "span",
+     "_key": "s62",
+     "marks": [
+      "m61"
+     ],
+     "text": "Places to stay around Bunaken and Siladen"
+    },
+    {
+     "_type": "span",
+     "_key": "s63",
+     "marks": [],
+     "text": " are limited in number, which is the real reason to book early rather than any question of price."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b66",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s65",
+     "marks": [],
+     "text": "Day 1: Arrive in Manado and cross to the reef"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b69",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s67",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s68",
+     "marks": [],
+     "text": "Land at Sam Ratulangi. Most travellers reach Manado on a domestic connection through Jakarta or Makassar, so build a real layover at the transit hub. A short connection here is the most common way to miss the afternoon boat."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b72",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s70",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s71",
+     "marks": [],
+     "text": "Meet your resort's driver, cross to the island and do nothing else. Unpack, swim off the jetty, and let the trip start slowly."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b75",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s73",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s74",
+     "marks": [],
+     "text": "Dinner at the resort, because there is no other option and that is part of the appeal. Sunset over Manado Tua, the volcano across the water, is the view you came for."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b78",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s76",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s77",
+     "marks": [],
+     "text": "One resort on Bunaken or Siladen for four nights."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b81",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s79",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s80",
+     "marks": [],
+     "text": "Book the room and the airport transfer together. Resorts price the boat as part of the package and it is both cheaper and more reliable than arranging it yourself."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b84",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s82",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s83",
+     "marks": [],
+     "text": "Bunaken National Park charges an entry fee, commonly around 150,000 rupiah per person as a working estimate, sometimes issued as a tag valid for a longer period. Amounts and collection methods vary by operator, so ask your resort whether it is included and check the latest official guidance."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b86",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s85",
+     "marks": [],
+     "text": "Day 2: The first full day on the walls"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b89",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s87",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s88",
+     "marks": [],
+     "text": "Two boat dives, or a long guided snorkel over the drop-off. Bunaken's walls fall away steeply from a shallow reef top, which is why non-divers get so much out of the surface here."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b92",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s90",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s91",
+     "marks": [],
+     "text": "A surface interval that lasts as long as you want it to. Most resorts have a house reef you can enter from the beach, so an unhurried second look at the same coral costs nothing."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b95",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s93",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s94",
+     "marks": [],
+     "text": "Early. Boat days start early and the light goes quickly this close to the equator."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b98",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s96",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s97",
+     "marks": [],
+     "text": "Buy dives as a multi-day package rather than singly. It is cheaper, and it removes a daily negotiation from a week that should not have any."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b101",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s99",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s100",
+     "marks": [],
+     "text": "Ask up front whether the marine park fee is charged separately from your dive package. Operators handle it differently and it is an easy thing to pay twice."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b103",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s102",
+     "marks": [],
+     "text": "Day 3: A slower day, and the rest of the park"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b106",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s104",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s105",
+     "marks": [],
+     "text": "Go further into the park. The marine park takes in Manado Tua, Mantehage and Nain as well as Bunaken and Siladen, and a longer boat day reaches sites most day-trippers never see."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b109",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s107",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s108",
+     "marks": [],
+     "text": "Back for a swim and a nap. This is the day to do less, not more."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b112",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s110",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s111",
+     "marks": [],
+     "text": "If your resort will set a table on the sand, this is the night to ask for it."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b115",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s113",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s114",
+     "marks": [],
+     "text": "If a strong wind kills the crossing, do not treat it as a lost day. The house reef is usually still fine and the boats normally run again the next morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b117",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s116",
+     "marks": [],
+     "text": "Day 4: The last day in the water"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b120",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s118",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s119",
+     "marks": [],
+     "text": "Your final dives, or a last long snorkel. Make it the morning rather than the afternoon so the no-fly clock starts as early as possible."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b123",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s121",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s122",
+     "marks": [],
+     "text": "Rinse gear, pack, and sit still. Nothing should be scheduled."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b126",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s124",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s125",
+     "marks": [],
+     "text": "A last dinner on the island."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b129",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s127",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s128",
+     "marks": [],
+     "text": "As a widely used guideline, allow at least eighteen to twenty-four hours between your last dive and a flight, and longer after several days of repeat diving. This route covers that on land, so the rule costs you nothing. Follow your own computer and current dive-safety guidance rather than any fixed number."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b134",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m131",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_BUNAKEN_SNORKEL"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s130",
+     "marks": [],
+     "text": "If you would rather sample the reef on a day trip than commit four nights to it, "
+    },
+    {
+     "_type": "span",
+     "_key": "s132",
+     "marks": [
+      "m131"
+     ],
+     "text": "a Bunaken snorkelling day from Manado"
+    },
+    {
+     "_type": "span",
+     "_key": "s133",
+     "marks": [],
+     "text": " covers several sites with a boat and lunch and gets you back to the mainland the same evening."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b136",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s135",
+     "marks": [],
+     "text": "Day 5: Back to Manado and up into the Minahasa highlands"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b139",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s137",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s138",
+     "marks": [],
+     "text": "Cross back to the mainland on the first boat and let the driver take you straight through Manado. There is no reason to linger in the city."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b142",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s140",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s141",
+     "marks": [],
+     "text": "Climb to Tomohon, roughly an hour to an hour and a half by road depending on traffic. The temperature drops as you go and by the time you arrive you will want a jumper, which after four days at sea level is the whole point."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b145",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s143",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s144",
+     "marks": [],
+     "text": "Minahasan food, which is the most distinctive cooking in this part of Indonesia and heavily spiced. North Sulawesi is a majority-Christian province, so unlike Aceh or parts of Java a glass of wine with dinner is unremarkable here."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b150",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m147",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "BOOKING_TOMOHON"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s146",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base: "
+    },
+    {
+     "_type": "span",
+     "_key": "s148",
+     "marks": [
+      "m147"
+     ],
+     "text": "Tomohon and the surrounding highlands"
+    },
+    {
+     "_type": "span",
+     "_key": "s149",
+     "marks": [],
+     "text": " for three nights. Look for somewhere with a volcano view and a heater or thick blankets; highland nights are genuinely cold."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b153",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s151",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s152",
+     "marks": [],
+     "text": "Arrange a car with a driver for the highland days rather than a series of tours. It costs less over three days and lets you stop where you want."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b155",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s154",
+     "marks": [],
+     "text": "Day 6: Mahawu, Lake Linow and the flower roads"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b158",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s156",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s157",
+     "marks": [],
+     "text": "Go up Mount Mahawu early. A road runs close to the rim and concrete steps take you the rest of the way, so this is a walk rather than a climb, roughly an hour to the top at an easy pace. Go early: cloud usually closes the crater view by mid-morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b161",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s159",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s160",
+     "marks": [],
+     "text": "Lake Linow, the sulphur lake that sits between Mahawu and Lokon and shifts colour through the day as the light and the hydrothermal vents change. Then the flower and vegetable roads around Tomohon, which are the reason this area is worth three nights rather than one."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b164",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s162",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s163",
+     "marks": [],
+     "text": "Back for dinner. Highland roads are slow after dark and there is no reason to be on them."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b169",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m166",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_MAHAWU_LOKON"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s165",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s167",
+     "marks": [
+      "m166"
+     ],
+     "text": "A guided Mahawu and Lokon trekking day"
+    },
+    {
+     "_type": "span",
+     "_key": "s168",
+     "marks": [],
+     "text": " is the simplest way to do both volcanoes with transport included, if you would rather not organise a driver and a guide separately."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b172",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s170",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s171",
+     "marks": [],
+     "text": "Lokon is an active volcano and access to it changes with its status. Treat any climb there as conditional on current official guidance and on what local guides say that week."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b174",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s173",
+     "marks": [],
+     "text": "Day 7: A free highland day, or the tarsiers at Tangkoko"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b177",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s175",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s176",
+     "marks": [],
+     "text": "The honest answer is that this day works well as a genuinely empty one: a slow breakfast, a walk, and a market that is not the Tomohon market."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b180",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s178",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s179",
+     "marks": [],
+     "text": "The alternative is Tangkoko, a reserve about 50 kilometres from Manado in the Bitung direction, roughly an hour and a half to two hours by road. It holds black crested macaques and spectral tarsiers, and a late-afternoon walk times the tarsiers as they wake."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b183",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s181",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening. "
+    },
+    {
+     "_type": "span",
+     "_key": "s182",
+     "marks": [],
+     "text": "If you go to Tangkoko you will be back late. Plan a light dinner and accept that this is the one long day of the week."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b189",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m186",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_TANGKOKO"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s184",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic: "
+    },
+    {
+     "_type": "span",
+     "_key": "s185",
+     "marks": [],
+     "text": "Published guides put Tangkoko entry at around 100,000 rupiah per person for foreign visitors, with a compulsory guide commonly charging in the region of 100,000 to 200,000 rupiah per person on top. Fees change, so confirm on the day. "
+    },
+    {
+     "_type": "span",
+     "_key": "s187",
+     "marks": [
+      "m186"
+     ],
+     "text": "A private Tangkoko day from Manado"
+    },
+    {
+     "_type": "span",
+     "_key": "s188",
+     "marks": [],
+     "text": " bundles the drive, the permit and a guide, which for a couple is usually simpler than assembling it piece by piece."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b192",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s190",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s191",
+     "marks": [],
+     "text": "Tarsiers are nocturnal and very light-sensitive. Let the guide handle the torch and keep your flash off; this is not negotiable and good guides will stop you."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b194",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s193",
+     "marks": [],
+     "text": "Day 8: Down to Manado and the flight home"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b197",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s195",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning. "
+    },
+    {
+     "_type": "span",
+     "_key": "s196",
+     "marks": [],
+     "text": "One more highland breakfast, then the drive down. Allow more time than the map suggests, because the Tomohon road is slow when it rains."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b200",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s198",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon. "
+    },
+    {
+     "_type": "span",
+     "_key": "s199",
+     "marks": [],
+     "text": "Fly out of Sam Ratulangi. Your last dive is now three days behind you, which is the point of running the route in this order."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b203",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s201",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note: "
+    },
+    {
+     "_type": "span",
+     "_key": "s202",
+     "marks": [],
+     "text": "If your onward flight leaves very early, take the last night in Manado rather than the highlands and shorten the drive to twenty minutes."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b205",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s204",
+     "marks": [],
+     "text": "What should you book early, and what can wait?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b208",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s206",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early: "
+    },
+    {
+     "_type": "span",
+     "_key": "s207",
+     "marks": [],
+     "text": "the reef resort. Bunaken and especially Siladen have a small number of rooms and the better ones fill months out in the dry season. Book the airport transfer with the room, and book your dive package with the resort at the same time."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b211",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s209",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early: "
+    },
+    {
+     "_type": "span",
+     "_key": "s210",
+     "marks": [],
+     "text": "flights into Manado. Domestic seats from Jakarta and Makassar are fine most of the year, but schedules shift and the good arrival times go first."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b214",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s212",
+     "marks": [
+      "strong"
+     ],
+     "text": "Leave flexible: "
+    },
+    {
+     "_type": "span",
+     "_key": "s213",
+     "marks": [],
+     "text": "everything in the highlands. Three nights in Tomohon needs a room and a driver, and nothing else has to be decided before you arrive. Weather will make some of these choices for you anyway."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b217",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s215",
+     "marks": [
+      "strong"
+     ],
+     "text": "Leave flexible: "
+    },
+    {
+     "_type": "span",
+     "_key": "s216",
+     "marks": [],
+     "text": "Tangkoko. Decide on the day, based on how tired you are after four days of boats."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b223",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m220",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s218",
+     "marks": [
+      "strong"
+     ],
+     "text": "Sort before you fly: "
+    },
+    {
+     "_type": "span",
+     "_key": "s219",
+     "marks": [],
+     "text": "connectivity. Signal on the islands is patchy and resort wifi is often shared and slow. "
+    },
+    {
+     "_type": "span",
+     "_key": "s221",
+     "marks": [
+      "m220"
+     ],
+     "text": "An Indonesian eSIM"
+    },
+    {
+     "_type": "span",
+     "_key": "s222",
+     "marks": [],
+     "text": " means you arrive already connected, which matters most on the transfer day when your driver is trying to find you."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b225",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s224",
+     "marks": [],
+     "text": "Mistakes couples make in North Sulawesi"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b228",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s226",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking a tight connection into Manado. "
+    },
+    {
+     "_type": "span",
+     "_key": "s227",
+     "marks": [],
+     "text": "The resort boat does not wait, and it does not sail after dark. A missed connection turns into an unplanned night in the city and a lost reef morning."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b234",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m231",
+     "_type": "externalLink",
+     "href": "/trips/10-days-north-sulawesi-diving-bunaken-lembeh",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s229",
+     "marks": [
+      "strong"
+     ],
+     "text": "Treating Bunaken and Lembeh as interchangeable. "
+    },
+    {
+     "_type": "span",
+     "_key": "s230",
+     "marks": [],
+     "text": "They share an airport and nothing else. Lembeh is black-sand muck diving for macro photographers and it is a poor fit for a honeymoon, particularly if one of you is snorkelling. If both of you dive and macro is the draw, "
+    },
+    {
+     "_type": "span",
+     "_key": "s232",
+     "marks": [
+      "m231"
+     ],
+     "text": "the ten-day Bunaken and Lembeh dive route"
+    },
+    {
+     "_type": "span",
+     "_key": "s233",
+     "marks": [],
+     "text": " is the trip you actually want."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b237",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s235",
+     "marks": [
+      "strong"
+     ],
+     "text": "Putting the Tomohon market on the itinerary. "
+    },
+    {
+     "_type": "span",
+     "_key": "s236",
+     "marks": [],
+     "text": "It is still promoted as a highlight of the highlands. The sale of dog and cat meat there was banned in 2023 after a long campaign by animal welfare groups, but bats, rats and pythons are still traded openly. Whatever you make of that, plenty of visitors leave upset, and it is a strange thing to do on a honeymoon. The flower farms and the crater rim are why you are up there."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b240",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s238",
+     "marks": [
+      "strong"
+     ],
+     "text": "Arriving without cash. "
+    },
+    {
+     "_type": "span",
+     "_key": "s239",
+     "marks": [],
+     "text": "Draw money in Manado. The islands mostly have no ATM, and card acceptance at highland guesthouses is inconsistent."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b243",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s241",
+     "marks": [
+      "strong"
+     ],
+     "text": "Filling the highland days. "
+    },
+    {
+     "_type": "span",
+     "_key": "s242",
+     "marks": [],
+     "text": "Three nights in Tomohon with one activity a day is the correct density. Couples who schedule two end up spending the week in a car."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b245",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s244",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b248",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s246",
+     "marks": [
+      "strong"
+     ],
+     "text": "Cut it to six days "
+    },
+    {
+     "_type": "span",
+     "_key": "s247",
+     "marks": [],
+     "text": "by taking two nights in the highlands instead of three, and dropping Tangkoko. You keep the whole reef half, which is the part that does not survive being shortened."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b251",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s249",
+     "marks": [
+      "strong"
+     ],
+     "text": "Adapt it for two divers "
+    },
+    {
+     "_type": "span",
+     "_key": "s250",
+     "marks": [],
+     "text": "by moving a night from Tomohon to the island and adding a fifth diving day. The highlands still work as a two-night decompression stop and the no-fly window is still covered."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b257",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m254",
+     "_type": "externalLink",
+     "href": "/trips/10-days-sulawesi-toraja-bunaken",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s252",
+     "marks": [
+      "strong"
+     ],
+     "text": "Upgrade it to eleven days "
+    },
+    {
+     "_type": "span",
+     "_key": "s253",
+     "marks": [],
+     "text": "by adding Tana Toraja in the south, which means an internal flight through Makassar and a long drive at the other end. That is a different trip in temperament, and "
+    },
+    {
+     "_type": "span",
+     "_key": "s255",
+     "marks": [
+      "m254"
+     ],
+     "text": "the ten-day Toraja to Bunaken route"
+    },
+    {
+     "_type": "span",
+     "_key": "s256",
+     "marks": [],
+     "text": " already sets it out day by day."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b263",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m260",
+     "_type": "externalLink",
+     "href": "/trips/10-days-raja-ampat-honeymoon",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s258",
+     "marks": [
+      "strong"
+     ],
+     "text": "Swap the destination "
+    },
+    {
+     "_type": "span",
+     "_key": "s259",
+     "marks": [],
+     "text": "if the reef matters more than anything else. "
+    },
+    {
+     "_type": "span",
+     "_key": "s261",
+     "marks": [
+      "m260"
+     ],
+     "text": "A Raja Ampat honeymoon"
+    },
+    {
+     "_type": "span",
+     "_key": "s262",
+     "marks": [],
+     "text": " gives you better diving and better scenery, at roughly twice the travel and noticeably higher costs."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b265",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s264",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b267",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s266",
+     "marks": [],
+     "text": "The two halves are close together on a map and very different to be in. Understanding which one you are actually booking for is the difference between a honeymoon that works and one that spends four days waiting for the other half to start."
+    }
+   ]
+  },
+  {
+   "_type": "comparisonTable",
+   "_key": "t268",
+   "columns": [
+    "",
+    "The Bunaken half",
+    "The Minahasa highlands half"
+   ],
+   "caption": "Running the reef first and the highlands second is deliberate: it puts the post-diving no-fly window on land, where it costs you nothing.",
+   "rows": [
+    {
+     "_key": "r269",
+     "cells": [
+      "Altitude and climate",
+      "Sea level, hot and humid by day, warm at night",
+      "Roughly 700 to 1,000 metres around Tomohon, cool days and cold mornings"
+     ]
+    },
+    {
+     "_key": "r270",
+     "cells": [
+      "What a day looks like",
+      "One or two boat trips, then a long empty afternoon",
+      "An early volcano walk or a lake, back by mid-afternoon"
+     ]
+    },
+    {
+     "_key": "r271",
+     "cells": [
+      "Rooms",
+      "Dive resorts and homestays, most with a jetty and a house reef",
+      "Small hotels and guesthouses, some with a volcano view"
+     ]
+    },
+    {
+     "_key": "r272",
+     "cells": [
+      "Evenings",
+      "Dinner at the resort, early nights, no choice and no scene",
+      "Minahasan food in Tomohon, a wider choice, still quiet"
+     ]
+    },
+    {
+     "_key": "r273",
+     "cells": [
+      "What can go wrong",
+      "Wind cancels a boat, or visibility drops for a day",
+      "Cloud closes the crater view, rain makes the roads slow"
+     ]
+    },
+    {
+     "_key": "r274",
+     "cells": [
+      "Cash and cards",
+      "Bring cash, few ATMs, resorts settle at checkout",
+      "Cash preferred in most guesthouses and warungs"
+     ]
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b277",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s275",
+     "marks": [
+      "strong"
+     ],
+     "text": "On season. "
+    },
+    {
+     "_type": "span",
+     "_key": "s276",
+     "marks": [],
+     "text": "The drier stretch from roughly May to October generally brings the calmest crossings and the best visibility at Bunaken, and it is also the more comfortable window in the highlands. Diving continues year round and conditions vary from year to year, so recent dive reports are worth more than any single month."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b280",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s278",
+     "marks": [
+      "strong"
+     ],
+     "text": "On money. "
+    },
+    {
+     "_type": "span",
+     "_key": "s279",
+     "marks": [],
+     "text": "North Sulawesi is cheaper than Bali for food and transport, and comparable for a good dive resort. The two costs people forget are the marine park fee and the driver for the highland days."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b283",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s281",
+     "marks": [
+      "strong"
+     ],
+     "text": "On expectations. "
+    },
+    {
+     "_type": "span",
+     "_key": "s282",
+     "marks": [],
+     "text": "This is a quiet region with a small tourism industry. Service is warm and informal, English is common in the dive resorts and thinner elsewhere, and almost nothing runs to a published timetable."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b285",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s284",
+     "marks": [],
+     "text": "Final verdict: is North Sulawesi honeymoon material?"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b287",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s286",
+     "marks": [],
+     "text": "Yes, for the right couple, and the deciding question is simple: will both of you get in the water? If the answer is yes, this is one of the best-value honeymoons in Indonesia. You get world-class reef from a snorkel as well as a tank, a cool highland week to follow it, one airport, no internal flights and a bill well under what Bali or Raja Ampat would ask."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b289",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s288",
+     "marks": [],
+     "text": "If the answer is no, walk away. The Bunaken half carries the trip and there is not enough on land in eight days to replace it. Nothing else about North Sulawesi, not the volcanoes, not the food, not the highlands, is strong enough on its own to justify the flights."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b291",
+   "style": "normal",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s290",
+     "marks": [],
+     "text": "The route is also unusually forgiving. Bad weather costs you a boat trip rather than a leg, the highlands do not depend on conditions in the way the reef does, and the no-fly window sits harmlessly in the middle of the second half. For an eight-day honeymoon with one flight in and one flight out, that is a lot of margin."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b293",
+   "style": "h2",
+   "markDefs": [],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s292",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b298",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m295",
+     "_type": "externalLink",
+     "href": "/trips/10-days-north-sulawesi-diving-bunaken-lembeh",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s294",
+     "marks": [],
+     "text": "If both of you dive and macro photography is the draw, "
+    },
+    {
+     "_type": "span",
+     "_key": "s296",
+     "marks": [
+      "m295"
+     ],
+     "text": "the ten-day Bunaken and Lembeh route"
+    },
+    {
+     "_type": "span",
+     "_key": "s297",
+     "marks": [],
+     "text": " gives the Lembeh Strait the time it needs."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b303",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m300",
+     "_type": "externalLink",
+     "href": "/trips/10-days-sulawesi-toraja-bunaken",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s299",
+     "marks": [],
+     "text": "If you want Sulawesi's culture as well as its reef, "
+    },
+    {
+     "_type": "span",
+     "_key": "s301",
+     "marks": [
+      "m300"
+     ],
+     "text": "the ten-day Tana Toraja to Bunaken route"
+    },
+    {
+     "_type": "span",
+     "_key": "s302",
+     "marks": [],
+     "text": " pairs the highland funeral country of the south with the same marine park."
+    }
+   ]
+  },
+  {
+   "_type": "block",
+   "_key": "b308",
+   "style": "normal",
+   "markDefs": [
+    {
+     "_key": "m305",
+     "_type": "externalLink",
+     "href": "/trips/11-days-sumatra-honeymoon-lake-toba-pulau-weh",
+     "blank": false
+    }
+   ],
+   "children": [
+    {
+     "_type": "span",
+     "_key": "s304",
+     "marks": [],
+     "text": "If you want a comparably quiet honeymoon somewhere else in the archipelago, "
+    },
+    {
+     "_type": "span",
+     "_key": "s306",
+     "marks": [
+      "m305"
+     ],
+     "text": "the eleven-day Sumatra honeymoon"
+    },
+    {
+     "_type": "span",
+     "_key": "s307",
+     "marks": [],
+     "text": " runs Lake Toba to Pulau Weh on the same lake-then-island logic."
+    }
+   ]
+  }
+ ]
+}
