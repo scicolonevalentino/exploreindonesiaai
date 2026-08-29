@@ -50,10 +50,25 @@ peso da soli.
 1. **Non è un caso di posizione 60.** A 20,3 è già in striking distance, quindi
    qui il rinforzo lavora su una pagina che Google mostra già, non su una da
    recuperare. È la condizione più favorevole di tutte quelle affrontate finora.
-2. **Il segnale GSC è troppo sottile per guidare il piano.** 36 impression non
-   bastano a ricavare un cluster. Il piano andrà costruito sulla ricerca di
-   parole chiave e sulla SERP reale, non sulle query GSC come i precedenti.
-   Dichiararlo nel piano, invece di fingere un cluster che non c'è.
+2. **Correzione del 2026-08-29 alla prima stesura di questo file.** Avevo scritto
+   che "il segnale GSC è troppo sottile per guidare il piano". È sbagliato, e il
+   metodo di `gsc-monday-insights-exploreindonesia` lo dice chiaramente: la
+   striking distance (posizione 5-20) è la **prima** fonte di rendimento, e una
+   pagina in top 20 con CTR sotto l'1% ha "un problema di snippet, non di
+   ranking", che è l'azione più economica in assoluto. La hub Bali è a
+   **posizione 20,3 con CTR zero**: cade esattamente lì. Resta vero che 36
+   impression non bastano a ricavare un cluster di query, quindi le sezioni
+   vanno costruite su ricerca keyword e SERP reale, ma la pagina **non** è un
+   caso da rimandare per debolezza di segnale.
+
+## Nota di processo, 2026-08-29
+
+`gsc-monday-insights-exploreindonesia` gira il lunedì alle 7:30 ed è il primo
+anello di una catena di cui il generatore di contenuti delle 8:05 è il secondo.
+Il suo report si chiude con una riga esplicita per il generatore: *"RINFORZA
+<pagina> su <cluster>, oppure CREA su <tema>"*. **La run del 2026-08-28 non ha
+letto quella raccomandazione** e ha scelto la pagina da zero. Le prossime run
+devono leggerla prima di scegliere.
 
 ## Un debito già aperto che si chiude qui
 
