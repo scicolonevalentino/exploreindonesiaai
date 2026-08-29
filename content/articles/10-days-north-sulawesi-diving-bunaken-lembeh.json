@@ -1,1578 +1,1725 @@
 {
-  "_id": "itinerary-10-days-north-sulawesi-diving-bunaken-lembeh",
-  "_type": "article",
-  "affiliateLinks": [
-    {
-      "_key": "k231",
-      "_type": "affiliateLink",
-      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-      "anchorText": "Indonesia eSIM with Airalo",
-      "experienceCategory": "esim_connectivity",
-      "linkStatus": "live",
-      "notes": "travelpayouts",
-      "partner": "airalo",
-      "placeholderId": "AIRALO_INDONESIA",
-      "publicUrl": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-      "_key": "k232",
-      "_type": "affiliateLink",
-      "affiliateUrl": "https://www.viator.com/tours/Manado/Bunaken-National-Park-Snorkeling-Trip/d50663-7876P56?pid=P00303362&mcid=42383&medium=link&campaign=BunakenSnorkelTrip",
-      "anchorText": "Bunaken National Park snorkeling trip from Manado",
-      "experienceCategory": "activity",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "viator",
-      "placeholderId": "VIATOR_BUNAKEN_SNORKEL",
-      "publicUrl": "https://www.viator.com/tours/Manado/Bunaken-National-Park-Snorkeling-Trip/d50663-7876P56"
-    },
-    {
-      "_key": "k233",
-      "_type": "affiliateLink",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
-      "anchorText": "current domestic flights and transfers around Manado",
-      "experienceCategory": "transfer",
-      "linkStatus": "live",
-      "notes": null,
-      "partner": "12go",
-      "placeholderId": "12GO_MANADO_TRANSFERS",
-      "publicUrl": null
-    }
-  ],
-  "articleCreatedDate": "2026-07-08T09:00:00.000Z",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
+ "_id": "itinerary-10-days-north-sulawesi-diving-bunaken-lembeh",
+ "_type": "article",
+ "affiliateLinks": [
+  {
+   "_key": "k231",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+   "anchorText": "Indonesia eSIM with Airalo",
+   "experienceCategory": "esim_connectivity",
+   "linkStatus": "live",
+   "notes": "travelpayouts",
+   "partner": "airalo",
+   "placeholderId": "AIRALO_INDONESIA",
+   "publicUrl": "https://www.airalo.com/indonesia-esim"
   },
-  "body": [
-    {
-      "_key": "k2",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k1",
-          "_type": "span",
-          "marks": [],
-          "text": "Who this trip is for"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k4",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k3",
-          "_type": "span",
-          "marks": [],
-          "text": "This route is built for certified divers who want North Sulawesi's two signature styles in one trip, and who would rather do each of them properly than sample both in a hurry. You spend the first half on the reef walls around Bunaken, where the diving is about drop-offs, drift and open blue water, then move to the black sand of the Lembeh Strait, where the pace slows and the reward is macro life you will not see anywhere else. It suits divers travelling as couples, with friends, or returning to Indonesia after Bali, Komodo or Raja Ampat and wanting the region's third great dive area."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k6",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k5",
-          "_type": "span",
-          "marks": [],
-          "text": "It is not the right trip for non-divers looking for a beach holiday. This is a diving itinerary first, and the surface time between dives is quiet. It is also a hard fit for anyone who wants postcard reefs the whole way through, because Lembeh is deliberately not pretty. The strait is a working channel of dark volcanic sand, and its appeal is entirely in the creatures, not the scenery. If you want warm-water reef beauty from start to finish, weight your days toward Bunaken and treat Lembeh as an add-on rather than half the trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k8",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k7",
-          "_type": "span",
-          "marks": [],
-          "text": "Complete beginners can still make this work, but they should plan to certify at the start or arrive already qualified, because the muck diving in Lembeh rewards good buoyancy control and the walls in Bunaken can carry current. Snorkelers and non-diving partners can join parts of it, though they will get more out of Bunaken than Lembeh."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k10",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k9",
-          "_type": "span",
-          "marks": [],
-          "text": "Trip at a glance"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k13",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k11",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Duration:"
-        },
-        {
-          "_key": "k12",
-          "_type": "span",
-          "marks": [],
-          "text": " 10 days, 9 nights, structured as roughly four nights around Bunaken and four to five nights on the Lembeh Strait, with the transfer day in between."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k16",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k14",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Route:"
-        },
-        {
-          "_key": "k15",
-          "_type": "span",
-          "marks": [],
-          "text": " Fly into Manado, transfer out to a Bunaken base, then cross to Lembeh before returning to Manado for the flight home."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k19",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k17",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Pace:"
-        },
-        {
-          "_key": "k18",
-          "_type": "span",
-          "marks": [],
-          "text": " Active in the water, slow on land. Expect two to four dives a day with long surface intervals, and very little sightseeing beyond the diving itself."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k22",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k20",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Best season:"
-        },
-        {
-          "_key": "k21",
-          "_type": "span",
-          "marks": [],
-          "text": " Diving runs year round, but the drier months from around May to October usually bring the calmest crossings and the clearest water at Bunaken, while many divers rate July to October for Lembeh's cooler water and macro activity. Conditions vary year to year, so check current reports before you commit to dates."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k25",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k23",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Getting in:"
-        },
-        {
-          "_key": "k24",
-          "_type": "span",
-          "marks": [],
-          "text": " Manado's Sam Ratulangi airport is the single gateway. It has domestic connections through hubs such as Jakarta, Surabaya and Makassar, plus some regional international routes. Direct flights from Bali are limited and seasonal, so most divers connect through a larger hub. Confirm current flight routes before locking hotels."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k27",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k26",
-          "_type": "span",
-          "marks": [],
-          "text": "Why this route makes sense"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k29",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k28",
-          "_type": "span",
-          "marks": [],
-          "text": "North Sulawesi is really two dive destinations that happen to share one airport, and the mistake most first-timers make is treating them as interchangeable. Bunaken sits west of Manado in a marine park of steep coral walls, where the diving is fast, blue and current-driven. Lembeh sits east, past the port city of Bitung, in a sheltered strait of black sand where the diving is slow, close and macro-focused. Doing one without the other means leaving half of what the region is known for behind."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k31",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k30",
-          "_type": "span",
-          "marks": [],
-          "text": "Putting Bunaken first is deliberate. The reef diving is the gentler introduction, it eases you back into your buoyancy and air consumption, and it keeps the visually spectacular half of the trip at the start while you are freshest. Lembeh then works as the slow, absorbing second act, the kind of diving where you hover over one patch of sand for twenty minutes watching a single creature. Ending on the strait also makes the no-fly planning cleaner, because your final dives happen close to Manado rather than out at an island resort with its own transfer to build in."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k33",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k32",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 1: Arrive in Manado and transfer to Bunaken"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k39",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k34",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k35",
-          "_type": "span",
-          "marks": [],
-          "text": " Sort connectivity before you land. An "
-        },
-        {
-          "_key": "k37",
-          "_type": "span",
-          "marks": ["k36"],
-          "text": "Indonesia eSIM with Airalo"
-        },
-        {
-          "_key": "k38",
-          "_type": "span",
-          "marks": [],
-          "text": " lets you activate data on arrival at Manado, so resort transfer confirmations, maps and messaging all work before you clear the airport. Most divers reach Manado on a domestic connection, so build in enough layover at your transit hub that a delay does not cost you the resort's afternoon boat."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k36",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "AIRALO_INDONESIA"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k42",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k40",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k41",
-          "_type": "span",
-          "marks": [],
-          "text": " Transfer out to your Bunaken base. Depending on the resort this means a road transfer to a jetty and then a boat across to the island, so it can eat a chunk of the day. Keep the first afternoon for checking in, assembling and testing your gear, and a relaxed briefing rather than a dive. Arriving rested matters more than squeezing in a late dip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k45",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k43",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k44",
-          "_type": "span",
-          "marks": [],
-          "text": " Direct Bali to Manado flights are limited and seasonal, so plan on connecting through Jakarta, Surabaya or Makassar unless you can confirm a direct route for your exact dates. The last leg into Manado can be an early or awkward hour, which is another reason not to schedule a same-day dive."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k48",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k46",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base:"
-        },
-        {
-          "_key": "k47",
-          "_type": "span",
-          "marks": [],
-          "text": " Choose one dive resort in the Bunaken area, either on Bunaken island itself or on nearby Siladen, and stay put. A single base for the whole Bunaken leg keeps you close to the walls and removes daily transfers."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k50",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k49",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 2: First dives on the Bunaken walls"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k53",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k51",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k52",
-          "_type": "span",
-          "marks": [],
-          "text": " Ease in with two dives on the marine park's coral walls. Sites around Bunaken and Siladen drop steeply from the surface, so the diving is largely along vertical reef faces with the blue on one shoulder. Use the first dive to reset your buoyancy and weighting after the flights, and let the divemaster read the current for you before you push to the more exposed points."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k56",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k54",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k55",
-          "_type": "span",
-          "marks": [],
-          "text": " Keep it to one more dive or a long surface interval. After a travel day, three dives is plenty, and there is no prize for exhausting yourself on the first full day. Log your air and trim honestly so the guides can pitch the next days at the right level."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k59",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k57",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic."
-        },
-        {
-          "_key": "k58",
-          "_type": "span",
-          "marks": [],
-          "text": " Book your diving as a package through the resort rather than piecemeal. Bunaken resorts run their own boats to the park daily, and a multi-day dive package is both cheaper and simpler than arranging single dives. Ask up front whether the marine park fee is included or collected separately."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k62",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k60",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k61",
-          "_type": "span",
-          "marks": [],
-          "text": " Bunaken National Park charges an entry fee, commonly around 150,000 rupiah per person as a working estimate and sometimes issued as a tag valid for a longer period. Fees can change and collection methods vary by operator, so confirm the current amount with your resort and check the latest official guidance."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k64",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k63",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 3: Outer reefs and drift diving"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k67",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k65",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k66",
-          "_type": "span",
-          "marks": [],
-          "text": " Push out to the park's better-known points once the guides trust your buoyancy. Sites off Bunaken and around Manado Tua, the old volcano across the bay, are known for wall diving and drifting, with turtles, reef fish and the occasional bigger visitor in the blue. Let the current do the work and concentrate on staying off the reef."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k70",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k68",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k69",
-          "_type": "span",
-          "marks": [],
-          "text": " A third dive if you are feeling strong, otherwise rest. Bunaken's walls reward repeat dives at different states of tide, so a lighter afternoon dive on a nearer site is often more enjoyable than chasing a distant one."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k73",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k71",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k72",
-          "_type": "span",
-          "marks": [],
-          "text": " Some of these sites carry real current, which is what brings the fish but also what catches out divers who wander off the wall. Stay with your guide, keep a reef hook or good finning technique ready if conditions call for it, and sit out a dive without embarrassment if the drift is stronger than you are comfortable with."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k75",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k74",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 4: Last Bunaken dives and a surface day for non-divers"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k78",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k76",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k77",
-          "_type": "span",
-          "marks": [],
-          "text": " Take your final Bunaken dives on the sites you liked best, or on anything the guides have been saving for good conditions. This is also the day to slow your dive count slightly, since a big transfer follows tomorrow and there is no need to arrive at Lembeh tired."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k84",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k79",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k80",
-          "_type": "span",
-          "marks": [],
-          "text": " If you are travelling with a non-diving partner, or simply want time out of your kit, the park is excellent from the surface too. A "
-        },
-        {
-          "_key": "k82",
-          "_type": "span",
-          "marks": ["k81"],
-          "text": "Bunaken National Park snorkeling trip from Manado"
-        },
-        {
-          "_key": "k83",
-          "_type": "span",
-          "marks": [],
-          "text": " puts you over the same wall tops that make the diving special, where the reef sits close to the surface and the drop-off is visible below. It is a good way to keep a non-diver involved without leaving them ashore all day."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k81",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "VIATOR_BUNAKEN_SNORKEL"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k87",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k85",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic."
-        },
-        {
-          "_key": "k86",
-          "_type": "span",
-          "marks": [],
-          "text": " Plan your dives so your last one here is in the morning, not late in the day. You want the afternoon and evening clear to pack, settle bills and get an early night before the transfer, and a relaxed final dive is a better memory than a rushed one."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k89",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k88",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 5: Cross from Bunaken to the Lembeh Strait"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k92",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k90",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k91",
-          "_type": "span",
-          "marks": [],
-          "text": " Make the move to Lembeh. In practice this is a boat back to the Manado side, a road transfer across to the port city of Bitung, and a short final boat over to your resort on the strait. As a working estimate the land leg alone runs a couple of hours depending on traffic, so treat this as a travel day rather than a dive day."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k95",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k93",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k94",
-          "_type": "span",
-          "marks": [],
-          "text": " Arrive, settle into your Lembeh resort and reset your gear for a very different kind of diving. If there is time and energy, an easy check dive on a nearby site is a gentle way to meet the black sand, but do not force it after a long transfer. The strait will still be there tomorrow."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k105",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k100",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k101",
-          "_type": "span",
-          "marks": [],
-          "text": " Confirm the transfer arrangement and timing directly with your Lembeh resort in advance, since most handle the whole door-to-door move themselves and the boat times depend on the tide. Early or late transfers can carry a surcharge. To sanity-check the wider picture, you can compare "
-        },
-        {
-          "_key": "k103",
-          "_type": "span",
-          "marks": ["k102"],
-          "text": "current domestic flights and transfers around Manado"
-        },
-        {
-          "_key": "k104",
-          "_type": "span",
-          "marks": [],
-          "text": " before you travel, though for this leg the resort transfer is almost always the simplest option."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k102",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_MANADO_TRANSFERS"
-        }
-      ],
-      "style": "normal"
-    },
-    {
-      "_key": "k108",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k106",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Base:"
-        },
-        {
-          "_key": "k107",
-          "_type": "span",
-          "marks": [],
-          "text": " Pick one resort on the Lembeh Strait for the whole second half. Sites are close together and most are only minutes from the jetty by boat, so there is no reason to move accommodation once you are there."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k110",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k109",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 6: Into muck diving on the black sand"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k113",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k111",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k112",
-          "_type": "span",
-          "marks": [],
-          "text": " Start the Lembeh diving with two dives and adjust your expectations before you get in. This is macro diving over dark volcanic sand, not reef diving. The sites look bare at a glance, and everything worth seeing is small, camouflaged and often waiting to be pointed out by a guide with a sharp eye. Slow right down, hover, and let your guide show you what you are missing."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k116",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k114",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k115",
-          "_type": "span",
-          "marks": [],
-          "text": " A third dive to keep building your search image. Frogfish, several kinds of octopus, ornate shrimp, seahorses and a long list of nudibranchs are the sort of thing Lembeh is known for, and the more dives you do the more your own eyes start to find them rather than relying on the guide."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k119",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k117",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic."
-        },
-        {
-          "_key": "k118",
-          "_type": "span",
-          "marks": [],
-          "text": " Lembeh diving is guide-led by design, usually in small groups, and the good guides are the whole point. If you shoot photos, say so when you book, since many resorts pair keen photographers with guides used to the slower pace and give priority to smaller ratios. Nitrox is worth having here for the long, shallow, repetitive dives."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k121",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k120",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 7: Critter diving and a night dive"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k124",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k122",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k123",
-          "_type": "span",
-          "marks": [],
-          "text": " A full morning of muck diving, now that you know how to look. Ask the guides to target whatever you most want to see, because they know which sites have been producing which creatures recently and can steer the day accordingly. Two morning dives on different sites give you the best variety."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k127",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k125",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Evening."
-        },
-        {
-          "_key": "k126",
-          "_type": "span",
-          "marks": [],
-          "text": " Do at least one night dive. Lembeh after dark is a different place, when the strangest animals come out, from bobbit worms to Spanish dancers to hunting octopus and stargazers buried in the sand. It is the single dive most divers remember from the strait, so build a night dive into the plan rather than treating it as optional."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k130",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k128",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k129",
-          "_type": "span",
-          "marks": [],
-          "text": " Buoyancy matters more on the sand than on a reef. A careless fin kick clouds the water and destroys the shot or the sighting for everyone, and it can damage the very animals you came to see. If your buoyancy is rusty, spend the first Lembeh dives fixing it before you chase the rare critters."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k132",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k131",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 8: More Lembeh, or a day trip to Bangka"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k135",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k133",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k134",
-          "_type": "span",
-          "marks": [],
-          "text": " By now you can either keep mining the Lembeh sites, which reward repetition because the animals move and change, or break up the macro with a change of scene. Some resorts run day trips north to the reefs around Bangka island, where the diving is more colourful and reef-based, a useful contrast if you are craving some coral after days on the sand."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k138",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k136",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic."
-        },
-        {
-          "_key": "k137",
-          "_type": "span",
-          "marks": [],
-          "text": " Decide on the Bangka option on the ground rather than in advance. It depends on conditions, on how much muck diving you have appetite for, and on whether the trip is running that week. If Lembeh is fishing well and you are still finding new creatures, there is no shame in simply staying put and diving the strait again."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k141",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k139",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k140",
-          "_type": "span",
-          "marks": [],
-          "text": " Keep an eye on your dive count and your fatigue as the trip nears its end. Several days of three or four dives adds up, and the last two days matter more for winding down safely than for pushing numbers."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k143",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k142",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 9: Final dives and the start of your no-fly window"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k146",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k144",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k145",
-          "_type": "span",
-          "marks": [],
-          "text": " Make today your last diving day, and keep the dives to the morning. Choose favourite sites for a relaxed finish rather than anything demanding, and end on a dive you enjoy rather than one you have to grind through. Once you surface from the last dive, your no-fly clock starts."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k149",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k147",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k148",
-          "_type": "span",
-          "marks": [],
-          "text": " Dry and pack your gear, settle up, and spend the rest of the day out of the water. This is the buffer that protects your flight home, so resist the temptation of one more dive. A quiet afternoon on the strait is a fair trade for not risking decompression illness on the plane."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k152",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k150",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Travel note."
-        },
-        {
-          "_key": "k151",
-          "_type": "span",
-          "marks": [],
-          "text": " As a widely used guideline, wait at least 18 to 24 hours after your final dives before flying, and longer after several days of repetitive diving. Follow your own computer and current dive-safety guidance rather than a fixed number, and plan the last two days of this trip around that gap rather than trying to add it on at the end."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k154",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k153",
-          "_type": "span",
-          "marks": [],
-          "text": "Day 10: Transfer back to Manado and fly home"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k157",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k155",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Morning."
-        },
-        {
-          "_key": "k156",
-          "_type": "span",
-          "marks": [],
-          "text": " Reverse the transfer back to Manado, allowing the same couple of hours of road plus the boat legs, and more if your flight is early. Because you stopped diving the previous morning, you comfortably clear the no-fly window by the time you reach the airport, which is the whole reason the itinerary is built this way."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k160",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k158",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Afternoon."
-        },
-        {
-          "_key": "k159",
-          "_type": "span",
-          "marks": [],
-          "text": " Fly out of Manado, most likely connecting through a domestic hub again. Give yourself a generous buffer for the transfer and check-in, since missing a connection out of Manado can mean a long wait for the next option."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k163",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k161",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Booking logic."
-        },
-        {
-          "_key": "k162",
-          "_type": "span",
-          "marks": [],
-          "text": " When you book flights, favour a later departure from Manado on the final day over the first flight out. It protects both your no-fly gap and your transfer, and it turns a stressful dawn scramble into a manageable morning."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k165",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k164",
-          "_type": "span",
-          "marks": [],
-          "text": "What to book early, and what to keep flexible"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k168",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k166",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Book early:"
-        },
-        {
-          "_key": "k167",
-          "_type": "span",
-          "marks": [],
-          "text": " your dive resorts at both Bunaken and Lembeh, your Manado flights, and your dive packages. The better dive resorts on both sides are small and fill up in the drier months, and because each handles its own transfers, booking them early also locks your logistics. Nitrox, if you want it, is worth arranging in advance too."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k171",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k169",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Keep flexible:"
-        },
-        {
-          "_key": "k170",
-          "_type": "span",
-          "marks": [],
-          "text": " the Bangka day trip, your exact dive count each day, and any night dives beyond the first. These depend on conditions, on how your body is holding up, and on what the strait is producing that week. Leave room to add or drop a dive rather than committing to a rigid schedule."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k174",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k172",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Decide on arrival:"
-        },
-        {
-          "_key": "k173",
-          "_type": "span",
-          "marks": [],
-          "text": " how to split your energy between reef and macro. Some divers fall for Lembeh and wish they had given it more days, others miss coral and want more Bunaken. You cannot know which you are until you have dived both, so keep your mind open to shifting the balance on a future trip."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k176",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k175",
-          "_type": "span",
-          "marks": [],
-          "text": "Mistakes divers make in North Sulawesi"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k179",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k177",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Expecting Lembeh to look like Bunaken."
-        },
-        {
-          "_key": "k178",
-          "_type": "span",
-          "marks": [],
-          "text": " The most common disappointment comes from divers who arrive at the strait expecting reefs and find black sand instead. Lembeh is about the creatures, not the scenery. Go in knowing that, and the diving is superb. Go in expecting coral gardens, and you will spend three days confused."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k182",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k180",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Underestimating the transfer."
-        },
-        {
-          "_key": "k181",
-          "_type": "span",
-          "marks": [],
-          "text": " The move between Bunaken and Lembeh is not a quick hop. It is boats and a road crossing through Bitung, and it takes most of a day once you account for tides and traffic. Divers who plan a dive on either end of the transfer usually regret it. Treat it as a travel day."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k185",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k183",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Ignoring the no-fly window."
-        },
-        {
-          "_key": "k184",
-          "_type": "span",
-          "marks": [],
-          "text": " This is the one that actually matters for safety. Divers who dive right up to the last afternoon, then take an early flight, are gambling with decompression illness. Stop diving a full day before you fly and plan the trip around that gap from the start."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k188",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k186",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Weak buoyancy on the sand."
-        },
-        {
-          "_key": "k187",
-          "_type": "span",
-          "marks": [],
-          "text": " Muck diving punishes poor buoyancy more than reef diving does. Silt-outs ruin the sighting for the whole group and stress the animals. If your skills are rusty, fix them on the Bunaken walls and the first Lembeh dives before you go looking for rare critters."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k190",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k189",
-          "_type": "span",
-          "marks": [],
-          "text": "What to cut, adapt or upgrade"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k193",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k191",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Cut, if you have less time:"
-        },
-        {
-          "_key": "k192",
-          "_type": "span",
-          "marks": [],
-          "text": " run this as a focused seven-day trip on one side only. Four or five nights at Bunaken alone, or at Lembeh alone, still makes a complete diving holiday, and it removes the transfer day entirely. Choosing between walls and macro is easier than doing both badly in a rush."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k196",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k194",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Adapt, for a photography focus:"
-        },
-        {
-          "_key": "k195",
-          "_type": "span",
-          "marks": [],
-          "text": " weight the trip toward Lembeh, since the strait is one of the strongest macro photography destinations anywhere. Give it six or seven nights, keep Bunaken as a short warm-up, and book a resort used to photographers and slower, smaller guided groups."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k199",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k197",
-          "_type": "span",
-          "marks": ["strong"],
-          "text": "Upgrade, if you have more time:"
-        },
-        {
-          "_key": "k198",
-          "_type": "span",
-          "marks": [],
-          "text": " add a leg to a third North Sulawesi area such as the reefs around Bangka, or extend into a liveaboard exploring further afield. With two extra weeks and a bigger budget, North Sulawesi also pairs naturally with a wider eastern Indonesia dive trip taking in Raja Ampat, though that is a different scale of journey."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k201",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k200",
-          "_type": "span",
-          "marks": [],
-          "text": "Before you build this trip"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k203",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k202",
-          "_type": "span",
-          "marks": [],
-          "text": "Confirm your flights into and out of Manado before you book anything else, since the connections through Jakarta, Surabaya or Makassar shape your first and last days and the direct Bali route cannot be relied on. Once flights are fixed, book both dive resorts and let each arrange its own transfers, which is far simpler than trying to stitch the logistics together yourself. Ask each resort directly about the marine park fee, nitrox, transfer timings and any surcharges so there are no surprises on the bill."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k205",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k204",
-          "_type": "span",
-          "marks": [],
-          "text": "Come properly prepared as a diver. Check that your certification and logged experience match the current and macro conditions, service your own gear before you travel, and consider dedicated diving insurance that covers evacuation, since Manado is a long way from major medical centres. Bring or rent a good torch for the night dives, and if you shoot photos, sort your camera setup before you arrive rather than fighting with it on the boat. Carry some cash, as card payment is patchy outside the larger resorts."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k207",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k206",
-          "_type": "span",
-          "marks": [],
-          "text": "Final verdict"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k209",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k208",
-          "_type": "span",
-          "marks": [],
-          "text": "North Sulawesi is the third of Indonesia's great dive regions, and this ten-day plan is the honest way to see why. Bunaken gives you the reef walls and the drift, Lembeh gives you macro diving with no real equal, and doing both in one trip is the whole point rather than a compromise. The route works because it respects two things divers routinely get wrong here: the transfer between the two sides is a full day, and the flight home needs a protected no-fly gap that has to be planned from the start, not bolted on at the end. Go in expecting black sand to look like black sand, keep your buoyancy sharp, end your diving a day before you fly, and North Sulawesi delivers. Treat it as one destination instead of two, and you will only ever see half of it."
-        }
-      ],
-      "markDefs": [],
-      "style": "normal"
-    },
-    {
-      "_key": "k222",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k221",
-          "_type": "span",
-          "marks": [],
-          "text": "Related itineraries"
-        }
-      ],
-      "markDefs": [],
-      "style": "h2"
-    },
-    {
-      "_key": "k220",
-      "_type": "block",
-      "children": [
-        {
-          "_key": "k210",
-          "_type": "span",
-          "marks": [],
-          "text": "If you are weighing up where in Indonesia to dive, our "
-        },
-        {
-          "_key": "k212",
-          "_type": "span",
-          "marks": ["k211"],
-          "text": "7-day Komodo diving itinerary"
-        },
-        {
-          "_key": "k213",
-          "_type": "span",
-          "marks": [],
-          "text": " covers the current-rich sites and manta cleaning stations of the south, while the "
-        },
-        {
-          "_key": "k215",
-          "_type": "span",
-          "marks": ["k214"],
-          "text": "14-day Raja Ampat itinerary for divers"
-        },
-        {
-          "_key": "k216",
-          "_type": "span",
-          "marks": [],
-          "text": " takes on the most biodiverse reefs in the country. For more remote and wildlife-led routes across the wider region, browse our "
-        },
-        {
-          "_key": "k218",
-          "_type": "span",
-          "marks": ["k217"],
-          "text": "Wild Indonesia destination guide"
-        },
-        {
-          "_key": "k219",
-          "_type": "span",
-          "marks": [],
-          "text": "."
-        }
-      ],
-      "markDefs": [
-        {
-          "_key": "k211",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/7-days-komodo-diving"
-        },
-        {
-          "_key": "k214",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/trips/14-days-raja-ampat-divers"
-        },
-        {
-          "_key": "k217",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/wild-indonesia"
-        }
-      ],
-      "style": "normal"
-    }
-  ],
-  "contentStatus": "live",
-  "destinationPrimary": "wild_indonesia",
-  "faq": [
-    {
-      "_key": "k223",
-      "answer": "Plan for around ten days to do both without rushing, split roughly into four nights around Bunaken and four to five on the Lembeh Strait, with a travel day for the transfer between them. That gives each area enough dives to be worth the flights. If you only have a week, it is usually better to pick one side and dive it properly than to try to cram in both.",
-      "question": "How many days do you need to dive both Bunaken and Lembeh?"
-    },
-    {
-      "_key": "k224",
-      "answer": "Bunaken is reef-wall and drift diving in a marine park of steep coral drop-offs, with turtles, reef fish and open blue water. Lembeh is muck diving over black volcanic sand, where the diving is slow and macro-focused and the reward is rare small creatures like frogfish, unusual octopus and nudibranchs. They are almost opposite styles, which is exactly why divers come for both.",
-      "question": "What is the difference between diving Bunaken and Lembeh?"
-    },
-    {
-      "_key": "k225",
-      "answer": "Diving runs year round, but the drier months from around May to October generally bring the calmest crossings and clearest water at Bunaken, and many divers rate July to October for Lembeh's cooler water and macro activity. Conditions vary year to year, so check recent dive reports before you lock in dates.",
-      "question": "When is the best time to dive North Sulawesi?"
-    },
-    {
-      "_key": "k226",
-      "answer": "It is most of a day rather than a quick hop. Expect a boat from the Bunaken side back to Manado, a road transfer across to Bitung of a couple of hours as a working estimate depending on traffic, and a short final boat to your Lembeh resort. Most resorts arrange the whole door-to-door move, and timings depend on the tide, so confirm the details in advance.",
-      "question": "How long is the transfer between Bunaken and Lembeh?"
-    },
-    {
-      "_key": "k227",
-      "answer": "Muck diving means diving slowly over dark, seemingly bare sand looking for small, camouflaged creatures that a guide helps you spot. Lembeh is the world's best-known muck diving destination. Divers who love wildlife, patience and photography tend to fall for it, while those who mainly want colourful reefs can find it underwhelming. Knowing which you are before you book helps you weight the trip.",
-      "question": "What is muck diving and will I enjoy it?"
-    },
-    {
-      "_key": "k228",
-      "answer": "As a widely used guideline, wait at least 18 to 24 hours after your final dives before flying, and longer after several days of repetitive diving. Follow your own dive computer and current dive-safety guidance rather than a fixed number. This itinerary is built so your last dives are a full day before departure, which is the safest way to plan it.",
-      "question": "How long should you wait to fly after diving in Lembeh?"
-    },
-    {
-      "_key": "k229",
-      "answer": "You can dive much of the region on an open-water certification, but some Bunaken wall sites carry current that suits more experienced divers, and Lembeh's long, shallow, repetitive dives are well served by nitrox. Advanced training and a nitrox certification both add flexibility. Beginners can certify at the start of the trip, ideally arriving already qualified so no dive days are lost.",
-      "question": "Do you need advanced certification or nitrox for North Sulawesi?"
-    },
-    {
-      "_key": "k230",
-      "answer": "Bunaken works well from the surface, because the reef sits close to the top of the walls and snorkelers can float over dramatic drop-offs. Lembeh is far less rewarding without scuba, since its appeal is small creatures on the bottom. A non-diving partner will get much more out of the Bunaken half of this trip than the Lembeh half.",
-      "question": "Is North Sulawesi good for non-divers or snorkelers?"
-    }
-  ],
-  "focusKeyword": "North Sulawesi diving itinerary",
-  "heroImage": {
-    "_type": "image",
-    "alt": "Manado Tua volcano rising above the reef water off Bunaken, North Sulawesi",
-    "asset": {
-      "_ref": "image-b13e71b25fd89e71fbbea984e6a8e99b59e548c8-4000x3000-jpg",
-      "_type": "reference"
-    },
-    "caption": "Bunaken to Lembeh Strait, North Sulawesi"
+  {
+   "_key": "k232",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://www.viator.com/tours/Manado/Bunaken-National-Park-Snorkeling-Trip/d50663-7876P56?pid=P00303362&mcid=42383&medium=link&campaign=BunakenSnorkelTrip",
+   "anchorText": "Bunaken National Park snorkeling trip from Manado",
+   "experienceCategory": "activity",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "viator",
+   "placeholderId": "VIATOR_BUNAKEN_SNORKEL",
+   "publicUrl": "https://www.viator.com/tours/Manado/Bunaken-National-Park-Snorkeling-Trip/d50663-7876P56"
   },
-  "intro": "Most divers meet North Sulawesi as a name filed alongside Raja Ampat and Komodo as a someday trip, then never quite work out how to fit it in. The confusion is understandable, because this is really two very different dive regions sharing one airport. Bunaken is about reef walls and open blue water, drift diving along coral drop-offs that fall away into the dark. Lembeh is the opposite, a channel of black sand where the diving slows right down and the reward is the strangest small creatures in the ocean. This ten-day plan gives each of them real time rather than a rushed sampler, and it is built around the two things divers get wrong here: underestimating the transfer between them, and forgetting to protect a proper no-fly gap before the flight home.",
-  "metaDescription": "A 10-day North Sulawesi dive itinerary pairing Bunaken's reef walls with Lembeh's muck diving, plus honest transfer, no-fly and season advice.",
-  "metaTitle": "10 Days Diving North Sulawesi: Bunaken & Lembeh",
-  "route": "Manado → Bunaken → Lembeh Strait → Manado",
-  "slug": {
-    "_type": "slug",
-    "current": "10-days-north-sulawesi-diving-bunaken-lembeh"
+  {
+   "_key": "k233",
+   "_type": "affiliateLink",
+   "affiliateUrl": "https://12go.asia/?z=16022946",
+   "anchorText": "current domestic flights and transfers around Manado",
+   "experienceCategory": "transfer",
+   "linkStatus": "live",
+   "notes": null,
+   "partner": "12go",
+   "placeholderId": "12GO_MANADO_TRANSFERS",
+   "publicUrl": null
+  }
+ ],
+ "articleCreatedDate": "2026-07-08T09:00:00.000Z",
+ "author": {
+  "_ref": "author-editorial-team",
+  "_type": "reference"
+ },
+ "body": [
+  {
+   "_key": "k2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k1",
+     "_type": "span",
+     "marks": [],
+     "text": "Who this trip is for"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
   },
-  "title": "10 Days Diving North Sulawesi: Bunaken and Lembeh",
-  "travelStylePrimary": "diving_snorkeling",
-  "travellerTypes": ["divers", "couples", "repeat_travellers"],
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 10,
-  "vibe": "active"
+  {
+   "_key": "k4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k3",
+     "_type": "span",
+     "marks": [],
+     "text": "This route is built for certified divers who want North Sulawesi's two signature styles in one trip, and who would rather do each of them properly than sample both in a hurry. You spend the first half on the reef walls around Bunaken, where the diving is about drop-offs, drift and open blue water, then move to the black sand of the Lembeh Strait, where the pace slows and the reward is macro life you will not see anywhere else. It suits divers travelling as couples, with friends, or returning to Indonesia after Bali, Komodo or Raja Ampat and wanting the region's third great dive area."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k5",
+     "_type": "span",
+     "marks": [],
+     "text": "It is not the right trip for non-divers looking for a beach holiday. This is a diving itinerary first, and the surface time between dives is quiet. It is also a hard fit for anyone who wants postcard reefs the whole way through, because Lembeh is deliberately not pretty. The strait is a working channel of dark volcanic sand, and its appeal is entirely in the creatures, not the scenery. If you want warm-water reef beauty from start to finish, weight your days toward Bunaken and treat Lembeh as an add-on rather than half the trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k7",
+     "_type": "span",
+     "marks": [],
+     "text": "Complete beginners can still make this work, but they should plan to certify at the start or arrive already qualified, because the muck diving in Lembeh rewards good buoyancy control and the walls in Bunaken can carry current. Snorkelers and non-diving partners can join parts of it, though they will get more out of Bunaken than Lembeh."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k10",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k9",
+     "_type": "span",
+     "marks": [],
+     "text": "Trip at a glance"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k13",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k11",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Duration:"
+    },
+    {
+     "_key": "k12",
+     "_type": "span",
+     "marks": [],
+     "text": " 10 days, 9 nights, structured as roughly four nights around Bunaken and four to five nights on the Lembeh Strait, with the transfer day in between."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k16",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k14",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Route:"
+    },
+    {
+     "_key": "k15",
+     "_type": "span",
+     "marks": [],
+     "text": " Fly into Manado, transfer out to a Bunaken base, then cross to Lembeh before returning to Manado for the flight home."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k19",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k17",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Pace:"
+    },
+    {
+     "_key": "k18",
+     "_type": "span",
+     "marks": [],
+     "text": " Active in the water, slow on land. Expect two to four dives a day with long surface intervals, and very little sightseeing beyond the diving itself."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k22",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k20",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Best season:"
+    },
+    {
+     "_key": "k21",
+     "_type": "span",
+     "marks": [],
+     "text": " Diving runs year round, but the drier months from around May to October usually bring the calmest crossings and the clearest water at Bunaken, while many divers rate July to October for Lembeh's cooler water and macro activity. Conditions vary year to year, so check current reports before you commit to dates."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k25",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k23",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Getting in:"
+    },
+    {
+     "_key": "k24",
+     "_type": "span",
+     "marks": [],
+     "text": " Manado's Sam Ratulangi airport is the single gateway. It has domestic connections through hubs such as Jakarta, Surabaya and Makassar, plus some regional international routes. Direct flights from Bali are limited and seasonal, so most divers connect through a larger hub. Confirm current flight routes before locking hotels."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k27",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k26",
+     "_type": "span",
+     "marks": [],
+     "text": "Why this route makes sense"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k29",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k28",
+     "_type": "span",
+     "marks": [],
+     "text": "North Sulawesi is really two dive destinations that happen to share one airport, and the mistake most first-timers make is treating them as interchangeable. Bunaken sits west of Manado in a marine park of steep coral walls, where the diving is fast, blue and current-driven. Lembeh sits east, past the port city of Bitung, in a sheltered strait of black sand where the diving is slow, close and macro-focused. Doing one without the other means leaving half of what the region is known for behind."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k31",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k30",
+     "_type": "span",
+     "marks": [],
+     "text": "Putting Bunaken first is deliberate. The reef diving is the gentler introduction, it eases you back into your buoyancy and air consumption, and it keeps the visually spectacular half of the trip at the start while you are freshest. Lembeh then works as the slow, absorbing second act, the kind of diving where you hover over one patch of sand for twenty minutes watching a single creature. Ending on the strait also makes the no-fly planning cleaner, because your final dives happen close to Manado rather than out at an island resort with its own transfer to build in."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k33",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k32",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 1: Arrive in Manado and transfer to Bunaken"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k39",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k34",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k35",
+     "_type": "span",
+     "marks": [],
+     "text": " Sort connectivity before you land. An "
+    },
+    {
+     "_key": "k37",
+     "_type": "span",
+     "marks": [
+      "k36"
+     ],
+     "text": "Indonesia eSIM with Airalo"
+    },
+    {
+     "_key": "k38",
+     "_type": "span",
+     "marks": [],
+     "text": " lets you activate data on arrival at Manado, so resort transfer confirmations, maps and messaging all work before you clear the airport. Most divers reach Manado on a domestic connection, so build in enough layover at your transit hub that a delay does not cost you the resort's afternoon boat."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k36",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "AIRALO_INDONESIA"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k42",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k40",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k41",
+     "_type": "span",
+     "marks": [],
+     "text": " Transfer out to your Bunaken base. Depending on the resort this means a road transfer to a jetty and then a boat across to the island, so it can eat a chunk of the day. Keep the first afternoon for checking in, assembling and testing your gear, and a relaxed briefing rather than a dive. Arriving rested matters more than squeezing in a late dip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k45",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k43",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k44",
+     "_type": "span",
+     "marks": [],
+     "text": " Direct Bali to Manado flights are limited and seasonal, so plan on connecting through Jakarta, Surabaya or Makassar unless you can confirm a direct route for your exact dates. The last leg into Manado can be an early or awkward hour, which is another reason not to schedule a same-day dive."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k48",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k46",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base:"
+    },
+    {
+     "_key": "k47",
+     "_type": "span",
+     "marks": [],
+     "text": " Choose one dive resort in the Bunaken area, either on Bunaken island itself or on nearby Siladen, and stay put. A single base for the whole Bunaken leg keeps you close to the walls and removes daily transfers."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k50",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k49",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 2: First dives on the Bunaken walls"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k53",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k51",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k52",
+     "_type": "span",
+     "marks": [],
+     "text": " Ease in with two dives on the marine park's coral walls. Sites around Bunaken and Siladen drop steeply from the surface, so the diving is largely along vertical reef faces with the blue on one shoulder. Use the first dive to reset your buoyancy and weighting after the flights, and let the divemaster read the current for you before you push to the more exposed points."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k56",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k54",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k55",
+     "_type": "span",
+     "marks": [],
+     "text": " Keep it to one more dive or a long surface interval. After a travel day, three dives is plenty, and there is no prize for exhausting yourself on the first full day. Log your air and trim honestly so the guides can pitch the next days at the right level."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k59",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k57",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic."
+    },
+    {
+     "_key": "k58",
+     "_type": "span",
+     "marks": [],
+     "text": " Book your diving as a package through the resort rather than piecemeal. Bunaken resorts run their own boats to the park daily, and a multi-day dive package is both cheaper and simpler than arranging single dives. Ask up front whether the marine park fee is included or collected separately."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k62",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k60",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k61",
+     "_type": "span",
+     "marks": [],
+     "text": " Bunaken National Park charges an entry fee, commonly around 150,000 rupiah per person as a working estimate and sometimes issued as a tag valid for a longer period. Fees can change and collection methods vary by operator, so confirm the current amount with your resort and check the latest official guidance."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k64",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k63",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 3: Outer reefs and drift diving"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k67",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k65",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k66",
+     "_type": "span",
+     "marks": [],
+     "text": " Push out to the park's better-known points once the guides trust your buoyancy. Sites off Bunaken and around Manado Tua, the old volcano across the bay, are known for wall diving and drifting, with turtles, reef fish and the occasional bigger visitor in the blue. Let the current do the work and concentrate on staying off the reef."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k70",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k68",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k69",
+     "_type": "span",
+     "marks": [],
+     "text": " A third dive if you are feeling strong, otherwise rest. Bunaken's walls reward repeat dives at different states of tide, so a lighter afternoon dive on a nearer site is often more enjoyable than chasing a distant one."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k73",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k71",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k72",
+     "_type": "span",
+     "marks": [],
+     "text": " Some of these sites carry real current, which is what brings the fish but also what catches out divers who wander off the wall. Stay with your guide, keep a reef hook or good finning technique ready if conditions call for it, and sit out a dive without embarrassment if the drift is stronger than you are comfortable with."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k75",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k74",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 4: Last Bunaken dives and a surface day for non-divers"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k78",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k76",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k77",
+     "_type": "span",
+     "marks": [],
+     "text": " Take your final Bunaken dives on the sites you liked best, or on anything the guides have been saving for good conditions. This is also the day to slow your dive count slightly, since a big transfer follows tomorrow and there is no need to arrive at Lembeh tired."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k84",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k79",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k80",
+     "_type": "span",
+     "marks": [],
+     "text": " If you are travelling with a non-diving partner, or simply want time out of your kit, the park is excellent from the surface too. A "
+    },
+    {
+     "_key": "k82",
+     "_type": "span",
+     "marks": [
+      "k81"
+     ],
+     "text": "Bunaken National Park snorkeling trip from Manado"
+    },
+    {
+     "_key": "k83",
+     "_type": "span",
+     "marks": [],
+     "text": " puts you over the same wall tops that make the diving special, where the reef sits close to the surface and the drop-off is visible below. It is a good way to keep a non-diver involved without leaving them ashore all day."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k81",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "VIATOR_BUNAKEN_SNORKEL"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k87",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k85",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic."
+    },
+    {
+     "_key": "k86",
+     "_type": "span",
+     "marks": [],
+     "text": " Plan your dives so your last one here is in the morning, not late in the day. You want the afternoon and evening clear to pack, settle bills and get an early night before the transfer, and a relaxed final dive is a better memory than a rushed one."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k89",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k88",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 5: Cross from Bunaken to the Lembeh Strait"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k92",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k90",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k91",
+     "_type": "span",
+     "marks": [],
+     "text": " Make the move to Lembeh. In practice this is a boat back to the Manado side, a road transfer across to the port city of Bitung, and a short final boat over to your resort on the strait. As a working estimate the land leg alone runs a couple of hours depending on traffic, so treat this as a travel day rather than a dive day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k95",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k93",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k94",
+     "_type": "span",
+     "marks": [],
+     "text": " Arrive, settle into your Lembeh resort and reset your gear for a very different kind of diving. If there is time and energy, an easy check dive on a nearby site is a gentle way to meet the black sand, but do not force it after a long transfer. The strait will still be there tomorrow."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k105",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k100",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k101",
+     "_type": "span",
+     "marks": [],
+     "text": " Confirm the transfer arrangement and timing directly with your Lembeh resort in advance, since most handle the whole door-to-door move themselves and the boat times depend on the tide. Early or late transfers can carry a surcharge. To sanity-check the wider picture, you can compare "
+    },
+    {
+     "_key": "k103",
+     "_type": "span",
+     "marks": [
+      "k102"
+     ],
+     "text": "current domestic flights and transfers around Manado"
+    },
+    {
+     "_key": "k104",
+     "_type": "span",
+     "marks": [],
+     "text": " before you travel, though for this leg the resort transfer is almost always the simplest option."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k102",
+     "_type": "affiliateLinkRef",
+     "placeholderId": "12GO_MANADO_TRANSFERS"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k108",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k106",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Base:"
+    },
+    {
+     "_key": "k107",
+     "_type": "span",
+     "marks": [],
+     "text": " Pick one resort on the Lembeh Strait for the whole second half. Sites are close together and most are only minutes from the jetty by boat, so there is no reason to move accommodation once you are there."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k110",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k109",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 6: Into muck diving on the black sand"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k113",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k111",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k112",
+     "_type": "span",
+     "marks": [],
+     "text": " Start the Lembeh diving with two dives and adjust your expectations before you get in. This is macro diving over dark volcanic sand, not reef diving. The sites look bare at a glance, and everything worth seeing is small, camouflaged and often waiting to be pointed out by a guide with a sharp eye. Slow right down, hover, and let your guide show you what you are missing."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k116",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k114",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k115",
+     "_type": "span",
+     "marks": [],
+     "text": " A third dive to keep building your search image. Frogfish, several kinds of octopus, ornate shrimp, seahorses and a long list of nudibranchs are the sort of thing Lembeh is known for, and the more dives you do the more your own eyes start to find them rather than relying on the guide."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k119",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k117",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic."
+    },
+    {
+     "_key": "k118",
+     "_type": "span",
+     "marks": [],
+     "text": " Lembeh diving is guide-led by design, usually in small groups, and the good guides are the whole point. If you shoot photos, say so when you book, since many resorts pair keen photographers with guides used to the slower pace and give priority to smaller ratios. Nitrox is worth having here for the long, shallow, repetitive dives."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k121",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k120",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 7: Critter diving and a night dive"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k124",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k122",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k123",
+     "_type": "span",
+     "marks": [],
+     "text": " A full morning of muck diving, now that you know how to look. Ask the guides to target whatever you most want to see, because they know which sites have been producing which creatures recently and can steer the day accordingly. Two morning dives on different sites give you the best variety."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k127",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k125",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Evening."
+    },
+    {
+     "_key": "k126",
+     "_type": "span",
+     "marks": [],
+     "text": " Do at least one night dive. Lembeh after dark is a different place, when the strangest animals come out, from bobbit worms to Spanish dancers to hunting octopus and stargazers buried in the sand. It is the single dive most divers remember from the strait, so build a night dive into the plan rather than treating it as optional."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k130",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k128",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k129",
+     "_type": "span",
+     "marks": [],
+     "text": " Buoyancy matters more on the sand than on a reef. A careless fin kick clouds the water and destroys the shot or the sighting for everyone, and it can damage the very animals you came to see. If your buoyancy is rusty, spend the first Lembeh dives fixing it before you chase the rare critters."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k132",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k131",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 8: More Lembeh, or a day trip to Bangka"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k135",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k133",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k134",
+     "_type": "span",
+     "marks": [],
+     "text": " By now you can either keep mining the Lembeh sites, which reward repetition because the animals move and change, or break up the macro with a change of scene. Some resorts run day trips north to the reefs around Bangka island, where the diving is more colourful and reef-based, a useful contrast if you are craving some coral after days on the sand."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k138",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k136",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic."
+    },
+    {
+     "_key": "k137",
+     "_type": "span",
+     "marks": [],
+     "text": " Decide on the Bangka option on the ground rather than in advance. It depends on conditions, on how much muck diving you have appetite for, and on whether the trip is running that week. If Lembeh is fishing well and you are still finding new creatures, there is no shame in simply staying put and diving the strait again."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k141",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k139",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k140",
+     "_type": "span",
+     "marks": [],
+     "text": " Keep an eye on your dive count and your fatigue as the trip nears its end. Several days of three or four dives adds up, and the last two days matter more for winding down safely than for pushing numbers."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k143",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k142",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 9: Final dives and the start of your no-fly window"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k146",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k144",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k145",
+     "_type": "span",
+     "marks": [],
+     "text": " Make today your last diving day, and keep the dives to the morning. Choose favourite sites for a relaxed finish rather than anything demanding, and end on a dive you enjoy rather than one you have to grind through. Once you surface from the last dive, your no-fly clock starts."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k149",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k147",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k148",
+     "_type": "span",
+     "marks": [],
+     "text": " Dry and pack your gear, settle up, and spend the rest of the day out of the water. This is the buffer that protects your flight home, so resist the temptation of one more dive. A quiet afternoon on the strait is a fair trade for not risking decompression illness on the plane."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k152",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k150",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel note."
+    },
+    {
+     "_key": "k151",
+     "_type": "span",
+     "marks": [],
+     "text": " As a widely used guideline, wait at least 18 to 24 hours after your final dives before flying, and longer after several days of repetitive diving. Follow your own computer and current dive-safety guidance rather than a fixed number, and plan the last two days of this trip around that gap rather than trying to add it on at the end."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k154",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k153",
+     "_type": "span",
+     "marks": [],
+     "text": "Day 10: Transfer back to Manado and fly home"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k157",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k155",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Morning."
+    },
+    {
+     "_key": "k156",
+     "_type": "span",
+     "marks": [],
+     "text": " Reverse the transfer back to Manado, allowing the same couple of hours of road plus the boat legs, and more if your flight is early. Because you stopped diving the previous morning, you comfortably clear the no-fly window by the time you reach the airport, which is the whole reason the itinerary is built this way."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k160",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k158",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Afternoon."
+    },
+    {
+     "_key": "k159",
+     "_type": "span",
+     "marks": [],
+     "text": " Fly out of Manado, most likely connecting through a domestic hub again. Give yourself a generous buffer for the transfer and check-in, since missing a connection out of Manado can mean a long wait for the next option."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k163",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k161",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Booking logic."
+    },
+    {
+     "_key": "k162",
+     "_type": "span",
+     "marks": [],
+     "text": " When you book flights, favour a later departure from Manado on the final day over the first flight out. It protects both your no-fly gap and your transfer, and it turns a stressful dawn scramble into a manageable morning."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k165",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k164",
+     "_type": "span",
+     "marks": [],
+     "text": "What to book early, and what to keep flexible"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k168",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k166",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Book early:"
+    },
+    {
+     "_key": "k167",
+     "_type": "span",
+     "marks": [],
+     "text": " your dive resorts at both Bunaken and Lembeh, your Manado flights, and your dive packages. The better dive resorts on both sides are small and fill up in the drier months, and because each handles its own transfers, booking them early also locks your logistics. Nitrox, if you want it, is worth arranging in advance too."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k171",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k169",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Keep flexible:"
+    },
+    {
+     "_key": "k170",
+     "_type": "span",
+     "marks": [],
+     "text": " the Bangka day trip, your exact dive count each day, and any night dives beyond the first. These depend on conditions, on how your body is holding up, and on what the strait is producing that week. Leave room to add or drop a dive rather than committing to a rigid schedule."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k174",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k172",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Decide on arrival:"
+    },
+    {
+     "_key": "k173",
+     "_type": "span",
+     "marks": [],
+     "text": " how to split your energy between reef and macro. Some divers fall for Lembeh and wish they had given it more days, others miss coral and want more Bunaken. You cannot know which you are until you have dived both, so keep your mind open to shifting the balance on a future trip."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k176",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k175",
+     "_type": "span",
+     "marks": [],
+     "text": "Mistakes divers make in North Sulawesi"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k179",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k177",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Expecting Lembeh to look like Bunaken."
+    },
+    {
+     "_key": "k178",
+     "_type": "span",
+     "marks": [],
+     "text": " The most common disappointment comes from divers who arrive at the strait expecting reefs and find black sand instead. Lembeh is about the creatures, not the scenery. Go in knowing that, and the diving is superb. Go in expecting coral gardens, and you will spend three days confused."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k182",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k180",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Underestimating the transfer."
+    },
+    {
+     "_key": "k181",
+     "_type": "span",
+     "marks": [],
+     "text": " The move between Bunaken and Lembeh is not a quick hop. It is boats and a road crossing through Bitung, and it takes most of a day once you account for tides and traffic. Divers who plan a dive on either end of the transfer usually regret it. Treat it as a travel day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k185",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k183",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Ignoring the no-fly window."
+    },
+    {
+     "_key": "k184",
+     "_type": "span",
+     "marks": [],
+     "text": " This is the one that actually matters for safety. Divers who dive right up to the last afternoon, then take an early flight, are gambling with decompression illness. Stop diving a full day before you fly and plan the trip around that gap from the start."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k188",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k186",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Weak buoyancy on the sand."
+    },
+    {
+     "_key": "k187",
+     "_type": "span",
+     "marks": [],
+     "text": " Muck diving punishes poor buoyancy more than reef diving does. Silt-outs ruin the sighting for the whole group and stress the animals. If your skills are rusty, fix them on the Bunaken walls and the first Lembeh dives before you go looking for rare critters."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k190",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k189",
+     "_type": "span",
+     "marks": [],
+     "text": "What to cut, adapt or upgrade"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k193",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k191",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Cut, if you have less time:"
+    },
+    {
+     "_key": "k192",
+     "_type": "span",
+     "marks": [],
+     "text": " run this as a focused seven-day trip on one side only. Four or five nights at Bunaken alone, or at Lembeh alone, still makes a complete diving holiday, and it removes the transfer day entirely. Choosing between walls and macro is easier than doing both badly in a rush."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k196",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k194",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Adapt, for a photography focus:"
+    },
+    {
+     "_key": "k195",
+     "_type": "span",
+     "marks": [],
+     "text": " weight the trip toward Lembeh, since the strait is one of the strongest macro photography destinations anywhere. Give it six or seven nights, keep Bunaken as a short warm-up, and book a resort used to photographers and slower, smaller guided groups."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k199",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k197",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Upgrade, if you have more time:"
+    },
+    {
+     "_key": "k198",
+     "_type": "span",
+     "marks": [],
+     "text": " add a leg to a third North Sulawesi area such as the reefs around Bangka, or extend into a liveaboard exploring further afield. With two extra weeks and a bigger budget, North Sulawesi also pairs naturally with a wider eastern Indonesia dive trip taking in Raja Ampat, though that is a different scale of journey."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k201",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k200",
+     "_type": "span",
+     "marks": [],
+     "text": "Before you build this trip"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k203",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k202",
+     "_type": "span",
+     "marks": [],
+     "text": "Confirm your flights into and out of Manado before you book anything else, since the connections through Jakarta, Surabaya or Makassar shape your first and last days and the direct Bali route cannot be relied on. Once flights are fixed, book both dive resorts and let each arrange its own transfers, which is far simpler than trying to stitch the logistics together yourself. Ask each resort directly about the marine park fee, nitrox, transfer timings and any surcharges so there are no surprises on the bill."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k205",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k204",
+     "_type": "span",
+     "marks": [],
+     "text": "Come properly prepared as a diver. Check that your certification and logged experience match the current and macro conditions, service your own gear before you travel, and consider dedicated diving insurance that covers evacuation, since Manado is a long way from major medical centres. Bring or rent a good torch for the night dives, and if you shoot photos, sort your camera setup before you arrive rather than fighting with it on the boat. Carry some cash, as card payment is patchy outside the larger resorts."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k207",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k206",
+     "_type": "span",
+     "marks": [],
+     "text": "Final verdict"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "k209",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k208",
+     "_type": "span",
+     "marks": [],
+     "text": "North Sulawesi is the third of Indonesia's great dive regions, and this ten-day plan is the honest way to see why. Bunaken gives you the reef walls and the drift, Lembeh gives you macro diving with no real equal, and doing both in one trip is the whole point rather than a compromise. The route works because it respects two things divers routinely get wrong here: the transfer between the two sides is a full day, and the flight home needs a protected no-fly gap that has to be planned from the start, not bolted on at the end. Go in expecting black sand to look like black sand, keep your buoyancy sharp, end your diving a day before you fly, and North Sulawesi delivers. Treat it as one destination instead of two, and you will only ever see half of it."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "k222",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k221",
+     "_type": "span",
+     "marks": [],
+     "text": "Related itineraries"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "nsholink1",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "nshos1",
+     "_type": "span",
+     "marks": [],
+     "text": "If only one of you dives, or the trip is a honeymoon rather than a dive holiday, "
+    },
+    {
+     "_key": "nshos2",
+     "_type": "span",
+     "marks": [
+      "nshomd1"
+     ],
+     "text": "the 8-day North Sulawesi honeymoon route"
+    },
+    {
+     "_key": "nshos3",
+     "_type": "span",
+     "marks": [],
+     "text": " swaps the Lembeh half for the cool Minahasa highlands above Tomohon, and keeps Bunaken, where a snorkeller sees most of what the divers see."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "nshomd1",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/8-days-north-sulawesi-honeymoon-bunaken-siladen"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "k220",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "k210",
+     "_type": "span",
+     "marks": [],
+     "text": "If you are weighing up where in Indonesia to dive, our "
+    },
+    {
+     "_key": "k212",
+     "_type": "span",
+     "marks": [
+      "k211"
+     ],
+     "text": "7-day Komodo diving itinerary"
+    },
+    {
+     "_key": "k213",
+     "_type": "span",
+     "marks": [],
+     "text": " covers the current-rich sites and manta cleaning stations of the south, while the "
+    },
+    {
+     "_key": "k215",
+     "_type": "span",
+     "marks": [
+      "k214"
+     ],
+     "text": "14-day Raja Ampat itinerary for divers"
+    },
+    {
+     "_key": "k216",
+     "_type": "span",
+     "marks": [],
+     "text": " takes on the most biodiverse reefs in the country. For more remote and wildlife-led routes across the wider region, browse our "
+    },
+    {
+     "_key": "k218",
+     "_type": "span",
+     "marks": [
+      "k217"
+     ],
+     "text": "Wild Indonesia destination guide"
+    },
+    {
+     "_key": "k219",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k211",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/7-days-komodo-diving"
+    },
+    {
+     "_key": "k214",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/trips/14-days-raja-ampat-divers"
+    },
+    {
+     "_key": "k217",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/wild-indonesia"
+    }
+   ],
+   "style": "normal"
+  }
+ ],
+ "contentStatus": "live",
+ "destinationPrimary": "wild_indonesia",
+ "faq": [
+  {
+   "_key": "k223",
+   "answer": "Plan for around ten days to do both without rushing, split roughly into four nights around Bunaken and four to five on the Lembeh Strait, with a travel day for the transfer between them. That gives each area enough dives to be worth the flights. If you only have a week, it is usually better to pick one side and dive it properly than to try to cram in both.",
+   "question": "How many days do you need to dive both Bunaken and Lembeh?"
+  },
+  {
+   "_key": "k224",
+   "answer": "Bunaken is reef-wall and drift diving in a marine park of steep coral drop-offs, with turtles, reef fish and open blue water. Lembeh is muck diving over black volcanic sand, where the diving is slow and macro-focused and the reward is rare small creatures like frogfish, unusual octopus and nudibranchs. They are almost opposite styles, which is exactly why divers come for both.",
+   "question": "What is the difference between diving Bunaken and Lembeh?"
+  },
+  {
+   "_key": "k225",
+   "answer": "Diving runs year round, but the drier months from around May to October generally bring the calmest crossings and clearest water at Bunaken, and many divers rate July to October for Lembeh's cooler water and macro activity. Conditions vary year to year, so check recent dive reports before you lock in dates.",
+   "question": "When is the best time to dive North Sulawesi?"
+  },
+  {
+   "_key": "k226",
+   "answer": "It is most of a day rather than a quick hop. Expect a boat from the Bunaken side back to Manado, a road transfer across to Bitung of a couple of hours as a working estimate depending on traffic, and a short final boat to your Lembeh resort. Most resorts arrange the whole door-to-door move, and timings depend on the tide, so confirm the details in advance.",
+   "question": "How long is the transfer between Bunaken and Lembeh?"
+  },
+  {
+   "_key": "k227",
+   "answer": "Muck diving means diving slowly over dark, seemingly bare sand looking for small, camouflaged creatures that a guide helps you spot. Lembeh is the world's best-known muck diving destination. Divers who love wildlife, patience and photography tend to fall for it, while those who mainly want colourful reefs can find it underwhelming. Knowing which you are before you book helps you weight the trip.",
+   "question": "What is muck diving and will I enjoy it?"
+  },
+  {
+   "_key": "k228",
+   "answer": "As a widely used guideline, wait at least 18 to 24 hours after your final dives before flying, and longer after several days of repetitive diving. Follow your own dive computer and current dive-safety guidance rather than a fixed number. This itinerary is built so your last dives are a full day before departure, which is the safest way to plan it.",
+   "question": "How long should you wait to fly after diving in Lembeh?"
+  },
+  {
+   "_key": "k229",
+   "answer": "You can dive much of the region on an open-water certification, but some Bunaken wall sites carry current that suits more experienced divers, and Lembeh's long, shallow, repetitive dives are well served by nitrox. Advanced training and a nitrox certification both add flexibility. Beginners can certify at the start of the trip, ideally arriving already qualified so no dive days are lost.",
+   "question": "Do you need advanced certification or nitrox for North Sulawesi?"
+  },
+  {
+   "_key": "k230",
+   "answer": "Bunaken works well from the surface, because the reef sits close to the top of the walls and snorkelers can float over dramatic drop-offs. Lembeh is far less rewarding without scuba, since its appeal is small creatures on the bottom. A non-diving partner will get much more out of the Bunaken half of this trip than the Lembeh half.",
+   "question": "Is North Sulawesi good for non-divers or snorkelers?"
+  }
+ ],
+ "focusKeyword": "North Sulawesi diving itinerary",
+ "heroImage": {
+  "_type": "image",
+  "alt": "Manado Tua volcano rising above the reef water off Bunaken, North Sulawesi",
+  "asset": {
+   "_ref": "image-b13e71b25fd89e71fbbea984e6a8e99b59e548c8-4000x3000-jpg",
+   "_type": "reference"
+  },
+  "caption": "Bunaken to Lembeh Strait, North Sulawesi"
+ },
+ "intro": "Most divers meet North Sulawesi as a name filed alongside Raja Ampat and Komodo as a someday trip, then never quite work out how to fit it in. The confusion is understandable, because this is really two very different dive regions sharing one airport. Bunaken is about reef walls and open blue water, drift diving along coral drop-offs that fall away into the dark. Lembeh is the opposite, a channel of black sand where the diving slows right down and the reward is the strangest small creatures in the ocean. This ten-day plan gives each of them real time rather than a rushed sampler, and it is built around the two things divers get wrong here: underestimating the transfer between them, and forgetting to protect a proper no-fly gap before the flight home.",
+ "metaDescription": "A 10-day North Sulawesi dive itinerary pairing Bunaken's reef walls with Lembeh's muck diving, plus honest transfer, no-fly and season advice.",
+ "metaTitle": "10 Days Diving North Sulawesi: Bunaken & Lembeh",
+ "route": "Manado → Bunaken → Lembeh Strait → Manado",
+ "slug": {
+  "_type": "slug",
+  "current": "10-days-north-sulawesi-diving-bunaken-lembeh"
+ },
+ "title": "10 Days Diving North Sulawesi: Bunaken and Lembeh",
+ "travelStylePrimary": "diving_snorkeling",
+ "travellerTypes": [
+  "divers",
+  "couples",
+  "repeat_travellers"
+ ],
+ "tripLengthBucket": "ten_days",
+ "tripLengthDays": 10,
+ "vibe": "active"
 }

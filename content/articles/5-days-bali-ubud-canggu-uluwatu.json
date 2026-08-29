@@ -480,6 +480,299 @@
    "style": "normal"
   },
   {
+   "_key": "ubb2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs1",
+     "_type": "span",
+     "marks": [],
+     "text": "Ubud or Canggu: which should you base in?"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "ubb4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs3",
+     "_type": "span",
+     "marks": [],
+     "text": "Ubud if you want temples, rice terraces and cool evenings, Canggu if you want to walk to a beach and eat well at midnight. Ubud sits inland, about an hour from the nearest coast, and costs noticeably less. Canggu is on the sand and is one of the pricier parts of the island."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs5",
+     "_type": "span",
+     "marks": [],
+     "text": "The two are not really competing for the same traveller. Ubud is where you go to be inland: the air is cooler, the evenings end early, and the money goes further, which is why it works as the longer of the two stops. Canggu is a coastal town that has grown fast around surf, cafes and a young crowd that stays out late. If either of those descriptions makes you wince, you already know which one to cut."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs7",
+     "_type": "span",
+     "marks": [],
+     "text": "On a five-day trip the honest answer is both, and in that order. Two nights in Ubud gives the temples and the terraces enough time to be worth the drive, one night in Canggu is enough to see whether you like it, and the route below is built on exactly that split."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubt9",
+   "_type": "comparisonTable",
+   "caption": "Drive times are working estimates in normal traffic. Bali's roads punish the late afternoon, so add a buffer to anything crossing the island.",
+   "columns": [
+    "",
+    "Ubud",
+    "Canggu",
+    "Uluwatu"
+   ],
+   "rows": [
+    {
+     "_key": "ubr10",
+     "cells": [
+      "What it is",
+      "Inland, cultural, green, cooler air",
+      "West coast, surf, cafes, social",
+      "Southern cliffs, beaches below the rock, sunsets"
+     ]
+    },
+    {
+     "_key": "ubr11",
+     "cells": [
+      "Distance to the sea",
+      "About an hour",
+      "You walk to it",
+      "You walk or ride down to it"
+     ]
+    },
+    {
+     "_key": "ubr12",
+     "cells": [
+      "Distance to Ngurah Rai",
+      "1.5 hours, up to 2.5 in traffic",
+      "Around an hour",
+      "30 to 45 minutes"
+     ]
+    },
+    {
+     "_key": "ubr13",
+     "cells": [
+      "Relative price",
+      "The lowest of the three",
+      "The highest of the three",
+      "High on the cliffs, mid-range inland"
+     ]
+    },
+    {
+     "_key": "ubr14",
+     "cells": [
+      "Evenings",
+      "Early and quiet",
+      "Late and busy",
+      "Kecak at six, then dinner with a view"
+     ]
+    },
+    {
+     "_key": "ubr15",
+     "cells": [
+      "Nights out of five",
+      "Two",
+      "One",
+      "One"
+     ]
+    },
+    {
+     "_key": "ubr16",
+     "cells": [
+      "Best for",
+      "Temples, terraces and a lower bill",
+      "Beach and a scene",
+      "An afternoon or later flight home"
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ubb18",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs17",
+     "_type": "span",
+     "marks": [],
+     "text": "Is Uluwatu worth a night, or is it a day trip?"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "ubb20",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs19",
+     "_type": "span",
+     "marks": [],
+     "text": "A night, if your flight is in the afternoon or later. Uluwatu sits 30 to 45 minutes from Ngurah Rai airport against an hour and a half from Ubud, so the last night there buys you a relaxed final morning instead of a dash north to south with luggage."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb22",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs21",
+     "_type": "span",
+     "marks": [],
+     "text": "Treating it as a day trip is what makes people say Uluwatu is overrated. The Kecak dance at the clifftop temple starts around six, the beaches sit under the cliffs and each one wants half a day of its own, and driving back north afterwards turns a good afternoon into four hours in a car. Stay, and the same day is easy."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb27",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs23",
+     "_type": "span",
+     "marks": [],
+     "text": "The exception is an early morning flight. If you are wheels-up before about nine, "
+    },
+    {
+     "_key": "ubs25",
+     "_type": "span",
+     "marks": [
+      "ubm24"
+     ],
+     "text": "our guide to where to stay in Bali"
+    },
+    {
+     "_key": "ubs26",
+     "_type": "span",
+     "marks": [],
+     "text": " covers the Jimbaran and airport-side options that make a dawn departure less painful than the cliffs do."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "ubm24",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali/where-to-stay-in-bali"
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb29",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs28",
+     "_type": "span",
+     "marks": [],
+     "text": "How far apart are Ubud, Canggu and Uluwatu?"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "ubb31",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs30",
+     "_type": "span",
+     "marks": [],
+     "text": "Ubud to Canggu runs about 1 to 1.5 hours by car, Canggu to Uluwatu about 1 to 1.5 hours, and Uluwatu to the airport 30 to 45 minutes in normal traffic. Ubud is the furthest point from everything, which is why this route goes north to south and never doubles back."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb33",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs32",
+     "_type": "span",
+     "marks": [],
+     "text": "Those are car times, and Bali traffic is the variable that ruins plans. The Ubud road in the late afternoon can stretch a ninety-minute run to two and a half hours, and the same is true of anything approaching the airport at the end of the day. Move between bases around the middle of the day, and treat every estimate here as a floor rather than a promise."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb35",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs34",
+     "_type": "span",
+     "marks": [],
+     "text": "Which one should you cut if you only have three days?"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "ubb37",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs36",
+     "_type": "span",
+     "marks": [],
+     "text": "Cut Canggu. It is the shortest stop, the least distinctive of the three, and the one whose best parts, the beach, the coffee and the sunset, Uluwatu also has. Three days works as two nights in Ubud and one near Uluwatu, with the drive south taken in the middle of the day."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "ubb39",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ubs38",
+     "_type": "span",
+     "marks": [],
+     "text": "Cutting Ubud instead is the more common instinct and the worse trade. Ubud is the only one of the three that is not a beach, so losing it turns a varied five days into a single coastal week with a long transfer in the middle."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
    "_key": "k1g",
    "_type": "block",
    "children": [
@@ -509,21 +802,7 @@
      "_key": "k1j",
      "_type": "span",
      "marks": [],
-     "text": " After landing at Ngurah Rai, head straight to Ubud. A "
-    },
-    {
-     "_key": "k1l",
-     "_type": "span",
-     "marks": [
-      "k1k"
-     ],
-     "text": "private airport transfer"
-    },
-    {
-     "_key": "k1m",
-     "_type": "span",
-     "marks": [],
-     "text": " using the "
+     "text": " After landing at Ngurah Rai, head straight to Ubud. Booking a "
     },
     {
      "_key": "k1o",
@@ -537,16 +816,10 @@
      "_key": "k1p",
      "_type": "span",
      "marks": [],
-     "text": " removes the arrival-day friction of negotiating a ride after a long flight. The drive takes about 1.5 hours in normal traffic and up to two and a half in the late afternoon, so allow buffer time."
+     "text": " in advance removes the arrival-day friction of negotiating a ride after a long flight. The drive takes about 1.5 hours in normal traffic and up to two and a half in the late afternoon, so allow buffer time."
     }
    ],
    "markDefs": [
-    {
-     "_key": "k1k",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/destinations/bali"
-    },
     {
      "_key": "k1n",
      "_type": "affiliateLinkRef",
@@ -696,26 +969,12 @@
      "text": " these stops are spread out and awkward to chain by ride-hailing apps. A guided "
     },
     {
-     "_key": "k28",
-     "_type": "span",
-     "marks": [
-      "k27"
-     ],
-     "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
-    },
-    {
-     "_key": "k29",
-     "_type": "span",
-     "marks": [],
-     "text": " via the "
-    },
-    {
      "_key": "k2b",
      "_type": "span",
      "marks": [
       "k2a"
      ],
-     "text": "Ubud highlights tour"
+     "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
     },
     {
      "_key": "k2c",
@@ -725,12 +984,6 @@
     }
    ],
    "markDefs": [
-    {
-     "_key": "k27",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/destinations/bali"
-    },
     {
      "_key": "k2a",
      "_type": "affiliateLinkRef",
@@ -1290,9 +1543,36 @@
      "_type": "span",
      "marks": [],
      "text": "The biggest one is trying to add Nusa Penida or the Gili Islands to five days. The boat days and transfers eat the trip, and you end up rushing the mainland. Save the islands for a longer visit."
+    },
+    {
+     "_key": "gsc0824k4da",
+     "_type": "span",
+     "marks": [],
+     "text": " Our guide to the "
+    },
+    {
+     "_key": "gsc0824k4db",
+     "_type": "span",
+     "marks": [
+      "gsc0824k4d"
+     ],
+     "text": "islands near Bali"
+    },
+    {
+     "_key": "gsc0824k4dc",
+     "_type": "span",
+     "marks": [],
+     "text": " sets out how long each one really needs."
     }
    ],
-   "markDefs": [],
+   "markDefs": [
+    {
+     "_key": "gsc0824k4d",
+     "_type": "externalLink",
+     "blank": false,
+     "href": "/destinations/bali-nearby-islands"
+    }
+   ],
    "style": "normal"
   },
   {
@@ -1804,6 +2084,14 @@
   {
    "answer": "Yes. The Batur sunrise means a roughly 2am pickup, so if that is not for you, swap in a Balinese cooking class and a slower Ubud morning before moving to Canggu. The route stays intact either way.",
    "question": "Can I skip the early Mount Batur start?"
+  },
+  {
+   "answer": "Ubud if you want temples, rice terraces and cooler evenings at a lower price, Canggu if you want to walk to a beach and eat late. On a trip of four days or more the practical answer is both, with two nights in Ubud and one in Canggu, because they are only about an hour to an hour and a half apart.",
+   "question": "Should I stay in Ubud or Canggu?"
+  },
+  {
+   "answer": "Around two to three hours in normal traffic, and longer in the late afternoon, which is why this route breaks the journey with a night in Canggu roughly halfway. Ubud to Canggu is about 1 to 1.5 hours and Canggu to Uluwatu about the same. Treat all of these as working estimates.",
+   "question": "How long does it take to drive from Ubud to Uluwatu?"
   }
  ],
  "focusKeyword": "5 days in Bali itinerary",
@@ -1818,8 +2106,8 @@
  },
  "intro": "Five days in Bali forces a choice: chase everything and spend half your trip in traffic, or pick three places that genuinely contrast and let each one land. This route does the second. Ubud gives you rice terraces and temples, Canggu gives you cafes and a beach sunset, Uluwatu gives you cliffs and the Kecak fire dance, with the airport close at the end. It moves north to south so each transfer shortens the road back to your flight.",
  "logisticsComplexity": "easy",
- "metaDescription": "A practical 5-day Bali itinerary, Ubud to Canggu to Uluwatu, with day-by-day logic, transfer times, booking advice and honest trade-offs.",
- "metaTitle": "Bali in 5 Days: Ubud, Canggu & Uluwatu Trip Plan",
+ "metaDescription": "Which base suits you, and how to fit all three in five days: 2 nights Ubud, 1 Canggu, 1 Uluwatu, north to south, with real drive times and costs.",
+ "metaTitle": "Ubud, Canggu or Uluwatu? Do All Three in 5 Days",
  "primaryAffiliatePartner": "viator",
  "route": "Ubud → Canggu → Uluwatu",
  "secondaryAffiliatePartners": [
@@ -1831,7 +2119,7 @@
   "_type": "slug",
   "current": "5-days-bali-ubud-canggu-uluwatu"
  },
- "title": "5 Days in Bali: Ubud, Canggu and Uluwatu",
+ "title": "Ubud, Canggu or Uluwatu: How to Do All Three in 5 Days",
  "travelStylePrimary": "first_time_indonesia",
  "travelStyleSecondary": [
   "culture_temples",

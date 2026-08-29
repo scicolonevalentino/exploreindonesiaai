@@ -1,6 +1,22 @@
 # Piano di rinforzo: `/trips/5-days-bali-ubud-canggu-uluwatu`
 
-> **STATO: NON APPLICATO. Decide il founder.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-08-29,** su richiesta esplicita del
+> founder ("VAI"). Sezioni 4, 5 e il punto 6 del title sono in produzione,
+> transazione `vffm7lAPj6ZlYitxB7DaVi`. Il corpo passa da 70 a 85 blocchi, le FAQ
+> da 6 a 8, e la pagina ha ora la sua prima tabella comparativa.
+>
+> **Un solo punto NON applicato, ed è bloccato a monte:** il link in entrata da
+> `/destinations/bali` (punto 6.1). La hub Bali **non ha sezioni**, quindi non ha
+> nessun punto in-content dove appendere un'ancora. Non è una dimenticanza: è lo
+> stesso vuoto che rende la hub Bali il prossimo lavoro in coda. Il link va
+> aggiunto insieme alle sezioni della hub, non prima. Il punto 6.2 (da
+> `7-days-bali-first-timers`) è invece applicato, ancora `which base suits you`.
+>
+> **Uno scostamento voluto:** il titolo è stato allineato nella stessa passata
+> invece che in un secondo momento. Il piano diceva di decidere dopo le sezioni,
+> proprio per non promettere un confronto che la pagina non faceva. Le sezioni
+> ora ci sono, quindi la condizione è soddisfatta.
+> Valore vecchio di `title`, per annullare: `5 Days in Bali: Ubud, Canggu and Uluwatu`.
 > Generato dal task schedulato del 2026-08-26. La PARTE 1 di quella run ha già
 > applicato `metaTitle` e `metaDescription` in produzione (transazione
 > `SseX7szR4uwwNDZHqDBqUY`). Tutto il resto di questo documento è una proposta.
