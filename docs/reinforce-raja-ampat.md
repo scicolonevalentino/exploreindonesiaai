@@ -1,9 +1,26 @@
 # Piano di rinforzo: /destinations/raja-ampat
 
-> **STATO: NON APPLICATO. Decide il founder.**
-> Generato dal task schedulato del 2026-08-28. La PARTE 1 di quella run ha già
-> applicato `metaTitle`, `metaDescription` e `h1` in produzione (commit `08932c7`,
-> verificato live). **Tutto il resto di questo documento è una proposta.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-08-29,** il giorno dopo la stesura, su
+> richiesta esplicita del founder ("spingere").
+>
+> - **PARTE 1** (`metaTitle`, `metaDescription`, `h1`): commit `08932c7` del 2026-08-28.
+> - **PARTE 4** (cinque sezioni H2, quattro sottosezioni h3, una tabella comparativa)
+>   e **sezione 5.2 e 5.3** (nove link in uscita, intro riscritta): commit `221706c`.
+>   Verificato live: tutte e sei le intestazioni servite in SSR, 7 link `/trips/`
+>   distinti, 12 link alle guide, tabella renderizzata.
+>
+> **Due scostamenti dal piano, entrambi voluti:**
+>
+> 1. **I link di sezione vanno alle quattro guide, non solo agli itinerari.** Il
+>    piano prevedeva sei link ai cinque itinerari. Esistono però quattro guide
+>    `raja_ampat` live (`how-to-get-to-raja-ampat`, `raja-ampat-cost-guide`,
+>    `liveaboard-vs-basing-in-waisai`, `best-time-to-visit-raja-ampat`) che erano
+>    orfane dalla hub. Aggiunte quattro sottosezioni h3 invece di una: nove link
+>    totali, che coprono **tutti e cinque gli itinerari e tutte e quattro le guide**.
+>    Tutti e nove verificati con HTTP 200 prima del commit.
+> 2. **"Birds of paradise" resta**, nella sottosezione su Kri, Gam e Mansuar. Il
+>    validatore delle frasi bandite lo segnala per "paradise", ma è il nome della
+>    specie e compare già in 19 articoli live. Falso positivo, non corretto.
 
 Pagina: `https://exploreindonesia.ai/destinations/raja-ampat`
 Sorgente: **codice, non Sanity.** Il contenuto vive in `src/data/destinations.ts`
