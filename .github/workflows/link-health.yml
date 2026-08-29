@@ -29,10 +29,17 @@ on:
   repository_dispatch:
     types: [sanity-content-update]
 
+permissions:
+  contents: read
+
 jobs:
   audit:
     name: Audit affiliate links
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
@@ -53,6 +60,7 @@ jobs:
           retention-days: 30
       - name: Comment summary on PR
         if: always() && github.event_name == 'pull_request'
+        continue-on-error: true
         uses: actions/github-script@v7
         with:
           script: |
@@ -67,6 +75,12 @@ jobs:
               body += '⚠️ Audit failed to produce a report — see job logs.';
             }
             const { owner, repo } = context.repo;
-            await github.rest.issues.createComment({
-              owner, repo, issue_number: context.issue.number, body,
-            });
+            try {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: context.issue.number, body,
+              });
+            } catch (e) {
+              // Fork PRs get a read-only GITHUB_TOKEN, so commenting is not
+              // possible there. Never let that fail the audit job.
+              core.warning(`Could not comment on PR: ${e.message}`);
+            }
