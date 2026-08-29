@@ -1016,8 +1016,183 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     metaDescription:
       "Five Raja Ampat routes compared, 7 to 14 days: homestays, diving, family and honeymoon. Ferry times from Sorong and what to book first.",
     intro:
-      "Raja Ampat sits at the heart of the Coral Triangle, the most biodiverse marine ecosystem on Earth. These itineraries cover homestays in Arborek and Kri, plus liveaboard options for serious divers.",
+      "Raja Ampat sits at the heart of the Coral Triangle, the most biodiverse marine ecosystem on Earth. These itineraries cover Papuan homestays around Kri, Gam and Mansuar as well as dive resorts, with the Sorong flights and the Waisai ferry planned in.",
     highlights: ["Wayag viewpoints", "Manta Sandy", "Misool", "Kri homestays"],
+    // PARTE 4 of docs/reinforce-raja-ampat.md, applied 2026-08-29. The hub took 39
+    // impressions and 0 clicks at position 60.7, and 36 of those 39 are a single
+    // cluster: "kri island", "raja ampat kri island", "kri raja ampat". Until today
+    // this was one of only two hubs left with no sections at all, so the page
+    // answered none of it. The SERP is stayrajaampat.com, papua-diving.com, travel
+    // blogs and TripAdvisor, no institutional sites, so it is winnable on content.
+    //
+    // Deliberately NOT targeted at "Kri": 8-days-raja-ampat-homestays-kri-island was
+    // published 2026-08-24 and must own that query. The subsection under section 4
+    // exists to hand the Kri traffic to it. Do not put Kri in this hub's metaTitle.
+    //
+    // Two corrections against the plan as written, both verified first:
+    //
+    // 1. Inbound links needed nothing. All five raja_ampat articles already link
+    //    this hub from their body, confirmed by GROQ. The gap was outbound: with no
+    //    sections the hub carried no in-content link at all. The five sections and
+    //    four subsections below add nine, covering every trip and every guide.
+    // 2. Permit figures and season are taken from what is already published, not
+    //    from the plan's own research. IDR 700,000 plus IDR 300,000 appears in
+    //    three live articles, and best-time-to-visit-raja-ampat already says
+    //    October to April. Matching them avoids the internal contradiction the
+    //    komodo-flores plan produced once.
+    sections: [
+      {
+        heading: "How many days do you need in Raja Ampat?",
+        body: [
+          "Seven days is the realistic minimum once the flights are counted, and ten to fourteen is where the trip stops feeling rushed. Two of those days go to getting in and out through Sorong and Waisai, so a seven-day trip buys you roughly four full days on the water. Anything shorter is mostly transit.",
+          "Almost everything people picture when they think of Raja Ampat sits in the Dampier Strait, the stretch of water between Waisai, Gam, Mansuar and Kri. Basing in one place there, rather than repacking every night, is what makes a short trip work. Wayag in the far north and Misool in the south are separate expeditions, not extensions, and each one wants days of its own.",
+        ],
+        subsections: [
+          {
+            heading: "What changes if you have two weeks?",
+            body: [
+              "Two weeks buys depth rather than distance. You can add a liveaboard leg, reach the northern islands, and still keep a fixed base for part of the trip. For divers it also means enough repeat days to justify the flights, and enough slack that one bad-weather day costs you nothing.",
+            ],
+            link: {
+              before: "The long version is laid out in ",
+              href: "/trips/14-days-raja-ampat-divers",
+              anchor: "the 14-day Raja Ampat route for divers",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "For the shortest version that still works, see ",
+          href: "/trips/7-days-raja-ampat-snorkeling-islands",
+          anchor: "the 7-day Raja Ampat snorkelling route",
+          after: ".",
+        },
+      },
+      {
+        heading: "How do you actually get to Raja Ampat?",
+        body: [
+          "Fly to Sorong, usually via Jakarta or Makassar, then take the fast ferry to Waisai, which runs around two hours. From Waisai your homestay or resort sends a local boat. Ferries commonly run twice a day in each direction, and the whole chain has to line up, so one missed flight can cost a full day.",
+          "Ferry tickets are generally bought in person at the port rather than online, and schedules shift, so treat any timetable you read in advance as provisional and confirm locally. Published fares vary by class and by source, so budget generously rather than to the rupiah, and check the latest official guidance before you travel.",
+        ],
+        link: {
+          before: "The full chain, flight by flight and boat by boat, is in ",
+          href: "/destinations/raja-ampat/how-to-get-to-raja-ampat",
+          anchor: "our guide to getting to Raja Ampat via Sorong",
+          after: ".",
+        },
+      },
+      {
+        heading: "How much are the Raja Ampat permits, and what do they cover?",
+        body: [
+          "Two official fees apply and both are mandatory, even for a short stay. The marine park entry permit runs around IDR 700,000 per person and is valid for a year, and a visitor entry ticket adds roughly IDR 300,000. Together that is about IDR 1,000,000, or around 65 US dollars per person, usually paid in cash on arrival.",
+          "The permit is a physical card and guides do check it, so keep it with you rather than in a bag left at the homestay. Children under twelve are generally exempt. Fees and collection methods change, so confirm the current amounts before you travel. Bring the cash from Sorong: ATMs are scarce once you are past Waisai, and boats, village fees and most homestays are cash only.",
+        ],
+        link: {
+          before: "For what the rest of a trip costs on top of the permits, see ",
+          href: "/destinations/raja-ampat/raja-ampat-cost-guide",
+          anchor: "our Raja Ampat cost guide",
+          after: ".",
+        },
+      },
+      {
+        heading: "Homestay or dive resort: which should you book?",
+        body: [
+          "Papuan homestays cost roughly 27 to 30 US dollars per person per night with three meals included, and put you on the beach the reef sits off. Dive resorts cost several times that and buy you hot water, reliable boats and a dive operation on site. The reef itself is the same from either one.",
+          "The honest way to choose is by how much diving you plan to do. If you want two or three tanks a day, every day, a resort removes a daily negotiation and a lot of chartering. If you mostly want to snorkel, swim and sit still, a homestay puts you closer to the water for a fraction of the price, and the money you save covers the flights.",
+        ],
+        table: {
+          columns: ["", "Papuan homestay", "Dive resort"],
+          rows: [
+            [
+              "Cost per person, per night",
+              "Roughly $27 to $30, three meals included",
+              "Several times that, usually sold as a package",
+            ],
+            [
+              "Rooms",
+              "Wooden bungalows, often over the water, shared or mandi bathroom",
+              "Rooms with hot water and steady power",
+            ],
+            [
+              "Diving",
+              "Arranged separately, boat charters roughly $100 to $200 a day",
+              "In-house dive centre, scheduled daily boats",
+            ],
+            [
+              "Power and wifi",
+              "Generator for part of the day, patchy signal, no reliable wifi",
+              "Generally continuous, wifi slow but present",
+            ],
+            [
+              "Best for",
+              "Snorkelling, a low budget and a slow pace",
+              "Divers who want daily tanks and no logistics",
+            ],
+          ],
+          caption:
+            "The reef is identical from either. What you are paying for is logistics, not access.",
+        },
+        subsections: [
+          {
+            heading: "Which island should you base on: Kri, Gam or Mansuar?",
+            body: [
+              "Kri is the busiest and best connected, with the largest concentration of homestays and the shortest boat times to the best-known sites. Gam is quieter and stronger for birdlife, including the birds of paradise. Mansuar sits between the two. For a first trip, Kri wins on convenience and loses on solitude.",
+            ],
+            link: {
+              before: "For what a week based on one island actually looks like, see ",
+              href: "/trips/8-days-raja-ampat-homestays-kri-island",
+              anchor: "the 8-day Kri Island homestay route",
+              after: ".",
+            },
+          },
+          {
+            heading: "Does Raja Ampat work with kids?",
+            body: [
+              "It can, with one base and realistic expectations. The travel in is long and the boats are small, so the trip suits families who are comfortable in the water and happy to stay put once they arrive. Calm house reefs matter more than the famous dive sites, and a resort usually beats a homestay here.",
+            ],
+            link: {
+              before: "The family version, with the calmer reefs picked out, is ",
+              href: "/trips/9-days-raja-ampat-with-kids",
+              anchor: "the 9-day Raja Ampat route with kids",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "If you are weighing a boat against a fixed base, read ",
+          href: "/destinations/raja-ampat/liveaboard-vs-basing-in-waisai",
+          anchor: "liveaboard versus basing in Waisai",
+          after: ".",
+        },
+      },
+      {
+        heading: "When is the best time to visit Raja Ampat?",
+        body: [
+          "Roughly October to April, when the seas are calmest, the rain eases and underwater visibility is at its clearest. The middle of the year brings stronger wind and rougher crossings. Raja Ampat has no clean dry season the way Bali does, so expect rain in any month and judge the window by wind and swell instead.",
+          "Manta season shifts by site rather than following one calendar, so if mantas are the reason you are going, ask your resort or homestay which sites are producing that month rather than booking to a fixed date.",
+        ],
+        subsections: [
+          {
+            heading: "Does Raja Ampat work as a honeymoon?",
+            body: [
+              "Yes, if you both get in the water and you accept a long journey in. The scenery and the reef are the strongest in Indonesia, and the trade is cost, distance and a short list of properties. Couples who want a spa, a choice of restaurants and easy transfers will be happier elsewhere.",
+            ],
+            link: {
+              before: "The couple's version of this route is ",
+              href: "/trips/10-days-raja-ampat-honeymoon",
+              anchor: "the 10-day Raja Ampat honeymoon",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "Month by month, including how manta season moves, see ",
+          href: "/destinations/raja-ampat/best-time-to-visit-raja-ampat",
+          anchor: "the best time to visit Raja Ampat",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "wild-indonesia",
