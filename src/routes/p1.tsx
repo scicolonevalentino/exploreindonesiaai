@@ -74,6 +74,7 @@ export const Route = createFileRoute("/p1")({
       // Ad-hoc P1 test page — keep out of the index until it graduates.
       { name: "robots", content: "noindex,follow" },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/p1" }],
   }),
   component: P1Page,
 });

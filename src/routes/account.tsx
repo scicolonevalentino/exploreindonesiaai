@@ -28,6 +28,7 @@ export const Route = createFileRoute("/account")({
       { title: "My account, ExploreIndonesia.ai" },
       { name: "robots", content: "noindex, nofollow" },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/account" }],
   }),
   component: AccountPage,
 });

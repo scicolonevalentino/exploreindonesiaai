@@ -20,6 +20,7 @@ export const Route = createFileRoute("/login")({
       // Private page — keep it out of search engines.
       { name: "robots", content: "noindex, nofollow" },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/login" }],
   }),
   component: LoginPage,
 });

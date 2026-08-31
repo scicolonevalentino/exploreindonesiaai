@@ -51,6 +51,7 @@ export const Route = createFileRoute("/prototype")({
       { property: "og:title", content: "exploreindonesia.ai, interactive prototype" },
       { property: "og:description", content: "Try the prototype and send us feedback." },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/prototype" }],
   }),
   component: PrototypePage,
 });

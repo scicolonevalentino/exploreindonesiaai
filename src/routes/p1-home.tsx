@@ -16,6 +16,7 @@ export const Route = createFileRoute("/p1-home")({
       },
       { name: "robots", content: "noindex,follow" },
     ],
+    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/p1-home" }],
   }),
   component: P1HomePreview,
 });
