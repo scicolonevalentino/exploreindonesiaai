@@ -51,9 +51,19 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "bali",
     name: "Bali",
     shortName: "Bali",
-    metaTitle: "Bali itineraries, bookable AI trip plans",
+    // Retouch 2026-08-31. The hub took 34 impressions at position 21.1 with zero
+    // clicks while seven of its own itineraries outranked it: a snippet problem,
+    // not a ranking one. The old title sold the product ("bookable AI trip
+    // plans") and the old H1 was the bare word "Bali", neither of which matches
+    // how people search. Naming the lengths gives the snippet a reason to be
+    // clicked. Read the CTR on 28 Sep before touching this again.
+    // Old metaTitle: "Bali itineraries, bookable AI trip plans"
+    // Old metaDescription: "Hand-picked Bali itineraries, from short escapes to two-week routes through Ubud, Canggu, Uluwatu and the east. Turn any plan into a bookable trip."
+    // Old H1: none set, so it fell back to name, "Bali".
+    h1: "Bali Itineraries",
+    metaTitle: "Bali Itineraries: 5, 7, 10 and 14 Days, Day by Day",
     metaDescription:
-      "Hand-picked Bali itineraries, from short escapes to two-week routes through Ubud, Canggu, Uluwatu and the east. Turn any plan into a bookable trip.",
+      "Seventeen Bali routes from 5 to 30 days, through Ubud, Canggu, Uluwatu, the east coast and the Nusa islands. Pick the length, then read the days.",
     intro:
       "From the rice terraces of Ubud to the surf breaks of Uluwatu, Bali rewards travellers who plan around its rhythm. Browse our curated itineraries, every route is structured day by day so you can review, adjust, and book stays, transfers, and experiences in one place.",
     highlights: ["Ubud & rice terraces", "Canggu surf", "Uluwatu cliffs", "East Bali volcanoes"],
