@@ -6,7 +6,7 @@
     "_type": "slug",
     "current": "8-days-derawan-islands-maratua-kakaban"
   },
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "articleCreatedDate": "2026-08-31T04:19:46.935268Z",
   "destinationPrimary": "wild_indonesia",
   "travelStylePrimary": "beach_islands",
@@ -2236,5 +2236,27 @@
       "question": "Is it worth adding the Talisayan whale sharks?",
       "answer": "It is, if you travel between April and November and have two spare days. The whale sharks gather at bagan fishing platforms off the Berau coast, reached by a three to four hour road transfer from Kalimarau airport and a short boat ride, usually before dawn. Add it to the ends of the trip rather than trading an island day for it."
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "A green sea turtle resting on shallow reef in the Derawan Islands",
+    "asset": {
+      "_ref": "image-96d5394bdf34ada7198cdb78574a18822f2aaff5-1024x768-jpg",
+      "_type": "reference"
+    },
+    "crop": {
+      "_type": "sanity.imageCrop",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+    },
+    "hotspot": {
+      "_type": "sanity.imageHotspot",
+      "height": 0.75,
+      "width": 0.9,
+      "x": 0.45,
+      "y": 0.62
+    }
+  }
 }

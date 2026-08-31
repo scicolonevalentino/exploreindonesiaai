@@ -884,6 +884,39 @@
       "style": "normal"
     },
     {
+      "_key": "bderawan1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sderawan1",
+          "_type": "span",
+          "marks": [],
+          "text": "Extend it to the coast if you have another week. Tanjung Puting sits in southwest Kalimantan and the Derawan Islands are on the east coast, so it is a flight rather than a drive, but the two halves complement each other: rainforest and river first, then turtles and reef. Our "
+        },
+        {
+          "_key": "sderawan2",
+          "_type": "span",
+          "marks": ["mderawan1"],
+          "text": "8-day Derawan Islands route"
+        },
+        {
+          "_key": "sderawan3",
+          "_type": "span",
+          "marks": [],
+          "text": " covers that second half."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "mderawan1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-derawan-islands-maratua-kakaban"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "b128",
       "_type": "block",
       "children": [

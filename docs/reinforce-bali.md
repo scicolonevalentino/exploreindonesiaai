@@ -1,12 +1,23 @@
 # Piano di rinforzo: /destinations/bali
 
-> **STATO: NON APPLICATO. Decide il founder.**
+> **STATO: APPLICATO il 2026-08-31,** lo stesso giorno in cui è stato scritto,
+> su approvazione esplicita del founder ("approvo tutto").
 >
-> La **PARTE 1** di questo piano (le sezioni 3, 4 e 5 qui sotto: `metaTitle`,
-> `metaDescription`, `h1`) è invece **già in produzione dal 2026-08-31**, commit
-> `b4a147a`, perché è il ritocco meccanico della run. Tutto il resto, cioè le
-> sezioni editoriali della sezione 6, le tabelle e i link della sezione 7, è in
-> attesa di approvazione.
+> - **PARTE 1** (`metaTitle`, `metaDescription`, `h1`, sezioni 3, 4 e 5 qui
+>   sotto): commit `b4a147a`.
+> - **Sezione 6** (le sei H2, le due tabelle, le due sottosezioni h3) e
+>   **sezione 8.1 e 8.2** (otto link in uscita, incluso il debito del piano
+>   Ubud/Canggu/Uluwatu): commit `baff267`. Verificato live: tutte e sei le
+>   intestazioni servite in SSR, due tabelle renderizzate, tutti e otto i link
+>   presenti nell'HTML e tutti 200.
+>
+> **Un solo punto NON applicato, e per una ragione esterna al piano:** il link
+> in entrata da `/indonesia-travel-costs` (sezione 8.3). Quel file aveva 186
+> righe non committate datate 2026-08-31, cioè una sezione nuova in corso di
+> stesura ("Is Indonesia cheap or expensive to travel in 2026?"). Toccarlo
+> avrebbe significato o entrare in conflitto con quel lavoro o trascinarlo
+> dentro un commit non suo. **Il punto 8.3 resta aperto** e va applicato quando
+> quelle modifiche sono atterrate.
 >
 > Generato dal task schedulato del 2026-08-31, sul bersaglio messo in coda dal
 > founder il 2026-08-29 in `docs/next-up-bali-hub.md`.
