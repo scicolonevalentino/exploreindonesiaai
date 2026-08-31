@@ -67,6 +67,186 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     intro:
       "From the rice terraces of Ubud to the surf breaks of Uluwatu, Bali rewards travellers who plan around its rhythm. Browse our curated itineraries, every route is structured day by day so you can review, adjust, and book stays, transfers, and experiences in one place.",
     highlights: ["Ubud & rice terraces", "Canggu surf", "Uluwatu cliffs", "East Bali volcanoes"],
+    // Section 6 of docs/reinforce-bali.md, applied 2026-08-31 after the founder
+    // approved the plan. The hub took 34 impressions and 0 clicks at position
+    // 21.1 while five of its own itineraries outranked it, and it was the last
+    // hub on the site with no editorial section at all: five generated
+    // scaffolding headings, no question, no self-contained answer.
+    //
+    // Two constraints specific to Bali, not present on the other hubs:
+    //   1. where-to-stay-in-bali already sits at position 8.9 and
+    //      best-time-to-visit-bali exists, so sections 2 and 3 answer in one
+    //      paragraph and hand off. Duplicating a guide already in the top 10 is
+    //      the real risk here, not thinness.
+    //   2. Six sections is the deliberate ceiling. bali-nearby-islands went to
+    //      nine sections and 2,500 words and its position got WORSE, 45.3 to
+    //      50.5. Depth alone is not the lever on Bali.
+    //
+    // Costs come from /indonesia-travel-costs, the levy from /visa-guide, and
+    // every transfer time from src/data/routes.ts. Keep them in sync.
+    sections: [
+      {
+        heading: "How many days do you need in Bali?",
+        body: [
+          "Five days covers one region properly, seven covers two, and ten to fourteen lets you add an island or the east coast without living in a car. Bali is small on a map and slow on the road, so the working limit on a first trip is one base change every three nights or so.",
+          "The mistake that costs the most is treating Bali as a single place you can day-trip across. Ubud to Uluwatu is under 50 kilometres and routinely takes two hours, so a plan built on four bases in a week spends its afternoons in a car rather than anywhere you came to see.",
+          "The other variable is what kind of trip you want. A five-day stay in one region reads as a holiday. The same five days split three ways reads as a transfer schedule, and travellers almost always report back that they should have moved less.",
+        ],
+        table: {
+          columns: ["Days", "What fits", "Bases", "Best for"],
+          rows: [
+            [
+              "5",
+              "One region, properly",
+              "One, or two at a push",
+              "A first taste, or a stopover on a longer Asia trip",
+            ],
+            [
+              "7",
+              "Two regions plus one island day trip",
+              "Two",
+              "The most common first trip, and the one most itineraries describe",
+            ],
+            [
+              "10",
+              "Bali plus the Gilis or a night on Nusa Penida",
+              "Two on Bali, one island",
+              "Travellers who want a distinct beach half rather than a day trip",
+            ],
+            [
+              "14",
+              "Bali plus Komodo, or a crossing into Java",
+              "Three, with one flight",
+              "A second visit, or a long and unhurried first one",
+            ],
+          ],
+          caption:
+            "How a Bali trip behaves by length, based on the routes we publish. Treat these as working shapes rather than fixed plans, because traffic decides more here than distance does.",
+        },
+        link: {
+          before: "If a week is what you have, ",
+          href: "/trips/5-days-bali-ubud-canggu-uluwatu",
+          anchor: "what five days in Ubud, Canggu and Uluwatu actually looks like",
+          after: " is the honest version of it.",
+        },
+      },
+      {
+        heading: "Where should you base yourself in Bali?",
+        body: [
+          "Ubud for rice terraces and temples, Canggu for surf and cafes, Uluwatu for cliffs and sunsets, Sanur or Amed for a quieter coast. Most first trips work best split between two of those, one inland and one on the coast, because every extra move costs you an afternoon in traffic.",
+          "The pairing that works for the largest number of people is Ubud first and somewhere on the south coast second. It puts the temples, the walking and the inland days at the start, and the beach at the end, which is the order almost everyone prefers once they have tried both.",
+        ],
+        link: {
+          before: "Each area, with what it costs you to be there, is compared in ",
+          href: "/destinations/bali/where-to-stay-in-bali",
+          anchor: "our full where to stay in Bali guide",
+          after: ".",
+        },
+      },
+      {
+        heading: "When is the best time to visit Bali?",
+        body: [
+          "April to October is the dry season and the reliable window. July, August and the fortnight around Christmas are the busiest and the most expensive. April, May, June and September give you close to the same weather with fewer people. The wet season brings afternoon rain rather than washed out days.",
+          "Price moves further than weather does. A villa in shoulder season and the same villa in August are often a different trip financially, and the roads in the south change character entirely between the two. If your dates are flexible at all, the shoulder months are where the value sits.",
+        ],
+        link: {
+          before: "Month by month, including what the sea does, is set out in ",
+          href: "/destinations/bali/best-time-to-visit-bali",
+          anchor: "our best time to visit Bali guide",
+          after: ".",
+        },
+      },
+      {
+        heading: "How much does a week in Bali cost?",
+        body: [
+          "Budget travel in Bali runs about $30 to $50 a day, mid range $70 to $100, and comfortable travel with a villa and a driver $150 to $250. A mid range fortnight lands near $800 to $1,200 before flights. Every arriving visitor also pays the IDR 150,000 Bali tourism levy.",
+          "The line that moves your total is not accommodation, which is cheap at every level here. It is how you travel between places. A private driver by the day and a string of island transfers can quietly double a week, which is another reason the base count in the first section matters.",
+        ],
+        link: {
+          before: "The full breakdown, by category and by traveller type, is in ",
+          href: "/indonesia-travel-costs",
+          anchor: "our Indonesia travel costs guide",
+          after: ".",
+        },
+      },
+      {
+        heading: "Should you add Nusa Penida, the Gilis or Komodo?",
+        body: [
+          "Add Nusa Penida at seven days or more, the Gili Islands at ten, and Komodo only at fourteen. The first is a fast boat and half a day, the second costs you a travel day each way, and the third is a flight that needs three days of its own to be worth taking.",
+          "The rule underneath all three is the same. An island add-on is worth it when you sleep there and a poor idea when you do not, because the crossing eats the part of the day you came for. A rushed Nusa Penida day trip is the single most common regret on a Bali week.",
+        ],
+        table: {
+          columns: ["Add-on", "How you get there", "Days it really costs", "Add it from"],
+          rows: [
+            [
+              "Nusa Penida",
+              "Fast boat from Sanur, about 30 to 45 minutes",
+              "Half a day each way, or one night to do it properly",
+              "7 days",
+            ],
+            [
+              "Gili Islands",
+              "Fast boat from Padangbai or Amed, roughly 1.5 to 2.5 hours",
+              "A travel day each way",
+              "10 days",
+            ],
+            [
+              "Komodo",
+              "Flight to Labuan Bajo",
+              "Three days minimum, including the park boat day",
+              "14 days",
+            ],
+          ],
+          caption:
+            "The three add-ons travellers ask about most, priced in days rather than money. Crossing times come from our transport pages and shift with the sea, so confirm the day before.",
+        },
+        subsections: [
+          {
+            heading: "Is Nusa Penida worth a day trip or a night?",
+            body: [
+              "A night, if you can spare it. The famous viewpoints sit at opposite ends of a small island with rough roads between them, and a day trip means seeing two of them at the busiest hour and spending the rest on a boat. One night turns the same island into an unhurried day and an empty morning.",
+            ],
+            link: {
+              before: "The unrushed version is our ",
+              href: "/trips/5-days-nusa-penida-lembongan",
+              anchor: "5-day Nusa Penida and Lembongan route",
+              after: ".",
+            },
+          },
+          {
+            heading: "How long does it take to reach the Gili Islands from Bali?",
+            body: [
+              "The fast boat runs roughly 1.5 to 2.5 hours depending on where you leave from and what the sea is doing. Padangbai and Amed are the usual departure points, and crossings get cancelled in bad weather, so never book a same-day onward flight against one.",
+            ],
+            link: {
+              before: "The combined route, with the crossing built in, is our ",
+              href: "/trips/10-days-bali-gili-islands",
+              anchor: "10-day Bali and Gili Islands itinerary",
+              after: ".",
+            },
+          },
+        ],
+        link: {
+          before: "Every island within reach of Bali, compared side by side, is in ",
+          href: "/destinations/bali-nearby-islands",
+          anchor: "our guide to the islands near Bali",
+          after: ".",
+        },
+      },
+      {
+        heading: "How do you get around Bali?",
+        body: [
+          "Most travellers cover Bali with a driver hired by the day, a scooter for short local hops, or ride hailing in the south. Denpasar airport to Ubud is about 75 minutes off peak and up to two hours in traffic, at roughly $25 to $35 per car for a pre-booked private transfer.",
+          "Ride hailing works in much of the south and is restricted or unwelcome in some areas, which is why a driver for the day remains the default for anything beyond a short hop. Scooters are cheap and are also how most travel insurance claims in Bali begin, so ride one only if you already ride one at home and have the licence to match.",
+        ],
+        link: {
+          before: "The arrival leg, compared option by option, is in ",
+          href: "/transport/denpasar-airport-to-ubud",
+          anchor: "Denpasar airport to Ubud",
+          after: ".",
+        },
+      },
+    ],
   },
   {
     slug: "bali-nearby-islands",
