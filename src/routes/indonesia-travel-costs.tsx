@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { PAGE_DATES } from "@/data/page-dates";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
@@ -24,7 +25,12 @@ const FAQS: Array<{ question: string; answer: string }> = [
   {
     question: "Is Indonesia cheap to travel?",
     answer:
-      "Indonesia is one of Southeast Asia's best value destinations for food and accommodation, but island-hopping flights between islands can add $50 to $100 per move and are the biggest budget variable.",
+      "Yes. Indonesia has the lowest cost of living in Southeast Asia on Numbeo's mid-2026 index, at 26.1 against Vietnam's 26.4 and Thailand's 38.0. Food and accommodation are the cheapest part; island-hopping flights add $50 to $100 per move and are the biggest budget variable.",
+  },
+  {
+    question: "Is Indonesia cheaper than Thailand?",
+    answer:
+      "Day to day, yes: Indonesia scores 26.1 on Numbeo's mid-2026 cost of living index against Thailand's 38.0, so everyday prices run roughly a third lower. A multi-island Indonesia trip can still total more than a Thailand trip, because Thailand is one landmass with cheap trains while Indonesia needs $40 to $70 domestic flights between islands.",
   },
   {
     question: "How much money should I bring to Bali for 2 weeks?",
@@ -185,7 +191,7 @@ function TravelCostsPage() {
     "@type": "Article",
     headline: TITLE,
     datePublished: "2026-06-12",
-    dateModified: "2026-08-14",
+    dateModified: PAGE_DATES.travelCosts,
     author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
     publisher: { "@type": "Organization", name: "ExploreIndonesia.ai" },
     mainEntityOfPage: URL,
@@ -219,7 +225,7 @@ function TravelCostsPage() {
             actually spend on accommodation, food, transport and activities.
           </p>
           <p className="mt-3 text-xs text-white/60">
-            Last updated 14 August 2026 &middot; prices verified against 2026 operator rates
+            Last updated 29 August 2026 &middot; prices verified against 2026 operator rates
           </p>
         </div>
       </header>
@@ -258,7 +264,80 @@ function TravelCostsPage() {
           </ul>
         </Callout>
 
-        {/* 2. Daily budget table */}
+        {/* 2. Cheap or expensive — the comparative answer.
+            Added 2026-08-31. The page ranked 5-10 on ~128 named impressions of
+            "is indonesia cheap / expensive / how cheap is indonesia" for one
+            click, and never used those words in a heading or compared Indonesia
+            to anything. A neighbour-by-neighbour table is the format that has
+            worked on this domain (borobudur-vs-prambanan sits at position 8) and
+            is what AI answers quote. Read the cluster on 28 Sep. */}
+        <SectionHeading id="cheap-or-expensive">
+          Is Indonesia cheap or expensive to travel in 2026?
+        </SectionHeading>
+        <Prose>
+          <p>
+            Indonesia is the cheapest country in Southeast Asia on local prices. Numbeo&apos;s
+            mid-2026 cost of living index puts it at 26.1, just below Vietnam at 26.4 and well under
+            Thailand at 38.0. A mid-range day still costs $70 to $100, because the saving on food
+            and rooms is offset by the domestic flights an island-hopping trip needs.
+          </p>
+        </Prose>
+        <TableShell>
+          <thead>
+            <tr>
+              <Th>Country</Th>
+              <Th>Cost of living index</Th>
+              <Th>Including rent</Th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <Td>Indonesia</Td>
+              <Td>26.1</Td>
+              <Td>18.5</Td>
+            </tr>
+            <tr>
+              <Td>Vietnam</Td>
+              <Td>26.4</Td>
+              <Td>19.1</Td>
+            </tr>
+            <tr>
+              <Td>Philippines</Td>
+              <Td>30.1</Td>
+              <Td>20.2</Td>
+            </tr>
+            <tr>
+              <Td>Malaysia</Td>
+              <Td>34.0</Td>
+              <Td>22.9</Td>
+            </tr>
+            <tr>
+              <Td>Thailand</Td>
+              <Td>38.0</Td>
+              <Td>27.2</Td>
+            </tr>
+          </tbody>
+        </TableShell>
+        <Prose>
+          <p className="text-xs sm:text-sm">
+            Source: Numbeo Cost of Living Index by Country, South-Eastern Asia, mid-2026. New York =
+            100, so an index of 26.1 means everyday prices are roughly a quarter of New York&apos;s.
+          </p>
+          <p>
+            The caveat that matters for planning: this measures what things cost once you are there,
+            not what the trip costs. Thailand is a third more expensive day to day, but it is one
+            landmass with cheap trains. Indonesia spreads 17,000 islands across three time zones, so
+            a two-week, three-island route can end up costing more than a two-week Thailand trip
+            despite everything on the ground being cheaper. The flights are the difference, and they
+            are covered in{" "}
+            <a href="#transport" className="underline underline-offset-2" style={teal}>
+              the transport section
+            </a>{" "}
+            below.
+          </p>
+        </Prose>
+
+        {/* 3. Daily budget table */}
         <SectionHeading id="daily-budget">
           How much does Indonesia cost per day in 2026?
         </SectionHeading>
@@ -307,9 +386,26 @@ function TravelCostsPage() {
           </tbody>
         </TableShell>
 
-        {/* 3. Accommodation */}
-        <SectionHeading id="accommodation">Accommodation costs</SectionHeading>
+        {/* 4. Accommodation */}
+        {/* Four headings here used to be labels ("Accommodation costs", "Food
+            costs", "Activities & entrance fees", "Money & payments") above a
+            bare bullet list. The page takes 4515 impressions at position 7.5
+            with 92% of its queries anonymised, which is what being read inside
+            an AI answer looks like, and a bullet list under a label is the
+            worst thing to hand an extractor. Each now asks the question people
+            type ("indonesia food cost per day", pos 8.5) and answers it in one
+            self-contained paragraph before the list. Same figures, no new
+            claims. Changed 2026-08-29. */}
+        <SectionHeading id="accommodation">
+          How much does accommodation cost in Indonesia?
+        </SectionHeading>
         <Prose>
+          <p>
+            Accommodation in Indonesia runs $6 to $10 for a hostel dorm, $10 to $20 for a budget
+            guesthouse, and $25 to $50 for a mid-range room with a pool. Bali villas in Seminyak and
+            Canggu cost $50 to $150 a night. Expect prices 30 to 50% higher in July, August and
+            December.
+          </p>
           <ul className="space-y-2 list-disc pl-5">
             <li>Hostel dorms: $6 to $10 a night (Yogyakarta and less touristy areas of Lombok).</li>
             <li>Budget guesthouses: $10 to $20 a night.</li>
@@ -332,9 +428,14 @@ function TravelCostsPage() {
           </p>
         </Prose>
 
-        {/* 4. Food */}
-        <SectionHeading id="food">Food costs</SectionHeading>
+        {/* 5. Food */}
+        <SectionHeading id="food">How much does food cost per day in Indonesia?</SectionHeading>
         <Prose>
+          <p>
+            Food in Indonesia costs $8 to $10 a day if you eat warung-style, and $25 to $40 a day in
+            tourist restaurants. A street-food plate of nasi goreng runs $1 to $3, a mid-range cafe
+            meal $5 to $10, and a Bali beach-club main $15 to $30. Beer adds $5 to $10 a round.
+          </p>
           <ul className="space-y-2 list-disc pl-5">
             <li>Street food and warungs: $1 to $3 a meal (nasi goreng, mie goreng, gado-gado).</li>
             <li>Mid-range cafe or restaurant: $5 to $10 a meal.</li>
@@ -349,7 +450,7 @@ function TravelCostsPage() {
           </p>
         </Prose>
 
-        {/* 5. Transport */}
+        {/* 6. Transport */}
         <SectionHeading id="transport">
           How much does it cost to travel between Indonesian islands?
         </SectionHeading>
@@ -440,9 +541,16 @@ function TravelCostsPage() {
           </p>
         </Prose>
 
-        {/* 6. Activities */}
-        <SectionHeading id="activities">Activities &amp; entrance fees</SectionHeading>
+        {/* 7. Activities */}
+        <SectionHeading id="activities">
+          How much do activities and entrance fees cost in Indonesia?
+        </SectionHeading>
         <Prose>
+          <p>
+            Budget $20 to $80 for a typical paid activity in Indonesia. Entrance fees are modest, $4
+            to $10 for Ubud Monkey Forest and $25 for Borobudur, while boat-based days cost most: a
+            Komodo day trip from Labuan Bajo is $50 to $80 and a scuba diving day trip $60 to $100.
+          </p>
           <ul className="space-y-2 list-disc pl-5">
             <li>Borobudur temple: $25 (foreign visitor rate).</li>
             <li>Komodo day trip from Labuan Bajo: $50 to $80.</li>
@@ -456,7 +564,7 @@ function TravelCostsPage() {
           <p>Bali activity prices rose about 15% after 2024 because of visitor volumes.</p>
         </Prose>
 
-        {/* 7. Regional comparison */}
+        {/* 8. Regional comparison */}
         <SectionHeading id="regional">Which parts of Indonesia are most expensive?</SectionHeading>
         <Prose>
           <p>
@@ -537,7 +645,7 @@ function TravelCostsPage() {
           </p>
         </Prose>
 
-        {/* 8. Seasonal */}
+        {/* 9. Seasonal */}
         <SectionHeading id="seasonal">When is the cheapest time to visit Indonesia?</SectionHeading>
         <Prose>
           <p>
@@ -562,9 +670,15 @@ function TravelCostsPage() {
           </ul>
         </Prose>
 
-        {/* 9. Money */}
-        <SectionHeading id="money">Money &amp; payments</SectionHeading>
+        {/* 10. Money */}
+        <SectionHeading id="money">Can you pay by card in Indonesia?</SectionHeading>
         <Prose>
+          <p>
+            Cards work at hotels, malls and larger restaurants, but Indonesia still runs on cash at
+            warungs, markets and small guesthouses. ATM withdrawals are capped low, around IDR
+            1,500,000 to 3,000,000 per transaction, so carry a Wise or Revolut card and change money
+            in town rather than at the airport.
+          </p>
           <ul className="space-y-2 list-disc pl-5">
             <li>Currency: Indonesian Rupiah (IDR). As of 2026, roughly 15,000 IDR to $1 USD.</li>
             <li>Cash is widely used, especially at warungs, markets and small guesthouses.</li>
@@ -581,7 +695,7 @@ function TravelCostsPage() {
           </ul>
         </Prose>
 
-        {/* 10. Sample budgets */}
+        {/* 11. Sample budgets */}
         <SectionHeading id="sample-budgets">Sample trip budgets</SectionHeading>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div
@@ -611,6 +725,14 @@ function TravelCostsPage() {
             <p className="mt-3 font-semibold text-sm" style={{ color: "var(--navy-deep)" }}>
               Total: ~$600 excluding flights
             </p>
+            <Link
+              to="/trips/$slug"
+              params={{ slug: "7-days-bali-first-timers" }}
+              className="inline-flex mt-3 text-sm font-medium underline underline-offset-2"
+              style={teal}
+            >
+              See this week as a day-by-day itinerary &rarr;
+            </Link>
           </div>
 
           <div
@@ -650,10 +772,56 @@ function TravelCostsPage() {
             <p className="mt-3 font-semibold text-sm" style={{ color: "var(--navy-deep)" }}>
               Total: ~$470 excluding flights
             </p>
+            <Link
+              to="/trips/$slug"
+              params={{ slug: "10-days-bali-lombok-gili-islands" }}
+              className="inline-flex mt-3 text-sm font-medium underline underline-offset-2"
+              style={teal}
+            >
+              See the Bali plus Lombok route day by day &rarr;
+            </Link>
           </div>
         </div>
 
-        {/* 11. Q&A */}
+        {/* This page takes ~8.200 GSC impressions a month at position 7 and is the
+            site's largest single traffic source, but it is pure cost research: it
+            carried no route out to the itineraries, which are the pages that hold
+            the affiliate links. These three are the priced itineraries whose own
+            budget figures match the ranges above. */}
+        <Callout title="What these budgets look like as a real trip">
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <Link
+                to="/trips/$slug"
+                params={{ slug: "14-days-indonesia-bali-java-komodo" }}
+                className="underline underline-offset-2"
+                style={teal}
+              >
+                14 days across Bali, Java and Komodo
+              </Link>{" "}
+              — US$1,800 to 3,000 mid-range, or US$1,100 to 1,600 sharing boats and tours.
+            </li>
+            <li>
+              <Link
+                to="/trips/$slug"
+                params={{ slug: "20-days-across-indonesia" }}
+                className="underline underline-offset-2"
+                style={teal}
+              >
+                20 days across Bali, Java, Komodo and Lombok
+              </Link>{" "}
+              — US$2,500 to 4,000 mid-range, or US$1,500 to 2,200 on guesthouses and shared tours.
+            </li>
+            <li>
+              <Link to="/trips" className="underline underline-offset-2" style={teal}>
+                All Indonesia itineraries
+              </Link>{" "}
+              — filter by length, style and destination.
+            </li>
+          </ul>
+        </Callout>
+
+        {/* 12. Q&A */}
         <SectionHeading id="faq">Common questions</SectionHeading>
         <dl className="flex flex-col gap-5">
           {FAQS.map((f, i) => (
@@ -668,7 +836,7 @@ function TravelCostsPage() {
           ))}
         </dl>
 
-        {/* 12. CTA */}
+        {/* 13. CTA */}
         <section
           className="mt-16 rounded-2xl border p-6 sm:p-8"
           style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}

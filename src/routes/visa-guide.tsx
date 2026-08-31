@@ -4,6 +4,7 @@ import { createServerFn } from "@tanstack/react-start";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { PAGE_DATES } from "@/data/page-dates";
 import { trackEvent } from "@/lib/analytics-events";
 
 // The Airalo eSIM CTA reuses the same Travelpayouts smart link the trip builder
@@ -61,6 +62,11 @@ const FAQS: Array<{ question: string; answer: string }> = [
     question: "Do US citizens need a visa for Indonesia?",
     answer:
       "Yes. US passport holders are not eligible for visa-free entry and must obtain an eVOA, same as EU and Australian travelers.",
+  },
+  {
+    question: "Do UK citizens need a visa for Indonesia?",
+    answer:
+      "Yes. British passport holders need an eVOA, which costs IDR 500,000 (about £25) and covers 30 days, extendable once for the same amount. Your passport needs six months of validity on the day you enter.",
   },
 ];
 
@@ -205,7 +211,7 @@ function VisaGuidePage() {
     "@type": "Article",
     headline: TITLE,
     datePublished: "2026-05-20",
-    dateModified: "2026-08-14",
+    dateModified: PAGE_DATES.visaGuide,
     author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
     publisher: { "@type": "Organization", name: "ExploreIndonesia.ai" },
     mainEntityOfPage: URL,
@@ -359,8 +365,14 @@ function VisaGuidePage() {
         </div>
 
         {/* 4. Nationality sections */}
+        {/* H2s reworded as questions on 2026-08-31. The page collapses on the
+            generic head terms ("indonesia visa" sits at position 47) but reaches
+            positions 1 to 5 whenever the query names a nationality, so the
+            nationality blocks are the asset. Bare country labels are not what an
+            AI answer extracts; the question form is. Ids left unchanged so any
+            existing deep link still resolves. */}
         <SectionHeading id="netherlands-germany">
-          Netherlands &amp; Germany (and most of the EU)
+          Do EU citizens need a visa for Indonesia?
         </SectionHeading>
         <div
           className="space-y-3 text-sm sm:text-base leading-relaxed"
@@ -381,7 +393,7 @@ function VisaGuidePage() {
           </p>
         </div>
 
-        <SectionHeading id="australia">Australia</SectionHeading>
+        <SectionHeading id="australia">Do Australians need a visa for Indonesia?</SectionHeading>
         <div
           className="space-y-3 text-sm sm:text-base leading-relaxed"
           style={{ color: "var(--slate-muted)" }}
@@ -394,7 +406,9 @@ function VisaGuidePage() {
           </p>
         </div>
 
-        <SectionHeading id="united-states">United States</SectionHeading>
+        <SectionHeading id="united-states">
+          Do US citizens need a visa for Indonesia?
+        </SectionHeading>
         <div
           className="space-y-3 text-sm sm:text-base leading-relaxed"
           style={{ color: "var(--slate-muted)" }}
@@ -403,6 +417,33 @@ function VisaGuidePage() {
           <p>The process and cost are the same as for EU and Australian travelers.</p>
           <p>
             Apply at <OfficialLink domain="evisa.imigrasi.go.id" />.
+          </p>
+        </div>
+
+        {/* UK block added 2026-08-31. The guide already had EU, Australia and the
+            US but never Britain, while the UK is the site's third market by
+            impressions (1,450 in the 28 days to 28 Aug) and the page already
+            ranks 3rd for "bali visa uk". */}
+        <SectionHeading id="united-kingdom">
+          Do UK citizens need a visa for Indonesia?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            An eVOA is required. British passport holders are not visa-free, and the fee is{" "}
+            <strong>IDR 500,000</strong>, about £25, for a 30-day stay that can be extended once for
+            the same amount.
+          </p>
+          <p>
+            Your passport must have at least six months of validity left on the day you enter. Apply
+            online at <OfficialLink domain="evisa.imigrasi.go.id" /> before you fly to use the
+            e-gates, or pay at the airport counter for the identical price.
+          </p>
+          <p>
+            If you are flying straight to Bali, the IDR 150,000 tourism levy is charged separately
+            and is not part of the visa.
           </p>
         </div>
 
@@ -497,6 +538,52 @@ function VisaGuidePage() {
             </tbody>
           </table>
         </div>
+
+        {/* Onward route to the bookable pages. Like /indonesia-travel-costs, this
+            guide ranks and is read (918 GSC impressions / 28d at position 19) but
+            dead-ends: someone sorting out entry rules is by definition about to
+            travel, and had nowhere to go next. The 30-day framing is deliberate —
+            it matches the visa validity the whole page is about. */}
+        <Callout title="Visa sorted — now the trip">
+          <p className="mb-3">
+            The 30 days a visa on arrival gives you is the length most of these routes are built
+            around.
+          </p>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <Link
+                to="/trips/$slug"
+                params={{ slug: "14-days-indonesia-bali-java-komodo" }}
+                className="underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                14 days: Bali, Java and Komodo
+              </Link>{" "}
+              — comfortably inside a single visa on arrival.
+            </li>
+            <li>
+              <Link
+                to="/trips/$slug"
+                params={{ slug: "30-days-indonesia-ultimate" }}
+                className="underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                30 days across seven regions
+              </Link>{" "}
+              — the full length of the visa, no extension needed.
+            </li>
+            <li>
+              <Link
+                to="/indonesia-travel-costs"
+                className="underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                What Indonesia costs per day
+              </Link>{" "}
+              — budget the trip before you book the flight.
+            </li>
+          </ul>
+        </Callout>
 
         {/* 10. Q&A */}
         <SectionHeading id="faq">Common questions</SectionHeading>
