@@ -77,6 +77,16 @@
   }
 }
 
+/*
+ * Height of the sticky HelloBar, so other sticky elements (the /trips filter
+ * bar) can offset below it instead of being painted over by it. HelloBar
+ * measures itself and overwrites this on mount; the value here is only the
+ * pre-hydration default, matching the bar's mobile height.
+ */
+:root {
+  --hellobar-h: 50px;
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -86,8 +96,28 @@
   }
 }
 .animate-marquee {
-  animation: marquee 60s linear infinite;
+  animation: marquee var(--marquee-duration, 60s) linear infinite;
   will-change: transform;
+}
+/*
+ * Duration that scales with the number of items, so the SPEED stays constant as
+ * more itineraries get published. The old fixed 60s silently accelerated the row
+ * every time an article shipped: at ~20 articles it ran ~92px/s, at 59 it hit
+ * ~271px/s on mobile — a card crossing the screen in a single second, far too
+ * fast to read or to let its lazy image land.
+ *
+ * A card advances by its width + the flex gap: 260+16 on mobile, 300+20 from sm
+ * up. The seconds-per-card below put both breakpoints at ~86-94px/s, back to the
+ * pace the row was designed for. Set --marquee-cards to the number of ORIGINAL
+ * items (not counting the duplicated copy that makes the loop seamless).
+ */
+.marquee-scaled {
+  --marquee-duration: calc(var(--marquee-cards, 20) * 3.2s);
+}
+@media (min-width: 640px) {
+  .marquee-scaled {
+    --marquee-duration: calc(var(--marquee-cards, 20) * 3.4s);
+  }
 }
 .marquee-pause:focus-within .animate-marquee {
   animation-play-state: paused;
