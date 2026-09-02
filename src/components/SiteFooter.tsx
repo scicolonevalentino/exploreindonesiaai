@@ -17,6 +17,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { openCookieSettings } from "@/lib/consent";
 
 function useSiteSettings() {
   return useQuery({
@@ -232,6 +233,15 @@ function FooterBar() {
                 <a href="/terms" className="text-white/75 hover:text-white transition-colors">
                   Terms
                 </a>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => openCookieSettings()}
+                  className="text-white/75 hover:text-white transition-colors"
+                >
+                  Cookie settings
+                </button>
               </li>
               <li>
                 <Dialog

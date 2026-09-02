@@ -108,12 +108,17 @@ of the build.
   - `.server.ts` suffix keeps a file out of the client bundle.
 - **UI**: prefer existing shadcn primitives in `src/components/ui/`. Icons from
   `lucide-react`. Tailwind v4 with CSS variables; base color slate.
-- **Privacy/analytics**: consent is managed by **Cookiebot** (Usercentrics CMP,
-  manual blocking mode). Google Consent Mode defaults to denied in `__root.tsx`,
-  the Cookiebot loader is injected there (gated on `VITE_COOKIEBOT_CBID`), and
-  `analytics-consent.ts` bridges Cookiebot's consent events onto Consent Mode v2
-  and lazy-loads GA4/GTM/Contentsquare when `statistics` is granted. There is no
-  custom banner component anymore. Don't fire trackers before consent.
+- **Privacy/analytics**: consent is **self-hosted** — no third-party CMP. The
+  store lives in `src/lib/consent.ts` (localStorage `cookie-consent-v1`, versioned,
+  categories `statistics` + `marketing`, broadcasts a `CONSENT_EVENT`), the banner
+  is `src/components/CookieConsent.tsx` (Accept all / Reject all / granular
+  Customize, EI palette), and the footer "Cookie settings" link re-opens it via
+  `openCookieSettings()`. Google Consent Mode defaults to denied in `__root.tsx`;
+  `analytics-consent.ts` (`initConsent()`) applies a stored decision on mount,
+  subscribes to `CONSENT_EVENT`, maps categories onto Consent Mode v2, and
+  lazy-loads GA4/GTM/Contentsquare on `statistics` and the affiliate loaders on
+  `marketing`. Don't fire trackers before consent. (Cookiebot was removed —
+  behaviour is byte-for-byte the same, just without the paid CMP.)
 - **SEO**: page metadata, OG/Twitter tags, and JSON-LD live in route `head`
   functions. Note `__root.tsx` currently defines several meta tags twice — the
   later static values win over the CMS-driven ones; consolidate rather than add

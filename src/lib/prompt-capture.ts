@@ -2,22 +2,14 @@
 // (what trips are folks asking for?). Sends a fire-and-forget GET beacon to a
 // Google Apps Script web app (doGet) that appends a row to a Google Sheet.
 //
-// Privacy: only fires AFTER Cookiebot "statistics" consent is granted (the
-// prompt is free text and may contain personal details), truncates to 2000
-// chars, and never throws. An <img> beacon is used so there is no CORS read.
+// Privacy: only fires AFTER "statistics" consent is granted (the prompt is free
+// text and may contain personal details), truncates to 2000 chars, and never
+// throws. An <img> beacon is used so there is no CORS read.
+
+import { hasStatisticsConsent } from "@/lib/consent";
 
 const CAPTURE_URL =
   "https://script.google.com/macros/s/AKfycbxzLezZiEor-vzjsdanpjvIsKAYaMU9aN3Dpw2_M5Df7PIgiZgYLcjuZ2y6bFLmJDLK/exec";
-
-function hasStatisticsConsent(): boolean {
-  try {
-    const cb = (window as unknown as { Cookiebot?: { consent?: { statistics?: boolean } } })
-      .Cookiebot;
-    return !!cb?.consent?.statistics;
-  } catch {
-    return false;
-  }
-}
 
 function sessionId(): string {
   try {

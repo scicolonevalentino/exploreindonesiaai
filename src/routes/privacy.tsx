@@ -101,8 +101,8 @@ function PrivacyPage() {
             <p>
               We default all non-essential cookies to &ldquo;denied&rdquo; using Google&rsquo;s
               Consent Mode. Until you click &ldquo;Accept all&rdquo; in the cookie banner, no
-              analytics or measurement cookies are set. You can change your mind by clearing this
-              site&rsquo;s storage in your browser and reloading.
+              analytics or measurement cookies are set. You can review or change your choice at any
+              time via the &ldquo;Cookie settings&rdquo; link in the footer.
             </p>
           </Section>
 
