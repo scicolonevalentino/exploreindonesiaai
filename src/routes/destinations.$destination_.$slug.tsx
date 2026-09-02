@@ -20,6 +20,7 @@ import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { pageHeroImageUrl } from "@/lib/image-urls";
 import { JsonLd } from "@/components/JsonLd";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import {
@@ -279,9 +280,7 @@ function GuidePage() {
   // Reuse a related itinerary's hero as the header backdrop (matches transport
   // pages); fall back to the plain gradient.
   const heroImage = guide.heroImage ?? relatedTrips.find((t) => t.heroImage)?.heroImage;
-  const heroUrl = heroImage
-    ? urlFor(heroImage).width(1600).height(520).fit("crop").auto("format").url()
-    : null;
+  const heroUrl = heroImage ? pageHeroImageUrl(heroImage) : null;
 
   const authorLd = guide.author?.name
     ? guide.author.schemaType === "Organization"
@@ -352,16 +351,33 @@ function GuidePage() {
 
       {/* Hero with visible breadcrumb — the uplink to the destination pillar */}
       <header
-        className="w-full bg-cover bg-center px-6 py-12 sm:py-16"
-        style={
-          heroUrl
-            ? {
-                backgroundImage: `linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.92) 100%), url(${heroUrl})`,
-              }
-            : { background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }
-        }
+        className="relative w-full overflow-hidden px-6 py-12 sm:py-16"
+        style={{ background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }}
       >
-        <div className="mx-auto max-w-3xl">
+        {/* Real <img>, not a CSS background: backgrounds are invisible to the
+            preload scanner and only start loading after CSS + layout. */}
+        {heroUrl && (
+          <>
+            <img
+              src={heroUrl}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover"
+              width={1600}
+              height={520}
+              fetchPriority="high"
+              decoding="async"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.92) 100%)",
+              }}
+            />
+          </>
+        )}
+        <div className="relative mx-auto max-w-3xl">
           <nav aria-label="Breadcrumb" className="text-xs sm:text-sm text-white/70">
             <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>

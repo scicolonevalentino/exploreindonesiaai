@@ -14,6 +14,7 @@ import {
 } from "react";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { inspirationCardImageUrl } from "@/lib/image-urls";
 import { FerryRoutesDivider } from "@/components/FerryRoutesDivider";
 import { HERO } from "@/data/hero";
 import { ogHomeImageUrl } from "@/lib/og";
@@ -66,8 +67,25 @@ const articlesQO = queryOptions({
   refetchOnWindowFocus: false,
 });
 
+/**
+ * How many inspiration cards are treated as "above the fold": preloaded in
+ * <head> and rendered eager/high-priority instead of lazy.
+ */
+const EAGER_CARDS = 3;
+
+function preloadedCardImages(loaderData: unknown): string[] {
+  const articles = loaderData as ArticleListItem[] | undefined;
+  if (!Array.isArray(articles)) return [];
+  const urls: string[] = [];
+  for (const a of articles.slice(0, EAGER_CARDS)) {
+    const hero = a?.heroImage;
+    if (hero?.asset) urls.push(inspirationCardImageUrl(hero));
+  }
+  return urls;
+}
+
 export const Route = createFileRoute("/")({
-  head: () => ({
+  head: ({ loaderData }) => ({
     meta: [
       { title: "AI Indonesia Trip Planner | exploreindonesia.ai" },
       {
@@ -94,6 +112,19 @@ export const Route = createFileRoute("/")({
       // it in <head> paints it immediately instead of waiting for the JS-mounted
       // background video.
       { rel: "preload", as: "image", href: HERO_POSTER, fetchPriority: "high" },
+      // Preload the first inspiration cards. Their <img> tags are SSR'd, but they
+      // sit far down the document inside a horizontally scrolling marquee, so the
+      // browser only discovers them after layout and then fetches them at Low
+      // priority behind the JS bundle and fonts — the 1-2s of empty cards.
+      // These <head> hints put them in flight with the very first bytes of HTML.
+      // Keep the count small (3): preloading all ~59 would just re-create the
+      // priority pile-up in <head>.
+      ...preloadedCardImages(loaderData).map((href) => ({
+        rel: "preload",
+        as: "image",
+        href,
+        fetchPriority: "high" as const,
+      })),
       { rel: "canonical", href: "https://exploreindonesia.ai/" },
     ],
   }),
@@ -445,18 +476,23 @@ function InspirationCard({
   article,
   position,
   totalCards,
+  isDuplicate = false,
 }: {
   article: ArticleListItem;
   position: number;
   totalCards: number;
+  /** True for the second copy of the list that makes the marquee loop seamlessly. */
+  isDuplicate?: boolean;
 }) {
   const router = useRouter();
   const linkRef = useRef<HTMLAnchorElement>(null);
   const slug = article.slug?.current;
 
-  const img = article.heroImage?.asset
-    ? urlFor(article.heroImage).width(600).height(750).fit("crop").auto("format").quality(75).url()
-    : null;
+  const img = article.heroImage?.asset ? inspirationCardImageUrl(article.heroImage) : null;
+  // The first cards are visible on landing: fetch them eagerly at high priority
+  // so they resolve the <head> preload above instead of queueing behind the
+  // ~110 other lazy card images in the marquee.
+  const eager = position < EAGER_CARDS && !isDuplicate;
   const duration =
     typeof article.tripLengthDays === "number" && article.tripLengthDays > 0
       ? `${article.tripLengthDays} ${article.tripLengthDays === 1 ? "day" : "days"}`
@@ -542,7 +578,14 @@ function InspirationCard({
             src={img}
             alt={article.heroImage?.alt ?? article.title}
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
-            loading="lazy"
+            width={600}
+            height={750}
+            loading={eager ? "eager" : "lazy"}
+            // Only the eager cards get an explicit priority. Marking the rest
+            // "low" would also demote cards that ARE on screen on a wide
+            // viewport; loading="lazy" already deprioritises them enough.
+            fetchPriority={eager ? "high" : undefined}
+            decoding="async"
           />
         )}
         <div
@@ -751,6 +794,7 @@ function InspirationMarquee() {
               article={a}
               position={i % articles.length}
               totalCards={articles.length}
+              isDuplicate={i >= articles.length}
             />
           ))}
         </div>

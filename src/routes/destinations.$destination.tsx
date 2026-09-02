@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import groq from "groq";
 
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { pageHeroImageUrl } from "@/lib/image-urls";
 import { JsonLd } from "@/components/JsonLd";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { ogImageUrl } from "@/lib/og";
@@ -136,9 +137,7 @@ function DestinationInner() {
   // hero for the header backdrop, faded behind the gradient like the transport
   // and guide pages. Falls back to the plain gradient if no itinerary has one.
   const heroImage = articles.find((a) => a.heroImage)?.heroImage;
-  const heroUrl = heroImage
-    ? urlFor(heroImage).width(1600).height(520).fit("crop").auto("format").url()
-    : null;
+  const heroUrl = heroImage ? pageHeroImageUrl(heroImage) : null;
 
   const destUrl = `https://exploreindonesia.ai/destinations/${dest.slug}`;
   const itemListLD = {
@@ -184,17 +183,35 @@ function DestinationInner() {
       <JsonLd data={collectionLD} />
       <JsonLd data={breadcrumbLD} />
       <JsonLd data={itemListLD} />
+      {/* The hero is a real <img>, not a CSS background: a background-image is
+          invisible to the browser's preload scanner and only starts downloading
+          after CSS + layout, which left this header grey for a beat. */}
       <header
-        className="w-full bg-cover bg-center px-6 py-12 sm:py-16"
-        style={
-          heroUrl
-            ? {
-                backgroundImage: `linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.92) 100%), url(${heroUrl})`,
-              }
-            : { background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }
-        }
+        className="relative w-full overflow-hidden px-6 py-12 sm:py-16"
+        style={{ background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }}
       >
-        <div className="mx-auto max-w-5xl">
+        {heroUrl && (
+          <>
+            <img
+              src={heroUrl}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover"
+              width={1600}
+              height={520}
+              fetchPriority="high"
+              decoding="async"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.92) 100%)",
+              }}
+            />
+          </>
+        )}
+        <div className="relative mx-auto max-w-5xl">
           <Link to="/" className="text-sm text-white/70 hover:text-white">
             ← Home
           </Link>
