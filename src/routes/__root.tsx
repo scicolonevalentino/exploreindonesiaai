@@ -178,6 +178,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           rel: "stylesheet",
           href: appCss,
         },
+        // Every article/hero image is served from Sanity's CDN. Without these the
+        // browser only starts DNS + TCP + TLS to cdn.sanity.io when it hits the
+        // first <img>, which costs 200-400ms on mobile BEFORE a single byte of
+        // any card image is requested. No crossOrigin: <img> fetches images in
+        // no-cors mode, and a crossorigin preconnect would open a separate
+        // connection the images can't reuse.
+        { rel: "preconnect", href: "https://cdn.sanity.io" },
+        { rel: "dns-prefetch", href: "https://cdn.sanity.io" },
         { rel: "preconnect", href: "https://www.googletagmanager.com" },
       ],
       scripts: [

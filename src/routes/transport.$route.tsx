@@ -1,7 +1,8 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import groq from "groq";
 
-import { sanityClient, urlFor } from "@/lib/sanity";
+import { sanityClient } from "@/lib/sanity";
+import { pageHeroImageUrl } from "@/lib/image-urls";
 import { JsonLd } from "@/components/JsonLd";
 import { GUIDES_BY_SLUGS_QUERY, type SanityImage, type GuideListItem } from "@/lib/sanity-queries";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
@@ -96,9 +97,7 @@ function TransportPage() {
   // pages stay visually coherent with the rest of the site. Falls back to the
   // plain gradient when no related image is available (or Sanity is down).
   const heroImage = relatedTrips.find((t) => t.heroImage)?.heroImage;
-  const heroUrl = heroImage
-    ? urlFor(heroImage).width(1600).height(520).fit("crop").auto("format").url()
-    : null;
+  const heroUrl = heroImage ? pageHeroImageUrl(heroImage) : null;
 
   const url = `https://exploreindonesia.ai/transport/${r.slug}`;
   const faqLD = {
@@ -130,17 +129,35 @@ function TransportPage() {
       <JsonLd data={faqLD} />
       <JsonLd data={breadcrumbLD} />
 
+      {/* The hero is a real <img>, not a CSS background: a background-image is
+          invisible to the browser's preload scanner and only starts downloading
+          after CSS + layout, which left this header grey for a beat. */}
       <header
-        className="w-full bg-cover bg-center px-6 py-12 sm:py-16"
-        style={
-          heroUrl
-            ? {
-                backgroundImage: `linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.9) 100%), url(${heroUrl})`,
-              }
-            : { background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }
-        }
+        className="relative w-full overflow-hidden px-6 py-12 sm:py-16"
+        style={{ background: "linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 100%)" }}
       >
-        <div className="mx-auto max-w-3xl">
+        {heroUrl && (
+          <>
+            <img
+              src={heroUrl}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover"
+              width={1600}
+              height={520}
+              fetchPriority="high"
+              decoding="async"
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(8,52,51,0.86) 0%, rgba(11,34,52,0.9) 100%)",
+              }}
+            />
+          </>
+        )}
+        <div className="relative mx-auto max-w-3xl">
           <Link to="/transport" className="text-sm text-white/70 hover:text-white">
             ← Getting around Indonesia
           </Link>

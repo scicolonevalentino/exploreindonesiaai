@@ -3,6 +3,7 @@ import { useSuspenseQuery, useQuery, queryOptions } from "@tanstack/react-query"
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { sanityClient, urlFor } from "@/lib/sanity";
+import { articleHeroImageUrl } from "@/lib/image-urls";
 import { JsonLd } from "@/components/JsonLd";
 import { ComparisonTable } from "@/components/ComparisonTable";
 
@@ -283,7 +284,21 @@ export const Route = createFileRoute("/trips/$slug")({
         ...(description ? [{ name: "twitter:description", content: description }] : []),
         ...(img ? [{ name: "twitter:image", content: img }] : []),
       ],
-      links: [{ rel: "canonical", href: url }],
+      links: [
+        // The hero is the LCP element. Preloading it from <head> starts the
+        // fetch with the first bytes of HTML rather than after layout.
+        ...(a.heroImage?.asset
+          ? [
+              {
+                rel: "preload",
+                as: "image",
+                href: articleHeroImageUrl(a.heroImage),
+                fetchPriority: "high" as const,
+              },
+            ]
+          : []),
+        { rel: "canonical", href: url },
+      ],
     };
   },
 
@@ -526,9 +541,7 @@ function ArticleInner() {
     }
   };
 
-  const heroImg = a.heroImage?.asset
-    ? urlFor(a.heroImage).width(1600).height(900).fit("crop").auto("format").url()
-    : null;
+  const heroImg = a.heroImage?.asset ? articleHeroImageUrl(a.heroImage) : null;
 
   const components: PortableTextComponents = {
     block: {
@@ -677,6 +690,10 @@ function ArticleInner() {
             src={heroImg}
             alt={a.heroImage?.alt ?? a.title}
             className="absolute inset-0 w-full h-full object-cover opacity-70"
+            width={1600}
+            height={900}
+            fetchPriority="high"
+            decoding="async"
           />
         )}
         {heroImg && (

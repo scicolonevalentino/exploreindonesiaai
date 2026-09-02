@@ -4,7 +4,8 @@ import { Suspense, useMemo } from "react";
 import { ChevronDown, X } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 
-import { sanityClient, urlFor } from "@/lib/sanity";
+import { sanityClient } from "@/lib/sanity";
+import { tripCardImageUrl, tripsHeaderImageUrl } from "@/lib/image-urls";
 import {
   ARTICLES_LIST_QUERY,
   DESTINATIONS,
@@ -37,6 +38,17 @@ const articlesQO = queryOptions({
   staleTime: 60_000,
 });
 
+/** Cards rendered eagerly: roughly the first grid viewport on desktop. */
+const EAGER_CARDS = 6;
+/** Of those, how many are also preloaded from <head> at high priority. */
+const PRELOADED_CARDS = 3;
+
+/** The itinerary whose hero backs the page header. */
+function featuredArticle(articles: ArticleListItem[] | undefined) {
+  if (!Array.isArray(articles)) return undefined;
+  return articles.find((a) => a.slug?.current === "7-days-lombok-gili-islands") ?? articles[0];
+}
+
 export const Route = createFileRoute("/trips/")({
   validateSearch: (s: Record<string, unknown>): Search => ({
     destinations: parseArr(s.destinations),
@@ -46,17 +58,39 @@ export const Route = createFileRoute("/trips/")({
     vibes: parseArr(s.vibes),
   }),
   loader: ({ context }) => context.queryClient.ensureQueryData(articlesQO),
-  head: () => ({
-    meta: [
-      { title: "Explore all Indonesia trips, ExploreIndonesia.ai" },
-      {
-        name: "description",
-        content:
-          "Browse hand-picked Indonesia itineraries. Filter by destination, trip length, travel style, traveller type, and vibe.",
-      },
-    ],
-    links: [{ rel: "canonical", href: "https://exploreindonesia.ai/trips" }],
-  }),
+  head: ({ loaderData }) => {
+    const articles = loaderData as ArticleListItem[] | undefined;
+    const header = featuredArticle(articles)?.heroImage;
+    // The header backdrop is the LCP element here, and the first grid cards sit
+    // right under it. Preloading them from <head> starts the fetches with the
+    // first bytes of HTML instead of after layout, which is what left the cards
+    // blank for a second or two.
+    const preloads = [
+      ...(header?.asset ? [tripsHeaderImageUrl(header)] : []),
+      ...(articles ?? [])
+        .slice(0, PRELOADED_CARDS)
+        .flatMap((a) => (a.heroImage?.asset ? [tripCardImageUrl(a.heroImage)] : [])),
+    ];
+    return {
+      meta: [
+        { title: "Explore all Indonesia trips, ExploreIndonesia.ai" },
+        {
+          name: "description",
+          content:
+            "Browse hand-picked Indonesia itineraries. Filter by destination, trip length, travel style, traveller type, and vibe.",
+        },
+      ],
+      links: [
+        ...preloads.map((href) => ({
+          rel: "preload",
+          as: "image",
+          href,
+          fetchPriority: "high" as const,
+        })),
+        { rel: "canonical", href: "https://exploreindonesia.ai/trips" },
+      ],
+    };
+  },
   component: TripsPage,
   errorComponent: ({ error }) => (
     <div className="min-h-screen flex items-center justify-center p-6 text-center">
@@ -143,11 +177,8 @@ function TripsInner() {
   }, [articles, sel]);
 
   const headerImg = useMemo(() => {
-    const featured =
-      articles.find((a) => a.slug?.current === "7-days-lombok-gili-islands") ?? articles[0];
-    return featured?.heroImage?.asset
-      ? urlFor(featured.heroImage).width(1920).height(720).fit("crop").auto("format").url()
-      : null;
+    const hero = featuredArticle(articles)?.heroImage;
+    return hero?.asset ? tripsHeaderImageUrl(hero) : null;
   }, [articles]);
 
   const totalFilters =
@@ -199,6 +230,8 @@ function TripsInner() {
             alt=""
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover opacity-60"
+            fetchPriority="high"
+            decoding="async"
           />
         )}
         {headerImg && (
@@ -318,8 +351,13 @@ function TripsInner() {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map((a) => (
-              <TripCard key={a._id} article={a} />
+            {filtered.map((a, i) => (
+              <TripCard
+                key={a._id}
+                article={a}
+                eager={i < EAGER_CARDS}
+                priority={i < PRELOADED_CARDS}
+              />
             ))}
           </div>
         )}
@@ -441,10 +479,18 @@ function FilterDropdown({
   );
 }
 
-function TripCard({ article }: { article: ArticleListItem }) {
-  const img = article.heroImage?.asset
-    ? urlFor(article.heroImage).width(800).height(500).fit("crop").auto("format").url()
-    : null;
+function TripCard({
+  article,
+  eager = false,
+  priority = false,
+}: {
+  article: ArticleListItem;
+  /** Render without loading="lazy" — roughly the first grid viewport. */
+  eager?: boolean;
+  /** Also request at high priority — only the cards preloaded from <head>. */
+  priority?: boolean;
+}) {
+  const img = article.heroImage?.asset ? tripCardImageUrl(article.heroImage) : null;
   return (
     <Link
       to="/trips/$slug"
@@ -461,7 +507,11 @@ function TripCard({ article }: { article: ArticleListItem }) {
             src={img}
             alt={article.heroImage?.alt ?? article.title}
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-            loading="lazy"
+            width={800}
+            height={500}
+            loading={eager ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : undefined}
+            decoding="async"
           />
         )}
       </div>
