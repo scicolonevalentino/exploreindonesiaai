@@ -251,9 +251,14 @@ function TripsInner() {
       </header>
 
       {/* Horizontal filter bar */}
+      {/* Sticks BELOW the HelloBar, which is itself `sticky top-0` at a higher
+          z-index: both parked at top-0 and the announcement bar painted over
+          this row's first line, hiding the Destination and Trip length filters
+          entirely on mobile (where the chips wrap onto two lines). */}
       <div
-        className="sticky top-0 z-30 border-b"
+        className="sticky z-30 border-b"
         style={{
+          top: "var(--hellobar-h, 0px)",
           backgroundColor: "#ffffff",
           borderColor: "var(--border-cream)",
         }}

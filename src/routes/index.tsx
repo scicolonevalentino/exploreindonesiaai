@@ -8,6 +8,7 @@ import {
   useEffect,
   useRef,
   useState,
+  type CSSProperties,
   type ErrorInfo,
   type KeyboardEvent as ReactKeyboardEvent,
   type ReactNode,
@@ -783,10 +784,14 @@ function InspirationMarquee() {
       >
         <div
           ref={trackRef}
-          className="flex gap-4 sm:gap-5 w-max animate-marquee focus:outline-none"
+          className="flex gap-4 sm:gap-5 w-max animate-marquee marquee-scaled focus:outline-none"
           role="region"
           aria-roledescription="carousel"
           aria-label={`${articles.length} Indonesia trip itineraries.`}
+          // Scroll speed is derived from the card count (see .marquee-scaled),
+          // so publishing more itineraries lengthens the loop instead of
+          // speeding the row up.
+          style={{ "--marquee-cards": articles.length } as CSSProperties}
         >
           {loop.map((a, i) => (
             <InspirationCard

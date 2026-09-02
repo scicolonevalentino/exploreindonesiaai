@@ -29,7 +29,6 @@ export function useMarqueeDrag(
     if (typeof window === "undefined") return;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
 
-    const DURATION_MS = 60_000; // must match .animate-marquee animation
     const DRAG_THRESHOLD = 8; // px before we treat a pointer gesture as a drag
     let pointerDown = false;
     let dragConfirmed = false;
@@ -50,6 +49,17 @@ export function useMarqueeDrag(
       return m.m41;
     };
 
+    /**
+     * The animation duration, read from the element rather than hard-coded: the
+     * article marquee derives it from the number of cards (see .marquee-scaled
+     * in styles.css), so it differs per row and per breakpoint. Getting this
+     * wrong desyncs resumeFrom() and the row jumps when the user lets go.
+     */
+    const durationMs = (): number => {
+      const secs = Number.parseFloat(getComputedStyle(el).animationDuration);
+      return Number.isFinite(secs) && secs > 0 ? secs * 1000 : 60_000;
+    };
+
     const pause = (offset: number) => {
       el.style.animationPlayState = "paused";
       el.style.transform = `translateX(${offset}px)`;
@@ -66,7 +76,7 @@ export function useMarqueeDrag(
       if (normalized > 0) normalized -= halfWidth;
       const progress = -normalized / halfWidth;
       el.style.transform = "";
-      el.style.animationDelay = `-${progress * DURATION_MS}ms`;
+      el.style.animationDelay = `-${progress * durationMs()}ms`;
       el.style.animationPlayState = "";
     };
 
@@ -76,9 +86,15 @@ export function useMarqueeDrag(
       dragConfirmed = false;
       pointerId = e.pointerId;
       startX = e.clientX;
-      // Don't pause or setPointerCapture yet — we don't know if this is a tap
-      // or a drag. Capturing here would redirect the synthesized `click` to
-      // the track and prevent inner <Link> elements from navigating.
+      // Freeze the row under the finger straight away. Touching a moving
+      // carousel to look at a card should stop it, not require an 8px drag
+      // first — on mobile that made the row feel uncontrollable.
+      // We still do NOT setPointerCapture here: capturing before we know
+      // whether this is a tap would redirect the synthesized `click` to the
+      // track and stop inner <Link> elements from navigating.
+      startOffset = readOffset();
+      currentOffset = startOffset;
+      pause(startOffset);
     };
 
     const onPointerMove = (e: PointerEvent) => {
@@ -86,11 +102,9 @@ export function useMarqueeDrag(
       const dx = e.clientX - startX;
       if (!dragConfirmed) {
         if (Math.abs(dx) < DRAG_THRESHOLD) return;
-        // Promote to a real drag: now it's safe to pause and capture.
+        // Promote to a real drag: the row is already paused, now it's safe to
+        // capture the pointer too.
         dragConfirmed = true;
-        startOffset = readOffset();
-        currentOffset = startOffset;
-        pause(startOffset);
         el.style.cursor = "grabbing";
         try {
           el.setPointerCapture(e.pointerId);
@@ -106,10 +120,11 @@ export function useMarqueeDrag(
     const endDrag = () => {
       if (!pointerDown) return;
       pointerDown = false;
-      if (dragConfirmed) {
-        resumeFrom(currentOffset);
-        el.style.cursor = "";
-      }
+      // Resume from wherever the row was frozen. This runs for a plain tap too
+      // (currentOffset is still the pointerdown offset), and on pointercancel,
+      // which is what fires when a touch turns into a vertical page scroll.
+      resumeFrom(currentOffset);
+      el.style.cursor = "";
       if (pointerId !== null) {
         try {
           el.releasePointerCapture(pointerId);

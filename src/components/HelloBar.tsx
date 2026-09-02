@@ -1,14 +1,43 @@
+import { useEffect, useRef } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useUser } from "@/lib/supabase/useUser";
 import { PUBLIC_AUTH_UI } from "@/lib/public-auth-ui";
 
 export function HelloBar() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const barRef = useRef<HTMLDivElement>(null);
 
   // The prototype page has its own dedicated feedback bar, hide the global one
   // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
   // waitlist bar makes no sense where the user is already using the product.
-  if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
+  const hidden = ["/prototype", "/p1", "/login", "/account"].includes(pathname);
+
+  /*
+   * Publish this bar's height as --hellobar-h so other sticky elements can park
+   * BELOW it instead of underneath it. The bar is `sticky top-0 z-50`; anything
+   * else that sticks at top-0 (the /trips filter bar did) gets painted over by
+   * it. The height is measured rather than hard-coded because it changes with
+   * the viewport — the copy reflows, and the CTA pill wraps — so a fixed offset
+   * would be wrong at some widths. Set to 0 on the routes that hide the bar.
+   */
+  useEffect(() => {
+    const root = document.documentElement;
+    const el = barRef.current;
+    if (!el) {
+      root.style.setProperty("--hellobar-h", "0px");
+      return;
+    }
+    const write = () => root.style.setProperty("--hellobar-h", `${el.offsetHeight}px`);
+    write();
+    const observer = new ResizeObserver(write);
+    observer.observe(el);
+    return () => {
+      observer.disconnect();
+      root.style.setProperty("--hellobar-h", "0px");
+    };
+  }, [hidden]);
+
+  if (hidden) return null;
 
   // The bar always drives to the live trip builder. On the product homepage
   // ("/" or "/p1-home") it scrolls to the embedded builder (#try-it); on every
@@ -31,6 +60,7 @@ export function HelloBar() {
 
   return (
     <div
+      ref={barRef}
       role="region"
       aria-label="Trip planner announcement"
       className="sticky top-0 z-50 w-full text-white text-xs sm:text-sm"
