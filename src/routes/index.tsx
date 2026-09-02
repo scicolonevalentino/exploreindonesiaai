@@ -420,6 +420,13 @@ export function Trust() {
 // Minimum number of cards we expect for a healthy carousel.
 const MIN_EXPECTED_ARTICLES = 4;
 
+/**
+ * How many itineraries appear in the homepage carousel. Capped so the row
+ * doesn't grow without bound as the catalogue does — both for bandwidth and
+ * because the loop time scales with the card count (see .marquee-scaled).
+ */
+const MARQUEE_CARDS = 20;
+
 type GtagFn = (cmd: string, event: string, params: Record<string, unknown>) => void;
 type WindowWithAnalytics = {
   gtag?: GtagFn;
@@ -762,7 +769,13 @@ function InspirationMarquee() {
   }
 
   const fewerThanExpected = articles.length < MIN_EXPECTED_ARTICLES;
-  const loop = [...articles, ...articles];
+  // Only the newest few ride the carousel. The row is ambient decoration, not a
+  // browse surface — /trips is — and every extra card is another image the page
+  // eventually downloads: at 59 articles an engaged session pulled ~1.6MB just
+  // from this row. Articles arrive ordered by articleCreatedDate desc, so this
+  // keeps the freshest ones.
+  const shown = articles.slice(0, MARQUEE_CARDS);
+  const loop = [...shown, ...shown];
 
   return (
     <>
@@ -787,19 +800,19 @@ function InspirationMarquee() {
           className="flex gap-4 sm:gap-5 w-max animate-marquee marquee-scaled focus:outline-none"
           role="region"
           aria-roledescription="carousel"
-          aria-label={`${articles.length} Indonesia trip itineraries.`}
+          aria-label={`${shown.length} Indonesia trip itineraries.`}
           // Scroll speed is derived from the card count (see .marquee-scaled),
           // so publishing more itineraries lengthens the loop instead of
           // speeding the row up.
-          style={{ "--marquee-cards": articles.length } as CSSProperties}
+          style={{ "--marquee-cards": shown.length } as CSSProperties}
         >
           {loop.map((a, i) => (
             <InspirationCard
               key={`${a._id}-${i}`}
               article={a}
-              position={i % articles.length}
-              totalCards={articles.length}
-              isDuplicate={i >= articles.length}
+              position={i % shown.length}
+              totalCards={shown.length}
+              isDuplicate={i >= shown.length}
             />
           ))}
         </div>
