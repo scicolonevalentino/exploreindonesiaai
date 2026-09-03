@@ -1,19 +1,19 @@
-// Cookiebot-driven consent (Usercentrics CMP), manual blocking mode.
+// Consent bridge — maps our self-hosted consent store onto Google Consent Mode
+// v2 and lazy-loads GA4 / GTM / Contentsquare / affiliate trackers.
 //
-// Cookiebot owns the consent banner and persists the visitor's choice — we no
-// longer render a custom banner or store a `cookie-consent-v1` localStorage key.
-// Our only job here is to BRIDGE Cookiebot's consent categories onto Google
-// Consent Mode v2 signals and lazy-load GA4 / GTM / Contentsquare once the
-// visitor grants the relevant category.
+// The consent store (consent.ts) owns the visitor's choice; CookieConsent.tsx
+// renders the banner. Our only job here is to react to a decision and load the
+// matching trackers — the exact same behaviour Cookiebot's manual blocking mode
+// gave us, minus the third-party CMP.
 //
 // Flow:
-//   1. __root.tsx head sets Consent Mode default = denied (runs before Cookiebot).
-//   2. __root.tsx head injects the Cookiebot loader (uc.js, data-blockingmode="manual").
-//   3. Cookiebot shows the banner on first visit and fires consent events.
-//   4. initCookiebotConsent() (called once on mount) maps those events ->
-//      gtag('consent','update', …) and loads the trackers.
+//   1. __root.tsx head sets Consent Mode default = denied (runs before any tag).
+//   2. <CookieConsent /> shows the banner on first visit and saves the choice.
+//   3. saveConsent() broadcasts CONSENT_EVENT.
+//   4. initConsent() (called once on mount) applies a stored decision and
+//      subscribes to CONSENT_EVENT -> gtag('consent','update', …) + loaders.
 //
-// Category mapping (Cookiebot -> Consent Mode v2):
+// Category mapping (store -> Consent Mode v2):
 //   statistics -> analytics_storage   (GA4 + GTM + Contentsquare)
 //   marketing  -> ad_storage, ad_user_data, ad_personalization
 
@@ -29,18 +29,12 @@ const TRAVELPAYOUTS_SRC = "https://emrldtp.cc/NTM1Mzc0.js?t=535374";
 const GETYOURGUIDE_SRC = "https://widget.getyourguide.com/dist/pa.umd.production.min.js";
 const GETYOURGUIDE_PARTNER_ID = "E2JIZZL";
 
-type CookiebotConsent = {
-  necessary: boolean;
-  preferences: boolean;
-  statistics: boolean;
-  marketing: boolean;
-};
-
-declare global {
-  interface Window {
-    Cookiebot?: { consent: CookiebotConsent };
-  }
-}
+import {
+  type ConsentCategories,
+  getConsentCategories,
+  hasConsentDecision,
+  onConsentChange,
+} from "@/lib/consent";
 
 let analyticsLoaded = false;
 let affiliateLoaded = false;
@@ -107,7 +101,7 @@ export function loadAffiliate() {
   });
 }
 
-function applyConsent(consent: CookiebotConsent) {
+function applyConsent(consent: ConsentCategories) {
   const statistics = consent.statistics ? "granted" : "denied";
   const marketing = consent.marketing ? "granted" : "denied";
 
@@ -126,20 +120,14 @@ function applyConsent(consent: CookiebotConsent) {
   if (consent.marketing) loadAffiliate();
 }
 
-// Bridge Cookiebot -> Consent Mode. Call once on app mount (client only).
-export function initCookiebotConsent() {
+// Bridge the consent store -> Consent Mode. Call once on app mount (client only).
+export function initConsent() {
   if (typeof window === "undefined") return;
 
-  const apply = () => {
-    if (window.Cookiebot?.consent) applyConsent(window.Cookiebot.consent);
-  };
+  // Returning visitor with a stored decision: apply it now. First-time visitors
+  // have no decision yet — Consent Mode stays at its denied default until they
+  // choose in the banner, which then fires CONSENT_EVENT below.
+  if (hasConsentDecision()) applyConsent(getConsentCategories());
 
-  // Returning visitors: Cookiebot may have already restored a stored response
-  // (and fired its event) before this listener attached — apply immediately.
-  apply();
-
-  // First visit + subsequent changes via the banner / "renew consent" link.
-  window.addEventListener("CookiebotOnConsentReady", apply);
-  window.addEventListener("CookiebotOnAccept", apply);
-  window.addEventListener("CookiebotOnDecline", apply);
+  onConsentChange((c) => applyConsent({ statistics: c.statistics, marketing: c.marketing }));
 }

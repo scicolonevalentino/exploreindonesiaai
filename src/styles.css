@@ -316,12 +316,3 @@
 .route-extra.open {
   max-height: 2400px;
 }
-
-/* Cookiebot privacy trigger (the floating consent badge). Cookiebot's own
-   responsive CSS shifts the widget on narrow viewports; pin it bottom-left on
-   every breakpoint so it matches the desktop placement. !important is needed to
-   beat Cookiebot's injected inline/media-query styles. */
-#CookiebotWidget {
-  left: 1rem !important;
-  right: auto !important;
-}
