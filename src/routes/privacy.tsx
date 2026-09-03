@@ -31,7 +31,7 @@ function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="text-sm mb-10" style={{ color: "var(--slate-muted)" }}>
-          Last updated: June 2026
+          Last updated: September 2026
         </p>
 
         <div
@@ -100,9 +100,111 @@ function PrivacyPage() {
           <Section title="Cookies">
             <p>
               We default all non-essential cookies to &ldquo;denied&rdquo; using Google&rsquo;s
-              Consent Mode. Until you click &ldquo;Accept all&rdquo; in the cookie banner, no
-              analytics or measurement cookies are set. You can review or change your choice at any
-              time via the &ldquo;Cookie settings&rdquo; link in the footer.
+              Consent Mode. Until you choose in the cookie banner, no analytics, measurement, or
+              marketing cookies are set. You can review or change your choice at any time via the
+              &ldquo;Cookie settings&rdquo; link in the footer. Your choice itself is stored on your
+              device (not a tracker) so we can remember it.
+            </p>
+
+            <h3
+              className="font-serif text-lg font-semibold mt-6 mb-2"
+              style={{ color: "var(--navy-mid)" }}
+            >
+              Strictly necessary &mdash; always on
+            </h3>
+            <p className="!mt-0">
+              Required for the site to work. These set no analytics or advertising identifiers.
+            </p>
+            <CookieTable
+              rows={[
+                [
+                  "cookie-consent-v1",
+                  "ExploreIndonesia.ai",
+                  "Remembers your cookie choices so we don’t ask again.",
+                  "Until you clear it",
+                ],
+                [
+                  "camille:*",
+                  "camille.travel",
+                  "Keeps the travel-assistant chat widget’s state.",
+                  "Persistent",
+                ],
+                [
+                  "Session / security",
+                  "Vercel (hosting)",
+                  "Load balancing and basic security for page delivery.",
+                  "Session",
+                ],
+              ]}
+            />
+
+            <h3
+              className="font-serif text-lg font-semibold mt-6 mb-2"
+              style={{ color: "var(--navy-mid)" }}
+            >
+              Statistics &mdash; only after you accept
+            </h3>
+            <p className="!mt-0">
+              Anonymous traffic and usage measurement, so we can improve the site.
+            </p>
+            <CookieTable
+              rows={[
+                [
+                  "_ga, _ga_*",
+                  "Google Analytics 4",
+                  "Distinguishes visitors and sessions to measure traffic.",
+                  "Up to 2 years",
+                ],
+                [
+                  "_cs_c, _cs_id, _cs_s",
+                  "Contentsquare",
+                  "Anonymous behaviour and UX analytics.",
+                  "Up to 13 months",
+                ],
+                [
+                  "ei_capture_sid",
+                  "ExploreIndonesia.ai",
+                  "Anonymous session ID to understand what trips people ask for.",
+                  "Persistent",
+                ],
+              ]}
+            />
+            <p className="text-sm">
+              Google Tag Manager (container GTM-MNZHRZ79) loads these tags; it sets no cookies of
+              its own.
+            </p>
+
+            <h3
+              className="font-serif text-lg font-semibold mt-6 mb-2"
+              style={{ color: "var(--navy-mid)" }}
+            >
+              Marketing &mdash; only after you accept
+            </h3>
+            <p className="!mt-0">
+              Let travel partners credit bookings you make after clicking a link, so we can earn a
+              commission at no extra cost to you.
+            </p>
+            <CookieTable
+              rows={[
+                [
+                  "am_user_session, storage_f",
+                  "Travelpayouts",
+                  "Attributes travel bookings to us.",
+                  "Session / persistent",
+                ],
+                [
+                  "partner_id, gyg_visitor_id",
+                  "GetYourGuide",
+                  "Attributes GetYourGuide tour bookings.",
+                  "Persistent",
+                ],
+              ]}
+            />
+            <p className="text-sm">
+              When you click through to a partner (Booking.com, Viator, Klook, 12Go, Airalo, and
+              others), that partner may set its own cookies on its own website to record the
+              referral. Those cookies are governed by the partner&rsquo;s privacy policy and are
+              only reached if you grant marketing consent and then click the link.
             </p>
           </Section>
 
@@ -159,6 +261,63 @@ function PrivacyPage() {
         </div>
       </div>
     </article>
+  );
+}
+
+// Rows: [cookie name(s), set by, purpose, retention]. Wrapped in an overflow
+// container so the table scrolls on narrow screens instead of breaking layout.
+function CookieTable({ rows }: { rows: Array<[string, string, string, string]> }) {
+  return (
+    <div
+      className="not-prose my-4 overflow-x-auto rounded-lg border"
+      style={{ borderColor: "var(--border-cream)" }}
+    >
+      <table className="w-full text-left text-sm" style={{ borderCollapse: "collapse" }}>
+        <thead>
+          <tr style={{ backgroundColor: "#ffffff" }}>
+            {["Cookie", "Set by", "Purpose", "Keeps for"].map((h) => (
+              <th
+                key={h}
+                className="px-3 py-2 font-semibold whitespace-nowrap"
+                style={{ color: "var(--navy-deep)", borderBottom: "1px solid var(--border-cream)" }}
+              >
+                {h}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(([name, provider, purpose, retention]) => (
+            <tr key={name} style={{ color: "var(--text-dark)" }}>
+              <td
+                className="px-3 py-2 align-top font-mono text-xs whitespace-nowrap"
+                style={{ borderTop: "1px solid var(--border-cream)" }}
+              >
+                {name}
+              </td>
+              <td
+                className="px-3 py-2 align-top whitespace-nowrap"
+                style={{ borderTop: "1px solid var(--border-cream)" }}
+              >
+                {provider}
+              </td>
+              <td
+                className="px-3 py-2 align-top"
+                style={{ borderTop: "1px solid var(--border-cream)" }}
+              >
+                {purpose}
+              </td>
+              <td
+                className="px-3 py-2 align-top whitespace-nowrap"
+                style={{ borderTop: "1px solid var(--border-cream)" }}
+              >
+                {retention}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
