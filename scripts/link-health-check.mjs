@@ -199,6 +199,19 @@ function isAffiliateRedirector(host) {
   return !!host && AFFILIATE_REDIRECTORS.includes(stripDomain(host));
 }
 
+// Hosts whose only purpose is to count and attribute an affiliate click. Every
+// HTTP request to them is billed as a real click by the network (Travelpayouts
+// in our case). Auditing them from CI on 2026-09-02 generated ~5.5k phantom
+// clicks in five days and triggered a fraud-check email from Klook via
+// Travelpayouts. The audit MUST NOT touch them — they 302 straight into the
+// partner's own domain (klook.com, airalo.com), which is already covered by
+// separate anchors in our content, so we lose no coverage by skipping them.
+const BILLABLE_REDIRECTOR_HOSTS = ["tpx.lu", "emrldtp.cc", "tp.media"];
+function isBillableRedirector(host) {
+  if (!host) return false;
+  return BILLABLE_REDIRECTOR_HOSTS.some((d) => host === d || host.endsWith("." + d));
+}
+
 async function pool(items, n, fn) {
   const results = new Array(items.length);
   let i = 0;
@@ -236,6 +249,16 @@ async function pool(items, n, fn) {
   const checked = await pool(all, 8, async (l, i) => {
     if (!l.url) return { ...l, check: { ok: false, error: l.error || "no-url" } };
     process.stderr.write(`\r[${i + 1}/${all.length}]   `);
+    // Never hit affiliate click-tracking hosts from CI — each request is a
+    // billable click. See BILLABLE_REDIRECTOR_HOSTS above.
+    if (isBillableRedirector(safeHost(l.url))) {
+      return {
+        ...l,
+        skipped: "billable-redirector",
+        check: { ok: true, status: 0, finalUrl: l.url, redirected: false },
+        flags: [],
+      };
+    }
     const result = await check(resolveUrl(l.url));
     const flags = [];
     const finalHost = safeHost(result.finalUrl);
@@ -313,8 +336,10 @@ async function pool(items, n, fn) {
   );
   const warnings = issues.filter((c) => !errors.includes(c));
 
+  const skipped = checked.filter((c) => c.skipped);
   console.log(`\n=== SUMMARY ===`);
   console.log(`Total links checked : ${checked.length}`);
+  console.log(`Skipped (billable redirectors, e.g. *.tpx.lu) : ${skipped.length}`);
   console.log(`Errors              : ${errors.length}`);
   console.log(`Warnings (bot-shield / transient): ${warnings.length}`);
 
