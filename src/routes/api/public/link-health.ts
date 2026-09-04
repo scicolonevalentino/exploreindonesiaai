@@ -90,6 +90,19 @@ const AFFILIATE_REDIRECTORS = ["tpx.lu"];
 function isAffiliateRedirector(h: string | null) {
   return !!h && AFFILIATE_REDIRECTORS.includes(stripDomain(h));
 }
+
+// Hosts whose only purpose is to count and attribute an affiliate click. Every
+// HTTP request to them is billed as a real click by the network (Travelpayouts
+// in our case). Auditing them from CI on 2026-09-02 generated ~5.5k phantom
+// clicks in five days and triggered a fraud-check email from Klook via
+// Travelpayouts. The audit MUST NOT touch them — they 302 straight into the
+// partner's own domain (klook.com, airalo.com), which is already covered by
+// separate anchors in our content, so we lose no coverage by skipping them.
+const BILLABLE_REDIRECTOR_HOSTS = ["tpx.lu", "emrldtp.cc", "tp.media"];
+function isBillableRedirector(h: string | null) {
+  if (!h) return false;
+  return BILLABLE_REDIRECTOR_HOSTS.some((d) => h === d || h.endsWith("." + d));
+}
 function hasAffiliateMarker(url: string, partner: string | null) {
   // Partner names come from the CMS and are inconsistently cased ("Klook",
   // "klook", "Booking.com"), so match case-insensitively — otherwise the whole
@@ -230,6 +243,15 @@ async function runAudit() {
         error?: string;
       } = { ok: false, error: l.error };
       return { ...l, check: c, flags: [l.error ?? "no-url"] };
+    }
+    // Never hit affiliate click-tracking hosts — each request is a billable
+    // click. See BILLABLE_REDIRECTOR_HOSTS above.
+    if (isBillableRedirector(safeHost(l.url))) {
+      return {
+        ...l,
+        check: { ok: true, status: 0, finalUrl: l.url, redirected: false },
+        flags: [] as string[],
+      };
     }
     const r: {
       ok: boolean;
