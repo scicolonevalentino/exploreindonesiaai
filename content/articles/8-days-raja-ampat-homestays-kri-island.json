@@ -11,12 +11,13 @@
       "placeholderId": "AIRALO_INDONESIA"
     },
     {
-      "affiliateUrl": "https://12go.asia/en/travel/sorong/waisai?z=16022946",
-      "anchorText": "Check the Sorong to Waisai ferry on 12Go",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/sorong?z=16022946",
+      "anchorText": "compare flights into Sorong",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "partner": "12Go",
-      "placeholderId": "TWELVEGO_SORONG_WAISAI"
+      "placeholderId": "TWELVEGO_SORONG_WAISAI",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/sorong"
     },
     {
       "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sorong%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
@@ -220,7 +221,12 @@
       "_key": "b27",
       "_type": "comparisonTable",
       "caption": "The three ways to sleep in Raja Ampat, priced per person per night as a working estimate. Rates move with season and with the exchange rate, so treat these as planning figures rather than quotes.",
-      "columns": ["Option", "Rough nightly cost", "What is included", "Who it suits"],
+      "columns": [
+        "Option",
+        "Rough nightly cost",
+        "What is included",
+        "Who it suits"
+      ],
       "rows": [
         {
           "_key": "b28",
@@ -286,17 +292,39 @@
         {
           "_key": "b36",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
-          "_key": "b37",
+          "_key": "b37a",
           "_type": "span",
           "marks": [],
-          "text": " Fly into Sorong from Jakarta, Makassar or Manado. The direct hop from Jakarta runs about four hours as a working estimate, with Garuda, Batik, Lion and Citilink among the carriers serving the route. Confirm current flight routes before you lock anything else, because Papua schedules change more often than most of Indonesia."
+          "text": " "
+        },
+        {
+          "_key": "b37b",
+          "_type": "span",
+          "marks": [
+            "mktwelve"
+          ],
+          "text": "Fly into Sorong from Jakarta, Makassar or Manado"
+        },
+        {
+          "_key": "b37c",
+          "_type": "span",
+          "marks": [],
+          "text": ". The direct hop from Jakarta runs about four hours as a working estimate, with Garuda, Batik, Lion and Citilink among the carriers serving the route. Confirm current flight routes before you lock anything else, because Papua schedules change more often than most of Indonesia."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "mktwelve",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_SORONG_WAISAI"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -306,7 +334,9 @@
         {
           "_key": "b39",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -326,7 +356,9 @@
         {
           "_key": "b42",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -338,7 +370,9 @@
         {
           "_key": "b44",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -350,7 +384,9 @@
         {
           "_key": "b46",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -362,7 +398,9 @@
         {
           "_key": "b48",
           "_type": "span",
-          "marks": ["mdbookspan"],
+          "marks": [
+            "mdbookspan"
+          ],
           "text": "search Sorong hotels on Booking.com"
         },
         {
@@ -374,7 +412,9 @@
         {
           "_key": "b50",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -414,7 +454,9 @@
         {
           "_key": "b55",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -434,7 +476,9 @@
         {
           "_key": "b58",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Midday."
         },
         {
@@ -446,8 +490,8 @@
         {
           "_key": "b60",
           "_type": "span",
-          "marks": ["md12gospan"],
-          "text": "Check the Sorong to Waisai ferry on 12Go"
+          "marks": [],
+          "text": "Check the Sorong to Waisai ferry"
         },
         {
           "_key": "b61",
@@ -456,13 +500,7 @@
           "text": " to see what is currently running, then buy at the port. As a working estimate economy runs around IDR 137,000 and the VIP cabin around IDR 262,000, with a small boarding tax on top, roughly IDR 12,000 at Sorong and IDR 5,000 at Waisai. The VIP cabin buys air-conditioning and a private toilet, which on a rough crossing is money well spent."
         }
       ],
-      "markDefs": [
-        {
-          "_key": "md12gospan",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "TWELVEGO_SORONG_WAISAI"
-        }
-      ],
+      "markDefs": [],
       "style": "normal"
     },
     {
@@ -472,7 +510,9 @@
         {
           "_key": "b63",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -484,7 +524,9 @@
         {
           "_key": "b65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -496,7 +538,9 @@
         {
           "_key": "b67",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -516,7 +560,9 @@
         {
           "_key": "b70",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -528,7 +574,9 @@
         {
           "_key": "b72",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -562,7 +610,9 @@
         {
           "_key": "b77",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -582,7 +632,9 @@
         {
           "_key": "b80",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -602,7 +654,9 @@
         {
           "_key": "b83",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -614,7 +668,9 @@
         {
           "_key": "b85",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -626,7 +682,9 @@
         {
           "_key": "b87",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -660,7 +718,9 @@
         {
           "_key": "b92",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -680,7 +740,9 @@
         {
           "_key": "b95",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -700,7 +762,9 @@
         {
           "_key": "b98",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -712,7 +776,9 @@
         {
           "_key": "b100",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -746,7 +812,9 @@
         {
           "_key": "b105",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -766,7 +834,9 @@
         {
           "_key": "b108",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -786,7 +856,9 @@
         {
           "_key": "b111",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -798,7 +870,9 @@
         {
           "_key": "b113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -810,7 +884,9 @@
         {
           "_key": "b115",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -844,7 +920,9 @@
         {
           "_key": "b120",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Pre-dawn."
         },
         {
@@ -864,7 +942,9 @@
         {
           "_key": "b123",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -884,7 +964,9 @@
         {
           "_key": "b126",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -896,7 +978,9 @@
         {
           "_key": "b128",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -930,7 +1014,9 @@
         {
           "_key": "b133",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -950,7 +1036,9 @@
         {
           "_key": "b136",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -962,7 +1050,9 @@
         {
           "_key": "b138",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -974,7 +1064,9 @@
         {
           "_key": "b140",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -994,7 +1086,9 @@
         {
           "_key": "b143",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1028,7 +1122,9 @@
         {
           "_key": "b148",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1040,7 +1136,9 @@
         {
           "_key": "b150",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1141,7 +1239,12 @@
       "_key": "b156",
       "_type": "comparisonTable",
       "caption": "The two mandatory Raja Ampat payments, plus the diver-only tag. Published figures differ between sources and the structure has changed recently, so confirm at the booth and treat these as working estimates.",
-      "columns": ["Payment", "Cost", "Where it is handled", "Notes"],
+      "columns": [
+        "Payment",
+        "Cost",
+        "Where it is handled",
+        "Notes"
+      ],
       "rows": [
         {
           "_key": "b157",
@@ -1375,7 +1478,9 @@
         {
           "_key": "b189",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and connectivity. "
         },
         {
@@ -1387,7 +1492,9 @@
         {
           "_key": "b191",
           "_type": "span",
-          "marks": ["mdairalospan"],
+          "marks": [
+            "mdairalospan"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -1503,7 +1610,9 @@
         {
           "_key": "b207",
           "_type": "span",
-          "marks": ["rel1"],
+          "marks": [
+            "rel1"
+          ],
           "text": "7 Days in Raja Ampat: Snorkelling, Islands and Karst"
         },
         {
@@ -1515,7 +1624,9 @@
         {
           "_key": "b209",
           "_type": "span",
-          "marks": ["rel2"],
+          "marks": [
+            "rel2"
+          ],
           "text": "14 Days in Raja Ampat for Divers"
         },
         {
@@ -1527,7 +1638,9 @@
         {
           "_key": "b211",
           "_type": "span",
-          "marks": ["rel3"],
+          "marks": [
+            "rel3"
+          ],
           "text": "9 Days in Raja Ampat with Kids"
         },
         {
@@ -1626,8 +1739,15 @@
   },
   "title": "8 Days in Raja Ampat: A Homestay Trip Based on Kri Island",
   "travelStylePrimary": "remote_offbeat",
-  "travelStyleSecondary": ["diving_snorkeling", "beach_islands"],
-  "travellerTypes": ["solo_travellers", "friends", "couples"],
+  "travelStyleSecondary": [
+    "diving_snorkeling",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "solo_travellers",
+    "friends",
+    "couples"
+  ],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 8,
   "vibe": "remote"

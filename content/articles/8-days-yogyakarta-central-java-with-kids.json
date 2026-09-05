@@ -1,28 +1,6 @@
 {
   "_id": "itinerary-8-days-yogyakarta-central-java-with-kids",
   "_type": "article",
-  "title": "8 Days in Yogyakarta and Central Java With Kids",
-  "slug": {
-    "_type": "slug",
-    "current": "8-days-yogyakarta-central-java-with-kids"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-26T09:00:00Z",
-  "destinationPrimary": "java",
-  "travelStylePrimary": "culture_temples",
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 8,
-  "travellerTypes": ["families"],
-  "vibe": "relaxed",
-  "route": "Yogyakarta → Borobudur → Prambanan → Mount Merapi → Gunungkidul",
-  "focusKeyword": "Yogyakarta family itinerary",
-  "metaTitle": "Yogyakarta With Kids: 8-Day Central Java Plan",
-  "metaDescription": "A relaxed 8-day Yogyakarta family itinerary from one base: Borobudur, Prambanan, a Merapi jeep and calm Gunungkidul caves, with honest, kid-paced advice.",
-  "intro": "Most Central Java itineraries move you to a new hotel every night, which is the fastest way to exhaust a family. This plan does the opposite. You unpack once in Yogyakarta and let Borobudur, Prambanan, Mount Merapi and the Gunungkidul caves come to you as day trips, one main outing a day, with a buffer day built in. The goal is not to see everything in eight days, it is to see a handful of genuinely good things at a pace kids can actually handle.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "k0001",
@@ -36,13 +14,13 @@
     },
     {
       "_key": "k0002",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/yogyakarta?z=16022946",
       "anchorText": "compare trains and transfers on 12Go",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "partner": "12go",
       "placeholderId": "12GO_YOGYAKARTA_TRANSPORT",
-      "publicUrl": "https://12go.asia"
+      "publicUrl": "https://12go.asia/en/travel/jakarta/yogyakarta"
     },
     {
       "_key": "k0003",
@@ -65,6 +43,11 @@
       "publicUrl": "https://www.klook.com/activity/15964-merapi-kaliadem-private-jeep-yogyakarta/"
     }
   ],
+  "articleCreatedDate": "2026-06-26T09:00:00Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
       "_key": "k0006",
@@ -115,7 +98,9 @@
         {
           "_key": "k0011",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "It is not the right trip if you are chasing a sunrise at any cost."
         },
         {
@@ -149,7 +134,9 @@
         {
           "_key": "k0016",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Length: "
         },
         {
@@ -169,7 +156,9 @@
         {
           "_key": "k0019",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Pace: "
         },
         {
@@ -189,7 +178,9 @@
         {
           "_key": "k0022",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best for: "
         },
         {
@@ -209,7 +200,9 @@
         {
           "_key": "k0025",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Getting there: "
         },
         {
@@ -229,7 +222,9 @@
         {
           "_key": "k0028",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Rough route: "
         },
         {
@@ -319,7 +314,9 @@
         {
           "_key": "k0041",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -331,7 +328,9 @@
         {
           "_key": "k0044",
           "_type": "span",
-          "marks": ["k0043"],
+          "marks": [
+            "k0043"
+          ],
           "text": "an Indonesia eSIM with Airalo"
         },
         {
@@ -357,7 +356,9 @@
         {
           "_key": "k0047",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -377,7 +378,9 @@
         {
           "_key": "k0050",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -397,7 +400,9 @@
         {
           "_key": "k0053",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -409,7 +414,9 @@
         {
           "_key": "k0056",
           "_type": "span",
-          "marks": ["k0055"],
+          "marks": [
+            "k0055"
+          ],
           "text": "compare trains and transfers on 12Go"
         },
         {
@@ -449,7 +456,9 @@
         {
           "_key": "k0061",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -469,7 +478,9 @@
         {
           "_key": "k0064",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -489,7 +500,9 @@
         {
           "_key": "k0067",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -509,7 +522,9 @@
         {
           "_key": "k0070",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -543,7 +558,9 @@
         {
           "_key": "k0075",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -563,7 +580,9 @@
         {
           "_key": "k0078",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -583,7 +602,9 @@
         {
           "_key": "k0081",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -595,7 +616,9 @@
         {
           "_key": "k0084",
           "_type": "span",
-          "marks": ["k0083"],
+          "marks": [
+            "k0083"
+          ],
           "text": "a guided Borobudur and Prambanan day tour"
         },
         {
@@ -621,7 +644,9 @@
         {
           "_key": "k0087",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -655,7 +680,9 @@
         {
           "_key": "k0092",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -675,7 +702,9 @@
         {
           "_key": "k0095",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -695,7 +724,9 @@
         {
           "_key": "k0098",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -715,7 +746,9 @@
         {
           "_key": "k0101",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -749,7 +782,9 @@
         {
           "_key": "k0106",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -769,7 +804,9 @@
         {
           "_key": "k0109",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -789,7 +826,9 @@
         {
           "_key": "k0112",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -801,7 +840,9 @@
         {
           "_key": "k0115",
           "_type": "span",
-          "marks": ["k0114"],
+          "marks": [
+            "k0114"
+          ],
           "text": "a private Merapi Kaliadem jeep tour"
         },
         {
@@ -827,7 +868,9 @@
         {
           "_key": "k0118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -861,7 +904,9 @@
         {
           "_key": "k0123",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -881,7 +926,9 @@
         {
           "_key": "k0126",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -901,7 +948,9 @@
         {
           "_key": "k0129",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -921,7 +970,9 @@
         {
           "_key": "k0132",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -955,7 +1006,9 @@
         {
           "_key": "k0137",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -975,7 +1028,9 @@
         {
           "_key": "k0140",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -995,7 +1050,9 @@
         {
           "_key": "k0143",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1029,7 +1086,9 @@
         {
           "_key": "k0148",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1049,7 +1108,9 @@
         {
           "_key": "k0151",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -1083,7 +1144,9 @@
         {
           "_key": "k0156",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early: "
         },
         {
@@ -1103,7 +1166,9 @@
         {
           "_key": "k0159",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible: "
         },
         {
@@ -1137,7 +1202,9 @@
         {
           "_key": "k0164",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Chasing every sunrise. "
         },
         {
@@ -1157,7 +1224,9 @@
         {
           "_key": "k0167",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Changing hotels too often. "
         },
         {
@@ -1177,7 +1246,9 @@
         {
           "_key": "k0170",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating the airport transfer. "
         },
         {
@@ -1197,7 +1268,9 @@
         {
           "_key": "k0173",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Stacking two big things in one day. "
         },
         {
@@ -1231,7 +1304,9 @@
         {
           "_key": "k0178",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut if you are short on time: "
         },
         {
@@ -1251,7 +1326,9 @@
         {
           "_key": "k0181",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt for younger kids: "
         },
         {
@@ -1271,7 +1348,9 @@
         {
           "_key": "k0184",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade for older kids and teens: "
         },
         {
@@ -1305,7 +1384,9 @@
         {
           "_key": "k0189",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1325,7 +1406,9 @@
         {
           "_key": "k0192",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and connectivity. "
         },
         {
@@ -1345,7 +1428,9 @@
         {
           "_key": "k0195",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Season. "
         },
         {
@@ -1365,7 +1450,9 @@
         {
           "_key": "k0198",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Health and pace. "
         },
         {
@@ -1447,7 +1534,9 @@
         {
           "_key": "k0211",
           "_type": "span",
-          "marks": ["k0210"],
+          "marks": [
+            "k0210"
+          ],
           "text": "7-day Yogyakarta and East Java itinerary"
         },
         {
@@ -1480,7 +1569,9 @@
         {
           "_key": "k0216",
           "_type": "span",
-          "marks": ["k0215"],
+          "marks": [
+            "k0215"
+          ],
           "text": "7-day Bali with kids itinerary"
         },
         {
@@ -1513,7 +1604,9 @@
         {
           "_key": "k0221",
           "_type": "span",
-          "marks": ["k0220"],
+          "marks": [
+            "k0220"
+          ],
           "text": "Java destination guide"
         },
         {
@@ -1534,6 +1627,8 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
   "faq": [
     {
       "_key": "k0224",
@@ -1571,6 +1666,7 @@
       "question": "Is Yogyakarta or Bali better for a family trip?"
     }
   ],
+  "focusKeyword": "Yogyakarta family itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Visitors walking the stone terraces of Borobudur temple under a blue sky in Central Java",
@@ -1578,5 +1674,21 @@
       "_ref": "image-1bfad19004e0ba3a8c48e4c7cc205f6c9ed5c93d-1024x678-jpg",
       "_type": "reference"
     }
-  }
+  },
+  "intro": "Most Central Java itineraries move you to a new hotel every night, which is the fastest way to exhaust a family. This plan does the opposite. You unpack once in Yogyakarta and let Borobudur, Prambanan, Mount Merapi and the Gunungkidul caves come to you as day trips, one main outing a day, with a buffer day built in. The goal is not to see everything in eight days, it is to see a handful of genuinely good things at a pace kids can actually handle.",
+  "metaDescription": "A relaxed 8-day Yogyakarta family itinerary from one base: Borobudur, Prambanan, a Merapi jeep and calm Gunungkidul caves, with honest, kid-paced advice.",
+  "metaTitle": "Yogyakarta With Kids: 8-Day Central Java Plan",
+  "route": "Yogyakarta → Borobudur → Prambanan → Mount Merapi → Gunungkidul",
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-yogyakarta-central-java-with-kids"
+  },
+  "title": "8 Days in Yogyakarta and Central Java With Kids",
+  "travelStylePrimary": "culture_temples",
+  "travellerTypes": [
+    "families"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "vibe": "relaxed"
 }

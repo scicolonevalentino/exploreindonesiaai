@@ -40,15 +40,15 @@
     },
     {
       "_key": "a287",
-      "affiliateUrl": "https://12go.asia/en/travel/padang/bukittinggi?z=16022946",
-      "anchorText": "the Padang to Bukittinggi run",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/padang?z=16022946",
+      "anchorText": "Compare Jakarta to Padang flights",
       "day": "Extension",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "partner": "12go",
-      "placeholderId": "12GO_PADANG_BUKITTINGGI",
+      "placeholderId": "12GO_JAKARTA_PADANG",
       "priority": "medium",
-      "publicUrl": "https://12go.asia/en/travel/padang/bukittinggi"
+      "publicUrl": "https://12go.asia/en/travel/jakarta/padang"
     }
   ],
   "articleCreatedDate": "2026-08-14T04:18:27.244Z",
@@ -145,11 +145,19 @@
       "_key": "t13",
       "_type": "comparisonTable",
       "caption": "The eight-day shape. Drive times are door to door and assume daylight; add an hour in heavy rain.",
-      "columns": ["Days", "Base", "The shape of the day"],
+      "columns": [
+        "Days",
+        "Base",
+        "The shape of the day"
+      ],
       "rows": [
         {
           "_key": "r14",
-          "cells": ["Day 1", "Padang", "Land, eat, sleep low and warm before the altitude"]
+          "cells": [
+            "Day 1",
+            "Padang",
+            "Land, eat, sleep low and warm before the altitude"
+          ]
         },
         {
           "_key": "r15",
@@ -177,7 +185,11 @@
         },
         {
           "_key": "r18",
-          "cells": ["Day 5", "Kersik Tuo", "Pre-dawn summit push, then the whole descent in one go"]
+          "cells": [
+            "Day 5",
+            "Kersik Tuo",
+            "Pre-dawn summit push, then the whole descent in one go"
+          ]
         },
         {
           "_key": "r19",
@@ -189,11 +201,19 @@
         },
         {
           "_key": "r20",
-          "cells": ["Day 7", "Padang", "The long crossing back, with the coast for dinner"]
+          "cells": [
+            "Day 7",
+            "Padang",
+            "The long crossing back, with the coast for dinner"
+          ]
         },
         {
           "_key": "r21",
-          "cells": ["Day 8", "Padang", "Buffer day and the flight out"]
+          "cells": [
+            "Day 8",
+            "Padang",
+            "Buffer day and the flight out"
+          ]
         }
       ]
     },
@@ -274,7 +294,9 @@
         {
           "_key": "s33",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -294,7 +316,9 @@
         {
           "_key": "s36",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -314,7 +338,9 @@
         {
           "_key": "s39",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -326,7 +352,9 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": ["md38"],
+          "marks": [
+            "md38"
+          ],
           "text": "a night near Padang's airport side"
         },
         {
@@ -352,7 +380,9 @@
         {
           "_key": "s45",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -364,7 +394,9 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": ["md44"],
+          "marks": [
+            "md44"
+          ],
           "text": "a data eSIM before you leave the coast"
         },
         {
@@ -390,7 +422,9 @@
         {
           "_key": "s51",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -424,7 +458,9 @@
         {
           "_key": "s56",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -444,7 +480,9 @@
         {
           "_key": "s59",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -464,7 +502,9 @@
         {
           "_key": "s62",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -484,7 +524,9 @@
         {
           "_key": "s65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -504,7 +546,9 @@
         {
           "_key": "s68",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -524,7 +568,9 @@
         {
           "_key": "s71",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -558,7 +604,9 @@
         {
           "_key": "s76",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -578,7 +626,9 @@
         {
           "_key": "s79",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -598,7 +648,9 @@
         {
           "_key": "s82",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -618,7 +670,9 @@
         {
           "_key": "s85",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -638,7 +692,9 @@
         {
           "_key": "s88",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -658,7 +714,9 @@
         {
           "_key": "s91",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -692,7 +750,9 @@
         {
           "_key": "s96",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -712,7 +772,9 @@
         {
           "_key": "s99",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -732,7 +794,9 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -752,7 +816,9 @@
         {
           "_key": "s105",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -772,7 +838,9 @@
         {
           "_key": "s108",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -792,7 +860,9 @@
         {
           "_key": "s111",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -826,7 +896,9 @@
         {
           "_key": "s116",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -846,7 +918,9 @@
         {
           "_key": "s119",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -866,7 +940,9 @@
         {
           "_key": "s122",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -886,7 +962,9 @@
         {
           "_key": "s125",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -906,7 +984,9 @@
         {
           "_key": "s128",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -926,7 +1006,9 @@
         {
           "_key": "s131",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -960,7 +1042,9 @@
         {
           "_key": "s136",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -980,7 +1064,9 @@
         {
           "_key": "s139",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1000,7 +1086,9 @@
         {
           "_key": "s142",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1012,7 +1100,9 @@
         {
           "_key": "s144",
           "_type": "span",
-          "marks": ["md141"],
+          "marks": [
+            "md141"
+          ],
           "text": "a hotel night in Sungai Penuh"
         },
         {
@@ -1038,7 +1128,9 @@
         {
           "_key": "s148",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -1058,7 +1150,9 @@
         {
           "_key": "s151",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -1078,7 +1172,9 @@
         {
           "_key": "s154",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -1112,7 +1208,9 @@
         {
           "_key": "s159",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1132,7 +1230,9 @@
         {
           "_key": "s162",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1152,7 +1252,9 @@
         {
           "_key": "s165",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1172,7 +1274,9 @@
         {
           "_key": "s168",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -1192,7 +1296,9 @@
         {
           "_key": "s171",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -1226,7 +1332,9 @@
         {
           "_key": "s176",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1246,7 +1354,9 @@
         {
           "_key": "s179",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -1266,7 +1376,9 @@
         {
           "_key": "s182",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -1367,7 +1479,11 @@
       "_key": "t196",
       "_type": "comparisonTable",
       "caption": "Both hikes start within ten kilometres of Kersik Tuo and both need a park fee and a guide. Times are moving averages from local operators and vary widely with fitness and weather.",
-      "columns": ["", "Danau Gunung Tujuh", "Mount Kerinci"],
+      "columns": [
+        "",
+        "Danau Gunung Tujuh",
+        "Mount Kerinci"
+      ],
       "rows": [
         {
           "_key": "r197",
@@ -1403,7 +1519,11 @@
         },
         {
           "_key": "r201",
-          "cells": ["Closes when", "Rarely", "Whenever the alert level tightens the exclusion zone"]
+          "cells": [
+            "Closes when",
+            "Rarely",
+            "Whenever the alert level tightens the exclusion zone"
+          ]
         },
         {
           "_key": "r202",
@@ -1461,7 +1581,12 @@
       "_key": "t209",
       "_type": "comparisonTable",
       "caption": "Padang to Kersik Tuo or Sungai Penuh, roughly 240 kilometres over the Barisan range. Fares are 2026 working estimates in rupiah and move with fuel prices.",
-      "columns": ["Option", "Time", "Roughly what it costs", "Best for"],
+      "columns": [
+        "Option",
+        "Time",
+        "Roughly what it costs",
+        "Best for"
+      ],
       "rows": [
         {
           "_key": "r210",
@@ -1677,13 +1802,15 @@
           "_key": "s239",
           "_type": "span",
           "marks": [],
-          "text": "To extend it, go north rather than east. The Minangkabau highlands around Bukittinggi and Harau Valley are the natural companion to this valley, reachable on "
+          "text": "To extend it, go north rather than east. The Minangkabau highlands around Bukittinggi and Harau Valley are the natural companion to this valley, "
         },
         {
           "_key": "s240",
           "_type": "span",
-          "marks": ["md238"],
-          "text": "the Padang to Bukittinggi run"
+          "marks": [
+            "md238"
+          ],
+          "text": "reachable by road from Padang, which you can fly into from Jakarta"
         },
         {
           "_key": "s241",
@@ -1696,7 +1823,7 @@
         {
           "_key": "md238",
           "_type": "affiliateLinkRef",
-          "placeholderId": "12GO_PADANG_BUKITTINGGI"
+          "placeholderId": "12GO_JAKARTA_PADANG"
         }
       ],
       "style": "normal"
@@ -1736,7 +1863,9 @@
         {
           "_key": "s248",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1756,7 +1885,9 @@
         {
           "_key": "s251",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Season. "
         },
         {
@@ -1776,7 +1907,9 @@
         {
           "_key": "s254",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Fitness. "
         },
         {
@@ -1796,7 +1929,9 @@
         {
           "_key": "s257",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money. "
         },
         {
@@ -1816,7 +1951,9 @@
         {
           "_key": "s260",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Getting there. "
         },
         {
@@ -1912,7 +2049,9 @@
         {
           "_key": "s276",
           "_type": "span",
-          "marks": ["md275"],
+          "marks": [
+            "md275"
+          ],
           "text": "the West Sumatra highlands"
         },
         {
@@ -1924,7 +2063,9 @@
         {
           "_key": "s279",
           "_type": "span",
-          "marks": ["md278"],
+          "marks": [
+            "md278"
+          ],
           "text": "the fifteen-day Sumatra route"
         },
         {
@@ -1936,7 +2077,9 @@
         {
           "_key": "s282",
           "_type": "span",
-          "marks": ["md281"],
+          "marks": [
+            "md281"
+          ],
           "text": "wildlife-led trips through Indonesia's outer islands"
         },
         {
@@ -1981,7 +2124,9 @@
         {
           "_key": "cs2",
           "_type": "span",
-          "marks": ["cd1"],
+          "marks": [
+            "cd1"
+          ],
           "text": "Muhamad Izzul Fiqih"
         },
         {
@@ -1993,7 +2138,9 @@
         {
           "_key": "cs4",
           "_type": "span",
-          "marks": ["cd2"],
+          "marks": [
+            "cd2"
+          ],
           "text": "CC BY-SA 4.0"
         },
         {
@@ -2072,7 +2219,11 @@
   },
   "title": "8 Days in Kerinci: Sumatra's Highest Volcano and the Crater Lake Below It",
   "travelStylePrimary": "adventure_volcanoes",
-  "travellerTypes": ["solo_travellers", "friends", "repeat_travellers"],
+  "travellerTypes": [
+    "solo_travellers",
+    "friends",
+    "repeat_travellers"
+  ],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 8,
   "vibe": "remote"

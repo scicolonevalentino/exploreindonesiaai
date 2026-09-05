@@ -1,32 +1,6 @@
 {
   "_id": "itinerary-9-days-raja-ampat-with-kids",
   "_type": "article",
-  "title": "9 Days in Raja Ampat with Kids: One Base, Calm Reefs and Honest Logistics",
-  "slug": {
-    "_type": "slug",
-    "current": "9-days-raja-ampat-with-kids"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-29T04:12:28Z",
-  "destinationPrimary": "raja_ampat",
-  "destinationSecondary": "wild_indonesia",
-  "travelStylePrimary": "beach_islands",
-  "travelStyleSecondary": "diving_snorkeling",
-  "tripLengthBucket": "ten_days",
-  "tripLengthDays": 9,
-  "travellerTypes": ["families"],
-  "vibe": "relaxed",
-  "experienceTags": ["snorkeling", "islands", "wildlife", "remote", "karst", "local_villages"],
-  "bestSeason": "October–April",
-  "route": "Sorong → Waisai → one base on Mansuar or Kri → Arborek and Sawandarek → Piaynemo → Sorong",
-  "focusKeyword": "raja ampat with kids",
-  "metaTitle": "9 Days in Raja Ampat with Kids: A Family Itinerary",
-  "metaDescription": "A 9-day Raja Ampat family itinerary from one island base: calm jetty snorkels, Arborek, Piaynemo if the sea allows, plus fees, malaria and cash advice.",
-  "intro": "Almost nobody recommends Raja Ampat for a family holiday, and for most families that is the right advice. It is expensive to reach, hours from a hospital, and offers none of the fallbacks that rescue a difficult day with children. But for a family with confident swimmers, it does something no easier destination can: it puts turtles, reef sharks and walls of fish a few metres from the steps of the place you are sleeping, every morning, with nothing to book. This nine-day itinerary is built around that single advantage, from one island base, with short boat days and one day left deliberately empty.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "affra1",
@@ -39,14 +13,21 @@
     },
     {
       "_key": "affra2",
-      "affiliateUrl": "https://12go.asia/en/travel/sorong/waisai?z=16022946",
-      "anchorText": "Sorong to Waisai ferry",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/sorong?z=16022946",
+      "anchorText": "compare flights into Sorong",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "partner": "12Go",
-      "placeholderId": "TWELVEGO_SORONG_WAISAI"
+      "placeholderId": "TWELVEGO_SORONG_WAISAI",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/sorong"
     }
   ],
+  "articleCreatedDate": "2026-07-29T04:12:28Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "October–April",
   "body": [
     {
       "_key": "b1",
@@ -131,7 +112,9 @@
         {
           "_key": "s7",
           "_type": "span",
-          "marks": ["m1"],
+          "marks": [
+            "m1"
+          ],
           "text": "8-day Komodo and Flores route for families"
         },
         {
@@ -143,7 +126,9 @@
         {
           "_key": "s9",
           "_type": "span",
-          "marks": ["m2"],
+          "marks": [
+            "m2"
+          ],
           "text": "7-day Nusa Lembongan and Ceningan week"
         },
         {
@@ -182,7 +167,9 @@
         {
           "_key": "s12",
           "_type": "span",
-          "marks": ["m3"],
+          "marks": [
+            "m3"
+          ],
           "text": "7-day Raja Ampat snorkelling route"
         },
         {
@@ -223,7 +210,9 @@
         {
           "_key": "s15",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Duration."
         },
         {
@@ -235,7 +224,9 @@
         {
           "_key": "s17",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Start and end."
         },
         {
@@ -247,7 +238,9 @@
         {
           "_key": "s19",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best for."
         },
         {
@@ -259,7 +252,9 @@
         {
           "_key": "s21",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Not ideal for."
         },
         {
@@ -279,7 +274,9 @@
         {
           "_key": "s23",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel style."
         },
         {
@@ -291,7 +288,9 @@
         {
           "_key": "s25",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Budget."
         },
         {
@@ -303,7 +302,9 @@
         {
           "_key": "s27",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Logistics level."
         },
         {
@@ -315,7 +316,9 @@
         {
           "_key": "s29",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time."
         },
         {
@@ -327,7 +330,9 @@
         {
           "_key": "s31",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking difficulty."
         },
         {
@@ -409,7 +414,9 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": ["m4"],
+          "marks": [
+            "m4"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -449,17 +456,39 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
-          "_key": "s42",
+          "_key": "s42a",
           "_type": "span",
           "marks": [],
-          "text": " Fly into Sorong, the mainland gateway. As a working estimate the direct hop from Jakarta runs about four hours, with Garuda, Batik, Lion and Citilink among the carriers flying into Sorong from Jakarta, Makassar or Manado, though routes and schedules shift often, so confirm current flight routes before locking anything else. With children you will not reach the islands the day you land from far away, so plan this as a positioning night, not a wasted one."
+          "text": " "
+        },
+        {
+          "_key": "s42b",
+          "_type": "span",
+          "marks": [
+            "mktwelve"
+          ],
+          "text": "Fly into Sorong, the mainland gateway"
+        },
+        {
+          "_key": "s42c",
+          "_type": "span",
+          "marks": [],
+          "text": ". As a working estimate the direct hop from Jakarta runs about four hours, with Garuda, Batik, Lion and Citilink among the carriers flying into Sorong from Jakarta, Makassar or Manado, though routes and schedules shift often, so confirm current flight routes before locking anything else. With children you will not reach the islands the day you land from far away, so plan this as a positioning night, not a wasted one."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "mktwelve",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_SORONG_WAISAI"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -469,7 +498,9 @@
         {
           "_key": "s43",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -481,7 +512,9 @@
         {
           "_key": "s45",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -493,7 +526,9 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -527,7 +562,9 @@
         {
           "_key": "s50",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -539,7 +576,7 @@
         {
           "_key": "s52",
           "_type": "span",
-          "marks": ["m5"],
+          "marks": [],
           "text": "Sorong to Waisai ferry"
         },
         {
@@ -549,13 +586,7 @@
           "text": " times before you travel. With children, pay for the enclosed air-conditioned cabin if it is running. It costs very little and turns a two-hour crossing into a nap."
         }
       ],
-      "markDefs": [
-        {
-          "_key": "m5",
-          "_type": "affiliateLinkRef",
-          "placeholderId": "TWELVEGO_SORONG_WAISAI"
-        }
-      ],
+      "markDefs": [],
       "style": "normal"
     },
     {
@@ -565,7 +596,9 @@
         {
           "_key": "s54",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "On arrival at Waisai."
         },
         {
@@ -585,7 +618,9 @@
         {
           "_key": "s56",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -597,7 +632,9 @@
         {
           "_key": "s58",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -609,7 +646,9 @@
         {
           "_key": "s60",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -621,7 +660,9 @@
         {
           "_key": "s62",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -655,7 +696,9 @@
         {
           "_key": "s65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -675,7 +718,9 @@
         {
           "_key": "s67",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -687,7 +732,9 @@
         {
           "_key": "s69",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -707,7 +754,9 @@
         {
           "_key": "s71",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -741,7 +790,9 @@
         {
           "_key": "s74",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -761,7 +812,9 @@
         {
           "_key": "s76",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -773,7 +826,9 @@
         {
           "_key": "s78",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -785,7 +840,9 @@
         {
           "_key": "s80",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -819,7 +876,9 @@
         {
           "_key": "s83",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "All day."
         },
         {
@@ -839,7 +898,9 @@
         {
           "_key": "s85",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -873,7 +934,9 @@
         {
           "_key": "s88",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -893,7 +956,9 @@
         {
           "_key": "s90",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "The honest version."
         },
         {
@@ -913,7 +978,9 @@
         {
           "_key": "s92",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -947,7 +1014,9 @@
         {
           "_key": "s95",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -967,7 +1036,9 @@
         {
           "_key": "s97",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -979,7 +1050,9 @@
         {
           "_key": "s99",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1013,7 +1086,9 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1025,7 +1100,9 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1037,7 +1114,9 @@
         {
           "_key": "s106",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1049,7 +1128,9 @@
         {
           "_key": "s108",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1083,7 +1164,9 @@
         {
           "_key": "s111",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1095,7 +1178,9 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1129,7 +1214,9 @@
         {
           "_key": "s116",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early and firm."
         },
         {
@@ -1149,7 +1236,9 @@
         {
           "_key": "s118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible."
         },
         {
@@ -1323,7 +1412,9 @@
         {
           "_key": "s131",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut"
         },
         {
@@ -1343,7 +1434,9 @@
         {
           "_key": "s133",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt"
         },
         {
@@ -1363,7 +1456,9 @@
         {
           "_key": "s135",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade"
         },
         {
@@ -1397,7 +1492,9 @@
         {
           "_key": "s138",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Entry and fees."
         },
         {
@@ -1417,7 +1514,9 @@
         {
           "_key": "s140",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Getting there."
         },
         {
@@ -1437,7 +1536,9 @@
         {
           "_key": "s142",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "When to go."
         },
         {
@@ -1457,7 +1558,9 @@
         {
           "_key": "s144",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and connectivity."
         },
         {
@@ -1539,7 +1642,9 @@
         {
           "_key": "s151",
           "_type": "span",
-          "marks": ["m6"],
+          "marks": [
+            "m6"
+          ],
           "text": "8-day Komodo and Flores itinerary with kids"
         },
         {
@@ -1551,7 +1656,9 @@
         {
           "_key": "s153",
           "_type": "span",
-          "marks": ["m7"],
+          "marks": [
+            "m7"
+          ],
           "text": "7 days in Nusa Lembongan and Ceningan with kids"
         },
         {
@@ -1590,7 +1697,9 @@
         {
           "_key": "s156",
           "_type": "span",
-          "marks": ["m8"],
+          "marks": [
+            "m8"
+          ],
           "text": "7-day Raja Ampat snorkelling itinerary"
         },
         {
@@ -1602,7 +1711,9 @@
         {
           "_key": "s158",
           "_type": "span",
-          "marks": ["m9"],
+          "marks": [
+            "m9"
+          ],
           "text": "14-day route for divers"
         },
         {
@@ -1614,7 +1725,9 @@
         {
           "_key": "s160",
           "_type": "span",
-          "marks": ["m10"],
+          "marks": [
+            "m10"
+          ],
           "text": "Raja Ampat destination guide"
         },
         {
@@ -1646,6 +1759,17 @@
       ],
       "style": "normal"
     }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "raja_ampat",
+  "destinationSecondary": "wild_indonesia",
+  "experienceTags": [
+    "snorkeling",
+    "islands",
+    "wildlife",
+    "remote",
+    "karst",
+    "local_villages"
   ],
   "faq": [
     {
@@ -1684,6 +1808,7 @@
       "question": "Is the boat travel hard on children?"
     }
   ],
+  "focusKeyword": "raja ampat with kids",
   "heroImage": {
     "_type": "image",
     "alt": "Raja Ampat's limestone islands and shallow turquoise lagoons seen from a viewpoint",
@@ -1692,5 +1817,22 @@
       "_type": "reference"
     },
     "caption": "The sheltered lagoons of Raja Ampat, West Papua"
-  }
+  },
+  "intro": "Almost nobody recommends Raja Ampat for a family holiday, and for most families that is the right advice. It is expensive to reach, hours from a hospital, and offers none of the fallbacks that rescue a difficult day with children. But for a family with confident swimmers, it does something no easier destination can: it puts turtles, reef sharks and walls of fish a few metres from the steps of the place you are sleeping, every morning, with nothing to book. This nine-day itinerary is built around that single advantage, from one island base, with short boat days and one day left deliberately empty.",
+  "metaDescription": "A 9-day Raja Ampat family itinerary from one island base: calm jetty snorkels, Arborek, Piaynemo if the sea allows, plus fees, malaria and cash advice.",
+  "metaTitle": "9 Days in Raja Ampat with Kids: A Family Itinerary",
+  "route": "Sorong → Waisai → one base on Mansuar or Kri → Arborek and Sawandarek → Piaynemo → Sorong",
+  "slug": {
+    "_type": "slug",
+    "current": "9-days-raja-ampat-with-kids"
+  },
+  "title": "9 Days in Raja Ampat with Kids: One Base, Calm Reefs and Honest Logistics",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": "diving_snorkeling",
+  "travellerTypes": [
+    "families"
+  ],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 9,
+  "vibe": "relaxed"
 }

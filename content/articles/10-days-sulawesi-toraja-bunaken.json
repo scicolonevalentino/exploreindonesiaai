@@ -13,7 +13,7 @@
       "publicUrl": "https://www.airalo.com/indonesia-esim"
     },
     {
-      "affiliateUrl": "https://12go.asia/en/travel/makassar/toraja?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/makassar/tana-toraja?z=16022946",
       "anchorText": "Compare Makassar to Toraja transfers",
       "experienceCategory": "airport_transfer",
       "linkStatus": "live",
@@ -119,7 +119,9 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Route: "
         },
         {
@@ -139,7 +141,9 @@
         {
           "_key": "k11",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best for: "
         },
         {
@@ -159,7 +163,9 @@
         {
           "_key": "k14",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Pace: "
         },
         {
@@ -179,7 +185,9 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base changes: "
         },
         {
@@ -199,7 +207,9 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "When to go: "
         },
         {
@@ -255,6 +265,275 @@
       "style": "normal"
     },
     {
+      "_key": "rpb84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps83",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Sulawesi?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps85",
+          "_type": "span",
+          "marks": [],
+          "text": "Ten days covers one half of Sulawesi properly, either the Toraja highlands or the northern reefs, with one internal flight between them. Two weeks lets you add the Togean Islands. Three weeks covers the island end to end. Sulawesi is shaped like a starfish and every arm is a separate trip, so the honest first decision is which arm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpt87",
+      "_type": "comparisonTable",
+      "columns": [
+        "Days",
+        "What fits",
+        "Flights inside Sulawesi",
+        "Best for"
+      ],
+      "rows": [
+        {
+          "_key": "rpr88",
+          "cells": [
+            "7 days",
+            "Toraja only, or Bunaken and Lembeh only",
+            "None",
+            "A first taste, one region"
+          ]
+        },
+        {
+          "_key": "rpr89",
+          "cells": [
+            "10 days",
+            "Toraja plus Bunaken, with the Makassar backtrack",
+            "One",
+            "The trip on this page"
+          ]
+        },
+        {
+          "_key": "rpr90",
+          "cells": [
+            "14 days",
+            "Toraja, the Togeans, then Bunaken",
+            "One, plus two ferries",
+            "Travellers with schedule slack"
+          ]
+        },
+        {
+          "_key": "rpr91",
+          "cells": [
+            "21 days",
+            "The island end to end, the southeast included",
+            "Two or more",
+            "Repeat visitors to Indonesia"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rpb93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps92",
+          "_type": "span",
+          "marks": [],
+          "text": "Which part of Sulawesi should you visit?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps94",
+          "_type": "span",
+          "marks": [],
+          "text": "South Sulawesi means Tana Toraja and its funeral culture, reached by road from Makassar. North Sulawesi means Bunaken, Lembeh and the volcanoes, reached through Manado. Central Sulawesi means the Togean Islands and long ferries. The southeast means Wakatobi and diving. Most ten-day trips take one region, or two if you accept an internal flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpt96",
+      "_type": "comparisonTable",
+      "columns": [
+        "Region",
+        "Gateway airport",
+        "What you go for",
+        "The catch"
+      ],
+      "rows": [
+        {
+          "_key": "rpr97",
+          "cells": [
+            "South Sulawesi",
+            "Makassar (UPG)",
+            "Tana Toraja, the funeral culture, highland villages",
+            "Eight to nine hours by road from Makassar, each way"
+          ]
+        },
+        {
+          "_key": "rpr98",
+          "cells": [
+            "North Sulawesi",
+            "Manado (MDC)",
+            "Bunaken and Lembeh diving, volcanoes behind the city",
+            "A separate flight, since no useful road joins it to the south"
+          ]
+        },
+        {
+          "_key": "rpr99",
+          "cells": [
+            "Central Sulawesi",
+            "Gorontalo or Ampana",
+            "The Togean Islands",
+            "Ferries run on fixed days and cost you two travel days"
+          ]
+        },
+        {
+          "_key": "rpr100",
+          "cells": [
+            "Southeast Sulawesi",
+            "Kendari or Baubau",
+            "Wakatobi diving",
+            "The furthest and the most expensive to reach"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rpb111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps101",
+          "_type": "span",
+          "marks": [],
+          "text": "Each region has its own route here. South and north together are this page. For the Togeans see the "
+        },
+        {
+          "_key": "rps103",
+          "_type": "span",
+          "marks": [
+            "rpm102"
+          ],
+          "text": "14-day Toraja, Togean and Bunaken route"
+        },
+        {
+          "_key": "rps104",
+          "_type": "span",
+          "marks": [],
+          "text": ", for diving only see the "
+        },
+        {
+          "_key": "rps106",
+          "_type": "span",
+          "marks": [
+            "rpm105"
+          ],
+          "text": "10-day north Sulawesi diving route"
+        },
+        {
+          "_key": "rps107",
+          "_type": "span",
+          "marks": [],
+          "text": ", and for the southeast see the "
+        },
+        {
+          "_key": "rps109",
+          "_type": "span",
+          "marks": [
+            "rpm108"
+          ],
+          "text": "8-day Wakatobi route"
+        },
+        {
+          "_key": "rps110",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm102",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-sulawesi-toraja-togean-bunaken"
+        },
+        {
+          "_key": "rpm105",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-north-sulawesi-diving-bunaken-lembeh"
+        },
+        {
+          "_key": "rpm108",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-wakatobi-diving-southeast-sulawesi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps112",
+          "_type": "span",
+          "marks": [],
+          "text": "What is the best route through Sulawesi?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps114",
+          "_type": "span",
+          "marks": [],
+          "text": "There is no single loop, because Sulawesi has no road that joins its arms efficiently. The workable routes are all point to point with a flight in the middle. Makassar to Toraja and back, then a flight to Manado for Bunaken, is the standard ten-day shape. Adding the Togeans means two weeks and two ferries on fixed days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps116",
+          "_type": "span",
+          "marks": [],
+          "text": "The backtrack to Makassar is the part people try to avoid and should not. There is no flight out of Toraja that saves you time reliably, so the road back is the price of seeing the highlands at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
       "_key": "k29",
       "_type": "block",
       "children": [
@@ -275,7 +554,9 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -295,7 +576,9 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -315,7 +598,9 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -327,7 +612,9 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": ["k39"],
+          "marks": [
+            "k39"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -353,13 +640,17 @@
         {
           "_key": "k43",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
           "_key": "k44b",
           "_type": "span",
-          "marks": ["bk0makassar"],
+          "marks": [
+            "bk0makassar"
+          ],
           "text": "Makassar"
         },
         {
@@ -413,7 +704,9 @@
         {
           "_key": "k50",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -425,7 +718,9 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": ["k52"],
+          "marks": [
+            "k52"
+          ],
           "text": "compare Makassar to Toraja transfers"
         },
         {
@@ -451,7 +746,9 @@
         {
           "_key": "k56",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -471,7 +768,9 @@
         {
           "_key": "k59",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -491,13 +790,17 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
           "_key": "k63b",
           "_type": "span",
-          "marks": ["bk1rantepao"],
+          "marks": [
+            "bk1rantepao"
+          ],
           "text": "Rantepao"
         },
         {
@@ -523,7 +826,9 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -557,7 +862,9 @@
         {
           "_key": "k70",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -577,7 +884,9 @@
         {
           "_key": "k73",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -597,7 +906,9 @@
         {
           "_key": "k76",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -617,7 +928,9 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -651,7 +964,9 @@
         {
           "_key": "k84",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -671,7 +986,9 @@
         {
           "_key": "k87",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -691,7 +1008,9 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -711,7 +1030,9 @@
         {
           "_key": "k93",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -745,7 +1066,9 @@
         {
           "_key": "k98",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -765,7 +1088,9 @@
         {
           "_key": "k101",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -785,7 +1110,9 @@
         {
           "_key": "k104",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -833,7 +1160,9 @@
         {
           "_key": "k111",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -853,7 +1182,9 @@
         {
           "_key": "k114",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -873,7 +1204,9 @@
         {
           "_key": "k117",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -893,7 +1226,9 @@
         {
           "_key": "k120",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -927,7 +1262,9 @@
         {
           "_key": "k125",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -947,7 +1284,9 @@
         {
           "_key": "k128",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -967,7 +1306,9 @@
         {
           "_key": "k131",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -987,7 +1328,9 @@
         {
           "_key": "k134",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1007,13 +1350,17 @@
         {
           "_key": "k137",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
           "_key": "k138b",
           "_type": "span",
-          "marks": ["bk2bunaken"],
+          "marks": [
+            "bk2bunaken"
+          ],
           "text": "Bunaken"
         },
         {
@@ -1053,7 +1400,9 @@
         {
           "_key": "k142",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1073,7 +1422,9 @@
         {
           "_key": "k145",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1093,7 +1444,9 @@
         {
           "_key": "k148",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1127,7 +1480,9 @@
         {
           "_key": "k153",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1147,7 +1502,9 @@
         {
           "_key": "k156",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1167,7 +1524,9 @@
         {
           "_key": "k159",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -1187,7 +1546,9 @@
         {
           "_key": "k162",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1221,7 +1582,9 @@
         {
           "_key": "k167",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1241,7 +1604,9 @@
         {
           "_key": "k170",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1261,7 +1626,9 @@
         {
           "_key": "k173",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -1393,7 +1760,9 @@
         {
           "_key": "k192",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Short on time? "
         },
         {
@@ -1413,7 +1782,9 @@
         {
           "_key": "k195",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Not a diver? "
         },
         {
@@ -1433,7 +1804,9 @@
         {
           "_key": "k198",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Want it gentler? "
         },
         {
@@ -1453,7 +1826,9 @@
         {
           "_key": "k201",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Have more time? "
         },
         {
@@ -1487,7 +1862,9 @@
         {
           "_key": "k206",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1499,7 +1876,9 @@
         {
           "_key": "k209",
           "_type": "span",
-          "marks": ["k208"],
+          "marks": [
+            "k208"
+          ],
           "text": "Indonesia eSIM"
         },
         {
@@ -1525,7 +1904,9 @@
         {
           "_key": "k212",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cash. "
         },
         {
@@ -1545,7 +1926,9 @@
         {
           "_key": "k215",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Health and timing. "
         },
         {
@@ -1565,7 +1948,9 @@
         {
           "_key": "k218",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Guides. "
         },
         {
@@ -1633,7 +2018,9 @@
         {
           "_key": "k229",
           "_type": "span",
-          "marks": ["k228"],
+          "marks": [
+            "k228"
+          ],
           "text": "20-day wild Indonesia route"
         },
         {
@@ -1645,7 +2032,9 @@
         {
           "_key": "k232",
           "_type": "span",
-          "marks": ["k231"],
+          "marks": [
+            "k231"
+          ],
           "text": "7-day Raja Ampat snorkelling islands itinerary"
         },
         {
@@ -1657,7 +2046,9 @@
         {
           "_key": "k235",
           "_type": "span",
-          "marks": ["k234"],
+          "marks": [
+            "k234"
+          ],
           "text": "Wild Indonesia destination guide"
         },
         {
@@ -1675,7 +2066,9 @@
         {
           "_key": "kn912",
           "_type": "span",
-          "marks": ["kn910"],
+          "marks": [
+            "kn910"
+          ],
           "text": "14-day route that adds the Togean Islands"
         },
         {
@@ -1726,7 +2119,9 @@
         {
           "_key": "nsd-s2",
           "_type": "span",
-          "marks": ["nsd-lnk-1"],
+          "marks": [
+            "nsd-lnk-1"
+          ],
           "text": "10-day North Sulawesi diving itinerary"
         },
         {
@@ -1790,8 +2185,8 @@
     "caption": "The Lemo cliff graves, Tana Toraja"
   },
   "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
-  "metaDescription": "Ten days is enough for Sulawesi if you pick one half. This route pairs Tana Toraja with Bunaken, with honest drive times and what to book first.",
-  "metaTitle": "Sulawesi Itinerary: 10-Day Toraja to Bunaken Route",
+  "metaDescription": "How many days you need for Sulawesi, which of its four regions to pick, and a full 10-day route through Tana Toraja and Bunaken with honest drive times.",
+  "metaTitle": "Sulawesi Itinerary: 10 Days, and How to Pick a Region",
   "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
   "slug": {
     "_type": "slug",
@@ -1799,7 +2194,11 @@
   },
   "title": "10 Days in Sulawesi: Tana Toraja, Bunaken and the Long Road Between",
   "travelStylePrimary": "remote_offbeat",
-  "travellerTypes": ["couples", "friends", "repeat_travellers"],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "repeat_travellers"
+  ],
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 10,
   "vibe": "balanced"

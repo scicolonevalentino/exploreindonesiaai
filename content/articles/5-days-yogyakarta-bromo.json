@@ -1,30 +1,6 @@
 {
   "_id": "itinerary-5-days-yogyakarta-bromo",
   "_type": "article",
-  "title": "5 Days in Yogyakarta and Mount Bromo: Temples and a Volcano Sunrise",
-  "slug": {
-    "_type": "slug",
-    "current": "5-days-yogyakarta-bromo"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-06T06:18:05Z",
-  "destinationPrimary": "java",
-  "travelStylePrimary": "culture_temples",
-  "tripLengthBucket": "short_escape",
-  "tripLengthDays": 5,
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
-  "vibe": "active",
-  "experienceTags": ["temples", "volcano_sunrise", "train_travel", "street_food"],
-  "bestSeason": "May–October",
-  "route": "Yogyakarta → Prambanan → Mount Bromo → Malang",
-  "focusKeyword": "5 days Yogyakarta and Bromo itinerary",
-  "metaTitle": "Yogyakarta & Mount Bromo in 5 Days: Full Itinerary",
-  "metaDescription": "A practical 5-day Yogyakarta and Mount Bromo itinerary: Borobudur, Prambanan and a Bromo sunrise, with honest train, transfer and timing advice.",
-  "intro": "Java is where most Indonesia trips should start, and where most travellers spend the least time. This route is the honest short version: two days of temples and street food in Yogyakarta, then a long overland push east to stand on the rim of an active volcano at first light. The sights are not the hard part. The hard part is the transfer day in the middle and a 3am start you cannot fake your way around. Get those two right and five days is enough to see the best of central and east Java.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "k0176",
@@ -38,13 +14,13 @@
     },
     {
       "_key": "k0177",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/yogyakarta?z=16022946",
       "anchorText": "compare and book the Yogyakarta train on 12Go",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "partner": "12go",
       "placeholderId": "12GO_YOGYAKARTA_TRANSPORT",
-      "publicUrl": "https://12go.asia"
+      "publicUrl": "https://12go.asia/en/travel/jakarta/yogyakarta"
     },
     {
       "_key": "k0178",
@@ -78,6 +54,12 @@
       "publicUrl": "https://www.klook.com/activity/15964-merapi-kaliadem-private-jeep-yogyakarta/"
     }
   ],
+  "articleCreatedDate": "2026-07-06T06:18:05Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May–October",
   "body": [
     {
       "_key": "k0001",
@@ -254,7 +236,9 @@
         {
           "_key": "k0025",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -266,7 +250,9 @@
         {
           "_key": "k0028",
           "_type": "span",
-          "marks": ["k0027"],
+          "marks": [
+            "k0027"
+          ],
           "text": "an Indonesia eSIM with Airalo"
         },
         {
@@ -292,7 +278,9 @@
         {
           "_key": "k0031",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -312,7 +300,9 @@
         {
           "_key": "k0034",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -332,7 +322,9 @@
         {
           "_key": "k0037",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -366,7 +358,9 @@
         {
           "_key": "k0042",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -386,7 +380,9 @@
         {
           "_key": "k0045",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -398,7 +394,9 @@
         {
           "_key": "k0048",
           "_type": "span",
-          "marks": ["k0047"],
+          "marks": [
+            "k0047"
+          ],
           "text": "a guided Borobudur and Prambanan day tour"
         },
         {
@@ -424,7 +422,9 @@
         {
           "_key": "k0051",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -444,7 +444,9 @@
         {
           "_key": "k0054",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -478,7 +480,9 @@
         {
           "_key": "k0059",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -498,7 +502,9 @@
         {
           "_key": "k0062",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -518,7 +524,9 @@
         {
           "_key": "k0065",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -538,7 +546,9 @@
         {
           "_key": "k0068",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -558,7 +568,9 @@
         {
           "_key": "k0071",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -570,7 +582,9 @@
         {
           "_key": "k0074",
           "_type": "span",
-          "marks": ["k0073"],
+          "marks": [
+            "k0073"
+          ],
           "text": "compare and book the Yogyakarta train on 12Go"
         },
         {
@@ -610,7 +624,9 @@
         {
           "_key": "k0079",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -630,7 +646,9 @@
         {
           "_key": "k0082",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -650,7 +668,9 @@
         {
           "_key": "k0085",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -670,7 +690,9 @@
         {
           "_key": "k0088",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base: "
         },
         {
@@ -690,7 +712,9 @@
         {
           "_key": "k0091",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic: "
         },
         {
@@ -702,7 +726,9 @@
         {
           "_key": "k0094",
           "_type": "span",
-          "marks": ["k0093"],
+          "marks": [
+            "k0093"
+          ],
           "text": "Mount Bromo sunrise tour"
         },
         {
@@ -742,7 +768,9 @@
         {
           "_key": "k0099",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -762,7 +790,9 @@
         {
           "_key": "k0102",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -782,7 +812,9 @@
         {
           "_key": "k0105",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note: "
         },
         {
@@ -816,7 +848,9 @@
         {
           "_key": "k0110",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early: "
         },
         {
@@ -836,7 +870,9 @@
         {
           "_key": "k0113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible: "
         },
         {
@@ -870,7 +906,9 @@
         {
           "_key": "k0118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Trying to add Ijen. "
         },
         {
@@ -890,7 +928,9 @@
         {
           "_key": "k0121",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating the transfer day. "
         },
         {
@@ -910,7 +950,9 @@
         {
           "_key": "k0124",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Skimping on warm clothes. "
         },
         {
@@ -930,7 +972,9 @@
         {
           "_key": "k0127",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking a return flight to the wrong city. "
         },
         {
@@ -964,7 +1008,9 @@
         {
           "_key": "k0132",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut Prambanan "
         },
         {
@@ -984,7 +1030,9 @@
         {
           "_key": "k0135",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt in Yogyakarta "
         },
         {
@@ -996,7 +1044,9 @@
         {
           "_key": "k0138",
           "_type": "span",
-          "marks": ["k0137"],
+          "marks": [
+            "k0137"
+          ],
           "text": "private Merapi Kaliadem jeep tour"
         },
         {
@@ -1022,7 +1072,9 @@
         {
           "_key": "k0141",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade the transfer "
         },
         {
@@ -1056,7 +1108,9 @@
         {
           "_key": "k0146",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Season. "
         },
         {
@@ -1076,7 +1130,9 @@
         {
           "_key": "k0149",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1096,7 +1152,9 @@
         {
           "_key": "k0152",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and connectivity. "
         },
         {
@@ -1164,7 +1222,9 @@
         {
           "_key": "k0163",
           "_type": "span",
-          "marks": ["k0162"],
+          "marks": [
+            "k0162"
+          ],
           "text": "7-day Yogyakarta and East Java itinerary"
         },
         {
@@ -1197,7 +1257,9 @@
         {
           "_key": "biadd04",
           "_type": "span",
-          "marks": ["biadd02"],
+          "marks": [
+            "biadd02"
+          ],
           "text": "4-day Bromo and Ijen volcano crossing"
         },
         {
@@ -1230,7 +1292,9 @@
         {
           "_key": "k0168",
           "_type": "span",
-          "marks": ["k0167"],
+          "marks": [
+            "k0167"
+          ],
           "text": "15-day Java and Bali itinerary"
         },
         {
@@ -1263,7 +1327,9 @@
         {
           "_key": "k0173",
           "_type": "span",
-          "marks": ["k0172"],
+          "marks": [
+            "k0172"
+          ],
           "text": "Java destination guide"
         },
         {
@@ -1283,6 +1349,14 @@
       ],
       "style": "normal"
     }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "temples",
+    "volcano_sunrise",
+    "train_travel",
+    "street_food"
   ],
   "faq": [
     {
@@ -1316,6 +1390,7 @@
       "question": "Should I fly out of Malang or Surabaya after Bromo?"
     }
   ],
+  "focusKeyword": "5 days Yogyakarta and Bromo itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Mount Bromo at sunrise, its crater smoking inside the Tengger caldera, East Java",
@@ -1324,5 +1399,23 @@
       "_type": "reference"
     },
     "caption": "Yogyakarta → Prambanan → Mount Bromo → Malang"
-  }
+  },
+  "intro": "Java is where most Indonesia trips should start, and where most travellers spend the least time. This route is the honest short version: two days of temples and street food in Yogyakarta, then a long overland push east to stand on the rim of an active volcano at first light. The sights are not the hard part. The hard part is the transfer day in the middle and a 3am start you cannot fake your way around. Get those two right and five days is enough to see the best of central and east Java.",
+  "metaDescription": "A practical 5-day Yogyakarta and Mount Bromo itinerary: Borobudur, Prambanan and a Bromo sunrise, with honest train, transfer and timing advice.",
+  "metaTitle": "Yogyakarta & Mount Bromo in 5 Days: Full Itinerary",
+  "route": "Yogyakarta → Prambanan → Mount Bromo → Malang",
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-yogyakarta-bromo"
+  },
+  "title": "5 Days in Yogyakarta and Mount Bromo: Temples and a Volcano Sunrise",
+  "travelStylePrimary": "culture_temples",
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "active"
 }

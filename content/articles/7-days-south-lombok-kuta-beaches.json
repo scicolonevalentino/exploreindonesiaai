@@ -1,1536 +1,1536 @@
 {
- "_id": "itinerary-7-days-south-lombok-kuta-beaches",
- "_type": "article",
- "affiliateLinks": [
-  {
-   "_key": "k1",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
-   "anchorText": "Indonesia eSIM with Airalo",
-   "experienceCategory": "esim_connectivity",
-   "linkStatus": "live",
-   "notes": "travelpayouts",
-   "partner": "airalo",
-   "placeholderId": "AIRALO_INDONESIA",
-   "publicUrl": "https://www.airalo.com/indonesia-esim"
-  },
-  {
-   "_key": "k2",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach",
-   "anchorText": "Pink Beach and southern Gili snorkeling day trip",
-   "experienceCategory": "tour",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "viator",
-   "placeholderId": "VIATOR_LOMBOK_PINK_BEACH",
-   "publicUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8"
-  },
-  {
-   "_key": "k3",
-   "_type": "affiliateLink",
-   "affiliateUrl": "https://12go.asia/?z=16022946",
-   "anchorText": "fast boat and ferry tickets from Lombok",
-   "experienceCategory": "transfer",
-   "linkStatus": "live",
-   "notes": null,
-   "partner": "12go",
-   "placeholderId": "12GO_LOMBOK_ONWARD",
-   "publicUrl": null
-  }
- ],
- "articleCreatedDate": "2026-07-15T06:43:07.584Z",
- "author": {
-  "_ref": "author-editorial-team",
-  "_type": "reference"
- },
- "body": [
-  {
-   "_key": "k5",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k4",
-     "_type": "span",
-     "marks": [],
-     "text": "Lombok has a reputation problem that works in your favour. Most people picture it as either the launch pad for the Gili Islands or the slog up Mount Rinjani, so the south of the island, the part with the best beaches, stays comparatively calm. This week plants you in Kuta Lombok and keeps you there, trading the pack-and-move rhythm of most island trips for the kind of holiday where you learn a handful of beaches properly and let the days slow down."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k7",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k6",
-     "_type": "span",
-     "marks": [],
-     "text": "It is a beach-first week, not a sightseeing sprint. You will surf gentle waves, walk long empty sand, snorkel a pink-tinged bay, and drive short scooter loops between coves. If you need a temple every morning and a new town every night, this is the wrong plan. If you want one good base, warm water and a low daily gear-shift, read on."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k9",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k8",
-     "_type": "span",
-     "marks": [],
-     "text": "Who this trip is for, and who it is not"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k11",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k10",
-     "_type": "span",
-     "marks": [],
-     "text": "This route suits couples, friends and solo travellers who want a relaxed coastal week without the logistics of hopping islands. It is well matched to beginner and improving surfers, because South Lombok has some of the friendliest learner waves in Indonesia. It also works for anyone who found Bali too built up and wants the same warm-water beach days with more space."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k16",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k12",
-     "_type": "span",
-     "marks": [],
-     "text": "It is a weaker fit if your priority is nightlife and beach clubs, which South Lombok has only in a low-key form. It is not the trip for hardcore trekkers set on Rinjani, or for travellers who feel restless staying in one town for a week. And if you are travelling with young children who need calm, shallow swimming every day, note that some south beaches have shore break and current, so you will want to pick your spots. For a family-paced island week instead, our "
-    },
-    {
-     "_key": "k14",
-     "_type": "span",
-     "marks": [
-      "k13"
-     ],
-     "text": "10-day Lombok and Gili family itinerary"
-    },
-    {
-     "_key": "k15",
-     "_type": "span",
-     "marks": [],
-     "text": " is the better starting point."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k13",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/10-days-lombok-gili-families"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k18",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k17",
-     "_type": "span",
-     "marks": [],
-     "text": "Trip at a glance"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k20",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k19",
-     "_type": "span",
-     "marks": [],
-     "text": "Seven nights, one base, no internal flights. You fly into Lombok International Airport near Praya, which sits roughly 30 minutes from Kuta Lombok, so you can be on the sand the day you land. From Kuta you reach Selong Belanak, Tanjung Aan, Mawun and Merese Hill in well under an hour by scooter, and you can take a full-day boat out to Pink Beach and the southern Gilis. As a working estimate, budget for airport transfers of around 120,000 to 200,000 IDR each way and scooter rental near 70,000 to 100,000 IDR a day. Prices move, so treat every figure here as a planning number, not a quote."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k22",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k21",
-     "_type": "span",
-     "marks": [],
-     "text": "The pace is deliberately gentle. Expect one anchor activity a day, a long lunch, and time to do nothing. Nothing here is early-start dependent except the Pink Beach boat and, if you want them, glassy dawn surf sessions."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k24",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k23",
-     "_type": "span",
-     "marks": [],
-     "text": "Why staying in one place makes this trip"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k26",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k25",
-     "_type": "span",
-     "marks": [],
-     "text": "Most Lombok itineraries chop the week into Gili time, Rinjani time and beach time, and you lose half a day to transfers each time you move. South Lombok is compact enough that a single base removes that tax entirely. Kuta Lombok sits in the middle of the best beaches, has the widest choice of places to eat and sleep, and puts the airport half an hour away for a stress-free final morning."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k28",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k27",
-     "_type": "span",
-     "marks": [],
-     "text": "Basing in Kuta also lets you read the wind and swell day to day rather than committing in advance. If Selong Belanak is flat and glassy, you surf. If it is blown out, you drive ten minutes the other way to a sheltered cove. That flexibility is worth more on a beach trip than any fixed schedule."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k30",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k29",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 1: Land, settle into Kuta Lombok"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k36",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k31",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k32",
-     "_type": "span",
-     "marks": [],
-     "text": " Sort connectivity before anything else. An "
-    },
-    {
-     "_key": "k34",
-     "_type": "span",
-     "marks": [
-      "k33"
-     ],
-     "text": "Indonesia eSIM with Airalo"
-    },
-    {
-     "_key": "k35",
-     "_type": "span",
-     "marks": [],
-     "text": " lets you activate data before you clear the airport, so ride-hailing, maps and your accommodation chat all work the moment you land. From the airport, a metered or pre-booked car to Kuta Lombok takes about 30 minutes. Agree the fare before you get in, since airport touts often quote several times the going rate."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k33",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "AIRALO_INDONESIA"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k39",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k37",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k38",
-     "_type": "span",
-     "marks": [],
-     "text": " Check in and rent a scooter through your accommodation or a nearby shop. If you are not confident on two wheels, arrange a local driver for the week instead, as South Lombok distances are short and drivers are affordable. Spend the afternoon getting your bearings on foot around Kuta town and its beachfront."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k46",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k40",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k41",
-     "_type": "span",
-     "marks": [],
-     "text": " Eat early at one of the warungs or casual restaurants along the main strip and plan tomorrow around the forecast. "
-    },
-    {
-     "_key": "k42",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Base:"
-    },
-    {
-     "_key": "k43",
-     "_type": "span",
-     "marks": [],
-     "text": " Kuta Lombok, for all seven nights. "
-    },
-    {
-     "_key": "k44",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note:"
-    },
-    {
-     "_key": "k45",
-     "_type": "span",
-     "marks": [],
-     "text": " South Lombok roads are quiet but unlit at night and some stretches are potholed, so keep scooter trips to daylight where you can."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k48",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k47",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 2: Learn to surf at Selong Belanak"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k51",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k49",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k50",
-     "_type": "span",
-     "marks": [],
-     "text": " Drive about 30 to 40 minutes west to Selong Belanak, a wide horseshoe bay with a gentle sandy-bottomed break that is one of the best beginner surf spots in the country. Surf schools line the beach; a lesson with board and rash guard is commonly in the region of 150,000 to 250,000 IDR, and board-only rental sits lower. Fees can change, so confirm on the day. Even complete beginners tend to stand up in the first session here."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k54",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k52",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k53",
-     "_type": "span",
-     "marks": [],
-     "text": " Stay put. Selong Belanak rewards a full day: swim, eat at the beach warungs, and take a second surf if the wind holds. There is no beach entry fee, but expect a small parking charge of around 10,000 IDR for a scooter."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k59",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k55",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k56",
-     "_type": "span",
-     "marks": [],
-     "text": " Ride back before dark and eat in Kuta. "
-    },
-    {
-     "_key": "k57",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic:"
-    },
-    {
-     "_key": "k58",
-     "_type": "span",
-     "marks": [],
-     "text": " You do not need to pre-book a surf lesson; walking up and choosing an instructor you click with works better than booking blind online."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k61",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k60",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 3: Tanjung Aan and the Merese sunset"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k64",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k62",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k63",
-     "_type": "span",
-     "marks": [],
-     "text": " Head east about 15 minutes to Tanjung Aan, a double bay with soft, pale sand and calmer water than the surf beaches. It is a good swimming and lounging morning. As at Selong Belanak, there is no entry fee but locals typically collect a small scooter parking charge."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k67",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k65",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k66",
-     "_type": "span",
-     "marks": [],
-     "text": " Walk or ride the short climb up Merese Hill, the grassy headland between Tanjung Aan and Seger. The views over the bays are the reason to come, and it stays quiet outside sunset hour. If the tide suits, detour to Batu Payung, the umbrella-shaped rock nearby."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k72",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k68",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k69",
-     "_type": "span",
-     "marks": [],
-     "text": " Time the Merese Hill climb for late afternoon and stay for sunset over the water. "
-    },
-    {
-     "_key": "k70",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note:"
-    },
-    {
-     "_key": "k71",
-     "_type": "span",
-     "marks": [],
-     "text": " The hill is exposed with no shade, so bring water and go up in the last hour of daylight rather than the midday heat."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k74",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k73",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 4: A slow day and a taste of Sasak Lombok"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k77",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k75",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k76",
-     "_type": "span",
-     "marks": [],
-     "text": " Build in a genuinely slow morning. Pick whichever of the quieter coves fits the wind: Mawun, a sheltered horseshoe about 20 minutes west, or Are Guling further along. Both are calmer and less developed than the headline beaches."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k80",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k78",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k79",
-     "_type": "span",
-     "marks": [],
-     "text": " Trade sand for a short cultural loop inland. The Sasak weaving village of Sukarara and the traditional village of Sade sit within easy reach of Kuta and give a window into Lombok life beyond the coast. Keep expectations honest: these places see plenty of visitors and there is gentle pressure to buy, so treat it as a light half-day, not a deep dive."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k85",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k81",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k82",
-     "_type": "span",
-     "marks": [],
-     "text": " Back to Kuta for dinner. "
-    },
-    {
-     "_key": "k83",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic:"
-    },
-    {
-     "_key": "k84",
-     "_type": "span",
-     "marks": [],
-     "text": " None needed today. This is a buffer day by design, so if you would rather just repeat your favourite beach, do that instead."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k87",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k86",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 5: Pink Beach and the southern Gilis by boat"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k93",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k88",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k89",
-     "_type": "span",
-     "marks": [],
-     "text": " This is the one day worth an early start and a booking. Pink Beach, known locally as Tangsi, sits on the far southeast of the island and is a rough two-hour drive from Kuta, so most people visit on an organised boat day that pairs it with snorkeling around the small southern gilis. A "
-    },
-    {
-     "_key": "k91",
-     "_type": "span",
-     "marks": [
-      "k90"
-     ],
-     "text": "Pink Beach and southern Gili snorkeling day trip"
-    },
-    {
-     "_key": "k92",
-     "_type": "span",
-     "marks": [],
-     "text": " handles the driving, boat and snorkel stops in one package, which is the sane way to do it."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k90",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "VIATOR_LOMBOK_PINK_BEACH"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k96",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k94",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k95",
-     "_type": "span",
-     "marks": [],
-     "text": " Snorkel the clear water around Gili Petelu and its neighbours, then have lunch at the pink-tinged sand. Expect a small local entry fee at Pink Beach itself, around 50,000 IDR per person as a working estimate, usually included in organised tours."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k101",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k97",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k98",
-     "_type": "span",
-     "marks": [],
-     "text": " You will get back to Kuta later than usual, so keep dinner simple. "
-    },
-    {
-     "_key": "k99",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic:"
-    },
-    {
-     "_key": "k100",
-     "_type": "span",
-     "marks": [],
-     "text": " Book this one ahead. The pairing of a long transfer, a boat and a guide is not something to arrange at the last minute, and going independently means a punishing drive for a short window on the sand."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k103",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k102",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 6: Inland green, or a surf step-up"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k106",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k104",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k105",
-     "_type": "span",
-     "marks": [],
-     "text": " Choose your day. For a change of scenery, drive north toward Tetebatu, a cooler upland area of rice terraces and small waterfalls on the southern flank of Rinjani, roughly 1.5 to 2 hours away. For a surf step-up instead, head to Gerupuk, just east of Kuta, where boats ferry surfers out to several reef breaks that suit improvers."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k109",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k107",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k108",
-     "_type": "span",
-     "marks": [],
-     "text": " If you went to Tetebatu, walk a short rice-terrace loop with a local guide and cool off at a waterfall. If you chose Gerupuk, a half-day boat surf leaves you plenty of afternoon to recover on the beach."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k114",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k110",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k111",
-     "_type": "span",
-     "marks": [],
-     "text": " Last proper night in Kuta. "
-    },
-    {
-     "_key": "k112",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Travel note:"
-    },
-    {
-     "_key": "k113",
-     "_type": "span",
-     "marks": [],
-     "text": " Tetebatu is a real drive on winding roads, so leave early and do not attempt it on a scooter if you are not comfortable with hills and traffic. A driver for the day is the easier call."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k116",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k115",
-     "_type": "span",
-     "marks": [],
-     "text": "Day 7: A final beach morning, then the airport"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k119",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k117",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Morning."
-    },
-    {
-     "_key": "k118",
-     "_type": "span",
-     "marks": [],
-     "text": " The airport being 30 minutes away is a gift on the last day. Go back to whichever beach you liked most for a final swim or dawn surf rather than sitting in your room waiting on a transfer."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k124",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k120",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Afternoon."
-    },
-    {
-     "_key": "k121",
-     "_type": "span",
-     "marks": [],
-     "text": " Rinse off, pack, and leave Kuta about two hours before your flight to be comfortable. "
-    },
-    {
-     "_key": "k122",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Booking logic:"
-    },
-    {
-     "_key": "k123",
-     "_type": "span",
-     "marks": [],
-     "text": " Arrange the airport car through your accommodation the night before rather than hoping to flag one down."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k130",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k125",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Evening."
-    },
-    {
-     "_key": "k126",
-     "_type": "span",
-     "marks": [],
-     "text": " If you are extending rather than flying out, this is where onward transport comes in. "
-    },
-    {
-     "_key": "k128",
-     "_type": "span",
-     "marks": [
-      "k127"
-     ],
-     "text": "Fast boat and ferry tickets from Lombok"
-    },
-    {
-     "_key": "k129",
-     "_type": "span",
-     "marks": [],
-     "text": " cover routes on to the northwest Gili Islands or across to Bali, which lets you bolt a few island days onto the end of the week."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k127",
-     "_type": "affiliateLinkRef",
-     "placeholderId": "12GO_LOMBOK_ONWARD"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k132",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k131",
-     "_type": "span",
-     "marks": [],
-     "text": "What to book early, and what to keep flexible"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k135",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k133",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Book early:"
-    },
-    {
-     "_key": "k134",
-     "_type": "span",
-     "marks": [],
-     "text": " your first two nights of accommodation in Kuta Lombok, especially in the dry-season peak from roughly June to August, and the Pink Beach boat day. Everything else can wait."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k138",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k136",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Keep flexible:"
-    },
-    {
-     "_key": "k137",
-     "_type": "span",
-     "marks": [],
-     "text": " surf lessons, scooter rental, beach days and the Day 4 and Day 6 choices. South Lombok rewards reading the daily conditions, so locking a rigid schedule in advance works against you. Book connectivity ahead so you can make these calls on the move."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k140",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k139",
-     "_type": "span",
-     "marks": [],
-     "text": "Mistakes travellers make in South Lombok"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k143",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k141",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Underestimating the sun and the roads."
-    },
-    {
-     "_key": "k142",
-     "_type": "span",
-     "marks": [],
-     "text": " The headland walks and long beach days have almost no shade, and the roads are quieter but rougher than Bali, with occasional potholes and stray livestock. Cover up, and ride cautiously."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k146",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k144",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Trying to day-trip the northwest Gilis from Kuta."
-    },
-    {
-     "_key": "k145",
-     "_type": "span",
-     "marks": [],
-     "text": " Trawangan, Air and Meno are a long transfer away on the other side of the island. They are worth visiting, but as an extension at the end, not a there-and-back day from the south."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k149",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k147",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Assuming every beach is calm swimming."
-    },
-    {
-     "_key": "k148",
-     "_type": "span",
-     "marks": [],
-     "text": " Some south beaches have shore break and current. Tanjung Aan and Mawun are the safer swims; the surf beaches are for surfing, not casual dips with weak swimmers."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k152",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k150",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Overpaying at the airport."
-    },
-    {
-     "_key": "k151",
-     "_type": "span",
-     "marks": [],
-     "text": " Agree a transfer price in advance or use a ride app. Fares quoted in the arrivals hall are often several times the normal rate."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k154",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k153",
-     "_type": "span",
-     "marks": [],
-     "text": "What to cut, adapt or upgrade"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k157",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k155",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Cut it to five days"
-    },
-    {
-     "_key": "k156",
-     "_type": "span",
-     "marks": [],
-     "text": " by dropping the inland Day 6 and the Sasak-culture half of Day 4. You keep the core beach and Pink Beach experience and lose only the change-of-scenery days."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k160",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k158",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Adapt it for surfers"
-    },
-    {
-     "_key": "k159",
-     "_type": "span",
-     "marks": [],
-     "text": " by turning Days 4 and 6 into a Gerupuk boat-surf day and a second Selong Belanak session, and skipping the cultural loop entirely."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k166",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k161",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Upgrade it to ten days"
-    },
-    {
-     "_key": "k162",
-     "_type": "span",
-     "marks": [],
-     "text": " by adding the northwest Gili Islands at the end. Finish your Kuta week, then take a fast boat across for three or four nights of quieter island time. Our "
-    },
-    {
-     "_key": "k164",
-     "_type": "span",
-     "marks": [
-      "k163"
-     ],
-     "text": "7-day Lombok and Gili Islands route"
-    },
-    {
-     "_key": "k165",
-     "_type": "span",
-     "marks": [],
-     "text": " shows how that side of the island pieces together."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k163",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-lombok-gili-islands"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k168",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k167",
-     "_type": "span",
-     "marks": [],
-     "text": "Before you build this trip"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k171",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k169",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Season."
-    },
-    {
-     "_key": "k170",
-     "_type": "span",
-     "marks": [],
-     "text": " The dry season, roughly May to September, gives the most reliable beach and surf days. The wet season brings more rain and bigger, messier surf. Confirm current conditions and flight routes before you lock accommodation, since schedules change."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k174",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k172",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Getting in."
-    },
-    {
-     "_key": "k173",
-     "_type": "span",
-     "marks": [],
-     "text": " Most visitors get a visa on arrival, commonly around 500,000 IDR for 30 days and extendable once, but visa rules change, so check the latest official guidance for your nationality before you fly."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k177",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k175",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Money and connectivity."
-    },
-    {
-     "_key": "k176",
-     "_type": "span",
-     "marks": [],
-     "text": " Carry cash for beaches, parking and warungs, as card acceptance is patchy outside larger hotels. Set up your eSIM before arrival so you are not hunting for a SIM counter on day one."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k180",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k178",
-     "_type": "span",
-     "marks": [
-      "strong"
-     ],
-     "text": "Getting around."
-    },
-    {
-     "_key": "k179",
-     "_type": "span",
-     "marks": [],
-     "text": " A scooter is the cheapest and most flexible option if you are confident. If you are not, hire a driver for the longer days to Pink Beach and Tetebatu and use short taxi hops otherwise. Do not ride at night on unfamiliar roads."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k182",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k181",
-     "_type": "span",
-     "marks": [],
-     "text": "Final verdict"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "k184",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k183",
-     "_type": "span",
-     "marks": [],
-     "text": "South Lombok is the antidote to a rushed Indonesia beach trip. By staying put in Kuta Lombok for a week you strip out the transfer days that eat into most island itineraries, and you get some of the best learner surf and emptiest sand in the country in exchange. It is not the plan for people who need constant novelty or a big night out, and it asks you to be comfortable on a scooter or to budget for a driver. But if your idea of a good week is a warm sea, a board, a few good beaches learned by heart and no packing until the last morning, this is a strong, honest use of seven days."
-    }
-   ],
-   "markDefs": [],
-   "style": "normal"
-  },
-  {
-   "_key": "k186",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k185",
-     "_type": "span",
-     "marks": [],
-     "text": "Related itineraries"
-    }
-   ],
-   "markDefs": [],
-   "style": "h2"
-  },
-  {
-   "_key": "swlomboklink1",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "swl1",
-     "_type": "span",
-     "marks": [],
-     "text": "If Kuta's beaches feel busier than you hoped, "
-    },
-    {
-     "_key": "swl2",
-     "_type": "span",
-     "marks": [
-      "swlombokmd1"
-     ],
-     "text": "the 8-day southwest Lombok route through Sekotong"
-    },
-    {
-     "_key": "swl3",
-     "_type": "span",
-     "marks": [],
-     "text": " heads the other way along the coast, to the quiet Gilis around Gili Gede and the rice terraces at Tetebatu."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "swlombokmd1",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/8-days-southwest-lombok-sekotong-secret-gilis"
-    }
-   ],
-   "style": "normal"
-  },
-  {
-   "_key": "k197",
-   "_type": "block",
-   "children": [
-    {
-     "_key": "k187",
-     "_type": "span",
-     "marks": [],
-     "text": "If you want to pair this with island time, our "
-    },
-    {
-     "_key": "k189",
-     "_type": "span",
-     "marks": [
-      "k188"
-     ],
-     "text": "7 days in Lombok and the Gili Islands"
-    },
-    {
-     "_key": "k190",
-     "_type": "span",
-     "marks": [],
-     "text": " covers the quieter northwest island chain, and the "
-    },
-    {
-     "_key": "k192",
-     "_type": "span",
-     "marks": [
-      "k191"
-     ],
-     "text": "7-day Lombok and Rinjani trek route"
-    },
-    {
-     "_key": "k193",
-     "_type": "span",
-     "marks": [],
-     "text": " is the plan for anyone who wants to add the volcano. For the full picture of the island, see our "
-    },
-    {
-     "_key": "k195",
-     "_type": "span",
-     "marks": [
-      "k194"
-     ],
-     "text": "Lombok and Gili Islands destination guide"
-    },
-    {
-     "_key": "k196",
-     "_type": "span",
-     "marks": [],
-     "text": "."
-    }
-   ],
-   "markDefs": [
-    {
-     "_key": "k188",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-lombok-gili-islands"
-    },
-    {
-     "_key": "k191",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/trips/7-days-lombok-rinjani-trek"
-    },
-    {
-     "_key": "k194",
-     "_type": "externalLink",
-     "blank": false,
-     "href": "/destinations/lombok-gili"
-    }
-   ],
-   "style": "normal"
-  }
- ],
- "contentStatus": "live",
- "destinationPrimary": "lombok_gili",
- "faq": [
-  {
-   "_key": "k198",
-   "answer": "Not if you want a relaxed beach week. Staying in one base around Kuta Lombok lets you learn the beaches properly, surf, and take a boat day to Pink Beach without losing time to transfers. If you prefer more variety, you can cut it to five days or add the northwest Gili Islands at the end.",
-   "question": "Is seven days too long to spend only in South Lombok?"
-  },
-  {
-   "_key": "k199",
-   "answer": "Lombok International Airport near Praya is about 30 minutes from Kuta Lombok. A metered or pre-booked car is commonly around 120,000 to 200,000 IDR as a working estimate. Agree the fare before you set off, since prices quoted in the arrivals hall are often much higher. Figures can change, so treat them as a guide.",
-   "question": "How do I get from Lombok airport to Kuta Lombok?"
-  },
-  {
-   "_key": "k200",
-   "answer": "Yes. Selong Belanak has a gentle, sandy-bottomed break that is one of the friendliest learner waves in Indonesia, and several surf schools operate on the beach. Most beginners stand up in their first lesson. Gerupuk, just east of Kuta, offers reef breaks for improvers reached by short boat.",
-   "question": "Is South Lombok good for beginner surfers?"
-  },
-  {
-   "_key": "k201",
-   "answer": "The main beaches like Selong Belanak and Tanjung Aan do not charge an entry fee, but locals usually collect a small scooter parking charge of around 10,000 IDR. Pink Beach has a small per-person entry fee, roughly 50,000 IDR as a working estimate, which is usually included in organised boat tours.",
-   "question": "Do the South Lombok beaches charge an entrance fee?"
-  },
-  {
-   "_key": "k202",
-   "answer": "The famous northwest Gilis (Trawangan, Air and Meno) are a long transfer from the south and are better added as an extension at the end of the week rather than a day trip. The southern gilis near Pink Beach, however, make an easy full-day boat trip from Kuta.",
-   "question": "Can I visit the Gili Islands as a day trip from South Lombok?"
-  },
-  {
-   "_key": "k203",
-   "answer": "The dry season, roughly May to September, gives the most reliable beach and surf conditions. The wet season brings more rain and rougher surf. Confirm current conditions and flight routes before booking, since schedules and weather patterns shift year to year.",
-   "question": "When is the best time to visit South Lombok?"
-  },
-  {
-   "_key": "k204",
-   "answer": "A scooter is the cheapest and most flexible way to reach the beaches, which are all within about 40 minutes of Kuta. If you are not confident riding, hire a local driver for the longer runs to Pink Beach and Tetebatu and use short taxi hops otherwise. Avoid riding at night on unfamiliar roads.",
-   "question": "Do I need a scooter, or can I get around another way?"
-  }
- ],
- "focusKeyword": "south lombok itinerary",
- "heroImage": {
-  "_type": "image",
-  "asset": {
-   "_ref": "image-edf662444e34f15655ce2bd7421768633dd9c43a-1024x684-jpg",
-   "_type": "reference"
-  }
- },
- "intro": "Most Lombok itineraries send you straight to the Gili Islands or up Mount Rinjani, and the south of the island quietly gets skipped. That is the mistake. South Lombok has the best beaches on Lombok and some of the friendliest learner surf in Indonesia, and it rewards travellers who slow down. This is a beach-first week from a single base in Kuta Lombok, built for people who would rather learn a few beaches well than tick off an island a day.",
- "metaDescription": "A relaxed 7-day South Lombok plan around Kuta, Selong Belanak and Tanjung Aan: where to base, what to book, and which beaches are worth your days.",
- "metaTitle": "7 Days in South Lombok: A Slow Beach Itinerary",
- "route": "Kuta Lombok → Selong Belanak → Tanjung Aan → Pink Beach",
- "slug": {
-  "_type": "slug",
-  "current": "7-days-south-lombok-kuta-beaches"
- },
- "title": "South Lombok: A 7-Day Beach Itinerary from Kuta Lombok",
- "travelStylePrimary": "beach_islands",
- "travellerTypes": [
-  "couples",
-  "friends",
-  "solo_travellers"
- ],
- "tripLengthBucket": "one_week",
- "tripLengthDays": 7,
- "vibe": "relaxed"
+  "_id": "itinerary-7-days-south-lombok-kuta-beaches",
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "_key": "k1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "k2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach",
+      "anchorText": "Pink Beach and southern Gili snorkeling day trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_LOMBOK_PINK_BEACH",
+      "publicUrl": "https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8"
+    },
+    {
+      "_key": "k3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/lombok/bali?z=16022946",
+      "anchorText": "fast boat and ferry tickets from Lombok",
+      "experienceCategory": "transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_LOMBOK_ONWARD",
+      "publicUrl": "https://12go.asia/en/travel/lombok/bali"
+    }
+  ],
+  "articleCreatedDate": "2026-07-15T06:43:07.584Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "k5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k4",
+          "_type": "span",
+          "marks": [],
+          "text": "Lombok has a reputation problem that works in your favour. Most people picture it as either the launch pad for the Gili Islands or the slog up Mount Rinjani, so the south of the island, the part with the best beaches, stays comparatively calm. This week plants you in Kuta Lombok and keeps you there, trading the pack-and-move rhythm of most island trips for the kind of holiday where you learn a handful of beaches properly and let the days slow down."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is a beach-first week, not a sightseeing sprint. You will surf gentle waves, walk long empty sand, snorkel a pink-tinged bay, and drive short scooter loops between coves. If you need a temple every morning and a new town every night, this is the wrong plan. If you want one good base, warm water and a low daily gear-shift, read on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k10",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples, friends and solo travellers who want a relaxed coastal week without the logistics of hopping islands. It is well matched to beginner and improving surfers, because South Lombok has some of the friendliest learner waves in Indonesia. It also works for anyone who found Bali too built up and wants the same warm-water beach days with more space."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is a weaker fit if your priority is nightlife and beach clubs, which South Lombok has only in a low-key form. It is not the trip for hardcore trekkers set on Rinjani, or for travellers who feel restless staying in one town for a week. And if you are travelling with young children who need calm, shallow swimming every day, note that some south beaches have shore break and current, so you will want to pick your spots. For a family-paced island week instead, our "
+        },
+        {
+          "_key": "k14",
+          "_type": "span",
+          "marks": [
+            "k13"
+          ],
+          "text": "10-day Lombok and Gili family itinerary"
+        },
+        {
+          "_key": "k15",
+          "_type": "span",
+          "marks": [],
+          "text": " is the better starting point."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-lombok-gili-families"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k17",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k19",
+          "_type": "span",
+          "marks": [],
+          "text": "Seven nights, one base, no internal flights. You fly into Lombok International Airport near Praya, which sits roughly 30 minutes from Kuta Lombok, so you can be on the sand the day you land. From Kuta you reach Selong Belanak, Tanjung Aan, Mawun and Merese Hill in well under an hour by scooter, and you can take a full-day boat out to Pink Beach and the southern Gilis. As a working estimate, budget for airport transfers of around 120,000 to 200,000 IDR each way and scooter rental near 70,000 to 100,000 IDR a day. Prices move, so treat every figure here as a planning number, not a quote."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k21",
+          "_type": "span",
+          "marks": [],
+          "text": "The pace is deliberately gentle. Expect one anchor activity a day, a long lunch, and time to do nothing. Nothing here is early-start dependent except the Pink Beach boat and, if you want them, glassy dawn surf sessions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k23",
+          "_type": "span",
+          "marks": [],
+          "text": "Why staying in one place makes this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k25",
+          "_type": "span",
+          "marks": [],
+          "text": "Most Lombok itineraries chop the week into Gili time, Rinjani time and beach time, and you lose half a day to transfers each time you move. South Lombok is compact enough that a single base removes that tax entirely. Kuta Lombok sits in the middle of the best beaches, has the widest choice of places to eat and sleep, and puts the airport half an hour away for a stress-free final morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k27",
+          "_type": "span",
+          "marks": [],
+          "text": "Basing in Kuta also lets you read the wind and swell day to day rather than committing in advance. If Selong Belanak is flat and glassy, you surf. If it is blown out, you drive ten minutes the other way to a sheltered cove. That flexibility is worth more on a beach trip than any fixed schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k29",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land, settle into Kuta Lombok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k32",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort connectivity before anything else. An "
+        },
+        {
+          "_key": "k34",
+          "_type": "span",
+          "marks": [
+            "k33"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "k35",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you activate data before you clear the airport, so ride-hailing, maps and your accommodation chat all work the moment you land. From the airport, a metered or pre-booked car to Kuta Lombok takes about 30 minutes. Agree the fare before you get in, since airport touts often quote several times the going rate."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k33",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k38",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and rent a scooter through your accommodation or a nearby shop. If you are not confident on two wheels, arrange a local driver for the week instead, as South Lombok distances are short and drivers are affordable. Spend the afternoon getting your bearings on foot around Kuta town and its beachfront."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k41",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat early at one of the warungs or casual restaurants along the main strip and plan tomorrow around the forecast. "
+        },
+        {
+          "_key": "k42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "k43",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok, for all seven nights. "
+        },
+        {
+          "_key": "k44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k45",
+          "_type": "span",
+          "marks": [],
+          "text": " South Lombok roads are quiet but unlit at night and some stretches are potholed, so keep scooter trips to daylight where you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k47",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Learn to surf at Selong Belanak"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k50",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive about 30 to 40 minutes west to Selong Belanak, a wide horseshoe bay with a gentle sandy-bottomed break that is one of the best beginner surf spots in the country. Surf schools line the beach; a lesson with board and rash guard is commonly in the region of 150,000 to 250,000 IDR, and board-only rental sits lower. Fees can change, so confirm on the day. Even complete beginners tend to stand up in the first session here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k53",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay put. Selong Belanak rewards a full day: swim, eat at the beach warungs, and take a second surf if the wind holds. There is no beach entry fee, but expect a small parking charge of around 10,000 IDR for a scooter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k55",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k56",
+          "_type": "span",
+          "marks": [],
+          "text": " Ride back before dark and eat in Kuta. "
+        },
+        {
+          "_key": "k57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k58",
+          "_type": "span",
+          "marks": [],
+          "text": " You do not need to pre-book a surf lesson; walking up and choosing an instructor you click with works better than booking blind online."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k60",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Tanjung Aan and the Merese sunset"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k63",
+          "_type": "span",
+          "marks": [],
+          "text": " Head east about 15 minutes to Tanjung Aan, a double bay with soft, pale sand and calmer water than the surf beaches. It is a good swimming and lounging morning. As at Selong Belanak, there is no entry fee but locals typically collect a small scooter parking charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k66",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk or ride the short climb up Merese Hill, the grassy headland between Tanjung Aan and Seger. The views over the bays are the reason to come, and it stays quiet outside sunset hour. If the tide suits, detour to Batu Payung, the umbrella-shaped rock nearby."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k68",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k69",
+          "_type": "span",
+          "marks": [],
+          "text": " Time the Merese Hill climb for late afternoon and stay for sunset over the water. "
+        },
+        {
+          "_key": "k70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k71",
+          "_type": "span",
+          "marks": [],
+          "text": " The hill is exposed with no shade, so bring water and go up in the last hour of daylight rather than the midday heat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k73",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: A slow day and a taste of Sasak Lombok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k76",
+          "_type": "span",
+          "marks": [],
+          "text": " Build in a genuinely slow morning. Pick whichever of the quieter coves fits the wind: Mawun, a sheltered horseshoe about 20 minutes west, or Are Guling further along. Both are calmer and less developed than the headline beaches."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k79",
+          "_type": "span",
+          "marks": [],
+          "text": " Trade sand for a short cultural loop inland. The Sasak weaving village of Sukarara and the traditional village of Sade sit within easy reach of Kuta and give a window into Lombok life beyond the coast. Keep expectations honest: these places see plenty of visitors and there is gentle pressure to buy, so treat it as a light half-day, not a deep dive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k81",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k82",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to Kuta for dinner. "
+        },
+        {
+          "_key": "k83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k84",
+          "_type": "span",
+          "marks": [],
+          "text": " None needed today. This is a buffer day by design, so if you would rather just repeat your favourite beach, do that instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k86",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Pink Beach and the southern Gilis by boat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k89",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the one day worth an early start and a booking. Pink Beach, known locally as Tangsi, sits on the far southeast of the island and is a rough two-hour drive from Kuta, so most people visit on an organised boat day that pairs it with snorkeling around the small southern gilis. A "
+        },
+        {
+          "_key": "k91",
+          "_type": "span",
+          "marks": [
+            "k90"
+          ],
+          "text": "Pink Beach and southern Gili snorkeling day trip"
+        },
+        {
+          "_key": "k92",
+          "_type": "span",
+          "marks": [],
+          "text": " handles the driving, boat and snorkel stops in one package, which is the sane way to do it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k90",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_LOMBOK_PINK_BEACH"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k95",
+          "_type": "span",
+          "marks": [],
+          "text": " Snorkel the clear water around Gili Petelu and its neighbours, then have lunch at the pink-tinged sand. Expect a small local entry fee at Pink Beach itself, around 50,000 IDR per person as a working estimate, usually included in organised tours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k98",
+          "_type": "span",
+          "marks": [],
+          "text": " You will get back to Kuta later than usual, so keep dinner simple. "
+        },
+        {
+          "_key": "k99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k100",
+          "_type": "span",
+          "marks": [],
+          "text": " Book this one ahead. The pairing of a long transfer, a boat and a guide is not something to arrange at the last minute, and going independently means a punishing drive for a short window on the sand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k102",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Inland green, or a surf step-up"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k105",
+          "_type": "span",
+          "marks": [],
+          "text": " Choose your day. For a change of scenery, drive north toward Tetebatu, a cooler upland area of rice terraces and small waterfalls on the southern flank of Rinjani, roughly 1.5 to 2 hours away. For a surf step-up instead, head to Gerupuk, just east of Kuta, where boats ferry surfers out to several reef breaks that suit improvers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k108",
+          "_type": "span",
+          "marks": [],
+          "text": " If you went to Tetebatu, walk a short rice-terrace loop with a local guide and cool off at a waterfall. If you chose Gerupuk, a half-day boat surf leaves you plenty of afternoon to recover on the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k111",
+          "_type": "span",
+          "marks": [],
+          "text": " Last proper night in Kuta. "
+        },
+        {
+          "_key": "k112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "k113",
+          "_type": "span",
+          "marks": [],
+          "text": " Tetebatu is a real drive on winding roads, so leave early and do not attempt it on a scooter if you are not comfortable with hills and traffic. A driver for the day is the easier call."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k115",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: A final beach morning, then the airport"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "k118",
+          "_type": "span",
+          "marks": [],
+          "text": " The airport being 30 minutes away is a gift on the last day. Go back to whichever beach you liked most for a final swim or dawn surf rather than sitting in your room waiting on a transfer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "k121",
+          "_type": "span",
+          "marks": [],
+          "text": " Rinse off, pack, and leave Kuta about two hours before your flight to be comfortable. "
+        },
+        {
+          "_key": "k122",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "k123",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrange the airport car through your accommodation the night before rather than hoping to flag one down."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k125",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "k126",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are extending rather than flying out, this is where onward transport comes in. "
+        },
+        {
+          "_key": "k128",
+          "_type": "span",
+          "marks": [
+            "k127"
+          ],
+          "text": "Fast boat and ferry tickets from Lombok"
+        },
+        {
+          "_key": "k129",
+          "_type": "span",
+          "marks": [],
+          "text": " cover routes on to the northwest Gili Islands or across to Bali, which lets you bolt a few island days onto the end of the week."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k127",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_LOMBOK_ONWARD"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k131",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k133",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "k134",
+          "_type": "span",
+          "marks": [],
+          "text": " your first two nights of accommodation in Kuta Lombok, especially in the dry-season peak from roughly June to August, and the Pink Beach boat day. Everything else can wait."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k136",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "k137",
+          "_type": "span",
+          "marks": [],
+          "text": " surf lessons, scooter rental, beach days and the Day 4 and Day 6 choices. South Lombok rewards reading the daily conditions, so locking a rigid schedule in advance works against you. Book connectivity ahead so you can make these calls on the move."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k139",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in South Lombok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Underestimating the sun and the roads."
+        },
+        {
+          "_key": "k142",
+          "_type": "span",
+          "marks": [],
+          "text": " The headland walks and long beach days have almost no shade, and the roads are quieter but rougher than Bali, with occasional potholes and stray livestock. Cover up, and ride cautiously."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Trying to day-trip the northwest Gilis from Kuta."
+        },
+        {
+          "_key": "k145",
+          "_type": "span",
+          "marks": [],
+          "text": " Trawangan, Air and Meno are a long transfer away on the other side of the island. They are worth visiting, but as an extension at the end, not a there-and-back day from the south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assuming every beach is calm swimming."
+        },
+        {
+          "_key": "k148",
+          "_type": "span",
+          "marks": [],
+          "text": " Some south beaches have shore break and current. Tanjung Aan and Mawun are the safer swims; the surf beaches are for surfing, not casual dips with weak swimmers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Overpaying at the airport."
+        },
+        {
+          "_key": "k151",
+          "_type": "span",
+          "marks": [],
+          "text": " Agree a transfer price in advance or use a ride app. Fares quoted in the arrivals hall are often several times the normal rate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k153",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut it to five days"
+        },
+        {
+          "_key": "k156",
+          "_type": "span",
+          "marks": [],
+          "text": " by dropping the inland Day 6 and the Sasak-culture half of Day 4. You keep the core beach and Pink Beach experience and lose only the change-of-scenery days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt it for surfers"
+        },
+        {
+          "_key": "k159",
+          "_type": "span",
+          "marks": [],
+          "text": " by turning Days 4 and 6 into a Gerupuk boat-surf day and a second Selong Belanak session, and skipping the cultural loop entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade it to ten days"
+        },
+        {
+          "_key": "k162",
+          "_type": "span",
+          "marks": [],
+          "text": " by adding the northwest Gili Islands at the end. Finish your Kuta week, then take a fast boat across for three or four nights of quieter island time. Our "
+        },
+        {
+          "_key": "k164",
+          "_type": "span",
+          "marks": [
+            "k163"
+          ],
+          "text": "7-day Lombok and Gili Islands route"
+        },
+        {
+          "_key": "k165",
+          "_type": "span",
+          "marks": [],
+          "text": " shows how that side of the island pieces together."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k163",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k167",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k169",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Season."
+        },
+        {
+          "_key": "k170",
+          "_type": "span",
+          "marks": [],
+          "text": " The dry season, roughly May to September, gives the most reliable beach and surf days. The wet season brings more rain and bigger, messier surf. Confirm current conditions and flight routes before you lock accommodation, since schedules change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k172",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting in."
+        },
+        {
+          "_key": "k173",
+          "_type": "span",
+          "marks": [],
+          "text": " Most visitors get a visa on arrival, commonly around 500,000 IDR for 30 days and extendable once, but visa rules change, so check the latest official guidance for your nationality before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k175",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and connectivity."
+        },
+        {
+          "_key": "k176",
+          "_type": "span",
+          "marks": [],
+          "text": " Carry cash for beaches, parking and warungs, as card acceptance is patchy outside larger hotels. Set up your eSIM before arrival so you are not hunting for a SIM counter on day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k178",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting around."
+        },
+        {
+          "_key": "k179",
+          "_type": "span",
+          "marks": [],
+          "text": " A scooter is the cheapest and most flexible option if you are confident. If you are not, hire a driver for the longer days to Pink Beach and Tetebatu and use short taxi hops otherwise. Do not ride at night on unfamiliar roads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k181",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "k184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k183",
+          "_type": "span",
+          "marks": [],
+          "text": "South Lombok is the antidote to a rushed Indonesia beach trip. By staying put in Kuta Lombok for a week you strip out the transfer days that eat into most island itineraries, and you get some of the best learner surf and emptiest sand in the country in exchange. It is not the plan for people who need constant novelty or a big night out, and it asks you to be comfortable on a scooter or to budget for a driver. But if your idea of a good week is a warm sea, a board, a few good beaches learned by heart and no packing until the last morning, this is a strong, honest use of seven days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "k186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k185",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "swlomboklink1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "swl1",
+          "_type": "span",
+          "marks": [],
+          "text": "If Kuta's beaches feel busier than you hoped, "
+        },
+        {
+          "_key": "swl2",
+          "_type": "span",
+          "marks": [
+            "swlombokmd1"
+          ],
+          "text": "the 8-day southwest Lombok route through Sekotong"
+        },
+        {
+          "_key": "swl3",
+          "_type": "span",
+          "marks": [],
+          "text": " heads the other way along the coast, to the quiet Gilis around Gili Gede and the rice terraces at Tetebatu."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "swlombokmd1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-southwest-lombok-sekotong-secret-gilis"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "k197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "k187",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want to pair this with island time, our "
+        },
+        {
+          "_key": "k189",
+          "_type": "span",
+          "marks": [
+            "k188"
+          ],
+          "text": "7 days in Lombok and the Gili Islands"
+        },
+        {
+          "_key": "k190",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the quieter northwest island chain, and the "
+        },
+        {
+          "_key": "k192",
+          "_type": "span",
+          "marks": [
+            "k191"
+          ],
+          "text": "7-day Lombok and Rinjani trek route"
+        },
+        {
+          "_key": "k193",
+          "_type": "span",
+          "marks": [],
+          "text": " is the plan for anyone who wants to add the volcano. For the full picture of the island, see our "
+        },
+        {
+          "_key": "k195",
+          "_type": "span",
+          "marks": [
+            "k194"
+          ],
+          "text": "Lombok and Gili Islands destination guide"
+        },
+        {
+          "_key": "k196",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "k188",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        },
+        {
+          "_key": "k191",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-rinjani-trek"
+        },
+        {
+          "_key": "k194",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "lombok_gili",
+  "faq": [
+    {
+      "_key": "k198",
+      "answer": "Not if you want a relaxed beach week. Staying in one base around Kuta Lombok lets you learn the beaches properly, surf, and take a boat day to Pink Beach without losing time to transfers. If you prefer more variety, you can cut it to five days or add the northwest Gili Islands at the end.",
+      "question": "Is seven days too long to spend only in South Lombok?"
+    },
+    {
+      "_key": "k199",
+      "answer": "Lombok International Airport near Praya is about 30 minutes from Kuta Lombok. A metered or pre-booked car is commonly around 120,000 to 200,000 IDR as a working estimate. Agree the fare before you set off, since prices quoted in the arrivals hall are often much higher. Figures can change, so treat them as a guide.",
+      "question": "How do I get from Lombok airport to Kuta Lombok?"
+    },
+    {
+      "_key": "k200",
+      "answer": "Yes. Selong Belanak has a gentle, sandy-bottomed break that is one of the friendliest learner waves in Indonesia, and several surf schools operate on the beach. Most beginners stand up in their first lesson. Gerupuk, just east of Kuta, offers reef breaks for improvers reached by short boat.",
+      "question": "Is South Lombok good for beginner surfers?"
+    },
+    {
+      "_key": "k201",
+      "answer": "The main beaches like Selong Belanak and Tanjung Aan do not charge an entry fee, but locals usually collect a small scooter parking charge of around 10,000 IDR. Pink Beach has a small per-person entry fee, roughly 50,000 IDR as a working estimate, which is usually included in organised boat tours.",
+      "question": "Do the South Lombok beaches charge an entrance fee?"
+    },
+    {
+      "_key": "k202",
+      "answer": "The famous northwest Gilis (Trawangan, Air and Meno) are a long transfer from the south and are better added as an extension at the end of the week rather than a day trip. The southern gilis near Pink Beach, however, make an easy full-day boat trip from Kuta.",
+      "question": "Can I visit the Gili Islands as a day trip from South Lombok?"
+    },
+    {
+      "_key": "k203",
+      "answer": "The dry season, roughly May to September, gives the most reliable beach and surf conditions. The wet season brings more rain and rougher surf. Confirm current conditions and flight routes before booking, since schedules and weather patterns shift year to year.",
+      "question": "When is the best time to visit South Lombok?"
+    },
+    {
+      "_key": "k204",
+      "answer": "A scooter is the cheapest and most flexible way to reach the beaches, which are all within about 40 minutes of Kuta. If you are not confident riding, hire a local driver for the longer runs to Pink Beach and Tetebatu and use short taxi hops otherwise. Avoid riding at night on unfamiliar roads.",
+      "question": "Do I need a scooter, or can I get around another way?"
+    }
+  ],
+  "focusKeyword": "south lombok itinerary",
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-edf662444e34f15655ce2bd7421768633dd9c43a-1024x684-jpg",
+      "_type": "reference"
+    }
+  },
+  "intro": "Most Lombok itineraries send you straight to the Gili Islands or up Mount Rinjani, and the south of the island quietly gets skipped. That is the mistake. South Lombok has the best beaches on Lombok and some of the friendliest learner surf in Indonesia, and it rewards travellers who slow down. This is a beach-first week from a single base in Kuta Lombok, built for people who would rather learn a few beaches well than tick off an island a day.",
+  "metaDescription": "A relaxed 7-day South Lombok plan around Kuta, Selong Belanak and Tanjung Aan: where to base, what to book, and which beaches are worth your days.",
+  "metaTitle": "7 Days in South Lombok: A Slow Beach Itinerary",
+  "route": "Kuta Lombok → Selong Belanak → Tanjung Aan → Pink Beach",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-south-lombok-kuta-beaches"
+  },
+  "title": "South Lombok: A 7-Day Beach Itinerary from Kuta Lombok",
+  "travelStylePrimary": "beach_islands",
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "relaxed"
 }
