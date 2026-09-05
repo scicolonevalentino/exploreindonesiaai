@@ -1,8 +1,22 @@
 # Piano di rinforzo: /trips/10-days-sulawesi-toraja-bunaken
 
-> **STATO: NON APPLICATO. Decide il founder.**
-> Generato dal task schedulato del 2026-09-02 (PARTE 3). La coda dei piani in
-> attesa era vuota: tutti e dodici i piani precedenti risultano applicati.
+> **STATO: APPLICATO il 2026-09-05,** su delega esplicita del founder
+> ("sistema tutto quello che devi sistemare senza chiedermi niente").
+> Applicate le sezioni 3 (`metaTitle`), 4 (`metaDescription`), 6.1, 6.2 e 6.3
+> con le due tabelle comparative: l'articolo passa da 85 a 95 blocchi.
+>
+> **La sezione 5 (il campo `title`) è stata deliberatamente SALTATA**, seguendo
+> il consiglio del piano stesso: su un articolo quel campo tocca undici punti
+> del codice e le sezioni della 6 portano quasi tutto il valore. Se fra 28
+> giorni la posizione si è mossa ma non abbastanza, quello è il passo successivo
+> da valutare, non da fare adesso.
+>
+> Della sezione 7: il link dal `14-days-sulawesi-toraja-togean-bunaken`, cioè il
+> più importante dei quattro perché è la pagina che cannibalizza `sulawesi
+> route`, **esisteva già**. Aggiunti quelli da `10-days-north-sulawesi-diving-bunaken-lembeh`
+> e da `8-days-wakatobi-diving-southeast-sulawesi`. Il quarto, dalla hub
+> `/destinations/wild-indonesia`, risultava già presente. Verificato in
+> produzione: i tre H2 nuovi e le due tabelle renderizzano.
 
 ## 1. La pagina e il cluster
 

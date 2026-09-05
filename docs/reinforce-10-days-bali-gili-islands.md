@@ -1,11 +1,21 @@
 # Piano di rinforzo: /trips/10-days-bali-gili-islands
 
-> **STATO: NON APPLICATO. Decide il founder.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-09-05,** su delega esplicita del
+> founder ("sistema tutto quello che devi sistemare senza chiedermi niente").
+> `metaTitle` e `metaDescription` erano già in produzione dal 2026-09-04.
+> Applicate oggi tutte e cinque le sezioni della 6, con le due tabelle
+> comparative, e create le quattro voci Booking che alla pagina mancavano del
+> tutto (`BOOKING_UBUD`, `BOOKING_CANGGU`, `BOOKING_GILI_TRAWANGAN`,
+> `BOOKING_ULUWATU`): l'articolo passa da 100 a 118 blocchi e da 10 a 14
+> affiliati. Il campo `title` NON è stato toccato, come indicato alla sezione 5.
 >
-> Generato dal task schedulato del 2026-09-04 (PARTE 3). La PARTE 1 di quella
-> run ha già applicato in produzione `metaTitle` e `metaDescription`, riportati
-> qui sotto insieme ai valori vecchi. Tutto il resto di questo documento è una
-> proposta.
+> Della sezione 7, applicati il punto 3 (link da `7-days-bali-first-timers`) e
+> il punto 1, che era il più importante: la hub `/destinations/lombok-gili` non
+> linkava affatto questa pagina, e ora lo fa da una nuova sottosezione in
+> `src/data/destinations.ts`, "Can you combine Bali and the Gili Islands in one
+> trip?". Il punto 2 risultava **già presente** sulla hub `/destinations/bali`,
+> e il punto 4 pure. Verificato in produzione: i cinque H2 nuovi, le due tabelle
+> e i quattro CTA Booking renderizzano.
 
 ## 1. La pagina e il cluster
 

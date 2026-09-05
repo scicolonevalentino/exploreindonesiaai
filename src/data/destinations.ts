@@ -1076,6 +1076,27 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
             ],
           ],
         },
+        subsections: [
+          {
+            // Added 2026-09-05 from docs/reinforce-10-days-bali-gili-islands.md,
+            // item 1 of section 7. This hub is our strongest Gili page (222
+            // impressions, position 28.0) and it did not link the Bali-plus-Gili
+            // itinerary at all, while that page sits at 57.3 on the growing query
+            // "bali and gili islands". The 10-day row of the table above already
+            // ends on "unless you are adding Bali at the front", so the question
+            // is one the reader is holding when they get here.
+            heading: "Can you combine Bali and the Gili Islands in one trip?",
+            body: [
+              "Yes, and ten days is the length where it stops being a rush. The fast boat costs you the better part of two days out of the total, so a week spent on Bali plus the Gilis leaves you two nights on the islands and a lot of transit. Ten days buys three.",
+            ],
+            link: {
+              before: "The route that does it, three bases in Bali and one island stop, is our ",
+              href: "/trips/10-days-bali-gili-islands",
+              anchor: "combine Bali and the Gili Islands in ten days",
+              after: " itinerary.",
+            },
+          },
+        ],
         link: {
           before: "The seven-day version is mapped out day by day in our ",
           href: "/trips/7-days-lombok-gili-islands",

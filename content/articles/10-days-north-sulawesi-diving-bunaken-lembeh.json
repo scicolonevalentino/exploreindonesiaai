@@ -1648,6 +1648,41 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "ilb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ils3",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather pair the diving with the Toraja highlands than stay north for the whole trip, our ten-day route explains "
+        },
+        {
+          "_key": "ils4",
+          "_type": "span",
+          "marks": [
+            "ilm1"
+          ],
+          "text": "which part of Sulawesi to visit"
+        },
+        {
+          "_key": "ils5",
+          "_type": "span",
+          "marks": [],
+          "text": " and what the internal flight costs you in time."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ilm1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-sulawesi-toraja-bunaken"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",

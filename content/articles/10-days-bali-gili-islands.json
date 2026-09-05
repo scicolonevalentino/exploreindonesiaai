@@ -107,6 +107,54 @@
       "partner": "viator",
       "placeholderId": "VIATOR_TANAH_LOT_SUNSET",
       "publicUrl": "https://www.viator.com/tours/Seminyak/Package-Tanah-Lot-sunset-tour/d34198-126243P13"
+    },
+    {
+      "_key": "rpa79",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Ubud",
+      "day": "Day 1",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_UBUD",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "rpa80",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Canggu",
+      "day": "Day 4",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_CANGGU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Canggu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "rpa81",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Trawangan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "rooms on Gili Trawangan",
+      "day": "Day 6",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_GILI_TRAWANGAN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Gili+Trawangan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "rpa82",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Uluwatu",
+      "day": "Day 9",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_ULUWATU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
     }
   ],
   "articleCommercialTier": "hero",
@@ -391,6 +439,555 @@
         }
       ],
       "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps1",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get from Bali to the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps3",
+          "_type": "span",
+          "marks": [],
+          "text": "By fast boat, from one of three Bali ports. Serangan and Sanur are the usual departures for Gili Trawangan and run roughly one and a half to two hours. Padang Bai sits closer to the islands and shortens the crossing, but it adds a longer drive from the south. Book the crossing, not the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps5",
+          "_type": "span",
+          "marks": [],
+          "text": "Fares move with the season and the operator, and this is the one leg of the trip that weather can cancel outright. Morning crossings are reliably calmer than afternoon ones, so take the early boat even when the later one is cheaper. You can "
+        },
+        {
+          "_key": "rps7",
+          "_type": "span",
+          "marks": [
+            "rpm6"
+          ],
+          "text": "compare Bali to Gili Trawangan fast boats"
+        },
+        {
+          "_key": "rps8",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "rps10",
+          "_type": "span",
+          "marks": [
+            "rpm9"
+          ],
+          "text": "the return crossing to Bali"
+        },
+        {
+          "_key": "rps11",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fix your dates, and our "
+        },
+        {
+          "_key": "rps13",
+          "_type": "span",
+          "marks": [
+            "rpm12"
+          ],
+          "text": "Bali to Gili Islands transport guide"
+        },
+        {
+          "_key": "rps14",
+          "_type": "span",
+          "marks": [],
+          "text": " has the port-by-port detail."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm6",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_GILI_TRAWANGAN"
+        },
+        {
+          "_key": "rpm9",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        },
+        {
+          "_key": "rpm12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "rps17",
+          "_type": "span",
+          "marks": [],
+          "text": " never book a same-day international connection against the return crossing. Leave the last night in Bali, which is exactly what Day 9 of this route does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps19",
+          "_type": "span",
+          "marks": [],
+          "text": "Which Gili island should you stay on?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps21",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Trawangan if you want bars, dive shops and somewhere to eat after nine. Gili Air if you want the middle ground, beaches on two sides and a quieter evening. Gili Meno if the point is that nothing happens. On a ten-day trip with one island stop, Trawangan is the safe pick."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpt23",
+      "_type": "comparisonTable",
+      "columns": [
+        "Island",
+        "Stay here if",
+        "The trade-off"
+      ],
+      "rows": [
+        {
+          "_key": "rpr24",
+          "cells": [
+            "Gili Trawangan",
+            "You want evening life, dive shops and a real choice of restaurants",
+            "The most built-up of the three, and the loudest at night"
+          ]
+        },
+        {
+          "_key": "rpr25",
+          "cells": [
+            "Gili Air",
+            "You want the middle ground, beaches on two sides and quiet evenings",
+            "Fewer organised dives and a shorter list of places to eat"
+          ]
+        },
+        {
+          "_key": "rpr26",
+          "cells": [
+            "Gili Meno",
+            "You want nothing to happen",
+            "Very few rooms, and almost nowhere to eat out"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rpb31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps27",
+          "_type": "span",
+          "marks": [],
+          "text": "All three are twenty minutes apart by local boat, so the choice sets where you sleep, not what you can see. If you would rather split the island half across all three, see our "
+        },
+        {
+          "_key": "rps29",
+          "_type": "span",
+          "marks": [
+            "rpm28"
+          ],
+          "text": "4-day Gili Islands route through Trawangan, Meno and Air"
+        },
+        {
+          "_key": "rps30",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm28",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-gili-islands-trawangan-meno-air"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps32",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need for Bali and the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps34",
+          "_type": "span",
+          "marks": [],
+          "text": "Ten days is the first honest number, because the crossing costs you the better part of two days out of the total. Seven works only if you accept two nights on the islands. Under seven, skip the Gilis and stay in Bali. Over fourteen, add Lombok rather than a second Gili."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpt36",
+      "_type": "comparisonTable",
+      "columns": [
+        "Trip length",
+        "What fits",
+        "Who it suits"
+      ],
+      "rows": [
+        {
+          "_key": "rpr37",
+          "cells": [
+            "5 days",
+            "Bali only, Ubud and one beach base, no crossing",
+            "A first look, or a stopover"
+          ]
+        },
+        {
+          "_key": "rpr38",
+          "cells": [
+            "7 days",
+            "Bali only, three bases, still no crossing",
+            "First-timers who want variety over islands"
+          ]
+        },
+        {
+          "_key": "rpr39",
+          "cells": [
+            "10 days",
+            "Bali plus one Gili, the route on this page",
+            "The first length where the boat earns its place"
+          ]
+        },
+        {
+          "_key": "rpr40",
+          "cells": [
+            "14 days",
+            "Bali, the Gilis and Lombok",
+            "Travellers who want a second island culture, not a second beach"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "rpb51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps41",
+          "_type": "span",
+          "marks": [],
+          "text": "The shorter versions are the "
+        },
+        {
+          "_key": "rps43",
+          "_type": "span",
+          "marks": [
+            "rpm42"
+          ],
+          "text": "5-day Ubud, Canggu and Uluwatu route"
+        },
+        {
+          "_key": "rps44",
+          "_type": "span",
+          "marks": [],
+          "text": " and the "
+        },
+        {
+          "_key": "rps46",
+          "_type": "span",
+          "marks": [
+            "rpm45"
+          ],
+          "text": "7-day Bali route for first-timers"
+        },
+        {
+          "_key": "rps47",
+          "_type": "span",
+          "marks": [],
+          "text": ". The longer one is the "
+        },
+        {
+          "_key": "rps49",
+          "_type": "span",
+          "marks": [
+            "rpm48"
+          ],
+          "text": "Bali, Lombok and Gili Islands route"
+        },
+        {
+          "_key": "rps50",
+          "_type": "span",
+          "marks": [],
+          "text": ", which trades island time for Lombok."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm42",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+        },
+        {
+          "_key": "rpm45",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        },
+        {
+          "_key": "rpm48",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps52",
+          "_type": "span",
+          "marks": [],
+          "text": "Is it worth adding the Gili Islands to a Bali trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps54",
+          "_type": "span",
+          "marks": [],
+          "text": "Only if you have ten days or more. The Gilis give you something Bali cannot, an island with no cars and no traffic of any kind, but they cost two travel days and a boat that weather can cancel. On a one-week Bali trip the Nusa islands do the same job for half the transit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps56",
+          "_type": "span",
+          "marks": [],
+          "text": "That is the honest comparison, and it is the reason this route is ten days rather than seven. If your dates are fixed at a week, look at the "
+        },
+        {
+          "_key": "rps58",
+          "_type": "span",
+          "marks": [
+            "rpm57"
+          ],
+          "text": "islands closer to Bali"
+        },
+        {
+          "_key": "rps59",
+          "_type": "span",
+          "marks": [],
+          "text": " instead, where the crossing is forty minutes rather than two hours."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm57",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps61",
+          "_type": "span",
+          "marks": [],
+          "text": "Where should you stay on a Bali and Gili trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "rpb64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps63",
+          "_type": "span",
+          "marks": [],
+          "text": "Three bases in Bali and one on the islands. Ubud for the first three nights, Canggu for the beach half, Gili Trawangan for the island stop, then Uluwatu for the last two nights so the airport run is short. Moving four times in ten days is the reason the route works."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "rpb78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "rps65",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare "
+        },
+        {
+          "_key": "rps67",
+          "_type": "span",
+          "marks": [
+            "rpm66"
+          ],
+          "text": "stays in Ubud"
+        },
+        {
+          "_key": "rps68",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "rps70",
+          "_type": "span",
+          "marks": [
+            "rpm69"
+          ],
+          "text": "stays in Canggu"
+        },
+        {
+          "_key": "rps71",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "rps73",
+          "_type": "span",
+          "marks": [
+            "rpm72"
+          ],
+          "text": "rooms on Gili Trawangan"
+        },
+        {
+          "_key": "rps74",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "rps76",
+          "_type": "span",
+          "marks": [
+            "rpm75"
+          ],
+          "text": "stays in Uluwatu"
+        },
+        {
+          "_key": "rps77",
+          "_type": "span",
+          "marks": [],
+          "text": ". Book the Gili Trawangan nights and the high-season villas first: those are the two that actually sell out."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "rpm66",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        },
+        {
+          "_key": "rpm69",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_CANGGU"
+        },
+        {
+          "_key": "rpm72",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_TRAWANGAN"
+        },
+        {
+          "_key": "rpm75",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_ULUWATU"
+        }
+      ],
       "style": "normal"
     },
     {

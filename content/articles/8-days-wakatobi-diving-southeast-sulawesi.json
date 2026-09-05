@@ -1498,6 +1498,41 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "ilb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ils8",
+          "_type": "span",
+          "marks": [],
+          "text": "Wakatobi is the furthest arm of a very large island. For "
+        },
+        {
+          "_key": "ils9",
+          "_type": "span",
+          "marks": [
+            "ilm6"
+          ],
+          "text": "the wider Sulawesi picture"
+        },
+        {
+          "_key": "ils10",
+          "_type": "span",
+          "marks": [],
+          "text": ", including how the four regions compare and which pair works in ten days, start with the Toraja and Bunaken route."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ilm6",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-sulawesi-toraja-bunaken"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
