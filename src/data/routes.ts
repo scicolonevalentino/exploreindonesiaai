@@ -24,7 +24,6 @@ const TWELVEGO = "https://12go.asia/?z=16022946";
 // they land on the actual origin/destination page instead of a doorway. Verified
 // 200 on 2026-08-07 (12Go answers curl with 202 + empty body as bot mitigation,
 // so status has to be checked in a real browser).
-const TWELVEGO_PADANG_BUKITTINGGI = "https://12go.asia/en/travel/padang/bukittinggi?z=16022946";
 
 export type TransportModeKey =
   | "fast-boat"
@@ -878,10 +877,9 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         durationText: "About 2 to 3 hours, including the pickup loop around Padang",
         priceUsdText: "From around Rp 50,000 a seat, roughly $3 to $5 (working estimate)",
         frequencyText: "Several departures through the day; book a seat a day ahead in high season",
-        bookingPartner: "12go",
-        bookingUrl: TWELVEGO_PADANG_BUKITTINGGI,
+        bookingPartner: null,
         notes:
-          "The door-to-door pickup is why this is the default local choice, but collecting other passengers adds half an hour or so before you actually leave town.",
+          "The door-to-door pickup is why this is the default local choice, but collecting other passengers adds half an hour or so before you actually leave town. Not sold online — book through your hotel or a Padang travel agent a day ahead.",
       },
       {
         mode: "shared-shuttle",
@@ -890,10 +888,9 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         priceUsdText:
           "Around Rp 55,000 to Rp 60,000, roughly $4 to $5 (working estimate); PO ANS lists regular class from Rp 60,000",
         frequencyText: "Regular departures through the day",
-        bookingPartner: "12go",
-        bookingUrl: TWELVEGO_PADANG_BUKITTINGGI,
+        bookingPartner: null,
         notes:
-          "Aur Kuning terminal is about 2 km from the centre of Bukittinggi, so budget a short ojek or Grab hop at the end.",
+          "Aur Kuning terminal is about 2 km from the centre of Bukittinggi, so budget a short ojek or Grab hop at the end. Tickets are sold at the terminal or by the operator, not through the online aggregators.",
       },
       {
         mode: "private-car",
