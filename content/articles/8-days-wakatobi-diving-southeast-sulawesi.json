@@ -1,28 +1,6 @@
 {
   "_id": "itinerary-8-days-wakatobi-diving-southeast-sulawesi",
   "_type": "article",
-  "title": "Wakatobi: An 8-Day Diving Itinerary in Southeast Sulawesi",
-  "slug": {
-    "_type": "slug",
-    "current": "8-days-wakatobi-diving-southeast-sulawesi"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-15T07:06:40.600Z",
-  "destinationPrimary": "wild_indonesia",
-  "travelStylePrimary": "diving_snorkeling",
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 8,
-  "travellerTypes": ["divers", "couples", "repeat_travellers"],
-  "vibe": "remote",
-  "route": "Makassar → Wangi-Wangi → Hoga → Tomia",
-  "focusKeyword": "wakatobi diving itinerary",
-  "metaTitle": "Wakatobi Diving: An 8-Day Southeast Sulawesi Trip",
-  "metaDescription": "How to dive Wakatobi in 8 days: reaching Wangi-Wangi, island-hopping to Hoga and Tomia, and choosing between independent travel and a dive resort.",
-  "intro": "Wakatobi sits near the top of most serious divers lists of Indonesian reefs, and near the bottom of most lists of places that are simple to reach. Off the southeast corner of Sulawesi, its four islands reward the divers who make the effort with healthy coral and few other boats, but they punish anyone who treats it like an easy beach week. This is a diving-first plan that walks the independent island-hopping route and is honest about when a fly-in dive resort is the smarter call instead.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "k1",
@@ -39,16 +17,21 @@
     {
       "_key": "k2",
       "_type": "affiliateLink",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/makassar?z=16022946",
       "anchorText": "flights and boat tickets across Sulawesi",
       "experienceCategory": "transfer",
       "linkStatus": "live",
       "notes": null,
       "partner": "12go",
       "placeholderId": "12GO_WAKATOBI_FLIGHTS",
-      "publicUrl": null
+      "publicUrl": "https://12go.asia/en/travel/jakarta/makassar"
     }
   ],
+  "articleCreatedDate": "2026-07-15T07:06:40.600Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
       "_key": "k4",
@@ -119,7 +102,9 @@
         {
           "_key": "k13",
           "_type": "span",
-          "marks": ["k12"],
+          "marks": [
+            "k12"
+          ],
           "text": "South Lombok beaches"
         },
         {
@@ -131,7 +116,9 @@
         {
           "_key": "k16",
           "_type": "span",
-          "marks": ["k15"],
+          "marks": [
+            "k15"
+          ],
           "text": "Gili Islands"
         },
         {
@@ -226,7 +213,9 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "independent route"
         },
         {
@@ -252,7 +241,9 @@
         {
           "_key": "k32",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "resort route"
         },
         {
@@ -286,7 +277,9 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -298,7 +291,9 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": ["k39"],
+          "marks": [
+            "k39"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -324,7 +319,9 @@
         {
           "_key": "k43",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -336,7 +333,9 @@
         {
           "_key": "k46",
           "_type": "span",
-          "marks": ["k45"],
+          "marks": [
+            "k45"
+          ],
           "text": "flights and boat tickets across Sulawesi"
         },
         {
@@ -362,7 +361,9 @@
         {
           "_key": "k49",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -374,7 +375,9 @@
         {
           "_key": "k51",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -386,7 +389,9 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -420,7 +425,9 @@
         {
           "_key": "k58",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -440,7 +447,9 @@
         {
           "_key": "k61",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -460,7 +469,9 @@
         {
           "_key": "k64",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -472,7 +483,9 @@
         {
           "_key": "k66",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -506,7 +519,9 @@
         {
           "_key": "k71",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -526,7 +541,9 @@
         {
           "_key": "k74",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -546,7 +563,9 @@
         {
           "_key": "k77",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -558,7 +577,9 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -592,7 +613,9 @@
         {
           "_key": "k84",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -612,7 +635,9 @@
         {
           "_key": "k87",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -632,7 +657,9 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -644,7 +671,9 @@
         {
           "_key": "k92",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -678,7 +707,9 @@
         {
           "_key": "k97",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -698,7 +729,9 @@
         {
           "_key": "k100",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -718,7 +751,9 @@
         {
           "_key": "k103",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -730,7 +765,9 @@
         {
           "_key": "k105",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -764,7 +801,9 @@
         {
           "_key": "k110",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -784,7 +823,9 @@
         {
           "_key": "k113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -804,7 +845,9 @@
         {
           "_key": "k116",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -816,7 +859,9 @@
         {
           "_key": "k118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -850,7 +895,9 @@
         {
           "_key": "k123",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -870,7 +917,9 @@
         {
           "_key": "k126",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -890,7 +939,9 @@
         {
           "_key": "k129",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -902,7 +953,9 @@
         {
           "_key": "k131",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -936,7 +989,9 @@
         {
           "_key": "k136",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -956,7 +1011,9 @@
         {
           "_key": "k139",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -968,7 +1025,9 @@
         {
           "_key": "k141",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1002,7 +1061,9 @@
         {
           "_key": "k146",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early:"
         },
         {
@@ -1022,7 +1083,9 @@
         {
           "_key": "k149",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible:"
         },
         {
@@ -1056,7 +1119,9 @@
         {
           "_key": "k154",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Treating the island flights as an afterthought."
         },
         {
@@ -1076,7 +1141,9 @@
         {
           "_key": "k157",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Overpacking the islands into too few days."
         },
         {
@@ -1096,7 +1163,9 @@
         {
           "_key": "k160",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Diving too close to the flight home."
         },
         {
@@ -1116,7 +1185,9 @@
         {
           "_key": "k163",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Expecting resort comfort on the independent route."
         },
         {
@@ -1150,7 +1221,9 @@
         {
           "_key": "k168",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut it to a Wangi-Wangi and Hoga loop"
         },
         {
@@ -1170,7 +1243,9 @@
         {
           "_key": "k171",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt it for snorkelers"
         },
         {
@@ -1190,7 +1265,9 @@
         {
           "_key": "k174",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade it to the resort route"
         },
         {
@@ -1224,7 +1301,9 @@
         {
           "_key": "k179",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Season."
         },
         {
@@ -1244,7 +1323,9 @@
         {
           "_key": "k182",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Getting in."
         },
         {
@@ -1264,7 +1345,9 @@
         {
           "_key": "k185",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and connectivity."
         },
         {
@@ -1284,7 +1367,9 @@
         {
           "_key": "k188",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Diving readiness."
         },
         {
@@ -1352,7 +1437,9 @@
         {
           "_key": "k199",
           "_type": "span",
-          "marks": ["k198"],
+          "marks": [
+            "k198"
+          ],
           "text": "10 days diving North Sulawesi, Bunaken and Lembeh"
         },
         {
@@ -1364,7 +1451,9 @@
         {
           "_key": "k202",
           "_type": "span",
-          "marks": ["k201"],
+          "marks": [
+            "k201"
+          ],
           "text": "14-day Raja Ampat itinerary for divers"
         },
         {
@@ -1376,7 +1465,9 @@
         {
           "_key": "k205",
           "_type": "span",
-          "marks": ["k204"],
+          "marks": [
+            "k204"
+          ],
           "text": "Wild Indonesia destination guide"
         },
         {
@@ -1409,6 +1500,8 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
   "faq": [
     {
       "_key": "k208",
@@ -1446,11 +1539,30 @@
       "question": "When is the best time to dive Wakatobi?"
     }
   ],
+  "focusKeyword": "wakatobi diving itinerary",
   "heroImage": {
     "_type": "image",
     "asset": {
       "_ref": "image-3b9bf1eecd5bc8f8d9ad2530e433b220de47b2b1-549x364-jpg",
       "_type": "reference"
     }
-  }
+  },
+  "intro": "Wakatobi sits near the top of most serious divers lists of Indonesian reefs, and near the bottom of most lists of places that are simple to reach. Off the southeast corner of Sulawesi, its four islands reward the divers who make the effort with healthy coral and few other boats, but they punish anyone who treats it like an easy beach week. This is a diving-first plan that walks the independent island-hopping route and is honest about when a fly-in dive resort is the smarter call instead.",
+  "metaDescription": "How to dive Wakatobi in 8 days: reaching Wangi-Wangi, island-hopping to Hoga and Tomia, and choosing between independent travel and a dive resort.",
+  "metaTitle": "Wakatobi Diving: An 8-Day Southeast Sulawesi Trip",
+  "route": "Makassar → Wangi-Wangi → Hoga → Tomia",
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-wakatobi-diving-southeast-sulawesi"
+  },
+  "title": "Wakatobi: An 8-Day Diving Itinerary in Southeast Sulawesi",
+  "travelStylePrimary": "diving_snorkeling",
+  "travellerTypes": [
+    "divers",
+    "couples",
+    "repeat_travellers"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "vibe": "remote"
 }

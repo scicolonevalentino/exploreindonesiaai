@@ -1,29 +1,6 @@
 {
   "_id": "itinerary-5-days-borneo-orangutans-tanjung-puting",
   "_type": "article",
-  "title": "5 Days in Borneo: Tanjung Puting Orangutan River Cruise",
-  "slug": {
-    "_type": "slug",
-    "current": "5-days-borneo-orangutans-tanjung-puting"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-24T00:00:00.000Z",
-  "destinationPrimary": "wild_indonesia",
-  "travelStylePrimary": "wildlife_nature",
-  "travelStyleSecondary": "remote_offbeat",
-  "tripLengthBucket": "short_escape",
-  "tripLengthDays": 5,
-  "travellerTypes": ["families", "couples", "repeat_travellers"],
-  "vibe": "relaxed",
-  "route": "Pangkalan Bun → Kumai → Sekonyer River → Tanjung Harapan → Pondok Tanggui → Camp Leakey → Kumai",
-  "focusKeyword": "Tanjung Puting itinerary",
-  "metaTitle": "5 Days in Borneo: Tanjung Puting Orangutan Cruise",
-  "metaDescription": "A 5-day Tanjung Puting itinerary: a klotok houseboat up the Sekonyer River to Borneo's wild orangutans, with costs, timing and what to book first.",
-  "intro": "Most people picture orangutans as a hard jungle trek: hours of sweating uphill hoping for a glimpse. Tanjung Puting works the other way. You board a wooden klotok, the crew cooks while you drift up a coffee-coloured river, and the wildlife comes to the water to meet you. That one decision, boat instead of trek, is what makes this one of the few genuine wildlife trips in Indonesia that a young child, a grandparent and a serious photographer can all do together. It is a slow trip, and it rewards travellers who treat the pace as the point rather than a problem.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "a1",
@@ -38,14 +15,14 @@
     },
     {
       "_key": "a2",
-      "affiliateUrl": "https://12go.asia/en/travel/jakarta/pangkalan-bun?z=16022946",
-      "anchorText": "compare flights and transfers to Pangkalan Bun",
+      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "anchorText": "compare Indonesian domestic flights and transfers",
       "experienceCategory": "airport_transfer",
       "linkStatus": "live",
       "notes": null,
       "partner": "12go",
       "placeholderId": "12GO_PANGKALAN_BUN",
-      "publicUrl": "https://12go.asia/en/travel/jakarta/pangkalan-bun"
+      "publicUrl": "https://12go.asia/"
     },
     {
       "_key": "a3",
@@ -59,6 +36,11 @@
       "publicUrl": "https://www.airalo.com/indonesia-esim"
     }
   ],
+  "articleCreatedDate": "2026-07-24T00:00:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
   "body": [
     {
       "_key": "b5",
@@ -95,7 +77,9 @@
         {
           "_key": "s8",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Who this trip is NOT for."
         },
         {
@@ -185,7 +169,9 @@
         {
           "_key": "s21",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -205,7 +191,9 @@
         {
           "_key": "s24",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -225,7 +213,9 @@
         {
           "_key": "s27",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -245,7 +235,9 @@
         {
           "_key": "s30",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -265,7 +257,9 @@
         {
           "_key": "s33",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -299,7 +293,9 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -319,7 +315,9 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -339,7 +337,9 @@
         {
           "_key": "s44",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -359,7 +359,9 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -393,7 +395,9 @@
         {
           "_key": "s52",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -413,7 +417,9 @@
         {
           "_key": "s55",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -433,7 +439,9 @@
         {
           "_key": "s58",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -467,7 +475,9 @@
         {
           "_key": "s63",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -487,7 +497,9 @@
         {
           "_key": "s66",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -507,7 +519,9 @@
         {
           "_key": "s69",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -527,7 +541,9 @@
         {
           "_key": "s72",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -561,7 +577,9 @@
         {
           "_key": "s77",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -595,7 +613,9 @@
         {
           "_key": "s82",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early:"
         },
         {
@@ -621,7 +641,9 @@
         {
           "_key": "s87",
           "_type": "span",
-          "marks": ["m86"],
+          "marks": [
+            "m86"
+          ],
           "text": "a standard 3-day klotok liveaboard in Tanjung Puting"
         },
         {
@@ -647,7 +669,9 @@
         {
           "_key": "s90",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible:"
         },
         {
@@ -659,8 +683,10 @@
         {
           "_key": "s93",
           "_type": "span",
-          "marks": ["m92"],
-          "text": "compare flights and transfers to Pangkalan Bun"
+          "marks": [
+            "m92"
+          ],
+          "text": "compare Indonesian domestic flights and transfers"
         },
         {
           "_key": "s94",
@@ -671,7 +697,9 @@
         {
           "_key": "s96",
           "_type": "span",
-          "marks": ["m95"],
+          "marks": [
+            "m95"
+          ],
           "text": "an Indonesia eSIM from Airalo"
         },
         {
@@ -716,7 +744,9 @@
         {
           "_key": "s101",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Flying in on the same day the cruise starts, with no margin."
         },
         {
@@ -736,7 +766,9 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking the cheapest boat blind."
         },
         {
@@ -756,7 +788,9 @@
         {
           "_key": "s107",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Chasing selfies with the orangutans."
         },
         {
@@ -776,7 +810,9 @@
         {
           "_key": "s110",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underpacking for insects and rain."
         },
         {
@@ -796,7 +832,9 @@
         {
           "_key": "s113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Treating three nights as too long."
         },
         {
@@ -830,7 +868,9 @@
         {
           "_key": "s118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut"
         },
         {
@@ -850,7 +890,9 @@
         {
           "_key": "s121",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt"
         },
         {
@@ -870,7 +912,9 @@
         {
           "_key": "s124",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade"
         },
         {
@@ -896,7 +940,9 @@
         {
           "_key": "sderawan2",
           "_type": "span",
-          "marks": ["mderawan1"],
+          "marks": [
+            "mderawan1"
+          ],
           "text": "8-day Derawan Islands route"
         },
         {
@@ -937,7 +983,9 @@
         {
           "_key": "s129",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Health."
         },
         {
@@ -957,7 +1005,9 @@
         {
           "_key": "s132",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "When to go."
         },
         {
@@ -977,7 +1027,9 @@
         {
           "_key": "s135",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money."
         },
         {
@@ -997,7 +1049,9 @@
         {
           "_key": "s138",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Park permits."
         },
         {
@@ -1065,7 +1119,9 @@
         {
           "_key": "s149",
           "_type": "span",
-          "marks": ["m148"],
+          "marks": [
+            "m148"
+          ],
           "text": "9 days in North Sumatra with kids"
         },
         {
@@ -1077,7 +1133,9 @@
         {
           "_key": "s152",
           "_type": "span",
-          "marks": ["m151"],
+          "marks": [
+            "m151"
+          ],
           "text": "20 days in wild Indonesia"
         },
         {
@@ -1089,7 +1147,9 @@
         {
           "_key": "s155",
           "_type": "span",
-          "marks": ["m154"],
+          "marks": [
+            "m154"
+          ],
           "text": "Wild Indonesia destination guide"
         },
         {
@@ -1122,6 +1182,8 @@
       "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
   "faq": [
     {
       "answer": "Three days and two nights is the practical minimum to reach Camp Leakey once. Four days and three nights, the version in this itinerary, adds a second feeding session and a safety margin for slow river travel, which is why we recommend it inside a five-day trip that includes flights.",
@@ -1152,6 +1214,7 @@
       "question": "Do I need malaria precautions?"
     }
   ],
+  "focusKeyword": "Tanjung Puting itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Sungai Sekonyer, the tea-coloured river winding through Tanjung Puting National Park, Borneo",
@@ -1160,5 +1223,24 @@
       "_type": "reference"
     },
     "caption": "Cruising the Sekonyer River, Tanjung Puting, Central Kalimantan"
-  }
+  },
+  "intro": "Most people picture orangutans as a hard jungle trek: hours of sweating uphill hoping for a glimpse. Tanjung Puting works the other way. You board a wooden klotok, the crew cooks while you drift up a coffee-coloured river, and the wildlife comes to the water to meet you. That one decision, boat instead of trek, is what makes this one of the few genuine wildlife trips in Indonesia that a young child, a grandparent and a serious photographer can all do together. It is a slow trip, and it rewards travellers who treat the pace as the point rather than a problem.",
+  "metaDescription": "A 5-day Tanjung Puting itinerary: a klotok houseboat up the Sekonyer River to Borneo's wild orangutans, with costs, timing and what to book first.",
+  "metaTitle": "5 Days in Borneo: Tanjung Puting Orangutan Cruise",
+  "route": "Pangkalan Bun → Kumai → Sekonyer River → Tanjung Harapan → Pondok Tanggui → Camp Leakey → Kumai",
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-borneo-orangutans-tanjung-puting"
+  },
+  "title": "5 Days in Borneo: Tanjung Puting Orangutan River Cruise",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": "remote_offbeat",
+  "travellerTypes": [
+    "families",
+    "couples",
+    "repeat_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "relaxed"
 }

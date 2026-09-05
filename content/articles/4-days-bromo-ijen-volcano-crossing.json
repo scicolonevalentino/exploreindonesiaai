@@ -1,30 +1,6 @@
 {
   "_id": "itinerary-4-days-bromo-ijen-volcano-crossing",
   "_type": "article",
-  "title": "Bromo and Ijen in 4 Days: Java's Volcano Crossing",
-  "slug": {
-    "_type": "slug",
-    "current": "4-days-bromo-ijen-volcano-crossing"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-07-22T04:14:46Z",
-  "destinationPrimary": "java",
-  "travelStylePrimary": "adventure_volcanoes",
-  "tripLengthBucket": "short_escape",
-  "tripLengthDays": 4,
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
-  "vibe": "active",
-  "experienceTags": ["volcano_sunrise", "overland_route"],
-  "bestSeason": "April–October",
-  "route": "Surabaya → Mount Bromo (Cemoro Lawang) → Kawah Ijen (Banyuwangi) → Bali",
-  "focusKeyword": "Bromo Ijen itinerary",
-  "metaTitle": "Bromo & Ijen in 4 Days: Java's Volcano Crossing",
-  "metaDescription": "A 4-day Bromo and Ijen itinerary from Surabaya: the Bromo sunrise, the Ijen blue fire, then the short ferry into Bali. Costs, timing and honest logistics.",
-  "intro": "Nearly every East Java plan lists Mount Bromo and Kawah Ijen as two separate day trips. The better move is to treat them as one overland crossing. You start inland at Bromo, work east to Ijen, then cross the strait into Bali, so the two hardest early starts in Java come back to back and the trip ends on a beach rather than back where you began. It is a punishing little route, two broken nights of sleep in four days, but it is also the most efficient way to stand on both craters and keep moving in one direction.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "_key": "bi0001",
@@ -41,14 +17,14 @@
     {
       "_key": "bi0002",
       "_type": "affiliateLink",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
-      "anchorText": "compare trains, buses and private transfers across East Java on 12Go",
+      "affiliateUrl": "https://12go.asia/en/travel/surabaya/probolinggo?z=16022946",
+      "anchorText": "compare Surabaya to Probolinggo trains and buses on 12Go",
       "experienceCategory": "transport",
       "linkStatus": "live",
       "notes": null,
       "partner": "12go",
       "placeholderId": "12GO_EAST_JAVA_TRANSPORT",
-      "publicUrl": "https://12go.asia"
+      "publicUrl": "https://12go.asia/en/travel/surabaya/probolinggo"
     },
     {
       "_key": "bi0003",
@@ -87,6 +63,12 @@
       "publicUrl": "https://www.viator.com/tours/Banyuwangi/Kawah-Ijen-Midnight-Tour-1-Day/d50506-178080P3"
     }
   ],
+  "articleCreatedDate": "2026-07-22T04:14:46Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "bi0006",
@@ -165,7 +147,9 @@
         {
           "_key": "bi0016",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -177,7 +161,9 @@
         {
           "_key": "bi0019",
           "_type": "span",
-          "marks": ["bi0018"],
+          "marks": [
+            "bi0018"
+          ],
           "text": "an Indonesia eSIM with Airalo"
         },
         {
@@ -245,7 +231,9 @@
         {
           "_key": "bi0028",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -265,7 +253,9 @@
         {
           "_key": "bi0031",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -277,8 +267,10 @@
         {
           "_key": "bi0034",
           "_type": "span",
-          "marks": ["bi0033"],
-          "text": "compare trains, buses and private transfers across East Java on 12Go"
+          "marks": [
+            "bi0033"
+          ],
+          "text": "compare Surabaya to Probolinggo trains and buses on 12Go"
         },
         {
           "_key": "bi0035",
@@ -303,7 +295,9 @@
         {
           "_key": "bi0037",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -323,7 +317,9 @@
         {
           "_key": "bi0040",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -357,7 +353,9 @@
         {
           "_key": "bi0045",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -377,7 +375,9 @@
         {
           "_key": "bi0048",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -389,7 +389,9 @@
         {
           "_key": "bi0051",
           "_type": "span",
-          "marks": ["bi0050"],
+          "marks": [
+            "bi0050"
+          ],
           "text": "Mount Bromo sunrise tour"
         },
         {
@@ -415,7 +417,9 @@
         {
           "_key": "bi0054",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -435,7 +439,9 @@
         {
           "_key": "bi0057",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -455,7 +461,9 @@
         {
           "_key": "bi0060",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -489,7 +497,9 @@
         {
           "_key": "bi0065",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -509,7 +519,9 @@
         {
           "_key": "bi0068",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -521,7 +533,9 @@
         {
           "_key": "bi0071",
           "_type": "span",
-          "marks": ["bi0070"],
+          "marks": [
+            "bi0070"
+          ],
           "text": "a guided Kawah Ijen blue fire night hike from Banyuwangi"
         },
         {
@@ -547,7 +561,9 @@
         {
           "_key": "bi0074",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -567,7 +583,9 @@
         {
           "_key": "bi0077",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -601,7 +619,9 @@
         {
           "_key": "bi0082",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -613,7 +633,9 @@
         {
           "_key": "bi0085",
           "_type": "span",
-          "marks": ["bi0084"],
+          "marks": [
+            "bi0084"
+          ],
           "text": "check schedules and onward transport on 12Go"
         },
         {
@@ -639,7 +661,9 @@
         {
           "_key": "bi0088",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -659,7 +683,9 @@
         {
           "_key": "bi0091",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -693,7 +719,9 @@
         {
           "_key": "bi0096",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book before you go:"
         },
         {
@@ -713,7 +741,9 @@
         {
           "_key": "bi0099",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible:"
         },
         {
@@ -747,7 +777,9 @@
         {
           "_key": "bi0104",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating the transfer day."
         },
         {
@@ -767,7 +799,9 @@
         {
           "_key": "bi0107",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Skimping on cold-weather layers."
         },
         {
@@ -787,7 +821,9 @@
         {
           "_key": "bi0110",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Trusting a flimsy mask at Ijen."
         },
         {
@@ -807,7 +843,9 @@
         {
           "_key": "bi0113",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Fixing dates without checking the Ijen closure."
         },
         {
@@ -841,7 +879,9 @@
         {
           "_key": "bi0118",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut a volcano if time is tight."
         },
         {
@@ -853,7 +893,9 @@
         {
           "_key": "bi0121",
           "_type": "span",
-          "marks": ["bi0120"],
+          "marks": [
+            "bi0120"
+          ],
           "text": "2 Days at Kawah Ijen"
         },
         {
@@ -880,7 +922,9 @@
         {
           "_key": "bi0124",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt the direction if you are starting from Bali."
         },
         {
@@ -892,7 +936,9 @@
         {
           "_key": "bi0127",
           "_type": "span",
-          "marks": ["bi0126"],
+          "marks": [
+            "bi0126"
+          ],
           "text": "round-trip Ijen midnight tour from Bali with hotel drop-off"
         },
         {
@@ -918,7 +964,9 @@
         {
           "_key": "bi0130",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade the transfer"
         },
         {
@@ -952,7 +1000,9 @@
         {
           "_key": "bi0135",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Time it for the dry season."
         },
         {
@@ -972,7 +1022,9 @@
         {
           "_key": "bi0138",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Sort your entry and connectivity in advance."
         },
         {
@@ -992,7 +1044,9 @@
         {
           "_key": "bi0141",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Be honest about the sleep debt."
         },
         {
@@ -1060,7 +1114,9 @@
         {
           "_key": "bi0152",
           "_type": "span",
-          "marks": ["bi0151"],
+          "marks": [
+            "bi0151"
+          ],
           "text": "5 Days in Yogyakarta and Mount Bromo"
         },
         {
@@ -1072,7 +1128,9 @@
         {
           "_key": "bi0155",
           "_type": "span",
-          "marks": ["bi0154"],
+          "marks": [
+            "bi0154"
+          ],
           "text": "2 Days at Kawah Ijen"
         },
         {
@@ -1084,7 +1142,9 @@
         {
           "_key": "bi0158",
           "_type": "span",
-          "marks": ["bi0157"],
+          "marks": [
+            "bi0157"
+          ],
           "text": "5 Days in Bali: Ubud, Canggu and Uluwatu"
         },
         {
@@ -1096,7 +1156,9 @@
         {
           "_key": "bi0161",
           "_type": "span",
-          "marks": ["bi0160"],
+          "marks": [
+            "bi0160"
+          ],
           "text": "Java travel guide"
         },
         {
@@ -1134,6 +1196,12 @@
       ],
       "style": "normal"
     }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "volcano_sunrise",
+    "overland_route"
   ],
   "faq": [
     {
@@ -1179,6 +1247,7 @@
       "question": "How do you get from Ijen to Bali?"
     }
   ],
+  "focusKeyword": "Bromo Ijen itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Mount Bromo at sunrise, mist filling the Tengger caldera with the crater smoking and Semeru behind",
@@ -1186,5 +1255,23 @@
       "_ref": "image-7d041721fea66f77e019c60836aaa253c24af1f0-547x365-jpg",
       "_type": "reference"
     }
-  }
+  },
+  "intro": "Nearly every East Java plan lists Mount Bromo and Kawah Ijen as two separate day trips. The better move is to treat them as one overland crossing. You start inland at Bromo, work east to Ijen, then cross the strait into Bali, so the two hardest early starts in Java come back to back and the trip ends on a beach rather than back where you began. It is a punishing little route, two broken nights of sleep in four days, but it is also the most efficient way to stand on both craters and keep moving in one direction.",
+  "metaDescription": "A 4-day Bromo and Ijen itinerary from Surabaya: the Bromo sunrise, the Ijen blue fire, then the short ferry into Bali. Costs, timing and honest logistics.",
+  "metaTitle": "Bromo & Ijen in 4 Days: Java's Volcano Crossing",
+  "route": "Surabaya → Mount Bromo (Cemoro Lawang) → Kawah Ijen (Banyuwangi) → Bali",
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-bromo-ijen-volcano-crossing"
+  },
+  "title": "Bromo and Ijen in 4 Days: Java's Volcano Crossing",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "vibe": "active"
 }

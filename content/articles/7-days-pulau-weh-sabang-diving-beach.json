@@ -17,14 +17,14 @@
     {
       "_key": "k208",
       "_type": "affiliateLink",
-      "affiliateUrl": "https://12go.asia/?z=16022946",
+      "affiliateUrl": "https://12go.asia/en/travel/medan/banda-aceh?z=16022946",
       "anchorText": "current flights and transfers into Banda Aceh",
       "experienceCategory": "transfer",
       "linkStatus": "live",
       "notes": null,
       "partner": "12go",
       "placeholderId": "12GO_ACEH_TRANSFERS",
-      "publicUrl": null
+      "publicUrl": "https://12go.asia/en/travel/medan/banda-aceh"
     }
   ],
   "articleCreatedDate": "2026-07-10T00:00:00.000Z",
@@ -110,7 +110,9 @@
         {
           "_key": "k11",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -169,7 +171,12 @@
       "_key": "t7",
       "_type": "comparisonTable",
       "caption": "The two crossings from Banda Aceh, as working estimates. Fares and sailings change and the slow ferry runs less often, so confirm at the port or with your guesthouse before you plan a day around it.",
-      "columns": ["Crossing", "Working time", "Price as a working estimate", "Best for"],
+      "columns": [
+        "Crossing",
+        "Working time",
+        "Price as a working estimate",
+        "Best for"
+      ],
       "rows": [
         {
           "_key": "r8",
@@ -237,7 +244,12 @@
       "_key": "t16",
       "_type": "comparisonTable",
       "caption": "The sites the resident dive centres on the island run, with depths and levels as they publish them. Conditions change day to day, so let your dive shop pick the site rather than arriving with a list.",
-      "columns": ["Dive site", "Depth", "What you see", "Level"],
+      "columns": [
+        "Dive site",
+        "Depth",
+        "What you see",
+        "Level"
+      ],
       "rows": [
         {
           "_key": "r17",
@@ -502,7 +514,9 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -514,7 +528,9 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": ["k27"],
+          "marks": [
+            "k27"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -540,7 +556,9 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -560,7 +578,9 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -580,7 +600,9 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -600,7 +622,9 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -634,7 +658,9 @@
         {
           "_key": "k45",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -646,7 +672,9 @@
         {
           "_key": "k48",
           "_type": "span",
-          "marks": ["k47"],
+          "marks": [
+            "k47"
+          ],
           "text": "check current flights and transfers into Banda Aceh"
         },
         {
@@ -672,7 +700,9 @@
         {
           "_key": "k51",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -692,7 +722,9 @@
         {
           "_key": "k54",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -712,7 +744,9 @@
         {
           "_key": "k57",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -746,7 +780,9 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -766,7 +802,9 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -786,7 +824,9 @@
         {
           "_key": "k68",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -806,7 +846,9 @@
         {
           "_key": "k71",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -840,7 +882,9 @@
         {
           "_key": "k76",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -860,7 +904,9 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -880,7 +926,9 @@
         {
           "_key": "k82",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -900,7 +948,9 @@
         {
           "_key": "k85",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic. "
         },
         {
@@ -934,7 +984,9 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -954,7 +1006,9 @@
         {
           "_key": "k93",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -974,7 +1028,9 @@
         {
           "_key": "k96",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1008,7 +1064,9 @@
         {
           "_key": "k101",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1028,7 +1086,9 @@
         {
           "_key": "k104",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1048,7 +1108,9 @@
         {
           "_key": "k107",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -1068,7 +1130,9 @@
         {
           "_key": "k110",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -1102,7 +1166,9 @@
         {
           "_key": "k115",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1114,7 +1180,9 @@
         {
           "_key": "k118",
           "_type": "span",
-          "marks": ["k117"],
+          "marks": [
+            "k117"
+          ],
           "text": "Check current flights and transfers into Banda Aceh"
         },
         {
@@ -1154,7 +1222,9 @@
         {
           "_key": "k123",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early. "
         },
         {
@@ -1174,7 +1244,9 @@
         {
           "_key": "k126",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible. "
         },
         {
@@ -1208,7 +1280,9 @@
         {
           "_key": "k131",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating the journey. "
         },
         {
@@ -1228,7 +1302,9 @@
         {
           "_key": "k134",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cutting the buffer day. "
         },
         {
@@ -1248,7 +1324,9 @@
         {
           "_key": "k137",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Expecting a resort holiday. "
         },
         {
@@ -1268,7 +1346,9 @@
         {
           "_key": "k140",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Ignoring the Friday pause. "
         },
         {
@@ -1288,7 +1368,9 @@
         {
           "_key": "k143",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Overpacking the days. "
         },
         {
@@ -1322,7 +1404,9 @@
         {
           "_key": "k148",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut the Banda Aceh sightseeing if you are tight on time. "
         },
         {
@@ -1342,7 +1426,9 @@
         {
           "_key": "k151",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt for non-divers. "
         },
         {
@@ -1362,7 +1448,9 @@
         {
           "_key": "k154",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade by adding North Sumatra. "
         },
         {
@@ -1382,7 +1470,9 @@
         {
           "_key": "k157",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade the stay, within reason. "
         },
         {
@@ -1393,6 +1483,50 @@
         }
       ],
       "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "hm11b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "hm11b-a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Put a lake in front of it. "
+        },
+        {
+          "_key": "hm11b-b",
+          "_type": "span",
+          "marks": [],
+          "text": "Weh works as the second half of a longer trip, and the natural first half is Lake Toba, cool and inland where this coast is warm and flat. The "
+        },
+        {
+          "_key": "hm11b-c",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "hm11bmd"
+          ],
+          "text": "eleven-day Sumatra honeymoon route"
+        },
+        {
+          "_key": "hm11b-d",
+          "_type": "span",
+          "marks": [],
+          "text": " runs the two together in that order, so the easy travel falls at the end."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "hm11bmd",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/11-days-sumatra-honeymoon-lake-toba-pulau-weh"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1416,7 +1550,9 @@
         {
           "_key": "k162",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1436,7 +1572,9 @@
         {
           "_key": "k165",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money. "
         },
         {
@@ -1456,7 +1594,9 @@
         {
           "_key": "k168",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Alcohol and local law. "
         },
         {
@@ -1476,7 +1616,9 @@
         {
           "_key": "k171",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "The Friday pause. "
         },
         {
@@ -1496,7 +1638,9 @@
         {
           "_key": "k174",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time to go. "
         },
         {
@@ -1516,7 +1660,9 @@
         {
           "_key": "k177",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Connectivity. "
         },
         {
@@ -1584,7 +1730,9 @@
         {
           "_key": "k188",
           "_type": "span",
-          "marks": ["k187"],
+          "marks": [
+            "k187"
+          ],
           "text": "9-day North Sumatra trip with kids"
         },
         {
@@ -1596,7 +1744,9 @@
         {
           "_key": "k191",
           "_type": "span",
-          "marks": ["k190"],
+          "marks": [
+            "k190"
+          ],
           "text": "15-day Sumatra loop"
         },
         {
@@ -1608,7 +1758,9 @@
         {
           "_key": "k194",
           "_type": "span",
-          "marks": ["k193"],
+          "marks": [
+            "k193"
+          ],
           "text": "7-day West Sumatra route through Bukittinggi and the Harau Valley"
         },
         {
@@ -1620,7 +1772,9 @@
         {
           "_key": "k197",
           "_type": "span",
-          "marks": ["k196"],
+          "marks": [
+            "k196"
+          ],
           "text": "Sumatra destination hub"
         },
         {
@@ -1718,7 +1872,11 @@
   },
   "title": "Pulau Weh: Diving, Beaches and a 7-Day Plan for Aceh's Far North",
   "travelStylePrimary": "diving_snorkeling",
-  "travellerTypes": ["couples", "divers", "friends"],
+  "travellerTypes": [
+    "couples",
+    "divers",
+    "friends"
+  ],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 7,
   "vibe": "relaxed"
