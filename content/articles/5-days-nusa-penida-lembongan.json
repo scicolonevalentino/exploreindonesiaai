@@ -922,9 +922,34 @@
           "_type": "span",
           "marks": [],
           "text": " The single most common mistake is trying to see Penida and Lembongan in one day from Bali. You spend the day in boats and cars and see almost nothing properly. Several nights on the islands is the fix."
+        },
+        {
+          "_key": "gsc0824k131a",
+          "_type": "span",
+          "marks": [],
+          "text": " The same trade-off applies across the other "
+        },
+        {
+          "_key": "gsc0824k131b",
+          "_type": "span",
+          "marks": ["gsc0824k131"],
+          "text": "islands near Bali"
+        },
+        {
+          "_key": "gsc0824k131c",
+          "_type": "span",
+          "marks": [],
+          "text": ", which each need a different amount of time."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "gsc0824k131",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1056,9 +1081,34 @@
           "_type": "span",
           "marks": [],
           "text": " add a night and slot in the east coast properly, so Diamond Beach and Atuh get their own half-day instead of being squeezed onto the snorkel day. This is the single best use of one extra night here."
+        },
+        {
+          "_key": "k150x1",
+          "_type": "span",
+          "marks": [],
+          "text": " If diving rather than snorkelling is the draw, "
+        },
+        {
+          "_key": "k150x2",
+          "_type": "span",
+          "marks": ["inb5-days"],
+          "text": "our 6-day Nusa Penida dive trip"
+        },
+        {
+          "_key": "k150x3",
+          "_type": "span",
+          "marks": [],
+          "text": " gives the sea several chances at Manta Point instead of one."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "inb5-days",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-nusa-penida-diving-manta-mola"
+        }
+      ],
       "style": "normal"
     },
     {

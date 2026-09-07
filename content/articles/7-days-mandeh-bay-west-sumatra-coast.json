@@ -395,8 +395,8 @@
         {
           "_key": "mbm44",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/indonesia-travel-costs"
+          "blank": false,
+          "href": "/indonesia-travel-costs"
         }
       ],
       "style": "normal"

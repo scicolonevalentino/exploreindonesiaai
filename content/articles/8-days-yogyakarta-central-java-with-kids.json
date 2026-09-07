@@ -1550,8 +1550,8 @@
         {
           "_key": "k0210",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/7-days-yogyakarta-east-java"
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
         }
       ],
       "style": "normal"
@@ -1585,8 +1585,8 @@
         {
           "_key": "k0215",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/7-days-bali-with-kids"
+          "blank": false,
+          "href": "/trips/7-days-bali-with-kids"
         }
       ],
       "style": "normal"
@@ -1620,8 +1620,8 @@
         {
           "_key": "k0220",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/destinations/java"
+          "blank": false,
+          "href": "/destinations/java"
         }
       ],
       "style": "normal"
