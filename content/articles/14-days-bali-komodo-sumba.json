@@ -2248,19 +2248,19 @@
           "_key": "k8t",
           "_type": "span",
           "marks": [],
-          "text": "Shorter on time or new to the region, start with "
+          "text": "New to the region, or wary of a fragile connection, the "
         },
         {
           "_key": "k8v",
           "_type": "span",
           "marks": ["k8u"],
-          "text": "Bali and Komodo without the Sumba leg"
+          "text": "14-day Bali, Java and Komodo route"
         },
         {
           "_key": "k8w",
           "_type": "span",
           "marks": [],
-          "text": " and add the wild islands later."
+          "text": " runs the same length without the Sumba leg, and swaps it for Java's volcanoes and temples."
         }
       ],
       "markDefs": [
@@ -2268,7 +2268,7 @@
           "_key": "k8u",
           "_type": "externalLink",
           "blank": false,
-          "href": "/trips/14-days-bali-komodo-sumba"
+          "href": "/trips/14-days-indonesia-bali-java-komodo"
         }
       ],
       "style": "normal"

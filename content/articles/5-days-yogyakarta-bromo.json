@@ -1238,8 +1238,8 @@
         {
           "_key": "k0162",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/7-days-yogyakarta-east-java"
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
         }
       ],
       "style": "normal"
@@ -1308,8 +1308,8 @@
         {
           "_key": "k0167",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/15-days-java-bali"
+          "blank": false,
+          "href": "/trips/15-days-java-bali"
         }
       ],
       "style": "normal"
@@ -1343,8 +1343,8 @@
         {
           "_key": "k0172",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/destinations/java"
+          "blank": false,
+          "href": "/destinations/java"
         }
       ],
       "style": "normal"

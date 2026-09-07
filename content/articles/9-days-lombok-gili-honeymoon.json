@@ -673,7 +673,7 @@
           "_key": "rfm44",
           "_type": "externalLink",
           "blank": false,
-          "href": "https://exploreindonesia.ai/indonesia-travel-costs"
+          "href": "/indonesia-travel-costs"
         }
       ],
       "style": "normal"
@@ -1899,6 +1899,24 @@
           "_type": "span",
           "marks": [],
           "text": " destination guide."
+        },
+        {
+          "_key": "px1a",
+          "_type": "span",
+          "marks": [],
+          "text": " We set out "
+        },
+        {
+          "_key": "px1b",
+          "_type": "span",
+          "marks": ["px1"],
+          "text": "which islands near Bali suit couples"
+        },
+        {
+          "_key": "px1c",
+          "_type": "span",
+          "marks": [],
+          "text": " side by side, with the trade-offs."
         }
       ],
       "markDefs": [
@@ -1919,6 +1937,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/destinations/lombok-gili"
+        },
+        {
+          "_key": "px1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
         }
       ],
       "style": "normal"

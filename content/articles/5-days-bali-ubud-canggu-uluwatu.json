@@ -1879,7 +1879,7 @@
      "_key": "k5j",
      "_type": "span",
      "marks": [],
-     "text": "If you have more time, extend with an island leg using a "
+     "text": "If you have more time, the "
     },
     {
      "_key": "k5l",
@@ -1887,13 +1887,13 @@
      "marks": [
       "k5k"
      ],
-     "text": "7-day Bali and Nusa Penida itinerary"
+     "text": "7-day Bali route for first timers"
     },
     {
      "_key": "k5m",
      "_type": "span",
      "marks": [],
-     "text": " so the boat days have room to breathe."
+     "text": " covers the same three bases at a calmer pace, with room for a boat day."
     }
    ],
    "markDefs": [
@@ -1914,7 +1914,7 @@
      "_key": "k5o",
      "_type": "span",
      "marks": [],
-     "text": "Prefer a beach-led version? Compare a "
+     "text": "Prefer a beach-led version? The "
     },
     {
      "_key": "k5q",
@@ -1922,13 +1922,13 @@
      "marks": [
       "k5p"
      ],
-     "text": "Bali surf and beaches itinerary"
+     "text": "5-day Nusa Penida and Lembongan route"
     },
     {
      "_key": "k5r",
      "_type": "span",
      "marks": [],
-     "text": " that leans into Canggu and Uluwatu."
+     "text": " trades the temples and rice terraces for cliffs, reefs and boat days."
     }
    ],
    "markDefs": [
@@ -1936,7 +1936,7 @@
      "_key": "k5p",
      "_type": "externalLink",
      "blank": false,
-     "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+     "href": "/trips/5-days-nusa-penida-lembongan"
     }
    ],
    "style": "normal"

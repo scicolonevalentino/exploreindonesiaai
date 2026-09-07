@@ -1643,7 +1643,7 @@
           "_key": "k6n",
           "_type": "span",
           "marks": ["k6m"],
-          "text": "Bromo and Ijen itineraries"
+          "text": "4-day Bromo and Ijen volcano crossing"
         },
         {
           "_key": "k6o",
@@ -1657,7 +1657,7 @@
           "_key": "k6m",
           "_type": "externalLink",
           "blank": false,
-          "href": "/trips/7-days-yogyakarta-east-java"
+          "href": "/trips/4-days-bromo-ijen-volcano-crossing"
         }
       ],
       "style": "normal"
@@ -1689,8 +1689,8 @@
         {
           "_key": "famkidsmd1",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/8-days-yogyakarta-central-java-with-kids"
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
         }
       ],
       "style": "normal"
@@ -1722,8 +1722,41 @@
         {
           "_key": "y2b5daybromoref",
           "_type": "externalLink",
-          "blank": true,
-          "href": "https://exploreindonesia.ai/trips/5-days-yogyakarta-bromo"
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "karimunjawalink1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kjs1",
+          "_type": "span",
+          "marks": [],
+          "text": "Would rather not cross to Bali for that beach week? Java has its own island escape. The "
+        },
+        {
+          "_key": "kjs2",
+          "_type": "span",
+          "marks": ["kjmd1"],
+          "text": "six-day Karimunjawa route"
+        },
+        {
+          "_key": "kjs3",
+          "_type": "span",
+          "marks": [],
+          "text": " is built around the ferry from Jepara, and it works as the slow half of this trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kjmd1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-karimunjawa-java-islands"
         }
       ],
       "style": "normal"

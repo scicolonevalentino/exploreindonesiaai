@@ -1199,9 +1199,34 @@
           "_type": "span",
           "marks": [],
           "text": "if you can, and add either a night on a second island or a proper dive course. Four days is the practical floor here, not the ideal number."
+        },
+        {
+          "_key": "s168x1",
+          "_type": "span",
+          "marks": [],
+          "text": " For the dive-course version of that, see "
+        },
+        {
+          "_key": "s168x2",
+          "_type": "span",
+          "marks": ["inb4-days"],
+          "text": "7 days learning to dive in the Gili Islands"
+        },
+        {
+          "_key": "s168x3",
+          "_type": "span",
+          "marks": [],
+          "text": "."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "inb4-days",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-gili-islands-learn-to-dive"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -1415,6 +1440,24 @@
           "_type": "span",
           "marks": [],
           "text": " adds the south Lombok beaches and the Senaru waterfalls to the same island section."
+        },
+        {
+          "_key": "px0a",
+          "_type": "span",
+          "marks": [],
+          "text": " If the Gilis are only part of the plan, "
+        },
+        {
+          "_key": "px0b",
+          "_type": "span",
+          "marks": ["px0"],
+          "text": "the other islands near Bali"
+        },
+        {
+          "_key": "px0c",
+          "_type": "span",
+          "marks": [],
+          "text": " are worth comparing first."
         }
       ],
       "markDefs": [
@@ -1423,6 +1466,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/trips/7-days-lombok-gili-islands"
+        },
+        {
+          "_key": "px0",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
         }
       ],
       "style": "normal"
