@@ -923,10 +923,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "lombok_gili",
     name: "Lombok & Gili Islands",
     shortName: "Lombok & Gili",
-    h1: "Lombok and the Gili Islands",
-    metaTitle: "Lombok and the Gili Islands: Day-by-Day Itineraries",
+    h1: "Lombok and the Gili Islands, Planned Around the Boat",
+    metaTitle: "Lombok and the Gili Islands: Which Island, Which Boat",
     metaDescription:
-      "Which Gili to stay on, how the boats connect to Lombok, and how many days each leg needs. Day-by-day routes with transfer times and booking notes.",
+      "Trawangan, Meno or Air, and how the boats from Bangsal and Kuta Lombok run. Crossing times, what a day trip costs you, and how long each leg needs.",
     intro:
       "Lombok is Bali's quieter cousin, empty surf, the Rinjani volcano trek, and the three Gilis just offshore. These itineraries balance adventure days with reef time.",
     highlights: ["Mount Rinjani", "Kuta Lombok surf", "Gili Trawangan", "Gili Meno"],
@@ -1017,37 +1017,109 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
               "2 to 3.5 hours",
               "Worth it only for the northwest coast or the Gilis",
             ],
-            [
-              "Lombok to the Gili Islands",
-              "Public boat from Bangsal",
-              "15 to 30 minutes",
-              "Around $2 to $4, leaves when it fills, last departures mid-afternoon",
-            ],
           ],
           caption: "Times are working estimates and depend on sea conditions.",
         },
-        subsections: [
-          {
-            // Carries the Italian query "da lombok a isole gili", 16 impressions
-            // at position 27.8, which lands on this hub while the answer lives on
-            // the transport route page with no link between them.
-            heading: "How do you get from Lombok to the Gili Islands?",
-            body: [
-              "The public boat from Bangsal harbour on Lombok's northwest coast reaches Gili Air, Gili Meno and Gili Trawangan in 15 to 30 minutes for around $2 to $4. It leaves when roughly twenty passengers have filled it, so allow a buffer, and buy at the official counter rather than from the touts outside.",
-            ],
-            link: {
-              before: "Fares, the counter to use and the last sailings are on our ",
-              href: "/transport/lombok-to-gili-islands",
-              anchor: "Lombok to Gili Islands route page",
-              after: ".",
-            },
-          },
-        ],
         link: {
           before:
             "Flight against fast boat, with prices and which to pick for your side of the island, is on our ",
           href: "/transport/bali-to-lombok",
           anchor: "Bali to Lombok route page",
+          after: ".",
+        },
+      },
+      {
+        // PARTE 3 of docs/reinforce-lombok-gili-2.md, applied 2026-09-07. Promoted
+        // from an h3 under the Bali crossings section to a top-level H2, because
+        // the crossing is the largest single intent on this hub: "da lombok a
+        // isole gili" alone took 63 impressions at position 20.4, ahead of the
+        // head term. The redundant "Lombok to the Gili Islands" row was removed
+        // from the Bali table above so the two do not repeat each other.
+        //
+        // Journey times and fares come from src/data/routes.ts, not from the
+        // plan, which proposed "twenty minutes to Gili Air and closer to forty to
+        // Gili Trawangan". routes.ts publishes 15 to 30 minutes and $2 to $4 for
+        // the whole Bangsal crossing. Same rule as 2026-08-14: routes.ts wins.
+        heading: "How do you get from Lombok to the Gili Islands?",
+        body: [
+          "The public boat from Bangsal harbour on Lombok's northwest coast reaches Gili Air, Gili Meno and Gili Trawangan in 15 to 30 minutes for around $2 to $4. Getting to Bangsal is the longer part: near 2 hours from Lombok airport and about 2 hours from Kuta Lombok, so the drive outlasts the crossing several times over.",
+          "Buy at the official ticket counter rather than from the touts outside it, and treat the public boat as the default. Charter only makes sense if you have missed the last sailing or you are moving a group with heavy bags.",
+        ],
+        table: {
+          columns: ["Option", "Cost", "Departures", "Worth knowing"],
+          rows: [
+            [
+              "Public boat from Bangsal",
+              "Around $2 to $4 (working estimate)",
+              "Leaves when it fills, last sailings mid-afternoon",
+              "The default. Buy at the official counter, not from the touts",
+            ],
+            [
+              "Hotel or resort shuttle boat",
+              "Often bundled with the room",
+              "Fixed times, usually once or twice a day",
+              "Simplest if your island stay already includes it",
+            ],
+            [
+              "Private charter",
+              "From around $35 per boat (working estimate)",
+              "On demand",
+              "Worth it after the last public sailing, or for a group",
+            ],
+          ],
+          caption: "Fares and times are working estimates and move with fuel and sea conditions.",
+        },
+        link: {
+          before: "Fares, the counter to use and the last sailings are on our ",
+          href: "/transport/lombok-to-gili-islands",
+          anchor: "Lombok to Gili Islands route page",
+          after: ".",
+        },
+      },
+      {
+        // Query "day trips from gili islands to lombok", 6 impressions at 18.2,
+        // and "kuta lombok to gili islands" at 9.0. Both already near the first
+        // page, and neither had a section answering it.
+        heading: "Can you do the Gili Islands as a day trip from Lombok?",
+        body: [
+          "Yes, and Gili Air is the one to pick. It is the closest of the three to Bangsal, 15 to 30 minutes each way, which leaves five or six hours on the island after a morning crossing. From Kuta Lombok the drive to Bangsal is around 2 hours each way, so a day trip becomes a twelve-hour day and an overnight is the better shape.",
+          "Take the first boat out and do not plan on the last one back. Sailings thin out through the afternoon, and a missed departure means a charter or a night you had not booked.",
+        ],
+        link: {
+          before: "If you would rather give the islands their own trip, our ",
+          href: "/trips/4-days-gili-islands-trawangan-meno-air",
+          anchor: "4-day Gili Islands route",
+          after: " covers all three without a rushed crossing.",
+        },
+      },
+      {
+        // Two of the ten results for "gili islands lombok" are about the lesser
+        // known gilis, and this hub never named them. We already have an
+        // itinerary for the southwest cluster.
+        heading: "Which other islands are there off Lombok?",
+        body: [
+          "Dozens, and three of them are easy to reach. The southwest cluster off Sekotong, Gili Nanggu, Gili Kedis and Gili Sudak, is a short boat ride from the mainland and sees a fraction of the traffic. Lombok's east coast has its own group around Gili Kondo. None of them has the dive infrastructure of the main three.",
+          "Treat them as day trips or as a quiet second half rather than as a replacement. There are few places to eat, boats are arranged locally rather than on a schedule, and card payment is rare.",
+        ],
+        link: {
+          before: "The southwest cluster gets a full week in our ",
+          href: "/trips/8-days-southwest-lombok-sekotong-secret-gilis",
+          anchor: "southwest Lombok and secret Gilis itinerary",
+          after: ".",
+        },
+      },
+      {
+        // Query "honeymoon in lombok", 16 impressions at position 42.6, with no
+        // page of ours serving it directly.
+        heading: "Where should honeymooners stay in Lombok and the Gilis?",
+        body: [
+          "Gili Meno for the quietest few days, south Lombok for space and a view, and the two together if you have a fortnight. Meno is the smallest and stillest of the three islands, with a handful of bungalows and almost nothing on the schedule. Kuta Lombok and the bays east of it have the room to move that the Gilis cannot offer.",
+          "The order matters more than the choice. Finish on Meno rather than starting there, so the trip ends on the slowest part instead of on the transfers.",
+        ],
+        link: {
+          before: "The two put together, with the crossing placed where it belongs, is our ",
+          href: "/trips/9-days-lombok-gili-honeymoon",
+          anchor: "9-day Lombok and Gili honeymoon route",
           after: ".",
         },
       },
