@@ -1,0 +1,1964 @@
+{
+  "_id": "itinerary-8-days-sumba-overland-east-to-west",
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "_key": "af1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM from Airalo",
+      "day": "Before you go",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "af2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Waingapu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Rooms in Waingapu",
+      "day": "Day 1",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_WAINGAPU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Waingapu%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "af3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Waikabubak%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Guesthouses in Waikabubak",
+      "day": "Day 4",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_WAIKABUBAK",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Waikabubak%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "af4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tambolaka%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Places to stay around Tambolaka",
+      "day": "Day 6",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_TAMBOLAKA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Tambolaka%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "af5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F156335-4d3n-overland-sumba-by-look-indonesia-adventure%2F",
+      "anchorText": "overland Sumba tour covering both halves of the island",
+      "day": "Trip planning",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "Klook",
+      "placeholderId": "KLOOK_SUMBA_OVERLAND",
+      "publicUrl": "https://www.klook.com/en-US/activity/156335-4d3n-overland-sumba-by-look-indonesia-adventure/"
+    },
+    {
+      "_key": "af6",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/East-Nusa-Tenggara/Sumba-Adventure-5-Days-4-Nights/d23784-208431P1?pid=P00303362&mcid=42383&medium=link&campaign=SumbaEastWestOverland",
+      "anchorText": "private east and west Sumba multi-day option",
+      "day": "Trip planning",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "Viator",
+      "placeholderId": "VIATOR_SUMBA_EAST_WEST",
+      "publicUrl": "https://www.viator.com/tours/East-Nusa-Tenggara/Sumba-Adventure-5-Days-4-Nights/d23784-208431P1"
+    }
+  ],
+  "articleCreatedDate": "2026-09-07T04:19:14.248270Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp1",
+          "_type": "span",
+          "marks": [],
+          "text": "Sumba sits an hour and a half east of Bali by plane and gets a fraction of the attention. Most travellers who reach it fly into Tambolaka, spend three days on the west coast, photograph a lagoon and leave. That version of the trip skips the half of the island where the megalithic tombs are oldest, the ikat is still woven by hand and the savannah runs to the sea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp2",
+          "_type": "span",
+          "marks": [],
+          "text": "Eight days is the shortest honest way to see both ends. Fly into Waingapu in the east, drive west across the middle of the island over the course of the week, and fly out of Tambolaka. You never backtrack, you never repack more than three times, and the drive itself becomes part of the trip rather than a cost you pay twice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp3",
+          "_type": "span",
+          "marks": [],
+          "text": "This is a slow route with long car days on imperfect roads, no beach club at the end of them, and a cultural etiquette that matters more here than almost anywhere else in Indonesia. What it gives back is an island where the traditions on display are still in daily use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp4",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who should skip it"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp5",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples and small groups of friends who are happy spending three to five hours in a car on a travel day, who want culture as the main course rather than a garnish, and who can be relaxed about patchy signal and simple rooms. It works especially well as a second or third Indonesia trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp6",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want a beach holiday. Sumba's coast is dramatic and often unswimmable, with strong surf and rips on the south and west, and there is no reef trip infrastructure to fall back on. Skip it too if your group needs consistent air conditioning, reliable card payments or a fixed daily schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp7",
+          "_type": "span",
+          "marks": [],
+          "text": "Families with young children can do it, but the driving is the limiting factor rather than the sights. If you are travelling with kids under eight, the four-day west-coast version described further down is the better shape."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp9",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Route: "
+        },
+        {
+          "_key": "sp10",
+          "_type": "span",
+          "marks": [],
+          "text": "Waingapu, Praiyawang and Rende, Tanggedu, Wairinding, Waikabubak, Wanokaka, Kodi and the west coast, Tambolaka."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp11",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Nights: "
+        },
+        {
+          "_key": "sp12",
+          "_type": "span",
+          "marks": [],
+          "text": "three in Waingapu, two in Waikabubak, two in the Kodi or Tambolaka area."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp13",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Flights: "
+        },
+        {
+          "_key": "sp14",
+          "_type": "span",
+          "marks": [],
+          "text": "into Waingapu (WGP), out of Tambolaka (TMC). Both connect to Bali in roughly an hour and a half."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp15",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Ground: "
+        },
+        {
+          "_key": "sp16",
+          "_type": "span",
+          "marks": [],
+          "text": "one car with a driver for the whole week. As a working estimate, budget IDR 800,000 to 1,000,000 a day for a car, driver and fuel, higher if you want an English-speaking driver-guide rather than a driver. Rates move with fuel prices, so confirm before you commit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp17",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Pace: "
+        },
+        {
+          "_key": "sp18",
+          "_type": "span",
+          "marks": [],
+          "text": "two long driving days, four moderate ones, two slow ones."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp19",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best months: "
+        },
+        {
+          "_key": "sp20",
+          "_type": "span",
+          "marks": [],
+          "text": "May to October for the roads and the light. February and March for Pasola, with the rain and the crowding that come with it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp21",
+          "_type": "span",
+          "marks": [],
+          "text": "Why fly into Waingapu and out of Tambolaka?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp22",
+          "_type": "span",
+          "marks": [],
+          "text": "Because Sumba is 170 kilometres wide between its two airports and the road between them takes four to five hours in dry conditions, longer after rain. Flying into one end and out of the other turns that road into the spine of the trip. Fly round trip into Tambolaka and you either pay the drive twice or never see the east at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp23",
+          "_type": "span",
+          "marks": [],
+          "text": "The east and the west are genuinely different places, and the split is the single most useful thing to understand before you book anything. East Sumba is drier, emptier and more open, with savannah hills, royal tombs and the island's oldest weaving tradition. West Sumba is greener, more densely settled and more ceremonial, with the tall thatched houses most people picture when they picture Sumba."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b18",
+      "_type": "comparisonTable",
+      "caption": "East and west Sumba as a planning decision rather than a ranking. Most disappointed visitors saw only one half and assumed it was the whole island.",
+      "columns": ["", "East Sumba (Waingapu base)", "West and Southwest Sumba (Waikabubak, Kodi)"],
+      "rows": [
+        {
+          "_key": "r1",
+          "cells": [
+            "Landscape",
+            "Dry savannah hills, open grassland, long empty coastline",
+            "Green, hillier, rice terraces inland, dramatic surf coast"
+          ]
+        },
+        {
+          "_key": "r2",
+          "cells": [
+            "What it is for",
+            "Ikat weaving, royal megalithic tombs, waterfalls, sunrise savannah",
+            "Tall-roof clan villages, Pasola, lagoons, waterfalls, west coast beaches"
+          ]
+        },
+        {
+          "_key": "r3",
+          "cells": [
+            "Signature sights",
+            "Prailiu, Praiyawang at Rende, Tanggedu, Wairinding, Walakiri",
+            "Praijing, Lapopu, Ratenggaro, Mandorak, Weekuri Lagoon"
+          ]
+        },
+        {
+          "_key": "r4",
+          "cells": [
+            "Roads",
+            "Long distances, thin traffic, some rough sections north of Waingapu",
+            "Shorter hops, more traffic near Waikabubak, rougher tracks near the coast"
+          ]
+        },
+        {
+          "_key": "r5",
+          "cells": [
+            "Where you sleep",
+            "Simple hotels and guesthouses in Waingapu town",
+            "Guesthouses in Waikabubak, small beach lodges near Kodi, resorts near Tambolaka"
+          ]
+        },
+        {
+          "_key": "r6",
+          "cells": [
+            "Best for",
+            "Travellers who like emptiness and textiles",
+            "Travellers who want village architecture and swimmable water"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp24",
+          "_type": "span",
+          "marks": [],
+          "text": "There is a second reason for the east-to-west direction. Sumba's flight schedules to Waingapu tend to be thinner than to Tambolaka, so it is easier to build the trip around the harder flight first and leave the flexible one for the way home. Confirm current routings before you lock in hotels, because regional schedules in eastern Indonesia change more often than they do in Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp25",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you leave home, an "
+        },
+        {
+          "_key": "sp26",
+          "_type": "span",
+          "marks": ["md1"],
+          "text": "Indonesia eSIM from Airalo"
+        },
+        {
+          "_key": "sp27",
+          "_type": "span",
+          "marks": [],
+          "text": " is worth setting up. Coverage on Sumba is real but uneven, and being able to message a driver from an airport with no working wifi has an outsized effect on a trip like this."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md1",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp28",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly to Waingapu and take the light at Walakiri"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp29",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp30",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly Bali to Waingapu. The flight is roughly an hour and three quarters and usually lands in the afternoon, so treat today as a travel day rather than a sightseeing one. Wings Air, NAM Air and Citilink have all served the eastern Nusa Tenggara airports; check who is actually flying the route in your month."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp31",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp32",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle in town, change money and buy water. Waingapu is a working port town rather than a resort, and it has the last reliable ATMs you will see for a few days. Draw more cash than you think you need."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp33",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp34",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive twenty minutes east to Walakiri Beach for sunset. The mangroves standing in shallow water are the reason people come, and low tide is when they read properly. Ask your driver to check the tide table rather than guessing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp35",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "sp36",
+          "_type": "span",
+          "marks": [],
+          "text": " Waingapu, three nights. "
+        },
+        {
+          "_key": "sp37",
+          "_type": "span",
+          "marks": ["md2"],
+          "text": "Rooms in Waingapu"
+        },
+        {
+          "_key": "sp38",
+          "_type": "span",
+          "marks": [],
+          "text": " are limited and mostly simple, so book ahead rather than on arrival."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md2",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_WAINGAPU"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp39",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sp40",
+          "_type": "span",
+          "marks": [],
+          "text": " lock the Bali to Waingapu flight and the Tambolaka return first, then the car, then the rooms. The flights are the constraint."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp41",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Royal tombs at Rende and the savannah road east"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp42",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp43",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive east to Rende, about an hour and a half from Waingapu on a decent road. The Praiyawang compound holds some of the largest carved stone tombs on the island, several of them still tended by the descendants of the families buried under them. Bring small notes for the guest book and a betel-nut offering if your driver suggests it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp44",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp45",
+          "_type": "span",
+          "marks": [],
+          "text": " Return west along the Puru Kambera road, where the savannah runs down to an empty coastline and semi-wild horses graze near the track. This is the landscape that makes eastern Sumba worth the extra flight. Stop where it looks good rather than where a map says to."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp46",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp47",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Waingapu. Eat grilled fish at the market end of town and get an early night; tomorrow is the roughest road of the week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp48",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sp49",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly four hours of driving today, split into comfortable pieces. Nothing about it is hard, but there is no fuel stop worth relying on east of Rende."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp50",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Tanggedu waterfall, the hard day worth doing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp51",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp52",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave early for Tanggedu, north of Waingapu. Expect around two hours each way, with the last stretch on a rough track that gets worse after rain. Entry has been running at about IDR 25,000 per person with IDR 10,000 for parking, as a working figure; small local fees like this change without notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp53",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp54",
+          "_type": "span",
+          "marks": [],
+          "text": " The falls sit in a limestone canyon with a series of shallow terraces above the main drop. It is a short walk in from the parking area and locals often offer a motorbike lift for the last part. Swim in the upper pools, which are calmer, and check depth before jumping anywhere."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp55",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp56",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Waingapu for a second night at the same hotel, which is one of the quiet advantages of a three-night base."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp57",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sp58",
+          "_type": "span",
+          "marks": [],
+          "text": " if it has rained heavily in the previous two days, ask your driver honestly whether the track is passable, and be willing to swap this day for a longer Prailiu morning. A driver who says no is doing you a favour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp59",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Ikat in the morning, then the drive west"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp60",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp61",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit Prailiu on the edge of Waingapu, where ikat is still dyed and woven by hand. A genuine hand-woven Sumba cloth takes months and is priced accordingly; anything cheap and bright is machine printed. If you want to buy, buy here rather than in a west coast gift shop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp62",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp63",
+          "_type": "span",
+          "marks": [],
+          "text": " Begin the crossing. Stop at Wairinding Hill, about an hour west of Waingapu, where the grassland folds into ridges that catch late afternoon light. Continue to Waikabubak. Plan on three to four hours of driving in total for the day as a working estimate, with the full Waingapu to Tambolaka run being 170 kilometres and four to five hours end to end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp64",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp65",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive Waikabubak, the administrative centre of West Sumba and a useful, unglamorous base."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp66",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "sp67",
+          "_type": "span",
+          "marks": [],
+          "text": " Waikabubak, two nights. "
+        },
+        {
+          "_key": "sp68",
+          "_type": "span",
+          "marks": ["md3"],
+          "text": "Guesthouses in Waikabubak"
+        },
+        {
+          "_key": "sp69",
+          "_type": "span",
+          "marks": [],
+          "text": " are basic and fill up fast around ceremonies, so do not leave this one to the day before."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md3",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_WAIKABUBAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp70",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sp71",
+          "_type": "span",
+          "marks": [],
+          "text": " wet season adds twenty to thirty per cent to every journey time on this island. If you are travelling between November and April, treat every drive estimate here as optimistic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp72",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Praijing village and Lapopu waterfall"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp73",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp74",
+          "_type": "span",
+          "marks": [],
+          "text": " Praijing sits on a hill a few minutes outside Waikabubak, a cluster of tall-roofed clan houses arranged around stone tombs. Entry has been running at around IDR 55,000 per person as a working figure. Sign the book, greet the household head before photographing anyone's home, and accept the betel nut if it is offered."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp75",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp76",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive south to Lapopu, inside Manupeu Tanah Daru National Park, roughly 13 kilometres south of Waikabubak with a signed turning east. It is the tallest waterfall on the island at around 90 metres and the walk in is an easy fifteen minutes. Foreign entry has been quoted at IDR 150,000 per person on ordinary days and higher on public holidays, with a compulsory local guide at around IDR 50,000 after a rockfall incident, plus a small parking fee. Fees are set by the park, so treat these as indicative and check on the gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp77",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp78",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to Waikabubak. If a ceremony is happening nearby, your driver will know, and being invited to watch one is worth rearranging a day for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp79",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sp80",
+          "_type": "span",
+          "marks": [],
+          "text": " nothing to book today. Bring cash in small notes; nowhere on this route takes a card."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp81",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: The south coast, then west to Kodi"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp82",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp83",
+          "_type": "span",
+          "marks": [],
+          "text": " Drop down to the Wanokaka coast south of Waikabubak, where the surf comes in hard against long empty beaches. Marosi and the bays around it are good for a walk and a swim only if conditions are calm; the rips here are serious and unpatrolled. Ask locally before entering the water anywhere on the south coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp84",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp85",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive northwest to the Kodi district. This is the far southwest corner of the island and the part with the highest concentration of tall-roof villages still standing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp86",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp87",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset at Pero or from the cliffs near Mandorak, then an early dinner. Options are limited out here, which is the point."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp88",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "sp89",
+          "_type": "span",
+          "marks": [],
+          "text": " Kodi or Tambolaka, two nights. "
+        },
+        {
+          "_key": "sp90",
+          "_type": "span",
+          "marks": ["md4"],
+          "text": "Places to stay around Tambolaka"
+        },
+        {
+          "_key": "sp91",
+          "_type": "span",
+          "marks": [],
+          "text": " range from very simple guesthouses to a small number of resorts; the gap between the two is wide and there is not much in between."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md4",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_TAMBOLAKA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp92",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Ratenggaro, Mandorak and Weekuri Lagoon"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp93",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp94",
+          "_type": "span",
+          "marks": [],
+          "text": " Ratenggaro is the village with the tallest roofs on Sumba, standing above a river mouth and a field of stone tombs. Entry is by donation, usually IDR 20,000 to 30,000 per person, and you will be asked to sign the guest book. Some of the tombs sit outside the village on the beach, which is where the site really lands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp95",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp96",
+          "_type": "span",
+          "marks": [],
+          "text": " Mandorak is a small cove between two rock walls, ten minutes away. Weekuri Lagoon is next to it, a saltwater lagoon fed through the rock from the open sea, and it is the one place on this route where the water is genuinely easy to swim in. There is normally a small access or parking charge of around IDR 20,000 to 30,000 collected at the entrance rather than a formal ticket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp97",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "sp98",
+          "_type": "span",
+          "marks": [],
+          "text": " Last night on the island. Go back to the same beach for sunset rather than trying to add a sight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp99",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sp100",
+          "_type": "span",
+          "marks": [],
+          "text": " Weekuri is busiest between eleven and two, when the day tours from Tambolaka arrive. Go first thing or after three."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp101",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Tambolaka and the flight out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp102",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "sp103",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Tambolaka airport, which is around an hour from the Kodi area and about an hour from Waikabubak. Build in a buffer; the road is fine but there is nothing at the airport if you arrive late and the flight has gone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp104",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sp105",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly to Bali, roughly an hour and a half. If you are connecting to an international flight the same day, leave at least four hours in Denpasar. Regional delays out of Sumba are common enough that locals plan for them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp106",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sp107",
+          "_type": "span",
+          "marks": [],
+          "text": " do not book a same-day onward international flight out of Bali unless you genuinely have no alternative."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp108",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does eight days in Sumba cost?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp109",
+          "_type": "span",
+          "marks": [],
+          "text": "For two people sharing, a realistic mid-range figure is USD 1,400 to 2,200 for the eight days on the ground, excluding international flights. The car with a driver is the largest single line at roughly USD 55 to 70 a day, rooms run USD 25 to 60 a night outside the resorts, and site fees across the whole week come to well under USD 50 per person."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp110",
+          "_type": "span",
+          "marks": [],
+          "text": "The two things that move this number most are the vehicle and the flights. Splitting a car between four people rather than two changes the daily cost more than any accommodation decision you will make, and Bali to Sumba fares swing widely with how far ahead you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b65",
+      "_type": "comparisonTable",
+      "caption": "Three ways to move around Sumba, compared on what actually goes wrong with each.",
+      "columns": [
+        "",
+        "Car and driver, booked locally",
+        "Organised overland tour",
+        "Self-drive or scooter"
+      ],
+      "rows": [
+        {
+          "_key": "r7",
+          "cells": [
+            "Daily cost, two people",
+            "Around IDR 800,000 to 1,000,000 for the car",
+            "Higher, but includes rooms, fees and a guide",
+            "Lowest, IDR 100,000 to 150,000 for a scooter"
+          ]
+        },
+        {
+          "_key": "r8",
+          "cells": [
+            "Who it suits",
+            "Most people on this route",
+            "First visit, short trip, no appetite for logistics",
+            "Confident riders staying in one half of the island"
+          ]
+        },
+        {
+          "_key": "r9",
+          "cells": [
+            "Main risk",
+            "Language gap if you get a driver rather than a guide",
+            "Fixed itinerary, little room to linger",
+            "Long distances, poor surfaces, no roadside help"
+          ]
+        },
+        {
+          "_key": "r10",
+          "cells": [
+            "Village access",
+            "Good, drivers know which households welcome visitors",
+            "Best, guides handle introductions and donations",
+            "Awkward, you arrive with no introduction"
+          ]
+        },
+        {
+          "_key": "r11",
+          "cells": ["Flexibility", "High", "Low", "Highest, until something breaks"]
+        }
+      ]
+    },
+    {
+      "_key": "b66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp111",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather someone else drove and handled the village introductions, an "
+        },
+        {
+          "_key": "sp112",
+          "_type": "span",
+          "marks": ["md5"],
+          "text": "overland Sumba tour covering both halves of the island"
+        },
+        {
+          "_key": "sp113",
+          "_type": "span",
+          "marks": [],
+          "text": " is the closest packaged equivalent to this route, and there is also a "
+        },
+        {
+          "_key": "sp114",
+          "_type": "span",
+          "marks": ["md6"],
+          "text": "private east and west Sumba multi-day option"
+        },
+        {
+          "_key": "sp115",
+          "_type": "span",
+          "marks": [],
+          "text": " that runs on a similar shape. Compare what is included before comparing headline prices; on Sumba the difference between a driver and a driver-guide is the whole experience."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md5",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_SUMBA_OVERLAND"
+        },
+        {
+          "_key": "md6",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SUMBA_EAST_WEST"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp116",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp117",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: the Bali to Waingapu flight, the Tambolaka return, the car for the full week, and the first two nights in Waingapu. Everything else can wait. Sumba has few enough rooms that a festival or a government conference genuinely fills a town, and few enough flights that a missed one costs you a day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp118",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: which waterfall you visit, whether you sleep in Kodi or Tambolaka on the last two nights, and whether Day 3 happens at all. Building a route where one day is expendable is what makes a rough-road island relaxing rather than tense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp119",
+          "_type": "span",
+          "marks": [],
+          "text": "If you are travelling in February or March for Pasola, invert this advice. Book everything, including rooms you are not sure you need, several months out. Pasola dates follow the arrival of the nyale sea worms and are confirmed only weeks ahead, so the whole trip is built on an estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp120",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on Sumba"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp121",
+          "_type": "span",
+          "marks": [],
+          "text": "Flying in and out of Tambolaka. It is the more convenient airport and it costs you the entire east of the island, which is the half most people end up talking about afterwards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp122",
+          "_type": "span",
+          "marks": [],
+          "text": "Treating villages as photo stops. These are lived-in homes with active ritual obligations. Greet the household head, sign the book, give the donation, and ask before photographing a person or the inside of a house. A driver who knows the family makes all of this straightforward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp123",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the roads. The distances look small on a map and the surfaces are not. Two hundred kilometres in a day is a full day here, not a morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp124",
+          "_type": "span",
+          "marks": [],
+          "text": "Running out of cash. ATMs are concentrated in Waingapu, Waikabubak and Tambolaka, and they run empty. Every fee on this route is cash, in small notes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp125",
+          "_type": "span",
+          "marks": [],
+          "text": "Expecting to swim everywhere. Sumba's coastline is spectacular and mostly hostile to casual swimming. Weekuri and a handful of sheltered coves are the exceptions rather than the rule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp126",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp127",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut to four days."
+        },
+        {
+          "_key": "sp128",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly in and out of Tambolaka and do the west only: Praijing, Lapopu, Ratenggaro, Mandorak and Weekuri. You lose the savannah and the tombs at Rende, and you gain the two flights back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp129",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut to six days."
+        },
+        {
+          "_key": "sp130",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep the east-to-west shape but drop Tanggedu and one Waikabubak night. Two nights Waingapu, one Waikabubak, two Kodi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp131",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt for families."
+        },
+        {
+          "_key": "sp132",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the four-day west version, base near Tambolaka, and treat Weekuri as the anchor. The long car days on the full route are the part children find hardest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp133",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Extend to twelve days."
+        },
+        {
+          "_key": "sp134",
+          "_type": "span",
+          "marks": [],
+          "text": " Add Sumba's south coast properly, with two nights around Wanokaka, and a slow finish in the far southwest. Or connect onward to Flores, which shares the province and rewards the same kind of traveller."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp135",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Upgrade."
+        },
+        {
+          "_key": "sp136",
+          "_type": "span",
+          "marks": [],
+          "text": " The single upgrade that changes this trip is a driver-guide who speaks good English and has relationships in the villages, rather than a driver who only drives. It costs meaningfully more per day and it is the difference between watching Sumba and being introduced to it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp137",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp138",
+          "_type": "span",
+          "marks": [],
+          "text": "Most nationalities enter Indonesia on a visa on arrival, currently IDR 500,000 for thirty days and extendable once for the same amount, applied for before the first thirty days expire. Rules and fees change, so check the latest official guidance before you travel rather than relying on a blog, this one included."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp139",
+          "_type": "span",
+          "marks": [],
+          "text": "Sumba's dry season runs roughly May to October and peaks from July to September, when the hills are gold and the roads are at their best. November to April is wetter, greener and slower, and February to March brings Pasola along with the rain. Both versions of the island are worth seeing; they are not interchangeable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp140",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for dust rather than for a beach: closed shoes, a sarong for village visits, a head torch, and more cash than feels sensible. Modest dress matters at tombs and in villages, and covering shoulders and knees costs you nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp141",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp142",
+          "_type": "span",
+          "marks": [],
+          "text": "Sumba is the most rewarding week in Indonesia for travellers who want culture that is still in use rather than preserved for visitors, and it punishes anyone who arrives expecting a beach island. The east-to-west traverse is the right shape for it, because the drive between the two airports is the trip rather than an obstacle to it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp143",
+          "_type": "span",
+          "marks": [],
+          "text": "Eight days is enough to do it without rushing and short enough to combine with Bali or Flores on the same holiday. If you only have four days, do the west and come back later. If you have a fortnight, this route plus Flores is one of the strongest cultural trips in the country."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp144",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp145",
+          "_type": "span",
+          "marks": [],
+          "text": "If Sumba is one leg of a longer trip, the "
+        },
+        {
+          "_key": "sp146",
+          "_type": "span",
+          "marks": ["md7"],
+          "text": "14-day Bali, Komodo and Sumba route"
+        },
+        {
+          "_key": "sp147",
+          "_type": "span",
+          "marks": [],
+          "text": " builds it into a wider circuit with a Komodo boat day in the middle."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/14-days-bali-komodo-sumba"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp148",
+          "_type": "span",
+          "marks": [],
+          "text": "For the overland island next door, the "
+        },
+        {
+          "_key": "sp149",
+          "_type": "span",
+          "marks": ["md8"],
+          "text": "10-day Komodo and Flores itinerary"
+        },
+        {
+          "_key": "sp150",
+          "_type": "span",
+          "marks": [],
+          "text": " runs Labuan Bajo to Ende through the same kind of highland villages."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md8",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sp151",
+          "_type": "span",
+          "marks": [],
+          "text": "If you only have a long weekend in the province, the "
+        },
+        {
+          "_key": "sp152",
+          "_type": "span",
+          "marks": ["md9"],
+          "text": "5-day Labuan Bajo and Komodo route"
+        },
+        {
+          "_key": "sp153",
+          "_type": "span",
+          "marks": [],
+          "text": " is the short version built around the boat rather than the road."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md9",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-labuan-bajo-komodo"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "komodo_flores",
+  "faq": [
+    {
+      "_key": "fq1",
+      "_type": "faqItem",
+      "answer": "Four days is the minimum for one half of the island and eight days is the minimum for both. Sumba is 170 kilometres wide between its two airports, and the drive takes four to five hours in dry conditions, so anything shorter than a week forces you to choose between the east and the west.",
+      "question": "How many days do you need in Sumba?"
+    },
+    {
+      "_key": "fq2",
+      "_type": "faqItem",
+      "answer": "Fly into Waingapu in the east and out of Tambolaka in the west if you have a week or more. That way the cross-island drive happens once, in the middle of the trip, instead of twice. If you only have three or four days, fly in and out of Tambolaka and stay in the west.",
+      "question": "Should you fly into Waingapu or Tambolaka?"
+    },
+    {
+      "_key": "fq3",
+      "_type": "faqItem",
+      "answer": "You can, but most visitors should not. Roads outside the main towns are rough, distances are long, roadside help is scarce and village visits go much better with someone who knows the families. A car with a driver runs roughly IDR 800,000 to 1,000,000 a day as a working estimate and solves all four problems at once.",
+      "question": "Can you drive around Sumba yourself?"
+    },
+    {
+      "_key": "fq4",
+      "_type": "faqItem",
+      "answer": "May to October is the dry season and the easiest time to travel, with the peak from July to September. November to April is wetter and greener, and journey times on unsealed roads stretch by twenty to thirty per cent. Pasola falls in February and March, in the middle of the rain.",
+      "question": "What is the best time of year to visit Sumba?"
+    },
+    {
+      "_key": "fq5",
+      "_type": "faqItem",
+      "answer": "As a working estimate, USD 1,400 to 2,200 for two people over eight days on the ground, excluding international flights. The car and driver is the biggest line, at roughly USD 55 to 70 a day. Site fees are small, mostly IDR 20,000 to 55,000, with Lapopu the notable exception at around IDR 150,000 per foreign visitor.",
+      "question": "What does a week in Sumba cost?"
+    },
+    {
+      "_key": "fq6",
+      "_type": "faqItem",
+      "answer": "Greet the household head before you walk in, sign the guest book, and leave a donation of IDR 20,000 to 30,000 per person unless a fixed fee is posted. Ask before photographing people, homes or tombs. Dress modestly, and accept betel nut if it is offered to you. These are homes with active ritual obligations, not open-air museums.",
+      "question": "What are the rules for visiting a traditional Sumba village?"
+    },
+    {
+      "_key": "fq7",
+      "_type": "faqItem",
+      "answer": "Yes, and the two work well back to back. Flores is volcanic, Catholic and built around Komodo and Kelimutu. Sumba is drier, animist in its older traditions, and built around clan villages, megalithic tombs and ikat. They share a province and almost nothing else.",
+      "question": "Is Sumba worth it if you have already seen Flores?"
+    }
+  ],
+  "focusKeyword": "Sumba itinerary",
+  "heroImage": {
+    "_type": "image",
+    "asset": {
+      "_ref": "image-81099ad4b93b235907808a7974bcc200581bff30-640x312-jpg",
+      "_type": "reference"
+    }
+  },
+  "intro": "Sumba is 170 kilometres wide between its two airports and most visitors only ever see the western third. This eight-day route flies into Waingapu, crosses the island by road over the course of the week and flies out of Tambolaka, so the drive that usually costs a day becomes the trip itself.",
+  "metaDescription": "Fly into Waingapu, out of Tambolaka, and drive the island in between. An 8-day Sumba itinerary with real driving times, site fees and village etiquette.",
+  "metaTitle": "Sumba Itinerary: 8 Days Overland, East to West",
+  "route": "Waingapu → Rende → Tanggedu → Waikabubak → Wanokaka → Kodi → Tambolaka",
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-sumba-overland-east-to-west"
+  },
+  "title": "8 Days in Sumba: Overland from Waingapu to the West Coast",
+  "travelStylePrimary": "culture_temples",
+  "travellerTypes": ["couples", "friends", "repeat_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "vibe": "remote"
+}
