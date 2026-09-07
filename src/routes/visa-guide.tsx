@@ -4,7 +4,7 @@ import { createServerFn } from "@tanstack/react-start";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
-import { PAGE_DATES } from "@/data/page-dates";
+import { PAGE_DATES, formatPageDate } from "@/data/page-dates";
 import { trackEvent } from "@/lib/analytics-events";
 
 // The Airalo eSIM CTA reuses the same Travelpayouts smart link the trip builder
@@ -57,6 +57,18 @@ const FAQS: Array<{ question: string; answer: string }> = [
     question: "Is the Bali tourism tax included in the visa fee?",
     answer:
       "No. The Bali tourism levy (IDR 150,000, about $10) is separate from the eVOA fee and applies only when entering Bali.",
+  },
+  // Added 2026-09-07. Seven query variants (25 impressions, positions 8.5 to
+  // 25.6, zero clicks) ask what the arrival card costs and the page never said.
+  {
+    question: "How much does the Indonesia arrival card cost?",
+    answer:
+      "Nothing. The All Indonesia electronic arrival card is free on the official portal at allindonesia.imigrasi.go.id and in the All Indonesia app. Any site charging a fee for it is a third-party reseller, not Indonesian immigration. File it within the 72 hours before you arrive.",
+  },
+  {
+    question: "What does it cost in total to enter Indonesia?",
+    answer:
+      "IDR 650,000, about $42, for 30 days in Bali: IDR 500,000 for the visa on arrival plus the IDR 150,000 Bali tourism levy, with the arrival card free. Staying the full 60 days costs IDR 1,150,000, about $74, because the one permitted extension costs another IDR 500,000. Outside Bali the levy does not apply.",
   },
   {
     question: "Do US citizens need a visa for Indonesia?",
@@ -248,7 +260,8 @@ function VisaGuidePage() {
             costs, how to extend it, and the new All Indonesia arrival card.
           </p>
           <p className="mt-3 text-xs text-white/60">
-            Last updated 14 August 2026 &middot; fees verified against 2026 immigration rates
+            Last updated {formatPageDate(PAGE_DATES.visaGuide)} &middot; fees verified against 2026
+            immigration rates
           </p>
         </div>
       </header>
@@ -272,7 +285,19 @@ function VisaGuidePage() {
             <li>
               Since September 2025, the All Indonesia app (
               <OfficialLink domain="allindonesia.imigrasi.go.id" />) is mandatory for the electronic
-              arrival card at major ports.
+              arrival card at major ports. It is free, and you file it in the 72 hours before you
+              land.
+            </li>
+            <li>
+              All in, 30 days in Bali costs IDR 650,000 in entry fees, about $42. See{" "}
+              <a
+                href="#entry-cost"
+                className="font-medium underline underline-offset-2"
+                style={{ color: "var(--teal-link)" }}
+              >
+                the full breakdown
+              </a>
+              .
             </li>
           </ul>
           <p className="mt-4">
@@ -311,7 +336,132 @@ function VisaGuidePage() {
           <p>
             One charge is often confused with it and is separate: the Bali tourism levy of IDR
             150,000, about $10, which applies only when you enter Bali. The All Indonesia arrival
-            card is a separate requirement too, and is not part of the visa fee.
+            card is a separate requirement too, it is free, and it is not part of the visa fee.
+          </p>
+        </div>
+
+        {/* 2b. Total entry cost. Added 2026-09-07. The fee sub-intent is the only
+            part of the visa cluster we can win: the generic head terms ("indonesia
+            visa" 38 impr at position 43.0, "visa indonesia" 21 at 35.7) sit behind
+            imigrasi.go.id, while the price variants ("indonesia visa on arrival
+            cost" 12 impr at 20.9, "how much is visa on arrival in indonesia" 6 at
+            14.5, "indonesia evoa cost" 4 at 8.0) are already inside striking
+            distance and carry ~120 impressions at zero clicks. Every figure below
+            already existed on the page, scattered across a bullet, a callout and
+            the FAQ; what was missing was the sum and the table. Comparative tables
+            are the format AI answers cite most. Read the effect on 5 Oct. */}
+        <SectionHeading id="entry-cost">
+          What does it cost to enter Indonesia in 2026?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            Entering Indonesia costs <strong>IDR 500,000</strong>, about $32, for the visa on
+            arrival, plus <strong>IDR 150,000</strong>, about $10, if you land in Bali. The arrival
+            card is free. A 30-day trip to Bali therefore costs IDR 650,000, roughly $42, in
+            mandatory entry fees; staying the full 60 days costs IDR 1,150,000, roughly $74.
+          </p>
+        </div>
+        <div
+          className="mt-6 overflow-x-auto rounded-2xl border"
+          style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
+        >
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr>
+                <Th>Charge</Th>
+                <Th>IDR</Th>
+                <Th>Approx. USD</Th>
+                <Th>Who pays it</Th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <Td>Visa on arrival (eVOA / B1)</Td>
+                <Td>500,000</Td>
+                <Td>$32</Td>
+                <Td>Most EU, UK, US and Australian nationals</Td>
+              </tr>
+              <tr>
+                <Td>Extension, once only (+30 days)</Td>
+                <Td>500,000</Td>
+                <Td>$32</Td>
+                <Td>Anyone staying 31 to 60 days</Td>
+              </tr>
+              <tr>
+                <Td>All Indonesia arrival card</Td>
+                <Td>Free</Td>
+                <Td>$0</Td>
+                <Td>Every arrival, foreign visitors and Indonesians alike</Td>
+              </tr>
+              <tr>
+                <Td>Bali tourism levy</Td>
+                <Td>150,000</Td>
+                <Td>$10</Td>
+                <Td>Everyone entering Bali</Td>
+              </tr>
+              <tr>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>Total, 30 days in Bali</strong>
+                </Td>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>650,000</strong>
+                </Td>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>$42</strong>
+                </Td>
+                <Td>Visa on arrival plus the Bali levy</Td>
+              </tr>
+              <tr>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>Total, 60 days in Bali</strong>
+                </Td>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>1,150,000</strong>
+                </Td>
+                <Td>
+                  <strong style={{ color: "var(--navy-deep)" }}>$74</strong>
+                </Td>
+                <Td>Adds the one permitted extension</Td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-4 text-sm leading-relaxed" style={{ color: "var(--slate-muted)" }}>
+          Rupiah amounts are the official rates and do not change; the dollar column moves with the
+          exchange rate and is rounded. Nothing else is payable at the border. Outside Bali, the
+          levy does not apply, so 30 days costs IDR 500,000.
+        </p>
+
+        {/* 2c. Arrival card price. Added 2026-09-07. Seven query variants, 25
+            impressions, every one of them asking the price ("indonesia arrival
+            card cost" 13 impr at position 9.8, "all indonesia arrival card price"
+            2 at 8.5, "is there a fee for indonesia arrival card" 2 at 10.0), all
+            landing here, all at zero clicks, and the page named the card three
+            times without ever saying what it costs. It is free, which is exactly
+            what the resellers ranking around us do not say. */}
+        <SectionHeading id="arrival-card-cost">
+          How much does the Indonesia arrival card cost?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            The Indonesia arrival card is <strong>free</strong>. There is no government fee for the
+            electronic arrival card on the official All Indonesia portal (
+            <OfficialLink domain="allindonesia.imigrasi.go.id" />) or in the All Indonesia app, so
+            any site charging $10 to $30 to file it for you is a reseller, not immigration. It is
+            separate from the visa on arrival (IDR 500,000) and from the Bali tourism levy (IDR
+            150,000).
+          </p>
+          <p>
+            Submit it within <strong>72 hours before you arrive</strong>, not earlier. One adult can
+            file for a family travelling together, but every traveller gets their own QR code,
+            infants included, and you show that code at the border. It applies to Indonesian
+            citizens returning home as well as to foreign visitors.
           </p>
         </div>
 

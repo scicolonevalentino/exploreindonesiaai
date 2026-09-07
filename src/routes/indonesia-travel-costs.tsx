@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
-import { PAGE_DATES } from "@/data/page-dates";
+import { PAGE_DATES, formatPageDate } from "@/data/page-dates";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
@@ -31,6 +31,13 @@ const FAQS: Array<{ question: string; answer: string }> = [
     question: "Is Indonesia cheaper than Thailand?",
     answer:
       "Day to day, yes: Indonesia scores 26.1 on Numbeo's mid-2026 cost of living index against Thailand's 38.0, so everyday prices run roughly a third lower. A multi-island Indonesia trip can still total more than a Thailand trip, because Thailand is one landmass with cheap trains while Indonesia needs $40 to $70 domestic flights between islands.",
+  },
+  // Added 2026-09-07 for the whole-trip intent, which ranks 14 to 18 while the
+  // per-day intent ranks 5 to 9. Figures are the daily ranges multiplied out.
+  {
+    question: "How much does a whole trip to Indonesia cost?",
+    answer:
+      "A week costs roughly $210 to $350 on a budget, $490 to $700 mid-range, or $1,050 to $1,750 in comfort, excluding international flights. Two weeks runs $420 to $700, $980 to $1,400, or $2,100 to $3,500. A month costs $900 to $1,500, $2,100 to $3,000, or $4,500 to $7,500. Add $40 to $70 per domestic flight between islands.",
   },
   {
     question: "How much money should I bring to Bali for 2 weeks?",
@@ -225,7 +232,8 @@ function TravelCostsPage() {
             actually spend on accommodation, food, transport and activities.
           </p>
           <p className="mt-3 text-xs text-white/60">
-            Last updated 29 August 2026 &middot; prices verified against 2026 operator rates
+            Last updated {formatPageDate(PAGE_DATES.travelCosts)} &middot; prices verified against
+            2026 operator rates
           </p>
         </div>
       </header>
@@ -385,6 +393,113 @@ function TravelCostsPage() {
             </tr>
           </tbody>
         </TableShell>
+
+        {/* 3b. Whole-trip cost. Added 2026-09-07. The page answers "per day" and
+            ranks 5-9 for it, but the whole-trip variants are a distinct intent
+            and rank markedly worse: "how much is a trip to indonesia" 17 impr at
+            position 14.0, "trip to indonesia cost" 7 at 15.7, "indonesia trip
+            cost" 6 at 18.2, "1 week indonesia trip cost" 3 at 9.0. Roughly 38
+            impressions where we hand the reader the daily figure and leave them
+            to do the multiplication. Every number below IS that multiplication of
+            the daily table above, so the two sections cannot contradict each
+            other; if you edit the daily ranges, redo these. Whole-trip queries
+            are also the more transactional half of the cluster, which is why each
+            row links to an itinerary. Read the effect on 5 Oct. */}
+        <SectionHeading id="whole-trip">
+          How much does a whole trip to Indonesia cost?
+        </SectionHeading>
+        <Prose>
+          <p>
+            A week in Indonesia costs roughly <strong>$210 to $350</strong> on a budget,{" "}
+            <strong>$490 to $700</strong> mid-range, or <strong>$1,050 to $1,750</strong> in
+            comfort, excluding international flights. Two weeks runs $420 to $700, $980 to $1,400,
+            or $2,100 to $3,500. Add $40 to $70 for every domestic flight between islands, the one
+            cost that does not scale with how long you stay.
+          </p>
+        </Prose>
+        <TableShell>
+          <thead>
+            <tr>
+              <Th>Trip length</Th>
+              <Th>Budget</Th>
+              <Th>Mid-range</Th>
+              <Th>Comfortable</Th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <Td>
+                <Link
+                  to="/trips/$slug"
+                  params={{ slug: "7-days-bali-solo-travellers" }}
+                  className="underline underline-offset-2"
+                  style={teal}
+                >
+                  1 week
+                </Link>
+              </Td>
+              <Td>$210 to $350</Td>
+              <Td>$490 to $700</Td>
+              <Td>$1,050 to $1,750</Td>
+            </tr>
+            <tr>
+              <Td>
+                <Link
+                  to="/trips/$slug"
+                  params={{ slug: "10-days-bali-gili-islands" }}
+                  className="underline underline-offset-2"
+                  style={teal}
+                >
+                  10 days
+                </Link>
+              </Td>
+              <Td>$300 to $500</Td>
+              <Td>$700 to $1,000</Td>
+              <Td>$1,500 to $2,500</Td>
+            </tr>
+            <tr>
+              <Td>
+                <Link
+                  to="/trips/$slug"
+                  params={{ slug: "14-days-indonesia-bali-java-komodo" }}
+                  className="underline underline-offset-2"
+                  style={teal}
+                >
+                  2 weeks
+                </Link>
+              </Td>
+              <Td>$420 to $700</Td>
+              <Td>$980 to $1,400</Td>
+              <Td>$2,100 to $3,500</Td>
+            </tr>
+            <tr>
+              <Td>
+                <Link
+                  to="/trips/$slug"
+                  params={{ slug: "30-days-indonesia-ultimate" }}
+                  className="underline underline-offset-2"
+                  style={teal}
+                >
+                  1 month
+                </Link>
+              </Td>
+              <Td>$900 to $1,500</Td>
+              <Td>$2,100 to $3,000</Td>
+              <Td>$4,500 to $7,500</Td>
+            </tr>
+          </tbody>
+        </TableShell>
+        <Prose>
+          <p className="text-xs sm:text-sm">
+            On-the-ground spending only: accommodation, food, local transport and activities, at the
+            daily rates in the table above. International flights, visa fees and travel insurance
+            are extra. For entry fees, budget IDR 650,000, about $42, for 30 days in Bali, see the{" "}
+            <Link to="/visa-guide" className="underline underline-offset-2" style={teal}>
+              visa and entry cost guide
+            </Link>
+            .
+          </p>
+        </Prose>
 
         {/* 4. Accommodation */}
         {/* Four headings here used to be labels ("Accommodation costs", "Food

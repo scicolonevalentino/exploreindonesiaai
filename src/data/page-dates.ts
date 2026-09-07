@@ -19,8 +19,8 @@
 export const PAGE_DATES = {
   home: "2026-06-26",
   connect: "2026-08-03",
-  visaGuide: "2026-08-31",
-  travelCosts: "2026-08-31",
+  visaGuide: "2026-09-07",
+  travelCosts: "2026-09-07",
   privacy: "2026-06-16",
   terms: "2026-06-13",
   // Every /transport page (index + the per-route pages) renders from
@@ -30,3 +30,24 @@ export const PAGE_DATES = {
   // content yet: the last content edit to src/data/destinations.ts.
   destinations: "2026-08-28",
 } as const;
+
+/**
+ * Render a PAGE_DATES value as the visible "Last updated" line.
+ *
+ * WHY THIS EXISTS: the dates above already fed the JSON-LD `dateModified` and
+ * the sitemap `<lastmod>`, but each page also hard-coded the same date as prose
+ * in its header, and the two drifted: on 2026-09-07 /visa-guide read
+ * "14 August 2026" against a PAGE_DATES value of 2026-08-31, and
+ * /indonesia-travel-costs read "29 August" against the same 2026-08-31. A
+ * visible date that contradicts the structured one is worse than no date,
+ * because freshness is a signal both Google and AI answers read. Format the
+ * prose from the same constant and they cannot disagree again.
+ */
+export function formatPageDate(iso: string): string {
+  return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
