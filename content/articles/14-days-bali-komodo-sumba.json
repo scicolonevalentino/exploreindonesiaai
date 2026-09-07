@@ -1960,9 +1960,34 @@
           "_type": "span",
           "marks": [],
           "text": " if 14 days is too long or Sumba's logistics worry you, drop the Sumba leg entirely and run Bali plus Komodo over fewer days. You lose the wild beaches and Marapu villages but gain reliability and a lower cost."
+        },
+        {
+          "_key": "sumbaovA",
+          "_type": "span",
+          "marks": [],
+          "text": " The other way to cut it is to keep Sumba and drop everything else: our "
+        },
+        {
+          "_key": "sumbaovB",
+          "_type": "span",
+          "marks": ["sumbaov1"],
+          "text": "8-day overland route from Waingapu to the west coast"
+        },
+        {
+          "_key": "sumbaovC",
+          "_type": "span",
+          "marks": [],
+          "text": " gives the island a whole trip instead of five nights, and crosses the east that this route never reaches."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "sumbaov1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-sumba-overland-east-to-west"
+        }
+      ],
       "style": "normal"
     },
     {
