@@ -221,12 +221,7 @@
       "_key": "b27",
       "_type": "comparisonTable",
       "caption": "The three ways to sleep in Raja Ampat, priced per person per night as a working estimate. Rates move with season and with the exchange rate, so treat these as planning figures rather than quotes.",
-      "columns": [
-        "Option",
-        "Rough nightly cost",
-        "What is included",
-        "Who it suits"
-      ],
+      "columns": ["Option", "Rough nightly cost", "What is included", "Who it suits"],
       "rows": [
         {
           "_key": "b28",
@@ -292,9 +287,7 @@
         {
           "_key": "b36",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -306,9 +299,7 @@
         {
           "_key": "b37b",
           "_type": "span",
-          "marks": [
-            "mktwelve"
-          ],
+          "marks": ["mktwelve"],
           "text": "Fly into Sorong from Jakarta, Makassar or Manado"
         },
         {
@@ -334,9 +325,7 @@
         {
           "_key": "b39",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -356,9 +345,7 @@
         {
           "_key": "b42",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -370,9 +357,7 @@
         {
           "_key": "b44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -384,9 +369,7 @@
         {
           "_key": "b46",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -398,9 +381,7 @@
         {
           "_key": "b48",
           "_type": "span",
-          "marks": [
-            "mdbookspan"
-          ],
+          "marks": ["mdbookspan"],
           "text": "search Sorong hotels on Booking.com"
         },
         {
@@ -412,9 +393,7 @@
         {
           "_key": "b50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -454,9 +433,7 @@
         {
           "_key": "b55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -476,9 +453,7 @@
         {
           "_key": "b58",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Midday."
         },
         {
@@ -510,9 +485,7 @@
         {
           "_key": "b63",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -524,9 +497,7 @@
         {
           "_key": "b65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -538,9 +509,7 @@
         {
           "_key": "b67",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -560,9 +529,7 @@
         {
           "_key": "b70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -574,9 +541,7 @@
         {
           "_key": "b72",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -610,9 +575,7 @@
         {
           "_key": "b77",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -632,9 +595,7 @@
         {
           "_key": "b80",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -654,9 +615,7 @@
         {
           "_key": "b83",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -668,9 +627,7 @@
         {
           "_key": "b85",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -682,9 +639,7 @@
         {
           "_key": "b87",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -718,9 +673,7 @@
         {
           "_key": "b92",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -740,9 +693,7 @@
         {
           "_key": "b95",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -762,9 +713,7 @@
         {
           "_key": "b98",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -776,9 +725,7 @@
         {
           "_key": "b100",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -812,9 +759,7 @@
         {
           "_key": "b105",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -834,9 +779,7 @@
         {
           "_key": "b108",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -856,9 +799,7 @@
         {
           "_key": "b111",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -870,9 +811,7 @@
         {
           "_key": "b113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic:"
         },
         {
@@ -884,9 +823,7 @@
         {
           "_key": "b115",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -920,9 +857,7 @@
         {
           "_key": "b120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pre-dawn."
         },
         {
@@ -942,9 +877,7 @@
         {
           "_key": "b123",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -964,9 +897,7 @@
         {
           "_key": "b126",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -978,9 +909,7 @@
         {
           "_key": "b128",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1014,9 +943,7 @@
         {
           "_key": "b133",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1036,9 +963,7 @@
         {
           "_key": "b136",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -1050,9 +975,7 @@
         {
           "_key": "b138",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -1064,9 +987,7 @@
         {
           "_key": "b140",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1086,9 +1007,7 @@
         {
           "_key": "b143",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening."
         },
         {
@@ -1122,9 +1041,7 @@
         {
           "_key": "b148",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -1136,9 +1053,7 @@
         {
           "_key": "b150",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note:"
         },
         {
@@ -1239,12 +1154,7 @@
       "_key": "b156",
       "_type": "comparisonTable",
       "caption": "The two mandatory Raja Ampat payments, plus the diver-only tag. Published figures differ between sources and the structure has changed recently, so confirm at the booth and treat these as working estimates.",
-      "columns": [
-        "Payment",
-        "Cost",
-        "Where it is handled",
-        "Notes"
-      ],
+      "columns": ["Payment", "Cost", "Where it is handled", "Notes"],
       "rows": [
         {
           "_key": "b157",
@@ -1478,9 +1388,7 @@
         {
           "_key": "b189",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money and connectivity. "
         },
         {
@@ -1492,9 +1400,7 @@
         {
           "_key": "b191",
           "_type": "span",
-          "marks": [
-            "mdairalospan"
-          ],
+          "marks": ["mdairalospan"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -1610,9 +1516,7 @@
         {
           "_key": "b207",
           "_type": "span",
-          "marks": [
-            "rel1"
-          ],
+          "marks": ["rel1"],
           "text": "7 Days in Raja Ampat: Snorkelling, Islands and Karst"
         },
         {
@@ -1624,9 +1528,7 @@
         {
           "_key": "b209",
           "_type": "span",
-          "marks": [
-            "rel2"
-          ],
+          "marks": ["rel2"],
           "text": "14 Days in Raja Ampat for Divers"
         },
         {
@@ -1638,9 +1540,7 @@
         {
           "_key": "b211",
           "_type": "span",
-          "marks": [
-            "rel3"
-          ],
+          "marks": ["rel3"],
           "text": "9 Days in Raja Ampat with Kids"
         },
         {
@@ -1739,15 +1639,8 @@
   },
   "title": "8 Days in Raja Ampat: A Homestay Trip Based on Kri Island",
   "travelStylePrimary": "remote_offbeat",
-  "travelStyleSecondary": [
-    "diving_snorkeling",
-    "beach_islands"
-  ],
-  "travellerTypes": [
-    "solo_travellers",
-    "friends",
-    "couples"
-  ],
+  "travelStyleSecondary": ["diving_snorkeling", "beach_islands"],
+  "travellerTypes": ["solo_travellers", "friends", "couples"],
   "tripLengthBucket": "one_week",
   "tripLengthDays": 8,
   "vibe": "remote"
