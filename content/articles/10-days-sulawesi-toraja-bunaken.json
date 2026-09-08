@@ -119,9 +119,7 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route: "
         },
         {
@@ -141,9 +139,7 @@
         {
           "_key": "k11",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for: "
         },
         {
@@ -163,9 +159,7 @@
         {
           "_key": "k14",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pace: "
         },
         {
@@ -185,9 +179,7 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base changes: "
         },
         {
@@ -207,9 +199,7 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "When to go: "
         },
         {
@@ -295,12 +285,7 @@
     {
       "_key": "rpt87",
       "_type": "comparisonTable",
-      "columns": [
-        "Days",
-        "What fits",
-        "Flights inside Sulawesi",
-        "Best for"
-      ],
+      "columns": ["Days", "What fits", "Flights inside Sulawesi", "Best for"],
       "rows": [
         {
           "_key": "rpr88",
@@ -371,12 +356,7 @@
     {
       "_key": "rpt96",
       "_type": "comparisonTable",
-      "columns": [
-        "Region",
-        "Gateway airport",
-        "What you go for",
-        "The catch"
-      ],
+      "columns": ["Region", "Gateway airport", "What you go for", "The catch"],
       "rows": [
         {
           "_key": "rpr97",
@@ -429,9 +409,7 @@
         {
           "_key": "rps103",
           "_type": "span",
-          "marks": [
-            "rpm102"
-          ],
+          "marks": ["rpm102"],
           "text": "14-day Toraja, Togean and Bunaken route"
         },
         {
@@ -443,9 +421,7 @@
         {
           "_key": "rps106",
           "_type": "span",
-          "marks": [
-            "rpm105"
-          ],
+          "marks": ["rpm105"],
           "text": "10-day north Sulawesi diving route"
         },
         {
@@ -457,9 +433,7 @@
         {
           "_key": "rps109",
           "_type": "span",
-          "marks": [
-            "rpm108"
-          ],
+          "marks": ["rpm108"],
           "text": "8-day Wakatobi route"
         },
         {
@@ -554,9 +528,7 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -576,9 +548,7 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -598,9 +568,7 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -612,9 +580,7 @@
         {
           "_key": "k40",
           "_type": "span",
-          "marks": [
-            "k39"
-          ],
+          "marks": ["k39"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -640,17 +606,13 @@
         {
           "_key": "k43",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
           "_key": "k44b",
           "_type": "span",
-          "marks": [
-            "bk0makassar"
-          ],
+          "marks": ["bk0makassar"],
           "text": "Makassar"
         },
         {
@@ -704,9 +666,7 @@
         {
           "_key": "k50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -718,9 +678,7 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": [
-            "k52"
-          ],
+          "marks": ["k52"],
           "text": "compare Makassar to Toraja transfers"
         },
         {
@@ -746,9 +704,7 @@
         {
           "_key": "k56",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -768,9 +724,7 @@
         {
           "_key": "k59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -790,17 +744,13 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
           "_key": "k63b",
           "_type": "span",
-          "marks": [
-            "bk1rantepao"
-          ],
+          "marks": ["bk1rantepao"],
           "text": "Rantepao"
         },
         {
@@ -826,9 +776,7 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -862,9 +810,7 @@
         {
           "_key": "k70",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -884,9 +830,7 @@
         {
           "_key": "k73",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -906,9 +850,7 @@
         {
           "_key": "k76",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -928,9 +870,7 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -964,9 +904,7 @@
         {
           "_key": "k84",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -986,9 +924,7 @@
         {
           "_key": "k87",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1008,9 +944,7 @@
         {
           "_key": "k90",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -1030,9 +964,7 @@
         {
           "_key": "k93",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1066,9 +998,7 @@
         {
           "_key": "k98",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1088,9 +1018,7 @@
         {
           "_key": "k101",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1110,9 +1038,7 @@
         {
           "_key": "k104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1160,9 +1086,7 @@
         {
           "_key": "k111",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1182,9 +1106,7 @@
         {
           "_key": "k114",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1204,9 +1126,7 @@
         {
           "_key": "k117",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -1226,9 +1146,7 @@
         {
           "_key": "k120",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -1262,9 +1180,7 @@
         {
           "_key": "k125",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1284,9 +1200,7 @@
         {
           "_key": "k128",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1306,9 +1220,7 @@
         {
           "_key": "k131",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -1328,9 +1240,7 @@
         {
           "_key": "k134",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1350,17 +1260,13 @@
         {
           "_key": "k137",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
           "_key": "k138b",
           "_type": "span",
-          "marks": [
-            "bk2bunaken"
-          ],
+          "marks": ["bk2bunaken"],
           "text": "Bunaken"
         },
         {
@@ -1400,9 +1306,7 @@
         {
           "_key": "k142",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1422,9 +1326,7 @@
         {
           "_key": "k145",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1444,9 +1346,7 @@
         {
           "_key": "k148",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1480,9 +1380,7 @@
         {
           "_key": "k153",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1502,9 +1400,7 @@
         {
           "_key": "k156",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1524,9 +1420,7 @@
         {
           "_key": "k159",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -1546,9 +1440,7 @@
         {
           "_key": "k162",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1582,9 +1474,7 @@
         {
           "_key": "k167",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1604,9 +1494,7 @@
         {
           "_key": "k170",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1626,9 +1514,7 @@
         {
           "_key": "k173",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -1760,9 +1646,7 @@
         {
           "_key": "k192",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Short on time? "
         },
         {
@@ -1782,9 +1666,7 @@
         {
           "_key": "k195",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Not a diver? "
         },
         {
@@ -1804,9 +1686,7 @@
         {
           "_key": "k198",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Want it gentler? "
         },
         {
@@ -1826,9 +1706,7 @@
         {
           "_key": "k201",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Have more time? "
         },
         {
@@ -1862,9 +1740,7 @@
         {
           "_key": "k206",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa. "
         },
         {
@@ -1876,9 +1752,7 @@
         {
           "_key": "k209",
           "_type": "span",
-          "marks": [
-            "k208"
-          ],
+          "marks": ["k208"],
           "text": "Indonesia eSIM"
         },
         {
@@ -1904,9 +1778,7 @@
         {
           "_key": "k212",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cash. "
         },
         {
@@ -1926,9 +1798,7 @@
         {
           "_key": "k215",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Health and timing. "
         },
         {
@@ -1948,9 +1818,7 @@
         {
           "_key": "k218",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Guides. "
         },
         {
@@ -2018,9 +1886,7 @@
         {
           "_key": "k229",
           "_type": "span",
-          "marks": [
-            "k228"
-          ],
+          "marks": ["k228"],
           "text": "20-day wild Indonesia route"
         },
         {
@@ -2032,9 +1898,7 @@
         {
           "_key": "k232",
           "_type": "span",
-          "marks": [
-            "k231"
-          ],
+          "marks": ["k231"],
           "text": "7-day Raja Ampat snorkelling islands itinerary"
         },
         {
@@ -2046,9 +1910,7 @@
         {
           "_key": "k235",
           "_type": "span",
-          "marks": [
-            "k234"
-          ],
+          "marks": ["k234"],
           "text": "Wild Indonesia destination guide"
         },
         {
@@ -2066,9 +1928,7 @@
         {
           "_key": "kn912",
           "_type": "span",
-          "marks": [
-            "kn910"
-          ],
+          "marks": ["kn910"],
           "text": "14-day route that adds the Togean Islands"
         },
         {
@@ -2119,9 +1979,7 @@
         {
           "_key": "nsd-s2",
           "_type": "span",
-          "marks": [
-            "nsd-lnk-1"
-          ],
+          "marks": ["nsd-lnk-1"],
           "text": "10-day North Sulawesi diving itinerary"
         },
         {
@@ -2194,11 +2052,7 @@
   },
   "title": "10 Days in Sulawesi: Tana Toraja, Bunaken and the Long Road Between",
   "travelStylePrimary": "remote_offbeat",
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "repeat_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "repeat_travellers"],
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 10,
   "vibe": "balanced"

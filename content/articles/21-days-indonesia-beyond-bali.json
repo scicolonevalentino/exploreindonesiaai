@@ -2384,18 +2384,6 @@
           "text": ". To plan around the start point, browse the "
         },
         {
-          "_key": "k9j",
-          "_type": "span",
-          "marks": ["k9i"],
-          "text": "Yogyakarta destination guide"
-        },
-        {
-          "_key": "k9k",
-          "_type": "span",
-          "marks": [],
-          "text": " and the wider "
-        },
-        {
           "_key": "k9m",
           "_type": "span",
           "marks": ["k9l"],
@@ -2414,12 +2402,6 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/trips/10-days-komodo-flores"
-        },
-        {
-          "_key": "k9i",
-          "_type": "externalLink",
-          "blank": false,
-          "href": "/destinations/java"
         },
         {
           "_key": "k9l",

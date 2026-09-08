@@ -1816,6 +1816,24 @@
           "_type": "span",
           "marks": [],
           "text": "."
+        },
+        {
+          "_key": "px2a",
+          "_type": "span",
+          "marks": [],
+          "text": " For the full picture, see "
+        },
+        {
+          "_key": "px2b",
+          "_type": "span",
+          "marks": ["px2"],
+          "text": "all the islands near Bali, compared"
+        },
+        {
+          "_key": "px2c",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fix the route."
         }
       ],
       "markDefs": [
@@ -1830,6 +1848,12 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/trips/7-days-lombok-gili-islands"
+        },
+        {
+          "_key": "px2",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
         }
       ],
       "style": "normal"
