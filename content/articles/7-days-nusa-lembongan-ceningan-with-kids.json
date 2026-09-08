@@ -220,9 +220,34 @@
           "_type": "span",
           "marks": [],
           "text": "The Nusa islands get sold to families as one destination, and they are not. Nusa Penida is large, dramatic and tiring, built around viewpoints that reward a driver and a full day. Nusa Lembongan is a fraction of the size, has gentle roads, and puts a swimmable bay within walking distance of most stays. Booking Penida because the photograph was taken there, then discovering the logistics with a four-year-old in the back of a car, is the standard family mistake on these islands."
+        },
+        {
+          "_key": "gsc0824k24a",
+          "_type": "span",
+          "marks": [],
+          "text": " The same is true of the wider set of "
+        },
+        {
+          "_key": "gsc0824k24b",
+          "_type": "span",
+          "marks": ["gsc0824k24"],
+          "text": "islands near Bali"
+        },
+        {
+          "_key": "gsc0824k24c",
+          "_type": "span",
+          "marks": [],
+          "text": ", which vary far more than the marketing suggests."
         }
       ],
-      "markDefs": [],
+      "markDefs": [
+        {
+          "_key": "gsc0824k24",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
       "style": "normal"
     },
     {
