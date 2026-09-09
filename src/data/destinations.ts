@@ -253,10 +253,26 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "bali_nearby_islands",
     name: "Bali + Nearby Islands",
     shortName: "Bali & Islands",
-    h1: "Islands Near Bali",
-    metaTitle: "Islands Near Bali: Which to Visit and How to Get There",
+    // 2026-09-09 (task schedulato, PARTE 1). Il cluster fa 1477 impression, 0
+    // click, posizione 43,4, la seconda pagina del sito per impression. La SERP
+    // reale per "islands near bali" e "best islands in bali" e' fatta solo di
+    // listicle numerate (Virgin Australia "10 best islands near Bali",
+    // Tripadvisor "THE 15 BEST Bali Islands to Visit", WanderOn "12 Most
+    // Popular Islands In Bali"): il nostro title era l'unico senza numero e
+    // senza "best", parola che da sola vale ~173 impression del cluster. L'h1
+    // porta la variante "Bali islands / islands in bali" (~395 impression) che
+    // il title non copriva. Valori vecchi:
+    //   h1              "Islands Near Bali"
+    //   metaTitle       "Islands Near Bali: Which to Visit and How to Get There"
+    //   metaDescription "Which islands sit near Bali, how long each takes to
+    //                    reach by fast boat or plane, and how to pick the one
+    //                    that fits your trip. Honest trade-offs."
+    // Piano completo in docs/reinforce-bali-nearby-islands.md. Rileggere la
+    // posizione il 7 ottobre 2026.
+    h1: "The 9 Best Bali Islands, and Which One to Pick",
+    metaTitle: "The 9 Best Islands Near Bali, and Which One to Pick",
     metaDescription:
-      "Which islands sit near Bali, how long each takes to reach by fast boat or plane, and how to pick the one that fits your trip. Honest trade-offs.",
+      "Nine islands sit within reach of Bali. Nusa Penida, the Gilis, Lombok and more, with boat times, what each is good for, and when to skip it.",
     intro:
       "Bali is best paired with the islands at its doorstep. These itineraries combine the mainland with Nusa Penida, Lembongan and the Gilis, with the ferries, transfers and dive spots already mapped out for you.",
     highlights: ["Nusa Penida", "Nusa Lembongan", "Gili Islands", "Manta dives"],
