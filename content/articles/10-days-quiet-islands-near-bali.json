@@ -1,0 +1,2604 @@
+{
+  "_id": "itinerary-10-days-quiet-islands-near-bali",
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "_key": "qib460",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/bali/pemuteran?z=16022946",
+      "anchorText": "Bali airport to Pemuteran transfer",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "12GO_BALI_PEMUTERAN",
+      "publicUrl": "https://12go.asia/en/travel/bali/pemuteran"
+    },
+    {
+      "_key": "qib461",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/sanur/nusa-penida?z=16022946",
+      "anchorText": "Sanur to Nusa Penida fast boat",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "12GO_SANUR_NUSA_PENIDA",
+      "publicUrl": "https://12go.asia/en/travel/sanur/nusa-penida"
+    },
+    {
+      "_key": "qib462",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/nusa-penida/gili-meno?z=16022946",
+      "anchorText": "Nusa Penida to Gili Meno fast boat",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "12GO_NUSA_PENIDA_GILI_MENO",
+      "publicUrl": "https://12go.asia/en/travel/nusa-penida/gili-meno"
+    },
+    {
+      "_key": "qib463",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/gili-meno/bali?z=16022946",
+      "anchorText": "Gili Meno to Bali fast boat",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "partner": "12Go",
+      "placeholderId": "12GO_GILI_MENO_BALI",
+      "publicUrl": "https://12go.asia/en/travel/gili-meno/bali"
+    },
+    {
+      "_key": "qib464",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-snorkeling-full-day-boat-trip/d51549-212334P3?pid=P00303362&mcid=42383&medium=link&campaign=quiet-islands-near-bali",
+      "anchorText": "Menjangan Island snorkelling day trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "Viator",
+      "placeholderId": "VIATOR_MENJANGAN_SNORKEL",
+      "publicUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-snorkeling-full-day-boat-trip/d51549-212334P3"
+    },
+    {
+      "_key": "qib465",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-for-Certified-Scuba-Divers-full-day-boat-trip-2-dives-lunch/d51549-212334P12?pid=P00303362&mcid=42383&medium=link&campaign=quiet-islands-near-bali",
+      "anchorText": "Menjangan two-dive day trip for certified divers",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "Viator",
+      "placeholderId": "VIATOR_MENJANGAN_DIVE",
+      "publicUrl": "https://www.viator.com/tours/Pemuteran/Menjangan-island-for-Certified-Scuba-Divers-full-day-boat-trip-2-dives-lunch/d51549-212334P12"
+    },
+    {
+      "_key": "qib466",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Pemuteran%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "places to stay in Pemuteran",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_PEMUTERAN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Pemuteran%2C+Indonesia"
+    },
+    {
+      "_key": "qib467",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "guesthouses on Nusa Penida",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_NUSA_PENIDA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Nusa+Penida%2C+Indonesia"
+    },
+    {
+      "_key": "qib468",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Meno%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays on Gili Meno",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_GILI_MENO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Gili+Meno%2C+Indonesia"
+    },
+    {
+      "_key": "qib469",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM from Airalo",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    }
+  ],
+  "articleCreatedDate": "2026-09-11T04:19:08Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "qib101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib100",
+          "_type": "span",
+          "marks": [],
+          "text": "Most people who come back to Bali a second or third time end up on the same three islands they did the first time. Nusa Penida for the cliff photograph, Gili Trawangan for the sunset, Lembongan because the boat was already going there. Those islands are good. They are also, between nine in the morning and three in the afternoon, the busiest water in Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib102",
+          "_type": "span",
+          "marks": [],
+          "text": "This route goes to the quiet versions instead. Menjangan, off the far north-west coast, sits inside a national park and closes to visitors in the afternoon, which keeps it emptier than any reef in the south. Nusa Penida's east coast holds the same cliffs as the west but on roads bad enough that the day-trip vans turn around. Gili Meno has no bars, one lap of the island takes ninety minutes on foot, and the reef off its west side is the best of the three Gilis."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib104",
+          "_type": "span",
+          "marks": [],
+          "text": "It is a slower trip than it looks on a map, and two of the ten days are largely spent moving. That is the deal. What you get for it is the islands near Bali on the terms you probably imagined before you arrived."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib107",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is this trip for, and who should skip it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib108",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits repeat visitors to Bali who have already done the Nusa day trip and Gili Trawangan, and who would rather spend a day getting somewhere quiet than an hour getting somewhere crowded. It rewards snorkellers, divers and slow readers. It asks for tolerance of two long transfer days and of islands where the evening entertainment is dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib111",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "It is a good fit if: "
+        },
+        {
+          "_key": "qib112",
+          "_type": "span",
+          "marks": [],
+          "text": "you dive or snorkel and want reef quality over reef convenience; you have seen Bali's south and are not trying to see it again; you are travelling as a couple or two friends who can sit still for three nights in one place; you accept that rough roads and boat schedules will decide parts of your day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib114",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Skip it if: "
+        },
+        {
+          "_key": "qib115",
+          "_type": "span",
+          "marks": [],
+          "text": "this is your first trip to Indonesia, in which case the classic Bali plus Gili route serves you better; you want nightlife, beach clubs or a varied restaurant scene; you are travelling with small children, because the Pemuteran to Sanur road day is hard on them; or your total trip is under a week, which is not enough to justify the distances here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib117",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib119",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Route: "
+        },
+        {
+          "_key": "qib120",
+          "_type": "span",
+          "marks": [],
+          "text": "Denpasar to Pemuteran to Menjangan, then Sanur to east Nusa Penida, then Gili Meno, then back to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib122",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Length: "
+        },
+        {
+          "_key": "qib123",
+          "_type": "span",
+          "marks": [],
+          "text": "10 days, three bases, three nights in each of the first two and three on Gili Meno."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib125",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Pace: "
+        },
+        {
+          "_key": "qib126",
+          "_type": "span",
+          "marks": [],
+          "text": "slow in the middle, heavy on days 1, 4, 7 and 10. Four of ten days involve a real transfer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib128",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best months: "
+        },
+        {
+          "_key": "qib129",
+          "_type": "span",
+          "marks": [],
+          "text": "May to October, the dry season, when the crossings are calmest and Menjangan visibility is at its best. January and February are the months to avoid for this particular route, because the north-west coast gets the worst of the rain and the Lombok Strait crossing is roughest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib131",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Water: "
+        },
+        {
+          "_key": "qib132",
+          "_type": "span",
+          "marks": [],
+          "text": "snorkelling every day you want it, and diving on all three islands. Menjangan and Meno both work for non-divers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib134",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Who it fits: "
+        },
+        {
+          "_key": "qib135",
+          "_type": "span",
+          "marks": [],
+          "text": "repeat travellers, couples, two friends. Divers especially."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib137",
+          "_type": "span",
+          "marks": [],
+          "text": "Why does this route run west to east?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib138",
+          "_type": "span",
+          "marks": [],
+          "text": "Running west to east puts the hardest driving on day one, when you are fresh and have nothing else to do, and leaves the last three days on an island you can walk around. The reverse direction ends with a four hour drive across Bali on the day you fly, which is how people miss flights. West to east also follows the water: Menjangan is calmest early in the trip, and the Lombok Strait crossing to the Gilis sits in the middle of your acclimatised week rather than on day two."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib140",
+          "_type": "span",
+          "marks": [],
+          "text": "There is one more reason. Menjangan is inside West Bali National Park and the park runs on its own hours, with boats generally going out in the morning and the marine area closing in the early afternoon. Putting it at the start means a weather day there costs you a lazy afternoon in Pemuteran, not the whole trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib143",
+          "_type": "span",
+          "marks": [],
+          "text": "Which of the quiet islands near Bali should you choose?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib144",
+          "_type": "span",
+          "marks": [],
+          "text": "If you only have time for one, pick by water rather than by scenery. Menjangan has the best coral wall and the shortest season of crowds. East Nusa Penida has the cliffs and the manta season but demands a scooter or a driver and steep, uneven roads. Gili Meno has the easiest snorkelling straight off the beach and the quietest evenings. All three are reachable from Bali inside a day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib146",
+      "_type": "comparisonTable",
+      "caption": "Working comparison based on the crossing times published on our transport pages. Sea conditions and operator schedules change, so confirm before you book.",
+      "columns": ["", "Menjangan", "East Nusa Penida", "Gili Meno"],
+      "rows": [
+        {
+          "_key": "qib147",
+          "cells": [
+            "Getting there from Bali",
+            "Road only, about 3 to 4.5 hours to Pemuteran, then a short boat",
+            "Fast boat from Sanur, 25 to 45 minutes, then 1 to 1.5 hours by road",
+            "Fast boat, around 2 to 3.5 hours, or via Penida"
+          ]
+        },
+        {
+          "_key": "qib148",
+          "cells": [
+            "What the water is like",
+            "A coral wall dropping into clear blue, best visibility of the three",
+            "Open, current-driven sites, manta cleaning stations in season",
+            "Reef straight off the beach, turtles most days"
+          ]
+        },
+        {
+          "_key": "qib149",
+          "cells": [
+            "Good for",
+            "Divers and confident snorkellers, day boats from Pemuteran",
+            "Cliff viewpoints, empty beaches, a scooter day",
+            "Doing nothing well, easy snorkelling, three quiet nights"
+          ]
+        },
+        {
+          "_key": "qib150",
+          "cells": [
+            "The catch",
+            "You have to drive across Bali to reach it, and the park has its own hours",
+            "The roads are genuinely rough and steep, and taxis are scarce",
+            "Very few restaurants, and almost nothing to do after dark"
+          ]
+        },
+        {
+          "_key": "qib151",
+          "cells": [
+            "Skip it if",
+            "You are not going in the water",
+            "Bad roads are the part of travel you like least",
+            "Three nights with no plan sounds like a long time"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "qib152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib153",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Denpasar to Pemuteran, the long drive north"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib155",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib156",
+          "_type": "span",
+          "marks": [],
+          "text": "Land at Denpasar, clear immigration, and get out of the south quickly. The drive to Pemuteran runs up through the mountains past Bedugul or along the north coast road, and both take real time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib158",
+          "_type": "span",
+          "marks": [],
+          "text": "Private transfers from the airport to Pemuteran run roughly 3 hours 10 minutes to 4 hours 30 minutes depending on the route and the traffic out of Denpasar, and cost in the region of 48 to 92 US dollars for the vehicle rather than per person. You can "
+        },
+        {
+          "_key": "qib159",
+          "_type": "span",
+          "marks": ["qib157"],
+          "text": "compare the airport to Pemuteran transfer"
+        },
+        {
+          "_key": "qib160",
+          "_type": "span",
+          "marks": [],
+          "text": " and book it in advance, which is worth doing because there is no reliable public option on this corridor."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib157",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_PEMUTERAN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib163",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib164",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrive, swim, and do nothing. Pemuteran is a single road with the sea on one side, and its whole character is that nothing happens quickly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib166",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib167",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat where you are staying. There are a handful of warungs along the road but the strip is small and closes early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib169",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib170",
+          "_type": "span",
+          "marks": [],
+          "text": "Pemuteran, three nights. "
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib172",
+          "_type": "span",
+          "marks": [],
+          "text": "Stay on the sea side of the road if you can, because it puts the reef and the Biorock restoration site a few steps from your door. "
+        },
+        {
+          "_key": "qib173",
+          "_type": "span",
+          "marks": ["qib171"],
+          "text": "Compare places to stay in Pemuteran"
+        },
+        {
+          "_key": "qib174",
+          "_type": "span",
+          "marks": [],
+          "text": " before you commit, since the village has perhaps twenty properties in total and the good ones book out in July and August."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib171",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_PEMUTERAN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib177",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib178",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the single longest road day of the trip and it lands on jet lag. If your flight arrives after 18:00, sleep near the airport and drive north the next morning instead. Nothing on day two is worth arriving at midnight for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib180",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Menjangan Island, the first boat out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib182",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib183",
+          "_type": "span",
+          "marks": [],
+          "text": "Boats leave from Labuhan Lalang, about 25 minutes west of Pemuteran, and the crossing takes roughly half an hour. Go on the first departure. The marine area runs on park hours and the light on the wall is best before the sun is overhead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib185",
+          "_type": "span",
+          "marks": [],
+          "text": "Menjangan is a coral wall, not a beach island. You drop in near one of the mooring points and drift along a drop-off that falls away into open blue, with fan corals, schooling fish and a much better chance of visibility past 25 metres than anywhere in Bali's south. A "
+        },
+        {
+          "_key": "qib186",
+          "_type": "span",
+          "marks": ["qib184"],
+          "text": "full day snorkelling trip from Pemuteran"
+        },
+        {
+          "_key": "qib187",
+          "_type": "span",
+          "marks": [],
+          "text": " typically runs two sessions of about an hour with lunch between them, and costs from around 46 US dollars."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib184",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_MENJANGAN_SNORKEL"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib190",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib191",
+          "_type": "span",
+          "marks": [],
+          "text": "Back on the mainland by early afternoon. Sleep, read, walk the beach. The park closes the marine area in the afternoon, so there is no second attempt on the same day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib193",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib194",
+          "_type": "span",
+          "marks": [],
+          "text": "Pemuteran again. The sunsets here face north-west across the strait towards Java, which is unusual for Bali and worth walking down to the water for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib195",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib196",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib197",
+          "_type": "span",
+          "marks": [],
+          "text": "Pemuteran."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib199",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic. "
+        },
+        {
+          "_key": "qib200",
+          "_type": "span",
+          "marks": [],
+          "text": "Book the boat through your accommodation or an operator the night before, not on the morning. The first departures fill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib201",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib202",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib203",
+          "_type": "span",
+          "marks": [],
+          "text": "Bring your passport or a clear copy. The marine permit is checked at the ranger post at Labuhan Lalang and the fees there are cash only, in rupiah. As a working estimate the West Bali National Park entry sits around Rp 200,000 on weekdays and Rp 300,000 at weekends, with guide, gear and life jacket charged separately. Park fees change, so confirm the current figures with your operator when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib205",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: A second Menjangan day, or the Biorock reef at Pemuteran"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib206",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib207",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib208",
+          "_type": "span",
+          "marks": [],
+          "text": "Divers should go back. One day at Menjangan shows you the wall; two lets you dive the Anchor Wreck and the deeper sections on the north side, which is where the island earns its reputation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib210",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "qib211",
+          "_type": "span",
+          "marks": ["qib209"],
+          "text": "certified two-dive day trip with lunch"
+        },
+        {
+          "_key": "qib212",
+          "_type": "span",
+          "marks": [],
+          "text": " runs from around 115 US dollars, price varying by group size. Non-divers can repeat the snorkel trip or, better, stay in Pemuteran and swim the Biorock restoration structures directly off the beach, which cost nothing and are genuinely interesting: metal frames carrying a low electrical current, seeded with coral, growing back a reef that dynamite fishing destroyed in the nineties."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib209",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_MENJANGAN_DIVE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib215",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib216",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack properly. Tomorrow is long and you will not want to be repacking a wet bag at six in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib218",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib219",
+          "_type": "span",
+          "marks": [],
+          "text": "Early dinner, early night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib221",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib222",
+          "_type": "span",
+          "marks": [],
+          "text": "Pemuteran."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib224",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "What to cut. "
+        },
+        {
+          "_key": "qib225",
+          "_type": "span",
+          "marks": [],
+          "text": "If the sea has been rough and the visibility poor, skip the second Menjangan day and leave for Sanur a day early, adding a night on Nusa Penida instead. The east coast absorbs an extra day better than Pemuteran does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib226",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib227",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Pemuteran to east Nusa Penida, the transfer day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib229",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib230",
+          "_type": "span",
+          "marks": [],
+          "text": "Leave Pemuteran by 07:00. The drive back down to Sanur is around four hours without stops, and you want to be at the harbour with an hour in hand rather than watching your boat leave."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib232",
+          "_type": "span",
+          "marks": [],
+          "text": "Fast boats cross from Sanur to Nusa Penida in 25 to 45 minutes and there are hundreds of departures a day, with online fares starting around Rp 125,000 and walk-up prices at the booth closer to Rp 250,000. "
+        },
+        {
+          "_key": "qib233",
+          "_type": "span",
+          "marks": ["qib231"],
+          "text": "Book the Sanur to Nusa Penida crossing"
+        },
+        {
+          "_key": "qib234",
+          "_type": "span",
+          "marks": [],
+          "text": " in advance for a named departure rather than gambling on space."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib231",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_SANUR_NUSA_PENIDA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib237",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib238",
+          "_type": "span",
+          "marks": [],
+          "text": "You land at Toyapakeh or Banjar Nyuh on the north-west corner, which is the wrong side of the island for where you are going. The drive across to the Atuh and Diamond Beach area takes roughly 1 to 1.5 hours, on a road that alternates between new asphalt and old broken sections."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib239",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib240",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib241",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrive, eat at your guesthouse, sleep. There is no dining scene on the east side and that is the point."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib242",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib243",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib244",
+          "_type": "span",
+          "marks": [],
+          "text": "East Nusa Penida, three nights. "
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib248",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib246",
+          "_type": "span",
+          "marks": ["qib245"],
+          "text": "Compare guesthouses near Atuh and Diamond Beach"
+        },
+        {
+          "_key": "qib247",
+          "_type": "span",
+          "marks": [],
+          "text": ", and read the location on a map rather than the name: several places advertise themselves as east coast while sitting forty minutes inland."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib245",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_NUSA_PENIDA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib249",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib250",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib251",
+          "_type": "span",
+          "marks": [],
+          "text": "Arrange your Penida driver before you sail, through the guesthouse. Taxis do not wait at the harbour for the east side in any reliable number, and Grab coverage on the island is thin. Expect a small island retribution fee at the port, around Rp 25,000 as a working figure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib253",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Atuh, Diamond Beach and the east cliffs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib254",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib255",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib256",
+          "_type": "span",
+          "marks": [],
+          "text": "Be at the Atuh and Diamond Beach car park by 07:30. The two beaches share an entrance and a viewpoint ridge, and the difference between arriving at half seven and arriving at ten is the difference between having the staircase to yourself and queueing on it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib257",
+          "_type": "span",
+          "marks": [],
+          "text": "Diamond Beach is reached by a staircase carved into the cliff face. It is steep, exposed and fine if you are steady on your feet, and genuinely not fine if you are not. Atuh, the next bay along, has an easier path and a beach you can actually swim off when the swell is small. Entry to the whole area, both beaches and the viewpoints, runs around Rp 35,000 per person in cash as a working estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib259",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib260",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib261",
+          "_type": "span",
+          "marks": [],
+          "text": "Rumah Pohon, the bamboo tree house on the ridge, sits a few minutes away and is the photograph everyone comes for. Then push a little further to the Thousand Islands viewpoint at Raja Lima, a narrow spine of rock with the sea on both sides, which is quieter than anything on the west coast at the same hour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib262",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib263",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib264",
+          "_type": "span",
+          "marks": [],
+          "text": "Back to the guesthouse. Sunset on this coast is behind you, so the good light is at dawn, which is another argument for the early start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib265",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib266",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib267",
+          "_type": "span",
+          "marks": [],
+          "text": "East Nusa Penida."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib268",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib269",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib270",
+          "_type": "span",
+          "marks": [],
+          "text": "If you are riding a scooter yourself, be honest about your hill experience. The danger on Penida is not potholes, it is gradient, and the sections where new road meets old change grip without warning. Hiring a driver for the day costs little and removes the entire problem."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib271",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib272",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Suwehan, Tembeling, or the manta boat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib274",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib275",
+          "_type": "span",
+          "marks": [],
+          "text": "Two options, and they do not combine well. Either walk down to Suwehan, a steep path to an empty white beach with a rock stack in the middle of it, or take a boat from Toyapakeh out to the manta cleaning stations off the south-west coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib276",
+          "_type": "span",
+          "marks": [],
+          "text": "Manta sightings at Penida are seasonal and never guaranteed, and the south-west sites can be rough. If mantas are the reason you came to Indonesia, spend the day on the boat and accept that you may see nothing. If they are a bonus, stay on the east side, do Suwehan in the morning and the Tembeling forest pools in the afternoon, and keep the day yours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib278",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib279",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib280",
+          "_type": "span",
+          "marks": [],
+          "text": "Whichever you chose, finish early. The roads back across the island in the dark are worse than they look in daylight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib282",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib283",
+          "_type": "span",
+          "marks": [],
+          "text": "Repack. Tomorrow you are on a boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib284",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib285",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib286",
+          "_type": "span",
+          "marks": [],
+          "text": "East Nusa Penida."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib287",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib288",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "What to cut. "
+        },
+        {
+          "_key": "qib289",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the most cuttable day in the trip. If you are tired, do nothing at all, and treat the east coast as the rest stop between two transfer days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib290",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib291",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Nusa Penida to Gili Meno"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib292",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib293",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib294",
+          "_type": "span",
+          "marks": [],
+          "text": "Cross the island back to the north-west harbour in good time. The direct crossing to the Gilis leaves in the morning and there is generally only one workable departure a day, so a missed boat is a lost day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib299",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib296",
+          "_type": "span",
+          "marks": [],
+          "text": "The crossing takes about two hours at the fastest and closer to three and a half on the slower services, with Ekajaya Fast Ferry and WaterJet among the operators running it. Fares start in the region of 23 US dollars. "
+        },
+        {
+          "_key": "qib297",
+          "_type": "span",
+          "marks": ["qib295"],
+          "text": "Book the Nusa Penida to Gili Meno crossing"
+        },
+        {
+          "_key": "qib298",
+          "_type": "span",
+          "marks": [],
+          "text": " ahead, and confirm that your ticket lands at Meno rather than dropping you at Trawangan to change boats."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib295",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_NUSA_PENIDA_GILI_MENO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib300",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib301",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib302",
+          "_type": "span",
+          "marks": [],
+          "text": "Land on Meno, walk to your accommodation. There are no cars and no motorbikes on the island, so it is your own feet, a bicycle, or a cidomo pony cart."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib303",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib304",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib305",
+          "_type": "span",
+          "marks": [],
+          "text": "Eat on the west side and watch the sun go down behind Bali's Mount Agung, which on a clear evening is the single best view in the Gilis."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib306",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib307",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib308",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Meno, three nights. "
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib313",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib310",
+          "_type": "span",
+          "marks": [],
+          "text": "Meno has fewer beds than its neighbours and they skew either simple or quite expensive, with little in between. "
+        },
+        {
+          "_key": "qib311",
+          "_type": "span",
+          "marks": ["qib309"],
+          "text": "Compare stays on Gili Meno"
+        },
+        {
+          "_key": "qib312",
+          "_type": "span",
+          "marks": [],
+          "text": " early, especially for July, August and the New Year period."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib309",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_MENO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib314",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib315",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib316",
+          "_type": "span",
+          "marks": [],
+          "text": "The Lombok Strait is genuinely open water and the crossing can be uncomfortable. If you are prone to seasickness, take something before boarding, not when you start to feel it, and sit low and central rather than on the sun deck."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib317",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib318",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Meno Wall, the turtles and the underwater statues"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib319",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib320",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib321",
+          "_type": "span",
+          "marks": [],
+          "text": "Snorkel straight off the beach. The west and north sides of Meno hold the best shallow reef of the three Gilis, and green turtles are a near-daily sighting rather than a lucky one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib323",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib322",
+          "_type": "span",
+          "marks": [],
+          "text": "Divers should take Meno Wall, a gentle drift along a coral slope that suits people coming back to diving after a break. Just off the west beach lies The Nest, an installation of human figures placed on the sea floor by Jason deCaires Taylor, now well colonised by coral. It sits in shallow enough water to reach on a breath, though it is busier with day boats from Trawangan between ten and two."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib324",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib325",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib326",
+          "_type": "span",
+          "marks": [],
+          "text": "Walk to the turtle sanctuary near the harbour. It is small, it runs on donations rather than any public funding, and it raises hatchlings for roughly eight months before releasing them. Go in the knowledge that it is a volunteer operation, not a facility."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib327",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib328",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib329",
+          "_type": "span",
+          "marks": [],
+          "text": "There is no nightlife. That is the reason to be here."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib330",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib331",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib332",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Meno."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib333",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib334",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: The salt lake, the east beach, and nothing scheduled"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib335",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib336",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib337",
+          "_type": "span",
+          "marks": [],
+          "text": "Walk the island. A full lap takes about ninety minutes at a slow pace and takes you past the salt lake in the middle, which is shallow, birdy and, in the hot part of the day, smells of exactly what it is."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib338",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib339",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib340",
+          "_type": "span",
+          "marks": [],
+          "text": "The east side faces Gili Air and Lombok and catches the morning sun, so it is the better swim early and the better shade late. Pick a spot and stay in it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib341",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib342",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening. "
+        },
+        {
+          "_key": "qib343",
+          "_type": "span",
+          "marks": [],
+          "text": "Last dinner. If you have any booking to reconfirm for tomorrow, do it now, in person, rather than trusting a message."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib344",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib345",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base: "
+        },
+        {
+          "_key": "qib346",
+          "_type": "span",
+          "marks": [],
+          "text": "Gili Meno."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib347",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib348",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "What to upgrade. "
+        },
+        {
+          "_key": "qib349",
+          "_type": "span",
+          "marks": [],
+          "text": "If you are going to spend money anywhere on this trip, spend it here. Meno's better beachfront places are the only accommodation on the route where the room is part of the experience rather than a place to leave your bag."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib350",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib351",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Gili Meno back to Bali"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib352",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib353",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning. "
+        },
+        {
+          "_key": "qib354",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the earliest crossing you can. Fast boats from Gili Meno to Bali run about three hours at the quickest, with departures from around 07:00, and they land at Padangbai or Serangan rather than anywhere near the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib359",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib356",
+          "_type": "span",
+          "marks": [],
+          "text": "Fares start in the region of 27 US dollars and there are many operators on this route, which makes it one of the few legs where booking on the day sometimes works. "
+        },
+        {
+          "_key": "qib357",
+          "_type": "span",
+          "marks": ["qib355"],
+          "text": "Book the Gili Meno to Bali crossing"
+        },
+        {
+          "_key": "qib358",
+          "_type": "span",
+          "marks": [],
+          "text": " anyway if your flight is the same day, and pay for the transfer to the airport as part of the ticket."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib355",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_MENO_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib360",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib361",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon. "
+        },
+        {
+          "_key": "qib362",
+          "_type": "span",
+          "marks": [],
+          "text": "Padangbai to Denpasar airport is 1.5 to 2.5 hours depending on traffic, and the road through Sanur in the late afternoon is slow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib363",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib364",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note. "
+        },
+        {
+          "_key": "qib365",
+          "_type": "span",
+          "marks": [],
+          "text": "Only fly out the same day if your departure is after 21:00. Sea crossings get cancelled for weather with no notice and no alternative, and a Gili day is a bad place to be holding a morning flight. If your flight is earlier, sleep near the airport tonight and go home tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib366",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib367",
+          "_type": "span",
+          "marks": [],
+          "text": "What should you book early, and what can you leave flexible?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib369",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib368",
+          "_type": "span",
+          "marks": [],
+          "text": "Book the two long crossings, the airport transfer on day one and all three accommodations in advance. Leave the day activities, the scooter or driver on Penida, and the second Menjangan day open. The fixed points on this route are the ones where a full boat or a full village costs you a whole day, and there are only about five of them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib370",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib371",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Book early: "
+        },
+        {
+          "_key": "qib372",
+          "_type": "span",
+          "marks": [],
+          "text": "the airport to Pemuteran transfer; three nights in Pemuteran, which has very few beds; the Nusa Penida to Gili Meno crossing, because it runs roughly once a day; three nights on Gili Meno in high season; and the Menjangan boat the evening before, at the latest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib373",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib374",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Keep flexible: "
+        },
+        {
+          "_key": "qib375",
+          "_type": "span",
+          "marks": [],
+          "text": "the Sanur to Penida fast boat, which has hundreds of daily departures; the manta trip, which should be a weather decision made the day before; the Penida driver, arranged through your guesthouse a day ahead; and the Gili Meno to Bali boat if you are not flying the same day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib376",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib377",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make on the quiet islands near Bali"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib378",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib379",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Treating the transfer days as half days. "
+        },
+        {
+          "_key": "qib380",
+          "_type": "span",
+          "marks": [],
+          "text": "Pemuteran to east Penida is a four hour drive, a boat and another ninety minutes of driving. It is a full day. Plan nothing else into it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib381",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib382",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking Penida accommodation by the name rather than the map. "
+        },
+        {
+          "_key": "qib383",
+          "_type": "span",
+          "marks": [],
+          "text": "Plenty of places marketed as being near Diamond Beach are an hour of bad road away. Check the pin."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib384",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib385",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Going to Menjangan in the afternoon. "
+        },
+        {
+          "_key": "qib386",
+          "_type": "span",
+          "marks": [],
+          "text": "The park runs morning boats and the marine area closes early. An afternoon arrival at Labuhan Lalang is a wasted drive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib387",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib388",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Arriving at Labuhan Lalang without cash or a passport. "
+        },
+        {
+          "_key": "qib389",
+          "_type": "span",
+          "marks": [],
+          "text": "The ranger post takes rupiah in cash and checks identification for the marine permit. There is no machine and no card reader."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib390",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib391",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Expecting a restaurant scene on Meno. "
+        },
+        {
+          "_key": "qib392",
+          "_type": "span",
+          "marks": [],
+          "text": "There are a handful of places and several close in low season. If you have a dietary requirement, tell your accommodation when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib393",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib394",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Flying home the same morning you leave the Gilis. "
+        },
+        {
+          "_key": "qib395",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the one that actually costs money. Weather cancels crossings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib396",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib397",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib398",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib399",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut it to seven days: "
+        },
+        {
+          "_key": "qib400",
+          "_type": "span",
+          "marks": [],
+          "text": "drop Menjangan entirely and start on Nusa Penida. You lose the best reef but you also lose the two hardest driving days, and seven days across east Penida and Gili Meno is a genuinely relaxed trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib401",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib402",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut it to eight days: "
+        },
+        {
+          "_key": "qib403",
+          "_type": "span",
+          "marks": [],
+          "text": "keep Menjangan, cut a night on Penida. Two nights on the east coast covers Atuh, Diamond Beach and the tree house without the flexible day six."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib404",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib405",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Stretch it to fourteen: "
+        },
+        {
+          "_key": "qib406",
+          "_type": "span",
+          "marks": [],
+          "text": "add three nights on Gili Air between Penida and Meno, which has more places to eat and a shorter hop to Meno afterwards, or add Amed on the way across Bali as a dive stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib407",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib408",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt for divers: "
+        },
+        {
+          "_key": "qib409",
+          "_type": "span",
+          "marks": [],
+          "text": "make day three a second Menjangan diving day, take Meno Wall and Meno Bounty on Gili Meno, and consider skipping Suwehan for a second Penida dive day instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib410",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib411",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt for non-swimmers: "
+        },
+        {
+          "_key": "qib412",
+          "_type": "span",
+          "marks": [],
+          "text": "do not run this route. Two of the three islands are worth visiting almost entirely for what is under the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib413",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib414",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Upgrade: "
+        },
+        {
+          "_key": "qib415",
+          "_type": "span",
+          "marks": [],
+          "text": "the beachfront room on Gili Meno, and a private boat at Menjangan rather than a shared one, which buys you the mooring points before the group boats arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib416",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib417",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib418",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib419",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Visa. "
+        },
+        {
+          "_key": "qib420",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors use the visa on arrival, which as a working figure costs Rp 500,000 for 30 days and can be extended once for the same amount. The e-VOA can be bought online before you fly through the official immigration portal, which lets you skip the arrival queue. Everyone also completes the digital arrival card before landing. Visa rules change, so check the latest official guidance before you book anything."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib421",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib422",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Bali tourist levy. "
+        },
+        {
+          "_key": "qib423",
+          "_type": "span",
+          "marks": [],
+          "text": "Foreign visitors pay a one-off levy of Rp 150,000, separate from the visa. Pay it through the official Love Bali portal on the baliprov.go.id domain and keep the QR voucher. Lookalike sites on .com and .org charge considerably more, so check the domain before you enter card details."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib424",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib425",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cash. "
+        },
+        {
+          "_key": "qib426",
+          "_type": "span",
+          "marks": [],
+          "text": "This route runs on cash more than a Bali beach trip does. The Menjangan park fees, the Penida entrance fees, the port retribution and most of Gili Meno want rupiah in hand. Draw enough in Denpasar or Pemuteran, because the ATM on Meno is unreliable and the island's card machines depend on a connection that comes and goes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib427",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib428",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Connectivity. "
+        },
+        {
+          "_key": "qib429",
+          "_type": "span",
+          "marks": [],
+          "text": "Signal is fine on Penida and patchy on Meno, and there is no coverage at all on parts of the Pemuteran road. "
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib433",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib431",
+          "_type": "span",
+          "marks": ["qib430"],
+          "text": "An Indonesia eSIM"
+        },
+        {
+          "_key": "qib432",
+          "_type": "span",
+          "marks": [],
+          "text": " activated before you land saves the first-day scramble and works on all three islands."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib430",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib434",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib435",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "What the numbers here are. "
+        },
+        {
+          "_key": "qib436",
+          "_type": "span",
+          "marks": [],
+          "text": "Every price above is a working estimate taken from published operator fares and park guidance in 2026, not a quote. Ferry prices move with fuel, park fees are set by the authority and changed without much notice, and a crossing that costs Rp 125,000 online can be Rp 250,000 at the booth on the same morning. Treat them as planning figures and confirm the current ones when you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib437",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib438",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib440",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib439",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the best version of the islands near Bali for someone on their second or third trip, and the wrong trip entirely for someone on their first. The honest cost is two days of your ten spent in a car and on a boat, and three evenings where the choice is which of four restaurants to walk to. The honest return is Menjangan's wall with four other people on it, Diamond Beach at half past seven, and a reef you can swim to from your room."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib442",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib441",
+          "_type": "span",
+          "marks": [],
+          "text": "If you can only take one thing from the route, take Menjangan. It is the piece that is hardest to reach, the piece almost nobody reaching Bali for a week ever sees, and the one that will still be the best water you swam in that year."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "qib443",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib444",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "qib449",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib446",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want the same islands with the famous stops included, the "
+        },
+        {
+          "_key": "qib447",
+          "_type": "span",
+          "marks": ["qib445"],
+          "text": "5-day Nusa Penida and Lembongan route"
+        },
+        {
+          "_key": "qib448",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the west coast and the classic viewpoints."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib445",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-nusa-penida-lembongan"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib454",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib451",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want the Gilis at full volume rather than at Meno's, the "
+        },
+        {
+          "_key": "qib452",
+          "_type": "span",
+          "marks": ["qib450"],
+          "text": "10-day Bali and Gili Islands itinerary"
+        },
+        {
+          "_key": "qib453",
+          "_type": "span",
+          "marks": [],
+          "text": " pairs the mainland with Trawangan and Air."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib450",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "qib459",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qib456",
+          "_type": "span",
+          "marks": [],
+          "text": "And if you are still deciding which island to go to at all, our "
+        },
+        {
+          "_key": "qib457",
+          "_type": "span",
+          "marks": ["qib455"],
+          "text": "guide to the islands near Bali"
+        },
+        {
+          "_key": "qib458",
+          "_type": "span",
+          "marks": [],
+          "text": " compares all nine, with crossing times and who each one suits."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qib455",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "draft",
+  "destinationPrimary": "bali_nearby_islands",
+  "faq": [
+    {
+      "_key": "qib470",
+      "answer": "Menjangan, Nusa Penida's east coast and Gili Meno are the three quietest island destinations within a day of Bali. Menjangan sits inside West Bali National Park and only takes morning boats, Penida's east side is protected by rough roads that turn day trippers back, and Gili Meno has no nightlife and around a dozen restaurants.",
+      "question": "What are the quietest islands near Bali?"
+    },
+    {
+      "_key": "qib471",
+      "answer": "Ten days is the comfortable length if you want three islands, because four of those days involve a real transfer. Seven days works for two islands. Anything under five days is best spent on one island, almost always Nusa Penida or Nusa Lembongan, reached directly from Sanur.",
+      "question": "How many days do you need for the islands near Bali?"
+    },
+    {
+      "_key": "qib472",
+      "answer": "Not sensibly. Menjangan is about 3 to 4.5 hours by road from Denpasar and the marine area runs on morning boats, so a day trip means leaving around three in the morning and driving back the same evening. Basing in Pemuteran for two nights is the only version that works.",
+      "question": "Can you visit Menjangan Island as a day trip from south Bali?"
+    },
+    {
+      "_key": "qib473",
+      "answer": "It depends on what you want from the evening. Meno has the best shallow reef of the three and the quietest nights, Trawangan has the restaurants and the bars, and Air sits between them. For a trip built around snorkelling and doing nothing, Meno wins. For variety, it does not.",
+      "question": "Is Gili Meno better than Gili Trawangan or Gili Air?"
+    },
+    {
+      "_key": "qib474",
+      "answer": "You need either a scooter or a driver, because taxis are scarce on that side of the island and ride-hailing coverage is thin. Most travellers hire a driver through their guesthouse for the day. The east coast roads are steep and change surface without warning, so ride yourself only if you are confident on hills.",
+      "question": "Do you need a scooter on Nusa Penida's east coast?"
+    },
+    {
+      "_key": "qib475",
+      "answer": "May to October, the dry season, when the Lombok Strait crossings are calmest and visibility at Menjangan is at its best. January and February are the months to avoid, because the north-west coast gets the heaviest rain and the crossing to the Gilis is roughest.",
+      "question": "When is the best time to do this route?"
+    },
+    {
+      "_key": "qib476",
+      "answer": "There is a direct fast boat, taking about two hours at the fastest and up to three and a half on slower services, with roughly one workable departure a day. Book it in advance and check that your ticket lands at Gili Meno rather than requiring a change at Gili Trawangan.",
+      "question": "How do you get from Nusa Penida to the Gili Islands?"
+    },
+    {
+      "_key": "qib477",
+      "answer": "As a working estimate, the airport transfer to Pemuteran runs 48 to 92 US dollars for the vehicle, the Sanur to Penida fast boat from about Rp 125,000 online, Penida to Gili Meno from around 23 US dollars, and Gili Meno back to Bali from about 27 US dollars. Fares move with fuel, so confirm before booking.",
+      "question": "What does this trip cost to get around?"
+    }
+  ],
+  "focusKeyword": "quiet islands near Bali",
+  "intro": "The islands near Bali that repeat travellers keep missing: Menjangan's coral wall inside the national park, Nusa Penida's rough east coast, and Gili Meno, the quiet one. Ten days, three bases, and an honest account of what the distances cost you.",
+  "metaDescription": "A 10-day route to Menjangan, east Nusa Penida and Gili Meno, with crossings, park fees and the two long transfer days named honestly.",
+  "metaTitle": "10 Days on the Quiet Islands Near Bali: Menjangan to Meno",
+  "route": "Denpasar → Pemuteran → Menjangan → Sanur → East Nusa Penida → Gili Meno → Bali",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-quiet-islands-near-bali"
+  },
+  "title": "10 Days on the Quiet Islands Near Bali: Menjangan, East Penida and Gili Meno",
+  "travelStylePrimary": "remote_offbeat",
+  "travellerTypes": ["repeat_travellers", "couples", "friends"],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "vibe": "remote"
+}
