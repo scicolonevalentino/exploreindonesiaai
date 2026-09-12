@@ -2542,7 +2542,7 @@
       "style": "normal"
     }
   ],
-  "contentStatus": "draft",
+  "contentStatus": "live",
   "destinationPrimary": "bali_nearby_islands",
   "faq": [
     {
@@ -2587,6 +2587,14 @@
     }
   ],
   "focusKeyword": "quiet islands near Bali",
+  "heroImage": {
+    "_type": "image",
+    "alt": "A coral wall at Menjangan Island dropping away into open blue water, West Bali National Park",
+    "asset": {
+      "_ref": "image-633e3f84342e3d563caef556c5e6f3e1e02c500f-1536x1024-webp",
+      "_type": "reference"
+    }
+  },
   "intro": "The islands near Bali that repeat travellers keep missing: Menjangan's coral wall inside the national park, Nusa Penida's rough east coast, and Gili Meno, the quiet one. Ten days, three bases, and an honest account of what the distances cost you.",
   "metaDescription": "A 10-day route to Menjangan, east Nusa Penida and Gili Meno, with crossings, park fees and the two long transfer days named honestly.",
   "metaTitle": "10 Days on the Quiet Islands Near Bali: Menjangan to Meno",

@@ -1188,6 +1188,39 @@
       "style": "normal"
     },
     {
+      "_key": "qab1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "qas0",
+          "_type": "span",
+          "marks": [],
+          "text": "If Menjangan is the reason you are reading this, there is a slower version: our "
+        },
+        {
+          "_key": "qas1",
+          "_type": "span",
+          "marks": ["qam1"],
+          "text": "10-day quiet islands route"
+        },
+        {
+          "_key": "qas2",
+          "_type": "span",
+          "marks": [],
+          "text": " bases here for three nights, then carries on to Nusa Penida's east coast and Gili Meno."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "qam1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-quiet-islands-near-bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "b171",
       "_type": "block",
       "children": [
