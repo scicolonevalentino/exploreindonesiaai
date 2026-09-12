@@ -1,6 +1,16 @@
 # Piano di rinforzo, secondo giro: /destinations/bali-nearby-islands
 
-Generato dal task schedulato del 2026-09-09 (PARTE 3). **Non applicato: decide il founder.**
+> **STATO: APPLICATO INTEGRALMENTE il 2026-09-12,** su approvazione esplicita del
+> founder ("applica tutto quello che devi applicare"). Guida nuova live su
+> `/destinations/bali-nearby-islands/best-islands-near-bali`, otto link in entrata,
+> IndexNow lanciato. Commit `c6010a0`. Un solo scostamento dal piano, in §6.1: la
+> frase di apertura data dal piano elencava "Menjangan, Java and Sumbawa" e
+> arrivava a dieci isole, in contraddizione col titolo "The 9 Best" e con la
+> tabella delle nove isole canoniche della hub. Riscritta in "Lombok, Komodo and
+> Java need a flight", 3+3+3 = 9. Tutto il resto e' testo esatto del piano.
+> Rileggere la posizione della guida e della hub il **10 ottobre 2026**.
+
+Generato dal task schedulato del 2026-09-09 (PARTE 3). Approvato e applicato il 2026-09-12.
 
 Il primo giro (`docs/reinforce-bali-nearby-islands.md`, applicato il 2026-08-07) e' stato
 eseguito per intero. Questo documento parte da come e' andato, non da zero.
