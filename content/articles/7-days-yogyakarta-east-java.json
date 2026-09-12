@@ -1,31 +1,12 @@
 {
   "_id": "1cbc5d3e-f533-4054-aacf-66ac315b977b",
+  "_system": {
+    "base": {
+      "id": "1cbc5d3e-f533-4054-aacf-66ac315b977b",
+      "rev": "yoqobxKtA2iTDPf0nKICJN"
+    }
+  },
   "_type": "article",
-  "title": "7 Days in Yogyakarta and East Java: Borobudur, Bromo and Ijen",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-yogyakarta-east-java"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-02T05:29:55.581Z",
-  "destinationPrimary": "java",
-  "travelStylePrimary": "adventure_volcanoes",
-  "travelStyleSecondary": ["culture_temples"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["solo_travellers", "couples", "repeat_travellers"],
-  "vibe": "active",
-  "experienceTags": ["temples", "volcano_sunrise", "overland_route"],
-  "bestSeason": "April–October",
-  "route": "Yogyakarta → Mount Bromo → Ijen → Banyuwangi",
-  "focusKeyword": "7 days Yogyakarta East Java itinerary",
-  "metaTitle": "Yogyakarta & East Java in 7 Days: Temples & Volcanoes",
-  "metaDescription": "A practical 7-day Java itinerary: Yogyakarta temples, Mount Bromo sunrise and Ijen blue fire, with booking logic, transfer warnings and what to cut.",
-  "intro": "Most people fly into Bali and stay there. This route does the opposite. It treats Java as the main event: three slow days in Yogyakarta for temples and craft, then a hard pivot east to sleep on a volcano rim and hike a sulphur crater before dawn. It is more demanding than a beach holiday, with two pre-dawn starts back to back. The payoff is Borobudur, Prambanan, Bromo and Ijen in one clean line that ends at the Bali ferry, so nothing doubles back.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
   "affiliateLinks": [
     {
       "affiliateUrl": "https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=MountBromo",
@@ -48,6 +29,13 @@
       "publicUrl": "https://12go.asia/en/ferry/banyuwangi/bali"
     }
   ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-06-02T05:29:55.581Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
   "body": [
     {
       "_key": "k0",
@@ -1829,8 +1817,44 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "jkb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jks0",
+          "_type": "span",
+          "marks": [],
+          "text": "For the slower, two-person version of this region, read the "
+        },
+        {
+          "_key": "jks1",
+          "_type": "span",
+          "marks": ["jkm1"],
+          "text": "8-day Java honeymoon route"
+        },
+        {
+          "_key": "jks2",
+          "_type": "span",
+          "marks": [],
+          "text": ", which drops Ijen and adds three nights below Borobudur."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jkm1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-java-honeymoon-borobudur-bromo"
+        }
+      ],
+      "style": "normal"
     }
   ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": ["temples", "volcano_sunrise", "overland_route"],
   "faq": [
     {
       "answer": "Yes. Bromo and the Ijen blue-flame crater are both in East Java and are commonly combined over 2 to 3 days, usually Yogyakarta to Bromo for sunrise, then Ijen for the pre-dawn hike, then Banyuwangi or Bali. Both involve very early starts, so build in rest time.",
@@ -1853,6 +1877,7 @@
       "question": "When is the best time for Yogyakarta and East Java?"
     }
   ],
+  "focusKeyword": "7 days Yogyakarta East Java itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Java landscape with Borobudur temple sunrise and Mount Bromo volcano steam",
@@ -1862,14 +1887,22 @@
     },
     "caption": "Yogyakarta → Mount Bromo → Ijen → Banyuwangi"
   },
-  "_system": {
-    "base": {
-      "id": "1cbc5d3e-f533-4054-aacf-66ac315b977b",
-      "rev": "yoqobxKtA2iTDPf0nKICJN"
-    }
-  },
-  "articleCommercialTier": "standard",
+  "intro": "Most people fly into Bali and stay there. This route does the opposite. It treats Java as the main event: three slow days in Yogyakarta for temples and craft, then a hard pivot east to sleep on a volcano rim and hike a sulphur crater before dawn. It is more demanding than a beach holiday, with two pre-dawn starts back to back. The payoff is Borobudur, Prambanan, Bromo and Ijen in one clean line that ends at the Bali ferry, so nothing doubles back.",
   "logisticsComplexity": "complex",
+  "metaDescription": "A practical 7-day Java itinerary: Yogyakarta temples, Mount Bromo sunrise and Ijen blue fire, with booking logic, transfer warnings and what to cut.",
+  "metaTitle": "Yogyakarta & East Java in 7 Days: Temples & Volcanoes",
   "primaryAffiliatePartner": "viator",
-  "secondaryAffiliatePartners": ["klook", "booking", "12go", "airalo"]
+  "route": "Yogyakarta → Mount Bromo → Ijen → Banyuwangi",
+  "secondaryAffiliatePartners": ["klook", "booking", "12go", "airalo"],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-yogyakarta-east-java"
+  },
+  "title": "7 Days in Yogyakarta and East Java: Borobudur, Bromo and Ijen",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": ["culture_temples"],
+  "travellerTypes": ["solo_travellers", "couples", "repeat_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "active"
 }

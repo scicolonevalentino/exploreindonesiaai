@@ -704,6 +704,39 @@
       "style": "normal"
     },
     {
+      "_key": "jhb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jhs0",
+          "_type": "span",
+          "marks": [],
+          "text": "Travelling as a couple and not keen on two pre-dawn starts? Our "
+        },
+        {
+          "_key": "jhs1",
+          "_type": "span",
+          "marks": ["jhm1"],
+          "text": "8-day Java honeymoon route"
+        },
+        {
+          "_key": "jhs2",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps this one sunrise and hands the other mornings back to the Magelang countryside."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jhm1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-java-honeymoon-borobudur-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "k0097",
       "_type": "block",
       "children": [
