@@ -226,9 +226,14 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
             },
           },
         ],
+        // 2026-09-12, sezione 7.2 di docs/reinforce-bali-nearby-islands-2026-09-09.md.
+        // Ri-puntato dalla hub alla guida nuova: l'anchor promette una guida e
+        // consegnava una pagina di navigazione. La hub non resta orfana, la
+        // linkano l'indice destinazioni e le due subsection qui sopra.
+        // Valore vecchio dell'href: "/destinations/bali-nearby-islands"
         link: {
           before: "Every island within reach of Bali, compared side by side, is in ",
-          href: "/destinations/bali-nearby-islands",
+          href: "/destinations/bali-nearby-islands/best-islands-near-bali",
           anchor: "our guide to the islands near Bali",
           after: ".",
         },
@@ -344,6 +349,15 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
           ],
           caption:
             "Working estimates. Sea crossings depend on conditions and operators change schedules, so confirm before you book.",
+        },
+        // 2026-09-12, sezione 7.1 di docs/reinforce-bali-nearby-islands-2026-09-09.md.
+        // Il link in entrata piu' importante del piano: questa hub e' gia'
+        // indicizzata e porta 1477 impression, la guida nuova ne ha zero.
+        link: {
+          before: "If you are still choosing, we rank all nine and say who each one suits in ",
+          href: "/destinations/bali-nearby-islands/best-islands-near-bali",
+          anchor: "the 9 best islands near Bali",
+          after: ".",
         },
       },
       {

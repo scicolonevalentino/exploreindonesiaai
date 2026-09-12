@@ -826,6 +826,39 @@
       "style": "normal"
     },
     {
+      "_key": "lbgb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "lbgs0",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have not settled on the Gilis yet, we "
+        },
+        {
+          "_key": "lbgs1",
+          "_type": "span",
+          "marks": ["lbgm1"],
+          "text": "rank the nine islands near Bali"
+        },
+        {
+          "_key": "lbgs2",
+          "_type": "span",
+          "marks": [],
+          "text": " against each other and say who each one suits."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "lbgm1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands/best-islands-near-bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "rpb62",
       "_type": "block",
       "children": [

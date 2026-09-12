@@ -301,6 +301,39 @@
       "style": "normal"
     },
     {
+      "_key": "lnpb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "lnps0",
+          "_type": "span",
+          "marks": [],
+          "text": "If you are still weighing the Nusas against the Gilis or Lombok, our "
+        },
+        {
+          "_key": "lnps1",
+          "_type": "span",
+          "marks": ["lnpm1"],
+          "text": "ranking of the islands near Bali"
+        },
+        {
+          "_key": "lnps2",
+          "_type": "span",
+          "marks": [],
+          "text": " sets all nine side by side."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "lnpm1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/bali-nearby-islands/best-islands-near-bali"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "k37",
       "_type": "block",
       "children": [
