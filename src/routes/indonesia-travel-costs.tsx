@@ -7,13 +7,20 @@ import { PAGE_DATES, formatPageDate } from "@/data/page-dates";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
 
-const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown";
-// The old description asked the question without answering it, and the page was
-// taking 1994 impressions at position 9.1 for 6 clicks. Leading with the figures
-// gives the snippet a reason to be clicked and gives an AI Overview something to
-// cite us for rather than around us. Changed 2026-08-14; read the CTR on 11 Sep.
+// Verdict on the 2026-08-14 snippet, read 2026-09-14 as planned: it did not work.
+// The page now takes 22,641 impressions at position 6.4 for 44 clicks, a 0.19% CTR,
+// which is roughly a tenth of what position 6 should return. Two causes, both in
+// these two strings. First, the top queries are yes/no questions ("is indonesia
+// cheap" 95 impr, "is indonesia expensive" 73, "is indonesia expensive to visit"
+// 57, "is indonesia cheap to visit" 38) and none of that phrasing was in the title.
+// Second, the description answered the per-day question completely, so a reader who
+// wanted only the number had no reason to click. The new pair matches the question
+// as typed, still leads with a citable figure, and holds back the two things the
+// number alone does not settle: the island-flight trap and the Thailand comparison.
+// Changed 2026-09-14; read the CTR on 12 Oct.
+const TITLE = "Is Indonesia Cheap? 2026 Daily Budgets and Trip Costs";
 const DESCRIPTION =
-  "Indonesia costs $30 to $50 a day on a budget, $70 to $100 mid-range, $150 to $250 in comfort. Full 2026 breakdown of rooms, food, transport and flights.";
+  "Yes, at $30 to $50 a day, until you add island flights. The 2026 numbers for rooms, food and transport, and how Indonesia really compares to Thailand.";
 const URL = "https://exploreindonesia.ai/indonesia-travel-costs";
 
 const FAQS: Array<{ question: string; answer: string }> = [
