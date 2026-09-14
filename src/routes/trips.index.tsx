@@ -73,11 +73,23 @@ export const Route = createFileRoute("/trips/")({
     ];
     return {
       meta: [
-        { title: "Explore all Indonesia trips, ExploreIndonesia.ai" },
+        // GSC 2026-09-14: this hub takes 62 impressions at position 58.1 while
+        // "indonesia itinerary" (27 impressions, position 57.4, new this period)
+        // is served by /trips/30-days-indonesia-ultimate instead. The old title
+        // carried neither "itinerary" nor "itineraries", and still had the
+        // brand suffix that was stripped from ten other pages on 2026-08-03.
+        // A hub should win the generic category term; the 30-day
+        // article keeps its "30 days" / "one month" phrasings and is untouched.
+        // Old values, for a one-line revert:
+        //   TITLE  "Explore all Indonesia trips, ExploreIndonesia.ai"
+        //   DESC   "Browse hand-picked Indonesia itineraries. Filter by
+        //           destination, trip length, travel style, traveller type, and vibe."
+        // Read on 2026-10-12: /trips under position 40 and above 150 impressions.
+        { title: "Indonesia Itineraries: 60+ Routes by Days, Style and Island" },
         {
           name: "description",
           content:
-            "Browse hand-picked Indonesia itineraries. Filter by destination, trip length, travel style, traveller type, and vibe.",
+            "Every Indonesia itinerary we have, filterable by destination, trip length, travel style and traveller type. From 2-day escapes to 30-day routes.",
         },
       ],
       links: [
@@ -241,11 +253,16 @@ function TripsInner() {
           <Link to="/" className="text-sm text-white/70 hover:text-white">
             ← Home
           </Link>
+          {/* GSC 2026-09-14: the H1 said "Explore all trips" — no "Indonesia",
+              no "itineraries" — while the hub sat at position 58 for its own
+              category term. The count is read off the live list rather than
+              hard-coded, so it cannot drift as articles are published. */}
           <h1 className="mt-3 font-serif text-white text-3xl sm:text-4xl font-semibold leading-tight">
-            Explore all trips
+            Indonesia itineraries
           </h1>
           <p className="mt-2 text-white/75 text-sm sm:text-base max-w-2xl">
-            Hand-picked Indonesia itineraries.
+            {articles.length} hand-picked routes, filterable by destination, trip length, travel
+            style and traveller type.
           </p>
         </div>
       </header>

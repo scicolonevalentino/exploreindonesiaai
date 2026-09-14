@@ -71,6 +71,11 @@ const FAQS: Array<{ question: string; answer: string }> = [
       "IDR 650,000, about $42, for 30 days in Bali: IDR 500,000 for the visa on arrival plus the IDR 150,000 Bali tourism levy, with the arrival card free. Staying the full 60 days costs IDR 1,150,000, about $74, because the one permitted extension costs another IDR 500,000. Outside Bali the levy does not apply.",
   },
   {
+    question: "How much does the Bali visa cost?",
+    answer:
+      "There is no separate Bali visa. You pay the Indonesia visa on arrival, IDR 500,000 for 30 days, plus the Bali tourism levy of IDR 150,000 on arrival: IDR 650,000 in total, about $42. The arrival card is free. Sixty days costs IDR 1,150,000, about $74.",
+  },
+  {
     question: "Do US citizens need a visa for Indonesia?",
     answer:
       "Yes. US passport holders are not eligible for visa-free entry and must obtain an eVOA, same as EU and Australian travelers.",
@@ -462,6 +467,45 @@ function VisaGuidePage() {
             file for a family travelling together, but every traveller gets their own QR code,
             infants included, and you show that code at the border. It applies to Indonesian
             citizens returning home as well as to foreign visitors.
+          </p>
+        </div>
+
+        {/* 2d. The Bali-phrased entry cost. Added 2026-09-14. Two queries
+            appeared this period asking the same thing in Bali's words: "cost of
+            bali visa" (25 impressions, position 64.3) and "how much is bali visa"
+            (12 at 70.0). The page already carries the exact answer — IDR 650,000
+            is in the table above, in the quick-facts bullet and in the FAQ — and
+            says "Bali" nineteen times, but never in a heading, which is the same
+            gap that kept the visa-on-arrival fee at position 10 until 2026-09-07.
+            The framing matters as much as the number: there is no such thing as a
+            Bali visa, and the pages ranking above us sell one.
+
+            This stays inside the 2026-09-07 decision to keep /visa-guide narrow
+            on entry cost. It is not a re-broadening: no Bali travel content, no
+            general visa content, just the same fee answered in the words people
+            type. Read on 2026-10-12: the "bali visa cost" pair under position 25.
+            If it is still above 30 in mid-October, the intent is held by stronger
+            pages and the sub-cluster should be closed rather than pushed again. */}
+        <SectionHeading id="bali-visa-cost">
+          How much does the Bali visa cost in 2026?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            There is no separate Bali visa. You buy the Indonesia visa on arrival,{" "}
+            <strong>IDR 500,000</strong> for 30 days, then pay the Bali tourism levy of{" "}
+            <strong>IDR 150,000</strong> once you land. Total <strong>IDR 650,000</strong>, about
+            $42. The All Indonesia arrival card is free. Sixty days costs IDR 1,150,000, about $74.
+          </p>
+          <p>
+            The levy is the only part that is specific to Bali, and it is charged per person, once
+            per entry, not per night. You pay it through the official Love Bali portal (
+            <OfficialLink domain="lovebali.baliprov.go.id" />) before you land or at the airport
+            counter, and you keep the QR code. Everything else on this page applies to Bali exactly
+            as it applies to the rest of Indonesia, so a flight into Jakarta or Surabaya costs IDR
+            500,000 for the same 30 days.
           </p>
         </div>
 
