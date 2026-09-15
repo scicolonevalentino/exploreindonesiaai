@@ -1490,6 +1490,39 @@
       "style": "normal"
     },
     {
+      "_key": "bd5d3fced1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s07651278",
+          "_type": "span",
+          "marks": [],
+          "text": "If that trade does appeal, the Banda Islands ask for more of it. "
+        },
+        {
+          "_key": "s813d2a5f",
+          "_type": "span",
+          "marks": ["mdb5806200"],
+          "text": "The nine-day Banda route"
+        },
+        {
+          "_key": "s580dfe5a",
+          "_type": "span",
+          "marks": [],
+          "text": " runs on a twelve hour ferry from Ambon rather than a two hour one from Sorong, and swaps the biodiversity of the Dampier Strait for nutmeg groves, a volcano you climb before breakfast and a colonial history that is still standing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "mdb5806200",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-banda-islands-spice-route"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "b203",
       "_type": "block",
       "children": [

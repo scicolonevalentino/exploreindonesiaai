@@ -2281,6 +2281,39 @@
       "style": "normal"
     },
     {
+      "_key": "bd1b3dcf3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sfc54abae",
+          "_type": "span",
+          "marks": [],
+          "text": "Or change archipelago altogether. If the Ampana ferry and the night on deck are the part of this route that appeals rather than the part you tolerate, "
+        },
+        {
+          "_key": "s1b8e0ac6",
+          "_type": "span",
+          "marks": ["md840f24c5"],
+          "text": "the nine-day Banda Islands route"
+        },
+        {
+          "_key": "see4225ae",
+          "_type": "span",
+          "marks": [],
+          "text": " asks the same thing of you and pays it back in nutmeg groves, a climbable volcano and coral walls instead of highland graves."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "md840f24c5",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-banda-islands-spice-route"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "b95",
       "_type": "block",
       "children": [
