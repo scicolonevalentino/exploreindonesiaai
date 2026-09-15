@@ -1,10 +1,35 @@
 # Piano di rinforzo: /indonesia-travel-costs
 
-> **STATO: NON APPLICATO. Decide il founder.**
-> La PARTE 1 della run del 2026-09-14 ha già applicato in produzione `metaTitle` e
-> `metaDescription` (commit `532a8a5`). Tutto quello che segue, dalla sezione 4 in
-> poi, è il residuo: sezioni H2 nuove, una tabella e link interni. Non è stato
-> toccato niente.
+> **STATO: CHIUSO IL 2026-09-15. Verificato contro la pagina, non applicato come scritto.**
+>
+> La PARTE 1 (`metaTitle` e `metaDescription`, commit `532a8a5`) era già in
+> produzione. Il residuo è stato riletto riga per riga contro
+> `src/routes/indonesia-travel-costs.tsx` e **risulta per la quasi totalità già
+> implementato**. Il piano è stato scritto su una lettura non aggiornata della
+> pagina: le sue premesse fattuali sono in buona parte false. Esito per sezione:
+>
+> | Sezione | Esito | Motivo |
+> |---|---|---|
+> | §4 — H2 "Is Indonesia cheap?" + tabella paesi | **NON applicata, già esistente** | La sezione `#cheap-or-expensive` esiste dal 31/08 con l'apertura autoconclusiva, il dato Numbeo **nel corpo** (non solo in FAQ, come afferma il piano) e una tabella a **5 paesi** — Indonesia 26,1, Vietnam 26,4, Filippine 30,1, Malesia 34,0, Thailandia 38,0 — cioè più completa di quella proposta, Filippine incluse. Aggiungerla avrebbe duplicato la sezione e violato il §8 del piano stesso. |
+> | §5 — H2 "What makes Indonesia expensive when it goes wrong?" | **NON applicata, per scelta** | Il contenuto esiste in due punti: `#cheap-or-expensive` copre l'inquadramento "expensive", e `#transport` apre con "Inter-island flights are the single biggest cost in Indonesia, at $40 to $70 per hop" sotto un H2 a domanda. Una terza sezione sullo stesso terreno diluisce e basta. La query bersaglio (`is indonesia expensive`, 73 impr) sta **già a posizione 4,5**: il problema non è il ranking ed è documentato in `costs-page-ctr-structurally-flat`. |
+> | §6 — H2 "How much is a trip for two weeks?" | **NON applicata, già esistente** | `#whole-trip`, aggiunta il 07/09, ha l'H2 a domanda e **la prosa prima della tabella** con esattamente le cifre proposte ($420-700 / $980-1.400 / $2.100-3.500, +$40-70 a volo). |
+> | §7.1 — link a `/transport` | **NON applicata, già esistente** | Linkato a riga 659. Il piano afferma che `/transport` prende 1 impression in 28 giorni: ne prende **72**, a posizione 58,0. |
+> | §7.2 — link agli itinerari da 14 giorni | **NON applicata, già esistente** | Ogni riga della tabella per durata linka già il suo itinerario. |
+> | §7.3 — link a `/destinations/sumatra` e `/destinations/wild-indonesia` | **APPLICATA** | Era l'unico punto davvero aperto. Vedi sotto. |
+> | §7.4 — link in entrata da `/visa-guide` | **NON applicata, già esistente** | `/visa-guide` linka questa pagina a riga 311 e a riga 771. |
+>
+> **Applicato il 2026-09-15**, oltre al §7.3: la tabella regionale ometteva
+> **Sumatra** del tutto, che su una tabella comparativa è il buco peggiore visto
+> che è il formato più citato. Aggiunta una riga Sumatra a "$", motivata dalle
+> nostre stesse pagine ("a cheap week by Indonesian standards", "sit at the low
+> end" della fascia $70-100). **Sulawesi resta fuori**: non ha hub e non ho una
+> caratterizzazione di costo verificabile da cui darle un rating.
+>
+> **Lezione, la seconda in due giorni.** Il 14/09 anche la raccomandazione su
+> `/destinations/lombok-gili` è stata ritirata per lo stesso motivo: proposta
+> contro una pagina che aveva già la sezione e il link. Prima di scrivere un
+> piano di rinforzo, leggere la pagina viva e i commenti inline, non i dati GSC
+> da soli.
 
 Generato dal task schedulato del 2026-09-14, su dati GSC 2026-08-15 → 2026-09-11.
 

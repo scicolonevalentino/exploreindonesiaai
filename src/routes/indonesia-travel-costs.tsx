@@ -691,8 +691,9 @@ function TravelCostsPage() {
         <Prose>
           <p>
             Bali's tourist strips (Seminyak, Canggu, Ubud) run 30 to 50% above the rest of the
-            country. Java and Yogyakarta are the cheapest region for cultural travel, while Lombok
-            and the Gili Islands sit in between and are getting pricier as tourism grows.
+            country. Java and Yogyakarta are the cheapest region for cultural travel, and Sumatra
+            matches them once you are on the ground, while Lombok and the Gili Islands sit in
+            between and are getting pricier as tourism grows.
           </p>
         </Prose>
         <TableShell>
@@ -723,6 +724,18 @@ function TravelCostsPage() {
               <Td>Yogyakarta / Java</Td>
               <Td>$</Td>
               <Td>Cheapest; best value for cultural sites.</Td>
+            </tr>
+            {/* Sumatra was missing from this table entirely, which is the sort of
+                gap a comparison table gets quoted for. Our own Sumatra itineraries
+                describe it consistently as cheap by Indonesian standards, sitting
+                at the low end of the $70 to $100 mid-range band; the flights in
+                and out are what stop it being the outright cheapest. Sulawesi is
+                deliberately still absent: no hub page, and no sourced cost
+                characterisation in our content to rate it from. Added 2026-09-15. */}
+            <tr>
+              <Td>Sumatra</Td>
+              <Td>$</Td>
+              <Td>As cheap as Java on the ground; the flights in and out cost more.</Td>
             </tr>
             <tr>
               <Td>Flores / Komodo</Td>
@@ -764,6 +777,34 @@ function TravelCostsPage() {
             </Link>{" "}
             sit a rung cheaper again, with the same room costing less than it does anywhere in
             Bali's tourist south.
+          </p>
+          {/* Section 7.3 of docs/reinforce-indonesia-travel-costs-2026-09-14.md:
+              push link equity from the strongest node on the site into the two
+              cheapest, least-seen hubs. Sumatra takes 71 impressions at position
+              8.9 on its own guide and wild-indonesia barely registers, while this
+              page carries 22,641. Both anchors describe the destination rather
+              than the price, so they read as navigation, not as stuffing. */}
+          <p className="mt-4">
+            Go further out and the floor drops again.{" "}
+            <Link
+              to="/destinations/$destination"
+              params={{ destination: "sumatra" }}
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              Sumatra
+            </Link>{" "}
+            costs about what Java does once you are there, with jungle and lake trips that have no
+            Bali equivalent at any price, and the wider{" "}
+            <Link
+              to="/destinations/$destination"
+              params={{ destination: "wild-indonesia" }}
+              className="underline underline-offset-2"
+              style={teal}
+            >
+              wild Indonesia
+            </Link>{" "}
+            regions trade low daily costs for higher travel costs to reach them.
           </p>
         </Prose>
 
