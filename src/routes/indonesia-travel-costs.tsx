@@ -961,8 +961,8 @@ function TravelCostsPage() {
                 style={teal}
               >
                 14 days across Bali, Java and Komodo
-              </Link>{" "}
-              — US$1,800 to 3,000 mid-range, or US$1,100 to 1,600 sharing boats and tours.
+              </Link>
+              , US$1,800 to 3,000 mid-range, or US$1,100 to 1,600 sharing boats and tours.
             </li>
             <li>
               <Link
@@ -972,14 +972,14 @@ function TravelCostsPage() {
                 style={teal}
               >
                 20 days across Bali, Java, Komodo and Lombok
-              </Link>{" "}
-              — US$2,500 to 4,000 mid-range, or US$1,500 to 2,200 on guesthouses and shared tours.
+              </Link>
+              , US$2,500 to 4,000 mid-range, or US$1,500 to 2,200 on guesthouses and shared tours.
             </li>
             <li>
               <Link to="/trips" className="underline underline-offset-2" style={teal}>
                 All Indonesia itineraries
-              </Link>{" "}
-              — filter by length, style and destination.
+              </Link>
+              , filter by length, style and destination.
             </li>
           </ul>
         </Callout>

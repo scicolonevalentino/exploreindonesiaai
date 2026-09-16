@@ -738,7 +738,7 @@ function VisaGuidePage() {
             dead-ends: someone sorting out entry rules is by definition about to
             travel, and had nowhere to go next. The 30-day framing is deliberate —
             it matches the visa validity the whole page is about. */}
-        <Callout title="Visa sorted — now the trip">
+        <Callout title="Visa sorted, now the trip">
           <p className="mb-3">
             The 30 days a visa on arrival gives you is the length most of these routes are built
             around.
@@ -752,8 +752,8 @@ function VisaGuidePage() {
                 style={{ color: "var(--teal-link)" }}
               >
                 14 days: Bali, Java and Komodo
-              </Link>{" "}
-              — comfortably inside a single visa on arrival.
+              </Link>
+              , comfortably inside a single visa on arrival.
             </li>
             <li>
               <Link
@@ -763,8 +763,8 @@ function VisaGuidePage() {
                 style={{ color: "var(--teal-link)" }}
               >
                 30 days across seven regions
-              </Link>{" "}
-              — the full length of the visa, no extension needed.
+              </Link>
+              , the full length of the visa, no extension needed.
             </li>
             <li>
               <Link
@@ -773,8 +773,8 @@ function VisaGuidePage() {
                 style={{ color: "var(--teal-link)" }}
               >
                 What Indonesia costs per day
-              </Link>{" "}
-              — budget the trip before you book the flight.
+              </Link>
+              , budget the trip before you book the flight.
             </li>
           </ul>
         </Callout>
