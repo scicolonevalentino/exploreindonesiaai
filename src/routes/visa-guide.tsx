@@ -15,19 +15,33 @@ const getAiraloLink = createServerFn({ method: "GET" }).handler(() => {
   return process.env.AIRALO_AFFILIATE_LINK || "https://www.airalo.com/";
 });
 
-// Retargeted 2026-08-14 from the generic "visa" intent to "visa on arrival".
-// On the head terms we are nowhere: "indonesia visa" sits at position 61.1 and
-// "indonesia visit visa requirements" at 59.8. The visa-on-arrival family is the
-// only sub-intent where we compete, led by "indonesia visa on arrival fee 2026"
-// at position 10.0, and neither "visa on arrival" nor "fees" was in the title.
+// Retargeted 2026-08-14 from the generic "visa" intent to "visa on arrival",
+// then retuned 2026-09-21 from "fees" to the price itself. The 2026-08-14 move
+// worked on rank and failed on clicks: over 2026-08-22 to 2026-09-18 the page
+// took 4,665 impressions for 17 clicks (0.36% CTR), with the whole cost cluster
+// sitting in striking distance and earning nothing. "how much is indonesia visa
+// on arrival" pos 8.3 / 21 impr / 0 clicks, "visa on arrival indonesia cost"
+// pos 9.5 / 14 impr / 0 clicks, "indonesia evisa cost" pos 9.7 / 11 impr,
+// "indonesia arrival card cost" pos 9.8 / 25 impr, "visa on arrival indonesia
+// price" pos 13.1 / 14 impr, "indonesia visa on arrival cost" pos 14.9 / 32
+// impr. Every one of them asks "how much", and the title answered "Fees".
+// The number now sits in the title, which is the one thing the government and
+// aggregator results above us do not put there.
 // Old values, for a fast revert:
+//   TITLE:       Indonesia Visa on Arrival 2026: Fees, eVOA & Entry Rules
+//   DESCRIPTION: Indonesia's visa on arrival costs IDR 500,000 (about $32) for
+//                30 days, extendable once. How to get the eVOA online, who
+//                needs one, and the 2026 entry rules.
+// Older values, 2026-08-14 revert point:
 //   TITLE:       Indonesia Visa Guide 2026: eVOA, Requirements & Entry Rules
 //   DESCRIPTION: Everything EU, US and Australian travelers need to know about
 //                entering Indonesia in 2026, eVOA, costs, extension rules and
 //                the All Indonesia arrival card.
-const TITLE = "Indonesia Visa on Arrival 2026: Fees, eVOA & Entry Rules";
+// NB: immigration has proposed raising the eVOA to IDR 750,000 with no
+// effective date announced. If that lands, this title changes with it.
+const TITLE = "Indonesia Visa on Arrival Cost 2026: IDR 500,000 ($32)";
 const DESCRIPTION =
-  "Indonesia's visa on arrival costs IDR 500,000 (about $32) for 30 days, extendable once. How to get the eVOA online, who needs one, and the 2026 entry rules.";
+  "Indonesia's visa on arrival costs IDR 500,000, about $32, for 30 days and extends once. The All Indonesia arrival card is free. What Bali's levy adds.";
 const URL = "https://exploreindonesia.ai/visa-guide";
 
 // FAQ content, used for both the visible Q&A and the FAQPage JSON-LD so the two
