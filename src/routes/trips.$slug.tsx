@@ -747,6 +747,27 @@ function ArticleInner() {
               }}
             />
           </div>
+          {/* Hero attribution. Only rendered when the image carries a credit,
+              which is the case for photos sourced under a CC licence that
+              requires it; public-domain and CC0 heroes leave it unset. Added
+              2026-09-25 so the itinerary generator can source its own heroes
+              without shipping an unattributed CC BY image. */}
+          {heroImg && a.heroImage?.credit && (
+            <p className="relative z-10 pb-3 text-right text-[10px] leading-snug text-white/45">
+              {a.heroImage.creditUrl ? (
+                <a
+                  href={a.heroImage.creditUrl}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="underline underline-offset-2 hover:text-white/70"
+                >
+                  {a.heroImage.credit}
+                </a>
+              ) : (
+                a.heroImage.credit
+              )}
+            </p>
+          )}
         </div>
       </section>
 

@@ -217,6 +217,12 @@ export type SanityImage = {
   crop?: { top: number; bottom: number; left: number; right: number };
   alt?: string;
   caption?: string;
+  // Attribution for images sourced under a CC licence that requires it (added
+  // 2026-09-25, when the itinerary generator started sourcing its own heroes
+  // from Wikimedia Commons). Rendered as a small line in the hero; leave unset
+  // for public-domain or CC0 images, which need no credit.
+  credit?: string;
+  creditUrl?: string;
 };
 
 export type AffiliateLink = {
