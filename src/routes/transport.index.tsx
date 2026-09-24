@@ -55,7 +55,20 @@ function RouteCard({ r }: { r: TransportRoute }) {
 export const Route = createFileRoute("/transport/")({
   head: () => {
     const url = "https://exploreindonesia.ai/transport";
-    const title = "Getting around Indonesia: routes & transport";
+    // 2026-09-21. The hub took 42 impressions at position 56.7 over the 28 days
+    // to 2026-09-18 while its own children are the best converters on the site
+    // (/transport/padang-to-bukittinggi 7.14%, /trips/7-days-lombok-gili-islands
+    // 8.00%). The old title said "Getting around Indonesia" and named neither
+    // the routes nor how many there are, so nothing signalled that this is an
+    // index. Same fix as /trips on 14/09, and the count interpolates from
+    // LISTED so it cannot go stale. Caveat for whoever reads the result: the
+    // named demand here is almost nil ("getting around indonesia" 1 impression
+    // at 31, "transportation in indonesia" 2 at 83), so this is a bet on the
+    // pillar, not on a measured query. Read on 2026-10-12: above 100
+    // impressions and under position 35. Still above 40 in mid-October means
+    // the hub is not the lever, and the route pages should be left to work
+    // alone. Old title: "Getting around Indonesia: routes & transport".
+    const title = `Indonesia Transport: ${LISTED.length} Routes with Times and Prices`;
     const description =
       "Island-hopping made simple: how to travel between Indonesia's islands and hubs, with journey times and working price estimates.";
     return {
@@ -109,7 +122,7 @@ function TransportHub() {
               className="mt-3 font-serif text-3xl font-semibold sm:text-4xl"
               style={{ color: "var(--navy-deep)" }}
             >
-              Getting around Indonesia
+              Getting Around Indonesia, Route by Route
             </h1>
 
             {/* Kinetic, cycling route names. Decorative: aria-hidden, since the

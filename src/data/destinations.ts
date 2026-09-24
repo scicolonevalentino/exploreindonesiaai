@@ -1512,9 +1512,29 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "wild_indonesia",
     name: "Wild Indonesia",
     shortName: "Wild Indonesia",
-    metaTitle: "Off-the-beaten-path Indonesia itineraries",
+    // 2026-09-21. The hub named the one thing nobody searches and never named
+    // the thing everybody does. "sulawesi route" takes 34 impressions at
+    // position 18.6 and "sulawesi itinerary" 24 at 37.4, both at zero clicks,
+    // and both are served by an itinerary article — while this page, which
+    // holds the "which route fits your trip?" table across all four Sulawesi
+    // regions and links five itineraries, took 8 impressions at position 48.3
+    // over the 28 days to 2026-09-18. Neither the title nor the H1 ("Wild
+    // Indonesia", the nav fallback) contained the word Sulawesi. Same failure
+    // and same fix as /trips on 14/09. Sulawesi leads because that is where all
+    // the named demand sits; Maluku and Papua stay in the description so the
+    // rest of the cluster is not orphaned. The two Sulawesi itineraries convert
+    // at 2.13% and 2.17% against a site average of 0.45%, which is why this
+    // pillar is worth making visible. Old values:
+    //   metaTitle       "Off-the-beaten-path Indonesia itineraries"
+    //   h1              none set, so it fell back to name, "Wild Indonesia"
+    //   metaDescription "Remote and offbeat Indonesia routes, Sulawesi, Maluku,
+    //                    Papua. For travellers who want the archipelago beyond Bali."
+    // Read on 2026-10-12: hub above 60 impressions, "sulawesi itinerary" under
+    // position 25.
+    h1: "Sulawesi Itineraries, and Indonesia Beyond Bali",
+    metaTitle: "Sulawesi Itineraries: 8, 10 and 14 Days by Region",
     metaDescription:
-      "Remote and offbeat Indonesia routes, Sulawesi, Maluku, Papua. For travellers who want the archipelago beyond Bali.",
+      "Which Sulawesi route fits your trip: Toraja, Bunaken, the Togeans or Wakatobi, with days and seasons for each. Plus Maluku, Papua and the Banda Sea.",
     intro:
       "Beyond the well-trodden routes lies the rest of the archipelago, 17,000 islands of it. These itineraries cover Sulawesi, Maluku, Papua and other remote corners for travellers who want depth, not crowds.",
     highlights: ["Sulawesi", "Maluku spice islands", "Papua highlands", "Banda Sea"],

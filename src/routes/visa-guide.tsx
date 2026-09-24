@@ -67,6 +67,13 @@ const FAQS: Array<{ question: string; answer: string }> = [
     answer:
       "The eVOA gives you 30 days, extendable once for another 30 days at a local immigration office, a maximum of 60 days total.",
   },
+  // Added 2026-09-21 alongside the #extensions question H2, so the visible Q&A
+  // and the FAQPage JSON-LD carry the same answer.
+  {
+    question: "How do you extend an Indonesia visa on arrival?",
+    answer:
+      "You can extend once, for another 30 days and a second IDR 500,000 (about $32), making 60 days the maximum on a visa on arrival. Since June 2025 the extension must be filed in person at a local immigration office, before the first 30 days expire.",
+  },
   {
     question: "Is the Bali tourism tax included in the visa fee?",
     answer:
@@ -524,7 +531,9 @@ function VisaGuidePage() {
         </div>
 
         {/* 3. Visa options table */}
-        <SectionHeading id="visa-options">Visa options at a glance</SectionHeading>
+        {/* Heading reworded from the label "Visa options at a glance" on
+            2026-09-21, same GEO pass as #extensions and #how-to-apply. */}
+        <SectionHeading id="visa-options">Which Indonesia visa do you need in 2026?</SectionHeading>
         <div
           className="overflow-x-auto rounded-2xl border"
           style={{ borderColor: "var(--border-cream)", backgroundColor: "#fff" }}
@@ -656,7 +665,11 @@ function VisaGuidePage() {
         </div>
 
         {/* 5. How to apply */}
-        <SectionHeading id="how-to-apply">How to apply, step by step</SectionHeading>
+        {/* Heading reworded from the label "How to apply, step by step" on
+            2026-09-21, same GEO pass as #extensions and #visa-options. */}
+        <SectionHeading id="how-to-apply">
+          How do you apply for the Indonesia eVOA online?
+        </SectionHeading>
         <ol
           className="space-y-3 text-sm sm:text-base leading-relaxed list-decimal pl-5"
           style={{ color: "var(--slate-muted)" }}
@@ -699,8 +712,26 @@ function VisaGuidePage() {
           </Callout>
         </div>
 
-        {/* 8. Extension */}
-        <SectionHeading id="extensions">Extending your stay</SectionHeading>
+        {/* 8. Extension. Heading turned from a label into the question on
+            2026-09-21, and given a self-contained lead answer: the section was
+            five bullets with no sentence an AI answer could lift whole. Every
+            figure below already existed in the bullets, nothing new is claimed.
+            No named extension query in the 28 days to 2026-09-18, so this is
+            played for citability, not for a countable click. */}
+        <SectionHeading id="extensions">
+          How do you extend an Indonesia visa on arrival?
+        </SectionHeading>
+        <div
+          className="space-y-3 text-sm sm:text-base leading-relaxed"
+          style={{ color: "var(--slate-muted)" }}
+        >
+          <p>
+            Yes, once. The eVOA&apos;s 30 days can be extended by another 30 for a second IDR
+            500,000, roughly $32, which makes 60 days the ceiling on a visa on arrival. Since June
+            2025 the extension has to be filed in person at a local immigration office, before the
+            first 30 days run out.
+          </p>
+        </div>
         <ul
           className="space-y-2 text-sm sm:text-base leading-relaxed list-disc pl-5"
           style={{ color: "var(--slate-muted)" }}
