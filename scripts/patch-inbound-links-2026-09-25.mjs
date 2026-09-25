@@ -78,6 +78,18 @@ const LINKS = [
       " picks up from there and trades craters for savanna, jungle and turtle beaches.",
     ],
   },
+  // Fifth entry: the 08:14 generator run on 2026-09-25 produced one more draft
+  // while this was in flight. Published the same way, so it gets the same link.
+  {
+    from: "10-days-north-sulawesi-diving-bunaken-lembeh",
+    to: "/trips/8-days-north-sulawesi-with-kids-bunaken-tangkoko",
+    id: "nskids",
+    spans: [
+      "Travelling with children rather than a dive computer? The ",
+      "8-day North Sulawesi route for families",
+      " keeps Bunaken but swaps the Lembeh muck dives for Tangkoko's tarsiers and the Minahasa highlands.",
+    ],
+  },
   {
     from: "7-days-south-lombok-kuta-beaches",
     to: "/trips/8-days-sasak-lombok-villages-temples",
