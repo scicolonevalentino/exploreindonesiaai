@@ -1,9 +1,35 @@
 # Piano di rinforzo: /trips/20-days-across-indonesia
 
-> **STATO: IN ATTESA DI APPROVAZIONE.** Nessuna riga di questo documento è stata
-> applicata. La PARTE 1 di questa run (solo `metaTitle` e `metaDescription`,
-> commit `aed8eb9`, transazione Sanity `Cur7UGAjgNh3XJPK3VdZ2M`) è già in
-> produzione ed è **separata** da questo piano.
+> **STATO: APPLICATO il 2026-10-02** dal task schedulato, secondo la regola del
+> 25/09 (i piani residui si applicano, uno per run). Transazione Sanity
+> `kLsEaYFa3mAxI05MnxAubE`, scritta con `ifRevisionID` sulla revisione
+> `Cur7UGAjgNh3XJPK3VdZ2M` letta prima. Il corpo passa da 126 a 136 blocchi:
+> i tre H2 delle sezioni 4.1-4.3, la tabella della sezione 5 e il link verso
+> `/indonesia-travel-costs` della sezione 6, tutti inseriti dopo "Why this route
+> makes sense" e prima di "Day 1". Verificato rileggendo il documento.
+>
+> **Valori vecchi, per annullare:**
+> - blocco `kav` ("Domestic transport:"): `the trip runs on roughly three to four domestic flights between regions.`
+>   ora `the trip runs on three domestic flights between regions, four segments if the Labuan Bajo to Lombok hop connects through Bali.`
+> - FAQ 2 ("How many domestic flights will I need?"), risposta vecchia:
+>   `Around three to four, typically Bali to Yogyakarta or Surabaya for Java at roughly 1 to 1.5 hours, Bali to Labuan Bajo for Komodo at around 1 hour 10 to 1 hour 20, and a Bali to Lombok hop or fast boat. Confirm current routes before booking, and book early to keep costs down and avoid sold-out Labuan Bajo seats in peak season.`
+>   Corretta anche questa: contraddiceva il giorno per giorno e il `metaTitle` ("3 Flights"). Le FAQ restano tutte e 5 nell'array, come chiede la sezione 7.
+> - Per togliere le sezioni nuove: rimuovere dal `body` i blocchi con `_key` che inizia per `r20-`.
+> - Aggiunto il campo non renderizzato `seoNote` con data, baseline e divieto di ritocco fino al 2026-10-30.
+>
+> **Tre scostamenti voluti dal piano:**
+> 1. **Tabella: righe "Days on this route" al posto di "Nights on this route".** Le notti proposte dal piano (Bali 5, Java 6) non tornano col giorno per giorno: la riga "Base:" di Ubud dice 4 notti ma il volo parte il giorno 4, e la notte del giorno 9 (dopo il traghetto) non ha una base dichiarata. I giorni invece sono inequivocabili, quindi la tabella usa quelli e non introduce un numero nuovo da contraddire.
+> 2. **4.1: "three sea crossings", non "two ferry legs".** Sul percorso sono tre: Banyuwangi-Bali (giorno 9), Lombok-Gili (16), Gili-Bali (19).
+> 3. **4.2: "road or sea", senza "rail".** Il giorno per giorno non usa treni.
+>
+> **Non applicato:** il link opzionale da `/destinations/java` (sezione 6). È una modifica di codice su una seconda pagina, e la regola è una pagina per run.
+>
+> **Baseline al momento dell'applicazione** (GSC 2026-09-02 → 2026-09-29): 243 impression, 0 click, posizione 6,6.
+> **Data di verifica: lunedì 2026-11-02** (28 giorni pieni dal 2026-10-02 più il ritardo dati GSC). Metrica: CTR della pagina. Effetto combinato con la PARTE 1 del 16/09, come previsto dalla sezione 8.
+>
+> Testo originale dello stato, per la storia: *IN ATTESA DI APPROVAZIONE. La PARTE 1
+> di questa run (solo `metaTitle` e `metaDescription`, commit `aed8eb9`, transazione
+> Sanity `Cur7UGAjgNh3XJPK3VdZ2M`) è già in produzione ed è separata da questo piano.*
 
 Generato dal task schedulato del 2026-09-16, su dati GSC 2026-08-17 → 2026-09-13.
 

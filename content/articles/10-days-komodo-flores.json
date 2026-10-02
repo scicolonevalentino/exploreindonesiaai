@@ -1927,6 +1927,39 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "waerebo-inb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "waerebo-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "Ruteng is also the turn-off for Wae Rebo, the seven-house village that this route drives past. The "
+        },
+        {
+          "_key": "waerebo-s2",
+          "_type": "span",
+          "marks": ["waerebo-lnk"],
+          "text": "7-day Wae Rebo and Manggarai highlands loop"
+        },
+        {
+          "_key": "waerebo-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " spends a night up there and returns to Labuan Bajo instead of continuing east."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "waerebo-lnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-flores-wae-rebo-manggarai-highlands"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
