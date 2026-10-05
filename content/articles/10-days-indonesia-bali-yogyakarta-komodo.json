@@ -1,0 +1,2130 @@
+{
+  "_id": "itinerary-10-days-indonesia-bali-yogyakarta-komodo",
+  "_type": "article",
+  "title": "10 Days in Indonesia: Bali, Yogyakarta and Komodo",
+  "slug": {
+    "_type": "slug",
+    "current": "10-days-indonesia-bali-yogyakarta-komodo"
+  },
+  "contentStatus": "live",
+  "articleCreatedDate": "2026-10-05T04:12:28.000Z",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [
+    "java",
+    "komodo_flores"
+  ],
+  "travelStylePrimary": "first_time_indonesia",
+  "travelStyleSecondary": [
+    "culture_temples",
+    "beach_islands"
+  ],
+  "tripLengthBucket": "ten_days",
+  "tripLengthDays": 10,
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "vibe": "active",
+  "experienceTags": [
+    "rice_terraces",
+    "temples",
+    "island_day_trip",
+    "private_drivers",
+    "airport_transfers"
+  ],
+  "bestSeason": "April–October",
+  "route": "Ubud → Yogyakarta → Labuan Bajo → Sanur",
+  "focusKeyword": "10 days in Indonesia itinerary",
+  "metaTitle": "10 Days in Indonesia: Bali, Yogyakarta & Komodo Plan",
+  "metaDescription": "A 10-day Indonesia itinerary: Ubud, Yogyakarta and Labuan Bajo with three domestic flights, a Komodo boat day and a buffer night before you fly home.",
+  "intro": "Ten days is enough for a real cross-section of Indonesia, but not for all of it. This route picks three places that connect cleanly by air: Ubud for a soft landing, Yogyakarta for Borobudur and Prambanan, and Labuan Bajo for a Komodo boat day. It costs you three flights and one fragile connection day, and it rewards travellers who book the hard parts early.",
+  "author": {
+    "_type": "reference",
+    "_ref": "author-editorial-team"
+  },
+  "affiliateLinks": [
+    {
+      "_key": "a801",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM from Airalo",
+      "day": "Day 2",
+      "experienceCategory": "esim",
+      "linkStatus": "live",
+      "partner": "Airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "private airport transfer",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
+    },
+    {
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall",
+      "anchorText": "Ubud tour covering Monkey Forest, rice terraces and a waterfall",
+      "experienceCategory": "ubud_highlights",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Ubud stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "todo",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_UBUD"
+    },
+    {
+      "_key": "aff04",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan",
+      "anchorText": "a guided Borobudur and Prambanan day tour",
+      "experienceCategory": "tours_activities",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_YOGYA_BOROBUDUR_PRAMBANAN",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Yogyakarta stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_YOGYAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "affiliateUrl": "https://12go.asia/en/travel/bali/labuan-bajo?z=16022946",
+      "anchorText": "compare Bali to Labuan Bajo flights on 12Go",
+      "experienceCategory": "flight",
+      "linkStatus": "live",
+      "partner": "12go",
+      "placeholderId": "12GO_BALI_LABUAN_BAJO",
+      "publicUrl": "https://12go.asia/en/travel/bali/labuan-bajo"
+    },
+    {
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Labuan Bajo stays",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "partner": "Booking.com",
+      "placeholderId": "BOOKING_LABUAN_BAJO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "m13",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F55119-full-day-speedboat-tour-komodo-labuan-bajo%2F",
+      "anchorText": "full-day Komodo speedboat tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "partner": "klook",
+      "placeholderId": "KLOOK_KOMODO_SPEEDBOAT",
+      "publicUrl": "https://www.klook.com/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/"
+    }
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "g001",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g002",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g004",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g003",
+          "marks": [],
+          "text": "This route suits first-time visitors who have ten days, want more than one island, and accept that three domestic flights are the price of variety. It works for couples, friends and solo travellers who like a full day and are happy to move every three nights: Bali for the soft landing, Yogyakarta for Java's temples, Labuan Bajo for a Komodo boat day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g009",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g006",
+          "_type": "externalLink",
+          "href": "/trips/14-days-indonesia-bali-java-komodo",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g005",
+          "marks": [],
+          "text": "It is not for anyone who wants to unpack once, for travellers who dislike airports, or for families with very young children, because two of the three moves are flight days with real connection risk. If you mostly want rest, pick one base and skip the rest. If you have two weeks rather than ten days, the "
+        },
+        {
+          "_type": "span",
+          "_key": "g007",
+          "marks": [
+            "g006"
+          ],
+          "text": "14-day Bali, Java and Komodo route"
+        },
+        {
+          "_type": "span",
+          "_key": "g008",
+          "marks": [],
+          "text": " adds the volcanoes and keeps the same logic."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g010",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g011",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g013",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g012",
+          "marks": [],
+          "text": "Duration: 10 days, 9 nights."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g015",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g014",
+          "marks": [],
+          "text": "Start and end: Denpasar, Ngurah Rai International Airport."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g017",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g016",
+          "marks": [],
+          "text": "Route: Ubud (2 nights), Yogyakarta (3 nights), Labuan Bajo (3 nights), Sanur or the airport side of Bali (1 night)."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g019",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g018",
+          "marks": [],
+          "text": "Flights: Bali to Yogyakarta, Yogyakarta to Labuan Bajo (via Bali or Jakarta, see Day 6), Labuan Bajo to Bali."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g021",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g020",
+          "marks": [],
+          "text": "Budget: as a working estimate, mid-range travellers spend roughly US$1,400 to 2,400 per person including the three domestic flights, a Komodo boat day, one guided temple day and park fees. Budget travellers sharing tours and boats can manage closer to US$900 to 1,300, excluding international flights. Seasonal pricing moves these numbers."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g023",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g022",
+          "marks": [],
+          "text": "Best time: April to October, the dry season, when Komodo seas are calmer and Borobudur mornings are clearer. July and August are peak."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g025",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g024",
+          "marks": [],
+          "text": "Booking difficulty: medium. The Labuan Bajo flights and the Komodo boat day are the pinch points."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g026",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g027",
+          "marks": [],
+          "text": "How many days do you need for Bali, Yogyakarta and Komodo?"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g029",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g028",
+          "marks": [],
+          "text": "Ten days is the shortest stretch that covers all three without feeling like an airport tour. It gives you two nights in Ubud, three in Yogyakarta and three in Labuan Bajo, with one buffer night in Bali before you fly home. Under nine days, drop one region rather than squeezing all three. Over twelve days, add the Bromo and Ijen volcanoes or a slower Bali ending."
+        }
+      ]
+    },
+    {
+      "_type": "comparisonTable",
+      "_key": "g030",
+      "caption": "How the ten days are split, and what each stop costs you in time.",
+      "columns": [
+        "",
+        "Ubud, Bali",
+        "Yogyakarta, Java",
+        "Labuan Bajo, Komodo"
+      ],
+      "rows": [
+        {
+          "_key": "g031",
+          "cells": [
+            "Nights",
+            "2",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "_key": "g032",
+          "cells": [
+            "What it gives you",
+            "Rice terraces, temples and an easy first-night base",
+            "Borobudur, Prambanan and the old sultan city",
+            "A full Komodo National Park boat day and a recovery day"
+          ]
+        },
+        {
+          "_key": "g033",
+          "cells": [
+            "Getting in",
+            "Land at Denpasar, about 90 minutes by road, depending on traffic",
+            "Flight from Bali, roughly 1 to 1.5 hours, plus a transfer from the airport",
+            "Flight, usually connecting through Bali, see Day 6"
+          ]
+        },
+        {
+          "_key": "g034",
+          "cells": [
+            "The trade-off",
+            "Two nights only, so one full day",
+            "Airport is outside the city, allow extra transfer time",
+            "Weather and flight delays can compress the boat day"
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g035",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g036",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g038",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g037",
+          "marks": [],
+          "text": "The order is built around the flights, not the map. Bali first because the international flight lands there and Ubud is a gentle first stop. Yogyakarta second because the Bali to Yogyakarta flight is short and frequent. Labuan Bajo last because the Komodo day is the one that must not be rushed or pushed against an international departure, and Labuan Bajo has a direct flight back to Bali."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g040",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g039",
+          "marks": [],
+          "text": "The alternative, Komodo straight after landing, puts the least flexible booking at the start, where a late long-haul arrival or a missed connection costs you the boat day. Ending with a buffer night in Bali means one delayed flight does not take your international departure with it. Confirm current flight routes before locking hotels, since domestic schedules shift."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g041",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g042",
+          "marks": [],
+          "text": "Day 1: Land in Bali and settle into Ubud"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g048",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g045",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g043",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g044",
+          "marks": [],
+          "text": " Land at Denpasar and head inland to Ubud, around 90 minutes depending on traffic. A "
+        },
+        {
+          "_type": "span",
+          "_key": "g046",
+          "marks": [
+            "g045"
+          ],
+          "text": "private airport transfer"
+        },
+        {
+          "_type": "span",
+          "_key": "g047",
+          "marks": [],
+          "text": " is worth it on arrival day, when you are tired and bargaining with taxi drivers is the last thing you want."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g051",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g049",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g050",
+          "marks": [],
+          "text": " Keep it light. Check in, walk to dinner, sleep early."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g057",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g054",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g052",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g053",
+          "marks": [],
+          "text": " Ubud for two nights. Compare "
+        },
+        {
+          "_type": "span",
+          "_key": "g055",
+          "marks": [
+            "g054"
+          ],
+          "text": "Ubud stays"
+        },
+        {
+          "_type": "span",
+          "_key": "g056",
+          "marks": [],
+          "text": " near the centre so you can walk to dinner."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g063",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g060",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g058",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g059",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_type": "span",
+          "_key": "g061",
+          "marks": [
+            "g060"
+          ],
+          "text": "Indonesia eSIM from Airalo"
+        },
+        {
+          "_type": "span",
+          "_key": "g062",
+          "marks": [],
+          "text": " before you fly and activate it on landing, so maps and messaging work from the first minute."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g064",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g065",
+          "marks": [],
+          "text": "Day 2: Ubud terraces, temples and a waterfall"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g068",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g066",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning to afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g067",
+          "marks": [],
+          "text": " Use the one full day for the inland landscapes: the Sacred Monkey Forest Sanctuary, Tegalalang Rice Terrace, Tirta Empul and a waterfall. These sit apart from each other, so chaining them yourself by scooter eats the day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g074",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g071",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g069",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_type": "span",
+          "_key": "g070",
+          "marks": [],
+          "text": " an "
+        },
+        {
+          "_type": "span",
+          "_key": "g072",
+          "marks": [
+            "g071"
+          ],
+          "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
+        },
+        {
+          "_type": "span",
+          "_key": "g073",
+          "marks": [],
+          "text": " keeps it simple because a driver removes the parking and navigation friction."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g077",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g075",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g076",
+          "marks": [],
+          "text": " Quiet dinner and an early night. You have a flight tomorrow."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g080",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g078",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g079",
+          "marks": [],
+          "text": " Ubud, second night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g081",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g082",
+          "marks": [],
+          "text": "Day 3: Fly to Yogyakarta"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g085",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g083",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "g084",
+          "marks": [],
+          "text": " Fly Bali to Yogyakarta, roughly 1 to 1.5 hours on Garuda, Citilink or Lion Air. Book this independently through Traveloka or Google Flights, and note that Yogyakarta's airport sits well outside the city, so allow around an hour for the transfer, a working estimate."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g088",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g086",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g087",
+          "marks": [],
+          "text": " Check in and keep the energy low. Walk Malioboro Street or eat near your hotel."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g094",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g091",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_YOGYAKARTA"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g089",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g090",
+          "marks": [],
+          "text": " Yogyakarta for three nights. Compare "
+        },
+        {
+          "_type": "span",
+          "_key": "g092",
+          "marks": [
+            "g091"
+          ],
+          "text": "Yogyakarta stays"
+        },
+        {
+          "_type": "span",
+          "_key": "g093",
+          "marks": [],
+          "text": " around Malioboro or Prawirotaman."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g097",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g095",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g096",
+          "marks": [],
+          "text": " this is a positioning day. Do not over-schedule it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g098",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g099",
+          "marks": [],
+          "text": "Day 4: Borobudur and Prambanan"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g102",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g100",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "g101",
+          "marks": [],
+          "text": " Borobudur is one of the largest Buddhist monuments in the world and rewards the earliest slot you can get, before the heat and the crowds build. Prambanan, the largest Hindu temple complex in Indonesia, pairs with it in a single day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g108",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g105",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_YOGYA_BOROBUDUR_PRAMBANAN"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g103",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g104",
+          "marks": [],
+          "text": " Seeing both back to back is the strongest single introduction to Java's cultural depth. A "
+        },
+        {
+          "_type": "span",
+          "_key": "g106",
+          "marks": [
+            "g105"
+          ],
+          "text": "guided Borobudur and Prambanan day tour"
+        },
+        {
+          "_type": "span",
+          "_key": "g107",
+          "marks": [],
+          "text": " handles the distance between the two without a rental car."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g111",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g109",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g110",
+          "marks": [],
+          "text": " Back to Yogyakarta for dinner."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g114",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g112",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g113",
+          "marks": [],
+          "text": " Yogyakarta, second night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g117",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g115",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g116",
+          "marks": [],
+          "text": " Borobudur's upper terraces use a limited-entry system, so check the latest official ticketing guidance before you go rather than relying on an older blog."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g118",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g119",
+          "marks": [],
+          "text": "Day 5: Yogyakarta city, palace and crafts"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g122",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g120",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning to afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g121",
+          "marks": [],
+          "text": " Slow down with the city itself: the Kraton (the sultan's palace), Taman Sari water castle and a batik workshop. These are close together and partly walkable."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g125",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g123",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g124",
+          "marks": [],
+          "text": " Try gudeg and soto, then pack. Tomorrow is the hardest day of the route."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g128",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g126",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g127",
+          "marks": [],
+          "text": " Yogyakarta, third night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g129",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g130",
+          "marks": [],
+          "text": "Day 6: Fly to Labuan Bajo"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g133",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g131",
+          "marks": [
+            "strong"
+          ],
+          "text": "All day."
+        },
+        {
+          "_type": "span",
+          "_key": "g132",
+          "marks": [],
+          "text": " Today is the fragile one. There is no reliable direct Yogyakarta to Labuan Bajo flight, so the usual path connects through Bali or Jakarta. Book a single ticket on one booking so the airline protects the connection, take the earliest departure you can, and check the current timetable before you commit. If the only options are tight, sleep a night in Bali and fly on the next morning, trading a day of Labuan Bajo for certainty."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g139",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g136",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_LABUAN_BAJO"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g134",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g135",
+          "marks": [],
+          "text": " Check in near the harbour and eat simply. "
+        },
+        {
+          "_type": "span",
+          "_key": "g137",
+          "marks": [
+            "g136"
+          ],
+          "text": "Compare Labuan Bajo stays"
+        },
+        {
+          "_type": "span",
+          "_key": "g138",
+          "marks": [],
+          "text": " close to the waterfront, where boats depart."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g142",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g140",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g141",
+          "marks": [],
+          "text": " Labuan Bajo for three nights."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g148",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g145",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_LABUAN_BAJO"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g143",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g144",
+          "marks": [],
+          "text": " you can also "
+        },
+        {
+          "_type": "span",
+          "_key": "g146",
+          "marks": [
+            "g145"
+          ],
+          "text": "compare Bali to Labuan Bajo flights on 12Go"
+        },
+        {
+          "_type": "span",
+          "_key": "g147",
+          "marks": [],
+          "text": " for the second leg of the connection."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g149",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g150",
+          "marks": [],
+          "text": "Day 7: Komodo National Park by speedboat"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g156",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g153",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_KOMODO_SPEEDBOAT"
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g151",
+          "marks": [
+            "strong"
+          ],
+          "text": "Full day."
+        },
+        {
+          "_type": "span",
+          "_key": "g152",
+          "marks": [],
+          "text": " A full day on the water covers the headline stops: Padar Island, Pink Beach, the Komodo dragons on Komodo or Rinca, and snorkelling. A "
+        },
+        {
+          "_type": "span",
+          "_key": "g154",
+          "marks": [
+            "g153"
+          ],
+          "text": "full-day Komodo speedboat tour"
+        },
+        {
+          "_type": "span",
+          "_key": "g155",
+          "marks": [],
+          "text": " is the practical choice for a ten-day trip because the sites are spread out and a slower boat cuts the list short."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g159",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g157",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_type": "span",
+          "_key": "g158",
+          "marks": [],
+          "text": " as a working estimate, the park uses a bundled ticket per route, around IDR 650,000 per person for the Komodo Island route and around IDR 900,000 for routes that include Rinca and Padar, booked through the SiORA app or a licensed operator. Fees can change, so check the latest official guidance before you travel."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g162",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g160",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g161",
+          "marks": [],
+          "text": " Labuan Bajo, second night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g165",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g163",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g164",
+          "marks": [],
+          "text": " this is the day the whole route is built around. Calm dry-season seas make it far more comfortable."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g166",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g167",
+          "marks": [],
+          "text": "Day 8: A slow day in Labuan Bajo"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g170",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g168",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning to afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g169",
+          "marks": [],
+          "text": " Deliberately light. Sit by a pool, take a short half-day trip to a nearby sand island, or just walk the harbour. After the Komodo day most people are glad of it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g173",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g171",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_type": "span",
+          "_key": "g172",
+          "marks": [],
+          "text": " A seafood dinner overlooking the harbour."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g176",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g174",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g175",
+          "marks": [],
+          "text": " Labuan Bajo, third night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g179",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g177",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_type": "span",
+          "_key": "g178",
+          "marks": [],
+          "text": " keep this day flexible. If weather moved the Komodo boat day, this is your insurance day."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g180",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g181",
+          "marks": [],
+          "text": "Day 9: Fly back to Bali and keep the afternoon free"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g184",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g182",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "g183",
+          "marks": [],
+          "text": " Fly Labuan Bajo to Bali, around 1 hour 10 to 1 hour 20 on Garuda or Lion Air, a working estimate. Do not schedule anything that depends on landing on time."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g187",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g185",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_type": "span",
+          "_key": "g186",
+          "marks": [],
+          "text": " Stay near the airport side of Bali, for example Sanur or Jimbaran, so tomorrow's departure is a short drive. A beach walk and a last massage are enough."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g190",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g188",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_type": "span",
+          "_key": "g189",
+          "marks": [],
+          "text": " Sanur or Jimbaran for one night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g191",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g192",
+          "marks": [],
+          "text": "Day 10: Departure"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g195",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g193",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_type": "span",
+          "_key": "g194",
+          "marks": [],
+          "text": " Take it slowly and leave generous time for the airport. South Bali traffic is unpredictable, which is the whole reason for the buffer night."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g196",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g197",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g199",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g198",
+          "marks": [],
+          "text": "The Yogyakarta to Labuan Bajo connection, the Labuan Bajo to Bali flight and the Komodo boat day are the hard dependencies, so lock them first. Book ahead but with lower stakes: the Ubud driver day and the Borobudur and Prambanan tour. Keep flexible: Day 5 in Yogyakarta, Day 8 in Labuan Bajo, and most dinners."
+        }
+      ]
+    },
+    {
+      "_type": "comparisonTable",
+      "_key": "g200",
+      "caption": "Which bookings are rigid and which can wait.",
+      "columns": [
+        "",
+        "Book first",
+        "Book soon",
+        "Leave flexible"
+      ],
+      "rows": [
+        {
+          "_key": "g201",
+          "cells": [
+            "Examples",
+            "Domestic flights, Komodo boat day, park ticket",
+            "Ubud tour, Borobudur and Prambanan day",
+            "Day 5 city walk, Day 8 slow day, dinners"
+          ]
+        },
+        {
+          "_key": "g202",
+          "cells": [
+            "Why",
+            "Flights and boats sell out in peak season",
+            "Easier with a driver, rarely sold out",
+            "They are your weather and delay buffer"
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g203",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g204",
+          "marks": [],
+          "text": "Mistakes travellers make on this route"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g207",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g205",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking the Labuan Bajo leg as two separate tickets."
+        },
+        {
+          "_type": "span",
+          "_key": "g206",
+          "marks": [],
+          "text": " A delayed first flight then costs you the second. Use one ticket where you can."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g210",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g208",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cutting the buffer night."
+        },
+        {
+          "_type": "span",
+          "_key": "g209",
+          "marks": [],
+          "text": " Flying Labuan Bajo to an international departure the same day puts the whole trip on one delay."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g213",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g211",
+          "marks": [
+            "strong"
+          ],
+          "text": "Overpacking Yogyakarta."
+        },
+        {
+          "_type": "span",
+          "_key": "g212",
+          "marks": [],
+          "text": " Day 4 is a long temple day. Treat Day 5 as rest, not another full agenda."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g216",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g214",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking the Komodo day for the last day."
+        },
+        {
+          "_type": "span",
+          "_key": "g215",
+          "marks": [],
+          "text": " If weather moves it, you have nowhere to put it. Day 7 leaves a spare day behind it."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g217",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g218",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g221",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g219",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut."
+        },
+        {
+          "_type": "span",
+          "_key": "g220",
+          "marks": [],
+          "text": " If three flights feel like too many, drop Komodo and add a Bromo night from Yogyakarta, or drop Yogyakarta and stay on Bali and Komodo only."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g224",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g222",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt."
+        },
+        {
+          "_type": "span",
+          "_key": "g223",
+          "marks": [],
+          "text": " If you are short on time at the start, shave Ubud to one night and give the day back to Labuan Bajo."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g227",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g225",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade."
+        },
+        {
+          "_type": "span",
+          "_key": "g226",
+          "marks": [],
+          "text": " With a bigger budget, a one-night liveaboard around Komodo instead of the speedboat day gives calmer mornings and more remote sites."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g228",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g229",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g232",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g230",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time."
+        },
+        {
+          "_type": "span",
+          "_key": "g231",
+          "marks": [],
+          "text": " April to October, the dry season. May, June and September offer similar conditions to July and August with fewer crowds and easier flights."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g238",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g235",
+          "_type": "externalLink",
+          "href": "/visa-guide",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g233",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa and entry."
+        },
+        {
+          "_type": "span",
+          "_key": "g234",
+          "marks": [],
+          "text": " Check the latest official guidance for your nationality before you travel. Entry rules and fees change, so do not rely on older blog posts. See our "
+        },
+        {
+          "_type": "span",
+          "_key": "g236",
+          "marks": [
+            "g235"
+          ],
+          "text": "Indonesia visa guide"
+        },
+        {
+          "_type": "span",
+          "_key": "g237",
+          "marks": [],
+          "text": " for the current picture."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g244",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g241",
+          "_type": "externalLink",
+          "href": "/indonesia-travel-costs",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g239",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget."
+        },
+        {
+          "_type": "span",
+          "_key": "g240",
+          "marks": [],
+          "text": " For the wider cost picture, see "
+        },
+        {
+          "_type": "span",
+          "_key": "g242",
+          "marks": [
+            "g241"
+          ],
+          "text": "what Indonesia costs to travel"
+        },
+        {
+          "_type": "span",
+          "_key": "g243",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g247",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g245",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money and data."
+        },
+        {
+          "_type": "span",
+          "_key": "g246",
+          "marks": [],
+          "text": " Carry some cash for rural areas and harbour queues where cards are unreliable, and activate an eSIM on arrival."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g248",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g249",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g251",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g250",
+          "marks": [],
+          "text": "Do this trip if you want a real cross-section of Indonesia in ten days and you accept that three flights and one fragile connection day are part of the deal. It rewards people who lock the hard bookings early and treat the slow days as part of the design."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g253",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g252",
+          "marks": [],
+          "text": "Do not do this trip if you want one base, minimal flying or a pace you can describe as restful. In that case choose Bali and one other region, and save the rest for a longer trip. This route is a good first look, not a deep one."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g254",
+      "style": "h2",
+      "markDefs": [],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g255",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g260",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g257",
+          "_type": "externalLink",
+          "href": "/trips/14-days-indonesia-bali-java-komodo",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g256",
+          "marks": [],
+          "text": "For two weeks instead of ten days, see the "
+        },
+        {
+          "_type": "span",
+          "_key": "g258",
+          "marks": [
+            "g257"
+          ],
+          "text": "14-day Bali, Java and Komodo route"
+        },
+        {
+          "_type": "span",
+          "_key": "g259",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g265",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g262",
+          "_type": "externalLink",
+          "href": "/trips/10-days-komodo-flores",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g261",
+          "marks": [],
+          "text": "If Komodo is the real draw, the "
+        },
+        {
+          "_type": "span",
+          "_key": "g263",
+          "marks": [
+            "g262"
+          ],
+          "text": "10-day Komodo and Flores route"
+        },
+        {
+          "_type": "span",
+          "_key": "g264",
+          "marks": [],
+          "text": " goes deeper there."
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "g270",
+      "style": "normal",
+      "markDefs": [
+        {
+          "_key": "g267",
+          "_type": "externalLink",
+          "href": "/trips/7-days-yogyakarta-east-java",
+          "blank": false
+        }
+      ],
+      "children": [
+        {
+          "_type": "span",
+          "_key": "g266",
+          "marks": [],
+          "text": "For a Bali-first trip with temples and volcanoes on Java, see the "
+        },
+        {
+          "_type": "span",
+          "_key": "g268",
+          "marks": [
+            "g267"
+          ],
+          "text": "7-day Yogyakarta and East Java route"
+        },
+        {
+          "_type": "span",
+          "_key": "g269",
+          "marks": [],
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you do Bali, Yogyakarta and Komodo in 10 days?",
+      "answer": "Yes, but only with three domestic flights and a firm plan for the connection on Day 6. Ten days gives two nights in Ubud, three in Yogyakarta and three in Labuan Bajo, with one buffer night in Bali before you fly home. It is a first look at each region, not a deep dive, so cut a region rather than squeeze in a fourth."
+    },
+    {
+      "question": "Is 10 days enough for Indonesia?",
+      "answer": "Ten days is enough for two or three regions if you accept domestic flights. It is not enough to see Indonesia in general, because the country spans thousands of islands. Pick a Bali, Java and Komodo spine like this one, or stay on one island group for a slower trip."
+    },
+    {
+      "question": "How much does a 10-day Indonesia trip cost?",
+      "answer": "As a working estimate, mid-range travellers spend roughly US$1,400 to 2,400 per person on this route, including domestic flights, a Komodo boat day and a guided temple day, excluding international flights. Budget travellers sharing tours can manage closer to US$900 to 1,300. Prices move with season, so treat these as planning numbers."
+    },
+    {
+      "question": "What is the best order for Bali, Yogyakarta and Komodo?",
+      "answer": "Bali, then Yogyakarta, then Labuan Bajo, then back to Bali for a buffer night. Bali has the international airport, the Bali to Yogyakarta flight is short and frequent, and ending in Labuan Bajo keeps the Komodo day away from your departure date. Confirm current flight routes before locking hotels."
+    },
+    {
+      "question": "Is there a direct flight from Yogyakarta to Labuan Bajo?",
+      "answer": "There is no reliable direct flight, so most travellers connect through Bali or Jakarta. Book it as one ticket so the airline protects the connection, take the earliest departure, and check the current timetable. If the options are tight, sleep a night in Bali and fly on the next morning."
+    },
+    {
+      "question": "How much is the Komodo National Park ticket?",
+      "answer": "As a working estimate, a bundled park ticket runs around IDR 650,000 per person for the Komodo Island route and around IDR 900,000 for routes including Rinca and Padar, booked through the SiORA app or a licensed operator. Fees change, so check the latest official guidance before you travel."
+    },
+    {
+      "question": "What is the best time of year for this route?",
+      "answer": "April to October, the dry season, works across all three regions: clearer Borobudur mornings, calmer Komodo seas and drier Bali weather. July and August are peak and book out fastest. May, June and September give similar conditions with fewer crowds."
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "logisticsComplexity": "moderate",
+  "primaryAffiliatePartner": "viator",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "12go",
+    "airalo"
+  ]
+}

@@ -334,9 +334,15 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
     toName: "Gili Islands",
     fromDestinationSlug: "lombok-gili",
     toDestinationSlug: "lombok-gili",
-    metaTitle: "Lombok to the Gili Islands: Boats & Prices",
+    // Retouch 2026-10-05 (scheduled task, PARTE 1 + 3). GSC 28d to 2026-10-02: "gili islands to
+    // lombok" took 24 impressions, 0 clicks, position 26.8 on /destinations/lombok-gili, while this
+    // page covered only the outbound direction. Old values, exact, to revert:
+    //   metaTitle: "Lombok to the Gili Islands: Boats & Prices"
+    //   metaDescription: "How to get from Lombok to the Gili Islands. Cheap public boats from Bangsal, journey times, and how to avoid the charter touts."
+    // Two FAQ entries on the return crossing were added at the same time. Re-read on 2026-11-02.
+    metaTitle: "Gili Islands to Lombok (and Back): Boats & Prices",
     metaDescription:
-      "How to get from Lombok to the Gili Islands. Cheap public boats from Bangsal, journey times, and how to avoid the charter touts.",
+      "How to get from the Gili Islands to Lombok and back. Public boats via Bangsal, journey times, last departures and how to avoid charter touts.",
     focusKeyword: "lombok to gili islands",
     summary:
       "The public boat from Bangsal harbour reaches the Gilis in 15 to 30 minutes for just a few dollars. It is the cheapest, simplest hop in the area.",
@@ -381,6 +387,16 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         question: "Anything to watch out for?",
         answer:
           "Public boats leave only when full, so there is no fixed timetable. Ignore touts pushing inflated private charters and buy at the official counter.",
+      },
+      {
+        question: "How do you get from the Gili Islands to Lombok?",
+        answer:
+          "Take the public boat from the island back to Bangsal harbour on Lombok, about 15 to 30 minutes for a few dollars as a working estimate, then continue by road. It is the same crossing as the outbound trip in reverse, it also leaves when full, and service thins out in the afternoon, so do not schedule it tight against a flight.",
+      },
+      {
+        question: "How early should you leave the Gilis to catch a flight from Lombok?",
+        answer:
+          "Cross in the morning and treat the onward road transfer from Bangsal as a long leg, since Lombok's airport is on the other side of the island. Boats leave when full, so leave generous buffer and confirm the current timings locally. For an international departure, sleeping on Lombok the night before is the safer plan.",
       },
     ],
     relatedTripSlugs: ["7-days-lombok-gili-islands", "10-days-bali-lombok-gili-islands"],
