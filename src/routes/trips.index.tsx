@@ -111,7 +111,7 @@ export const Route = createFileRoute("/trips/")({
           Couldn't load trips
         </h1>
         <p className="text-sm" style={{ color: "var(--slate-muted)" }}>
-          {error.message}
+          {error instanceof Error ? error.message : String(error)}
         </p>
       </div>
     </div>
