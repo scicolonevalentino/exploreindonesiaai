@@ -25,7 +25,7 @@ export const PAGE_DATES = {
   terms: "2026-06-13",
   // Every /transport page (index + the per-route pages) renders from
   // src/data/routes.ts, so they share that file's last content edit.
-  transport: "2026-08-07",
+  transport: "2026-10-07",
   // Fallback for /destinations pages when a destination has no live Sanity
   // content yet: the last content edit to src/data/destinations.ts.
   destinations: "2026-08-28",

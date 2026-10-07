@@ -1,31 +1,9 @@
 {
+  "_createdAt": "2026-06-17T06:30:13Z",
   "_id": "itinerary-7-days-lombok-rinjani-trek",
+  "_rev": "0YKpiHcLUDtAprmSVCchrY",
   "_type": "article",
-  "title": "7 Days in Lombok: Mount Rinjani Trek and Gili Air Recovery",
-  "slug": {
-    "_type": "slug",
-    "current": "7-days-lombok-rinjani-trek"
-  },
-  "contentStatus": "live",
-  "articleCreatedDate": "2026-06-17T06:29:58.535Z",
-  "destinationPrimary": "lombok_gili",
-  "travelStylePrimary": "adventure_volcanoes",
-  "travelStyleSecondary": ["beach_islands"],
-  "tripLengthBucket": "one_week",
-  "tripLengthDays": 7,
-  "travellerTypes": ["friends", "solo_travellers", "couples"],
-  "vibe": "active",
-  "experienceTags": ["mount-rinjani", "volcano-trek", "summit-hike", "gili-air"],
-  "bestSeason": "May to October",
-  "route": "Lombok (Senggigi) → Sembalun → Mount Rinjani Summit → Segara Anak Lake → Senaru → Gili Air",
-  "focusKeyword": "Mount Rinjani trek itinerary",
-  "metaTitle": "7 Days in Lombok: Mount Rinjani Trek + Gili Recovery",
-  "metaDescription": "Climb Mount Rinjani on the 3-day Sembalun to Senaru summit route, then recover on Gili Air. A realistic 7-day Lombok plan with permits, timing and cost.",
-  "intro": "Most Lombok itineraries treat Mount Rinjani as an optional side quest. This plan treats it as the whole point. Rinjani is a hard, cold, three-day climb to a 3,726 metre summit, and the biggest mistake travellers make is bolting it onto a beach holiday with no time to recover. This 7-day route does the opposite: it gives the mountain the days it needs, then sends you to Gili Air to let your legs forgive you. If you are reasonably fit and willing to suffer through one pre-dawn summit push, this is one of the most satisfying weeks in Indonesia. If you want a relaxed island week, book a different trip.",
-  "author": {
-    "_ref": "author-editorial-team",
-    "_type": "reference"
-  },
+  "_updatedAt": "2026-10-07T04:11:22Z",
   "affiliateLinks": [
     {
       "_key": "aff65",
@@ -76,6 +54,12 @@
       "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
     }
   ],
+  "articleCreatedDate": "2026-06-17T06:29:58.535Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to October",
   "body": [
     {
       "_key": "b1",
@@ -112,7 +96,9 @@
         {
           "_key": "s4",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Who this trip is not for. "
         },
         {
@@ -180,7 +166,9 @@
         {
           "_key": "se",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Sembalun"
         },
         {
@@ -192,7 +180,9 @@
         {
           "_key": "sg",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Segara Anak"
         },
         {
@@ -218,7 +208,9 @@
         {
           "_key": "sk",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Gili Air"
         },
         {
@@ -252,7 +244,9 @@
         {
           "_key": "sp",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -264,7 +258,9 @@
         {
           "_key": "ss",
           "_type": "span",
-          "marks": ["afr"],
+          "marks": [
+            "afr"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -276,7 +272,9 @@
         {
           "_key": "sv",
           "_type": "span",
-          "marks": ["afu"],
+          "marks": [
+            "afu"
+          ],
           "text": "private airport transfer in Lombok"
         },
         {
@@ -307,7 +305,9 @@
         {
           "_key": "sy",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -327,7 +327,9 @@
         {
           "_key": "s11",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -347,7 +349,9 @@
         {
           "_key": "s14",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -367,7 +371,9 @@
         {
           "_key": "s17",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic. "
         },
         {
@@ -387,7 +393,9 @@
         {
           "_key": "s1a",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -421,7 +429,9 @@
         {
           "_key": "s1f",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -441,7 +451,9 @@
         {
           "_key": "s1i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -461,7 +473,9 @@
         {
           "_key": "s1l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -481,7 +495,9 @@
         {
           "_key": "s1o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -501,7 +517,9 @@
         {
           "_key": "s1r",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -535,7 +553,9 @@
         {
           "_key": "s1w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -555,7 +575,9 @@
         {
           "_key": "s1z",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -575,7 +597,9 @@
         {
           "_key": "s22",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -595,7 +619,9 @@
         {
           "_key": "s25",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -615,7 +641,9 @@
         {
           "_key": "s28",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic. "
         },
         {
@@ -649,7 +677,9 @@
         {
           "_key": "s2d",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -669,7 +699,9 @@
         {
           "_key": "s2g",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -689,7 +721,9 @@
         {
           "_key": "s2j",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -701,7 +735,9 @@
         {
           "_key": "s2m",
           "_type": "span",
-          "marks": ["af2l"],
+          "marks": [
+            "af2l"
+          ],
           "text": "Sendang Gile and Tiu Kelep waterfalls day trip"
         },
         {
@@ -727,7 +763,9 @@
         {
           "_key": "s2p",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -747,7 +785,9 @@
         {
           "_key": "s2s",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -781,7 +821,9 @@
         {
           "_key": "s2x",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -793,7 +835,9 @@
         {
           "_key": "s30",
           "_type": "span",
-          "marks": ["af2z"],
+          "marks": [
+            "af2z"
+          ],
           "text": "fast boat to Gili Air"
         },
         {
@@ -819,7 +863,9 @@
         {
           "_key": "s33",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -839,7 +885,9 @@
         {
           "_key": "s36",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -859,7 +907,9 @@
         {
           "_key": "s39",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -879,7 +929,9 @@
         {
           "_key": "s3c",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic. "
         },
         {
@@ -913,7 +965,9 @@
         {
           "_key": "s3h",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -925,7 +979,9 @@
         {
           "_key": "s3k",
           "_type": "span",
-          "marks": ["af3j"],
+          "marks": [
+            "af3j"
+          ],
           "text": "3-island Gili snorkeling tour with turtles"
         },
         {
@@ -951,7 +1007,9 @@
         {
           "_key": "s3n",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -971,7 +1029,9 @@
         {
           "_key": "s3q",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening. "
         },
         {
@@ -991,7 +1051,9 @@
         {
           "_key": "s3t",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -1025,7 +1087,9 @@
         {
           "_key": "s3y",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning. "
         },
         {
@@ -1037,7 +1101,9 @@
         {
           "_key": "s41",
           "_type": "span",
-          "marks": ["af40"],
+          "marks": [
+            "af40"
+          ],
           "text": "Gili Islands to Bali boat"
         },
         {
@@ -1063,7 +1129,9 @@
         {
           "_key": "s44",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon. "
         },
         {
@@ -1083,7 +1151,9 @@
         {
           "_key": "s47",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base. "
         },
         {
@@ -1103,7 +1173,9 @@
         {
           "_key": "s4a",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note. "
         },
         {
@@ -1137,7 +1209,9 @@
         {
           "_key": "s4f",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early. "
         },
         {
@@ -1157,7 +1231,9 @@
         {
           "_key": "s4i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible. "
         },
         {
@@ -1191,7 +1267,9 @@
         {
           "_key": "s4n",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Climbing in the closed season. "
         },
         {
@@ -1211,7 +1289,9 @@
         {
           "_key": "s4q",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Leaving no recovery time. "
         },
         {
@@ -1231,7 +1311,9 @@
         {
           "_key": "s4t",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating the cold and the scree. "
         },
         {
@@ -1251,7 +1333,9 @@
         {
           "_key": "s4w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Choosing the cheapest operator. "
         },
         {
@@ -1285,7 +1369,9 @@
         {
           "_key": "s51",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut the summit. "
         },
         {
@@ -1305,7 +1391,9 @@
         {
           "_key": "s54",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt the start. "
         },
         {
@@ -1325,7 +1413,9 @@
         {
           "_key": "s57",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade the support. "
         },
         {
@@ -1359,7 +1449,9 @@
         {
           "_key": "s5c",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Permits and the guide rule. "
         },
         {
@@ -1379,7 +1471,9 @@
         {
           "_key": "s5f",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Insurance is now required. "
         },
         {
@@ -1399,7 +1493,9 @@
         {
           "_key": "s5i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Fitness and gear. "
         },
         {
@@ -1419,7 +1515,9 @@
         {
           "_key": "s5l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa. "
         },
         {
@@ -1487,7 +1585,9 @@
         {
           "_key": "s5w",
           "_type": "span",
-          "marks": ["ld5v"],
+          "marks": [
+            "ld5v"
+          ],
           "text": "7 days in Lombok and the Gili Islands"
         },
         {
@@ -1499,7 +1599,9 @@
         {
           "_key": "s5z",
           "_type": "span",
-          "marks": ["ld5y"],
+          "marks": [
+            "ld5y"
+          ],
           "text": "10 days in Lombok and the Gilis for families"
         },
         {
@@ -1511,7 +1613,9 @@
         {
           "_key": "s62",
           "_type": "span",
-          "marks": ["ld61"],
+          "marks": [
+            "ld61"
+          ],
           "text": "Lombok and Gili Islands destination guide"
         },
         {
@@ -1542,7 +1646,50 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "v7b-b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "v7b-1",
+          "_type": "span",
+          "marks": [],
+          "text": "Want a gentler volcano warm-up before Rinjani? The "
+        },
+        {
+          "_key": "v7b-2",
+          "_type": "span",
+          "marks": [
+            "v7b-m"
+          ],
+          "text": "6-day Bali volcano and highlands route"
+        },
+        {
+          "_key": "v7b-3",
+          "_type": "span",
+          "marks": [],
+          "text": " includes a two-hour Mount Batur sunrise trek."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "v7b-m",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-bali-volcanoes-sidemen-batur-munduk"
+        }
+      ],
+      "style": "normal"
     }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "lombok_gili",
+  "experienceTags": [
+    "mount-rinjani",
+    "volcano-trek",
+    "summit-hike",
+    "gili-air"
   ],
   "faq": [
     {
@@ -1570,6 +1717,7 @@
       "question": "How do I get from the trek to the Gili Islands?"
     }
   ],
+  "focusKeyword": "Mount Rinjani trek itinerary",
   "heroImage": {
     "_type": "image",
     "alt": "Mount Rinjani crater with the Barujari cone and Segara Anak lake, Lombok",
@@ -1578,5 +1726,26 @@
       "_type": "reference"
     },
     "caption": "Mount Rinjani, Lombok. Photo by Raul-David Serban via imaggeo.egu.eu, CC BY 3.0."
-  }
+  },
+  "intro": "Most Lombok itineraries treat Mount Rinjani as an optional side quest. This plan treats it as the whole point. Rinjani is a hard, cold, three-day climb to a 3,726 metre summit, and the biggest mistake travellers make is bolting it onto a beach holiday with no time to recover. This 7-day route does the opposite: it gives the mountain the days it needs, then sends you to Gili Air to let your legs forgive you. If you are reasonably fit and willing to suffer through one pre-dawn summit push, this is one of the most satisfying weeks in Indonesia. If you want a relaxed island week, book a different trip.",
+  "metaDescription": "Climb Mount Rinjani on the 3-day Sembalun to Senaru summit route, then recover on Gili Air. A realistic 7-day Lombok plan with permits, timing and cost.",
+  "metaTitle": "7 Days in Lombok: Mount Rinjani Trek + Gili Recovery",
+  "route": "Lombok (Senggigi) → Sembalun → Mount Rinjani Summit → Segara Anak Lake → Senaru → Gili Air",
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-lombok-rinjani-trek"
+  },
+  "title": "7 Days in Lombok: Mount Rinjani Trek and Gili Air Recovery",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "friends",
+    "solo_travellers",
+    "couples"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "active"
 }

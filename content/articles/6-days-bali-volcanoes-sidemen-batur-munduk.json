@@ -1,0 +1,1678 @@
+{
+  "_createdAt": "2026-10-07T04:10:21Z",
+  "_id": "itinerary-6-days-bali-volcanoes-sidemen-batur-munduk",
+  "_rev": "N1G5rtOZj8187JlhVQTMzN",
+  "_type": "article",
+  "_updatedAt": "2026-10-07T04:11:07Z",
+  "affiliateLinks": [
+    {
+      "_key": "aairalo0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "day": "Day 1",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "aklook_1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+      "anchorText": "Mount Batur sunrise with a 4WD jeep",
+      "day": "Day 4",
+      "experienceCategory": "volcano_sunrise",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+      "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
+    },
+    {
+      "_key": "abookin2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sidemen%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Sidemen stays on Booking.com",
+      "day": "Day 1",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "notes": "cj",
+      "partner": "booking",
+      "placeholderId": "BOOKING_SIDEMEN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sidemen%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "abookin3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Kintamani%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Kintamani and Batur stays on Booking.com",
+      "day": "Day 3",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "notes": "cj",
+      "partner": "booking",
+      "placeholderId": "BOOKING_KINTAMANI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Kintamani%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "abookin4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Munduk%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Munduk stays on Booking.com",
+      "day": "Day 4",
+      "experienceCategory": "accommodation",
+      "linkStatus": "live",
+      "notes": "cj",
+      "partner": "booking",
+      "placeholderId": "BOOKING_MUNDUK",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Munduk%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCreatedDate": "2026-10-07T04:10:18.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is this Bali volcano and highlands week for, and who should skip it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s4",
+          "_type": "span",
+          "marks": [],
+          "text": "This week suits travellers who want Bali's cooler, greener interior: a sunrise on an active volcano, rice terrace villages with almost no beach-club traffic, and the northern lakes and waterfalls. It works well for friends, couples and solo travellers who are comfortable with a 2am alarm and a lot of time in a car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if you want sand, surf or nightlife, because there is no coast on this route at all. Skip it as well if you have a bad knee or a fear of loose volcanic gravel, or if you are travelling with children under about 8, since the Batur path is steep and the transfers are long."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "s11",
+          "_type": "span",
+          "marks": [],
+          "text": " Denpasar airport, Sidemen (2 nights), Batur area (1 night), Munduk (2 nights), back to the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s13",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "s14",
+          "_type": "span",
+          "marks": [],
+          "text": " Active. Three bases, one pre-dawn start, and roughly 7 to 9 hours of driving across the week as a working estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "s17",
+          "_type": "span",
+          "marks": [],
+          "text": " First-timers on a second week, repeat visitors who have done Ubud and the south coast, and anyone adding Bali to a Lombok or Java trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not included:"
+        },
+        {
+          "_key": "s20",
+          "_type": "span",
+          "marks": [],
+          "text": " The beaches. If you want them, pair this with the "
+        },
+        {
+          "_key": "s22",
+          "_type": "span",
+          "marks": [
+            "m21"
+          ],
+          "text": "10-day Bali and Gili Islands route"
+        },
+        {
+          "_key": "s23",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m21",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s25",
+          "_type": "span",
+          "marks": [],
+          "text": "Why does this route run east, then centre, then north?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s27",
+          "_type": "span",
+          "marks": [],
+          "text": "The route follows the volcanic spine of the island so that every transfer is short and every base has a different view. Sidemen looks at Mount Agung, Batur sits inside its own caldera, and Munduk faces the crater lakes of the north, so the week never repeats a landscape."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s29",
+          "_type": "span",
+          "marks": [],
+          "text": "Going east first also means your longest day, the road out of the east, happens when you are fresh. Doing it in reverse puts the Batur alarm after a tiring drive. The only real cost is that you give up Ubud, which sits conveniently between these places but pulls the whole week back towards crowds. If you want Ubud, see the "
+        },
+        {
+          "_key": "s31",
+          "_type": "span",
+          "marks": [
+            "m30"
+          ],
+          "text": "7-day first-timers route"
+        },
+        {
+          "_key": "s32",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m30",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s34",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need for Bali's volcanoes and highlands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s36",
+          "_type": "span",
+          "marks": [],
+          "text": "Six days is the realistic minimum for three bases without feeling hurried. Five days forces you to drop Munduk or Sidemen, and seven or more lets you add a second night near Batur or a day trip to the Sekumpul waterfalls."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s38",
+          "_type": "span",
+          "marks": [],
+          "text": "Each night you remove saves you one repack but costs you a morning of slow village life, which is the point of the interior. If you have only four days, pick Sidemen plus the Batur sunrise and stop there."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s40",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Denpasar to Sidemen"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s43",
+          "_type": "span",
+          "marks": [],
+          "text": " Land, clear immigration and pay the Bali tourist levy through the official Love Bali portal before you arrive (IDR 150,000 per person as a working estimate for 2026, so check the current rate). Buy a local eSIM before you leave home, for example an "
+        },
+        {
+          "_key": "s45",
+          "_type": "span",
+          "marks": [
+            "m44"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "s46",
+          "_type": "span",
+          "marks": [],
+          "text": ", so your maps work on the road."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m44",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s49",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Sidemen, roughly 1.5 to 2 hours depending on traffic. Check in, then walk the terraces near your stay while the light is low. Sidemen is a valley of rice fields facing Mount Agung, and the walking is gentle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s52",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat at your accommodation or a nearby warung and go to bed early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s55",
+          "_type": "span",
+          "marks": [],
+          "text": " Sidemen. Compare options in the "
+        },
+        {
+          "_key": "s57",
+          "_type": "span",
+          "marks": [
+            "m56"
+          ],
+          "text": "Sidemen stays on Booking.com"
+        },
+        {
+          "_key": "s58",
+          "_type": "span",
+          "marks": [],
+          "text": " search."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m56",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SIDEMEN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s61",
+          "_type": "span",
+          "marks": [],
+          "text": " Choose a room with a terrace view, because clouds on Agung usually lift at dawn and clear again late afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s63",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Sidemen's villages and terraces"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s66",
+          "_type": "span",
+          "marks": [],
+          "text": " Do a self-guided terrace walk, then visit a traditional weaving workshop, where songket and endek cloth are made on hand looms. Ask the price before you start and compare it with a second workshop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s68",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s69",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest, swim at your stay if it has a pool, or take a short drive to the viewpoint areas around Sidemen. Mount Agung is Bali's highest volcano, and its summit climb is a separate, hard, midnight-start effort that is often closed during volcano alerts, so we do not build it into this week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s72",
+          "_type": "span",
+          "marks": [],
+          "text": " Early dinner and an early night, because tomorrow you move to Batur."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s75",
+          "_type": "span",
+          "marks": [],
+          "text": " Besakih temple sits above Sidemen and is worth a stop only if you go with a licensed guide at the official ticket office. Informal touts at the gate are a known annoyance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s77",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Sidemen to the Batur caldera"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s80",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave after breakfast for the Kintamani highlands, roughly 1.5 to 2 hours by car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s83",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in near Lake Batur and relax. Many travellers soak in a hot spring on the lake's edge, but confirm the entry price on the day. Pack a warm layer, because the caldera rim can be genuinely cold at night and at dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s86",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner, then bed by about 8:30pm. Your pickup tomorrow is in the dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s89",
+          "_type": "span",
+          "marks": [],
+          "text": " Kintamani or the lake's shore. See the "
+        },
+        {
+          "_key": "s91",
+          "_type": "span",
+          "marks": [
+            "m90"
+          ],
+          "text": "Kintamani and Batur stays on Booking.com"
+        },
+        {
+          "_key": "s92",
+          "_type": "span",
+          "marks": [],
+          "text": " search."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m90",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_KINTAMANI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s95",
+          "_type": "span",
+          "marks": [],
+          "text": " Sleeping near the trailhead cuts the transfer in the dark to under half an hour, instead of the 1.5 hours of a pickup from Ubud."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s97",
+          "_type": "span",
+          "marks": [],
+          "text": "What is the Mount Batur sunrise trek really like?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s99",
+          "_type": "span",
+          "marks": [],
+          "text": "The Batur sunrise trek is a roughly two-hour pre-dawn climb to a summit at about 1,717 metres, with a local guide required in practice and arranged through the village trekking association. Group prices for 2026 run around IDR 600,000 to 800,000 per person, and private treks cost more, so treat these as working estimates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [],
+          "text": "Expect a 2am to 3am start, a head torch, and loose gravel near the top. The crowd at the summit can be large on clear mornings, so move away from the first viewpoint for space. If a pre-dawn climb is not for you, a "
+        },
+        {
+          "_key": "s103",
+          "_type": "span",
+          "marks": [
+            "m102"
+          ],
+          "text": "Mount Batur sunrise with a 4WD jeep"
+        },
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [],
+          "text": " reaches a viewing area with far less walking."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m102",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s106",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Batur sunrise, then Munduk"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s109",
+          "_type": "span",
+          "marks": [],
+          "text": " Climb, watch the sun come up over Agung and Lake Batur, descend and eat the breakfast most tours include. Be back at your hotel by about 10am to shower and pack."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive north to Munduk, roughly 2 hours. Stop at Ulun Danu Beratan temple on Lake Beratan near Bedugul, which sits on the water and takes 30 to 45 minutes to visit. Check the current entry fee at the gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s114",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s115",
+          "_type": "span",
+          "marks": [],
+          "text": " You will be tired. Eat at your accommodation and sleep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [],
+          "text": " Munduk. Compare the "
+        },
+        {
+          "_key": "s120",
+          "_type": "span",
+          "marks": [
+            "m119"
+          ],
+          "text": "Munduk stays on Booking.com"
+        },
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [],
+          "text": " results."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m119",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MUNDUK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [],
+          "text": " If you are not a morning person, you can do the sunrise on Day 3 instead, but then you lose the long afternoon rest that makes the climb enjoyable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s126",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Munduk's waterfalls and clove country"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s129",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk to the nearby waterfalls, such as Munduk Waterfall and Banyumala, which are reached on short forest paths. Go early, because the paths are slippery after rain and the light is better."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s132",
+          "_type": "span",
+          "marks": [],
+          "text": " Wander the village's clove and coffee plantations. The air is noticeably cooler than the south coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s134",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner with a view of the twin lakes if your stay has one. Early night, because tomorrow is a travel day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [],
+          "text": " Munduk has far fewer rooms than Ubud. Book early for the dry months, roughly April to October."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s140",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Munduk to the airport"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s143",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Munduk. The road to the airport takes roughly 3 hours or more depending on traffic, and often well over that in busy periods."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s146",
+          "_type": "span",
+          "marks": [],
+          "text": " Aim to be at the airport at least 3 hours before an international departure, and book a flight in the evening if you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s148",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s149",
+          "_type": "span",
+          "marks": [],
+          "text": " Do not schedule a same-day long-haul connection from a Munduk checkout unless your flight is after dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s151",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s153",
+          "_type": "span",
+          "marks": [],
+          "text": "Book Sidemen and Munduk rooms early in the dry season, since both have a limited number of rooms. Keep the Batur trek flexible: reserve a day or two before, then confirm the weather the evening before, because clouds at the summit remove the point of climbing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s155",
+          "_type": "span",
+          "marks": [],
+          "text": "A private driver for the whole week usually makes more sense than separate transfers, because it removes three negotiations and the road between these bases has little public transport. Confirm the day rate and fuel in writing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s157",
+          "_type": "span",
+          "marks": [],
+          "text": "What does it cost compared with a beach week?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b158",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s159",
+          "_type": "span",
+          "marks": [],
+          "text": "A volcano and highlands week is cheaper than a south-coast week for rooms and meals, but pricier for transport, because you will rely on a private driver. Entry fees and the Batur trek are the main extra costs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s161",
+          "_type": "span",
+          "marks": [],
+          "text": "Rooms: Volcano week (6 days): Lower in Sidemen and Munduk; Beach week (6 days): Higher in Seminyak, Canggu, Uluwatu."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s163",
+          "_type": "span",
+          "marks": [],
+          "text": "Transport: Volcano week (6 days): Private driver, higher; Beach week (6 days): Scooters and short rides, lower."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s165",
+          "_type": "span",
+          "marks": [],
+          "text": "Activities: Volcano week (6 days): Batur trek, temple and waterfall fees; Beach week (6 days): Surf lessons, beach clubs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s167",
+          "_type": "span",
+          "marks": [],
+          "text": "Crowds: Volcano week (6 days): Low, except the Batur summit; Beach week (6 days): High."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s169",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat all of this as relative, since prices move with season and exchange rates, and check current fares before you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s171",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make on this route?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s173",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is pairing the Batur sunrise with a booking in Ubud. The 1.5-hour pre-dawn pickup costs you sleep and puts you in a crowd of tour vans. The second is packing for a tropical beach and arriving cold at the rim, so bring a fleece or a jacket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s175",
+          "_type": "span",
+          "marks": [],
+          "text": "The third is booking a flight out of Bali on the morning you leave Munduk. The fourth is trusting touts who offer a cheaper Batur trek at the roadside, since the legitimate association sets prices and the cheap offers often skip the guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s177",
+          "_type": "span",
+          "marks": [],
+          "text": "What should you cut, adapt or upgrade?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s179",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut Day 2's afternoon if you want a lighter week. Adapt the route by swapping Munduk for Ubud if you need cafes and cooking classes. Upgrade by adding the Sekumpul waterfalls for an extra half day, or by adding a night near Lovina on the north coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s181",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want diving at the end of the week, the "
+        },
+        {
+          "_key": "s183",
+          "_type": "span",
+          "marks": [
+            "m182"
+          ],
+          "text": "Bali diving route"
+        },
+        {
+          "_key": "s184",
+          "_type": "span",
+          "marks": [],
+          "text": " picks up from the north-east. If a bigger volcano trek appeals, the "
+        },
+        {
+          "_key": "s186",
+          "_type": "span",
+          "marks": [
+            "m185"
+          ],
+          "text": "Rinjani trek on Lombok"
+        },
+        {
+          "_key": "s187",
+          "_type": "span",
+          "marks": [],
+          "text": " is the next step up."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m182",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-diving-tulamben-amed-menjangan"
+        },
+        {
+          "_key": "m185",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-rinjani-trek"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s189",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s191",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the Mount Agung and Mount Batur alert status through the Indonesian volcano agency, and confirm any trail closures with your guide. Pack a warm layer, a head torch and shoes with grip, not sandals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s193",
+          "_type": "span",
+          "marks": [],
+          "text": "Get travel insurance that covers volcano trekking, and carry some cash for village entry fees and warungs, because small places do not take cards. Fees and rules change, so check the latest official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s195",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is a Bali volcano week worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s197",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you have already done the beach and Ubud circuit, because this is the version of Bali that most visitors skip and it takes only six days. Do it at its own pace, accept the early alarm, and you get cool air, empty terraces and one genuinely good sunrise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s199",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if the beach is the point of your trip. For that, the "
+        },
+        {
+          "_key": "s201",
+          "_type": "span",
+          "marks": [
+            "m200"
+          ],
+          "text": "10-day Bali and Gili Islands route"
+        },
+        {
+          "_key": "s202",
+          "_type": "span",
+          "marks": [],
+          "text": " is a better fit."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m200",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s204",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s206",
+          "_type": "span",
+          "marks": [],
+          "text": "See also the "
+        },
+        {
+          "_key": "s208",
+          "_type": "span",
+          "marks": [
+            "m207"
+          ],
+          "text": "7-day Bali first-timers route"
+        },
+        {
+          "_key": "s209",
+          "_type": "span",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_key": "s211",
+          "_type": "span",
+          "marks": [
+            "m210"
+          ],
+          "text": "7-day Bali diving route"
+        },
+        {
+          "_key": "s212",
+          "_type": "span",
+          "marks": [],
+          "text": " and the "
+        },
+        {
+          "_key": "s214",
+          "_type": "span",
+          "marks": [
+            "m213"
+          ],
+          "text": "7-day Rinjani trek"
+        },
+        {
+          "_key": "s215",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "m207",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        },
+        {
+          "_key": "m210",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-diving-tulamben-amed-menjangan"
+        },
+        {
+          "_key": "m213",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-rinjani-trek"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali",
+  "destinationSecondary": [],
+  "faq": [
+    {
+      "_key": "f216",
+      "answer": "Six days is a realistic minimum for Sidemen, the Batur caldera and Munduk without rushing. With four days, keep Sidemen and the Batur sunrise only. With seven or more, add a second night near Batur or a day trip to the Sekumpul waterfalls.",
+      "question": "How many days do you need to see Bali's volcanoes and highlands?"
+    },
+    {
+      "_key": "f217",
+      "answer": "In practice, yes. The village trekking associations arrange guides at the trailhead and can refuse entry without one. As a working estimate, group treks in 2026 cost roughly IDR 600,000 to 800,000 per person, so confirm the current price when you book.",
+      "question": "Do you need a guide to climb Mount Batur?"
+    },
+    {
+      "_key": "f218",
+      "answer": "It is moderate. The climb takes roughly two hours in the dark on a steep, gravelly path to about 1,717 metres. Most reasonably fit travellers manage it, but the loose gravel near the top is the hard part, so wear shoes with grip.",
+      "question": "Is the Mount Batur sunrise trek hard?"
+    },
+    {
+      "_key": "f219",
+      "answer": "This route does not include it. Agung is a much harder, midnight-start climb and is closed whenever volcano alert levels rise. Check the current status with your guide and the Indonesian volcano agency before planning it.",
+      "question": "Can you climb Mount Agung on this route?"
+    },
+    {
+      "_key": "f220",
+      "answer": "Yes, if you want cooler air, forest waterfalls and quiet village streets. It is a poor choice for beach lovers, and it adds a long transfer to the airport on the last day.",
+      "question": "Is Munduk worth visiting?"
+    },
+    {
+      "_key": "f221",
+      "answer": "The dry months, roughly April to October, give the clearest summit views and the safest paths. The wet season brings mist and slippery trails, and clouds can hide the sunrise entirely, so keep the trek day flexible.",
+      "question": "What is the best time of year for Bali's highlands?"
+    },
+    {
+      "_key": "f222",
+      "answer": "Yes, foreign visitors pay it once per trip through the official Love Bali portal. As a working estimate it is IDR 150,000 per person in 2026, so check the current rate before you fly.",
+      "question": "Do you need to pay the Bali tourist levy?"
+    }
+  ],
+  "focusKeyword": "Bali volcano itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "6 Days in Balis Volcanoes and Highlands: Sidemen, Batur and Munduk — Mount Agung Sunrise (Unsplash)",
+    "asset": {
+      "_ref": "image-952e8fecc4be048458487663bb48aeefb326cacd-3840x2560-jpg",
+      "_type": "reference"
+    }
+  },
+  "intro": "Most Bali itineraries send you to the same beaches and the same Ubud lanes. This one goes the other way, up through the east, the Batur caldera and the cool northern highlands, and asks you to accept an early alarm and a lot of road in exchange for a quieter island. It is a good second Bali, built for people who have done the south coast and want something with more air in it.",
+  "metaDescription": "A 6-day Bali volcano and highlands route: Sidemen terraces, a Mount Batur sunrise and Munduk waterfalls, with real drive times and 2026 costs.",
+  "metaTitle": "Bali Volcano Itinerary: Sidemen, Batur, Munduk",
+  "route": "Denpasar, Sidemen, Mount Batur, Munduk, Denpasar",
+  "slug": {
+    "_type": "slug",
+    "current": "6-days-bali-volcanoes-sidemen-batur-munduk"
+  },
+  "title": "6 Days in Bali's Volcanoes and Highlands: Sidemen, Batur and Munduk",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "culture_temples"
+  ],
+  "travellerTypes": [
+    "friends",
+    "solo_travellers",
+    "couples"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 6,
+  "vibe": "active"
+}

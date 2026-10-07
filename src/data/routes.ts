@@ -75,9 +75,14 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
     toName: "Gili Islands",
     fromDestinationSlug: "bali",
     toDestinationSlug: "lombok-gili",
-    metaTitle: "Bali to Gili Islands: Fast Boat, Times & Prices",
+    // Retouch 2026-10-07 (scheduled task, PARTE 1 + 3). GSC 28d to 2026-10-04: "uluwatu to gili
+    // islands" 24 impr, 0 clicks, pos 12.4; "gili island to bali" 7 impr, pos 39.4; "bali to the gili
+    // islands" pos 3.8. OLD metaTitle: "Bali to Gili Islands: Fast Boat, Times & Prices"
+    // OLD metaDescription: "How to get from Bali to the Gili Islands. Fast boat routes, journey times,
+    // working price estimates, and which departure point to choose." Re-read 2026-11-04.
+    metaTitle: "Bali (Uluwatu, Sanur) to Gili Islands: Fast Boats",
     metaDescription:
-      "How to get from Bali to the Gili Islands. Fast boat routes, journey times, working price estimates, and which departure point to choose.",
+      "How to get from Uluwatu, Sanur or anywhere in Bali to the Gili Islands. Fast boat ports, journey times, working prices and the return trip.",
     focusKeyword: "bali to gili islands",
     summary:
       "Most travellers reach the Gilis by fast boat. The crossing takes roughly 1.5 to 2.5 hours depending on departure point and sea conditions, so build a buffer and avoid booking a same-day onward connection.",
@@ -125,6 +130,16 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         question: "Is the crossing safe?",
         answer:
           "Reputable operators run it daily, but seas get rougher in the afternoon and in the windier months. Take a morning boat and keep arrival day flexible in case of weather cancellations.",
+      },
+      {
+        question: "How do you get from Uluwatu to the Gili Islands?",
+        answer:
+          "No fast boat leaves from Uluwatu itself. You drive to a departure port first, usually Sanur or Serangan on the south-east coast or Padangbai further east, then take the fast boat across. As a working estimate allow a long morning of road transfer, so book an early boat and check the pickup time with the operator.",
+      },
+      {
+        question: "How do you get from the Gili Islands back to Bali?",
+        answer:
+          "Fast boats run the same crossing in reverse, mostly in the morning and early afternoon, and the sea time is similar to the outbound trip. Book the return ahead in busy months, pick a morning departure, and leave a buffer of several hours before any flight out of Bali.",
       },
     ],
     relatedTripSlugs: ["10-days-bali-gili-islands", "7-days-bali-first-timers"],
