@@ -1,0 +1,2199 @@
+{
+  "_createdAt": "2026-10-09T04:12:03Z",
+  "_id": "itinerary-7-days-lombok-gili-islands-solo-travellers",
+  "_rev": "EvTggpwNw4vtqo72lFiWLH",
+  "_type": "article",
+  "_updatedAt": "2026-10-09T04:12:33Z",
+  "affiliateLinks": [
+    {
+      "_key": "s288",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "s289",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Kuta+Lombok%2C+Indonesia&group_adults=1&group_children=0&no_rooms=1",
+      "anchorText": "stays in Kuta Lombok",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_KUTA_LOMBOK",
+      "publicUrl": null
+    },
+    {
+      "_key": "s290",
+      "affiliateUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour",
+      "anchorText": "South Lombok beach tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR",
+      "publicUrl": "https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1"
+    },
+    {
+      "_key": "s291",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F",
+      "anchorText": "beginner surf lesson at Selong Belanak",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK",
+      "publicUrl": "https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/"
+    },
+    {
+      "_key": "s292",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Air%2C+Indonesia&group_adults=1&group_children=0&no_rooms=1",
+      "anchorText": "stays on Gili Air",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_GILI_AIR",
+      "publicUrl": null
+    },
+    {
+      "_key": "s293",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F",
+      "anchorText": "shared three-island snorkeling boat",
+      "experienceCategory": "activity",
+      "linkStatus": "live",
+      "notes": "travelpayouts",
+      "partner": "klook",
+      "placeholderId": "KLOOK_GILI_SNORKELING",
+      "publicUrl": "https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/"
+    },
+    {
+      "_key": "s294",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Gili+Trawangan%2C+Indonesia&group_adults=1&group_children=0&no_rooms=1",
+      "anchorText": "stays on Gili Trawangan",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_GILI_TRAWANGAN",
+      "publicUrl": null
+    },
+    {
+      "_key": "s295",
+      "affiliateUrl": "https://12go.asia/en/travel/gili-trawangan/bali?z=16022946",
+      "anchorText": "Gili Trawangan to Bali boat",
+      "experienceCategory": null,
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_GILI_TRAWANGAN_BALI",
+      "publicUrl": null
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-09T04:12:01.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April–October",
+  "body": [
+    {
+      "_key": "s002",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s001",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s004",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s003",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is built for one person travelling alone who wants company when they want it and silence when they do not. You get a surf-and-hostel base on the south coast of Lombok, then two social islands, Gili Air and Gili Trawangan, where eating alone at a long table is normal and nobody asks why. The pace is balanced, with one long transfer day in the middle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s005",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not the plan for a solo traveller who wants a packed sightseeing schedule, a Rinjani summit, or a city. Lombok is rural, the roads are slow, and the good parts are beaches and water. If you would rather be around a lot of people from the first hour, a Bali-based week moves faster and costs less in transfers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s008",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s007",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s010",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s009",
+          "_type": "span",
+          "marks": [],
+          "text": "Duration: 7 days, 6 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s012",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s011",
+          "_type": "span",
+          "marks": [],
+          "text": "Start: Lombok International Airport, in the south. End: Gili Trawangan, with an onward boat to Bali or back to Lombok."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s014",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s013",
+          "_type": "span",
+          "marks": [],
+          "text": "Route: Kuta Lombok (3 nights) → Gili Air (2 nights) → Gili Trawangan (1 night)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s016",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s015",
+          "_type": "span",
+          "marks": [],
+          "text": "Best for: solo travellers who want beaches, a first surf lesson, snorkeling and easy company."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s018",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s017",
+          "_type": "span",
+          "marks": [],
+          "text": "Not ideal for: travellers who want nightlife every night, a summit trek, or fast intercity transport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s020",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s019",
+          "_type": "span",
+          "marks": [],
+          "text": "Budget: flexible and friendly to one person. Guesthouses and hostels in Kuta Lombok start around $25 per night for a private room as a working estimate, and dorm beds cost less. Prices change by season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s022",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s021",
+          "_type": "span",
+          "marks": [],
+          "text": "Best time: roughly April to October, the drier months with calmer boat crossings. Confirm current conditions before locking dates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s024",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s023",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking difficulty: easy for stays, medium for the Gili boat and anything on a weekend in peak months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s026",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s025",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s028",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s027",
+          "_type": "span",
+          "marks": [],
+          "text": "Solo travel works best when the places you sleep do the socialising for you. Kuta Lombok is small, has a steady surf crowd and shared tables, and three nights in one bed is enough to meet people without trying. The Gilis then give you two different social settings an hour of boat apart, so you can pick the one that suits your mood."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s030",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s029",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is south to north. You land near Kuta, spend the first days on cheap, slow beach time, then make the single long transfer to the harbour at Bangsal and finish on the islands. Ending on Gili Trawangan means the last night is the easiest to organise, with onward boats to Bali leaving from the same beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s032",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s031",
+          "_type": "span",
+          "marks": [],
+          "text": "The weak point is Day 4. One person cannot split a private car, so the cross-island leg costs more per head than it does for a couple. The itinerary handles that by leaving early and using a shared option where one exists."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s034",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s033",
+          "_type": "span",
+          "marks": [],
+          "text": "Which base is best for a solo traveller in Lombok and the Gilis?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s036",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s035",
+          "_type": "span",
+          "marks": [],
+          "text": "Kuta Lombok for company and cheap beds, Gili Air for the best mix of social and calm, Gili Trawangan for the biggest evening scene, and Gili Meno only if you want to be alone. All three Gilis sit 15 to 30 minutes from Bangsal by public boat and are linked to each other, so you choose where to sleep, not where to go."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s037",
+      "_type": "comparisonTable",
+      "caption": "How the four bases compare for one person. Treat the descriptions as working impressions, since venues and crowds change by season.",
+      "columns": [
+        "Base",
+        "Social level",
+        "Best for",
+        "Solo warning"
+      ],
+      "rows": [
+        {
+          "_key": "s038",
+          "cells": [
+            "Kuta Lombok",
+            "Easy and steady, built around surf and shared tables",
+            "Cheap beds, a first surf lesson, meeting people on day one",
+            "Beaches are scattered and a scooter at night on dark roads is the real risk"
+          ]
+        },
+        {
+          "_key": "s039",
+          "cells": [
+            "Gili Air",
+            "Social but calm, long restaurant tables on the east coast",
+            "The balance most solo travellers end up preferring",
+            "Fewer late options than Trawangan, so plan dinner before it gets dark"
+          ]
+        },
+        {
+          "_key": "s040",
+          "cells": [
+            "Gili Trawangan",
+            "The loudest of the three, with a proper evening",
+            "Meeting a crowd, dive and snorkel shops, nightlife if you want it",
+            "Can feel like a party you did not join when you arrive tired"
+          ]
+        },
+        {
+          "_key": "s041",
+          "cells": [
+            "Gili Meno",
+            "Deliberately quiet",
+            "Reading, swimming and doing very little",
+            "Few people and few places to eat after dark"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "s046",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s042",
+          "_type": "span",
+          "marks": [],
+          "text": "If you read that table and realised you want more island and less Lombok, the "
+        },
+        {
+          "_key": "s044",
+          "_type": "span",
+          "marks": [
+            "s043"
+          ],
+          "text": "four-day Gili Islands route"
+        },
+        {
+          "_key": "s045",
+          "_type": "span",
+          "marks": [],
+          "text": " across Trawangan, Meno and Air is the trip you are describing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s043",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-gili-islands-trawangan-meno-air"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s048",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s047",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you go: data and arrival"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s053",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s049",
+          "_type": "span",
+          "marks": [],
+          "text": "Sort connectivity before you fly. An "
+        },
+        {
+          "_key": "s051",
+          "_type": "span",
+          "marks": [
+            "s050"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "s052",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you activate data on the plane, so maps, messaging and your accommodation's WhatsApp work the moment you land. When you are travelling alone, a live connection is also the cheapest safety measure you have."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s050",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s055",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s054",
+          "_type": "span",
+          "marks": [],
+          "text": "Travel note: tell someone at home your first night's address, download offline maps of South Lombok, and keep a physical SIM slot free as a backup."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s057",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s056",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land in Lombok and settle into Kuta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s060",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s058",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s059",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive at Lombok International Airport, which sits in the south and is relatively close to Kuta. A taxi from the official counter or a pre-agreed transfer avoids negotiating after a long flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s063",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s061",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s062",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and choose a place where other travellers actually eat together. A hostel or a guesthouse with a shared terrace beats a private villa for the first night, even if you upgrade later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s066",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s064",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s065",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk into Kuta town. It is small and easy, with restaurants, cafes and a relaxed traveller crowd. Keep the first night light."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s072",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s067",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s068",
+          "_type": "span",
+          "marks": [],
+          "text": " Kuta Lombok for 3 nights. Compare "
+        },
+        {
+          "_key": "s070",
+          "_type": "span",
+          "marks": [
+            "s069"
+          ],
+          "text": "stays in Kuta Lombok"
+        },
+        {
+          "_key": "s071",
+          "_type": "span",
+          "marks": [],
+          "text": ", and read what guests say about the common area, not only the room."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s069",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_KUTA_LOMBOK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s075",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s073",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s074",
+          "_type": "span",
+          "marks": [],
+          "text": " lock the Kuta stay before you arrive in peak season. Three settled nights are what keep the next two days flexible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s077",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s076",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Tanjung Aan and the South Lombok beaches"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s080",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s078",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s079",
+          "_type": "span",
+          "marks": [],
+          "text": " Start at Tanjung Aan, one of the better beaches on the south coast, with pale sand and easy swimming. Climb the small headland for the wider bay view before the day heats up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s086",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s081",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s082",
+          "_type": "span",
+          "marks": [],
+          "text": " The south beaches are spread out and public transport is thin, so a "
+        },
+        {
+          "_key": "s084",
+          "_type": "span",
+          "marks": [
+            "s083"
+          ],
+          "text": "South Lombok beach tour"
+        },
+        {
+          "_key": "s085",
+          "_type": "span",
+          "marks": [],
+          "text": " with a driver is the practical way to cover them. As a solo traveller this is also a social move, because you share the day with other people rather than paying for a car alone."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s083",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_SOUTH_LOMBOK_BEACH_TOUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s089",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s087",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s088",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Kuta for dinner. Ask the people you met on the tour where they are eating."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s092",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s090",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s091",
+          "_type": "span",
+          "marks": [],
+          "text": " the driver-led day is about logistics, not luxury. A scooter day in the heat eats time, and riding alone on unlit roads after dark is the part to avoid."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s094",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s093",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Learn to surf at Selong Belanak"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s095",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s096",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a "
+        },
+        {
+          "_key": "s098",
+          "_type": "span",
+          "marks": [
+            "s097"
+          ],
+          "text": "beginner surf lesson at Selong Belanak"
+        },
+        {
+          "_key": "s099",
+          "_type": "span",
+          "marks": [],
+          "text": ", a forgiving wave that suits first-timers. A group lesson is the cheapest way to spend two hours with strangers who are all equally bad at it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s097",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BEGINNER_SURF_LOMBOK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s101",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s102",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat near the beach, swim if conditions allow, and keep the pace slow. This is a deliberate buffer day, because tomorrow is the longest transfer of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s105",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to Kuta before sunset and pack tonight, not in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s108",
+          "_type": "span",
+          "marks": [],
+          "text": " if surf does not appeal, spend the day on a quiet beach with a book. Nothing later in the plan depends on it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s110",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Kuta to Bangsal and the boat to Gili Air"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s113",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Kuta early. The drive north to Bangsal harbour crosses much of the island, so plan on most of the day for the whole leg and confirm the timing with your driver or guesthouse the evening before. The slow public boats stop running in the mid-afternoon, which is why a late start can leave you paying for a charter you did not plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s115",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s116",
+          "_type": "span",
+          "marks": [],
+          "text": " At Bangsal, walk past anyone telling you the public boat is full or finished and go to the official Karya Bahari counter. The public boat reaches the Gilis in 15 to 30 minutes for a few dollars and leaves when it fills. A private speedboat does it in 10 to 15 minutes from around $35 per boat, which is a fair price only if you are splitting it. Full details are in our guide to "
+        },
+        {
+          "_key": "s118",
+          "_type": "span",
+          "marks": [
+            "s117"
+          ],
+          "text": "Lombok to the Gili Islands"
+        },
+        {
+          "_key": "s119",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s117",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/lombok-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s121",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s122",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in on Gili Air, then walk the east coast at sunset. Dinner at a long communal table is the easiest way to meet people on an island this size."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s125",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Air for 2 nights. Compare "
+        },
+        {
+          "_key": "s127",
+          "_type": "span",
+          "marks": [
+            "s126"
+          ],
+          "text": "stays on Gili Air"
+        },
+        {
+          "_key": "s128",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s126",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_AIR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s131",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the fragile link in the route. Allow buffer time, confirm your pickup the day before, and carry some cash, since card acceptance is limited on the islands and ATMs are sparse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s133",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Snorkeling around the Gili Islands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s136",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the full day on the water. A "
+        },
+        {
+          "_key": "s138",
+          "_type": "span",
+          "marks": [
+            "s137"
+          ],
+          "text": "shared three-island snorkeling boat"
+        },
+        {
+          "_key": "s139",
+          "_type": "span",
+          "marks": [],
+          "text": " loops Gili Trawangan, Gili Meno and Gili Air, with chances to see turtles, coral and the underwater statues near Gili Meno. Shared boats suit one person well, because the price does not depend on how many in your group you brought. Morning departures usually mean calmer water and better visibility."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s137",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_GILI_SNORKELING"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s142",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep it slow. Cycle the island loop, settle on a beach, or read. There are no cars or motorbikes on the Gilis, only bicycles, walking and horse carts, which makes a solo evening walk feel much safer than it does on Lombok's roads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s145",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the public boat to the next island only if you are comfortable doing it before dark, otherwise stay put."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "s148",
+          "_type": "span",
+          "marks": [],
+          "text": " turtle sightings are common but never guaranteed, and conditions vary by day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s150",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Move to Gili Trawangan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s152",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s153",
+          "_type": "span",
+          "marks": [],
+          "text": " Slow breakfast, then take the short boat hop to Gili Trawangan. It is the busiest island and the easiest place to meet a group, whether for a sunset beach, a dive shop, or dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s156",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and drift to the beach on the west side. Cycle the loop if you have not already."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "s159",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk to the west side for sunset, then eat near the south-side restaurants, where the evening scene is concentrated. Join a table rather than hovering at the edge of one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "s162",
+          "_type": "span",
+          "marks": [],
+          "text": " Gili Trawangan for 1 night. Compare "
+        },
+        {
+          "_key": "s164",
+          "_type": "span",
+          "marks": [
+            "s163"
+          ],
+          "text": "stays on Gili Trawangan"
+        },
+        {
+          "_key": "s165",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s163",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_GILI_TRAWANGAN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s167",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s168",
+          "_type": "span",
+          "marks": [],
+          "text": " if you want to dive, a Discover Scuba session or a snorkel trip is the easiest social activity here. Book it through a shop you have actually walked into."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s170",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Slow morning and onward travel"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s172",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "s173",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the last morning slowly. Breakfast by the beach, one final swim, or a cycle around the island before you leave."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s175",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "s176",
+          "_type": "span",
+          "marks": [],
+          "text": " From Gili Trawangan you can return to Lombok, continue to Bali with a "
+        },
+        {
+          "_key": "s178",
+          "_type": "span",
+          "marks": [
+            "s177"
+          ],
+          "text": "Gili Trawangan to Bali boat"
+        },
+        {
+          "_key": "s179",
+          "_type": "span",
+          "marks": [],
+          "text": ", or stretch the trip with extra nights on Gili Meno."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s177",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_GILI_TRAWANGAN_BALI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "s182",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are connecting to a Bali flight, do not book a same-day departure on a tight margin. Sea crossings can shift, so leave a night of buffer in Bali rather than racing a boat to the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s184",
+          "_type": "span",
+          "marks": [],
+          "text": "How safe is Lombok and the Gili Islands for solo travellers?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s186",
+          "_type": "span",
+          "marks": [],
+          "text": "Generally safe for careful solo travellers, with petty theft and road accidents as the main risks. The Gilis have no motor vehicles, which removes the biggest danger, while Lombok's unlit roads and rented scooters cause most injuries. Check your own government's current travel advice, since conditions and guidance change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s188",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical habits are simple. Do not ride a scooter at night on Lombok, keep valuables out of sight on the beach, drink from sealed or filtered water, and tell your accommodation when you are heading out for a long snorkel. Solo women generally report that the Gilis feel easy, but plan your arrival and last boat before dark, wherever you go."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s190",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does a week cost for one person?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s192",
+          "_type": "span",
+          "marks": [],
+          "text": "A solo week here costs less on accommodation if you use dorms and guesthouses, and more on transport because you cannot split a car or a charter. As working estimates, a private guesthouse room in Kuta Lombok starts around $25 a night, the public boat to the Gilis costs a few dollars, and a private speedboat starts around $35 per boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s194",
+      "_type": "comparisonTable",
+      "caption": "Where being alone costs more and where it saves money. Figures are working estimates from our other Lombok routes, so check current prices before you book.",
+      "columns": [
+        "Item",
+        "Solo reality",
+        "How to keep it down"
+      ],
+      "rows": [
+        {
+          "_key": "s195",
+          "cells": [
+            "Accommodation",
+            "Often the cheapest part, since hostels and guesthouses price per bed or per room",
+            "Use dorms or shared-terrace guesthouses on the first nights"
+          ]
+        },
+        {
+          "_key": "s196",
+          "cells": [
+            "Cross-island transfer",
+            "A private car costs the same for one as for three",
+            "Leave early for the public route, or share a ride with someone from your hostel"
+          ]
+        },
+        {
+          "_key": "s197",
+          "cells": [
+            "Boat to the Gilis",
+            "A few dollars on the public boat, from about $35 per boat if you charter",
+            "Take the public boat and accept the wait"
+          ]
+        },
+        {
+          "_key": "s198",
+          "cells": [
+            "Tours and lessons",
+            "Shared and group formats cost the same per person as for couples",
+            "Pick group lessons and shared boats, not private ones"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "s200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s199",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Lombok and the Gilis alone?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s201",
+          "_type": "span",
+          "marks": [],
+          "text": "Seven days is the comfortable minimum for Lombok plus two Gilis, and five works if you drop the second Gili. Lombok is big and the roads are slow, so the week buys you one region of Lombok and a few nights offshore. Under five days, choose between Kuta or the islands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s203",
+          "_type": "span",
+          "marks": [],
+          "text": "For a longer version of the same geography, our "
+        },
+        {
+          "_key": "s205",
+          "_type": "span",
+          "marks": [
+            "s204"
+          ],
+          "text": "7-day Lombok and Gili Islands route"
+        },
+        {
+          "_key": "s206",
+          "_type": "span",
+          "marks": [],
+          "text": " adds the Senaru waterfalls and is written for couples and friends."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s204",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s209",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s208",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s210",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: your Kuta Lombok stay and your first Gili night, especially from April to October when demand peaks. The eSIM is worth sorting before you fly. Everything else, including the snorkeling day and the surf lesson, can be arranged after you have met people and seen the weather."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s212",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the order of your Gili nights, and the day you move. Solo travellers get the most from staying a day longer where they have found people, so leave a spare night in the plan if you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s214",
+          "_type": "span",
+          "marks": [],
+          "text": "Travel note: the one thing not to leave loose is the Day 4 transfer. Everything downstream depends on reaching Bangsal before the slow boats stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s216",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes solo travellers make on this route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s219",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s218",
+          "_type": "span",
+          "marks": [],
+          "text": "Booking a private room in a quiet villa for every night. You end the week having spoken to nobody, and the places that do the social work for you are the cheapest ones."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s220",
+          "_type": "span",
+          "marks": [],
+          "text": "Underestimating the Day 4 transfer. A long drive plus a boat leaves little margin, and arriving at Bangsal after the slow boats stop turns a few dollars into a charter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s222",
+          "_type": "span",
+          "marks": [],
+          "text": "Riding a scooter at night on Lombok. The roads are dark and uneven and the cost of falling alone is high. Take a driver after sunset."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s225",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s224",
+          "_type": "span",
+          "marks": [],
+          "text": "Leaving no buffer on the last day. Sea crossings are weather-dependent, and a cancelled boat can strand a same-day flight connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s226",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s228",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut: if the long transfer worries you, drop Kuta and fly in, then take a driver straight to Bangsal on Day 1. You lose the surf beaches and gain two more island days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s230",
+          "_type": "span",
+          "marks": [],
+          "text": "Adapt: swap the surf lesson for a second snorkeling day, or stay all three island nights on Gili Air if you prefer calm to a crowd."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s232",
+          "_type": "span",
+          "marks": [],
+          "text": "Upgrade: if you want a sociable activity with a built-in group, a short dive course on Gili Trawangan is the best investment. Our "
+        },
+        {
+          "_key": "s234",
+          "_type": "span",
+          "marks": [
+            "s233"
+          ],
+          "text": "7-day learn-to-dive route"
+        },
+        {
+          "_key": "s235",
+          "_type": "span",
+          "marks": [],
+          "text": " shows how it fits."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s233",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-gili-islands-learn-to-dive"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s237",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s243",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s239",
+          "_type": "span",
+          "marks": [],
+          "text": "Best time: roughly April to October is the dry season, with calmer crossings and the best snorkeling. The wettest months, around January to March, bring rougher seas. Confirm current conditions before booking, and see "
+        },
+        {
+          "_key": "s241",
+          "_type": "span",
+          "marks": [
+            "s240"
+          ],
+          "text": "when to visit Lombok"
+        },
+        {
+          "_key": "s242",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s240",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili/best-time-to-visit-lombok"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s245",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s244",
+          "_type": "span",
+          "marks": [],
+          "text": "Visa and entry: check the latest official guidance for your nationality before you travel, as entry rules and any visa-on-arrival fees can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s246",
+          "_type": "span",
+          "marks": [],
+          "text": "Money: carry cash for the Gilis and rural Lombok, where card acceptance is limited and ATMs are sparse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s249",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s248",
+          "_type": "span",
+          "marks": [],
+          "text": "Domestic transport: Lombok is car-and-driver country outside the Gilis, with thin public transport between beaches. Ask your accommodation for a trusted driver rather than hailing one at the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s251",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s250",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s252",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if you want a first solo week in Indonesia that is easy to join in and easy to leave. Kuta gives you cheap company, the Gilis give you safe, car-free evenings, and the only hard day is the transfer north."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s255",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s254",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if your priority is a mountain, a city, or a dense nightlife week. And do not book a private villa for every night, because the social side of this route is what you are paying for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s257",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s256",
+          "_type": "span",
+          "marks": [],
+          "text": "Built with buffer around Day 4 and the last boat out, this is one of the easier ways to spend a week on your own in Indonesia, because the geography does the introducing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s259",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s258",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "s261",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s260",
+          "_type": "span",
+          "marks": [],
+          "text": "Pair or compare this route with these planning guides:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "s265",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s263",
+          "_type": "span",
+          "marks": [
+            "s262"
+          ],
+          "text": "7 days in Bali for solo travellers"
+        },
+        {
+          "_key": "s264",
+          "_type": "span",
+          "marks": [],
+          "text": " if you want to begin the trip in Bali and add the Gilis afterwards."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s262",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-solo-travellers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s269",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s267",
+          "_type": "span",
+          "marks": [
+            "s266"
+          ],
+          "text": "The 4-day Gili Islands escape"
+        },
+        {
+          "_key": "s268",
+          "_type": "span",
+          "marks": [],
+          "text": " if you only have a long weekend."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s266",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-gili-islands-trawangan-meno-air"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s271",
+          "_type": "span",
+          "marks": [
+            "s270"
+          ],
+          "text": "The Lombok and Gili Islands hub"
+        },
+        {
+          "_key": "s272",
+          "_type": "span",
+          "marks": [],
+          "text": " for stays, crossings and seasonal timing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s270",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/lombok-gili"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "s281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "s274",
+          "_type": "span",
+          "marks": [],
+          "text": "Getting around: "
+        },
+        {
+          "_key": "s276",
+          "_type": "span",
+          "marks": [
+            "s275"
+          ],
+          "text": "Bali to Lombok"
+        },
+        {
+          "_key": "s277",
+          "_type": "span",
+          "marks": [],
+          "text": " · "
+        },
+        {
+          "_key": "s279",
+          "_type": "span",
+          "marks": [
+            "s278"
+          ],
+          "text": "Lombok to Gili Islands"
+        },
+        {
+          "_key": "s280",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "s275",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-lombok"
+        },
+        {
+          "_key": "s278",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/lombok-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "lombok_gili",
+  "destinationSecondary": [],
+  "experienceTags": [
+    "snorkeling",
+    "island_day_trip",
+    "beach_sunset"
+  ],
+  "faq": [
+    {
+      "_key": "s282",
+      "answer": "Yes, with a driver for the scattered south-coast beaches and a base where people eat together, such as Kuta Lombok. The main risks are unlit roads and rented scooters, not people. The Gilis are easier still, since they have no motor vehicles and a steady traveller crowd.",
+      "question": "Is Lombok good for solo travellers?"
+    },
+    {
+      "_key": "s283",
+      "answer": "Generally yes for careful travellers. There are no cars or motorbikes, and the islands are small and busy. Keep valuables out of sight on the beach, plan your boat arrivals before dark, and check your own government's current travel advice.",
+      "question": "Is it safe to travel alone in the Gili Islands?"
+    },
+    {
+      "_key": "s284",
+      "answer": "Gili Air is the usual answer, because it is social without being loud. Gili Trawangan suits you if you want a crowd and a real evening scene, and Gili Meno only if you want to be left alone. All three are close and linked by public boats.",
+      "question": "Which Gili island is best for solo travellers?"
+    },
+    {
+      "_key": "s285",
+      "answer": "Choose a hostel or guesthouse with a shared terrace, book group formats such as a surf lesson or a shared snorkeling boat, and eat at communal tables. Kuta Lombok and the Gilis both have an easy traveller crowd, and three nights in one place is usually enough.",
+      "question": "How do I meet people travelling alone in Lombok?"
+    },
+    {
+      "_key": "s286",
+      "answer": "Yes, for Kuta Lombok and two Gilis. Five days works if you drop one island. It is not enough to add a Rinjani summit trek, which needs two or three days of its own.",
+      "question": "Is 7 days enough for Lombok and the Gili Islands alone?"
+    },
+    {
+      "_key": "s287",
+      "answer": "Take the public boat from Bangsal harbour, which leaves when full, takes 15 to 30 minutes and costs a few dollars. Buy only at the official counter and arrive before the slow boats stop in the mid-afternoon. A private speedboat is mostly worth it if you can split it.",
+      "question": "How do I get from Lombok to the Gili Islands as a solo traveller?"
+    }
+  ],
+  "focusKeyword": "Lombok and Gili Islands solo travel itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "7 Days Solo in Lombok and the Gili Islands: Kuta, Gili Air and Gili Trawangan — Gili Air Eastern coast looking at Lombok",
+    "asset": {
+      "_ref": "image-2ecf26b205ae92444feca8edf6d695806997f341-3840x2141-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Laurent Bigué, CC BY-SA 3.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Gili_Air_Eastern_coast_looking_at_Lombok.jpg"
+  },
+  "intro": "Lombok and the Gilis are one of the easiest places in Indonesia to travel alone, and one of the more expensive to get around alone. This week is built around that tension: social beds in Kuta Lombok, one long transfer day, then two islands where a solo traveller is never the odd one out. The hard part is the transfer, not the company.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 7-day solo itinerary for Lombok and the Gili Islands: Kuta, Gili Air and Trawangan, with how to meet people, boat tips, safety and real costs.",
+  "metaTitle": "Solo in Lombok and the Gilis: A 7-Day Itinerary",
+  "primaryAffiliatePartner": "klook",
+  "route": "Kuta Lombok → Gili Air → Gili Trawangan",
+  "routeSummary": "Kuta Lombok → Gili Air → Gili Trawangan",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "booking",
+    "12go",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-lombok-gili-islands-solo-travellers"
+  },
+  "title": "7 Days Solo in Lombok and the Gili Islands: Kuta, Gili Air and Gili Trawangan",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": [
+    "diving_snorkeling"
+  ],
+  "travellerTypes": [
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "balanced"
+}

@@ -627,7 +627,10 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     // query is "java itinerary" at position 69, so the H1 and title now carry
     // that wording instead of a bare comma list of landmarks.
     h1: "Java Itineraries",
-    metaTitle: "Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day",
+    // 2026-10-09 generator run: metaTitle was "Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day"
+    // (57 chars). GSC 2026-09-09..10-06: "east java" 38 impressions at position 9.7,
+    // 0 clicks; the hub never named East Java. Baseline for the 28-day read: 2026-11-06.
+    metaTitle: "Java Itineraries: Yogyakarta, East Java, Bromo and Ijen",
     metaDescription:
       "How many days Java needs, the order that saves the most road time, and where Borobudur, Bromo and Ijen fit. Day-by-day routes with transfer times.",
     intro:
@@ -776,6 +779,67 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
           anchor: "our full Borobudur against Prambanan comparison",
           after: ".",
         },
+      },
+      // Added 2026-10-09 (docs/reinforce-java-east-java-2026-10-09.md), for the query
+      // "east java" (38 impressions, position 9.7, 0 clicks). Facts are read off the
+      // East Java itineraries already live, not new research.
+      {
+        heading: "What is there to see in East Java?",
+        body: [
+          "East Java holds the two volcanoes most people come to Java for, Mount Bromo and Kawah Ijen, plus three national parks that almost nobody visits: Baluran, Alas Purwo and Meru Betiri. The region runs from Surabaya in the north to Banyuwangi on the eastern tip, where the ferry to Bali leaves.",
+          "Most trips use it as a corridor between Yogyakarta and Bali, which is a fair way to see the two volcanoes in four or five days. The wildlife parks need a driver and a base in Banyuwangi, so they suit a second week, not a first.",
+        ],
+        table: {
+          columns: ["Place", "What it is for", "Base", "Honest warning"],
+          rows: [
+            [
+              "Mount Bromo",
+              "Sunrise over the Tengger caldera and a walk to the crater rim",
+              "Cemoro Lawang, or Surabaya for a single push",
+              "The jeep leaves before dawn and the nights are cold",
+            ],
+            [
+              "Kawah Ijen",
+              "The blue flames and the acid crater lake",
+              "Banyuwangi",
+              "A midnight start, and the crater closes on some dates",
+            ],
+            [
+              "Baluran",
+              "Open savanna with wild banteng at first light",
+              "Banyuwangi, about an hour's drive",
+              "Closed to routine visits on Mondays",
+            ],
+            [
+              "Alas Purwo and Sukamade",
+              "The emptiest savanna tower, then turtle nesting after dark",
+              "Banyuwangi, with one night inside Meru Betiri",
+              "Sukamade needs a 4WD and has no phone signal",
+            ],
+          ],
+          caption:
+            "The corridor (Bromo and Ijen) is the first-trip version. The parks are the repeat-visitor version. Opening days and fees change, so check the current notice before you set an alarm.",
+        },
+        link: {
+          before: "The quick crossing is the ",
+          href: "/trips/4-days-bromo-ijen-volcano-crossing",
+          anchor: "4-day Bromo and Ijen route",
+          after: ".",
+        },
+        subsections: [
+          {
+            heading: "How many days does East Java need?",
+            body: [
+              "Four days covers Bromo and Ijen in one line from Surabaya to Bali. Seven days adds the three wildlife parks from a single base in Banyuwangi. Below four, pick one volcano, and Ijen is the one closest to Bali.",
+            ],
+            link: {
+              before: "The wildlife version is the ",
+              href: "/trips/7-days-east-java-wildlife-baluran-alas-purwo",
+              anchor: "7-day Baluran and Alas Purwo route",
+              after: ".",
+            },
+          },
+        ],
       },
       {
         heading: "When is the best time to visit Java?",
