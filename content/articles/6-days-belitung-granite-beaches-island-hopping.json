@@ -1,0 +1,1672 @@
+{
+  "_createdAt": "2026-10-12T04:14:09Z",
+  "_id": "itinerary-6-days-belitung-granite-beaches-island-hopping",
+  "_rev": "infT1bNDKJbVdCXG2UAigH",
+  "_type": "article",
+  "_updatedAt": "2026-10-12T04:14:59Z",
+  "affiliateLinks": [
+    {
+      "_key": "bl-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "bl-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/belitung?z=16022946",
+      "anchorText": "Jakarta to Belitung flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_JAKARTA_BELITUNG",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/belitung"
+    },
+    {
+      "_key": "bl-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tanjung+Kelayang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays near Tanjung Kelayang on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_TANJUNG_KELAYANG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Tanjung+Kelayang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bl-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Tanjung+Pandan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Tanjung Pandan on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_TANJUNG_PANDAN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Tanjung+Pandan%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-12T04:14:00.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to October",
+  "body": [
+    {
+      "_key": "bl-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is this Belitung trip for, and who should skip it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "This six-day Belitung trip is for families, couples and friends who want a calm beach week in Indonesia without a long journey: one hour on a plane from Jakarta, one base on the north coast, and short boat trips between granite islands. It suits young children, first beach holidays and anyone tired of packing every second day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if you want surf, nightlife, big diving or a full cultural program. Belitung is quiet after dark, the reefs are pleasant rather than world class, and the island has little public transport, so you will pay for a car and driver. If you want dramatic diving, look at Raja Ampat or Komodo instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "bl-s11",
+          "_type": "span",
+          "marks": [],
+          "text": " Jakarta, Tanjung Pandan airport, the north coast around Tanjung Kelayang and Tanjung Tinggi (4 nights), Tanjung Pandan town (1 night), back to Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s13",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "bl-s14",
+          "_type": "span",
+          "marks": [],
+          "text": " Relaxed. One island-hopping day, one long road day that you can cut, and the rest is beach time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there:"
+        },
+        {
+          "_key": "bl-s17",
+          "_type": "span",
+          "marks": [],
+          "text": " a domestic flight of about 1 hour from Jakarta Soekarno-Hatta to Tanjung Pandan (TJQ)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best season:"
+        },
+        {
+          "_key": "bl-s20",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly May to October, the drier months, when the sea between the islands is calmest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "bl-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " families with young children, couples, small groups of friends, and anyone living in or passing through Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s25",
+          "_type": "span",
+          "marks": [],
+          "text": "Where is Belitung, and why go there instead of Bali?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s27",
+          "_type": "span",
+          "marks": [],
+          "text": "Belitung is an island in the Java Sea off the east coast of Sumatra, part of the Bangka Belitung Islands province, and about an hour by air from Jakarta. It is known for beaches framed by huge rounded granite boulders, and in April 2021 UNESCO listed the island as a Global Geopark, Indonesia's sixth, for that granite landscape."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s29",
+          "_type": "span",
+          "marks": [],
+          "text": "The case for it over Bali is simple for anyone starting in Jakarta: a shorter flight, quieter beaches and no traffic. The case against it is that there is less to do, fewer places to eat and almost no public transport. For a family week of swimming and boat trips, that trade is often the right one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s31",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Belitung?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s33",
+          "_type": "span",
+          "marks": [],
+          "text": "Five to six days is the right length for Belitung. That gives you one full island-hopping day, one optional day trip to East Belitung, a spare day for weather and two slow beach days. Three days covers only the island hopping and Tanjung Tinggi, and more than a week starts to repeat itself unless you simply want a beach holiday."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s35",
+          "_type": "span",
+          "marks": [],
+          "text": "This route uses six days because the island-hopping day depends on the sea, and a calm morning is the one thing you cannot schedule. With a spare day, a cancelled boat costs you nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s37",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get to Belitung from Jakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s39",
+          "_type": "span",
+          "marks": [],
+          "text": "You fly. Direct flights connect Jakarta Soekarno-Hatta with Tanjung Pandan (TJQ) in about 1 hour 5 minutes; current listings show morning departures on Sriwijaya Air and a late-morning Citilink flight. There is no practical ferry for visitors. Compare current schedules for "
+        },
+        {
+          "_key": "bl-s41",
+          "_type": "span",
+          "marks": [
+            "bl-m40"
+          ],
+          "text": "Jakarta to Belitung flights on 12Go"
+        },
+        {
+          "_key": "bl-s42",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fix your dates."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m40",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_JAKARTA_BELITUNG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s44",
+          "_type": "span",
+          "marks": [],
+          "text": "Take the earliest flight you can. Landing in the morning turns day 1 into a beach afternoon instead of a travel day. Fares rise sharply around Indonesian school holidays and Lebaran, so book early if your dates touch either."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s46",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly from Jakarta and settle on the north coast"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s49",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Jakarta to Tanjung Pandan. Set up an "
+        },
+        {
+          "_key": "bl-s51",
+          "_type": "span",
+          "marks": [
+            "bl-m50"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "bl-s52",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave home so you can message your driver from the arrivals hall."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m50",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s55",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to the north coast around Tanjung Kelayang, which takes under an hour as a working estimate. Check in, swim, and let the children find their feet. The water along this coast is usually shallow and calm in the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl-s58",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat near your hotel. Restaurants on this stretch are few, so ask your hotel what is open before you go out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl-s61",
+          "_type": "span",
+          "marks": [],
+          "text": " the north coast, near Tanjung Kelayang or Tanjung Tinggi. Compare "
+        },
+        {
+          "_key": "bl-s63",
+          "_type": "span",
+          "marks": [
+            "bl-m62"
+          ],
+          "text": "stays near Tanjung Kelayang on Booking.com"
+        },
+        {
+          "_key": "bl-s64",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m62",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_TANJUNG_KELAYANG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl-s67",
+          "_type": "span",
+          "marks": [],
+          "text": " stay within walking distance of Tanjung Kelayang beach if you can. The island-hopping boats leave from there, so you avoid an early drive on day 2."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s69",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Island hopping to Lengkuas lighthouse"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s72",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave early from Tanjung Kelayang beach. A typical loop takes in Batu Berlayar, a cluster of granite rocks, a small sandbar island when the tide allows, and Lengkuas island, where a lighthouse built by the Dutch in 1882 still works. Lengkuas is about 20 to 30 minutes by boat from Tanjung Kelayang. Snorkel off Lengkuas, where the reef is close to the shore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s75",
+          "_type": "span",
+          "marks": [],
+          "text": " Many boats stop at Kepayang island on the way back. Kepayang hosts a turtle conservation and ecotourism project run by the Belitung Coastal Community Group, a local organisation supported by the UNDP small grants programme. Children usually remember this stop more than the lighthouse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl-s78",
+          "_type": "span",
+          "marks": [],
+          "text": " Early dinner and an early night. A day on a small boat in the sun tires everyone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl-s81",
+          "_type": "span",
+          "marks": [],
+          "text": " boats are hired whole, and a boat takes up to about ten people. Travel listings have quoted roughly IDR 350,000 to 550,000 per boat in past years, which is old data, so expect more in 2026 and agree the price, the islands, snorkel gear and the return time before you board."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl-s84",
+          "_type": "span",
+          "marks": [],
+          "text": " if the wind is up, the boatmen will say so. Move the trip to day 3 or day 5 rather than going out in rough water with children."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s86",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Tanjung Tinggi and a slow beach day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s89",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim at your hotel beach while it is cool."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s92",
+          "_type": "span",
+          "marks": [],
+          "text": " Go to Tanjung Tinggi, the beach of giant granite boulders that was a main filming location for the 2008 film Laskar Pelangi. The boulders are good for scrambling, but they are smooth and slippery when wet, so keep small children close."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl-s95",
+          "_type": "span",
+          "marks": [],
+          "text": " Stay for sunset at Tanjung Tinggi, then eat nearby."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl-s98",
+          "_type": "span",
+          "marks": [],
+          "text": " this is also your spare day. If the boat trip was cancelled on day 2, do it today and move Tanjung Tinggi to the afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s100",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: East Belitung, the Laskar Pelangi school and Manggar coffee"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s103",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive east to Gantong, roughly 2 hours from Tanjung Pandan as a working estimate. Visit the replica of the Laskar Pelangi school, built for the film of Andrea Hirata's novel, and the Museum Kata Andrea Hirata nearby, a small literary museum."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s106",
+          "_type": "span",
+          "marks": [],
+          "text": " Stop in Manggar, a small town known for its coffee culture and a monument to its many coffee shops. Order local coffee and a snack in a traditional shop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl-s109",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive back to the north coast before dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl-s112",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the day to cut if your children dislike long car rides. It adds about four hours of driving and you lose a beach day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s114",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Danau Kaolin and a night in Tanjung Pandan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s116",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s117",
+          "_type": "span",
+          "marks": [],
+          "text": " Last swim on the north coast, then check out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s119",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s120",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Tanjung Pandan and stop at Danau Kaolin, a white and turquoise lake left by kaolin mining, about 10 minutes from town. It is not an official attraction, facilities are minimal and swimming is not allowed, so treat it as a short photo stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s122",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl-s123",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat Mie Belitung, the island's noodle dish, and try a coffee at one of the old coffee houses in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s125",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl-s126",
+          "_type": "span",
+          "marks": [],
+          "text": " Tanjung Pandan. Compare "
+        },
+        {
+          "_key": "bl-s128",
+          "_type": "span",
+          "marks": [
+            "bl-m127"
+          ],
+          "text": "stays in Tanjung Pandan on Booking.com"
+        },
+        {
+          "_key": "bl-s129",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m127",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_TANJUNG_PANDAN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl-s132",
+          "_type": "span",
+          "marks": [],
+          "text": " sleeping in town keeps the last morning short, because the airport is close."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s134",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Fly back to Jakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s136",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl-s137",
+          "_type": "span",
+          "marks": [],
+          "text": " Buy coffee or satam stone souvenirs if you want them. Satam is the local name for the black tektite glass found on the island."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s139",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl-s140",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly back to Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl-s143",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are connecting to an international flight, take the morning flight from Tanjung Pandan and leave at least four hours in Jakarta. Delays on short domestic routes are common."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s145",
+          "_type": "span",
+          "marks": [],
+          "text": "How does Belitung compare with Karimunjawa and the Gili Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s147",
+          "_type": "span",
+          "marks": [],
+          "text": "For a beach week from Jakarta, Belitung is the easiest of the three to reach, with a one-hour direct flight and no boat crossing to the main island. Karimunjawa is wilder but depends on a ferry timetable from Jepara, and the Gili Islands are livelier but need a flight to Lombok and a boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-t148",
+      "_type": "comparisonTable",
+      "caption": "How three beach weeks compare for a family starting in Jakarta. Times are working estimates, so check current schedules.",
+      "columns": [
+        "Factor",
+        "Belitung",
+        "Karimunjawa",
+        "Gili Islands"
+      ],
+      "rows": [
+        {
+          "_key": "bl-r149",
+          "cells": [
+            "Getting there from Jakarta",
+            "Direct flight of about 1 hour",
+            "Road or flight to Java's north coast, then a ferry from Jepara on set days",
+            "Flight to Lombok, then a road transfer and a boat"
+          ]
+        },
+        {
+          "_key": "bl-r150",
+          "cells": [
+            "Weather risk to your plan",
+            "Boat day can move, the island itself stays reachable",
+            "Ferries can be cancelled in rough seas",
+            "Boats can be cancelled in rough seas"
+          ]
+        },
+        {
+          "_key": "bl-r151",
+          "cells": [
+            "Getting around",
+            "Car and driver",
+            "Motorbike, car or boat",
+            "Walking, bicycles, horse carts"
+          ]
+        },
+        {
+          "_key": "bl-r152",
+          "cells": [
+            "Best for",
+            "Young children, short breaks, one base",
+            "Snorkelling and quiet, if the ferry days fit",
+            "Couples and friends who want restaurants and evenings"
+          ]
+        },
+        {
+          "_key": "bl-r153",
+          "cells": [
+            "Weak point",
+            "Little to do after dark, few restaurants",
+            "Timetable shapes the whole trip",
+            "Busier, and more crossings"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bl-b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s155",
+          "_type": "span",
+          "marks": [],
+          "text": "If the ferry days do not suit you, see our "
+        },
+        {
+          "_key": "bl-s157",
+          "_type": "span",
+          "marks": [
+            "bl-m156"
+          ],
+          "text": "Karimunjawa itinerary"
+        },
+        {
+          "_key": "bl-s158",
+          "_type": "span",
+          "marks": [],
+          "text": " for how that trip is planned. For the Gilis with children, see the "
+        },
+        {
+          "_key": "bl-s160",
+          "_type": "span",
+          "marks": [
+            "bl-m159"
+          ],
+          "text": "10-day Lombok and Gili Islands family route"
+        },
+        {
+          "_key": "bl-s161",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m156",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-karimunjawa-java-islands"
+        },
+        {
+          "_key": "bl-m159",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-lombok-gili-families"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s163",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s165",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: your flights, especially around school holidays and Lebaran, and your north coast room, since the choice is small. Arrange a car and driver for the whole stay through your hotel, and confirm the daily rate and fuel in writing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s167",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the island-hopping day. Book the boat the evening before, once you have seen the forecast, and keep a second day free in case the sea is rough."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s169",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in Belitung?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s171",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is assuming you can get around without a driver. There are no regular buses for visitors and ride-hailing is limited, so plan on a car. The second is staying in Tanjung Pandan for the whole trip, which adds a drive every day to reach the beaches and the boats."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s173",
+          "_type": "span",
+          "marks": [],
+          "text": "The third is going in the wet season, roughly November to April, and building the trip around the boat day. The fourth is arriving without cash, since small warungs, boatmen and the islands do not take cards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s175",
+          "_type": "span",
+          "marks": [],
+          "text": "What should you cut, adapt or upgrade?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s177",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut day 4 if you have young children or less time; the trip still works as a five-day beach and island week. Adapt it by staying all five nights on the north coast if you have an early flight home, since the airport is still reachable from there."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s179",
+          "_type": "span",
+          "marks": [],
+          "text": "Upgrade by adding a second boat day to the quieter southern coast, or by booking a beachfront villa with a pool for the slow days. If you want more adventure after Belitung, a "
+        },
+        {
+          "_key": "bl-s181",
+          "_type": "span",
+          "marks": [
+            "bl-m180"
+          ],
+          "text": "North Sumatra trip with kids"
+        },
+        {
+          "_key": "bl-s182",
+          "_type": "span",
+          "marks": [],
+          "text": " adds orangutans and Lake Toba."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m180",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-north-sumatra-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s184",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s186",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the visa rules for your passport on our "
+        },
+        {
+          "_key": "bl-s188",
+          "_type": "span",
+          "marks": [
+            "bl-m187"
+          ],
+          "text": "Indonesia visa guide"
+        },
+        {
+          "_key": "bl-s189",
+          "_type": "span",
+          "marks": [],
+          "text": "; Belitung has no separate entry rules. Bring cash in rupiah, reef-safe sunscreen, water shoes for the granite and snorkel masks that fit small faces, since rental gear is often adult sized."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m187",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/visa-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s191",
+          "_type": "span",
+          "marks": [],
+          "text": "Get travel insurance that covers boat trips and snorkelling. Fees and schedules change, so confirm current flight routes and boat prices before you lock in your room."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s193",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is Belitung worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s195",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you start in Jakarta and want an easy beach week with children or a partner. Belitung gives you calm water, strange and beautiful granite coastline and one good boat day, for one hour of flying. Keep the pace slow, stay on the north coast and leave space for the sea to decide your boat day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s197",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want nightlife, surf or serious diving. For those, the Gili Islands, Komodo or Raja Ampat are better choices."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s199",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl-b200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s202",
+          "_type": "span",
+          "marks": [
+            "bl-m201"
+          ],
+          "text": "6 days in Karimunjawa"
+        },
+        {
+          "_key": "bl-s203",
+          "_type": "span",
+          "marks": [],
+          "text": " for the other island escape from Java."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m201",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-karimunjawa-java-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s206",
+          "_type": "span",
+          "marks": [
+            "bl-m205"
+          ],
+          "text": "9 days in North Sumatra with kids"
+        },
+        {
+          "_key": "bl-s207",
+          "_type": "span",
+          "marks": [],
+          "text": " for a family trip with more wildlife."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m205",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-north-sumatra-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl-b208",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl-s210",
+          "_type": "span",
+          "marks": [
+            "bl-m209"
+          ],
+          "text": "The Wild Indonesia hub"
+        },
+        {
+          "_key": "bl-s211",
+          "_type": "span",
+          "marks": [],
+          "text": " for routes beyond the main islands."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl-m209",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
+  "destinationSecondary": [],
+  "experienceTags": [
+    "snorkeling",
+    "island_day_trip",
+    "beach_sunset"
+  ],
+  "faq": [
+    {
+      "_key": "bl-f212",
+      "answer": "Yes, if you want a calm beach week close to Jakarta. Belitung offers granite boulder beaches, easy island hopping and quiet roads, for a one-hour flight. It is less good for nightlife, surf or serious diving, and you will need a car and driver to get around.",
+      "question": "Is Belitung worth visiting?"
+    },
+    {
+      "_key": "bl-f213",
+      "answer": "Fly from Jakarta Soekarno-Hatta to Tanjung Pandan (TJQ). The direct flight takes about 1 hour 5 minutes, and current listings show daily morning and late-morning departures. There is no practical ferry for visitors, so check current schedules before you book.",
+      "question": "How do you get to Belitung from Jakarta?"
+    },
+    {
+      "_key": "bl-f214",
+      "answer": "Five to six days is the right length. It covers one island-hopping day, a trip to East Belitung, two beach days and a spare day in case the sea is too rough for boats. Three days is enough only for island hopping and Tanjung Tinggi.",
+      "question": "How many days do you need in Belitung?"
+    },
+    {
+      "_key": "bl-f215",
+      "answer": "Yes. The flight from Jakarta is short, the north coast water is usually shallow and calm in the dry season, and you can stay in one place all week. Keep children close on the granite boulders, which get slippery when wet, and skip the long East Belitung drive if they dislike cars.",
+      "question": "Is Belitung good for families with children?"
+    },
+    {
+      "_key": "bl-f216",
+      "answer": "The drier months, roughly May to October, are best because the sea between the islands is calmer. From November to April heavier rain and wind can cancel boat trips, so keep a spare day if you travel then.",
+      "question": "What is the best time to visit Belitung?"
+    },
+    {
+      "_key": "bl-f217",
+      "answer": "You hire the whole boat, which takes up to about ten people. Past travel listings quoted roughly IDR 350,000 to 550,000 per boat, so expect more in 2026. Agree the price, the islands, snorkel gear and the return time before you leave Tanjung Kelayang.",
+      "question": "How much does island hopping in Belitung cost?"
+    },
+    {
+      "_key": "bl-f218",
+      "answer": "In practice, yes. There are no regular buses for visitors and ride-hailing is limited, so most travellers hire a car with a driver through their hotel. Confirm the daily rate and fuel in writing before the first day.",
+      "question": "Do you need a car in Belitung?"
+    }
+  ],
+  "focusKeyword": "Belitung itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "6 Days in Belitung: Granite Beaches and Island Hopping from Jakarta — Pantai Tanjung Tinggi Belitung 01",
+    "asset": {
+      "_ref": "image-90b8bc2deab9ad06ef9426f296881c42067cb4c6-3840x2160-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Raflinoer32, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Pantai_Tanjung_Tinggi_Belitung_01.jpg"
+  },
+  "intro": "Belitung is the beach week most foreign visitors to Indonesia have never heard of, and most people in Jakarta know well. It is one hour from the capital by plane, it has calm water, granite boulders the size of houses and a handful of small islands you can reach in twenty minutes by boat. What it does not have is much to do after dark or any easy way to get around without a driver. This route accepts both, keeps you on one coast, and leaves the sea to choose your boat day.",
+  "logisticsComplexity": "easy",
+  "metaDescription": "A relaxed 6-day Belitung itinerary from Jakarta: granite beaches, Lengkuas island hopping and a family pace, with flights, boat costs and when to go.",
+  "metaTitle": "Belitung Itinerary: 6 Days of Beaches and Islands",
+  "primaryAffiliatePartner": "booking",
+  "route": "Jakarta, Tanjung Pandan, Tanjung Kelayang, Lengkuas Island, Gantong, Manggar, Tanjung Pandan, Jakarta",
+  "routeSummary": "Jakarta → Tanjung Kelayang → Lengkuas Island → East Belitung → Tanjung Pandan",
+  "secondaryAffiliatePartners": [
+    "12go",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "6-days-belitung-granite-beaches-island-hopping"
+  },
+  "title": "6 Days in Belitung: Granite Beaches and Island Hopping from Jakarta",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": [
+    "diving_snorkeling"
+  ],
+  "travellerTypes": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 6,
+  "vibe": "relaxed"
+}
