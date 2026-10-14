@@ -1219,7 +1219,8 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
           "Fly if you are heading deep into Sumbawa. The overland chain of two ferries and a bus is really only worth it for budget or slow travellers.",
       },
     ],
-    relatedTripSlugs: ["14-days-bali-komodo-sumba"],
+    // 2026-10-14: first Sumbawa itinerary, linked from its own transport page.
+    relatedTripSlugs: ["7-days-west-sumbawa-whale-sharks-moyo-kenawa", "14-days-bali-komodo-sumba"],
     priority: 3,
     status: "live",
   },

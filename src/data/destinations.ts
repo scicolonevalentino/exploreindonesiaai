@@ -225,6 +225,20 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
               after: ".",
             },
           },
+          // Added 2026-10-14 (docs/reinforce-10-days-bali-lombok-gili-islands.md, link 5.2):
+          // the Bali hub never linked the Bali, Lombok and Gili route.
+          {
+            heading: "Can you add Lombok to a Bali and Gili trip?",
+            body: [
+              "Yes, from ten days. Fly Bali to Lombok in about 40 minutes, give south Lombok three nights, cross to the Gilis by road and short boat, then take the fast boat back to Bali. Under nine days, Lombok costs more in transfers than it gives back, so keep to Bali and the Gilis.",
+            ],
+            link: {
+              before: "The full route, with every crossing timed, is our ",
+              href: "/trips/10-days-bali-lombok-gili-islands",
+              anchor: "10-day Bali, Lombok and Gili Islands itinerary",
+              after: ".",
+            },
+          },
         ],
         // 2026-09-12, sezione 7.2 di docs/reinforce-bali-nearby-islands-2026-09-09.md.
         // Ri-puntato dalla hub alla guida nuova: l'anchor promette una guida e

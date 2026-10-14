@@ -1,0 +1,1848 @@
+{
+  "_createdAt": "2026-10-14T04:14:31Z",
+  "_id": "itinerary-7-days-west-sumbawa-whale-sharks-moyo-kenawa",
+  "_rev": "KNNaIaoxoS5ACNptKzGpfT",
+  "_type": "article",
+  "_updatedAt": "2026-10-14T04:15:17Z",
+  "affiliateLinks": [
+    {
+      "_key": "sw-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "sw-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/bali/sumbawa-besar?z=16022946",
+      "anchorText": "Bali to Sumbawa Besar flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_BALI_SUMBAWA_BESAR",
+      "publicUrl": "https://12go.asia/en/travel/bali/sumbawa-besar"
+    },
+    {
+      "_key": "sw-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/lombok/sumbawa-besar?z=16022946",
+      "anchorText": "Lombok to Sumbawa Besar flights and transfers on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "12GO_LOMBOK_SUMBAWA_BESAR",
+      "publicUrl": "https://12go.asia/en/travel/lombok/sumbawa-besar"
+    },
+    {
+      "_key": "sw-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sumbawa+Besar%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Sumbawa Besar on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_SUMBAWA_BESAR",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sumbawa+Besar%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "sw-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Moyo+Island%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays on Moyo Island on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_MOYO_ISLAND",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Moyo+Island%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-14T04:14:19.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to November",
+  "body": [
+    {
+      "_key": "sw-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is this Sumbawa trip for, and who should skip it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "This seven-day West Sumbawa trip is for couples, friends and repeat visitors to Indonesia who have done Bali and Lombok and want the next island east: whale sharks at dawn in Saleh Bay, a waterfall and quiet reef on Moyo Island, and a small uninhabited island off the ferry port. It suits strong swimmers and people who are fine with basic rooms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if you want beach clubs, polished resorts at every stop or an easy week with no early starts. Sumbawa has few hotels outside Sumbawa Besar, the whale shark morning starts in the dark, and boats run on local timing. If that sounds tiring, the Gili Islands or south Lombok will give you a gentler week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "sw-s11",
+          "_type": "span",
+          "marks": [],
+          "text": " fly into Sumbawa Besar, Saleh Bay and Labuhan Jambu (1 night), back to Sumbawa Besar, Moyo Island (2 nights), then west by road to Poto Tano, Kenawa Island and the ferry back to Lombok."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s13",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "sw-s14",
+          "_type": "span",
+          "marks": [],
+          "text": " one pre-dawn start, two boat crossings and one long road day, with two slow days on Moyo in between."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there:"
+        },
+        {
+          "_key": "sw-s17",
+          "_type": "span",
+          "marks": [],
+          "text": " Wings Air flies to Sumbawa Besar (SWQ) from Bali in about an hour and from Lombok in about 40 minutes, according to current 12Go listings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best season:"
+        },
+        {
+          "_key": "sw-s20",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly May to November, when operators report whale sharks gathering around the fishing platforms in Saleh Bay and the sea to Moyo is calmer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "sw-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " couples, friends and repeat travellers who swim well and want wildlife over nightlife."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s25",
+          "_type": "span",
+          "marks": [],
+          "text": "Where is Sumbawa, and why go there after Lombok?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s27",
+          "_type": "span",
+          "marks": [],
+          "text": "Sumbawa is the large island directly east of Lombok, in the same province of West Nusa Tenggara, with Komodo and Flores beyond it. The western half, around the town of Sumbawa Besar, is reachable in under an hour by plane from Bali or by a car ferry of about one hour 40 minutes from Lombok."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s29",
+          "_type": "span",
+          "marks": [],
+          "text": "The reason to go is that Saleh Bay, on its north coast, is one of the few places in Indonesia where you can snorkel with whale sharks without a liveaboard. Add Moyo Island, a protected forest island with a terraced waterfall, and you have a week that feels very different from Lombok for a short extra flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s31",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get to Sumbawa from Bali or Lombok?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s33",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly into Sumbawa Besar and leave by the ferry, or the other way round. Wings Air runs direct flights from Denpasar to Sumbawa Besar in about an hour and from Lombok in about 40 minutes; 12Go listed one-way fares from roughly 56 to 90 US dollars in October 2026, which you should treat as a working estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s35",
+          "_type": "span",
+          "marks": [],
+          "text": "Overland, the public car ferry crosses from Kayangan on Lombok's east coast to Poto Tano on Sumbawa in about one hour 40 minutes, with departures roughly every hour, and the road from Poto Tano to Sumbawa Besar takes around two hours. Compare "
+        },
+        {
+          "_key": "sw-s37",
+          "_type": "span",
+          "marks": [
+            "sw-m36"
+          ],
+          "text": "Bali to Sumbawa Besar flights on 12Go"
+        },
+        {
+          "_key": "sw-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "sw-s40",
+          "_type": "span",
+          "marks": [
+            "sw-m39"
+          ],
+          "text": "Lombok to Sumbawa Besar flights and transfers on 12Go"
+        },
+        {
+          "_key": "sw-s41",
+          "_type": "span",
+          "marks": [],
+          "text": ", and see our "
+        },
+        {
+          "_key": "sw-s43",
+          "_type": "span",
+          "marks": [
+            "sw-m42"
+          ],
+          "text": "Bali to Sumbawa transport guide"
+        },
+        {
+          "_key": "sw-s44",
+          "_type": "span",
+          "marks": [],
+          "text": " for the full ferry chain."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m36",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_BALI_SUMBAWA_BESAR"
+        },
+        {
+          "_key": "sw-m39",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "12GO_LOMBOK_SUMBAWA_BESAR"
+        },
+        {
+          "_key": "sw-m42",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-sumbawa"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-t45",
+      "_type": "comparisonTable",
+      "caption": "Three ways into West Sumbawa. Times and fares are working estimates from current listings, so check schedules before you book.",
+      "columns": [
+        "Factor",
+        "Flight from Bali",
+        "Flight from Lombok",
+        "Ferry from Lombok"
+      ],
+      "rows": [
+        {
+          "_key": "sw-r46",
+          "cells": [
+            "Lands or arrives at",
+            "Sumbawa Besar (SWQ)",
+            "Sumbawa Besar (SWQ)",
+            "Poto Tano, west coast"
+          ]
+        },
+        {
+          "_key": "sw-r47",
+          "cells": [
+            "Time",
+            "About 1 hour in the air",
+            "About 40 minutes in the air",
+            "About 1 hour 40 minutes crossing, plus roads on both sides"
+          ]
+        },
+        {
+          "_key": "sw-r48",
+          "cells": [
+            "Fare",
+            "Roughly 70 to 90 US dollars one way",
+            "Roughly 56 US dollars one way",
+            "A few dollars for a foot passenger"
+          ]
+        },
+        {
+          "_key": "sw-r49",
+          "cells": [
+            "Frequency",
+            "Thin, usually one direct flight a day",
+            "Thin, usually one flight a day",
+            "Roughly hourly"
+          ]
+        },
+        {
+          "_key": "sw-r50",
+          "cells": [
+            "Best for",
+            "Starting the trip fast",
+            "Starting from Lombok or the Gilis",
+            "The return leg, with a stop at Kenawa"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "sw-b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s52",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly into Sumbawa Besar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s55",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Bali or Lombok to Sumbawa Besar. Set up an "
+        },
+        {
+          "_key": "sw-s57",
+          "_type": "span",
+          "marks": [
+            "sw-m56"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "sw-s58",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave, because you will arrange drivers and boats by WhatsApp from here on."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m56",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s61",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and walk to Istana Dalam Loka, the wooden palace of the former Sumbawa sultanate, built in the late nineteenth century on stilts. It takes under an hour and gives you a sense of the island beyond the sea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat at the night stalls in town and confirm tomorrow's driver and the whale shark boat with your operator."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "sw-s67",
+          "_type": "span",
+          "marks": [],
+          "text": " Sumbawa Besar. Compare "
+        },
+        {
+          "_key": "sw-s69",
+          "_type": "span",
+          "marks": [
+            "sw-m68"
+          ],
+          "text": "stays in Sumbawa Besar on Booking.com"
+        },
+        {
+          "_key": "sw-s70",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m68",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SUMBAWA_BESAR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sw-s73",
+          "_type": "span",
+          "marks": [],
+          "text": " book the whale shark trip before you fly. Operators run small groups and the boats leave before dawn, so you cannot sort it out on the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sw-s76",
+          "_type": "span",
+          "marks": [],
+          "text": " Wings Air uses small turboprop planes with tight baggage allowances. Check what your fare includes and pay for checked luggage in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s78",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Drive east to Saleh Bay"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s81",
+          "_type": "span",
+          "marks": [],
+          "text": " Slow start in town. Buy snacks, cash and anything you need for a night in a village."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s84",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive east to Labuhan Jambu in the Tarano district, on the shore of Saleh Bay. Operators put the drive at around two hours, and one lists it at 117 kilometres."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s87",
+          "_type": "span",
+          "marks": [],
+          "text": " Sleep in Labuhan Jambu or nearby. Rooms here are basic homestays or whatever your operator arranges, and you go to bed early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sw-s90",
+          "_type": "span",
+          "marks": [],
+          "text": " sleeping near the bay rather than in Sumbawa Besar removes a 1 a.m. departure. Some day tours from town leave that early, which is a poor trade for one extra hour of sleep in a nicer bed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s92",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Whale sharks at dawn, then back to Sumbawa Besar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s95",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Labuhan Jambu by boat around 4 to 5 a.m. for the bagan, the floating fishing platforms in Saleh Bay. Operators describe a ride of about an hour. Whale sharks feed on the small fish around the nets as the fishermen lift them at first light, which is why the timing matters. You swim from the boat with mask and fins."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s98",
+          "_type": "span",
+          "marks": [],
+          "text": " Return to the shore, eat, and drive back to Sumbawa Besar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s101",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest. This is the earliest and longest day of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s103",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sw-s104",
+          "_type": "span",
+          "marks": [],
+          "text": " shared trips from Labuhan Jambu were listed from about 120 US dollars per person, and private day tours from Sumbawa Besar from about 190 US dollars, according to operator listings. Ask what is included: boat, guide, gear, breakfast and the transfer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sw-s107",
+          "_type": "span",
+          "marks": [],
+          "text": " sightings are likely in season but not guaranteed, and operators say so. Keep at least two metres away, never touch the animals and do not use flash. Non-swimmers and people prone to seasickness should think twice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s109",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Boat to Moyo Island and Mata Jitu waterfall"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s112",
+          "_type": "span",
+          "marks": [],
+          "text": " Transfer to the north coast and take a boat to Moyo. Boats leave from the coast near Sumbawa Besar, including Pantai Goa, and the crossing takes from about 30 minutes by private speedboat to around two hours by slower local boat, depending on where you land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s114",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s115",
+          "_type": "span",
+          "marks": [],
+          "text": " Go to Mata Jitu, a waterfall that drops through a series of turquoise limestone pools in the forest. From Labuhan Aji village it is roughly an hour's walk through farmland or about 20 minutes by motorbike. Swim in the lower pools."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s117",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s118",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner where you sleep. Moyo is quiet after dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "sw-s121",
+          "_type": "span",
+          "marks": [],
+          "text": " Moyo Island, with village homestays in Labuhan Aji at one end and a small number of high-end resorts at the other. Compare "
+        },
+        {
+          "_key": "sw-s123",
+          "_type": "span",
+          "marks": [
+            "sw-m122"
+          ],
+          "text": "stays on Moyo Island on Booking.com"
+        },
+        {
+          "_key": "sw-s124",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m122",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MOYO_ISLAND"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s126",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "sw-s127",
+          "_type": "span",
+          "marks": [],
+          "text": " agree your return boat and time before you go. Public boats run on no fixed schedule, and travellers have been stuck on Moyo for days waiting for one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s129",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: A slow day on Moyo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s131",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s132",
+          "_type": "span",
+          "marks": [],
+          "text": " Snorkel off the beach or take a short boat to a nearby reef. Most of the island is protected forest, so the coast is where the activity is."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s134",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s135",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest, or walk to a second waterfall or a viewpoint with a local guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s138",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset from the jetty."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s140",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sw-s141",
+          "_type": "span",
+          "marks": [],
+          "text": " this is your spare day. If the sea was too rough on day 4, use today to cross instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s143",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: West to Poto Tano and Kenawa Island"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s145",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s146",
+          "_type": "span",
+          "marks": [],
+          "text": " Boat back to the Sumbawa coast and drive west to Poto Tano, around two hours from Sumbawa Besar. Leave early; this is the long day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s148",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s149",
+          "_type": "span",
+          "marks": [],
+          "text": " Hire a boat at Poto Tano for Kenawa, a small uninhabited island of grass and white sand a short ride offshore. Climb the hill for the view over the strait, then snorkel. Travellers report paying roughly 500,000 to 600,000 rupiah for a whole boat that can also visit Paserang and other islets, an informal price, so agree the route and return time first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s151",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "sw-s152",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the car ferry from Poto Tano to Kayangan and drive across Lombok, or camp on Kenawa with an organised trip and cross in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "sw-s155",
+          "_type": "span",
+          "marks": [],
+          "text": " Lombok, or a tent on Kenawa."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sw-s158",
+          "_type": "span",
+          "marks": [],
+          "text": " buses thin out on Sumbawa in the afternoon, so do this day with a hired car and driver, not public transport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s160",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Back on Lombok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s162",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "sw-s163",
+          "_type": "span",
+          "marks": [],
+          "text": " If you camped, take the first ferry. Drive to Lombok airport or on to Bangsal for the Gili Islands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s165",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "sw-s166",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly home or continue your trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s168",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "sw-s169",
+          "_type": "span",
+          "marks": [],
+          "text": " do not book a same-day international flight after a morning ferry from Poto Tano. Leave a night in Lombok in between."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s171",
+          "_type": "span",
+          "marks": [],
+          "text": "Which part of West Sumbawa is best for what?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s173",
+          "_type": "span",
+          "marks": [],
+          "text": "Saleh Bay is for whale sharks and nothing else; you go for one dawn swim. Moyo Island is for forest, a waterfall and reef, and needs two nights to be worth the boat. Kenawa is a short stop by the ferry port that suits a half day or one night in a tent."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-t174",
+      "_type": "comparisonTable",
+      "caption": "What each stop gives you, and how long it needs.",
+      "columns": [
+        "Stop",
+        "What it gives you",
+        "Time it needs",
+        "Weak point"
+      ],
+      "rows": [
+        {
+          "_key": "sw-r175",
+          "cells": [
+            "Saleh Bay, Labuhan Jambu",
+            "Snorkelling with whale sharks at the fishing platforms",
+            "One night and a pre-dawn start",
+            "Basic rooms, sightings not guaranteed"
+          ]
+        },
+        {
+          "_key": "sw-r176",
+          "cells": [
+            "Moyo Island",
+            "Mata Jitu waterfall, forest, quiet reef",
+            "Two nights",
+            "Boat times are informal"
+          ]
+        },
+        {
+          "_key": "sw-r177",
+          "cells": [
+            "Kenawa Island",
+            "Hilltop view, snorkelling, camping",
+            "Half a day or one night",
+            "No facilities, bring water and shade"
+          ]
+        },
+        {
+          "_key": "sw-r178",
+          "cells": [
+            "Sumbawa Besar",
+            "Flights, the wooden palace, food",
+            "One night",
+            "Little reason to stay longer"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "sw-b179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s180",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s182",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: your flight into Sumbawa Besar, since there is usually one direct flight a day, and your whale shark trip with an operator in Labuhan Jambu or Sumbawa Besar. Book a car and driver for days 2, 3 and 6."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s184",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the Moyo boat and your Moyo room if you are going budget, which can be arranged a day ahead, and the Kenawa boat, which you hire at Poto Tano on the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s186",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make on Sumbawa?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s188",
+          "_type": "span",
+          "marks": [],
+          "text": "The first is going outside the season. Operators report the most reliable whale shark months as roughly May to November, and the sea to Moyo gets rougher from December. The second is trying to do Saleh Bay as a day trip from Sumbawa Besar, which means a 1 a.m. start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s190",
+          "_type": "span",
+          "marks": [],
+          "text": "The third is arriving without enough cash. ATMs exist in Sumbawa Besar but not on Moyo, Kenawa or in the villages. The fourth is relying on buses for the road days, which run on local timing and thin out in the afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s192",
+          "_type": "span",
+          "marks": [],
+          "text": "What should you cut, adapt or upgrade?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s194",
+          "_type": "span",
+          "marks": [],
+          "text": "Cut Kenawa and fly out of Sumbawa Besar if you are short of time. Adapt the trip by doing it in reverse, ferry in and fly out, which suits anyone already on Lombok or the Gilis; start from our "
+        },
+        {
+          "_key": "sw-s196",
+          "_type": "span",
+          "marks": [
+            "sw-m195"
+          ],
+          "text": "Southwest Lombok and the secret Gilis"
+        },
+        {
+          "_key": "sw-s197",
+          "_type": "span",
+          "marks": [],
+          "text": " route if you want more of that coast first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m195",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-southwest-lombok-sekotong-secret-gilis"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s199",
+          "_type": "span",
+          "marks": [],
+          "text": "Upgrade with a night at one of Moyo's high-end resorts, or by continuing east. Surfers head to Lakey Peak in Dompu, and hikers can arrange a multi-day trek up Mount Tambora, whose 1815 eruption was one of the largest in recorded history. For Komodo beyond that, see our "
+        },
+        {
+          "_key": "sw-s201",
+          "_type": "span",
+          "marks": [
+            "sw-m200"
+          ],
+          "text": "10-day Komodo and Flores itinerary"
+        },
+        {
+          "_key": "sw-s202",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m200",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s204",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s206",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the visa rules for your passport on our "
+        },
+        {
+          "_key": "sw-s208",
+          "_type": "span",
+          "marks": [
+            "sw-m207"
+          ],
+          "text": "Indonesia visa guide"
+        },
+        {
+          "_key": "sw-s209",
+          "_type": "span",
+          "marks": [],
+          "text": "; Sumbawa has no separate entry rules. Bring cash in rupiah, reef-safe sunscreen, your own mask if you have one, and a light jacket for the pre-dawn boat."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m207",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/visa-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s211",
+          "_type": "span",
+          "marks": [],
+          "text": "Get travel insurance that covers snorkelling and small boats. Prices, schedules and boat routes here change often, so confirm current flights and tour prices with operators before you lock in rooms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b212",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s213",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is Sumbawa worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s215",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you want to snorkel with whale sharks without paying for a liveaboard, and you are happy with basic rooms and early starts. West Sumbawa gives you one remarkable morning in Saleh Bay, two quiet days on Moyo and a ferry home past Kenawa, all within an hour of Bali or Lombok."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s217",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you want comfort, restaurants and nightlife, or if you travel outside roughly May to November. In that case stay on the Gilis, or go to Komodo for big marine life with better tourist infrastructure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s219",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sw-b220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s222",
+          "_type": "span",
+          "marks": [
+            "sw-m221"
+          ],
+          "text": "8 days in southwest Lombok and the secret Gilis"
+        },
+        {
+          "_key": "sw-s223",
+          "_type": "span",
+          "marks": [],
+          "text": " for the quiet side of Lombok before you cross."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m221",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-southwest-lombok-sekotong-secret-gilis"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s226",
+          "_type": "span",
+          "marks": [
+            "sw-m225"
+          ],
+          "text": "10 days in Komodo and Flores"
+        },
+        {
+          "_key": "sw-s227",
+          "_type": "span",
+          "marks": [],
+          "text": " for the next islands east."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m225",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "sw-b228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sw-s230",
+          "_type": "span",
+          "marks": [
+            "sw-m229"
+          ],
+          "text": "The Wild Indonesia hub"
+        },
+        {
+          "_key": "sw-s231",
+          "_type": "span",
+          "marks": [],
+          "text": " for more routes beyond the main islands."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sw-m229",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/wild-indonesia"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
+  "destinationSecondary": [
+    "lombok_gili"
+  ],
+  "experienceTags": [
+    "wildlife",
+    "snorkeling",
+    "waterfalls",
+    "island_day_trip",
+    "domestic_flights",
+    "homestays"
+  ],
+  "faq": [
+    {
+      "_key": "sw-f232",
+      "answer": "Yes, if you want wildlife and quiet over comfort. West Sumbawa offers snorkelling with whale sharks in Saleh Bay, the Mata Jitu waterfall on Moyo Island and small islands like Kenawa, within an hour of Bali or Lombok. Rooms are basic outside Sumbawa Besar and some days start before dawn.",
+      "question": "Is Sumbawa worth visiting?"
+    },
+    {
+      "_key": "sw-f233",
+      "answer": "Operators report whale sharks gathering around the fishing platforms in Saleh Bay from roughly May to November. Trips leave before dawn because the sharks feed as fishermen lift their nets at first light. Sightings are likely in season but never guaranteed.",
+      "question": "When is the best time to see whale sharks in Sumbawa?"
+    },
+    {
+      "_key": "sw-f234",
+      "answer": "Either fly or take the ferry. Wings Air flies from Lombok to Sumbawa Besar in about 40 minutes. The public car ferry from Kayangan to Poto Tano takes about one hour 40 minutes and runs roughly hourly, followed by about two hours by road to Sumbawa Besar.",
+      "question": "How do you get from Lombok to Sumbawa?"
+    },
+    {
+      "_key": "sw-f235",
+      "answer": "As a working estimate, shared trips from Labuhan Jambu have been listed from about 120 US dollars per person and private day tours from Sumbawa Besar from about 190 US dollars, based on operator listings. Two-day packages from Lombok cost more. Check what is included before you book.",
+      "question": "How much does a whale shark tour in Sumbawa cost?"
+    },
+    {
+      "_key": "sw-f236",
+      "answer": "By boat from the north coast near Sumbawa Besar, including Pantai Goa. A private speedboat takes about 30 minutes; slower local boats take around two hours and run on no fixed schedule. Agree your return boat before you go so you are not stuck on the island.",
+      "question": "How do you get to Moyo Island?"
+    },
+    {
+      "_key": "sw-f237",
+      "answer": "Six to seven days covers West Sumbawa well: one night near Saleh Bay for the whale sharks, two nights on Moyo Island, and a day for Kenawa and the ferry back to Lombok. With four days, pick Saleh Bay and Moyo and fly in and out of Sumbawa Besar.",
+      "question": "How many days do you need in Sumbawa?"
+    },
+    {
+      "_key": "sw-f238",
+      "answer": "West Sumbawa is generally calm and welcoming, and the main risks are practical: small boats, early starts in the dark and long roads. Use licensed operators for the whale shark trip, wear a life jacket on boats, carry cash and check current travel advice for your country before you go.",
+      "question": "Is Sumbawa safe for tourists?"
+    }
+  ],
+  "focusKeyword": "Sumbawa itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "7 Days in West Sumbawa: Whale Sharks, Moyo Island and Kenawa — Pulau kenawa",
+    "asset": {
+      "_ref": "image-6b05284b72a66bb847e8c0e7afb1195cf8bf532e-3840x2160-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Papudaengoyang, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Pulau_kenawa.jpg"
+  },
+  "intro": "Sumbawa is the island most travellers see only from the deck of a Komodo boat, which is a shame, because its western half holds one of the best wildlife mornings in Indonesia. In Saleh Bay, whale sharks feed around the fishing platforms at first light, and you can swim beside them from a small wooden boat. Add two quiet nights on Moyo Island and a ferry home past Kenawa, and you have a week that starts an hour from Bali. The price is basic rooms, one very early alarm and boats that keep local time.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 7-day West Sumbawa itinerary: whale sharks in Saleh Bay, Moyo Island's Mata Jitu waterfall and Kenawa, with flights, ferries, costs and seasons.",
+  "metaTitle": "Sumbawa Itinerary: Whale Sharks, Moyo and Kenawa in 7 Days",
+  "primaryAffiliatePartner": "12go",
+  "route": "Bali or Lombok, Sumbawa Besar, Labuhan Jambu (Saleh Bay), Sumbawa Besar, Moyo Island, Poto Tano, Kenawa Island, Kayangan, Lombok",
+  "routeSummary": "Sumbawa Besar → Saleh Bay → Moyo Island → Kenawa → Lombok",
+  "secondaryAffiliatePartners": [
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-west-sumbawa-whale-sharks-moyo-kenawa"
+  },
+  "title": "7 Days in West Sumbawa: Whale Sharks, Moyo Island and Kenawa",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": [
+    "diving_snorkeling",
+    "remote_offbeat"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "repeat_travellers"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "remote"
+}

@@ -1,9 +1,9 @@
 # Piano di rinforzo: /trips/10-days-bali-lombok-gili-islands
 
-> **STATO: IN ATTESA DI APPROVAZIONE.** Nessuna riga di questo documento è stata
-> applicata. La PARTE 1 di questa run (solo `metaTitle` e `metaDescription`,
-> transazione Sanity `GZN56eWgvw9k2wjtdMA5m7`) è già in produzione ed è
-> **separata** da questo piano.
+> **STATO: APPLICATO il 2026-10-14** dal generatore delle 8:05 (PARTE 3), senza
+> toccare title né meta. Registro dell'applicazione in fondo al documento,
+> sezione 8. La PARTE 1 del 2026-09-18 (transazione `GZN56eWgvw9k2wjtdMA5m7`)
+> resta separata e invariata.
 
 Generato dal task schedulato del 2026-09-18, su dati GSC 2026-08-19 → 2026-09-15.
 
@@ -234,3 +234,61 @@ title non era il vincolo, e la leva diventa il contenuto delle sezioni 4.1 e 4.2
 Se anche quelle non muovono nulla entro 28 giorni dalla loro applicazione, il
 cluster va chiuso come sono stati chiusi `islands near bali` il 2026-08-29 e il
 cluster Bali generico.
+
+
+---
+
+## 8. Registro dell'applicazione, 2026-10-14
+
+Applicato dal task schedulato con `scripts/patch-bali-lombok-gili-geo-2026-10-14.py`
+(transazione Sanity `Zv9EDjKnoLgJA5HG3GphBs`), più una correzione di coerenza.
+
+**Perché adesso e non dopo il 16 ottobre.** La PARTE 1 ha già 23 giorni di dati
+GSC (2026-09-18 → 2026-10-11) e la query di testa non si è mossa nel verso
+atteso: `bali lombok gili islands` è passata da **45,0** a **49,2** (12
+impression, 0 click). È la soglia del §7: il title non era il vincolo. Il
+contenuto applicato oggi non può comparire nei dati GSC fino a fine ottobre,
+quindi la lettura del 16/10 sulla sola PARTE 1 resta pulita.
+
+**Cosa è cambiato sul documento `8d8d8cc6-000e-4388-9019-17cda00b8a34`:**
+
+1. Quattro H2 nuovi, inseriti prima di "What to book early" (blocchi con
+   `_key` che inizia per `r1014-`, 14 blocchi in tutto, body da 91 a 105):
+   - `Bali, Lombok or the Gilis: which ones should you actually pick?` + tabella
+     isole (testo §4.1, con "almost no crowds" ammorbidito in "far fewer
+     crowds" e Uluwatu a 1-2 notti per coerenza col Day 9-10) + link 5.1 verso
+     `/trips/10-days-bali-gili-islands`.
+   - `How do you island hop between Bali, Lombok and the Gilis?` + tabella tratte
+     (solo tratte 12Go verificate vive) + link affiliati.
+   - `Is 10 days enough for Bali, Lombok and the Gili Islands?` (FAQ lasciata dov'era).
+   - `What does this route cost for ten days?` + link a `/indonesia-travel-costs`.
+2. **Correzione al piano, §4.4.** Il testo proposto diceva 980-1.400 dollari per
+   dieci giorni, ma su `/indonesia-travel-costs` quella è la cifra **di due
+   settimane**. Applicato invece 700-1.000 dollari per dieci giorni mid-range
+   (le stesse fasce giornaliere moltiplicate), più 40-70 per il volo e 25-42 a
+   fast boat, cifre già presenti nella pagina.
+3. Nuovo affiliato `12GO_BALI_LOMBOK` →
+   `https://12go.asia/en/travel/bali/lombok?z=16022946`, verificato vivo nel
+   browser in-app il 2026-10-14 (volo più veloce 40 min, Wings Air e fast boat).
+   L'array `affiliateLinks` è stato riscritto intero (gli item esistenti non
+   hanno `_key`).
+4. **Coerenza:** due menzioni "around 25 minutes" del volo Bali-Lombok (Day 3 e
+   "Before you build") portate a "around 40 minutes", il dato 12Go attuale.
+5. Campo non renderizzato `seoNote` con baseline e date.
+6. **Link 5.2 applicato in codice:** nuova subsection
+   `Can you add Lombok to a Bali and Gili trip?` sulla hub `/destinations/bali`
+   (`src/data/destinations.ts`, commento datato), con link a questa pagina.
+
+**Per annullare:** rimuovere dal `body` i blocchi con `_key` `r1014-*`, togliere
+la voce `12GO_BALI_LOMBOK` da `affiliateLinks`, rimettere "around 25 minutes"
+nei due blocchi `k2c` e `k6g`, e togliere la subsection dalla hub Bali. Lo
+snapshot completo è in `content/articles/10-days-bali-lombok-gili-islands.json`.
+
+**Baseline (GSC 2026-09-14 → 2026-10-11):** pagina 33 impression, 0 click sulla
+dimensione query+pagina (159 impression, posizione 14,5 sulla dimensione
+pagina); `bali lombok gili islands` 12 impression a 49,2; `bali gili lombok` 4
+a 50,8; `bali island hopping itinerary` 2 a 59,5.
+
+**Rileggere il 2026-11-11.** Successo: `bali lombok gili islands` sotto 35,
+oppure la pagina che comincia a raccogliere `bali island hopping itinerary`.
+Se resta sopra 40, il cluster si chiude come `islands near bali`.
