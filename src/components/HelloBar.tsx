@@ -6,8 +6,8 @@ export function HelloBar() {
   const { user, loading } = useUser();
 
   // The prototype page has its own dedicated feedback bar, hide the global one
-  // there. Also hidden on the trip-builder/auth surfaces: a "get early access"
-  // waitlist bar makes no sense where the user is already using the product.
+  // there. Also hidden on the trip-builder/auth surfaces: the "assemble my trip"
+  // bar makes no sense where the user is already using the product.
   if (["/prototype", "/p1", "/login", "/account"].includes(pathname)) return null;
 
   // The bar always drives to the live trip builder. On the product homepage

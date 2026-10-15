@@ -16,10 +16,7 @@
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
   "travelStylePrimary": "diving_snorkeling",
-  "travellerTypes": [
-    "couples",
-    "friends"
-  ],
+  "travellerTypes": ["couples", "friends"],
   "vibe": "balanced",
   "author": {
     "_type": "reference",
@@ -205,9 +202,7 @@
         {
           "_type": "span",
           "_key": "k16",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Duration:"
         },
         {
@@ -227,9 +222,7 @@
         {
           "_type": "span",
           "_key": "k19",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route:"
         },
         {
@@ -249,9 +242,7 @@
         {
           "_type": "span",
           "_key": "k22",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pace:"
         },
         {
@@ -271,9 +262,7 @@
         {
           "_type": "span",
           "_key": "k25",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best season:"
         },
         {
@@ -293,9 +282,7 @@
         {
           "_type": "span",
           "_key": "k28",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting in:"
         },
         {
@@ -382,9 +369,7 @@
         {
           "_type": "span",
           "_key": "k39",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -396,9 +381,7 @@
         {
           "_type": "span",
           "_key": "k42",
-          "marks": [
-            "k41"
-          ],
+          "marks": ["k41"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -410,9 +393,7 @@
         {
           "_type": "span",
           "_key": "k45",
-          "marks": [
-            "k44"
-          ],
+          "marks": ["k44"],
           "text": "fast boat tickets from Sanur to Nusa Penida"
         },
         {
@@ -432,9 +413,7 @@
         {
           "_type": "span",
           "_key": "k48",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note."
         },
         {
@@ -454,9 +433,7 @@
         {
           "_type": "span",
           "_key": "k51",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -476,9 +453,7 @@
         {
           "_type": "span",
           "_key": "k54",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -518,9 +493,7 @@
         {
           "_type": "span",
           "_key": "k59",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -532,9 +505,7 @@
         {
           "_type": "span",
           "_key": "k62",
-          "marks": [
-            "k61"
-          ],
+          "marks": ["k61"],
           "text": "guided West Penida tour with a driver"
         },
         {
@@ -554,9 +525,7 @@
         {
           "_type": "span",
           "_key": "k65",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic."
         },
         {
@@ -576,9 +545,7 @@
         {
           "_type": "span",
           "_key": "k68",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -598,9 +565,7 @@
         {
           "_type": "span",
           "_key": "k71",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note."
         },
         {
@@ -640,9 +605,7 @@
         {
           "_type": "span",
           "_key": "k76",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -654,9 +617,7 @@
         {
           "_type": "span",
           "_key": "k79",
-          "marks": [
-            "k78"
-          ],
+          "marks": ["k78"],
           "text": "Nusa Penida manta snorkeling tour"
         },
         {
@@ -676,9 +637,7 @@
         {
           "_type": "span",
           "_key": "k82",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic."
         },
         {
@@ -698,9 +657,7 @@
         {
           "_type": "span",
           "_key": "k85",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -734,9 +691,7 @@
         {
           "_type": "span",
           "_key": "k90",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -762,9 +717,7 @@
         {
           "_type": "span",
           "_key": "k93",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -776,9 +729,7 @@
         {
           "_type": "span",
           "_key": "k96",
-          "marks": [
-            "k95"
-          ],
+          "marks": ["k95"],
           "text": "Nusa Lembongan and Ceningan day tour"
         },
         {
@@ -798,9 +749,7 @@
         {
           "_type": "span",
           "_key": "k99",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base:"
         },
         {
@@ -820,9 +769,7 @@
         {
           "_type": "span",
           "_key": "k102",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note."
         },
         {
@@ -856,9 +803,7 @@
         {
           "_type": "span",
           "_key": "k107",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning."
         },
         {
@@ -878,9 +823,7 @@
         {
           "_type": "span",
           "_key": "k110",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon."
         },
         {
@@ -900,9 +843,7 @@
         {
           "_type": "span",
           "_key": "k113",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic."
         },
         {
@@ -936,9 +877,7 @@
         {
           "_type": "span",
           "_key": "k118",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early:"
         },
         {
@@ -958,9 +897,7 @@
         {
           "_type": "span",
           "_key": "k121",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible:"
         },
         {
@@ -980,9 +917,7 @@
         {
           "_type": "span",
           "_key": "k124",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Decide on arrival:"
         },
         {
@@ -1016,9 +951,7 @@
         {
           "_type": "span",
           "_key": "k129",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Treating it as a day trip."
         },
         {
@@ -1038,9 +971,7 @@
         {
           "_type": "span",
           "_key": "k132",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the roads."
         },
         {
@@ -1060,9 +991,7 @@
         {
           "_type": "span",
           "_key": "k135",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Banking on the mantas."
         },
         {
@@ -1082,9 +1011,7 @@
         {
           "_type": "span",
           "_key": "k138",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cutting it fine with the return boat."
         },
         {
@@ -1118,9 +1045,7 @@
         {
           "_type": "span",
           "_key": "k143",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut, if you are short on time:"
         },
         {
@@ -1140,9 +1065,7 @@
         {
           "_type": "span",
           "_key": "k146",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Adapt, for a calmer trip:"
         },
         {
@@ -1162,9 +1085,7 @@
         {
           "_type": "span",
           "_key": "k149",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade, if you have a sixth day:"
         },
         {
@@ -1293,9 +1214,7 @@
         {
           "_type": "span",
           "_key": "k166",
-          "marks": [
-            "k165"
-          ],
+          "marks": ["k165"],
           "text": "10 days in Bali and the Gili Islands"
         },
         {
@@ -1307,9 +1226,7 @@
         {
           "_type": "span",
           "_key": "k169",
-          "marks": [
-            "k168"
-          ],
+          "marks": ["k168"],
           "text": "7-day Lombok and Gili Islands route"
         },
         {
@@ -1321,9 +1238,7 @@
         {
           "_type": "span",
           "_key": "k172",
-          "marks": [
-            "k171"
-          ],
+          "marks": ["k171"],
           "text": "Bali and nearby islands"
         },
         {

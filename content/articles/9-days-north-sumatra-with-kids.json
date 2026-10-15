@@ -105,9 +105,7 @@
         {
           "_key": "k10",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route: "
         },
         {
@@ -127,9 +125,7 @@
         {
           "_key": "k13",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Best for: "
         },
         {
@@ -149,9 +145,7 @@
         {
           "_key": "k16",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pace: "
         },
         {
@@ -171,9 +165,7 @@
         {
           "_key": "k19",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base changes: "
         },
         {
@@ -193,9 +185,7 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "When to go: "
         },
         {
@@ -215,9 +205,7 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting there: "
         },
         {
@@ -293,9 +281,7 @@
         {
           "_key": "k36",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -315,9 +301,7 @@
         {
           "_key": "k38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -329,9 +313,7 @@
         {
           "_key": "k41",
           "_type": "span",
-          "marks": [
-            "k40"
-          ],
+          "marks": ["k40"],
           "text": "Compare Medan to Bukit Lawang transfers"
         },
         {
@@ -357,9 +339,7 @@
         {
           "_key": "k45",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -379,9 +359,7 @@
         {
           "_key": "k48",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -401,9 +379,7 @@
         {
           "_key": "k50",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -415,9 +391,7 @@
         {
           "_key": "k53",
           "_type": "span",
-          "marks": [
-            "k52"
-          ],
+          "marks": ["k52"],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -457,9 +431,7 @@
         {
           "_key": "k59",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -479,9 +451,7 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -501,9 +471,7 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -523,9 +491,7 @@
         {
           "_key": "k68",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -545,9 +511,7 @@
         {
           "_key": "k71",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -581,9 +545,7 @@
         {
           "_key": "k76",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -603,9 +565,7 @@
         {
           "_key": "k79",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -625,9 +585,7 @@
         {
           "_key": "k82",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -647,9 +605,7 @@
         {
           "_key": "k85",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -669,9 +625,7 @@
         {
           "_key": "k88",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -705,9 +659,7 @@
         {
           "_key": "k93",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -727,9 +679,7 @@
         {
           "_key": "k96",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -749,9 +699,7 @@
         {
           "_key": "k99",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -771,9 +719,7 @@
         {
           "_key": "k102",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -793,9 +739,7 @@
         {
           "_key": "k105",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -829,9 +773,7 @@
         {
           "_key": "k110",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -851,9 +793,7 @@
         {
           "_key": "k113",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -873,9 +813,7 @@
         {
           "_key": "k116",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -895,9 +833,7 @@
         {
           "_key": "k119",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -917,9 +853,7 @@
         {
           "_key": "k122",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note: "
         },
         {
@@ -953,9 +887,7 @@
         {
           "_key": "k127",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -975,9 +907,7 @@
         {
           "_key": "k130",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -997,9 +927,7 @@
         {
           "_key": "k133",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1033,9 +961,7 @@
         {
           "_key": "k138",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1055,9 +981,7 @@
         {
           "_key": "k141",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1077,9 +1001,7 @@
         {
           "_key": "k144",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1099,9 +1021,7 @@
         {
           "_key": "k147",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -1135,9 +1055,7 @@
         {
           "_key": "k152",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1157,9 +1075,7 @@
         {
           "_key": "k155",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -1179,9 +1095,7 @@
         {
           "_key": "k158",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -1201,9 +1115,7 @@
         {
           "_key": "k161",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base: "
         },
         {
@@ -1223,9 +1135,7 @@
         {
           "_key": "k164",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic: "
         },
         {
@@ -1259,9 +1169,7 @@
         {
           "_key": "k169",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -1295,9 +1203,7 @@
         {
           "_key": "k174",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early: "
         },
         {
@@ -1317,9 +1223,7 @@
         {
           "_key": "k177",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible: "
         },
         {
@@ -1353,9 +1257,7 @@
         {
           "_key": "k182",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking a multi-day jungle camp with young children. "
         },
         {
@@ -1375,9 +1277,7 @@
         {
           "_key": "k185",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Underestimating the transfers. "
         },
         {
@@ -1397,9 +1297,7 @@
         {
           "_key": "k188",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Skipping the Berastagi break. "
         },
         {
@@ -1419,9 +1317,7 @@
         {
           "_key": "k191",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Treating Lake Toba as a quick stop. "
         },
         {
@@ -1455,9 +1351,7 @@
         {
           "_key": "k196",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "If you have less time, "
         },
         {
@@ -1477,9 +1371,7 @@
         {
           "_key": "k198",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "If you want more, "
         },
         {
@@ -1491,9 +1383,7 @@
         {
           "_key": "k201",
           "_type": "span",
-          "marks": [
-            "k200"
-          ],
+          "marks": ["k200"],
           "text": "guided Gunung Leuser orangutan trek"
         },
         {
@@ -1519,9 +1409,7 @@
         {
           "_key": "k205",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "If you are travelling with younger children, "
         },
         {
@@ -1547,9 +1435,7 @@
         {
           "_key": "k209",
           "_type": "span",
-          "marks": [
-            "k208"
-          ],
+          "marks": ["k208"],
           "text": "15-day Sumatra itinerary"
         },
         {
@@ -1590,9 +1476,7 @@
         {
           "_key": "k215",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa. "
         },
         {
@@ -1612,9 +1496,7 @@
         {
           "_key": "k218",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money. "
         },
         {
@@ -1634,9 +1516,7 @@
         {
           "_key": "k221",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Connectivity. "
         },
         {
@@ -1656,9 +1536,7 @@
         {
           "_key": "k224",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "With kids. "
         },
         {
@@ -1678,9 +1556,7 @@
         {
           "_key": "k227",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Health and roads. "
         },
         {
@@ -1748,9 +1624,7 @@
         {
           "_key": "k237",
           "_type": "span",
-          "marks": [
-            "k236"
-          ],
+          "marks": ["k236"],
           "text": "15 days in Sumatra itinerary"
         },
         {
@@ -1783,9 +1657,7 @@
         {
           "_key": "k242",
           "_type": "span",
-          "marks": [
-            "k241"
-          ],
+          "marks": ["k241"],
           "text": "7-day West Sumatra itinerary"
         },
         {
@@ -1818,9 +1690,7 @@
         {
           "_key": "k247",
           "_type": "span",
-          "marks": [
-            "k246"
-          ],
+          "marks": ["k246"],
           "text": "Sumatra destination guide"
         },
         {
@@ -1892,9 +1762,7 @@
   },
   "title": "9 Days in North Sumatra with Kids: Orangutans, Elephants and Lake Toba",
   "travelStylePrimary": "wildlife_nature",
-  "travellerTypes": [
-    "families"
-  ],
+  "travellerTypes": ["families"],
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 9,
   "vibe": "relaxed"
