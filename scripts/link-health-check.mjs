@@ -206,7 +206,12 @@ function isAffiliateRedirector(host) {
 // Travelpayouts. The audit MUST NOT touch them — they 302 straight into the
 // partner's own domain (klook.com, airalo.com), which is already covered by
 // separate anchors in our content, so we lose no coverage by skipping them.
-const BILLABLE_REDIRECTOR_HOSTS = ["tpx.lu", "emrldtp.cc", "tp.media"];
+//
+// pxf.io is Airalo's Travelpayouts click-tracking redirector. It was missing
+// from this list in the 2026-09-05 fix (which only stopped Klook via tpx.lu),
+// so the audit kept billing ~7.3k phantom Airalo clicks through 2026-09-07.
+// Added here so neither partner can be pinged from CI again.
+const BILLABLE_REDIRECTOR_HOSTS = ["tpx.lu", "emrldtp.cc", "tp.media", "pxf.io"];
 function isBillableRedirector(host) {
   if (!host) return false;
   return BILLABLE_REDIRECTOR_HOSTS.some((d) => host === d || host.endsWith("." + d));
