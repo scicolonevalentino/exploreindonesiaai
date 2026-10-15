@@ -93,7 +93,12 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         mode: "fast-boat",
         label: "Fast boat",
         durationText: "1.5 to 2.5 hours at sea, plus the road transfer to the port",
-        priceUsdText: "Around $35 to $60 one way as a working estimate; confirm current fares",
+        // 2026-10-16, GSC insights of 28/09: this page said $35 to $60 while the trip
+        // articles said $25 to $42 for the same crossing. 12Go listed fast ferries
+        // from about $21 (Padang Bai) and $26 (Sanur) for late October 2026, so all
+        // pages now share one range. Old value: "Around $35 to $60 one way ...".
+        priceUsdText:
+          "Around $20 to $45 one way on most fast boats, more on premium operators (working estimate); confirm current fares",
         frequencyText: "Multiple daily departures, mostly morning to early afternoon",
         bookingPartner: "12go",
         bookingUrl: TWELVEGO,
@@ -119,7 +124,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "How much is the fast boat from Bali to the Gilis?",
         answer:
-          "As a working estimate, around $35 to $60 one way. Prices move with season and operator, so confirm the current fare when you book.",
+          "As a working estimate, around $20 to $45 one way on most fast boats, with premium operators charging more. Prices move with season and operator, so confirm the current fare when you book.",
       },
       {
         question: "Which departure point is best?",

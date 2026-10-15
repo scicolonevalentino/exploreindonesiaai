@@ -11,7 +11,11 @@ import { DESTINATION_CONTENT } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
 
 const SITE = "https://exploreindonesia.ai";
-const TITLE = "Indonesia destinations | ExploreIndonesia.ai";
+// 2026-10-16, weekly SEO audit of 28/09: the old title was lowercase and brand-led,
+// unlike every other hub. The page's one real query is "explore indonesia" (11
+// impressions at 19.8 to 2026-10-11), so it leads with that phrase.
+// Old value: "Indonesia destinations | ExploreIndonesia.ai".
+const TITLE = "Explore Indonesia by Destination: Itineraries and Guides";
 const DESCRIPTION =
   "Browse Indonesia by destination: Bali, Lombok and the Gilis, Komodo and Flores, Java, Raja Ampat and more. Itineraries, guides and transport, all in one place.";
 

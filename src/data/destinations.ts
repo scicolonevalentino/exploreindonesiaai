@@ -1339,9 +1339,13 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "sumatra",
     name: "Sumatra",
     shortName: "Sumatra",
-    metaTitle: "Sumatra itineraries, orangutans, jungle, Lake Toba",
+    // 2026-10-16, weekly SEO audit of 28/09: weakest hub snippet on the site.
+    // Old values: metaTitle "Sumatra itineraries, orangutans, jungle, Lake Toba",
+    // metaDescription "Bukit Lawang orangutan trekking, Lake Toba, and remote
+    // Sumatran jungle routes. Bookable Indonesia itineraries."
+    metaTitle: "Sumatra Itineraries: Orangutans, Lake Toba and Pulau Weh",
     metaDescription:
-      "Bukit Lawang orangutan trekking, Lake Toba, and remote Sumatran jungle routes. Bookable Indonesia itineraries.",
+      "Sumatra routes from 5 to 15 days: Bukit Lawang orangutans, Lake Toba, Bukittinggi, Pulau Weh diving and Mentawai, with the best season for each.",
     intro:
       "Sumatra is wild. Orangutans in Bukit Lawang, the vast caldera of Lake Toba, and the surf of Mentawai. Our itineraries give structure to a region that rewards travellers who plan ahead.",
     highlights: ["Bukit Lawang orangutans", "Lake Toba", "Mentawai surf", "Banda Aceh diving"],

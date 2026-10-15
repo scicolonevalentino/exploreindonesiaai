@@ -226,11 +226,23 @@ const guideComponents: PortableTextComponents = {
     externalLink: ({ value, children }) => {
       const href: string = value?.href ?? "";
       const internal = href.startsWith("/") || href.startsWith("#");
+      // Guides carry partner links as plain externalLink marks (no affiliateLinks
+      // array), so mark them sponsored here; the global listener in
+      // affiliate-tracking.ts already records the click.
+      const sponsored = /(^|\.)(viator\.com|klook\.com|12go\.asia|booking\.com|tpx\.lu)(\/|$)/.test(
+        href.replace(/^https?:\/\//, ""),
+      );
       return (
         <a
           href={href}
           target={internal ? undefined : "_blank"}
-          rel={internal ? undefined : "noopener noreferrer"}
+          rel={
+            internal
+              ? undefined
+              : sponsored
+                ? "sponsored nofollow noopener noreferrer"
+                : "noopener noreferrer"
+          }
           className="font-medium underline underline-offset-2"
           style={{ color: "var(--teal-link)" }}
         >

@@ -18,7 +18,17 @@ import { buildBookingLink } from "@/lib/booking";
 // as typed, still leads with a citable figure, and holds back the two things the
 // number alone does not settle: the island-flight trap and the Thailand comparison.
 // Changed 2026-09-14; read the CTR on 12 Oct.
-const TITLE = "Is Indonesia Cheap? 2026 Daily Budgets and Trip Costs";
+//
+// Read on 2026-10-12 (GSC Monday insights): reverted. Since the 14/09 title the
+// cost/budget cluster fell from 416 to 89 impressions per fortnight (180 to 57
+// distinct queries, position 8.6 to 11.0), e.g. "how much does it cost to travel
+// to indonesia" 3.8 -> 17.3, while the cheap/expensive cluster gained nothing in
+// clicks. The decline began 12/09, three days before the change, so the title is
+// not the only cause, but it is the one we control. Reverted 2026-10-16.
+// Old value: "Is Indonesia Cheap? 2026 Daily Budgets and Trip Costs".
+// Read on 26 Oct (daily impressions above 400, today ~170) and 9 Nov (cost/budget
+// cluster above 250 per fortnight). If nothing moves, stop touching this title.
+const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown";
 const DESCRIPTION =
   "Yes, at $30 to $50 a day, until you add island flights. The 2026 numbers for rooms, food and transport, and how Indonesia really compares to Thailand.";
 const URL = "https://exploreindonesia.ai/indonesia-travel-costs";

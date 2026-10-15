@@ -21,14 +21,14 @@ export const Route = createFileRoute("/auth/callback")({
           if (!error) {
             return new Response(null, {
               status: 303,
-              headers: { Location: next },
+              headers: { Location: next, "X-Robots-Tag": "noindex" },
             });
           }
         }
 
         return new Response(null, {
           status: 303,
-          headers: { Location: "/login?error=link" },
+          headers: { Location: "/login?error=link", "X-Robots-Tag": "noindex" },
         });
       },
     },

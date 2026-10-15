@@ -43,8 +43,24 @@ async function normalizeCatastrophicSsrResponse(
   });
 }
 
+// Weekly SEO audit 2026-10-12: "/trips/" reached "/trips" through the router's own
+// trailing-slash redirect, a 307 (temporary), while http->https and www->apex are
+// 308. Answer it here with a permanent 308 before the router sees it, keeping the
+// query string. API routes and the static webinar page are left alone.
+function trailingSlashRedirect(request: Request): Response | undefined {
+  if (request.method !== "GET" && request.method !== "HEAD") return undefined;
+  const url = new URL(request.url);
+  const { pathname } = url;
+  if (pathname === "/" || !pathname.endsWith("/")) return undefined;
+  if (pathname.startsWith("/api/") || pathname.startsWith("/webinar-1")) return undefined;
+  const target = pathname.replace(/\/+$/, "") || "/";
+  return new Response(null, { status: 308, headers: { Location: target + url.search } });
+}
+
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
+    const redirect = trailingSlashRedirect(request);
+    if (redirect) return redirect;
     try {
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);
