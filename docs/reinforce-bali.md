@@ -33,22 +33,22 @@ Sorgente: **codice, non Sanity.** Il contenuto vive in `src/data/destinations.ts
 
 Finestra GSC 2026-08-01 → 2026-08-28 (28 giorni):
 
-| metrica          |    valore |
-| ---------------- | --------: |
-| impression       |    **34** |
-| click            |     **0** |
-| posizione media  |  **21,1** |
+| metrica         |   valore |
+| --------------- | -------: |
+| impression      |   **34** |
+| click           |    **0** |
+| posizione media | **21,1** |
 
 Il contrasto con i suoi stessi articoli, stessa finestra:
 
 | pagina                                    | impression | posizione |
 | ----------------------------------------- | ---------: | --------: |
-| /trips/14-days-indonesia-bali-java-komodo  |        568 |       8,0 |
-| /trips/30-days-indonesia-ultimate          |        538 |      10,4 |
-| /trips/5-days-bali-ubud-canggu-uluwatu     |        523 |      10,6 |
-| /trips/10-days-bali-gili-islands           |        377 |      15,5 |
-| /trips/10-days-bali-lombok-gili-islands    |        173 |      19,2 |
-| **/destinations/bali**                     |     **34** |  **21,1** |
+| /trips/14-days-indonesia-bali-java-komodo |        568 |       8,0 |
+| /trips/30-days-indonesia-ultimate         |        538 |      10,4 |
+| /trips/5-days-bali-ubud-canggu-uluwatu    |        523 |      10,6 |
+| /trips/10-days-bali-gili-islands          |        377 |      15,5 |
+| /trips/10-days-bali-lombok-gili-islands   |        173 |      19,2 |
+| **/destinations/bali**                    |     **34** |  **21,1** |
 
 Su Bali, la destinazione più cercata dell'arcipelago, la hub prende meno
 impression di cinque dei suoi stessi itinerari.
@@ -67,7 +67,7 @@ già previsto da `docs/next-up-bali-hub.md`.
    side", "Other destinations") sono tutti impalcatura generata: nessuno è una
    domanda, nessuno ha una risposta autoconclusiva.
 2. **Il title vendeva il prodotto, non il contenuto.** `Bali itineraries,
-   bookable AI trip plans` metteva "bookable AI trip plans" in un tag dove chi
+bookable AI trip plans` metteva "bookable AI trip plans" in un tag dove chi
    cerca vuole leggere una durata. Corretto nella PARTE 1.
 3. **L'H1 era la parola "Bali".** Nessuno cerca "Bali" per arrivare a una hub
    di itinerari. Corretto nella PARTE 1.
@@ -189,12 +189,12 @@ Caption: "Come si comporta un viaggio a Bali per durata. Sono stime di lavoro
 sulla base dei nostri itinerari, non promesse: il traffico decide più di ogni
 altra cosa."
 
-| Days | What fits | Bases | Best for |
-| --- | --- | --- | --- |
-| 5 | One region, properly | One, or two at a push | A first taste, or a stopover |
-| 7 | Two regions, one island day trip | Two | The most common first trip |
-| 10 | Bali plus the Gilis or Nusa Penida | Two on Bali, one island | Travellers who want a beach half |
-| 14 | Bali plus Komodo or Java | Three, with one flight | A second visit, or a long first one |
+| Days | What fits                          | Bases                   | Best for                            |
+| ---- | ---------------------------------- | ----------------------- | ----------------------------------- |
+| 5    | One region, properly               | One, or two at a push   | A first taste, or a stopover        |
+| 7    | Two regions, one island day trip   | Two                     | The most common first trip          |
+| 10   | Bali plus the Gilis or Nusa Penida | Two on Bali, one island | Travellers who want a beach half    |
+| 14   | Bali plus Komodo or Java           | Three, with one flight  | A second visit, or a long first one |
 
 ### Tabella B, sotto l'H2 5: cosa aggiungere
 
@@ -202,11 +202,11 @@ Caption: "Le tre aggiunte più frequenti a un viaggio a Bali, e cosa costano in
 giorni. I tempi di traversata cambiano con il mare, quindi confermali il giorno
 prima."
 
-| Add-on | How you get there | Days it really costs | Add it from |
-| --- | --- | --- | --- |
-| Nusa Penida | Fast boat from Sanur, roughly 45 minutes | Half a day each way, or one night | 7 days |
-| Gili Islands | Fast boat from Padangbai or Amed | A travel day each way | 10 days |
-| Komodo | Flight to Labuan Bajo | Three days minimum | 14 days |
+| Add-on       | How you get there                        | Days it really costs              | Add it from |
+| ------------ | ---------------------------------------- | --------------------------------- | ----------- |
+| Nusa Penida  | Fast boat from Sanur, roughly 45 minutes | Half a day each way, or one night | 7 days      |
+| Gili Islands | Fast boat from Padangbai or Amed         | A travel day each way             | 10 days     |
+| Komodo       | Flight to Labuan Bajo                    | Three days minimum                | 14 days     |
 
 ## 8. I link interni
 

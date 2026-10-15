@@ -33,30 +33,30 @@ Cluster GSC, 28 giorni (2026-07-20 → 2026-08-16), dimensioni page+query:
 Il cluster non è un blocco unico. Si divide in **tre intenti** con posizioni molto diverse,
 ed è questa la cosa importante:
 
-| Intento                     | Query | Impression | Posizione       |
-| --------------------------- | ----- | ---------- | --------------- |
-| Nome generico della coppia  | 15    | ~44        | 72 a 88         |
-| Durata e itinerario         | 6     | ~13        | **13 a 44**     |
-| Trasporto Lombok ↔ Gili     | 3     | ~5         | 42 a 50         |
+| Intento                    | Query | Impression | Posizione   |
+| -------------------------- | ----- | ---------- | ----------- |
+| Nome generico della coppia | 15    | ~44        | 72 a 88     |
+| Durata e itinerario        | 6     | ~13        | **13 a 44** |
+| Trasporto Lombok ↔ Gili    | 3     | ~5         | 42 a 50     |
 
 Le query per intento:
 
-| query                             | impr | pos      | intento    |
-| --------------------------------- | ---- | -------- | ---------- |
-| lombok and gili                   | 9    | 75,4     | generico   |
-| lombok gili islands               | 6    | 82,7     | generico   |
-| lombok and gili islands           | 5    | 86,0     | generico   |
-| gili lombok                       | 4    | 74,3     | generico   |
-| lombok and the gili islands indonesia | 4 | 74,3    | generico   |
-| **lombok 7 day itinerary**        | 5    | **30,4** | durata     |
-| **lombok and gili islands itinerary** | 3 | **13,3** | durata     |
-| **lombok itinerary 7 days**       | 2    | **22,5** | durata     |
-| one week in lombok                | 1    | 44,0     | durata     |
-| gili island itinerary             | 1    | 58,0     | durata     |
-| lombok 1 week itinerary           | 1    | 68,0     | durata     |
-| gili islands to lombok            | 3    | 50,0     | trasporto  |
-| kuta lombok to gili islands       | 1    | 42,0     | trasporto  |
-| gili island to lombok             | 1    | 50,0     | trasporto  |
+| query                                 | impr | pos      | intento   |
+| ------------------------------------- | ---- | -------- | --------- |
+| lombok and gili                       | 9    | 75,4     | generico  |
+| lombok gili islands                   | 6    | 82,7     | generico  |
+| lombok and gili islands               | 5    | 86,0     | generico  |
+| gili lombok                           | 4    | 74,3     | generico  |
+| lombok and the gili islands indonesia | 4    | 74,3     | generico  |
+| **lombok 7 day itinerary**            | 5    | **30,4** | durata    |
+| **lombok and gili islands itinerary** | 3    | **13,3** | durata    |
+| **lombok itinerary 7 days**           | 2    | **22,5** | durata    |
+| one week in lombok                    | 1    | 44,0     | durata    |
+| gili island itinerary                 | 1    | 58,0     | durata    |
+| lombok 1 week itinerary               | 1    | 68,0     | durata    |
+| gili islands to lombok                | 3    | 50,0     | trasporto |
+| kuta lombok to gili islands           | 1    | 42,0     | trasporto |
+| gili island to lombok                 | 1    | 50,0     | trasporto |
 
 ## 2. Perché non ranka
 
@@ -94,9 +94,9 @@ Il `title` **non** è stato toccato: su un articolo guida H1, headline JSON-LD, 
 e ogni card nei listing. Resta `7 Days in Lombok and the Gili Islands: Kuta Lombok,
 Senaru and Gili Trawangan`.
 
-| campo             | valore vecchio                                                                                                                                       | valore nuovo                                                                                                                                   |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| `metaTitle`       | `Lombok & Gili Islands in 7 Days: Full Itinerary` (47)                                                                                                | `Lombok 7 Day Itinerary: Kuta, Senaru, Gili Trawangan` (52)                                                                                     |
+| campo             | valore vecchio                                                                                                                                                 | valore nuovo                                                                                                                                             |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `metaTitle`       | `Lombok & Gili Islands in 7 Days: Full Itinerary` (47)                                                                                                         | `Lombok 7 Day Itinerary: Kuta, Senaru, Gili Trawangan` (52)                                                                                              |
 | `metaDescription` | `A practical 7-day Lombok and Gili Islands itinerary: Kuta Lombok beaches, Senaru waterfalls and Gili Trawangan, with honest transfer and ferry advice.` (150) | `Seven days on Lombok and one Gili: Kuta's south beaches, the Senaru waterfalls and Gili Trawangan, with real ferry times and what to book first.` (144) |
 
 **Logica:** il vecchio `metaTitle` apriva con "Lombok & Gili Islands", cioè la frase

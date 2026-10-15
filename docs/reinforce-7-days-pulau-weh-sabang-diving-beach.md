@@ -77,9 +77,9 @@ grandi aggregatori. È interamente editoriale, quindi è vincibile sul contenuto
 
 ## 3. Cosa è già stato applicato oggi (PARTE 1)
 
-| campo             | valore vecchio                                                                                                                                     | valore nuovo                                                                                                                                  |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| `metaTitle`       | `7 Days in Pulau Weh: Aceh Diving and Beach Escape` (48)                                                                                             | `Pulau Weh Island, Aceh: Diving, Beaches and the Ferry` (53)                                                                                     |
+| campo             | valore vecchio                                                                                                                                                | valore nuovo                                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `metaTitle`       | `7 Days in Pulau Weh: Aceh Diving and Beach Escape` (48)                                                                                                      | `Pulau Weh Island, Aceh: Diving, Beaches and the Ferry` (53)                                                                                          |
 | `metaDescription` | `A relaxed 7-day Pulau Weh and Banda Aceh trip for divers and couples: easy island days, Rubiah snorkeling, and honest logistics for Aceh's far north.` (148) | `Pulau Weh in Aceh: what the diving is really like, how the Banda Aceh ferry works, where to base yourself, and a 7-day plan that fits it all.` (141) |
 
 Il campo `title` **non è stato toccato** e resta `7 Days in Pulau Weh: A Diving and Beach
