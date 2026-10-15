@@ -915,7 +915,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
         frequencyText: "Several departures through the day; book a seat a day ahead in high season",
         bookingPartner: null,
         notes:
-          "The door-to-door pickup is why this is the default local choice, but collecting other passengers adds half an hour or so before you actually leave town. Not sold online — book through your hotel or a Padang travel agent a day ahead.",
+          "The door-to-door pickup is why this is the default local choice, but collecting other passengers adds half an hour or so before you actually leave town. Not sold online, so book through your hotel or a Padang travel agent a day ahead.",
       },
       {
         mode: "shared-shuttle",
