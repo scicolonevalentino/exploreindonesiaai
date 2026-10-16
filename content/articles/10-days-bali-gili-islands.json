@@ -1,5 +1,7 @@
 {
+  "_createdAt": "2026-06-02T04:42:30Z",
   "_id": "5f2db4e8-efa0-4b1b-9fe3-657193995076",
+  "_rev": "qMBxia03h4sjtXqNKhq7UA",
   "_system": {
     "base": {
       "id": "5f2db4e8-efa0-4b1b-9fe3-657193995076",
@@ -7,6 +9,7 @@
     }
   },
   "_type": "article",
+  "_updatedAt": "2026-10-16T05:35:36Z",
   "affiliateLinks": [
     {
       "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
@@ -228,7 +231,9 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Duration:"
         },
         {
@@ -248,7 +253,9 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Start and end:"
         },
         {
@@ -268,7 +275,9 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Route:"
         },
         {
@@ -288,7 +297,9 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best for:"
         },
         {
@@ -308,7 +319,9 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Not ideal for:"
         },
         {
@@ -328,7 +341,9 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel style:"
         },
         {
@@ -348,7 +363,9 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Budget:"
         },
         {
@@ -368,7 +385,9 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Logistics level:"
         },
         {
@@ -388,7 +407,9 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time:"
         },
         {
@@ -408,7 +429,9 @@
         {
           "_key": "kz",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking difficulty:"
         },
         {
@@ -462,7 +485,9 @@
         {
           "_key": "rps7",
           "_type": "span",
-          "marks": ["rpm6"],
+          "marks": [
+            "rpm6"
+          ],
           "text": "compare Bali to Gili Trawangan fast boats"
         },
         {
@@ -474,7 +499,9 @@
         {
           "_key": "rps10",
           "_type": "span",
-          "marks": ["rpm9"],
+          "marks": [
+            "rpm9"
+          ],
           "text": "the return crossing to Bali"
         },
         {
@@ -486,7 +513,9 @@
         {
           "_key": "rps13",
           "_type": "span",
-          "marks": ["rpm12"],
+          "marks": [
+            "rpm12"
+          ],
           "text": "Bali to Gili Islands transport guide"
         },
         {
@@ -523,7 +552,9 @@
         {
           "_key": "rps16",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -567,7 +598,11 @@
     {
       "_key": "rpt23",
       "_type": "comparisonTable",
-      "columns": ["Island", "Stay here if", "The trade-off"],
+      "columns": [
+        "Island",
+        "Stay here if",
+        "The trade-off"
+      ],
       "rows": [
         {
           "_key": "rpr24",
@@ -608,7 +643,9 @@
         {
           "_key": "rps29",
           "_type": "span",
-          "marks": ["rpm28"],
+          "marks": [
+            "rpm28"
+          ],
           "text": "4-day Gili Islands route through Trawangan, Meno and Air"
         },
         {
@@ -659,7 +696,11 @@
     {
       "_key": "rpt36",
       "_type": "comparisonTable",
-      "columns": ["Trip length", "What fits", "Who it suits"],
+      "columns": [
+        "Trip length",
+        "What fits",
+        "Who it suits"
+      ],
       "rows": [
         {
           "_key": "rpr37",
@@ -708,7 +749,9 @@
         {
           "_key": "rps43",
           "_type": "span",
-          "marks": ["rpm42"],
+          "marks": [
+            "rpm42"
+          ],
           "text": "5-day Ubud, Canggu and Uluwatu route"
         },
         {
@@ -720,7 +763,9 @@
         {
           "_key": "rps46",
           "_type": "span",
-          "marks": ["rpm45"],
+          "marks": [
+            "rpm45"
+          ],
           "text": "7-day Bali route for first-timers"
         },
         {
@@ -732,7 +777,9 @@
         {
           "_key": "rps49",
           "_type": "span",
-          "marks": ["rpm48"],
+          "marks": [
+            "rpm48"
+          ],
           "text": "Bali, Lombok and Gili Islands route"
         },
         {
@@ -805,7 +852,9 @@
         {
           "_key": "rps58",
           "_type": "span",
-          "marks": ["rpm57"],
+          "marks": [
+            "rpm57"
+          ],
           "text": "islands closer to Bali"
         },
         {
@@ -838,7 +887,9 @@
         {
           "_key": "lbgs1",
           "_type": "span",
-          "marks": ["lbgm1"],
+          "marks": [
+            "lbgm1"
+          ],
           "text": "rank the nine islands near Bali"
         },
         {
@@ -857,6 +908,212 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "r1016-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Should you add Lombok to a Bali and Gili Islands trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "r1016-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Not on a ten-day trip that already covers Ubud, Canggu and Uluwatu. Lombok needs a car and at least two nights before it pays back, so adding it means cutting a Bali base, not squeezing in a day. If Lombok's south coast or waterfalls matter more to you than Canggu, swap Canggu out rather than adding a fifth stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1016-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "The Gilis sit just off Lombok's northwest coast, and the public boat from Bangsal takes 15 to 30 minutes, so the swap is easy on the map. Our "
+        },
+        {
+          "_key": "r1016-s8",
+          "_type": "span",
+          "marks": [
+            "r1016-m7"
+          ],
+          "text": "10-day Bali, Lombok and Gili Islands route"
+        },
+        {
+          "_key": "r1016-s9",
+          "_type": "span",
+          "marks": [],
+          "text": " is built exactly that way, and the "
+        },
+        {
+          "_key": "r1016-s11",
+          "_type": "span",
+          "marks": [
+            "r1016-m10"
+          ],
+          "text": "Lombok to Gili Islands transport guide"
+        },
+        {
+          "_key": "r1016-s12",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the crossing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "r1016-m7",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-lombok-gili-islands"
+        },
+        {
+          "_key": "r1016-m10",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/lombok-to-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "r1016-b13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s14",
+          "_type": "span",
+          "marks": [],
+          "text": "Should you book a Bali and Gili Islands tour, or do it on your own?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "r1016-b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s16",
+          "_type": "span",
+          "marks": [],
+          "text": "Do it on your own if you are comfortable booking a fast boat and four hotels: this route has no permits, no remote legs and only two boat days, so a tour mostly buys you convenience. Book a small-group tour if you are travelling alone and want company, or if you would rather not manage the boat and the transfers at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1016-b17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1016-s18",
+          "_type": "span",
+          "marks": [],
+          "text": "Packaged small-group versions of this route usually run 10 to 13 days, and one operator lists a 13-day Bali and Gilis trip from about 1,550 US dollars per person before flights. Building the same ten days yourself at a mid-range level usually costs less; our "
+        },
+        {
+          "_key": "r1016-s20",
+          "_type": "span",
+          "marks": [
+            "r1016-m19"
+          ],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "r1016-s21",
+          "_type": "span",
+          "marks": [],
+          "text": " has the daily ranges."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "r1016-m19",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/indonesia-travel-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "r1016-t22",
+      "_type": "comparisonTable",
+      "caption": "Independent trip or small-group tour on the Bali and Gili route. Tour prices vary by operator and season; treat these as working estimates.",
+      "columns": [
+        "What matters",
+        "Do it yourself",
+        "Small-group or packaged tour"
+      ],
+      "rows": [
+        {
+          "_key": "r1016-r23",
+          "cells": [
+            "What you book",
+            "Four hotels, two fast boat crossings, a few drivers",
+            "One booking, transfers and boats included"
+          ]
+        },
+        {
+          "_key": "r1016-r24",
+          "cells": [
+            "Typical length",
+            "Ten days works well",
+            "Usually 10 to 13 days"
+          ]
+        },
+        {
+          "_key": "r1016-r25",
+          "cells": [
+            "Flexibility",
+            "Change the order, extend the Gilis, skip a day",
+            "Fixed dates, fixed hotels, fixed pace"
+          ]
+        },
+        {
+          "_key": "r1016-r26",
+          "cells": [
+            "Cost",
+            "Usually lower at a mid-range level",
+            "Higher, from about 1,550 US dollars per person on one 13-day listing"
+          ]
+        },
+        {
+          "_key": "r1016-r27",
+          "cells": [
+            "Best for",
+            "Couples and friends who like to plan",
+            "Solo travellers who want company, or anyone short on planning time"
+          ]
+        },
+        {
+          "_key": "r1016-r28",
+          "cells": [
+            "Weak point",
+            "You carry the boat risk yourself",
+            "Less time to linger where you like it"
+          ]
+        }
+      ]
     },
     {
       "_key": "rpb62",
@@ -899,7 +1156,9 @@
         {
           "_key": "rps67",
           "_type": "span",
-          "marks": ["rpm66"],
+          "marks": [
+            "rpm66"
+          ],
           "text": "stays in Ubud"
         },
         {
@@ -911,7 +1170,9 @@
         {
           "_key": "rps70",
           "_type": "span",
-          "marks": ["rpm69"],
+          "marks": [
+            "rpm69"
+          ],
           "text": "stays in Canggu"
         },
         {
@@ -923,7 +1184,9 @@
         {
           "_key": "rps73",
           "_type": "span",
-          "marks": ["rpm72"],
+          "marks": [
+            "rpm72"
+          ],
           "text": "rooms on Gili Trawangan"
         },
         {
@@ -935,7 +1198,9 @@
         {
           "_key": "rps76",
           "_type": "span",
-          "marks": ["rpm75"],
+          "marks": [
+            "rpm75"
+          ],
           "text": "stays in Uluwatu"
         },
         {
@@ -1052,7 +1317,9 @@
         {
           "_key": "k1e",
           "_type": "span",
-          "marks": ["k1d"],
+          "marks": [
+            "k1d"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -1084,7 +1351,9 @@
         {
           "_key": "k1j",
           "_type": "span",
-          "marks": ["k1i"],
+          "marks": [
+            "k1i"
+          ],
           "text": "private airport transfer"
         },
         {
@@ -1124,7 +1393,9 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1144,7 +1415,9 @@
         {
           "_key": "k1r",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1164,7 +1437,9 @@
         {
           "_key": "k1u",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1184,7 +1459,9 @@
         {
           "_key": "k1x",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -1204,7 +1481,9 @@
         {
           "_key": "k20",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1238,7 +1517,9 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1258,7 +1539,9 @@
         {
           "_key": "k28",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1270,7 +1553,9 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": ["k2a"],
+          "marks": [
+            "k2a"
+          ],
           "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -1296,7 +1581,9 @@
         {
           "_key": "k2e",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1316,7 +1603,9 @@
         {
           "_key": "k2h",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1364,7 +1653,9 @@
         {
           "_key": "k2o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning, active option."
         },
         {
@@ -1376,7 +1667,9 @@
         {
           "_key": "k2r",
           "_type": "span",
-          "marks": ["k2q"],
+          "marks": [
+            "k2q"
+          ],
           "text": "Mount Batur sunrise jeep experience"
         },
         {
@@ -1402,7 +1695,9 @@
         {
           "_key": "k2u",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning, slower option."
         },
         {
@@ -1414,7 +1709,9 @@
         {
           "_key": "k2x",
           "_type": "span",
-          "marks": ["k2w"],
+          "marks": [
+            "k2w"
+          ],
           "text": "Balinese cooking class"
         },
         {
@@ -1440,7 +1737,9 @@
         {
           "_key": "k30",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1460,7 +1759,9 @@
         {
           "_key": "k33",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1494,7 +1795,9 @@
         {
           "_key": "k38",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1506,7 +1809,9 @@
         {
           "_key": "k3b",
           "_type": "span",
-          "marks": ["k3a"],
+          "marks": [
+            "k3a"
+          ],
           "text": "private car charter"
         },
         {
@@ -1532,7 +1837,9 @@
         {
           "_key": "k3e",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1552,7 +1859,9 @@
         {
           "_key": "k3h",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1572,7 +1881,9 @@
         {
           "_key": "k3k",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -1606,7 +1917,9 @@
         {
           "_key": "k3p",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1626,7 +1939,9 @@
         {
           "_key": "k3s",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1638,7 +1953,9 @@
         {
           "_key": "k3v",
           "_type": "span",
-          "marks": ["k3u"],
+          "marks": [
+            "k3u"
+          ],
           "text": "Tanah Lot sunset tour from Canggu"
         },
         {
@@ -1664,7 +1981,9 @@
         {
           "_key": "k3y",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1684,7 +2003,9 @@
         {
           "_key": "k41",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1718,7 +2039,9 @@
         {
           "_key": "k46",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1730,7 +2053,9 @@
         {
           "_key": "k49",
           "_type": "span",
-          "marks": ["k48"],
+          "marks": [
+            "k48"
+          ],
           "text": "Bali to Gili Trawangan fast boat"
         },
         {
@@ -1756,7 +2081,9 @@
         {
           "_key": "k4c",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1776,7 +2103,9 @@
         {
           "_key": "k4f",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1796,7 +2125,9 @@
         {
           "_key": "k4i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1816,7 +2147,9 @@
         {
           "_key": "k4l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1850,7 +2183,9 @@
         {
           "_key": "k4q",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1870,7 +2205,9 @@
         {
           "_key": "k4t",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1890,7 +2227,9 @@
         {
           "_key": "k4w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1924,7 +2263,9 @@
         {
           "_key": "k51",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1944,7 +2285,9 @@
         {
           "_key": "k54",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1964,7 +2307,9 @@
         {
           "_key": "k57",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1998,7 +2343,9 @@
         {
           "_key": "k5c",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -2010,7 +2357,9 @@
         {
           "_key": "k5f",
           "_type": "span",
-          "marks": ["k5e"],
+          "marks": [
+            "k5e"
+          ],
           "text": "return fast boat from Gili Trawangan to Bali"
         },
         {
@@ -2036,7 +2385,9 @@
         {
           "_key": "k5i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -2056,7 +2407,9 @@
         {
           "_key": "k5l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -2076,7 +2429,9 @@
         {
           "_key": "k5o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -2110,7 +2465,9 @@
         {
           "_key": "k5t",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -2130,7 +2487,9 @@
         {
           "_key": "k5w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -2142,7 +2501,9 @@
         {
           "_key": "k5z",
           "_type": "span",
-          "marks": ["k5y"],
+          "marks": [
+            "k5y"
+          ],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -2168,7 +2529,9 @@
         {
           "_key": "k62",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -2188,7 +2551,9 @@
         {
           "_key": "k65",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -2222,7 +2587,9 @@
         {
           "_key": "k6a",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early."
         },
         {
@@ -2242,7 +2609,9 @@
         {
           "_key": "k6d",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible."
         },
         {
@@ -2276,7 +2645,9 @@
         {
           "_key": "k6i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adding a third island."
         },
         {
@@ -2294,7 +2665,9 @@
         {
           "_key": "gsc0824k6kb",
           "_type": "span",
-          "marks": ["gsc0824k6k"],
+          "marks": [
+            "gsc0824k6k"
+          ],
           "text": "islands near Bali"
         },
         {
@@ -2321,7 +2694,9 @@
         {
           "_key": "k6l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Taking the last boat back."
         },
         {
@@ -2341,7 +2716,9 @@
         {
           "_key": "k6o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Ending far from the airport."
         },
         {
@@ -2361,7 +2738,9 @@
         {
           "_key": "k6r",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Over-programming the Gilis."
         },
         {
@@ -2381,7 +2760,9 @@
         {
           "_key": "k6u",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Underestimating Bali traffic."
         },
         {
@@ -2415,7 +2796,9 @@
         {
           "_key": "k6z",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut."
         },
         {
@@ -2435,7 +2818,9 @@
         {
           "_key": "k72",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt."
         },
         {
@@ -2455,7 +2840,9 @@
         {
           "_key": "k75",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade."
         },
         {
@@ -2489,7 +2876,9 @@
         {
           "_key": "k7a",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time."
         },
         {
@@ -2509,7 +2898,9 @@
         {
           "_key": "k7d",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa and entry."
         },
         {
@@ -2529,7 +2920,9 @@
         {
           "_key": "k7g",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Domestic transport."
         },
         {
@@ -2549,14 +2942,16 @@
         {
           "_key": "k7j",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Ferries and remote logistics."
         },
         {
           "_key": "k7k",
           "_type": "span",
           "marks": [],
-          "text": " Crossings run roughly 1.5 to 3 hours depending on the port, costing in the region of US$25 to US$42 one way as a working estimate. Padang Bai is often the quickest departure. Schedules shift with weather and season, so confirm current departures before locking hotel dates around a specific boat, and allow buffer time."
+          "text": " Crossings run roughly 1.5 to 3 hours depending on the port, costing in the region of US$20 to US$45 one way as a working estimate. Padang Bai is often the quickest departure. Schedules shift with weather and season, so confirm current departures before locking hotel dates around a specific boat, and allow buffer time."
         }
       ],
       "markDefs": [],
@@ -2569,7 +2964,9 @@
         {
           "_key": "k7m",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and eSIM."
         },
         {
@@ -2581,7 +2978,9 @@
         {
           "_key": "k7p",
           "_type": "span",
-          "marks": ["k7o"],
+          "marks": [
+            "k7o"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -2607,7 +3006,9 @@
         {
           "_key": "k7s",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "What to book early versus keep flexible."
         },
         {
@@ -2689,7 +3090,9 @@
         {
           "_key": "k85",
           "_type": "span",
-          "marks": ["k84"],
+          "marks": [
+            "k84"
+          ],
           "text": "Nusa Penida and Bali route"
         },
         {
@@ -2722,7 +3125,9 @@
         {
           "_key": "k8a",
           "_type": "span",
-          "marks": ["k89"],
+          "marks": [
+            "k89"
+          ],
           "text": "two-week Bali and Lombok itinerary"
         },
         {
@@ -2755,7 +3160,9 @@
         {
           "_key": "k8f",
           "_type": "span",
-          "marks": ["k8e"],
+          "marks": [
+            "k8e"
+          ],
           "text": "Bali destination guide"
         },
         {
@@ -2788,7 +3195,9 @@
         {
           "_key": "q2sexm2n7v",
           "_type": "span",
-          "marks": ["ws1zvw2nq7"],
+          "marks": [
+            "ws1zvw2nq7"
+          ],
           "text": "Bali to Gili Islands"
         },
         {
@@ -2800,7 +3209,9 @@
         {
           "_key": "yrj336x1p6",
           "_type": "span",
-          "marks": ["x6yjmkobbm"],
+          "marks": [
+            "x6yjmkobbm"
+          ],
           "text": "Bali to Nusa Penida"
         },
         {
@@ -2812,7 +3223,9 @@
         {
           "_key": "jc63i1oofh",
           "_type": "span",
-          "marks": ["uiebaj5gfp"],
+          "marks": [
+            "uiebaj5gfp"
+          ],
           "text": "Gili Islands to Nusa Penida"
         },
         {
@@ -2847,7 +3260,10 @@
   ],
   "contentStatus": "live",
   "destinationPrimary": "bali_nearby_islands",
-  "destinationSecondary": ["bali", "lombok_gili"],
+  "destinationSecondary": [
+    "bali",
+    "lombok_gili"
+  ],
   "experienceTags": [
     "rice_terraces",
     "temples",
@@ -2883,6 +3299,11 @@
     {
       "answer": "Uluwatu sits about 30 to 45 minutes from the airport in normal traffic, so your final morning is a short drive rather than a long transfer and a boat. Ending here means you absorb the fast-boat day on Day 9, not on the day you fly out. Allow buffer time regardless, since southern Bali traffic can be slow.",
       "question": "Why end the trip in Uluwatu instead of on the Gilis?"
+    },
+    {
+      "_key": "r1016-faq-lombok",
+      "answer": "You can, but only by swapping out a Bali base such as Canggu, not by adding a stop. Lombok needs a car and at least two nights to be worth it. The Gilis are 15 to 30 minutes by public boat from Bangsal on Lombok, so the swap is simple once you are on the islands.",
+      "question": "Can you add Lombok to a 10-day Bali and Gili Islands trip?"
     }
   ],
   "focusKeyword": "10 days in Bali itinerary",
@@ -2896,17 +3317,25 @@
     "caption": "Ubud → Canggu → Gili Trawangan → Uluwatu"
   },
   "intro": "Most ten-day Bali plans fail in the same way: they cram four bases, two ferries and a volcano into a schedule that leaves you packing every other morning. This route refuses that. Three nights in Ubud, two in Canggu, three on Gili Trawangan, one in Uluwatu near the airport. Few moves, long stays, one island escape that actually feels like an escape.",
-  "metaDescription": "Bali and the Gili Islands work as one trip if you get the boat right. Ubud, Canggu, Gili Trawangan, then Uluwatu, with honest transfer days.",
-  "metaTitle": "Bali and the Gili Islands: How to Combine Them in 10 Days",
+  "metaDescription": "A 10-day Bali and Gili Islands itinerary: Ubud, Canggu, three nights on Gili Trawangan, then Uluwatu by the airport, with the fast boat days planned.",
+  "metaTitle": "Bali and Gili Islands Itinerary: 10 Days, Route and Boats",
   "route": "Ubud → Canggu → Gili Trawangan → Uluwatu",
+  "seoNote": "2026-10-16 generator run. PARTE 1: metaTitle/metaDescription changed (old metaTitle 'Bali and the Gili Islands: How to Combine Them in 10 Days'; old metaDescription 'Bali and the Gili Islands work as one trip if you get the boat right. Ubud, Canggu, Gili Trawangan, then Uluwatu, with honest transfer days.'). PARTE 3: two H2 sections (Lombok add-on, tour vs independent) + 1 table + 1 FAQ, _key prefix r1016-. Baseline GSC 2026-09-16..10-13: page 650 impr, 7 clicks, pos 10.2; 'bali and gili islands' 23 impr pos 40.1; 'bali gili islands' 14 impr pos 29.9; 'gili island to bali' 9 impr pos 39.1. Do not retouch title/meta/content before 2026-11-13, when this is read. Previous round: 2026-09-05.",
   "slug": {
     "_type": "slug",
     "current": "10-days-bali-gili-islands"
   },
   "title": "10 Days in Bali and the Gili Islands: Ubud, Canggu, Gili Trawangan and Uluwatu",
   "travelStylePrimary": "beach_islands",
-  "travelStyleSecondary": ["first_time_indonesia", "culture_temples"],
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
+  "travelStyleSecondary": [
+    "first_time_indonesia",
+    "culture_temples"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
   "tripLengthBucket": "ten_days",
   "tripLengthDays": 10,
   "vibe": "balanced"
