@@ -35,19 +35,19 @@ GSC, 28 giorni (2026-07-13 → 2026-08-09): **128 impression, 0 click, posizione
 Le query attribuite alla pagina (dimensioni page+query, 46 impression su 18 query;
 il resto è anonimizzato da Google):
 
-| query                | impression | click | posizione |
-| -------------------- | ---------- | ----- | --------- |
-| java itinerary       | 20         | 0     | 69,3      |
-| java yogyakarta      | 7          | 0     | 34,1      |
-| java ijen            | 3          | 0     | 66,0      |
-| java trip            | 1          | 0     | 62,0      |
-| java volcano         | 1          | 0     | 37,0      |
-| java volcanoes       | 1          | 0     | 43,0      |
-| java volcanoes map   | 1          | 0     | 48,0      |
-| java mount ijen      | 1          | 0     | 49,0      |
-| ijen java            | 1          | 0     | 59,0      |
-| explore java indonesia | 1        | 0     | 9,0       |
-| coda non inglese (ile de java, indonesie java, java voyage, voyage java) | 4 | 0 | 28-68 |
+| query                                                                    | impression | click | posizione |
+| ------------------------------------------------------------------------ | ---------- | ----- | --------- |
+| java itinerary                                                           | 20         | 0     | 69,3      |
+| java yogyakarta                                                          | 7          | 0     | 34,1      |
+| java ijen                                                                | 3          | 0     | 66,0      |
+| java trip                                                                | 1          | 0     | 62,0      |
+| java volcano                                                             | 1          | 0     | 37,0      |
+| java volcanoes                                                           | 1          | 0     | 43,0      |
+| java volcanoes map                                                       | 1          | 0     | 48,0      |
+| java mount ijen                                                          | 1          | 0     | 49,0      |
+| ijen java                                                                | 1          | 0     | 59,0      |
+| explore java indonesia                                                   | 1          | 0     | 9,0       |
+| coda non inglese (ile de java, indonesie java, java voyage, voyage java) | 4          | 0     | 28-68     |
 
 Due cose da notare. La prima: **una sola query vale il 43% del cluster**, ed è
 `java itinerary`, in posizione 69. Non è una pagina che ranka male ovunque, è una
@@ -97,11 +97,11 @@ l'hub no. Motivo in più per far somigliare l'hub a quella guida.
 
 Registrata qui per poter annullare in dieci secondi.
 
-| campo             | valore vecchio                                                                                                                  | valore nuovo                                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `h1`              | _assente_ (ripiegava su `name`, cioè `Java`)                                                                                      | `Java Itineraries`                                                                                                                                    |
-| `metaTitle`       | `Java itineraries, Yogyakarta, Bromo & Ijen`                                                                                       | `Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day` (56 char)                                                                                   |
-| `metaDescription` | `Java trip plans covering Yogyakarta, Borobudur, Prambanan, Mount Bromo and the Ijen blue flames. Bookable day-by-day routes.`      | `How many days Java needs, the order that saves the most road time, and where Borobudur, Bromo and Ijen fit. Day-by-day routes with transfer times.` (150 char) |
+| campo             | valore vecchio                                                                                                                 | valore nuovo                                                                                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `h1`              | _assente_ (ripiegava su `name`, cioè `Java`)                                                                                   | `Java Itineraries`                                                                                                                                              |
+| `metaTitle`       | `Java itineraries, Yogyakarta, Bromo & Ijen`                                                                                   | `Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day` (56 char)                                                                                            |
+| `metaDescription` | `Java trip plans covering Yogyakarta, Borobudur, Prambanan, Mount Bromo and the Ijen blue flames. Bookable day-by-day routes.` | `How many days Java needs, the order that saves the most road time, and where Borobudur, Bromo and Ijen fit. Day-by-day routes with transfer times.` (150 char) |
 
 Per annullare: `git revert 855fd27`.
 
@@ -125,12 +125,12 @@ gli AI estraggono.
 
 **tabella:**
 
-| Days    | Route                                | What you get                                     | What you give up                                    |
-| ------- | ------------------------------------ | ------------------------------------------------ | --------------------------------------------------- |
-| 5       | Yogyakarta, then Bromo via Surabaya  | Borobudur, Prambanan and one sunrise volcano      | Ijen, and any time in Jakarta or Bandung            |
-| 7 to 8  | Yogyakarta, Bromo, Ijen, exit to Bali | The classic east-bound crossing, both volcanoes   | West Java entirely, and unhurried temple days       |
-| 10      | Jakarta, Bandung, Yogyakarta, Bromo  | The western half plus the temples and one volcano | Ijen, unless you cut a night in Bandung             |
-| 14      | Jakarta to Bali overland, west to east | Everything above, with room for a rest day      | Very little, this is the comfortable version        |
+| Days   | Route                                  | What you get                                      | What you give up                              |
+| ------ | -------------------------------------- | ------------------------------------------------- | --------------------------------------------- |
+| 5      | Yogyakarta, then Bromo via Surabaya    | Borobudur, Prambanan and one sunrise volcano      | Ijen, and any time in Jakarta or Bandung      |
+| 7 to 8 | Yogyakarta, Bromo, Ijen, exit to Bali  | The classic east-bound crossing, both volcanoes   | West Java entirely, and unhurried temple days |
+| 10     | Jakarta, Bandung, Yogyakarta, Bromo    | The western half plus the temples and one volcano | Ijen, unless you cut a night in Bandung       |
+| 14     | Jakarta to Bali overland, west to east | Everything above, with room for a rest day        | Very little, this is the comfortable version  |
 
 **link di chiusura:** verso `/trips/7-days-yogyakarta-east-java` con anchor
 `7-day Yogyakarta and East Java route`.
@@ -165,12 +165,12 @@ gli AI estraggono.
 **tabella** (tutti i numeri sono già pubblicati sulle nostre pagine
 `/transport/*`, tenuti allineati di proposito invece di essere ri-cercati):
 
-| Leg                   | Best way                       | Working time                        | Note                                                                       |
-| --------------------- | ------------------------------ | ----------------------------------- | -------------------------------------------------------------------------- |
-| Jakarta to Yogyakarta | Executive train                | About 6 to 7.5 hours, around 19 daily | Often wins door to door, since YIA airport is about an hour from town     |
-| Yogyakarta to Bromo   | Two-day, one-night road package | About 8 to 10 hours each way        | The sunrise jeep leaves around 3am, so a same-day return is brutal          |
-| Surabaya to Bromo     | Road transfer or shuttle       | About 3 to 4 hours                  | The closest gateway, and the only one where a single-day tour makes sense   |
-| Bali to Yogyakarta    | Direct flight                  | About 1 hour 25 minutes             | There is no sensible overland version coming the other way                 |
+| Leg                   | Best way                        | Working time                          | Note                                                                      |
+| --------------------- | ------------------------------- | ------------------------------------- | ------------------------------------------------------------------------- |
+| Jakarta to Yogyakarta | Executive train                 | About 6 to 7.5 hours, around 19 daily | Often wins door to door, since YIA airport is about an hour from town     |
+| Yogyakarta to Bromo   | Two-day, one-night road package | About 8 to 10 hours each way          | The sunrise jeep leaves around 3am, so a same-day return is brutal        |
+| Surabaya to Bromo     | Road transfer or shuttle        | About 3 to 4 hours                    | The closest gateway, and the only one where a single-day tour makes sense |
+| Bali to Yogyakarta    | Direct flight                   | About 1 hour 25 minutes               | There is no sensible overland version coming the other way                |
 
 **link di chiusura:** verso `/transport/jakarta-to-yogyakarta` con anchor
 `Jakarta to Yogyakarta, train against flight`.

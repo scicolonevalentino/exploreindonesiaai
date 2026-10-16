@@ -87,9 +87,9 @@ l'applicazione diretta di quella conclusione.
 **GIÀ APPLICATO il 2026-08-26 (PARTE 1).** Valori vecchi conservati qui per
 poter annullare in dieci secondi.
 
-| Campo             | Vecchio                                                                                                                                              | Nuovo                                                                                                                                                |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `metaTitle`       | `Bali in 5 Days: Ubud, Canggu & Uluwatu Trip Plan`                                                                                                    | `Ubud, Canggu or Uluwatu? Do All Three in 5 Days`                                                                                                     |
+| Campo             | Vecchio                                                                                                                                                      | Nuovo                                                                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `metaTitle`       | `Bali in 5 Days: Ubud, Canggu & Uluwatu Trip Plan`                                                                                                           | `Ubud, Canggu or Uluwatu? Do All Three in 5 Days`                                                                                                   |
 | `metaDescription` | `5 days in Bali: 2 nights Ubud, 1 Canggu, 1 Uluwatu. Around $200–300 per person on a budget, $500–700 mid-range, flights excluded. Transfer times included.` | `Which base suits you, and how to fit all three in five days: 2 nights Ubud, 1 Canggu, 1 Uluwatu, north to south, with real drive times and costs.` |
 
 Il campo `title` **non è stato toccato**, per la regola del 2026-08-07: su un
@@ -152,15 +152,15 @@ corpo attuale, sparsi nei "Travel note": vanno solo raccolti in un punto.
 
 Tipo `comparisonTable`, caption che dichiara che sono stime di lavoro.
 
-| | Ubud | Canggu | Uluwatu |
-| --- | --- | --- | --- |
-| Cos'è | Interno, culturale, verde, aria più fresca | Costa ovest, surf, caffè, vita sociale | Falesie a sud, spiagge sotto le scogliere, tramonti |
-| Distanza dal mare | Circa un'ora | Ci cammini | Ci scendi a piedi o in scooter |
-| Distanza da Ngurah Rai | 1,5 ore, fino a 2,5 nel traffico | 1 ora circa | 30-45 minuti |
-| Prezzo relativo | Il più basso dei tre | Il più alto dei tre | Alto sulle falesie, medio nell'entroterra |
-| Serate | Presto e tranquille | Tardi e affollate | Kecak alle 18, poi cena vista mare |
-| Quante notti su cinque | Due | Una | Una |
-| A chi conviene | Chi vuole templi, terrazze e risparmiare | Chi vuole spiaggia e vita | Chi ha il volo nel pomeriggio |
+|                        | Ubud                                       | Canggu                                 | Uluwatu                                             |
+| ---------------------- | ------------------------------------------ | -------------------------------------- | --------------------------------------------------- |
+| Cos'è                  | Interno, culturale, verde, aria più fresca | Costa ovest, surf, caffè, vita sociale | Falesie a sud, spiagge sotto le scogliere, tramonti |
+| Distanza dal mare      | Circa un'ora                               | Ci cammini                             | Ci scendi a piedi o in scooter                      |
+| Distanza da Ngurah Rai | 1,5 ore, fino a 2,5 nel traffico           | 1 ora circa                            | 30-45 minuti                                        |
+| Prezzo relativo        | Il più basso dei tre                       | Il più alto dei tre                    | Alto sulle falesie, medio nell'entroterra           |
+| Serate                 | Presto e tranquille                        | Tardi e affollate                      | Kecak alle 18, poi cena vista mare                  |
+| Quante notti su cinque | Due                                        | Una                                    | Una                                                 |
+| A chi conviene         | Chi vuole templi, terrazze e risparmiare   | Chi vuole spiaggia e vita              | Chi ha il volo nel pomeriggio                       |
 
 ### 4.5 `Which one should you cut if you only have three days?`
 
@@ -181,7 +181,7 @@ Alle sei attuali, aggiungere due domande in linguaggio naturale:
 **In entrata** (queste mancano, ed è la leva più economica):
 
 1. Da `/destinations/bali`, nella sezione di apertura, ancora `Ubud, Canggu or
-   Uluwatu`. La hub Bali oggi non punta a questa pagina con un'ancora
+Uluwatu`. La hub Bali oggi non punta a questa pagina con un'ancora
    comparativa.
 2. Da `/trips/7-days-bali-first-timers`, ancora `which base suits you`, perché
    il lettore di quella pagina si sta ponendo la stessa domanda con due giorni in più.
