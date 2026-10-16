@@ -89,9 +89,7 @@
         {
           "_key": "s3",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Who this trip is NOT for."
         },
         {
@@ -103,9 +101,7 @@
         {
           "_key": "s5",
           "_type": "span",
-          "marks": [
-            "m1"
-          ],
+          "marks": ["m1"],
           "text": "the nine-day North Sumatra trip with kids"
         },
         {
@@ -146,9 +142,7 @@
         {
           "_key": "s8",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Route. "
         },
         {
@@ -168,9 +162,7 @@
         {
           "_key": "s10",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Nights. "
         },
         {
@@ -190,9 +182,7 @@
         {
           "_key": "s12",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pace. "
         },
         {
@@ -212,9 +202,7 @@
         {
           "_key": "s14",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Getting there. "
         },
         {
@@ -234,9 +222,7 @@
         {
           "_key": "s16",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Budget shape. "
         },
         {
@@ -326,9 +312,7 @@
         {
           "_key": "s23",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -348,9 +332,7 @@
         {
           "_key": "s25",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -362,9 +344,7 @@
         {
           "_key": "s27",
           "_type": "span",
-          "marks": [
-            "m2"
-          ],
+          "marks": ["m2"],
           "text": "compare buses and shared shuttles from Medan to Parapat"
         },
         {
@@ -376,9 +356,7 @@
         {
           "_key": "s29",
           "_type": "span",
-          "marks": [
-            "m3"
-          ],
+          "marks": ["m3"],
           "text": "Medan to Lake Toba transport guide"
         },
         {
@@ -410,9 +388,7 @@
         {
           "_key": "s31",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -432,9 +408,7 @@
         {
           "_key": "s33",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Base. "
         },
         {
@@ -454,9 +428,7 @@
         {
           "_key": "s35",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note. "
         },
         {
@@ -490,9 +462,7 @@
         {
           "_key": "s38",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -512,9 +482,7 @@
         {
           "_key": "s40",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -534,9 +502,7 @@
         {
           "_key": "s42",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -556,9 +522,7 @@
         {
           "_key": "s44",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic. "
         },
         {
@@ -578,9 +542,7 @@
         {
           "_key": "s46",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note. "
         },
         {
@@ -614,9 +576,7 @@
         {
           "_key": "s49",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -636,9 +596,7 @@
         {
           "_key": "s51",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -658,9 +616,7 @@
         {
           "_key": "s53",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -680,9 +636,7 @@
         {
           "_key": "s55",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic. "
         },
         {
@@ -716,9 +670,7 @@
         {
           "_key": "s58",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -738,9 +690,7 @@
         {
           "_key": "s60",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -760,9 +710,7 @@
         {
           "_key": "s62",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -782,9 +730,7 @@
         {
           "_key": "s64",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note. "
         },
         {
@@ -804,9 +750,7 @@
         {
           "_key": "s66",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking logic. "
         },
         {
@@ -840,9 +784,7 @@
         {
           "_key": "s69",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Morning. "
         },
         {
@@ -862,9 +804,7 @@
         {
           "_key": "s71",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Afternoon. "
         },
         {
@@ -884,9 +824,7 @@
         {
           "_key": "s73",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Evening. "
         },
         {
@@ -906,9 +844,7 @@
         {
           "_key": "s75",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Travel note. "
         },
         {
@@ -942,9 +878,7 @@
         {
           "_key": "s78",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Book early. "
         },
         {
@@ -964,9 +898,7 @@
         {
           "_key": "s80",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Keep flexible. "
         },
         {
@@ -986,9 +918,7 @@
         {
           "_key": "s82",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Sort before you fly. "
         },
         {
@@ -1000,9 +930,7 @@
         {
           "_key": "s84",
           "_type": "span",
-          "marks": [
-            "m4"
-          ],
+          "marks": ["m4"],
           "text": "an Indonesia eSIM from Airalo"
         },
         {
@@ -1042,9 +970,7 @@
         {
           "_key": "s87",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Basing in Parapat. "
         },
         {
@@ -1064,9 +990,7 @@
         {
           "_key": "s89",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Treating Samosir as a day trip. "
         },
         {
@@ -1086,9 +1010,7 @@
         {
           "_key": "s91",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Packing for a beach. "
         },
         {
@@ -1108,9 +1030,7 @@
         {
           "_key": "s93",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cutting the ferry too fine on arrival. "
         },
         {
@@ -1130,9 +1050,7 @@
         {
           "_key": "s95",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Arriving without cash. "
         },
         {
@@ -1152,9 +1070,7 @@
         {
           "_key": "s97",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Booking Sunday morning activities. "
         },
         {
@@ -1188,9 +1104,7 @@
         {
           "_key": "s100",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut to four days. "
         },
         {
@@ -1210,9 +1124,7 @@
         {
           "_key": "s102",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Cut to three days, but only via Silangit. "
         },
         {
@@ -1232,9 +1144,7 @@
         {
           "_key": "s104",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Upgrade the driving. "
         },
         {
@@ -1254,9 +1164,7 @@
         {
           "_key": "s106",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Hand the logistics over. "
         },
         {
@@ -1268,9 +1176,7 @@
         {
           "_key": "s108",
           "_type": "span",
-          "marks": [
-            "m5"
-          ],
+          "marks": ["m5"],
           "text": "a packaged five-day Medan to Toba and Berastagi run"
         },
         {
@@ -1282,9 +1188,7 @@
         {
           "_key": "s110",
           "_type": "span",
-          "marks": [
-            "m6"
-          ],
+          "marks": ["m6"],
           "text": "the three-day, two-night version of the same loop"
         },
         {
@@ -1315,9 +1219,7 @@
         {
           "_key": "s112",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Add Berastagi and Sipiso-piso. "
         },
         {
@@ -1329,9 +1231,7 @@
         {
           "_key": "s114",
           "_type": "span",
-          "marks": [
-            "m7"
-          ],
+          "marks": ["m7"],
           "text": "the fifteen-day Sumatra itinerary"
         },
         {
@@ -1358,9 +1258,7 @@
         {
           "_key": "hm11a-a",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Pair it with a coast. "
         },
         {
@@ -1372,10 +1270,7 @@
         {
           "_key": "hm11a-c",
           "_type": "span",
-          "marks": [
-            "strong",
-            "hm11amd"
-          ],
+          "marks": ["strong", "hm11amd"],
           "text": "eleven-day Sumatra honeymoon route"
         },
         {
@@ -1416,9 +1311,7 @@
         {
           "_key": "s117",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Visa. "
         },
         {
@@ -1438,9 +1331,7 @@
         {
           "_key": "s119",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Season. "
         },
         {
@@ -1452,9 +1343,7 @@
         {
           "_key": "s121",
           "_type": "span",
-          "marks": [
-            "m8"
-          ],
+          "marks": ["m8"],
           "text": "guide to the best time to visit Sumatra"
         },
         {
@@ -1481,9 +1370,7 @@
         {
           "_key": "s123",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Money. "
         },
         {
@@ -1503,9 +1390,7 @@
         {
           "_key": "s125",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Altitude and clothing. "
         },
         {
@@ -1525,9 +1410,7 @@
         {
           "_key": "s127",
           "_type": "span",
-          "marks": [
-            "strong"
-          ],
+          "marks": ["strong"],
           "text": "Combining it. "
         },
         {
@@ -1539,9 +1422,7 @@
         {
           "_key": "s129",
           "_type": "span",
-          "marks": [
-            "m9"
-          ],
+          "marks": ["m9"],
           "text": "Lake Toba guide"
         },
         {
@@ -1630,9 +1511,7 @@
         {
           "_key": "s136",
           "_type": "span",
-          "marks": [
-            "m10"
-          ],
+          "marks": ["m10"],
           "text": "15 days in Sumatra"
         },
         {
@@ -1644,9 +1523,7 @@
         {
           "_key": "s138",
           "_type": "span",
-          "marks": [
-            "m11"
-          ],
+          "marks": ["m11"],
           "text": "9 days in North Sumatra with kids"
         },
         {
@@ -1658,9 +1535,7 @@
         {
           "_key": "s140",
           "_type": "span",
-          "marks": [
-            "m12"
-          ],
+          "marks": ["m12"],
           "text": "7 days in West Sumatra"
         },
         {
@@ -1672,9 +1547,7 @@
         {
           "_key": "s142",
           "_type": "span",
-          "marks": [
-            "m13"
-          ],
+          "marks": ["m13"],
           "text": "Sumatra destination hub"
         },
         {
@@ -1715,12 +1588,7 @@
   ],
   "contentStatus": "live",
   "destinationPrimary": "sumatra",
-  "experienceTags": [
-    "batak_culture",
-    "lake",
-    "highlands",
-    "slow_travel"
-  ],
+  "experienceTags": ["batak_culture", "lake", "highlands", "slow_travel"],
   "faq": [
     {
       "answer": "Five days from Medan is the practical minimum, because two of them are road days. That leaves three full days on Samosir Island, which is enough for the Batak sites on the east coast, the Pangururan and Tele loop on the west, and one unplanned day. Flying into Silangit instead of Medan cuts roughly two hours of driving each way and makes a three-day version workable.",
@@ -1772,11 +1640,7 @@
   "title": "5 Days at Lake Toba: Samosir Island Without the Rush",
   "travelStylePrimary": "culture_temples",
   "travelStyleSecondary": "remote_offbeat",
-  "travellerTypes": [
-    "couples",
-    "friends",
-    "solo_travellers"
-  ],
+  "travellerTypes": ["couples", "friends", "solo_travellers"],
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
   "vibe": "relaxed"

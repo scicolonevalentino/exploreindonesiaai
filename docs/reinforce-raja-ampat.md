@@ -99,11 +99,11 @@ puntare la hub su Kri, romperebbe l'articolo appena pubblicato. **Non farlo.**
 
 ## 3. Già applicato in produzione (PARTE 1), con i valori vecchi
 
-| campo             | valore vecchio                                                                                                            | valore nuovo                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| `metaTitle`       | `Raja Ampat itineraries, diving & liveaboards`                                                                            | `Raja Ampat Itineraries: Which Route, How Many Days` (50 car.)                                                                       |
+| campo             | valore vecchio                                                                                                               | valore nuovo                                                                                                                                         |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `metaTitle`       | `Raja Ampat itineraries, diving & liveaboards`                                                                               | `Raja Ampat Itineraries: Which Route, How Many Days` (50 car.)                                                                                       |
 | `metaDescription` | `Raja Ampat diving itineraries and liveaboard routes through the world's richest reefs. Plan and book your trip day by day.` | `Five Raja Ampat routes compared, 7 to 14 days: homestays, diving, family and honeymoon. Ferry times from Sorong and what to book first.` (135 car.) |
-| `h1`              | *assente*, ripiegava su `name` = `Raja Ampat`                                                                             | `Raja Ampat Itineraries`                                                                                                            |
+| `h1`              | _assente_, ripiegava su `name` = `Raja Ampat`                                                                                | `Raja Ampat Itineraries`                                                                                                                             |
 
 **Per annullare:** in `src/data/destinations.ts`, voce `raja-ampat`, rimettere le
 due stringhe vecchie e **cancellare la riga `h1:`**. Nient'altro è stato toccato.
@@ -175,13 +175,13 @@ sono esentati, e a Waisai gli ATM sono pochi, quindi il contante si preleva a So
 
 **Tabella comparativa** (il formato più citato dagli AI, e la hub non ne ha nessuna):
 
-| | Papuan homestay | Dive resort |
-| --- | --- | --- |
-| Prezzo a persona/notte | Circa $27-30, tre pasti inclusi | Diverse volte tanto, spesso a pacchetto |
-| Camere | Bungalow di legno, spesso sull'acqua, bagno condiviso o mandi | Camere con acqua calda e corrente stabile |
-| Immersioni | Da organizzare, charter barca circa $100-200 al giorno | Centro interno, uscite quotidiane programmate |
-| Corrente e wifi | Generatore a ore, segnale scarso | Generalmente continua, wifi lento ma presente |
-| A chi conviene | Chi vuole snorkeling, budget basso, ritmo lento | Chi immerge ogni giorno e non vuole logistica |
+|                        | Papuan homestay                                               | Dive resort                                   |
+| ---------------------- | ------------------------------------------------------------- | --------------------------------------------- |
+| Prezzo a persona/notte | Circa $27-30, tre pasti inclusi                               | Diverse volte tanto, spesso a pacchetto       |
+| Camere                 | Bungalow di legno, spesso sull'acqua, bagno condiviso o mandi | Camere con acqua calda e corrente stabile     |
+| Immersioni             | Da organizzare, charter barca circa $100-200 al giorno        | Centro interno, uscite quotidiane programmate |
+| Corrente e wifi        | Generatore a ore, segnale scarso                              | Generalmente continua, wifi lento ma presente |
+| A chi conviene         | Chi vuole snorkeling, budget basso, ritmo lento               | Chi immerge ogni giorno e non vuole logistica |
 
 Caption: `The reef is identical from either. What you are buying is logistics, not access.`
 
@@ -223,8 +223,8 @@ un link in-content: gli itinerari compaiono solo nella lista generata. Le cinque
 sezioni sopra più la sottosezione portano **sei link in-content descrittivi**, uno
 per ciascuno dei cinque itinerari, con il sesto che rinforza Kri.
 
-**5.3. Da correggere mentre si è nel file:** `intro` dice ancora *"plus liveaboard
-options for serious divers"*. È la stessa promessa non mantenuta rimossa dal title
+**5.3. Da correggere mentre si è nel file:** `intro` dice ancora _"plus liveaboard
+options for serious divers"_. È la stessa promessa non mantenuta rimossa dal title
 nella PARTE 1. Riscriverla su homestay e dive resort, che è ciò che la pagina elenca
 davvero.
 
