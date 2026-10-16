@@ -982,10 +982,12 @@ function Tag({ children }: { children: React.ReactNode }) {
 
 function ShareButtons({ title, slug }: { title: string; slug: string }) {
   const [copied, setCopied] = useState(false);
-  const url =
-    typeof window !== "undefined"
-      ? window.location.href
-      : `https://exploreindonesia.ai/trips/${slug}`;
+  // Always the canonical article URL, never window.location.href: reading the
+  // live location made the server and the client render different hrefs (React
+  // hydration error #418, "attributes didn't match", which React does NOT patch
+  // up — the buttons kept the server's href until something re-rendered them).
+  // It also shared whatever tracking query string the visitor arrived with.
+  const url = `https://exploreindonesia.ai/trips/${slug}`;
   const encodedUrl = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
 
