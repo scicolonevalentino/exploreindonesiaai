@@ -33,13 +33,13 @@ risposta autoconclusiva, e non c'è una riga di prosa scritta per un lettore.
 
 Il contrasto con i suoi stessi articoli è il punto:
 
-| pagina                              | impression | posizione |
-| ----------------------------------- | ---------: | --------: |
-| /trips/14-days-indonesia-bali-java-komodo | 536 |       8,0 |
-| /trips/10-days-bali-gili-islands    |        393 |      14,5 |
-| /trips/5-days-bali-ubud-canggu-uluwatu |     393 |      11,1 |
-| /trips/10-days-bali-lombok-gili-islands |    175 |      16,4 |
-| **/destinations/bali**              |     **36** |  **20,3** |
+| pagina                                    | impression | posizione |
+| ----------------------------------------- | ---------: | --------: |
+| /trips/14-days-indonesia-bali-java-komodo |        536 |       8,0 |
+| /trips/10-days-bali-gili-islands          |        393 |      14,5 |
+| /trips/5-days-bali-ubud-canggu-uluwatu    |        393 |      11,1 |
+| /trips/10-days-bali-lombok-gili-islands   |        175 |      16,4 |
+| **/destinations/bali**                    |     **36** |  **20,3** |
 
 Su Bali, che è la destinazione più cercata dell'archipelago, la hub prende meno
 impression di sette dei suoi stessi itinerari. Gli articoli reggono tutto il
@@ -65,8 +65,8 @@ peso da soli.
 
 `gsc-monday-insights-exploreindonesia` gira il lunedì alle 7:30 ed è il primo
 anello di una catena di cui il generatore di contenuti delle 8:05 è il secondo.
-Il suo report si chiude con una riga esplicita per il generatore: *"RINFORZA
-<pagina> su <cluster>, oppure CREA su <tema>"*. **La run del 2026-08-28 non ha
+Il suo report si chiude con una riga esplicita per il generatore: _"RINFORZA
+<pagina> su <cluster>, oppure CREA su <tema>"_. **La run del 2026-08-28 non ha
 letto quella raccomandazione** e ha scelto la pagina da zero. Le prossime run
 devono leggerla prima di scegliere.
 

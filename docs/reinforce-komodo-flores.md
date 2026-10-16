@@ -49,7 +49,7 @@ Sorgente: **codice, non Sanity.** Il contenuto vive in `src/data/destinations.ts
 Cluster GSC, 28 giorni (2026-07-25 → 2026-08-21, dimensioni page+query):
 **43 impression, 0 click, posizione media 34,2** su 16 query.
 
-| Query                                 | Impr | Pos      |
+| Query                                 | Impr |      Pos |
 | ------------------------------------- | ---: | -------: |
 | flores komodo dragon                  |   10 | **16,2** |
 | komodo dragon flores island           |    4 |     55,0 |
@@ -104,10 +104,10 @@ posizione 7,9.
 
 Registrati qui per poter annullare in dieci secondi.
 
-| Campo             | Valore VECCHIO (testo esatto)                                                                                                     | Valore NUOVO (in produzione)                                                                                                                |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `h1`              | _(campo assente, ripiegava su `name`)_ → renderizzava **Komodo & Flores**                                                          | `Komodo Dragons and Flores` (25 car.)                                                                                                        |
-| `metaTitle`       | `Komodo & Flores itineraries, boats, dragons, dives` (50 car.)                                                                     | `Komodo Dragons on Flores: Where to See Them, Day by Day` (56 car.)                                                                          |
+| Campo             | Valore VECCHIO (testo esatto)                                                                                                                  | Valore NUOVO (in produzione)                                                                                                                              |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `h1`              | _(campo assente, ripiegava su `name`)_ → renderizzava **Komodo & Flores**                                                                      | `Komodo Dragons and Flores` (25 car.)                                                                                                                     |
+| `metaTitle`       | `Komodo & Flores itineraries, boats, dragons, dives` (50 car.)                                                                                 | `Komodo Dragons on Flores: Where to See Them, Day by Day` (56 car.)                                                                                       |
 | `metaDescription` | `Multi-day Komodo boat trips, Flores overland routes, and dive itineraries. Every plan is structured day by day and ready to book.` (129 car.) | `Komodo dragons live on Komodo, Rinca and parts of Flores. Where to see them from Labuan Bajo, plus day-by-day Komodo and Flores itineraries.` (140 car.) |
 
 **Per annullare:** `git revert 04635ae`, oppure rimettere a mano i tre valori
@@ -145,12 +145,12 @@ anchor "what there is to do in Labuan Bajo".
 
 **Tabella comparativa obbligatoria**, è il formato più citato dagli AI:
 
-| Island        | Boat time from Labuan Bajo | Terrain          | Chance of seeing dragons             | Best for                    |
-| ------------- | -------------------------- | ---------------- | ------------------------------------ | --------------------------- |
-| Rinca         | About 1 to 2 hours         | Short dry trails | Highest, the densest population      | Day trips, first visit      |
-| Komodo Island | About 3 to 4 hours         | Longer trails    | High, but a bigger island to cover   | Overnight and boat trips    |
-| Flores coast  | On the island itself       | Scattered pockets | Low, no organised viewing            | Not a plan, an accident     |
-| Padar         | About 3 hours              | Steep viewpoint  | None, no resident dragons            | The photograph, not the animal |
+| Island        | Boat time from Labuan Bajo | Terrain           | Chance of seeing dragons           | Best for                       |
+| ------------- | -------------------------- | ----------------- | ---------------------------------- | ------------------------------ |
+| Rinca         | About 1 to 2 hours         | Short dry trails  | Highest, the densest population    | Day trips, first visit         |
+| Komodo Island | About 3 to 4 hours         | Longer trails     | High, but a bigger island to cover | Overnight and boat trips       |
+| Flores coast  | On the island itself       | Scattered pockets | Low, no organised viewing          | Not a plan, an accident        |
+| Padar         | About 3 hours              | Steep viewpoint   | None, no resident dragons          | The photograph, not the animal |
 
 ⚠️ **Da verificare prima di pubblicare:** i tempi di navigazione vanno allineati
 a quelli già pubblicati negli articoli `5-days-labuan-bajo-komodo` e
