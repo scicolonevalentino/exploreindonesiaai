@@ -1,5 +1,7 @@
 {
+  "_createdAt": "2026-06-02T05:13:41Z",
   "_id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
+  "_rev": "SrGXuP6wxmHI2XEBW6Kd8L",
   "_system": {
     "base": {
       "id": "27fa5aae-afe5-4993-90e7-6e7f7f3a47c0",
@@ -7,6 +9,7 @@
     }
   },
   "_type": "article",
+  "_updatedAt": "2026-10-19T04:11:36Z",
   "affiliateLinks": [
     {
       "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
@@ -167,7 +170,9 @@
         {
           "_key": "k8",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Duration:"
         },
         {
@@ -187,7 +192,9 @@
         {
           "_key": "kb",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Start and end:"
         },
         {
@@ -207,7 +214,9 @@
         {
           "_key": "ke",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best for:"
         },
         {
@@ -227,7 +236,9 @@
         {
           "_key": "kh",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Not ideal for:"
         },
         {
@@ -247,7 +258,9 @@
         {
           "_key": "kk",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel style:"
         },
         {
@@ -267,7 +280,9 @@
         {
           "_key": "kn",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Budget:"
         },
         {
@@ -287,7 +302,9 @@
         {
           "_key": "kq",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Logistics level:"
         },
         {
@@ -307,7 +324,9 @@
         {
           "_key": "kt",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time:"
         },
         {
@@ -327,7 +346,9 @@
         {
           "_key": "kw",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking difficulty:"
         },
         {
@@ -403,7 +424,9 @@
         {
           "_key": "k17",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -415,7 +438,9 @@
         {
           "_key": "k1a",
           "_type": "span",
-          "marks": ["k19"],
+          "marks": [
+            "k19"
+          ],
           "text": "Indonesia eSIM with Airalo"
         },
         {
@@ -442,7 +467,9 @@
         {
           "_key": "k1d",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -515,7 +542,12 @@
       "_key": "ubt9",
       "_type": "comparisonTable",
       "caption": "Drive times are working estimates in normal traffic. Bali's roads punish the late afternoon, so add a buffer to anything crossing the island.",
-      "columns": ["", "Ubud", "Canggu", "Uluwatu"],
+      "columns": [
+        "",
+        "Ubud",
+        "Canggu",
+        "Uluwatu"
+      ],
       "rows": [
         {
           "_key": "ubr10",
@@ -564,7 +596,12 @@
         },
         {
           "_key": "ubr15",
-          "cells": ["Nights out of five", "Two", "One", "One"]
+          "cells": [
+            "Nights out of five",
+            "Two",
+            "One",
+            "One"
+          ]
         },
         {
           "_key": "ubr16",
@@ -573,6 +610,108 @@
             "Temples, terraces and a lower bill",
             "Beach and a scene",
             "An afternoon or later flight home"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "r1019-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Ubud or Uluwatu: which is better for your stay?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "r1019-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Ubud for temples, rice terraces and cool inland evenings, Uluwatu for surf, cliff-backed beaches and the Kecak dance at sunset. Ubud sits about an hour from the nearest coast and costs less, while Uluwatu is 30 to 45 minutes from Ngurah Rai airport. With five days, do both: Ubud first, then finish on the cliffs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "The real dividing line is the beach. Ubud has none, so every sea day from there is a long drive out and a long drive back. Uluwatu has no rice terraces and no temple circuit beyond the clifftop Uluwatu Temple, so a week there is a beach week with one cultural evening. If you can only pick one, pick the trip you actually want, then check the trade-offs below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-t7",
+      "_type": "comparisonTable",
+      "caption": "Ubud and Uluwatu side by side. Drive times are working estimates in normal traffic; driving between the two takes about two to three hours, longer in the late afternoon.",
+      "columns": [
+        "",
+        "Ubud",
+        "Uluwatu"
+      ],
+      "rows": [
+        {
+          "_key": "r1019-r8",
+          "cells": [
+            "Setting",
+            "Inland, rice terraces, river valleys, cooler air",
+            "Southern limestone cliffs above the Indian Ocean"
+          ]
+        },
+        {
+          "_key": "r1019-r9",
+          "cells": [
+            "Beach",
+            "None, the nearest coast is about an hour away",
+            "Padang Padang, Bingin and Melasti sit below the cliffs"
+          ]
+        },
+        {
+          "_key": "r1019-r10",
+          "cells": [
+            "Signature evening",
+            "Early dinner and quiet streets",
+            "The Kecak dance at Uluwatu Temple, around 6pm"
+          ]
+        },
+        {
+          "_key": "r1019-r11",
+          "cells": [
+            "Distance to Ngurah Rai",
+            "About 1.5 hours, up to 2.5 in traffic",
+            "30 to 45 minutes"
+          ]
+        },
+        {
+          "_key": "r1019-r12",
+          "cells": [
+            "Relative price",
+            "The lower of the two",
+            "High on the cliffs, mid-range inland"
+          ]
+        },
+        {
+          "_key": "r1019-r13",
+          "cells": [
+            "Skip it if",
+            "You want the sea outside the door",
+            "You care more about temples and walking than surf"
           ]
         }
       ]
@@ -632,7 +771,9 @@
         {
           "_key": "ubs25",
           "_type": "span",
-          "marks": ["ubm24"],
+          "marks": [
+            "ubm24"
+          ],
           "text": "our guide to where to stay in Bali"
         },
         {
@@ -650,6 +791,48 @@
           "href": "/destinations/bali/where-to-stay-in-bali"
         }
       ],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-b14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s15",
+          "_type": "span",
+          "marks": [],
+          "text": "What is there to do in Uluwatu with one night?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "r1019-b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s17",
+          "_type": "span",
+          "marks": [],
+          "text": "Enough for one full afternoon and evening: a beach under the cliffs at Padang Padang, Bingin or Melasti, the clifftop Uluwatu Temple in the late afternoon, the Kecak fire dance there at around 6pm, then seafood in Jimbaran or dinner on the cliffs. Surfers add a dawn session; everyone else sleeps in before the airport run."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s19",
+          "_type": "span",
+          "marks": [],
+          "text": "The order matters more than the list. The beaches suit the early afternoon, the temple and the Kecak dance need you on the cliff by about five, and the temple's resident monkeys are known for grabbing glasses and phones, so carry little. Day 4 below runs exactly that sequence, and the dance is the one item worth booking ahead."
+        }
+      ],
+      "markDefs": [],
       "style": "normal"
     },
     {
@@ -692,6 +875,68 @@
         }
       ],
       "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s21",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get from Uluwatu to Ubud?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "r1019-b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s23",
+          "_type": "span",
+          "marks": [],
+          "text": "By car. A private driver or a ride-hailing car takes about two to three hours in normal traffic, and longer in the late afternoon, because the route crosses the busy south of the island. Leave around midday if you can, and if you are not in a hurry, break the drive with a night in Canggu, which sits roughly halfway."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "r1019-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "r1019-s25",
+          "_type": "span",
+          "marks": [],
+          "text": "This itinerary avoids the long version of that drive by running north to south, Ubud first, so no single transfer is longer than about an hour and a half. If you are doing it the other way round, book a "
+        },
+        {
+          "_key": "r1019-s27",
+          "_type": "span",
+          "marks": [
+            "r1019-m26"
+          ],
+          "text": "private car charter"
+        },
+        {
+          "_key": "r1019-s28",
+          "_type": "span",
+          "marks": [],
+          "text": " for the day rather than hailing a car at the cliffs, where pickups can be slow."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "r1019-m26",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_CANGGU_TRANSFER"
+        }
+      ],
       "style": "normal"
     },
     {
@@ -757,7 +1002,9 @@
         {
           "_key": "k1i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -769,7 +1016,9 @@
         {
           "_key": "k1o",
           "_type": "span",
-          "marks": ["k1n"],
+          "marks": [
+            "k1n"
+          ],
           "text": "private airport transfer"
         },
         {
@@ -795,7 +1044,9 @@
         {
           "_key": "k1r",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -815,7 +1066,9 @@
         {
           "_key": "k1u",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -827,7 +1080,9 @@
         {
           "_key": "k1vb",
           "_type": "span",
-          "marks": ["bk0ubud"],
+          "marks": [
+            "bk0ubud"
+          ],
           "text": "Search Ubud stays on Booking.com"
         },
         {
@@ -853,7 +1108,9 @@
         {
           "_key": "k1x",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -887,7 +1144,9 @@
         {
           "_key": "k22",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -907,7 +1166,9 @@
         {
           "_key": "k25",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -919,7 +1180,9 @@
         {
           "_key": "k2b",
           "_type": "span",
-          "marks": ["k2a"],
+          "marks": [
+            "k2a"
+          ],
           "text": "Ubud tour covering Monkey Forest, rice terraces and a waterfall"
         },
         {
@@ -945,7 +1208,9 @@
         {
           "_key": "k2e",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -965,7 +1230,9 @@
         {
           "_key": "k2h",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -999,7 +1266,9 @@
         {
           "_key": "k2m",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1011,7 +1280,9 @@
         {
           "_key": "k2p",
           "_type": "span",
-          "marks": ["k2o"],
+          "marks": [
+            "k2o"
+          ],
           "text": "Mount Batur sunrise jeep experience"
         },
         {
@@ -1037,7 +1308,9 @@
         {
           "_key": "k2s",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Booking logic:"
         },
         {
@@ -1049,7 +1322,9 @@
         {
           "_key": "k2v",
           "_type": "span",
-          "marks": ["k2u"],
+          "marks": [
+            "k2u"
+          ],
           "text": "Balinese cooking class"
         },
         {
@@ -1075,7 +1350,9 @@
         {
           "_key": "k2y",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1087,7 +1364,9 @@
         {
           "_key": "k31",
           "_type": "span",
-          "marks": ["k30"],
+          "marks": [
+            "k30"
+          ],
           "text": "private car charter"
         },
         {
@@ -1113,7 +1392,9 @@
         {
           "_key": "k34",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1133,7 +1414,9 @@
         {
           "_key": "k37",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1145,7 +1428,9 @@
         {
           "_key": "k38b",
           "_type": "span",
-          "marks": ["bk1canggu"],
+          "marks": [
+            "bk1canggu"
+          ],
           "text": "Search Canggu stays on Booking.com"
         },
         {
@@ -1185,7 +1470,9 @@
         {
           "_key": "k3c",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1205,7 +1492,9 @@
         {
           "_key": "k3f",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Afternoon."
         },
         {
@@ -1225,7 +1514,9 @@
         {
           "_key": "k3i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Evening."
         },
         {
@@ -1237,7 +1528,9 @@
         {
           "_key": "k3l",
           "_type": "span",
-          "marks": ["k3k"],
+          "marks": [
+            "k3k"
+          ],
           "text": "Kecak fire dance at Uluwatu"
         },
         {
@@ -1263,7 +1556,9 @@
         {
           "_key": "k3o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Base:"
         },
         {
@@ -1275,7 +1570,9 @@
         {
           "_key": "k3pb",
           "_type": "span",
-          "marks": ["bk2uluwatu"],
+          "marks": [
+            "bk2uluwatu"
+          ],
           "text": "Search Uluwatu stays on Booking.com"
         },
         {
@@ -1301,7 +1598,9 @@
         {
           "_key": "k3r",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1335,7 +1634,9 @@
         {
           "_key": "k3w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Morning."
         },
         {
@@ -1355,7 +1656,9 @@
         {
           "_key": "k3z",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Travel note:"
         },
         {
@@ -1389,7 +1692,9 @@
         {
           "_key": "k44",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early:"
         },
         {
@@ -1409,7 +1714,9 @@
         {
           "_key": "k47",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Keep flexible:"
         },
         {
@@ -1455,7 +1762,9 @@
         {
           "_key": "gsc0824k4db",
           "_type": "span",
-          "marks": ["gsc0824k4d"],
+          "marks": [
+            "gsc0824k4d"
+          ],
           "text": "islands near Bali"
         },
         {
@@ -1510,7 +1819,9 @@
         {
           "_key": "k4i",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Cut:"
         },
         {
@@ -1530,7 +1841,9 @@
         {
           "_key": "k4l",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Adapt:"
         },
         {
@@ -1550,7 +1863,9 @@
         {
           "_key": "k4o",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Upgrade:"
         },
         {
@@ -1584,7 +1899,9 @@
         {
           "_key": "k4t",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Best time:"
         },
         {
@@ -1604,7 +1921,9 @@
         {
           "_key": "k4w",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Visa and entry:"
         },
         {
@@ -1624,7 +1943,9 @@
         {
           "_key": "k4z",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Domestic transport:"
         },
         {
@@ -1644,7 +1965,9 @@
         {
           "_key": "k52",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Ferries and remote logistics:"
         },
         {
@@ -1664,7 +1987,9 @@
         {
           "_key": "k55",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Money and eSIM:"
         },
         {
@@ -1684,7 +2009,9 @@
         {
           "_key": "k58",
           "_type": "span",
-          "marks": ["strong"],
+          "marks": [
+            "strong"
+          ],
           "text": "Book early vs flexible:"
         },
         {
@@ -1766,7 +2093,9 @@
         {
           "_key": "k5l",
           "_type": "span",
-          "marks": ["k5k"],
+          "marks": [
+            "k5k"
+          ],
           "text": "7-day Bali route for first timers"
         },
         {
@@ -1799,7 +2128,9 @@
         {
           "_key": "k5q",
           "_type": "span",
-          "marks": ["k5p"],
+          "marks": [
+            "k5p"
+          ],
           "text": "5-day Nusa Penida and Lembongan route"
         },
         {
@@ -1832,7 +2163,9 @@
         {
           "_key": "k5v",
           "_type": "span",
-          "marks": ["k5u"],
+          "marks": [
+            "k5u"
+          ],
           "text": "Bali destination hub"
         },
         {
@@ -1865,7 +2198,9 @@
         {
           "_key": "s9",
           "_type": "span",
-          "marks": ["m6"],
+          "marks": [
+            "m6"
+          ],
           "text": "7-day Bali diving itinerary for Amed, Tulamben and Menjangan"
         },
         {
@@ -1898,7 +2233,9 @@
         {
           "_key": "ku49mkz2xx",
           "_type": "span",
-          "marks": ["7bjc1me7nq"],
+          "marks": [
+            "7bjc1me7nq"
+          ],
           "text": "Denpasar Airport to Ubud"
         },
         {
@@ -1954,8 +2291,9 @@
       "question": "How much does 5 days in Bali cost?"
     },
     {
-      "answer": "Yes. The Batur sunrise means a roughly 2am pickup, so if that is not for you, swap in a Balinese cooking class and a slower Ubud morning before moving to Canggu. The route stays intact either way.",
-      "question": "Can I skip the early Mount Batur start?"
+      "_key": "r1019-faq-ubud-uluwatu",
+      "answer": "For most first trips, Ubud, because it has the temples, rice terraces and inland side of Bali that the beaches do not. Uluwatu is the better pick if surf, cliff-backed beaches and a short airport run matter more. With five days you do not have to choose: two nights in Ubud, then finish in Uluwatu.",
+      "question": "Is Ubud or Uluwatu better for a first trip to Bali?"
     },
     {
       "answer": "Ubud if you want temples, rice terraces and cooler evenings at a lower price, Canggu if you want to walk to a beach and eat late. On a trip of four days or more the practical answer is both, with two nights in Ubud and one in Canggu, because they are only about an hour to an hour and a half apart.",
@@ -1978,19 +2316,31 @@
   },
   "intro": "Five days in Bali forces a choice: chase everything and spend half your trip in traffic, or pick three places that genuinely contrast and let each one land. This route does the second. Ubud gives you rice terraces and temples, Canggu gives you cafes and a beach sunset, Uluwatu gives you cliffs and the Kecak fire dance, with the airport close at the end. It moves north to south so each transfer shortens the road back to your flight.",
   "logisticsComplexity": "easy",
-  "metaDescription": "Which base suits you, and how to fit all three in five days: 2 nights Ubud, 1 Canggu, 1 Uluwatu, north to south, with real drive times and costs.",
-  "metaTitle": "Ubud, Canggu or Uluwatu? Do All Three in 5 Days",
+  "metaDescription": "Ubud for temples and rice terraces, Uluwatu for cliffs and surf, Canggu for cafes. How to split 5 days across all three, with real drive times.",
+  "metaTitle": "Ubud vs Uluwatu vs Canggu: Where to Stay in 5 Days",
   "primaryAffiliatePartner": "viator",
   "route": "Ubud → Canggu → Uluwatu",
-  "secondaryAffiliatePartners": ["klook", "booking", "airalo"],
+  "secondaryAffiliatePartners": [
+    "klook",
+    "booking",
+    "airalo"
+  ],
+  "seoNote": "2026-10-19 generator run. PARTE 1: metaTitle/metaDescription changed (old metaTitle 'Ubud, Canggu or Uluwatu? Do All Three in 5 Days'; old metaDescription 'Which base suits you, and how to fit all three in five days: 2 nights Ubud, 1 Canggu, 1 Uluwatu, north to south, with real drive times and costs.'). PARTE 3: three H2 (Ubud or Uluwatu + table, what to do in Uluwatu, Uluwatu to Ubud), FAQ 'Can I skip the early Mount Batur start?' swapped for the Ubud or Uluwatu FAQ, _key prefix r1019-, inbound link from 7-days-bali-couples. Baseline GSC 2026-09-19..10-16: page 621 impr, 5 clicks, pos 8.0; 'uluwatu vs ubud' 15 impr pos 9.7; 'ubud vs uluwatu' 8 pos 7.8; 'uluwatu to ubud' 9 pos 28.6; 'uluwatu to do' 7 pos 24.3. Do not retouch title/meta/content before 2026-11-16, when this is read. Previous rounds: 2026-08-26 (meta), 2026-08-29 (sections).",
   "slug": {
     "_type": "slug",
     "current": "5-days-bali-ubud-canggu-uluwatu"
   },
   "title": "Ubud, Canggu or Uluwatu: How to Do All Three in 5 Days",
   "travelStylePrimary": "first_time_indonesia",
-  "travelStyleSecondary": ["culture_temples", "beach_islands"],
-  "travellerTypes": ["couples", "friends", "solo_travellers"],
+  "travelStyleSecondary": [
+    "culture_temples",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
   "tripLengthBucket": "short_escape",
   "tripLengthDays": 5,
   "vibe": "active"

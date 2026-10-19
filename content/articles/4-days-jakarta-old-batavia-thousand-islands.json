@@ -1,0 +1,1624 @@
+{
+  "_createdAt": "2026-10-19T04:16:49Z",
+  "_id": "itinerary-4-days-jakarta-old-batavia-thousand-islands",
+  "_rev": "SrGXuP6wxmHI2XEBW6MCPJ",
+  "_type": "article",
+  "_updatedAt": "2026-10-19T04:17:43Z",
+  "affiliateLinks": [
+    {
+      "_key": "jk-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "jk-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fcgk-soekarnohatta-international-airport%2F",
+      "anchorText": "private Soekarno-Hatta airport transfer",
+      "experienceCategory": "airport_transfer",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_JAKARTA_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/cgk-soekarnohatta-international-airport/"
+    },
+    {
+      "_key": "jk-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days",
+      "anchorText": "private Old Batavia heritage tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_JAKARTA_OLD_BATAVIA",
+      "publicUrl": "https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2"
+    },
+    {
+      "_key": "jk-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F123358-watersport-experience-in-kepulauan-seribu-from-jakarta%2F",
+      "anchorText": "Pulau Payung island-hopping day trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_PULAU_PAYUNG_DAY_TRIP",
+      "publicUrl": "https://www.klook.com/en-US/activity/123358-watersport-experience-in-kepulauan-seribu-from-jakarta/"
+    },
+    {
+      "_key": "jk-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Menteng%2C+Jakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Menteng on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_MENTENG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Menteng%2C+Jakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "jk-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Pulau+Pari%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "guesthouses on Pulau Pari on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_PULAU_PARI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Pulau+Pari%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-19T04:16:43.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to September",
+  "body": [
+    {
+      "_key": "jk-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is this 4-day Jakarta itinerary for?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "This four-day Jakarta trip is for travellers who land in the capital anyway, at the start of a Java route or on a long stopover, and want to use those days well instead of hiding in a mall hotel. It covers the old Dutch port of Batavia, Chinatown, the national landmarks around Merdeka Square and one day at sea in the Thousand Islands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if you came to Indonesia for beaches and rice terraces and Jakarta is only an airport. Then give it one night and move on. It is also a hard sell in January and February, when the rainy season peaks and floods can close roads, and it does not suit anyone who will not plan around traffic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "jk-s11",
+          "_type": "span",
+          "marks": [],
+          "text": " 4 days, 3 nights, ending with an evening flight or an onward train."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s13",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "jk-s14",
+          "_type": "span",
+          "marks": [],
+          "text": " Soekarno-Hatta airport, central Jakarta (Menteng) for three nights, a day trip by boat to the Thousand Islands, back to the airport or to Gambir station."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "jk-s17",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced. One heritage day, one island day, one landmark day, with every move planned around the MRT and the airport train rather than the roads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "jk-s20",
+          "_type": "span",
+          "marks": [],
+          "text": " first-time visitors starting a Java trip, couples, friends and solo travellers on a stopover."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "jk-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " the drier months, roughly May to September. The rainy season peaks from about December to February."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "jk-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " entry fees here are low. Most museums cost a few thousand rupiah, the big exception being the National Museum's foreign-visitor ticket. Hotels, the island day and drivers are where the money goes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s28",
+          "_type": "span",
+          "marks": [],
+          "text": "Is Jakarta worth visiting for a few days?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s30",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, for two to four days, if you plan it by neighbourhood and travel by rail. Jakarta has the country's best museum, the old Dutch port of Batavia, Southeast Asia's largest mosque facing a cathedral, and islands an hour or two offshore. What makes people hate it is trying to cross the city by car at rush hour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s32",
+          "_type": "span",
+          "marks": [],
+          "text": "The trick is to stay central and treat the city as three separate districts: Kota Tua in the north, the Merdeka Square landmarks in the middle, and the harbour for the islands. Each gets its own day. Do that, and the traffic stories stay stories."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s34",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Land, take the airport train, settle into Menteng"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "jk-s37",
+          "_type": "span",
+          "marks": [],
+          "text": " From Soekarno-Hatta, the airport train runs to BNI City (Sudirman Baru) and Manggarai in roughly 45 to 55 minutes. The operator's published fare is IDR 70,000 to those central stations, and trains ran about every 30 minutes on weekdays in 2025, so check the current timetable. With heavy luggage or a late landing, a "
+        },
+        {
+          "_key": "jk-s39",
+          "_type": "span",
+          "marks": [
+            "jk-m38"
+          ],
+          "text": "private Soekarno-Hatta airport transfer"
+        },
+        {
+          "_key": "jk-s40",
+          "_type": "span",
+          "marks": [],
+          "text": " is easier, as long as you avoid the evening rush."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m38",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_JAKARTA_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "jk-s43",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk Menteng, the leafy colonial-era district south of Merdeka Square, and eat close to the hotel. A bowl of soto Betawi, the city's own coconut-milk beef soup, is the right first meal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s45",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "jk-s46",
+          "_type": "span",
+          "marks": [],
+          "text": " Menteng, 3 nights. It sits between the MRT, the commuter rail and the landmarks. Compare "
+        },
+        {
+          "_key": "jk-s48",
+          "_type": "span",
+          "marks": [
+            "jk-m47"
+          ],
+          "text": "stays in Menteng on Booking.com"
+        },
+        {
+          "_key": "jk-s49",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m47",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MENTENG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s51",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "jk-s52",
+          "_type": "span",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_key": "jk-s54",
+          "_type": "span",
+          "marks": [
+            "jk-m53"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "jk-s55",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly, because Grab, Gojek and the transit apps all need data from the arrivals hall."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m53",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s57",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Kota Tua, Sunda Kelapa and Glodok"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "jk-s60",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the commuter line or a Transjakarta bus north to Kota Tua, the old core of Batavia, and get there early, before the heat. Fatahillah Square is ringed by the old city hall, now the Jakarta History Museum, plus the Wayang Museum next door. As reported in 2025, both charge around IDR 5,000 and close on Mondays."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "jk-s63",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk or take a short ride to Sunda Kelapa, the old harbour where wooden pinisi schooners still load cargo on most days. Then head to Glodok, Jakarta's Chinatown, for the lanes of Petak Sembilan and Vihara Dharma Bhakti, one of the city's oldest Chinese temples."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "jk-s66",
+          "_type": "span",
+          "marks": [],
+          "text": " Kota Tua is easy alone, but the history behind it is not signposted well. A "
+        },
+        {
+          "_key": "jk-s68",
+          "_type": "span",
+          "marks": [
+            "jk-m67"
+          ],
+          "text": "private Old Batavia heritage tour"
+        },
+        {
+          "_key": "jk-s69",
+          "_type": "span",
+          "marks": [],
+          "text": " runs 5 to 6 hours with pickup and starts from about 65 US dollars per person on the listing, which is worth it if you want the story rather than the photos."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m67",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_JAKARTA_OLD_BATAVIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "jk-s72",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat in Glodok before it closes up, then take the train back south rather than a car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "jk-s75",
+          "_type": "span",
+          "marks": [],
+          "text": " check the day of the week before you plan. Most Jakarta museums close on Mondays, so make Monday your island day or your arrival day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s77",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: A day at sea in the Thousand Islands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "jk-s80",
+          "_type": "span",
+          "marks": [],
+          "text": " The Thousand Islands, Kepulauan Seribu, are a chain of small coral islands north of the city. The simplest way to see them in a day is a "
+        },
+        {
+          "_key": "jk-s82",
+          "_type": "span",
+          "marks": [
+            "jk-m81"
+          ],
+          "text": "Pulau Payung island-hopping day trip"
+        },
+        {
+          "_key": "jk-s83",
+          "_type": "span",
+          "marks": [],
+          "text": ": hotel pickup, the boat and a day on a small, quiet island in about ten hours, with no boat tickets to sort yourself."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m81",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_PULAU_PAYUNG_DAY_TRIP"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "jk-s86",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim, snorkel if the water is calm and do nothing for a few hours. The water near Jakarta is not Raja Ampat, and the closest islands can collect rubbish after rain, but the further islands are clean enough to make the day feel like a break from the city."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "jk-s89",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in the city by evening. Eat in Menteng and sleep early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "jk-s92",
+          "_type": "span",
+          "marks": [],
+          "text": " the boat is the weather risk. Seas get rougher in the rainy season, and operators cancel when they have to, so keep this day flexible and swap it with Day 4 if the forecast is bad."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s94",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get to the Thousand Islands from Jakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s96",
+          "_type": "span",
+          "marks": [],
+          "text": "By boat from the north coast, and the realistic choices are a packaged day tour, the government boat from Kali Adem (Muara Angke), or a speedboat from Marina Ancol. For a single day a tour is easiest. The public boats leave around 8am and come back early in the afternoon, which suits an overnight stay far better than a day trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s98",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate from 2026 traveller and operator reports, the government speedboats cost around IDR 44,000 to 55,000 one way, depending on the island zone, and are booked through the JakeT Boat app, usually from the day before. Marina Ancol speedboats cost several times that, and Ancol charges a gate fee on top. Fares and schedules change, so confirm before you go."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-t99",
+      "_type": "comparisonTable",
+      "caption": "Thousand Islands from Jakarta: the three ways to do it. Prices and times are working estimates from 2025 and 2026 listings and reports; check the current fare before you pay.",
+      "columns": [
+        "Option",
+        "How it works",
+        "Cost",
+        "Best for",
+        "Weak point"
+      ],
+      "rows": [
+        {
+          "_key": "jk-r100",
+          "cells": [
+            "Packaged day tour",
+            "Hotel pickup, boat and island time, about 10 hours",
+            "From the tour listing price, per person",
+            "Anyone with one day and no wish to plan",
+            "Fixed island and fixed schedule"
+          ]
+        },
+        {
+          "_key": "jk-r101",
+          "cells": [
+            "Government boat from Kali Adem",
+            "Early morning departure, return early afternoon",
+            "Around IDR 44,000 to 55,000 one way",
+            "An overnight on Pari or Tidung",
+            "Too little island time for a day trip, booked by app"
+          ]
+        },
+        {
+          "_key": "jk-r102",
+          "cells": [
+            "Speedboat from Marina Ancol",
+            "Faster boats to Pari, Pramuka and nearby islands",
+            "Several times the public fare, plus the Ancol gate fee",
+            "Groups who want their own timing",
+            "Most expensive way to go"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "jk-b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s104",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Merdeka Square, Istiqlal and the National Museum"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "jk-s107",
+          "_type": "span",
+          "marks": [],
+          "text": " Start at Monas, the National Monument in Merdeka Square. A ticket to the top was reported at IDR 24,000 for adults in 2025, paid with a JakCard bought at the counter, and the summit has a daily quota that sells out on holidays, so go early. Across the square, the National Museum reopened in October 2024 after a fire. From January 2026 the foreign-visitor ticket is IDR 150,000, and it closes on Mondays."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s109",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "jk-s110",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk to Istiqlal Mosque, the largest in Southeast Asia, which runs free guided visits for non-Muslims, with robes lent at the entrance. Jakarta Cathedral stands directly opposite, and the two are linked by an underground passage. Allow an hour for both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "jk-s113",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave for the airport from BNI City or Manggarai on the airport train, or take an onward train from Gambir if you are heading to Bandung or Yogyakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s115",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "jk-s116",
+          "_type": "span",
+          "marks": [],
+          "text": " leave a long buffer for an evening flight. Never plan to cross Jakarta by car between about 4pm and 8pm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s118",
+          "_type": "span",
+          "marks": [],
+          "text": "Where should you stay in Jakarta for a short trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s120",
+          "_type": "span",
+          "marks": [],
+          "text": "Central Jakarta, ideally Menteng or the Sudirman corridor. Both sit on the MRT or commuter rail, a short ride from the landmarks and a direct airport-train stop away from the airport. Kota Tua is atmospheric for an afternoon but poorly placed for everything else, and the south of the city adds an hour to every trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s122",
+          "_type": "span",
+          "marks": [],
+          "text": "If the Thousand Islands are the point of your trip rather than one day of it, spend a night on Pulau Pari instead. Look at "
+        },
+        {
+          "_key": "jk-s124",
+          "_type": "span",
+          "marks": [
+            "jk-m123"
+          ],
+          "text": "guesthouses on Pulau Pari on Booking.com"
+        },
+        {
+          "_key": "jk-s125",
+          "_type": "span",
+          "marks": [],
+          "text": ", take the morning public boat, and you get a sunset and a quiet morning that the day trippers never see."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m123",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_PULAU_PARI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s127",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "jk-s130",
+          "_type": "span",
+          "marks": [],
+          "text": " the island day, because tours run on set days and the boat needs good weather, and your Menteng hotel. If you want the Monas summit on a weekend or public holiday, arrive at opening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "jk-s133",
+          "_type": "span",
+          "marks": [],
+          "text": " the order of Days 2 to 4. Swap them around Monday closures and the marine forecast, and keep restaurants and the Glodok afternoon open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s135",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in Jakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s137",
+          "_type": "span",
+          "marks": [],
+          "text": "Staying near the airport or in the far south and commuting in. Jakarta punishes distance, so the hotel location matters more than the hotel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s139",
+          "_type": "span",
+          "marks": [],
+          "text": "Planning a museum day on a Monday. The History Museum, the Wayang Museum and the National Museum are all closed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s141",
+          "_type": "span",
+          "marks": [],
+          "text": "Treating the public boat to the Thousand Islands as a day trip. You spend most of the day on the water and get a couple of hours on land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s143",
+          "_type": "span",
+          "marks": [],
+          "text": "Using taxis for everything. The MRT and Transjakarta are cheap, with Transjakarta at a flat IDR 3,500 and MRT fares from about IDR 4,000 to 14,000 according to early 2026 reporting, and they skip most of the traffic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s145",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "jk-s148",
+          "_type": "span",
+          "marks": [],
+          "text": " with three days, drop the Thousand Islands and keep the two city days. With two, do Kota Tua and Merdeka Square only."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "jk-s151",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are going on to Bandung, the high-speed train from Halim takes under an hour. Our "
+        },
+        {
+          "_key": "jk-s153",
+          "_type": "span",
+          "marks": [
+            "jk-m152"
+          ],
+          "text": "10-day Java route from Jakarta to Bromo"
+        },
+        {
+          "_key": "jk-s154",
+          "_type": "span",
+          "marks": [],
+          "text": " starts exactly where this trip ends."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m152",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s156",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "jk-s157",
+          "_type": "span",
+          "marks": [],
+          "text": " turn Day 3 into an overnight on Pulau Pari, or add a day for Bogor's botanical garden if rain is unlikely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b158",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s159",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Entry:"
+        },
+        {
+          "_key": "jk-s162",
+          "_type": "span",
+          "marks": [],
+          "text": " most nationalities use the e-VOA, listed at IDR 500,000 for 30 days. Check our "
+        },
+        {
+          "_key": "jk-s164",
+          "_type": "span",
+          "marks": [
+            "jk-m163"
+          ],
+          "text": "Indonesia visa guide"
+        },
+        {
+          "_key": "jk-s165",
+          "_type": "span",
+          "marks": [],
+          "text": " and the latest official guidance before you fly."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m163",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/visa-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s167",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money:"
+        },
+        {
+          "_key": "jk-s168",
+          "_type": "span",
+          "marks": [],
+          "text": " buy a JakCard or another prepaid e-money card for the MRT, Transjakarta and Monas, and some cash for street food and Glodok."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s170",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Weather:"
+        },
+        {
+          "_key": "jk-s171",
+          "_type": "span",
+          "marks": [],
+          "text": " the rainy season peaks from about December to February, and January floods are common. Build a spare half day into any trip in those months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s173",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Dress:"
+        },
+        {
+          "_key": "jk-s174",
+          "_type": "span",
+          "marks": [],
+          "text": " cover shoulders and knees for Istiqlal and the temples in Glodok. The mosque lends robes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s176",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Costs:"
+        },
+        {
+          "_key": "jk-s177",
+          "_type": "span",
+          "marks": [],
+          "text": " our "
+        },
+        {
+          "_key": "jk-s179",
+          "_type": "span",
+          "marks": [
+            "jk-m178"
+          ],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "jk-s180",
+          "_type": "span",
+          "marks": [],
+          "text": " has daily ranges for Java."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m178",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/indonesia-travel-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s182",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s184",
+          "_type": "span",
+          "marks": [],
+          "text": "Do this trip if Jakarta is already on your route. Four days, planned by district and travelled by rail, turn the city from a layover into a worthwhile start: the best museum in the country, the oldest streets in the city, a mosque and cathedral side by side, and a day on the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s186",
+          "_type": "span",
+          "marks": [],
+          "text": "Skip it if you have fewer than two days, or if you are visiting in the heart of the rainy season. Then give Jakarta one night and put the time into Yogyakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s188",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "jk-b189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s191",
+          "_type": "span",
+          "marks": [
+            "jk-m190"
+          ],
+          "text": "10 days across Java from Jakarta to Bromo"
+        },
+        {
+          "_key": "jk-s192",
+          "_type": "span",
+          "marks": [],
+          "text": " continues by train through Bandung and Yogyakarta."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m190",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s195",
+          "_type": "span",
+          "marks": [
+            "jk-m194"
+          ],
+          "text": "5 days in Yogyakarta and Mount Bromo"
+        },
+        {
+          "_key": "jk-s196",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are flying straight on from Jakarta."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m194",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "jk-b197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "jk-s199",
+          "_type": "span",
+          "marks": [
+            "jk-m198"
+          ],
+          "text": "Jakarta to Yogyakarta transport guide"
+        },
+        {
+          "_key": "jk-s200",
+          "_type": "span",
+          "marks": [],
+          "text": " for trains and flights out of the city."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "jk-m198",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/jakarta-to-yogyakarta"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "city",
+    "museums",
+    "colonial_heritage",
+    "island_day_trip",
+    "snorkelling",
+    "street_food"
+  ],
+  "faq": [
+    {
+      "_key": "jk-f201",
+      "answer": "Two to four days. Two cover Kota Tua and the landmarks around Merdeka Square; four add a day in the Thousand Islands and some slack for Monday museum closures and traffic. Under two days, do one district well rather than crossing the city.",
+      "question": "How many days do you need in Jakarta?"
+    },
+    {
+      "_key": "jk-f202",
+      "answer": "Yes, if you are already flying in. Jakarta has Indonesia's best museum, the old Dutch port of Batavia, Istiqlal Mosque facing the cathedral, and islands offshore. It is a poor choice as a main destination for beach or nature trips.",
+      "question": "Is Jakarta worth visiting?"
+    },
+    {
+      "_key": "jk-f203",
+      "answer": "The airport train runs to BNI City (Sudirman Baru) and Manggarai in roughly 45 to 55 minutes, with a published fare of IDR 70,000 to those stations. A pre-booked private car is easier with luggage but slow in rush hour.",
+      "question": "How do you get from Soekarno-Hatta airport to central Jakarta?"
+    },
+    {
+      "_key": "jk-f204",
+      "answer": "Yes, most easily on a packaged tour with hotel pickup that runs about ten hours. The government boats from Kali Adem leave around 8am and return early afternoon, so they suit an overnight on Pari or Tidung better than a day trip.",
+      "question": "Can you do the Thousand Islands as a day trip from Jakarta?"
+    },
+    {
+      "_key": "jk-f205",
+      "answer": "Mostly not. The Jakarta History Museum (Fatahillah), the Wayang Museum and the National Museum all close on Mondays, so plan your island day or arrival day for Monday. Hours change, so confirm before you go.",
+      "question": "Are Jakarta museums open on Mondays?"
+    },
+    {
+      "_key": "jk-f206",
+      "answer": "A ticket to the top of the National Monument was reported at IDR 24,000 for adults in 2025, paid by JakCard bought at the counter. The summit has a daily visitor quota and can sell out on holidays.",
+      "question": "How much does it cost to go up Monas?"
+    },
+    {
+      "_key": "jk-f207",
+      "answer": "Menteng or the Sudirman corridor in central Jakarta. Both are on the rail network, close to Merdeka Square and a direct airport-train stop away from the airport, which matters more in Jakarta than the hotel itself.",
+      "question": "Where is the best area to stay in Jakarta for tourists?"
+    }
+  ],
+  "focusKeyword": "4 days in Jakarta itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas — Batavia City Hall (Jakarta History Museum) Fatahillah Square (2025) - img 17",
+    "asset": {
+      "_ref": "image-5841ec7ad8e67049ce99fdd00ee11055b720575c-3840x2880-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Chainwit., CC BY 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Batavia_City_Hall_(Jakarta_History_Museum)_Fatahillah_Square_(2025)_-_img_17.jpg"
+  },
+  "intro": "Most travellers treat Jakarta as an airport and leave the same night. That is a mistake if your route starts in Java anyway, because four days here, planned district by district and travelled by rail, cover the old Dutch port of Batavia, Chinatown, Indonesia's best museum, Istiqlal Mosque and a day at sea in the Thousand Islands. The catch is traffic, and this route is built around avoiding it rather than pretending it is not there.",
+  "logisticsComplexity": "easy",
+  "metaDescription": "A 4-day Jakarta itinerary: Kota Tua and Glodok, a Thousand Islands boat day, Monas and the National Museum, with 2026 fares and Monday closures.",
+  "metaTitle": "Jakarta Itinerary: 4 Days, Old Town and Thousand Islands",
+  "primaryAffiliatePartner": "klook",
+  "route": "Soekarno-Hatta airport, Menteng (central Jakarta), Kota Tua and Glodok, Thousand Islands (day trip), Merdeka Square, Soekarno-Hatta or Gambir",
+  "routeSummary": "Airport → Menteng → Kota Tua → Thousand Islands → Merdeka Square",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-jakarta-old-batavia-thousand-islands"
+  },
+  "title": "4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas",
+  "travelStylePrimary": "culture_temples",
+  "travelStyleSecondary": [
+    "first_time_indonesia",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "vibe": "balanced"
+}
