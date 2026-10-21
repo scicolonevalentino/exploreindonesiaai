@@ -1,0 +1,2011 @@
+{
+  "_createdAt": "2026-10-21T04:21:52Z",
+  "_id": "itinerary-5-days-komodo-dragons-rinca-wae-wuul-flores",
+  "_rev": "zY7gawyD6m5xOFgzfO97WY",
+  "_type": "article",
+  "_updatedAt": "2026-10-21T04:22:45Z",
+  "affiliateLinks": [
+    {
+      "_key": "kd-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "kd-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/bali/labuan-bajo?z=16022946",
+      "anchorText": "Bali to Labuan Bajo flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_BALI_LABUAN_BAJO",
+      "publicUrl": "https://12go.asia/en/travel/bali/labuan-bajo"
+    },
+    {
+      "_key": "kd-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F55119-full-day-speedboat-tour-komodo-labuan-bajo%2F",
+      "anchorText": "shared Komodo speedboat day tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_KOMODO_SPEEDBOAT_GROUP",
+      "publicUrl": "https://www.klook.com/en-US/activity/55119-full-day-speedboat-tour-komodo-labuan-bajo/"
+    },
+    {
+      "_key": "kd-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days",
+      "anchorText": "private Komodo speedboat day",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_KOMODO_PRIVATE_SPEEDBOAT",
+      "publicUrl": "https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12"
+    },
+    {
+      "_key": "kd-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days",
+      "anchorText": "private Rinca speedboat trip",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_RINCA_PRIVATE_SPEEDBOAT",
+      "publicUrl": "https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9"
+    },
+    {
+      "_key": "kd-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Labuan Bajo on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_LABUAN_BAJO",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Labuan+Bajo%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-21T04:21:38.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April to November",
+  "body": [
+    {
+      "_key": "kd-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Where can you see Komodo dragons in the wild?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Wild Komodo dragons live only in a small corner of eastern Indonesia: Komodo and Rinca islands inside Komodo National Park, a few smaller park islands, and two reserves on the island of Flores itself. For a visitor, Rinca and Komodo give near-certain sightings with a ranger. The Flores reserves are real but sightings there are a gamble."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "That is the whole decision this itinerary is built on. Almost every traveller who wants to see the dragons flies into Labuan Bajo, the harbour town on the western tip of Flores, and takes a boat into the park. Few realise that dragons also live on the Flores mainland, a short drive out of town, or that Rinca, not Komodo Island, is often the more reliable place to find them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This five-day plan is for travellers whose main reason to come this far east is the dragons themselves: wildlife people, photographers, couples or friends who want to see the animal properly, on two islands, at the right hour, rather than for ten rushed minutes between snorkel stops. It suits anyone with five days and a flight from Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if the dragons are a box to tick on a beach holiday. Then one day trip covers it, and the "
+        },
+        {
+          "_key": "kd-s14",
+          "_type": "span",
+          "marks": [
+            "kd-m13"
+          ],
+          "text": "5-day Labuan Bajo and Komodo itinerary"
+        },
+        {
+          "_key": "kd-s15",
+          "_type": "span",
+          "marks": [],
+          "text": " gives you more water time. It is also the wrong trip for anyone who hates early starts, because every good dragon sighting in this plan happens before 10 in the morning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-labuan-bajo-komodo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s17",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "kd-s20",
+          "_type": "span",
+          "marks": [],
+          "text": " 5 days, 4 nights in Labuan Bajo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "kd-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " Bali to Labuan Bajo by air, a full day to Komodo Island and Padar, a morning on Rinca, a morning in the Wae Wuul reserve on mainland Flores, then back to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "kd-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced. Three early mornings, three easy afternoons, and a fifth day that doubles as a weather buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kd-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " wildlife-focused couples, friends and solo travellers, and photographers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kd-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly April to November, the dry season, when the sea is calmer and boats run reliably. The dragons are visible all year; the weather decides whether you can reach them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kd-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " the boats are the big cost. Park fees are modest by comparison, and Labuan Bajo has rooms at every price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s37",
+          "_type": "span",
+          "marks": [],
+          "text": "Komodo, Rinca or Flores: which is the best place to see Komodo dragons?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s39",
+          "_type": "span",
+          "marks": [],
+          "text": "Rinca is the best single place for most visitors: it is closer to Labuan Bajo, the ranger walk is short, and dragons are regularly seen around the ranger post. Komodo Island has the bigger, more famous population and longer trails. Wae Wuul on mainland Flores is for travellers who want a try outside the park, without a boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s41",
+          "_type": "span",
+          "marks": [],
+          "text": "The table below sets out the honest trade-offs. Population figures are deliberately left out of it, because published counts vary widely by year and by source; park surveys in recent years have put the total population in the low thousands, with Komodo and Rinca holding most of them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-t42",
+      "_type": "comparisonTable",
+      "caption": "Where to see Komodo dragons from Labuan Bajo. Times and chances are working estimates from 2025 and 2026 operator listings and reports; check current conditions locally.",
+      "columns": [
+        "Place",
+        "How you get there",
+        "Sighting chance",
+        "What the walk is like",
+        "Best for"
+      ],
+      "rows": [
+        {
+          "_key": "kd-r43",
+          "cells": [
+            "Rinca Island (Loh Buaya)",
+            "About 1 to 1.5 hours by speedboat from Labuan Bajo, longer by wooden boat",
+            "High",
+            "Short guided loop and raised boardwalk near the ranger post",
+            "First sighting, shorter days, photography"
+          ]
+        },
+        {
+          "_key": "kd-r44",
+          "cells": [
+            "Komodo Island (Loh Liang)",
+            "About 1.5 to 2 hours by speedboat, usually combined with Padar and Pink Beach",
+            "High",
+            "Short, medium or long ranger treks through dry forest",
+            "Seeing the famous island, longer walks"
+          ]
+        },
+        {
+          "_key": "kd-r45",
+          "cells": [
+            "Wae Wuul reserve, mainland Flores",
+            "Under an hour by car from Labuan Bajo, last stretch on a rough road",
+            "Low to moderate",
+            "Unmarked trails through savanna and dry forest with a local guide",
+            "A second, wilder attempt without a boat"
+          ]
+        },
+        {
+          "_key": "kd-r46",
+          "cells": [
+            "Riung and Ontoloe, north Flores",
+            "A long day's drive east, or more",
+            "Low",
+            "Boat to the island, then on foot",
+            "Overland Flores trips only"
+          ]
+        },
+        {
+          "_key": "kd-r47",
+          "cells": [
+            "Padar Island",
+            "On every Komodo day tour",
+            "Very low",
+            "A steep viewpoint climb",
+            "The view, not the dragons"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "kd-b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s49",
+          "_type": "span",
+          "marks": [],
+          "text": "Are there Komodo dragons on Flores island?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s51",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes. A small population of wild Komodo dragons lives on the island of Flores itself, mainly in the Wae Wuul nature reserve near Labuan Bajo on the west coast and around Riung on the north coast, including the island of Ontoloe. These are protected reserves outside the national park, and the dragons there are fewer and much shier."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s53",
+          "_type": "span",
+          "marks": [],
+          "text": "Indonesia's conservation agency for the province has put the combined number in the Wae Wuul and Riung reserves at around fifty animals, though that figure is not recent and should be read as a rough order of size. A camera-trap study published in 2012 recorded several individuals on Ontoloe. The practical point is that you can walk where dragons live on Flores, but nobody can promise you will see one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s55",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s57",
+          "_type": "span",
+          "marks": [],
+          "text": "Most Komodo day tours treat the dragons as one stop out of six, squeezed between the Padar viewpoint, Pink Beach and Manta Point. That works if the dragons are a side note. If they are the reason you came, it gives you one short ranger walk, often in the late-morning heat when the animals are lying still in the shade."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s59",
+          "_type": "span",
+          "marks": [],
+          "text": "This plan gives the dragons three separate mornings in three different places. Komodo Island on a classic day tour, so you still get Padar and the reef. Rinca on its own morning, which is where the closest, calmest sightings usually happen. And Wae Wuul on the mainland, which is a different experience entirely: no boardwalk, no crowd, and the chance to see where a dragon lives rather than where tourists gather. Basing all four nights in Labuan Bajo means no packing, and the fifth day protects the plan from a cancelled boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s61",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly into Labuan Bajo and set up the week"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kd-s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Bali. Direct flights to Komodo Airport in Labuan Bajo take a little over an hour, with several departures a day; compare "
+        },
+        {
+          "_key": "kd-s66",
+          "_type": "span",
+          "marks": [
+            "kd-m65"
+          ],
+          "text": "Bali to Labuan Bajo flights on 12Go"
+        },
+        {
+          "_key": "kd-s67",
+          "_type": "span",
+          "marks": [],
+          "text": " and the transport details in our "
+        },
+        {
+          "_key": "kd-s69",
+          "_type": "span",
+          "marks": [
+            "kd-m68"
+          ],
+          "text": "Bali to Labuan Bajo guide"
+        },
+        {
+          "_key": "kd-s70",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m65",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_BALI_LABUAN_BAJO"
+        },
+        {
+          "_key": "kd-m68",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-labuan-bajo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kd-s73",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in, then confirm your two boat days with the operators in person or by message. Ask each one to confirm that you have been registered on SiORA, the national park's online ticketing system, and which entry session your ticket is for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kd-s76",
+          "_type": "span",
+          "marks": [],
+          "text": " Watch the sun go down over the harbour from one of the hillside viewpoints above town, then eat at the night fish market stalls along the waterfront. Go to bed early. Tomorrow starts before dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "kd-s79",
+          "_type": "span",
+          "marks": [],
+          "text": " Labuan Bajo, 4 nights. Compare "
+        },
+        {
+          "_key": "kd-s81",
+          "_type": "span",
+          "marks": [
+            "kd-m80"
+          ],
+          "text": "stays in Labuan Bajo on Booking.com"
+        },
+        {
+          "_key": "kd-s82",
+          "_type": "span",
+          "marks": [],
+          "text": "; a hotel near the harbour saves time on every early pickup."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m80",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_LABUAN_BAJO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kd-s85",
+          "_type": "span",
+          "marks": [],
+          "text": " book the boats before you book the flight's return leg, because the boats are the part that sells out in July and August."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kd-s88",
+          "_type": "span",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_key": "kd-s90",
+          "_type": "span",
+          "marks": [
+            "kd-m89"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "kd-s91",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly. Boat operators coordinate pickups by WhatsApp, and coverage at sea is patchy, so you want data the moment you land."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m89",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s93",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Komodo Island, Padar and the classic park day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kd-s96",
+          "_type": "span",
+          "marks": [],
+          "text": " A hotel pickup around 5 to 6 a.m. and a speedboat into the park. Most tours climb Padar first for the viewpoint while it is still cool, then head to Loh Liang on Komodo Island for the ranger walk. A "
+        },
+        {
+          "_key": "kd-s98",
+          "_type": "span",
+          "marks": [
+            "kd-m97"
+          ],
+          "text": "shared Komodo speedboat day tour"
+        },
+        {
+          "_key": "kd-s99",
+          "_type": "span",
+          "marks": [],
+          "text": " runs about 9 to 11 hours with pickup; a "
+        },
+        {
+          "_key": "kd-s101",
+          "_type": "span",
+          "marks": [
+            "kd-m100"
+          ],
+          "text": "private Komodo speedboat day"
+        },
+        {
+          "_key": "kd-s102",
+          "_type": "span",
+          "marks": [],
+          "text": " lets you ask for more time on Komodo and less elsewhere."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m97",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_KOMODO_SPEEDBOAT_GROUP"
+        },
+        {
+          "_key": "kd-m100",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_KOMODO_PRIVATE_SPEEDBOAT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kd-s105",
+          "_type": "span",
+          "marks": [],
+          "text": " Pink Beach for a swim, then a snorkel stop such as Manta Point or Taka Makassar if the current allows. Mantas are seasonal and never guaranteed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kd-s108",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in town by late afternoon. A light dinner and an early night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kd-s111",
+          "_type": "span",
+          "marks": [],
+          "text": " on a shared tour the order of stops is fixed. If seeing the dragons in the cooler part of the day matters to you, ask before booking whether Komodo comes before or after Padar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kd-s114",
+          "_type": "span",
+          "marks": [],
+          "text": " this is a long day in strong sun with a steep climb on Padar. Bring more water than you think, a hat and reef-safe sunscreen."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s116",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Rinca, the morning for close sightings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kd-s119",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave early for Rinca and land at Loh Buaya while the dragons are still moving. The ranger walk here is short and partly on a raised boardwalk built during the redevelopment of the ranger area, and dragons are often seen resting or patrolling close to the station. This is usually the morning for your best photographs. A "
+        },
+        {
+          "_key": "kd-s121",
+          "_type": "span",
+          "marks": [
+            "kd-m120"
+          ],
+          "text": "private Rinca speedboat trip"
+        },
+        {
+          "_key": "kd-s122",
+          "_type": "span",
+          "marks": [],
+          "text": " runs about seven hours and adds snorkel and beach stops at Kelor and Manjarite on the way back."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m120",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_RINCA_PRIVATE_SPEEDBOAT"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kd-s125",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Labuan Bajo early enough for a long lunch and a rest. You have earned it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kd-s128",
+          "_type": "span",
+          "marks": [],
+          "text": " If you have chartered your own boat, ask whether it can stay out until dusk at Kalong Island, where thousands of flying foxes leave the mangroves at sunset. Otherwise, go to bed early again."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kd-s131",
+          "_type": "span",
+          "marks": [],
+          "text": " Rinca can be booked as part of a day tour or separately. Book it separately, as this plan does, so it gets the morning instead of the leftover slot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s133",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kd-s134",
+          "_type": "span",
+          "marks": [],
+          "text": " the ranger leads and sets the distance. Dragons are fast over short distances and their bite is dangerous, so stay behind the ranger, never approach for a photograph, and tell the ranger beforehand if you have an open wound."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s136",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Wae Wuul, dragons on mainland Flores"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kd-s139",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Labuan Bajo by car at first light for the Wae Wuul nature reserve, under an hour away on a road that becomes rough and narrow for the last stretch. Walk the savanna and dry forest with a local guide, looking for dragons, their tracks and the deer they hunt. Treat a sighting as a bonus, not a promise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kd-s142",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim it off at Cunca Wulang, a river canyon with pools east of town, or keep it simple with a slow afternoon by the hotel pool."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kd-s145",
+          "_type": "span",
+          "marks": [],
+          "text": " A final dinner in town, ideally grilled fish by the harbour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kd-s148",
+          "_type": "span",
+          "marks": [],
+          "text": " arrange Wae Wuul through your hotel or a local driver the day before, and ask for a guide who knows the reserve. It is not a ticketed attraction like the national park, and walking in alone is a poor idea."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kd-s151",
+          "_type": "span",
+          "marks": [],
+          "text": " the reserve has no boardwalk and little shade. Wear closed shoes and long trousers, and go early, when the animals are active and the heat is bearable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s153",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Buffer morning and the flight out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kd-s156",
+          "_type": "span",
+          "marks": [],
+          "text": " This is your weather buffer. If either boat day was cancelled for rough seas, this is when it runs. If not, sleep in, or take a short morning on the water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kd-s159",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly back to Bali, leaving at least a two-hour margin between landing and any international departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "kd-s162",
+          "_type": "span",
+          "marks": [],
+          "text": " none. You leave today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s164",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kd-s165",
+          "_type": "span",
+          "marks": [],
+          "text": " flights between Labuan Bajo and Bali are short but can be delayed or rescheduled, so never book a same-day international connection without that buffer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s167",
+          "_type": "span",
+          "marks": [],
+          "text": "How much are Komodo National Park fees in 2026?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s169",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate, the fee schedule that licensed operators publish for 2026 is a daily park entry of about IDR 250,000 per foreign visitor, a harbour fee of about IDR 25,000, and a ranger fee of roughly IDR 200,000 per group of up to five on Komodo or Rinca. Your operator registers you through the park's SiORA system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s171",
+          "_type": "span",
+          "marks": [],
+          "text": "The structure has changed several times since 2022, and you will still find older quotes online with different bundled prices, so treat these numbers as a budgeting guide and check the current tariff with your operator or on the park's official channels before you pay. Two practical points survive every change: register early, because operators need your passport details in advance, and confirm whether your boat price includes the park fees or adds them on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-t172",
+      "_type": "comparisonTable",
+      "caption": "What the boats cost from Labuan Bajo. Prices are working estimates from 2026 listings at the time of writing; they move with the season, and park fees are usually extra.",
+      "columns": [
+        "Option",
+        "Typical price",
+        "Time",
+        "Good for",
+        "Weak point"
+      ],
+      "rows": [
+        {
+          "_key": "kd-r173",
+          "cells": [
+            "Shared speedboat day tour",
+            "From about US$120 to 130 per person",
+            "9 to 11 hours",
+            "Budget, solo travellers",
+            "Fixed order of stops, crowded at Padar"
+          ]
+        },
+        {
+          "_key": "kd-r174",
+          "cells": [
+            "Private speedboat, Komodo day",
+            "From about US$990 per group",
+            "About 10.5 hours",
+            "Groups of four or five, control of timing",
+            "Expensive for two"
+          ]
+        },
+        {
+          "_key": "kd-r175",
+          "cells": [
+            "Private speedboat, Rinca morning",
+            "From about US$800 per group",
+            "About 7 hours",
+            "A focused dragon morning",
+            "Costly unless shared"
+          ]
+        },
+        {
+          "_key": "kd-r176",
+          "cells": [
+            "Overnight phinisi or liveaboard",
+            "Varies widely",
+            "2 to 3 days",
+            "Sunrise and sunset in the park",
+            "Less time on land with the dragons"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "kd-b177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s178",
+          "_type": "span",
+          "marks": [],
+          "text": "When is the best time to see Komodo dragons?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s180",
+          "_type": "span",
+          "marks": [],
+          "text": "The dragons can be seen all year, so the best time is decided by the sea. April to November, the dry season, brings calmer water and the most reliable boat days. Within any day, early morning is best, because the animals are active in the cooler hours and lie still in the shade by late morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s182",
+          "_type": "span",
+          "marks": [],
+          "text": "Rangers often note that behaviour shifts around the mating season in the middle of the year and the nesting season that follows, so some animals are less visible then; sightings near the ranger posts remain likely regardless. From December to March, the rainy season brings rougher crossings and more cancellations, which is exactly why this plan keeps a buffer day. For the full month-by-month picture, read our "
+        },
+        {
+          "_key": "kd-s184",
+          "_type": "span",
+          "marks": [
+            "kd-m183"
+          ],
+          "text": "guide to the best time to visit Komodo"
+        },
+        {
+          "_key": "kd-s185",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m183",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/komodo-flores/best-time-to-visit-komodo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s187",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s189",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "kd-s190",
+          "_type": "span",
+          "marks": [],
+          "text": " the two boat days, especially between June and September, and your Labuan Bajo hotel. Both fill up in high season, and the boats need time to register you on SiORA."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s192",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "kd-s193",
+          "_type": "span",
+          "marks": [],
+          "text": " the flights. There are several a day from Bali, but fares rise sharply close to departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s195",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "kd-s196",
+          "_type": "span",
+          "marks": [],
+          "text": " Wae Wuul. Arrange it a day ahead, once you know the boat days have run."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s198",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "kd-s199",
+          "_type": "span",
+          "marks": [],
+          "text": " the fifth morning. Do not fill it until you know you do not need it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s201",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make when trying to see Komodo dragons"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s203",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is expecting Padar to be a dragon stop. It is a viewpoint climb, and dragons are rarely, if ever, seen there. The second is booking a tour that reaches Komodo or Rinca at midday, when the animals are motionless in the shade and the walk is at its hottest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s205",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes: assuming you can buy park tickets on arrival, when registration now goes through operators in advance; walking into Wae Wuul without a guide; and treating a cancelled boat as bad luck rather than something to plan for. Weather closes the crossing more often than people expect, especially outside the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b206",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s207",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b208",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s209",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "kd-s210",
+          "_type": "span",
+          "marks": [],
+          "text": " with only three days, drop Wae Wuul and the buffer, and do Komodo and Rinca on back-to-back mornings. You keep the two near-certain sightings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s212",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "kd-s213",
+          "_type": "span",
+          "marks": [],
+          "text": " travelling with children? Rinca is the easier island for small legs, and our "
+        },
+        {
+          "_key": "kd-s215",
+          "_type": "span",
+          "marks": [
+            "kd-m214"
+          ],
+          "text": "8-day Komodo and Flores itinerary with kids"
+        },
+        {
+          "_key": "kd-s216",
+          "_type": "span",
+          "marks": [],
+          "text": " paces the whole region for families."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m214",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-komodo-flores-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s218",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "kd-s219",
+          "_type": "span",
+          "marks": [],
+          "text": " a diver in your group? Swap the Wae Wuul morning for a dive day; the "
+        },
+        {
+          "_key": "kd-s221",
+          "_type": "span",
+          "marks": [
+            "kd-m220"
+          ],
+          "text": "7-day Komodo diving itinerary"
+        },
+        {
+          "_key": "kd-s222",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the sites and the season."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m220",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-komodo-diving"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s224",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "kd-s225",
+          "_type": "span",
+          "marks": [],
+          "text": " charter a private wooden boat for Rinca and stay out for the flying foxes at Kalong at sunset, or spend two nights on a phinisi to wake up inside the park before the day boats arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b226",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s227",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s229",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the current park tariff and registration rules close to travel, because both have changed more than once. Carry cash in rupiah for drivers, the Wae Wuul guide and small purchases, since card payments are not universal outside hotels. Visa rules for Indonesia vary by nationality, so check the latest official guidance before you book flights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b230",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s231",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for heat and sun rather than rain in the dry season: closed walking shoes for the ranger treks and Wae Wuul, sandals for the boats, a hat, sunscreen and a refillable bottle. And keep your expectations honest about wildlife. Dragons on Rinca and Komodo are seen almost every day; dragons on Flores are seen some days. That difference is the point of doing both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b232",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s233",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b234",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s235",
+          "_type": "span",
+          "marks": [],
+          "text": "If the dragons are why you are coming, give them more than a stop on a day tour. Five days from Labuan Bajo, with Komodo, Rinca and the Flores mainland on three separate mornings, is the most reliable way to see them well, and the buffer day means the weather cannot take that away from you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s237",
+          "_type": "span",
+          "marks": [],
+          "text": "Book Rinca on its own morning, start every wildlife day early, and treat Wae Wuul as the wild bonus rather than the main event. Do that, and you will have seen the world's largest lizard in three different settings, which very few visitors to Komodo ever do."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s239",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kd-b240",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s242",
+          "_type": "span",
+          "marks": [
+            "kd-m241"
+          ],
+          "text": "5 days in Labuan Bajo and Komodo"
+        },
+        {
+          "_key": "kd-s243",
+          "_type": "span",
+          "marks": [],
+          "text": " if you want more snorkelling and island time around the dragons."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m241",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-labuan-bajo-komodo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b244",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s246",
+          "_type": "span",
+          "marks": [
+            "kd-m245"
+          ],
+          "text": "10 days across Komodo and Flores"
+        },
+        {
+          "_key": "kd-s247",
+          "_type": "span",
+          "marks": [],
+          "text": " if you would rather keep going overland to Kelimutu."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m245",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-komodo-flores"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kd-b248",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kd-s250",
+          "_type": "span",
+          "marks": [
+            "kd-m249"
+          ],
+          "text": "Labuan Bajo to Komodo Island transport guide"
+        },
+        {
+          "_key": "kd-s251",
+          "_type": "span",
+          "marks": [],
+          "text": " for the boat options in detail."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kd-m249",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/labuan-bajo-to-komodo-island"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "komodo_flores",
+  "experienceTags": [
+    "komodo_dragons",
+    "wildlife",
+    "ranger_trek",
+    "boat_day_trip",
+    "snorkelling",
+    "viewpoint_hike"
+  ],
+  "faq": [
+    {
+      "_key": "kd-f252",
+      "answer": "Rinca Island in Komodo National Park, for most visitors. It is close to Labuan Bajo, the ranger walk is short, and dragons are regularly seen near the ranger post. Komodo Island is the other near-certain option, usually combined with Padar on a day tour.",
+      "question": "Where is the best place to see Komodo dragons?"
+    },
+    {
+      "_key": "kd-f253",
+      "answer": "Yes, a small wild population lives on Flores, mainly in the Wae Wuul nature reserve near Labuan Bajo and around Riung on the north coast. They are fewer and shyer than in the national park, so sightings are possible but not guaranteed.",
+      "question": "Are there Komodo dragons on Flores island?"
+    },
+    {
+      "_key": "kd-f254",
+      "answer": "Rinca is usually better for a quick, reliable sighting because it is closer and the walk is short. Komodo Island has longer treks and the bigger name. If you can, do both on separate mornings, as this itinerary does.",
+      "question": "Is Rinca or Komodo Island better for seeing dragons?"
+    },
+    {
+      "_key": "kd-f255",
+      "answer": "As a working estimate, budget a park entry of about IDR 250,000 per foreign visitor per day, a harbour fee of about IDR 25,000 and a ranger fee of about IDR 200,000 per group, plus the boat. Shared speedboat tours start around US$120 per person. Check the current tariff before you pay.",
+      "question": "How much does it cost to see Komodo dragons in 2026?"
+    },
+    {
+      "_key": "kd-f256",
+      "answer": "Not inside the national park: entry is registered through licensed operators on the SiORA system and every walk is led by a ranger. On mainland Flores you can visit the Wae Wuul reserve by car, but go with a local guide.",
+      "question": "Can you see Komodo dragons without a tour?"
+    },
+    {
+      "_key": "kd-f257",
+      "answer": "One full day covers a single sighting on a day tour. Three days lets you visit Komodo and Rinca on separate mornings. Five days, as here, adds the Flores mainland and a buffer for cancelled boats.",
+      "question": "How many days do you need in Labuan Bajo to see the dragons?"
+    },
+    {
+      "_key": "kd-f258",
+      "answer": "They can be. Their bite is dangerous and they move fast over short distances, which is why every walk in the park is led by a ranger. Stay behind the ranger, keep your distance and follow instructions, and the walk is safe.",
+      "question": "Are Komodo dragons dangerous to visitors?"
+    }
+  ],
+  "focusKeyword": "where to see Komodo dragons",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores — Komodo dragon (Varanus komodoensis) 2",
+    "asset": {
+      "_ref": "image-266ebc6cba2c79dbf1d1d47ea87b827279b25e52-3840x2828-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Charles J. Sharp, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis)_2.jpg"
+  },
+  "intro": "Most visitors see a Komodo dragon for ten minutes, at midday, between a viewpoint and a beach. This five-day plan from Labuan Bajo does it properly: Komodo Island on a classic park day, Rinca on its own early morning for the closest sightings, and the Wae Wuul reserve on mainland Flores, where wild dragons live outside the national park. It answers where you actually see them, what the 2026 park fees look like, and how to keep a cancelled boat from costing you the trip.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "Komodo, Rinca or mainland Flores? Where you actually see Komodo dragons, the 2026 park fees, and a 5-day plan from Labuan Bajo with a weather buffer.",
+  "metaTitle": "Where to See Komodo Dragons: A 5-Day Labuan Bajo Plan",
+  "primaryAffiliatePartner": "viator",
+  "route": "Bali, Labuan Bajo (4 nights), Komodo Island and Padar (day trip), Rinca Island (morning trip), Wae Wuul reserve on mainland Flores, Bali",
+  "routeSummary": "Bali → Labuan Bajo → Komodo Island → Rinca → Wae Wuul → Bali",
+  "secondaryAffiliatePartners": [
+    "klook",
+    "12go",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-komodo-dragons-rinca-wae-wuul-flores"
+  },
+  "title": "Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores",
+  "travelStylePrimary": "wildlife_nature",
+  "travelStyleSecondary": [
+    "beach_islands",
+    "adventure_volcanoes"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "balanced"
+}
