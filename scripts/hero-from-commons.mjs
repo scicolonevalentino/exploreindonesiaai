@@ -278,7 +278,9 @@ console.log(`  uploaded ${assetId}`);
 const heroImage = {
   _type: "image",
   asset: { _type: "reference", _ref: assetId },
-  alt: `${article.title.replace(/["']/g, "")} — ${chosen.title.replace(/\.(jpg|jpeg|png|webp)$/i, "").replace(/_/g, " ")}`.slice(
+  // Comma, not an em dash: alt text is rendered in og:image:alt and the hero
+  // <img>, and the house style bans em dashes in user-facing copy (2026-10-21).
+  alt: `${article.title.replace(/["']/g, "")}, ${chosen.title.replace(/\.(jpg|jpeg|png|webp)$/i, "").replace(/_/g, " ")}`.slice(
     0,
     160,
   ),
