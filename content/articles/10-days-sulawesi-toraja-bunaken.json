@@ -508,6 +508,181 @@
       "style": "normal"
     },
     {
+      "_key": "sr1023-h2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sr1023-h2s",
+          "_type": "span",
+          "marks": [],
+          "text": "Which Sulawesi itinerary should you choose?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "sr1023-p1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sr1023-p1s",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose by time first, then by what you want from the island. With a week, pick one region: Toraja from Makassar, or the reefs around Manado. With ten days, combine the two, as this page does. With two weeks, add the Togean Islands. Divers, honeymooners and families each have a route that fits them better."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "sr1023-tbl",
+      "_type": "comparisonTable",
+      "caption": "Our Sulawesi itineraries side by side. Days and trade-offs summarise each full itinerary; check each page for the details.",
+      "columns": ["Itinerary", "Days", "Regions", "Best for", "Main trade-off"],
+      "rows": [
+        {
+          "_key": "sr1023-r0",
+          "cells": [
+            "South Sulawesi, Makassar and Toraja",
+            "7",
+            "South",
+            "A first visit focused on Toraja culture",
+            "No reef time"
+          ]
+        },
+        {
+          "_key": "sr1023-r1",
+          "cells": [
+            "Toraja and Bunaken (this page)",
+            "10",
+            "South and North",
+            "Culture and reef in one trip",
+            "The road back to Makassar and one internal flight"
+          ]
+        },
+        {
+          "_key": "sr1023-r2",
+          "cells": [
+            "Toraja, the Togeans and Bunaken",
+            "14",
+            "South, Central and North",
+            "Travellers with schedule slack",
+            "Ferries on fixed days and long overland legs"
+          ]
+        },
+        {
+          "_key": "sr1023-r3",
+          "cells": [
+            "North Sulawesi diving, Bunaken and Lembeh",
+            "10",
+            "North",
+            "Divers, reef walls and macro life",
+            "No Toraja"
+          ]
+        },
+        {
+          "_key": "sr1023-r4",
+          "cells": [
+            "North Sulawesi honeymoon, Bunaken and Siladen",
+            "8",
+            "North",
+            "Couples who want island resort time",
+            "No Toraja"
+          ]
+        },
+        {
+          "_key": "sr1023-r5",
+          "cells": [
+            "North Sulawesi with kids, Bunaken and Tangkoko",
+            "8",
+            "North",
+            "Families: reef, tarsiers and highlands",
+            "Basic rooms near Tangkoko"
+          ]
+        },
+        {
+          "_key": "sr1023-r6",
+          "cells": [
+            "Wakatobi diving, Southeast Sulawesi",
+            "8",
+            "Southeast",
+            "Experienced divers",
+            "The hardest and costliest region to reach"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "sr1023-p2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "sr1023-a",
+          "_type": "span",
+          "marks": [],
+          "text": "If Toraja is the whole point, the "
+        },
+        {
+          "_key": "sr1023-b",
+          "_type": "span",
+          "marks": ["sr1023-l1"],
+          "text": "7-day South Sulawesi itinerary"
+        },
+        {
+          "_key": "sr1023-c",
+          "_type": "span",
+          "marks": [],
+          "text": " gives it a full week without the flight north. If the reef matters more than the highlands, the "
+        },
+        {
+          "_key": "sr1023-d",
+          "_type": "span",
+          "marks": ["sr1023-l2"],
+          "text": "8-day North Sulawesi honeymoon"
+        },
+        {
+          "_key": "sr1023-e",
+          "_type": "span",
+          "marks": [],
+          "text": " slows Bunaken down for two, and the "
+        },
+        {
+          "_key": "sr1023-f",
+          "_type": "span",
+          "marks": ["sr1023-l3"],
+          "text": "8-day North Sulawesi itinerary with kids"
+        },
+        {
+          "_key": "sr1023-g",
+          "_type": "span",
+          "marks": [],
+          "text": " adds the tarsiers at Tangkoko and the cool Minahasa highlands."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "sr1023-l1",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-south-sulawesi-toraja-makassar"
+        },
+        {
+          "_key": "sr1023-l2",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-north-sulawesi-honeymoon-bunaken-siladen"
+        },
+        {
+          "_key": "sr1023-l3",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-north-sulawesi-with-kids-bunaken-tangkoko"
+        }
+      ],
+      "style": "normal"
+    },
+    {
       "_key": "k29",
       "_type": "block",
       "children": [
@@ -1998,6 +2173,39 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "ssul-inb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ssul-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "If ten days is more than you have, the "
+        },
+        {
+          "_key": "ssul-s2",
+          "_type": "span",
+          "marks": ["ssul-lnk"],
+          "text": "7-day South Sulawesi route"
+        },
+        {
+          "_key": "ssul-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps Tana Toraja and adds the Rammang-Rammang karst outside Makassar, without the long haul north to Bunaken."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ssul-lnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-south-sulawesi-toraja-makassar"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
@@ -2006,6 +2214,11 @@
     {
       "answer": "Ten days is a sensible minimum to pair Tana Toraja with Bunaken without rushing, because two of those days go to transfers. With less time, focus on one region, either Toraja from Makassar or Bunaken from Manado, rather than trying to link both. With two weeks you could add the Togean Islands or North Sulawesi wildlife.",
       "question": "How many days do you need for Sulawesi?"
+    },
+    {
+      "_key": "sr1023-faq",
+      "answer": "For two weeks, the classic route runs from Makassar to Tana Toraja, then overland and by ferry through the Togean Islands, finishing at Bunaken off Manado. It needs one internal flight and ferries that run on fixed days, so build slack into the plan. With ten days, drop the Togeans and fly from Makassar to Manado instead.",
+      "question": "What is the best Sulawesi itinerary for two weeks?"
     },
     {
       "answer": "As a working estimate the drive runs about eight to ten hours over roughly 300 to 310 kilometres of winding mountain road, depending on traffic and rest stops. There is also a seasonal, low-frequency Wings Air flight to Toraja Airport at around 50 minutes, but it does not run year-round, so confirm current schedules before relying on it.",
@@ -2043,8 +2256,8 @@
     "caption": "The Lemo cliff graves, Tana Toraja"
   },
   "intro": "Most travellers who reach Sulawesi do one thing and fly out, either the highland funerals of Toraja or the reef walls off Bunaken, because connecting the two feels like too much road for one trip. It is a lot of road. But ten days is enough to do both honestly if you accept the backtrack through Makassar instead of pretending there is a shortcut. This is a trip about range rather than ease, and it suits travellers who have already done easy Indonesia and want the harder, richer version.",
-  "metaDescription": "How many days you need for Sulawesi, which of its four regions to pick, and a full 10-day route through Tana Toraja and Bunaken with honest drive times.",
-  "metaTitle": "Sulawesi Itinerary: 10 Days, and How to Pick a Region",
+  "metaDescription": "How long to spend in Sulawesi, which region fits one, two or three weeks, and a full 10-day route from Tana Toraja to Bunaken with honest drive times.",
+  "metaTitle": "Sulawesi Itinerary: 1, 2 or 3 Weeks, Plus a 10-Day Route",
   "route": "Makassar → Tana Toraja (Rantepao) → Makassar → Manado → Bunaken",
   "slug": {
     "_type": "slug",

@@ -1,0 +1,2114 @@
+{
+  "_id": "itinerary-6-days-central-java-borobudur-dieng-solo",
+  "_type": "article",
+  "affiliateLinks": [
+    {
+      "_key": "cj-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "cj-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/yogyakarta?z=16022946",
+      "anchorText": "Jakarta to Yogyakarta trains and flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/yogyakarta"
+    },
+    {
+      "_key": "cj-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/yogyakarta/solo?z=16022946",
+      "anchorText": "Yogyakarta to Solo trains on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_YOGYAKARTA_SOLO",
+      "publicUrl": "https://12go.asia/en/travel/yogyakarta/solo"
+    },
+    {
+      "_key": "cj-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F18275-dieng-plateau-tour-yogyakarta%2F",
+      "anchorText": "Dieng Plateau day trip from Yogyakarta",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_DIENG_DAY_TRIP",
+      "publicUrl": "https://www.klook.com/activity/18275-dieng-plateau-tour-yogyakarta/"
+    },
+    {
+      "_key": "cj-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days",
+      "anchorText": "private Punthuk Setumbu sunrise and Borobudur tour",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BOROBUDUR_SUNRISE_PRIVATE",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10"
+    },
+    {
+      "_key": "cj-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays in Yogyakarta on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_YOGYAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "cj-aff6",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Dieng%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "guesthouses on the Dieng Plateau",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_DIENG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Dieng%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "cj-aff7",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Surakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "hotels in Solo on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_SURAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Surakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-10-23T04:15:12.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to September",
+  "body": [
+    {
+      "_key": "cj-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "What is there to see in Central Java beyond Yogyakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Most visitors see Central Java as Yogyakarta plus two temples, Borobudur and Prambanan, done as day trips. The province holds much more: the Dieng Plateau, a cold volcanic highland about 2,000 metres up with some of Java's oldest Hindu temples, and Solo, the quieter royal city an hour east of Yogyakarta by commuter train."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "This itinerary is built on that gap. It keeps the two temples everyone comes for, but it gives them a better rhythm, and it adds two places that change how the region feels: two cold nights among steaming craters and potato terraces on the plateau, and a final day in a court city where the palaces still matter and almost nobody is there on a tour bus."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This six-day plan is for travellers who have a week in Java and want more than the classic Yogyakarta checklist: couples, solo travellers and repeat visitors who like culture, early mornings and a bit of road time, and who would rather see one cold mountain dawn than a third temple. It works as a standalone trip or as the Java half of a longer journey."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for you if you want a single base and short drives; then the "
+        },
+        {
+          "_key": "cj-s14",
+          "_type": "span",
+          "marks": ["cj-m13"],
+          "text": "7-day Yogyakarta and East Java itinerary"
+        },
+        {
+          "_key": "cj-s15",
+          "_type": "span",
+          "marks": [],
+          "text": " or a slower city stay fits better. It is also the wrong plan for young children, because Dieng is cold, basic and reached on winding roads. Families should look at our "
+        },
+        {
+          "_key": "cj-s17",
+          "_type": "span",
+          "marks": ["cj-m16"],
+          "text": "8-day Yogyakarta and Central Java itinerary with kids"
+        },
+        {
+          "_key": "cj-s18",
+          "_type": "span",
+          "marks": [],
+          "text": " instead."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        },
+        {
+          "_key": "cj-m16",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s20",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s22",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Duration:"
+        },
+        {
+          "_key": "cj-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " 6 days, 5 nights: Yogyakarta 1 night, Dieng 2 nights, Yogyakarta 1 night, Solo 1 night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s25",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Route:"
+        },
+        {
+          "_key": "cj-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, Borobudur, the Dieng Plateau, back to Yogyakarta, Prambanan, then Solo (Surakarta)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s28",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Pace:"
+        },
+        {
+          "_key": "cj-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced. Two early starts, two half-days in a car, and a gentle final day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s31",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best for:"
+        },
+        {
+          "_key": "cj-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " culture-minded couples, solo travellers and repeat visitors to Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s34",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Best time:"
+        },
+        {
+          "_key": "cj-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " roughly May to September, the dry season, when Dieng mornings are clearest and coldest. Expect rain on many afternoons from November to March."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s37",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Budget:"
+        },
+        {
+          "_key": "cj-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " moderate. Temple tickets for foreign visitors are the biggest fixed cost; Dieng and Solo are cheap."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s40",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s42",
+          "_type": "span",
+          "marks": [],
+          "text": "The usual Central Java plan sleeps four nights in Yogyakarta and returns every evening. It is efficient, but it turns the region into a commute. This route uses geography instead: Borobudur sits on the road to Dieng, so you see it on the way up, and Prambanan sits on the road to Solo, so you see it on the way out. Neither temple costs you a separate round trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s44",
+          "_type": "span",
+          "marks": [],
+          "text": "Dieng gets two nights because one is not enough. The sunrise at Sikunir means a 3:30 a.m. start, and doing that after a four-hour drive and before another one is how people end up hating the plateau. With two nights you arrive, sleep, catch the dawn, and still have an afternoon for the craters and lakes. Ending in Solo means you finish somewhere calm, with a choice of flying out of its own airport or taking the train back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s46",
+          "_type": "span",
+          "marks": [],
+          "text": "How long does it take to get from Yogyakarta to the Dieng Plateau?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s48",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate, the drive from Yogyakarta to the Dieng Plateau takes three to four hours by car, via Magelang and Wonosobo, according to Indonesia's official tourism site. From Borobudur it is a little shorter, because the temple sits near Magelang on the same route. The last hour climbs steeply on narrow, winding roads above Wonosobo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s50",
+          "_type": "span",
+          "marks": [],
+          "text": "Public transport exists, with buses to Wonosobo and minibuses up to Dieng, but it turns one drive into a full day of changes. For this route a private car with a driver is the sensible choice: it carries your bags from Borobudur up to the plateau, waits while you walk, and costs far less than people expect when split between two. Arrange it through your Yogyakarta hotel and agree the price, the stops and the waiting time before you leave."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s52",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Yogyakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s54",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s55",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Yogyakarta International Airport (YIA), about 45 kilometres west of the city in Kulon Progo, or arrive by train from Jakarta; compare "
+        },
+        {
+          "_key": "cj-s57",
+          "_type": "span",
+          "marks": ["cj-m56"],
+          "text": "Jakarta to Yogyakarta trains and flights on 12Go"
+        },
+        {
+          "_key": "cj-s58",
+          "_type": "span",
+          "marks": [],
+          "text": " and our "
+        },
+        {
+          "_key": "cj-s60",
+          "_type": "span",
+          "marks": ["cj-m59"],
+          "text": "Jakarta to Yogyakarta transport guide"
+        },
+        {
+          "_key": "cj-s61",
+          "_type": "span",
+          "marks": [],
+          "text": ". The airport train reaches the central stations in about 40 minutes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m56",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA"
+        },
+        {
+          "_key": "cj-m59",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/jakarta-to-yogyakarta"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s63",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in, rest, and walk to the Kraton area if you arrive early enough. The Sultan's palace keeps short, morning-weighted hours, so do not race for it today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s66",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "cj-s67",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat gudeg, the sweet jackfruit stew Yogyakarta is known for, at a warung near your hotel, then pack a small overnight bag: you will leave the big luggage in the car tomorrow, and it is cold where you are going."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s69",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "cj-s70",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, 1 night. Compare "
+        },
+        {
+          "_key": "cj-s72",
+          "_type": "span",
+          "marks": ["cj-m71"],
+          "text": "stays in Yogyakarta on Booking.com"
+        },
+        {
+          "_key": "cj-s73",
+          "_type": "span",
+          "marks": [],
+          "text": "; the Prawirotaman area is quieter, and Malioboro or Tugu is closer to the station."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m71",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_YOGYAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s75",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s76",
+          "_type": "span",
+          "marks": [],
+          "text": " book tomorrow's car and driver tonight through your hotel, and book the Borobudur ticket online in advance if you want to climb the temple structure itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s78",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s79",
+          "_type": "span",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_key": "cj-s81",
+          "_type": "span",
+          "marks": ["cj-m80"],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "cj-s82",
+          "_type": "span",
+          "marks": [],
+          "text": " before you land. Drivers, guesthouses and ride-hailing all run on WhatsApp and data."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m80",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s84",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Borobudur, then up to the Dieng Plateau"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s86",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s87",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave early for Borobudur, about an hour to an hour and a half from the city. Arrive at opening, before the heat and the school groups. Walk the grounds and, if you booked a climbing slot, the terraces with their mandatory guide and sandals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s89",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s90",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue north through Magelang and Wonosobo and climb to Dieng, arriving by mid-afternoon. Stop in Wonosobo for lunch, since food options thin out on the plateau. Once you arrive, walk to the Arjuna temple complex, a cluster of small Hindu shrines from around the 8th century, sitting in a flat field of grass and mist."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s92",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "cj-s93",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner at your guesthouse: try mie ongklok, the thick noodle dish of Wonosobo, and purwaceng tea, a local herbal drink. Go to bed early, in every layer you brought."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s95",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "cj-s96",
+          "_type": "span",
+          "marks": [],
+          "text": " Dieng, 2 nights. Compare "
+        },
+        {
+          "_key": "cj-s98",
+          "_type": "span",
+          "marks": ["cj-m97"],
+          "text": "guesthouses on the Dieng Plateau"
+        },
+        {
+          "_key": "cj-s99",
+          "_type": "span",
+          "marks": [],
+          "text": "; rooms are simple, heating is rare and hot water can be unreliable, so read recent reviews before you book."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m97",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_DIENG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s101",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s102",
+          "_type": "span",
+          "marks": [],
+          "text": " foreign visitors pay a separate, higher Borobudur tariff. As a working estimate, budget around IDR 455,000 for the grounds, and treat the terrace climb as a separate, capped ticket bought ahead on the official Borobudur booking site, where the current price is listed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s104",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s105",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the longest road day of the trip. Motion sickness tablets help on the final climb."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s107",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Sikunir sunrise, the craters and the coloured lake"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s109",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s110",
+          "_type": "span",
+          "marks": [],
+          "text": " A 3:30 a.m. start for Sikunir, a short drive from Dieng village to Sembungan. From the car park it is a steep walk of roughly 30 to 45 minutes to the viewpoint, where on a clear dry-season morning the sun comes up behind the volcanoes Sindoro and Sumbing. Back at the guesthouse for a hot breakfast and a nap."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s112",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s113",
+          "_type": "span",
+          "marks": [],
+          "text": " Kawah Sikidang, a steaming crater field with boardwalks, then the Arjuna temples again if you want them in a different light, and Telaga Warna, the lake that shifts colour with the sulphur and the sun. The viewpoint at Batu Pandang looks down over Telaga Warna and its twin lake, Telaga Pengilon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s115",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "cj-s116",
+          "_type": "span",
+          "marks": [],
+          "text": " Early dinner and an early night; you drive back down tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s118",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s119",
+          "_type": "span",
+          "marks": [],
+          "text": " fees on the plateau are small but charged separately. Travel guides from recent years put the combined Arjuna and Sikidang ticket at around IDR 30,000 for foreign visitors and Telaga Warna noticeably higher, so carry plenty of small rupiah notes and expect the prices to have moved."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s121",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s122",
+          "_type": "span",
+          "marks": [],
+          "text": " in the dry months the ground can frost at dawn, which locals call embun upas. Bring a warm jacket, a hat, gloves and a torch for the Sikunir climb."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s124",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Back down to Yogyakarta"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s126",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s127",
+          "_type": "span",
+          "marks": [],
+          "text": " A slow breakfast with the view, then drive back down via Wonosobo, about three to four hours. If the weather is clear, stop at the tea terraces on the Wonosobo side for photographs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s129",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s130",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Yogyakarta, walk Taman Sari, the old royal water castle, if you arrive before it closes in the afternoon, then wander the lanes around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s132",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "cj-s133",
+          "_type": "span",
+          "marks": [],
+          "text": " If it is a Tuesday, Thursday or Saturday in the dry season, take the Ramayana ballet at Prambanan's open-air theatre, which runs from about 7:30 p.m.; otherwise catch a shadow-puppet performance or simply eat well near Malioboro."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s135",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "cj-s136",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, 1 night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s138",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s139",
+          "_type": "span",
+          "marks": [],
+          "text": " the official ticketing schedule lists the open-air Ramayana show from May to October, moving indoors in the wet season or when it rains before the start, with seats from about IDR 150,000. Check the current schedule before you plan the evening around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s141",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s142",
+          "_type": "span",
+          "marks": [],
+          "text": " the ballet ends late and the theatre is outside the city, so arrange a return car rather than hoping for a ride-hailing pickup at 9 p.m."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s144",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Prambanan, then on to Solo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s146",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s147",
+          "_type": "span",
+          "marks": [],
+          "text": " Check out and drive east to Prambanan, around 17 kilometres from the city, and be there at opening. The tall Shiva temple carries the Ramayana in relief around its inner gallery. Spend the extra hour walking north to the smaller Sewu temple inside the same park, which most visitors skip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s149",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s150",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue east to Solo, roughly an hour and a half by car, and check in. In the late afternoon, walk through Pasar Gede, the old covered market, then the batik lanes of Kampung Laweyan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s152",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Evening."
+        },
+        {
+          "_key": "cj-s153",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat nasi liwet, rice cooked in coconut milk with chicken and egg, Solo's signature dish, from a street stall."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s155",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "cj-s156",
+          "_type": "span",
+          "marks": [],
+          "text": " Solo, 1 night. Compare "
+        },
+        {
+          "_key": "cj-s158",
+          "_type": "span",
+          "marks": ["cj-m157"],
+          "text": "hotels in Solo on Booking.com"
+        },
+        {
+          "_key": "cj-s159",
+          "_type": "span",
+          "marks": [],
+          "text": "; anywhere near the centre or the Mangkunegaran palace works."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m157",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SURAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s161",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s162",
+          "_type": "span",
+          "marks": [],
+          "text": " as a working estimate, budget around IDR 375,000 to 400,000 for a foreign adult ticket to Prambanan, and check the current tariff before you go. The old Borobudur and Prambanan combination ticket has been reported discontinued for foreign visitors, so plan on paying for each."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s164",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s165",
+          "_type": "span",
+          "marks": [],
+          "text": " if you would rather not hire a car for this leg, go back into Yogyakarta and take the train: the commuter line to Solo has a flat fare of IDR 8,000 per trip, according to 2026 timetable reports, and long-distance trains run the same stretch; compare "
+        },
+        {
+          "_key": "cj-s167",
+          "_type": "span",
+          "marks": ["cj-m166"],
+          "text": "Yogyakarta to Solo trains on 12Go"
+        },
+        {
+          "_key": "cj-s168",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m166",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_YOGYAKARTA_SOLO"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s170",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Solo's palaces and the way home"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s172",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Morning."
+        },
+        {
+          "_key": "cj-s173",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit the Pura Mangkunegaran, the smaller of Solo's two royal courts and the better kept, with a guided walk through its open pendopo hall. Then the Keraton Kasunanan, the main palace, whose museum section is open on a short schedule; outer areas can be seen without a ticket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s175",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "cj-s176",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave from Solo's Adi Soemarmo airport, or take the train back to Yogyakarta for a flight out of YIA. With a spare morning instead, drive about an hour up Mount Lawu to Candi Sukuh, a 15th-century temple shaped like a stepped pyramid, unlike anything else in Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s178",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Base:"
+        },
+        {
+          "_key": "cj-s179",
+          "_type": "span",
+          "marks": [],
+          "text": " none. You leave today."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s181",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "cj-s182",
+          "_type": "span",
+          "marks": [],
+          "text": " CNN Indonesia lists Mangkunegaran as open daily from 9 a.m. to 2:30 p.m. with tickets around IDR 30,000; the Keraton's hours vary through the week. Confirm both on the day, and dress modestly, with shoulders and knees covered."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s184",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "cj-s185",
+          "_type": "span",
+          "marks": [],
+          "text": " check that your onward flight leaves from Solo before you rely on it, because the route network there is much smaller than Yogyakarta's."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s187",
+          "_type": "span",
+          "marks": [],
+          "text": "How much does a 6-day Central Java trip cost?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s189",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate, the fixed costs per foreign visitor on this route come to roughly IDR 1 to 1.5 million in tickets: about IDR 455,000 for Borobudur grounds, IDR 375,000 to 400,000 for Prambanan, the small Dieng fees, the Solo palaces, and a Ramayana seat if you go. The car and driver is the other large cost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s191",
+          "_type": "span",
+          "marks": [],
+          "text": "Rooms are the flexible part. Yogyakarta has everything from guesthouses to resort hotels, Dieng is basic at every price, and Solo is one of the best-value cities in Java. Our "
+        },
+        {
+          "_key": "cj-s193",
+          "_type": "span",
+          "marks": ["cj-m192"],
+          "text": "Indonesia travel costs guide"
+        },
+        {
+          "_key": "cj-s194",
+          "_type": "span",
+          "marks": [],
+          "text": " has daily budget ranges if you want to set them against the rest of a trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m192",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/indonesia-travel-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-t195",
+      "_type": "comparisonTable",
+      "caption": "The three bases on this route compared. Prices and conditions are working estimates from 2025 and 2026 sources; check current rates before you book.",
+      "columns": ["Base", "Nights", "Altitude and climate", "What you do from there", "The catch"],
+      "rows": [
+        {
+          "_key": "cj-r196",
+          "cells": [
+            "Yogyakarta",
+            "2",
+            "Warm and humid, close to sea level",
+            "Borobudur, Prambanan, the Kraton, Taman Sari, the Ramayana ballet",
+            "Busy, and the airport is about an hour away"
+          ]
+        },
+        {
+          "_key": "cj-r197",
+          "cells": [
+            "Dieng Plateau",
+            "2",
+            "About 2,000 metres, close to freezing at dawn in the dry months",
+            "Sikunir sunrise, Arjuna temples, Sikidang crater, Telaga Warna",
+            "Basic rooms, cold nights, three to four hours each way by road"
+          ]
+        },
+        {
+          "_key": "cj-r198",
+          "cells": [
+            "Solo (Surakarta)",
+            "1",
+            "Warm, like Yogyakarta",
+            "Mangkunegaran and Keraton palaces, batik quarters, Candi Sukuh",
+            "Fewer flights, and the palaces keep short hours"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "cj-b199",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s200",
+          "_type": "span",
+          "marks": [],
+          "text": "Borobudur, Prambanan or Dieng: which temples are worth your time?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b201",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s202",
+          "_type": "span",
+          "marks": [],
+          "text": "If you only have time for one, Borobudur is the one: the largest Buddhist monument in the world, and the reason most people come. Prambanan is the strongest second choice, taller and more dramatic. The Dieng temples are small and simple, but older, and their setting in a cold volcanic valley is what you remember."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s204",
+          "_type": "span",
+          "marks": [],
+          "text": "The three are not really substitutes, which is why this route visits all of them. Our "
+        },
+        {
+          "_key": "cj-s206",
+          "_type": "span",
+          "marks": ["cj-m205"],
+          "text": "Borobudur vs Prambanan guide"
+        },
+        {
+          "_key": "cj-s207",
+          "_type": "span",
+          "marks": [],
+          "text": " compares the two big temples in more detail if you have to choose."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m205",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java/borobudur-vs-prambanan"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-t208",
+      "_type": "comparisonTable",
+      "caption": "The temples on this route compared. Fees are working estimates for foreign adults; check current prices on the official channels.",
+      "columns": [
+        "Temple",
+        "Religion and age",
+        "Fee, as a working estimate",
+        "Best time",
+        "Why go"
+      ],
+      "rows": [
+        {
+          "_key": "cj-r209",
+          "cells": [
+            "Borobudur",
+            "Buddhist, around the 9th century",
+            "About IDR 455,000 grounds, climb extra",
+            "At opening",
+            "Scale, the reliefs, the setting among volcanoes"
+          ]
+        },
+        {
+          "_key": "cj-r210",
+          "cells": [
+            "Prambanan",
+            "Hindu, around the 9th century",
+            "About IDR 375,000 to 400,000",
+            "At opening, or for the evening ballet",
+            "Height, the Ramayana reliefs, Sewu temple next door"
+          ]
+        },
+        {
+          "_key": "cj-r211",
+          "cells": [
+            "Arjuna complex, Dieng",
+            "Hindu, around the 8th century",
+            "Small, around IDR 30,000 with Sikidang",
+            "Early morning, in the mist",
+            "Among the oldest temples in Java, with almost no crowds"
+          ]
+        },
+        {
+          "_key": "cj-r212",
+          "cells": [
+            "Candi Sukuh, Mount Lawu",
+            "Hindu-Javanese, 15th century",
+            "Small, check locally",
+            "Morning, before cloud",
+            "A stepped pyramid unlike any other temple in Java"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "cj-b213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s214",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s216",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Book early:"
+        },
+        {
+          "_key": "cj-s217",
+          "_type": "span",
+          "marks": [],
+          "text": " the Borobudur climbing slot, if you want to climb, since daily numbers are capped and slots sell out in the high season; your flights into Yogyakarta; and the Dieng guesthouse in July and August, especially around the Dieng Culture Festival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s219",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Book early:"
+        },
+        {
+          "_key": "cj-s220",
+          "_type": "span",
+          "marks": [],
+          "text": " the car and driver for Days 2 to 4. A driver who knows the Dieng road is worth more than a cheaper one who does not."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s222",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "cj-s223",
+          "_type": "span",
+          "marks": [],
+          "text": " the Sikunir morning. If the forecast shows cloud, sleep in and use the afternoon for the craters instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s225",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "cj-s226",
+          "_type": "span",
+          "marks": [],
+          "text": " Candi Sukuh, which depends on the weather and your flight time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s228",
+          "_type": "span",
+          "marks": [],
+          "text": "Mistakes travellers make in Central Java"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s230",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is visiting Dieng as a day trip from Yogyakarta. It means seven or eight hours in a car for a few hours on the plateau, usually at midday when the mist has lifted and the light is flat. The second is packing for the tropics: people arrive at Dieng in shorts and spend the evening in a blanket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s232",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes: assuming the Borobudur ticket includes the climb, when the terraces are a separate, capped booking; arriving at Solo's palaces in the afternoon, when they are closing; and timing the trip for the Dieng Culture Festival without booking rooms months ahead. The 2026 festival ran from 28 to 30 August, according to Indonesia's public broadcaster RRI, and the plateau fills up for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b233",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s234",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s236",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Cut:"
+        },
+        {
+          "_key": "cj-s237",
+          "_type": "span",
+          "marks": [],
+          "text": " with only four days, drop Solo, and do Prambanan on Day 4 on the way back from Dieng. With three, skip the overnight and take a "
+        },
+        {
+          "_key": "cj-s239",
+          "_type": "span",
+          "marks": ["cj-m238"],
+          "text": "Dieng Plateau day trip from Yogyakarta"
+        },
+        {
+          "_key": "cj-s240",
+          "_type": "span",
+          "marks": [],
+          "text": " instead; it runs about 14 hours with hotel pickup, which is long but saves organising a car."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m238",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_DIENG_DAY_TRIP"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s242",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "cj-s243",
+          "_type": "span",
+          "marks": [],
+          "text": " if Dieng sounds too cold or too far, replace it with a dawn at Borobudur: a "
+        },
+        {
+          "_key": "cj-s245",
+          "_type": "span",
+          "marks": ["cj-m244"],
+          "text": "private Punthuk Setumbu sunrise and Borobudur tour"
+        },
+        {
+          "_key": "cj-s246",
+          "_type": "span",
+          "marks": [],
+          "text": " handles the pre-dawn pickup, the hill and the temple after it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m244",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BOROBUDUR_SUNRISE_PRIVATE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s248",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "cj-s249",
+          "_type": "span",
+          "marks": [],
+          "text": " to continue east, swap Solo for Mount Bromo; our "
+        },
+        {
+          "_key": "cj-s251",
+          "_type": "span",
+          "marks": ["cj-m250"],
+          "text": "5-day Yogyakarta and Bromo itinerary"
+        },
+        {
+          "_key": "cj-s252",
+          "_type": "span",
+          "marks": [],
+          "text": " covers that leg."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m250",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s254",
+          "_type": "span",
+          "marks": ["strong"],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "cj-s255",
+          "_type": "span",
+          "marks": [],
+          "text": " stay a night near Borobudur, in one of the resort hotels among the rice fields, to see the temple at both ends of the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b256",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s257",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s259",
+          "_type": "span",
+          "marks": [],
+          "text": "Visa rules for Indonesia vary by nationality, so check the latest official guidance before you book flights. Carry cash in rupiah for Dieng and Solo, where small entry fees, parking and warungs rarely take cards. Temples and palaces expect modest clothing, and Borobudur supplies sandals for the climb."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b260",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s261",
+          "_type": "span",
+          "marks": [],
+          "text": "Pack for two climates: light clothes for Yogyakarta and Solo, and a proper warm layer, a hat and gloves for Dieng. Confirm Borobudur and Prambanan prices close to travel, because foreign tariffs are set in rupiah and move with policy. For more to do in the city between legs, see our "
+        },
+        {
+          "_key": "cj-s263",
+          "_type": "span",
+          "marks": ["cj-m262"],
+          "text": "things to do in Yogyakarta guide"
+        },
+        {
+          "_key": "cj-s264",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m262",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java/things-to-do-in-yogyakarta"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b265",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s266",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b267",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s268",
+          "_type": "span",
+          "marks": [],
+          "text": "Central Java is better as a journey than as a commute. Seeing Borobudur on the way up to Dieng, Prambanan on the way out to Solo, and two cold nights on the plateau in between gives you the same famous temples as everyone else, plus the two places most visitors never reach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b269",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s270",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the two Dieng nights, start early at every temple, and end in Solo rather than back in Yogyakarta. That turns six days into a trip with a shape, and it shows you a Java that most first-time visitors never see."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b271",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s272",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cj-b273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s275",
+          "_type": "span",
+          "marks": ["cj-m274"],
+          "text": "7 days in Yogyakarta and East Java"
+        },
+        {
+          "_key": "cj-s276",
+          "_type": "span",
+          "marks": [],
+          "text": " if you would rather combine the temples with Bromo and Ijen."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m274",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s279",
+          "_type": "span",
+          "marks": ["cj-m278"],
+          "text": "10 days across Java, from Jakarta to Bromo"
+        },
+        {
+          "_key": "cj-s280",
+          "_type": "span",
+          "marks": [],
+          "text": " if you have more time and want the whole island by train."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m278",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj-b281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj-s283",
+          "_type": "span",
+          "marks": ["cj-m282"],
+          "text": "8 days in Java for a honeymoon"
+        },
+        {
+          "_key": "cj-s284",
+          "_type": "span",
+          "marks": [],
+          "text": " for a slower, more comfortable version of the temple route."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj-m282",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-java-honeymoon-borobudur-bromo"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "temples",
+    "volcanic_highlands",
+    "sunrise_hike",
+    "royal_palaces",
+    "train_travel",
+    "cultural_performance"
+  ],
+  "faq": [
+    {
+      "_key": "cj-f285",
+      "answer": "Yes, if you stay overnight. Dieng combines some of Java's oldest Hindu temples, steaming craters and a colour-changing lake at about 2,000 metres, with a sunrise at Sikunir that rivals Bromo's for a fraction of the crowds. As a day trip from Yogyakarta it is mostly time in a car.",
+      "question": "Is the Dieng Plateau worth visiting?"
+    },
+    {
+      "_key": "cj-f286",
+      "answer": "Three days covers Yogyakarta, Borobudur and Prambanan. Five to six days, as in this plan, lets you add two nights on the Dieng Plateau and a night in Solo, which is the version that shows you more than the classic temple circuit.",
+      "question": "How many days do you need for Central Java?"
+    },
+    {
+      "_key": "cj-f287",
+      "answer": "Cold for Indonesia. Nights are chilly all year, and in the dry months from about June to August the temperature near dawn can drop low enough for frost on the ground. Bring a warm jacket, a hat and gloves.",
+      "question": "How cold does it get on the Dieng Plateau?"
+    },
+    {
+      "_key": "cj-f288",
+      "answer": "Yes, many day tours from Yogyakarta do it, but it makes for a long, hot day. This itinerary splits them, visiting Borobudur on the way to Dieng and Prambanan on the way to Solo, so neither is rushed.",
+      "question": "Can you visit Borobudur and Prambanan on the same day?"
+    },
+    {
+      "_key": "cj-f289",
+      "answer": "By train is easiest. The commuter line between Yogyakarta and Solo takes about an hour to an hour and a half with a flat fare of IDR 8,000, according to 2026 timetable reports, and long-distance trains run the same route. By car it is roughly an hour and a half.",
+      "question": "How do you get from Yogyakarta to Solo?"
+    },
+    {
+      "_key": "cj-f290",
+      "answer": "Yes, for a day or a night. Solo is calmer than Yogyakarta, with two royal palaces, the Pura Mangkunegaran and the Keraton Kasunanan, good batik quarters and some of the best street food in Java, and it sees far fewer foreign visitors.",
+      "question": "Is Solo worth visiting from Yogyakarta?"
+    },
+    {
+      "_key": "cj-f291",
+      "answer": "Roughly May to September, the dry season, when skies are clearer for the Dieng and Borobudur sunrises and the open-air Ramayana ballet runs at Prambanan. The wet months bring afternoon rain but fewer visitors.",
+      "question": "When is the best time to visit Central Java?"
+    }
+  ],
+  "focusKeyword": "Central Java itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Morning light over the Arjuna temple complex on the Dieng Plateau, Central Java, with the volcanic hills behind",
+    "asset": {
+      "_ref": "image-c5680860bc0a64793abce71a03918269666e0d37-3000x2026-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Arie Basuki, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Pagi_di_Candi_Arjuno.jpg"
+  },
+  "intro": "Most Central Java trips are Yogyakarta plus two temples, done as day trips from the same hotel. This six-day route keeps Borobudur and Prambanan but puts them on the road: Borobudur on the way up to two cold nights on the Dieng Plateau, with a 3:30 a.m. sunrise at Sikunir, and Prambanan on the way out to Solo, the quieter royal city most visitors never reach. It covers the drive times, the 2026 ticket estimates and where the plan is fragile.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 6-day Central Java route past the Yogyakarta day trips: Borobudur, two cold nights on the Dieng Plateau, Prambanan and Solo's palaces, with 2026 costs.",
+  "metaTitle": "Central Java Itinerary: 6 Days, Borobudur, Dieng and Solo",
+  "primaryAffiliatePartner": "booking",
+  "route": "Yogyakarta (1 night), Borobudur, Dieng Plateau (2 nights), Yogyakarta (1 night), Prambanan, Solo (1 night)",
+  "routeSummary": "Yogyakarta → Borobudur → Dieng Plateau → Yogyakarta → Prambanan → Solo",
+  "secondaryAffiliatePartners": ["klook", "viator", "12go", "airalo"],
+  "slug": {
+    "_type": "slug",
+    "current": "6-days-central-java-borobudur-dieng-solo"
+  },
+  "title": "6 Days in Central Java: Borobudur, the Dieng Plateau and Solo",
+  "travelStylePrimary": "culture_temples",
+  "travelStyleSecondary": ["adventure_volcanoes"],
+  "travellerTypes": ["couples", "solo_travellers", "repeat_travellers"],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 6,
+  "vibe": "balanced"
+}

@@ -1850,6 +1850,72 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "i10b-b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "i10b-1",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather pair Yogyakarta with Bali and Komodo than with East Java, the "
+        },
+        {
+          "_key": "i10b-2",
+          "_type": "span",
+          "marks": ["i10b-m"],
+          "text": "10-day Bali, Yogyakarta and Komodo route"
+        },
+        {
+          "_key": "i10b-3",
+          "_type": "span",
+          "marks": [],
+          "text": " does that with three domestic flights."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "i10b-m",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-indonesia-bali-yogyakarta-komodo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cj1023-inb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cj1023-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather stay in Central Java than cross to Bromo, the "
+        },
+        {
+          "_key": "cj1023-s2",
+          "_type": "span",
+          "marks": ["cj1023-lnk"],
+          "text": "6-day Central Java route through the Dieng Plateau and Solo"
+        },
+        {
+          "_key": "cj1023-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " keeps Borobudur and Prambanan and adds two cold nights among the volcanic craters."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cj1023-lnk",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-central-java-borobudur-dieng-solo"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
