@@ -889,10 +889,20 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "komodo_flores",
     name: "Komodo & Flores",
     shortName: "Komodo & Flores",
-    h1: "Komodo Dragons and Flores",
-    metaTitle: "Komodo Dragons on Flores: Where to See Them, Day by Day",
+    // PARTE 1 of docs/reinforce-komodo-flores-2026-10-26.md, applied 2026-10-26.
+    // Re-read on 2026-11-23, not before. Baseline (GSC 2026-09-26..10-23): 46
+    // impressions, 0 clicks. The dragon questions sit at pos 17-27, but the
+    // generic cluster ("komodo and flores" 36, "komodo flores" 45.7, "flores
+    // komodo" 42.5, "komodo to flores" 25, "bali flores komodo" 40) never got the
+    // destination name first, and since 2026-10-21 the dragon intent has its own
+    // article (5-days-komodo-dragons-rinca-wae-wuul-flores). Old values, to undo:
+    //   h1: "Komodo Dragons and Flores"
+    //   metaTitle: "Komodo Dragons on Flores: Where to See Them, Day by Day"
+    //   metaDescription: "Komodo dragons live on Komodo, Rinca and parts of Flores. Where to see them from Labuan Bajo, plus day-by-day Komodo and Flores itineraries."
+    h1: "Komodo and Flores: the Dragons, the Boats and the Road East",
+    metaTitle: "Komodo and Flores Travel Guide: Dragons, Boats and Routes",
     metaDescription:
-      "Komodo dragons live on Komodo, Rinca and parts of Flores. Where to see them from Labuan Bajo, plus day-by-day Komodo and Flores itineraries.",
+      "Plan Komodo and Flores: where the dragons live, how many days you need, flights from Bali, park fees and day-by-day routes from Labuan Bajo.",
     intro:
       "Komodo National Park and Flores offer some of Indonesia's most cinematic landscapes, Padar Island, Pink Beach, and the dragons themselves. Our itineraries cover liveaboards, day boats from Labuan Bajo, and overland routes inland.",
     highlights: ["Padar Island", "Komodo dragons", "Pink Beach", "Kelimutu lakes"],
@@ -928,6 +938,50 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
           before: "For what fills the days either side of the boat trip, see ",
           href: "/destinations/komodo-flores/things-to-do-in-labuan-bajo",
           anchor: "what there is to do in Labuan Bajo",
+          after: ".",
+        },
+      },
+      // PARTE 3 of docs/reinforce-komodo-flores-2026-10-26.md, applied 2026-10-26:
+      // the generic "komodo and flores" cluster asks how the two fit together,
+      // and no section on the hub said so. Comparison table on purpose.
+      {
+        heading: "Komodo or Flores: what is the difference, and do you need both?",
+        body: [
+          "Komodo is a national park of islands off the western tip of Flores, seen by boat from Labuan Bajo, and it is where the dragons, Padar and the diving are. Flores is the long island behind it: volcanoes, the Kelimutu crater lakes and traditional villages, crossed by road over a week or more. Most first trips need only Komodo.",
+          "The two get written as one destination because they share a gateway. Every boat into the park leaves from Labuan Bajo, which is on Flores, so a Komodo trip technically is a Flores trip. But the experiences barely overlap: the park is three to five days on the water, overland Flores is a separate journey east with long mountain drives, and trying to squeeze both into a week does neither well.",
+        ],
+        table: {
+          columns: ["", "Komodo National Park", "Overland Flores"],
+          rows: [
+            [
+              "What you see",
+              "Dragons on Rinca and Komodo, Padar viewpoint, Pink Beach, snorkelling and diving",
+              "Kelimutu crater lakes, Bajawa and Wae Rebo villages, rice terraces, volcanoes",
+            ],
+            [
+              "How you travel",
+              "Day boats or liveaboards from Labuan Bajo",
+              "Car and driver, west to east, a new town most nights",
+            ],
+            ["Days you need", "Three to five", "Seven to ten, on top of any park days"],
+            [
+              "Getting out",
+              "Fly back from Labuan Bajo",
+              "Fly out of Ende or Maumere at the eastern end",
+            ],
+            [
+              "Pick it if",
+              "You have a week or less, or the dragons and the sea are the point",
+              "You have already seen the park, or you want culture and landscape over beaches",
+            ],
+          ],
+          caption:
+            "Day counts are working estimates. Drives across Flores commonly take three to five hours between stops on winding mountain roads.",
+        },
+        link: {
+          before: "For the shortest trip built around the dragons themselves, see our ",
+          href: "/trips/5-days-komodo-dragons-rinca-wae-wuul-flores",
+          anchor: "5-day Komodo dragons itinerary",
           after: ".",
         },
       },
@@ -1008,6 +1062,20 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
           before: "If the overland stretch tempts you, start with ",
           href: "/destinations/komodo-flores/kelimutu-guide",
           anchor: "the Kelimutu crater lakes",
+          after: ".",
+        },
+      },
+      // PARTE 3, 2026-10-26: answers "bali flores komodo" and "komodo to flores".
+      {
+        heading: "How do you get to Komodo and Flores from Bali?",
+        body: [
+          "Fly. Labuan Bajo, on the western tip of Flores and the departure point for every Komodo boat, is about an hour by air from Bali, with many daily flights on the route. Overland and ferry connections across Lombok and Sumbawa exist, but they take days, so almost everyone flies in and starts the park from Labuan Bajo.",
+          "The slower alternative is a multi-day boat trip from Lombok that ends in Labuan Bajo, sleeping on deck and stopping at islands on the way. It suits travellers with time and a tolerance for basic cabins, not anyone on a tight schedule. Whichever way you arrive, plan the return around flights, because if you continue overland across Flores you leave from Ende or Maumere instead of flying back from Labuan Bajo.",
+        ],
+        link: {
+          before: "Flight times, airlines and the airport transfer are in our ",
+          href: "/transport/bali-to-labuan-bajo",
+          anchor: "Bali to Labuan Bajo transport guide",
           after: ".",
         },
       },
