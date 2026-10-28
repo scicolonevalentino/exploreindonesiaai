@@ -1797,5 +1797,13 @@
       "question": "Is Raja Ampat worth it for a short trip?",
       "answer": "It is worth it if you can fly overnight to Sorong and accept a fixed plan with no slack. If your schedule cannot absorb a cancelled ferry, wait for a seven-day window instead."
     }
-  ]
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": "The karst islets and lagoons of Piaynemo in Raja Ampat seen from the viewpoint",
+    "asset": {
+      "_type": "reference",
+      "_ref": "image-0132ed33708a829a590ce95bc68844651a4e982b-3144x2096-webp"
+    }
+  }
 }

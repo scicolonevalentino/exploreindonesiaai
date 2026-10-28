@@ -1,16 +1,22 @@
 # Link Health Report
 
-_Generated 2026-09-21T05:11:30.692Z · 69 articles · 1285 links checked_
+_Generated 2026-10-26T05:09:44.649Z · 82 articles · 1586 links checked_
 
 | Errors | Warnings | Healthy |
 |---:|---:|---:|
-| 0 | 243 | 1042 |
+| 1 | 275 | 1310 |
 
-## Broken links (true HTTP errors) (0)
+## Broken links (true HTTP errors) (1)
 
 _Status codes that are NOT bot-protection (4xx/5xx from non-partner hosts or 5xx anywhere). These should be fixed before publishing._
 
-✓ None
+#### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
+**Flags:** `http-err`  
+**Source:** body.affiliateLinkRef (block `fde8bb1acb92`) · klook
+
+- **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F)
+- **Error:** This operation was aborted
+
 
 ## Missing affiliate tracking params (0)
 
@@ -30,7 +36,7 @@ _Link is published as one brand but redirects to a different domain. Usually mea
 
 ✓ None
 
-## Partner bot-shield 403 / 429 (informational) (243)
+## Partner bot-shield 403 / 429 (informational) (275)
 
 _Klook and Viator block headless requests at the edge. The redirect chain and affiliate params are intact — these are NOT broken for real visitors. Listed for transparency only._
 
@@ -249,10 +255,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"Balinese cooking class in Ubud"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040643-123067-1292155-c153b74](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040643-123067-1292155-c153b74)
+- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922735-123067-1292155-94d5400](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922735-123067-1292155-94d5400)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225040643-123067-1292155-c153b74`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248922735-123067-1292155-94d5400`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -260,10 +266,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"private airport transfer from Bali to Ubud"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F)
-- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041012-123067-1292153-37b8e93&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225041012-123067-1292153-37b8e93](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041012-123067-1292153-37b8e93&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225041012-123067-1292153-37b8e93)
+- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922028-123067-1292153-c8ce554&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248922028-123067-1292153-c8ce554](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922028-123067-1292153-c8ce554&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248922028-123067-1292153-c8ce554)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225041012-123067-1292153-37b8e93`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041012-123067-1292153-37b8e93`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248922028-123067-1292153-c8ce554`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922028-123067-1292153-c8ce554`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -271,10 +277,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"Mount Batur sunrise jeep experience"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F)
-- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040837-123067-1292154-674a27a](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040837-123067-1292154-674a27a)
+- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248923846-123067-1292154-921e3e3](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248923846-123067-1292154-921e3e3)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225040837-123067-1292154-674a27a`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248923846-123067-1292154-921e3e3`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -282,10 +288,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"private transfer Ubud to Uluwatu"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040949-123067-1292156-67ae6f5](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225040949-123067-1292156-67ae6f5)
+- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922373-123067-1292156-bcd6c29](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248922373-123067-1292156-bcd6c29)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225040949-123067-1292156-67ae6f5`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248922373-123067-1292156-bcd6c29`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -325,10 +331,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"beginner surf lesson at Selong Belanak"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041520-123067-1292198-59a938c](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041520-123067-1292198-59a938c)
+- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248923564-123067-1292198-0e9f859](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248923564-123067-1292198-0e9f859)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225041520-123067-1292198-59a938c`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248923564-123067-1292198-0e9f859`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -344,10 +350,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"fast boat from Lombok to Gili Trawangan"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041760-123067-1292210-20fcfc9](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225041760-123067-1292210-20fcfc9)
+- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924467-123067-1292210-e369d9e](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924467-123067-1292210-e369d9e)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225041760-123067-1292210-20fcfc9`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248924467-123067-1292210-e369d9e`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -355,20 +361,20 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"3-island Gili snorkeling tour with turtles"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F)
-- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042010-123067-1292208-92b221c](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042010-123067-1292208-92b221c)
+- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924000-123067-1292208-0d3bf8f](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924000-123067-1292208-0d3bf8f)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
 - **Params removed:** `k_site=https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225042010-123067-1292208-92b221c`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248924000-123067-1292208-0d3bf8f`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `24bf2f4db31a`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F)
-- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042262-123067-1292153-bd1ffef&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225042262-123067-1292153-bd1ffef](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042262-123067-1292153-bd1ffef&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225042262-123067-1292153-bd1ffef)
+- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924288-123067-1292153-b794710&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248924288-123067-1292153-b794710&pid=internal](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924288-123067-1292153-b794710&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248924288-123067-1292153-b794710&pid=internal)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225042262-123067-1292153-bd1ffef`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042262-123067-1292153-bd1ffef`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248924288-123067-1292153-b794710`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924288-123067-1292153-b794710`, `pid=internal`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -382,20 +388,20 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `c510ed3d8cdc`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F)
-- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042310-123067-1292154-6b8cb5b](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042310-123067-1292154-6b8cb5b)
+- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924926-123067-1292154-ec5f77f](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248924926-123067-1292154-ec5f77f)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225042310-123067-1292154-6b8cb5b`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248924926-123067-1292154-ec5f77f`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `6a0659b17c3f`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042328-123067-1292155-aee516d](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042328-123067-1292155-aee516d)
+- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248925874-123067-1292155-e3f0947](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248925874-123067-1292155-e3f0947)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225042328-123067-1292155-aee516d`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248925874-123067-1292155-e3f0947`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -403,16 +409,6 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip](https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip)
 - **Final (403):** [https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip](https://www.viator.com/tours/Nusa-Dua/Private-Tour-Nusa-Penida-One-Day-Trip-with-All-inclusive/d22287-60357P25?pid=P00303362&mcid=42383&medium=link&campaign=PrivateNusaPenidaDayTrip)
-
-#### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
-**Flags:** `bot-shield-403`  
-**Source:** body.affiliateLinkRef (block `fde8bb1acb92`) · klook
-
-- **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042721-123067-1292156-34de7cb](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225042721-123067-1292156-34de7cb)
-- ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
-- **Params removed:** `k_site=https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225042721-123067-1292156-34de7cb`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -447,10 +443,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `8897f21bd35c`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043295-123067-1292198-650b14a](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043295-123067-1292198-650b14a)
+- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248926635-123067-1292198-e6293bd](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248926635-123067-1292198-e6293bd)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225043295-123067-1292198-650b14a`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248926635-123067-1292198-e6293bd`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
@@ -464,20 +460,20 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `5da383cccf36`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043488-123067-1292210-5746397](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043488-123067-1292210-5746397)
+- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248927038-123067-1292210-bebcd4f](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248927038-123067-1292210-bebcd4f)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225043488-123067-1292210-5746397`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248927038-123067-1292210-bebcd4f`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate-v1-archived`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `73ae6462701c`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F)
-- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043903-123067-1292208-5885b5b](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225043903-123067-1292208-5885b5b)
+- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248928404-123067-1292208-661c1bd](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248928404-123067-1292208-661c1bd)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
 - **Params removed:** `k_site=https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225043903-123067-1292208-5885b5b`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248928404-123067-1292208-661c1bd`
 
 #### 14 Days in Indonesia: Bali, Java and Komodo — `14-days-indonesia-bali-java-komodo`
 **Flags:** `bot-shield-403`  
@@ -914,6 +910,36 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 - **From:** [https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu](https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu)
 - **Final (403):** [https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu](https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=KecakfiredanceUluwatu)
 
+#### 10 Days in Indonesia: Bali, Yogyakarta and Komodo — `10-days-indonesia-bali-yogyakarta-komodo`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"Ubud tour covering Monkey Forest, rice terraces and a waterfall"_
+
+- **From:** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
+- **Final (403):** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
+
+#### 10 Days in Indonesia: Bali, Yogyakarta and Komodo — `10-days-indonesia-bali-yogyakarta-komodo`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"a guided Borobudur and Prambanan day tour"_
+
+- **From:** [https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan](https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan)
+- **Final (403):** [https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan](https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan)
+
+#### 10 Days in Indonesia: Bali, Yogyakarta and Komodo — `10-days-indonesia-bali-yogyakarta-komodo`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `g074`) · viator
+
+- **From:** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
+- **Final (403):** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
+
+#### 10 Days in Indonesia: Bali, Yogyakarta and Komodo — `10-days-indonesia-bali-yogyakarta-komodo`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `g108`) · viator
+
+- **From:** [https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan](https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan)
+- **Final (403):** [https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan](https://www.viator.com/tours/Yogyakarta/Borobudur-and-Prambanan-Temple-Tour-from-Yogyakarta/d22560-105712P12?pid=P00303362&mcid=42383&medium=link&campaign=Java10DayBorobudurPrambanan)
+
 #### 10 Days in Java: Jakarta, Bandung, Yogyakarta and Mount Bromo by Train — `10-days-java-jakarta-bandung-yogyakarta-bromo`
 **Flags:** `bot-shield-403`  
 **Source:** affiliateLinks · viator  
@@ -1101,10 +1127,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"Balinese cooking class in Ubud"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061876-123067-1292155-75fa176](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061876-123067-1292155-75fa176)
+- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248945860-123067-1292155-7fa3954](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248945860-123067-1292155-7fa3954)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225061876-123067-1292155-75fa176`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248945860-123067-1292155-7fa3954`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1112,10 +1138,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"private airport transfer from Bali to Ubud"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F)
-- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062164-123067-1292153-d44c12c&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225062164-123067-1292153-d44c12c&pid=internal](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062164-123067-1292153-d44c12c&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225062164-123067-1292153-d44c12c&pid=internal)
+- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248945636-123067-1292153-d85ab57&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248945636-123067-1292153-d85ab57](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248945636-123067-1292153-d85ab57&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248945636-123067-1292153-d85ab57)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225062164-123067-1292153-d44c12c`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062164-123067-1292153-d44c12c`, `pid=internal`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248945636-123067-1292153-d85ab57`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248945636-123067-1292153-d85ab57`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1123,10 +1149,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"Mount Batur sunrise jeep experience"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F)
-- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061942-123067-1292154-8b46dae](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061942-123067-1292154-8b46dae)
+- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951407-123067-1292154-b0caec2](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951407-123067-1292154-b0caec2)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225061942-123067-1292154-8b46dae`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248951407-123067-1292154-b0caec2`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1134,10 +1160,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"private transfer Ubud to Uluwatu"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061981-123067-1292156-f5dbd02](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225061981-123067-1292156-f5dbd02)
+- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248946024-123067-1292156-5168124](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248946024-123067-1292156-5168124)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225061981-123067-1292156-f5dbd02`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248946024-123067-1292156-5168124`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1177,10 +1203,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"beginner surf lesson at Selong Belanak"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062890-123067-1292198-9c90940](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062890-123067-1292198-9c90940)
+- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947188-123067-1292198-1fb1817](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947188-123067-1292198-1fb1817)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225062890-123067-1292198-9c90940`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248947188-123067-1292198-1fb1817`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1196,10 +1222,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"fast boat from Lombok to Gili Trawangan"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062887-123067-1292210-0f0bf16](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225062887-123067-1292210-0f0bf16)
+- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947162-123067-1292210-6b1b480](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947162-123067-1292210-6b1b480)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225062887-123067-1292210-0f0bf16`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248947162-123067-1292210-6b1b480`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1207,20 +1233,20 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Anchor:** _"3-island Gili snorkeling tour with turtles"_
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F)
-- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063058-123067-1292208-6ea43c9](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063058-123067-1292208-6ea43c9)
+- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947974-123067-1292208-873f1d1](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248947974-123067-1292208-873f1d1)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
 - **Params removed:** `k_site=https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225063058-123067-1292208-6ea43c9`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248947974-123067-1292208-873f1d1`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `k29`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F)
-- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063928-123067-1292153-2f6ee3c&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225063928-123067-1292153-2f6ee3c](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063928-123067-1292153-2f6ee3c&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225063928-123067-1292153-2f6ee3c)
+- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248948678-123067-1292153-20a375c&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248948678-123067-1292153-20a375c&pid=internal](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248948678-123067-1292153-20a375c&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248948678-123067-1292153-20a375c&pid=internal)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225063928-123067-1292153-2f6ee3c`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063928-123067-1292153-2f6ee3c`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248948678-123067-1292153-20a375c`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248948678-123067-1292153-20a375c`, `pid=internal`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1234,20 +1260,20 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `k2x`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F)
-- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063702-123067-1292154-3d8b173](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063702-123067-1292154-3d8b173)
+- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248949480-123067-1292154-3e1c890](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248949480-123067-1292154-3e1c890)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225063702-123067-1292154-3d8b173`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248949480-123067-1292154-3e1c890`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `k39`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292155&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063751-123067-1292155-1a6483e](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063751-123067-1292155-1a6483e)
+- **Final (403):** [https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248949539-123067-1292155-9da4653](https://www.klook.com/activity/17260-cooking-class-ubud-bali/?aid=123067&aff_adid=1292155&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248949539-123067-1292155-9da4653)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/17260-cooking-class-ubud-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225063751-123067-1292155-1a6483e`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248949539-123067-1292155-9da4653`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1261,10 +1287,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `k41`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292156&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F22924-private-city-transfer-ubud-gianyar-bali%2F)
-- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063918-123067-1292156-13b8503](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225063918-123067-1292156-13b8503)
+- **Final (403):** [https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951480-123067-1292156-f5427eb](https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/?aid=123067&aff_adid=1292156&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951480-123067-1292156-f5427eb)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
 - **Params removed:** `k_site=https://www.klook.com/activity/22924-private-city-transfer-ubud-gianyar-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225063918-123067-1292156-13b8503`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248951480-123067-1292156-f5427eb`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1292,10 +1318,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `k76`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292198&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F101512-surfing-lesson-in-selong-belanak-beach-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064285-123067-1292198-76bcdf5](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064285-123067-1292198-76bcdf5)
+- **Final (403):** [https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951392-123067-1292198-7e601e2](https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/?aid=123067&aff_adid=1292198&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248951392-123067-1292198-7e601e2)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/101512-surfing-lesson-in-selong-belanak-beach-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225064285-123067-1292198-76bcdf5`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248951392-123067-1292198-7e601e2`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1316,40 +1342,40 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `k7u`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292210&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F57635-fast-boat-ticket-bali-gili-islands-lombok%2F)
-- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064444-123067-1292210-6b17f1d](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064444-123067-1292210-6b17f1d)
+- **Final (403):** [https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952007-123067-1292210-d456b73](https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/?aid=123067&aff_adid=1292210&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952007-123067-1292210-d456b73)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
 - **Params removed:** `k_site=https://www.klook.com/activity/57635-fast-boat-ticket-bali-gili-islands-lombok/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225064444-123067-1292210-6b17f1d`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248952007-123067-1292210-d456b73`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `k86`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F)
-- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064479-123067-1292208-fff9c45](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064479-123067-1292208-fff9c45)
+- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952587-123067-1292208-112062f](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952587-123067-1292208-112062f)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
 - **Params removed:** `k_site=https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225064479-123067-1292208-fff9c45`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248952587-123067-1292208-112062f`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `kb6`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292153&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F)
-- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225065002-123067-1292153-34e78b0&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225065002-123067-1292153-34e78b0&pid=internal](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225065002-123067-1292153-34e78b0&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D141225065002-123067-1292153-34e78b0&pid=internal)
+- **Final (403):** [https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952214-123067-1292153-f113c00&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248952214-123067-1292153-f113c00](https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952214-123067-1292153-f113c00&pid=internal&af_dp=klook%3A%2F%2Fairport-transfers%3Faid%3D123067%26aff_adid%3D1292153%26aff_pid%3D%26aff_sid%3D%26utm_medium%3Daffiliate-alwayson%26utm_source%3Dnon-network%26utm_campaign%3D123067%26utm_term%3D%26utm_content%3D%26aff_klick_id%3D144248952214-123067-1292153-f113c00)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225065002-123067-1292153-34e78b0`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225065002-123067-1292153-34e78b0`, `pid=internal`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248952214-123067-1292153-f113c00`, `pid=internal`, `af_dp=klook://airport-transfers?aid=123067&aff_adid=1292153&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248952214-123067-1292153-f113c00`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
 **Source:** body.affiliateLinkRef (block `kbn`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292154&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F)
-- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064875-123067-1292154-6493390](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064875-123067-1292154-6493390)
+- **Final (403):** [https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248953364-123067-1292154-bda301f](https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/?aid=123067&aff_adid=1292154&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248953364-123067-1292154-bda301f)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
 - **Params removed:** `k_site=https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225064875-123067-1292154-6493390`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248953364-123067-1292154-bda301f`
 
 #### 30 Days in Indonesia: The Ultimate Itinerary — `30-days-indonesia-ultimate`
 **Flags:** `bot-shield-403`  
@@ -1370,10 +1396,10 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 **Source:** body.affiliateLinkRef (block `kbn`) · klook
 
 - **From:** [https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F](https://affiliate.klook.com/redirect?aid=123067&aff_adid=1292208&k_site=https%3A%2F%2Fwww.klook.com%2Factivity%2F139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan%2F)
-- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064968-123067-1292208-4191b75](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=141225064968-123067-1292208-4191b75)
+- **Final (403):** [https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248953750-123067-1292208-9bd7de2](https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/?aid=123067&aff_adid=1292208&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=123067&utm_term=&utm_content=&aff_klick_id=144248953750-123067-1292208-9bd7de2)
 - ⚠ Path changed: `https://affiliate.klook.com/redirect` → `https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
 - **Params removed:** `k_site=https://www.klook.com/activity/139720-sharing-snorkeling-day-tour-to-3-gilis-from-gili-trawangan/`
-- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=141225064968-123067-1292208-4191b75`
+- **Params added:** `aff_pid=`, `aff_sid=`, `utm_medium=affiliate-alwayson`, `utm_source=non-network`, `utm_campaign=123067`, `utm_term=`, `utm_content=`, `aff_klick_id=144248953750-123067-1292208-9bd7de2`
 
 #### Bromo and Ijen in 4 Days: Java's Volcano Crossing — `4-days-bromo-ijen-volcano-crossing`
 **Flags:** `bot-shield-403`  
@@ -1435,6 +1461,21 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 - **From:** [https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5?pid=P00303362&mcid=42383&medium=link&campaign=GiliIslandsStatuesTurtles](https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5?pid=P00303362&mcid=42383&medium=link&campaign=GiliIslandsStatuesTurtles)
 - **Final (403):** [https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5?pid=P00303362&mcid=42383&medium=link&campaign=GiliIslandsStatuesTurtles](https://www.viator.com/tours/Gili-Trawangan/Snorkeling-Explor-Three-Islands/d50505-359864P5?pid=P00303362&mcid=42383&medium=link&campaign=GiliIslandsStatuesTurtles)
 
+#### 4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas — `4-days-jakarta-old-batavia-thousand-islands`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"private Old Batavia heritage tour"_
+
+- **From:** [https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days](https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days)
+- **Final (403):** [https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days](https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days)
+
+#### 4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas — `4-days-jakarta-old-batavia-thousand-islands`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `jk-b64`) · viator
+
+- **From:** [https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days](https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days)
+- **Final (403):** [https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days](https://www.viator.com/tours/Jakarta/Hello-Jakarta/d4633-163186P2?pid=P00303362&mcid=42383&medium=link&campaign=jakarta-4-days)
+
 #### 5 Days in Borneo: Tanjung Puting Orangutan River Cruise — `5-days-borneo-orangutans-tanjung-puting`
 **Flags:** `bot-shield-403`  
 **Source:** affiliateLinks · viator  
@@ -1449,6 +1490,36 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28?pid=P00303362&mcid=42383&medium=link&campaign=TanjungPutingKlotokStandard](https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28?pid=P00303362&mcid=42383&medium=link&campaign=TanjungPutingKlotokStandard)
 - **Final (403):** [https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28?pid=P00303362&mcid=42383&medium=link&campaign=TanjungPutingKlotokStandard](https://www.viator.com/tours/Indonesia/3-Days-2-Nights-Tanjung-Puting-Klotok-Standard/d15-42459P28?pid=P00303362&mcid=42383&medium=link&campaign=TanjungPutingKlotokStandard)
+
+#### Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores — `5-days-komodo-dragons-rinca-wae-wuul-flores`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"private Komodo speedboat day"_
+
+- **From:** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+- **Final (403):** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+
+#### Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores — `5-days-komodo-dragons-rinca-wae-wuul-flores`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"private Rinca speedboat trip"_
+
+- **From:** [https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+- **Final (403):** [https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+
+#### Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores — `5-days-komodo-dragons-rinca-wae-wuul-flores`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `kd-b94`) · viator
+
+- **From:** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+- **Final (403):** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+
+#### Where to See Komodo Dragons: 5 Days on Komodo, Rinca and Flores — `5-days-komodo-dragons-rinca-wae-wuul-flores`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `kd-b117`) · viator
+
+- **From:** [https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
+- **Final (403):** [https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days](https://www.viator.com/tours/East-Nusa-Tenggara/Komodo-Private-Tour-3Days-2Nights-by-Semi-Phinisi-Boat/d23784-200061P9?pid=P00303362&mcid=42383&medium=link&campaign=komodo-dragons-5-days)
 
 #### 5 Days in Nusa Penida and Nusa Lembongan — `5-days-nusa-penida-lembongan`
 **Flags:** `bot-shield-403`  
@@ -1509,6 +1580,21 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=Yogyakarta5dayBromoSunrise](https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=Yogyakarta5dayBromoSunrise)
 - **Final (403):** [https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=Yogyakarta5dayBromoSunrise](https://www.viator.com/tours/Surabaya/Mount-Bromo-Sunrise-Trip-Depart-Midnight/d23060-102831P1?pid=P00303362&mcid=42383&medium=link&campaign=Yogyakarta5dayBromoSunrise)
+
+#### 6 Days in Central Java: Borobudur, the Dieng Plateau and Solo — `6-days-central-java-borobudur-dieng-solo`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"private Punthuk Setumbu sunrise and Borobudur tour"_
+
+- **From:** [https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days](https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days)
+- **Final (403):** [https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days](https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days)
+
+#### 6 Days in Central Java: Borobudur, the Dieng Plateau and Solo — `6-days-central-java-borobudur-dieng-solo`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `cj-b241`) · viator
+
+- **From:** [https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days](https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days)
+- **Final (403):** [https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days](https://www.viator.com/tours/Yogyakarta/Spectacular-Borobudur-Sunrise-from-Yogyakarta/d22560-105712P10?pid=P00303362&mcid=42383&medium=link&campaign=central-java-dieng-solo-6-days)
 
 #### 6 Days on Nusa Lembongan and Ceningan: A Honeymoon Route — `6-days-nusa-islands-honeymoon`
 **Flags:** `bot-shield-403`  
@@ -1600,6 +1686,51 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 - **From:** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
 - **Final (403):** [https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall](https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=UbudMonkeyForestRiceTerraceWaterfall)
 
+#### 7 Days in Bukit Lawang and Lake Toba: Orangutans, Then the Lake — `7-days-bukit-lawang-lake-toba-orangutans`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"full-day small-group jungle trek in Bukit Lawang"_
+
+- **From:** [https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+- **Final (403):** [https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+
+#### 7 Days in Bukit Lawang and Lake Toba: Orangutans, Then the Lake — `7-days-bukit-lawang-lake-toba-orangutans`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"two-day, one-night Bukit Lawang trek with river tubing"_
+
+- **From:** [https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+- **Final (403):** [https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+
+#### 7 Days in Bukit Lawang and Lake Toba: Orangutans, Then the Lake — `7-days-bukit-lawang-lake-toba-orangutans`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `bt-b80`) · viator
+
+- **From:** [https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+- **Final (403):** [https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Full-Day-Jungle-Trek-Bukit-Lawang-Tour/d4866-193061P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+
+#### 7 Days in Bukit Lawang and Lake Toba: Orangutans, Then the Lake — `7-days-bukit-lawang-lake-toba-orangutans`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `bt-b80`) · viator
+
+- **From:** [https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+- **Final (403):** [https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba](https://www.viator.com/tours/Medan/Wonderful-2Days-1Night-Bukit-Lawang-jungle-trekking-FREE-Rafting/d4866-426352P1?pid=P00303362&mcid=42383&medium=link&campaign=bukit-lawang-lake-toba)
+
+#### 7 Days in East Java with Kids: Malang, Batu and Mount Bromo by Day — `7-days-east-java-malang-batu-bromo-with-kids`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"private Bromo sunrise trip from Malang"_
+
+- **From:** [https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days](https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days)
+- **Final (403):** [https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days](https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days)
+
+#### 7 Days in East Java with Kids: Malang, Batu and Mount Bromo by Day — `7-days-east-java-malang-batu-bromo-with-kids`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `ej-b157`) · viator
+
+- **From:** [https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days](https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days)
+- **Final (403):** [https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days](https://www.viator.com/tours/Malang/Mount-Bromo-Sunrise-trip/d50503-364403P3?pid=P00303362&mcid=42383&medium=link&campaign=east-java-kids-7-days)
+
 #### 7 Days of Wildlife in East Java: Baluran, Alas Purwo and Sukamade — `7-days-east-java-wildlife-baluran-alas-purwo`
 **Flags:** `bot-shield-403`  
 **Source:** affiliateLinks · Viator  
@@ -1630,6 +1761,36 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 - **From:** [https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=EastJavaWildlife7DayIjen](https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=EastJavaWildlife7DayIjen)
 - **Final (403):** [https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=EastJavaWildlife7DayIjen](https://www.viator.com/tours/Banyuwangi/Ijen-Blue-Fire-Tours/d50506-27057P1?pid=P00303362&mcid=42383&medium=link&campaign=EastJavaWildlife7DayIjen)
 
+#### 7 Days in Flores: Wae Rebo and the Manggarai Highlands — `7-days-flores-wae-rebo-manggarai-highlands`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"A Wae Rebo overnight with private transfers"_
+
+- **From:** [https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+- **Final (403):** [https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+
+#### 7 Days in Flores: Wae Rebo and the Manggarai Highlands — `7-days-flores-wae-rebo-manggarai-highlands`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"A private fast-boat day in Komodo National Park"_
+
+- **From:** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+- **Final (403):** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+
+#### 7 Days in Flores: Wae Rebo and the Manggarai Highlands — `7-days-flores-wae-rebo-manggarai-highlands`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b134`) · Viator
+
+- **From:** [https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+- **Final (403):** [https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/East-Nusa-Tenggara/The-Wonderful-of-Waerebo-Village/d23784-163572P7?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+
+#### 7 Days in Flores: Wae Rebo and the Manggarai Highlands — `7-days-flores-wae-rebo-manggarai-highlands`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b177`) · Viator
+
+- **From:** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+- **Final (403):** [https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo](https://www.viator.com/tours/Labuan-Bajo/1-Day-Tour-Komodo-by-Fast-Boat-Private/d50484-200061P12?pid=P00303362&mcid=42383&medium=link&campaign=flores-wae-rebo)
+
 #### 7 Days Diving Komodo: A Dive-Led Labuan Bajo Itinerary — `7-days-komodo-diving`
 **Flags:** `bot-shield-403`  
 **Source:** affiliateLinks · viator  
@@ -1644,6 +1805,21 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3?pid=P00303362&mcid=42383&medium=link&campaign=komodo-diving](https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3?pid=P00303362&mcid=42383&medium=link&campaign=komodo-diving)
 - **Final (403):** [https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3?pid=P00303362&mcid=42383&medium=link&campaign=komodo-diving](https://www.viator.com/tours/Labuan-Bajo/Snorkelling-in-the-Komodo-National-Park-on-our-DIve-Boat/d50484-91087P3?pid=P00303362&mcid=42383&medium=link&campaign=komodo-diving)
+
+#### 7 Days Solo in Lombok and the Gili Islands: Kuta, Gili Air and Gili Trawangan — `7-days-lombok-gili-islands-solo-travellers`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · viator  
+**Anchor:** _"South Lombok beach tour"_
+
+- **From:** [https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour](https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour)
+- **Final (403):** [https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour](https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour)
+
+#### 7 Days Solo in Lombok and the Gili Islands: Kuta, Gili Air and Gili Trawangan — `7-days-lombok-gili-islands-solo-travellers`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `s086`) · viator
+
+- **From:** [https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour](https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour)
+- **Final (403):** [https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour](https://www.viator.com/tours/Lombok/oneday-trip-south-lombok/d22869-268230P1?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokbeachtour)
 
 #### 7 Days in Lombok: Mount Rinjani Trek and Gili Air Recovery — `7-days-lombok-rinjani-trek`
 **Flags:** `bot-shield-403`  
@@ -1704,6 +1880,43 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach](https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach)
 - **Final (403):** [https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach](https://www.viator.com/tours/Lombok/Day-Trip-Pink-Beach-Gili-Pasir-Gili-Petelu-etc-Boat-Trip-and-Snorkeling/d22869-223745P8?pid=P00303362&mcid=42383&medium=link&campaign=SouthLombokPinkBeach)
+
+#### 7 Days in South Sulawesi: Makassar, Rammang-Rammang and Toraja — `7-days-south-sulawesi-toraja-makassar`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"guided Rammang-Rammang day from Makassar"_
+
+- **From:** [https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+- **Final (403):** [https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+
+#### 7 Days in South Sulawesi: Makassar, Rammang-Rammang and Toraja — `7-days-south-sulawesi-toraja-makassar`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"four day Toraja cultural tour from Makassar"_
+
+- **From:** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+- **Final (403):** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+
+#### 7 Days in South Sulawesi: Makassar, Rammang-Rammang and Toraja — `7-days-south-sulawesi-toraja-makassar`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b11`) · Viator
+
+- **From:** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+- **Final (403):** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+
+#### 7 Days in South Sulawesi: Makassar, Rammang-Rammang and Toraja — `7-days-south-sulawesi-toraja-makassar`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b79`) · Viator
+
+- **From:** [https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+- **Final (403):** [https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/Tour-Karst-Rammang-rammang-South-Sulawesi/d50590-5606264P3?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+
+#### 7 Days in South Sulawesi: Makassar, Rammang-Rammang and Toraja — `7-days-south-sulawesi-toraja-makassar`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b176`) · Viator
+
+- **From:** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
+- **Final (403):** [https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi](https://www.viator.com/tours/Makassar/4-Days-Toraja-Cultural-Tour-from-Makassar-Tongkonan-Houses-to-Toraja-Funerals/d50590-92029P436?pid=P00303362&mcid=42383&medium=link&campaign=7-days-south-sulawesi)
 
 #### 8 Days in Java for a Honeymoon: Borobudur, the Countryside and One Bromo Sunrise — `8-days-java-honeymoon-borobudur-bromo`
 **Flags:** `bot-shield-403`  
@@ -1808,6 +2021,36 @@ _Klook and Viator block headless requests at the edge. The redirect chain and af
 
 - **From:** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon)
 - **Final (403):** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-honeymoon)
+
+#### 8 Days in North Sulawesi with Kids: Bunaken, Tarsiers and the Highlands — `8-days-north-sulawesi-with-kids-bunaken-tangkoko`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"A private Bunaken snorkelling day from Manado"_
+
+- **From:** [https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+- **Final (403):** [https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+
+#### 8 Days in North Sulawesi with Kids: Bunaken, Tarsiers and the Highlands — `8-days-north-sulawesi-with-kids-bunaken-tangkoko`
+**Flags:** `bot-shield-403`  
+**Source:** affiliateLinks · Viator  
+**Anchor:** _"A private Tangkoko day from Manado"_
+
+- **From:** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+- **Final (403):** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+
+#### 8 Days in North Sulawesi with Kids: Bunaken, Tarsiers and the Highlands — `8-days-north-sulawesi-with-kids-bunaken-tangkoko`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b118`) · Viator
+
+- **From:** [https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+- **Final (403):** [https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Bunaken-Island-three-point-snorkeling-includes-lunch-and-shuttle/d50663-235317P5?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+
+#### 8 Days in North Sulawesi with Kids: Bunaken, Tarsiers and the Highlands — `8-days-north-sulawesi-with-kids-bunaken-tangkoko`
+**Flags:** `bot-shield-403`  
+**Source:** body.affiliateLinkRef (block `b141`) · Viator
+
+- **From:** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
+- **Final (403):** [https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids](https://www.viator.com/tours/Manado/Sulawesi-Tangkoko-National-Park-Private-Tour/d50663-92029P497?pid=P00303362&mcid=42383&medium=link&campaign=north-sulawesi-kids)
 
 #### 8 Days in Sasak Lombok: Villages, Temples and the Inland North — `8-days-sasak-lombok-villages-temples`
 **Flags:** `bot-shield-403`  
