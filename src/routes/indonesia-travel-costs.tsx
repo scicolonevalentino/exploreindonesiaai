@@ -28,9 +28,16 @@ import { buildBookingLink } from "@/lib/booking";
 // Old value: "Is Indonesia Cheap? 2026 Daily Budgets and Trip Costs".
 // Read on 26 Oct (daily impressions above 400, today ~170) and 9 Nov (cost/budget
 // cluster above 250 per fortnight). If nothing moves, stop touching this title.
+//
+// 2026-10-29: the 16/10 revert covered the title only, so the description still
+// opened with "Yes," answering the question the title no longer asks. Restored the
+// pre-14/09 description too, so the pair is back to the old state and the 9 Nov
+// read measures one clean revert. Old value: "Yes, at $30 to $50 a day, until you
+// add island flights. The 2026 numbers for rooms, food and transport, and how
+// Indonesia really compares to Thailand."
 const TITLE = "Indonesia Travel Costs 2026: Daily Budget Breakdown";
 const DESCRIPTION =
-  "Yes, at $30 to $50 a day, until you add island flights. The 2026 numbers for rooms, food and transport, and how Indonesia really compares to Thailand.";
+  "Indonesia costs $30 to $50 a day on a budget, $70 to $100 mid-range, $150 to $250 in comfort. Full 2026 breakdown of rooms, food, transport and flights.";
 const URL = "https://exploreindonesia.ai/indonesia-travel-costs";
 
 const FAQS: Array<{ question: string; answer: string }> = [

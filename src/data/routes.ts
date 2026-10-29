@@ -1096,7 +1096,10 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
           "Parapat is not the final stop if you want Samosir. Add the 30 to 45 minute public ferry across to Tomok or Tuktuk.",
       },
     ],
-    relatedTripSlugs: ["15-days-sumatra"],
+    // 2026-10-29: the Bukit Lawang + Toba itinerary sat at "Discovered, not
+    // indexed" while "bukit lawang to lake toba" (12 impr, pos 25.8) was served by
+    // the generic Sumatra hub. This route page is the closest transactional page.
+    relatedTripSlugs: ["15-days-sumatra", "7-days-bukit-lawang-lake-toba-orangutans"],
     priority: 3,
     status: "live",
   },
