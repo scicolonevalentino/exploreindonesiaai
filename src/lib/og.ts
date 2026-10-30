@@ -31,6 +31,21 @@ export function ogImageUrl({ title, subtitle, image }: OgCardParams): string {
   return `${OG_ORIGIN}/og.jpg?${params.toString()}`;
 }
 
+/**
+ * og:image + twitter:image meta for a route's head(). Without it a page inherits
+ * the root default, a card carrying the site title and the site-wide description,
+ * so every share of /visa-guide or a transport route showed the same generic card.
+ */
+export function socialImageMeta(params: OgCardParams) {
+  const url = ogImageUrl(params);
+  return [
+    { property: "og:image", content: url },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
+    { name: "twitter:image", content: url },
+  ];
+}
+
 /** Homepage card: a faithful replica of the live hero (no params = hero copy). */
 export function ogHomeImageUrl(): string {
   return `${OG_ORIGIN}/og.jpg?v=${OG_TEMPLATE_VERSION}`;

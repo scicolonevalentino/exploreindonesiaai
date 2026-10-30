@@ -8,6 +8,7 @@ import { GUIDES_BY_SLUGS_QUERY, type SanityImage, type GuideListItem } from "@/l
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
 import { findDestinationByValue } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { socialImageMeta } from "@/lib/og";
 import { TwelveGoBanner } from "@/components/TwelveGoBanner";
 
 // Related itineraries that use this route, fetched server-side in the loader so
@@ -68,6 +69,7 @@ export const Route = createFileRoute("/transport/$route")({
         { property: "og:description", content: r.metaDescription },
         { property: "og:type", content: "article" },
         { property: "og:url", content: url },
+        ...socialImageMeta({ title: r.metaTitle, subtitle: r.metaDescription }),
       ],
       links: [{ rel: "canonical", href: url }],
     };

@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { socialImageMeta } from "@/lib/og";
 
 export const Route = createFileRoute("/terms")({
   head: () => ({
@@ -11,6 +12,7 @@ export const Route = createFileRoute("/terms")({
       },
       { property: "og:title", content: "Terms of Service, ExploreIndonesia.ai" },
       { property: "og:url", content: "https://exploreindonesia.ai/terms" },
+      ...socialImageMeta({ title: "Terms of Service" }),
     ],
     links: [{ rel: "canonical", href: "https://exploreindonesia.ai/terms" }],
   }),

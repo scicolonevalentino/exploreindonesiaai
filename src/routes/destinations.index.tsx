@@ -9,6 +9,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { JsonLd } from "@/components/JsonLd";
 import { DESTINATION_CONTENT } from "@/data/destinations";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { socialImageMeta } from "@/lib/og";
 
 const SITE = "https://exploreindonesia.ai";
 // 2026-10-16, weekly SEO audit of 28/09: the old title was lowercase and brand-led,
@@ -31,6 +32,7 @@ export const Route = createFileRoute("/destinations/")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
       { property: "og:url", content: `${SITE}/destinations` },
+      ...socialImageMeta({ title: TITLE, subtitle: DESCRIPTION }),
     ],
     links: [{ rel: "canonical", href: `${SITE}/destinations` }],
   }),

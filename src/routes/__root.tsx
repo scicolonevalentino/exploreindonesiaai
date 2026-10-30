@@ -28,23 +28,20 @@ const ORGANIZATION_JSONLD = {
   "@type": "Organization",
   name: "ExploreIndonesia.ai",
   url: "https://exploreindonesia.ai",
-  logo: "https://exploreindonesia.ai/favicon.ico",
+  // Google's logo guidelines want at least 112x112 in a raster web format; ICO is
+  // not one of them. This is the header mark (src/components/Logo.tsx), 128x128.
+  logo: "https://exploreindonesia.ai/komo-mascot.png",
   description:
     "AI-powered Indonesia trip planner with bookable itineraries for Bali, Java, Komodo, Raja Ampat and beyond.",
 };
+// No SearchAction: it pointed at /trips?q=, but /trips has no text search (its
+// validateSearch reads only the filter arrays), so the action promised a search
+// that returned the unfiltered list. Google also retired the sitelinks search box.
 const WEBSITE_JSONLD = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "ExploreIndonesia.ai",
   url: "https://exploreindonesia.ai",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: "https://exploreindonesia.ai/trips?q={search_term_string}",
-    },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const SITE_SETTINGS_QUERY_KEY = ["sanity", "siteSettings"] as const;

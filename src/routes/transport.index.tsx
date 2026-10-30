@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { JsonLd } from "@/components/JsonLd";
 import { TRANSPORT_ROUTES, type TransportRoute } from "@/data/routes";
+import { socialImageMeta } from "@/lib/og";
 
 // Built routes only (live + draft). "todo" backlog rows are not listed.
 const LISTED = TRANSPORT_ROUTES.filter((r) => r.status !== "todo");
@@ -79,6 +80,7 @@ export const Route = createFileRoute("/transport/")({
         { property: "og:description", content: description },
         { property: "og:type", content: "website" },
         { property: "og:url", content: url },
+        ...socialImageMeta({ title, subtitle: description }),
       ],
       links: [{ rel: "canonical", href: url }],
     };

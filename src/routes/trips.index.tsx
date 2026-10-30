@@ -17,6 +17,11 @@ import {
   type ArticleListItem,
 } from "@/lib/sanity-queries";
 import { DESTINATION_CONTENT } from "@/data/destinations";
+import { socialImageMeta } from "@/lib/og";
+
+const TRIPS_TITLE = "Indonesia Itineraries: 60+ Routes by Days, Style and Island";
+const TRIPS_DESCRIPTION =
+  "Every Indonesia itinerary we have, filterable by destination, trip length, travel style and traveller type. From 2-day escapes to 30-day routes.";
 
 type Search = {
   destinations?: string[];
@@ -85,12 +90,15 @@ export const Route = createFileRoute("/trips/")({
         //   DESC   "Browse hand-picked Indonesia itineraries. Filter by
         //           destination, trip length, travel style, traveller type, and vibe."
         // Read on 2026-10-12: /trips under position 40 and above 150 impressions.
-        { title: "Indonesia Itineraries: 60+ Routes by Days, Style and Island" },
-        {
-          name: "description",
-          content:
-            "Every Indonesia itinerary we have, filterable by destination, trip length, travel style and traveller type. From 2-day escapes to 30-day routes.",
-        },
+        { title: TRIPS_TITLE },
+        { name: "description", content: TRIPS_DESCRIPTION },
+        // 2026-10-30: the hub had no og:* of its own, so shares and crawlers got
+        // the root default ("ExploreIndonesia.ai" and the site-wide description).
+        { property: "og:title", content: TRIPS_TITLE },
+        { property: "og:description", content: TRIPS_DESCRIPTION },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: "https://exploreindonesia.ai/trips" },
+        ...socialImageMeta({ title: TRIPS_TITLE, subtitle: TRIPS_DESCRIPTION }),
       ],
       links: [
         ...preloads.map((href) => ({

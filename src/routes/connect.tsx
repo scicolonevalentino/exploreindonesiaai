@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { OpenAIIcon, ClaudeIcon } from "@/components/BrandIcons";
 import { setCdnCache } from "@/lib/cdn-cache";
 import { trackEvent } from "@/lib/analytics-events";
+import { socialImageMeta } from "@/lib/og";
 
 const MCP_URL = "https://exploreindonesia.ai/api/mcp";
 
@@ -49,6 +50,7 @@ export const Route = createFileRoute("/connect")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "website" },
       { property: "og:url", content: URL },
+      ...socialImageMeta({ title: TITLE, subtitle: DESCRIPTION }),
     ],
     links: [{ rel: "canonical", href: URL }],
   }),

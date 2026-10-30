@@ -38,6 +38,7 @@ import {
 import { findDestinationBySlug, type DestinationContent } from "@/data/destinations";
 import { findRouteBySlug, type TransportRoute } from "@/data/routes";
 import { setCdnCache } from "@/lib/cdn-cache";
+import { ogImageUrl } from "@/lib/og";
 
 const SITE = "https://exploreindonesia.ai";
 
@@ -95,9 +96,11 @@ export const Route = createFileRoute("/destinations/$destination_/$slug")({
     const url = `${SITE}/destinations/${dest.slug}/${guide.slug.current}`;
     const title = guide.metaTitle || guide.title;
     const description = guide.metaDescription;
+    // No hero: fall back to the generated card for this guide, not the root
+    // default (site title + site description) every hero-less guide used to share.
     const img = guide.heroImage?.asset
       ? urlFor(guide.heroImage).width(1200).height(630).fit("crop").auto("format").url()
-      : undefined;
+      : ogImageUrl({ title, subtitle: description || undefined });
     return {
       meta: [
         { title: guide.metaTitle || `${guide.title}, ExploreIndonesia.ai` },
@@ -107,11 +110,11 @@ export const Route = createFileRoute("/destinations/$destination_/$slug")({
         { property: "og:type", content: "article" },
         { property: "og:site_name", content: "ExploreIndonesia.ai" },
         { property: "og:url", content: url },
-        ...(img ? [{ property: "og:image", content: img }] : []),
-        { name: "twitter:card", content: img ? "summary_large_image" : "summary" },
+        { property: "og:image", content: img },
+        { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: title },
         ...(description ? [{ name: "twitter:description", content: description }] : []),
-        ...(img ? [{ name: "twitter:image", content: img }] : []),
+        { name: "twitter:image", content: img },
       ],
       links: [{ rel: "canonical", href: url }],
     };

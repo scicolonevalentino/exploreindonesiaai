@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { setCdnCache } from "@/lib/cdn-cache";
 import { PAGE_DATES, formatPageDate } from "@/data/page-dates";
 import { trackEvent } from "@/lib/analytics-events";
+import { ogImageUrl, socialImageMeta } from "@/lib/og";
 
 // The Airalo eSIM CTA reuses the same Travelpayouts smart link the trip builder
 // injects (env: AIRALO_AFFILIATE_LINK). One source of truth; if it is unset we
@@ -124,6 +125,7 @@ export const Route = createFileRoute("/visa-guide")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "article" },
       { property: "og:url", content: URL },
+      ...socialImageMeta({ title: TITLE, subtitle: DESCRIPTION }),
     ],
     links: [{ rel: "canonical", href: URL }],
   }),
@@ -248,6 +250,7 @@ function VisaGuidePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: TITLE,
+    image: ogImageUrl({ title: TITLE, subtitle: DESCRIPTION }),
     datePublished: "2026-05-20",
     dateModified: PAGE_DATES.visaGuide,
     author: { "@type": "Organization", name: "ExploreIndonesia.ai" },

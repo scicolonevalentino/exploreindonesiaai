@@ -6,6 +6,7 @@ import { setCdnCache } from "@/lib/cdn-cache";
 import { PAGE_DATES, formatPageDate } from "@/data/page-dates";
 import { trackAffiliateClick } from "@/lib/affiliate-tracking";
 import { buildBookingLink } from "@/lib/booking";
+import { ogImageUrl, socialImageMeta } from "@/lib/og";
 
 // Verdict on the 2026-08-14 snippet, read 2026-09-14 as planned: it did not work.
 // The page now takes 22,641 impressions at position 6.4 for 44 clicks, a 0.19% CTR,
@@ -93,6 +94,7 @@ export const Route = createFileRoute("/indonesia-travel-costs")({
       { property: "og:description", content: DESCRIPTION },
       { property: "og:type", content: "article" },
       { property: "og:url", content: URL },
+      ...socialImageMeta({ title: TITLE, subtitle: DESCRIPTION }),
     ],
     links: [{ rel: "canonical", href: URL }],
   }),
@@ -221,6 +223,7 @@ function TravelCostsPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: TITLE,
+    image: ogImageUrl({ title: TITLE, subtitle: DESCRIPTION }),
     datePublished: "2026-06-12",
     dateModified: PAGE_DATES.travelCosts,
     author: { "@type": "Organization", name: "ExploreIndonesia.ai" },
