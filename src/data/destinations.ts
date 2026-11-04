@@ -1099,10 +1099,18 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     value: "lombok_gili",
     name: "Lombok & Gili Islands",
     shortName: "Lombok & Gili",
-    h1: "Lombok and the Gili Islands, Planned Around the Boat",
-    metaTitle: "Lombok and the Gili Islands: Which Island, Which Boat",
+    // PARTE 1 of docs/reinforce-lombok-gili-2026-11-04.md, applied 2026-11-04.
+    // Re-read on 2026-12-02, not before. Baseline (GSC 2026-10-05..11-01, page
+    // level): 164 impressions, 1 click, position 28.2, down from 16.6 the window
+    // before. Top queries put Gili first: "gili islands lombok" 24 at 28.8,
+    // "gili islands to lombok" 24 at 23.0, "gili lombok" 6 at 60.5. Old values:
+    //   h1: "Lombok and the Gili Islands, Planned Around the Boat"
+    //   metaTitle: "Lombok and the Gili Islands: Which Island, Which Boat"
+    //   metaDescription: "Trawangan, Meno or Air, and how the boats from Bangsal and Kuta Lombok run. Crossing times, what a day trip costs you, and how long each leg needs."
+    h1: "The Gili Islands and Lombok, Planned Around the Boat",
+    metaTitle: "Gili Islands and Lombok: Which Island, Which Boat",
     metaDescription:
-      "Trawangan, Meno or Air, and how the boats from Bangsal and Kuta Lombok run. Crossing times, what a day trip costs you, and how long each leg needs.",
+      "Gili Trawangan, Meno or Air, how the Gilis sit off Lombok, and the Bangsal boats: crossing times, day-trip costs and how many days each needs.",
     intro:
       "Lombok is Bali's quieter cousin, empty surf, the Rinjani volcano trek, and the three Gilis just offshore. These itineraries balance adventure days with reef time.",
     highlights: ["Mount Rinjani", "Kuta Lombok surf", "Gili Trawangan", "Gili Meno"],
@@ -1117,6 +1125,46 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     // Gili one. The route pages have them apart: Gilis 1.5 to 2.5 hours, Lombok 2
     // to 3.5. Keep the two in sync if either changes.
     sections: [
+      {
+        // PARTE 3 of docs/reinforce-lombok-gili-2026-11-04.md, applied 2026-11-04.
+        // The top queries ("gili islands lombok", "gili lombok indonesia") ask
+        // where the Gilis are, and the SERP leads with Wikipedia and Wikivoyage
+        // answering exactly that. The hub never said it. Crossing times are the
+        // routes.ts values used elsewhere on this hub.
+        heading: "Are the Gili Islands part of Lombok?",
+        body: [
+          "Yes. Gili Trawangan, Gili Meno and Gili Air lie just off the northwest coast of Lombok and belong to North Lombok Regency, in West Nusa Tenggara province, not to Bali. The public boat from Bangsal harbour takes 15 to 30 minutes, though many visitors arrive by fast boat straight from Bali.",
+          "That decides how you plan. The Gilis have no airport, no cars and no motorbikes, so you get around on foot, by bicycle or by horse cart, and every arrival is by boat. Mainland Lombok is a different trip: a large island with its own airport, the Rinjani volcano, Sasak villages and the surf beaches around Kuta Lombok.",
+        ],
+        table: {
+          columns: ["", "The Gili Islands", "Mainland Lombok"],
+          rows: [
+            [
+              "Getting there",
+              "Boat only: 15 to 30 minutes from Bangsal, or 1.5 to 2.5 hours by fast boat from Bali",
+              "Lombok International Airport, or the fast boat or ferry from Bali",
+            ],
+            [
+              "Getting around",
+              "On foot, bicycle or horse cart; no motor vehicles",
+              "Car with driver or scooter; distances are real",
+            ],
+            [
+              "Best for",
+              "Snorkelling with turtles, diving courses, slow beach days",
+              "Rinjani, the south coast beaches and surf, Sasak villages",
+            ],
+            ["Typical stay in a 7-day trip", "Three nights on one island", "Three or four nights"],
+          ],
+          caption: "Crossing times are working estimates and move with sea conditions.",
+        },
+        link: {
+          before: "For the mainland's beaches and surf, see our ",
+          href: "/trips/7-days-south-lombok-kuta-beaches",
+          anchor: "7-day South Lombok and Kuta itinerary",
+          after: ".",
+        },
+      },
       {
         heading: "Which Gili island should you stay on?",
         body: [
