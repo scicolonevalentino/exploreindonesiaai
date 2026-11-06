@@ -1,9 +1,9 @@
 {
   "_createdAt": "2026-10-12T04:14:09Z",
   "_id": "itinerary-6-days-belitung-granite-beaches-island-hopping",
-  "_rev": "infT1bNDKJbVdCXG2UAigH",
+  "_rev": "PGboDYWtBTu3njFleoe35Z",
   "_type": "article",
-  "_updatedAt": "2026-10-12T04:14:59Z",
+  "_updatedAt": "2026-11-06T04:16:59Z",
   "affiliateLinks": [
     {
       "_key": "bl-aff0",
@@ -307,6 +307,92 @@
           "_type": "span",
           "marks": [],
           "text": "This route uses six days because the island-hopping day depends on the sea, and a calm morning is the one thing you cannot schedule. With a spare day, a cancelled boat costs you nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl6-b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl6-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "What does a 3-day or 4-day Belitung itinerary look like?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl6-b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl6-s3",
+          "_type": "span",
+          "marks": [],
+          "text": "A 3-day Belitung itinerary fits the island-hopping day to Lengkuas and an afternoon at Tanjung Tinggi, with two nights on the north coast. Four days adds a spare day for the sea, or East Belitung. Both work only if you fly in on the earliest Jakarta flight and treat any cancelled boat as lost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl6-t5",
+      "_type": "comparisonTable",
+      "caption": "Belitung in 3, 4 or 6 days, using the days of this itinerary. Times are working estimates.",
+      "columns": [
+        "Length",
+        "Nights",
+        "Days to keep",
+        "What you drop",
+        "Who it suits"
+      ],
+      "rows": [
+        {
+          "_key": "bl6-r6",
+          "cells": [
+            "3 days",
+            "2 on the north coast",
+            "Day 1 north coast, Day 2 island hopping, Tanjung Tinggi on the morning you fly out",
+            "East Belitung, Danau Kaolin and any weather buffer",
+            "A long weekend from Jakarta, adults"
+          ]
+        },
+        {
+          "_key": "bl6-r7",
+          "cells": [
+            "4 days",
+            "3 on the north coast",
+            "Days 1 to 3, then Danau Kaolin on the way to the airport",
+            "East Belitung and the night in Tanjung Pandan",
+            "Couples or families who want one spare day"
+          ]
+        },
+        {
+          "_key": "bl6-r8",
+          "cells": [
+            "6 days",
+            "4 on the north coast, 1 in Tanjung Pandan",
+            "All six days as written",
+            "Nothing",
+            "Families, and anyone who wants the boat day to be safe"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bl6-b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl6-s9",
+          "_type": "span",
+          "marks": [],
+          "text": "The short versions keep the same order, because the island-hopping day is the reason to come and the north coast is where the boats leave. What disappears first is the weather buffer: with three days, a windy morning means no Lengkuas at all. If your dates are fixed and short, book the earliest flight in, ask your hotel to hold a boat for the first calm morning, and keep East Belitung for a return visit."
         }
       ],
       "markDefs": [],
@@ -1583,6 +1669,76 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "bl6-b15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl6-s11",
+          "_type": "span",
+          "marks": [],
+          "text": "7 days in the Kei Islands, via Ambon, for a much emptier beach week far from Jakarta: "
+        },
+        {
+          "_key": "bl6-s13",
+          "_type": "span",
+          "marks": [
+            "bl6-m12"
+          ],
+          "text": "our Kei Islands itinerary"
+        },
+        {
+          "_key": "bl6-s14",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl6-m12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-kei-islands-maluku-beaches"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl6-b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl6-s16",
+          "_type": "span",
+          "marks": [],
+          "text": "6 days in Tanjung Bira for white sand and phinisi boatyards in South Sulawesi: "
+        },
+        {
+          "_key": "bl6-s18",
+          "_type": "span",
+          "marks": [
+            "bl6-m17"
+          ],
+          "text": "the Tanjung Bira route"
+        },
+        {
+          "_key": "bl6-s19",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl6-m17",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-tanjung-bira-south-sulawesi-beaches"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
@@ -1628,12 +1784,17 @@
       "_key": "bl-f218",
       "answer": "In practice, yes. There are no regular buses for visitors and ride-hailing is limited, so most travellers hire a car with a driver through their hotel. Confirm the daily rate and fuel in writing before the first day.",
       "question": "Do you need a car in Belitung?"
+    },
+    {
+      "_key": "bl6-faq3d",
+      "answer": "Yes, if you accept the risk to the boat day. Fly in on the earliest Jakarta flight, spend the afternoon on the north coast, island hop to Lengkuas on day 2 and see Tanjung Tinggi before your flight on day 3. You give up East Belitung and any spare day if the sea is rough.",
+      "question": "Can you see Belitung in 3 days?"
     }
   ],
   "focusKeyword": "Belitung itinerary",
   "heroImage": {
     "_type": "image",
-    "alt": "6 Days in Belitung: Granite Beaches and Island Hopping from Jakarta — Pantai Tanjung Tinggi Belitung 01",
+    "alt": "6 Days in Belitung: Granite Beaches and Island Hopping from Jakarta, Pantai Tanjung Tinggi Belitung 01",
     "asset": {
       "_ref": "image-90b8bc2deab9ad06ef9426f296881c42067cb4c6-3840x2160-jpg",
       "_type": "reference"
@@ -1643,8 +1804,8 @@
   },
   "intro": "Belitung is the beach week most foreign visitors to Indonesia have never heard of, and most people in Jakarta know well. It is one hour from the capital by plane, it has calm water, granite boulders the size of houses and a handful of small islands you can reach in twenty minutes by boat. What it does not have is much to do after dark or any easy way to get around without a driver. This route accepts both, keeps you on one coast, and leaves the sea to choose your boat day.",
   "logisticsComplexity": "easy",
-  "metaDescription": "A relaxed 6-day Belitung itinerary from Jakarta: granite beaches, Lengkuas island hopping and a family pace, with flights, boat costs and when to go.",
-  "metaTitle": "Belitung Itinerary: 6 Days of Beaches and Islands",
+  "metaDescription": "A Belitung itinerary for 3, 4 or 6 days from Jakarta: granite beaches, Lengkuas island hopping and Danau Kaolin, with flights, boat costs and timing.",
+  "metaTitle": "Belitung Itinerary: 3, 4 or 6 Days from Jakarta",
   "primaryAffiliatePartner": "booking",
   "route": "Jakarta, Tanjung Pandan, Tanjung Kelayang, Lengkuas Island, Gantong, Manggar, Tanjung Pandan, Jakarta",
   "routeSummary": "Jakarta → Tanjung Kelayang → Lengkuas Island → East Belitung → Tanjung Pandan",
@@ -1652,6 +1813,7 @@
     "12go",
     "airalo"
   ],
+  "seoNote": "2026-11-06 generator run (PARTE 1+3). Baseline GSC 2026-10-07..11-03: 'belitung itinerary' 27 impr, pos 26.7, 0 clicks. Old metaTitle: 'Belitung Itinerary: 6 Days of Beaches and Islands'. Old metaDescription: 'A relaxed 6-day Belitung itinerary from Jakarta: granite beaches, Lengkuas island hopping and a family pace, with flights, boat costs and when to go.'. Added H2 'What does a 3-day or 4-day Belitung itinerary look like?' with table, a 3-day FAQ and two related links. Re-read 2026-12-04; do not retouch title/meta before then. Log: docs/reinforce-6-days-belitung-granite-beaches-island-hopping-2026-11-06.md",
   "slug": {
     "_type": "slug",
     "current": "6-days-belitung-granite-beaches-island-hopping"

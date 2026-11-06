@@ -1,9 +1,9 @@
 {
   "_createdAt": "2026-10-19T04:16:49Z",
   "_id": "itinerary-4-days-jakarta-old-batavia-thousand-islands",
-  "_rev": "SrGXuP6wxmHI2XEBW6MCPJ",
+  "_rev": "meGrS2nZYNqXn9hmHs0Zlk",
   "_type": "article",
-  "_updatedAt": "2026-10-19T04:17:43Z",
+  "_updatedAt": "2026-11-06T04:17:12Z",
   "affiliateLinks": [
     {
       "_key": "jk-aff0",
@@ -1531,6 +1531,41 @@
         }
       ],
       "style": "normal"
+    },
+    {
+      "_key": "bel-inb-1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bel-inb-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "If the Thousand Islands feel too close to the city, "
+        },
+        {
+          "_key": "bel-inb-s2",
+          "_type": "span",
+          "marks": [
+            "bel-inb-m"
+          ],
+          "text": "our Belitung itinerary for 3, 4 or 6 days"
+        },
+        {
+          "_key": "bel-inb-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " is one hour's flight from Jakarta, with granite beaches and an island-hopping day to the Lengkuas lighthouse."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bel-inb-m",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-belitung-granite-beaches-island-hopping"
+        }
+      ],
+      "style": "normal"
     }
   ],
   "contentStatus": "live",
@@ -1583,7 +1618,7 @@
   "focusKeyword": "4 days in Jakarta itinerary",
   "heroImage": {
     "_type": "image",
-    "alt": "4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas — Batavia City Hall (Jakarta History Museum) Fatahillah Square (2025) - img 17",
+    "alt": "4 Days in Jakarta: Old Batavia, the Thousand Islands and Monas, Batavia City Hall (Jakarta History Museum) Fatahillah Square (2025) - img 17",
     "asset": {
       "_ref": "image-5841ec7ad8e67049ce99fdd00ee11055b720575c-3840x2880-jpg",
       "_type": "reference"

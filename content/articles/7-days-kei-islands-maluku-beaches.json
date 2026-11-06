@@ -1,0 +1,2051 @@
+{
+  "_createdAt": "2026-11-06T04:14:18Z",
+  "_id": "itinerary-7-days-kei-islands-maluku-beaches",
+  "_rev": "P7G6QdZ7bYfveuhVJuRUMz",
+  "_type": "article",
+  "_updatedAt": "2026-11-06T04:14:53Z",
+  "affiliateLinks": [
+    {
+      "_key": "kei-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "kei-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/ambon?z=16022946",
+      "anchorText": "Jakarta to Ambon flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_AMBON",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/ambon"
+    },
+    {
+      "_key": "kei-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/makassar/ambon?z=16022946",
+      "anchorText": "Makassar to Ambon flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_MAKASSAR_AMBON",
+      "publicUrl": "https://12go.asia/en/travel/makassar/ambon"
+    },
+    {
+      "_key": "kei-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/ambon/langgur-airport?z=16022946",
+      "anchorText": "Ambon to Langgur flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_AMBON_LANGGUR",
+      "publicUrl": "https://12go.asia/en/travel/ambon/langgur-airport"
+    },
+    {
+      "_key": "kei-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/langgur-airport/ambon?z=16022946",
+      "anchorText": "Langgur to Ambon flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_LANGGUR_AMBON",
+      "publicUrl": "https://12go.asia/en/travel/langgur-airport/ambon"
+    },
+    {
+      "_key": "kei-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ambon%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "hotels in Ambon on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_AMBON",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ambon%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "kei-aff6",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Langgur%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Kei Islands stays on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_LANGGUR",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Langgur%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-06T04:14:16.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to October",
+  "body": [
+    {
+      "_key": "kei-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Are the Kei Islands worth the journey?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if what you want is long empty beaches and slow days more than sights. The Kei Islands in Southeast Maluku have powder-soft white sand, a sandbar that runs out into open sea and a karst lagoon on Bair, with almost no other foreign visitors. The price is two flights and at least one night in Ambon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "Kei sits far out in the Banda Sea, closer to Papua than to Bali, and it has never had a tourist industry to speak of. That is the whole appeal and the whole difficulty. There is no fast boat circuit, no beach club and very little English, and the flights from Ambon are few. What you get in return is a week where the beach in front of your room is three kilometres long and often has nobody on it. This plan gives Kei Kecil five nights, because anything shorter spends too much of the trip in airports."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is for couples and friends who have already done Bali or Lombok and want a beach week that feels far away, for travellers who are happy with simple guesthouses, and for anyone who likes swimming, snorkelling from the shore and reading in the shade more than a full daily programme."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for a first trip to Indonesia, for anyone on a tight schedule, or for travellers who need reliable Wi-Fi, varied restaurants and a dive shop on every corner. Flights to Langgur are few and get cancelled, so a missed connection can cost a day. If you want a quieter beach week that is easier to reach, look at "
+        },
+        {
+          "_key": "kei-s14",
+          "_type": "span",
+          "marks": [
+            "kei-m13"
+          ],
+          "text": "6 days in Belitung"
+        },
+        {
+          "_key": "kei-s15",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "kei-s17",
+          "_type": "span",
+          "marks": [
+            "kei-m16"
+          ],
+          "text": "Tanjung Bira in South Sulawesi"
+        },
+        {
+          "_key": "kei-s18",
+          "_type": "span",
+          "marks": [],
+          "text": " first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-belitung-granite-beaches-island-hopping"
+        },
+        {
+          "_key": "kei-m16",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-tanjung-bira-south-sulawesi-beaches"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s20",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "kei-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " 7 days, 6 nights: 1 in Ambon, 5 on Kei Kecil."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "kei-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " Ambon, a short flight to Langgur on Kei Kecil, a base on the west coast near Ngurbloat beach, boat days to the Ngurtavur sandbar and Bair island, Goa Hawang, an optional day on Kei Besar, then back to Ambon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "kei-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " relaxed. Two boat days and one road morning; the rest is beach time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "kei-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " couples, friends and repeat visitors to Indonesia."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "kei-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " most guides put the drier months at roughly May to September or October, though sources disagree by a month either way. Ask your guesthouse about sea conditions before you book boat days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "kei-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " moderate. Flights are the biggest cost; rooms, food and boats are cheap once you are there, but boats are priced per boat, so they cost more for two people than for six."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics:"
+        },
+        {
+          "_key": "kei-s41",
+          "_type": "span",
+          "marks": [],
+          "text": " complex for the distance, simple once you land. One regional flight each way and cash for nearly everything."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s43",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s45",
+          "_type": "span",
+          "marks": [],
+          "text": "The route is built around the one fragile link, the Ambon to Langgur flight. You overnight in Ambon on the way in so that a late or cancelled connection costs you an evening, not a beach day. You then stay in one place on Kei Kecil for five nights, because the main sights are all within an hour of the west coast and moving bases would only add packing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s47",
+          "_type": "span",
+          "marks": [],
+          "text": "The boat days come early in the stay, on Days 3 and 4, so that if the sea is too rough you still have days in hand to move them. The optional Kei Besar day sits after them for the same reason. On the way out you fly back to Ambon with time to connect, rather than trying to reach Jakarta or Bali the same afternoon on a tight transfer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s49",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get to the Kei Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s51",
+          "_type": "span",
+          "marks": [],
+          "text": "By air through Ambon. There are no direct flights from Jakarta or Bali to Langgur, the Kei airport, so most travellers fly to Ambon first and connect on a regional flight of about 1 hour 10 minutes. When we checked in November 2026, 12Go listed one or two Ambon to Langgur flights a day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s53",
+          "_type": "span",
+          "marks": [],
+          "text": "Ambon itself is easy to reach: 12Go listed 33 departures a day from Jakarta, the fastest about 3 hours 35 minutes, and a handful from Makassar at about 1 hour 40 minutes. The Langgur leg is the one to watch. Schedules on small regional routes change often, so confirm current flights before you book anything on Kei. Pelni ships also call at Tual, but only every week or two and the trip from Ambon takes roughly 18 to 24 hours, according to traveller guides, so it only works with time to spare."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-t54",
+      "_type": "comparisonTable",
+      "caption": "Getting to Kei Kecil: the realistic options, with working estimates",
+      "columns": [
+        "Leg",
+        "How",
+        "Time",
+        "When we checked",
+        "Watch out for"
+      ],
+      "rows": [
+        {
+          "_key": "kei-r55",
+          "cells": [
+            "Jakarta to Ambon",
+            "Flight",
+            "Fastest about 3h35",
+            "About 33 departures a day",
+            "Red-eye timings are common"
+          ]
+        },
+        {
+          "_key": "kei-r56",
+          "cells": [
+            "Makassar to Ambon",
+            "Flight",
+            "About 1h40",
+            "A few departures a day",
+            "Early-morning departures"
+          ]
+        },
+        {
+          "_key": "kei-r57",
+          "cells": [
+            "Ambon to Langgur",
+            "Flight",
+            "About 1h10",
+            "One or two a day",
+            "Delays and cancellations; book a buffer night"
+          ]
+        },
+        {
+          "_key": "kei-r58",
+          "cells": [
+            "Ambon to Tual",
+            "Pelni ship",
+            "About 18 to 24 hours",
+            "Every week or two",
+            "Schedules shift; cabins sell out"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "kei-b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s60",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Ambon"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s62",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s63",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly into Ambon. Compare "
+        },
+        {
+          "_key": "kei-s65",
+          "_type": "span",
+          "marks": [
+            "kei-m64"
+          ],
+          "text": "Jakarta to Ambon flights on 12Go"
+        },
+        {
+          "_key": "kei-s66",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "kei-s68",
+          "_type": "span",
+          "marks": [
+            "kei-m67"
+          ],
+          "text": "Makassar to Ambon flights on 12Go"
+        },
+        {
+          "_key": "kei-s69",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are coming from Sulawesi. Set up an "
+        },
+        {
+          "_key": "kei-s71",
+          "_type": "span",
+          "marks": [
+            "kei-m70"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "kei-s72",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave home; coverage on Kei is patchy away from Langgur and you will want maps for the first day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m64",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_AMBON"
+        },
+        {
+          "_key": "kei-m67",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_MAKASSAR_AMBON"
+        },
+        {
+          "_key": "kei-m70",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s75",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and rest. Ambon is a working city rather than a beach town, so treat today as a buffer, not a sightseeing day. If you arrive early, Natsepa beach east of the city is the usual afternoon outing, known for its rujak fruit salad stalls."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s78",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner in the city and an early night: the Langgur flight usually leaves in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s80",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "kei-s81",
+          "_type": "span",
+          "marks": [],
+          "text": " Ambon, 1 night. Compare "
+        },
+        {
+          "_key": "kei-s83",
+          "_type": "span",
+          "marks": [
+            "kei-m82"
+          ],
+          "text": "hotels in Ambon on Booking.com"
+        },
+        {
+          "_key": "kei-s84",
+          "_type": "span",
+          "marks": [],
+          "text": " and choose something with an easy run to Pattimura airport, which sits across the bay from the city."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m82",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_AMBON"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s87",
+          "_type": "span",
+          "marks": [],
+          "text": " book the Ambon to Langgur flight as a separate ticket only if you are happy to lose it; better, book it for the morning after you land, which is what this plan does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s90",
+          "_type": "span",
+          "marks": [],
+          "text": " withdraw enough cash in Ambon for the first days on Kei. There are ATMs in Langgur and Tual, but guesthouses, boats and warungs on Kei Kecil work in cash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s92",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Fly to Langgur and the first afternoon on Ngurbloat"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s95",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the regional flight from Ambon to Langgur, about 1 hour 10 minutes; compare "
+        },
+        {
+          "_key": "kei-s97",
+          "_type": "span",
+          "marks": [
+            "kei-m96"
+          ],
+          "text": "Ambon to Langgur flights on 12Go"
+        },
+        {
+          "_key": "kei-s98",
+          "_type": "span",
+          "marks": [],
+          "text": ". Langgur and Tual, the twin towns either side of a narrow strait, are where the airport, the market and the ATMs are."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m96",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_AMBON_LANGGUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s101",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive about 30 minutes to the west coast and check in near Ngurbloat, also called Pasir Panjang, the long beach that made Kei's name. Entry to the beach was Rp 10,000 per motorbike and Rp 20,000 per car in a 2025 report by Good News From Indonesia, the same rate Antara reported earlier. The sand here is famously fine, almost like flour, and the beach runs for several kilometres."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s103",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s104",
+          "_type": "span",
+          "marks": [],
+          "text": " Ngurbloat faces west, so the sunset is the reason to be on the sand at the end of the day. Eat at your guesthouse; there are very few restaurants on this stretch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b105",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "kei-s107",
+          "_type": "span",
+          "marks": [],
+          "text": " Kei Kecil west coast, 5 nights. Compare "
+        },
+        {
+          "_key": "kei-s109",
+          "_type": "span",
+          "marks": [
+            "kei-m108"
+          ],
+          "text": "Kei Islands stays on Booking.com"
+        },
+        {
+          "_key": "kei-s110",
+          "_type": "span",
+          "marks": [],
+          "text": ", but many of the best guesthouses near Ngurbloat and Ohoidertawun are booked by message rather than online."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m108",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_LANGGUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s113",
+          "_type": "span",
+          "marks": [],
+          "text": " ask your guesthouse to arrange the airport pickup and the two boat days when you book. They know the boatmen, the tide times and the current price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s115",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s116",
+          "_type": "span",
+          "marks": [],
+          "text": " the tide range on this coast is large. At low tide some beaches, Ohoidertawun especially, turn into wide flats, so check tide times before planning a swim."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s118",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Boat day to the Ngurtavur sandbar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s120",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s121",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave early for Ngurtavur, the narrow sandbar that curves out into the sea off Pulau Warbal, about 30 minutes by speedboat from Kei Kecil. Lonely Planet gives a charter price of about Rp 700,000 for a trip of roughly an hour and a half from Debut; treat that as a working estimate and agree the price before you get in the boat. Australian pelicans are sometimes seen on the sandbar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s123",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s124",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim and snorkel off the sandbar, then head back before the afternoon wind picks up. Many boatmen combine Ngurtavur with a stop at a nearby village or a second beach; ask what is included."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s126",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s127",
+          "_type": "span",
+          "marks": [],
+          "text": " Back on the west coast for sunset and an early dinner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s130",
+          "_type": "span",
+          "marks": [],
+          "text": " boats are priced per boat, not per person, so pair up with other guests at your guesthouse if you can. Bring water, a hat and reef-safe sunscreen; there is no shade on the sandbar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s133",
+          "_type": "span",
+          "marks": [],
+          "text": " Ngurtavur is at its best around low to mid tide, when the sandbar is long and exposed. Let your boatman pick the time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s135",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Bair island and the lagoon"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b136",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s137",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s138",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Dullah on the north of the island and take a boat to Bair, about 30 to 60 minutes depending on the boat and the sea. Bair is a karst island with a narrow inlet that opens into a calm green lagoon, often described as a small Raja Ampat, and it can only be reached by chartered boat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s140",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s141",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim in the lagoon and snorkel at its mouth, then return to the west coast. The water inside is sheltered even on days when the open sea is choppy, which makes this the safer of the two boat days when the wind is up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s143",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s144",
+          "_type": "span",
+          "marks": [],
+          "text": " A slow evening at your guesthouse. Grilled fish is the standard dinner on Kei, usually with rice and a sambal of lime and chilli."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s146",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s147",
+          "_type": "span",
+          "marks": [],
+          "text": " book the same boatman as Day 3 if he was good. A full day of boat hire on Kei is often quoted somewhere around Rp 1,000,000 to 1,500,000 in traveller guides, depending on distance and boat; confirm the current price locally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s149",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s150",
+          "_type": "span",
+          "marks": [],
+          "text": " if Day 3 was rained off, swap the order. Bair is the better choice on a windy day, Ngurtavur on a calm one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s152",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Goa Hawang and an easy afternoon"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s155",
+          "_type": "span",
+          "marks": [],
+          "text": " Go to Goa Hawang, a limestone cave with a clear blue freshwater pool inside, in the village of Letvuan, about 30 to 40 minutes by road from Langgur. It is small and you will not need more than an hour; the water is cold and swimming is usually allowed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s158",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to the beach. If you want to snorkel without a boat, fishermen at Ohoidertawun can take you out to the outer reef for a short trip at high tide; agree the price on the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s160",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s161",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask your guesthouse whether there is anything on in the nearby villages. Kei villages, called ohoi, still run much of daily life under their customary law, and visitors are welcome at church services and festivals if they dress modestly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s164",
+          "_type": "span",
+          "marks": [],
+          "text": " cave entry is paid in cash at the site. Fees are small; confirm the current price on the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s166",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Kei Besar, or a second slow day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s168",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s169",
+          "_type": "span",
+          "marks": [],
+          "text": " If the sea is calm and you want a change of scene, take the ferry to Elat on Kei Besar, the larger, steeper and even less visited island to the east. An economy ticket was listed at around Rp 60,000 on Easybook. Hire a car and driver at Elat for the coast road."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b170",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s171",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s172",
+          "_type": "span",
+          "marks": [],
+          "text": " Kei Besar has quiet beaches and hill villages, but few facilities, and the ferry times mean a long day. If that sounds like hard work, stay on Kei Kecil instead and spend the day on Ngurbloat; on a trip this slow, that is a perfectly good choice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "kei-s175",
+          "_type": "span",
+          "marks": [],
+          "text": " Last night on the coast. Settle the bill in cash and confirm the airport transfer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s177",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s178",
+          "_type": "span",
+          "marks": [],
+          "text": " do not book Kei Besar in advance. Decide the evening before, after asking your guesthouse about the ferry and the weather."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s180",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s181",
+          "_type": "span",
+          "marks": [],
+          "text": " if your Langgur flight tomorrow is early, skip Kei Besar. Missing the ferry back would mean missing the flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s183",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Fly back to Ambon and onward"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s185",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "kei-s186",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to the airport in Langgur and fly back to Ambon; compare "
+        },
+        {
+          "_key": "kei-s188",
+          "_type": "span",
+          "marks": [
+            "kei-m187"
+          ],
+          "text": "Langgur to Ambon flights on 12Go"
+        },
+        {
+          "_key": "kei-s189",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m187",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_LANGGUR_AMBON"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s191",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "kei-s192",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect onward to Jakarta, Makassar or Bali, or stay another night in Ambon if your onward flight is the next day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s194",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "kei-s195",
+          "_type": "span",
+          "marks": [],
+          "text": " leave at least four hours between landing in Ambon and your onward flight, or book a second Ambon night. Do not put a non-refundable international flight on the same day as the Langgur leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s197",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "kei-s198",
+          "_type": "span",
+          "marks": [],
+          "text": " if you are flying on to the Banda Islands, Ambon is the gateway for both, so the two trips combine naturally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b199",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s200",
+          "_type": "span",
+          "marks": [],
+          "text": "How do the Kei Islands compare with other remote beach weeks in Indonesia?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b201",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s202",
+          "_type": "span",
+          "marks": [],
+          "text": "Kei is the most remote and least visited of the quiet beach weeks on this site, with the softest sand and the fewest facilities. Belitung and Tanjung Bira are easier to reach, Banda adds history and better diving, and all three have more choice of places to stay. Pick Kei for emptiness, not convenience."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-t203",
+      "_type": "comparisonTable",
+      "caption": "Four quiet beach weeks compared, with working estimates",
+      "columns": [
+        "Trip",
+        "How you get there",
+        "Beach and water",
+        "What else is there",
+        "Facilities"
+      ],
+      "rows": [
+        {
+          "_key": "kei-r204",
+          "cells": [
+            "Kei Islands",
+            "Two flights via Ambon",
+            "Long, very fine white sand, sandbar and lagoon",
+            "Villages, a cave pool, Kei Besar",
+            "Very simple, cash only"
+          ]
+        },
+        {
+          "_key": "kei-r205",
+          "cells": [
+            "Belitung",
+            "One short flight from Jakarta",
+            "Granite boulder beaches, island hopping",
+            "Lighthouse island, easy drives",
+            "Good choice of hotels"
+          ]
+        },
+        {
+          "_key": "kei-r206",
+          "cells": [
+            "Tanjung Bira",
+            "Flight to Makassar, then a long drive",
+            "White sand, reef close to shore",
+            "Phinisi boatyards",
+            "Simple to mid-range"
+          ]
+        },
+        {
+          "_key": "kei-r207",
+          "cells": [
+            "Banda Islands",
+            "Flight or boat via Ambon",
+            "Small beaches, excellent reefs",
+            "Nutmeg history, forts, volcano hike",
+            "Simple guesthouses"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "kei-b208",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s209",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s211",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: the international or Jakarta flight to Ambon, your Ambon hotel for the first night, the Ambon to Langgur flight for the following morning, and your Kei guesthouse, which can fill around Indonesian holidays and the Pesona Meti Kei festival."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b212",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s213",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the two boat days, which depend on the wind and the tide, the Kei Besar day, and your onward plans from Ambon. A refundable or changeable fare on the Langgur legs is worth paying for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s215",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in the Kei Islands?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s217",
+          "_type": "span",
+          "marks": [],
+          "text": "The biggest mistake is connecting through Ambon on the same day as an international flight. The Langgur leg is short but fragile, and one delay can cost a day at each end. The others are arriving without enough cash, booking boat days for fixed dates, and expecting beaches to look the same at low tide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s219",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes we see in planning: treating Kei as a four-day trip, which leaves two of the four days in transit; hopping between guesthouses when everything is within an hour of one base; and packing for a resort. Bring a headtorch, a dry bag for the boats, reef-safe sunscreen and anything you need from a pharmacy, since choice on Kei is limited."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s221",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b222",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s223",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "kei-s224",
+          "_type": "span",
+          "marks": [],
+          "text": " with five days, drop the Kei Besar day and one beach day, and fly Ambon to Langgur on arrival day only if your first flight lands in Ambon early in the morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b225",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s226",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "kei-s227",
+          "_type": "span",
+          "marks": [],
+          "text": " divers should ask at their guesthouse about the outer reefs, but come with modest expectations; Kei is a snorkelling and beach trip first. If you have more time, add the "
+        },
+        {
+          "_key": "kei-s229",
+          "_type": "span",
+          "marks": [
+            "kei-m228"
+          ],
+          "text": "Banda Islands spice route"
+        },
+        {
+          "_key": "kei-s230",
+          "_type": "span",
+          "marks": [],
+          "text": " through Ambon, which suits the same traveller."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m228",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-banda-islands-spice-route"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s232",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "kei-s233",
+          "_type": "span",
+          "marks": [],
+          "text": " hire one boat for your stay rather than booking day by day, so the same boatman can choose the tides and fit in an extra reef stop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b234",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s235",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s237",
+          "_type": "span",
+          "marks": [],
+          "text": "Indonesia's visa on arrival rules apply at Jakarta, Bali and the other international gateways, not at Ambon or Langgur, so you will clear immigration before the domestic legs; check the latest official guidance before you fly. Kei is largely Catholic and Protestant with Muslim communities, and modest dress away from the beach is appreciated in every village."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s239",
+          "_type": "span",
+          "marks": [],
+          "text": "Health and practicalities: there is basic medical care in Tual and Langgur but nothing for serious emergencies, so take travel insurance that covers evacuation. Drink bottled or filtered water, carry cash in small notes, and expect power cuts in the evenings at some guesthouses. Mobile data works around Langgur and is weaker on the coast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b240",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s241",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: are the Kei Islands worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b242",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s243",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, for the right traveller. If you have a week, you have already seen the easier islands and you are happy trading comfort for empty sand, Kei is among Indonesia's most rewarding beach trips. If you have less than six days, or you need things to run on time, pick an easier beach and save Kei for later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "kei-b244",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s245",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "kei-b246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "kei-s247",
+          "_type": "span",
+          "marks": [],
+          "text": "For the same Ambon gateway with more history, see the "
+        },
+        {
+          "_key": "kei-s249",
+          "_type": "span",
+          "marks": [
+            "kei-m248"
+          ],
+          "text": "9-day Banda Islands spice route"
+        },
+        {
+          "_key": "kei-s250",
+          "_type": "span",
+          "marks": [],
+          "text": ". For quiet beaches that are easier to reach, try "
+        },
+        {
+          "_key": "kei-s252",
+          "_type": "span",
+          "marks": [
+            "kei-m251"
+          ],
+          "text": "6 days in Belitung"
+        },
+        {
+          "_key": "kei-s253",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "kei-s255",
+          "_type": "span",
+          "marks": [
+            "kei-m254"
+          ],
+          "text": "Tanjung Bira in South Sulawesi"
+        },
+        {
+          "_key": "kei-s256",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kei-m248",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/9-days-banda-islands-spice-route"
+        },
+        {
+          "_key": "kei-m251",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-belitung-granite-beaches-island-hopping"
+        },
+        {
+          "_key": "kei-m254",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-tanjung-bira-south-sulawesi-beaches"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
+  "experienceTags": [
+    "beach",
+    "snorkeling",
+    "sandbar",
+    "island_hopping",
+    "maluku"
+  ],
+  "faq": [
+    {
+      "_key": "kei-f257",
+      "answer": "Fly to Ambon first, then take a regional flight to Langgur on Kei Kecil, about 1 hour 10 minutes. There were no direct flights from Jakarta or Bali to Langgur when we checked in November 2026. Most travellers spend a night in Ambon so that a delay on the short leg does not cost a day.",
+      "question": "How do you get to the Kei Islands from Bali or Jakarta?"
+    },
+    {
+      "_key": "kei-f258",
+      "answer": "Seven days is a sensible minimum, with five nights on Kei Kecil. The flights take most of a day at each end, so a shorter trip leaves very little beach time. Five nights covers Ngurbloat, the Ngurtavur sandbar, Bair island, Goa Hawang and a spare day for weather.",
+      "question": "How many days do you need in the Kei Islands?"
+    },
+    {
+      "_key": "kei-f259",
+      "answer": "Most guides put the drier months at roughly May to September or October, though sources disagree by a month. Boat days depend on the wind and the tide in any month, so keep them flexible and ask your guesthouse about conditions before you go out.",
+      "question": "What is the best time to visit the Kei Islands?"
+    },
+    {
+      "_key": "kei-f260",
+      "answer": "It is often described that way, including by Lonely Planet, and the sand is unusually fine and pale. Whether it is the softest anywhere is impossible to prove, but it is the reason most people come to Kei. Entry was Rp 10,000 per motorbike and Rp 20,000 per car in 2025.",
+      "question": "Is Ngurbloat beach really the softest sand in the world?"
+    },
+    {
+      "_key": "kei-f261",
+      "answer": "Lonely Planet gives about Rp 700,000 to charter a boat for roughly an hour and a half from Debut, and traveller guides quote around Rp 1,000,000 to 1,500,000 for a full day. Boats are priced per boat, so share with other guests if you can, and agree the price before you leave.",
+      "question": "How much does a boat trip to Ngurtavur cost?"
+    },
+    {
+      "_key": "kei-f262",
+      "answer": "Rarely. Guesthouses, boats, warungs and entry fees on Kei Kecil are paid in cash. There are ATMs in Langgur and Tual, but withdraw enough in Ambon for the first few days in case they are empty or offline.",
+      "question": "Can you use cards in the Kei Islands?"
+    },
+    {
+      "_key": "kei-f263",
+      "answer": "Yes. Both are reached through Ambon, so a two-week trip can do Banda and Kei back to back with a night in Ambon between them. Allow a buffer day for each regional connection, since flights and boats on both routes are infrequent.",
+      "question": "Can you combine the Kei Islands with the Banda Islands?"
+    }
+  ],
+  "focusKeyword": "Kei Islands itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "The long white-sand beach at Ngurbloat on Kei Kecil, with clouds reflected in the wet sand and a line of palms along the shore",
+    "asset": {
+      "_ref": "image-9bba17269aa830d156635fea7e6cb892ccf3ddef-3840x2543-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Miranda Rachellina, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Clouds_At_Ngurbloat.jpg"
+  },
+  "intro": "The Kei Islands sit far out in the Banda Sea, two flights beyond Bali, with flour-soft white sand, a sandbar that curls into open water and a karst lagoon on Bair. This seven-day plan routes through Ambon with a buffer night, gives Kei Kecil five slow nights from one base, and is honest about the fragile Langgur flight and the cash-only reality.",
+  "logisticsComplexity": "complex",
+  "metaDescription": "A relaxed 7-day Kei Islands itinerary via Ambon: Ngurbloat beach, the Ngurtavur sandbar and Bair lagoon, with flights, boat costs and timing.",
+  "metaTitle": "Kei Islands Itinerary: 7 Days in Southeast Maluku",
+  "primaryAffiliatePartner": "12go",
+  "route": "Ambon (1 night), flight to Langgur, Kei Kecil west coast near Ngurbloat (5 nights) with boat days to Ngurtavur and Bair, Goa Hawang, optional Kei Besar, fly back to Ambon",
+  "routeSummary": "Ambon → Langgur → Ngurbloat → Ngurtavur → Bair → Goa Hawang → Ambon",
+  "secondaryAffiliatePartners": [
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "7-days-kei-islands-maluku-beaches"
+  },
+  "title": "7 Days in the Kei Islands: Ngurbloat, Ngurtavur and Bair in Southeast Maluku",
+  "travelStylePrimary": "beach_islands",
+  "travelStyleSecondary": [
+    "remote_offbeat",
+    "diving_snorkeling"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "repeat_travellers"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 7,
+  "vibe": "relaxed"
+}
