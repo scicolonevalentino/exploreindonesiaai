@@ -642,9 +642,12 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     // that wording instead of a bare comma list of landmarks.
     h1: "Java Itineraries",
     // 2026-10-09 generator run: metaTitle was "Java Itineraries: Yogyakarta, Bromo and Ijen, Day by Day"
-    // (57 chars). GSC 2026-09-09..10-06: "east java" 38 impressions at position 9.7,
-    // 0 clicks; the hub never named East Java. Baseline for the 28-day read: 2026-11-06.
-    metaTitle: "Java Itineraries: Yogyakarta, East Java, Bromo and Ijen",
+    // (57 chars), changed to "Java Itineraries: Yogyakarta, East Java, Bromo and Ijen". Read on
+    // 2026-11-06: no positive signal, the hub dropped out of "east java", so that test is closed.
+    // PARTE 1 of docs/reinforce-java-itinerary-2026-11-09.md, applied 2026-11-09. Re-read on
+    // 2026-12-07, not before. Baseline (GSC 2026-10-10..11-06): "java itinerary" 15 impressions,
+    // position 64.4, 0 clicks. To undo, restore the East Java title quoted above.
+    metaTitle: "Java Itinerary: 5, 7, 10 or 14 Days, in the Right Order",
     metaDescription:
       "How many days Java needs, the order that saves the most road time, and where Borobudur, Bromo and Ijen fit. Day-by-day routes with transfer times.",
     intro:
@@ -721,6 +724,71 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
           before: "The version most people end up booking is the ",
           href: "/trips/7-days-yogyakarta-east-java",
           anchor: "7-day Yogyakarta and East Java route",
+          after: ".",
+        },
+      },
+      // PARTE 3 of docs/reinforce-java-itinerary-2026-11-09.md, applied 2026-11-09.
+      // The SERP for "java itinerary" is day-by-day blog plans of 9 to 14 days; the
+      // hub had trip lengths and order but no single route laid out by day. Every
+      // line here comes from the published /trips/7-days-yogyakarta-east-java.
+      {
+        heading: "What does a 7-day Java itinerary look like, day by day?",
+        body: [
+          "A 7-day Java itinerary runs one way, from Yogyakarta east to Banyuwangi. Spend three nights in Yogyakarta for Borobudur, Prambanan and the city, take one long day to Mount Bromo, see the sunrise, transfer towards Ijen, hike the crater before dawn, then leave for Bali or onward by train.",
+        ],
+        table: {
+          columns: ["Day", "Where", "What you do", "The catch"],
+          rows: [
+            [
+              "1",
+              "Yogyakarta",
+              "Land at YIA, walk Malioboro in the evening",
+              "The airport is about an hour from the city",
+            ],
+            [
+              "2",
+              "Yogyakarta",
+              "Borobudur, then Prambanan",
+              "Climbing Borobudur needs a separate timed ticket",
+            ],
+            [
+              "3",
+              "Yogyakarta",
+              "The kraton, Taman Sari and a batik workshop",
+              "The palace sites close by early afternoon",
+            ],
+            [
+              "4",
+              "Cemoro Lawang",
+              "Train and road transfer to the Bromo rim",
+              "The longest travel day, and a missed link costs the sunrise",
+            ],
+            [
+              "5",
+              "Near Banyuwangi",
+              "Bromo sunrise by jeep, then 5 to 6 hours east",
+              "A 3:30am start, with no recovery day after it",
+            ],
+            [
+              "6",
+              "Banyuwangi",
+              "Ijen crater and the blue fire",
+              "A 1 to 2am start, and access depends on the volcano",
+            ],
+            [
+              "7",
+              "Banyuwangi",
+              "A slow morning, then ferry to Bali or onward",
+              "Check the onward connection before you book",
+            ],
+          ],
+          caption:
+            "The 7-day route, day by day. Times are working estimates, and volcano access can change at short notice.",
+        },
+        link: {
+          before: "The full version, with fees and booking notes, is our ",
+          href: "/trips/7-days-yogyakarta-east-java",
+          anchor: "7-day Yogyakarta and East Java itinerary",
           after: ".",
         },
       },

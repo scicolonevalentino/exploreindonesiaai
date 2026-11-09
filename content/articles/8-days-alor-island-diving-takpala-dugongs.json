@@ -1,0 +1,2152 @@
+{
+  "_createdAt": "2026-11-09T04:14:35Z",
+  "_id": "itinerary-8-days-alor-island-diving-takpala-dugongs",
+  "_rev": "PGboDYWtBTu3njFlf8h7Yb",
+  "_type": "article",
+  "_updatedAt": "2026-11-09T04:15:32Z",
+  "affiliateLinks": [
+    {
+      "_key": "alo-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "alo-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/bali/kupang?z=16022946",
+      "anchorText": "Bali to Kupang flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_BALI_KUPANG",
+      "publicUrl": "https://12go.asia/en/travel/bali/kupang"
+    },
+    {
+      "_key": "alo-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/kupang?z=16022946",
+      "anchorText": "Jakarta to Kupang flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_KUPANG",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/kupang"
+    },
+    {
+      "_key": "alo-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Kupang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "hotels in Kupang on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_KUPANG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Kupang%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "alo-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Kalabahi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Kalabahi stays on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_KALABAHI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Kalabahi%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-09T04:14:34.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April to October",
+  "body": [
+    {
+      "_key": "alo-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Is Alor worth the journey?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you are an experienced diver or a repeat visitor who wants Indonesia far from any tourist circuit. Alor pairs the strong, cold currents of the Pantar Strait with Abui villages and a protected dugong population. The price is two flights, one night in Kupang, thin services and very little room for error."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "Alor sits at the far end of the Lesser Sundas, north of Timor, and most of the people who reach it come for the water. That shapes this trip. Four nights go to a simple island base with the strait on your doorstep, and two more go to Kalabahi for the side of Alor most divers skip: a hilltop Abui village, a museum of bronze drums and a calm bay with wild dugongs. If you do not dive, this plan still works, but it is a slower and less obvious week."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is for certified divers with some current experience, for repeat Indonesia travellers who have done Bali and Komodo and want somewhere with fewer boats, and for couples who are happy with fans, cold showers and early nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for a first trip to Indonesia, for beginners hoping to learn to dive, or for anyone with a tight onward flight. It also suits non-divers less well than "
+        },
+        {
+          "_key": "alo-s14",
+          "_type": "span",
+          "marks": [
+            "alo-m13"
+          ],
+          "text": "the Kei Islands"
+        },
+        {
+          "_key": "alo-s15",
+          "_type": "span",
+          "marks": [],
+          "text": ", which offer easier beach time for a similar journey. If you want big-name reefs with more choice of boats, look at "
+        },
+        {
+          "_key": "alo-s17",
+          "_type": "span",
+          "marks": [
+            "alo-m16"
+          ],
+          "text": "7 days diving Komodo"
+        },
+        {
+          "_key": "alo-s18",
+          "_type": "span",
+          "marks": [],
+          "text": " first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "alo-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-kei-islands-maluku-beaches"
+        },
+        {
+          "_key": "alo-m16",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-komodo-diving"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s20",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "alo-s23",
+          "_type": "span",
+          "marks": [],
+          "text": " 8 days, 7 nights: 1 in Kupang, 4 on Kepa or at a dive resort, 2 in Kalabahi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "alo-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " Bali or Jakarta to Kupang, a short flight to Alor, Kepa island for the Pantar Strait, then Kalabahi for the Museum of 1000 Moko, the Mali dugongs and Takpala."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "alo-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " three full water days, then two easier land days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "alo-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " divers, repeat travellers and couples."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "alo-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " April to about October or November. Sources differ on the end of the season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "alo-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " moderate, unless you book a dive resort package. Flights and diving are the main costs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics:"
+        },
+        {
+          "_key": "alo-s41",
+          "_type": "span",
+          "marks": [],
+          "text": " complex for the distance. The Kupang leg is the fragile one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s43",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s45",
+          "_type": "span",
+          "marks": [],
+          "text": "The plan is built around the Kupang to Alor flight, which is short, infrequent and leaves in the morning. You sleep in Kupang on the way in, so a late arrival costs you an evening rather than a dive day. On the way out, you leave from Kalabahi, a few minutes from the airport, instead of crossing back from Kepa at dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s47",
+          "_type": "span",
+          "marks": [],
+          "text": "The diving comes first and the land days come last for a practical reason: standard dive-agency guidance is to wait 18 to 24 hours before flying, and this order leaves you more than that without having to count. It also means the water days can slip by a day if the sea or the current turns against you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s49",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get to Alor from Bali?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s51",
+          "_type": "span",
+          "marks": [],
+          "text": "Fly from Bali to Kupang, then take a regional flight to Mali airport on Alor, about an hour. There is no direct flight from Bali. Wings Air was the only carrier listed on the Kupang leg when we checked in November 2026, and the flight has usually left in the morning, so plan a night in Kupang."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s53",
+          "_type": "span",
+          "marks": [],
+          "text": "Kupang itself is easy: 12Go listed 24 departures a day from Bali, the fastest 1 hour 50 minutes, and 38 from Jakarta, the fastest about 3 hours. The Alor leg is not on 12Go, so book it with the airline or through your dive operator. Traveller guides quote about IDR 800,000 to 1,500,000 one way and advise booking two to three weeks ahead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s55",
+          "_type": "span",
+          "marks": [],
+          "text": "Ferries exist but are not a plan for a short trip. One 2026 guide says ASDP ferries and passenger ships leave Kupang about twice a week, and 12Go's timetable shows crossings of about 11 to 14 hours, though it had no bookable trips on the dates we tried. Confirm the schedule at the port."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-t56",
+      "_type": "comparisonTable",
+      "caption": "Getting to Alor: the realistic options, as working estimates",
+      "columns": [
+        "Leg",
+        "How",
+        "Time",
+        "When we checked",
+        "Watch out for"
+      ],
+      "rows": [
+        {
+          "_key": "alo-r57",
+          "cells": [
+            "Bali to Kupang",
+            "Flight",
+            "Fastest 1h50",
+            "24 departures a day on 12Go",
+            "Late flights miss the Alor connection"
+          ]
+        },
+        {
+          "_key": "alo-r58",
+          "cells": [
+            "Jakarta to Kupang",
+            "Flight",
+            "Fastest about 3h",
+            "38 departures a day on 12Go",
+            "Overnight timings are common"
+          ]
+        },
+        {
+          "_key": "alo-r59",
+          "cells": [
+            "Kupang to Alor",
+            "Flight",
+            "About 1 hour",
+            "Wings Air, one or two a day",
+            "Delays and cancellations, so sleep in Kupang first"
+          ]
+        },
+        {
+          "_key": "alo-r60",
+          "cells": [
+            "Kupang to Alor",
+            "Ferry",
+            "About 11 to 14 hours",
+            "About twice a week, no online stock on 12Go",
+            "Weather, changing schedules"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "alo-b61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s62",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fly to Kupang"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s64",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s65",
+          "_type": "span",
+          "marks": [],
+          "text": " Fly from Bali or Jakarta to Kupang. Compare "
+        },
+        {
+          "_key": "alo-s67",
+          "_type": "span",
+          "marks": [
+            "alo-m66"
+          ],
+          "text": "Bali to Kupang flights on 12Go"
+        },
+        {
+          "_key": "alo-s68",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "alo-s70",
+          "_type": "span",
+          "marks": [
+            "alo-m69"
+          ],
+          "text": "Jakarta to Kupang flights on 12Go"
+        },
+        {
+          "_key": "alo-s71",
+          "_type": "span",
+          "marks": [],
+          "text": ". Set up an "
+        },
+        {
+          "_key": "alo-s73",
+          "_type": "span",
+          "marks": [
+            "alo-m72"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "alo-s74",
+          "_type": "span",
+          "marks": [],
+          "text": " before you leave home, since traveller guides recommend Telkomsel coverage for this region and it is worth checking your plan uses it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "alo-m66",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_BALI_KUPANG"
+        },
+        {
+          "_key": "alo-m69",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_KUPANG"
+        },
+        {
+          "_key": "alo-m72",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s76",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s77",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and treat the rest of the day as a buffer. Kupang is a working provincial capital, not a stop you need to fill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s80",
+          "_type": "span",
+          "marks": [],
+          "text": " An early dinner and an early night. Confirm your morning flight before you go to bed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "alo-s83",
+          "_type": "span",
+          "marks": [],
+          "text": " Kupang, 1 night. Compare "
+        },
+        {
+          "_key": "alo-s85",
+          "_type": "span",
+          "marks": [
+            "alo-m84"
+          ],
+          "text": "hotels in Kupang on Booking.com"
+        },
+        {
+          "_key": "alo-s86",
+          "_type": "span",
+          "marks": [],
+          "text": " and choose something with an easy run to El Tari airport."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "alo-m84",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_KUPANG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s89",
+          "_type": "span",
+          "marks": [],
+          "text": " book the Bali to Kupang and Kupang to Alor legs with a night between them. Do not trust a same-day connection, even on one ticket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s92",
+          "_type": "span",
+          "marks": [],
+          "text": " withdraw cash here. There are ATMs at Kupang airport and in Kalabahi, but boats and homestays work in rupiah and machines can run out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s94",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Fly to Alor and cross to Kepa"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s96",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s97",
+          "_type": "span",
+          "marks": [],
+          "text": " Take the flight to Mali, about an hour, on a small turboprop with a strict baggage allowance. Heavy dive bags can be left behind or charged extra, so ask the airline in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s100",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Alor Kecil and cross to Kepa by local boat, five minutes away. Ocean Earth Travels gives about IDR 250,000 for the taxi from the airport and IDR 20,000 per person for the boat; treat both as working estimates. Your resort will usually arrange the pickup if you ask."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b101",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s103",
+          "_type": "span",
+          "marks": [],
+          "text": " Sort your gear and go through the next day's sites with the dive team."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "alo-s106",
+          "_type": "span",
+          "marks": [],
+          "text": " Kepa, 4 nights, or a dive resort of your choice. See the table below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s108",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s109",
+          "_type": "span",
+          "marks": [],
+          "text": " book the base and the diving together, well before the flights. Small resorts here fill first in the middle of the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s111",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s112",
+          "_type": "span",
+          "marks": [],
+          "text": " bring a printed or offline copy of your certification and dive insurance details. Signal can drop away from Kalabahi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b113",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s114",
+          "_type": "span",
+          "marks": [],
+          "text": "Which base should you choose in Alor?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s116",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose Kepa if you want a simple, sociable island five minutes from the strait, a dedicated dive resort if you want everything arranged, and Kalabahi if you are not diving at all. Most divers should sleep on the water, because the trip from town to the Pantar Strait sites eats into the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-t117",
+      "_type": "comparisonTable",
+      "caption": "Where to stay on Alor. Rates are \"from\" prices listed by Ocean Earth Travels in 2026, so confirm them directly.",
+      "columns": [
+        "Base",
+        "Example",
+        "From, per night",
+        "Best for",
+        "Trade-off"
+      ],
+      "rows": [
+        {
+          "_key": "alo-r118",
+          "cells": [
+            "Kepa island",
+            "La P'tite Kepa",
+            "About $35",
+            "Divers on a budget, couples",
+            "Simple bungalows, a boat for every errand"
+          ]
+        },
+        {
+          "_key": "alo-r119",
+          "cells": [
+            "Dive resort",
+            "Moko Alor, Nautika, Alor Divers, Alor Tanapi",
+            "About $100 to $190",
+            "Divers who want it arranged",
+            "Most sell multi-night packages, fewer land days"
+          ]
+        },
+        {
+          "_key": "alo-r120",
+          "cells": [
+            "Kalabahi",
+            "Mokkolipa Guesthouse, Simfony Hotel",
+            "Ask directly",
+            "Non-divers, land days",
+            "Town setting, longer boat rides to the strait"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "alo-b121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s122",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: First dives in the Pantar Strait"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s125",
+          "_type": "span",
+          "marks": [],
+          "text": " Start with a check dive and an easier site, whatever your logbook says. Alor has more than 50 known dive sites, according to Indonesia's tourism board, split between the Pantar Strait and Kalabahi Bay. The strait is known for strong, cold, nutrient-rich water; the bay's macro sites are gentler."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s128",
+          "_type": "span",
+          "marks": [],
+          "text": " A second and possibly third dive. Non-divers can ask to join the boat and snorkel where the current allows, or stay around Kepa for the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s131",
+          "_type": "span",
+          "marks": [],
+          "text": " Log your dives and rinse your gear. Dinner is usually at your resort, since Kepa has little else."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s133",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s134",
+          "_type": "span",
+          "marks": [],
+          "text": " ask about the marine park fee when you book. One dive-travel listing gives IDR 250,000 a day and excludes it from the package price."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s136",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s137",
+          "_type": "span",
+          "marks": [],
+          "text": " take a 5mm wetsuit. Ocean Earth Travels recommends it year round, and gives water temperatures of about 25C in the cooler months and 31 to 32C from May to September. The strait's currents can bring colder water than the surface suggests."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s139",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: A full water day, on the current or off it"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s142",
+          "_type": "span",
+          "marks": [],
+          "text": " If the first day went well, this is the day for a stronger site such as Karl's Dream, which your guide will time around the tide. If it did not, ask for the sheltered side of the strait. There is no shame in that, and guides here would much rather you said so."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s145",
+          "_type": "span",
+          "marks": [],
+          "text": " Dive again, or take a surface interval on a beach if your boat stops at one. Sebanjar, on the main island near Alor Kecil, is the usual recommendation for non-divers who want to snorkel from the shore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s148",
+          "_type": "span",
+          "marks": [],
+          "text": " A quiet night. Ask your resort whether power runs all day, and charge everything when you can."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s151",
+          "_type": "span",
+          "marks": [],
+          "text": " bring a surface marker buoy if you own one, and take the briefing seriously. Down-currents and fast drifts are the reason this strait is not a beginner site."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s153",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Macro, a shore dive or a rest day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s155",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s156",
+          "_type": "span",
+          "marks": [],
+          "text": " Use your last water day for something different: a macro site in the bay, or the Twilight Zone shore dive near Beangabang on Pantar if your operator goes there. Mola mola are possible at some sites, with Ocean Earth Travels naming September as the best month, but do not plan around seeing one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s159",
+          "_type": "span",
+          "marks": [],
+          "text": " Make this your last dive of the trip, and finish in the early afternoon. Dive gear should be rinsed and dry by evening, since you move tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s162",
+          "_type": "span",
+          "marks": [],
+          "text": " Settle up. Most small operators prefer cash, though La P'tite Kepa's listing says it can bill in euros, dollars or rupiah."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s164",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s165",
+          "_type": "span",
+          "marks": [],
+          "text": " agree on the number of dives on day one, and leave this day open. It is your spare if a boat day was lost earlier."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s167",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: Across to Kalabahi and the moko drums"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s169",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s170",
+          "_type": "span",
+          "marks": [],
+          "text": " Boat back to Alor Kecil and drive to Kalabahi."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s172",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s173",
+          "_type": "span",
+          "marks": [],
+          "text": " Visit the Museum of 1000 Moko in town, which holds the bronze drums Alor is known for and examples of local kawate cloth. We could not find a published entry fee or opening hours, so go on a weekday and bring small notes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s175",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s176",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner in Kalabahi, where you finally have some choice. Ask at your hotel about a driver and guide for tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s178",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "alo-s179",
+          "_type": "span",
+          "marks": [],
+          "text": " Kalabahi, 2 nights. Compare "
+        },
+        {
+          "_key": "alo-s181",
+          "_type": "span",
+          "marks": [
+            "alo-m180"
+          ],
+          "text": "Kalabahi stays on Booking.com"
+        },
+        {
+          "_key": "alo-s182",
+          "_type": "span",
+          "marks": [],
+          "text": ", but note that some guesthouses are easier to book by message."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "alo-m180",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_KALABAHI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s184",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s185",
+          "_type": "span",
+          "marks": [],
+          "text": " a car with driver is the sensible choice for tomorrow. Traveller guides disagree on motorbikes, with one quoting about Rp 100,000 for 12 hours and another saying prices run two to three times Bali's; roads can be narrow and slippery either way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s187",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: The Mali dugongs and Takpala"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s189",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s190",
+          "_type": "span",
+          "marks": [],
+          "text": " Go to Mali beach, near the airport, and hire a boat with local fishermen to look for dugongs between Mali and Sika island. An older Antara report gives Rp 150,000 for a boat of four to five, so expect to pay more now and agree the price first. The Alor fisheries office bans touching or swimming with the animals, and RRI repeated the keep-your-distance message in 2026. If a boatman offers to get you closer or into the water, say no."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s192",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s193",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Takpala, an Abui hilltop village about 15 minutes from the airport and 25 from Kalabahi. Detik describes visits as free, but a contribution to the community is normal, and a local guide makes the visit far more useful. Lonely Planet notes that the lego-lego dance is mostly organised for larger groups because of the cost, so ask your guide if a group is expected."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s195",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "alo-s196",
+          "_type": "span",
+          "marks": [],
+          "text": " A last dinner in Kalabahi. Check tomorrow's flight and pack."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s198",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s199",
+          "_type": "span",
+          "marks": [],
+          "text": " arrange the guide through your hotel a day ahead. Ask before you photograph people or enter a house."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s201",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "alo-s202",
+          "_type": "span",
+          "marks": [],
+          "text": " WWF recorded the first dugong calf at Mali in October 2025. Boats and noise are a real pressure on a small population, so keep the visit short."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s204",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: Fly out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s206",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "alo-s207",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive about 15 minutes to Mali airport and fly to Kupang."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b208",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s209",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "alo-s210",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect to Bali or Jakarta. Leave at least four hours between flights, or sleep another night in Kupang if your flight home is international."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s212",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "alo-s213",
+          "_type": "span",
+          "marks": [],
+          "text": " put nothing non-refundable on this day. If the Alor flight is cancelled, you want a free day, not a lost ticket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s215",
+          "_type": "span",
+          "marks": [],
+          "text": "How does Alor compare with other remote dive trips in Indonesia?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s217",
+          "_type": "span",
+          "marks": [],
+          "text": "Alor is the most current-driven and least serviced of Indonesia's well-known remote dive trips, with fewer boats than Komodo and less choice than Raja Ampat. Wakatobi is similar in effort but gentler underwater. Pick Alor if you already have some current experience and care more about quiet sites than comfort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-t218",
+      "_type": "comparisonTable",
+      "caption": "Four remote dive trips compared, as working judgements",
+      "columns": [
+        "Trip",
+        "How you get there",
+        "Conditions",
+        "Beyond the diving",
+        "Best suited to"
+      ],
+      "rows": [
+        {
+          "_key": "alo-r219",
+          "cells": [
+            "Alor",
+            "Two flights via Kupang",
+            "Strong, cold currents in the strait, macro in the bay",
+            "Abui villages, moko drums, dugongs",
+            "Experienced divers who want quiet"
+          ]
+        },
+        {
+          "_key": "alo-r220",
+          "cells": [
+            "Komodo",
+            "One direct flight from Bali to Labuan Bajo",
+            "Currents and big fish, busy boats",
+            "Komodo dragons",
+            "Divers who want choice and easy access"
+          ]
+        },
+        {
+          "_key": "alo-r221",
+          "cells": [
+            "Wakatobi",
+            "Via Makassar to Wangi-Wangi",
+            "Reef walls, generally gentler",
+            "Bajo stilt villages",
+            "Reef lovers, resort or independent"
+          ]
+        },
+        {
+          "_key": "alo-r222",
+          "cells": [
+            "Raja Ampat",
+            "Flight to Sorong, then ferry",
+            "Rich reefs, some strong current",
+            "Karst islands, homestays",
+            "Divers with a larger budget and more time"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "alo-b223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s224",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b225",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s226",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: the flights to Kupang, the Kupang to Alor legs, your night in Kupang and your dive base. Traveller guides suggest booking the Alor leg two to three weeks ahead, and earlier in the middle of the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s228",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the order of the dive sites, which depends on the current and the moon, your day at Mali, and your onward plans from Kupang. Dive packages are easy to adjust if you ask early; the flight is not."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s230",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in Alor?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s232",
+          "_type": "span",
+          "marks": [],
+          "text": "The biggest mistake is treating the Kupang to Alor flight as reliable and booking a same-day connection. The others are arriving without enough cash, overpacking for a small plane, diving the strait without current experience, and flying too soon after the last dive. Each of them is easy to avoid with one spare day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b233",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s234",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes we see in planning: leaving Takpala out because it is not a dive site, which misses the most interesting afternoon on the island; hiring a motorbike without checking the road and the weather; and assuming a dugong is guaranteed. These are wild animals, and some days nobody sees one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s236",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s238",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "alo-s239",
+          "_type": "span",
+          "marks": [],
+          "text": " with six days, drop Day 5 and combine Kalabahi and Takpala into one day. Below that, the flights take too much of the trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b240",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s241",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "alo-s242",
+          "_type": "span",
+          "marks": [],
+          "text": " non-divers should swap Kepa for two nights in Kalabahi and two at a beach, then spend the water days at Sebanjar, Mali and Maimol. If you want to climb, Backindo describes a six-hour hike up Mount Dola Koyakoya, at 1,821 metres, with a local guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b243",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s244",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "alo-s245",
+          "_type": "span",
+          "marks": [],
+          "text": " a week-long resort package removes most of the logistics. A 2026 listing from Bluewater Dive Travel gives Alami Alor from about $2,835 per person for seven nights, and liveaboards also work the strait. Compare what each includes, marine park fees especially, before you decide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s247",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b248",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s249",
+          "_type": "span",
+          "marks": [],
+          "text": "Indonesia's visa on arrival rules apply when you land at Bali or Jakarta, so you will clear immigration before the domestic legs; check the latest official guidance before you fly. Alor is largely Christian with Muslim communities, so dress modestly in villages and town, and ask before you photograph anyone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b250",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s251",
+          "_type": "span",
+          "marks": [],
+          "text": "Health and safety: medical care on Alor is basic, so take dive and travel insurance that covers evacuation, and ask your operator where the nearest recompression chamber is before your first dive. Ask a travel clinic about malaria advice for East Nusa Tenggara. Drink bottled or filtered water and carry cash in small notes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s253",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is Alor worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b254",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s255",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, for a certain traveller. If you can handle current, you have eight days and you want Indonesia without a crowd on the boat, Alor is one of the country's best dive trips. If you are new to diving, short on time or need things to run on schedule, choose an easier reef and come back later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "alo-b256",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s257",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "alo-b258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "alo-s259",
+          "_type": "span",
+          "marks": [],
+          "text": "For another remote dive week with a resort option, see "
+        },
+        {
+          "_key": "alo-s261",
+          "_type": "span",
+          "marks": [
+            "alo-m260"
+          ],
+          "text": "Wakatobi in 8 days"
+        },
+        {
+          "_key": "alo-s262",
+          "_type": "span",
+          "marks": [],
+          "text": ". For easier access and bigger crowds, try "
+        },
+        {
+          "_key": "alo-s264",
+          "_type": "span",
+          "marks": [
+            "alo-m263"
+          ],
+          "text": "7 days diving Komodo"
+        },
+        {
+          "_key": "alo-s265",
+          "_type": "span",
+          "marks": [],
+          "text": ". For overland culture in the same part of the country, read "
+        },
+        {
+          "_key": "alo-s267",
+          "_type": "span",
+          "marks": [
+            "alo-m266"
+          ],
+          "text": "8 days across Sumba"
+        },
+        {
+          "_key": "alo-s268",
+          "_type": "span",
+          "marks": [],
+          "text": ", and for a remote beach week, "
+        },
+        {
+          "_key": "alo-s270",
+          "_type": "span",
+          "marks": [
+            "alo-m269"
+          ],
+          "text": "the Kei Islands"
+        },
+        {
+          "_key": "alo-s271",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "alo-m260",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-wakatobi-diving-southeast-sulawesi"
+        },
+        {
+          "_key": "alo-m263",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-komodo-diving"
+        },
+        {
+          "_key": "alo-m266",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-sumba-overland-east-to-west"
+        },
+        {
+          "_key": "alo-m269",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-kei-islands-maluku-beaches"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "wild_indonesia",
+  "experienceTags": [
+    "diving",
+    "snorkeling",
+    "dugongs",
+    "village_culture",
+    "nusa_tenggara"
+  ],
+  "faq": [
+    {
+      "_key": "alo-f272",
+      "answer": "Fly from Bali to Kupang, then take a regional flight of about an hour to Mali airport on Alor. There is no direct flight from Bali. Sleep in Kupang the night before, because the Alor flight has usually left in the morning and delays are common.",
+      "question": "How do you get to Alor from Bali?"
+    },
+    {
+      "_key": "alo-f273",
+      "answer": "Eight days is a sensible plan, with four nights on or near the Pantar Strait and two in Kalabahi. Flights take most of a day at each end, so anything under six days leaves little time in the water and almost none for the villages.",
+      "question": "How many days do you need in Alor?"
+    },
+    {
+      "_key": "alo-f274",
+      "answer": "Not really for the Pantar Strait, which is known for strong, cold currents. Kalabahi Bay has gentler macro sites that less experienced divers can do with a guide, but dive-travel guides generally rate Alor as a trip for divers with some current experience.",
+      "question": "Is Alor good for beginner divers?"
+    },
+    {
+      "_key": "alo-f275",
+      "answer": "Most sources give April to about October or November, with some ending the season a month earlier. Water temperature moves between about 25C in the cooler months and 31 to 32C from May to September, so a 5mm wetsuit is the usual advice all year.",
+      "question": "What is the best time to visit Alor?"
+    },
+    {
+      "_key": "alo-f276",
+      "answer": "No. The Alor fisheries office bans touching or swimming with them, and RRI repeated the keep-your-distance message in 2026. You can look for wild dugongs from a small boat at Mali beach with local fishermen. Sightings are common but never guaranteed.",
+      "question": "Can you swim with the dugongs in Alor?"
+    },
+    {
+      "_key": "alo-f277",
+      "answer": "Yes, in Kalabahi, and at Kupang airport on the way in. Do not rely on them alone. Withdraw enough in Kupang for your first few days, since boats, homestays and warungs on Alor mostly work in cash.",
+      "question": "Are there ATMs in Alor?"
+    },
+    {
+      "_key": "alo-f278",
+      "answer": "Yes, particularly if you have spent the week underwater. Takpala is an Abui hilltop village about 15 minutes from Mali airport. Go with a local guide, leave a contribution for the community and ask before taking photographs. Dances are usually arranged for larger groups.",
+      "question": "Is Takpala village worth visiting?"
+    }
+  ],
+  "focusKeyword": "Alor itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "8 Days in Alor: Pantar Strait Diving, Takpala Village and the Mali Dugongs, Takpala Traditional Village",
+    "asset": {
+      "_ref": "image-4279685bf7fe739a097a31a23a3a88b6ee2fe2a0-3840x2563-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Irfantraveller, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Takpala_Traditional_Village.jpg"
+  },
+  "intro": "Alor sits at the far end of the Lesser Sundas, two flights from Bali, with the cold, fast water of the Pantar Strait on one side and Abui hill villages on the other. This eight-day plan routes through Kupang with a buffer night, gives the diving four nights on Kepa, then ends with the drums, dugongs and Takpala on land.",
+  "logisticsComplexity": "complex",
+  "metaDescription": "An 8-day Alor itinerary via Kupang: Pantar Strait diving from Kepa, the Mali dugongs and Takpala village, with flights, fees, seasons and honest limits.",
+  "metaTitle": "Alor Itinerary: 8 Days of Diving, Takpala and Dugongs",
+  "primaryAffiliatePartner": "12go",
+  "route": "Bali or Jakarta to Kupang (1 night), flight to Alor, Kepa island (4 nights) for the Pantar Strait, Kalabahi (2 nights) for the Museum of 1000 Moko, Mali dugongs and Takpala, flight back to Kupang",
+  "routeSummary": "Kupang → Mali airport → Kepa → Pantar Strait → Kalabahi → Takpala → Kupang",
+  "secondaryAffiliatePartners": [
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "8-days-alor-island-diving-takpala-dugongs"
+  },
+  "title": "8 Days in Alor: Pantar Strait Diving, Takpala Village and the Mali Dugongs",
+  "travelStylePrimary": "diving_snorkeling",
+  "travelStyleSecondary": [
+    "remote_offbeat",
+    "wildlife_nature"
+  ],
+  "travellerTypes": [
+    "divers",
+    "repeat_travellers",
+    "couples"
+  ],
+  "tripLengthBucket": "one_week",
+  "tripLengthDays": 8,
+  "vibe": "remote"
+}
