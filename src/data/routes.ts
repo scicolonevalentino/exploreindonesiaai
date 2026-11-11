@@ -79,9 +79,17 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
     // islands" pos 3.8. OLD metaTitle: "Bali to Gili Islands: Fast Boat, Times & Prices"
     // OLD metaDescription: "How to get from Bali to the Gili Islands. Fast boat routes, journey times,
     // working price estimates, and which departure point to choose." Re-read 2026-11-04.
-    metaTitle: "Bali (Uluwatu, Sanur) to Gili Islands: Fast Boats",
+    // Retouch 2026-11-11 (scheduled task, PARTE 1 + 3). The 10-07 "Uluwatu, Sanur" title read as
+    // failed: GSC 2026-10-12..11-08 shows ZERO impressions for this URL (indexed, last crawl
+    // 10-25), while "how far is gili islands from bali" (30 impr, pos 56.3) and "travel to gili
+    // islands from bali" (11 impr, pos 57.9) land on /trips/10-days-bali-gili-islands instead.
+    // OLD metaTitle: "Bali (Uluwatu, Sanur) to Gili Islands: Fast Boats"
+    // OLD metaDescription: "How to get from Uluwatu, Sanur or anywhere in Bali to the Gili Islands.
+    // Fast boat ports, journey times, working prices and the return trip."
+    // Added the two leading FAQs (distance, day trip). Re-read 2026-12-09, do not retouch before.
+    metaTitle: "Bali to Gili Islands: Distance, Fast Boat Times, Prices",
     metaDescription:
-      "How to get from Uluwatu, Sanur or anywhere in Bali to the Gili Islands. Fast boat ports, journey times, working prices and the return trip.",
+      "How far the Gili Islands are from Bali and how to cross: fast boat ports, sea times, working prices, the Uluwatu transfer and the return trip.",
     focusKeyword: "bali to gili islands",
     summary:
       "Most travellers reach the Gilis by fast boat. The crossing takes roughly 1.5 to 2.5 hours depending on departure point and sea conditions, so build a buffer and avoid booking a same-day onward connection.",
@@ -115,6 +123,16 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       },
     ],
     faqs: [
+      {
+        question: "How far are the Gili Islands from Bali?",
+        answer:
+          "Direct Ferries puts the crossing from Bali to the Gili Islands at about 42 kilometres, or 23 nautical miles, and 12Go lists about 63 kilometres for the ferry route, which does not follow the shortest line. In practice that is 1.5 to 2.5 hours on a fast boat, plus the drive to your departure port.",
+      },
+      {
+        question: "Can you visit the Gili Islands as a day trip from Bali?",
+        answer:
+          "You can, but it is a poor use of a day. With 1.5 to 2.5 hours at sea each way and a road transfer at the Bali end, you get a few hours on the island and no margin if the afternoon boat is cancelled. Stay at least two nights.",
+      },
       {
         question: "How long does it take to get from Bali to the Gili Islands?",
         answer:
