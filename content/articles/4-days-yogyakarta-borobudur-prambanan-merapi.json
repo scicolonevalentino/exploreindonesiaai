@@ -1,0 +1,2157 @@
+{
+  "_createdAt": "2026-11-13T04:17:29Z",
+  "_id": "itinerary-4-days-yogyakarta-borobudur-prambanan-merapi",
+  "_rev": "LEC4NLH3Z6ZtqtcNHVmeHO",
+  "_type": "article",
+  "_updatedAt": "2026-11-13T04:18:04Z",
+  "affiliateLinks": [
+    {
+      "_key": "yk4-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "yk4-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/yogyakarta?z=16022946",
+      "anchorText": "Jakarta to Yogyakarta trains and flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/yogyakarta"
+    },
+    {
+      "_key": "yk4-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/bali/yogyakarta?z=16022946",
+      "anchorText": "Bali to Yogyakarta flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_BALI_YOGYAKARTA",
+      "publicUrl": "https://12go.asia/en/travel/bali/yogyakarta"
+    },
+    {
+      "_key": "yk4-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F7882-private-car-charter-yogyakarta%2F",
+      "anchorText": "Yogyakarta private car charter on Klook",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_YOGYAKARTA_CAR_CHARTER",
+      "publicUrl": "https://www.klook.com/activity/7882-private-car-charter-yogyakarta/"
+    },
+    {
+      "_key": "yk4-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F6653-borobudur-temple-tour-yogyakarta%2F",
+      "anchorText": "Borobudur climb and guided tour on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_BOROBUDUR_CLIMB_TOUR",
+      "publicUrl": "https://www.klook.com/activity/6653-borobudur-temple-tour-yogyakarta/"
+    },
+    {
+      "_key": "yk4-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F15964-merapi-kaliadem-private-jeep-yogyakarta%2F",
+      "anchorText": "Merapi Kaliadem private jeep tour on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_MERAPI_JEEP",
+      "publicUrl": "https://www.klook.com/activity/15964-merapi-kaliadem-private-jeep-yogyakarta/"
+    },
+    {
+      "_key": "yk4-aff6",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F89069-yogyakarta-prambanan-sunset-tour-ramayana-ballet-performance-private-cultural-tour%2F",
+      "anchorText": "Prambanan sunset and Ramayana ballet tour on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_PRAMBANAN_RAMAYANA",
+      "publicUrl": "https://www.klook.com/activity/89069-yogyakarta-prambanan-sunset-tour-ramayana-ballet-performance-private-cultural-tour/"
+    },
+    {
+      "_key": "yk4-aff7",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Budha-Voyage/d22560-214335P5?pid=P00303362&mcid=42383&medium=link&campaign=yogyakarta-4-days",
+      "anchorText": "Borobudur climb and Prambanan day tour on Viator",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BOROBUDUR_PRAMBANAN_DAY",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Budha-Voyage/d22560-214335P5"
+    },
+    {
+      "_key": "yk4-aff8",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Ramayana-Ballet-Prambanan-Performance-Ticket/d22560-5594941P3?pid=P00303362&mcid=42383&medium=link&campaign=yogyakarta-4-days",
+      "anchorText": "Ramayana ballet ticket on Viator",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_RAMAYANA_TICKET",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Ramayana-Ballet-Prambanan-Performance-Ticket/d22560-5594941P3"
+    },
+    {
+      "_key": "yk4-aff9",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Yogyakarta hotels on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_YOGYAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "yk4-aff10",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Borobudur%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "stays near Borobudur on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_BOROBUDUR",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Borobudur%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-13T04:17:27.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to September",
+  "body": [
+    {
+      "_key": "yk4-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Is four days enough for Yogyakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes. Four days in Yogyakarta covers Borobudur, Prambanan, a morning on the slopes of Mount Merapi and the sultan's city itself, at a pace that leaves your evenings free. Three days works if you merge the two temples into one long day. Anything longer should add Dieng, Solo or Mount Bromo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "Yogyakarta is the easiest place in Java to plan badly. The two big temples sit in opposite directions, the palace shuts in the early afternoon, the ballet runs only on certain nights, and the climb onto Borobudur is a timed ticket that sells out. Most short plans cram both temples and a volcano into one twelve-hour day and call the city done. This plan does the opposite. It gives each temple its own half day, puts Merapi where the morning light is, and lines the days up with the opening hours, so the only early alarm is the one you choose."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This route is for couples, friends and solo travellers who want Java's two great temples without a tour-bus schedule, for first-time visitors adding a cultural stop to a Bali trip, and for anyone arriving by train from Jakarta with four clear days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for travellers who want volcano sunrises above all, since those are in East Java: read "
+        },
+        {
+          "_key": "yk4-s14",
+          "_type": "span",
+          "marks": [
+            "yk4-m13"
+          ],
+          "text": "5 days in Yogyakarta and Mount Bromo"
+        },
+        {
+          "_key": "yk4-s15",
+          "_type": "span",
+          "marks": [],
+          "text": " instead. Families should use our "
+        },
+        {
+          "_key": "yk4-s17",
+          "_type": "span",
+          "marks": [
+            "yk4-m16"
+          ],
+          "text": "8-day Yogyakarta plan with kids"
+        },
+        {
+          "_key": "yk4-s18",
+          "_type": "span",
+          "marks": [],
+          "text": ", which is slower and built around shorter drives. If you have six days, "
+        },
+        {
+          "_key": "yk4-s20",
+          "_type": "span",
+          "marks": [
+            "yk4-m19"
+          ],
+          "text": "Central Java with Dieng and Solo"
+        },
+        {
+          "_key": "yk4-s21",
+          "_type": "span",
+          "marks": [],
+          "text": " is the better use of them."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        },
+        {
+          "_key": "yk4-m16",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
+        },
+        {
+          "_key": "yk4-m19",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-central-java-borobudur-dieng-solo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s23",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "yk4-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " 4 days, 3 nights, all in Yogyakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "yk4-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta city, Borobudur, Mount Merapi, Prambanan, Yogyakarta city."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "yk4-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced. One half-day outing each day, with the city in between."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "yk4-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " couples, friends, solo travellers, first visits to Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "yk4-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " May to September is driest. The temples are open all year, and the wet season mostly costs you the Merapi view."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "yk4-s41",
+          "_type": "span",
+          "marks": [],
+          "text": " moderate. Temple tickets for foreign visitors are the big fixed cost, and almost everything else is cheap."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics:"
+        },
+        {
+          "_key": "yk4-s44",
+          "_type": "span",
+          "marks": [],
+          "text": " easy. One hotel, no internal flights, and every outing is 40 to 90 minutes away."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s46",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s48",
+          "_type": "span",
+          "marks": [],
+          "text": "Borobudur is about 90 minutes north-west of the city, Prambanan about 40 minutes east and Merapi about an hour north. Doing all three in a day means roughly five hours in a car. Splitting them puts Borobudur alone on Day 2, when you are fresh enough to enjoy the reliefs, and pairs Merapi with Prambanan on Day 3, since both lie on the northern and eastern side and the ballet next to Prambanan starts after dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s50",
+          "_type": "span",
+          "marks": [],
+          "text": "The city bookends the trip for a practical reason. The Kraton, the sultan's palace, admits visitors only until the early afternoon, so it cannot be an arrival-day stop unless you land early. Day 4 morning suits it better, and the flight or train out can leave later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s52",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Yogyakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s54",
+          "_type": "span",
+          "marks": [],
+          "text": "You need three full days at a minimum and four to do it comfortably. Two days covers Borobudur and Prambanan and nothing of the city. Three adds the palace quarter. Four adds Merapi and lets you see each temple at a sensible hour. Five or more only makes sense with a side trip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-t55",
+      "_type": "comparisonTable",
+      "caption": "Yogyakarta by number of days. A working judgement, not a rule.",
+      "columns": [
+        "Days",
+        "What fits",
+        "What you give up",
+        "Who it suits"
+      ],
+      "rows": [
+        {
+          "_key": "yk4-r56",
+          "cells": [
+            "2 days",
+            "Borobudur and Prambanan in one long day, one evening in town",
+            "The Kraton, Merapi, any slack",
+            "A stopover between Jakarta and Bali"
+          ]
+        },
+        {
+          "_key": "yk4-r57",
+          "cells": [
+            "3 days",
+            "Both temples on separate half days, the Kraton and Taman Sari",
+            "Merapi, the ballet unless the night lines up",
+            "Short trips with a fixed flight"
+          ]
+        },
+        {
+          "_key": "yk4-r58",
+          "cells": [
+            "4 days",
+            "Everything in this plan",
+            "Dieng, Solo and the south coast",
+            "Most first visits"
+          ]
+        },
+        {
+          "_key": "yk4-r59",
+          "cells": [
+            "5 to 6 days",
+            "This plan plus Dieng, Solo or the Gunungkidul caves and beaches",
+            "Nothing, but you are now touring Central Java",
+            "Slow travellers and repeat visitors"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "yk4-b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s61",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive, settle in, and walk the old centre"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "yk4-s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Arrive in Yogyakarta. From Jakarta, the train takes most of a day and a flight about 1 hour 10 minutes: compare "
+        },
+        {
+          "_key": "yk4-s66",
+          "_type": "span",
+          "marks": [
+            "yk4-m65"
+          ],
+          "text": "Jakarta to Yogyakarta trains and flights on 12Go"
+        },
+        {
+          "_key": "yk4-s67",
+          "_type": "span",
+          "marks": [],
+          "text": ", which listed more than 300 departures a day across trains, buses and flights when we checked in November 2026. From Bali, "
+        },
+        {
+          "_key": "yk4-s69",
+          "_type": "span",
+          "marks": [
+            "yk4-m68"
+          ],
+          "text": "Bali to Yogyakarta flights on 12Go"
+        },
+        {
+          "_key": "yk4-s70",
+          "_type": "span",
+          "marks": [],
+          "text": " showed a fastest time of 1 hour 30 minutes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m65",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA"
+        },
+        {
+          "_key": "yk4-m68",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_BALI_YOGYAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "yk4-s73",
+          "_type": "span",
+          "marks": [],
+          "text": " If you land at Yogyakarta International Airport, code YIA, take the airport train to Tugu station in the centre. Indonesian press reports put the ride at about 35 to 40 minutes, with fares of Rp 20,000 on the regular service and Rp 50,000 on the express in recent years. Check in, then walk Jalan Malioboro south towards the palace walls."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "yk4-s76",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat gudeg, the city's sweet jackfruit stew, then go to Alun-Alun Kidul, the southern square, where families ride lit-up pedal cars around two old banyan trees."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "yk4-s79",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, 3 nights. Compare "
+        },
+        {
+          "_key": "yk4-s81",
+          "_type": "span",
+          "marks": [
+            "yk4-m80"
+          ],
+          "text": "Yogyakarta hotels on Booking.com"
+        },
+        {
+          "_key": "yk4-s82",
+          "_type": "span",
+          "marks": [],
+          "text": ". Stay near Malioboro for the station and the palace, or in Prawirotaman for quieter streets and more cafes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m80",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_YOGYAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "yk4-s85",
+          "_type": "span",
+          "marks": [],
+          "text": " book the Borobudur ticket for tomorrow before you arrive, and arrange the car tonight. Your hotel can do it, or you can reserve a "
+        },
+        {
+          "_key": "yk4-s87",
+          "_type": "span",
+          "marks": [
+            "yk4-m86"
+          ],
+          "text": "Yogyakarta private car charter on Klook"
+        },
+        {
+          "_key": "yk4-s88",
+          "_type": "span",
+          "marks": [],
+          "text": " for 6, 10 or 12 hours, which seats up to five."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m86",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_YOGYAKARTA_CAR_CHARTER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "yk4-s91",
+          "_type": "span",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_key": "yk4-s93",
+          "_type": "span",
+          "marks": [
+            "yk4-m92"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "yk4-s94",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly. Ride-hailing apps are the simplest way around town and they need data."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m92",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s96",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Borobudur, with the climb"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s98",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "yk4-s99",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave by 07:00 for Borobudur, about 90 minutes away. The official ticketing site lists the temple structure as open daily from 08:30 to 17:00, and its ticket includes access to the monument, a wristband, a guide and a pair of woven upanat sandals that you wear on the stone and keep. Take the first slot. The terraces have no shade, and by late morning the heat comes off the rock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s101",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "yk4-s102",
+          "_type": "span",
+          "marks": [],
+          "text": " Stop at Mendut and Pawon, two small temples on the same ancient axis, a few minutes' drive away. Mendut holds a three-metre seated Buddha that many visitors find more moving than anything at the main site. Be back in the city by mid-afternoon and rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "yk4-s105",
+          "_type": "span",
+          "marks": [],
+          "text": " Free. Prawirotaman has the widest choice of restaurants, and Malioboro has street food and batik shops that stay open late."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "yk4-s108",
+          "_type": "span",
+          "marks": [],
+          "text": " the climb is the one ticket in this trip that can sell out. As a working estimate, 2026 guides put it at about IDR 455,000 for a foreign adult, with a daily cap reported at around 1,200 visitors. Buy it on the official site, or book a "
+        },
+        {
+          "_key": "yk4-s110",
+          "_type": "span",
+          "marks": [
+            "yk4-m109"
+          ],
+          "text": "Borobudur climb and guided tour on Klook"
+        },
+        {
+          "_key": "yk4-s111",
+          "_type": "span",
+          "marks": [],
+          "text": " with hotel pick-up, and check that the option you choose includes access to the top. Fees change, so confirm the current price before you pay."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m109",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BOROBUDUR_CLIMB_TOUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "yk4-s114",
+          "_type": "span",
+          "marks": [],
+          "text": " dress with shoulders and knees covered. Large bags are not allowed on the structure, so leave them in the car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s116",
+          "_type": "span",
+          "marks": [],
+          "text": "Do you need a ticket to climb Borobudur in 2026?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s118",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes. Climbing onto Borobudur needs a timed ticket for the temple structure, bought ahead, which includes a guide and special sandals. The official ticketing site lists the cheaper grounds-only ticket for domestic visitors only, so foreign travellers should plan on the structure ticket. Sunrise on the temple is a separate, pricier ticket limited to 100 people a day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s120",
+          "_type": "span",
+          "marks": [],
+          "text": "The sunrise ticket is the detail most guides have not caught up with. The official site lists it daily at 04:00 for IDR 1,000,000 per international visitor, with a torch, sandals, a guide and breakfast at the Manohara restaurant included. It means leaving Yogyakarta at about 02:30, or sleeping near the temple the night before. The cheaper way to see dawn is from Punthuk Setumbu, a hill a few kilometres west, where you watch the temple emerge from the mist at a distance and then drive down for the first climbing slot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-t121",
+      "_type": "comparisonTable",
+      "caption": "Ways to see Borobudur compared. Prices are for foreign adults, from the official ticketing site where stated and otherwise working estimates. Confirm before booking.",
+      "columns": [
+        "Option",
+        "Start",
+        "Price",
+        "What you get",
+        "Trade-off"
+      ],
+      "rows": [
+        {
+          "_key": "yk4-r122",
+          "cells": [
+            "Temple structure ticket",
+            "From 08:30, timed slots",
+            "About IDR 455,000, as a working estimate",
+            "The climb, a guide, upanat sandals",
+            "Sells out in peak months, hot by late morning"
+          ]
+        },
+        {
+          "_key": "yk4-r123",
+          "cells": [
+            "Sunrise on the temple",
+            "04:00",
+            "IDR 1,000,000, per the official site",
+            "Dawn on the monument, breakfast, 100 people a day",
+            "A 02:30 start from the city"
+          ]
+        },
+        {
+          "_key": "yk4-r124",
+          "cells": [
+            "Sunset on the temple",
+            "Late afternoon",
+            "Listed on the official site, price shown at booking",
+            "Evening light, dinner, 100 people a day",
+            "You return to the city late"
+          ]
+        },
+        {
+          "_key": "yk4-r125",
+          "cells": [
+            "Punthuk Setumbu hill",
+            "About 04:30",
+            "A small local entry fee",
+            "The temple in mist from a distance",
+            "You are not on the temple itself"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "yk4-b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s127",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Merapi by jeep, Prambanan at dusk, the ballet after dark"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "yk4-s130",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive about an hour north to Kaliadem, on the southern slope of Mount Merapi, and ride an open jeep across the 2010 eruption zone: a buried village, a bunker, a small museum in a ruined house. Go early, because cloud usually covers the summit by mid-morning. Jeeps are priced per vehicle and carry up to four. As a working estimate, routes run from about Rp 400,000 to Rp 650,000 depending on length. A "
+        },
+        {
+          "_key": "yk4-s132",
+          "_type": "span",
+          "marks": [
+            "yk4-m131"
+          ],
+          "text": "Merapi Kaliadem private jeep tour on Klook"
+        },
+        {
+          "_key": "yk4-s133",
+          "_type": "span",
+          "marks": [],
+          "text": " adds the hotel transfer."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m131",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MERAPI_JEEP"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "yk4-s136",
+          "_type": "span",
+          "marks": [],
+          "text": " Have lunch on the way down, then reach Prambanan by about 15:30. The 9th-century Hindu complex is compact, and two hours is enough for the three main shrines and the reliefs that tell the Ramayana. As a working estimate, budget about IDR 400,000 for a foreign adult. If you have the energy, walk north through the park to Candi Sewu, a Buddhist temple that most visitors skip."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "yk4-s139",
+          "_type": "span",
+          "marks": [],
+          "text": " Watch the Ramayana ballet on the open-air stage with the lit temple behind it. The official schedule lists it on Tuesdays, Thursdays and Saturdays from 19:30 to 21:00, from May to December 2026. Resellers list seats from about IDR 150,000. Book a "
+        },
+        {
+          "_key": "yk4-s141",
+          "_type": "span",
+          "marks": [
+            "yk4-m140"
+          ],
+          "text": "Ramayana ballet ticket on Viator"
+        },
+        {
+          "_key": "yk4-s142",
+          "_type": "span",
+          "marks": [],
+          "text": ", or let a "
+        },
+        {
+          "_key": "yk4-s144",
+          "_type": "span",
+          "marks": [
+            "yk4-m143"
+          ],
+          "text": "Prambanan sunset and Ramayana ballet tour on Klook"
+        },
+        {
+          "_key": "yk4-s145",
+          "_type": "span",
+          "marks": [],
+          "text": " handle the car, the temple, dinner and a Class 1 seat in one booking."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m140",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_RAMAYANA_TICKET"
+        },
+        {
+          "_key": "yk4-m143",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_PRAMBANAN_RAMAYANA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "yk4-s148",
+          "_type": "span",
+          "marks": [],
+          "text": " fix this day first, on a Tuesday, Thursday or Saturday, and arrange the other days around it. From January to April 2026 the official schedule showed the Ramayana on Saturdays only, at an earlier hour, so check the calendar for your month."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "yk4-s151",
+          "_type": "span",
+          "marks": [],
+          "text": " the official site says that if rain stops the show after the fire scene known as Anoman Obong, the performance counts as complete and tickets are not refunded. In the wet season, treat the ballet as a bonus."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s153",
+          "_type": "span",
+          "marks": [],
+          "text": "Borobudur and Prambanan in one day, or two?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b154",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s155",
+          "_type": "span",
+          "marks": [],
+          "text": "Take two days if you have four in the city. One day for both is possible and popular, but it means about four hours of driving, a climb in the midday heat at one of them, and no time for the ballet. Combine them only on a two or three-day visit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s157",
+          "_type": "span",
+          "marks": [],
+          "text": "If you do combine them, start with Borobudur at the first slot and finish at Prambanan in the late afternoon. A "
+        },
+        {
+          "_key": "yk4-s159",
+          "_type": "span",
+          "marks": [
+            "yk4-m158"
+          ],
+          "text": "Borobudur climb and Prambanan day tour on Viator"
+        },
+        {
+          "_key": "yk4-s160",
+          "_type": "span",
+          "marks": [],
+          "text": " runs about eight hours with pick-up, and the listing we checked in November 2026 offered a sunrise option. The old combined ticket for the two temples has been reported discontinued for foreign visitors, so plan on paying for each site separately. For how the two differ, and which to pick if you only have time for one, see "
+        },
+        {
+          "_key": "yk4-s162",
+          "_type": "span",
+          "marks": [
+            "yk4-m161"
+          ],
+          "text": "Borobudur vs Prambanan"
+        },
+        {
+          "_key": "yk4-s163",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m158",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BOROBUDUR_PRAMBANAN_DAY"
+        },
+        {
+          "_key": "yk4-m161",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java/borobudur-vs-prambanan"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s165",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: The Kraton, Taman Sari and out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s167",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "yk4-s168",
+          "_type": "span",
+          "marks": [],
+          "text": " Be at the Kraton when it opens, at about 08:30. The sultan's palace is still a working court, and the visit is a walk through open pavilions, heirloom collections and courtyards where retainers in batik sit on duty. Guides put the foreign ticket at IDR 15,000 to 30,000. Then walk ten minutes to Taman Sari, the 18th-century water palace, with its bathing pools and an underground mosque built as a ring of stairways. Entry is about IDR 25,000."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s170",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "yk4-s171",
+          "_type": "span",
+          "marks": [],
+          "text": " If your departure is late, take a car to Kotagede, the old silver-working quarter, for its workshops and its narrow lanes, or use the time for batik on Jalan Tirtodipuran. Then head to Tugu station or the airport train."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s173",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "yk4-s174",
+          "_type": "span",
+          "marks": [],
+          "text": " the Kraton admits visitors only until the early afternoon, earlier on Fridays, and at least one guide lists it as closed on Mondays. If Day 4 falls on a Monday, swap it with Day 1 or Day 2."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s176",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "yk4-s177",
+          "_type": "span",
+          "marks": [],
+          "text": " allow more time than you think for YIA. The airport is about 45 kilometres west of the city, and the road takes far longer than the train at busy hours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s179",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get around Yogyakarta without a tour?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s181",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a car with a driver for Borobudur and Merapi, the commuter train or a ride-hailing car for Prambanan, and ride-hailing apps or your feet inside the city. A full-day car costs far less than two tours for two people, and it lets you set the hours, which matters more here than anywhere else in Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s183",
+          "_type": "span",
+          "marks": [],
+          "text": "The commuter line towards Solo stops at Brambanan station, roughly a kilometre and a half from the Prambanan gate, for a flat fare of IDR 8,000 according to 2026 timetable reports. Nothing as simple reaches Borobudur: public buses exist, but they take about two hours each way with a change, which costs you the first climbing slot."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-t184",
+      "_type": "comparisonTable",
+      "caption": "Getting to the main sights from central Yogyakarta, as working estimates",
+      "columns": [
+        "Sight",
+        "Best way",
+        "Time each way",
+        "Cost",
+        "Notes"
+      ],
+      "rows": [
+        {
+          "_key": "yk4-r185",
+          "cells": [
+            "Borobudur",
+            "Car with driver",
+            "About 90 minutes",
+            "Charter by the hour, shared across the car",
+            "Leave by 07:00 for the first slot"
+          ]
+        },
+        {
+          "_key": "yk4-r186",
+          "cells": [
+            "Prambanan",
+            "Commuter train to Brambanan, or ride-hailing car",
+            "20 to 40 minutes",
+            "IDR 8,000 by train",
+            "The ballet ends after the last convenient train, so book a car back"
+          ]
+        },
+        {
+          "_key": "yk4-r187",
+          "cells": [
+            "Merapi, Kaliadem",
+            "Car with driver, then a local jeep",
+            "About 60 minutes",
+            "Jeep priced per vehicle",
+            "Go early for a clear summit"
+          ]
+        },
+        {
+          "_key": "yk4-r188",
+          "cells": [
+            "Kraton and Taman Sari",
+            "On foot or by becak",
+            "10 to 20 minutes from Malioboro",
+            "Small entry fees",
+            "Mornings only"
+          ]
+        },
+        {
+          "_key": "yk4-r189",
+          "cells": [
+            "YIA airport",
+            "Airport train from Tugu",
+            "35 to 40 minutes",
+            "Reported at Rp 20,000 to 50,000",
+            "Road transfers are slower at peak hours"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "yk4-b190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s191",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s193",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: the Borobudur structure ticket, above all for the first slot and in July, August and Indonesian school holidays. Book the ballet a few days ahead in the dry season, and your three hotel nights as soon as your dates are fixed, since one base only works if it is in the right part of town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s195",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the Merapi jeep, which is easy to arrange the day before and worth moving if the forecast is poor. Also the car, the Kraton, Taman Sari and every meal. If you arrive by train, book that ahead around public holidays, when Java's trains sell out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s197",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in Yogyakarta?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s199",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is assuming you can walk up Borobudur on the day. The climb is a capped, timed ticket. The others are booking both temples and Merapi as one day trip, saving the Kraton for an afternoon when it has already closed, and planning the ballet for a night with no show."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s201",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes: staying only two nights, which turns the city into a car park between temples; visiting Merapi at midday, when the summit is in cloud; underestimating the distance to YIA; and expecting the temples to be cheap. Two foreign adults will spend well over IDR 1.5 million on the two main tickets alone, which is more than three nights in a good guesthouse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s203",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b204",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s205",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "yk4-s206",
+          "_type": "span",
+          "marks": [],
+          "text": " with three days, drop Merapi, visit Prambanan on the afternoon of Day 1 if you arrive by noon, and keep Borobudur and the Kraton as they are. With two days, combine the temples and accept that you have seen the monuments, not the city."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s208",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "yk4-s209",
+          "_type": "span",
+          "marks": [],
+          "text": " swap the Day 4 afternoon for Jomblang, a vertical cave in Gunungkidul where a shaft of light reaches the floor around midday. Places are limited and one operator listing asks for about IDR 700,000 in cash per person, so reserve ahead and treat that figure as a working estimate. If volcano sunrises are the point of your trip, continue east on our "
+        },
+        {
+          "_key": "yk4-s211",
+          "_type": "span",
+          "marks": [
+            "yk4-m210"
+          ],
+          "text": "7-day Yogyakarta and East Java route"
+        },
+        {
+          "_key": "yk4-s212",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m210",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s214",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "yk4-s215",
+          "_type": "span",
+          "marks": [],
+          "text": " spend the night of Day 1 near the temple instead of in the city. Compare "
+        },
+        {
+          "_key": "yk4-s217",
+          "_type": "span",
+          "marks": [
+            "yk4-m216"
+          ],
+          "text": "stays near Borobudur on Booking.com"
+        },
+        {
+          "_key": "yk4-s218",
+          "_type": "span",
+          "marks": [],
+          "text": ", take the 04:00 sunrise ticket on Day 2, and you will be on the monument at dawn with a hundred people instead of at 08:30 with several hundred."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m216",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_BOROBUDUR"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b219",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s220",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s222",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Season:"
+        },
+        {
+          "_key": "yk4-s223",
+          "_type": "span",
+          "marks": [],
+          "text": " May to September is the dry season and the busiest. From November to March expect afternoon rain: plan outings for the morning and keep the ballet optional."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s225",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Merapi:"
+        },
+        {
+          "_key": "yk4-s226",
+          "_type": "span",
+          "marks": [],
+          "text": " this is one of Indonesia's most active volcanoes, and its alert level and exclusion zone change. Jeep routes are adjusted to match. Check the current status with Indonesia's volcanology agency before you go, and follow the operators if they shorten the route."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s228",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money:"
+        },
+        {
+          "_key": "yk4-s229",
+          "_type": "span",
+          "marks": [],
+          "text": " carry rupiah in small notes for palaces, parking, becak and food stalls. Temple tickets and hotels take cards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b230",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s231",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting in:"
+        },
+        {
+          "_key": "yk4-s232",
+          "_type": "span",
+          "marks": [],
+          "text": " see our guides to "
+        },
+        {
+          "_key": "yk4-s234",
+          "_type": "span",
+          "marks": [
+            "yk4-m233"
+          ],
+          "text": "Jakarta to Yogyakarta"
+        },
+        {
+          "_key": "yk4-s235",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "yk4-s237",
+          "_type": "span",
+          "marks": [
+            "yk4-m236"
+          ],
+          "text": "Bali to Yogyakarta"
+        },
+        {
+          "_key": "yk4-s238",
+          "_type": "span",
+          "marks": [],
+          "text": " for the train and flight options in detail."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m233",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/jakarta-to-yogyakarta"
+        },
+        {
+          "_key": "yk4-m236",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/transport/bali-to-yogyakarta"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b239",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s240",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Entry:"
+        },
+        {
+          "_key": "yk4-s241",
+          "_type": "span",
+          "marks": [],
+          "text": " Indonesia's visa on arrival rules apply wherever you first land. Our "
+        },
+        {
+          "_key": "yk4-s243",
+          "_type": "span",
+          "marks": [
+            "yk4-m242"
+          ],
+          "text": "visa guide"
+        },
+        {
+          "_key": "yk4-s244",
+          "_type": "span",
+          "marks": [],
+          "text": " has the current costs, and you should check the latest official guidance before you fly."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m242",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/visa-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b245",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s246",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is Yogyakarta worth four days?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s248",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes. Four days is the length at which Yogyakarta stops being a temple transfer and becomes a city you have actually stayed in. You see Borobudur at a cool hour, Prambanan in good light, a volcano up close and a living royal court, with one hotel and no flights. Add days only to leave town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "yk4-b249",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s250",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "yk4-b251",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "yk4-s252",
+          "_type": "span",
+          "marks": [],
+          "text": "To add a volcano sunrise, read "
+        },
+        {
+          "_key": "yk4-s254",
+          "_type": "span",
+          "marks": [
+            "yk4-m253"
+          ],
+          "text": "5 days in Yogyakarta and Mount Bromo"
+        },
+        {
+          "_key": "yk4-s255",
+          "_type": "span",
+          "marks": [],
+          "text": ". To stay in the region and go deeper, see "
+        },
+        {
+          "_key": "yk4-s257",
+          "_type": "span",
+          "marks": [
+            "yk4-m256"
+          ],
+          "text": "6 days in Central Java with Dieng and Solo"
+        },
+        {
+          "_key": "yk4-s258",
+          "_type": "span",
+          "marks": [],
+          "text": ". For the whole island by rail, try "
+        },
+        {
+          "_key": "yk4-s260",
+          "_type": "span",
+          "marks": [
+            "yk4-m259"
+          ],
+          "text": "10 days in Java by train"
+        },
+        {
+          "_key": "yk4-s261",
+          "_type": "span",
+          "marks": [],
+          "text": ", and for more ideas in the city itself, our guide to "
+        },
+        {
+          "_key": "yk4-s263",
+          "_type": "span",
+          "marks": [
+            "yk4-m262"
+          ],
+          "text": "things to do in Yogyakarta"
+        },
+        {
+          "_key": "yk4-s264",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "yk4-m253",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-yogyakarta-bromo"
+        },
+        {
+          "_key": "yk4-m256",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-central-java-borobudur-dieng-solo"
+        },
+        {
+          "_key": "yk4-m259",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        },
+        {
+          "_key": "yk4-m262",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java/things-to-do-in-yogyakarta"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "temples",
+    "royal_palaces",
+    "cultural_performance",
+    "volcano_jeep",
+    "train_travel",
+    "street_food"
+  ],
+  "faq": [
+    {
+      "_key": "yk4-f265",
+      "answer": "Four days is the comfortable length: one each for Borobudur and for Merapi with Prambanan, plus two half days in the city. Three days works if you drop Merapi. Two days covers both temples in one long day and very little else.",
+      "question": "How many days do you need in Yogyakarta?"
+    },
+    {
+      "_key": "yk4-f266",
+      "answer": "Yes, with a timed ticket for the temple structure, bought in advance. The official ticketing site says it includes a guide and upanat sandals, and lists the structure as open daily from 08:30 to 17:00. Numbers are capped, so book before you travel in peak months.",
+      "question": "Can you still climb Borobudur?"
+    },
+    {
+      "_key": "yk4-f267",
+      "answer": "As a working estimate, budget about IDR 455,000 for the Borobudur structure ticket and about IDR 400,000 for Prambanan per foreign adult. The official site lists a sunrise ticket on Borobudur at IDR 1,000,000. Prices change, so confirm on the official ticketing site before you pay.",
+      "question": "How much are Borobudur and Prambanan tickets for foreigners?"
+    },
+    {
+      "_key": "yk4-f268",
+      "answer": "The official 2026 schedule lists the open-air Ramayana on Tuesdays, Thursdays and Saturdays from 19:30 to 21:00, from May to December. From January to April it showed Saturdays only, at an earlier time. Schedules change without notice, so check your dates.",
+      "question": "What days is the Ramayana ballet at Prambanan?"
+    },
+    {
+      "_key": "yk4-f269",
+      "answer": "Yes. Start at Borobudur for the first climbing slot and reach Prambanan in the late afternoon. Expect about four hours of driving and a full day. With four days in Yogyakarta, splitting them is more comfortable and leaves room for the ballet.",
+      "question": "Can you visit Borobudur and Prambanan in one day?"
+    },
+    {
+      "_key": "yk4-f270",
+      "answer": "Take the airport train from YIA to Tugu station in the centre. Indonesian press reports put the journey at about 35 to 40 minutes, with fares of Rp 20,000 to Rp 50,000 depending on the service. By road the 45 kilometres can take much longer at busy hours.",
+      "question": "How do you get from Yogyakarta airport to the city?"
+    },
+    {
+      "_key": "yk4-f271",
+      "answer": "May to September is the dry season, with the clearest mornings for Merapi and the most reliable evenings for the open-air ballet. It is also the busiest period. The temples are open all year, and the wet season is workable if you plan outings for the morning.",
+      "question": "What is the best time to visit Yogyakarta?"
+    }
+  ],
+  "focusKeyword": "Yogyakarta itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Stupas of Borobudur at dawn above the misty Kedu plain, with Mount Merapi on the horizon, Central Java",
+    "asset": {
+      "_ref": "image-8a7a10888f3ac5db03c9727ef23bcd81cc68b2a2-3840x2560-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-02.jpg"
+  },
+  "intro": "Yogyakarta's two great temples sit in opposite directions, the palace closes in the early afternoon and the Borobudur climb is a timed ticket. This four-day plan keeps one hotel, gives each temple its own half day, adds a Merapi jeep morning and the Ramayana ballet, and lines every stop up with its opening hours.",
+  "logisticsComplexity": "easy",
+  "metaDescription": "A 4-day Yogyakarta itinerary: the Borobudur climb ticket, Prambanan with the Ramayana ballet, a Merapi jeep morning and the Kraton, with 2026 prices.",
+  "metaTitle": "Yogyakarta Itinerary: 4 Days, Borobudur, Prambanan, Merapi",
+  "primaryAffiliatePartner": "klook",
+  "route": "Yogyakarta (3 nights) with half-day outings to Borobudur, Mendut and Pawon, to Mount Merapi at Kaliadem and to Prambanan for the Ramayana ballet, then the Kraton and Taman Sari before departure",
+  "routeSummary": "Yogyakarta → Borobudur → Merapi → Prambanan → Yogyakarta",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "12go",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-yogyakarta-borobudur-prambanan-merapi"
+  },
+  "title": "4 Days in Yogyakarta: Borobudur, Prambanan, Merapi and the Sultan's City",
+  "travelStylePrimary": "culture_temples",
+  "travelStyleSecondary": [
+    "first_time_indonesia",
+    "adventure_volcanoes"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "vibe": "balanced"
+}
