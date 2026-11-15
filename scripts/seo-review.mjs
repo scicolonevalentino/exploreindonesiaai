@@ -1,19 +1,20 @@
 #!/usr/bin/env node
-// Independent review by a DIFFERENT model (OpenAI Codex CLI), so the reviewer
-// does not share the author's blind spots. The reviewer sees only the review
-// packet and the brief, never the author's conversation.
+// Independent review in a SEPARATE Claude process: fresh context, read-only
+// tools, only the review packet and the brief, never the author's conversation.
+// Claude only (founder decision, 2026-11-15), and the model is proportional to
+// the stakes: Sonnet for low-risk actions, Opus for medium and high risk.
 //
 //   node scripts/seo-review.mjs <packet.md> --id <A-...>
 //
-// The verdict is written to the ledger by this script (reviewer "codex"), not by
-// the agent that asked for the review. Exit 0 = verdict recorded (read it),
-// 3 = Codex unavailable (recorded as "unavailable", see ops/seo/README.md).
+// The verdict is written to the ledger by this script (reviewer
+// "claude-reviewer"), not by the agent that asked for the review.
+// Exit 0 = verdict recorded (read it), 3 = reviewer unavailable (recorded as
+// "unavailable", see ops/seo/README.md).
 
 import { spawnSync } from "node:child_process";
-import { readFileSync, existsSync, mkdtempSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { tmpdir } from "node:os";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const packet = process.argv[2];
@@ -27,35 +28,82 @@ if (!packet || !existsSync(packet) || !id) {
 const ledger = (...args) =>
   spawnSync("node", [join(root, "scripts/seo-ledger.mjs"), ...args], { encoding: "utf8" });
 
+const shown = ledger("show", id);
+if (shown.status !== 0) {
+  console.error(shown.stderr.trim() || `no action ${id} in the ledger`);
+  process.exit(2);
+}
+const risk = JSON.parse(shown.stdout).risk;
+const MODEL = process.env.SEO_REVIEW_MODEL || (risk === "low" ? "sonnet" : "opus");
+
 const brief = readFileSync(join(root, "ops/seo/reviewer-brief.md"), "utf8");
-const prompt = `${brief}\n\n---\n\n# REVIEW PACKET (action ${id})\n\n${readFileSync(packet, "utf8")}\n`;
-const out = join(mkdtempSync(join(tmpdir(), "seo-review-")), "verdict.json");
+const schema = readFileSync(join(root, "ops/seo/review-schema.json"), "utf8");
+const prompt = `${brief}\n\n---\n\nYou are the reviewer called "claude-reviewer". Your final answer is the structured verdict; this script records it, so do not run any ledger write command yourself.\n\n# REVIEW PACKET (action ${id})\n\n${readFileSync(packet, "utf8")}\n`;
+
+// Read-only tool set. Anything not listed here is denied without asking.
+const allowed = [
+  "Read",
+  "Grep",
+  "Glob",
+  "WebFetch",
+  "WebSearch",
+  "Bash(curl:*)",
+  "Bash(node scripts/seo-validate.mjs:*)",
+  "Bash(node scripts/seo-ledger.mjs locked:*)",
+  "Bash(node scripts/seo-ledger.mjs show:*)",
+  "Bash(node scripts/seo-ledger.mjs queue:*)",
+  "Bash(node scripts/seo-ledger.mjs exp list:*)",
+  "Bash(git log:*)",
+  "Bash(git diff:*)",
+  "Bash(git show:*)",
+  "Bash(wc:*)",
+  "Bash(jq:*)",
+  "Bash(head:*)",
+  "Bash(grep:*)",
+  "Bash(ls:*)",
+];
 
 const run = spawnSync(
-  "codex",
+  "claude",
   [
-    "exec",
-    "--sandbox",
-    "read-only",
-    "--ephemeral",
-    "--color",
-    "never",
-    "-C",
-    root,
-    "--output-schema",
-    join(root, "ops/seo/review-schema.json"),
-    "-o",
-    out,
-    "-",
+    "-p",
+    "--model",
+    MODEL,
+    "--output-format",
+    "json",
+    "--json-schema",
+    schema,
+    "--tools",
+    "Read,Grep,Glob,WebFetch,WebSearch,Bash",
+    "--allowedTools",
+    ...allowed,
+    "--disallowedTools",
+    "Edit",
+    "Write",
+    "NotebookEdit",
+    "--permission-mode",
+    "dontAsk",
+    "--strict-mcp-config",
+    "--no-session-persistence",
   ],
-  { input: prompt, encoding: "utf8", timeout: 15 * 60 * 1000, maxBuffer: 64 * 1024 * 1024 },
+  {
+    cwd: root,
+    input: prompt,
+    encoding: "utf8",
+    timeout: 20 * 60 * 1000,
+    maxBuffer: 64 * 1024 * 1024,
+  },
 );
 
 let verdict;
+let used;
 try {
-  verdict = JSON.parse(readFileSync(out, "utf8"));
+  const res = JSON.parse(run.stdout);
+  used = Object.keys(res.modelUsage || {}).join(", ");
+  verdict = res.structured_output ?? JSON.parse(res.result);
+  if (!["approve", "revise", "reject"].includes(verdict.verdict)) throw new Error("no verdict");
 } catch {
-  const why = (run.error?.message || run.stderr || "no output")
+  const why = (run.error?.message || run.stderr || run.stdout || "no output")
     .toString()
     .slice(-400)
     .replace(/\s+/g, " ");
@@ -63,13 +111,13 @@ try {
     "review",
     id,
     "--by",
-    "codex",
+    "claude-reviewer",
     "--verdict",
     "unavailable",
     "--notes",
-    `codex failed: ${why}`,
+    `reviewer failed: ${why}`,
   );
-  console.error(`codex unavailable: ${why}`);
+  console.error(`claude-reviewer unavailable: ${why}`);
   process.exit(3);
 }
 
@@ -77,6 +125,7 @@ const notes = [
   verdict.notes,
   verdict.blocking?.length ? `BLOCKING: ${verdict.blocking.join(" | ")}` : "",
   verdict.not_verified?.length ? `NOT VERIFIED: ${verdict.not_verified.join(" | ")}` : "",
+  used ? `(model: ${used})` : "",
 ]
   .filter(Boolean)
   .join(" ");
@@ -84,7 +133,7 @@ const rec = ledger(
   "review",
   id,
   "--by",
-  "codex",
+  "claude-reviewer",
   "--verdict",
   verdict.verdict,
   "--notes",

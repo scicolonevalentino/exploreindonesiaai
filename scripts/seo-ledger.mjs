@@ -7,7 +7,7 @@
 //   node scripts/seo-ledger.mjs queue [--status queued,founder] [--json]
 //   node scripts/seo-ledger.mjs show <id>
 //   node scripts/seo-ledger.mjs add <file.json>            # one action or an array
-//   node scripts/seo-ledger.mjs review <id> --by codex|claude-verifier \
+//   node scripts/seo-ledger.mjs review <id> --by claude-reviewer|claude-verifier \
 //        --verdict approve|revise|reject|unavailable --notes "..."
 //   node scripts/seo-ledger.mjs gate <id>                  # BEFORE writing: exit 0 = may write
 //   node scripts/seo-ledger.mjs apply <id> --commit <hash|sanity> [--old-file f.json]
@@ -33,7 +33,7 @@ const FILE = process.env.SEO_LEDGER_FILE || join(root, "ops/seo/ledger.json");
 const SOURCES = ["analyst", "auditor", "generator", "executor", "founder"];
 const TYPES = ["fix", "snippet", "content", "article", "structural", "code", "tooling", "manual"];
 const RISKS = ["low", "medium", "high"];
-const REVIEWERS = ["codex", "claude-verifier"];
+const REVIEWERS = ["claude-reviewer", "claude-verifier"];
 const VERDICTS = ["approve", "revise", "reject", "unavailable"];
 const OUTCOMES = ["worked", "failed", "inconclusive", "reverted"];
 const OPEN = ["queued", "founder"];
@@ -115,23 +115,23 @@ const gate = (a) => {
   if (blocked.length) {
     return `blocked by ${blocked.map((x) => `${x.by}:${x.verdict}`).join(", ")}`;
   }
-  const codex = v("codex");
+  const reviewer = v("claude-reviewer");
   const verifier = v("claude-verifier");
   if (a.risk === "low") {
-    return codex === "approve" || verifier === "approve"
+    return reviewer === "approve" || verifier === "approve"
       ? null
-      : "low risk needs one approve (codex or claude-verifier)";
+      : "low risk needs one approve (claude-reviewer or claude-verifier)";
   }
   if (a.risk === "medium") {
     if (verifier !== "approve") return "medium risk needs claude-verifier approve";
-    if (codex !== "approve" && codex !== "unavailable") {
-      return "medium risk also needs codex approve (or a recorded 'unavailable')";
+    if (reviewer !== "approve" && reviewer !== "unavailable") {
+      return "medium risk also needs claude-reviewer approve (or a recorded 'unavailable')";
     }
     return null;
   }
-  return codex === "approve" && verifier === "approve"
+  return reviewer === "approve" && verifier === "approve"
     ? null
-    : "high risk needs BOTH codex and claude-verifier approve, no fallback";
+    : "high risk needs BOTH claude-reviewer and claude-verifier approve, no fallback";
 };
 
 /** Why this action may not touch its pages right now, or null. Only the proposer
