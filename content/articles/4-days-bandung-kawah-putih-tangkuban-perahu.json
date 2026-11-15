@@ -1,0 +1,1884 @@
+{
+  "_createdAt": "2026-11-15T07:18:57Z",
+  "_id": "itinerary-4-days-bandung-kawah-putih-tangkuban-perahu",
+  "_rev": "LEC4NLH3Z6ZtqtcNHvxIOO",
+  "_type": "article",
+  "_updatedAt": "2026-11-15T08:10:14Z",
+  "affiliateLinks": [
+    {
+      "_key": "bd4-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "bd4-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/bandung?z=16022946",
+      "anchorText": "Jakarta to Bandung trains, shuttles and buses on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_BANDUNG",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/bandung"
+    },
+    {
+      "_key": "bd4-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Bandung%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "hotels in central Bandung on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_BANDUNG",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Bandung%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bd4-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Bandung/Bandung-private-tour-guide-translator-Car-Rent/d24417-267518P1?pid=P00303362&mcid=42383&medium=link&campaign=Bandung4DayKawahPutih",
+      "anchorText": "private Kawah Putih, tea fields and hot spring day with a guide",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_BANDUNG_KAWAH_PUTIH_PRIVATE",
+      "publicUrl": "https://www.viator.com/tours/Bandung/Bandung-private-tour-guide-translator-Car-Rent/d24417-267518P1"
+    },
+    {
+      "_key": "bd4-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F9478-tangkuban-perahu-crater-tour-bandung%2F",
+      "anchorText": "Tangkuban Perahu crater tour from Bandung",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_TANGKUBAN_PERAHU",
+      "publicUrl": "https://www.klook.com/activity/9478-tangkuban-perahu-crater-tour-bandung/"
+    },
+    {
+      "_key": "bd4-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F9476-private-car-charter-bandung%2F",
+      "anchorText": "private car with driver in Bandung",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_BANDUNG_CAR_CHARTER",
+      "publicUrl": "https://www.klook.com/activity/9476-private-car-charter-bandung/"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-15T07:18:47.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "May to September",
+  "body": [
+    {
+      "_key": "bd4-2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-1",
+          "_type": "span",
+          "marks": [],
+          "text": "Is four days enough for Bandung?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-3",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes. Four days in Bandung gives you one easy arrival day in the old Dutch centre, one early morning at the Kawah Putih crater lake in the southern highlands, one weekday on Tangkuban Perahu and the Lembang hills to the north, and a slow last morning before the fast train back to Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-5",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung is the trip most visitors to Jakarta hear about and few plan properly. The city sits in a bowl of volcanoes about 150 kilometres from the capital, it runs noticeably cooler, and since the high-speed Whoosh line opened the journey takes well under an hour of actual train time. The trap is treating it as a day trip. Kawah Putih clouds over by late morning, Tangkuban Perahu costs more and moves slower at weekends, and the best of Bandung happens before 10am or after dark. This plan keeps one hotel for three nights and gives each crater its own morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-7",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-9",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples, friends and families who want a cool, green break from Jakarta, travellers adding West Java to a longer Java trip, and anyone who likes volcano scenery without a 3am alarm. It works well for children because the craters are reached by road and short walks, not hikes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-11",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for beach travellers: Bandung is inland and the nearest good coast is a long drive away. It is not for temple trips either, which belong in Central Java: read "
+        },
+        {
+          "_key": "bd4-13",
+          "_type": "span",
+          "marks": [
+            "bd4-12"
+          ],
+          "text": "4 days in Yogyakarta"
+        },
+        {
+          "_key": "bd4-14",
+          "_type": "span",
+          "marks": [],
+          "text": " instead. If you want Bandung as one stop on a two-week overland route, use our "
+        },
+        {
+          "_key": "bd4-16",
+          "_type": "span",
+          "marks": [
+            "bd4-15"
+          ],
+          "text": "10-day Java itinerary from Jakarta to Bromo"
+        },
+        {
+          "_key": "bd4-17",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-yogyakarta-borobudur-prambanan-merapi"
+        },
+        {
+          "_key": "bd4-15",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-19",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "bd4-22",
+          "_type": "span",
+          "marks": [],
+          "text": " 4 days, 3 nights, all in Bandung."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "bd4-25",
+          "_type": "span",
+          "marks": [],
+          "text": " Jakarta by fast train, central Bandung, Kawah Putih and Ciwidey to the south, Tangkuban Perahu and Lembang to the north, back to Jakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "bd4-28",
+          "_type": "span",
+          "marks": [],
+          "text": " balanced. One early outing a day with the afternoons kept loose."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "bd4-31",
+          "_type": "span",
+          "marks": [],
+          "text": " couples, friends, families, first visits to West Java."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-33",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "bd4-34",
+          "_type": "span",
+          "marks": [],
+          "text": " May to September is the drier stretch. In the wet months, from roughly November to March, both craters cloud over earlier, so the early starts matter even more."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Getting there:"
+        },
+        {
+          "_key": "bd4-37",
+          "_type": "span",
+          "marks": [],
+          "text": " the Whoosh high-speed train from Halim in East Jakarta to Padalarang, then the free connecting feeder train into Bandung station."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-39",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-41",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung's two volcanic sights sit on opposite sides of the city, a long drive apart through the city, so the route gives each one a separate early morning and keeps a single central hotel. That removes the most common mistake, which is trying both craters in one day and spending most of it in a car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-43",
+          "_type": "span",
+          "marks": [],
+          "text": "The order is deliberate. Kawah Putih comes first because it is the one most exposed to cloud, and you want a spare morning if day two is grey. Tangkuban Perahu comes on a weekday because, as a working estimate, foreign entry was published at 200,000 rupiah on weekdays and 300,000 at weekends and on public holidays, according to a CNN Indonesia ticket guide, and the Lembang road fills with weekend traffic from Jakarta. Fees can change, so check the current rate at the gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-45",
+          "_type": "span",
+          "marks": [],
+          "text": "The city itself is the slack in the plan. Braga's Art Deco street, the Asia-Africa Conference museum and the bamboo music show at Saung Angklung Udjo all fit into afternoons, which is when the mountains are at their worst anyway."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-47",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get from Jakarta to Bandung?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-49",
+          "_type": "span",
+          "marks": [],
+          "text": "The fastest way is the Whoosh high-speed train from Halim station in East Jakarta. It reaches Padalarang in about 30 minutes, and a free feeder train covers the last stretch to Bandung station in around 19 minutes. Allow two to three hours door to door, because reaching Halim through Jakarta traffic is the slow part."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-51",
+          "_type": "span",
+          "marks": [],
+          "text": "KCIC, the operator, uses dynamic pricing. As a working estimate, CNBC Indonesia listed the premium economy fare on the Halim to Padalarang route at 250,000 rupiah in February 2026, while Investor Trust reported holiday fares of up to 350,000 and promotional fares from 200,000 for the return leg that January. Check the current fare when you book. Book on the Whoosh app or the official ticket site, and keep your Whoosh ticket, because it is what gets you onto the feeder train. The feeder is included in the Whoosh fare, according to Metro TV's 2026 schedule guide."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-53",
+          "_type": "span",
+          "marks": [],
+          "text": "If you would rather not deal with Halim, the conventional KAI trains and door-to-door shuttle vans still run between the two cities. They are slower, usually three hours or more depending on traffic, but they drop you closer to the centre. You can compare "
+        },
+        {
+          "_key": "bd4-55",
+          "_type": "span",
+          "marks": [
+            "bd4-54"
+          ],
+          "text": "Jakarta to Bandung trains, shuttles and buses on 12Go"
+        },
+        {
+          "_key": "bd4-56",
+          "_type": "span",
+          "marks": [],
+          "text": " and book the one that fits your arrival."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-54",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_BANDUNG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-58",
+      "_type": "comparisonTable",
+      "caption": "Jakarta to Bandung, compared. Working estimates; check times and fares when you book.",
+      "columns": [
+        "Option",
+        "Time on board",
+        "Where it arrives",
+        "Best for"
+      ],
+      "rows": [
+        {
+          "_key": "bd4-59",
+          "cells": [
+            "Whoosh high-speed train",
+            "About 30 min to Padalarang, plus the 19 min feeder",
+            "Bandung station via Padalarang, or Tegalluar on the east edge",
+            "Most travellers, especially from East or South Jakarta"
+          ]
+        },
+        {
+          "_key": "bd4-60",
+          "cells": [
+            "KAI conventional train",
+            "Roughly 3 hours",
+            "Bandung station, central",
+            "Travellers starting near Gambir or Jakarta Kota"
+          ]
+        },
+        {
+          "_key": "bd4-61",
+          "cells": [
+            "Shuttle van",
+            "3 hours or more, traffic dependent",
+            "Drop-off points around the city",
+            "Budget trips and door-to-door convenience"
+          ]
+        },
+        {
+          "_key": "bd4-62",
+          "cells": [
+            "Private car",
+            "Traffic dependent, slowest on Fridays and Sundays",
+            "Your hotel",
+            "Families with luggage, groups splitting the cost"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bd4-64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-63",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Fast train in, Braga and the Angklung show"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bd4-66",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a mid-morning Whoosh from Halim. You avoid the worst of the Jakarta rush and still reach Bandung by lunch. Get off at Padalarang and change to the feeder train for Bandung station, which puts you a short ride from the old centre."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-68",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bd4-69",
+          "_type": "span",
+          "marks": [],
+          "text": " Drop your bags and head east to Saung Angklung Udjo in Padasuka for the afternoon show at 15:30, which runs for about an hour and a half and ends with the audience playing the bamboo angklung themselves. Visitor accounts on the venue's official site describe the same 15:30 slot. Online booking was paused when we checked in November 2026, so reserve through the WhatsApp contact on the official site."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bd4-72",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk Jalan Braga after dark, when the Art Deco facades are lit and the cafes fill up. It is the easiest first evening in Bandung, and dinner nearby is simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bd4-75",
+          "_type": "span",
+          "marks": [],
+          "text": " central Bandung, around Braga, the Asia-Africa street or Dago. Staying central matters because both crater days start with a long drive out, and you do not want to add a cross-city leg at 6am."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bd4-78",
+          "_type": "span",
+          "marks": [],
+          "text": " use one hotel for all three nights. Search "
+        },
+        {
+          "_key": "bd4-80",
+          "_type": "span",
+          "marks": [
+            "bd4-79"
+          ],
+          "text": "hotels in central Bandung on Booking.com"
+        },
+        {
+          "_key": "bd4-81",
+          "_type": "span",
+          "marks": [],
+          "text": " and filter for the Braga or Dago areas."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-79",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_BANDUNG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bd4-84",
+          "_type": "span",
+          "marks": [],
+          "text": " Bandung sits at around 750 metres, so evenings are noticeably cooler than Jakarta. A light layer is enough in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-86",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Kawah Putih and the Ciwidey highlands"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bd4-89",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave Bandung by 6am for Kawah Putih, the pale turquoise crater lake in the Ciwidey highlands to the south. The drive is roughly 1.5 to 2 hours each way. The gate opens at 7:00 or 7:30 depending on the source, and the goal is to stand at the water before cloud fills the crater, which usually happens by late morning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-91",
+          "_type": "span",
+          "marks": [],
+          "text": "At the lower gate you buy your ticket and board the ontang-anting, the open shuttle that climbs about five kilometres through the forest to the crater rim. As a working estimate, foreign visitors paid about 90,000 rupiah for entry alone, or about 122,000 rupiah with the return shuttle, according to the Info Wisata Ciwidey price check of 1 November 2026. Fees can change, so check the current rate at the counter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-93",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bd4-94",
+          "_type": "span",
+          "marks": [],
+          "text": " On the way back, stop at Situ Patenggang, a lake ringed by tea estates a few kilometres further on, where the same source lists foreign entry at 50,000 rupiah. The Rancabali tea plantation along the same road costs nothing to look at and is the best place for lunch with a view."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-96",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bd4-97",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Bandung by late afternoon. Keep the evening quiet, because tomorrow is another early start."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bd4-100",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the day a driver earns their fee, because the crater, the lake and the tea estates are strung along one mountain road with no useful public transport between them. A "
+        },
+        {
+          "_key": "bd4-102",
+          "_type": "span",
+          "marks": [
+            "bd4-101"
+          ],
+          "text": "private Kawah Putih, tea fields and hot spring day with a guide"
+        },
+        {
+          "_key": "bd4-103",
+          "_type": "span",
+          "marks": [],
+          "text": " handles the timing and the driving. Entrance fees are not included on that tour, so bring cash for the gates."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-101",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_BANDUNG_KAWAH_PUTIH_PRIVATE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bd4-106",
+          "_type": "span",
+          "marks": [],
+          "text": " the crater sits at around 2,400 metres and the sulphur is strong. Bring a fleece, and expect to spend 20 to 30 minutes at the water's edge before your eyes and throat tell you to move. Ticket counters and the shuttle stop running before the official closing time, so do not leave the visit until mid-afternoon."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-108",
+          "_type": "span",
+          "marks": [],
+          "text": "Kawah Putih or Tangkuban Perahu: which crater should you choose?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-110",
+          "_type": "span",
+          "marks": [],
+          "text": "If you can only do one, choose Kawah Putih for the colour of the water and Tangkuban Perahu for convenience. Kawah Putih is the more striking sight but needs a 6am start and a full day. Tangkuban Perahu is closer to the city, combines easily with Lembang, and is the better choice for a half day or with young children."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-112",
+      "_type": "comparisonTable",
+      "caption": "The two Bandung craters side by side. Fees are working estimates from the sources named in the text; check at the gate.",
+      "columns": [
+        "",
+        "Kawah Putih",
+        "Tangkuban Perahu"
+      ],
+      "rows": [
+        {
+          "_key": "bd4-113",
+          "cells": [
+            "Direction from Bandung",
+            "South, Ciwidey highlands",
+            "North, above Lembang"
+          ]
+        },
+        {
+          "_key": "bd4-114",
+          "cells": [
+            "Drive each way",
+            "Roughly 1.5 to 2 hours",
+            "Shorter, but slower at weekends"
+          ]
+        },
+        {
+          "_key": "bd4-115",
+          "cells": [
+            "Foreign entry",
+            "About 90,000 rupiah, or about 122,000 with the shuttle",
+            "About 200,000 rupiah weekdays, 300,000 weekends and holidays"
+          ]
+        },
+        {
+          "_key": "bd4-116",
+          "cells": [
+            "What you see",
+            "A milky turquoise crater lake",
+            "A wide, steaming summit crater you can drive to the rim of"
+          ]
+        },
+        {
+          "_key": "bd4-117",
+          "cells": [
+            "Best time",
+            "Arrive before 10am, before the cloud",
+            "Early on a weekday"
+          ]
+        },
+        {
+          "_key": "bd4-118",
+          "cells": [
+            "Combine with",
+            "Situ Patenggang, Rancabali tea estates",
+            "Lembang farms, cafes and hot springs"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bd4-120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-119",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Tangkuban Perahu and Lembang, on a weekday"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-121",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bd4-122",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive north to Tangkuban Perahu, the volcano whose summit crater you can reach by road. It opens at 7:00, according to IDN Times, and an early arrival gets you the rim views before the tour groups. Walk the rim of the main crater, Kawah Ratu, and if the trails are open, the shorter path down towards the steaming vents of Kawah Domas."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-124",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bd4-125",
+          "_type": "span",
+          "marks": [],
+          "text": " Drop down into Lembang, the farm and cafe belt on the slopes between the volcano and the city. It is built for day trips from Jakarta, so pick one or two stops rather than trying to see the lot. The hot springs at the foot of the mountain are a good way to end the outing if you have time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bd4-128",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to the city before the late-afternoon traffic builds on the Lembang road. Dinner in Dago, the long road climbing north from the centre, which has the densest choice of places to eat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bd4-131",
+          "_type": "span",
+          "marks": [],
+          "text": " a "
+        },
+        {
+          "_key": "bd4-133",
+          "_type": "span",
+          "marks": [
+            "bd4-132"
+          ],
+          "text": "Tangkuban Perahu crater tour from Bandung"
+        },
+        {
+          "_key": "bd4-134",
+          "_type": "span",
+          "marks": [],
+          "text": " bundles the driving with a hot spring and a coffee plantation stop. If you would rather set your own stops, a "
+        },
+        {
+          "_key": "bd4-136",
+          "_type": "span",
+          "marks": [
+            "bd4-135"
+          ],
+          "text": "private car with driver in Bandung"
+        },
+        {
+          "_key": "bd4-137",
+          "_type": "span",
+          "marks": [],
+          "text": " for the day gives you the same flexibility for the whole group."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-132",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_TANGKUBAN_PERAHU"
+        },
+        {
+          "_key": "bd4-135",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BANDUNG_CAR_CHARTER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-141",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-139",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bd4-140",
+          "_type": "span",
+          "marks": [],
+          "text": " Tangkuban Perahu is an active volcano and parts of the crater area close when activity rises. Check the status the evening before, and treat any closed path as closed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-142",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: The Asia-Africa museum and the train back"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bd4-145",
+          "_type": "span",
+          "marks": [],
+          "text": " Spend the last morning in the old centre. The Asia-Africa Conference museum in Gedung Merdeka, where the 1955 Bandung Conference was held, is free and opens Wednesday to Saturday from 9:00 to 15:00 with a break from 12:00 to 13:00, and Friday hours shift around Friday prayers, according to Metro TV in July 2026. Visits are registered online, so do that the day before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bd4-148",
+          "_type": "span",
+          "marks": [],
+          "text": " If your last day falls when the museum is closed, Gedung Sate, the provincial government building with its own small museum, is the alternative. The West Java provincial government lists the ticket at 5,000 rupiah. Then take the feeder train back to Padalarang and the Whoosh to Halim."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-150",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bd4-151",
+          "_type": "span",
+          "marks": [],
+          "text": " book the return Whoosh once you know which day you are leaving. Outside holidays same-day seats are often available, but Sunday afternoon trains back to Jakarta are the first to fill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-155",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-153",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bd4-154",
+          "_type": "span",
+          "marks": [],
+          "text": " the museum's opening days have changed over the years, so check before you plan around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-156",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-158",
+          "_type": "span",
+          "marks": [],
+          "text": "Book your hotel and the Whoosh tickets early if you are travelling over a long weekend or school holiday, because the whole of Jakarta has the same idea. Keep the crater days flexible, because the weather decides which morning is better, and a driver can usually swap days if you ask the evening before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-162",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-160",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "bd4-161",
+          "_type": "span",
+          "marks": [],
+          "text": " the Kawah Putih driver or tour for day two, the Whoosh on Fridays, Sundays and holidays, and the Angklung show seats if you are a group."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-165",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "bd4-164",
+          "_type": "span",
+          "marks": [],
+          "text": " which crater goes on which day, Lembang stops, restaurants, and the return train outside peak days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-166",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Connectivity:"
+        },
+        {
+          "_key": "bd4-167",
+          "_type": "span",
+          "marks": [],
+          "text": " maps and ride-hailing apps make Bandung much easier. Set up an "
+        },
+        {
+          "_key": "bd4-169",
+          "_type": "span",
+          "marks": [
+            "bd4-168"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "bd4-170",
+          "_type": "span",
+          "marks": [],
+          "text": " before you land."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-168",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-172",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in Bandung?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-174",
+          "_type": "span",
+          "marks": [],
+          "text": "The biggest mistake is treating Bandung as a day trip from Jakarta. The train makes it possible, but you arrive mid-morning, after the craters have clouded over, and spend the evening back in Jakarta traffic. The second is doing Tangkuban Perahu on a Saturday, when the road is slowest and the foreign fee is higher."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-176",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arriving at Kawah Putih at midday."
+        },
+        {
+          "_key": "bd4-177",
+          "_type": "span",
+          "marks": [],
+          "text": " The crater often fills with cloud, and on a fixed itinerary there is no second chance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-179",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Doing both craters in one day."
+        },
+        {
+          "_key": "bd4-180",
+          "_type": "span",
+          "marks": [],
+          "text": " It means most of the day in a car, and you see both at their worst."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-182",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Packing only for the tropics."
+        },
+        {
+          "_key": "bd4-183",
+          "_type": "span",
+          "marks": [],
+          "text": " Bandung is cool and the crater rims are cold. A fleece and a rain layer are worth the space."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-187",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-185",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Not carrying cash."
+        },
+        {
+          "_key": "bd4-186",
+          "_type": "span",
+          "marks": [],
+          "text": " Gates, parking and the Kawah Putih shuttle are small payments, and the counters do not always take cards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-188",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-190",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have three days, drop the city morning on day four and leave after Tangkuban Perahu. If you have five, add a slow day in the Ciwidey highlands with a night by Situ Patenggang."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-192",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut to three days:"
+        },
+        {
+          "_key": "bd4-193",
+          "_type": "span",
+          "marks": [],
+          "text": " do Kawah Putih on day two and Tangkuban Perahu on day three, and take the train back that evening."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-195",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt for families:"
+        },
+        {
+          "_key": "bd4-196",
+          "_type": "span",
+          "marks": [],
+          "text": " keep both craters, but shorten the time at the water at Kawah Putih because of the sulphur, and use the Lembang farms as the afternoon reward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-198",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "bd4-199",
+          "_type": "span",
+          "marks": [],
+          "text": " a private driver for both crater days rather than shared tours. It is the one upgrade on this route that buys you real time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-201",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Extend:"
+        },
+        {
+          "_key": "bd4-202",
+          "_type": "span",
+          "marks": [],
+          "text": " continue east by train towards Yogyakarta, roughly 7 to 8 hours, which is how our 10-day Java route connects the two cities."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-204",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-206",
+          "_type": "span",
+          "marks": [],
+          "text": "Check three things before you lock dates: whether your Tangkuban Perahu day falls on a weekday, whether the Asia-Africa museum is open on your last morning, and whether a long weekend or school holiday is pushing up Whoosh fares and hotel prices. Everything else on this route can be decided on the day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-208",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arriving from abroad:"
+        },
+        {
+          "_key": "bd4-209",
+          "_type": "span",
+          "marks": [],
+          "text": " most international visitors land in Jakarta. Bandung's city airport, Husein Sastranegara, resumed jet flights on domestic routes in August 2026, according to RCTI+ and Katadata, so if you are flying in from Bali or another Indonesian city, check whether a direct flight now serves your route before you add the Jakarta leg."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-211",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money:"
+        },
+        {
+          "_key": "bd4-212",
+          "_type": "span",
+          "marks": [],
+          "text": " carry rupiah in small notes for gates, shuttles and parking. Using the fees quoted above, the three main gates in this plan, Kawah Putih with the shuttle, Situ Patenggang and a weekday at Tangkuban Perahu, add up to roughly 370,000 rupiah per foreign adult, before the Angklung show, parking and drivers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-214",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Weather:"
+        },
+        {
+          "_key": "bd4-215",
+          "_type": "span",
+          "marks": [],
+          "text": " expect afternoon rain in the wet season. It rarely spoils a morning, which is why this plan does its outdoor sights early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-217",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict: is Bandung worth four days?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-219",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if you treat it as a mountain break rather than a city tour. Four days in Bandung gives you two volcanic landscapes at their best, cool evenings, and an easy fast-train link to Jakarta. Two days is too few to see both craters well. Five days only makes sense if you want slow time in the highlands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-222",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-221",
+          "_type": "span",
+          "marks": [],
+          "text": "Bandung is not a headline destination, and that is its strength. For anyone already in Jakarta, it is the most rewarding short escape available, and the fast train has removed the one reason people used to skip it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-223",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd4-228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-226",
+          "_type": "span",
+          "marks": [
+            "bd4-225"
+          ],
+          "text": "4 days in Jakarta: old Batavia and the Thousand Islands"
+        },
+        {
+          "_key": "bd4-227",
+          "_type": "span",
+          "marks": [],
+          "text": ", if you are spending time in the capital first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-225",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-jakarta-old-batavia-thousand-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-232",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-230",
+          "_type": "span",
+          "marks": [
+            "bd4-229"
+          ],
+          "text": "10 days in Java from Jakarta to Bromo"
+        },
+        {
+          "_key": "bd4-231",
+          "_type": "span",
+          "marks": [],
+          "text": ", for Bandung as one stop on a longer overland route."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-229",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-java-jakarta-bandung-yogyakarta-bromo"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-234",
+          "_type": "span",
+          "marks": [
+            "bd4-233"
+          ],
+          "text": "4 days in Yogyakarta"
+        },
+        {
+          "_key": "bd4-235",
+          "_type": "span",
+          "marks": [],
+          "text": ", for the temples of Central Java."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-233",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-yogyakarta-borobudur-prambanan-merapi"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "volcano_crater",
+    "tea_plantations",
+    "train_travel",
+    "cultural_performance",
+    "colonial_architecture"
+  ],
+  "faq": [
+    {
+      "_key": "bd4-237",
+      "answer": "Three to four days. Four lets you give Kawah Putih and Tangkuban Perahu a separate early morning each and still have time for the old centre. Three works if you skip the city morning. A day trip from Jakarta is possible on the fast train but arrives after the craters have usually clouded over.",
+      "question": "How many days do you need in Bandung?"
+    },
+    {
+      "_key": "bd4-238",
+      "answer": "The quickest way is the Whoosh high-speed train from Halim in East Jakarta to Padalarang, about 30 minutes, then the free feeder train to Bandung station, about 19 minutes. Conventional KAI trains and shuttle vans take around three hours or more. Allow two to three hours door to door on the fast train.",
+      "question": "How do you get from Jakarta to Bandung?"
+    },
+    {
+      "_key": "bd4-239",
+      "answer": "As a working estimate, about 90,000 rupiah for entry, or about 122,000 rupiah including the return shuttle to the crater rim, according to a local price check in November 2026. Parking and some viewpoints cost extra. Fees can change, so check the current rate at the counter.",
+      "question": "How much is Kawah Putih for foreigners?"
+    },
+    {
+      "_key": "bd4-240",
+      "answer": "Kawah Putih is the more striking sight, with its pale turquoise lake, but it needs a full day and a 6am start. Tangkuban Perahu is closer to the city, easier with children, and combines well with Lembang. If you have four days, do both on separate mornings.",
+      "question": "Is Kawah Putih or Tangkuban Perahu better?"
+    },
+    {
+      "_key": "bd4-241",
+      "answer": "May to September is the drier stretch and gives the best odds of clear crater views. Bandung can be visited all year, but in the wet season the cloud arrives earlier, so the morning starts in this plan matter more. Avoid long weekends and school holidays if you can, when traffic and prices rise.",
+      "question": "When is the best time to visit Bandung?"
+    },
+    {
+      "_key": "bd4-242",
+      "answer": "For the crater days, yes. Kawah Putih and Tangkuban Perahu are both outside the city with little useful public transport, and a driver lets you leave early and stop where you want. In the city itself, ride-hailing apps and walking around Braga are enough.",
+      "question": "Do you need a driver in Bandung?"
+    }
+  ],
+  "focusKeyword": "Bandung itinerary",
+  "heroImage": {
+    "_type": "image",
+    "alt": "The pale turquoise crater lake of Kawah Putih under a blue sky, with a sulphur-stained boulder on the white shore, Ciwidey highlands south of Bandung",
+    "asset": {
+      "_ref": "image-ffb6d12d6cec7ff743286e55d9e0fb6f94ed7e86-3840x2489-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Dicka Ma'arif Alyatalatthof, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Kawah_Putih.jpg"
+  },
+  "intro": "Bandung's two volcanic craters sit on opposite sides of the city, the best views go by late morning and the volcano costs more at weekends. This four-day plan takes the fast train from Jakarta, keeps one hotel, and gives Kawah Putih and Tangkuban Perahu a separate early morning each.",
+  "logisticsComplexity": "easy",
+  "metaDescription": "A 4-day Bandung itinerary: the Whoosh fast train from Jakarta, Kawah Putih before the cloud, Tangkuban Perahu on a weekday, with 2026 entry fees.",
+  "metaTitle": "Bandung Itinerary: 4 Days, Kawah Putih, Tangkuban Perahu",
+  "primaryAffiliatePartner": "klook",
+  "route": "Jakarta by Whoosh fast train to Bandung (3 nights), with early outings south to Kawah Putih and the Ciwidey highlands and north to Tangkuban Perahu and Lembang, then the Asia-Africa museum and the train back to Jakarta",
+  "routeSummary": "Jakarta → Bandung → Kawah Putih → Tangkuban Perahu → Jakarta",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "12go",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "4-days-bandung-kawah-putih-tangkuban-perahu"
+  },
+  "title": "4 Days in Bandung: Kawah Putih, Tangkuban Perahu and the Fast Train from Jakarta",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "wildlife_nature"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "families"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 4,
+  "vibe": "balanced"
+}

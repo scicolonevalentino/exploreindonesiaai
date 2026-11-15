@@ -1,9 +1,9 @@
 {
   "_createdAt": "2026-10-19T04:16:49Z",
   "_id": "itinerary-4-days-jakarta-old-batavia-thousand-islands",
-  "_rev": "meGrS2nZYNqXn9hmHs0Zlk",
+  "_rev": "LEC4NLH3Z6ZtqtcNHvxKyO",
   "_type": "article",
-  "_updatedAt": "2026-11-06T04:17:12Z",
+  "_updatedAt": "2026-11-15T08:10:22Z",
   "affiliateLinks": [
     {
       "_key": "jk-aff0",
@@ -1563,6 +1563,41 @@
           "_type": "externalLink",
           "blank": false,
           "href": "/trips/6-days-belitung-granite-beaches-island-hopping"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4-inb-1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4-inb-s1",
+          "_type": "span",
+          "marks": [],
+          "text": "If you have more days after Jakarta, the fast train puts Bandung within easy reach. Our "
+        },
+        {
+          "_key": "bd4-inb-s2",
+          "_type": "span",
+          "marks": [
+            "bd4-inb-m"
+          ],
+          "text": "4-day Bandung itinerary"
+        },
+        {
+          "_key": "bd4-inb-s3",
+          "_type": "span",
+          "marks": [],
+          "text": " gives the Kawah Putih crater lake and Tangkuban Perahu a separate early morning each, from one hotel in the cool hills."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bd4-inb-m",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-bandung-kawah-putih-tangkuban-perahu"
         }
       ],
       "style": "normal"
