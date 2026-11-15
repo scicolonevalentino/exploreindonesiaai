@@ -36,3 +36,6 @@ dist-ssr
 
 # link audit output
 reports/
+
+# Autonomous SEO system state: local only, this repository is public
+ops/seo/
