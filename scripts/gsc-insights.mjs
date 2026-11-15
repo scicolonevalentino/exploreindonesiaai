@@ -86,6 +86,8 @@ function token() {
     TOKEN = execFileSync("gcloud", ["auth", "application-default", "print-access-token"], {
       encoding: "utf8",
       stdio: ["ignore", "pipe", "pipe"],
+      // gcloud breaks on the system Python 3.9; python3.11 is on PATH here.
+      env: { CLOUDSDK_PYTHON: "python3.11", ...process.env },
     }).trim();
   } catch {
     console.error(
