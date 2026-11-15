@@ -18,6 +18,7 @@
 //   node scripts/seo-ledger.mjs close <id> --note "..."     # done outside the system / obsolete
 //   node scripts/seo-ledger.mjs exp list [--open] [--due]
 //   node scripts/seo-ledger.mjs exp add <file.json>
+//   node scripts/seo-ledger.mjs exp budget              # experiment slots left this week
 //   node scripts/seo-ledger.mjs exp close <id> --outcome worked|failed|inconclusive|reverted --note "..."
 //   node scripts/seo-ledger.mjs locked [--json]
 //   node scripts/seo-ledger.mjs digest [--days 7]
@@ -342,7 +343,16 @@ if (cmd === "queue") {
     Object.assign(e, { status: "closed", outcome, note, closedAt: today() });
     save(l);
     console.log(`${e.id} closed: ${outcome}`);
-  } else die("exp list|add|close");
+  } else if (sub === "budget") {
+    // At most 4 NEW experiments in any 7 days. Older open ones do not count.
+    const since = new Date(new Date(today()).getTime() - 7 * 864e5).toISOString().slice(0, 10);
+    const recent = l.experiments.filter((e) => e.appliedAt > since && e.outcome !== "reverted");
+    const left = Math.max(0, 4 - recent.length);
+    console.log(
+      `experiments opened since ${since}: ${recent.length}. Slots left this week: ${left}`,
+    );
+    recent.forEach((e) => console.log(`  ${e.id} ${e.appliedAt} ${e.page}`));
+  } else die("exp list|add|close|budget");
 } else if (cmd === "locked") {
   const l = load();
   const locks = [...lockedPages(l).values()].map((e) => ({
