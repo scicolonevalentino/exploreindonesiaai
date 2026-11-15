@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 // Independent review in a SEPARATE Claude process: fresh context, read-only
 // tools, only the review packet and the brief, never the author's conversation.
-// Claude only (founder decision, 2026-11-15), and the model is proportional to
-// the stakes: Sonnet for low-risk actions, Opus for medium and high risk.
+// Claude only (founder decision, 2026-11-15).
 //
 //   node scripts/seo-review.mjs <packet.md> --id <A-...>
 //
@@ -28,13 +27,10 @@ if (!packet || !existsSync(packet) || !id) {
 const ledger = (...args) =>
   spawnSync("node", [join(root, "scripts/seo-ledger.mjs"), ...args], { encoding: "utf8" });
 
-const shown = ledger("show", id);
-if (shown.status !== 0) {
-  console.error(shown.stderr.trim() || `no action ${id} in the ledger`);
-  process.exit(2);
-}
-const risk = JSON.parse(shown.stdout).risk;
-const MODEL = process.env.SEO_REVIEW_MODEL || (risk === "low" ? "sonnet" : "opus");
+// Always Opus. Tested on 2026-11-15 with the same incomplete packet: Opus sent
+// it back, Sonnet approved it. The reviewer is the last check before
+// production and a short job, so this is where the stronger model is needed.
+const MODEL = process.env.SEO_REVIEW_MODEL || "opus";
 
 const brief = readFileSync(join(root, "ops/seo/reviewer-brief.md"), "utf8");
 const schema = readFileSync(join(root, "ops/seo/review-schema.json"), "utf8");
