@@ -19,7 +19,7 @@ import {
 import { DESTINATION_CONTENT } from "@/data/destinations";
 import { socialImageMeta } from "@/lib/og";
 
-const TRIPS_TITLE = "Indonesia Itineraries: 60+ Routes by Days, Style and Island";
+const TRIPS_TITLE = "Indonesia Itineraries: 85+ Routes by Days, Style and Island";
 const TRIPS_DESCRIPTION =
   "Every Indonesia itinerary we have, filterable by destination, trip length, travel style and traveller type. From 2-day escapes to 30-day routes.";
 
