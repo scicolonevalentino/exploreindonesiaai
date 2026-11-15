@@ -4,8 +4,9 @@ import { P1Page } from "./p1";
 
 // Hidden preview page: the real homepage layout, but with the LIVE trip builder
 // embedded in the "try it" slot where the public homepage shows the illustrative
-// demo. noindex + preview-branch only (never production), lets us see the real
-// P1 product running inside the real homepage context for the first time.
+// demo. The route is reachable in production (it answers 200) but is noindex and
+// not linked from anywhere, so it only serves as a way to see the real P1 product
+// running inside the real homepage context.
 export const Route = createFileRoute("/p1-home")({
   head: () => ({
     meta: [
