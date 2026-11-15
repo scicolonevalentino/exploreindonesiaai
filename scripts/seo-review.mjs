@@ -31,6 +31,11 @@ const ledger = (...args) =>
 // it back, Sonnet approved it. The reviewer is the last check before
 // production and a short job, so this is where the stronger model is needed.
 const MODEL = process.env.SEO_REVIEW_MODEL || "opus";
+// Founder rule: Fable is never used anywhere in this system.
+if (/fable/i.test(MODEL)) {
+  console.error("seo-review: Fable is not allowed in this system. Unset SEO_REVIEW_MODEL.");
+  process.exit(2);
+}
 
 const brief = readFileSync(join(root, "ops/seo/reviewer-brief.md"), "utf8");
 const schema = readFileSync(join(root, "ops/seo/review-schema.json"), "utf8");
