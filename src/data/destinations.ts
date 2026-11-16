@@ -984,13 +984,9 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     //
     // Two deviations from the plan as written, both deliberate:
     //
-    // 1. Park fees. The plan quoted IDR 250,000 per day plus a IDR 200,000 ranger
-    //    fee. That is the older unbundled structure. Five documents already live
-    //    (5-days-labuan-bajo-komodo, 10-days-komodo-flores, 14-days-bali-komodo-sumba,
-    //    7-days-komodo-honeymoon-private-boat and their FAQs) publish the 2026
-    //    bundled ticket instead, around IDR 650,000 or IDR 900,000 per route through
-    //    the SiORA app. The published value wins. Note 7-days-komodo-diving keeps the
-    //    per-day marine park figure on purpose: divers pay a different structure.
+    // 1. Park fees: IDR 250,000 per foreign visitor per day (PP 36/2024) plus harbour
+    //    and ranger fees, aligned on 2026-11 (action komodo-park-fee-align). The
+    //    650,000/900,000 per-route bundle was not supported by sources.
     // 2. Season. The plan implied the dry season improves your chances of seeing a
     //    dragon. best-time-to-visit-komodo already says the opposite and is right:
     //    dragons are seen year-round on ranger walks, and the season decides the
@@ -1101,8 +1097,8 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
       {
         heading: "How much does it cost to enter Komodo National Park?",
         body: [
-          "Komodo now sells one bundled ticket per route rather than stacked fees. As a working estimate for 2026, budget around IDR 650,000 per person for the Komodo Island route, or around IDR 900,000 for routes taking in Rinca and Padar. Divers pay a different per-day structure. Fees change, so check the current official guidance.",
-          "The bigger change is not the price, it is the booking. Tickets are pre-booked through the SiORA app or a licensed operator, and walk-up sales at the ranger post are no longer the route in. Most travellers never touch the app because their boat operator holds the slots, which is the practical argument for booking the boat rather than assembling the day yourself.",
+          "As a working estimate for 2026, foreign visitors pay a park entry of about IDR 250,000 per person per day under the national tariff regulation PP 36/2024, plus a harbour fee of about IDR 25,000 per person and a ranger fee of roughly IDR 150,000 to 200,000 per group. Tickets are dated and booked ahead through the SiORA system, usually by your operator. Divers pay a different per-day structure. Fees change, so check the current official guidance.",
+          "The bigger change is the booking. Tickets are pre-booked through the SiORA app or a licensed operator, and walk-up sales at the ranger post are no longer the route in. Most travellers never touch the app because their boat operator holds the slots, which is the practical argument for booking the boat rather than assembling the day yourself.",
         ],
         subsections: [
           {
