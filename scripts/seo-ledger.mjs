@@ -380,6 +380,14 @@ if (cmd === "queue") {
   // The executor does not choose its batch: this does, deterministically.
   const l = load();
   if (existsSync(join(root, "ops/seo/PAUSE"))) die("ops/seo/PAUSE exists: system paused");
+  // One plan per run. A second plan within 3 hours would replace the batch the
+  // run was given (seen on 16/11: a run re-planned at the end and left it open).
+  const last = (l.runs || []).at(-1);
+  if (last?.ts && Date.now() - Date.parse(last.ts) < 3 * 3600e3) {
+    die(
+      `a plan (${last.id}) was already made at ${last.ts}: finish that batch, then run "plan --check". One plan per run.`,
+    );
+  }
   const size = Number(flag("size")) || 6;
   const since = new Date(new Date(today()).getTime() - 7 * 864e5).toISOString().slice(0, 10);
   let slots = Math.max(
@@ -422,6 +430,7 @@ if (cmd === "queue") {
   const run = {
     id: `R-${today().replaceAll("-", "")}-${String((l.runs || []).length + 1).padStart(2, "0")}`,
     at: today(),
+    ts: new Date().toISOString(),
     planned: picked.map((a) => a.id),
   };
   l.runs = [...(l.runs || []), run];
