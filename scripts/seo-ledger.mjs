@@ -20,6 +20,9 @@
 //   node scripts/seo-ledger.mjs exp add <file.json>
 //   node scripts/seo-ledger.mjs exp budget              # experiment slots left this week
 //   node scripts/seo-ledger.mjs exp close <id> --outcome worked|failed|inconclusive|reverted --note "..."
+//   node scripts/seo-ledger.mjs plan [--size 6]           # executor: pick THIS run's batch
+//   node scripts/seo-ledger.mjs plan --check              # end of run: every planned action resolved?
+//   node scripts/seo-ledger.mjs defer <id> --reason "..." # planned but not done; 3rd time -> founder
 //   node scripts/seo-ledger.mjs locked [--json]
 //   node scripts/seo-ledger.mjs digest [--days 7]
 
@@ -166,7 +169,7 @@ const line = (a) =>
 const cmd = argv[0];
 
 // Master switch: with ops/seo/PAUSE present nothing is written, by anyone.
-const WRITES = ["add", "review", "apply", "reopen", "reject", "founder", "close"];
+const WRITES = ["add", "review", "apply", "reopen", "reject", "founder", "close", "defer"];
 const isWrite = WRITES.includes(cmd) || (cmd === "exp" && ["add", "close"].includes(argv[1]));
 if (isWrite && existsSync(join(root, "ops/seo/PAUSE"))) {
   die("ops/seo/PAUSE exists: the autonomous SEO system is paused, nothing is written");
@@ -353,6 +356,103 @@ if (cmd === "queue") {
     );
     recent.forEach((e) => console.log(`  ${e.id} ${e.appliedAt} ${e.page}`));
   } else die("exp list|add|close|budget");
+} else if (cmd === "plan" && flag("check")) {
+  // End of an executor run: nothing the plan picked may be left silently queued.
+  const l = load();
+  const run = (l.runs || []).at(-1);
+  if (!run) die("no plan recorded");
+  const loose = run.planned
+    .map((id) => find(l, id))
+    .filter((a) => a.status === "queued" && !(a.deferrals || []).some((d) => d.run === run.id));
+  if (loose.length) {
+    die(
+      `run ${run.id}: ${loose.length} planned action(s) neither applied, rejected, closed, passed to founder nor deferred with a reason: ${loose.map((a) => a.id).join(", ")}`,
+    );
+  }
+  const done = run.planned.map((id) => find(l, id));
+  console.log(`run ${run.id}: all ${run.planned.length} planned actions resolved`);
+  done.forEach((a) =>
+    console.log(
+      `  ${a.id} ${a.status}${a.status === "queued" ? " (deferred: " + a.deferrals.at(-1).reason + ")" : ""}`,
+    ),
+  );
+} else if (cmd === "plan") {
+  // The executor does not choose its batch: this does, deterministically.
+  const l = load();
+  if (existsSync(join(root, "ops/seo/PAUSE"))) die("ops/seo/PAUSE exists: system paused");
+  const size = Number(flag("size")) || 6;
+  const since = new Date(new Date(today()).getTime() - 7 * 864e5).toISOString().slice(0, 10);
+  let slots = Math.max(
+    0,
+    4 - l.experiments.filter((e) => e.appliedAt > since && e.outcome !== "reverted").length,
+  );
+  const OPENS_EXPERIMENT = ["snippet", "content", "code"];
+  const ORDER = ["fix", "structural", "snippet", "content", "code", "tooling"];
+  const status = (id) => l.actions.find((x) => x.id === id)?.status;
+  const cands = l.actions
+    .filter((a) => a.status === "queued" && a.type !== "article" && a.type !== "manual")
+    .sort(
+      (a, b) =>
+        (b.deferrals?.length || 0) - (a.deferrals?.length || 0) ||
+        ORDER.indexOf(a.type) - ORDER.indexOf(b.type) ||
+        (b.seen || 1) - (a.seen || 1) ||
+        a.id.localeCompare(b.id),
+    );
+  const picked = [];
+  const skipped = [];
+  const pages = new Set();
+  let high = 0;
+  for (const a of cands) {
+    const why =
+      (a.dependsOn || []).filter((d) => status(d) !== "applied").map((d) => `waits for ${d}`)[0] ||
+      lockReason(l, a) ||
+      (a.pages.some((p) => pages.has(p)) && "same page as an earlier pick, next run") ||
+      (a.risk === "high" && high >= 1 && "one high-risk action per run") ||
+      (OPENS_EXPERIMENT.includes(a.type) && slots === 0 && "no experiment slot left this week") ||
+      (picked.length >= size && "batch full");
+    if (why) {
+      skipped.push([a, why]);
+      continue;
+    }
+    picked.push(a);
+    a.pages.forEach((p) => pages.add(p));
+    if (a.risk === "high") high++;
+    if (OPENS_EXPERIMENT.includes(a.type)) slots--;
+  }
+  const run = {
+    id: `R-${today().replaceAll("-", "")}-${String((l.runs || []).length + 1).padStart(2, "0")}`,
+    at: today(),
+    planned: picked.map((a) => a.id),
+  };
+  l.runs = [...(l.runs || []), run];
+  save(l);
+  console.log(
+    `PLAN ${run.id}: do ALL of these, in this order. Each ends applied, rejected, closed, founder or deferred.`,
+  );
+  picked.forEach((a, i) =>
+    console.log(
+      `  ${i + 1}. ${a.id} ${a.risk}/${a.type} ${a.title}${a.deferrals?.length ? `  [deferred ${a.deferrals.length}x before: do it now]` : ""}`,
+    ),
+  );
+  console.log("Not in this run:");
+  skipped.forEach(([a, why]) => console.log(`  ${a.id} ${why}`));
+} else if (cmd === "defer") {
+  const l = load();
+  const a = find(l, argv[1]);
+  const reason = flag("reason");
+  if (typeof reason !== "string" || reason.length < 25)
+    die("--reason must say concretely what blocked it (25+ chars)");
+  if (/\b(tempo|time|priorit)/i.test(reason))
+    die("time and priority are not reasons: the batch was sized for one run. Do it.");
+  const run = (l.runs || []).at(-1);
+  if (!run || !run.planned.includes(a.id)) die(`${a.id} is not in the current plan`);
+  a.deferrals = [...(a.deferrals || []), { at: today(), run: run.id, reason }];
+  if (a.deferrals.length >= 3) {
+    a.status = "founder";
+    a.resolution = { at: today(), note: `executor deferred it 3 times. Last reason: ${reason}` };
+    console.log(`${a.id} deferred 3 times: passed to the founder`);
+  } else console.log(`${a.id} deferred (${a.deferrals.length}/3)`);
+  save(l);
 } else if (cmd === "locked") {
   const l = load();
   const locks = [...lockedPages(l).values()].map((e) => ({
@@ -403,6 +503,12 @@ if (cmd === "queue") {
     queued,
     (a) => `${a.id} ${a.risk}/${a.type} ${a.title}${a.seen > 1 ? ` (seen ${a.seen}x)` : ""}`,
   );
+  const deferred = l.actions.filter((a) => (a.deferrals || []).some((d) => d.at >= since));
+  sec(
+    "Deferred by the executor",
+    deferred,
+    (a) => `${a.id} ${a.deferrals.length}x, last: ${a.deferrals.at(-1).reason}`,
+  );
   sec(
     "Only the founder can do these",
     founder,
@@ -410,6 +516,6 @@ if (cmd === "queue") {
   );
 } else {
   die(
-    "commands: queue | show | add | review | gate | apply | reopen | reject | founder | close | exp | locked | digest",
+    "commands: queue | show | add | review | gate | apply | reopen | reject | founder | close | defer | plan | exp | locked | digest",
   );
 }
