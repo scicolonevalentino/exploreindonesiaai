@@ -1,0 +1,2205 @@
+{
+  "_createdAt": "2026-11-16T04:16:22Z",
+  "_id": "itinerary-5-days-yogyakarta-gunungkidul-jomblang-cave-timang",
+  "_rev": "dCEclPjcksN7pCj4eBqSZD",
+  "_type": "article",
+  "_updatedAt": "2026-11-16T04:25:36Z",
+  "affiliateLinks": [
+    {
+      "_key": "ygk5-279",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "ygk5-280",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://12go.asia/en/travel/jakarta/yogyakarta?z=16022946",
+      "anchorText": "Jakarta to Yogyakarta trains and flights on 12Go",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "12go",
+      "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA",
+      "publicUrl": "https://12go.asia/en/travel/jakarta/yogyakarta"
+    },
+    {
+      "_key": "ygk5-281",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "hotels in Yogyakarta on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_YOGYAKARTA",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Yogyakarta%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "ygk5-282",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Wonosari%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "places to stay in Wonosari on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_WONOSARI",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Wonosari%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "ygk5-283",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F7882-private-car-charter-yogyakarta%2F",
+      "anchorText": "Yogyakarta private car charter on Klook",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_YOGYAKARTA_CAR_CHARTER",
+      "publicUrl": "https://www.klook.com/activity/7882-private-car-charter-yogyakarta/"
+    },
+    {
+      "_key": "ygk5-284",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F16059-jomblang-pindul-cave-tour-yogyakarta%2F",
+      "anchorText": "Jomblang and Pindul cave day tour on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_JOMBLANG_PINDUL",
+      "publicUrl": "https://www.klook.com/activity/16059-jomblang-pindul-cave-tour-yogyakarta/"
+    },
+    {
+      "_key": "ygk5-285",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F15968-jomblang-timang-beach-tour-yogyakarta%2F",
+      "anchorText": "Jomblang Cave and Timang Beach private day tour on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_JOMBLANG_TIMANG",
+      "publicUrl": "https://www.klook.com/activity/15968-jomblang-timang-beach-tour-yogyakarta/"
+    },
+    {
+      "_key": "ygk5-286",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Yogyakarta/Yogyakarta-Pindul-Cave-Jomblang-Cave-Timang-Beach-Tour/d22560-378357P8?pid=P00303362&mcid=42383&medium=link&campaign=yogyakarta-gunungkidul-5-days",
+      "anchorText": "this Jomblang and Pindul tour on Viator",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_JOMBLANG_PINDUL",
+      "publicUrl": "https://www.viator.com/tours/Yogyakarta/Yogyakarta-Pindul-Cave-Jomblang-Cave-Timang-Beach-Tour/d22560-378357P8"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-16T04:16:10.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April to October",
+  "body": [
+    {
+      "_key": "ygk5-2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-1",
+          "_type": "span",
+          "marks": [],
+          "text": "What is there to do in Yogyakarta besides temples?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-3",
+          "_type": "span",
+          "marks": [],
+          "text": "Head southeast into Gunungkidul, the limestone hill country between Yogyakarta and the Indian Ocean. In five days you can rope down into Jomblang, a vertical cave with a beam of midday light, float through Pindul cave on a tube, cross to Timang island in a hand-pulled gondola and climb an ancient volcano at Nglanggeran."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-5",
+          "_type": "span",
+          "marks": [],
+          "text": "Most people come to Yogyakarta for Borobudur and Prambanan, and they are right to. The problem starts on the third day, when the temples are done and the city still has more to give. Gunungkidul, the regency that fills the karst south and east of the city, is where Yogyakarta families go at weekends: caves, a rough coast and community-run hills. Its best sights run on fixed clocks. Jomblang only works in the late morning, the Timang gondola stops when the sea is rough, and the coast is a long drive from town. This plan moves you out of the city for two nights so the clocks work for you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-7",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-9",
+          "_type": "span",
+          "marks": [],
+          "text": "This itinerary suits active couples, friends and solo travellers who have already seen the temples, or are seeing them on another trip, and want two or three physical days: a rope descent, a muddy cave walk, a cave float, a cliff-top gondola and a short volcano hike, with one quiet morning in a pine forest to finish."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-11",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not a first visit to Yogyakarta. If you have never seen Borobudur, start with our "
+        },
+        {
+          "_key": "ygk5-13",
+          "_type": "span",
+          "marks": [
+            "ygk5-12"
+          ],
+          "text": "4 days in Yogyakarta"
+        },
+        {
+          "_key": "ygk5-14",
+          "_type": "span",
+          "marks": [],
+          "text": " and treat this as the second half of a longer stay. It is not a family plan either: Jomblang is a 60-metre descent on a rope and Timang is a wooden box over open sea. Families with children should read "
+        },
+        {
+          "_key": "ygk5-16",
+          "_type": "span",
+          "marks": [
+            "ygk5-15"
+          ],
+          "text": "8 days in Yogyakarta with kids"
+        },
+        {
+          "_key": "ygk5-17",
+          "_type": "span",
+          "marks": [],
+          "text": ", which keeps Gunungkidul to one gentle day. And if you want swimming beaches, Lombok fits better: most of this coast is rock and surf."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-12",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-yogyakarta-borobudur-prambanan-merapi"
+        },
+        {
+          "_key": "ygk5-15",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-19",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-21",
+          "_type": "span",
+          "marks": [],
+          "text": "Five days and four nights: one night in Yogyakarta, two nights in Wonosari, the main town of Gunungkidul, and a last night back in the city. You need a car with a driver for Days 2 to 4, an early start on three mornings, and cash for every gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Length:"
+        },
+        {
+          "_key": "ygk5-24",
+          "_type": "span",
+          "marks": [],
+          "text": " 5 days, 4 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-26",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Bases:"
+        },
+        {
+          "_key": "ygk5-27",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta (Night 1), Wonosari in Gunungkidul (Nights 2 and 3), Yogyakarta (Night 4)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-29",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best season:"
+        },
+        {
+          "_key": "ygk5-30",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October, the dry months, when the light in Jomblang is more reliable and the sea at Timang is calmer more often."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "ygk5-33",
+          "_type": "span",
+          "marks": [],
+          "text": " active, with three early mornings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rough route:"
+        },
+        {
+          "_key": "ygk5-36",
+          "_type": "span",
+          "marks": [],
+          "text": " Yogyakarta, Kotagede, Jomblang and Pindul caves, Timang, Nglanggeran, Mangunan pine forest, Yogyakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-38",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-40",
+          "_type": "span",
+          "marks": [],
+          "text": "The route follows the clocks. Jomblang descends only in the late morning, so you need to sleep within reach of it or leave the city by 07:00. Timang is best between 08:00 and 10:00. Sleeping two nights in Wonosari puts both within an easy morning, and Nglanggeran sits on the road back to the city."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-42",
+          "_type": "span",
+          "marks": [],
+          "text": "Distances are the hidden cost here. Yogyakarta's provincial tourism office puts Timang at about 80 kilometres, or two to three hours, from the city centre, on a road that ends in rock and steep slopes. Do it as a day trip from a city hotel and you spend five or six hours in a car for one gondola ride. Jomblang is closer, about an hour and a half from the city according to a Yogyakarta tour operator's 2026 guide, and Pindul is about 15 minutes from Jomblang. Grouping them in one day, then staying out on the karst, is what makes the trip work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-44",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive in Yogyakarta and walk Kotagede"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-46",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1 is an arrival day with one easy outing. Land, check into a central hotel, spend the late afternoon in Kotagede, the old silver-working quarter in the southeast of the city, and eat early. The car and driver for Days 2 to 4 should already be booked before you land."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "ygk5-49",
+          "_type": "span",
+          "marks": [],
+          "text": " If you fly into Yogyakarta International Airport, code YIA, take the airport train to Tugu station in the centre rather than the road, which is slow at busy hours. If you come from Jakarta, you can compare "
+        },
+        {
+          "_key": "ygk5-51",
+          "_type": "span",
+          "marks": [
+            "ygk5-50"
+          ],
+          "text": "Jakarta to Yogyakarta trains and flights on 12Go"
+        },
+        {
+          "_key": "ygk5-52",
+          "_type": "span",
+          "marks": [],
+          "text": "; the trains drop you in the city centre."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-50",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "TWELVEGO_JAKARTA_YOGYAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "ygk5-55",
+          "_type": "span",
+          "marks": [],
+          "text": " Take a car or a ride-hailing motorbike to Kotagede for its silver workshops and narrow lanes. It is a short visit, and a good one for a travel day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "ygk5-58",
+          "_type": "span",
+          "marks": [],
+          "text": " Eat gudeg, the city's sweet jackfruit stew, and sleep early. Day 2 starts at 07:00."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-60",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "ygk5-61",
+          "_type": "span",
+          "marks": [],
+          "text": " central Yogyakarta, near Malioboro or Prawirotaman. Look at "
+        },
+        {
+          "_key": "ygk5-63",
+          "_type": "span",
+          "marks": [
+            "ygk5-62"
+          ],
+          "text": "hotels in Yogyakarta on Booking.com"
+        },
+        {
+          "_key": "ygk5-64",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-62",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_YOGYAKARTA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "ygk5-67",
+          "_type": "span",
+          "marks": [],
+          "text": " book your car with a driver for the next three days today, not on arrival. A "
+        },
+        {
+          "_key": "ygk5-69",
+          "_type": "span",
+          "marks": [
+            "ygk5-68"
+          ],
+          "text": "Yogyakarta private car charter on Klook"
+        },
+        {
+          "_key": "ygk5-70",
+          "_type": "span",
+          "marks": [],
+          "text": " can be set for 10 or 12 hours a day. As a working estimate, one Yogyakarta operator's 2026 guide puts a full day with car and driver at about 600,000 to 750,000 rupiah."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-68",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_YOGYAKARTA_CAR_CHARTER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-72",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Jomblang Cave and Pindul cave tubing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-74",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2 is the reason for the trip. Leave Yogyakarta at 07:00, be at the Jomblang basecamp by 09:00, rope down into the sinkhole and walk to the beam of light. After the cave lunch, float through Pindul cave 15 minutes away, then drive on to Wonosari for the night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-76",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "ygk5-77",
+          "_type": "span",
+          "marks": [],
+          "text": " Jomblang is a collapsed sinkhole with a small forest growing at the bottom. A Yogyakarta operator's guide, updated in October 2026, describes a 60-metre descent on a rope, a walk of about 200 metres through Grubug, the dark connecting cave, and descents that start at about 09:30 and continue until about noon. The same guide puts the best of the light between 10:00 and 13:00, usually strongest around 11:00. As a working estimate, the entrance is 500,000 rupiah per person in cash, which the same guide says covers guides, harness, helmet, boots and a simple lunch. A Viator tour checked on 16 November 2026 lists the same 500,000 rupiah as the Jomblang entrance fee."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "ygk5-80",
+          "_type": "span",
+          "marks": [],
+          "text": " Pindul is a slow float through a river cave on an inner tube, pulled along by guides, which takes about 45 to 60 minutes according to the same 2026 guide. It lists foreign entry at about 50,000 to 75,000 rupiah, opening hours of 07:00 to 16:00 and a last entry at about 14:00. One Viator package budgets 200,000 rupiah for Pindul instead, so confirm the rate at the basecamp."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "ygk5-83",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive on to Wonosari and shower. You will need it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "ygk5-86",
+          "_type": "span",
+          "marks": [],
+          "text": " Wonosari. See "
+        },
+        {
+          "_key": "ygk5-88",
+          "_type": "span",
+          "marks": [
+            "ygk5-87"
+          ],
+          "text": "places to stay in Wonosari on Booking.com"
+        },
+        {
+          "_key": "ygk5-89",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-87",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_WONOSARI"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "ygk5-92",
+          "_type": "span",
+          "marks": [],
+          "text": " the guide says Jomblang takes about 80 to 100 visitors a day, first come, first served, so reserve through an operator in high season and at weekends. If you would rather not organise it yourself, the "
+        },
+        {
+          "_key": "ygk5-94",
+          "_type": "span",
+          "marks": [
+            "ygk5-93"
+          ],
+          "text": "Jomblang and Pindul cave day tour on Klook"
+        },
+        {
+          "_key": "ygk5-95",
+          "_type": "span",
+          "marks": [],
+          "text": " bundles the car, both caves and river tubing, and "
+        },
+        {
+          "_key": "ygk5-97",
+          "_type": "span",
+          "marks": [
+            "ygk5-96"
+          ],
+          "text": "this Jomblang and Pindul tour on Viator"
+        },
+        {
+          "_key": "ygk5-98",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the same pair on a 10-hour schedule. On either, check whether the entrance fees are included or paid in cash on the day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-93",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_JOMBLANG_PINDUL"
+        },
+        {
+          "_key": "ygk5-96",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_JOMBLANG_PINDUL"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "ygk5-101",
+          "_type": "span",
+          "marks": [],
+          "text": " the last stretch to Jomblang is bumpy and muddy after rain. Wear clothes you can ruin, bring a full change, and keep your phone in a waterproof bag in Pindul."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-103",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Timang and the gondola to the island"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-105",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3 is the coast. Get to Timang between 08:00 and 10:00, ride the 4x4 shuttle down the last rocky stretch, and cross to the island by the hand-pulled gondola or the suspension bridge. Spend the afternoon on a calmer beach nearby, then return to Wonosari for a second night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "ygk5-108",
+          "_type": "span",
+          "marks": [],
+          "text": " Timang is a rocky coast with a boulder island just offshore. The provincial tourism office describes the gondola as a wooden box on ropes about 98 metres long, 9 to 11 metres above the sea, pulled by hand. It was first built by fishermen to reach the lobster on the island. The operator's guide published in October 2026 puts the gondola at about 200,000 rupiah per person return, the suspension bridge at about 150,000 rupiah, and the beach entrance at about 10,000 rupiah. Regular cars cannot drive the last 5 kilometres: a 4x4 jeep shuttle costs about 350,000 rupiah per vehicle for up to four people, and takes about 20 minutes each way. Treat all of these as working estimates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-110",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "ygk5-111",
+          "_type": "span",
+          "marks": [],
+          "text": " The provincial office notes that swimming is forbidden on the west side of Timang because of the wind and waves, while the east side has white sand and quieter water. Spend the afternoon on that side, or ask your driver for the nearest sheltered beach that day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-113",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "ygk5-114",
+          "_type": "span",
+          "marks": [],
+          "text": " Back to Wonosari. Eat early; Day 4 starts before dawn."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-116",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "ygk5-117",
+          "_type": "span",
+          "marks": [],
+          "text": " Wonosari."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-124",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-119",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "ygk5-120",
+          "_type": "span",
+          "marks": [],
+          "text": " the guide says the operators check the waves first and will not run the gondola when the sea is rough, however far you have travelled. That is why Timang has its own morning and a spare afternoon. If you prefer one booking, the "
+        },
+        {
+          "_key": "ygk5-122",
+          "_type": "span",
+          "marks": [
+            "ygk5-121"
+          ],
+          "text": "Jomblang Cave and Timang Beach private day tour on Klook"
+        },
+        {
+          "_key": "ygk5-123",
+          "_type": "span",
+          "marks": [],
+          "text": " combines both in one 13-hour day from Yogyakarta, at the cost of a very long day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-121",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_JOMBLANG_TIMANG"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-125",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "ygk5-126",
+          "_type": "span",
+          "marks": [],
+          "text": " the gondola is open-sided and sways with the wind. If heights are a problem, the bridge is no easier; watch the crossing from the cliff instead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-128",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Nglanggeran ancient volcano and back to the city"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-130",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4 is an early hike on the way back. Nglanggeran, an extinct volcano in Patuk, sits about 25 kilometres or an hour by car from Yogyakarta. Climb early, come down by mid-morning, and be back in the city by lunch for a slow afternoon and a last night in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-134",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "ygk5-133",
+          "_type": "span",
+          "marks": [],
+          "text": " Start the climb at first light, before the heat. One hiking blog puts the climb at around two hours for a reasonably fit walker, with railings near the bottom and a descent of about 90 minutes by a different path. The village below runs the mountain as a community project and was named one of the world's Best Tourism Villages by the UN tourism organisation in 2021, according to the provincial tourism office. The same blog lists the entrance at 7,000 rupiah; the foreign rate may be higher, so treat it as a working estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "ygk5-136",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive back to Yogyakarta, check in and rest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "ygk5-139",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the Alun-Alun Kidul, the southern palace square, after dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "ygk5-142",
+          "_type": "span",
+          "marks": [],
+          "text": " central Yogyakarta."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "ygk5-145",
+          "_type": "span",
+          "marks": [],
+          "text": " there is no public transport to Nglanggeran, so this morning needs your driver or a ride-hailing car. The same blogger lost the view to mist a few minutes after reaching the top, which is another reason to start early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-148",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-147",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Mangunan pine forest and departure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-149",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5 is a short, quiet morning before you leave. Drive to the Mangunan pine forest in Dlingo, in the hills south of the city, at first light, walk among the pines while the mist lifts, and be back in Yogyakarta with time to spare for a flight or train out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-151",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "ygk5-152",
+          "_type": "span",
+          "marks": [],
+          "text": " Orami, an Indonesian travel magazine, listed the Mangunan entrance at 5,000 rupiah in 2024, with hammocks for hire at 10,000 rupiah. Go early: by mid-morning it fills with weekend visitors and photo shoots."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-154",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "ygk5-155",
+          "_type": "span",
+          "marks": [],
+          "text": " Head to Tugu station or the airport train. YIA is far west of the city, so leave more time than you think."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-157",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "ygk5-158",
+          "_type": "span",
+          "marks": [],
+          "text": " if your flight is early, skip Mangunan and keep the morning for packing. It is the easiest stop on the trip to cut."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-160",
+          "_type": "span",
+          "marks": [],
+          "text": "Jomblang, Pindul or Timang: which Gunungkidul adventure is worth it?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-162",
+          "_type": "span",
+          "marks": [],
+          "text": "If you only have one day in Gunungkidul, choose Jomblang. It is the most distinctive of the three and the only one with a fixed daily window, so it is the hardest to fit in later. Pindul is the easy add-on. Timang is the most weather-dependent and the furthest away, so it suits travellers with a second night out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-164",
+      "_type": "comparisonTable",
+      "caption": "Gunungkidul's three big outings compared. Figures are working estimates from the sources named in the text; check them on the day.",
+      "columns": [
+        "",
+        "Jomblang Cave",
+        "Pindul cave",
+        "Timang"
+      ],
+      "rows": [
+        {
+          "_key": "ygk5-165",
+          "cells": [
+            "What it is",
+            "60-metre rope descent into a sinkhole, then a dark cave walk to a light beam",
+            "Guided float through a river cave on an inner tube",
+            "Hand-pulled gondola or suspension bridge to a rock island"
+          ]
+        },
+        {
+          "_key": "ygk5-166",
+          "cells": [
+            "From Yogyakarta",
+            "About 1.5 hours",
+            "About 15 minutes from Jomblang",
+            "About 80 km, 2 to 3 hours"
+          ]
+        },
+        {
+          "_key": "ygk5-167",
+          "cells": [
+            "Foreign entry",
+            "About 500,000 rupiah, cash, lunch included",
+            "About 50,000 to 75,000 rupiah",
+            "About 200,000 for the gondola or 150,000 for the bridge, plus the 4x4 shuttle"
+          ]
+        },
+        {
+          "_key": "ygk5-168",
+          "cells": [
+            "Time window",
+            "Descents about 09:30 to noon, best light 10:00 to 13:00",
+            "07:00 to 16:00, last entry about 14:00",
+            "Best 08:00 to 10:00; stops when the sea is rough"
+          ]
+        },
+        {
+          "_key": "ygk5-169",
+          "cells": [
+            "Who it suits",
+            "Anyone fit enough to be lowered on a rope and walk in mud",
+            "Everyone, including nervous swimmers with a life vest",
+            "Travellers with a head for heights and a flexible day"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ygk5-171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-170",
+          "_type": "span",
+          "marks": [],
+          "text": "Should you stay in Yogyakarta or Gunungkidul?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-173",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-172",
+          "_type": "span",
+          "marks": [],
+          "text": "Stay in Gunungkidul for at least one night if Timang is on your list. From a city hotel, the coast is a two to three hour drive each way, and Jomblang needs a 07:00 departure. Wonosari cuts both mornings down, at the cost of simpler hotels and an early night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-174",
+      "_type": "comparisonTable",
+      "caption": "Where to sleep for Gunungkidul. A guide, not a rule.",
+      "columns": [
+        "",
+        "Yogyakarta base",
+        "Wonosari base"
+      ],
+      "rows": [
+        {
+          "_key": "ygk5-175",
+          "cells": [
+            "Morning drive to Jomblang",
+            "About 1.5 hours, leave by 07:00",
+            "Much shorter"
+          ]
+        },
+        {
+          "_key": "ygk5-176",
+          "cells": [
+            "Timang as a day trip",
+            "2 to 3 hours each way",
+            "A reasonable morning"
+          ]
+        },
+        {
+          "_key": "ygk5-177",
+          "cells": [
+            "Hotels and food",
+            "Wide choice, from guesthouses to large hotels",
+            "Fewer, simpler options"
+          ]
+        },
+        {
+          "_key": "ygk5-178",
+          "cells": [
+            "Evenings",
+            "Restaurants, the palace squares, nightlife",
+            "Quiet, early nights"
+          ]
+        },
+        {
+          "_key": "ygk5-179",
+          "cells": [
+            "Best for",
+            "One Gunungkidul day only",
+            "Two or more Gunungkidul days"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ygk5-181",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-180",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-182",
+          "_type": "span",
+          "marks": [],
+          "text": "Book the car and driver for Days 2 to 4, your Jomblang place, and the two Wonosari nights before you arrive. Keep Timang, Nglanggeran and Mangunan flexible, since all three depend on the weather and can swap with one another without breaking the route."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-184",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Book early:"
+        },
+        {
+          "_key": "ygk5-185",
+          "_type": "span",
+          "marks": [],
+          "text": " the car with a driver, which every day outside the city depends on; Jomblang, which runs on a daily quota; and your train or flight into Yogyakarta around Indonesian public holidays, when Java's trains sell out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-187",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep flexible:"
+        },
+        {
+          "_key": "ygk5-188",
+          "_type": "span",
+          "marks": [],
+          "text": " the Timang morning, which only works on a calm sea; the Nglanggeran morning, which can swap with Mangunan if the sky is overcast; and every meal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-190",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make in Gunungkidul?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-192",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common mistake is trying to do Jomblang, Pindul and Timang in one day from a city hotel. It can be done on a long tour, but you spend most of the day on the road and reach Timang in the afternoon heat. The others are arriving at Jomblang after the light, and forgetting cash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-196",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-194",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arriving late at Jomblang."
+        },
+        {
+          "_key": "ygk5-195",
+          "_type": "span",
+          "marks": [],
+          "text": " Descents stop around noon. If you leave Yogyakarta at 09:00, you will see the cave without the light, or not at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-199",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-197",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Expecting a swimming coast."
+        },
+        {
+          "_key": "ygk5-198",
+          "_type": "span",
+          "marks": [],
+          "text": " Much of the Gunungkidul shore is cliff and surf. Swim only where locals swim, and only where there are flags."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-200",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Carrying no cash."
+        },
+        {
+          "_key": "ygk5-201",
+          "_type": "span",
+          "marks": [],
+          "text": " Jomblang wants cash at the basecamp, and the coastal checkpoints and smaller gates are cash first. Gunungkidul is trialling cashless payment at four beach checkpoints in 2026, according to the Antara news agency, so most gates still expect cash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-203",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skipping a buffer for Timang."
+        },
+        {
+          "_key": "ygk5-204",
+          "_type": "span",
+          "marks": [],
+          "text": " A rough sea closes the gondola with no warning. Give it a morning with a spare afternoon behind it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-206",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-209",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-208",
+          "_type": "span",
+          "marks": [],
+          "text": "With four days, drop Mangunan and leave on Day 4 after Nglanggeran. With three, do Jomblang and Pindul from the city and skip Timang. To upgrade, add the temples: join this route to the end of our 4-day Yogyakarta itinerary, or continue east to Bromo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-212",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-210",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "ygk5-211",
+          "_type": "span",
+          "marks": [],
+          "text": " with three days, stay in the city, keep Day 2 as written and use Day 3 for Nglanggeran and Mangunan. You lose Timang, which is the hardest place to reach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-213",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "ygk5-214",
+          "_type": "span",
+          "marks": [],
+          "text": " if Timang is closed or the forecast is poor, replace it with a slower coast day or a second morning in the caves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-216",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "ygk5-217",
+          "_type": "span",
+          "marks": [],
+          "text": " add the temples by joining this route to the end of our "
+        },
+        {
+          "_key": "ygk5-219",
+          "_type": "span",
+          "marks": [
+            "ygk5-218"
+          ],
+          "text": "4 days in Yogyakarta"
+        },
+        {
+          "_key": "ygk5-220",
+          "_type": "span",
+          "marks": [],
+          "text": ", or continue east to the volcanoes with our "
+        },
+        {
+          "_key": "ygk5-222",
+          "_type": "span",
+          "marks": [
+            "ygk5-221"
+          ],
+          "text": "7-day Yogyakarta and East Java route"
+        },
+        {
+          "_key": "ygk5-223",
+          "_type": "span",
+          "marks": [],
+          "text": ". If you only have time for one temple, read "
+        },
+        {
+          "_key": "ygk5-225",
+          "_type": "span",
+          "marks": [
+            "ygk5-224"
+          ],
+          "text": "Borobudur vs Prambanan"
+        },
+        {
+          "_key": "ygk5-226",
+          "_type": "span",
+          "marks": [],
+          "text": " first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-218",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-yogyakarta-borobudur-prambanan-merapi"
+        },
+        {
+          "_key": "ygk5-221",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        },
+        {
+          "_key": "ygk5-224",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/destinations/java/borobudur-vs-prambanan"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-228",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-231",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-230",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the visa rules for your passport, set up mobile data before you land, carry plenty of small cash, and pack clothes you can get muddy and wet. Most of this trip happens outside the city, where cards and phone signal are less reliable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-232",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visa."
+        },
+        {
+          "_key": "ygk5-233",
+          "_type": "span",
+          "marks": [],
+          "text": " Most visitors enter on a visa on arrival. Rules and fees change, so read our "
+        },
+        {
+          "_key": "ygk5-235",
+          "_type": "span",
+          "marks": [
+            "ygk5-234"
+          ],
+          "text": "Indonesia visa guide"
+        },
+        {
+          "_key": "ygk5-236",
+          "_type": "span",
+          "marks": [],
+          "text": " and check the latest official guidance for your nationality."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-234",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/visa-guide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-243",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-238",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Money."
+        },
+        {
+          "_key": "ygk5-239",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring cash in small notes for every gate, shuttle and warung. For a sense of the wider budget, see our guide to "
+        },
+        {
+          "_key": "ygk5-241",
+          "_type": "span",
+          "marks": [
+            "ygk5-240"
+          ],
+          "text": "Indonesia travel costs"
+        },
+        {
+          "_key": "ygk5-242",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-240",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/indonesia-travel-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-249",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-244",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Connectivity."
+        },
+        {
+          "_key": "ygk5-245",
+          "_type": "span",
+          "marks": [],
+          "text": " Signal weakens on the coast. An "
+        },
+        {
+          "_key": "ygk5-247",
+          "_type": "span",
+          "marks": [
+            "ygk5-246"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "ygk5-248",
+          "_type": "span",
+          "marks": [],
+          "text": " set up before you fly means maps and your driver's messages work from the airport."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-246",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-250",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Kit."
+        },
+        {
+          "_key": "ygk5-251",
+          "_type": "span",
+          "marks": [],
+          "text": " Quick-dry clothes, a full change for Day 2, a waterproof phone pouch, closed shoes, a head torch for Nglanggeran and sun protection for Timang."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-255",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-253",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Health and safety."
+        },
+        {
+          "_key": "ygk5-254",
+          "_type": "span",
+          "marks": [],
+          "text": " Jomblang and Timang involve heights and rope systems run by local operators. If you have heart or back problems, or are pregnant, ask the operator before you book."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-257",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-256",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-259",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-258",
+          "_type": "span",
+          "marks": [],
+          "text": "This is the best way to spend a second visit to Yogyakarta, or the last days of a long one. Two nights in Gunungkidul turn three rushed day trips into a calm sequence, and Jomblang in the late-morning light is the single most memorable hour in the region outside the temples."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-261",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-260",
+          "_type": "span",
+          "marks": [],
+          "text": "The trip has real costs: a driver for three days, early starts and a coast that can close on you. Pay them. A city-only stay sees the monuments; this one sees the country they stand in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-263",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-262",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ygk5-268",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-264",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with "
+        },
+        {
+          "_key": "ygk5-266",
+          "_type": "span",
+          "marks": [
+            "ygk5-265"
+          ],
+          "text": "4 days in Yogyakarta: Borobudur, Prambanan, Merapi and the Sultan's City"
+        },
+        {
+          "_key": "ygk5-267",
+          "_type": "span",
+          "marks": [],
+          "text": ", for the temples first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-265",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/4-days-yogyakarta-borobudur-prambanan-merapi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-269",
+          "_type": "span",
+          "marks": [],
+          "text": "Travelling with children? Read "
+        },
+        {
+          "_key": "ygk5-271",
+          "_type": "span",
+          "marks": [
+            "ygk5-270"
+          ],
+          "text": "8 days in Yogyakarta and Central Java with kids"
+        },
+        {
+          "_key": "ygk5-272",
+          "_type": "span",
+          "marks": [],
+          "text": ", the family version with one gentle Gunungkidul day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-270",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/8-days-yogyakarta-central-java-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ygk5-278",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ygk5-274",
+          "_type": "span",
+          "marks": [],
+          "text": "Going further? Try "
+        },
+        {
+          "_key": "ygk5-276",
+          "_type": "span",
+          "marks": [
+            "ygk5-275"
+          ],
+          "text": "7 days in Yogyakarta and East Java"
+        },
+        {
+          "_key": "ygk5-277",
+          "_type": "span",
+          "marks": [],
+          "text": ", to continue east to Bromo and Ijen."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ygk5-275",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-yogyakarta-east-java"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "java",
+  "experienceTags": [
+    "karst",
+    "river_tubing",
+    "jeep_tour",
+    "viewpoint_hike",
+    "private_drivers"
+  ],
+  "faq": [
+    {
+      "_key": "ygk5-287",
+      "answer": "Yes, if you arrive in time for the light. A Yogyakarta operator's 2026 guide puts the best light between 10:00 and 13:00, with descents from about 09:30 until about noon. Arrive later and you see a dark cave. Budget about 500,000 rupiah per person in cash as a working estimate.",
+      "question": "Is Jomblang Cave worth it?"
+    },
+    {
+      "_key": "ygk5-288",
+      "answer": "It depends where you go. Nglanggeran is about 25 kilometres, or an hour by car, Jomblang about an hour and a half, and Timang about 80 kilometres, or two to three hours, according to the provincial tourism office and a local operator's guide.",
+      "question": "How far is Gunungkidul from Yogyakarta?"
+    },
+    {
+      "_key": "ygk5-289",
+      "answer": "Some tours from Yogyakarta combine them in one very long day, but you reach Timang in the afternoon heat. Jomblang and Pindul fit comfortably in one day because they are about 15 minutes apart. Timang is better on its own morning, from a night in Wonosari.",
+      "question": "Can you do Jomblang, Pindul and Timang in one day?"
+    },
+    {
+      "_key": "ygk5-290",
+      "answer": "It is a wooden box on ropes, pulled by hand about 9 to 11 metres above the sea, and the operators check the waves before running it. It has carried tourists since 2012, according to the provincial tourism office, but it suits people with a head for heights. If in doubt, watch from the cliff.",
+      "question": "Is the Timang gondola safe?"
+    },
+    {
+      "_key": "ygk5-291",
+      "answer": "April to October, the dry season. One Yogyakarta operator says the light in Jomblang is more reliable then, and a calmer sea makes the Timang gondola more likely to run. In the wet months, keep a spare morning in the plan.",
+      "question": "When is the best time to visit Gunungkidul?"
+    },
+    {
+      "_key": "ygk5-292",
+      "answer": "Yes. Both are run by local operators: guides lower you into Jomblang and lead the walk through the cave, and in Pindul they pull the tubes along. You can book at the basecamp, through a tour, or ask your driver to arrange it.",
+      "question": "Do I need a guide for Pindul and Jomblang?"
+    },
+    {
+      "_key": "ygk5-293",
+      "answer": "Wonosari, the main town of Gunungkidul, is the practical base. It shortens the morning drive to the coast and to Jomblang. Hotels are simpler than in Yogyakarta, so book ahead and plan quiet evenings.",
+      "question": "Where should I stay to visit Timang?"
+    }
+  ],
+  "focusKeyword": "Yogyakarta beyond the temples",
+  "heroImage": {
+    "_type": "image",
+    "alt": "Two cavers in helmets silhouetted against a shaft of sunlight falling into the dark chamber of Jomblang Cave, Gunungkidul, near Yogyakarta",
+    "asset": {
+      "_ref": "image-57e5fc0e661480a17e01f85d5e49450ba491f238-3000x1997-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: Arie Bas, CC BY-SA 4.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Goa_Jomblang.jpg"
+  },
+  "intro": "Yogyakarta's best adventures sit in Gunungkidul, the limestone country south and east of the city, and they run on fixed clocks: Jomblang only works in the late morning and Timang only on a calm sea. This five-day plan sleeps two nights out on the karst so the caves, the gondola and an ancient volcano each get the right hour.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 5-day Yogyakarta itinerary beyond the temples: Jomblang Cave's midday light, Pindul tubing, the Timang gondola and Nglanggeran, with 2026 fees.",
+  "metaTitle": "Yogyakarta Beyond the Temples: 5 Days, Jomblang and Timang",
+  "primaryAffiliatePartner": "klook",
+  "route": "Yogyakarta (1 night), then Jomblang Cave and Pindul cave tubing, two nights in Wonosari with a morning at Timang and its gondola, the Nglanggeran ancient volcano at sunrise on the way back, a last night in Yogyakarta and the Mangunan pine forest before departure",
+  "routeSummary": "Yogyakarta → Jomblang & Pindul → Timang → Nglanggeran → Mangunan → Yogyakarta",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "12go",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "5-days-yogyakarta-gunungkidul-jomblang-cave-timang"
+  },
+  "title": "5 Days in Yogyakarta Beyond the Temples: Jomblang Cave, Timang and the Gunungkidul Karst",
+  "travelStylePrimary": "adventure_volcanoes",
+  "travelStyleSecondary": [
+    "wildlife_nature"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "short_escape",
+  "tripLengthDays": 5,
+  "vibe": "active"
+}
