@@ -34,7 +34,8 @@ export const ARTICLES_LIST_QUERY = groq`*[_type == "article" && contentStatus ==
   articleCommercialTier
 }`;
 
-export const ARTICLE_BY_SLUG_QUERY = groq`*[_type == "article" && slug.current == $slug][0] {
+// Only live articles resolve: a draft or archived slug must answer 404, not 200.
+export const ARTICLE_BY_SLUG_QUERY = groq`*[_type == "article" && slug.current == $slug && contentStatus == "live"][0] {
   _id,
   _createdAt,
   _updatedAt,
@@ -87,11 +88,12 @@ export const RELATED_ARTICLES_QUERY = groq`*[
 // guides) that sit under a destination at /destinations/<dest>/<slug>. Separate
 // `guide` doc type — NOT articles — so itinerary listings/queries stay clean.
 //
-// No contentStatus filter on the single-guide fetch so a draft can be previewed
-// by direct URL (mirrors ARTICLE_BY_SLUG_QUERY); hub/sitemap queries below filter
-// to "live". `destination` matches the DESTINATIONS enum value (e.g. "bali").
+// The single-guide fetch filters to "live" like the hub/sitemap queries below, so
+// a draft or archived guide answers 404. `destination` matches the DESTINATIONS
+// enum value (e.g. "bali").
 export const GUIDE_BY_SLUG_QUERY = groq`*[
   _type == "guide" && slug.current == $slug && destination == $destination
+  && contentStatus == "live"
 ][0] {
   _id,
   _createdAt,
