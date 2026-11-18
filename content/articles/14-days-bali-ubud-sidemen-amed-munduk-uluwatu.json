@@ -1,0 +1,3290 @@
+{
+  "_createdAt": "2026-11-18T04:16:08Z",
+  "_id": "itinerary-14-days-bali-ubud-sidemen-amed-munduk-uluwatu",
+  "_rev": "E28yZRJfGY3dxnlglDTzt9",
+  "_type": "article",
+  "_updatedAt": "2026-11-18T04:26:00Z",
+  "affiliateLinks": [
+    {
+      "_key": "bl14-aff0",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://airalo.tpx.lu/ywUnFTCe",
+      "anchorText": "Indonesia eSIM with Airalo",
+      "experienceCategory": "esim_connectivity",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "airalo",
+      "placeholderId": "AIRALO_INDONESIA",
+      "publicUrl": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+      "_key": "bl14-aff1",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fairport-transfers%2Fservice%2Fdps-ngurah-rai-bali-international-airport%2F",
+      "anchorText": "Bali airport transfer on Klook",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER",
+      "publicUrl": "https://www.klook.com/en-US/airport-transfers/service/dps-ngurah-rai-bali-international-airport/"
+    },
+    {
+      "_key": "bl14-aff2",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F800-private-car-charter-bali%2F",
+      "anchorText": "Bali private car charter on Klook",
+      "experienceCategory": "transport",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_BALI_CAR_CHARTER",
+      "publicUrl": "https://www.klook.com/en-US/activity/800-private-car-charter-bali/"
+    },
+    {
+      "_key": "bl14-aff3",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F22005-mount-batur-sunrise-experience-4wd-jeep-bali%2F",
+      "anchorText": "Mount Batur sunrise by 4WD jeep on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE",
+      "publicUrl": "https://www.klook.com/en-US/activity/22005-mount-batur-sunrise-experience-4wd-jeep-bali/"
+    },
+    {
+      "_key": "bl14-aff4",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Factivity%2F17260-cooking-class-ubud-bali%2F",
+      "anchorText": "Ubud cooking class on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_UBUD_COOKING_CLASS",
+      "publicUrl": "https://www.klook.com/activity/17260-cooking-class-ubud-bali/"
+    },
+    {
+      "_key": "bl14-aff5",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://klook.tpx.lu/QYeSR2G9?u=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F16518-uss-liberty-scuba-dive-bali%2F",
+      "anchorText": "Liberty wreck dive trip on Klook",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "klook",
+      "placeholderId": "KLOOK_TULAMBEN_LIBERTY",
+      "publicUrl": "https://www.klook.com/en-US/activity/16518-uss-liberty-scuba-dive-bali/"
+    },
+    {
+      "_key": "bl14-aff6",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6?pid=P00303362&mcid=42383&medium=link&campaign=bali-14-days",
+      "anchorText": "Ubud rice terrace and water temple day tour on Viator",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_UBUD_HIGHLIGHTS",
+      "publicUrl": "https://www.viator.com/tours/Ubud/Ubud-Monkey-Forest-Jungle-Swing-Rice-Terrace-and-Water-Temple/d5467-142948P6"
+    },
+    {
+      "_key": "bl14-aff7",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2?pid=P00303362&mcid=42383&medium=link&campaign=bali-14-days",
+      "anchorText": "Uluwatu Kecak fire dance ticket on Viator",
+      "experienceCategory": "tour",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "viator",
+      "placeholderId": "VIATOR_ULUWATU_KECAK",
+      "publicUrl": "https://www.viator.com/tours/Jimbaran/Skip-the-Line-Kecak-and-Fire-Dance-Ticket-at-Uluwatu-Temple/d35681-349605P2"
+    },
+    {
+      "_key": "bl14-aff8",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Ubud hotels on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_UBUD",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Ubud%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bl14-aff9",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Sidemen%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Sidemen stays on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_SIDEMEN",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Sidemen%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bl14-aff10",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Amed%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Amed stays on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_AMED",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Amed%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bl14-aff11",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Munduk%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Munduk stays on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_MUNDUK",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Munduk%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    },
+    {
+      "_key": "bl14-aff12",
+      "_type": "affiliateLink",
+      "affiliateUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1",
+      "anchorText": "Uluwatu hotels on Booking.com",
+      "experienceCategory": "hotel",
+      "linkStatus": "live",
+      "notes": null,
+      "partner": "booking",
+      "placeholderId": "BOOKING_ULUWATU",
+      "publicUrl": "https://www.booking.com/searchresults.html?ss=Uluwatu%2C+Bali%2C+Indonesia&group_adults=2&group_children=0&no_rooms=1"
+    }
+  ],
+  "articleCommercialTier": "standard",
+  "articleCreatedDate": "2026-11-18T04:15:58.000Z",
+  "author": {
+    "_ref": "author-editorial-team",
+    "_type": "reference"
+  },
+  "bestSeason": "April to October",
+  "body": [
+    {
+      "_key": "bl14-b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s2",
+          "_type": "span",
+          "marks": [],
+          "text": "Is 14 days in Bali too long?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s4",
+          "_type": "span",
+          "marks": [],
+          "text": "No. Two weeks is the length at which Bali stops being a checklist. You can give Ubud four nights, sleep in the rice valleys of Sidemen, snorkel the east coast at Amed, cool off in the highlands at Munduk and still finish with three slow days on the cliffs of Uluwatu, without a single day spent only in a car."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s6",
+          "_type": "span",
+          "marks": [],
+          "text": "Most Bali itineraries are built for a week, and a week forces a choice: Ubud and the south, and the rest of the island seen through a car window on a day trip. Two weeks removes that choice, but only if you use the extra days to move, not to add more day trips from the same hotel. This plan uses five bases in a loop around the island. The moves out of Ubud and Sidemen are short; the two from Amed to Munduk and from Munduk to Uluwatu are long, and we flag them honestly. The trip ends 30 to 45 minutes from the airport."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who this trip is for, and who it is not"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s10",
+          "_type": "span",
+          "marks": [],
+          "text": "This route suits couples, friends and solo travellers on a first or second visit who want the whole island at a steady pace: temples and rice terraces, one volcano sunrise, a reef you can reach from the beach, cool mountain air and a few real beach days at the end."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s12",
+          "_type": "span",
+          "marks": [],
+          "text": "It is not for travellers who want nightlife every evening: Sidemen, Amed and Munduk go quiet after dinner. It is not a diving trip either, though it touches the best shore diving on the island; divers should read our "
+        },
+        {
+          "_key": "bl14-s14",
+          "_type": "span",
+          "marks": [
+            "bl14-m13"
+          ],
+          "text": "7-day Bali diving route through Tulamben, Amed and Menjangan"
+        },
+        {
+          "_key": "bl14-s15",
+          "_type": "span",
+          "marks": [],
+          "text": ". If you have only a week, start with "
+        },
+        {
+          "_key": "bl14-s17",
+          "_type": "span",
+          "marks": [
+            "bl14-m16"
+          ],
+          "text": "7 days in Bali for first-timers"
+        },
+        {
+          "_key": "bl14-s18",
+          "_type": "span",
+          "marks": [],
+          "text": ", and if you want other islands in the same fortnight, read "
+        },
+        {
+          "_key": "bl14-s20",
+          "_type": "span",
+          "marks": [
+            "bl14-m19"
+          ],
+          "text": "10 days in Bali, Lombok and the Gili Islands"
+        },
+        {
+          "_key": "bl14-s21",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m13",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-diving-tulamben-amed-menjangan"
+        },
+        {
+          "_key": "bl14-m16",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        },
+        {
+          "_key": "bl14-m19",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/10-days-bali-lombok-gili-islands"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s23",
+          "_type": "span",
+          "marks": [],
+          "text": "Trip at a glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration:"
+        },
+        {
+          "_key": "bl14-s26",
+          "_type": "span",
+          "marks": [],
+          "text": " 14 days, 13 nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Route:"
+        },
+        {
+          "_key": "bl14-s29",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud (4 nights), Sidemen (2), Amed (2), Munduk (2), Uluwatu (3)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pace:"
+        },
+        {
+          "_key": "bl14-s32",
+          "_type": "span",
+          "marks": [],
+          "text": " steady. Four changes of hotel: two short drives in the east and two long ones across the north and back south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best for:"
+        },
+        {
+          "_key": "bl14-s35",
+          "_type": "span",
+          "marks": [],
+          "text": " couples, friends, solo travellers, first or second visits to Bali."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best time:"
+        },
+        {
+          "_key": "bl14-s38",
+          "_type": "span",
+          "marks": [],
+          "text": " April to October is the dry season. The wet months work too, with more afternoon rain and fewer clear volcano mornings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s40",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget:"
+        },
+        {
+          "_key": "bl14-s41",
+          "_type": "span",
+          "marks": [],
+          "text": " moderate. A car with a driver on moving days is the main transport cost; entry fees are small but add up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s43",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Logistics:"
+        },
+        {
+          "_key": "bl14-s44",
+          "_type": "span",
+          "marks": [],
+          "text": " easy to moderate. Two long drives, Amed to Munduk and Munduk to Uluwatu, and one pre-dawn start for Mount Batur."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s46",
+          "_type": "span",
+          "marks": [],
+          "text": "Why this route makes sense"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s48",
+          "_type": "span",
+          "marks": [],
+          "text": "The loop runs inland first, then east, north, and finally south. Ubud comes first because jet lag and a long first drive do not mix, and the drive from the airport, about 1.5 to 2.5 hours depending on traffic, is the only move on arrival day. Sidemen and Amed sit close together in the east, so moving between them is a half-day drive with a stop at Tirta Gangga on the way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s50",
+          "_type": "span",
+          "marks": [],
+          "text": "The north is the awkward part. Amed to Munduk is the longest leg, and there is no shortcut, but doing it once in a loop is far better than two return trips from the south. Uluwatu goes last for a practical reason: it is 30 to 45 minutes from Ngurah Rai airport, so the beach days double as a buffer before your flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s52",
+          "_type": "span",
+          "marks": [],
+          "text": "How many days do you need in Bali?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s54",
+          "_type": "span",
+          "marks": [],
+          "text": "Seven days covers Ubud and one beach area. Ten adds the east or the north, but not both. Fourteen days lets you see the centre, the east, the highlands and the south of Bali without day trips of more than a few hours, with real rest days built in, which is why this plan uses the full fortnight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-t55",
+      "_type": "comparisonTable",
+      "caption": "Bali by trip length, as a working judgement",
+      "columns": [
+        "Days",
+        "What fits",
+        "What you give up",
+        "Read"
+      ],
+      "rows": [
+        {
+          "_key": "bl14-r56",
+          "cells": [
+            "5 days",
+            "Ubud, then one beach base in the south",
+            "The east, the north, any slack",
+            "5 days: Ubud, Canggu and Uluwatu"
+          ]
+        },
+        {
+          "_key": "bl14-r57",
+          "cells": [
+            "7 days",
+            "Ubud, a day trip to Nusa Penida, Canggu, Uluwatu",
+            "Sidemen, Amed, Munduk",
+            "7 days in Bali for first-timers"
+          ]
+        },
+        {
+          "_key": "bl14-r58",
+          "cells": [
+            "10 days",
+            "Ubud, the east (Sidemen and Amed) or the north (Munduk), and the south",
+            "One of the two regions",
+            "This plan without Sidemen, or without Munduk"
+          ]
+        },
+        {
+          "_key": "bl14-r59",
+          "cells": [
+            "14 days",
+            "Ubud, Sidemen, Amed, Munduk and Uluwatu, with rest days",
+            "Other islands such as Lombok or the Gilis",
+            "This plan"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bl14-b60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s61",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 1: Arrive and settle in Ubud"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s64",
+          "_type": "span",
+          "marks": [],
+          "text": " Land at Ngurah Rai International Airport. If you have not done it already, pay the Bali tourist levy, which the official Love Bali portal lists at IDR 150,000 per person, and keep the voucher on your phone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s67",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive to Ubud, about 1.5 to 2.5 hours depending on traffic, with the late afternoon the slowest. A pre-booked "
+        },
+        {
+          "_key": "bl14-s69",
+          "_type": "span",
+          "marks": [
+            "bl14-m68"
+          ],
+          "text": "Bali airport transfer on Klook"
+        },
+        {
+          "_key": "bl14-s70",
+          "_type": "span",
+          "marks": [],
+          "text": " saves a negotiation at arrivals after a long flight."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m68",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_AIRPORT_TRANSFER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s73",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the main streets around the palace and eat early. Keep the first night simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl14-s76",
+          "_type": "span",
+          "marks": [],
+          "text": " Ubud, 4 nights. Compare "
+        },
+        {
+          "_key": "bl14-s78",
+          "_type": "span",
+          "marks": [
+            "bl14-m77"
+          ],
+          "text": "Ubud hotels on Booking.com"
+        },
+        {
+          "_key": "bl14-s79",
+          "_type": "span",
+          "marks": [],
+          "text": ". Stay walking distance from the centre, or just outside it if you want rice fields from the room and do not mind short rides."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m77",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_UBUD"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s81",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s82",
+          "_type": "span",
+          "marks": [],
+          "text": " set up an "
+        },
+        {
+          "_key": "bl14-s84",
+          "_type": "span",
+          "marks": [
+            "bl14-m83"
+          ],
+          "text": "Indonesia eSIM with Airalo"
+        },
+        {
+          "_key": "bl14-s85",
+          "_type": "span",
+          "marks": [],
+          "text": " before you fly. Ride-hailing apps and WhatsApp, which drivers and guesthouses use for everything, both need data."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m83",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "AIRALO_INDONESIA"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s88",
+          "_type": "span",
+          "marks": [],
+          "text": " most nationalities enter on the e-VOA, reported at IDR 500,000 for 30 days. Visa rules and fees change, so check the latest official guidance before you travel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s90",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 2: Ubud on foot"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s93",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the Campuhan Ridge path early, before the heat, then go to the Sacred Monkey Forest Sanctuary. Bali news reports put the foreign adult ticket at IDR 130,000 from April 2026. Keep sunglasses, food and loose bags out of reach of the macaques."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s96",
+          "_type": "span",
+          "marks": [],
+          "text": " Learn to cook a Balinese meal. The "
+        },
+        {
+          "_key": "bl14-s98",
+          "_type": "span",
+          "marks": [
+            "bl14-m97"
+          ],
+          "text": "Ubud cooking class on Klook"
+        },
+        {
+          "_key": "bl14-s99",
+          "_type": "span",
+          "marks": [],
+          "text": " runs about five hours with hotel pick-up, so it fills the afternoon and replaces dinner."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m97",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_UBUD_COOKING_CLASS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s101",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s102",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest. You have an early start in two days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b103",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s105",
+          "_type": "span",
+          "marks": [],
+          "text": " book the cooking class a day or two ahead in the dry season. Everything else today needs no booking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b106",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s107",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s108",
+          "_type": "span",
+          "marks": [],
+          "text": " cover shoulders and knees for any temple, and carry a sarong. Most temples rent or lend one at the gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b109",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s110",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 3: Water temple and rice terraces"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s112",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s113",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive north to Tirta Empul, the spring temple where Balinese come to bathe in the purification pools. Sources in 2026 put the adult entry between IDR 50,000 and IDR 75,000, so treat it as a working estimate. Arrive at opening to share the pools with worshippers rather than tour groups."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s115",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s116",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue to the Tegallalang rice terraces and walk down into them rather than photographing from the road. Then go back to Ubud for a late lunch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b117",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s118",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s119",
+          "_type": "span",
+          "marks": [],
+          "text": " A free evening in town."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b120",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s121",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s122",
+          "_type": "span",
+          "marks": [],
+          "text": " a driver for the day is easiest. If you prefer a guide who handles everything, the "
+        },
+        {
+          "_key": "bl14-s124",
+          "_type": "span",
+          "marks": [
+            "bl14-m123"
+          ],
+          "text": "Ubud rice terrace and water temple day tour on Viator"
+        },
+        {
+          "_key": "bl14-s125",
+          "_type": "span",
+          "marks": [],
+          "text": " runs 8 to 10 hours with pick-up and covers the monkey forest, a rice terrace and a water temple; check which sites are included on the day you book."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m123",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_UBUD_HIGHLIGHTS"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s128",
+          "_type": "span",
+          "marks": [],
+          "text": " if you plan to enter the water at Tirta Empul, bring a change of clothes and follow the order of the spouts that the temple staff show you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b129",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s130",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 4: Mount Batur at sunrise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s133",
+          "_type": "span",
+          "marks": [],
+          "text": " This is the trip's one pre-dawn start. Pick-ups from Ubud leave in the small hours to reach the Batur caldera before first light. You can hike to the summit with a guide, or skip the climb on the "
+        },
+        {
+          "_key": "bl14-s135",
+          "_type": "span",
+          "marks": [
+            "bl14-m134"
+          ],
+          "text": "Mount Batur sunrise by 4WD jeep on Klook"
+        },
+        {
+          "_key": "bl14-s136",
+          "_type": "span",
+          "marks": [],
+          "text": ", which listed a price from about US$23 per person when we checked in November 2026 and a duration of 8.5 to 10.5 hours including the black lava fields after sunrise."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m134",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_MOUNT_BATUR_SUNRISE"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s138",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s139",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Ubud around midday or early afternoon. Sleep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b140",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s142",
+          "_type": "span",
+          "marks": [],
+          "text": " Pack. Tomorrow you start the loop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s144",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s145",
+          "_type": "span",
+          "marks": [],
+          "text": " book Batur for your second or third night in Ubud, never the first, and keep a spare morning in case cloud cancels the view."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b146",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s147",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s148",
+          "_type": "span",
+          "marks": [],
+          "text": " it is cold at the top before dawn. Bring a warm layer even in the dry season."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b149",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s150",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 5: Ubud to Sidemen"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b151",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s152",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s153",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive east to Sidemen, about 1.5 to 2 hours as a working estimate. Book a "
+        },
+        {
+          "_key": "bl14-s155",
+          "_type": "span",
+          "marks": [
+            "bl14-m154"
+          ],
+          "text": "Bali private car charter on Klook"
+        },
+        {
+          "_key": "bl14-s156",
+          "_type": "span",
+          "marks": [],
+          "text": ", or ask your Ubud hotel for a driver, for every moving day of this trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m154",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_BALI_CAR_CHARTER"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b157",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s159",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the rice terraces of the valley. The paths run between fields and small villages, and a local guide will find routes you would miss alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b160",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s161",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s162",
+          "_type": "span",
+          "marks": [],
+          "text": " Dinner at your guesthouse. Sidemen has few restaurants, and most visitors eat where they sleep."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s164",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl14-s165",
+          "_type": "span",
+          "marks": [],
+          "text": " Sidemen, 2 nights. Compare "
+        },
+        {
+          "_key": "bl14-s167",
+          "_type": "span",
+          "marks": [
+            "bl14-m166"
+          ],
+          "text": "Sidemen stays on Booking.com"
+        },
+        {
+          "_key": "bl14-s168",
+          "_type": "span",
+          "marks": [],
+          "text": ". Choose a room that faces Mount Agung across the valley."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m166",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_SIDEMEN"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s170",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s171",
+          "_type": "span",
+          "marks": [],
+          "text": " stays in Sidemen are small and few, so book them as early as Ubud."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s173",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s174",
+          "_type": "span",
+          "marks": [],
+          "text": " a car is the only practical way in and out. Arrange tomorrow's driver tonight if you want to go out."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s176",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 6: A slow day in Sidemen"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s178",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s179",
+          "_type": "span",
+          "marks": [],
+          "text": " Watch the light come over Agung, then walk again, or visit a songket weaving workshop in the village."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b180",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s182",
+          "_type": "span",
+          "marks": [],
+          "text": " Rest. The point of Sidemen is the absence of a schedule after four busy days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s184",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s185",
+          "_type": "span",
+          "marks": [],
+          "text": " Early night, or a massage at the guesthouse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s187",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s188",
+          "_type": "span",
+          "marks": [],
+          "text": " nothing to book. If you want a guided walk, ask your guesthouse the evening before."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s190",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s191",
+          "_type": "span",
+          "marks": [],
+          "text": " cash is useful here. Card machines are rarer outside Ubud and the south."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s193",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 7: Sidemen to Amed via Tirta Gangga"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b194",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s195",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s196",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive towards the coast and stop at Tirta Gangga, the former royal water garden with its stepping stones and fish ponds. A guide updated in 2026 lists IDR 90,000 for foreign adults; bring cash."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b197",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s198",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s199",
+          "_type": "span",
+          "marks": [],
+          "text": " Continue the short way down to Amed and snorkel at Jemeluk Bay, where coral starts a few metres from the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b200",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s201",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s202",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset over the strip of fishing villages, with Agung behind you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b203",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s204",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl14-s205",
+          "_type": "span",
+          "marks": [],
+          "text": " Amed, 2 nights. Compare "
+        },
+        {
+          "_key": "bl14-s207",
+          "_type": "span",
+          "marks": [
+            "bl14-m206"
+          ],
+          "text": "Amed stays on Booking.com"
+        },
+        {
+          "_key": "bl14-s208",
+          "_type": "span",
+          "marks": [],
+          "text": ". Jemeluk and the villages around it are the most convenient for snorkelling from the shore."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m206",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_AMED"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b209",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s210",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s211",
+          "_type": "span",
+          "marks": [],
+          "text": " rent snorkel gear at your hotel or a dive shop. No advance booking is needed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b212",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s213",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s214",
+          "_type": "span",
+          "marks": [],
+          "text": " the coast road is narrow and winding, so allow more time than the distance suggests."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b215",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s216",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 8: The Liberty wreck at Tulamben"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s218",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s219",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive 25 to 30 minutes north to Tulamben for the USAT Liberty, a Second World War cargo ship that lies close to the beach. Snorkellers see its upper parts in shallow water; divers swim through the hull."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b220",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s221",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s222",
+          "_type": "span",
+          "marks": [],
+          "text": " Back in Amed for a lazy afternoon in the water or on the black sand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b223",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s224",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s225",
+          "_type": "span",
+          "marks": [],
+          "text": " Grilled fish in one of the beach warungs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b226",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s227",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s228",
+          "_type": "span",
+          "marks": [],
+          "text": " from Amed, a local dive centre is the simplest way to dive the wreck. If you want to book from home, the "
+        },
+        {
+          "_key": "bl14-s230",
+          "_type": "span",
+          "marks": [
+            "bl14-m229"
+          ],
+          "text": "Liberty wreck dive trip on Klook"
+        },
+        {
+          "_key": "bl14-s231",
+          "_type": "span",
+          "marks": [],
+          "text": " includes two dives and hotel pick-up over about 10 hours; it is for certified divers and built for people staying in the south."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m229",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "KLOOK_TULAMBEN_LIBERTY"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b232",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s233",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s234",
+          "_type": "span",
+          "marks": [],
+          "text": " early morning is the calmest and least crowded time at the wreck."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s236",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 9: Amed to Munduk, the long drive"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s238",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s239",
+          "_type": "span",
+          "marks": [],
+          "text": " Leave right after breakfast. This is the longest drive of the trip, along the north coast and up into the hills, and as a working estimate it takes around four hours or more depending on stops and traffic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b240",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s241",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s242",
+          "_type": "span",
+          "marks": [],
+          "text": " Break the journey on the north coast for lunch, then climb into the highlands. You arrive in Munduk to cool air and clove plantations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b243",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s244",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s245",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring a jumper. Munduk sits high enough to feel cold after dark."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s247",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl14-s248",
+          "_type": "span",
+          "marks": [],
+          "text": " Munduk, 2 nights. Compare "
+        },
+        {
+          "_key": "bl14-s250",
+          "_type": "span",
+          "marks": [
+            "bl14-m249"
+          ],
+          "text": "Munduk stays on Booking.com"
+        },
+        {
+          "_key": "bl14-s251",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m249",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_MUNDUK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s253",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s254",
+          "_type": "span",
+          "marks": [],
+          "text": " this is the day a good driver matters most. Book the car the day before and agree the stops in advance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b255",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s256",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s257",
+          "_type": "span",
+          "marks": [],
+          "text": " if long drives are hard for you, swap Munduk for a third night in Amed and a fourth in Uluwatu, and accept that you will miss the highlands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b258",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s259",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 10: Waterfalls and the lake temple"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b260",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s261",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s262",
+          "_type": "span",
+          "marks": [],
+          "text": " Walk the waterfall trails around Munduk. Several falls sit on one network of paths, each with a small cash fee at the trailhead."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b263",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s264",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s265",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive down to Ulun Danu Beratan, a short way along the lakes, the temple that seems to float on Lake Beratan. A Bali news site reported the foreign adult ticket rising from IDR 75,000 to IDR 100,000 from 1 July 2026, so budget around IDR 100,000 and check at the gate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b266",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s267",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s268",
+          "_type": "span",
+          "marks": [],
+          "text": " A quiet dinner looking over the lakes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b269",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s270",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s271",
+          "_type": "span",
+          "marks": [],
+          "text": " nothing to book. Go to the lake temple in the afternoon after the morning tour buses leave, or early before they arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b272",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s273",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s274",
+          "_type": "span",
+          "marks": [],
+          "text": " the trails are steep and slippery after rain. Wear shoes with grip, not sandals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b275",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s276",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 11: Munduk to Uluwatu"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s278",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s279",
+          "_type": "span",
+          "marks": [],
+          "text": " Drive south to the Bukit peninsula, about 3 to 4 hours as a working estimate. Traffic near Denpasar decides the time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b280",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s281",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s282",
+          "_type": "span",
+          "marks": [],
+          "text": " Check in and go straight to the pool or the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s284",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s285",
+          "_type": "span",
+          "marks": [],
+          "text": " Sunset from one of the cliff-top bars."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b286",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s287",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Base:"
+        },
+        {
+          "_key": "bl14-s288",
+          "_type": "span",
+          "marks": [],
+          "text": " Uluwatu, 3 nights. Compare "
+        },
+        {
+          "_key": "bl14-s290",
+          "_type": "span",
+          "marks": [
+            "bl14-m289"
+          ],
+          "text": "Uluwatu hotels on Booking.com"
+        },
+        {
+          "_key": "bl14-s291",
+          "_type": "span",
+          "marks": [],
+          "text": ". The cliffs give you the views; Bingin and Padang Padang give you the beaches."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m289",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "BOOKING_ULUWATU"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b292",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s293",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s294",
+          "_type": "span",
+          "marks": [],
+          "text": " book your final hotel last but not late. Uluwatu fills in July and August."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b295",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s296",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s297",
+          "_type": "span",
+          "marks": [],
+          "text": " the beaches here sit below the cliffs and many are reached by long stairways. Check how close your hotel is to one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b298",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s299",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 12: Beaches, then the Kecak at Uluwatu temple"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b300",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s301",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s302",
+          "_type": "span",
+          "marks": [],
+          "text": " Swim at Padang Padang or Bingin while the tide suits it. Surfers will want an early session."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b303",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s304",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s305",
+          "_type": "span",
+          "marks": [],
+          "text": " Go to Uluwatu temple in the late afternoon. Guides give the entry at about IDR 50,000 to 60,000 per adult."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b306",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s307",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s308",
+          "_type": "span",
+          "marks": [],
+          "text": " Watch the Kecak fire dance on the cliff at sunset. The ticket is sold separately from temple entry, at about IDR 150,000 per adult on site as a working estimate. A "
+        },
+        {
+          "_key": "bl14-s310",
+          "_type": "span",
+          "marks": [
+            "bl14-m309"
+          ],
+          "text": "Uluwatu Kecak fire dance ticket on Viator"
+        },
+        {
+          "_key": "bl14-s311",
+          "_type": "span",
+          "marks": [],
+          "text": " holds a seat in advance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m309",
+          "_type": "affiliateLinkRef",
+          "placeholderId": "VIATOR_ULUWATU_KECAK"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b312",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s313",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s314",
+          "_type": "span",
+          "marks": [],
+          "text": " buy the Kecak ticket ahead in the dry season, and arrive early. The show is popular and the good seats go first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b315",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s316",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s317",
+          "_type": "span",
+          "marks": [],
+          "text": " the temple monkeys are bolder than Ubud's and take glasses and phones. Keep both in a closed bag."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b318",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s319",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 13: A free day"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b320",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s321",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s322",
+          "_type": "span",
+          "marks": [],
+          "text": " Nothing planned on purpose. This is the buffer day for anything that slipped: a cloudy Batur morning, a wreck dive in rough sea, a long lunch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b323",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s324",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s325",
+          "_type": "span",
+          "marks": [],
+          "text": " Spa, surf lesson, or the beach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b326",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s327",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evening."
+        },
+        {
+          "_key": "bl14-s328",
+          "_type": "span",
+          "marks": [],
+          "text": " Last dinner in Bali. Jimbaran's seafood grills on the beach are a short drive north."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b329",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s330",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s331",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm your airport transfer for tomorrow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b332",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s333",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s334",
+          "_type": "span",
+          "marks": [],
+          "text": " check your flight time against traffic. Afternoon departures need an earlier start than the distance suggests."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b335",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s336",
+          "_type": "span",
+          "marks": [],
+          "text": "Day 14: Fly out"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b337",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s338",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Morning."
+        },
+        {
+          "_key": "bl14-s339",
+          "_type": "span",
+          "marks": [],
+          "text": " Breakfast with the sea view, and a last swim if your flight allows."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b340",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s341",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Afternoon."
+        },
+        {
+          "_key": "bl14-s342",
+          "_type": "span",
+          "marks": [],
+          "text": " The airport is 30 to 45 minutes away in normal traffic. Aim to arrive about three hours before an international departure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b343",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s344",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Booking logic:"
+        },
+        {
+          "_key": "bl14-s345",
+          "_type": "span",
+          "marks": [],
+          "text": " use the same driver or transfer service as on Day 1 if you were happy with them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b346",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s347",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Travel note:"
+        },
+        {
+          "_key": "bl14-s348",
+          "_type": "span",
+          "marks": [],
+          "text": " the roads towards the airport slow down in the late afternoon, so leave a generous margin for an evening flight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b349",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s350",
+          "_type": "span",
+          "marks": [],
+          "text": "Which Bali base is best for each part of the trip?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b351",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s352",
+          "_type": "span",
+          "marks": [],
+          "text": "Use Ubud for culture and day trips, Sidemen for rice fields and quiet, Amed for snorkelling from the shore, Munduk for cool air and waterfalls, and Uluwatu for beaches and an easy run to the airport. Each base has one job in this plan, which is why none of them gets fewer than two nights."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-t353",
+      "_type": "comparisonTable",
+      "caption": "The five bases compared, as a working guide",
+      "columns": [
+        "Base",
+        "Nights",
+        "Best for",
+        "Drive in",
+        "Watch out for"
+      ],
+      "rows": [
+        {
+          "_key": "bl14-r354",
+          "cells": [
+            "Ubud",
+            "4",
+            "Temples, rice terraces, food, Mount Batur",
+            "1.5 to 2.5 hours from the airport",
+            "Crowds and traffic in the centre"
+          ]
+        },
+        {
+          "_key": "bl14-r355",
+          "cells": [
+            "Sidemen",
+            "2",
+            "Rice-field walks, views of Agung, rest",
+            "1.5 to 2 hours from Ubud",
+            "Few restaurants, car needed"
+          ]
+        },
+        {
+          "_key": "bl14-r356",
+          "cells": [
+            "Amed",
+            "2",
+            "Snorkelling from the beach, the Liberty wreck",
+            "About 1 hour from Sidemen, with Tirta Gangga on the way",
+            "Narrow coast road, black sand"
+          ]
+        },
+        {
+          "_key": "bl14-r357",
+          "cells": [
+            "Munduk",
+            "2",
+            "Waterfalls, lake temples, cool nights",
+            "Around 4 hours or more from Amed",
+            "The long drive, rain on the trails"
+          ]
+        },
+        {
+          "_key": "bl14-r358",
+          "cells": [
+            "Uluwatu",
+            "3",
+            "Beaches, surf, the Kecak, the airport",
+            "3 to 4 hours from Munduk",
+            "Stairways down to the beaches"
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "bl14-b359",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s360",
+          "_type": "span",
+          "marks": [],
+          "text": "How do you get around Bali for two weeks?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b361",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s362",
+          "_type": "span",
+          "marks": [],
+          "text": "Hire a car with a driver for each moving day and for longer outings, and use ride-hailing apps for short hops in Ubud and Uluwatu. Public transport does not reach Sidemen, Amed or Munduk in a useful way, and driving yourself on Bali's roads is not worth the stress for most visitors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b363",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s364",
+          "_type": "span",
+          "marks": [],
+          "text": "As a working estimate, a full day with a private driver costs around IDR 700,000 to 900,000. Over this route you need one on Days 1, 3, 5, 7, 8 if you go to Tulamben, 9, 10 and 11, and for the airport on Day 14. Agree the price, the hours and the stops before you set off, and ask whether fuel and parking are included."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b365",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s366",
+          "_type": "span",
+          "marks": [],
+          "text": "What to book early, and what to keep flexible"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b367",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s368",
+          "_type": "span",
+          "marks": [],
+          "text": "Book early: all five hotels in the dry season, above all Sidemen and Munduk, which have few rooms. Book the Batur sunrise for Day 3 or Day 4, the Kecak ticket for Day 12 and the airport transfer for Day 1 before you fly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b369",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s370",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep flexible: the Tirta Empul and Tegallalang day, the wreck dive or snorkel, the waterfall walks and every meal. Drivers can usually be booked a day ahead outside peak weeks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b371",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s372",
+          "_type": "span",
+          "marks": [],
+          "text": "What mistakes do travellers make with two weeks in Bali?"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b373",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s374",
+          "_type": "span",
+          "marks": [],
+          "text": "The biggest mistake is staying in one or two hotels and doing day trips to everything, which turns a fortnight into hours in traffic. The others are booking Batur on the first night, ending the trip far from the airport, and underestimating the drive across the north."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b375",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s376",
+          "_type": "span",
+          "marks": [],
+          "text": "Other mistakes: leaving no buffer day, so one cloudy morning or rough sea costs you a highlight; filling every afternoon after a pre-dawn start; and forgetting cash for entry fees in the east and the highlands, where card machines are less common."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b377",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s378",
+          "_type": "span",
+          "marks": [],
+          "text": "What to cut, adapt or upgrade"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b379",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s380",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cut:"
+        },
+        {
+          "_key": "bl14-s381",
+          "_type": "span",
+          "marks": [],
+          "text": " with ten days, drop Munduk and give the nights to Uluwatu, or drop Sidemen and Amed and go from Ubud to Munduk directly. With twelve days, cut Day 13 and one Ubud night."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b382",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s383",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Adapt:"
+        },
+        {
+          "_key": "bl14-s384",
+          "_type": "span",
+          "marks": [],
+          "text": " in the wet season, from about November to March, keep Batur as a maybe and add the spare morning to Ubud. Travelling with children, see our "
+        },
+        {
+          "_key": "bl14-s386",
+          "_type": "span",
+          "marks": [
+            "bl14-m385"
+          ],
+          "text": "7 days in Bali with kids"
+        },
+        {
+          "_key": "bl14-s387",
+          "_type": "span",
+          "marks": [],
+          "text": ", which uses fewer hotel moves."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m385",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-with-kids"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b388",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s389",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Upgrade:"
+        },
+        {
+          "_key": "bl14-s390",
+          "_type": "span",
+          "marks": [],
+          "text": " replace the jeep with a guided summit hike on Batur, take a private guide for the Sidemen walks, or add two nights on Nusa Lembongan between Amed and Uluwatu if you are happy to shorten Munduk."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b391",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s392",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you build this trip"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b393",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s394",
+          "_type": "span",
+          "marks": [],
+          "text": "Check four things before you book: the dry or wet season for your dates, Nyepi, the Balinese day of silence when the whole island and the airport close for 24 hours, the e-VOA and tourist levy rules on the official sites, and whether you are comfortable with two long drives. Then book the hotels in order, starting with the smallest places."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b395",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s396",
+          "_type": "span",
+          "marks": [],
+          "text": "Our "
+        },
+        {
+          "_key": "bl14-s398",
+          "_type": "span",
+          "marks": [
+            "bl14-m397"
+          ],
+          "text": "6-day Bali volcano and highlands route"
+        },
+        {
+          "_key": "bl14-s399",
+          "_type": "span",
+          "marks": [],
+          "text": " covers Sidemen, Batur and Munduk in more depth if you want a shorter version of the middle of this trip."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m397",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-bali-volcanoes-sidemen-batur-munduk"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b400",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s401",
+          "_type": "span",
+          "marks": [],
+          "text": "Final verdict"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b402",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s403",
+          "_type": "span",
+          "marks": [],
+          "text": "Two weeks is the right length for Bali if you use it to move around the island rather than to add day trips from one hotel. This loop gives Ubud the time it deserves, puts the quiet east and the cool highlands in the middle where they work as a rest, and ends on the beach close to the airport. The real cost is two long drives, across the north and back down to the coast, and they are worth it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b404",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s405",
+          "_type": "span",
+          "marks": [],
+          "text": "Related itineraries"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bl14-b406",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s408",
+          "_type": "span",
+          "marks": [
+            "bl14-m407"
+          ],
+          "text": "7 days in Bali for first-timers"
+        },
+        {
+          "_key": "bl14-s409",
+          "_type": "span",
+          "marks": [],
+          "text": ": the one-week version, with Ubud, Canggu and Uluwatu."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m407",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/7-days-bali-first-timers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b410",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s412",
+          "_type": "span",
+          "marks": [
+            "bl14-m411"
+          ],
+          "text": "6 days in Bali's volcanoes and highlands"
+        },
+        {
+          "_key": "bl14-s413",
+          "_type": "span",
+          "marks": [],
+          "text": ": Sidemen, Batur and Munduk in a shorter loop."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m411",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/6-days-bali-volcanoes-sidemen-batur-munduk"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bl14-b414",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bl14-s416",
+          "_type": "span",
+          "marks": [
+            "bl14-m415"
+          ],
+          "text": "5 days in Bali: Ubud, Canggu and Uluwatu"
+        },
+        {
+          "_key": "bl14-s417",
+          "_type": "span",
+          "marks": [],
+          "text": ": a short trip that compares Bali's main bases."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bl14-m415",
+          "_type": "externalLink",
+          "blank": false,
+          "href": "/trips/5-days-bali-ubud-canggu-uluwatu"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "contentStatus": "live",
+  "destinationPrimary": "bali",
+  "experienceTags": [
+    "temples",
+    "rice_terraces",
+    "volcano_sunrise",
+    "snorkeling",
+    "waterfalls",
+    "cultural_performance",
+    "private_drivers"
+  ],
+  "faq": [
+    {
+      "_key": "bl14-f418",
+      "answer": "No. Two weeks lets you see Ubud, the east around Sidemen and Amed, the highlands at Munduk and the beaches of Uluwatu with rest days built in. A week covers only Ubud and one beach area. If you would rather see other islands, give Bali about a week and add Lombok or the Gilis.",
+      "question": "Is 14 days in Bali too long?"
+    },
+    {
+      "_key": "bl14-f419",
+      "answer": "Start inland in Ubud, then go east to Sidemen and Amed, cross the north to Munduk, and finish in Uluwatu. The loop avoids doubling back, keeps the moves in the east short, saves the two long drives for the north and the return south, and ends 30 to 45 minutes from the airport.",
+      "question": "What is the best order for a two-week Bali itinerary?"
+    },
+    {
+      "_key": "bl14-f420",
+      "answer": "Most visitors pay the e-VOA, reported at IDR 500,000 for 30 days, plus the Bali tourist levy, which the official Love Bali portal lists at IDR 150,000 per person. Rules and fees can change, so check the official sites before you travel.",
+      "question": "How much does it cost to enter Bali in 2026?"
+    },
+    {
+      "_key": "bl14-f421",
+      "answer": "On moving days and for longer outings, yes. Public transport does not reach Sidemen, Amed or Munduk in a useful way. As a working estimate, a full day with a private driver costs around IDR 700,000 to 900,000. Ride-hailing apps work well for short trips in Ubud and Uluwatu.",
+      "question": "Do you need a driver in Bali for two weeks?"
+    },
+    {
+      "_key": "bl14-f422",
+      "answer": "Yes. Jeep tours drive up the caldera before dawn to a viewpoint and then visit the black lava fields, with no climb. If you want the summit, book a guided hike instead. Either way, plan it for your second or third night in Ubud.",
+      "question": "Can you see Mount Batur sunrise without hiking?"
+    },
+    {
+      "_key": "bl14-f423",
+      "answer": "Yes. At Jemeluk Bay the coral starts a few metres from the beach, and the USAT Liberty wreck at Tulamben, 25 to 30 minutes north, has parts shallow enough for snorkellers to see. Mornings are usually the calmest.",
+      "question": "Is Amed good for snorkelling?"
+    },
+    {
+      "_key": "bl14-f424",
+      "answer": "April to October is the dry season, with the best chance of clear volcano mornings and calm seas on the east coast. The wet season, from about November to March, is workable with more afternoon rain. Check your dates against Nyepi, when the island and the airport close for a day.",
+      "question": "When is the best time for two weeks in Bali?"
+    }
+  ],
+  "focusKeyword": "Bali itinerary 14 days",
+  "heroImage": {
+    "_type": "image",
+    "alt": "The multi-tiered shrine of Pura Ulun Danu Beratan on the shore of Lake Beratan, with forested hills behind, near Bedugul in the Bali highlands",
+    "asset": {
+      "_ref": "image-eb09affebb165eab3c94ad84d363146daee036d5-3840x2560-jpg",
+      "_type": "reference"
+    },
+    "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Brantan_Bali_Pura-Ulun-Danu-Bratan-01.jpg"
+  },
+  "intro": "Two weeks is the length at which Bali stops being a checklist. This 14-day loop gives Ubud four nights, then moves through the rice valleys of Sidemen, the east-coast reefs at Amed and the cool highlands of Munduk before three slow days on the Uluwatu cliffs, close to the airport for the flight home.",
+  "logisticsComplexity": "moderate",
+  "metaDescription": "A 14-day Bali itinerary in one loop: Ubud, Sidemen, Amed's reefs, the Munduk highlands and Uluwatu's beaches, with drive times and 2026 entry fees.",
+  "metaTitle": "Bali Itinerary 14 Days: Ubud, East Bali, Munduk, Uluwatu",
+  "primaryAffiliatePartner": "klook",
+  "route": "Ubud (4 nights) with Tirta Empul, Tegallalang and a Mount Batur sunrise, Sidemen (2 nights), Amed (2 nights) via Tirta Gangga with the Liberty wreck at Tulamben, Munduk (2 nights) with waterfalls and Ulun Danu Beratan, then Uluwatu (3 nights) for beaches and the Kecak before the airport",
+  "routeSummary": "Ubud → Sidemen → Amed → Munduk → Uluwatu",
+  "secondaryAffiliatePartners": [
+    "viator",
+    "booking",
+    "airalo"
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "14-days-bali-ubud-sidemen-amed-munduk-uluwatu"
+  },
+  "title": "14 Days in Bali: Ubud, Sidemen, Amed, Munduk and Uluwatu in One Loop",
+  "travelStylePrimary": "first_time_indonesia",
+  "travelStyleSecondary": [
+    "culture_temples",
+    "beach_islands"
+  ],
+  "travellerTypes": [
+    "couples",
+    "friends",
+    "solo_travellers"
+  ],
+  "tripLengthBucket": "two_weeks",
+  "tripLengthDays": 14,
+  "vibe": "balanced"
+}
