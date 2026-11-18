@@ -1,6 +1,5 @@
 # 2026-11-18 generator run: first Bali-only two-week itinerary.
-# Gap: the site has no 14-day Bali-only route; the query for it is served today only by
-# the Bali hub, far down the results. Facts read 2026-11-18 (sources in the review packet):
+# The site had no 14-day Bali-only route. Facts read 2026-11-18:
 #  - Bali tourist levy IDR 150,000 (lovebali.baliprov.go.id, Perda Bali 2/2025).
 #  - e-VOA IDR 500,000 for 30 days (reported by visasnews.com, official portal not readable).
 #  - Ubud Monkey Forest IDR 130,000 foreign adult from 1 Apr 2026 (bali.live).
