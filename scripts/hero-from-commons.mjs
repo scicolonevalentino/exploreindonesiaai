@@ -63,7 +63,7 @@ const DATASET = env.VITE_SANITY_DATASET || "production";
 const TOKEN = env.SANITY_API_WRITE_TOKEN;
 const API = "2024-01-01";
 
-const UA = "ExploreIndonesia.ai hero-sourcing/1.0 (valentino.scicolone@gmail.com)";
+const UA = "ExploreIndonesia.ai hero-sourcing/1.0 (https://exploreindonesia.ai)";
 
 const arg = (name, fallback = null) => {
   const i = process.argv.indexOf(`--${name}`);
