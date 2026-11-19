@@ -152,6 +152,14 @@ const lockReason = (l, a) => {
   return null;
 };
 
+// The weekly cap protects readings on EXISTING pages from overlapping changes.
+// A brand-new article starts from zero and overlaps nothing, so it does not count.
+const countsForBudget = (l, e, since) => {
+  if (e.appliedAt <= since || e.outcome === "reverted") return false;
+  const a = l.actions.find((x) => x.id === e.actionId);
+  return a?.type !== "article";
+};
+
 const validateAction = (a) => {
   const need = ["key", "source", "type", "risk", "pages", "title", "why", "change", "verify"];
   for (const k of need) if (a[k] === undefined || a[k] === "") die(`action missing "${k}"`);
@@ -349,7 +357,7 @@ if (cmd === "queue") {
   } else if (sub === "budget") {
     // At most 4 NEW experiments in any 7 days. Older open ones do not count.
     const since = new Date(new Date(today()).getTime() - 7 * 864e5).toISOString().slice(0, 10);
-    const recent = l.experiments.filter((e) => e.appliedAt > since && e.outcome !== "reverted");
+    const recent = l.experiments.filter((e) => countsForBudget(l, e, since));
     const left = Math.max(0, 4 - recent.length);
     console.log(
       `experiments opened since ${since}: ${recent.length}. Slots left this week: ${left}`,
@@ -390,10 +398,7 @@ if (cmd === "queue") {
   }
   const size = Number(flag("size")) || 6;
   const since = new Date(new Date(today()).getTime() - 7 * 864e5).toISOString().slice(0, 10);
-  let slots = Math.max(
-    0,
-    4 - l.experiments.filter((e) => e.appliedAt > since && e.outcome !== "reverted").length,
-  );
+  let slots = Math.max(0, 4 - l.experiments.filter((e) => countsForBudget(l, e, since)).length);
   const OPENS_EXPERIMENT = ["snippet", "content", "code"];
   const ORDER = ["fix", "structural", "snippet", "content", "code", "tooling"];
   const status = (id) => l.actions.find((x) => x.id === id)?.status;
