@@ -248,7 +248,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
         link: {
           before: "Every island within reach of Bali, compared side by side, is in ",
           href: "/destinations/bali-nearby-islands/best-islands-near-bali",
-          anchor: "our guide to the islands near Bali",
+          anchor: "our island-by-island picker",
           after: ".",
         },
       },
@@ -370,7 +370,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
         link: {
           before: "If you are still choosing, we rank all nine and say who each one suits in ",
           href: "/destinations/bali-nearby-islands/best-islands-near-bali",
-          anchor: "the 9 best islands near Bali",
+          anchor: "which island suits which traveller",
           after: ".",
         },
       },
