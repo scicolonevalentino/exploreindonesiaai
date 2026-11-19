@@ -790,7 +790,7 @@ export const TRANSPORT_ROUTES: TransportRoute[] = [
       {
         question: "Anything else to plan for?",
         answer:
-          "A delayed flight can mean an unplanned night in Sorong, and a separate Raja Ampat marine park permit, around IDR 1 million, is required.",
+          "A delayed flight can mean an unplanned night in Sorong, and two Raja Ampat fees apply, the IDR 700,000 marine park entry card and the IDR 1,000,000 regency visitor ticket, about IDR 1.7 million per foreign visitor in total.",
       },
     ],
     relatedTripSlugs: ["14-days-raja-ampat-divers", "7-days-raja-ampat-snorkeling-islands"],

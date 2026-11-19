@@ -1611,8 +1611,9 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     //    sections the hub carried no in-content link at all. The five sections and
     //    four subsections below add nine, covering every trip and every guide.
     // 2. Permit figures and season are taken from what is already published, not
-    //    from the plan's own research. IDR 700,000 plus IDR 300,000 appears in
-    //    three live articles, and best-time-to-visit-raja-ampat already says
+    //    from the plan's own research. IDR 700,000 for the marine park card plus
+    //    IDR 1,000,000 for the regency ticket (Regent Regulation 34/2025) is the
+    //    2026 total of about IDR 1,700,000, and best-time-to-visit-raja-ampat already says
     //    October to April. Matching them avoids the internal contradiction the
     //    komodo-flores plan produced once.
     sections: [
@@ -1659,8 +1660,8 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
       {
         heading: "How much are the Raja Ampat permits, and what do they cover?",
         body: [
-          "Two official fees apply and both are mandatory, even for a short stay. The marine park entry permit runs around IDR 700,000 per person and is valid for a year, and a visitor entry ticket adds roughly IDR 300,000. Together that is about IDR 1,000,000, or around 65 US dollars per person, usually paid in cash on arrival.",
-          "The permit is a physical card and guides do check it, so keep it with you rather than in a bag left at the homestay. Children under twelve are generally exempt. Fees and collection methods change, so confirm the current amounts before you travel. Bring the cash from Sorong: ATMs are scarce once you are past Waisai, and boats, village fees and most homestays are cash only.",
+          "Two fees apply to foreign visitors in 2026. The marine park entry card costs IDR 700,000 and is valid for 12 months. The Raja Ampat regency visitor ticket is IDR 1,000,000, up from IDR 300,000. Budget about IDR 1,700,000, roughly US$105, per person, in cash.",
+          "The permit is a physical card and guides do check it, so keep it with you rather than in a bag left at the homestay. Children under twelve are generally exempt from the marine park card. Fees and collection methods change, so confirm the current amounts before you travel. Bring the cash from Sorong: ATMs are scarce once you are past Waisai, and boats, village fees and most homestays are cash only.",
         ],
         link: {
           before: "For what the rest of a trip costs on top of the permits, see ",
