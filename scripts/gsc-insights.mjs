@@ -143,6 +143,27 @@ const path = (u) => {
 };
 const pad = (s, n) => String(s).slice(0, n).padEnd(n);
 
+// Merge rows that share a pathname (#day-N anchors are the same page): sum
+// clicks and impressions, impression-weighted mean position.
+const groupByPath = (rows, keyIdx, otherKeys = (r) => []) => {
+  const m = new Map();
+  for (const r of rows) {
+    const p = path(r.keys[keyIdx]);
+    const id = [...otherKeys(r), p].join("\u0000");
+    const g = m.get(id) ?? { keys: [...otherKeys(r), p], clicks: 0, impressions: 0, posW: 0 };
+    g.clicks += r.clicks;
+    g.impressions += r.impressions;
+    g.posW += r.position * r.impressions;
+    m.set(id, g);
+  }
+  return [...m.values()].map((g) => ({
+    keys: g.keys,
+    clicks: g.clicks,
+    impressions: g.impressions,
+    position: g.impressions ? g.posW / g.impressions : 0,
+  }));
+};
+
 /* --------------------------------- run ---------------------------------- */
 
 const out = [];
@@ -247,9 +268,11 @@ say("## 4. Top pages");
 say();
 say("```");
 say(`${pad("page", 52)} ${pad("clicks", 7)} ${pad("impr", 7)} ${pad("pos", 5)}`);
-for (const r of pagesNow.sort((a, b) => b.impressions - a.impressions).slice(0, 15)) {
+for (const r of groupByPath(pagesNow, 0)
+  .sort((a, b) => b.impressions - a.impressions)
+  .slice(0, 15)) {
   say(
-    `${pad(path(r.keys[0]), 52)} ${pad(r.clicks.toFixed(0), 7)} ${pad(r.impressions.toFixed(0), 7)} ${pad(r.position.toFixed(1), 5)}`,
+    `${pad(r.keys[0], 52)} ${pad(r.clicks.toFixed(0), 7)} ${pad(r.impressions.toFixed(0), 7)} ${pad(r.position.toFixed(1), 5)}`,
   );
 }
 say("```");
@@ -262,7 +285,7 @@ const perQuery = await query({
   rowLimit: 5000,
 });
 const byQuery = new Map();
-for (const r of perQuery) {
+for (const r of groupByPath(perQuery, 1, (x) => [x.keys[0]])) {
   const q = r.keys[0];
   if (!byQuery.has(q)) byQuery.set(q, []);
   byQuery.get(q).push(r);
@@ -285,9 +308,7 @@ if (!cannibal.length) {
     say(`- **${q}** (${rs.reduce((a, r) => a + r.impressions, 0).toFixed(0)} impr)`);
     for (const r of rs.sort((a, b) => b.impressions - a.impressions)) {
       // keys = [query, page] — the page is keys[1].
-      say(
-        `    - ${path(r.keys[1])} — ${r.impressions.toFixed(0)} impr, pos ${r.position.toFixed(1)}`,
-      );
+      say(`    - ${r.keys[1]} — ${r.impressions.toFixed(0)} impr, pos ${r.position.toFixed(1)}`);
     }
   }
 }
