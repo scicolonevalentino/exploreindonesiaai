@@ -1589,7 +1589,7 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
     h1: "Raja Ampat Itineraries",
     metaTitle: "Raja Ampat Itineraries: Which Route, How Many Days",
     metaDescription:
-      "Five Raja Ampat routes compared, 7 to 14 days: homestays, diving, family and honeymoon. Ferry times from Sorong and what to book first.",
+      "Six Raja Ampat routes compared, 5 to 14 days: homestays, diving, family and honeymoon. Ferry times from Sorong and what to book first.",
     intro:
       "Raja Ampat sits at the heart of the Coral Triangle, the most biodiverse marine ecosystem on Earth. These itineraries cover Papuan homestays around Kri, Gam and Mansuar as well as dive resorts, with the Sorong flights and the Waisai ferry planned in.",
     highlights: ["Wayag viewpoints", "Manta Sandy", "Misool", "Kri homestays"],
@@ -1620,14 +1620,14 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
       {
         heading: "How many days do you need in Raja Ampat?",
         body: [
-          "Seven days is the realistic minimum once the flights are counted, and ten to fourteen is where the trip stops feeling rushed. Two of those days go to getting in and out through Sorong and Waisai, so a seven-day trip buys you roughly four full days on the water. Anything shorter is mostly transit.",
+          "Five days is the shortest trip that works, and only if you fly overnight, base in one Dampier Strait homestay and skip Wayag and Misool. Seven days buys about four full days on the water. Ten to fourteen is where the trip stops feeling rushed, because about two days go to Sorong and the Waisai ferry.",
           "Almost everything people picture when they think of Raja Ampat sits in the Dampier Strait, the stretch of water between Waisai, Gam, Mansuar and Kri. Basing in one place there, rather than repacking every night, is what makes a short trip work. Wayag in the far north and Misool in the south are separate expeditions, not extensions, and each one wants days of its own.",
         ],
         subsections: [
           {
             heading: "What changes if you have two weeks?",
             body: [
-              "Two weeks buys depth rather than distance. You can add a liveaboard leg, reach the northern islands, and still keep a fixed base for part of the trip. For divers it also means enough repeat days to justify the flights, and enough slack that one bad-weather day costs you nothing.",
+              "Two weeks buys depth rather than distance: one Dampier Strait base, repeat dives at the sites that worked, and enough slack that one bad-weather day costs you nothing. Wayag and Misool are separate trips, usually by liveaboard, so confirm current access before planning around them.",
             ],
             link: {
               before: "The long version is laid out in ",
@@ -1637,10 +1637,33 @@ export const DESTINATION_CONTENT: DestinationContent[] = [
             },
           },
         ],
+        table: {
+          columns: ["Days", "What fits", "Itinerary"],
+          rows: [
+            [
+              "5",
+              "Dampier Strait reefs plus one Piaynemo boat day, one homestay",
+              "5-day short trip",
+            ],
+            [
+              "7",
+              "Snorkelling Cape Kri, Manta Sandy, Arborek and Piaynemo, no diving needed",
+              "7-day snorkelling route",
+            ],
+            ["8", "A homestay trip based on Kri Island", "8-day Kri homestay route"],
+            ["9", "One family base, calm jetty snorkels", "9-day route with kids"],
+            ["10", "One comfortable base, mantas and slow days", "10-day honeymoon"],
+            [
+              "14",
+              "One Dampier Strait base for twelve nights, repeat dives and slow days",
+              "14-day dive route",
+            ],
+          ],
+        },
         link: {
           before: "For the shortest version that still works, see ",
-          href: "/trips/7-days-raja-ampat-snorkeling-islands",
-          anchor: "the 7-day Raja Ampat snorkelling route",
+          href: "/trips/5-days-raja-ampat-short-trip",
+          anchor: "the 5-day Raja Ampat short trip",
           after: ".",
         },
       },
